@@ -17,6 +17,7 @@ import { DMSans_600SemiBold } from "@expo-google-fonts/dm-sans/600SemiBold";
 import { DMSans_700Bold } from "@expo-google-fonts/dm-sans/700Bold";
 import ScanScreen from "./src/screens/ScanScreen";
 import ResultsScreen from "./src/screens/ResultsScreen";
+import OrderHistoryScreen from "./src/screens/OrderHistoryScreen";
 import { Screen, ScanResult } from "./src/types";
 import { colors } from "./src/theme";
 import { AmbientBackdrop } from "./src/components/GlassSurface";
@@ -43,7 +44,7 @@ function App() {
   }, []);
 
   useEffect(() => {
-    if (Platform.OS === "web" || screen.name !== "results") return;
+    if (Platform.OS === "web" || screen.name === "scan") return;
 
     const subscription = BackHandler.addEventListener(
       "hardwareBackPress",
@@ -73,6 +74,8 @@ function App() {
         ?.tavueScreen;
       if (destination === "results" && latestResult.current) {
         setScreen({ name: "results", result: latestResult.current });
+      } else if (destination === "orderHistory") {
+        setScreen({ name: "orderHistory" });
       } else {
         setScreen({ name: "scan" });
       }
@@ -94,12 +97,19 @@ function App() {
     if (
       Platform.OS === "web" &&
       typeof window !== "undefined" &&
-      (window.history.state as { tavueScreen?: string } | null)?.tavueScreen === "results"
+      (window.history.state as { tavueScreen?: string } | null)?.tavueScreen !== "scan"
     ) {
       window.history.back();
       return;
     }
     setScreen({ name: "scan" });
+  };
+
+  const showOrderHistory = () => {
+    if (Platform.OS === "web" && typeof window !== "undefined") {
+      window.history.pushState({ tavueScreen: "orderHistory" }, "", window.location.href);
+    }
+    setScreen({ name: "orderHistory" });
   };
 
   useEffect(() => {
@@ -159,7 +169,10 @@ function App() {
           <AmbientBackdrop />
 
           {screen.name === "scan" && (
-            <ScanScreen onResult={showResults} />
+            <ScanScreen
+              onResult={showResults}
+              onOpenOrderHistory={showOrderHistory}
+            />
           )}
 
           {screen.name === "results" && (
@@ -167,6 +180,10 @@ function App() {
               result={screen.result}
               onBack={showScan}
             />
+          )}
+
+          {screen.name === "orderHistory" && (
+            <OrderHistoryScreen onBack={showScan} />
           )}
         </View>
       </View>

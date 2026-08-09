@@ -31,6 +31,9 @@ const ANALYTICS_EVENTS = new Set([
   "order_item_added",
   "order_opened",
   "order_server_view_opened",
+  "order_saved",
+  "order_history_opened",
+  "dish_photo_saved",
   "history_menu_reopened",
   "feedback_submitted",
 ]);
@@ -125,7 +128,7 @@ async function handleRequest(request, env) {
 
   const url = new URL(request.url);
   if (request.method === "GET" && url.pathname === "/health") {
-    return json({ ok: true, service: "tavue-api", version: "0.8.0" }, 200, cors);
+    return json({ ok: true, service: "tavue-api", version: "0.9.0" }, 200, cors);
   }
   if (request.method === "GET" && url.pathname === "/privacy") {
     return html(privacyPage(env));
@@ -771,15 +774,18 @@ function privacyPage(env) {
   return pageTemplate(
     "Privacy Policy",
     `
-<p class="meta">Effective 2 August 2026 · Tavue beta</p>
+<p class="meta">Effective 9 August 2026 · Tavue beta</p>
 <p>Tavue helps people understand restaurant menus. This policy explains the limited data used to provide and improve the beta.</p>
 
 <h2>Menu scans</h2>
 <p>When you choose to scan, the menu photo is sent securely to Tavue’s Cloudflare-hosted service and then to Anthropic’s commercial API for menu recognition and translation. Tavue does not save the menu photo in its own storage. Anthropic normally deletes API inputs and outputs within 30 days, subject to limited safety, legal, and contractual exceptions.</p>
 <p>The resulting menu is returned to your device. Recent-menu history is stored locally on your device. To find representative dish images, Tavue may send short food-name search queries—not the menu photo or your identifier—to Brave Search or Google Programmable Search.</p>
 
+<h2>Order History and dish-photo drafts</h2>
+<p>When you open Show server, Tavue can save the selected dishes in Order History on your device. You may later choose a real photo for an ordered dish. In the 0.9 beta, that contribution photo is compressed and saved only on your device. It is not uploaded to Tavue, reviewed, displayed publicly, or used to grant scan credits yet. The app labels this state clearly.</p>
+
 <h2>Security and beta analytics</h2>
-<p>Tavue creates a random installation identifier for abuse prevention, daily scan limits, and first-party beta analytics. Analytics contain only approved event names such as scan started/completed, duration, dish count, detail opened, order added, and history reopened. They do not contain menu photos, menu text, dish names, prices, free-form content, advertising identifiers, or precise location. The identifier is irreversibly hashed before analytics storage. Cloudflare Analytics Engine retains these beta events for three months.</p>
+<p>Tavue creates a random installation identifier for abuse prevention, daily scan limits, and first-party beta analytics. Analytics contain only approved event names such as scan started/completed, duration, dish count, detail opened, order added, order history opened, and a local dish photo saved. They do not contain menu photos, contribution photos, menu text, dish names, prices, free-form content, advertising identifiers, or precise location. The identifier is irreversibly hashed before analytics storage. Cloudflare Analytics Engine retains these beta events for three months.</p>
 
 <h2>Diagnostics and feedback</h2>
 <p>If crash monitoring is enabled, Sentry may receive crash and diagnostic information such as app version, platform, stack trace, and an error category. Tavue disables default personal information, screenshots, view hierarchy, and request-body collection. Optional feedback contains the message you type plus platform and app version, and is automatically deleted after 180 days.</p>

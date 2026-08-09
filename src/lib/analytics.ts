@@ -12,6 +12,9 @@ export type AnalyticsEventName =
   | "order_item_added"
   | "order_opened"
   | "order_server_view_opened"
+  | "order_saved"
+  | "order_history_opened"
+  | "dish_photo_saved"
   | "history_menu_reopened"
   | "feedback_submitted";
 

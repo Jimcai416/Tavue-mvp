@@ -1,4 +1,4 @@
-# Tavue 0.8.0 TestFlight handoff
+# Tavue 0.9.0 TestFlight handoff
 
 ## Build identity
 
@@ -6,7 +6,7 @@
 - Bundle identifier: `com.playbook.dishlens`
 - EAS project ID: `859efdc3-4c16-448c-9e6a-fe98349513c5`
 - Build profile: `production`
-- Version: `0.8.0`
+- Version: `0.9.0`
 - Build number: remotely managed and auto-incremented by EAS
 
 ## One-time production configuration
@@ -73,7 +73,13 @@ Please test Tavue in a real restaurant:
 9. On mobile Web, confirm the top and bottom backgrounds remain continuous,
    the brightness button enters a visible high-contrast mode, and the App
    remains full-width on native iOS/Android.
-10. Return later and reopen the menu from Recent menus.
+10. Close Show server, return home and open Order History. Confirm the same
+    dishes and quantities were saved without creating duplicate meals.
+11. Add the restaurant name, then take or choose a real photo for one ordered
+    dish. Confirm it stays attached after closing and reopening Tavue.
+12. Replace and remove the dish photo, and confirm menu photos are never shown
+    as saved contribution photos.
+13. Return later and reopen the menu from Recent menus.
 
 Please report slow scans, altered original dish names, missing dishes, wrong
 prices/currency, crashes, or layouts that overlap the floating Liquid Glass

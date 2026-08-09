@@ -1,6 +1,6 @@
 # Tavue Privacy Policy
 
-Effective 2 August 2026 · Tavue beta
+Effective 9 August 2026 · Tavue beta
 
 Tavue helps people understand restaurant menus. This policy explains the
 limited data used to provide and improve the beta.
@@ -18,13 +18,22 @@ stored locally on that device. To find representative dish images, Tavue may
 send short food-name search queries—not the menu photo or user identifier—to
 Brave Search or Google Programmable Search.
 
+## Order History and dish-photo drafts
+
+When a user opens Show server, Tavue can save the selected dishes in Order
+History on that device. A user may later choose a real photo for an ordered
+dish. In the 0.9 beta, that contribution photo is compressed and saved only on
+the user's device. It is not uploaded to Tavue, reviewed, displayed publicly,
+or used to grant scan credits yet. The app labels this state clearly.
+
 ## Security and beta analytics
 
 Tavue creates a random installation identifier for abuse prevention, daily scan
 limits, and first-party beta analytics. Analytics contain only approved event
 names such as scan started/completed, duration, dish count, detail opened, order
-added, and history reopened. They do not contain menu photos, menu text, dish
-names, prices, free-form content, advertising identifiers, or precise location.
+added, order history opened, and a local dish photo saved. They do not contain
+menu photos, contribution photos, menu text, dish names, prices, free-form
+content, advertising identifiers, or precise location.
 The identifier is irreversibly hashed before analytics storage. Cloudflare
 Analytics Engine retains these beta events for three months.
 
