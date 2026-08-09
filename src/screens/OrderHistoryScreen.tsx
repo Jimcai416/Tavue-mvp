@@ -15,6 +15,7 @@ import {
 } from "react-native";
 import { useSafeAreaInsets } from "react-native-safe-area-context";
 import * as ImagePicker from "expo-image-picker";
+import { TAB_BAR_CONTENT_INSET } from "../components/BottomTabBar";
 import GlassSurface, { EdgeGlass } from "../components/GlassSurface";
 import { track } from "../lib/analytics";
 import {
@@ -85,7 +86,13 @@ function ContributionImage({ uri }: { uri: string }) {
   return <Image source={{ uri: resolvedUri }} style={styles.contributionImage} />;
 }
 
-export default function OrderHistoryScreen({ onBack }: { onBack: () => void }) {
+export default function OrderHistoryScreen({
+  onBack,
+  onDetailChange,
+}: {
+  onBack: () => void;
+  onDetailChange?: (open: boolean) => void;
+}) {
   const t = useT();
   const insets = useSafeAreaInsets();
   const [orders, setOrders] = useState<SavedOrder[]>([]);
@@ -108,6 +115,12 @@ export default function OrderHistoryScreen({ onBack }: { onBack: () => void }) {
   );
 
   useEffect(() => {
+    onDetailChange?.(Boolean(selectedId));
+  }, [onDetailChange, selectedId]);
+
+  useEffect(() => () => onDetailChange?.(false), [onDetailChange]);
+
+  useEffect(() => {
     setRestaurantDraft(selected?.restaurant?.name ?? "");
   }, [selected?.id, selected?.restaurant?.name]);
 
@@ -123,6 +136,23 @@ export default function OrderHistoryScreen({ onBack }: { onBack: () => void }) {
     });
     return () => subscription.remove();
   }, [onBack, selectedId]);
+
+  useEffect(() => {
+    if (Platform.OS !== "web" || typeof window === "undefined") return;
+
+    const handlePopState = (event: PopStateEvent) => {
+      const state = event.state as {
+        tavueScreen?: string;
+        tavueOrderId?: string;
+      } | null;
+      if (state?.tavueScreen === "orderHistory") {
+        setSelectedId(state.tavueOrderId ?? null);
+      }
+    };
+
+    window.addEventListener("popstate", handlePopState);
+    return () => window.removeEventListener("popstate", handlePopState);
+  }, []);
 
   function replaceOrder(next: SavedOrder) {
     setOrders((current) => current.map((order) => (order.id === next.id ? next : order)));
@@ -208,10 +238,29 @@ export default function OrderHistoryScreen({ onBack }: { onBack: () => void }) {
 
   const goBack = () => {
     if (selectedId) {
+      if (
+        Platform.OS === "web" &&
+        typeof window !== "undefined" &&
+        (window.history.state as { tavueOrderId?: string } | null)?.tavueOrderId
+      ) {
+        window.history.back();
+        return;
+      }
       setSelectedId(null);
       return;
     }
     onBack();
+  };
+
+  const openOrder = (orderId: string) => {
+    if (Platform.OS === "web" && typeof window !== "undefined") {
+      window.history.pushState(
+        { tavueScreen: "orderHistory", tavueOrderId: orderId },
+        "",
+        window.location.href,
+      );
+    }
+    setSelectedId(orderId);
   };
 
   return (
@@ -225,12 +274,14 @@ export default function OrderHistoryScreen({ onBack }: { onBack: () => void }) {
           { height: insets.top + HEADER_HEIGHT, paddingTop: insets.top + space(2) },
         ]}
       >
-        <GlassSurface style={styles.backGlass} intensity={50}>
-          <Pressable style={styles.backButton} onPress={goBack} hitSlop={10}>
-            <Text style={styles.backArrow}>‹</Text>
-          </Pressable>
-        </GlassSurface>
-        <View style={styles.headerCopy}>
+        {selected ? (
+          <GlassSurface style={styles.backGlass} intensity={50}>
+            <Pressable style={styles.backButton} onPress={goBack} hitSlop={10}>
+              <Text style={styles.backArrow}>‹</Text>
+            </Pressable>
+          </GlassSurface>
+        ) : null}
+        <View style={[styles.headerCopy, !selected && styles.headerCopyRoot]}>
           <Text style={styles.eyebrow}>TAVUE · FOOD MEMORY</Text>
           <Text style={styles.title} numberOfLines={1}>
             {selected ? orderTitle(selected, t("menuFallback")) : t("orderHistoryTitle")}
@@ -259,7 +310,7 @@ export default function OrderHistoryScreen({ onBack }: { onBack: () => void }) {
             styles.listContent,
             {
               paddingTop: insets.top + HEADER_HEIGHT + space(5),
-              paddingBottom: insets.bottom + space(8),
+              paddingBottom: insets.bottom + TAB_BAR_CONTENT_INSET,
             },
           ]}
           ListHeaderComponent={
@@ -289,7 +340,7 @@ export default function OrderHistoryScreen({ onBack }: { onBack: () => void }) {
             return (
               <Pressable
                 style={({ pressed }) => [styles.orderCard, pressed && styles.cardPressed]}
-                onPress={() => setSelectedId(item.id)}
+                onPress={() => openOrder(item.id)}
               >
                 <View style={styles.orderCardTop}>
                   <View style={styles.orderIdentity}>
@@ -488,6 +539,7 @@ const styles = StyleSheet.create({
   backButton: { width: 38, height: 38, alignItems: "center", justifyContent: "center" },
   backArrow: { fontFamily: fonts.body, fontSize: 29, lineHeight: 30, color: colors.text, marginTop: -2 },
   headerCopy: { flex: 1, paddingHorizontal: space(3) },
+  headerCopyRoot: { paddingHorizontal: space(1) },
   eyebrow: { fontFamily: fonts.mono, fontSize: 8, letterSpacing: 1.2, color: colors.accent },
   title: { fontFamily: fonts.display, fontSize: 27, lineHeight: 29, color: colors.text },
   listContent: { paddingHorizontal: space(5), gap: space(3) },

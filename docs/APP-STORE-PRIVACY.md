@@ -50,3 +50,5 @@ Tavue sends a user-selected menu photo to a Cloudflare Worker and Anthropic's
 commercial API only after the user accepts the in-app disclosure. Tavue does
 not store the photo. Results are stored locally in Recent menus. The AI warning
 asks users to confirm ingredients and allergens with restaurant staff.
+The Profile tab is a local-only preview of future account capabilities; Tavue
+0.9.0 does not create an account, authenticate a user, or upload Profile data.

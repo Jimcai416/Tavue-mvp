@@ -18,9 +18,11 @@ import { DMSans_700Bold } from "@expo-google-fonts/dm-sans/700Bold";
 import ScanScreen from "./src/screens/ScanScreen";
 import ResultsScreen from "./src/screens/ResultsScreen";
 import OrderHistoryScreen from "./src/screens/OrderHistoryScreen";
+import ProfileScreen from "./src/screens/ProfileScreen";
 import { Screen, ScanResult } from "./src/types";
 import { colors } from "./src/theme";
 import { AmbientBackdrop } from "./src/components/GlassSurface";
+import BottomTabBar, { type RootTab } from "./src/components/BottomTabBar";
 import { track } from "./src/lib/analytics";
 import { captureOperationalError, withMonitoring } from "./src/lib/monitoring";
 
@@ -28,6 +30,8 @@ const WEB_FONT_TIMEOUT_MS = 5_000;
 
 function App() {
   const [screen, setScreen] = useState<Screen>({ name: "scan" });
+  const [historyDetailOpen, setHistoryDetailOpen] = useState(false);
+  const [scanBusy, setScanBusy] = useState(false);
   const latestResult = useRef<ScanResult | null>(null);
   const [webFontFallbackReady, setWebFontFallbackReady] = useState(false);
   const [fontsLoaded, fontError] = useFonts({
@@ -76,6 +80,8 @@ function App() {
         setScreen({ name: "results", result: latestResult.current });
       } else if (destination === "orderHistory") {
         setScreen({ name: "orderHistory" });
+      } else if (destination === "profile") {
+        setScreen({ name: "profile" });
       } else {
         setScreen({ name: "scan" });
       }
@@ -105,11 +111,15 @@ function App() {
     setScreen({ name: "scan" });
   };
 
-  const showOrderHistory = () => {
+  const showRootTab = (tab: RootTab) => {
+    if (screen.name === tab) return;
+    setHistoryDetailOpen(false);
     if (Platform.OS === "web" && typeof window !== "undefined") {
-      window.history.pushState({ tavueScreen: "orderHistory" }, "", window.location.href);
+      window.history.pushState({ tavueScreen: tab }, "", window.location.href);
     }
-    setScreen({ name: "orderHistory" });
+    if (tab === "scan") setScreen({ name: "scan" });
+    if (tab === "orderHistory") setScreen({ name: "orderHistory" });
+    if (tab === "profile") setScreen({ name: "profile" });
   };
 
   useEffect(() => {
@@ -171,7 +181,7 @@ function App() {
           {screen.name === "scan" && (
             <ScanScreen
               onResult={showResults}
-              onOpenOrderHistory={showOrderHistory}
+              onBusyChange={setScanBusy}
             />
           )}
 
@@ -183,8 +193,21 @@ function App() {
           )}
 
           {screen.name === "orderHistory" && (
-            <OrderHistoryScreen onBack={showScan} />
+            <OrderHistoryScreen
+              onBack={showScan}
+              onDetailChange={setHistoryDetailOpen}
+            />
           )}
+
+          {screen.name === "profile" && <ProfileScreen />}
+
+          {(screen.name === "scan" ||
+            screen.name === "orderHistory" ||
+            screen.name === "profile") &&
+            !historyDetailOpen &&
+            !scanBusy && (
+              <BottomTabBar activeTab={screen.name} onSelect={showRootTab} />
+            )}
         </View>
       </View>
     </SafeAreaProvider>

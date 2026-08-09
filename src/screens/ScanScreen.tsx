@@ -40,10 +40,10 @@ import {
 } from "../lib/currency";
 import FeedbackSheet from "../components/FeedbackSheet";
 import FoodProfileSheet from "../components/FoodProfileSheet";
+import { TAB_BAR_CONTENT_INSET } from "../components/BottomTabBar";
 import GlassSurface, { EdgeGlass } from "../components/GlassSurface";
 import { ScanResult } from "../types";
 import { colors, fonts, radius, shadow, space } from "../theme";
-import { contributionCount, getOrders, type SavedOrder } from "../lib/orders";
 
 const STAMP_CODES: Record<string, string> = {
   Italian: "IT",
@@ -117,10 +117,10 @@ function LoadingStep({
 
 export default function ScanScreen({
   onResult,
-  onOpenOrderHistory,
+  onBusyChange,
 }: {
   onResult: (result: ScanResult) => void;
-  onOpenOrderHistory: () => void;
+  onBusyChange?: (busy: boolean) => void;
 }) {
   const t = useT();
   const insets = useSafeAreaInsets();
@@ -137,7 +137,6 @@ export default function ScanScreen({
   const [showCurrencyPicker, setShowCurrencyPicker] = useState(false);
   const [targetCurrency, setTargetCurrency] = useState<CurrencyCode>(getCurrency());
   const [history, setHistory] = useState<SavedScan[]>([]);
-  const [orders, setOrders] = useState<SavedOrder[]>([]);
   const [showAllHistory, setShowAllHistory] = useState(false);
   const [showFeedback, setShowFeedback] = useState(false);
   const [showFoodProfile, setShowFoodProfile] = useState(false);
@@ -160,7 +159,6 @@ export default function ScanScreen({
     initLanguage();
     initCurrency().then(setTargetCurrency);
     getHistory().then(setHistory);
-    getOrders().then(setOrders);
     Animated.timing(ticketAnim, {
       toValue: 1,
       duration: 600,
@@ -170,6 +168,12 @@ export default function ScanScreen({
 
     return () => requestRef.current?.abort();
   }, [ticketAnim]);
+
+  useEffect(() => {
+    onBusyChange?.(busy);
+  }, [busy, onBusyChange]);
+
+  useEffect(() => () => onBusyChange?.(false), [onBusyChange]);
 
   async function pick(fromCamera: boolean) {
     const consented = await ensureAiProcessingConsent({
@@ -335,14 +339,14 @@ export default function ScanScreen({
           styles.scrollContent,
           {
             paddingTop: insets.top + HOME_HEADER_HEIGHT + space(4),
-            paddingBottom: insets.bottom + space(8),
+            paddingBottom: insets.bottom + TAB_BAR_CONTENT_INSET,
           },
         ]}
         onScroll={handleScroll}
         scrollEventThrottle={16}
         scrollIndicatorInsets={{
           top: insets.top + HOME_HEADER_HEIGHT,
-          bottom: insets.bottom,
+          bottom: insets.bottom + TAB_BAR_CONTENT_INSET,
         }}
       >
         <Animated.View
@@ -433,39 +437,6 @@ export default function ScanScreen({
           </GlassSurface>
           <Text style={styles.footnote}>{t("footnote")}</Text>
         </View>
-
-        {orders.length > 0 && (
-          <View style={styles.orderHistorySection}>
-            <View style={styles.sectionTitleRow}>
-              <Text style={styles.recentTitle}>{t("orderHistoryEyebrow")}</Text>
-              <Text style={styles.recentCount}>{orders.length}</Text>
-            </View>
-            <Pressable
-              style={({ pressed }) => [
-                styles.orderHistoryCard,
-                pressed && styles.orderHistoryCardPressed,
-              ]}
-              onPress={onOpenOrderHistory}
-            >
-              <View style={styles.orderHistoryMark}>
-                <Text style={styles.orderHistoryMarkText}>◎</Text>
-              </View>
-              <View style={styles.orderHistoryCopy}>
-                <Text style={styles.orderHistoryTitle}>{t("orderHistoryHomeTitle")}</Text>
-                <Text style={styles.orderHistoryBody} numberOfLines={2}>
-                  {orders.some((order) => contributionCount(order) > 0)
-                    ? t("orderHistoryHomeSaved")
-                    : t("orderHistoryHomeBody")}
-                </Text>
-              </View>
-              <View style={styles.orderHistoryReward}>
-                <Text style={styles.orderHistoryRewardText}>+1</Text>
-                <Text style={styles.orderHistoryRewardSub}>{t("scanWord")}</Text>
-              </View>
-              <Text style={styles.chev}>›</Text>
-            </Pressable>
-          </View>
-        )}
 
         {history.length > 0 && (
           <View style={styles.recent}>
@@ -1051,70 +1022,6 @@ const styles = StyleSheet.create({
     textAlign: "center",
     textDecorationLine: "underline",
     marginTop: space(5),
-  },
-  orderHistorySection: {
-    marginTop: space(8),
-    paddingHorizontal: space(5),
-  },
-  orderHistoryCard: {
-    ...shadow.card,
-    flexDirection: "row",
-    alignItems: "center",
-    gap: space(3),
-    minHeight: 92,
-    padding: space(4),
-    borderRadius: radius.card,
-    borderWidth: 1,
-    borderColor: colors.line,
-    backgroundColor: colors.surface,
-  },
-  orderHistoryCardPressed: {
-    opacity: 0.74,
-    transform: [{ scale: 0.992 }],
-  },
-  orderHistoryMark: {
-    width: 44,
-    height: 44,
-    borderRadius: 22,
-    alignItems: "center",
-    justifyContent: "center",
-    backgroundColor: colors.sageWash,
-  },
-  orderHistoryMarkText: {
-    fontFamily: fonts.display,
-    fontSize: 25,
-    color: colors.sage,
-  },
-  orderHistoryCopy: {
-    flex: 1,
-    minWidth: 0,
-  },
-  orderHistoryTitle: {
-    fontFamily: fonts.bodyBold,
-    fontSize: 14,
-    color: colors.text,
-  },
-  orderHistoryBody: {
-    fontFamily: fonts.body,
-    fontSize: 11,
-    lineHeight: 16,
-    color: colors.muted,
-    marginTop: 2,
-  },
-  orderHistoryReward: {
-    alignItems: "center",
-    paddingHorizontal: space(2),
-  },
-  orderHistoryRewardText: {
-    fontFamily: fonts.bodyBold,
-    fontSize: 13,
-    color: colors.sage,
-  },
-  orderHistoryRewardSub: {
-    fontFamily: fonts.mono,
-    fontSize: 7,
-    color: colors.muted,
-    textTransform: "uppercase",
   },
   loading: {
     flex: 1,

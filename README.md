@@ -25,6 +25,8 @@ show the server.
 - Order builder with a converted total and a full-screen server handoff mode
 - Server view prioritising quantity, original dish name, printed section and price
 - Local Order History created automatically when the server handoff is opened
+- Three-tab Scan / History / Profile navigation, with account features clearly
+  marked as a future backend phase
 - Restaurant confirmation and one real-photo contribution slot per ordered dish
 - Moderation-ready photo status and scan-credit reward records
 - Nine interface languages

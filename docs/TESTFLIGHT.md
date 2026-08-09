@@ -73,13 +73,17 @@ Please test Tavue in a real restaurant:
 9. On mobile Web, confirm the top and bottom backgrounds remain continuous,
    the brightness button enters a visible high-contrast mode, and the App
    remains full-width on native iOS/Android.
-10. Close Show server, return home and open Order History. Confirm the same
-    dishes and quantities were saved without creating duplicate meals.
-11. Add the restaurant name, then take or choose a real photo for one ordered
+10. Close Show server and open History from the bottom navigation. Confirm the
+    same dishes and quantities were saved without creating duplicate meals.
+11. Confirm Scan contains only menu actions and Recent menus; History is not
+    repeated as a card on the same page.
+12. Open Profile and confirm it clearly says that account, cloud sync and scan
+    balance are future features while current data remains on this device.
+13. Return to History, add the restaurant name, then take or choose a real photo for one ordered
     dish. Confirm it stays attached after closing and reopening Tavue.
-12. Replace and remove the dish photo, and confirm menu photos are never shown
+14. Replace and remove the dish photo, and confirm menu photos are never shown
     as saved contribution photos.
-13. Return later and reopen the menu from Recent menus.
+15. Return later and reopen the menu from Recent menus.
 
 Please report slow scans, altered original dish names, missing dishes, wrong
 prices/currency, crashes, or layouts that overlap the floating Liquid Glass
