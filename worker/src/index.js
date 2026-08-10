@@ -774,7 +774,7 @@ function privacyPage(env) {
   return pageTemplate(
     "Privacy Policy",
     `
-<p class="meta">Effective 9 August 2026 · Tavue beta</p>
+<p class="meta">Effective 10 August 2026 · Tavue beta</p>
 <p>Tavue helps people understand restaurant menus. This policy explains the limited data used to provide and improve the beta.</p>
 
 <h2>Menu scans</h2>
@@ -782,7 +782,7 @@ function privacyPage(env) {
 <p>The resulting menu is returned to your device. Recent-menu history is stored locally on your device. To find representative dish images, Tavue may send short food-name search queries—not the menu photo or your identifier—to Brave Search or Google Programmable Search.</p>
 
 <h2>Order History and dish-photo drafts</h2>
-<p>When you open Show server, Tavue can save the selected dishes in Order History on your device. You may later choose a real photo for an ordered dish. In the 0.9 beta, that contribution photo is compressed and saved only on your device. It is not uploaded to Tavue, reviewed, displayed publicly, or used to grant scan credits yet. The app labels this state clearly.</p>
+<p>When you open Show server, Tavue can save the selected dishes in Order History on your device. You may later choose a real photo for an ordered dish. In the 0.9 beta, that contribution photo is compressed and saved only on your device. It is not uploaded to Tavue, reviewed, displayed publicly, or used to grant scan credits yet. The app labels this state clearly. You can delete an Order History entry at any time; Tavue then removes both the entry and its associated dish-photo drafts from that device.</p>
 
 <h2>Security and beta analytics</h2>
 <p>Tavue creates a random installation identifier for abuse prevention, daily scan limits, and first-party beta analytics. Analytics contain only approved event names such as scan started/completed, duration, dish count, detail opened, order added, order history opened, and a local dish photo saved. They do not contain menu photos, contribution photos, menu text, dish names, prices, free-form content, advertising identifiers, or precise location. The identifier is irreversibly hashed before analytics storage. Cloudflare Analytics Engine retains these beta events for three months.</p>

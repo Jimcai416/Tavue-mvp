@@ -1,6 +1,6 @@
 # Tavue Privacy Policy
 
-Effective 9 August 2026 · Tavue beta
+Effective 10 August 2026 · Tavue beta
 
 Tavue helps people understand restaurant menus. This policy explains the
 limited data used to provide and improve the beta.
@@ -24,7 +24,9 @@ When a user opens Show server, Tavue can save the selected dishes in Order
 History on that device. A user may later choose a real photo for an ordered
 dish. In the 0.9 beta, that contribution photo is compressed and saved only on
 the user's device. It is not uploaded to Tavue, reviewed, displayed publicly,
-or used to grant scan credits yet. The app labels this state clearly.
+or used to grant scan credits yet. The app labels this state clearly. Users can
+delete an Order History entry at any time; Tavue then removes both the entry and
+its associated dish-photo drafts from that device.
 
 ## Security and beta analytics
 

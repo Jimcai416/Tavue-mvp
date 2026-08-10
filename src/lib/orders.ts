@@ -244,6 +244,18 @@ export async function removeContribution(
   return next;
 }
 
+export async function deleteOrders(orderIds: string[]): Promise<SavedOrder[]> {
+  const ids = new Set(orderIds);
+  if (ids.size === 0) return [];
+
+  const orders = await getOrders();
+  const removed = orders.filter((order) => ids.has(order.id));
+  if (removed.length === 0) return [];
+
+  await writeOrders(orders.filter((order) => !ids.has(order.id)));
+  return removed;
+}
+
 export function contributionCount(order: SavedOrder): number {
   return order.lines.filter((line) => !!line.contribution).length;
 }

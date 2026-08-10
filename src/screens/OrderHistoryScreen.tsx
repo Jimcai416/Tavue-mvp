@@ -1,10 +1,12 @@
-import React, { useEffect, useMemo, useState } from "react";
+import React, { useEffect, useMemo, useRef, useState } from "react";
 import {
   ActivityIndicator,
   Alert,
+  Animated,
   BackHandler,
   FlatList,
   Image,
+  PanResponder,
   Platform,
   Pressable,
   ScrollView,
@@ -20,6 +22,7 @@ import GlassSurface, { EdgeGlass } from "../components/GlassSurface";
 import { track } from "../lib/analytics";
 import {
   contributionCount,
+  deleteOrders,
   getOrders,
   MAX_REWARDED_PHOTOS_PER_ORDER,
   potentialCredits,
@@ -38,6 +41,7 @@ import { useT } from "../lib/i18n";
 import { colors, fonts, radius, shadow, space } from "../theme";
 
 const HEADER_HEIGHT = 68;
+const SWIPE_ACTION_WIDTH = 88;
 
 function orderTitle(order: SavedOrder, fallback: string): string {
   return order.restaurant?.name || order.cuisine || fallback;
@@ -86,6 +90,160 @@ function ContributionImage({ uri }: { uri: string }) {
   return <Image source={{ uri: resolvedUri }} style={styles.contributionImage} />;
 }
 
+function confirmOrderDeletion({
+  title,
+  body,
+  cancelLabel,
+  deleteLabel,
+}: {
+  title: string;
+  body: string;
+  cancelLabel: string;
+  deleteLabel: string;
+}): Promise<boolean> {
+  if (Platform.OS === "web" && typeof window !== "undefined") {
+    return Promise.resolve(window.confirm(`${title}\n\n${body}`));
+  }
+
+  return new Promise((resolve) => {
+    let settled = false;
+    const finish = (answer: boolean) => {
+      if (settled) return;
+      settled = true;
+      resolve(answer);
+    };
+    Alert.alert(
+      title,
+      body,
+      [
+        { text: cancelLabel, style: "cancel", onPress: () => finish(false) },
+        { text: deleteLabel, style: "destructive", onPress: () => finish(true) },
+      ],
+      { cancelable: true, onDismiss: () => finish(false) }
+    );
+  });
+}
+
+function SwipeableOrderRow({
+  children,
+  deleteLabel,
+  editMode,
+  selected,
+  onDelete,
+  onOpen,
+  onToggle,
+}: React.PropsWithChildren<{
+  deleteLabel: string;
+  editMode: boolean;
+  selected: boolean;
+  onDelete: () => void;
+  onOpen: () => void;
+  onToggle: () => void;
+}>) {
+  const translateX = useRef(new Animated.Value(0)).current;
+  const currentX = useRef(0);
+  const dragStart = useRef(0);
+  const latest = useRef({ editMode, onDelete, onOpen, onToggle });
+  latest.current = { editMode, onDelete, onOpen, onToggle };
+
+  useEffect(() => {
+    const listener = translateX.addListener(({ value }) => {
+      currentX.current = value;
+    });
+    return () => translateX.removeListener(listener);
+  }, [translateX]);
+
+  const settle = (toValue: number) => {
+    Animated.spring(translateX, {
+      toValue,
+      damping: 20,
+      stiffness: 240,
+      mass: 0.72,
+      useNativeDriver: true,
+    }).start();
+  };
+
+  useEffect(() => {
+    if (editMode) settle(0);
+  }, [editMode]);
+
+  const panResponder = useRef(
+    PanResponder.create({
+      onMoveShouldSetPanResponderCapture: (_, gesture) =>
+        !latest.current.editMode &&
+        Math.abs(gesture.dx) > 8 &&
+        Math.abs(gesture.dx) > Math.abs(gesture.dy) * 1.2,
+      onMoveShouldSetPanResponder: (_, gesture) =>
+        !latest.current.editMode &&
+        Math.abs(gesture.dx) > 8 &&
+        Math.abs(gesture.dx) > Math.abs(gesture.dy) * 1.2,
+      onPanResponderGrant: () => {
+        dragStart.current = currentX.current;
+      },
+      onPanResponderMove: (_, gesture) => {
+        const next = Math.max(
+          -SWIPE_ACTION_WIDTH,
+          Math.min(0, dragStart.current + gesture.dx)
+        );
+        translateX.setValue(next);
+      },
+      onPanResponderRelease: (_, gesture) => {
+        const projected = dragStart.current + gesture.dx + gesture.vx * 18;
+        settle(projected < -SWIPE_ACTION_WIDTH * 0.42 ? -SWIPE_ACTION_WIDTH : 0);
+      },
+      onPanResponderTerminationRequest: () => false,
+      onPanResponderTerminate: () => settle(0),
+    })
+  ).current;
+
+  const handlePress = () => {
+    if (latest.current.editMode) {
+      latest.current.onToggle();
+    } else if (currentX.current < -2) {
+      settle(0);
+    } else {
+      latest.current.onOpen();
+    }
+  };
+
+  return (
+    <View style={styles.swipeShadow}>
+      <View style={styles.swipeShell}>
+        <Pressable
+          accessibilityRole="button"
+          accessibilityLabel={deleteLabel}
+          style={styles.swipeDelete}
+          onPress={() => latest.current.onDelete()}
+        >
+          <Text style={styles.swipeDeleteText}>{deleteLabel}</Text>
+        </Pressable>
+        <Animated.View
+          {...panResponder.panHandlers}
+          style={{ transform: [{ translateX }] }}
+        >
+          <Pressable
+            accessibilityActions={[{ name: "activate" }, { name: "delete", label: deleteLabel }]}
+            accessibilityState={{ selected: editMode ? selected : undefined }}
+            onAccessibilityAction={(event) => {
+              if (event.nativeEvent.actionName === "delete") latest.current.onDelete();
+              if (event.nativeEvent.actionName === "activate") handlePress();
+            }}
+            style={({ pressed }) => [styles.orderCard, pressed && styles.cardPressed]}
+            onPress={handlePress}
+          >
+            {editMode && (
+              <View style={[styles.selectionCircle, selected && styles.selectionCircleSelected]}>
+                {selected && <Text style={styles.selectionCheck}>✓</Text>}
+              </View>
+            )}
+            <View style={styles.orderCardBody}>{children}</View>
+          </Pressable>
+        </Animated.View>
+      </View>
+    </View>
+  );
+}
+
 export default function OrderHistoryScreen({
   onBack,
   onDetailChange,
@@ -100,6 +258,9 @@ export default function OrderHistoryScreen({
   const [loading, setLoading] = useState(true);
   const [savingLineId, setSavingLineId] = useState<string | null>(null);
   const [restaurantDraft, setRestaurantDraft] = useState("");
+  const [editMode, setEditMode] = useState(false);
+  const [selectedOrderIds, setSelectedOrderIds] = useState<Set<string>>(new Set());
+  const [deleting, setDeleting] = useState(false);
 
   useEffect(() => {
     void getOrders().then((next) => {
@@ -115,8 +276,8 @@ export default function OrderHistoryScreen({
   );
 
   useEffect(() => {
-    onDetailChange?.(Boolean(selectedId));
-  }, [onDetailChange, selectedId]);
+    onDetailChange?.(Boolean(selectedId) || editMode);
+  }, [editMode, onDetailChange, selectedId]);
 
   useEffect(() => () => onDetailChange?.(false), [onDetailChange]);
 
@@ -156,6 +317,61 @@ export default function OrderHistoryScreen({
 
   function replaceOrder(next: SavedOrder) {
     setOrders((current) => current.map((order) => (order.id === next.id ? next : order)));
+  }
+
+  const closeEditMode = () => {
+    setEditMode(false);
+    setSelectedOrderIds(new Set());
+  };
+
+  const toggleEditMode = () => {
+    if (editMode) {
+      closeEditMode();
+    } else {
+      setEditMode(true);
+    }
+  };
+
+  const toggleOrderSelection = (orderId: string) => {
+    setSelectedOrderIds((current) => {
+      const next = new Set(current);
+      if (next.has(orderId)) next.delete(orderId);
+      else next.add(orderId);
+      return next;
+    });
+  };
+
+  async function removeOrders(orderIds: string[]) {
+    if (orderIds.length === 0 || deleting) return;
+    const confirmed = await confirmOrderDeletion({
+      title: t("deleteHistoryTitle"),
+      body: t("deleteHistoryBody"),
+      cancelLabel: t("deleteHistoryCancel"),
+      deleteLabel: t("deleteHistoryConfirm"),
+    });
+    if (!confirmed) return;
+
+    setDeleting(true);
+    try {
+      const removed = await deleteOrders(orderIds);
+      await Promise.all(
+        removed.flatMap((order) =>
+          order.lines.flatMap((line) =>
+            line.contribution?.localUri
+              ? [deleteContributionPhoto(line.contribution.localUri)]
+              : []
+          )
+        )
+      );
+      const removedIds = new Set(removed.map((order) => order.id));
+      setOrders((current) => current.filter((order) => !removedIds.has(order.id)));
+      setSelectedOrderIds(new Set());
+      setEditMode(false);
+    } catch {
+      Alert.alert(t("deleteHistoryFailedTitle"), t("deleteHistoryFailedBody"));
+    } finally {
+      setDeleting(false);
+    }
   }
 
   async function saveRestaurantName() {
@@ -287,6 +503,17 @@ export default function OrderHistoryScreen({
             {selected ? orderTitle(selected, t("menuFallback")) : t("orderHistoryTitle")}
           </Text>
         </View>
+        {!selected && orders.length > 0 && (
+          <Pressable
+            accessibilityRole="button"
+            style={({ pressed }) => [styles.editButton, pressed && styles.editButtonPressed]}
+            onPress={toggleEditMode}
+          >
+            <Text style={styles.editButtonText}>
+              {editMode ? t("historyDone") : t("historyEdit")}
+            </Text>
+          </Pressable>
+        )}
       </View>
 
       {selected ? (
@@ -304,6 +531,7 @@ export default function OrderHistoryScreen({
       ) : (
         <FlatList
           data={orders}
+          extraData={{ editMode, selectedOrderIds }}
           keyExtractor={(order) => order.id}
           showsVerticalScrollIndicator={false}
           contentContainerStyle={[
@@ -337,10 +565,15 @@ export default function OrderHistoryScreen({
           }
           renderItem={({ item }) => {
             const photos = contributionCount(item);
+            const selectedForDeletion = selectedOrderIds.has(item.id);
             return (
-              <Pressable
-                style={({ pressed }) => [styles.orderCard, pressed && styles.cardPressed]}
-                onPress={() => openOrder(item.id)}
+              <SwipeableOrderRow
+                deleteLabel={t("deleteHistoryConfirm")}
+                editMode={editMode}
+                selected={selectedForDeletion}
+                onDelete={() => void removeOrders([item.id])}
+                onOpen={() => openOrder(item.id)}
+                onToggle={() => toggleOrderSelection(item.id)}
               >
                 <View style={styles.orderCardTop}>
                   <View style={styles.orderIdentity}>
@@ -357,10 +590,35 @@ export default function OrderHistoryScreen({
                     {photos > 0 ? `${photos} ${t("photosSaved")}` : t("photosToAdd")}
                   </Text>
                 </View>
-              </Pressable>
+              </SwipeableOrderRow>
             );
           }}
         />
+      )}
+      {!selected && editMode && (
+        <View
+          pointerEvents="box-none"
+          style={[styles.bulkDeletePositioner, { bottom: Math.max(insets.bottom, space(3)) }]}
+        >
+          <Pressable
+            accessibilityRole="button"
+            disabled={selectedOrderIds.size === 0 || deleting}
+            style={({ pressed }) => [
+              styles.bulkDeleteButton,
+              selectedOrderIds.size === 0 && styles.bulkDeleteButtonDisabled,
+              pressed && selectedOrderIds.size > 0 && styles.bulkDeleteButtonPressed,
+            ]}
+            onPress={() => void removeOrders([...selectedOrderIds])}
+          >
+            {deleting ? (
+              <ActivityIndicator color={colors.onAccent} />
+            ) : (
+              <Text style={styles.bulkDeleteText}>
+                {t("deleteSelected")} ({selectedOrderIds.size})
+              </Text>
+            )}
+          </Pressable>
+        </View>
       )}
     </View>
   );
@@ -542,6 +800,23 @@ const styles = StyleSheet.create({
   headerCopyRoot: { paddingHorizontal: space(1) },
   eyebrow: { fontFamily: fonts.mono, fontSize: 8, letterSpacing: 1.2, color: colors.accent },
   title: { fontFamily: fonts.display, fontSize: 27, lineHeight: 29, color: colors.text },
+  editButton: {
+    minWidth: 52,
+    height: 34,
+    borderRadius: radius.pill,
+    alignItems: "center",
+    justifyContent: "center",
+    paddingHorizontal: space(3),
+    backgroundColor: "rgba(255,255,255,0.48)",
+    borderWidth: 1,
+    borderColor: colors.glassLine,
+  },
+  editButtonPressed: { opacity: 0.65, transform: [{ scale: 0.97 }] },
+  editButtonText: {
+    fontFamily: fonts.bodySemibold,
+    fontSize: 11,
+    color: colors.primaryAction,
+  },
   listContent: { paddingHorizontal: space(5), gap: space(3) },
   rewardIntro: {
     flexDirection: "row",
@@ -558,7 +833,64 @@ const styles = StyleSheet.create({
   rewardIntroCopy: { flex: 1 },
   rewardTitle: { fontFamily: fonts.bodyBold, color: colors.text, fontSize: 15 },
   rewardBody: { fontFamily: fonts.body, color: colors.muted, fontSize: 12, lineHeight: 18, marginTop: 2 },
-  orderCard: { ...shadow.card, padding: space(4), borderRadius: radius.card, backgroundColor: colors.surface, borderWidth: 1, borderColor: colors.line },
+  swipeShadow: {
+    borderRadius: radius.card,
+    backgroundColor: colors.surface,
+    ...shadow.card,
+  },
+  swipeShell: {
+    position: "relative",
+    overflow: "hidden",
+    borderRadius: radius.card,
+    backgroundColor: colors.danger,
+  },
+  swipeDelete: {
+    position: "absolute",
+    top: 0,
+    right: 0,
+    bottom: 0,
+    width: SWIPE_ACTION_WIDTH,
+    alignItems: "center",
+    justifyContent: "center",
+    paddingHorizontal: space(2),
+  },
+  swipeDeleteText: {
+    fontFamily: fonts.bodyBold,
+    fontSize: 11,
+    color: colors.onAccent,
+    textAlign: "center",
+  },
+  orderCard: {
+    minHeight: 102,
+    padding: space(4),
+    borderRadius: radius.card,
+    backgroundColor: colors.surface,
+    borderWidth: 1,
+    borderColor: colors.line,
+    flexDirection: "row",
+    alignItems: "center",
+  },
+  orderCardBody: { flex: 1, minWidth: 0 },
+  selectionCircle: {
+    width: 24,
+    height: 24,
+    borderRadius: 12,
+    borderWidth: 1.5,
+    borderColor: colors.lineStrong,
+    backgroundColor: colors.surface,
+    alignItems: "center",
+    justifyContent: "center",
+    marginRight: space(3),
+  },
+  selectionCircleSelected: {
+    backgroundColor: colors.primaryAction,
+    borderColor: colors.primaryAction,
+  },
+  selectionCheck: {
+    fontFamily: fonts.bodyBold,
+    fontSize: 13,
+    color: colors.onAccent,
+  },
   cardPressed: { opacity: 0.72, transform: [{ scale: 0.992 }] },
   orderCardTop: { flexDirection: "row", alignItems: "center" },
   orderIdentity: { flex: 1, minWidth: 0 },
@@ -572,6 +904,32 @@ const styles = StyleSheet.create({
   emptyGlyph: { fontFamily: fonts.display, fontSize: 44, color: colors.accent },
   emptyTitle: { fontFamily: fonts.display, fontSize: 26, color: colors.text, textAlign: "center" },
   emptyBody: { fontFamily: fonts.body, fontSize: 13, lineHeight: 20, color: colors.muted, textAlign: "center", marginTop: space(2) },
+  bulkDeletePositioner: {
+    position: "absolute",
+    left: space(5),
+    right: space(5),
+    zIndex: 85,
+  },
+  bulkDeleteButton: {
+    minHeight: 52,
+    borderRadius: radius.pill,
+    backgroundColor: colors.danger,
+    alignItems: "center",
+    justifyContent: "center",
+    paddingHorizontal: space(5),
+    ...shadow.glass,
+  },
+  bulkDeleteButtonDisabled: {
+    backgroundColor: colors.mutedSoft,
+    shadowOpacity: 0,
+    elevation: 0,
+  },
+  bulkDeleteButtonPressed: { opacity: 0.8, transform: [{ scale: 0.985 }] },
+  bulkDeleteText: {
+    fontFamily: fonts.bodyBold,
+    fontSize: 13,
+    color: colors.onAccent,
+  },
   detailContent: { paddingHorizontal: space(5) },
   detailMeta: { flexDirection: "row", justifyContent: "space-between", alignItems: "center", marginBottom: space(4) },
   detailDate: { fontFamily: fonts.body, fontSize: 12, color: colors.muted },

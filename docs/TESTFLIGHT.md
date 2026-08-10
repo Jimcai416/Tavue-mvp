@@ -83,7 +83,11 @@ Please test Tavue in a real restaurant:
     dish. Confirm it stays attached after closing and reopening Tavue.
 14. Replace and remove the dish photo, and confirm menu photos are never shown
     as saved contribution photos.
-15. Return later and reopen the menu from Recent menus.
+15. Return to the History list, swipe one meal left and delete it. Confirm the
+    warning appears and the meal disappears only after confirmation.
+16. Create at least two more meals, tap Edit, select multiple entries and delete
+    them together. Confirm Cancel/Done leaves unselected entries untouched.
+17. Return later and reopen the menu from Recent menus.
 
 Please report slow scans, altered original dish names, missing dishes, wrong
 prices/currency, crashes, or layouts that overlap the floating Liquid Glass

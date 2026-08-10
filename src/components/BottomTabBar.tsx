@@ -1,5 +1,6 @@
-import React from "react";
-import { Pressable, StyleSheet, Text, View } from "react-native";
+import React, { useEffect, useRef, useState } from "react";
+import { Animated, Pressable, StyleSheet, Text, View } from "react-native";
+import { LinearGradient } from "expo-linear-gradient";
 import { useSafeAreaInsets } from "react-native-safe-area-context";
 import { useT } from "../lib/i18n";
 import { colors, fonts, radius, shadow, space } from "../theme";
@@ -7,7 +8,11 @@ import GlassSurface from "./GlassSurface";
 
 export type RootTab = "scan" | "orderHistory" | "profile";
 
-export const TAB_BAR_CONTENT_INSET = 104;
+export const TAB_BAR_CONTENT_INSET = 116;
+
+const ROOT_TABS: RootTab[] = ["scan", "orderHistory", "profile"];
+const TAB_GAP = space(1);
+const BAR_PADDING = space(1.5);
 
 function ScanGlyph({ active }: { active: boolean }) {
   const tint = active ? colors.primaryAction : colors.muted;
@@ -51,6 +56,12 @@ export default function BottomTabBar({
 }) {
   const insets = useSafeAreaInsets();
   const t = useT();
+  const activeIndex = ROOT_TABS.indexOf(activeTab);
+  const indicatorPosition = useRef(new Animated.Value(activeIndex)).current;
+  const tabLifts = useRef(
+    ROOT_TABS.map((_, index) => new Animated.Value(index === activeIndex ? 1 : 0))
+  ).current;
+  const [barWidth, setBarWidth] = useState(0);
   const tabs: Array<{
     id: RootTab;
     label: string;
@@ -69,18 +80,109 @@ export default function BottomTabBar({
     },
   ];
 
+  useEffect(() => {
+    Animated.parallel([
+      Animated.spring(indicatorPosition, {
+        toValue: activeIndex,
+        damping: 18,
+        stiffness: 190,
+        mass: 0.78,
+        useNativeDriver: true,
+      }),
+      ...tabLifts.map((value, index) =>
+        Animated.spring(value, {
+          toValue: index === activeIndex ? 1 : 0,
+          damping: 19,
+          stiffness: 220,
+          mass: 0.7,
+          useNativeDriver: true,
+        })
+      ),
+    ]).start();
+  }, [activeIndex, indicatorPosition, tabLifts]);
+
+  const tabWidth = Math.max(
+    0,
+    (barWidth - BAR_PADDING * 2 - TAB_GAP * (ROOT_TABS.length - 1)) /
+      ROOT_TABS.length
+  );
+  const tabStep = tabWidth + TAB_GAP;
+
   return (
     <View
       pointerEvents="box-none"
-      style={[styles.positioner, { bottom: Math.max(insets.bottom, space(2.5)) }]}
+      style={[styles.layer, { height: Math.max(insets.bottom, space(2)) + 132 }]}
     >
-      <GlassSurface
-        style={[styles.glass, shadow.glass]}
-        contentStyle={styles.tabs}
-        intensity={64}
-        strong
+      <LinearGradient
+        pointerEvents="none"
+        colors={[
+          "rgba(247,243,238,0)",
+          "rgba(247,243,238,0.54)",
+          "rgba(247,243,238,0.94)",
+          colors.background,
+        ]}
+        locations={[0, 0.38, 0.72, 1]}
+        style={StyleSheet.absoluteFill}
+      />
+      <View
+        pointerEvents="box-none"
+        style={[styles.positioner, { bottom: Math.max(insets.bottom, space(2.5)) }]}
       >
-        {tabs.map((tab) => {
+        <GlassSurface
+          style={[styles.glass, shadow.glass]}
+          contentStyle={styles.tabs}
+          intensity={72}
+          strong
+        >
+          <LinearGradient
+            pointerEvents="none"
+            colors={["rgba(255,255,255,0.58)", "rgba(255,255,255,0.10)"]}
+            locations={[0, 0.52]}
+            style={styles.topRefraction}
+          />
+          <View
+            pointerEvents="none"
+            style={styles.innerLine}
+          />
+          <View
+            style={StyleSheet.absoluteFill}
+            onLayout={(event) => setBarWidth(event.nativeEvent.layout.width)}
+            pointerEvents="none"
+          >
+            {tabWidth > 0 && (
+              <Animated.View
+                style={[
+                  styles.activeLensFrame,
+                  {
+                    left: BAR_PADDING,
+                    width: tabWidth,
+                    transform: [
+                      { translateX: Animated.multiply(indicatorPosition, tabStep) },
+                    ],
+                  },
+                ]}
+              >
+                <GlassSurface
+                  style={styles.activeLens}
+                  contentStyle={styles.activeLensContent}
+                  intensity={54}
+                  nativeGlass={false}
+                  interactive={false}
+                >
+                  <LinearGradient
+                    colors={[
+                      "rgba(255,255,255,0.58)",
+                      "rgba(185,81,62,0.10)",
+                    ]}
+                    style={StyleSheet.absoluteFill}
+                  />
+                  <View style={styles.lensHighlight} />
+                </GlassSurface>
+              </Animated.View>
+            )}
+          </View>
+
+          {tabs.map((tab, index) => {
           const active = activeTab === tab.id;
           return (
             <Pressable
@@ -91,21 +193,54 @@ export default function BottomTabBar({
               onPress={() => onSelect(tab.id)}
               style={({ pressed }) => [
                 styles.tab,
-                active && styles.tabActive,
                 pressed && styles.tabPressed,
               ]}
             >
-              {tab.icon(active)}
-              <Text style={[styles.label, active && styles.labelActive]}>{tab.label}</Text>
+              <Animated.View
+                style={[
+                  styles.tabContent,
+                  {
+                    opacity: tabLifts[index].interpolate({
+                      inputRange: [0, 1],
+                      outputRange: [0.78, 1],
+                    }),
+                    transform: [
+                      {
+                        translateY: tabLifts[index].interpolate({
+                          inputRange: [0, 1],
+                          outputRange: [0, -1.5],
+                        }),
+                      },
+                      {
+                        scale: tabLifts[index].interpolate({
+                          inputRange: [0, 1],
+                          outputRange: [1, 1.045],
+                        }),
+                      },
+                    ],
+                  },
+                ]}
+              >
+                {tab.icon(active)}
+                <Text style={[styles.label, active && styles.labelActive]}>{tab.label}</Text>
+              </Animated.View>
             </Pressable>
           );
-        })}
-      </GlassSurface>
+          })}
+        </GlassSurface>
+      </View>
     </View>
   );
 }
 
 const styles = StyleSheet.create({
+  layer: {
+    position: "absolute",
+    left: 0,
+    right: 0,
+    bottom: 0,
+    zIndex: 79,
+  },
   positioner: {
     position: "absolute",
     left: space(3),
@@ -113,27 +248,72 @@ const styles = StyleSheet.create({
     zIndex: 80,
   },
   glass: {
-    height: 68,
-    borderRadius: radius.sheet,
+    height: 72,
+    borderRadius: radius.pill,
+    borderColor: "rgba(255,255,255,0.92)",
   },
   tabs: {
     flex: 1,
     flexDirection: "row",
     alignItems: "center",
-    padding: space(1.5),
-    gap: space(1),
+    padding: BAR_PADDING,
+    gap: TAB_GAP,
+  },
+  topRefraction: {
+    position: "absolute",
+    left: 15,
+    right: 15,
+    top: 1,
+    height: 19,
+    borderRadius: radius.pill,
+  },
+  innerLine: {
+    ...StyleSheet.absoluteFillObject,
+    borderWidth: 1,
+    borderColor: "rgba(255,255,255,0.38)",
+    borderRadius: radius.pill,
+  },
+  activeLensFrame: {
+    position: "absolute",
+    top: BAR_PADDING,
+    height: 60,
+  },
+  activeLens: {
+    flex: 1,
+    borderRadius: radius.pill,
+    borderColor: "rgba(255,255,255,0.86)",
+    backgroundColor: "rgba(255,255,255,0.16)",
+    shadowColor: "#7A3F35",
+    shadowOpacity: 0.10,
+    shadowRadius: 12,
+    shadowOffset: { width: 0, height: 4 },
+    elevation: 1,
+  },
+  activeLensContent: {
+    flex: 1,
+  },
+  lensHighlight: {
+    position: "absolute",
+    left: 12,
+    right: 12,
+    top: 2,
+    height: 1,
+    borderRadius: 1,
+    backgroundColor: "rgba(255,255,255,0.96)",
   },
   tab: {
     flex: 1,
-    height: 56,
+    height: 60,
     minWidth: 0,
     alignItems: "center",
     justifyContent: "center",
-    borderRadius: 20,
-    gap: 3,
+    borderRadius: radius.pill,
+    zIndex: 2,
   },
-  tabActive: {
-    backgroundColor: "rgba(185, 81, 62, 0.11)",
+  tabContent: {
+    alignItems: "center",
+    justifyContent: "center",
+    gap: 3,
   },
   tabPressed: {
     opacity: 0.68,
