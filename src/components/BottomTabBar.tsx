@@ -1,5 +1,12 @@
-import React, { useEffect, useRef, useState } from "react";
-import { Animated, Pressable, StyleSheet, Text, View } from "react-native";
+import React, { useEffect, useMemo, useRef, useState } from "react";
+import {
+  Animated,
+  PanResponder,
+  Pressable,
+  StyleSheet,
+  Text,
+  View,
+} from "react-native";
 import { LinearGradient } from "expo-linear-gradient";
 import { useSafeAreaInsets } from "react-native-safe-area-context";
 import { useT } from "../lib/i18n";
@@ -15,6 +22,7 @@ const TAB_GAP = space(1);
 const BAR_PADDING = 5;
 const BAR_HEIGHT = 64;
 const TAB_HEIGHT = BAR_HEIGHT - BAR_PADDING * 2;
+const DRAG_START_DISTANCE = 5;
 
 function ScanGlyph({ active }: { active: boolean }) {
   const tint = active ? colors.text : colors.muted;
@@ -62,6 +70,9 @@ export default function BottomTabBar({
   const t = useT();
   const activeIndex = ROOT_TABS.indexOf(activeTab);
   const indicatorPosition = useRef(new Animated.Value(activeIndex)).current;
+  const indicatorValue = useRef(activeIndex);
+  const dragStartPosition = useRef(activeIndex);
+  const dragging = useRef(false);
   const compactProgress = useRef(new Animated.Value(compact ? 1 : 0)).current;
   const lensResponse = useRef(new Animated.Value(1)).current;
   const tabLifts = useRef(
@@ -87,6 +98,7 @@ export default function BottomTabBar({
   ];
 
   useEffect(() => {
+    if (dragging.current) return;
     Animated.parallel([
       Animated.spring(indicatorPosition, {
         toValue: activeIndex,
@@ -137,11 +149,102 @@ export default function BottomTabBar({
       ROOT_TABS.length
   );
   const tabStep = tabWidth + TAB_GAP;
+  const settleTabContent = (target: number) => {
+    Animated.parallel(
+      tabLifts.map((value, index) =>
+        Animated.spring(value, {
+          toValue: index === target ? 1 : 0,
+          damping: 19,
+          stiffness: 235,
+          mass: 0.66,
+          useNativeDriver: true,
+        })
+      )
+    ).start();
+  };
+  const settleIndicator = (index: number) => {
+    const target = Math.max(0, Math.min(ROOT_TABS.length - 1, index));
+    indicatorValue.current = target;
+    Animated.spring(indicatorPosition, {
+      toValue: target,
+      damping: 20,
+      stiffness: 270,
+      mass: 0.68,
+      useNativeDriver: true,
+    }).start();
+    if (target !== activeIndex) onSelect(ROOT_TABS[target]);
+  };
+  const panResponder = useMemo(
+    () =>
+      PanResponder.create({
+        onMoveShouldSetPanResponder: (_, gesture) =>
+          tabStep > 0 &&
+          Math.abs(gesture.dx) >= DRAG_START_DISTANCE &&
+          Math.abs(gesture.dx) > Math.abs(gesture.dy) * 1.15,
+        onPanResponderGrant: () => {
+          dragging.current = true;
+          indicatorPosition.stopAnimation((value) => {
+            indicatorValue.current = value;
+            dragStartPosition.current = value;
+          });
+          Animated.spring(lensResponse, {
+            toValue: 0,
+            damping: 18,
+            stiffness: 280,
+            mass: 0.55,
+            useNativeDriver: true,
+          }).start();
+        },
+        onPanResponderMove: (_, gesture) => {
+          if (tabStep <= 0) return;
+          const next = Math.max(
+            0,
+            Math.min(
+              ROOT_TABS.length - 1,
+              dragStartPosition.current + gesture.dx / tabStep
+            )
+          );
+          indicatorValue.current = next;
+          indicatorPosition.setValue(next);
+          tabLifts.forEach((value, index) =>
+            value.setValue(Math.max(0, 1 - Math.abs(next - index)))
+          );
+        },
+        onPanResponderRelease: (_, gesture) => {
+          dragging.current = false;
+          const projected = indicatorValue.current + gesture.vx * 0.16;
+          const target = Math.round(projected);
+          Animated.spring(lensResponse, {
+            toValue: 1,
+            damping: 18,
+            stiffness: 280,
+            mass: 0.58,
+            useNativeDriver: true,
+          }).start();
+          settleTabContent(target);
+          settleIndicator(target);
+        },
+        onPanResponderTerminate: () => {
+          dragging.current = false;
+          Animated.spring(lensResponse, {
+            toValue: 1,
+            damping: 18,
+            stiffness: 280,
+            mass: 0.58,
+            useNativeDriver: true,
+          }).start();
+          settleTabContent(activeIndex);
+          settleIndicator(activeIndex);
+        },
+        onPanResponderTerminationRequest: () => false,
+      }),
+    [activeIndex, indicatorPosition, lensResponse, onSelect, tabLifts, tabStep]
+  );
 
   return (
     <View
       pointerEvents="box-none"
-      style={[styles.layer, { height: Math.max(insets.bottom, space(2)) + 120 }]}
+      style={[styles.layer, { height: Math.max(insets.bottom, space(2)) + 154 }]}
     >
       <Animated.View
         pointerEvents="none"
@@ -158,11 +261,12 @@ export default function BottomTabBar({
         <LinearGradient
           colors={[
             "rgba(247,243,238,0)",
+            "rgba(247,243,238,0)",
             "rgba(247,243,238,0.46)",
             "rgba(247,243,238,0.88)",
             colors.background,
           ]}
-          locations={[0, 0.42, 0.76, 1]}
+          locations={[0, 0.18, 0.5, 0.78, 1]}
           style={StyleSheet.absoluteFill}
         />
       </Animated.View>
@@ -195,12 +299,13 @@ export default function BottomTabBar({
           },
         ]}
       >
-        <GlassSurface
-          style={[styles.glass, shadow.glass]}
-          contentStyle={styles.tabs}
-          intensity={72}
-          strong
-        >
+        <View {...panResponder.panHandlers}>
+          <GlassSurface
+            style={[styles.glass, shadow.glass]}
+            contentStyle={styles.tabs}
+            intensity={72}
+            strong
+          >
           <LinearGradient
             pointerEvents="none"
             colors={["rgba(255,255,255,0.58)", "rgba(255,255,255,0.10)"]}
@@ -285,7 +390,8 @@ export default function BottomTabBar({
             </Pressable>
           );
           })}
-        </GlassSurface>
+          </GlassSurface>
+        </View>
       </Animated.View>
     </View>
   );
@@ -412,38 +518,3 @@ const styles = StyleSheet.create({
     position: "absolute",
     width: 1.5,
     height: 6,
-    left: 8.75,
-    top: 3,
-    borderRadius: 1,
-  },
-  clockMinute: {
-    position: "absolute",
-    width: 5,
-    height: 1.5,
-    left: 8.75,
-    top: 8.5,
-    borderRadius: 1,
-    transform: [{ rotate: "30deg" }],
-  },
-  profileGlyph: {
-    width: 22,
-    height: 20,
-    alignItems: "center",
-  },
-  profileHead: {
-    width: 8,
-    height: 8,
-    borderRadius: 4,
-    borderWidth: 1.5,
-  },
-  profileShoulders: {
-    position: "absolute",
-    bottom: 0,
-    width: 19,
-    height: 9,
-    borderWidth: 1.5,
-    borderBottomWidth: 0,
-    borderTopLeftRadius: 10,
-    borderTopRightRadius: 10,
-  },
-});
