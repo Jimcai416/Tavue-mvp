@@ -38,6 +38,7 @@ import {
   resolveContributionPhotoUri,
 } from "../lib/contributionPhotos";
 import { useT } from "../lib/i18n";
+import { useTabBarMinimizeOnScroll } from "../lib/tabBarScroll";
 import { colors, fonts, radius, shadow, space } from "../theme";
 
 const HEADER_HEIGHT = 68;
@@ -247,9 +248,11 @@ function SwipeableOrderRow({
 export default function OrderHistoryScreen({
   onBack,
   onDetailChange,
+  onTabBarCompactChange,
 }: {
   onBack: () => void;
   onDetailChange?: (open: boolean) => void;
+  onTabBarCompactChange?: (compact: boolean) => void;
 }) {
   const t = useT();
   const insets = useSafeAreaInsets();
@@ -261,6 +264,7 @@ export default function OrderHistoryScreen({
   const [editMode, setEditMode] = useState(false);
   const [selectedOrderIds, setSelectedOrderIds] = useState<Set<string>>(new Set());
   const [deleting, setDeleting] = useState(false);
+  const handleTabBarScroll = useTabBarMinimizeOnScroll(onTabBarCompactChange);
 
   useEffect(() => {
     void getOrders().then((next) => {
@@ -534,6 +538,8 @@ export default function OrderHistoryScreen({
           extraData={{ editMode, selectedOrderIds }}
           keyExtractor={(order) => order.id}
           showsVerticalScrollIndicator={false}
+          onScroll={handleTabBarScroll}
+          scrollEventThrottle={16}
           contentContainerStyle={[
             styles.listContent,
             {

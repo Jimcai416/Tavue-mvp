@@ -8,14 +8,16 @@ import GlassSurface from "./GlassSurface";
 
 export type RootTab = "scan" | "orderHistory" | "profile";
 
-export const TAB_BAR_CONTENT_INSET = 116;
+export const TAB_BAR_CONTENT_INSET = 108;
 
 const ROOT_TABS: RootTab[] = ["scan", "orderHistory", "profile"];
 const TAB_GAP = space(1);
-const BAR_PADDING = space(1.5);
+const BAR_PADDING = 5;
+const BAR_HEIGHT = 64;
+const TAB_HEIGHT = BAR_HEIGHT - BAR_PADDING * 2;
 
 function ScanGlyph({ active }: { active: boolean }) {
-  const tint = active ? colors.primaryAction : colors.muted;
+  const tint = active ? colors.text : colors.muted;
   return (
     <View style={styles.scanGlyph}>
       <View style={[styles.scanCorner, styles.scanTopLeft, { borderColor: tint }]} />
@@ -28,7 +30,7 @@ function ScanGlyph({ active }: { active: boolean }) {
 }
 
 function HistoryGlyph({ active }: { active: boolean }) {
-  const tint = active ? colors.primaryAction : colors.muted;
+  const tint = active ? colors.text : colors.muted;
   return (
     <View style={[styles.historyGlyph, { borderColor: tint }]}>
       <View style={[styles.clockHand, { backgroundColor: tint }]} />
@@ -38,7 +40,7 @@ function HistoryGlyph({ active }: { active: boolean }) {
 }
 
 function ProfileGlyph({ active }: { active: boolean }) {
-  const tint = active ? colors.primaryAction : colors.muted;
+  const tint = active ? colors.text : colors.muted;
   return (
     <View style={styles.profileGlyph}>
       <View style={[styles.profileHead, { borderColor: tint }]} />
@@ -49,15 +51,19 @@ function ProfileGlyph({ active }: { active: boolean }) {
 
 export default function BottomTabBar({
   activeTab,
+  compact = false,
   onSelect,
 }: {
   activeTab: RootTab;
+  compact?: boolean;
   onSelect: (tab: RootTab) => void;
 }) {
   const insets = useSafeAreaInsets();
   const t = useT();
   const activeIndex = ROOT_TABS.indexOf(activeTab);
   const indicatorPosition = useRef(new Animated.Value(activeIndex)).current;
+  const compactProgress = useRef(new Animated.Value(compact ? 1 : 0)).current;
+  const lensResponse = useRef(new Animated.Value(1)).current;
   const tabLifts = useRef(
     ROOT_TABS.map((_, index) => new Animated.Value(index === activeIndex ? 1 : 0))
   ).current;
@@ -84,11 +90,25 @@ export default function BottomTabBar({
     Animated.parallel([
       Animated.spring(indicatorPosition, {
         toValue: activeIndex,
-        damping: 18,
-        stiffness: 190,
-        mass: 0.78,
+        damping: 21,
+        stiffness: 245,
+        mass: 0.74,
         useNativeDriver: true,
       }),
+      Animated.sequence([
+        Animated.timing(lensResponse, {
+          toValue: 0,
+          duration: 75,
+          useNativeDriver: true,
+        }),
+        Animated.spring(lensResponse, {
+          toValue: 1,
+          damping: 18,
+          stiffness: 260,
+          mass: 0.62,
+          useNativeDriver: true,
+        }),
+      ]),
       ...tabLifts.map((value, index) =>
         Animated.spring(value, {
           toValue: index === activeIndex ? 1 : 0,
@@ -99,7 +119,17 @@ export default function BottomTabBar({
         })
       ),
     ]).start();
-  }, [activeIndex, indicatorPosition, tabLifts]);
+  }, [activeIndex, indicatorPosition, lensResponse, tabLifts]);
+
+  useEffect(() => {
+    Animated.spring(compactProgress, {
+      toValue: compact ? 1 : 0,
+      damping: 20,
+      stiffness: 235,
+      mass: 0.72,
+      useNativeDriver: true,
+    }).start();
+  }, [compact, compactProgress]);
 
   const tabWidth = Math.max(
     0,
@@ -111,22 +141,59 @@ export default function BottomTabBar({
   return (
     <View
       pointerEvents="box-none"
-      style={[styles.layer, { height: Math.max(insets.bottom, space(2)) + 132 }]}
+      style={[styles.layer, { height: Math.max(insets.bottom, space(2)) + 120 }]}
     >
-      <LinearGradient
+      <Animated.View
         pointerEvents="none"
-        colors={[
-          "rgba(247,243,238,0)",
-          "rgba(247,243,238,0.54)",
-          "rgba(247,243,238,0.94)",
-          colors.background,
+        style={[
+          StyleSheet.absoluteFill,
+          {
+            opacity: compactProgress.interpolate({
+              inputRange: [0, 1],
+              outputRange: [1, 0.78],
+            }),
+          },
         ]}
-        locations={[0, 0.38, 0.72, 1]}
-        style={StyleSheet.absoluteFill}
-      />
-      <View
+      >
+        <LinearGradient
+          colors={[
+            "rgba(247,243,238,0)",
+            "rgba(247,243,238,0.46)",
+            "rgba(247,243,238,0.88)",
+            colors.background,
+          ]}
+          locations={[0, 0.42, 0.76, 1]}
+          style={StyleSheet.absoluteFill}
+        />
+      </Animated.View>
+      <Animated.View
         pointerEvents="box-none"
-        style={[styles.positioner, { bottom: Math.max(insets.bottom, space(2.5)) }]}
+        style={[
+          styles.positioner,
+          {
+            bottom: Math.max(insets.bottom, space(2.5)),
+            transform: [
+              {
+                translateY: compactProgress.interpolate({
+                  inputRange: [0, 1],
+                  outputRange: [0, 5],
+                }),
+              },
+              {
+                scaleX: compactProgress.interpolate({
+                  inputRange: [0, 1],
+                  outputRange: [1, 0.91],
+                }),
+              },
+              {
+                scaleY: compactProgress.interpolate({
+                  inputRange: [0, 1],
+                  outputRange: [1, 0.88],
+                }),
+              },
+            ],
+          },
+        ]}
       >
         <GlassSurface
           style={[styles.glass, shadow.glass]}
@@ -158,26 +225,17 @@ export default function BottomTabBar({
                     width: tabWidth,
                     transform: [
                       { translateX: Animated.multiply(indicatorPosition, tabStep) },
+                      {
+                        scaleX: lensResponse.interpolate({
+                          inputRange: [0, 1],
+                          outputRange: [0.92, 1],
+                        }),
+                      },
                     ],
                   },
                 ]}
               >
-                <GlassSurface
-                  style={styles.activeLens}
-                  contentStyle={styles.activeLensContent}
-                  intensity={54}
-                  nativeGlass={false}
-                  interactive={false}
-                >
-                  <LinearGradient
-                    colors={[
-                      "rgba(255,255,255,0.58)",
-                      "rgba(185,81,62,0.10)",
-                    ]}
-                    style={StyleSheet.absoluteFill}
-                  />
-                  <View style={styles.lensHighlight} />
-                </GlassSurface>
+                <View style={styles.lensHighlight} />
               </Animated.View>
             )}
           </View>
@@ -228,7 +286,7 @@ export default function BottomTabBar({
           );
           })}
         </GlassSurface>
-      </View>
+      </Animated.View>
     </View>
   );
 }
@@ -243,12 +301,12 @@ const styles = StyleSheet.create({
   },
   positioner: {
     position: "absolute",
-    left: space(3),
-    right: space(3),
+    left: space(4),
+    right: space(4),
     zIndex: 80,
   },
   glass: {
-    height: 72,
+    height: BAR_HEIGHT,
     borderRadius: radius.pill,
     borderColor: "rgba(255,255,255,0.92)",
   },
@@ -276,21 +334,16 @@ const styles = StyleSheet.create({
   activeLensFrame: {
     position: "absolute",
     top: BAR_PADDING,
-    height: 60,
-  },
-  activeLens: {
-    flex: 1,
+    height: TAB_HEIGHT,
     borderRadius: radius.pill,
-    borderColor: "rgba(255,255,255,0.86)",
-    backgroundColor: "rgba(255,255,255,0.16)",
-    shadowColor: "#7A3F35",
-    shadowOpacity: 0.10,
-    shadowRadius: 12,
-    shadowOffset: { width: 0, height: 4 },
+    borderWidth: 1,
+    borderColor: "rgba(255,255,255,0.72)",
+    backgroundColor: "rgba(83,78,76,0.10)",
+    shadowColor: "#3B3735",
+    shadowOpacity: 0.08,
+    shadowRadius: 10,
+    shadowOffset: { width: 0, height: 3 },
     elevation: 1,
-  },
-  activeLensContent: {
-    flex: 1,
   },
   lensHighlight: {
     position: "absolute",
@@ -303,7 +356,7 @@ const styles = StyleSheet.create({
   },
   tab: {
     flex: 1,
-    height: 60,
+    height: TAB_HEIGHT,
     minWidth: 0,
     alignItems: "center",
     justifyContent: "center",
@@ -326,7 +379,7 @@ const styles = StyleSheet.create({
   },
   labelActive: {
     fontFamily: fonts.bodyBold,
-    color: colors.primaryAction,
+    color: colors.text,
   },
   scanGlyph: {
     width: 21,

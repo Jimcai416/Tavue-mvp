@@ -44,6 +44,7 @@ import { TAB_BAR_CONTENT_INSET } from "../components/BottomTabBar";
 import GlassSurface, { EdgeGlass } from "../components/GlassSurface";
 import { ScanResult } from "../types";
 import { colors, fonts, radius, shadow, space } from "../theme";
+import { useTabBarMinimizeOnScroll } from "../lib/tabBarScroll";
 
 const STAMP_CODES: Record<string, string> = {
   Italian: "IT",
@@ -118,9 +119,11 @@ function LoadingStep({
 export default function ScanScreen({
   onResult,
   onBusyChange,
+  onTabBarCompactChange,
 }: {
   onResult: (result: ScanResult) => void;
   onBusyChange?: (busy: boolean) => void;
+  onTabBarCompactChange?: (compact: boolean) => void;
 }) {
   const t = useT();
   const insets = useSafeAreaInsets();
@@ -142,6 +145,7 @@ export default function ScanScreen({
   const [showFoodProfile, setShowFoodProfile] = useState(false);
   const ticketAnim = useRef(new Animated.Value(0)).current;
   const scrollY = useRef(new Animated.Value(0)).current;
+  const handleTabBarScroll = useTabBarMinimizeOnScroll(onTabBarCompactChange);
   const requestRef = useRef<AbortController | null>(null);
   const topGlassOpacity = scrollY.interpolate({
     inputRange: [0, 18, 72],
@@ -151,8 +155,9 @@ export default function ScanScreen({
   const handleScroll = useCallback(
     (event: NativeSyntheticEvent<NativeScrollEvent>) => {
       scrollY.setValue(event.nativeEvent.contentOffset.y);
+      handleTabBarScroll(event);
     },
-    [scrollY]
+    [handleTabBarScroll, scrollY]
   );
 
   useEffect(() => {

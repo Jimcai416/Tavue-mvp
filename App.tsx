@@ -32,6 +32,7 @@ function App() {
   const [screen, setScreen] = useState<Screen>({ name: "scan" });
   const [historyDetailOpen, setHistoryDetailOpen] = useState(false);
   const [scanBusy, setScanBusy] = useState(false);
+  const [tabBarCompact, setTabBarCompact] = useState(false);
   const latestResult = useRef<ScanResult | null>(null);
   const [webFontFallbackReady, setWebFontFallbackReady] = useState(false);
   const [fontsLoaded, fontError] = useFonts({
@@ -114,6 +115,7 @@ function App() {
   const showRootTab = (tab: RootTab) => {
     if (screen.name === tab) return;
     setHistoryDetailOpen(false);
+    setTabBarCompact(false);
     if (Platform.OS === "web" && typeof window !== "undefined") {
       window.history.pushState({ tavueScreen: tab }, "", window.location.href);
     }
@@ -156,6 +158,10 @@ function App() {
     document.body.style.overscrollBehaviorY = "none";
   }, []);
 
+  useEffect(() => {
+    if (historyDetailOpen || scanBusy) setTabBarCompact(false);
+  }, [historyDetailOpen, scanBusy]);
+
   if (!fontsLoaded && !fontError && !webFontFallbackReady) {
     return (
       <View style={styles.fontLoading}>
@@ -182,6 +188,7 @@ function App() {
             <ScanScreen
               onResult={showResults}
               onBusyChange={setScanBusy}
+              onTabBarCompactChange={setTabBarCompact}
             />
           )}
 
@@ -196,17 +203,24 @@ function App() {
             <OrderHistoryScreen
               onBack={showScan}
               onDetailChange={setHistoryDetailOpen}
+              onTabBarCompactChange={setTabBarCompact}
             />
           )}
 
-          {screen.name === "profile" && <ProfileScreen />}
+          {screen.name === "profile" && (
+            <ProfileScreen onTabBarCompactChange={setTabBarCompact} />
+          )}
 
           {(screen.name === "scan" ||
             screen.name === "orderHistory" ||
             screen.name === "profile") &&
             !historyDetailOpen &&
             !scanBusy && (
-              <BottomTabBar activeTab={screen.name} onSelect={showRootTab} />
+              <BottomTabBar
+                activeTab={screen.name}
+                compact={tabBarCompact}
+                onSelect={showRootTab}
+              />
             )}
         </View>
       </View>

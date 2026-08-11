@@ -4,6 +4,7 @@ import { useSafeAreaInsets } from "react-native-safe-area-context";
 import { TAB_BAR_CONTENT_INSET } from "../components/BottomTabBar";
 import GlassSurface, { EdgeGlass } from "../components/GlassSurface";
 import { useT } from "../lib/i18n";
+import { useTabBarMinimizeOnScroll } from "../lib/tabBarScroll";
 import { colors, fonts, radius, shadow, space } from "../theme";
 
 const HEADER_HEIGHT = 68;
@@ -17,9 +18,14 @@ function StatusRow({ active, children }: { active?: boolean; children: React.Rea
   );
 }
 
-export default function ProfileScreen() {
+export default function ProfileScreen({
+  onTabBarCompactChange,
+}: {
+  onTabBarCompactChange?: (compact: boolean) => void;
+}) {
   const t = useT();
   const insets = useSafeAreaInsets();
+  const handleTabBarScroll = useTabBarMinimizeOnScroll(onTabBarCompactChange);
 
   return (
     <View style={styles.container}>
@@ -38,6 +44,8 @@ export default function ProfileScreen() {
 
       <ScrollView
         showsVerticalScrollIndicator={false}
+        onScroll={handleTabBarScroll}
+        scrollEventThrottle={16}
         contentContainerStyle={[
           styles.content,
           {
