@@ -21,6 +21,7 @@ type GlassSurfaceProps = PropsWithChildren<{
   strong?: boolean;
   nativeGlass?: boolean;
   interactive?: boolean;
+  clear?: boolean;
 }>;
 
 type EdgeGlassProps = {
@@ -36,6 +37,7 @@ export default function GlassSurface({
   strong = false,
   nativeGlass = true,
   interactive = true,
+  clear = false,
 }: GlassSurfaceProps) {
   const useNativeGlass =
     nativeGlass &&
@@ -46,20 +48,28 @@ export default function GlassSurface({
   if (useNativeGlass) {
     return (
       <GlassView
-        colorScheme="light"
+        colorScheme={clear ? undefined : "light"}
         glassEffectStyle={strong ? "regular" : "clear"}
         isInteractive={interactive}
-        tintColor={strong ? "rgba(255,255,255,0.28)" : "rgba(255,255,255,0.14)"}
+        tintColor={
+          clear
+            ? "transparent"
+            : strong
+              ? "rgba(255,255,255,0.28)"
+              : "rgba(255,255,255,0.14)"
+        }
         style={[styles.frame, style]}
       >
-        <View
-          pointerEvents="none"
-          style={[
-            StyleSheet.absoluteFill,
-            styles.nativeTint,
-            strong && styles.nativeTintStrong,
-          ]}
-        />
+        {!clear && (
+          <View
+            pointerEvents="none"
+            style={[
+              StyleSheet.absoluteFill,
+              styles.nativeTint,
+              strong && styles.nativeTintStrong,
+            ]}
+          />
+        )}
         <View style={contentStyle}>{children}</View>
       </GlassView>
     );
@@ -68,21 +78,23 @@ export default function GlassSurface({
   return (
     <View style={[styles.frame, style]}>
       <BlurView
-        tint="light"
+        tint={clear ? "systemUltraThinMaterial" : "light"}
         intensity={intensity}
         experimentalBlurMethod={
           Platform.OS === "android" ? "dimezisBlurView" : "none"
         }
         style={StyleSheet.absoluteFill}
       />
-      <View
-        pointerEvents="none"
-        style={[
-          StyleSheet.absoluteFill,
-          styles.tint,
-          strong && styles.tintStrong,
-        ]}
-      />
+      {!clear && (
+        <View
+          pointerEvents="none"
+          style={[
+            StyleSheet.absoluteFill,
+            styles.tint,
+            strong && styles.tintStrong,
+          ]}
+        />
+      )}
       <View style={contentStyle}>{children}</View>
     </View>
   );

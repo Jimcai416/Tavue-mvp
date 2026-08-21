@@ -1,6 +1,6 @@
 # App Store privacy answers
 
-Use this as the conservative App Store Connect disclosure for Tavue 0.8.0.
+Use this as the conservative App Store Connect disclosure for Tavue 0.9.0.
 Re-check it whenever a provider or SDK changes.
 
 ## URLs
@@ -32,6 +32,8 @@ These URLs serve the Tavue copy after the Worker from this branch is deployed.
 Notes:
 
 - `Photos or Videos` covers menu images processed by Anthropic's API.
+- Real dish-photo drafts in 0.9.0 stay on the device and are not collected;
+  re-check this answer before the contribution upload backend is enabled.
 - `Device ID` is a conservative description of Tavue's random installation ID.
   It is not an Apple hardware or advertising identifier.
 - `Product Interaction` covers the strict event allowlist in
@@ -48,3 +50,5 @@ Tavue sends a user-selected menu photo to a Cloudflare Worker and Anthropic's
 commercial API only after the user accepts the in-app disclosure. Tavue does
 not store the photo. Results are stored locally in Recent menus. The AI warning
 asks users to confirm ingredients and allergens with restaurant staff.
+The Profile tab is a local-only preview of future account capabilities; Tavue
+0.9.0 does not create an account, authenticate a user, or upload Profile data.

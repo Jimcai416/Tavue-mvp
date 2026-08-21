@@ -32,6 +32,7 @@ import {
   riskFlags,
 } from "../lib/preferences";
 import { colors, fonts, radius, space } from "../theme";
+import { saveOrderFromCart } from "../lib/orders";
 
 type Filter = "all" | "forYou" | "recommended" | "vegetarian" | "spicy";
 const RESULTS_HEADER_HEIGHT = 68;
@@ -70,6 +71,7 @@ export default function ResultsScreen({
   const [filter, setFilter] = useState<Filter>("all");
   const [category, setCategory] = useState<string | null>(null);
   const [foodProfile, setFoodProfile] = useState<FoodProfile>(EMPTY_FOOD_PROFILE);
+  const savedOrderId = React.useRef<string | null>(null);
   const scrollY = React.useRef(new Animated.Value(0)).current;
   const topGlassOpacity = scrollY.interpolate({
     inputRange: [0, 14, 62],
@@ -139,6 +141,21 @@ export default function ResultsScreen({
         )
         .filter((line) => line.qty > 0)
     );
+  }
+
+  async function saveShownOrder() {
+    void track("order_server_view_opened");
+    try {
+      const saved = await saveOrderFromCart({
+        existingOrderId: savedOrderId.current,
+        result,
+        lines: order,
+      });
+      savedOrderId.current = saved.id;
+      void track("order_saved", { source: "detail", dishCount: saved.lines.length });
+    } catch {
+      // Saving Food Memory must never block the server handoff.
+    }
   }
 
   const filters: Array<{ id: Filter; label: string }> = [
@@ -411,7 +428,7 @@ export default function ResultsScreen({
           setShowCart(false);
         }}
         onClose={() => setShowCart(false)}
-        onShowServer={() => void track("order_server_view_opened")}
+        onShowServer={() => void saveShownOrder()}
       />
 
       <OrderSheet

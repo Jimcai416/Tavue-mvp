@@ -1,4 +1,4 @@
-# Tavue 0.8.0 TestFlight handoff
+# Tavue 0.9.0 TestFlight handoff
 
 ## Build identity
 
@@ -6,7 +6,7 @@
 - Bundle identifier: `com.playbook.dishlens`
 - EAS project ID: `859efdc3-4c16-448c-9e6a-fe98349513c5`
 - Build profile: `production`
-- Version: `0.8.0`
+- Version: `0.9.0`
 - Build number: remotely managed and auto-incremented by EAS
 
 ## One-time production configuration
@@ -73,7 +73,21 @@ Please test Tavue in a real restaurant:
 9. On mobile Web, confirm the top and bottom backgrounds remain continuous,
    the brightness button enters a visible high-contrast mode, and the App
    remains full-width on native iOS/Android.
-10. Return later and reopen the menu from Recent menus.
+10. Close Show server and open History from the bottom navigation. Confirm the
+    same dishes and quantities were saved without creating duplicate meals.
+11. Confirm Scan contains only menu actions and Recent menus; History is not
+    repeated as a card on the same page.
+12. Open Profile and confirm it clearly says that account, cloud sync and scan
+    balance are future features while current data remains on this device.
+13. Return to History, add the restaurant name, then take or choose a real photo for one ordered
+    dish. Confirm it stays attached after closing and reopening Tavue.
+14. Replace and remove the dish photo, and confirm menu photos are never shown
+    as saved contribution photos.
+15. Return to the History list, swipe one meal left and delete it. Confirm the
+    warning appears and the meal disappears only after confirmation.
+16. Create at least two more meals, tap Edit, select multiple entries and delete
+    them together. Confirm Cancel/Done leaves unselected entries untouched.
+17. Return later and reopen the menu from Recent menus.
 
 Please report slow scans, altered original dish names, missing dishes, wrong
 prices/currency, crashes, or layouts that overlap the floating Liquid Glass

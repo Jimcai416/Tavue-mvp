@@ -17,9 +17,12 @@ import { DMSans_600SemiBold } from "@expo-google-fonts/dm-sans/600SemiBold";
 import { DMSans_700Bold } from "@expo-google-fonts/dm-sans/700Bold";
 import ScanScreen from "./src/screens/ScanScreen";
 import ResultsScreen from "./src/screens/ResultsScreen";
+import OrderHistoryScreen from "./src/screens/OrderHistoryScreen";
+import ProfileScreen from "./src/screens/ProfileScreen";
 import { Screen, ScanResult } from "./src/types";
 import { colors } from "./src/theme";
 import { AmbientBackdrop } from "./src/components/GlassSurface";
+import BottomTabBar, { type RootTab } from "./src/components/BottomTabBar";
 import { track } from "./src/lib/analytics";
 import { captureOperationalError, withMonitoring } from "./src/lib/monitoring";
 
@@ -27,6 +30,9 @@ const WEB_FONT_TIMEOUT_MS = 5_000;
 
 function App() {
   const [screen, setScreen] = useState<Screen>({ name: "scan" });
+  const [historyDetailOpen, setHistoryDetailOpen] = useState(false);
+  const [scanBusy, setScanBusy] = useState(false);
+  const [tabBarCompact, setTabBarCompact] = useState(false);
   const latestResult = useRef<ScanResult | null>(null);
   const [webFontFallbackReady, setWebFontFallbackReady] = useState(false);
   const [fontsLoaded, fontError] = useFonts({
@@ -43,7 +49,7 @@ function App() {
   }, []);
 
   useEffect(() => {
-    if (Platform.OS === "web" || screen.name !== "results") return;
+    if (Platform.OS === "web" || screen.name === "scan") return;
 
     const subscription = BackHandler.addEventListener(
       "hardwareBackPress",
@@ -73,6 +79,10 @@ function App() {
         ?.tavueScreen;
       if (destination === "results" && latestResult.current) {
         setScreen({ name: "results", result: latestResult.current });
+      } else if (destination === "orderHistory") {
+        setScreen({ name: "orderHistory" });
+      } else if (destination === "profile") {
+        setScreen({ name: "profile" });
       } else {
         setScreen({ name: "scan" });
       }
@@ -94,12 +104,24 @@ function App() {
     if (
       Platform.OS === "web" &&
       typeof window !== "undefined" &&
-      (window.history.state as { tavueScreen?: string } | null)?.tavueScreen === "results"
+      (window.history.state as { tavueScreen?: string } | null)?.tavueScreen !== "scan"
     ) {
       window.history.back();
       return;
     }
     setScreen({ name: "scan" });
+  };
+
+  const showRootTab = (tab: RootTab) => {
+    if (screen.name === tab) return;
+    setHistoryDetailOpen(false);
+    setTabBarCompact(false);
+    if (Platform.OS === "web" && typeof window !== "undefined") {
+      window.history.pushState({ tavueScreen: tab }, "", window.location.href);
+    }
+    if (tab === "scan") setScreen({ name: "scan" });
+    if (tab === "orderHistory") setScreen({ name: "orderHistory" });
+    if (tab === "profile") setScreen({ name: "profile" });
   };
 
   useEffect(() => {
@@ -136,6 +158,10 @@ function App() {
     document.body.style.overscrollBehaviorY = "none";
   }, []);
 
+  useEffect(() => {
+    if (historyDetailOpen || scanBusy) setTabBarCompact(false);
+  }, [historyDetailOpen, scanBusy]);
+
   if (!fontsLoaded && !fontError && !webFontFallbackReady) {
     return (
       <View style={styles.fontLoading}>
@@ -159,7 +185,11 @@ function App() {
           <AmbientBackdrop />
 
           {screen.name === "scan" && (
-            <ScanScreen onResult={showResults} />
+            <ScanScreen
+              onResult={showResults}
+              onBusyChange={setScanBusy}
+              onTabBarCompactChange={setTabBarCompact}
+            />
           )}
 
           {screen.name === "results" && (
@@ -168,6 +198,30 @@ function App() {
               onBack={showScan}
             />
           )}
+
+          {screen.name === "orderHistory" && (
+            <OrderHistoryScreen
+              onBack={showScan}
+              onDetailChange={setHistoryDetailOpen}
+              onTabBarCompactChange={setTabBarCompact}
+            />
+          )}
+
+          {screen.name === "profile" && (
+            <ProfileScreen onTabBarCompactChange={setTabBarCompact} />
+          )}
+
+          {(screen.name === "scan" ||
+            screen.name === "orderHistory" ||
+            screen.name === "profile") &&
+            !historyDetailOpen &&
+            !scanBusy && (
+              <BottomTabBar
+                activeTab={screen.name}
+                compact={tabBarCompact}
+                onSelect={showRootTab}
+              />
+            )}
         </View>
       </View>
     </SafeAreaProvider>

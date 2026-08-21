@@ -41,4 +41,6 @@ export interface ScanResult {
 
 export type Screen =
   | { name: "scan" }
-  | { name: "results"; result: ScanResult };
+  | { name: "results"; result: ScanResult }
+  | { name: "orderHistory" }
+  | { name: "profile" };

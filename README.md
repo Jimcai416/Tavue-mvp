@@ -2,7 +2,7 @@
   <img src="./assets/tavue-icon.png" alt="Tavue app icon" width="128" />
   <h1>Tavue</h1>
   <p>Point Tavue at any restaurant menu. See every dish in your language.</p>
-  <p><strong>Version 0.8.1 · Android Web startup reliability</strong></p>
+  <p><strong>Version 0.9.0 · Order History and real-photo contributions</strong></p>
 </div>
 
 Tavue turns a photo of a restaurant menu into a clear, visual guide. It
@@ -10,7 +10,7 @@ translates and organises the menu, explains unfamiliar dishes, shows dietary
 and allergen guidance, converts prices and helps the user build an order to
 show the server.
 
-`scan a menu → explore dishes → build an order → show the server`
+`scan → choose → show server → remember the order → add real dish photos`
 
 ## Current product
 
@@ -24,6 +24,12 @@ show the server.
 - Persistent display-currency selection with approximate converted prices
 - Order builder with a converted total and a full-screen server handoff mode
 - Server view prioritising quantity, original dish name, printed section and price
+- Local Order History created automatically when the server handoff is opened
+- User-controlled Order History deletion, including associated local dish-photo drafts
+- Three-tab Scan / History / Profile navigation, with account features clearly
+  marked as a future backend phase
+- Restaurant confirmation and one real-photo contribution slot per ordered dish
+- Moderation-ready photo status and scan-credit reward records
 - Nine interface languages
 - Local history for the ten most recent menus
 - Liquid Glass navigation on supported iOS versions, with BlurView fallbacks
@@ -31,9 +37,13 @@ show the server.
 The paywall prototype remains in the repository for future development, but it
 is not reachable and does not limit the beta.
 
+Contribution photos in v0.9.0 are compressed and saved only on the user's
+device. Cloud upload, accounts, review decisions and scan-credit grants remain
+disabled until the moderation backend is introduced in the next beta.
+
 ## Beta safeguards
 
-Version 0.8.1 retains the infrastructure required for controlled testing:
+Version 0.9.0 retains the infrastructure required for controlled testing:
 
 - Privacy-safe, first-party product analytics through Cloudflare Analytics Engine
 - Sentry crash monitoring with PII, screenshots and menu content disabled

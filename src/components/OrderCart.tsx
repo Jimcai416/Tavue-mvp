@@ -261,6 +261,10 @@ function ServerOrderView({
       >
         <Text style={styles.backToCartText}>‹ {t("orderTitle")}</Text>
       </Pressable>
+      <View style={styles.foodMemoryNote}>
+        <Text style={styles.foodMemoryNoteMark}>✓</Text>
+        <Text style={styles.foodMemoryNoteText}>{t("orderSavedHint")}</Text>
+      </View>
       <Pressable onPress={onClose} hitSlop={8} accessibilityRole="button">
         <Text style={styles.serverClose}>{t("done")}</Text>
       </Pressable>
@@ -742,6 +746,23 @@ const styles = StyleSheet.create({
     paddingTop: space(2.5),
     fontFamily: fonts.bodyMedium,
     fontSize: 12,
+    color: colors.muted,
+  },
+  foodMemoryNote: {
+    flexDirection: "row",
+    alignItems: "center",
+    justifyContent: "center",
+    gap: space(2),
+    marginTop: space(2),
+  },
+  foodMemoryNoteMark: {
+    fontFamily: fonts.bodyBold,
+    fontSize: 11,
+    color: colors.sage,
+  },
+  foodMemoryNoteText: {
+    fontFamily: fonts.body,
+    fontSize: 10,
     color: colors.muted,
   },
 });

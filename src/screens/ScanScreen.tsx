@@ -17,7 +17,7 @@ import {
 import type { NativeScrollEvent, NativeSyntheticEvent } from "react-native";
 import { useSafeAreaInsets } from "react-native-safe-area-context";
 import * as ImagePicker from "expo-image-picker";
-import { ScanError, scanMenu } from "../lib/api";
+import { ScanError, scanMenuPages } from "../lib/api";
 import { prepareMenuImage } from "../lib/imagePreprocessing";
 import { track } from "../lib/analytics";
 import { captureOperationalError } from "../lib/monitoring";
@@ -40,9 +40,11 @@ import {
 } from "../lib/currency";
 import FeedbackSheet from "../components/FeedbackSheet";
 import FoodProfileSheet from "../components/FoodProfileSheet";
+import { TAB_BAR_CONTENT_INSET } from "../components/BottomTabBar";
 import GlassSurface, { EdgeGlass } from "../components/GlassSurface";
 import { ScanResult } from "../types";
 import { colors, fonts, radius, shadow, space } from "../theme";
+import { useTabBarMinimizeOnScroll } from "../lib/tabBarScroll";
 
 const STAMP_CODES: Record<string, string> = {
   Italian: "IT",
@@ -116,8 +118,12 @@ function LoadingStep({
 
 export default function ScanScreen({
   onResult,
+  onBusyChange,
+  onTabBarCompactChange,
 }: {
   onResult: (result: ScanResult) => void;
+  onBusyChange?: (busy: boolean) => void;
+  onTabBarCompactChange?: (compact: boolean) => void;
 }) {
   const t = useT();
   const insets = useSafeAreaInsets();
@@ -139,6 +145,7 @@ export default function ScanScreen({
   const [showFoodProfile, setShowFoodProfile] = useState(false);
   const ticketAnim = useRef(new Animated.Value(0)).current;
   const scrollY = useRef(new Animated.Value(0)).current;
+  const handleTabBarScroll = useTabBarMinimizeOnScroll(onTabBarCompactChange);
   const requestRef = useRef<AbortController | null>(null);
   const topGlassOpacity = scrollY.interpolate({
     inputRange: [0, 18, 72],
@@ -148,8 +155,9 @@ export default function ScanScreen({
   const handleScroll = useCallback(
     (event: NativeSyntheticEvent<NativeScrollEvent>) => {
       scrollY.setValue(event.nativeEvent.contentOffset.y);
+      handleTabBarScroll(event);
     },
-    [scrollY]
+    [handleTabBarScroll, scrollY]
   );
 
   useEffect(() => {
@@ -165,6 +173,12 @@ export default function ScanScreen({
 
     return () => requestRef.current?.abort();
   }, [ticketAnim]);
+
+  useEffect(() => {
+    onBusyChange?.(busy);
+  }, [busy, onBusyChange]);
+
+  useEffect(() => () => onBusyChange?.(false), [onBusyChange]);
 
   async function pick(fromCamera: boolean) {
     const consented = await ensureAiProcessingConsent({
@@ -191,16 +205,35 @@ export default function ScanScreen({
     const opts: ImagePicker.ImagePickerOptions = {
       mediaTypes: ImagePicker.MediaTypeOptions.Images,
       quality: 0.7,
-      base64: true,
+      base64: false,
       allowsEditing: false,
       allowsMultipleSelection: !fromCamera,
       selectionLimit: fromCamera ? 1 : 8,
     };
-    const picked = fromCamera
-      ? await ImagePicker.launchCameraAsync(opts)
-      : await ImagePicker.launchImageLibraryAsync(opts);
-
-    const assets = picked.canceled ? [] : (picked.assets ?? []);
+    const assets: ImagePicker.ImagePickerAsset[] = [];
+    if (fromCamera) {
+      while (assets.length < 8) {
+        const picked = await ImagePicker.launchCameraAsync(opts);
+        if (picked.canceled || !picked.assets?.length) break;
+        assets.push(picked.assets[0]);
+        if (assets.length >= 8) break;
+        const takeAnother = await new Promise<boolean>((resolve) => {
+          Alert.alert(
+            t("cameraPagesTitle"),
+            t("cameraPagesBody").replace("{count}", String(assets.length)),
+            [
+              { text: t("scanThesePages"), onPress: () => resolve(false) },
+              { text: t("takeAnotherPage"), onPress: () => resolve(true) },
+            ],
+            { cancelable: false }
+          );
+        });
+        if (!takeAnother) break;
+      }
+    } else {
+      const picked = await ImagePicker.launchImageLibraryAsync(opts);
+      assets.push(...(picked.canceled ? [] : (picked.assets ?? [])).slice(0, 8));
+    }
     if (!assets.length) return;
 
     const source = fromCamera ? "camera" : "library";
@@ -218,26 +251,17 @@ export default function ScanScreen({
     }, 2400);
 
     try {
-      const pages: ScanResult[] = [];
-      for (const asset of assets) {
-        setPreviewUri(asset.uri);
-        const prepared = await prepareMenuImage(asset);
-        setPreviewUri(prepared.previewUri);
-        pages.push(await scanMenu(
-          prepared.base64,
-          prepared.mediaType,
-          getLanguage(),
-          targetCurrency,
-          controller.signal,
-          prepared.retryBase64
-        ));
-      }
-      const first = pages[0];
-      const result: ScanResult = {
-        ...first,
-        dishes: pages.flatMap((page) => page.dishes),
-        page_count: pages.length,
-      };
+      const preparedPages = await Promise.all(assets.map(prepareMenuImage));
+      setPreviewUri(preparedPages[0].previewUri);
+      const result = await scanMenuPages(
+        preparedPages.map((page) => ({
+          base64: page.base64,
+          mediaType: page.mediaType,
+        })),
+        getLanguage(),
+        targetCurrency,
+        controller.signal
+      );
 
       saveScan(result, getLanguage());
       void track("scan_completed", {
@@ -330,14 +354,14 @@ export default function ScanScreen({
           styles.scrollContent,
           {
             paddingTop: insets.top + HOME_HEADER_HEIGHT + space(4),
-            paddingBottom: insets.bottom + space(8),
+            paddingBottom: insets.bottom + TAB_BAR_CONTENT_INSET,
           },
         ]}
         onScroll={handleScroll}
         scrollEventThrottle={16}
         scrollIndicatorInsets={{
           top: insets.top + HOME_HEADER_HEIGHT,
-          bottom: insets.bottom,
+          bottom: insets.bottom + TAB_BAR_CONTENT_INSET,
         }}
       >
         <Animated.View

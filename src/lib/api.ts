@@ -18,16 +18,25 @@ export class ScanError extends Error {
   }
 }
 
-export async function scanMenu(
-  base64: string,
-  mediaType: string,
+export type ScanPage = {
+  base64: string;
+  mediaType: string;
+};
+
+export async function scanMenuPages(
+  pages: ScanPage[],
   targetLanguage: string = "English",
   targetCurrency: CurrencyCode = "GBP",
   signal?: AbortSignal,
-  retryBase64?: string
 ): Promise<ScanResult> {
+  if (!pages.length || pages.length > 8) {
+    throw new ScanError("Choose between one and eight menu pages.", "invalid_page_count");
+  }
   const clientId = await getClientId();
-  const res = await fetch(`${API_URL}/scan`, {
+  const scanSessionId = `scan-${Date.now().toString(36)}-${Math.random()
+    .toString(36)
+    .slice(2, 10)}`;
+  const request: RequestInit = {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
@@ -35,14 +44,23 @@ export async function scanMenu(
     },
     signal,
     body: JSON.stringify({
-      imageBase64: base64,
-      mediaType,
-      retryImageBase64: retryBase64,
-      retryMediaType: retryBase64 ? "image/jpeg" : undefined,
+      images: pages,
       targetLanguage,
       targetCurrency,
+      scanSessionId,
     }),
-  });
+  };
+  let res: Response;
+  try {
+    res = await fetch(`${API_URL}/scan`, request);
+  } catch (error: any) {
+    if (error?.name === "AbortError" || signal?.aborted) throw error;
+    // iOS can suspend a foreground fetch while Tavue is in the background.
+    // Retrying the same idempotent session on resume recovers a completed
+    // Worker result without consuming another scan.
+    await new Promise((resolve) => setTimeout(resolve, 800));
+    res = await fetch(`${API_URL}/scan`, request);
+  }
 
   if (!res.ok) {
     const payload = (await res.json().catch(() => null)) as
