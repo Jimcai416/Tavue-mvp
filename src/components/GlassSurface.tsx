@@ -21,6 +21,7 @@ type GlassSurfaceProps = PropsWithChildren<{
   strong?: boolean;
   nativeGlass?: boolean;
   interactive?: boolean;
+  clear?: boolean;
 }>;
 
 type EdgeGlassProps = {
@@ -36,6 +37,7 @@ export default function GlassSurface({
   strong = false,
   nativeGlass = true,
   interactive = true,
+  clear = false,
 }: GlassSurfaceProps) {
   const useNativeGlass =
     nativeGlass &&
@@ -49,14 +51,20 @@ export default function GlassSurface({
         colorScheme="light"
         glassEffectStyle={strong ? "regular" : "clear"}
         isInteractive={interactive}
-        tintColor={strong ? "rgba(255,255,255,0.28)" : "rgba(255,255,255,0.14)"}
+        tintColor={
+          clear
+            ? "rgba(255,255,255,0.035)"
+            : strong
+              ? "rgba(255,255,255,0.28)"
+              : "rgba(255,255,255,0.14)"
+        }
         style={[styles.frame, style]}
       >
         <View
           pointerEvents="none"
           style={[
             StyleSheet.absoluteFill,
-            styles.nativeTint,
+            clear ? styles.nativeTintClear : styles.nativeTint,
             strong && styles.nativeTintStrong,
           ]}
         />
@@ -68,7 +76,7 @@ export default function GlassSurface({
   return (
     <View style={[styles.frame, style]}>
       <BlurView
-        tint="light"
+        tint={clear ? "default" : "light"}
         intensity={intensity}
         experimentalBlurMethod={
           Platform.OS === "android" ? "dimezisBlurView" : "none"
@@ -79,7 +87,7 @@ export default function GlassSurface({
         pointerEvents="none"
         style={[
           StyleSheet.absoluteFill,
-          styles.tint,
+          clear ? styles.tintClear : styles.tint,
           strong && styles.tintStrong,
         ]}
       />
@@ -127,8 +135,10 @@ const styles = StyleSheet.create({
     backgroundColor: "rgba(255,255,255,0.18)",
   },
   tint: { backgroundColor: colors.glass },
+  tintClear: { backgroundColor: "rgba(255,255,255,0.055)" },
   tintStrong: { backgroundColor: colors.glassStrong },
   nativeTint: { backgroundColor: "rgba(255,255,255,0.08)" },
+  nativeTintClear: { backgroundColor: "rgba(255,255,255,0.025)" },
   nativeTintStrong: { backgroundColor: "rgba(255,255,255,0.16)" },
   edgeFrame: {
     overflow: "hidden",

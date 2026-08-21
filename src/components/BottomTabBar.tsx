@@ -6,7 +6,6 @@ import {
   StyleSheet,
   View,
 } from "react-native";
-import { LinearGradient } from "expo-linear-gradient";
 import { useSafeAreaInsets } from "react-native-safe-area-context";
 import { useT } from "../lib/i18n";
 import { colors, radius, shadow, space } from "../theme";
@@ -248,30 +247,6 @@ export default function BottomTabBar({
       style={[styles.layer, { height: Math.max(insets.bottom, space(2)) + 132 }]}
     >
       <Animated.View
-        pointerEvents="none"
-        style={[
-          StyleSheet.absoluteFill,
-          {
-            opacity: compactProgress.interpolate({
-              inputRange: [0, 1],
-              outputRange: [0.88, 0.66],
-            }),
-          },
-        ]}
-      >
-        <LinearGradient
-          colors={[
-            "rgba(247,243,238,0)",
-            "rgba(247,243,238,0)",
-            "rgba(247,243,238,0.26)",
-            "rgba(247,243,238,0.64)",
-            colors.background,
-          ]}
-          locations={[0, 0.18, 0.5, 0.78, 1]}
-          style={StyleSheet.absoluteFill}
-        />
-      </Animated.View>
-      <Animated.View
         pointerEvents="box-none"
         style={[
           styles.positioner,
@@ -304,7 +279,8 @@ export default function BottomTabBar({
           <GlassSurface
             style={[styles.glass, shadow.glass]}
             contentStyle={styles.tabs}
-            intensity={54}
+            intensity={42}
+            clear
           >
           <View
             style={StyleSheet.absoluteFill}
@@ -394,14 +370,15 @@ const styles = StyleSheet.create({
   },
   positioner: {
     position: "absolute",
-    left: space(7),
-    right: space(7),
+    left: space(5),
+    right: space(5),
     zIndex: 80,
   },
   glass: {
     height: BAR_HEIGHT,
     borderRadius: radius.pill,
-    borderColor: "rgba(255,255,255,0.42)",
+    borderColor: "rgba(255,255,255,0.24)",
+    backgroundColor: "transparent",
   },
   tabs: {
     flex: 1,
