@@ -4,7 +4,8 @@ compatibility_date = "2026-07-26"
 
 [vars]
 REQUIRE_CLIENT_ID = "true"
-DAILY_SCAN_LIMIT = "20"
+# Public beta: no daily product limit. Abuse protection remains at the request layer.
+DAILY_SCAN_LIMIT = "0"
 
 # Optional but recommended: dish image cache.
 # Create with:  npx wrangler kv namespace create DISH_IMAGES

@@ -16,9 +16,11 @@
 // Override per-deploy with `wrangler secret put MODEL` if quality needs a bump
 // (e.g. back to "claude-sonnet-4-20250514").
 const DEFAULT_MODEL = "claude-haiku-4-5-20251001";
-const MAX_DISHES = 80;
-const MAX_TOKENS = 16000;
+const MAX_DISHES = 160;
+const MAX_TOKENS = 32000;
 const MAX_IMAGE_BASE64_CHARS = 10_000_000;
+const MAX_SCAN_PAGES = 8;
+const MAX_SCAN_BODY_BYTES = 32_000_000;
 const MAX_EVENT_BODY_BYTES = 8_192;
 const MAX_FEEDBACK_BODY_BYTES = 16_384;
 const FEEDBACK_TTL_SECONDS = 60 * 60 * 24 * 180;
@@ -64,6 +66,7 @@ const systemPrompt = (lang, targetCurrency) => `You are Tavue, an expert menu re
 
 Rules:
 - Extract EVERY food and drink item printed on the menu — completeness is critical. If the menu has 60 dishes, return 60 dishes. Never summarise, sample, or skip sections.
+- You may receive several photos from the same menu. Read ALL pages in their supplied order and return one combined menu. Remove only exact duplicate dishes caused by overlapping photos.
 - NEVER output section or category headers (e.g. "Antipasti", "Carne e Pollame", "Desserts", "Sides") as dishes. A dish is something a diner can order, usually with its own price. If you catch yourself writing "section header" in a description, omit that item entirely.
 - Preserve the menu structure: put the translated section heading for every item in "category" (e.g. "Starters", "Noodles", "Desserts"). Keep the same category wording for every item in that printed section. If no heading is visible, use "Menu".
 - Copy the section heading exactly as printed into "original_category". Never translate, correct, expand, or normalise it. If no heading is visible, use null.
@@ -280,7 +283,7 @@ async function receiveFeedback(request, env, clientId, cors) {
 
 async function scan(request, env, clientId, cors) {
   const startedAt = Date.now();
-  if (bodyTooLarge(request, MAX_IMAGE_BASE64_CHARS * 2 + 100_000)) {
+  if (bodyTooLarge(request, MAX_SCAN_BODY_BYTES)) {
     return json(
       { error: "Image is too large", code: "image_too_large" },
       413,
@@ -310,44 +313,40 @@ async function scan(request, env, clientId, cors) {
     return json({ error: "Invalid JSON body", code: "invalid_json" }, 400, cors);
   }
   const {
+    images: requestedImages,
     imageBase64,
     mediaType,
-    retryImageBase64,
-    retryMediaType,
     targetLanguage,
     targetCurrency,
+    scanSessionId,
   } = body || {};
-  if (!imageBase64) {
+  const images = Array.isArray(requestedImages)
+    ? requestedImages
+    : imageBase64
+      ? [{ base64: imageBase64, mediaType: mediaType || "image/jpeg" }]
+      : [];
+  if (!images.length || images.length > MAX_SCAN_PAGES) {
     return json(
-      { error: "imageBase64 required", code: "image_required" },
+      { error: "Choose between one and eight menu pages", code: "invalid_page_count" },
       400,
       cors
     );
   }
-  if (
-    typeof imageBase64 !== "string" ||
-    imageBase64.length > MAX_IMAGE_BASE64_CHARS ||
-    (retryImageBase64 &&
-      (typeof retryImageBase64 !== "string" ||
-        retryImageBase64.length > MAX_IMAGE_BASE64_CHARS))
-  ) {
+  if (images.some((image) =>
+    !image ||
+    typeof image.base64 !== "string" ||
+    !image.base64 ||
+    image.base64.length > MAX_IMAGE_BASE64_CHARS
+  )) {
     return json(
       { error: "Image is too large", code: "image_too_large" },
       413,
       cors
     );
   }
-  if (!/^image\/(jpeg|jpg|png|webp|heic|heif)$/i.test(mediaType || "image/jpeg")) {
-    return json(
-      { error: "Unsupported image type", code: "unsupported_image" },
-      415,
-      cors
-    );
-  }
-  if (
-    retryImageBase64 &&
-    !/^image\/(jpeg|jpg|png|webp)$/i.test(retryMediaType || "image/jpeg")
-  ) {
+  if (images.some((image) =>
+    !/^image\/(jpeg|jpg|png|webp|heic|heif)$/i.test(image.mediaType || "image/jpeg")
+  )) {
     return json(
       { error: "Unsupported retry image type", code: "unsupported_image" },
       415,
@@ -357,8 +356,25 @@ async function scan(request, env, clientId, cors) {
 
   const clientHash = await hashClientId(clientId || "anonymous");
   const limitStore = env.SCAN_LIMITS || env.FEEDBACK;
-  if (clientId && limitStore) {
-    const limit = Math.max(1, parseInt(env.DAILY_SCAN_LIMIT || "20", 10));
+  const safeSessionId =
+    typeof scanSessionId === "string" && /^scan-[a-z0-9-]{8,64}$/i.test(scanSessionId)
+      ? scanSessionId
+      : null;
+  const sessionKey = safeSessionId
+    ? `scan-result:${clientHash}:${safeSessionId}`
+    : null;
+  if (sessionKey && limitStore) {
+    const cachedResult = await limitStore.get(sessionKey);
+    if (cachedResult) {
+      return new Response(cachedResult, {
+        status: 200,
+        headers: { ...cors, "Content-Type": "application/json", "X-Tavue-Scan-Resume": "hit" },
+      });
+    }
+  }
+  const configuredLimit = parseInt(env.DAILY_SCAN_LIMIT || "0", 10);
+  if (clientId && limitStore && configuredLimit > 0) {
+    const limit = Math.max(1, configuredLimit);
     const day = new Date().toISOString().slice(0, 10);
     const key = `scan:${day}:${clientHash}`;
     const used = parseInt((await limitStore.get(key)) || "0", 10);
@@ -391,8 +407,7 @@ async function scan(request, env, clientId, cors) {
   try {
     parsed = await parseMenu(
       env,
-      imageBase64,
-      mediaType || "image/jpeg",
+      images,
       lang,
       currency
     );
@@ -400,15 +415,10 @@ async function scan(request, env, clientId, cors) {
     try {
       parsed = await parseMenu(
         env,
-        retryImageBase64 || imageBase64,
-        retryImageBase64
-          ? retryMediaType || "image/jpeg"
-          : mediaType || "image/jpeg",
+        images,
         lang,
         currency,
-        retryImageBase64
-          ? "This is a focused crop of the main menu page. Ignore any remaining border and extract every visible dish."
-          : "Retry carefully. Read the menu and return complete valid JSON only."
+        "Retry carefully. Read every supplied menu page and return one complete valid JSON object only."
       );
       console.info(
         JSON.stringify({ type: "scan_retry_succeeded", durationMs: Date.now() - startedAt })
@@ -467,6 +477,13 @@ async function scan(request, env, clientId, cors) {
   }
   parsed.dishes = dishes;
   parsed.display_currency = currency;
+  parsed.page_count = images.length;
+
+  if (sessionKey && limitStore) {
+    await limitStore.put(sessionKey, JSON.stringify(parsed), {
+      expirationTtl: 60 * 15,
+    });
+  }
 
   writeAnalytics(env, "scan_api_completed", clientHash, {
     durationMs: Date.now() - startedAt,
@@ -477,8 +494,7 @@ async function scan(request, env, clientId, cors) {
 
 async function parseMenu(
   env,
-  imageBase64,
-  mediaType,
+  images,
   lang = "English",
   targetCurrency = "GBP",
   instruction = "Read this menu and return the JSON."
@@ -498,10 +514,14 @@ async function parseMenu(
         {
           role: "user",
           content: [
-            {
+            ...images.map((image) => ({
               type: "image",
-              source: { type: "base64", media_type: mediaType, data: imageBase64 },
-            },
+              source: {
+                type: "base64",
+                media_type: image.mediaType || "image/jpeg",
+                data: image.base64,
+              },
+            })),
             { type: "text", text: instruction },
           ],
         },
