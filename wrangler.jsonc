@@ -1,0 +1,44 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "dishlens-api",
+  "main": "worker/src/index.js",
+  "compatibility_date": "2026-07-26",
+  "vars": {
+    "REQUIRE_CLIENT_ID": "true",
+    "DAILY_SCAN_LIMIT": "0"
+  },
+  "kv_namespaces": [
+    {
+      "binding": "FEEDBACK",
+      "id": "8cdef6ff25ef4c4a81d93f1603f07020"
+    }
+  ],
+  "analytics_engine_datasets": [
+    {
+      "binding": "ANALYTICS",
+      "dataset": "carte_beta_events"
+    }
+  ],
+  "ratelimits": [
+    {
+      "name": "SCAN_BURST_LIMITER",
+      "namespace_id": "120260726",
+      "simple": {
+        "limit": 6,
+        "period": 60
+      }
+    },
+    {
+      "name": "EVENTS_RATE_LIMITER",
+      "namespace_id": "120260727",
+      "simple": {
+        "limit": 120,
+        "period": 60
+      }
+    }
+  ],
+  "observability": {
+    "enabled": true,
+    "head_sampling_rate": 1
+  }
+}
