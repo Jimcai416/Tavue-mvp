@@ -8,7 +8,7 @@ import {
 } from "react-native";
 import { useSafeAreaInsets } from "react-native-safe-area-context";
 import { useT } from "../lib/i18n";
-import { colors, radius, shadow, space } from "../theme";
+import { colors, radius, space } from "../theme";
 import GlassSurface from "./GlassSurface";
 
 export type RootTab = "scan" | "orderHistory" | "profile";
@@ -18,9 +18,9 @@ export const TAB_BAR_CONTENT_INSET = 94;
 const ROOT_TABS: RootTab[] = ["scan", "orderHistory", "profile"];
 const TAB_GAP = space(1);
 const BAR_PADDING = 4;
-const BAR_HEIGHT = 52;
+const BAR_HEIGHT = 50;
 const TAB_HEIGHT = BAR_HEIGHT - BAR_PADDING * 2;
-const LENS_MAX_WIDTH = 84;
+const LENS_MAX_WIDTH = 78;
 const DRAG_START_DISTANCE = 5;
 
 function ScanGlyph({ active }: { active: boolean }) {
@@ -275,11 +275,11 @@ export default function BottomTabBar({
           },
         ]}
       >
-        <View {...panResponder.panHandlers}>
+        <View style={styles.barFrame} {...panResponder.panHandlers}>
           <GlassSurface
-            style={[styles.glass, shadow.glass]}
+            style={styles.glass}
             contentStyle={styles.tabs}
-            intensity={42}
+            intensity={18}
             clear
           >
           <View
@@ -370,14 +370,19 @@ const styles = StyleSheet.create({
   },
   positioner: {
     position: "absolute",
-    left: space(5),
-    right: space(5),
+    left: 0,
+    right: 0,
+    alignItems: "center",
     zIndex: 80,
+  },
+  barFrame: {
+    width: "72%",
+    maxWidth: 284,
   },
   glass: {
     height: BAR_HEIGHT,
     borderRadius: radius.pill,
-    borderColor: "rgba(255,255,255,0.24)",
+    borderColor: "rgba(255,255,255,0.18)",
     backgroundColor: "transparent",
   },
   tabs: {
@@ -393,8 +398,8 @@ const styles = StyleSheet.create({
     height: TAB_HEIGHT,
     borderRadius: radius.pill,
     borderWidth: 1,
-    borderColor: "rgba(255,255,255,0.26)",
-    backgroundColor: "rgba(43,33,29,0.09)",
+    borderColor: "rgba(255,255,255,0.18)",
+    backgroundColor: "rgba(43,33,29,0.065)",
   },
   tab: {
     flex: 1,
