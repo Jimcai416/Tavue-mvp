@@ -4,24 +4,24 @@ import {
   PanResponder,
   Pressable,
   StyleSheet,
-  Text,
   View,
 } from "react-native";
 import { LinearGradient } from "expo-linear-gradient";
 import { useSafeAreaInsets } from "react-native-safe-area-context";
 import { useT } from "../lib/i18n";
-import { colors, fonts, radius, shadow, space } from "../theme";
+import { colors, radius, shadow, space } from "../theme";
 import GlassSurface from "./GlassSurface";
 
 export type RootTab = "scan" | "orderHistory" | "profile";
 
-export const TAB_BAR_CONTENT_INSET = 108;
+export const TAB_BAR_CONTENT_INSET = 94;
 
 const ROOT_TABS: RootTab[] = ["scan", "orderHistory", "profile"];
 const TAB_GAP = space(1);
-const BAR_PADDING = 5;
-const BAR_HEIGHT = 64;
+const BAR_PADDING = 4;
+const BAR_HEIGHT = 52;
 const TAB_HEIGHT = BAR_HEIGHT - BAR_PADDING * 2;
+const LENS_MAX_WIDTH = 84;
 const DRAG_START_DISTANCE = 5;
 
 function ScanGlyph({ active }: { active: boolean }) {
@@ -149,6 +149,7 @@ export default function BottomTabBar({
       ROOT_TABS.length
   );
   const tabStep = tabWidth + TAB_GAP;
+  const lensWidth = Math.min(tabWidth, LENS_MAX_WIDTH);
   const settleTabContent = (target: number) => {
     Animated.parallel(
       tabLifts.map((value, index) =>
@@ -244,7 +245,7 @@ export default function BottomTabBar({
   return (
     <View
       pointerEvents="box-none"
-      style={[styles.layer, { height: Math.max(insets.bottom, space(2)) + 154 }]}
+      style={[styles.layer, { height: Math.max(insets.bottom, space(2)) + 132 }]}
     >
       <Animated.View
         pointerEvents="none"
@@ -253,7 +254,7 @@ export default function BottomTabBar({
           {
             opacity: compactProgress.interpolate({
               inputRange: [0, 1],
-              outputRange: [1, 0.78],
+              outputRange: [0.88, 0.66],
             }),
           },
         ]}
@@ -262,8 +263,8 @@ export default function BottomTabBar({
           colors={[
             "rgba(247,243,238,0)",
             "rgba(247,243,238,0)",
-            "rgba(247,243,238,0.46)",
-            "rgba(247,243,238,0.88)",
+            "rgba(247,243,238,0.26)",
+            "rgba(247,243,238,0.64)",
             colors.background,
           ]}
           locations={[0, 0.18, 0.5, 0.78, 1]}
@@ -280,19 +281,19 @@ export default function BottomTabBar({
               {
                 translateY: compactProgress.interpolate({
                   inputRange: [0, 1],
-                  outputRange: [0, 5],
+                  outputRange: [0, 7],
                 }),
               },
               {
                 scaleX: compactProgress.interpolate({
                   inputRange: [0, 1],
-                  outputRange: [1, 0.91],
+                  outputRange: [1, 0.86],
                 }),
               },
               {
                 scaleY: compactProgress.interpolate({
                   inputRange: [0, 1],
-                  outputRange: [1, 0.88],
+                  outputRange: [1, 0.86],
                 }),
               },
             ],
@@ -303,19 +304,8 @@ export default function BottomTabBar({
           <GlassSurface
             style={[styles.glass, shadow.glass]}
             contentStyle={styles.tabs}
-            intensity={72}
-            strong
+            intensity={54}
           >
-          <LinearGradient
-            pointerEvents="none"
-            colors={["rgba(255,255,255,0.58)", "rgba(255,255,255,0.10)"]}
-            locations={[0, 0.52]}
-            style={styles.topRefraction}
-          />
-          <View
-            pointerEvents="none"
-            style={styles.innerLine}
-          />
           <View
             style={StyleSheet.absoluteFill}
             onLayout={(event) => setBarWidth(event.nativeEvent.layout.width)}
@@ -326,8 +316,8 @@ export default function BottomTabBar({
                 style={[
                   styles.activeLensFrame,
                   {
-                    left: BAR_PADDING,
-                    width: tabWidth,
+                    left: BAR_PADDING + Math.max(0, (tabWidth - lensWidth) / 2),
+                    width: lensWidth,
                     transform: [
                       { translateX: Animated.multiply(indicatorPosition, tabStep) },
                       {
@@ -339,9 +329,7 @@ export default function BottomTabBar({
                     ],
                   },
                 ]}
-              >
-                <View style={styles.lensHighlight} />
-              </Animated.View>
+              />
             )}
           </View>
 
@@ -385,7 +373,6 @@ export default function BottomTabBar({
                 ]}
               >
                 {tab.icon(active)}
-                <Text style={[styles.label, active && styles.labelActive]}>{tab.label}</Text>
               </Animated.View>
             </Pressable>
           );
@@ -407,14 +394,14 @@ const styles = StyleSheet.create({
   },
   positioner: {
     position: "absolute",
-    left: space(4),
-    right: space(4),
+    left: space(7),
+    right: space(7),
     zIndex: 80,
   },
   glass: {
     height: BAR_HEIGHT,
     borderRadius: radius.pill,
-    borderColor: "rgba(255,255,255,0.92)",
+    borderColor: "rgba(255,255,255,0.42)",
   },
   tabs: {
     flex: 1,
@@ -423,42 +410,14 @@ const styles = StyleSheet.create({
     padding: BAR_PADDING,
     gap: TAB_GAP,
   },
-  topRefraction: {
-    position: "absolute",
-    left: 15,
-    right: 15,
-    top: 1,
-    height: 19,
-    borderRadius: radius.pill,
-  },
-  innerLine: {
-    ...StyleSheet.absoluteFillObject,
-    borderWidth: 1,
-    borderColor: "rgba(255,255,255,0.38)",
-    borderRadius: radius.pill,
-  },
   activeLensFrame: {
     position: "absolute",
     top: BAR_PADDING,
     height: TAB_HEIGHT,
     borderRadius: radius.pill,
     borderWidth: 1,
-    borderColor: "rgba(255,255,255,0.72)",
-    backgroundColor: "rgba(83,78,76,0.10)",
-    shadowColor: "#3B3735",
-    shadowOpacity: 0.08,
-    shadowRadius: 10,
-    shadowOffset: { width: 0, height: 3 },
-    elevation: 1,
-  },
-  lensHighlight: {
-    position: "absolute",
-    left: 12,
-    right: 12,
-    top: 2,
-    height: 1,
-    borderRadius: 1,
-    backgroundColor: "rgba(255,255,255,0.96)",
+    borderColor: "rgba(255,255,255,0.26)",
+    backgroundColor: "rgba(43,33,29,0.09)",
   },
   tab: {
     flex: 1,
@@ -472,20 +431,9 @@ const styles = StyleSheet.create({
   tabContent: {
     alignItems: "center",
     justifyContent: "center",
-    gap: 3,
   },
   tabPressed: {
     opacity: 0.68,
-  },
-  label: {
-    fontFamily: fonts.bodyMedium,
-    fontSize: 9,
-    lineHeight: 11,
-    color: colors.muted,
-  },
-  labelActive: {
-    fontFamily: fonts.bodyBold,
-    color: colors.text,
   },
   scanGlyph: {
     width: 21,
