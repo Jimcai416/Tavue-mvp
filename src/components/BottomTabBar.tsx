@@ -18,9 +18,8 @@ export const TAB_BAR_CONTENT_INSET = 94;
 const ROOT_TABS: RootTab[] = ["scan", "orderHistory", "profile"];
 const TAB_GAP = space(1);
 const BAR_PADDING = 4;
-const BAR_HEIGHT = 50;
+const BAR_HEIGHT = 52;
 const TAB_HEIGHT = BAR_HEIGHT - BAR_PADDING * 2;
-const LENS_MAX_WIDTH = 78;
 const DRAG_START_DISTANCE = 5;
 
 function ScanGlyph({ active }: { active: boolean }) {
@@ -148,7 +147,6 @@ export default function BottomTabBar({
       ROOT_TABS.length
   );
   const tabStep = tabWidth + TAB_GAP;
-  const lensWidth = Math.min(tabWidth, LENS_MAX_WIDTH);
   const settleTabContent = (target: number) => {
     Animated.parallel(
       tabLifts.map((value, index) =>
@@ -292,8 +290,8 @@ export default function BottomTabBar({
                 style={[
                   styles.activeLensFrame,
                   {
-                    left: BAR_PADDING + Math.max(0, (tabWidth - lensWidth) / 2),
-                    width: lensWidth,
+                    left: BAR_PADDING,
+                    width: tabWidth,
                     transform: [
                       { translateX: Animated.multiply(indicatorPosition, tabStep) },
                       {
@@ -370,14 +368,12 @@ const styles = StyleSheet.create({
   },
   positioner: {
     position: "absolute",
-    left: 0,
-    right: 0,
-    alignItems: "center",
+    left: space(5),
+    right: space(5),
     zIndex: 80,
   },
   barFrame: {
-    width: "72%",
-    maxWidth: 284,
+    width: "100%",
   },
   glass: {
     height: BAR_HEIGHT,
