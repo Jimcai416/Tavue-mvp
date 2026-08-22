@@ -3,6 +3,22 @@
   "name": "dishlens-api",
   "main": "worker/src/index.js",
   "compatibility_date": "2026-07-26",
+  "build": {
+    "command": "npm run export:web"
+  },
+  "assets": {
+    "directory": "./dist",
+    "binding": "ASSETS",
+    "not_found_handling": "single-page-application",
+    "run_worker_first": [
+      "/health",
+      "/privacy",
+      "/support",
+      "/scan",
+      "/events",
+      "/feedback"
+    ]
+  },
   "vars": {
     "REQUIRE_CLIENT_ID": "true",
     "DAILY_SCAN_LIMIT": "0"
