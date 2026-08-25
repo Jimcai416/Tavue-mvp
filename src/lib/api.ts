@@ -1,5 +1,5 @@
 import AsyncStorage from "@react-native-async-storage/async-storage";
-import { Alert, Platform } from "react-native";
+import { Platform } from "react-native";
 import * as FileSystem from "expo-file-system/legacy";
 import { ScanResult } from "../types";
 import { CurrencyCode } from "./currency";
@@ -48,66 +48,8 @@ type QueuedScanJob = {
   nextAttemptAt: number;
 };
 
-type QueueCopy = {
-  title: string;
-  body: string;
-  button: string;
-};
-
-const QUEUE_COPY: Record<string, QueueCopy> = {
-  English: {
-    title: "Menu saved ✓",
-    body: "The connection is weak. Tavue will continue automatically when it can reach the server.",
-    button: "Got it",
-  },
-  "Chinese (Simplified)": {
-    title: "菜单已保存 ✓",
-    body: "当前网络较弱。网络恢复后，Tavue 会自动继续处理，无需重新拍摄。",
-    button: "知道了",
-  },
-  "Chinese (Traditional)": {
-    title: "菜單已儲存 ✓",
-    body: "目前網路較弱。連線恢復後，Tavue 會自動繼續處理，不需要重新拍攝。",
-    button: "知道了",
-  },
-  French: {
-    title: "Menu enregistré ✓",
-    body: "La connexion est faible. Tavue reprendra automatiquement dès que le serveur sera accessible.",
-    button: "Compris",
-  },
-  Italian: {
-    title: "Menu salvato ✓",
-    body: "La connessione è debole. Tavue continuerà automaticamente quando il server sarà raggiungibile.",
-    button: "Va bene",
-  },
-  Spanish: {
-    title: "Menú guardado ✓",
-    body: "La conexión es débil. Tavue continuará automáticamente cuando pueda conectarse al servidor.",
-    button: "Entendido",
-  },
-  Japanese: {
-    title: "メニューを保存しました ✓",
-    body: "接続が不安定です。通信が戻り次第、Tavue が自動で処理を続けます。撮り直す必要はありません。",
-    button: "OK",
-  },
-  Korean: {
-    title: "메뉴 저장됨 ✓",
-    body: "네트워크 연결이 약합니다. 연결이 복구되면 Tavue가 자동으로 처리를 계속합니다.",
-    button: "확인",
-  },
-  Thai: {
-    title: "บันทึกเมนูแล้ว ✓",
-    body: "สัญญาณอินเทอร์เน็ตอ่อน Tavue จะดำเนินการต่อโดยอัตโนมัติเมื่อเชื่อมต่อเซิร์ฟเวอร์ได้",
-    button: "ตกลง",
-  },
-};
-
 const activeJobs = new Set<string>();
 let drainInFlight = false;
-
-function queueCopy(language: string): QueueCopy {
-  return QUEUE_COPY[language] ?? QUEUE_COPY.English;
-}
 
 function createSessionId(): string {
   return `scan-${Date.now().toString(36)}-${Math.random().toString(36).slice(2, 10)}`;
@@ -126,6 +68,17 @@ async function getQueue(): Promise<QueuedScanJob[]> {
 
 export async function getPendingScanCount(): Promise<number> {
   return (await getQueue()).length;
+}
+
+export async function getPendingScanStatus(): Promise<{
+  count: number;
+  processing: boolean;
+}> {
+  const queue = await getQueue();
+  return {
+    count: queue.length,
+    processing: queue.some((job) => activeJobs.has(job.id)),
+  };
 }
 
 async function setQueue(queue: QueuedScanJob[]): Promise<void> {
@@ -335,6 +288,13 @@ async function drainQueuedScans(): Promise<void> {
   }
 }
 
+export async function retryPendingScans(): Promise<void> {
+  if (Platform.OS === "web") return;
+  const queue = await getQueue();
+  await setQueue(queue.map((job) => ({ ...job, nextAttemptAt: 0 })));
+  await drainQueuedScans();
+}
+
 if (Platform.OS !== "web") {
   // Timers pause naturally when React Native is suspended. On foreground/resume
   // they continue, so queued scans recover without requiring a network library.
@@ -398,12 +358,9 @@ export async function scanMenuPages(
         nextAttemptAt: Date.now() + retryDelay(1),
       }));
 
-      const copy = queueCopy(targetLanguage);
-      Alert.alert(copy.title, copy.body, [{ text: copy.button }]);
-
-      // The menu is safely queued, so this is not a scan failure. Surface it to
-      // ScanScreen as a quiet foreground completion rather than its error alert.
-      const queued = new Error(copy.body);
+      // This is a successful local save, not a user-facing scan failure. The
+      // Home pending-menu card owns the weak-network status and retry action.
+      const queued = new Error("Menu saved. Waiting for connection.");
       queued.name = "AbortError";
       throw queued;
     }
