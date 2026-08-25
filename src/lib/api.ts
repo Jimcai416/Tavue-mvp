@@ -66,6 +66,21 @@ async function getQueue(): Promise<QueuedScanJob[]> {
   }
 }
 
+export async function getPendingScanCount(): Promise<number> {
+  return (await getQueue()).length;
+}
+
+export async function getPendingScanStatus(): Promise<{
+  count: number;
+  processing: boolean;
+}> {
+  const queue = await getQueue();
+  return {
+    count: queue.length,
+    processing: queue.some((job) => activeJobs.has(job.id)),
+  };
+}
+
 async function setQueue(queue: QueuedScanJob[]): Promise<void> {
   if (Platform.OS === "web") return;
   await AsyncStorage.setItem(QUEUE_KEY, JSON.stringify(queue));
@@ -273,6 +288,13 @@ async function drainQueuedScans(): Promise<void> {
   }
 }
 
+export async function retryPendingScans(): Promise<void> {
+  if (Platform.OS === "web") return;
+  const queue = await getQueue();
+  await setQueue(queue.map((job) => ({ ...job, nextAttemptAt: 0 })));
+  await drainQueuedScans();
+}
+
 if (Platform.OS !== "web") {
   // Timers pause naturally when React Native is suspended. On foreground/resume
   // they continue, so queued scans recover without requiring a network library.
@@ -335,10 +357,12 @@ export async function scanMenuPages(
         attemptCount: 1,
         nextAttemptAt: Date.now() + retryDelay(1),
       }));
-      throw new ScanError(
-        "Menu saved. The connection is weak, so Tavue will continue automatically when it can reach the server.",
-        "scan_queued"
-      );
+
+      // This is a successful local save, not a user-facing scan failure. The
+      // Home pending-menu card owns the weak-network status and retry action.
+      const queued = new Error("Menu saved. Waiting for connection.");
+      queued.name = "AbortError";
+      throw queued;
     }
 
     await removeQueuedJob(job.id);

@@ -19,6 +19,7 @@ import ScanScreen from "./src/screens/ScanScreen";
 import ResultsScreen from "./src/screens/ResultsScreen";
 import OrderHistoryScreen from "./src/screens/OrderHistoryScreen";
 import ProfileScreen from "./src/screens/ProfileScreen";
+import PendingScanCard from "./src/components/PendingScanCard";
 import { Screen, ScanResult } from "./src/types";
 import { colors } from "./src/theme";
 import { AmbientBackdrop } from "./src/components/GlassSurface";
@@ -133,9 +134,6 @@ function App() {
   useEffect(() => {
     if (Platform.OS !== "web" || fontsLoaded || fontError) return;
 
-    // A missing web font must never block the whole product. This is especially
-    // important for subpath hosts where a bad asset base URL can otherwise leave
-    // Android browsers on the launch spinner forever.
     const timeout = setTimeout(() => {
       setWebFontFallbackReady(true);
       captureOperationalError({ operation: "startup", errorCode: "font_load_timeout" });
@@ -210,6 +208,8 @@ function App() {
           {screen.name === "profile" && (
             <ProfileScreen onTabBarCompactChange={setTabBarCompact} />
           )}
+
+          {screen.name === "scan" && !scanBusy && <PendingScanCard />}
 
           {(screen.name === "scan" ||
             screen.name === "orderHistory" ||
