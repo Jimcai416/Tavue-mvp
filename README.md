@@ -2,7 +2,7 @@
   <img src="./assets/tavue-icon.png" alt="Tavue app icon" width="128" />
   <h1>Tavue</h1>
   <p>Point Tavue at any restaurant menu. See every dish in your language.</p>
-  <p><strong>Version 0.9.0 · Order History and real-photo contributions</strong></p>
+  <p><strong>Version 0.9.1 · Weak-network reliability</strong></p>
 </div>
 
 Tavue turns a photo of a restaurant menu into a clear, visual guide. It
@@ -12,11 +12,37 @@ show the server.
 
 `scan → choose → show server → remember the order → add real dish photos`
 
+## 0.9.1 release notes
+
+Version 0.9.1 makes native menu scanning resilient in restaurants with poor or
+intermittent connectivity.
+
+- Compressed menu pages are saved to durable app storage before upload on iOS
+  and Android.
+- A pending scan survives weak connectivity and app restarts and retries with
+  exponential backoff when the app can reach the API again.
+- Every retry reuses the same `scanSessionId`, allowing the Worker to return a
+  previously completed result without consuming another scan.
+- A weak connection is now presented as `Menu saved ✓` / `菜单已保存 ✓` instead
+  of a generic scan failure, so the diner knows there is no need to retake the
+  menu photo.
+- Completed background retries are written into Recent menus automatically.
+- User cancellation removes the pending job and its local temporary files, so
+  cancelled scans do not reappear later.
+- The Tavue Web deployment and API Worker now have separate Cloudflare configs;
+  `tavue.tavuelabs.com` serves the exported SPA while `dishlens-api` remains the
+  scanning backend.
+
+This release is Level 1 offline-first resilience. First-time OCR and translation
+still require a network connection; on-device OCR/offline translation are not
+part of v0.9.1.
+
 ## Current product
 
 - One Expo / React Native product for iOS, Android and mobile Web
 - Zero-install Web flow with mobile camera/photo upload and single-page deployment
 - Camera and photo-library menu scanning
+- Durable native weak-network scan queue with automatic retry and resume
 - Claude-powered OCR, translation and menu structuring
 - Menu sections, dietary filters and compact visual dish cards
 - Dish explanations, ingredients, prices and ordering advice
@@ -37,17 +63,17 @@ show the server.
 The paywall prototype remains in the repository for future development, but it
 is not reachable and does not limit the beta.
 
-Contribution photos in v0.9.0 are compressed and saved only on the user's
+Contribution photos in v0.9.1 are compressed and saved only on the user's
 device. Cloud upload, accounts, review decisions and scan-credit grants remain
-disabled until the moderation backend is introduced in the next beta.
+disabled until the moderation backend is introduced in a later beta.
 
 ## Beta safeguards
 
-Version 0.9.0 retains the infrastructure required for controlled testing:
+Version 0.9.1 retains the infrastructure required for controlled testing:
 
 - Privacy-safe, first-party product analytics through Cloudflare Analytics Engine
 - Sentry crash monitoring with PII, screenshots and menu content disabled
-- Per-install burst and daily scan limits
+- Per-install request burst protection
 - Explicit consent before a menu image is sent for AI processing
 - Hosted privacy policy, support and health endpoints
 - Android microphone permission explicitly blocked
@@ -72,17 +98,15 @@ npm run web
 npm run export:web
 ```
 
-The production-ready single-page bundle is written to `dist/`. Deploy that
-directory to any static host; all scanning continues to use the existing
-Cloudflare Worker.
+The production-ready single-page bundle is written to `dist/`. The dedicated
+Cloudflare Web deployment uses `worker/wrangler.web.toml`; scanning continues to
+use the API Worker configured in `src/lib/api.ts`.
 
-The app currently points to the deployed Worker URL in `src/lib/api.ts`.
-Optional client environment variables are documented in `.env.example`.
+## Deploy the API Worker
 
-## Deploy the Worker
+From the repository root:
 
 ```bash
-cd worker
 npx wrangler login
 npx wrangler secret put ANTHROPIC_API_KEY
 npx wrangler deploy
@@ -96,11 +120,6 @@ npx wrangler secret put BRAVE_API_KEY
 npx wrangler secret put GOOGLE_CSE_KEY
 npx wrangler secret put GOOGLE_CSE_CX
 ```
-
-The beta requires an anonymous client ID, limits each installation to six scan
-attempts per minute and allows 20 scans per day. Daily counters use
-`SCAN_LIMITS` when configured, otherwise the existing `FEEDBACK` KV namespace
-with isolated `scan:` keys.
 
 Worker endpoints:
 
@@ -118,21 +137,12 @@ See `worker/analytics.sql` for the core beta queries.
 ```text
 App.tsx
 assets/
-  tavue-icon.png
-  tavue-splash.png
-  tavue-adaptive-foreground.png
-  tavue-adaptive-monochrome.png
 src/
   screens/
     ScanScreen.tsx
     ResultsScreen.tsx
-    PaywallScreen.tsx       # future feature; not in beta navigation
+    PaywallScreen.tsx
   components/
-    DishCard.tsx
-    DishDetailSheet.tsx
-    GlassSurface.tsx
-    OrderCart.tsx
-    OrderSheet.tsx
   lib/
     analytics.ts
     api.ts
@@ -143,8 +153,11 @@ src/
     privacy.ts
 worker/
   src/index.js
+  src/entry.js
+  src/web.js
   analytics.sql
   wrangler.toml
+  wrangler.web.toml
 docs/
   APP-STORE-PRIVACY.md
   PRIVACY-POLICY.md
