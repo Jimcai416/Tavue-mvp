@@ -1,4 +1,4 @@
-# Tavue 0.9.0 TestFlight handoff
+# Tavue 0.9.1 TestFlight handoff
 
 ## Build identity
 
@@ -6,8 +6,16 @@
 - Bundle identifier: `com.playbook.dishlens`
 - EAS project ID: `859efdc3-4c16-448c-9e6a-fe98349513c5`
 - Build profile: `production`
-- Version: `0.9.0`
+- Version: `0.9.1`
 - Build number: remotely managed and auto-incremented by EAS
+
+## Release focus
+
+0.9.1 focuses on weak-network reliability. On iOS and Android, compressed menu
+pages are saved locally before upload. Retryable connection/server failures keep
+the menu in a durable queue, reuse the same scan session and resume
+automatically. A queued scan should be presented as a saved menu rather than a
+failed scan. Web scanning remains an online/direct flow.
 
 ## One-time production configuration
 
@@ -24,7 +32,6 @@ SENTRY_PROJECT
 Configure the Worker support address before deploying:
 
 ```bash
-cd worker
 npx wrangler secret put SUPPORT_EMAIL
 npx wrangler deploy
 ```
@@ -57,41 +64,22 @@ eas build:list --platform ios --limit 5
 ## TestFlight “What to Test”
 
 ```text
-Please test Tavue in a real restaurant:
+Please test Tavue 0.9.1 in a real restaurant, especially with weak connectivity:
 
-1. Confirm the Tavue name, T/V icon and warm-paper splash appear correctly.
-2. Upgrade over an earlier beta and confirm Recent menus, language, currency
-   and food profile are preserved.
-3. In Simplified Chinese, confirm “看懂菜单，轻松点菜。” is not clipped.
-4. Scan one page of a menu in a language you do not read and check whether
-   every visible dish, section and price is recognised.
-5. Open several dish details and verify descriptions and dietary flags.
-6. Add several dishes to Your order and adjust their quantities.
-7. Tap Show server. Confirm that quantities, original dish names, original
-   menu sections and printed prices are easy for restaurant staff to read.
-8. Try the brightness button, return to the editable order, then reopen it.
-9. On mobile Web, confirm the top and bottom backgrounds remain continuous,
-   the brightness button enters a visible high-contrast mode, and the App
-   remains full-width on native iOS/Android.
-10. Close Show server and open History from the bottom navigation. Confirm the
-    same dishes and quantities were saved without creating duplicate meals.
-11. Confirm Scan contains only menu actions and Recent menus; History is not
-    repeated as a card on the same page.
-12. Open Profile and confirm it clearly says that account, cloud sync and scan
-    balance are future features while current data remains on this device.
-13. Return to History, add the restaurant name, then take or choose a real photo for one ordered
-    dish. Confirm it stays attached after closing and reopening Tavue.
-14. Replace and remove the dish photo, and confirm menu photos are never shown
-    as saved contribution photos.
-15. Return to the History list, swipe one meal left and delete it. Confirm the
-    warning appears and the meal disappears only after confirmation.
-16. Create at least two more meals, tap Edit, select multiple entries and delete
-    them together. Confirm Cancel/Done leaves unselected entries untouched.
-17. Return later and reopen the menu from Recent menus.
+1. Scan a normal menu with a good connection and confirm the result still opens normally.
+2. Start a native scan, then disable Wi-Fi/mobile data while it is uploading. Confirm Tavue says “Menu saved ✓” (or the equivalent translated message), not “Scan failed”.
+3. While that scan is queued, close Tavue completely, reopen it, restore the connection and confirm the queued menu resumes automatically and appears in Recent menus after completion.
+4. Repeat a weak-network scan but press Cancel before it queues/completes. Confirm it does not reappear later after the connection returns.
+5. Confirm retrying a dropped connection does not create duplicate Recent menus or consume the same scan twice.
+6. Scan several menu pages together and confirm page order, visible dishes, sections and printed prices remain correct.
+7. Open several dish details and verify descriptions, dietary flags and allergen guidance.
+8. Add dishes to Your order, adjust quantities and open Show server. Confirm original dish names, sections and printed prices remain easy for restaurant staff to read.
+9. Close Show server and confirm the order is saved once in History.
+10. Add/replace/remove a real dish photo from History and confirm it remains local after reopening Tavue.
+11. On tavue.tavuelabs.com, confirm the Web app loads instead of a route_not_found JSON response and that web scanning still works normally.
+12. Confirm /health on the API deployment reports version 0.9.1 after the new Worker is deployed.
 
-Please report slow scans, altered original dish names, missing dishes, wrong
-prices/currency, crashes, or layouts that overlap the floating Liquid Glass
-header/dock. Always confirm ingredients and allergens with restaurant staff.
+Please report slow scans, queued scans that never resume, duplicate scans, altered original dish names, missing dishes, wrong prices/currency, crashes, or layouts that overlap the floating Liquid Glass header/dock. Always confirm ingredients and allergens with restaurant staff.
 ```
 
 ## Beta App Review information still requiring owner input
