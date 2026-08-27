@@ -1,4 +1,5 @@
 import fs from 'node:fs';
+import { createHmac, randomBytes } from 'node:crypto';
 import path from 'node:path';
 import process from 'node:process';
 
@@ -9,12 +10,25 @@ const OUT_DIR = path.join(ROOT, 'benchmarks', 'fatsecret', 'results');
 loadEnvFile(path.join(ROOT, '.env.local'));
 loadEnvFile(path.join(ROOT, '.env'));
 
-const clientId = process.env.FATSECRET_CLIENT_ID;
-const clientSecret = process.env.FATSECRET_CLIENT_SECRET;
+const oauthVersion = process.env.FATSECRET_OAUTH_VERSION || '2';
+const clientId = oauthVersion === '1'
+  ? process.env.FATSECRET_CONSUMER_KEY
+  : process.env.FATSECRET_CLIENT_ID;
+const clientSecret = oauthVersion === '1'
+  ? process.env.FATSECRET_CONSUMER_SECRET
+  : process.env.FATSECRET_CLIENT_SECRET;
 
 if (!clientId || !clientSecret) {
-  console.error('Missing FATSECRET_CLIENT_ID or FATSECRET_CLIENT_SECRET.');
+  const names = oauthVersion === '1'
+    ? 'FATSECRET_CONSUMER_KEY or FATSECRET_CONSUMER_SECRET'
+    : 'FATSECRET_CLIENT_ID or FATSECRET_CLIENT_SECRET';
+  console.error(`Missing ${names}.`);
   console.error('Add them to .env.local or export them in your shell. Never commit the secret.');
+  process.exit(1);
+}
+
+if (!['1', '2'].includes(oauthVersion)) {
+  console.error('FATSECRET_OAUTH_VERSION must be either "1" or "2".');
   process.exit(1);
 }
 
@@ -32,10 +46,10 @@ if (!Array.isArray(dishes) || !dishes.length) {
 
 fs.mkdirSync(OUT_DIR, { recursive: true });
 
-const token = await getAccessToken(clientId, clientSecret);
+const token = oauthVersion === '2' ? await getAccessToken(clientId, clientSecret) : null;
 const results = [];
 
-console.log(`Testing ${dishes.length} dishes against FatSecret foods.search.v5...`);
+console.log(`Testing ${dishes.length} dishes against FatSecret foods.search.v5 using OAuth ${oauthVersion}.0...`);
 
 for (let i = 0; i < dishes.length; i += 1) {
   const dish = dishes[i];
@@ -43,7 +57,7 @@ for (let i = 0; i < dishes.length; i += 1) {
   process.stdout.write(`[${String(i + 1).padStart(2, '0')}/${dishes.length}] ${query} ... `);
 
   try {
-    const response = await searchGenericFoods(token, query);
+    const response = await searchGenericFoods({ token, query, oauthVersion, clientId, clientSecret });
     const foods = normalizeFoods(response);
     const candidates = foods.slice(0, 5).map(normalizeCandidate);
     const withImages = candidates.filter((candidate) => candidate.images.length > 0);
@@ -112,18 +126,24 @@ async function getAccessToken(id, secret) {
   return json.access_token;
 }
 
-async function searchGenericFoods(token, query) {
-  const params = new URLSearchParams({
+async function searchGenericFoods({ token, query, oauthVersion: version, clientId: id, clientSecret: secret }) {
+  const endpoint = 'https://platform.fatsecret.com/rest/foods/search/v5';
+  const requestParams = {
     search_expression: query,
     food_type: 'generic',
     include_food_images: 'true',
     max_results: '10',
     format: 'json',
-  });
+  };
+  const params = new URLSearchParams(version === '1'
+    ? signOAuth1Request('GET', endpoint, requestParams, id, secret)
+    : requestParams);
 
-  const response = await fetch(`https://platform.fatsecret.com/rest/foods/search/v5?${params.toString()}`, {
+  const response = await fetch(`${endpoint}?${params.toString()}`, {
     method: 'GET',
-    headers: {
+    headers: version === '1' ? {
+      Accept: 'application/json',
+    } : {
       Authorization: `Bearer ${token}`,
       Accept: 'application/json',
     },
@@ -135,8 +155,41 @@ async function searchGenericFoods(token, query) {
   return response.json();
 }
 
+function signOAuth1Request(method, endpoint, requestParams, consumerKey, consumerSecret) {
+  const params = {
+    ...requestParams,
+    oauth_consumer_key: consumerKey,
+    oauth_nonce: randomBytes(16).toString('hex'),
+    oauth_signature_method: 'HMAC-SHA1',
+    oauth_timestamp: String(Math.floor(Date.now() / 1000)),
+    oauth_version: '1.0',
+  };
+  const normalized = Object.entries(params)
+    .map(([key, value]) => [oauthEncode(key), oauthEncode(value)])
+    .sort(([keyA, valueA], [keyB, valueB]) => {
+      if (keyA !== keyB) return keyA < keyB ? -1 : 1;
+      if (valueA === valueB) return 0;
+      return valueA < valueB ? -1 : 1;
+    })
+    .map(([key, value]) => `${key}=${value}`)
+    .join('&');
+  const baseString = [method.toUpperCase(), oauthEncode(endpoint), oauthEncode(normalized)].join('&');
+  const signingKey = `${oauthEncode(consumerSecret)}&`;
+  params.oauth_signature = createHmac('sha1', signingKey).update(baseString).digest('base64');
+  return params;
+}
+
+function oauthEncode(value) {
+  return encodeURIComponent(String(value))
+    .replaceAll('!', '%21')
+    .replaceAll("'", '%27')
+    .replaceAll('(', '%28')
+    .replaceAll(')', '%29')
+    .replaceAll('*', '%2A');
+}
+
 function normalizeFoods(payload) {
-  const raw = payload?.foods?.food;
+  const raw = payload?.foods_search?.results?.food ?? payload?.foods?.food;
   if (!raw) return [];
   return Array.isArray(raw) ? raw : [raw];
 }

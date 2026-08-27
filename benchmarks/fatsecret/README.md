@@ -23,6 +23,19 @@ FATSECRET_CLIENT_SECRET=your_client_secret
 
 Do not prefix the secret with `EXPO_PUBLIC_` and do not commit `.env.local`.
 
+OAuth 2.0 token requests are restricted to IP ranges configured for the app. To
+run the benchmark with OAuth 1.0 instead, create separate OAuth 1.0 credentials
+in FatSecret and use:
+
+```bash
+FATSECRET_OAUTH_VERSION=1
+FATSECRET_CONSUMER_KEY=your_consumer_key
+FATSECRET_CONSUMER_SECRET=your_consumer_secret
+```
+
+OAuth 2.0 remains the default. OAuth 1.0 credentials are not interchangeable
+with the OAuth 2.0 Client ID and Client Secret.
+
 ## Run
 
 ```bash
@@ -35,7 +48,10 @@ To use a different dataset:
 npm run benchmark:fatsecret -- path/to/dishes.json
 ```
 
-The script requests an OAuth 2.0 client-credentials token with the `premier` scope, then calls `https://platform.fatsecret.com/rest/foods/search/v5` with `food_type=generic` and `include_food_images=true`.
+The script authenticates with OAuth 2.0 client credentials (default) or a
+signed OAuth 1.0 request, then calls
+`https://platform.fatsecret.com/rest/foods/search/v5` with
+`food_type=generic` and `include_food_images=true`.
 
 ## Results
 
