@@ -7,7 +7,7 @@ This experiment measures whether FatSecret Premier Free can provide useful repre
 - International generic dishes across Europe and Asia
 - Search hit rate
 - Image availability
-- Top five generic candidates returned by `foods.search.v5`
+- All ten requested generic candidates returned by `foods.search.v5`
 - Difficult restaurant-style menu descriptions as well as canonical dish names
 
 The generated HTML report is for visual review because image correctness matters more than raw search coverage.
@@ -59,7 +59,7 @@ Generated files are written to `benchmarks/fatsecret/results/` and are intention
 
 - `results.json` — complete machine-readable API output after normalization
 - `results.csv` — compact sheet with empty columns for manual accuracy scoring and notes
-- `review.html` — visual contact sheet showing up to five candidates for every test dish
+- `review.html` — visual contact sheet showing up to ten candidates for every test dish
 
 Suggested manual score:
 
@@ -69,3 +69,55 @@ Suggested manual score:
 - `3` = exact/strong representative image
 
 For a production decision, judge **Good + Exact** coverage, not merely `has_image` coverage.
+
+## Diagnose zero results first
+
+```bash
+npm run diagnose:fatsecret
+```
+
+Uses the existing `.env.local` credentials (Node 18+). Three controls compare
+search without images, search with images, and the documented Chicken Breast
+food ID 1641 via food.get.v4. US is the default dataset; no localization scope
+is requested. A fresh OAuth 2 token requests `premier` on every run.
+
+The previous benchmark ignored JSON `{error: ...}` envelopes on HTTP 200,
+so API rejections could be reported as zero candidates and zero images. It
+also counted images only in the first five of ten returned foods. Both are
+fixed. Unexpected response shapes are now errors rather than silent misses.
+
+`results/diagnostics.json` contains counts, operation names, and safe error
+codes, with no tokens, credentials, upstream error bodies, or photo URLs.
+Share that file to diagnose account access. Each request times out after 15s.
+Exit 0 means the image controls passed; exit 2 means they did not; exit 1
+indicates setup/authentication failure. Full benchmark runs stop before scoring
+coverage if these controls fail, and return nonzero when any dish request fails.
+
+- Error 14: check premier scope/access on this exact credential pair.
+- Error 21: check IP whitelist on this exact application.
+- Controls work but have no images: have support check the separate image
+  entitlement. This is an indication to investigate, not proof of the cause.
+- Images work: run the full benchmark, then manually judge photo relevance.
+  Finding a photo does not establish that it depicts the correct dish.
+
+Regression tests (no credentials, no external requests): `npm run test:fatsecret`.
+
+## Launch implications
+
+This branch is a diagnostic experiment. It does not integrate or deploy a
+production image provider. Main's existing Brave/Google image resolver does
+not establish reuse rights merely by returning a URL or excluding stock sites.
+
+Before integrating FatSecret, verify image entitlement and representative-dish
+coverage on the live account, include mandatory attribution, and confirm the
+permitted Tavue use and launch territories under the account terms. Keep the
+client secret server-side. Do not copy the old resolver's 90-day URL cache or
+persist FatSecret photo URLs indefinitely in app history: the API documentation
+lists only food_id and serving_id as storable search-result values. Design
+history around IDs and fresh lookups unless the provider grants other rights.
+
+Official references:
+- https://platform.fatsecret.com/docs/guides/error-codes
+- https://platform.fatsecret.com/docs/v5/foods.search
+- https://platform.fatsecret.com/docs/v4/food.get
+- https://platform.fatsecret.com/docs/guides/storable-data

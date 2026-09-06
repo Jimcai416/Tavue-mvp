@@ -1,5 +1,5 @@
 import fs from 'node:fs';
-import { createHmac, randomBytes } from 'node:crypto';
+import { getAccessToken, searchGenericFoods, requestFoodApi, normalizeFoods, normalizeCandidate } from './lib/fatsecret-client.mjs';
 import path from 'node:path';
 import process from 'node:process';
 
@@ -32,7 +32,9 @@ if (!['1', '2'].includes(oauthVersion)) {
   process.exit(1);
 }
 
-const datasetPath = process.argv[2] ? path.resolve(process.argv[2]) : DEFAULT_DATASET;
+const diagnoseOnly = process.argv.includes('--diagnose');
+const datasetArg = process.argv.slice(2).find(arg => !arg.startsWith('--'));
+const datasetPath = datasetArg ? path.resolve(datasetArg) : DEFAULT_DATASET;
 if (!fs.existsSync(datasetPath)) {
   console.error(`Dataset not found: ${datasetPath}`);
   process.exit(1);
@@ -46,7 +48,18 @@ if (!Array.isArray(dishes) || !dishes.length) {
 
 fs.mkdirSync(OUT_DIR, { recursive: true });
 
-const token = oauthVersion === '2' ? await getAccessToken(clientId, clientSecret) : null;
+let token;
+try { token = oauthVersion === '2' ? await getAccessToken(clientId, clientSecret) : null; }
+catch (error) { console.error(error.message); process.exit(1); }
+const auth = { token, oauthVersion, clientId, clientSecret };
+const diagnostics = await diagnose(auth);
+fs.writeFileSync(path.join(OUT_DIR, 'diagnostics.json'), JSON.stringify(diagnostics, null, 2));
+console.log(JSON.stringify(diagnostics, null, 2));
+if (diagnoseOnly) process.exit(diagnostics.status === 'images_available' ? 0 : 2);
+if (diagnostics.status !== 'images_available') {
+  console.error('Stopping: image access has not passed preflight. This is not a dish coverage result.');
+  process.exit(2);
+}
 const results = [];
 
 console.log(`Testing ${dishes.length} dishes against FatSecret foods.search.v5 using OAuth ${oauthVersion}.0...`);
@@ -59,7 +72,7 @@ for (let i = 0; i < dishes.length; i += 1) {
   try {
     const response = await searchGenericFoods({ token, query, oauthVersion, clientId, clientSecret });
     const foods = normalizeFoods(response);
-    const candidates = foods.slice(0, 5).map(normalizeCandidate);
+    const candidates = foods.map(normalizeCandidate);
     const withImages = candidates.filter((candidate) => candidate.images.length > 0);
     const best = withImages[0] || candidates[0] || null;
 
@@ -93,7 +106,7 @@ for (let i = 0; i < dishes.length; i += 1) {
 
 const timestamp = new Date().toISOString();
 const summary = buildSummary(results);
-const report = { timestamp, dataset: path.relative(ROOT, datasetPath), summary, results };
+const report = { timestamp, diagnostics, dataset: path.relative(ROOT, datasetPath), summary, results };
 
 fs.writeFileSync(path.join(OUT_DIR, 'results.json'), JSON.stringify(report, null, 2));
 fs.writeFileSync(path.join(OUT_DIR, 'results.csv'), buildCsv(results));
@@ -103,116 +116,8 @@ console.log('\nFatSecret benchmark complete');
 console.log(`Found:     ${summary.found}/${summary.total} (${summary.found_pct}%)`);
 console.log(`With image:${summary.with_image}/${summary.total} (${summary.with_image_pct}%)`);
 console.log(`Errors:    ${summary.errors}`);
+if (summary.errors) process.exitCode = 2;
 console.log(`\nOpen ${path.relative(ROOT, path.join(OUT_DIR, 'review.html'))} to visually score accuracy.`);
-
-async function getAccessToken(id, secret) {
-  const basic = Buffer.from(`${id}:${secret}`).toString('base64');
-  const body = new URLSearchParams({ grant_type: 'client_credentials', scope: 'premier' });
-  const response = await fetch('https://oauth.fatsecret.com/connect/token', {
-    method: 'POST',
-    headers: {
-      Authorization: `Basic ${basic}`,
-      'Content-Type': 'application/x-www-form-urlencoded',
-    },
-    body,
-  });
-
-  if (!response.ok) {
-    throw new Error(`OAuth failed (${response.status}): ${await response.text()}`);
-  }
-
-  const json = await response.json();
-  if (!json.access_token) throw new Error('OAuth response did not contain access_token');
-  return json.access_token;
-}
-
-async function searchGenericFoods({ token, query, oauthVersion: version, clientId: id, clientSecret: secret }) {
-  const endpoint = 'https://platform.fatsecret.com/rest/foods/search/v5';
-  const requestParams = {
-    search_expression: query,
-    food_type: 'generic',
-    include_food_images: 'true',
-    max_results: '10',
-    format: 'json',
-  };
-  const params = new URLSearchParams(version === '1'
-    ? signOAuth1Request('GET', endpoint, requestParams, id, secret)
-    : requestParams);
-
-  const response = await fetch(`${endpoint}?${params.toString()}`, {
-    method: 'GET',
-    headers: version === '1' ? {
-      Accept: 'application/json',
-    } : {
-      Authorization: `Bearer ${token}`,
-      Accept: 'application/json',
-    },
-  });
-
-  if (!response.ok) {
-    throw new Error(`Search failed (${response.status}): ${await response.text()}`);
-  }
-  return response.json();
-}
-
-function signOAuth1Request(method, endpoint, requestParams, consumerKey, consumerSecret) {
-  const params = {
-    ...requestParams,
-    oauth_consumer_key: consumerKey,
-    oauth_nonce: randomBytes(16).toString('hex'),
-    oauth_signature_method: 'HMAC-SHA1',
-    oauth_timestamp: String(Math.floor(Date.now() / 1000)),
-    oauth_version: '1.0',
-  };
-  const normalized = Object.entries(params)
-    .map(([key, value]) => [oauthEncode(key), oauthEncode(value)])
-    .sort(([keyA, valueA], [keyB, valueB]) => {
-      if (keyA !== keyB) return keyA < keyB ? -1 : 1;
-      if (valueA === valueB) return 0;
-      return valueA < valueB ? -1 : 1;
-    })
-    .map(([key, value]) => `${key}=${value}`)
-    .join('&');
-  const baseString = [method.toUpperCase(), oauthEncode(endpoint), oauthEncode(normalized)].join('&');
-  const signingKey = `${oauthEncode(consumerSecret)}&`;
-  params.oauth_signature = createHmac('sha1', signingKey).update(baseString).digest('base64');
-  return params;
-}
-
-function oauthEncode(value) {
-  return encodeURIComponent(String(value))
-    .replaceAll('!', '%21')
-    .replaceAll("'", '%27')
-    .replaceAll('(', '%28')
-    .replaceAll(')', '%29')
-    .replaceAll('*', '%2A');
-}
-
-function normalizeFoods(payload) {
-  const raw = payload?.foods_search?.results?.food ?? payload?.foods?.food;
-  if (!raw) return [];
-  return Array.isArray(raw) ? raw : [raw];
-}
-
-function normalizeCandidate(food) {
-  const rawImages = food?.food_images?.food_image;
-  const images = !rawImages ? [] : (Array.isArray(rawImages) ? rawImages : [rawImages])
-    .filter(Boolean)
-    .map((image) => ({
-      url: image.image_url || '',
-      type: image.image_type || '',
-    }))
-    .filter((image) => image.url);
-
-  return {
-    food_id: food.food_id ?? null,
-    food_name: food.food_name ?? '',
-    food_type: food.food_type ?? '',
-    food_url: food.food_url ?? '',
-    description: food.food_description ?? '',
-    images,
-  };
-}
 
 function buildSummary(results) {
   const total = results.length;
@@ -314,4 +219,44 @@ function loadEnvFile(file) {
     }
     if (!(key in process.env)) process.env[key] = value;
   }
+}
+
+// Controls separate feature access from the international-dish benchmark.
+// US is the API default: omit region/language to avoid requesting localization.
+async function diagnose(auth) {
+  const checks = [];
+  const run = async (name, request, extract) => {
+    try {
+      const payload = await request();
+      const foods = extract(payload);
+      const imageCount = foods.reduce((sum, food) => sum + normalizeCandidate(food).images.length, 0);
+      checks.push({ name, ok: true, foods: foods.length, images: imageCount });
+    } catch (error) {
+      checks.push({ name, ok: false, error: error.message });
+    }
+  };
+  const params = {search_expression: 'chicken breast', food_type: 'generic', max_results: '10', format: 'json'};
+  await run('search_without_images', () => requestFoodApi(auth, 'foods/search/v5', params), normalizeFoods);
+  await run('search_with_images', () => searchGenericFoods({...auth, query: 'chicken breast'}), normalizeFoods);
+  // Food 1641 is the illustrated Chicken Breast control in FatSecret's docs.
+  await run('documented_food_1641_with_images', () => requestFoodApi(auth, 'food/v4', {
+    food_id: '1641', include_food_images: 'true', format: 'json',
+  }), payload => {
+    if (!payload.food?.food_id) throw new Error('Unexpected food detail response');
+    return [payload.food];
+  });
+  const hasImages = checks.some(check => check.ok && check.images > 0);
+  const allHealthy = checks.every(check => check.ok && check.foods > 0);
+  const status = hasImages && allHealthy ? 'images_available'
+    : checks.some(check => !check.ok) ? 'api_error'
+    : 'controls_missing_images';
+  return {
+    timestamp: new Date().toISOString(), oauth_version: auth.oauthVersion, dataset: 'US (default)',
+    status, checks,
+    next_step: status === 'images_available'
+      ? 'Access controls passed. Run the dish benchmark and visually judge relevance.'
+      : status === 'api_error'
+        ? 'Resolve the reported API errors before interpreting coverage. Send this diagnostics file for review.'
+        : 'Known-food controls have no images. Ask FatSecret to confirm image entitlement on this exact credential pair; this does not prove the catalog has no pictures.',
+  };
 }
