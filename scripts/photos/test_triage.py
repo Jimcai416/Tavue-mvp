@@ -8,7 +8,7 @@ import triage
 
 class TriageTests(unittest.TestCase):
     def visual(self):
-        return dict(scores=dict(sharpness=4, lighting=4, composition=4, appeal=4), watermark=False, photograph_likely=True, recommendation='display_candidate')
+        return dict(food_depiction='actual_food', scores=dict(sharpness=4, lighting=4, composition=4, appeal=4), watermark=False, photograph_likely=True, recommendation='display_candidate')
 
     def test_visual_hard_gates(self):
         v = self.visual()
@@ -19,6 +19,13 @@ class TriageTests(unittest.TestCase):
         self.assertEqual(triage.decision(v, 'visual'), 'reject')
         v['scores']['appeal'] = True
         with self.assertRaises(ValueError): triage.decision(v, 'visual')
+
+    def test_printed_food_never_passes(self):
+        v = self.visual()
+        v['food_depiction'] = 'printed_food'
+        self.assertEqual(triage.decision(v, 'visual'), 'reject')
+        del v['food_depiction']
+        self.assertEqual(triage.decision(v, 'visual'), 'manual_check')
 
     def test_identity_requires_evidence_and_no_inferred_fields(self):
         v = dict(canonical_name='Baguette', identity_score=4, source_agreement=True, evidence_quote='Baguette', visible_support=['Long scored loaf'], uncertainties=[])
@@ -51,7 +58,7 @@ class TriageTests(unittest.TestCase):
             db = root / 'db.sqlite'
             c = sqlite3.connect(db)
             c.execute('CREATE TABLE files (record TEXT, category TEXT, pageid INTEGER, status TEXT)')
-            photo = dict(id='commons-1', title='Bánh mì', description='Sandwich', discoveryCategory='Bread', sourceUrl='https://commons.wikimedia.org/', commonsSha1='abc', previewUrl='https://upload.wikimedia.org/a.jpg')
+            photo = dict(author='Photographer', license='CC BY-SA 4.0', licenseUrl='https://creativecommons.org/licenses/by-sa/4.0/', id='commons-1', title='Bánh mì', description='Sandwich', discoveryCategory='Bread', sourceUrl='https://commons.wikimedia.org/', commonsSha1='abc', previewUrl='https://upload.wikimedia.org/a.jpg')
             c.execute('INSERT INTO files VALUES (?, ?, ?, ?)', (json.dumps(photo), 'Bread', 1, 'pending_review'))
             c.commit(); c.close()
             out = root / 'visual.json'
