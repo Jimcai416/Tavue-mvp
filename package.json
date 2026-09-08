@@ -6,7 +6,8 @@
   "scripts": {
     "start": "expo start",
     "web": "expo start --web",
-    "export:web": "expo export --platform web && node scripts/prepare-web.cjs"
+    "export:web": "expo export --platform web && node scripts/prepare-web.cjs",
+    "test:photos": "node scripts/test-dish-photos.cjs && node scripts/test-photo-worker.cjs && node scripts/test-photo-scale.cjs"
   },
   "dependencies": {
     "@expo-google-fonts/cormorant-garamond": "^0.4.1",

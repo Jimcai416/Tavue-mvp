@@ -1,9 +1,9 @@
+import DishPhoto, { ExportPhotoCredit } from "./DishPhoto";
 import React, { useRef } from "react";
 import {
   Modal,
   View,
   Text,
-  Image,
   StyleSheet,
   Pressable,
   Alert,
@@ -56,9 +56,8 @@ export default function OrderSheet({
         </Pressable>
 
         <View style={styles.card} ref={cardRef} collapsable={false}>
-          {dish.image_url ? (
-            <Image source={{ uri: dish.image_url }} style={styles.image} resizeMode="cover" />
-          ) : null}
+          <DishPhoto dish={dish} style={styles.image} hideWhenMissing />
+          <ExportPhotoCredit dish={dish} />
 
           <Text
             style={styles.original}

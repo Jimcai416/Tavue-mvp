@@ -26,8 +26,12 @@ export interface Dish {
   spice_level: 0 | 1 | 2 | 3;
   flags: DishFlag[];
   worth_it: string | null;     // one-line ordering advice
-  image_url: string | null;    // resolved by the worker (cached lookup)
-  image_query: string;         // fallback query if image_url is null
+  reference_photo?: import("../shared/referencePhoto").ReferencePhoto | null;
+  image_dish_name?: string | null; // canonical identity, never an image URL
+  image_id?: string | null;
+  image_source?: "commons" | null;
+  image_url: string | null;    // legacy only; new scans return null; never rendered
+  image_query: string;         // legacy English identity hint; never fetched as an image URL
 }
 
 export interface ScanResult {

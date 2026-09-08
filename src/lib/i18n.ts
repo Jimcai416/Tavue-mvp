@@ -23,9 +23,15 @@ export const LANGUAGES = [
 type Strings = Record<string, string>;
 
 const EN: Strings = {
+  representativePhoto: "Reference photo",
+  representativePhotoNote: "A photograph of this type of dish, not this restaurant’s serving. Ingredients and plating may differ.",
+  photoCredit: "Photographer",
+  viewOriginalPhoto: "View original & source",
+  photoCropNote: "Preview cropped to fit. Full photograph shown above. The photograph retains its stated licence.",
+  photoNotAvailable: "No approved reference photo yet",
   anyMenu: "Any menu",
   yourLanguage: "Your language",
-  ticketDesc: "Snap a menu — every dish with a photo, a translation and ordering advice.",
+  ticketDesc: "Snap a menu — understand every dish, with reference photos where available.",
   menuPassLocal: "MENU PASS",
   everywhere: "EVERYWHERE",
   recent: "RECENT MENUS",
@@ -187,9 +193,10 @@ const EN: Strings = {
 const STRINGS: Record<string, Strings> = {
   English: EN,
   "Chinese (Simplified)": {
+    representativePhoto: "参考照片", representativePhotoNote: "这是同类菜品的实拍照片，并非这家餐厅的出品。食材和摆盘可能不同。", photoCredit: "摄影师", viewOriginalPhoto: "查看原图与出处", photoCropNote: "预览图按框裁切，上方显示完整照片。照片保留原许可。", photoNotAvailable: "暂无审核通过的参考照片",
     anyMenu: "任何菜单",
     yourLanguage: "你的语言",
-    ticketDesc: "拍下菜单 — 每道菜都有照片、翻译和点菜建议。",
+    ticketDesc: "拍下菜单 — 看懂每道菜，并查看可用的参考照片。",
     menuPassLocal: "菜单通行证",
     everywhere: "世界各地",
     recent: "最近的菜单",
@@ -346,9 +353,10 @@ const STRINGS: Record<string, Strings> = {
     profilePrivacyNote: "账户开放且你主动提交之前，Tavue 不会上传这里的记录或菜品照片。",
   },
   "Chinese (Traditional)": {
+    representativePhoto: "參考照片", representativePhotoNote: "這是同類菜品的實拍照片，並非這家餐廳的出品。食材和擺盤可能不同。", photoCredit: "攝影師", viewOriginalPhoto: "查看原圖與出處", photoCropNote: "預覽圖按框裁切，上方顯示完整照片。照片保留原許可。", photoNotAvailable: "暫無審核通過的參考照片",
     anyMenu: "任何菜單",
     yourLanguage: "你的語言",
-    ticketDesc: "拍下菜單 — 每道菜都有照片、翻譯和點菜建議。",
+    ticketDesc: "拍下菜單 — 看懂每道菜，並查看可用的參考照片。",
     menuPassLocal: "菜單通行證",
     everywhere: "世界各地",
     recent: "最近的菜單",
@@ -507,7 +515,7 @@ const STRINGS: Record<string, Strings> = {
   French: {
     anyMenu: "N'importe quel menu",
     yourLanguage: "Votre langue",
-    ticketDesc: "Photographiez un menu — chaque plat avec photo, traduction et conseils.",
+    ticketDesc: "Photographiez un menu — plats traduits et photos de référence selon disponibilité.",
     menuPassLocal: "MENU PASS",
     everywhere: "PARTOUT",
     recent: "MENUS RÉCENTS",
@@ -663,7 +671,7 @@ const STRINGS: Record<string, Strings> = {
   Italian: {
     anyMenu: "Qualsiasi menù",
     yourLanguage: "La tua lingua",
-    ticketDesc: "Fotografa un menù — ogni piatto con foto, traduzione e consigli.",
+    ticketDesc: "Fotografa un menù — piatti tradotti e foto di riferimento, se disponibili.",
     menuPassLocal: "MENU PASS",
     everywhere: "OVUNQUE",
     recent: "MENÙ RECENTI",
@@ -819,7 +827,7 @@ const STRINGS: Record<string, Strings> = {
   Spanish: {
     anyMenu: "Cualquier menú",
     yourLanguage: "Tu idioma",
-    ticketDesc: "Fotografía un menú — cada plato con foto, traducción y consejos.",
+    ticketDesc: "Fotografía un menú — platos traducidos y fotos de referencia cuando estén disponibles.",
     menuPassLocal: "MENU PASS",
     everywhere: "EN TODAS PARTES",
     recent: "MENÚS RECIENTES",
@@ -975,7 +983,7 @@ const STRINGS: Record<string, Strings> = {
   Japanese: {
     anyMenu: "どんなメニューでも",
     yourLanguage: "あなたの言語",
-    ticketDesc: "メニューを撮るだけ — 全料理に写真・翻訳・おすすめ付き。",
+    ticketDesc: "メニューを撮影 — 料理の翻訳と、利用可能な参考写真。",
     menuPassLocal: "メニューパス",
     everywhere: "世界中どこでも",
     recent: "最近のメニュー",
@@ -1131,7 +1139,7 @@ const STRINGS: Record<string, Strings> = {
   Korean: {
     anyMenu: "어떤 메뉴든",
     yourLanguage: "내 언어",
-    ticketDesc: "메뉴를 찍으면 — 모든 요리에 사진·번역·주문 팁이 함께.",
+    ticketDesc: "메뉴를 찍으면 — 요리 번역과 가능한 경우 참고 사진을 제공합니다.",
     menuPassLocal: "메뉴 패스",
     everywhere: "세계 어디서나",
     recent: "최근 메뉴",
@@ -1287,7 +1295,7 @@ const STRINGS: Record<string, Strings> = {
   Thai: {
     anyMenu: "เมนูอะไรก็ได้",
     yourLanguage: "ภาษาของคุณ",
-    ticketDesc: "ถ่ายรูปเมนู — ทุกจานมีรูปภาพ คำแปล และคำแนะนำการสั่ง",
+    ticketDesc: "ถ่ายรูปเมนู — อ่านคำแปลและดูภาพประกอบเมื่อมีภาพที่เหมาะสม",
     menuPassLocal: "บัตรผ่านเมนู",
     everywhere: "ทั่วโลก",
     recent: "เมนูล่าสุด",

@@ -1,6 +1,8 @@
+import { resolveReferencePhoto } from "../../shared/referencePhoto";
+import { resolveDishPhoto } from "../../shared/dishPhotos";
+import DishPhoto from "./DishPhoto";
 import React from "react";
 import {
-  Image,
   Modal,
   Pressable,
   ScrollView,
@@ -45,17 +47,10 @@ export default function DishDetailSheet({
             showsVerticalScrollIndicator={false}
             contentContainerStyle={styles.scrollContent}
           >
-            {dish.image_url ? (
-              <Image source={{ uri: dish.image_url }} style={styles.image} resizeMode="cover" />
-            ) : (
-              <View style={[styles.image, styles.placeholder]}>
-                <Text style={styles.placeholderGlyph}>
-                  {dish.original_name.trim().slice(0, 1).toUpperCase()}
-                </Text>
-              </View>
-            )}
+            <DishPhoto dish={dish} style={styles.image} />
 
             <View style={styles.content}>
+              {(resolveReferencePhoto(dish) || resolveDishPhoto(dish)) && <Text style={styles.safetyText}>{t("representativePhotoNote")}</Text>}
               <View style={styles.eyebrowRow}>
                 <Text style={styles.eyebrow}>
                   {(dish.category || t("menuGuide")).toUpperCase()}

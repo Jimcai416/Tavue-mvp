@@ -11,6 +11,7 @@ export default {
     // Keep Tavue API and policy/support endpoints on the API worker.
     if (
       API_GET_ROUTES.has(url.pathname) ||
+      url.pathname.startsWith("/photos/") ||
       API_WRITE_ROUTES.has(url.pathname) ||
       method === "OPTIONS"
     ) {
