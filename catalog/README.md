@@ -27,6 +27,8 @@ To stop cleanly, create `catalog/work/candidates.sqlite.stop`; the next complete
 
 Prepare a bounded pilot before spending on the full collection:
 
+Preparation samples discovery categories in round-robin order so large cake or dessert categories do not dominate the first batch. This balances discovery categories, not verified cuisines or dishes. Use a fixed database snapshot when preparing multiple batches with `--offset`; collecting more records between batches changes their ordering. Retain the generated source-hash sidecars with results.
+
 ```sh
 python scripts/photos/triage.py prepare --limit 100 --out catalog/work/vision-001.json
 python scripts/photos/triage.py submit catalog/work/vision-001.json --max-requests 100

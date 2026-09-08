@@ -18,7 +18,15 @@ def main():
  args=parser.parse_args()
  if args.command=='prepare':
   if not 1<=args.limit<=1000:parser.error('Use batches of 1–1000 photos')
-  db=sqlite3.connect(args.db);photos=[json.loads(x[0]) for x in db.execute("SELECT record FROM files WHERE status='pending_review' ORDER BY pageid LIMIT ? OFFSET ?",(args.limit,args.offset))]
+  if args.offset<0:parser.error('Offset must be nonnegative')
+  db=sqlite3.connect(args.db)
+  # Round-robin discovery categories so the calibration batch is not dominated
+  # by the largest category. These categories are not verified dish identities.
+  photos=[json.loads(x[0]) for x in db.execute("""WITH ranked AS (
+   SELECT record,category,pageid,row_number() OVER (PARTITION BY category ORDER BY pageid) AS position
+   FROM files WHERE status='pending_review'
+  ) SELECT record FROM ranked ORDER BY position,category,pageid LIMIT ? OFFSET ?""",(args.limit,args.offset))]
+  db.close()
   requests=[]
   for photo in photos:
    url=photo['previewUrl'];parsed=urllib.parse.urlparse(url)
@@ -27,7 +35,7 @@ def main():
    requests.append(dict(custom_id=photo['id'],params=dict(model=args.model,max_tokens=600,system=PROMPT,messages=[dict(role='user',content=[dict(type='image',source=dict(type='url',url=url)),dict(type='text',text=json.dumps(evidence,ensure_ascii=False))])])) )
   out=Path(args.out);out.parent.mkdir(parents=True,exist_ok=True);out.write_text(json.dumps({'requests':requests},ensure_ascii=False)+'\n')
   out.with_suffix('.sources.json').write_text(json.dumps({x['id']:x['commonsSha1'] for x in photos},indent=2)+'\n')
-  print(json.dumps({'requests':len(requests),'model':args.model,'submitted':False,'maxOutputTokens':600*len(requests),'path':str(out)}));return
+  print(json.dumps({'requests':len(requests),'discoveryCategories':len({x['discoveryCategory'] for x in photos}),'model':args.model,'submitted':False,'maxOutputTokens':600*len(requests),'path':str(out)}));return
  key=os.environ.get('ANTHROPIC_API_KEY')
  if not key and Path('.env.local').exists():
   for line in Path('.env.local').read_text().splitlines():
