@@ -158,3 +158,33 @@ must not be described as disposable foil, and dark filling is not evidence of
 meat. Include positive examples in future calibration; these three negatives
 alone do not establish reviewer accuracy. No paid calibration is performed by
 the code tests.
+
+### Visual calibration sheet and v4 packaging guard
+
+Generate a balanced 100-photo sheet without paid API calls:
+
+```powershell
+python scripts/photos/calibrate.py --limit 100
+Start-Process catalog/work/calibration/index.html
+```
+
+The page samples categories round-robin (discovery categories are not verified
+cuisines), keeps source metadata collapsed, offers display/crop/reject/verify
+labels, notes, zoom, filters, local browser persistence and JSON export/import.
+Export before closing: browser storage availability varies for local files.
+Exports are calibration labels only and cannot be used as release decisions.
+Images load from Wikimedia; a failure is shown with a source-link fallback.
+Use `--offset 100 --out catalog/work/calibration-002/index.html` for the next
+sample. The generated `.sample.json` records sample identity and source hashes.
+
+V4 explicitly distinguishes exposed food from food printed on packaging. Printed
+food is rejected; uncertain or missing `food_depiction` is held for manual review.
+V3 visual outputs lack this field, so re-evaluation under v4 will hold them rather
+than silently treating them as v4 passes. Existing receipts can still be collected;
+raw model results remain intact. Use fresh batch names for any new paid tests.
+
+Preparation holds candidates missing attribution, licence/source links, source
+hash or all identity text BEFORE image download or paid submission. It prints
+held IDs and reasons; it does not delete or change candidate status. Short text
+or self-published work alone is not a rejection criterion. This is field-completeness
+checking, not external provenance verification or an AI-origin detector.
