@@ -97,3 +97,64 @@ Sources checked on 2026-09-07:
 Commons remains a candidate source, not a demonstrated supply of 10,000 launch-quality recipe photos. If exact-recipe or visual retention is too low, the remaining gap requires another licensed source, commissioned/user-contributed photography, or a separately labelled, quality-controlled generated collection. Bulk counts alone do not resolve that gap.
 
 Additional alternatives checked: [Unsplash API images must remain hotlinked](https://help.unsplash.com/en/articles/2511245-unsplash-api-guidelines), so they cannot be silently imported into this R2 collection. [Edamam](https://developer.edamam.com/edamam-docs-recipe-api) distinguishes indexed web recipes from fully licensed content; its search size is not a licence for our own bulk image library. [TheMealDB](https://www.themealdb.com/terms_of_use.php) permits API content use but requires paid access for app-store publishing; it is a potential supplementary source rather than a verified 10,000-image solution.
+
+### Windows and two-stage screening (v3)
+
+`triage.py` now downloads Wikimedia previews locally and embeds their bytes as
+Base64. All JSON text uses UTF-8. Preparation never overwrites a batch, receipt,
+or manifest: use a new batch name. API POSTs leave a durable submission lock;
+a timeout is ambiguous, so inspect the provider console before any retry.
+The downloader checks host/redirect allowlists, file signatures and a local
+4 MB image limit; it does not fully decode images. Batches have a conservative
+240 MB serialized-payload cap. Lower `--limit` if either size limit is reached.
+
+Visual screening is blind to source titles and categories. All four dimensions
+(sharpness, lighting, composition, appeal) must reach 4/5, with no watermark and
+likely photographic content, before a model suggestion can proceed to identity.
+A crop suggestion does not pass this gate; review an actual crop separately.
+These are model suggestions, not calibrated guarantees or release approvals.
+
+```powershell
+python scripts/photos/triage.py prepare --stage visual --limit 12 --out catalog/work/visual-v3-001.json
+python scripts/photos/triage.py submit catalog/work/visual-v3-001.json --max-requests 12
+python scripts/photos/triage.py collect catalog/work/visual-v3-001.job.json
+```
+
+Run each step only after the preceding step succeeds. Repeat only `collect`
+while processing. Collection writes raw JSONL plus `.summary.json`, with API
+outcomes, validated screening decisions and per-image model output/errors.
+It handles Markdown JSON fences and rejects truncated or malformed responses.
+Old batches can still be collected; their output is marked `legacy_unvalidated`.
+Offline summary, with no API call:
+
+```powershell
+python scripts/photos/triage.py summarize catalog/work/visual-v3-001.job.results.jsonl --batch catalog/work/visual-v3-001.json
+```
+
+Only after inspecting visual results, prepare identity requests for passing
+images using the immutable visual batch and source snapshot. No image redownload
+or new database selection occurs. If no photos pass, no identity batch is written.
+
+```powershell
+python scripts/photos/triage.py prepare --stage identity --from-batch catalog/work/visual-v3-001.json --visual-results catalog/work/visual-v3-001.job.results.jsonl --limit 12 --out catalog/work/identity-v3-001.json
+python scripts/photos/triage.py submit catalog/work/identity-v3-001.json --max-requests 12
+python scripts/photos/triage.py collect catalog/work/identity-v3-001.job.json
+```
+
+Identity suggestions require an exact source quote, visible support and no
+reported uncertainties. Aliases, proteins, ingredients and allergens are not
+inferred for catalogue ingestion; model outputs adding them are held for manual
+review. Quote matching only verifies that text exists, not that it proves the
+claim. Every shortlist still requires human identity, quality and provenance
+verification through the existing review/release process. No screening command
+updates candidate status or approves assets. Offset sampling is not a persistent
+queue; keep manifests to track samples and avoid re-reviewing the same photos.
+
+Calibration observations from the three September 8 samples: reflective partly
+empty cookie packaging is not display-ready; a bread stall with a prominent
+person/counter is at most a crop candidate; a casserole on a cluttered stovetop
+is documentation quality. Do not hardcode outcomes by ID. A ceramic baking dish
+must not be described as disposable foil, and dark filling is not evidence of
+meat. Include positive examples in future calibration; these three negatives
+alone do not establish reviewer accuracy. No paid calibration is performed by
+the code tests.
