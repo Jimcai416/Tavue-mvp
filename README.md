@@ -88,14 +88,8 @@ npx wrangler secret put ANTHROPIC_API_KEY
 npx wrangler deploy
 ```
 
-Optional image-search secrets:
-
-```bash
-npx wrangler secret put BRAVE_API_KEY
-# or
-npx wrangler secret put GOOGLE_CSE_KEY
-npx wrangler secret put GOOGLE_CSE_CX
-```
+A 48-photo pilot is bundled with the app. The expanded catalogue uses D1 and private R2, targeting at least 10,000 approved photographs. See [the collection, review and release workflow](catalog/README.md). No live image-search API keys are needed.
+See [photo sources and review](docs/DISH-PHOTOS.md) and [photographer credits](assets/dishes/CREDITS.md).
 
 The beta requires an anonymous client ID, limits each installation to six scan
 attempts per minute and allows 20 scans per day. Daily counters use
@@ -159,5 +153,5 @@ docs/
 - Privacy policy source: [`docs/PRIVACY-POLICY.md`](docs/PRIVACY-POLICY.md)
 
 Before a public release, complete physical-device accessibility testing, review
-photo-source licensing and replace the paywall prototype with the chosen
+the documented photo review and device checks, and replace the paywall prototype with the chosen
 billing implementation.

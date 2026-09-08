@@ -1,16 +1,16 @@
+import { attachCataloguePhotos, serveCataloguePhoto } from "./photoCatalog.js";
+
 // Tavue API — Cloudflare Worker
 //
 // POST /scan  { imageBase64, mediaType }  →  ScanResult JSON
 //
 // Pipeline:
 //   1. One multimodal Claude call: OCR + translate + structure the menu.
-//   2. For each dish, resolve a photo: KV cache → Google Image Search → null.
+//   2. Resolve only approved photo identities; photographs are bundled in the app.
 //
 // Secrets (set with `wrangler secret put NAME`):
 //   ANTHROPIC_API_KEY   required
-//   GOOGLE_CSE_KEY      optional — Google Custom Search API key
-//   GOOGLE_CSE_CX       optional — Programmable Search Engine ID (image search on)
-// KV binding (optional but recommended): DISH_IMAGES
+// No third-party image-search credentials are needed.
 
 // Haiku: ~3-4x faster than Sonnet for extraction tasks like this.
 // Override per-deploy with `wrangler secret put MODEL` if quality needs a bump
@@ -80,7 +80,8 @@ Rules:
 - Convert every printed price to GBP using a reasonable approximate exchange rate and put it in "price_gbp", formatted like "£4.80". This keeps earlier beta builds compatible.
 - Also convert every printed price to ${targetCurrency} using a reasonable approximate exchange rate and put it in "converted_price", formatted with the correct currency symbol or ISO code. Set top-level "display_currency" to exactly "${targetCurrency}".
 - If no price is printed, use null for "price", "price_gbp" and "converted_price".
-- "image_query" must ALWAYS be a short English search query that returns photos of this exact dish, e.g. "wonton lo mein noodles" — English regardless of the target language.
+- "image_query" is a short English dish identity for compatibility with saved menus. Preserve proteins and preparation qualifiers; do not broaden it into generic image-search keywords.
+- "image_dish_name": provide the canonical English name of the exact recipe genuinely named on the menu, or null when uncertain. Preserve regional style, proteins, dietary qualifiers and cooking method. Never infer a named recipe merely from ingredients, invent an image URL or simplify a variant to force a photo match. The server independently looks up approved photos.
 - "spice_level": 0 none, 1 mild, 2 medium, 3 hot.
 - Respond with ONLY valid JSON. No markdown, no code fences, no preamble.
 
@@ -105,7 +106,8 @@ JSON schema:
       "spice_level": 0 | 1 | 2 | 3,
       "flags": ("spicy"|"raw"|"offal"|"contains_nuts"|"contains_shellfish"|"contains_gluten"|"contains_dairy"|"vegetarian"|"vegan"|"house_special")[],
       "worth_it": string | null,
-      "image_query": string
+      "image_query": string,
+      "image_dish_name": string | null
     }
   ]
 }`;
@@ -130,6 +132,9 @@ async function handleRequest(request, env) {
   if (request.method === "OPTIONS") return new Response(null, { headers: cors });
 
   const url = new URL(request.url);
+  if (["GET", "HEAD"].includes(request.method) && url.pathname.startsWith("/photos/")) {
+    return serveCataloguePhoto(request, env);
+  }
   if (request.method === "GET" && url.pathname === "/health") {
     return json({ ok: true, service: "tavue-api", version: "0.9.0" }, 200, cors);
   }
@@ -366,7 +371,9 @@ async function scan(request, env, clientId, cors) {
   if (sessionKey && limitStore) {
     const cachedResult = await limitStore.get(sessionKey);
     if (cachedResult) {
-      return new Response(cachedResult, {
+      const resumed = JSON.parse(cachedResult);
+      resumed.dishes = await attachCataloguePhotos((resumed.dishes || []).slice(0, MAX_DISHES), env);
+      return new Response(JSON.stringify(resumed), {
         status: 200,
         headers: { ...cors, "Content-Type": "application/json", "X-Tavue-Scan-Resume": "hit" },
       });
@@ -459,22 +466,9 @@ async function scan(request, env, clientId, cors) {
     );
   }
 
-  const dishes = (parsed.dishes || []).slice(0, MAX_DISHES);
-  const cap = parseInt(env.IMAGE_LOOKUP_CAP || "45", 10);
-  const batchSize = parseInt(env.IMAGE_BATCH_SIZE || "10", 10);
-  const toLookup = dishes.slice(0, cap);
-
-  for (let i = 0; i < toLookup.length; i += batchSize) {
-    const batch = toLookup.slice(i, i + batchSize);
-    await Promise.all(
-      batch.map(async (dish) => {
-        dish.image_url = await resolveImage(env, dish);
-      })
-    );
-  }
-  for (const dish of dishes) {
-    if (dish.image_url === undefined) dish.image_url = null;
-  }
+  // Catalogue matching is local, deterministic and covers every extracted dish.
+  // Explicitly replace any model-supplied or historical image URL.
+  const dishes = await attachCataloguePhotos((parsed.dishes || []).slice(0, MAX_DISHES), env);
   parsed.dishes = dishes;
   parsed.display_currency = currency;
   parsed.page_count = images.length;
@@ -558,106 +552,6 @@ function errorCode(error) {
   if (status) return `anthropic_${status}`;
   if (/parse|json/i.test(message)) return "invalid_model_json";
   return "upstream_failure";
-}
-
-// Cache key: normalised dish identity, shared across all users forever.
-function cacheKey(dish) {
-  return `img:${dish.original_name}`.toLowerCase().replace(/\s+/g, "");
-}
-
-async function resolveImage(env, dish) {
-  // KV cache hit → free
-  if (env.DISH_IMAGES) {
-    const cached = await env.DISH_IMAGES.get(cacheKey(dish));
-    if (cached) return cached === "none" ? null : cached;
-  }
-
-  let link = null;
-  if (env.BRAVE_API_KEY) {
-    link = await braveImage(env, dish);
-  } else if (env.GOOGLE_CSE_KEY && env.GOOGLE_CSE_CX) {
-    link = await googleImage(env, dish);
-  } else {
-    // No image search configured → graceful null (app shows glyph placeholder)
-    return null;
-  }
-
-  if (env.DISH_IMAGES) {
-    // Cache misses too, so we never pay twice for the same dish.
-    await env.DISH_IMAGES.put(cacheKey(dish), link || "none", {
-      expirationTtl: link ? 60 * 60 * 24 * 90 : 60 * 60 * 24 * 7,
-    });
-  }
-  return link;
-}
-
-// Domains that produce watermarked stock, ad creatives, or recipe title-cards.
-const IMAGE_DOMAIN_BLOCKLIST = [
-  "pinterest.",
-  "alamy.com",
-  "shutterstock.com",
-  "gettyimages.",
-  "istockphoto.com",
-  "dreamstime.com",
-  "depositphotos.com",
-  "123rf.com",
-  "stock.adobe.com",
-  "vectorstock.com",
-  "etsy.com",
-  "amazon.",
-  "ebay.",
-];
-
-function isBlockedSource(result) {
-  const src = (
-    result?.url ||
-    result?.meta_url?.hostname ||
-    result?.source ||
-    ""
-  ).toLowerCase();
-  return IMAGE_DOMAIN_BLOCKLIST.some((d) => src.includes(d));
-}
-
-async function braveImage(env, dish, attempt = 0) {
-  try {
-    const q = encodeURIComponent(`${dish.image_query} dish food`);
-    const res = await fetch(
-      `https://api.search.brave.com/res/v1/images/search?q=${q}&count=3&safesearch=strict`,
-      {
-        headers: {
-          Accept: "application/json",
-          "X-Subscription-Token": env.BRAVE_API_KEY,
-        },
-      }
-    );
-    if (res.status === 429 && attempt < 1) {
-      // Rate limited — wait a beat and retry once.
-      await new Promise((r) => setTimeout(r, 1100));
-      return braveImage(env, dish, attempt + 1);
-    }
-    if (!res.ok) return null;
-    const data = await res.json();
-    const results = data.results || [];
-    // First non-blocklisted candidate; fall back to the first result at all.
-    const pick = results.find((r) => !isBlockedSource(r)) || results[0];
-    return pick?.properties?.url || pick?.thumbnail?.src || null;
-  } catch {
-    return null;
-  }
-}
-
-async function googleImage(env, dish) {
-  try {
-    const q = encodeURIComponent(`${dish.image_query} dish food`);
-    const res = await fetch(
-      `https://www.googleapis.com/customsearch/v1?key=${env.GOOGLE_CSE_KEY}&cx=${env.GOOGLE_CSE_CX}&searchType=image&num=1&imgSize=large&safe=active&q=${q}`
-    );
-    if (!res.ok) return null;
-    const data = await res.json();
-    return data.items?.[0]?.link || null;
-  } catch {
-    return null;
-  }
 }
 
 function corsHeaders() {
@@ -799,7 +693,7 @@ function privacyPage(env) {
 
 <h2>Menu scans</h2>
 <p>When you choose to scan, the menu photo is sent securely to Tavue’s Cloudflare-hosted service and then to Anthropic’s commercial API for menu recognition and translation. Tavue does not save the menu photo in its own storage. Anthropic normally deletes API inputs and outputs within 30 days, subject to limited safety, legal, and contractual exceptions.</p>
-<p>The resulting menu is returned to your device. Recent-menu history is stored locally on your device. To find representative dish images, Tavue may send short food-name search queries—not the menu photo or your identifier—to Brave Search or Google Programmable Search.</p>
+<p>The resulting menu is returned to your device. Recent-menu history is stored locally on your device. Reference photographs are selected from a reviewed catalogue. The starter collection is bundled with the app; an expanded collection is delivered from Tavue’s own photo service. Photo attribution and licence information are available by tapping the credit on a photograph. Menu text is not sent to a separate image-search provider. Opening an external source or licence link connects to that website.</p>
 
 <h2>Order History and dish-photo drafts</h2>
 <p>When you open Show server, Tavue can save the selected dishes in Order History on your device. You may later choose a real photo for an ordered dish. In the 0.9 beta, that contribution photo is compressed and saved only on your device. It is not uploaded to Tavue, reviewed, displayed publicly, or used to grant scan credits yet. The app labels this state clearly. You can delete an Order History entry at any time; Tavue then removes both the entry and its associated dish-photo drafts from that device.</p>
@@ -811,7 +705,7 @@ function privacyPage(env) {
 <p>If crash monitoring is enabled, Sentry may receive crash and diagnostic information such as app version, platform, stack trace, and an error category. Tavue disables default personal information, screenshots, view hierarchy, and request-body collection. Optional feedback contains the message you type plus platform and app version, and is automatically deleted after 180 days.</p>
 
 <h2>Sharing, advertising, and tracking</h2>
-<p>Tavue does not sell personal data, serve targeted advertising, or track users across other companies’ apps and websites. Service providers process data only to operate Tavue: Cloudflare for hosting and analytics, Anthropic for AI processing, Sentry for diagnostics when configured, and Brave or Google for dish-image search.</p>
+<p>Tavue does not sell personal data, serve targeted advertising, or track users across other companies’ apps and websites. Service providers process data only to operate Tavue: Cloudflare for hosting and analytics, Anthropic for AI processing, and Sentry for diagnostics when configured.</p>
 
 <h2>Your choices and rights</h2>
 <p>You can decline AI processing and continue using any menus already saved on your device. Removing Tavue deletes its local history and random identifier. UK and EEA users may request access, correction, deletion, restriction, or objection where applicable.</p>

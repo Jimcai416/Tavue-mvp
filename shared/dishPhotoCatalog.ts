@@ -1,0 +1,1308 @@
+// Approved photographs only. See assets/dishes/CREDITS.md for provenance.
+export type DishPhoto = {
+ id: string; name: string; aliases: string[]; proteins: string[]; approved: boolean;
+ kind: 'photograph'; title: string; author: string; license: string; licenseUrl: string;
+ sourceUrl: string; originalUrl: string; asset: string; assetSha256: string;
+ commonsSha1: string | null; reviewedAt: string; reviewNote: string; width: number; height: number;
+};
+export const dishPhotoCatalog: DishPhoto[] = [
+  {
+    "id": "spaghetti-carbonara",
+    "name": "Spaghetti Carbonara",
+    "aliases": [
+      "Carbonara",
+      "Spaghetti Carbonara",
+      "Spaghetti alla carbonara",
+      "卡邦尼意面",
+      "卡邦尼義大利麵"
+    ],
+    "proteins": [
+      "pork"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "title": "Espaguetis carbonara.jpg",
+    "author": "Javier Somoza",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Espaguetis_carbonara.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/33/Espaguetis_carbonara.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "asset": "spaghetti-carbonara.jpg",
+    "assetSha256": "d43f6801933e7bc0fe607f74b1052f4fe6561f27a3cebca12ac9d09dc7f8724e",
+    "commonsSha1": "a2f63029c0867e9ea3a5f04b941012e53c66ee38",
+    "reviewedAt": "2026-09-07",
+    "reviewNote": "Reviewed photograph for dish identity, visible detail, framing, and source licence. Representative dish only; not a restaurant-specific serving.",
+    "width": 960,
+    "height": 640
+  },
+  {
+    "id": "cacio-e-pepe",
+    "name": "Cacio e Pepe",
+    "aliases": [
+      "Cacio e Pepe",
+      "Pasta cacio e pepe",
+      "Tonnarelli cacio e pepe"
+    ],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "title": "Tonnarelli cacio e pepe.jpg",
+    "author": "Camelia.boban",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tonnarelli_cacio_e_pepe.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Tonnarelli_cacio_e_pepe.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "asset": "cacio-e-pepe.jpg",
+    "assetSha256": "fdb9aca7d1ba91382addbcc56d0537f49998eba6d8239b0879c4c6956eee1bb2",
+    "commonsSha1": "b81bbaeeba820979bcf2bce4406bc9b289c454bd",
+    "reviewedAt": "2026-09-07",
+    "reviewNote": "Reviewed photograph for dish identity, visible detail, framing, and source licence. Representative dish only; not a restaurant-specific serving.",
+    "width": 960,
+    "height": 720
+  },
+  {
+    "id": "vitello-tonnato",
+    "name": "Vitello Tonnato",
+    "aliases": [
+      "Vitello Tonnato",
+      "Vitello tonnato"
+    ],
+    "proteins": [
+      "beef",
+      "seafood"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "title": "Vitello tonnato.jpg",
+    "author": "jules",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Vitello_tonnato.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Vitello_tonnato.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "asset": "vitello-tonnato.jpg",
+    "assetSha256": "9a3a5b22119a10156a8b4595d18902fd291428933289dd049cee1a4832ec0656",
+    "commonsSha1": "b6667f080b4167078b7c2d7419f9b0e9fd7d62d9",
+    "reviewedAt": "2026-09-07",
+    "reviewNote": "Reviewed photograph for dish identity, visible detail, framing, and source licence. Representative dish only; not a restaurant-specific serving.",
+    "width": 960,
+    "height": 1280
+  },
+  {
+    "id": "arancini",
+    "name": "Arancini",
+    "aliases": [
+      "Arancine",
+      "Arancini",
+      "Arancino",
+      "意式炸飯糰",
+      "意式炸饭团"
+    ],
+    "proteins": [
+      "beef",
+      "pork"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "title": "Arancini 002.jpg",
+    "author": "Gmelfi (attributed on source page)",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Arancini_002.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Arancini_002.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "asset": "arancini.jpg",
+    "assetSha256": "b22572f08c5b02df3919cc6eedd1ff366709fca71a3532a8ca766cfa0b1fcc99",
+    "commonsSha1": "cce3df09113e53a5e35792021f7073653abca41e",
+    "reviewedAt": "2026-09-07",
+    "reviewNote": "Reviewed photograph for dish identity, visible detail, framing, and source licence. Representative dish only; not a restaurant-specific serving.",
+    "width": 960,
+    "height": 718
+  },
+  {
+    "id": "pasta-alla-norma",
+    "name": "Pasta alla Norma",
+    "aliases": [
+      "Pasta alla Norma",
+      "Penne alla Norma",
+      "Rigatoni alla Norma"
+    ],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "title": "Pasta alla Norma (2563876877).jpg",
+    "author": "Paoletta S.",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pasta_alla_Norma_(2563876877).jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Pasta_alla_Norma_%282563876877%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "asset": "pasta-alla-norma.jpg",
+    "assetSha256": "15180fcbd7b6cf856ce76c56cdac8b60cb5cde30e808702245acc6ef9e6e909b",
+    "commonsSha1": "abce6b6fb69ed89fc0b4810a080f62c9869307b8",
+    "reviewedAt": "2026-09-07",
+    "reviewNote": "Reviewed photograph for dish identity, visible detail, framing, and source licence. Representative dish only; not a restaurant-specific serving.",
+    "width": 960,
+    "height": 640
+  },
+  {
+    "id": "beef-bourguignon",
+    "name": "Beef Bourguignon",
+    "aliases": [
+      "Beef Burgundy",
+      "Boeuf Bourguignon",
+      "Bœuf bourguignon",
+      "勃艮第红酒炖牛肉"
+    ],
+    "proteins": [
+      "beef",
+      "pork"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "title": "Beef bourguignon-01.jpg",
+    "author": "balise42",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Beef_bourguignon-01.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/80/Beef_bourguignon-01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "asset": "beef-bourguignon.jpg",
+    "assetSha256": "0cf2df061c01649d18c74467469360a4128682e6106affa1a9f4dcd1b4763c9b",
+    "commonsSha1": "1724797cf713834e50d35a10de26c7e13e11a7ce",
+    "reviewedAt": "2026-09-07",
+    "reviewNote": "Reviewed photograph for dish identity, visible detail, framing, and source licence. Representative dish only; not a restaurant-specific serving.",
+    "width": 960,
+    "height": 739
+  },
+  {
+    "id": "duck-confit",
+    "name": "Duck Confit",
+    "aliases": [
+      "Confit de Canard",
+      "Duck leg confit",
+      "油封鴨腿",
+      "油封鸭腿"
+    ],
+    "proteins": [
+      "duck"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "title": "Duck confit - the girl and the fig - 2021-11-10 - Sarah Stierch.jpg",
+    "author": "Missvain",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Duck_confit_-_the_girl_and_the_fig_-_2021-11-10_-_Sarah_Stierch.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Duck_confit_-_the_girl_and_the_fig_-_2021-11-10_-_Sarah_Stierch.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "asset": "duck-confit.jpg",
+    "assetSha256": "61c80c2f642c938bfcff6bee2bbb8e44f4655ff3c76fdc7a9c78d3c07565edc8",
+    "commonsSha1": "62d670a65eb3fafe77dbaa78719afd95e0908816",
+    "reviewedAt": "2026-09-07",
+    "reviewNote": "Reviewed photograph for dish identity, visible detail, framing, and source licence. Representative dish only; not a restaurant-specific serving.",
+    "width": 960,
+    "height": 720
+  },
+  {
+    "id": "bouillabaisse",
+    "name": "Bouillabaisse",
+    "aliases": [
+      "Bouillabaisse",
+      "馬賽魚湯",
+      "马赛鱼汤"
+    ],
+    "proteins": [
+      "seafood"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "title": "20250903 Bouillabaisse in Khimki (90108).jpg",
+    "author": "Sergey A. Demidov",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:20250903_Bouillabaisse_in_Khimki_(90108).jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/62/20250903_Bouillabaisse_in_Khimki_%2890108%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "asset": "bouillabaisse.jpg",
+    "assetSha256": "7513b8bbffec652c2483b0d404764d3ca5a2ec19db5417e421a5c39d4a36ac0a",
+    "commonsSha1": "b025987b67566425be721905bf14cf9820df30e6",
+    "reviewedAt": "2026-09-07",
+    "reviewNote": "Reviewed photograph for dish identity, visible detail, framing, and source licence. Representative dish only; not a restaurant-specific serving.",
+    "width": 960,
+    "height": 540
+  },
+  {
+    "id": "tartiflette",
+    "name": "Tartiflette",
+    "aliases": [
+      "Tartiflette"
+    ],
+    "proteins": [
+      "pork"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "title": "Une tartiflette sortie du four.jpg",
+    "author": "Benoît Prieur",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Une_tartiflette_sortie_du_four.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Une_tartiflette_sortie_du_four.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "asset": "tartiflette.jpg",
+    "assetSha256": "7659672a462714d54ab0e0076fd268cc9580e291d38f1208ad3616494f94a957",
+    "commonsSha1": "8bd59c9f02fe3b344bc2268441e432fdcf6bd216",
+    "reviewedAt": "2026-09-07",
+    "reviewNote": "Reviewed photograph for dish identity, visible detail, framing, and source licence. Representative dish only; not a restaurant-specific serving.",
+    "width": 960,
+    "height": 934
+  },
+  {
+    "id": "croque-monsieur",
+    "name": "Croque Monsieur",
+    "aliases": [
+      "Croque Monsieur",
+      "Croque-monsieur"
+    ],
+    "proteins": [
+      "pork"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "title": "Croque monsieur.jpg",
+    "author": "Michael Brewer",
+    "license": "CC BY-SA 2.5",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Croque_monsieur.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Croque_monsieur.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "asset": "croque-monsieur.jpg",
+    "assetSha256": "aeee4ab8a488dd47dbc5a43ce38900467b35a212061d472000a58bbb39937090",
+    "commonsSha1": "294747dc3965df9d5c0d331cd8d6c041d24d84a3",
+    "reviewedAt": "2026-09-07",
+    "reviewNote": "Reviewed photograph for dish identity, visible detail, framing, and source licence. Representative dish only; not a restaurant-specific serving.",
+    "width": 960,
+    "height": 640
+  },
+  {
+    "id": "steak-tartare",
+    "name": "Steak Tartare",
+    "aliases": [
+      "Steak Tartare",
+      "Tartare de boeuf",
+      "鞑靼牛肉"
+    ],
+    "proteins": [
+      "beef"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "title": "Classic steak tartare.jpg",
+    "author": "insatiablemunch",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Classic_steak_tartare.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/db/Classic_steak_tartare.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "asset": "steak-tartare.jpg",
+    "assetSha256": "69bbc98736c89b949eda93ed3b2f6204e35668b3fd974adf48ada702557c48ac",
+    "commonsSha1": "a165964b9616eb3dd31ce3c69b5faceaabb681d9",
+    "reviewedAt": "2026-09-07",
+    "reviewNote": "Reviewed photograph for dish identity, visible detail, framing, and source licence. Representative dish only; not a restaurant-specific serving.",
+    "width": 960,
+    "height": 640
+  },
+  {
+    "id": "paella-valenciana",
+    "name": "Paella Valenciana",
+    "aliases": [
+      "Paella Valenciana"
+    ],
+    "proteins": [
+      "chicken"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "title": "01 Paella Valenciana original.jpg",
+    "author": "Jan Harenburg",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:01_Paella_Valenciana_original.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ed/01_Paella_Valenciana_original.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "asset": "paella-valenciana.jpg",
+    "assetSha256": "ee93ee524336003422026acd02bce1cd726ad71e5de224ec3dce7eaa850c1f58",
+    "commonsSha1": "4c533e2924e21f4d6eba0e4fa8b299ff8dfde95b",
+    "reviewedAt": "2026-09-07",
+    "reviewNote": "Reviewed photograph for dish identity, visible detail, framing, and source licence. Representative dish only; not a restaurant-specific serving.",
+    "width": 960,
+    "height": 640
+  },
+  {
+    "id": "patatas-bravas",
+    "name": "Patatas Bravas",
+    "aliases": [
+      "Patatas Bravas"
+    ],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "title": "Patatas bravas madrid.jpg",
+    "author": "Krista",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Patatas_bravas_madrid.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/16/Patatas_bravas_madrid.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "asset": "patatas-bravas.jpg",
+    "assetSha256": "e4f233b45904d87b95aa334c9c2de7fceb38bce862b15410207870a5240c48d4",
+    "commonsSha1": "ac360a55b23fef3fcf5c4bf3ee6fa7aa757a16f2",
+    "reviewedAt": "2026-09-07",
+    "reviewNote": "Reviewed photograph for dish identity, visible detail, framing, and source licence. Representative dish only; not a restaurant-specific serving.",
+    "width": 960,
+    "height": 640
+  },
+  {
+    "id": "gambas-al-ajillo",
+    "name": "Gambas al Ajillo",
+    "aliases": [
+      "Gambas al Ajillo",
+      "Gambas al ajillo",
+      "Garlic prawns"
+    ],
+    "proteins": [
+      "seafood"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "title": "Gambas al ajillo en madrid.jpg",
+    "author": "Krista",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gambas_al_ajillo_en_madrid.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Gambas_al_ajillo_en_madrid.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "asset": "gambas-al-ajillo.jpg",
+    "assetSha256": "ac8bff34c9a9d163f5461642866f2e1df7af895a3cfc41f4e06b901dec010a9d",
+    "commonsSha1": "18725861d2f49bf7d185c5c6977f8b82cee098f3",
+    "reviewedAt": "2026-09-07",
+    "reviewNote": "Reviewed photograph for dish identity, visible detail, framing, and source licence. Representative dish only; not a restaurant-specific serving.",
+    "width": 960,
+    "height": 640
+  },
+  {
+    "id": "spanish-omelette",
+    "name": "Spanish Omelette",
+    "aliases": [
+      "Tortilla Española",
+      "Tortilla de patatas",
+      "西班牙土豆蛋饼"
+    ],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "title": "Tortilla de patata - San Sebastián.jpg",
+    "author": "Kent Wang",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tortilla_de_patata_-_San_Sebasti%C3%A1n.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/49/Tortilla_de_patata_-_San_Sebasti%C3%A1n.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "asset": "spanish-omelette.jpg",
+    "assetSha256": "fbe961b5003dd23ccbdc7fcdf3e13aea576cf4131aa7dbaaccb389191a205334",
+    "commonsSha1": "27105844ea518fe4cb248e488153cf859d8dd624",
+    "reviewedAt": "2026-09-07",
+    "reviewNote": "Reviewed photograph for dish identity, visible detail, framing, and source licence. Representative dish only; not a restaurant-specific serving.",
+    "width": 960,
+    "height": 640
+  },
+  {
+    "id": "mapo-tofu",
+    "name": "Mapo Tofu",
+    "aliases": [
+      "Ma po tofu",
+      "Mapo Tofu",
+      "Mapo doufu",
+      "麻婆豆腐"
+    ],
+    "proteins": [
+      "beef",
+      "pork"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "title": "Chen Mapo Tofu.jpg",
+    "author": "ZhengZhou",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chen_Mapo_Tofu.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/88/Chen_Mapo_Tofu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "asset": "mapo-tofu.jpg",
+    "assetSha256": "d6a0510ef4ed16a0b90dabf7b27f434ffb0d9d43d96b423619ec794fa35a1d84",
+    "commonsSha1": "10f68b56a17774fb251e09036a526d2e498e5765",
+    "reviewedAt": "2026-09-07",
+    "reviewNote": "Reviewed photograph for dish identity, visible detail, framing, and source licence. Representative dish only; not a restaurant-specific serving.",
+    "width": 960,
+    "height": 720
+  },
+  {
+    "id": "xiaolongbao",
+    "name": "Xiaolongbao",
+    "aliases": [
+      "Pork soup dumplings",
+      "Xiao long bao",
+      "Xiaolongbao",
+      "小笼包",
+      "小籠包"
+    ],
+    "proteins": [
+      "pork"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "title": "A Xiaolongbao from The Modern Shanghai.jpg",
+    "author": "Peachyeung316",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:A_Xiaolongbao_from_The_Modern_Shanghai.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3a/A_Xiaolongbao_from_The_Modern_Shanghai.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "asset": "xiaolongbao.jpg",
+    "assetSha256": "252365b6875a965a7ac93b5e81872de8f5fa3250c4c546a5d00b018a638202e0",
+    "commonsSha1": "bbfd2030274abcde7e5e9a28f74079b45a061d1b",
+    "reviewedAt": "2026-09-07",
+    "reviewNote": "Reviewed photograph for dish identity, visible detail, framing, and source licence. Representative dish only; not a restaurant-specific serving.",
+    "width": 960,
+    "height": 720
+  },
+  {
+    "id": "twice-cooked-pork",
+    "name": "Twice Cooked Pork",
+    "aliases": [
+      "Hui guo rou",
+      "Twice Cooked Pork",
+      "回鍋肉",
+      "回锅肉"
+    ],
+    "proteins": [
+      "pork"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "title": "Twice cooked pork, Jia Yan, 5 rue Humblot, Paris 003.jpg",
+    "author": "Guilhem Vellut from Paris, France",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Twice_cooked_pork,_Jia_Yan,_5_rue_Humblot,_Paris_003.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Twice_cooked_pork%2C_Jia_Yan%2C_5_rue_Humblot%2C_Paris_003.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "asset": "twice-cooked-pork.jpg",
+    "assetSha256": "6f3dd1568fdc0bb56c1d3d5279792c0858c8803b6afe2b0c830125717400afe7",
+    "commonsSha1": "61709d7e89806294758cae4acdac6cb04899332b",
+    "reviewedAt": "2026-09-07",
+    "reviewNote": "Reviewed photograph for dish identity, visible detail, framing, and source licence. Representative dish only; not a restaurant-specific serving.",
+    "width": 960,
+    "height": 640
+  },
+  {
+    "id": "dan-dan-noodles",
+    "name": "Dan Dan Noodles",
+    "aliases": [
+      "Dan Dan Noodles",
+      "Dandan noodles",
+      "担担面",
+      "擔擔麵"
+    ],
+    "proteins": [
+      "pork"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "title": "Dan-dan noodles, Shanghai.jpg",
+    "author": "Steven G. Johnson",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dan-dan_noodles,_Shanghai.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Dan-dan_noodles%2C_Shanghai.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "asset": "dan-dan-noodles.jpg",
+    "assetSha256": "5ab08082fa7888ed7f531e74cabf91c37f67492013fed257edd4844222705dbd",
+    "commonsSha1": "cb424fd56c97505161ae5beec8b372a409c643ef",
+    "reviewedAt": "2026-09-07",
+    "reviewNote": "Reviewed photograph for dish identity, visible detail, framing, and source licence. Representative dish only; not a restaurant-specific serving.",
+    "width": 960,
+    "height": 638
+  },
+  {
+    "id": "tonkotsu-ramen",
+    "name": "Tonkotsu Ramen",
+    "aliases": [
+      "Tonkotsu Ramen",
+      "豚骨ラーメン",
+      "豚骨拉面",
+      "豚骨拉麵"
+    ],
+    "proteins": [
+      "pork"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "title": "Tonkotsu Ramen Special, Hakata Choten, Paris 001.jpg",
+    "author": "Guilhem Vellut from Paris, France",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tonkotsu_Ramen_Special,_Hakata_Choten,_Paris_001.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Tonkotsu_Ramen_Special%2C_Hakata_Choten%2C_Paris_001.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "asset": "tonkotsu-ramen.jpg",
+    "assetSha256": "5c5ef5e157646b5cce4012645088da5b937d1c212f06c3ec99adc27b56338ba7",
+    "commonsSha1": "5218c02a40eb802b5900c9fef63feb8aec2c6209",
+    "reviewedAt": "2026-09-07",
+    "reviewNote": "Reviewed photograph for dish identity, visible detail, framing, and source licence. Representative dish only; not a restaurant-specific serving.",
+    "width": 960,
+    "height": 640
+  },
+  {
+    "id": "okonomiyaki",
+    "name": "Okonomiyaki",
+    "aliases": [
+      "Okonomiyaki",
+      "お好み焼き",
+      "大阪烧",
+      "大阪燒"
+    ],
+    "proteins": [
+      "pork",
+      "seafood"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "title": "Okonomiyaki 001.jpg",
+    "author": "ume-y",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Okonomiyaki_001.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/59/Okonomiyaki_001.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "asset": "okonomiyaki.jpg",
+    "assetSha256": "907c69bfd150d3e298652f987110b8629d655da6af82673f6d9dd88400aec4fd",
+    "commonsSha1": "05dbfd3723e3fe3f72c45d04509cb14dd418ce8f",
+    "reviewedAt": "2026-09-07",
+    "reviewNote": "Reviewed photograph for dish identity, visible detail, framing, and source licence. Representative dish only; not a restaurant-specific serving.",
+    "width": 960,
+    "height": 640
+  },
+  {
+    "id": "katsudon",
+    "name": "Katsudon",
+    "aliases": [
+      "Katsudon",
+      "カツ丼",
+      "猪排饭",
+      "豬排飯"
+    ],
+    "proteins": [
+      "pork"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "title": "Katsudon 001.jpg",
+    "author": "Ocdp",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Katsudon_001.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Katsudon_001.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "asset": "katsudon.jpg",
+    "assetSha256": "2f33fae57d657ae3c24c3719aa6bfb99369eab576992720aa96290b74f1dfedb",
+    "commonsSha1": "8785eb63e4807625aa94a3a0c0b7170d4a5de39f",
+    "reviewedAt": "2026-09-07",
+    "reviewNote": "Reviewed photograph for dish identity, visible detail, framing, and source licence. Representative dish only; not a restaurant-specific serving.",
+    "width": 960,
+    "height": 671
+  },
+  {
+    "id": "unagi-don",
+    "name": "Unagi Don",
+    "aliases": [
+      "Unadon",
+      "Unagi Don",
+      "うな丼",
+      "鰻魚飯",
+      "鳗鱼饭"
+    ],
+    "proteins": [
+      "seafood"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "title": "Tokyo Chikuyotei Unadon01s2100.jpg",
+    "author": "663highland",
+    "license": "CC BY 2.5",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tokyo_Chikuyotei_Unadon01s2100.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Tokyo_Chikuyotei_Unadon01s2100.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "asset": "unagi-don.jpg",
+    "assetSha256": "514436a9d3643322f4f01739eb544e82e3b89972b175f1be445b817ab6ca0ac8",
+    "commonsSha1": "7389aa9dce074e7dad7e3c07101efacabf61e67d",
+    "reviewedAt": "2026-09-07",
+    "reviewNote": "Reviewed photograph for dish identity, visible detail, framing, and source licence. Representative dish only; not a restaurant-specific serving.",
+    "width": 960,
+    "height": 640
+  },
+  {
+    "id": "chawanmushi",
+    "name": "Chawanmushi",
+    "aliases": [
+      "Chawanmushi",
+      "茶碗蒸",
+      "茶碗蒸し"
+    ],
+    "proteins": [
+      "chicken",
+      "seafood"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "title": "Chawan-mushi.JPG",
+    "author": "Brücke-Osteuropa",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chawan-mushi.JPG",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/89/Chawan-mushi.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "asset": "chawanmushi.jpg",
+    "assetSha256": "1cce12524413fd67d9110f2b42482f9c09129d3c72bce8b53e9ae754c606dd42",
+    "commonsSha1": "fbebaff8a171d2d4b049cd43a4b21b955b42fd14",
+    "reviewedAt": "2026-09-07",
+    "reviewNote": "Reviewed photograph for dish identity, visible detail, framing, and source licence. Representative dish only; not a restaurant-specific serving.",
+    "width": 960,
+    "height": 540
+  },
+  {
+    "id": "bibimbap",
+    "name": "Bibimbap",
+    "aliases": [
+      "Bibimbap",
+      "비빔밥"
+    ],
+    "proteins": [
+      "beef"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "title": "Dolsot-bibimbap.jpg",
+    "author": "Sous Chef",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dolsot-bibimbap.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/44/Dolsot-bibimbap.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "asset": "bibimbap.jpg",
+    "assetSha256": "24d5d5d87c4cd9b9dcf4d4790b4fe13f20c3bdd8a338974ba0716e59121a66c6",
+    "commonsSha1": "fa9d2f36889d3364772392a2ffa78e5185992219",
+    "reviewedAt": "2026-09-07",
+    "reviewNote": "Reviewed photograph for dish identity, visible detail, framing, and source licence. Representative dish only; not a restaurant-specific serving.",
+    "width": 960,
+    "height": 641
+  },
+  {
+    "id": "tteokbokki",
+    "name": "Tteokbokki",
+    "aliases": [
+      "Tteokbokki",
+      "韓式炒年糕",
+      "韩式炒年糕",
+      "떡볶이"
+    ],
+    "proteins": [
+      "seafood"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "title": "Tteokbokki.JPG",
+    "author": "Popo le Chien",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tteokbokki.JPG",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Tteokbokki.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "asset": "tteokbokki.jpg",
+    "assetSha256": "29e55af841c3fdf84492f7603be763e4d6c66af4fd76bb795432341b3e06c560",
+    "commonsSha1": "d42a9733e1c8fbe551d400244c4010a29020e9a5",
+    "reviewedAt": "2026-09-07",
+    "reviewNote": "Reviewed photograph for dish identity, visible detail, framing, and source licence. Representative dish only; not a restaurant-specific serving.",
+    "width": 960,
+    "height": 640
+  },
+  {
+    "id": "samgyeopsal",
+    "name": "Samgyeopsal",
+    "aliases": [
+      "Samgyeopsal",
+      "Samgyeopsal gui",
+      "韩式烤五花肉",
+      "삼겹살"
+    ],
+    "proteins": [
+      "pork"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "title": "Samgyeopsal-gui.jpg",
+    "author": "jinsoo jang",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Samgyeopsal-gui.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/77/Samgyeopsal-gui.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "asset": "samgyeopsal.jpg",
+    "assetSha256": "9843f688cf1857e3e81b5cefb0bcb1c653275b371b8c0ebcea7374841e3d732d",
+    "commonsSha1": "5c8ff910571864c5717805afc7cb8bf4bb7c12ef",
+    "reviewedAt": "2026-09-07",
+    "reviewNote": "Reviewed photograph for dish identity, visible detail, framing, and source licence. Representative dish only; not a restaurant-specific serving.",
+    "width": 960,
+    "height": 640
+  },
+  {
+    "id": "kimchi-stew",
+    "name": "Kimchi Stew",
+    "aliases": [
+      "Kimchi Jjigae",
+      "Kimchi-jjigae",
+      "泡菜汤",
+      "泡菜湯",
+      "김치찌개"
+    ],
+    "proteins": [
+      "pork"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "title": "Korean.cuisine-Kimchi jjigae-01.jpg",
+    "author": "by avlxyz",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Korean.cuisine-Kimchi_jjigae-01.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Korean.cuisine-Kimchi_jjigae-01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "asset": "kimchi-stew.jpg",
+    "assetSha256": "a9c4a7af906f04b9871864a84a3ebbcd8ff7c15b77019681c2168d433d532ba8",
+    "commonsSha1": "5c5d962cdf0c4f921b687b6a8926e1cfa605ef92",
+    "reviewedAt": "2026-09-07",
+    "reviewNote": "Reviewed photograph for dish identity, visible detail, framing, and source licence. Representative dish only; not a restaurant-specific serving.",
+    "width": 960,
+    "height": 720
+  },
+  {
+    "id": "pad-thai",
+    "name": "Pad Thai",
+    "aliases": [
+      "Pad Thai",
+      "Phat Thai",
+      "ผัดไทย",
+      "泰式炒河粉"
+    ],
+    "proteins": [
+      "seafood"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "title": "Phat Thai kung Chang Khien street stall.jpg",
+    "author": "Takeaway",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Phat_Thai_kung_Chang_Khien_street_stall.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/39/Phat_Thai_kung_Chang_Khien_street_stall.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "asset": "pad-thai.jpg",
+    "assetSha256": "eff34dd8d6e8c7a101c3985a227f2a863d5f32f33f65be14c0ae4949e099ff1c",
+    "commonsSha1": "da958da739267481ac76e5f20c3617347fbcadc6",
+    "reviewedAt": "2026-09-07",
+    "reviewNote": "Reviewed photograph for dish identity, visible detail, framing, and source licence. Representative dish only; not a restaurant-specific serving.",
+    "width": 960,
+    "height": 960
+  },
+  {
+    "id": "tom-yum-soup",
+    "name": "Tom Yum Soup",
+    "aliases": [
+      "Tom Yum Goong",
+      "Tom yam kung",
+      "ต้มยำกุ้ง",
+      "冬蔭功湯",
+      "冬阴功汤"
+    ],
+    "proteins": [
+      "seafood"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "title": "Tom yam kung maenam.jpg",
+    "author": "Takeaway",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tom_yam_kung_maenam.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Tom_yam_kung_maenam.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "asset": "tom-yum-soup.jpg",
+    "assetSha256": "b63a73ca403279ecae615bf6bb22859da530998967408611a8af9e7cde7fc5e5",
+    "commonsSha1": "be867f059e3c71ba6078fefd2a7a44a496911e85",
+    "reviewedAt": "2026-09-07",
+    "reviewNote": "Reviewed photograph for dish identity, visible detail, framing, and source licence. Representative dish only; not a restaurant-specific serving.",
+    "width": 960,
+    "height": 636
+  },
+  {
+    "id": "khao-soi",
+    "name": "Khao Soi",
+    "aliases": [
+      "Khao Soi",
+      "Khao soy",
+      "ข้าวซอย",
+      "清迈咖喱面"
+    ],
+    "proteins": [
+      "chicken"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "title": "Khao Soi Northern Thai food ข้าวซอย ผักดอง.jpg",
+    "author": "Chainwit.",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Khao_Soi_Northern_Thai_food_%E0%B8%82%E0%B9%89%E0%B8%B2%E0%B8%A7%E0%B8%8B%E0%B8%AD%E0%B8%A2_%E0%B8%9C%E0%B8%B1%E0%B8%81%E0%B8%94%E0%B8%AD%E0%B8%87.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Khao_Soi_Northern_Thai_food_%E0%B8%82%E0%B9%89%E0%B8%B2%E0%B8%A7%E0%B8%8B%E0%B8%AD%E0%B8%A2_%E0%B8%9C%E0%B8%B1%E0%B8%81%E0%B8%94%E0%B8%AD%E0%B8%87.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "asset": "khao-soi.jpg",
+    "assetSha256": "dfcbbbbc765f15376a7dbbe7196bf73406dbd84b3309da0a35a05c47b3c3d553",
+    "commonsSha1": "93934a6d71e42e7be827f96265cfc579f3676bce",
+    "reviewedAt": "2026-09-07",
+    "reviewNote": "Reviewed photograph for dish identity, visible detail, framing, and source licence. Representative dish only; not a restaurant-specific serving.",
+    "width": 960,
+    "height": 768
+  },
+  {
+    "id": "green-papaya-salad",
+    "name": "Green Papaya Salad",
+    "aliases": [
+      "Som Tam",
+      "Som tam thai",
+      "ส้มตำไทย"
+    ],
+    "proteins": [
+      "seafood"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "title": "Som tam thai.JPG",
+    "author": "Takeaway",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Som_tam_thai.JPG",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Som_tam_thai.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "asset": "green-papaya-salad.jpg",
+    "assetSha256": "2b7c422431712708f029e1d4ae4434ffd7d7694796736c0554f7a19a74ab0b30",
+    "commonsSha1": "fa6d2987dce1219ec29174f1011577d0f6122a7b",
+    "reviewedAt": "2026-09-07",
+    "reviewNote": "Reviewed photograph for dish identity, visible detail, framing, and source licence. Representative dish only; not a restaurant-specific serving.",
+    "width": 960,
+    "height": 643
+  },
+  {
+    "id": "banh-mi",
+    "name": "Banh Mi",
+    "aliases": [
+      "Banh Mi",
+      "Bánh mì",
+      "越南法棍"
+    ],
+    "proteins": [
+      "pork"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "title": "Bánh mì thịt nướng.png",
+    "author": "nsaum75 ¡שיחת! ‎",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:B%C3%A1nh_m%C3%AC_th%E1%BB%8Bt_n%C6%B0%E1%BB%9Bng.png",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0c/B%C3%A1nh_m%C3%AC_th%E1%BB%8Bt_n%C6%B0%E1%BB%9Bng.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "asset": "banh-mi.png",
+    "assetSha256": "293bf6bb1a6ebd0756f9a3cbac63f1efe4108c6b9f5e096823b529216607b684",
+    "commonsSha1": "7add86744427cb64b3148d3a831dd7a7a447a653",
+    "reviewedAt": "2026-09-07",
+    "reviewNote": "Reviewed photograph for dish identity, visible detail, framing, and source licence. Representative dish only; not a restaurant-specific serving.",
+    "width": 960,
+    "height": 907
+  },
+  {
+    "id": "bun-cha",
+    "name": "Bun Cha",
+    "aliases": [
+      "Bun Cha",
+      "Bún chả",
+      "河内烤肉米粉"
+    ],
+    "proteins": [
+      "pork"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "title": "Bún chả Vietnamese food.jpg",
+    "author": "stuart_spivack",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:B%C3%BAn_ch%E1%BA%A3_Vietnamese_food.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4d/B%C3%BAn_ch%E1%BA%A3_Vietnamese_food.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "asset": "bun-cha.jpg",
+    "assetSha256": "d797c696dd4150102300f78a9a6027cc37688a709ea0c7d206e0efb2c02527ea",
+    "commonsSha1": "341e9ce788d766676fcdda4ea817779aef21ca5b",
+    "reviewedAt": "2026-09-07",
+    "reviewNote": "Reviewed photograph for dish identity, visible detail, framing, and source licence. Representative dish only; not a restaurant-specific serving.",
+    "width": 960,
+    "height": 638
+  },
+  {
+    "id": "butter-chicken",
+    "name": "Butter Chicken",
+    "aliases": [
+      "Butter Chicken",
+      "Murgh makhani",
+      "奶油雞",
+      "黄油鸡"
+    ],
+    "proteins": [
+      "chicken"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "title": "Chicken makhani.jpg",
+    "author": "stu_spivack",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chicken_makhani.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Chicken_makhani.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "asset": "butter-chicken.jpg",
+    "assetSha256": "1afaea229eb13f3e9daecd9e57732aa6fcf1e23031abc9ac7316f33ba8471b07",
+    "commonsSha1": "45ba9390d9f9ec3e63c7d0041928b3bc8ade16ec",
+    "reviewedAt": "2026-09-07",
+    "reviewNote": "Reviewed photograph for dish identity, visible detail, framing, and source licence. Representative dish only; not a restaurant-specific serving.",
+    "width": 960,
+    "height": 638
+  },
+  {
+    "id": "masala-dosa",
+    "name": "Masala Dosa",
+    "aliases": [
+      "Masala Dosa",
+      "Masala dosai"
+    ],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "title": "Masala Dosa 2023.jpg",
+    "author": "Yakshitha",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Masala_Dosa_2023.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Masala_Dosa_2023.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "asset": "masala-dosa.jpg",
+    "assetSha256": "6efdd10c09416f7498d4b0d3dc205e264d41829aa0874e0953d9cc50b31e4b3e",
+    "commonsSha1": "05f52c7b1d503dac6793103bcfccf4021908f02a",
+    "reviewedAt": "2026-09-07",
+    "reviewNote": "Reviewed photograph for dish identity, visible detail, framing, and source licence. Representative dish only; not a restaurant-specific serving.",
+    "width": 960,
+    "height": 720
+  },
+  {
+    "id": "palak-paneer",
+    "name": "Palak Paneer",
+    "aliases": [
+      "Palak Paneer",
+      "Saag palak paneer",
+      "菠菜奶酪"
+    ],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "title": "Palak Paneer (Cottage cheese in spinach gravy).jpg",
+    "author": "DreamyFlutura11",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Palak_Paneer_(Cottage_cheese_in_spinach_gravy).jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Palak_Paneer_%28Cottage_cheese_in_spinach_gravy%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "asset": "palak-paneer.jpg",
+    "assetSha256": "58ed38b860ac72129dbb9db474027a7ce9a550612c5f69ba9828556043ab2d11",
+    "commonsSha1": "1335f1b296349b231022b35b3aaf0d9aafcaf04b",
+    "reviewedAt": "2026-09-07",
+    "reviewNote": "Reviewed photograph for dish identity, visible detail, framing, and source licence. Representative dish only; not a restaurant-specific serving.",
+    "width": 960,
+    "height": 720
+  },
+  {
+    "id": "nasi-goreng",
+    "name": "Nasi Goreng",
+    "aliases": [
+      "Nasi Goreng",
+      "印尼炒飯",
+      "印尼炒饭"
+    ],
+    "proteins": [
+      "chicken",
+      "seafood"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "title": "Nasi Goreng Kampung (11967588375).jpg",
+    "author": "shankar s. from Dubai, united arab emirates",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nasi_Goreng_Kampung_(11967588375).jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Nasi_Goreng_Kampung_%2811967588375%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "asset": "nasi-goreng.jpg",
+    "assetSha256": "bfb7bae1d871deb2a4874507bdf13d9eccdf23852ef140c58644c598d260a8e9",
+    "commonsSha1": "ded5b02fcbce0fa94db8451afe4be9d38c77b2b3",
+    "reviewedAt": "2026-09-07",
+    "reviewNote": "Reviewed photograph for dish identity, visible detail, framing, and source licence. Representative dish only; not a restaurant-specific serving.",
+    "width": 960,
+    "height": 720
+  },
+  {
+    "id": "laksa",
+    "name": "Laksa",
+    "aliases": [
+      "Curry laksa",
+      "Laksa",
+      "Nyonya laksa",
+      "叻沙"
+    ],
+    "proteins": [
+      "seafood"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "title": "Nyonya Laksa.jpg",
+    "author": "Giddy98",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nyonya_Laksa.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Nyonya_Laksa.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "asset": "laksa.jpg",
+    "assetSha256": "ac2659d89d4b2f54734f09252f2d0c58493fd4b6ad250eea4e4dee7b60c5c059",
+    "commonsSha1": "005ee085927b8b75284cd11e05366b32f31aadd4",
+    "reviewedAt": "2026-09-07",
+    "reviewNote": "Reviewed photograph for dish identity, visible detail, framing, and source licence. Representative dish only; not a restaurant-specific serving.",
+    "width": 960,
+    "height": 960
+  },
+  {
+    "id": "hainanese-chicken-rice",
+    "name": "Hainanese Chicken Rice",
+    "aliases": [
+      "Hainanese Chicken Rice",
+      "海南雞飯",
+      "海南鸡饭"
+    ],
+    "proteins": [
+      "chicken"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "title": "Hainan Chicken Rice at Pappa Rich Malaysian Delights, GR Mall Beijing (20230716104217).jpg",
+    "author": "N509FZ",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hainan_Chicken_Rice_at_Pappa_Rich_Malaysian_Delights,_GR_Mall_Beijing_(20230716104217).jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Hainan_Chicken_Rice_at_Pappa_Rich_Malaysian_Delights%2C_GR_Mall_Beijing_%2820230716104217%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "asset": "hainanese-chicken-rice.jpg",
+    "assetSha256": "9ee7e7b1c1a26c4d42a252822f07a834d339e47bc70e34253facd00fc3e5e820",
+    "commonsSha1": "ca1ef3d17277e5d4a80dffa58f5e063a60f07342",
+    "reviewedAt": "2026-09-07",
+    "reviewNote": "Reviewed photograph for dish identity, visible detail, framing, and source licence. Representative dish only; not a restaurant-specific serving.",
+    "width": 960,
+    "height": 640
+  },
+  {
+    "id": "beef-wellington",
+    "name": "Beef Wellington",
+    "aliases": [
+      "Beef Wellington",
+      "惠灵顿牛排",
+      "惠靈頓牛排"
+    ],
+    "proteins": [
+      "beef",
+      "pork"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "title": "Beef Wellington 2019.jpg",
+    "author": "Snielsen1112",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Beef_Wellington_2019.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Beef_Wellington_2019.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "asset": "beef-wellington.jpg",
+    "assetSha256": "e3cfa20a3fbf3c963dc59bb3b556229e4cd7b70c841f93b247ae81de4e447e90",
+    "commonsSha1": "091d4be71db264b6f3986b67af97d3b265313ea6",
+    "reviewedAt": "2026-09-07",
+    "reviewNote": "Reviewed photograph for dish identity, visible detail, framing, and source licence. Representative dish only; not a restaurant-specific serving.",
+    "width": 960,
+    "height": 1262
+  },
+  {
+    "id": "fish-and-chips",
+    "name": "Fish and Chips",
+    "aliases": [
+      "Fish and Chips",
+      "炸魚薯條",
+      "炸鱼薯条"
+    ],
+    "proteins": [
+      "seafood"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "title": "Fish and chips blackpool.jpg",
+    "author": "Matthias Meckel",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fish_and_chips_blackpool.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Fish_and_chips_blackpool.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "asset": "fish-and-chips.jpg",
+    "assetSha256": "eb46d7ec1abfa339d610f262fa0b8e0bdb685f182f44807642e1f1f6836ebfd7",
+    "commonsSha1": "e49c9b432f5e2af2f02d4950914c05e26650c63d",
+    "reviewedAt": "2026-09-07",
+    "reviewNote": "Reviewed photograph for dish identity, visible detail, framing, and source licence. Representative dish only; not a restaurant-specific serving.",
+    "width": 960,
+    "height": 636
+  },
+  {
+    "id": "khachapuri",
+    "name": "Adjarian Khachapuri",
+    "aliases": [
+      "Adjarian khachapuri",
+      "Adjaruli khachapuri"
+    ],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "title": "Khachapuri Adjaruli with egg and butter 2016.jpg",
+    "author": "Eugene Krasnaok",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Khachapuri_Adjaruli_with_egg_and_butter_2016.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/02/Khachapuri_Adjaruli_with_egg_and_butter_2016.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "asset": "khachapuri.jpg",
+    "assetSha256": "80938ee521988504f42b2cd066f2792a1034d6096dc10885ed9c574ee475391b",
+    "commonsSha1": "d4e25bceb3941232360b420b22bdeb8019eb5c0c",
+    "reviewedAt": "2026-09-07",
+    "reviewNote": "Reviewed photograph for dish identity, visible detail, framing, and source licence. Representative dish only; not a restaurant-specific serving.",
+    "width": 960,
+    "height": 640
+  },
+  {
+    "id": "turkish-eggs-cilbir",
+    "name": "Turkish Eggs Cilbir",
+    "aliases": [
+      "Cilbir",
+      "Turkish eggs",
+      "Çılbır"
+    ],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "title": "Çılbır - Cafe Rust 2025-03-31.jpg",
+    "author": "Andy Li",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%C3%87%C4%B1lb%C4%B1r_-_Cafe_Rust_2025-03-31.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d9/%C3%87%C4%B1lb%C4%B1r_-_Cafe_Rust_2025-03-31.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "asset": "turkish-eggs-cilbir.jpg",
+    "assetSha256": "8df82a416855c2b886fca09b1b6caf821aeae415aebe92e5ef0c44a1f4c7a3a3",
+    "commonsSha1": "32615c4c8576928a7f2237dd5bd5ab7297d826d2",
+    "reviewedAt": "2026-09-07",
+    "reviewNote": "Reviewed photograph for dish identity, visible detail, framing, and source licence. Representative dish only; not a restaurant-specific serving.",
+    "width": 960,
+    "height": 723
+  },
+  {
+    "id": "shakshuka",
+    "name": "Shakshuka",
+    "aliases": [
+      "Shakshouka",
+      "Shakshuka",
+      "北非蛋"
+    ],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "title": "Shakshuka by Calliopejen1.jpg",
+    "author": "Calliopejen1",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Shakshuka_by_Calliopejen1.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/18/Shakshuka_by_Calliopejen1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "asset": "shakshuka.jpg",
+    "assetSha256": "ef6d5c6c944895b548f5fddd0eb8caeb246029848cd9993b9468fb10e4648a21",
+    "commonsSha1": "f19bb21e69c97351be2eee6669866b122246a0fc",
+    "reviewedAt": "2026-09-07",
+    "reviewNote": "Reviewed photograph for dish identity, visible detail, framing, and source licence. Representative dish only; not a restaurant-specific serving.",
+    "width": 960,
+    "height": 720
+  },
+  {
+    "id": "moussaka",
+    "name": "Moussaka",
+    "aliases": [
+      "Moussaka",
+      "Musaka"
+    ],
+    "proteins": [
+      "beef",
+      "lamb"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "title": "MussakasMeMelitsanesKePatates01.JPG",
+    "author": "Robert Kindermann aka RobertK",
+    "license": "CC BY-SA 2.5",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:MussakasMeMelitsanesKePatates01.JPG",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a8/MussakasMeMelitsanesKePatates01.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "asset": "moussaka.jpg",
+    "assetSha256": "2683394ae74277f699dc7b856ae56a9c6d677ef45fb7acc48bb5fa9487277d50",
+    "commonsSha1": "e8a635af35b961cbc835a10212fa88e16480aa8d",
+    "reviewedAt": "2026-09-07",
+    "reviewNote": "Reviewed photograph for dish identity, visible detail, framing, and source licence. Representative dish only; not a restaurant-specific serving.",
+    "width": 960,
+    "height": 640
+  },
+  {
+    "id": "pierogi",
+    "name": "Pierogi",
+    "aliases": [
+      "Pierogi",
+      "波兰饺子",
+      "波蘭餃子"
+    ],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "title": "Pierogi z masłem - 2023.03.31.jpg",
+    "author": "Aw58",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pierogi_z_mas%C5%82em_-_2023.03.31.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Pierogi_z_mas%C5%82em_-_2023.03.31.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "asset": "pierogi.jpg",
+    "assetSha256": "89bfe7bc629190c5e17f1977efdb064c63acff8fe74cd38877f95ae57d50a9d5",
+    "commonsSha1": "62300255113b6b89fb533ff0235c865f25a99c31",
+    "reviewedAt": "2026-09-07",
+    "reviewNote": "Reviewed photograph for dish identity, visible detail, framing, and source licence. Representative dish only; not a restaurant-specific serving.",
+    "width": 960,
+    "height": 955
+  },
+  {
+    "id": "wiener-schnitzel",
+    "name": "Wiener Schnitzel",
+    "aliases": [
+      "Viennese schnitzel",
+      "Wiener Schnitzel",
+      "维也纳炸小牛排"
+    ],
+    "proteins": [
+      "beef"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "title": "Wiener-Schnitzel02.jpg",
+    "author": "Kobako",
+    "license": "CC BY-SA 2.5",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Wiener-Schnitzel02.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Wiener-Schnitzel02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "asset": "wiener-schnitzel.jpg",
+    "assetSha256": "72fdc0a80d568336f355f86da9df742116d48f0871161bce653daf31cd70d0ca",
+    "commonsSha1": "b71b64e6462625a543b90cf7ad53a8ca72968693",
+    "reviewedAt": "2026-09-07",
+    "reviewNote": "Reviewed photograph for dish identity, visible detail, framing, and source licence. Representative dish only; not a restaurant-specific serving.",
+    "width": 960,
+    "height": 704
+  }
+];

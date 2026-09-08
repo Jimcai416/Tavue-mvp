@@ -1,0 +1,32 @@
+name: Validate photo catalogue
+on:
+  pull_request:
+    paths:
+      - 'assets/dishes/**'
+      - 'catalog/**'
+      - 'shared/**'
+      - 'scripts/photos/**'
+      - 'scripts/test-*photo*'
+      - 'src/**'
+      - 'worker/**'
+      - 'wrangler.jsonc'
+      - 'package*.json'
+      - '.github/workflows/photo-catalogue.yml'
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+      - run: npm ci
+      - run: npm run test:photos
+      - run: npx tsc --noEmit
+      - run: python scripts/photos/test_pipeline.py
+      - run: npm run export:web
+        env:
+          EXPO_NO_TELEMETRY: '1'

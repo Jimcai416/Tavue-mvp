@@ -7,12 +7,7 @@ REQUIRE_CLIENT_ID = "true"
 # Public beta: no daily product limit. Abuse protection remains at the request layer.
 DAILY_SCAN_LIMIT = "0"
 
-# Optional but recommended: dish image cache.
-# Create with:  npx wrangler kv namespace create DISH_IMAGES
-# then paste the id below and uncomment.
-# [[kv_namespaces]]
-# binding = "DISH_IMAGES"
-# id = "YOUR_KV_NAMESPACE_ID"
+# Reviewed dish photographs are bundled with the client; no image-search cache.
 
 [[kv_namespaces]]
 binding = "FEEDBACK"
@@ -50,3 +45,12 @@ head_sampling_rate = 1
 # [[kv_namespaces]]
 # binding = "SCAN_LIMITS"
 # id = "YOUR_SCAN_LIMITS_KV_ID"
+
+# Expanded reviewed catalogue (create resources, then fill IDs and uncomment).
+# [[d1_databases]]
+# binding = "PHOTO_CATALOG"
+# database_name = "tavue-photos"
+# database_id = "YOUR_PHOTO_DATABASE_ID"
+# [[r2_buckets]]
+# binding = "PHOTO_BUCKET"
+# bucket_name = "tavue-approved-photos"

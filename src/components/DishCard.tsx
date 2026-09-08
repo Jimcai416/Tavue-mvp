@@ -1,7 +1,7 @@
+import DishPhoto from "./DishPhoto";
 import React from "react";
 import {
   GestureResponderEvent,
-  Image,
   Pressable,
   StyleSheet,
   Text,
@@ -78,15 +78,7 @@ export default function DishCard({
       onPress={onPress}
     >
       <View style={styles.imageWrap}>
-        {dish.image_url ? (
-          <Image source={{ uri: dish.image_url }} style={styles.image} resizeMode="cover" />
-        ) : (
-          <View style={[styles.image, styles.placeholder]}>
-            <Text style={styles.placeholderGlyph}>
-              {dish.original_name.trim().slice(0, 1).toUpperCase()}
-            </Text>
-          </View>
-        )}
+        <DishPhoto dish={dish} style={styles.image} />
         {dish.spice_level > 0 && (
           <View style={styles.spiceBadge}>
             <Text style={styles.spiceText}>{"•".repeat(dish.spice_level)}</Text>
@@ -193,7 +185,7 @@ const styles = StyleSheet.create({
   spiceBadge: {
     position: "absolute",
     left: space(2),
-    bottom: space(2),
+    bottom: 28,
     borderRadius: radius.pill,
     backgroundColor: colors.danger,
     paddingHorizontal: space(1.5),
