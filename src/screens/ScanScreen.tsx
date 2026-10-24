@@ -38,6 +38,7 @@ import {
   initCurrency,
   setCurrency,
 } from "../lib/currency";
+import { useAdaptiveLayout } from "../components/AdaptiveLayout";
 import FeedbackSheet from "../components/FeedbackSheet";
 import FoodProfileSheet from "../components/FoodProfileSheet";
 import { TAB_BAR_CONTENT_INSET } from "../components/BottomTabBar";
@@ -127,6 +128,7 @@ export default function ScanScreen({
 }) {
   const t = useT();
   const insets = useSafeAreaInsets();
+  const { wide, short } = useAdaptiveLayout();
   const usesTallHeroGlyphs = [
     "Chinese (Simplified)",
     "Chinese (Traditional)",
@@ -354,7 +356,7 @@ export default function ScanScreen({
           styles.scrollContent,
           {
             paddingTop: insets.top + HOME_HEADER_HEIGHT + space(4),
-            paddingBottom: insets.bottom + TAB_BAR_CONTENT_INSET,
+            paddingBottom: insets.bottom + (wide ? space(6) : TAB_BAR_CONTENT_INSET),
           },
         ]}
         onScroll={handleScroll}
@@ -364,9 +366,11 @@ export default function ScanScreen({
           bottom: insets.bottom + TAB_BAR_CONTENT_INSET,
         }}
       >
+        <View style={wide && styles.homeColumns}>
         <Animated.View
           style={[
             styles.ticketMotion,
+            wide && styles.ticketWide,
             shadow.glass,
             {
               opacity: ticketAnim,
@@ -387,7 +391,7 @@ export default function ScanScreen({
             nativeGlass={false}
             interactive={false}
           >
-            <View style={styles.ticketTop}>
+            <View style={[styles.ticketTop, short && styles.ticketTopShort]}>
               <View style={styles.ticketLabelRow}>
                 <Text style={styles.mono}>MENU PASS</Text>
                 <Text style={styles.mono}>
@@ -396,7 +400,7 @@ export default function ScanScreen({
               </View>
 
               <Text
-                style={[styles.heroTitle, usesTallHeroGlyphs && styles.heroTitleTallGlyphs]}
+                style={[styles.heroTitle, short && styles.heroTitleShort, usesTallHeroGlyphs && styles.heroTitleTallGlyphs]}
               >
                 {t("heroTitle")}
               </Text>
@@ -430,6 +434,7 @@ export default function ScanScreen({
           </GlassSurface>
         </Animated.View>
 
+        <View style={wide && styles.actionColumn}>
         <View style={styles.scanActions}>
           <Pressable style={styles.primaryBtn} onPress={() => pick(true)}>
             <View style={styles.buttonIcon}>
@@ -519,6 +524,8 @@ export default function ScanScreen({
           </View>
         )}
 
+        </View>
+        </View>
         <Pressable onPress={() => setShowFeedback(true)} hitSlop={8}>
           <Text style={styles.bugLink}>{t("bugLink")}</Text>
         </Pressable>
@@ -696,6 +703,11 @@ export default function ScanScreen({
 }
 
 const styles = StyleSheet.create({
+  homeColumns: { flexDirection: "row", alignItems: "flex-start", paddingHorizontal: space(5), gap: space(6) },
+  ticketWide: { flex: 1, minWidth: 0, marginHorizontal: 0, marginTop: space(4) },
+  actionColumn: { flex: 1, minWidth: 0 },
+  ticketTopShort: { paddingVertical: space(3) },
+  heroTitleShort: { fontSize: 30, lineHeight: 34 },
   container: { flex: 1, backgroundColor: "transparent" },
   scrollContent: { paddingBottom: space(8) },
   topMaterial: {
@@ -1064,7 +1076,7 @@ const styles = StyleSheet.create({
   },
   previewImage: { width: "100%", height: "100%" },
   previewShade: {
-    ...StyleSheet.absoluteFillObject,
+    ...StyleSheet.absoluteFill,
     backgroundColor: colors.imageShade,
   },
   scanLine: {

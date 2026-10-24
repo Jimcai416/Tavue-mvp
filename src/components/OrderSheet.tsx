@@ -27,7 +27,7 @@ export default function OrderSheet({
   showConverted?: boolean;
 }) {
   const t = useT();
-  const cardRef = useRef<View>(null);
+  const cardRef = useRef<React.ElementRef<typeof View>>(null);
 
   async function share() {
     try {
