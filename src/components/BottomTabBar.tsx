@@ -9,6 +9,7 @@ import {
 import { useSafeAreaInsets } from "react-native-safe-area-context";
 import { useT } from "../lib/i18n";
 import { colors, radius, space } from "../theme";
+import { useAdaptiveLayout } from "./AdaptiveLayout";
 import GlassSurface from "./GlassSurface";
 
 export type RootTab = "scan" | "orderHistory" | "profile";
@@ -65,6 +66,7 @@ export default function BottomTabBar({
   onSelect: (tab: RootTab) => void;
 }) {
   const insets = useSafeAreaInsets();
+  const { wide } = useAdaptiveLayout();
   const t = useT();
   const activeIndex = ROOT_TABS.indexOf(activeTab);
   const indicatorPosition = useRef(new Animated.Value(activeIndex)).current;
@@ -239,6 +241,22 @@ export default function BottomTabBar({
     [activeIndex, indicatorPosition, lensResponse, onSelect, tabLifts, tabStep]
   );
 
+  if (wide) {
+    return (
+      <View style={[styles.rail, { right: insets.right + 16, top: insets.top + 24, bottom: insets.bottom + 24 }]} pointerEvents="box-none">
+        <GlassSurface style={styles.railGlass} contentStyle={styles.railTabs} intensity={18} clear>
+          {tabs.map(tab => (
+            <Pressable key={tab.id} accessibilityRole="tab" accessibilityLabel={tab.label}
+              accessibilityState={{ selected: activeTab === tab.id }} onPress={() => onSelect(tab.id)}
+              style={({ pressed }) => [styles.railTab, activeTab === tab.id && styles.railActive, pressed && styles.tabPressed]}>
+              {tab.icon(activeTab === tab.id)}
+            </Pressable>
+          ))}
+        </GlassSurface>
+      </View>
+    );
+  }
+
   return (
     <View
       pointerEvents="box-none"
@@ -359,6 +377,11 @@ export default function BottomTabBar({
 }
 
 const styles = StyleSheet.create({
+  rail: { position: "absolute", width: 56, justifyContent: "center", zIndex: 80 },
+  railGlass: { borderRadius: 28 },
+  railTabs: { padding: 4, gap: 8 },
+  railTab: { height: 48, alignItems: "center", justifyContent: "center", borderRadius: 24 },
+  railActive: { backgroundColor: "rgba(43,33,29,0.065)" },
   layer: {
     position: "absolute",
     left: 0,

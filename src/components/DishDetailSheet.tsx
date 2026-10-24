@@ -152,6 +152,9 @@ const styles = StyleSheet.create({
     backgroundColor: colors.overlay,
   },
   sheet: {
+    width: "100%",
+    maxWidth: 640,
+    alignSelf: "center",
     maxHeight: "92%",
     backgroundColor: colors.surface,
     borderTopLeftRadius: radius.sheet,

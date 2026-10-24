@@ -425,6 +425,9 @@ const styles = StyleSheet.create({
     overflow: "hidden",
   },
   sheet: {
+    width: "100%",
+    maxWidth: 640,
+    alignSelf: "center",
     backgroundColor: colors.surface,
     borderTopLeftRadius: radius.card + 6,
     borderTopRightRadius: radius.card + 6,

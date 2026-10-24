@@ -1,3 +1,4 @@
+import { useAdaptiveLayout } from "../components/AdaptiveLayout";
 import React, { useEffect, useMemo, useState } from "react";
 import {
   Animated,
@@ -64,6 +65,8 @@ export default function ResultsScreen({
 }) {
   const t = useT();
   const insets = useSafeAreaInsets();
+  const { contentWidth } = useAdaptiveLayout();
+  const columns = contentWidth >= 700 ? 2 : 1;
   const [selected, setSelected] = useState<Dish | null>(null);
   const [serverDish, setServerDish] = useState<Dish | null>(null);
   const [order, setOrder] = useState<OrderLine[]>([]);
@@ -110,8 +113,11 @@ export default function ResultsScreen({
         grouped.set(title, [...(grouped.get(title) || []), dish]);
       });
 
-    return Array.from(grouped, ([title, data]) => ({ title, data }));
-  }, [category, filter, foodProfile, result.dishes, t]);
+    return Array.from(grouped, ([title, dishes]) => ({
+      title, count: dishes.length,
+      data: Array.from({ length: Math.ceil(dishes.length / columns) }, (_, i) => dishes.slice(i * columns, (i + 1) * columns)),
+    }));
+  }, [category, filter, foodProfile, result.dishes, t, columns]);
 
   const count = order.reduce((total, line) => total + line.qty, 0);
   const totals = orderTotals(order);
@@ -170,7 +176,7 @@ export default function ResultsScreen({
     <View style={styles.container}>
       <SectionList
         sections={sections}
-        keyExtractor={(dish, index) => `${dishKey(dish)}-${index}`}
+        keyExtractor={(row) => dishKey(row[0])}
         stickySectionHeadersEnabled={false}
         showsVerticalScrollIndicator={false}
         contentContainerStyle={[
@@ -289,24 +295,21 @@ export default function ResultsScreen({
           <View style={styles.sectionHeader}>
             <Text style={styles.sectionTitle}>{section.title}</Text>
             <Text style={styles.sectionCount}>
-              {section.data.length} {t("items")}
+              {section.count} {t("items")}
             </Text>
           </View>
         )}
-        renderItem={({ item }) => (
-          <DishCard
-            dish={item}
-            personalRisk={riskFlags(item, foodProfile).length > 0}
-            onPress={() => {
-              void track("dish_detail_opened", { source: "card" });
-              setSelected(item);
-            }}
-            onAdd={() => addToOrder(item, "card")}
-            convertedPrice={
-              showConverted ? convertedPriceForDish(item) : null
-            }
-            qty={qtyOf(item)}
-          />
+        renderItem={({ item: row }) => (
+          <View style={{ flexDirection: "row" }}>
+            {row.map(item => (
+              <View key={dishKey(item)} style={{ width: `${100 / columns}%` }}>
+                <DishCard dish={item} personalRisk={riskFlags(item, foodProfile).length > 0}
+                  onPress={() => { void track("dish_detail_opened", { source: "card" }); setSelected(item); }}
+                  onAdd={() => addToOrder(item, "card")}
+                  convertedPrice={showConverted ? convertedPriceForDish(item) : null} qty={qtyOf(item)} />
+              </View>
+            ))}
+          </View>
         )}
         ListEmptyComponent={
           <View style={styles.empty}>

@@ -22,6 +22,7 @@ import ProfileScreen from "./src/screens/ProfileScreen";
 import { Screen, ScanResult } from "./src/types";
 import { colors } from "./src/theme";
 import { AmbientBackdrop } from "./src/components/GlassSurface";
+import AdaptiveLayout from "./src/components/AdaptiveLayout";
 import BottomTabBar, { type RootTab } from "./src/components/BottomTabBar";
 import { track } from "./src/lib/analytics";
 import { captureOperationalError, withMonitoring } from "./src/lib/monitoring";
@@ -179,11 +180,10 @@ function App() {
         >
           <StatusBar
             barStyle="dark-content"
-            backgroundColor="transparent"
-            translucent
           />
           <AmbientBackdrop />
 
+          <AdaptiveLayout hasNavigation={screen.name !== "results" && !historyDetailOpen && !scanBusy}>
           {screen.name === "scan" && (
             <ScanScreen
               onResult={showResults}
@@ -222,6 +222,7 @@ function App() {
                 onSelect={showRootTab}
               />
             )}
+          </AdaptiveLayout>
         </View>
       </View>
     </SafeAreaProvider>
@@ -232,6 +233,7 @@ export default withMonitoring(App);
 
 const styles = StyleSheet.create({
   root: {
+    overflow: "hidden",
     flex: 1,
     width: "100%",
     backgroundColor: colors.background,
@@ -246,7 +248,7 @@ const styles = StyleSheet.create({
     alignItems: "center",
   },
   webRoot: {
-    maxWidth: 640,
+    maxWidth: 1280,
     shadowColor: "#50352F",
     shadowOpacity: 0.12,
     shadowRadius: 32,
