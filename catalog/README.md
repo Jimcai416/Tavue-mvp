@@ -10,6 +10,12 @@ The repository contains:
 - `collection.sqlite.gz`: resumable discovery queue and metadata. The collector restores it when no local working database exists.
 - `schema.sql`: the cloud catalogue schema. Candidate records are never imported directly into the public tables.
 
+For the November dish-first comparison of Commons, Wikidata, TheMealDB and
+Openverse, see [`benchmarks/photos/README.md`](../benchmarks/photos/README.md).
+It also exports Commons discoveries into this same review/release workflow.
+The [route audit](../docs/PHOTO-SOURCE-ROUTES.md) distinguishes live-tested
+sources from documentation-only and account-dependent options.
+
 ## Collect and resume
 
 Use Python 3.10+; collection/preparation uses its standard library. From the repository root:
