@@ -105,3 +105,13 @@ The original source titles reveal why metadata filtering alone is inadequate:
 `Haemul-pajeon making.jpg` is an unfinished cooking-process photo, and the
 Japchae preview has a visible date/time stamp. A valid commercial CC licence
 does not make either of these a suitable final dish reference.
+
+## Portable previews
+
+If external images do not display in the review viewer, generate a self-contained
+page with `review.py --embed-previews`. This explicitly downloads Wikimedia bitmap
+previews into the HTML; source and licence links remain available. Use `--limit 12`
+for a small initial batch. The default still uses online images. Download failures
+appear on the card and in `preview-status.json`, and block approval on that card.
+This option does not approve candidates or change source hashes. Keep exported
+decisions separately before closing the page.

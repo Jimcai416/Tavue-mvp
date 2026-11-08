@@ -1,12 +1,17 @@
 #!/usr/bin/env python3
 """Build paginated candidate review pages; downloads decisions, never publishes."""
 import argparse,gzip,html,json,sqlite3
+from preview_embed import embed_preview
 from pathlib import Path
-p=argparse.ArgumentParser();p.add_argument('--db',default='catalog/work/candidates.sqlite');p.add_argument('--out',default='catalog/work/review');p.add_argument('--page-size',type=int,default=40);a=p.parse_args()
+p=argparse.ArgumentParser();p.add_argument('--db',default='catalog/work/candidates.sqlite');p.add_argument('--out',default='catalog/work/review');p.add_argument('--page-size',type=int,default=40);p.add_argument('--embed-previews',action='store_true',help='Download and embed Wikimedia previews for offline viewing');p.add_argument('--limit',type=int,help='Review only the first N pending candidates');a=p.parse_args()
+if a.page_size < 1 or (a.limit is not None and a.limit < 1):p.error('page-size and limit must be positive')
 c=sqlite3.connect(a.db);rows=[json.loads(x[0]) for x in c.execute("SELECT record FROM files WHERE status='pending_review' ORDER BY pageid")];out=Path(a.out);out.mkdir(parents=True,exist_ok=True)
+if a.limit is not None:rows=rows[:a.limit]
+embedded=0;failures=[]
 script=r'''
 const key='tavue-photo-review-v1';let answers=JSON.parse(localStorage.getItem(key)||'{}');
 function save(card, verdict){
+ if(verdict==='approved' && card.dataset.previewFailed==='true'){alert('Preview unavailable. Inspect the source photograph before approving.');return;}
  const item=items.find(x=>x.id===card.dataset.id);const name=card.querySelector('[name=name]').value.trim();
  const checked=[...card.querySelectorAll('input[type=checkbox]')].every(e=>e.checked);
  const reviewer=document.querySelector('#reviewer').value.trim();
@@ -22,7 +27,14 @@ for start in range(0,len(rows),a.page_size):
  subset=rows[start:start+a.page_size];page=start//a.page_size+1;cards=[]
  for item in subset:
   e={k:html.escape(str(v),quote=True) for k,v in item.items()}
-  cards.append(f'''<article data-id="{e['id']}"><img loading="lazy" src="{e['previewUrl']}" alt="Candidate {e['title']}"><h2>{e['title']}</h2><p>{e['description']}</p><p>{e['discoveryCategory']}</p><p>{e['author']} · <a href="{e['licenseUrl']}">{e['license']}</a> · <a target="_blank" rel="noopener" href="{e['sourceUrl']}">Verify source</a></p><label>Exact dish <input name="name" placeholder="Do not use the category as a recipe name"></label><label>Aliases, separated by | <input name="aliases"></label><label>Cuisine <input name="cuisine"></label><label>Meat/seafood shown (chicken,beef,pork,duck,lamb,seafood) <input name="proteins"></label><label><input type="checkbox">Exact recipe and variant verified</label><label><input type="checkbox">Clear, appetising, useful crop</label><label><input type="checkbox">Author, licence and source verified</label><label><input type="checkbox">Photograph; no watermark, illustration or suspected generation</label><button data-approve>Approve</button> <button data-reject>Reject</button> <output></output></article>''')
+  preview=e['previewUrl']; image_error=''
+  if a.embed_previews:
+   try:
+    preview=embed_preview(item['previewUrl']);embedded+=1
+   except Exception as exc:
+    failures.append({'id':item['id'],'error':str(exc)})
+    preview='';image_error='<p role="alert">Preview download failed. Open Verify source to inspect the photograph; do not approve without seeing it.</p>'
+  cards.append(f'''<article data-id="{e['id']}" data-preview-failed="{str(bool(image_error)).lower()}"><img loading="eager" referrerpolicy="no-referrer" src="{preview}" alt="Candidate {e['title']}">{image_error}<h2>{e['title']}</h2><p>{e['description']}</p><p>{e['discoveryCategory']}</p><p>{e['author']} · <a href="{e['licenseUrl']}">{e['license']}</a> · <a target="_blank" rel="noopener" href="{e['sourceUrl']}">Verify source</a></p><label>Exact dish <input name="name" placeholder="Do not use the category as a recipe name"></label><label>Aliases, separated by | <input name="aliases"></label><label>Cuisine <input name="cuisine"></label><label>Meat/seafood shown (chicken,beef,pork,duck,lamb,seafood) <input name="proteins"></label><label><input type="checkbox">Exact recipe and variant verified</label><label><input type="checkbox">Clear, appetising, useful crop</label><label><input type="checkbox">Author, licence and source verified</label><label><input type="checkbox">Photograph; no watermark, illustration or suspected generation</label><button data-approve>Approve</button> <button data-reject>Reject</button> <output></output></article>''')
   # The page does not infer approval from API success or a default checkbox.
  nav=f'<a href="index.html">Index</a> · Page {page}'
  if start+a.page_size<len(rows):nav+=f' · <a href="page-{page+1}.html">Next</a>'
@@ -31,4 +43,5 @@ for start in range(0,len(rows),a.page_size):
   # source metadata is JSON-escaped and HTML-escaped; never execute source text.
  (out/f'page-{page}.html').write_text(content);links.append(f'<li><a href="page-{page}.html">Page {page} ({len(subset)} candidates)</a></li>')
 (out/'index.html').write_text('<!doctype html><meta charset="utf-8"><h1>Tavue photo review queue</h1><p>'+str(len(rows))+' metadata-eligible candidates. No approval implied.</p><ul>'+''.join(links)+'</ul>')
-print(json.dumps({'candidates':len(rows),'pages':len(links),'path':str(out/'index.html')}))
+(out/'preview-status.json').write_text(json.dumps({'embedded':embedded,'failures':failures},indent=2))
+print(json.dumps({'embedded':embedded,'failedPreviews':len(failures),'candidates':len(rows),'pages':len(links),'path':str(out/'index.html')}))
