@@ -67,6 +67,7 @@ def main():
     if not 1<=a.batch_size<=200 or not 0<a.budget<=15:raise ValueError('Invalid request/budget cap')
     key=triage.api_key()
     config=json.loads((ROOT/'catalog/cloud-bulk-request.json').read_text())
+    config.pop('resumeAttempt',None) # Trigger metadata must not invalidate the saved queue identity.
     expected=config['catalogSha256'];raw=(ROOT/'catalog/candidates.jsonl.gz').read_bytes()
     if hashlib.sha256(raw).hexdigest()!=expected:raise ValueError('Catalogue changed')
     records={r['id']:r for r in (json.loads(l) for l in gzip.decompress(raw).decode().splitlines())}
@@ -108,8 +109,14 @@ def main():
         record=previous
         if record is None:
             triage.write_json(work/'sample-manifest.json',batch_refs)
-            run(sys.executable,str(ROOT/'scripts/photos/download_review.py'),'--manifest',str(work/'sample-manifest.json'),
-                '--limit',str(len(batch_refs)),'--out',str(work/'previews'),cwd=ROOT)
+            remaining=max(1,a.seconds-(time.monotonic()-started))
+            try:
+                run(sys.executable,str(ROOT/'scripts/photos/download_review.py'),'--manifest',str(work/'sample-manifest.json'),
+                    '--limit',str(len(batch_refs)),'--out',str(work/'previews'),cwd=ROOT,timeout=remaining)
+            except subprocess.TimeoutExpired:
+                ledger['runStatus']='paused_time_limit'
+                persist('Checkpoint download deadline before runner timeout; no new paid submission')
+                return
             downloads=triage.read_json(work/'previews/downloads.json');requests=[];items={};failed=[]
             for ref,d in zip(batch_refs,downloads):
                 if ref['id']!=d['id']:raise ValueError('Download order mismatch')

@@ -19,3 +19,24 @@ class RateTests(unittest.TestCase):
             self.assertEqual([c.args[0] for c in sleep.call_args_list],[5,5])
 
 if __name__=='__main__':unittest.main()
+
+class FailureBoundTests(unittest.TestCase):
+    def check_failure(self,body,expected_calls):
+        import gzip,io,json,tempfile,sys
+        from pathlib import Path
+        import download_review
+        with tempfile.TemporaryDirectory() as directory:
+            p=Path(directory);row={'id':'commons-1','commonsSha1':'hash','previewUrl':'https://upload.wikimedia.org/test.jpg'}
+            (p/'catalog.gz').write_bytes(gzip.compress((json.dumps(row)+'\n').encode()))
+            (p/'manifest.json').write_text(json.dumps([{'id':'commons-1','sourceSha1':'hash'}]))
+            def response(*args,**kwargs):
+                r=io.BytesIO(body);r.url=row['previewUrl'];return r
+            args=['download_review.py','--catalog',str(p/'catalog.gz'),'--manifest',str(p/'manifest.json'),'--out',str(p/'out')]
+            with patch.object(sys,'argv',args),patch('download_review.urllib.request.build_opener') as opener,patch('download_review.RateGate'):
+                opener.return_value.open.side_effect=response
+                download_review.main()
+                self.assertEqual(opener.return_value.open.call_count,expected_calls)
+            saved=json.loads((p/'out/downloads.json').read_text())
+            self.assertEqual(saved[0]['status'],'download_failed')
+    def test_invalid_image_does_not_retry_forever(self):self.check_failure(b'not an image',3)
+    def test_oversized_image_is_held_after_one_attempt(self):self.check_failure(b'x'*4_000_001,1)

@@ -59,7 +59,7 @@ def main():
     gate=RateGate();progress={};lock=threading.Lock()
     def download(pair):
         n,r=pair;dest=out/f'{n:03}.jpg';error=None;result=None
-        attempt=0
+        attempt=0;transient_errors=0
         while a.retries == 0 or attempt < a.retries:
             attempt += 1
             try:
@@ -82,11 +82,21 @@ def main():
                 if exc.code==429:
                     delay=retry_seconds(exc.headers.get('Retry-After'));gate.pause(delay)
                     print(json.dumps({'id':r['id'],'http':429,'waitingAtLeastSeconds':delay,'attempt':attempt}),flush=True)
-                elif exc.code in (500,502,503,504):gate.pause(10)
+                elif exc.code in (500,502,503,504):
+                    transient_errors += 1
+                    if transient_errors >= 3:break
+                    gate.pause(10)
                 else:break
-            except (OSError,ValueError) as exc:
+            except ValueError as exc:
                 error=str(exc)
+                print(json.dumps({'id':r['id'],'permanentImageError':error}),flush=True)
                 if dest.exists():dest.unlink()
+                break
+            except OSError as exc:
+                error=str(exc);transient_errors += 1
+                print(json.dumps({'id':r['id'],'imageError':error,'attempt':transient_errors}),flush=True)
+                if dest.exists():dest.unlink()
+                if transient_errors >= 3:break
                 gate.pause(5)
         else:result=None
         if result is None:result={'number':n,'id':r['id'],'sourceSha1':r['commonsSha1'],'status':'download_failed','error':error}
