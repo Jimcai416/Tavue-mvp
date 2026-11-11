@@ -58,7 +58,7 @@ def main():
     write('sample.json',sample)
     gate=RateGate();progress={};lock=threading.Lock()
     def download(pair):
-        n,r=pair;dest=out/f'{n:03}.jpg';error=None
+        n,r=pair;dest=out/f'{n:03}.jpg';error=None;result=None
         attempt=0
         while a.retries == 0 or attempt < a.retries:
             attempt += 1
@@ -89,7 +89,6 @@ def main():
                 if dest.exists():dest.unlink()
                 gate.pause(5)
         else:result=None
-        if error and 'result' not in locals():result=None
         if result is None:result={'number':n,'id':r['id'],'sourceSha1':r['commonsSha1'],'status':'download_failed','error':error}
         with lock:
             progress[n]=result;write('downloads.json',[progress[k] for k in sorted(progress)])
