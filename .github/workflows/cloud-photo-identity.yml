@@ -1,0 +1,33 @@
+name: Cloud photo identity review
+run-name: Photo identity 1228 candidates · ${{ github.run_id }}
+on:
+  push:
+    branches: ['feat/cloud-photo-review-resume']
+    paths: ['catalog/cloud-identity-request.json']
+permissions:
+  contents: write
+concurrency:
+  group: tavue-cloud-photo-identity
+  cancel-in-progress: false
+jobs:
+  screen:
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install 'Pillow>=11,<13'
+      - name: Resume visual screening with durable receipts and budget reservations
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python -u scripts/photos/cloud_identity.py --budget 3 --batch-size 200 --seconds 17400
+      - name: Preserve checkpoint on exit
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: photo-identity-checkpoint-${{ github.run_id }}-${{ github.run_attempt }}
+          path: catalog/work/progress-checkout/catalog/cloud-progress/
+          retention-days: 90
+          if-no-files-found: ignore
