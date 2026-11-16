@@ -17,6 +17,7 @@ jobs:
           cache: npm
       - run: npm ci --no-audit --no-fund
       - run: npm run test:photos
+      - run: node scripts/test-web-shell.cjs
       - run: npx tsc --noEmit
       - run: npm run export:web
       - run: npm install --prefix /tmp/tavue-ui-deps playwright@1.62.1

@@ -98,11 +98,12 @@ html = html.replace(
 
         const resetHorizontalScroll = () => {
           document.documentElement.scrollLeft = 0;
-          document.body.scrollLeft = 0;
+          if (document.body) document.body.scrollLeft = 0;
         };
 
         applyViewport();
         resetHorizontalScroll();
+        document.addEventListener("DOMContentLoaded", resetHorizontalScroll, { once: true });
         window.addEventListener("resize", scheduleViewport, { passive: true });
         window.addEventListener("orientationchange", () => {
           resetHorizontalScroll();
