@@ -5,7 +5,7 @@ const assert = require('node:assert/strict');
 const ts = require('typescript');
 const temp = fs.mkdtempSync(path.join(os.tmpdir(), 'tavue-worker-'));
 (async () => {
-  for (const [source, output] of [['shared/dishPhotoCatalog.ts','dishPhotoCatalog.js'],['shared/dishPhotos.ts','dishPhotos.js'],['shared/referencePhoto.ts','referencePhoto.js'],['worker/src/photoCatalog.js','photoCatalog.js'],['worker/src/index.js','index.js'],['worker/src/entry.js','entry.js']]) {
+  for (const [source, output] of [['shared/reviewedDishPhotos.ts','reviewedDishPhotos.js'],['shared/dishPhotoCatalog.ts','dishPhotoCatalog.js'],['shared/dishPhotos.ts','dishPhotos.js'],['shared/referencePhoto.ts','referencePhoto.js'],['worker/src/photoCatalog.js','photoCatalog.js'],['worker/src/index.js','index.js'],['worker/src/entry.js','entry.js']]) {
     const code = fs.readFileSync(source,'utf8').replaceAll('../../shared/dishPhotos.ts','./dishPhotos.js').replaceAll('../../shared/dishPhotoCatalog.ts','./dishPhotoCatalog.js').replaceAll('../../shared/referencePhoto.ts','./referencePhoto.js');
     fs.writeFileSync(path.join(temp,output),ts.transpileModule(code,{compilerOptions:{module:ts.ModuleKind.CommonJS,target:ts.ScriptTarget.ES2022}}).outputText);
   }

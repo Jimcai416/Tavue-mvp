@@ -28,6 +28,14 @@ try {
   const sanitized = attachDishPhoto({original_name:'Unknown dish',image_url:'https://example.com/unlicensed.jpg',image_id:'mapo-tofu'});
   assert.equal(sanitized.image_url, null);
   assert.equal(sanitized.image_id, null);
+  assert.equal(match('Pancakes'), 'commons-82406191');
+  assert.equal(match('Banana pancakes', {translated_name:'Pancakes',image_query:'Pancakes'}), null);
+  assert.equal(match('Pancakes with honey'), 'commons-100280051');
+  assert.equal(match('Pancakes', {flags:['vegetarian']}), null);
+  assert.equal(match('Moules Normandes'), 'commons-35403633');
+  assert.equal(match('Chicken Moules Normandes', {image_dish_name:'Moules Normandes'}), null);
+  assert.equal(match('Tajarin al Castelmagno'), 'commons-53778714');
+  assert.equal(match('松饼', {translated_name:'Pancakes'}), 'commons-82406191');
   for (const photo of catalog) {
     assert.equal(match(photo.name), photo.id, photo.name);
     assert.equal(photo.approved,true);
@@ -39,5 +47,5 @@ try {
     const data = fs.readFileSync(path.join('assets/dishes', photo.asset));
     assert.equal(crypto.createHash('sha256').update(data).digest('hex'), photo.assetSha256);
   }
-  console.log(`PASS: 17 matching/sanitization checks; ${catalog.length} approved photo records, licences and asset hashes verified.`);
+  console.log(`PASS: 25 matching/sanitization checks; ${catalog.length} approved photo records, licences and asset hashes verified.`);
 } finally { fs.rmSync(temp, {recursive:true,force:true}); }

@@ -1,0 +1,34 @@
+name: Verify reviewed photos in web UI
+on:
+  push:
+    branches: ['feat/cloud-photo-review-resume']
+    paths: ['catalog/reviewed-photo-preview-request.json']
+permissions:
+  contents: read
+jobs:
+  preview:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci --no-audit --no-fund
+      - run: npm run test:photos
+      - run: npx tsc --noEmit
+      - run: npm run export:web
+      - run: npm install --no-save --package-lock=false playwright@1.62.1
+      - run: npx playwright install --with-deps chromium
+      - name: Verify image and photographer credit in actual app UI
+        run: |
+          python3 -m http.server 8765 --bind 127.0.0.1 --directory dist &
+          node scripts/test-reviewed-photos-ui.cjs
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: reviewed-photo-web-preview
+          path: ui-results/
+          if-no-files-found: ignore
+          retention-days: 30

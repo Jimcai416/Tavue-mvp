@@ -1,6 +1,8 @@
+import { reviewedDishPhotos } from './reviewedDishPhotos';
 // Approved photographs only. See assets/dishes/CREDITS.md for provenance.
 export type DishPhoto = {
  id: string; name: string; aliases: string[]; proteins: string[]; approved: boolean;
+ requiresExactMenuName?: boolean;
  kind: 'photograph'; title: string; author: string; license: string; licenseUrl: string;
  sourceUrl: string; originalUrl: string; asset: string; assetSha256: string;
  commonsSha1: string | null; reviewedAt: string; reviewNote: string; width: number; height: number;
@@ -1304,5 +1306,6 @@ export const dishPhotoCatalog: DishPhoto[] = [
     "reviewNote": "Reviewed photograph for dish identity, visible detail, framing, and source licence. Representative dish only; not a restaurant-specific serving.",
     "width": 960,
     "height": 704
-  }
+  },
+  ...reviewedDishPhotos
 ];

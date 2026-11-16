@@ -529,3 +529,31 @@ These photographs are individually licensed, not owned by Tavue. App thumbnails 
 - Original: [Full resolution](https://upload.wikimedia.org/wikipedia/commons/a/ae/Wiener-Schnitzel02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)
 - Reviewed: 2026-09-07
 - Asset SHA-256: `72fdc0a80d568336f355f86da9df742116d48f0871161bce653daf31cd70d0ca`
+
+
+## Assistant-reviewed additions — 16 November 2026
+
+Images are representative dish photographs. Each addition was resized to at most 960px and JPEG re-encoded, without cropping or generative editing. The applicable original licence is retained for each image.
+
+- **Eggs Benedict** — Makia Minich. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Day_193_Cy365_Centered_(76397253).jpeg). Local asset: `reviewed-commons-81366200.jpg`.
+- **Moules Normandes** — brian kelly  from washington, dc, US-A. [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Moules_Normandes.jpg). Local asset: `reviewed-commons-35403633.jpg`.
+- **Eggs Sardou** — Guinnevere Courvoisier. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Eggs_Sardou_Red_Dog_Diner.jpg). Local asset: `reviewed-commons-61452189.jpg`.
+- **Graham cracker** — Evan-Amos. [Public domain](https://creativecommons.org/publicdomain/mark/1.0/); [source](https://commons.wikimedia.org/wiki/File:Graham-Cracker-Stack.jpg). Local asset: `reviewed-commons-12372887.jpg`.
+- **Tajarin al Castelmagno** — Takeaway. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:2016_1129_Turin_Tajarin_al_Castelmagno.jpg). Local asset: `reviewed-commons-53778714.jpg`.
+- **Avocado lime sauce** — ImpromptuKitchen. [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Avocado_lime_sauce.jpg). Local asset: `reviewed-commons-60799767.jpg`.
+- **Challah** — slgckgc. [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Shabbat_Challah_01.jpg). Local asset: `reviewed-commons-35045511.jpg`.
+- **Pancakes with honey** — Shisma. [CC BY 4.0](https://creativecommons.org/licenses/by/4.0); [source](https://commons.wikimedia.org/wiki/File:Pancake_stack_with_honey.jpg). Local asset: `reviewed-commons-100280051.jpg`.
+- **Pancakes** — Chefkitchen90. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Pancake-640869_1920.jpg). Local asset: `reviewed-commons-82406191.jpg`.
+- **Chilton County Peach Fried Pies** — Ralph Daily  from Birmingham, United States. [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Peach_Fried_Pies_(7623695898).jpg). Local asset: `reviewed-commons-45206199.jpg`.
+- **Tarta de Santiago** — ROYBUBU. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Tarta_de_Santiago_casera.jpg). Local asset: `reviewed-commons-110943271.jpg`.
+- **Kolaczki** — Kurman Communications LLC. [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Kolaczki.jpg). Local asset: `reviewed-commons-183468390.jpg`.
+- **canelé** — Atypeek DGN. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Canel%C3%A9.jpg). Local asset: `reviewed-commons-197223669.jpg`.
+- **Fried breakfast** — Acabashi. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Brickendon_The_Farmers_Boy_pub_fried_breakfast_Hertfordshire_England_02.jpg). Local asset: `reviewed-commons-195338664.jpg`.
+- **Shoofly pie** — Good N Plenty. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Shoofly-pie-lancaster-county.jpg). Local asset: `reviewed-commons-59772332.jpg`.
+- **Kürbis Gröstl mit Spiegelei und Kürbiskern-Pesto** — Simon Legner ( User:simon04 ). [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:K%C3%BCrbis_Gr%C3%B6stl_mit_Spiegelei_und_K%C3%BCrbiskern-Pesto_(IMG_20240814_115451).jpg). Local asset: `reviewed-commons-192885621.jpg`.
+- **Semla** — Maria  Eklind. [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:Semla_(lent_bun)_-_whipping_cream_and_almond_paste_in_between.jpg). Local asset: `reviewed-commons-148489838.jpg`.
+- **Luikse salade** — Toon De Backer. [CC BY 4.0](https://creativecommons.org/licenses/by/4.0); [source](https://commons.wikimedia.org/wiki/File:Luikse_salade.jpg). Local asset: `reviewed-commons-164999362.jpg`.
+- **Cobb Salad** — Revelpatiogrill. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Cobb_Salad_at_The_Revel_Patio_Grill.jpg). Local asset: `reviewed-commons-176919513.jpg`.
+- **Palitaw** — Elmer Centeno Guevarra. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:DI_KA_BIBITAW_SA_SARAP_NG_PALITAW_FROM_PANGASINAN.jpg). Local asset: `reviewed-commons-143006600.jpg`.
+- **Pound Cake with Caramel Icing** — ralph and jenny. [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Pound_Cake_with_Caramel_Icing.jpg). Local asset: `reviewed-commons-164460599.jpg`.
+- **Eton Mess** — Exx8. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Eton_Mess_2025-1.jpg). Local asset: `reviewed-commons-189568835.jpg`.

@@ -6,7 +6,7 @@ const {execFileSync}=require('node:child_process');
 const ts=require('typescript');
 const temp=fs.mkdtempSync(path.join(os.tmpdir(),'tavue-photo-scale-'));
 (async()=>{
-  for(const [source,target] of [['shared/dishPhotoCatalog.ts','dishPhotoCatalog.js'],['shared/dishPhotos.ts','dishPhotos.js'],['shared/referencePhoto.ts','referencePhoto.js'],['worker/src/photoCatalog.js','photoCatalog.js']]){
+  for(const [source,target] of [['shared/reviewedDishPhotos.ts','reviewedDishPhotos.js'],['shared/dishPhotoCatalog.ts','dishPhotoCatalog.js'],['shared/dishPhotos.ts','dishPhotos.js'],['shared/referencePhoto.ts','referencePhoto.js'],['worker/src/photoCatalog.js','photoCatalog.js']]){
     const code=fs.readFileSync(source,'utf8').replaceAll('../../shared/dishPhotos.ts','./dishPhotos.js').replaceAll('../../shared/referencePhoto.ts','./referencePhoto.js');
     fs.writeFileSync(path.join(temp,target),ts.transpileModule(code,{compilerOptions:{module:ts.ModuleKind.CommonJS,target:ts.ScriptTarget.ES2022}}).outputText);
   }

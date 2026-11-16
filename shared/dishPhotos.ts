@@ -46,7 +46,7 @@ export function photoIdentityNames(dish: PhotoDish): string[] {
     .map(normalizeDishName).filter(Boolean);
 }
 
-export function resolveFromPhotos<T extends Pick<DishPhoto, 'name' | 'aliases' | 'proteins' | 'approved'>>(
+export function resolveFromPhotos<T extends Pick<DishPhoto, 'name' | 'aliases' | 'proteins' | 'approved'> & {requiresExactMenuName?: boolean}>(
   dish: PhotoDish | null | undefined, photos: T[],
 ): T | null {
   if (!dish) return null;
@@ -55,6 +55,18 @@ export function resolveFromPhotos<T extends Pick<DishPhoto, 'name' | 'aliases' |
   for (const name of photoIdentityNames(dish)) {
     const photo = photos.find(p => p.approved && [p.name, ...p.aliases].some(a => normalizeDishName(a) === name));
     if (!photo) continue;
+    if (photo.requiresExactMenuName) {
+      // Newly reviewed variants require a menu-supplied name. A simplified AI
+      // image query must not erase toppings, flavours or regional qualifiers.
+      const aliases = [photo.name, ...photo.aliases].map(normalizeDishName);
+      const originalName = dish.original_name || '';
+      const menuNames = /[A-Za-z]/.test(originalName)
+        ? [originalName]
+        : [originalName, dish.translated_name, dish.romanized];
+      if (!menuNames.some(n => aliases.includes(normalizeDishName(n)))) continue;
+      // These additions have no independently verified vegetarian classification.
+      if (dish.flags?.includes('vegetarian')) continue;
+    }
     if (dish.flags?.includes('vegan')) continue;
     if (dish.flags?.includes('vegetarian') && photo.proteins.length > 0) continue;
     if (Object.entries(PROTEINS).some(([protein, pattern]) => pattern.test(original) && !photo.proteins.includes(protein))) continue;

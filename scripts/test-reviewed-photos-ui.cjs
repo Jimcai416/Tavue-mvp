@@ -1,0 +1,16 @@
+const {chromium}=require('playwright');
+(async()=>{const browser=await chromium.launch({headless:true,args:['--no-sandbox']});const page=await browser.newPage({viewport:{width:430,height:932},deviceScaleFactor:1});const errors=[];page.on('pageerror',e=>errors.push(e.message));
+await page.addInitScript(()=>{localStorage.setItem('tavue.history',JSON.stringify([{id:'photo-review-fixture',date:new Date().toISOString(),language:'English',result:{cuisine:'Review Test Menu',currency:'GBP',menu_language:'English',dishes:['Pancakes','Eggs Sardou','Moules Normandes','Tajarin al Castelmagno','Banana pancakes'].map(name=>({original_name:name,translated_name:name,romanized:null,category:'Dishes',description:'Representative dish photo review fixture.',price:'12.00',converted_price:'12.00',spice_level:0,flags:[],worth_it:null,image_query:name==='Banana pancakes'?'Pancakes':name,image_dish_name:name==='Banana pancakes'?'Pancakes':name,image_url:null}))}}]));});
+await page.goto('http://127.0.0.1:8765',{waitUntil:'networkidle'});console.log((await page.locator('body').innerText()).slice(0,1600));
+await page.getByText('Review Test Menu',{exact:true}).click();await page.waitForTimeout(1000);
+console.log('RESULT', (await page.locator('body').innerText()).slice(0,2400));
+console.log('IMAGES',await page.locator('img').evaluateAll(imgs=>imgs.map(x=>({alt:x.alt,src:x.src,loaded:x.complete&&x.naturalWidth>0}))));
+const fs=require('node:fs');fs.mkdirSync('ui-results',{recursive:true});
+await page.getByLabel('Pancakes — Reference photo',{exact:true}).first().waitFor();
+const loaded=await page.locator('img').evaluateAll(imgs=>imgs.filter(x=>x.complete&&x.naturalWidth>0).length);if(loaded<1)throw Error('Reference images did not load');
+await page.screenshot({path:'ui-results/menu-with-reviewed-photos.png',fullPage:true});
+await page.getByRole('button',{name:'Photographer: Chefkitchen90',exact:true}).first().click();
+await page.getByText('View original & source',{exact:false}).waitFor();
+if(!await page.getByText('CC BY-SA 4.0',{exact:false}).count())throw Error('Licence missing from attribution');
+await page.screenshot({path:'ui-results/photographer-and-licence.png',fullPage:true});
+if(errors.length)throw Error(errors.join('\n'));console.log('PASS: reviewed image displayed and photographer/source/licence available in real web UI');await browser.close();})();
