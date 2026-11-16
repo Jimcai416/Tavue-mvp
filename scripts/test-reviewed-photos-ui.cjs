@@ -6,11 +6,14 @@ await page.getByText('Review Test Menu',{exact:true}).click();await page.waitFor
 console.log('RESULT', (await page.locator('body').innerText()).slice(0,2400));
 console.log('IMAGES',await page.locator('img').evaluateAll(imgs=>imgs.map(x=>({alt:x.alt,src:x.src,loaded:x.complete&&x.naturalWidth>0}))));
 const fs=require('node:fs');fs.mkdirSync('ui-results',{recursive:true});
-await page.getByLabel('Pancakes — Reference photo',{exact:true}).first().waitFor();
+const thumbnail=page.getByLabel('Pancakes — Reference photo',{exact:true}).first();await thumbnail.waitFor();
+const thumbnailBounds=await thumbnail.boundingBox();
+if(!thumbnailBounds||thumbnailBounds.width>180||thumbnailBounds.height>180)throw Error('Thumbnail uses intrinsic image size instead of fitting its card: '+JSON.stringify(thumbnailBounds));
 const loaded=await page.locator('img').evaluateAll(imgs=>imgs.filter(x=>x.complete&&x.naturalWidth>0).length);if(loaded<1)throw Error('Reference images did not load');
 await page.screenshot({path:'ui-results/menu-with-reviewed-photos.png',fullPage:true});
 await page.getByRole('button',{name:'Photographer: Chefkitchen90',exact:true}).first().click();
 await page.getByText('View original & source',{exact:false}).waitFor();
 if(!await page.getByText('CC BY-SA 4.0',{exact:false}).count())throw Error('Licence missing from attribution');
+await page.waitForTimeout(500);
 await page.screenshot({path:'ui-results/photographer-and-licence.png',fullPage:true});
 if(errors.length)throw Error(errors.join('\n'));console.log('PASS: reviewed image displayed and photographer/source/licence available in real web UI');await browser.close();})();

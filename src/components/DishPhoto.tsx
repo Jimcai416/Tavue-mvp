@@ -22,7 +22,7 @@ export default function DishPhoto({ dish, style, hideWhenMissing = false }: {
   if (!available && hideWhenMissing) return null;
   return <View style={[styles.frame, style]}>
     {available ? <>
-      <Image source={source} style={StyleSheet.absoluteFill} resizeMode="cover"
+      <Image source={source} style={styles.thumbnail} resizeMode="cover"
         accessibilityLabel={`${photo.name} — ${t('representativePhoto')}`}
         onError={() => setFailedId(photo.id)} />
       <Pressable style={styles.credit} accessibilityRole="button"
@@ -74,6 +74,7 @@ export function ExportPhotoCredit({ dish }: { dish: Dish }) {
 
 const styles = StyleSheet.create({
   frame: { backgroundColor: colors.background, overflow: 'hidden' },
+  thumbnail: { ...StyleSheet.absoluteFillObject, width: '100%', height: '100%' },
   placeholder: { flex: 1, alignItems: 'center', justifyContent: 'center' },
   glyph: { fontFamily: fonts.display, fontSize: 48, color: colors.lineStrong },
   credit: { position: 'absolute', bottom: 0, left: 0, right: 0, paddingHorizontal: 6,
