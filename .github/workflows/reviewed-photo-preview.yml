@@ -19,12 +19,12 @@ jobs:
       - run: npm run test:photos
       - run: npx tsc --noEmit
       - run: npm run export:web
-      - run: npm install --no-save --package-lock=false playwright@1.62.1
-      - run: npx playwright install --with-deps chromium
+      - run: npm install --prefix /tmp/tavue-ui-deps playwright@1.62.1
+      - run: /tmp/tavue-ui-deps/node_modules/.bin/playwright install --with-deps chromium
       - name: Verify image and photographer credit in actual app UI
         run: |
           python3 -m http.server 8765 --bind 127.0.0.1 --directory dist &
-          node scripts/test-reviewed-photos-ui.cjs
+          TAVUE_UI_NODE_MODULES=/tmp/tavue-ui-deps/node_modules node scripts/test-reviewed-photos-ui.cjs
       - uses: actions/upload-artifact@v4
         if: always()
         with:
