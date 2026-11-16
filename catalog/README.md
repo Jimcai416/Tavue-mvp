@@ -2,6 +2,8 @@
 
 Target: at least **10,000 distinct approved photographs**, with distinct named dishes and per-cuisine coverage reported separately. The 48-photo starter is a quality and integration pilot, not the launch collection. API hits, licence-eligible candidates, downloaded files, approved photographs and covered recipes are different counts.
 
+Current test branch inventory (16 November 2026): **70 bundled reviewed photos** (48 starter + 22 assistant-reviewed additions). The [review record](review-runs/2026-11-16/final-review/README.md) contains decisions, current source checks and the passing real-browser verification. This is below the unchanged 10,000-photo launch gate; production has not been deployed.
+
 The repository contains:
 
 - `pilot-reviewed.json`: the 48 visually reviewed source photographs and attribution.
