@@ -2447,3 +2447,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-continuous-20261117-001
 
 - **Black Truffle Risotto** — Mark Mitchell. [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:00_Black_Truffle_Risotto.jpg). Local asset: `reviewed-commons-32145556.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-continuous-20261117-001
+
+- **Risotto d'épeautre aux truffes** — Marianne Casamance. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Carpentras_Chez_Serge_Risotto_d%27%C3%A9peautre_aux_truffes.JPG). Local asset: `reviewed-commons-46971151.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.

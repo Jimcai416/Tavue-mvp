@@ -38608,5 +38608,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-46971151",
+    "title": "File:Carpentras Chez Serge Risotto d'épeautre aux truffes.JPG",
+    "author": "Marianne Casamance",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Carpentras_Chez_Serge_Risotto_d%27%C3%A9peautre_aux_truffes.JPG",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Carpentras_Chez_Serge_Risotto_d%27%C3%A9peautre_aux_truffes.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "3b058a678286cbbe17cef966d2b9d5a915e4cda9",
+    "name": "Risotto d'épeautre aux truffes",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-46971151.jpg",
+    "assetSha256": "bd754a9d2c0e96d70f4e38652fc938a3e6408676ef94a98d31831c03d978cc8e",
+    "reviewedAt": "2026-11-17",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];
