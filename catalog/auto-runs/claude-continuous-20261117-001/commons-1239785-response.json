@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011Ch9Ntg9Agjp5fcF6xBKTy",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Raw beef slices in white bowls\",\n    \"White rice noodles\",\n    \"Green onion/scallion garnish\",\n    \"Broth in pot (orange-brown liquid visible left)\",\n    \"Blue-patterned Vietnamese bowls\"\n  ],\n  \"phone_observations\": [\n    \"Preparation stage visible in thumbnail\",\n    \"Raw meat components not yet combined with broth\",\n    \"Ingredients assembled but dish not finished/exposed\"\n  ],\n  \"protein_evidence\": {\n    \"protein\": \"beef\",\n    \"source_quote\": \"pho bo (Vietnamese rice noodle soup with beef)\"\n  },\n  \"uncertainties\": [],\n  \"reason\": \"Image shows the preparation stage of pho bo, not a finished, exposed dish. Raw beef slices are separated in bowls with uncooked noodles and garnish. The broth is visible separately in the pot. Tavue accepts only finished, exposed dishes ready for consumption or plating. This documents ingredient assembly before the soup is composed and served, failing the core acceptance criterion of a 'finished, exposed, likely photographic dish.'\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1620,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 391,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
