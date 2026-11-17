@@ -2499,3 +2499,8 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-continuous-20261117-001
 
 - **Chicken Chow Mein** — Miansari66. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Chinese_Chicken_Chow_Mein.JPG). Local asset: `reviewed-commons-20011472.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-continuous-20261117-001
+
+- **Chow Mein** — Gaurav Dhwaj Khadka. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Chow_Mein_1.jpg). Local asset: `reviewed-commons-126253030.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Chow Mein from Meerut, Uttar Pradesh India** — Ravi Dwivedi. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Chow_Mein_in_Meerut,_India.jpg). Local asset: `reviewed-commons-116735799.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
