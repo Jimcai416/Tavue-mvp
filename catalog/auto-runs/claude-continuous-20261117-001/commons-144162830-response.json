@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011Ch9F2uQBS6ypUhbKJjR2a",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Rich reddish-brown broth with glossy surface\",\n    \"Prominent bone marrow pieces (nalli) clearly visible\",\n    \"Cooked meat/marrow in gravy\",\n    \"Cream-coloured bowl with golden rim\",\n    \"Natural daylight with lemon garnish visible in background\",\n    \"Home or street food setting with minimal props\"\n  ],\n  \"phone_observations\": [\n    \"Dish centre-frame dominates thumbnail\",\n    \"Broth colour and meat pieces readable\",\n    \"Bowl edges visible\",\n    \"Overall composition preserved in crop\"\n  ],\n  \"protein_evidence\": {\n    \"protein\": \"mutton\",\n    \"source_quote\": \"Mutton Nalli Nihari\"\n  },\n  \"uncertainties\": [\n    \"Species ambiguity: 'Mutton' in English-language source may refer to sheep or goat; exact animal cannot be confirmed from appearance alone and term is regionally ambiguous (mutton often means goat in South Asian contexts, particularly Kolkata)\"\n  ],\n  \"reason\": \"Image quality, sharpness, lighting, composition and appeal all meet thresholds (≥4). Photograph is finished, exposed, sharply detailed, naturally coloured and appetising. Phone thumbnail preserves essential elements. However, identity check fails due to protein species ambiguity: the source states 'Mutton Nalli Nihari' but 'mutton' is an imprecise term that conflates multiple species (sheep vs. goat) and cannot be reliably determined from visual inspection or regional culinary tradition alone. Protocol requires exact source quote naming each animal but does not permit species inference from generic terms or appearance. This ambiguity prevents acceptance under the strict identity requirement.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1893,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 532,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

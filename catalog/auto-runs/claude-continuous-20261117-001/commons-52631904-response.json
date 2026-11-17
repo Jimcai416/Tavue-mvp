@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011Ch9F2XyL3oMfrv19WtQz9",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows meatballs in red broth/gravy in a white bowl\",\n    \"Garnish plate visible but heavily reduced in phone view\"\n  ],\n  \"protein_evidence\": {\n    \"protein\": null\n  },\n  \"uncertainties\": [\n    \"Source title describes 'Kofta and Nihari are two different dishes, but these are infused to a great new taste' — contradictory fusion claim without clarity on what the actual single dish is\",\n    \"Kofta typically implies meat (beef/lamb/chicken) but no explicit animal species named in source title or description\",\n    \"Nihari is a stew tradition, but the fusion description does not constitute a canonical dish name\",\n    \"No source text explicitly names the meat species used in the meatballs\"\n  ],\n  \"reason\": \"Source identity is contradictory and unspecific. The title describes two separate dishes 'infused to a great new taste' without naming a single canonical dish or specifying the meat species in the kofta meatballs. While the photograph is sharp, well-lit and appetizing, and the subject (meatballs in red broth with garnish) is identifiable, the source does not provide an exact dish name or explicit protein species quote. Identity check fails due to ambiguous/fusion framing rather than a specific, named dish. Protein evidence check fails: no explicit animal species citation in source text.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1551,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 465,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

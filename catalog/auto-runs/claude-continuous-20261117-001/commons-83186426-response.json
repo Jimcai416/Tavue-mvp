@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011Ch9F32WoysCBQ7L5PF9nK",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Stewed meat dish with glossy, reduced gravy visible in full image\",\n    \"Unleavened flatbread (roti) with char spots clearly visible\",\n    \"Plate presentation with floral decoration\",\n    \"Both components prominent in phone thumbnail\"\n  ],\n  \"phone_observations\": [\n    \"Meat curry and flatbread clearly distinguished in thumbnail\",\n    \"Adequate sharpness and contrast for component recognition\",\n    \"Plate decoration visible but not obscuring subject\"\n  ],\n  \"protein_evidence\": {\n    \"protein\": null\n  },\n  \"uncertainties\": [\n    \"Source title states 'nihari and roti' but no specific meat species is named in the metadata\",\n    \"Nihari traditionally contains beef, lamb, or goat, but the source provides no explicit animal declaration\",\n    \"Species cannot be inferred from appearance alone in the photograph\"\n  ],\n  \"reason\": \"Identity check fails: the source description 'nihari and roti' names the dish type but does not explicitly declare which meat species is used. Protocol requires exact source quote naming the protein animal; tradition and visual appearance do not satisfy this requirement. Nihari may contain beef, lamb, mutton (goat), or other species. Photograph quality and composition are strong, but protein ambiguity prevents acceptance.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1393,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 432,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
