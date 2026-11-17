@@ -38340,5 +38340,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "height": 720,
     "requiresExactMenuName": true,
     "authorUrl": "https://www.flickr.com/people/95142644@N00"
+  },
+  {
+    "id": "commons-15105943",
+    "title": "File:Bucatini amatriciana.JPG",
+    "author": "LPLT",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bucatini_amatriciana.JPG",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Bucatini_amatriciana.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "d6f5197fd2f952754ef3ebad925ae4021ac40b9e",
+    "name": "Bucatini all'amatriciana",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-15105943.jpg",
+    "assetSha256": "8af40a04324ffb8b079c6f22432d20af402741fb2ade02d474fa6ae60d90f161",
+    "reviewedAt": "2026-11-17",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];
