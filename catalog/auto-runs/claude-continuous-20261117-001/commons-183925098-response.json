@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011Ch9DD7Rmx3qxueu2uUhdc",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Full image: three labelled compartments with Japanese fried chicken (はなまる唐揚げ, ¥150), sweet potato tempura (焼き芋天, ¥160), and chicken tempura (とり天, ¥190)\",\n    \"Golden-brown fried items on red mesh tray\",\n    \"Left compartment: darker, crispy fried chicken pieces\",\n    \"Centre and right: lighter yellow tempura battered items (sweet potato and chicken)\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail shows fried items in red tray, recognizable as tempura/fried food\",\n    \"Three distinct sections visible but labels not readable at thumbnail resolution\",\n    \"Golden colour and arrangement match full image\"\n  ],\n  \"protein_evidence\": {\n    \"protein\": \"Chicken identified in labels: 'Japanese fried chicken' and 'Chicken' (とり天). Sweet potato tempura contains no meat protein.\"\n  },\n  \"uncertainties\": [\n    \"Source metadata labels this as 'tempura' (天婦羅) in description, but left compartment label explicitly states 'Japanese fried chicken' (はなまる唐揚げ, karaage), not tempura. These are distinct preparation methods.\",\n    \"Three separate dishes displayed, not a single unified dish. Identity is ambiguous: is this a 'tempura' assortment, a 'karaage and tempura mixed plate', or three individual items?\",\n    \"Source title emphasizes 'tempura' but visual evidence and compartment labels show mixed preparation methods (karaage, tempura, and sweet potato tempura).\",\n    \"No single canonical dish name matches the actual contents shown.\"\n  ],\n  \"reason\": \"Identity mismatch. The source metadata describes the image as primarily 'tempura' but the left compartment is explicitly labelled 'Japanese fried chicken' (はなまる唐揚げ, karaage), which is a distinct preparation method. The display contains three separate labelled items with different cooking methods and components. No single canonical dish name can be extracted that accurately reflects this mixed assortment. The title emphasizes 'tempura' but the actual contents shown are heterogeneous (karaage + sweet potato tempura + chicken tempura). This contradicts the requirement that canonical_name must match identity and that the dish must be a finished, specific item. A multi-item display case with conflicting preparation methods and labels does not constitute a single identifiable dish for review.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1706,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 710,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

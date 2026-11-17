@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011Ch9DCf7F1cEsPV5aBmUba",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Deep fryer basket with oil and bubbling—preparation stage, not finished dish\",\n    \"Only raw/cooking-stage food visible in both full and thumbnail views\",\n    \"No plated or exposed finished tempura visible\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title claims 'Frying tempura' and kabocha (squash), but no finished dish is shown\",\n    \"Image depicts mid-cooking stage, not a completed appetising dish\"\n  ],\n  \"reason\": \"Rejection: This photograph shows food at a preparation/cooking stage (items in deep fryer oil), not a finished, exposed, plated dish. The subject is too small and obscured by oil and basket. Source metadata describes frying in progress, not a completed dish. No finished tempura with readable components is visible in either the full image or phone thumbnail. This fails the core requirement for a finished, sharply detailed, appetising dish suitable for food gallery review.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1582,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 361,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
