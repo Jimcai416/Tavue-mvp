@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011Ch951JJcLgTiXzcodi4w7",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows baked potato halves with reddish protein (likely meat, not mussels)\",\n    \"Crispy fried onion topping visible\",\n    \"No visible mussels or shellfish in either full or thumbnail view\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title claims 'Mussels in escabeche sauce' but no mussels are visibly present in the photograph\",\n    \"Reddish protein visible appears to be cured meat (salami or similar), not molluscs\",\n    \"Title describes 'sauerkraut' but tangled fried onions dominate the composition\",\n    \"Critical source–image mismatch: identity contradiction\"\n  ],\n  \"reason\": \"REJECT: Identity check fails. Source title declares 'Mussels in escabeche sauce on baked potatoes and sauerkraut' but the visible dish shows baked potato halves topped with what appears to be cured meat (salami/ham), crispy fried onions, and no visible mussels, escabeche sauce, or sauerkraut. This is a severe contradiction between source description and actual visible content. The photograph is sharp, well-lit, and appetising, but it does not match the declared identity. Cannot accept without resolving the fundamental species and ingredient mismatch.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1953,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 456,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
