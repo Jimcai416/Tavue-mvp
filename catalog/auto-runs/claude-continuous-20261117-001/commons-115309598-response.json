@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011Ch959cTEtzif4ienGrx3o",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows a red soup with pale cubed garnish and diced vegetables\",\n    \"Thumbnail clearly visible and representative of full source\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title describes 'Gazpacho andaluz' but the full photograph shows a hot soup (steaming surface, cooked croutons, fully integrated vegetables) served in a warm bowl. Gazpacho andaluz is a cold, uncooked Spanish tomato soup, typically served chilled. The photograph displays characteristics of a hot tomato soup (possibly salmorejo or porra antequerana, cooked variants) rather than authentic gazpacho andaluz.\",\n    \"Identity mismatch between source description and actual dish form creates unresolvable contradiction.\"\n  ],\n  \"reason\": \"Source metadata declares 'Gazpacho andaluz', a cold uncooked tomato soup, but the photograph unambiguously shows a hot soup: visible steam, integrated warm-cooked vegetables, and fried croutons typical of a cooked tomato soup variant. This contradicts the stated identity. The photograph quality is good and the dish itself is photogenic, but the identity cannot be verified as accurate. Without explicit source clarification naming the actual hot soup variant, the source-title mismatch prevents acceptance.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1625,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 434,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
