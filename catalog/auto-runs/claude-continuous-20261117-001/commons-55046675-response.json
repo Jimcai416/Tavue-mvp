@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011Ch94dJG2DKZgiztJZta58",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Golden-brown roasted bird leg/thigh joint, prominent in centre\",\n    \"Roasted potato wedges with herb seasoning, clearly visible\",\n    \"Red diced vegetables (tomato/pepper) scattered around protein\",\n    \"Mushrooms present in sauce base\",\n    \"White plate, professional plating\"\n  ],\n  \"phone_observations\": [\n    \"Central protein appears as roasted poultry leg/thigh\",\n    \"Golden-brown exterior dominates thumbnail\",\n    \"Roasted potatoes and diced red vegetables visible\",\n    \"Composition readable and appetising at reduced size\"\n  ],\n  \"protein_evidence\": {\n    \"protein\": \"No explicit animal species confirmation in source metadata\"\n  },\n  \"uncertainties\": [\n    \"Source title states 'Coq au Vin' (which traditionally means rooster in wine sauce), but the visible preparation shows roasted/grilled appearance without evidence of red wine braising or the characteristic dark burgundy sauce associated with coq au vin\",\n    \"The cooking method and colour profile (golden exterior, dry roast appearance with scattered mushrooms and potatoes) contradicts the coq au vin preparation style (slow-braised in red wine with pearl onions and mushrooms in glossy sauce)\",\n    \"No visible red wine sauce, pearl onions, or braising evidence consistent with classic coq au vin presentation\",\n    \"Species confirmation 'rooster' vs generic poultry not explicitly stated in source, only in title metadata which may be unreliable\"\n  ],\n  \"reason\": \"Reject: Identity check fails. Source title claims 'Coq au Vin' but the visible preparation contradicts this identity. The dish shows characteristics of roasted/grilled poultry with roasted potatoes and scattered vegetables, lacking the essential burgundy wine braising sauce, preparation method, and presentation style that define coq au vin. The disparity between title assertion and visual evidence creates material uncertainty about the actual dish identity. Protein species (rooster vs generic poultry) is not explicitly confirmed in trustworthy source description. Title metadata alone cannot override contradictory visual evidence.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1546,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 618,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

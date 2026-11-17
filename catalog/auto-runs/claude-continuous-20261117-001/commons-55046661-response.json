@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011Ch94dJK1DMqy6u93q1MA5",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Raw ground meat with diced vegetables in cooking pan\",\n    \"Orange bell pepper cubes\",\n    \"White onion cubes\",\n    \"Mushroom pieces (brown caps visible)\",\n    \"Early cooking stage with no finished dish visible\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail shows incomplete preparation stage\",\n    \"Raw or partially cooked minced meat visible\",\n    \"No finished plated dish evident\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title claims 'Coq au Vin' but image shows raw ground meat, not chicken pieces in wine sauce\",\n    \"Coq au Vin is a finished braise; this is a preparation/cooking stage\",\n    \"Ground meat species cannot be verified from appearance alone\",\n    \"No wine, sauce development or finished characteristic appearance of Coq au Vin present\"\n  ],\n  \"reason\": \"Reject: Identity check fails. Source title 'Coq au Vin' claims a finished classic French braised chicken dish, but the photograph shows an early cooking stage with raw or barely-cooked ground meat, diced raw vegetables, and no sauce development. This is a preparation/intermediate stage, not a finished, exposed, appetising dish. The visible form contradicts the claimed identity. Coq au Vin requires whole chicken pieces braised in wine until finished; ground meat in this state does not match that dish. No protein species can be confirmed from raw ground meat appearance.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1686,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 473,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
