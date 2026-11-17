@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011Ch9Mt9Rbq6743XtZ6RXrt",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Soup/broth visible in white bowl\",\n    \"Golden-brown liquid dominates thumbnail\",\n    \"No clearly visible meat pieces, egg, or vegetable components in phone thumbnail\"\n  ],\n  \"protein_evidence\": {\n    \"protein\": \"Chicken stew with tomatoes, tamarind soup and egg\"\n  },\n  \"uncertainties\": [\n    \"Source title lists three distinct dishes ('Chicken stew with tomatoes', 'tamarind soup', 'egg') but photograph appears to be a single soup\",\n    \"Chicken meat not visibly identifiable in full image—only broth/liquid visible\",\n    \"Egg component mentioned in source but not clearly visible in photograph\",\n    \"No readable essential protein component present in phone thumbnail\",\n    \"Contradiction between complex multi-dish source description and apparent single-broth photograph\",\n    \"Bilimbi and other vegetable components not clearly distinguishable\"\n  ],\n  \"reason\": \"Source title describes multiple distinct dishes (chicken stew, tamarind soup, egg with specific ingredients) but photograph shows only a golden broth in a white bowl with no clearly visible protein (chicken meat or egg) in either full image or phone thumbnail. The identity contradiction, absence of readable essential food components in the phone thumbnail, and lack of visually verifiable chicken or egg components create unresolvable uncertainty. The dish cannot be authenticated as the named preparation.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1668,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 456,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
