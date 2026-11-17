@@ -2475,3 +2475,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-continuous-20261117-001
 
 - **Blanquette de poulet en feuilletés avec émulsion au vin jaune** — lazy fri13th. [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Blanquette_de_poulet_en_feuillet%C3%A9s_avec_%C3%A9mulsion_au_vin_jaune.jpg). Local asset: `reviewed-commons-111090111.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-continuous-20261117-001
+
+- **Daube of beef** — tpholland. [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Daube_de_boeuf_carottes.jpg). Local asset: `reviewed-commons-14616090.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
