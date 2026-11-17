@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011Ch9Jk5pV5QYs3uMgcN5pQ",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Yellow turmeric-coloured rice dish prominently displayed\",\n    \"Finished, cooked appearance with natural colouration\",\n    \"Readable components in phone thumbnail\"\n  ],\n  \"phone_observations\": [\n    \"Yellow rice dish clearly visible and identifiable\",\n    \"Proper centre-cover framing of main dish\",\n    \"Natural colour and finished state apparent\"\n  ],\n  \"protein_evidence\": {\n    \"protein\": \"গরুর বট (gorer bot—beef/cattle offal, specifically tripe or organ meat)\"\n  },\n  \"uncertainties\": [\n    \"Source title describes 'খিচুড়ি' (khichuri/khichdi) but metadata specifies 'গরুর বট' (beef offal/tripe) as the primary dish identifier\",\n    \"Ambiguous species reference: 'গরুর' (gorer) means cattle/cow but does not distinguish between beef preparation types or confirm specific cut\",\n    \"Khichuri is typically a rice-and-lentil mixture, but the visible dish appears to be turmeric-yellow rice only—inconsistent with standard khichuri composition\",\n    \"Source metadata ('খিচুড়ি ও গরুর বট') lists two dishes (rice dish and beef offal curry), but cannot visually confirm the beef offal component is present in photograph or is the named subject\"\n  ],\n  \"reason\": \"Source title–image mismatch and ambiguous protein identification prevent acceptance. The metadata describes 'খিচুড়ি ও গরুর বট' (khichuri and beef offal), but the visible dish is turmeric-yellow rice (not standard khichuri), and no offal curry is clearly identifiable as the primary subject in the frame. The term 'গরুর বট' refers to cattle offal but does not name a specific preparation or body part. The photograph is well-exposed and sharp, but cannot confirm it represents the titled dish or meet protein specificity requirements. Hold pending source clarification of exact dish name and visible confirmation of named components.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1723,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 616,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

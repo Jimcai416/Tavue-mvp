@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011Ch9Jk5tDDRcfBxhaoZG2p",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Yellow rice with visible carrot pieces\",\n    \"Olive/mustard-coloured sauce or gravy coating rice\",\n    \"Red-brown crispy fried meat on left side\",\n    \"White decorative plate with blue and green pattern\",\n    \"Outdoor street food setting\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows rice dish with gravy and fried meat component\",\n    \"Red crispy meat distinctly visible on left\",\n    \"Yellow rice with visible vegetables\",\n    \"Composition matches full image\"\n  ],\n  \"protein_evidence\": {\n    \"protein\": \"beef belly's skin\",\n    \"source_quote\": \"Kichuri with Beef belly's skin\"\n  },\n  \"uncertainties\": [\n    \"Title specifies 'Kichuri' but source metadata states 'বট খিচুড়ি' (Bhāt Khichuri)—regional variant name mismatch\",\n    \"Source title/description states 'Beef belly's skin' but visual inspection shows crispy fried meat that could be beef skin/chicharron, meat offal, or crispy preparation—exact anatomical part and preparation not definitively visually verifiable from appearance alone\",\n    \"English title 'Kichuri' vs. Bengali 'খিচুড়ি' (Khichuri)—unclear which is authoritative canonical form\"\n  ],\n  \"reason\": \"Identity check fails due to source metadata contradiction: filename indicates 'বট খিচুড়ি' (Bhāt Khichuri—a Bengali regional variant), but description title given as 'Kichuri' without regional qualifier. Source explicitly names 'beef belly's skin' as protein, which is accepted from exact quote, but the visual appearance of the crispy fried component cannot definitively confirm anatomical specificity or preparation method (skin, offal, etc.). Dish identity and regional variant name must be resolved from source before acceptance. All other quality and photographic checks pass.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1717,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 597,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

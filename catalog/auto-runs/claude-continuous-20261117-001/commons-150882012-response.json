@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011Ch9Jm2HSL5nwtKeAGj1nh",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Golden-brown curry sauce with visible spice coating\",\n    \"Tender meat pieces embedded in gravy\",\n    \"Fresh green coriander garnish\",\n    \"Served in traditional cast-iron sizzling plate\",\n    \"Accompaniments: cucumber slices, shredded onion, lemon wedges visible at right\",\n    \"Appetising presentation typical of restaurant service\"\n  ],\n  \"phone_observations\": [\n    \"Curry visible and prominent in thumbnail\",\n    \"Metal plate clearly identifiable\",\n    \"Meat pieces discernible within sauce\",\n    \"Garnish detail visible\",\n    \"Adequate resolution for dish identification\"\n  ],\n  \"protein_evidence\": {\n    \"protein\": \"Lamb\",\n    \"source_quote\": \"Lamb Rogan Josh\"\n  },\n  \"uncertainties\": [\n    \"Source metadata states 'Lamb Rogan Josh' but photograph alone cannot visually confirm species—meat appearance in gravy is consistent with lamb, but beef or mutton cannot be excluded by visual inspection alone\",\n    \"Title is from filename/metadata (untrusted evidence per protocol); no readable text visible in the actual photograph confirms the species declaration\"\n  ],\n  \"reason\": \"Photograph shows a well-executed finished curry dish in appetising condition with sharp detail, good lighting, and appealing composition—all checks for photograph quality pass. Phone thumbnail clearly shows the dish. However, identity check fails because the source title 'Lamb Rogan Josh' is embedded in untrusted metadata/filename only. The actual photograph shows meat in a rogan josh-style sauce, but visual inspection alone cannot definitively confirm the meat species (lamb vs. beef vs. mutton). Per protocol, protein identity requires explicit source quote in documented description, not inference from appearance. Hold pending source description that explicitly names the protein outside of filename/title metadata.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1404,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 552,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

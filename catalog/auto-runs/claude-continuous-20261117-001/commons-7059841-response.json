@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011Ch9Jm6oJxG4QUz2NhJgJB",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Rich reddish-brown curry sauce visible in both images\",\n    \"Diced tomatoes and green herbs (cilantro) scattered throughout\",\n    \"Glossy, wet appearance consistent with rogan josh preparation\",\n    \"Served in white bowl, shallow focus photography\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows red curry sauce with meat pieces\",\n    \"Diced vegetables and herbs visible at this resolution\",\n    \"Colour and composition align with full source\",\n    \"Dish identity readable from thumbnail\"\n  ],\n  \"protein_evidence\": {\n    \"protein\": \"mutton\",\n    \"source_quote\": \"Mutton Gosh\"\n  },\n  \"uncertainties\": [\n    \"Species ambiguity: 'mutton' in source metadata may refer to goat in some regional contexts; exact animal cannot be visually confirmed from photograph\",\n    \"Romanization uncertainty: title shows 'Gosh' but standard transliteration is 'Gosht'; source description inconsistent with file title\",\n    \"Source metadata contradiction: file title 'Mutton rogan josh.jpg' vs description field 'Mutton Gosh' creates uncertainty about canonical form\"\n  ],\n  \"reason\": \"Photograph and thumbnail both meet quality and composition standards (all scores ≥4). The dish is a finished, exposed, appetising curry with sharp detail and readable components in the thumbnail. However, identity check fails due to source metadata inconsistencies: the filename and description field diverge ('Mutton rogan josh' vs 'Mutton Gosh'), and 'mutton' presents species ambiguity (may denote goat in some regional cuisines). Regional variants of rogan josh must preserve exact terminology, and unresolved contradictions between source title and description prevent confident canonical naming. Hold pending clarification of exact source-declared dish name and species reference.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1501,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 563,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

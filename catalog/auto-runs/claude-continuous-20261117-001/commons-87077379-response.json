@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011Ch9JkcoomwSao6t8jPmUg",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Multiple meat preparations visible: dark braised pieces, kebab-like items, grilled/charred proteins\",\n    \"Yellow rice and white rice visible as sides\",\n    \"Natural daylight, home-cooked presentation\",\n    \"Prominent, well-exposed finished dish on white plate\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail shows multiple meat components and rice sides clearly\",\n    \"Colour and composition readable at reduced size\",\n    \"Essential components not clipped\"\n  ],\n  \"protein_evidence\": {\n    \"lamb\": \"description states 'mainly lamb dishes'\",\n    \"chicken\": \"description states 'chicken as well'\"\n  },\n  \"uncertainties\": [\n    \"Source title describes 'Kashmiri Pandit Non-Vegetarian Cuisine' as a category collection, not a single named dish\",\n    \"Listed component dishes (Rogan Josh, Yakni, Masch, Kabargah, Kebab, Palak meat) are not visible in source title as a unified dish name\",\n    \"Exact identity of each visible protein component cannot be determined from appearance alone; source lists both lamb and chicken but does not specify which meats appear in this particular plating\",\n    \"No single canonical dish name provided in source; description lists multiple possible dishes generically\"\n  ],\n  \"reason\": \"Source metadata describes a cuisine category and lists possible component dishes, not a specific identifiable dish. While the photograph shows a finished, appetising multi-protein plate with professional presentation and good quality, the source provides no exact canonical name matching the visible contents. The description 'contains the key Kashmiri Pandit Non-Vegetarian dishes which include mainly lamb dishes Rogan Josh, Yakni, Masch, Kabargah, Kebab, Palak meat and chicken as well' is a generic category statement, not identification of this plating. Identity check fails: cannot match visible form to a specific source-named dish. Hold pending clarification of exact dish identity and confirmation of which proteins appear in this plating.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1975,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 596,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

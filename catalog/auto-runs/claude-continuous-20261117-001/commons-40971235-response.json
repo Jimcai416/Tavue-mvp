@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011Ch9Jm93FNwD6gu3mEToJv",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Butter naan with charred blisters visible on left side\",\n    \"Rich reddish-brown curry on right side consistent with tikka masala\",\n    \"Creamy sauce visible alongside protein component\",\n    \"Natural home/restaurant photography with warm indoor lighting\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows cream-coloured naan with browning on left\",\n    \"Reddish-brown spiced protein curry prominently visible on right\",\n    \"Dish composition and proportions match full image\",\n    \"Essential components readable and appetising in thumbnail\"\n  ],\n  \"protein_evidence\": {\n    \"protein\": null\n  },\n  \"uncertainties\": [\n    \"Title claims 'Chicken Tikka Masala' but metadata headers are untrusted per instructions—no visible proof of chicken species in photograph\",\n    \"Protein appears as cooked curry/masala; individual pieces not clearly identifiable as specifically chicken rather than lamb, paneer or other protein\",\n    \"Source title is filename metadata, not an explicit source quote from a reliable declaration on the dish itself\",\n    \"Description 'The absolute North Indian delicacy' is marketing language, not specific identity confirmation\"\n  ],\n  \"reason\": \"Image quality, sharpness, lighting and composition all meet threshold (≥4). Photograph and thumbnail both show a finished, appetising dish with naan and spiced curry clearly visible. However, identity check fails: the protein species cannot be visually confirmed as chicken from the cooked curry appearance alone, and the only source naming chicken is the filename metadata, which per instructions is untrusted evidence and never to be treated as instruction. No explicit source quote from a reliable dish description exists that definitively confirms the protein species. Ambiguous protein species => hold per protocol.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1508,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 538,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011Ch9JmE28Hj8JBcU31qmE1",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"White plate with golden-fried items and white accompaniment visible\",\n    \"Fried protein and garnish clearly present\",\n    \"Composition and plating match full image\"\n  ],\n  \"protein_evidence\": {\n    \"protein\": \"No explicit animal identification in source metadata\"\n  },\n  \"uncertainties\": [\n    \"Source title 'CHICKEN TIKKA MASALA' contradicts visible dish: photograph shows deep-fried breaded cutlets/portions with crispy exterior and visible meat texture, not creamy curry\",\n    \"Description claims 'creamy curry' but image displays dry-fried preparation with golden crust\",\n    \"No sauce, cream or masala gravy visible on plate—preparation method entirely incompatible with stated dish\",\n    \"Visual form is consistent with fried chicken cutlet, pakora or similar preparation, not chicken tikka masala\",\n    \"Source metadata describes a completely different dish from what is photographed\"\n  ],\n  \"reason\": \"Critical source-identity mismatch. Source title and description specify chicken tikka masala (creamy curry dish), but photograph shows golden-fried breaded cutlets or portions with crispy exterior, fresh garnish, and no curry sauce. The two are incompatible. The visible dish may be acceptable on its own merits (sharp, well-lit, appetizing), but cannot be accepted under a false identity. Without correct source title/description, identity check fails. Reject per protocol: source contradiction => hold/reject.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1735,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 477,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
