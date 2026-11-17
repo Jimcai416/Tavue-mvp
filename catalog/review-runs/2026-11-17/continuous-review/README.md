@@ -1,5 +1,7 @@
 # Continuous final review — 17 November 2026
 
+Historical identity-queue checkpoint. The subsequent [crop review](../crop-continuous-review/README.md) completed all 3,697 crop candidates and increased the bundle to 1,734 photos. Counts below retain the earlier 408-photo checkpoint.
+
 Completed all **1,054** records in the remaining identity-review manifest without stopping at batch checkpoints. **315** passed assistant visual and source review and were integrated; **739** remain held with individual source records and reasons. The bundle now contains **408** distinct photographs (48 starter + 22 previous + 23 earlier today + 315 here). This is not 408 independently proven recipes or a measured real-menu coverage rate.
 
 All 1,054 uncropped previews were inspected on contact sheets; 391 received enlarged review, including every accepted photo. Current Commons hashes, titles/descriptions, authors and licence fields were compared with the retained source snapshot. Metadata matched for 1,050 records; the four with changed descriptions were held. Published author/licence metadata is a source declaration, not independent proof of ownership. Source-declared hidden flavours and ingredients are explicitly distinguished from visible dish structure. Model suggestions, scores and category labels were not approvals.

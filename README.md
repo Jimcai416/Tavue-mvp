@@ -88,7 +88,7 @@ npx wrangler secret put ANTHROPIC_API_KEY
 npx wrangler deploy
 ```
 
-A 48-photo pilot is bundled with the app. The expanded catalogue uses D1 and private R2, targeting at least 10,000 approved photographs. See [the collection, review and release workflow](catalog/README.md). No live image-search API keys are needed.
+The test branch bundles 1,734 reviewed photographs, including the 48-photo starter. The 3,697-row crop-candidate queue is fully reviewed; 1,326 additions passed and 2,371 remain held. The expanded catalogue uses D1 and private R2, targeting at least 10,000 approved photographs; that launch gate remains unmet. See [the collection, review and release workflow](catalog/README.md). No live image-search API keys are needed.
 See [photo sources and review](docs/DISH-PHOTOS.md) and [photographer credits](assets/dishes/CREDITS.md).
 
 The beta requires an anonymous client ID, limits each installation to six scan

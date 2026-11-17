@@ -2,7 +2,7 @@
 
 Target: at least **10,000 distinct approved photographs**, with distinct named dishes and per-cuisine coverage reported separately. The 48-photo starter is a quality and integration pilot, not the launch collection. API hits, licence-eligible candidates, downloaded files, approved photographs and covered recipes are different counts.
 
-Current test branch inventory (17 November 2026): **408 bundled reviewed photos** (48 starter + 22 previously integrated + 23 earlier additions + 315 continuous-review additions). The [latest review record](review-runs/2026-11-17/continuous-review/README.md) records all 1,054 remaining identity-queue decisions, including 739 holds, source checks and validation. This queue is exhausted; crop suggestions and further collection remain separate. The unchanged 10,000-photo launch gate is still 9,592 photos away; production has not been deployed.
+Current test branch inventory (17 November 2026): **1,734 bundled reviewed photos** (408 before this crop review + 1,326 additions). The [latest review record](review-runs/2026-11-17/crop-continuous-review/README.md) exhausts all 3,697 frozen crop candidates: 1,326 accepted and 2,371 held with individual reasons. The earlier 1,054-row identity review is also complete and remains a separate historical record. Other screening categories and future collection are separate. The unchanged 10,000-photo launch gate is still 8,266 photos away; production has not been deployed.
 
 The repository contains:
 

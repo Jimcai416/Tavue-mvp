@@ -20,6 +20,7 @@ jobs:
       - run: node scripts/test-web-shell.cjs
       - run: npx tsc --noEmit
       - run: python3 -m unittest discover -s scripts/photos -p test_reconcile_identity.py
+      - run: python3 scripts/photos/audit_crop_review.py
       - run: npx expo export --platform ios --platform android --output-dir catalog/work/native-export
       - run: node scripts/check-native-photo-export.cjs
       - run: npm run export:web
