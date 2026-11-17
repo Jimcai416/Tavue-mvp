@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011Ch9Fz4hZgFxCThdZvmZAE",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Naan bread visible in wicker basket, clearly exposed and finished\",\n    \"Spiced curry in white bowl with gravy, prominent in full image\",\n    \"Natural daylight, natural colours, appetising presentation\"\n  ],\n  \"phone_observations\": [\n    \"Naan and curry bowl both visible in thumbnail centre-cover\",\n    \"Adequate detail for dish recognition at phone size\"\n  ],\n  \"protein_evidence\": {\n    \"protein\": \"chicken\"\n  },\n  \"uncertainties\": [\n    \"Source title states 'Chicken kadhai' but source description contains marketing language ('putting your mouth on fire and tongue on yum!!') which is non-factual marketing claim rather than ingredient declaration\",\n    \"Visual inspection of curry in bowl shows reddish-brown spiced preparation consistent with kadhai-style cooking, but specific chicken species, cut, and preparation method cannot be confirmed from appearance alone\",\n    \"No explicit visual confirmation that the meat in the curry is chicken—only source-declared; colour and texture are consistent but not species-definitive\"\n  ],\n  \"reason\": \"Source metadata contains explicit marketing and health/sensation claims ('putting your mouth on fire and tongue on yum!!') embedded in the description field. Per protocol, metadata including descriptions containing non-factual promotional language and subjective taste claims are untrusted evidence. While the photograph itself shows finished, exposed, well-lit naan and spiced curry with good quality and appeal, and the protein 'chicken' is source-declared, the contamination of the source description with marketing language and the inability to visually confirm chicken species from the curry appearance creates sufficient uncertainty about source reliability. The identity check fails due to metadata integrity issues.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1633,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 512,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

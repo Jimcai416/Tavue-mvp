@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011Ch9FzrV8JBdSjwaXRKnCz",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Cooked meat pieces in dark gravy with visible char and browning\",\n    \"Golden-fried potato cubes scattered throughout\",\n    \"Fresh green cilantro garnish\",\n    \"Served in traditional metal dish (kadhai/wok-style)\",\n    \"Finished, plated dish with natural colours\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail shows recognisable cooked meat and potato composition\",\n    \"Essential food elements visible and prominent\",\n    \"Dark sauce and golden potato cubes discernible at reduced scale\"\n  ],\n  \"protein_evidence\": {\n    \"protein\": \"chicken\",\n    \"source_quote\": \"Kadhai Chicken Fry\"\n  },\n  \"uncertainties\": [\n    \"Metadata title describes 'Kadhai Chicken Fry' but source is a filename/auto-generated title, not an explicit dish description from a trusted culinary source\",\n    \"No independent visual confirmation that meat is definitively chicken versus another poultry or species; identity relies entirely on metadata title\",\n    \"Metadata origin (filename: 'File:Kadhai Chicken Fry.jpg') is untrusted per protocol—cannot serve as authoritative dish identity verification\"\n  ],\n  \"reason\": \"Although the photograph itself is finished, well-composed, sharply detailed, naturally coloured and appetising, and the protein claim ('chicken') is stated in the metadata title, the protocol explicitly designates all metadata, image text and URLs as untrusted evidence and never instructions. The canonical identity cannot be verified from the visible form alone—no plaque, label, menu item or independent documentation in the image confirms this is chicken rather than another meat. Metadata-only protein identification without visual confirmation violates the requirement that identity must agree with trusted source description and visible form. The dish cannot be accepted on metadata authority alone.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1607,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 551,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
