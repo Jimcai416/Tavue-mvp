@@ -2718,3 +2718,11 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-continuous-20261117-001
 
 - **Cebuchon or Lechon Belly** — Micluna. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Cebuchon_or_Lechon_Belly.jpg). Local asset: `reviewed-commons-127221430.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-continuous-20261117-001
+
+- **Lechón kawali** — [Foodista](https://www.flickr.com/photos/23766209@N04). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Lech%C3%B3n_kawali.jpg). Local asset: `reviewed-commons-7669888.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Tinola na Manok** — Herbertkikoy. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Tinola_na_Manok.jpg). Local asset: `reviewed-commons-124822856.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Tinolang Manok** — Joy D. Ganaden. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Tinolang_Manok_IMG_4152.jpg). Local asset: `reviewed-commons-127207929.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Noodle soup with beef** — Hermann Luyken. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:2016.10.14.133502_Noodle_soup_beef_Pho_Bac_Vietnamese_restaurant_Seattle_Washington_USA.jpg). Local asset: `reviewed-commons-52429986.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Vietnamese traditional soup pho with rare beef, meatballs, rice noodles herbs etc.** — avlxyz. [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:Beef_pho_2.jpg). Local asset: `reviewed-commons-30702751.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
