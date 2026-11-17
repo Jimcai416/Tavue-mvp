@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011Ch9DAxSEHndkxbWzpbccp",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Napa cabbage, mushrooms, daikon radish, carrots, tofu, noodles, and decorative vegetable cuts visible\",\n    \"Traditional blue-and-white ceramic dish\",\n    \"Fresh, uncooked ingredient arrangement\"\n  ],\n  \"phone_observations\": [\n    \"Vegetable components clearly visible in thumbnail\",\n    \"Dish identity readable\",\n    \"Natural colours preserved in reduction\"\n  ],\n  \"protein_evidence\": {\n    \"protein\": null\n  },\n  \"uncertainties\": [\n    \"Source title describes 'Vegetables for sukiyaki' — a raw/preparation stage ingredient platter, not a finished, exposed, cooked sukiyaki dish\",\n    \"No meat visible or named in source; sukiyaki typically includes beef or other protein as essential component\",\n    \"Image shows pre-prepared ingredients, not a finished, served dish ready to eat\"\n  ],\n  \"reason\": \"Reject: This is a raw ingredient preparation platter for sukiyaki, not a finished, exposed, cooked dish. The source explicitly identifies it as 'Vegetables for sukiyaki'—an intermediate stage before cooking. The components are uncooked and arranged for assembly. Tavue accepts finished, exposed dishes; raw/preparation stages are excluded. Additionally, no protein is visible or named in the source, and sukiyaki typically requires meat as an essential component. The photographic quality is good, but the subject fails the identity check for a completed dish.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1507,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 466,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

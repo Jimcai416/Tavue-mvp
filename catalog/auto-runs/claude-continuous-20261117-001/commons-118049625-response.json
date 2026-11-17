@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011Ch9DAUEMQm5qz2Ev4AaVv",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Raw/rare meat visible in centre-right of image (bright red interior)\",\n    \"Meat is thinly sliced and partially cooked in a shallow pan\",\n    \"Pan appears to be a cast iron or similar shallow cooking vessel\"\n  ],\n  \"phone_observations\": [\n    \"Meat shows clear raw/rare interior (bright red) in phone thumbnail\",\n    \"Image captures meat at preparation/cooking stage rather than finished dish\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source metadata lists 'Sukiyaki' but image shows raw/rare meat being cooked, not a finished sukiyaki dish\",\n    \"Sukiyaki is a finished hot pot dish with cooked ingredients; this appears to be mid-preparation\",\n    \"Meat species cannot be reliably determined from appearance alone\"\n  ],\n  \"reason\": \"Rejection: Image shows meat at a raw/preparation cooking stage, not a finished, exposed, cooked dish. The bright red interior and active cooking state violate the requirement for 'a finished, exposed, likely photographic dish.' While photograph and phone thumbnail quality are acceptable, the subject matter fails the fundamental acceptance criterion. The source title claims 'Sukiyaki' but the visual evidence shows incomplete preparation rather than a complete cooked dish ready for consumption.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1491,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 429,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
