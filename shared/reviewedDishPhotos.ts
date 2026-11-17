@@ -38317,5 +38317,28 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 723,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-78438891",
+    "title": "File:Spinach and ricotta ravioli (6994028593).jpg",
+    "author": "Ruth Hartnup  from Vancouver, Canada",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Spinach_and_ricotta_ravioli_(6994028593).jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/da/Spinach_and_ricotta_ravioli_%286994028593%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "edc50d4fc6004c3f32c85a9decf7356f5eade231",
+    "name": "Spinach and ricotta ravioli",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-78438891.jpg",
+    "assetSha256": "820ccdedce95e139ed12800d1d6ef29da66ffd8cf9a745dbfd68520ff27efd75",
+    "reviewedAt": "2026-11-17",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true,
+    "authorUrl": "https://www.flickr.com/people/95142644@N00"
   }
 ];
