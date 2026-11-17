@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011Ch9ChgeDQhjeATWwtRwPW",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Wheat flour wraps/tortillas visible\",\n    \"Caramelised mushrooms, onions, peppers clearly present\",\n    \"Glossy cooked meat strips visible\",\n    \"Plate presentation on white dish\"\n  ],\n  \"phone_observations\": [\n    \"Wrapped sandwich form clearly visible\",\n    \"Filled interior with mushrooms and meat identifiable\",\n    \"Bright orange/red pepper strips prominent\",\n    \"Adequate thumbnail clarity for dish recognition\"\n  ],\n  \"protein_evidence\": {\n    \"protein\": \"pork\",\n    \"source_quote\": \"Moo Shu Pork Burritos\"\n  },\n  \"uncertainties\": [\n    \"Source title describes 'Burritos' but photograph shows what appears to be a filled crepe or thin wrap (Moo Shu pancake), not a burrito. Moo Shu Pork is a Chinese stir-fry traditionally served in thin wheat crepes, not wrapped as a burrito-style closed item.\",\n    \"Identity contradiction: The dish form does not match the titled preparation method. This appears to be Moo Shu Pork served in its traditional crepe, not reconstituted as a burrito.\"\n  ],\n  \"reason\": \"Identity check fails. Source title claims 'Moo Shu Pork Burritos' but the photograph shows Moo Shu Pork served in a traditional thin wheat crepe with the filling visible and partially overflowing—the classic presentation, not a burrito. The title misidentifies the dish form. While the photograph itself is sharp, well-lit, and appetising, and the protein (pork) is explicitly named in the source, the fundamental identity contradiction between the declared dish type (burrito) and the visible preparation (crepe) prevents acceptance. The source description does not accurately reflect what is photographed.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1622,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 566,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011Ch9Ci8fPbsGMwVWXkNxQG",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Red-brown braised sauce visible in bowl\",\n    \"Diced pale tofu cubes prominent\",\n    \"Ground meat component visible throughout\",\n    \"Green scallion garnish on top\",\n    \"Black bowl on wooden surface with styling elements\"\n  ],\n  \"phone_observations\": [\n    \"Dish clearly visible and identifiable in thumbnail\",\n    \"Sauce and components readable at small scale\",\n    \"Appetizing presentation maintained in reduction\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title references 'Gluten-Free Mapo Tofu' but provides no explicit meat species declaration\",\n    \"Ground meat visible in image but source does not specify whether beef, pork, or another animal\",\n    \"Cannot visually distinguish meat species from appearance alone\",\n    \"File title metadata is untrusted evidence per instructions\"\n  ],\n  \"reason\": \"Reject: Identity check fails. Source title 'Gluten-Free Mapo Tofu' is not accompanied by explicit animal protein identification in the description. Ground meat is visually present but source does not name the species. Per protocol, ambiguous meat species (including unspecified ground meat in traditional Sichuan dishes) cannot be accepted without exact source quotation naming the animal. The photograph quality and phone thumbnail are acceptable, but the identity cannot be verified with required specificity.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1560,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 446,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

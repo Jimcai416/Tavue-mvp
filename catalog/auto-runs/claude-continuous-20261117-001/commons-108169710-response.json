@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011Ch9ChGyB9rv3fpBbfrkLF",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 3,\n    \"composition\": 2,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows chefs in white uniforms at work counter, no finished dish visible\",\n    \"Chefs are actively preparing/handling food, not plating a completed dish\",\n    \"No recognizable finished food item prominent in thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title references 'Peking Duck' but no finished, plated duck dish is visible in either image\",\n    \"Raw or in-preparation duck visible on counter but not a finished, exposed, appetising dish\"\n  ],\n  \"reason\": \"Rejection: This is a preparation/kitchen scene, not a photograph of a finished dish. Both full image and phone thumbnail show chefs actively working during food preparation, not a completed, plated, appetising Peking Duck ready for consumption. The image documents the cooking process rather than the final product. No finished dish is sharp, detailed, naturally coloured, appetising or prominent in either view. This violates the core requirement for 'a finished, exposed, likely photographic dish'.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1607,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 373,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
