@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011Ch93x4poe2vvb7MLa6Phw",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows layered pasta sheets with visible filling and sauce\",\n    \"Golden-brown pasta exterior consistent with baked lasagna\",\n    \"Garnish visible on top surface\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title metadata states 'Lasagna from Poznan' but full image shows plated individual portions with distinctive folded/rolled pasta construction, not traditional lasagna layers\",\n    \"Dish structure appears to be crepes or thin pasta rolled/folded with filling, not stacked lasagna sheets\",\n    \"No explicit protein identification in source description—meat species unconfirmed despite visible protein content\",\n    \"Contradiction between 'lasagna' title and actual plated presentation form\",\n    \"Capers or pickled garnish visible but no source confirmation\"\n  ],\n  \"reason\": \"Identity check fails. Source title 'Lasagna from Poznan' does not match the actual dish structure visible in both full and thumbnail images. The photograph shows rolled or folded crepes/thin pasta with filling, not traditional lasagna construction. Without explicit protein identification in source text and given the contradiction between declared identity and photographed form, the dish cannot be confidently classified. The image quality, sharpness, lighting and composition are acceptable, but identity verification is required before acceptance.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1503,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 436,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

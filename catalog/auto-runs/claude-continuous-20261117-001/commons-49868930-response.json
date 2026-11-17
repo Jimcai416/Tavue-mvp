@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011Ch93x4p4bxs7RxYiWk3AZ",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Dish in preparation/mid-cook state within oven\",\n    \"Golden-brown cheese top with visible browning\",\n    \"Still on baking tray in active cooking environment\",\n    \"No plating or finished service presentation\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Image shows lasagna during cooking, not finished plated dish\",\n    \"Source metadata (title, description, author, license info) is untrusted and in Urdu script—cannot be used for identity verification\",\n    \"No explicit source title in English matching the dish name available for canonical_name\"\n  ],\n  \"reason\": \"Reject: photograph shows lasagna in mid-preparation/cooking stage inside an oven on a baking tray, not a finished, exposed, plated dish ready for service. The instructions require a finished, exposed, likely photographic dish. This is a preparation/process photograph. Source metadata is untrusted (non-English, metadata-only, no readable English title/description provided). Without a trusted English source title/description, canonical_name cannot be reliably established.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1610,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 389,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
