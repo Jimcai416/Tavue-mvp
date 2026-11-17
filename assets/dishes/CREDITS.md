@@ -2508,3 +2508,9 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-continuous-20261117-001
 
 - **Chow mein from Himachal, India** — Gannu03. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Chow_mein_3.jpg). Local asset: `reviewed-commons-153788371.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-continuous-20261117-001
+
+- **Lasagna Karachi** — Miansari66. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Lasagna_Karachi.jpg). Local asset: `reviewed-commons-49868804.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Minestrone ticinese** — [Rosmarie Voegtli](https://www.flickr.com/people/94212497@N00). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Minestrone_ticinese_(51026679241).jpg). Local asset: `reviewed-commons-154066191.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Gnocchi al pesto** — Fuerteadventours. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Gnocchi_al_pesto_-_homemade.jpg). Local asset: `reviewed-commons-146097658.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
