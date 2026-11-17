@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011Ch9M7SH7YZa6t6zN5PxEo",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows decorative plated dish with central orange/red component and bright green peas\",\n    \"Ornate green-rimmed plate visible in phone crop\",\n    \"Food is identifiable and prominent\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title declares 'Vegetable vindaloo' but no protein animals are named in title or description\",\n    \"Title explicitly states 'Vegetable' vindaloo—no meat declared\",\n    \"Cannot verify protein presence visually; orange/red component appears to be cooked vegetable preparation, not identifiable animal flesh\",\n    \"No source quote names any chicken, beef, pork, duck, lamb, or seafood\"\n  ],\n  \"reason\": \"Rejection: Source declares a vegetable dish ('Vegetable vindaloo on a bed of green peas'). Protocol requires protein_evidence to include only chicken/beef/pork/duck/lamb/or seafood with an exact source quote explicitly naming each animal. The source title contains no animal protein names. The orange/red central component is visually consistent with vegetable curry preparation (spiced legume or vegetable base) rather than identifiable cooked meat. While photograph and phone thumbnail quality are acceptable, the dish does not meet the protein requirement for Tavue's representative food intake. Vegetable-only dishes fall outside the stated scope.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1937,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 452,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

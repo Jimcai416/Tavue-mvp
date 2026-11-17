@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011Ch9M6GhNoKzoG7z7Y68pn",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Red-cooked or tandoori-style protein pieces with charred edges\",\n    \"Cucumber slices, fresh coriander, green peas as garnish\",\n    \"Decorative plated presentation on ornamental white dish\",\n    \"Natural daylight on gold textile background\"\n  ],\n  \"phone_observations\": [\n    \"Red cooked protein clearly visible in thumbnail\",\n    \"Vegetable garnishes readable but small\",\n    \"Overall composition recognisable as a finished dish\"\n  ],\n  \"protein_evidence\": {\n    \"protein\": \"No explicit protein species named in source metadata\"\n  },\n  \"uncertainties\": [\n    \"Source title states 'Tandoori Chicken' but no chicken is visually distinguishable as poultry; red colour and charring are consistent with tandoori preparation but could apply to multiple proteins\",\n    \"Metadata title/description conflict with visible form: image shows what may be tandoori-style meat but species cannot be confirmed as chicken from appearance alone\",\n    \"No explicit source quote naming chicken in the provided description field\"\n  ],\n  \"reason\": \"Reject: Identity check fails. Source title claims 'Tandoori Chicken' but the description field contains only 'Tandoori Chicken 1' without explicit protein naming in citable form. The visible red-cooked protein with charred edges is consistent with tandoori preparation but species (chicken/lamb/paneer) cannot be visually confirmed. Metadata title is a filename component and unreliable instruction. No exact source quote explicitly naming 'chicken' or other animal is present in the description. Per protocol, ambiguous meat species or source contradictions require hold/reject. The photograph quality is acceptable, but identity verification fails due to lack of explicit protein evidence in description field.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1608,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 537,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

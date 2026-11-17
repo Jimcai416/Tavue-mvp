@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011Ch9M761E1fLteHYNagtYf",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 3,\n    \"lighting\": 2,\n    \"composition\": 3,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows plated portion with naan on white plate, two serving bowls with orange/brown curry\",\n    \"Main curry bowl prominent but portions small relative to context\",\n    \"Lighting in thumbnail is dim, detail compressed\"\n  ],\n  \"protein_evidence\": {\n    \"protein\": \"Kuřecí vindalú\",\n    \"note\": \"Czech title 'Kuřecí' = chicken; English description confirms 'Chicken vindaloo'\"\n  },\n  \"uncertainties\": [\n    \"Source title in Czech ('Kuřecí vindalú') requires translation verification despite English description\",\n    \"Plating appears mid-service or family-style with multiple accompaniments rather than a finished individual dish presentation\",\n    \"Low ambient lighting causes poor color rendering and reduced appeal\",\n    \"Sharpness compromised by distance, angle and dim conditions\"\n  ],\n  \"reason\": \"Image fails quality threshold: sharpness score 3 (soft focus, dim lighting), lighting score 2 (severe ambient shadow, poor color rendering), appeal score 2 (unappealing presentation context). While identity is verifiable from bilingual source (Czech 'Kuřecí' + English 'Chicken vindaloo'), and the dish is recognizable as chicken vindaloo with visible naan and curry bowls, the photograph exhibits poor technical execution with inadequate sharpness and lighting. The composition shows a service scene rather than an appetizing finished dish. These defects collectively fall below the minimum quality standard required for acceptance.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1537,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 487,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
