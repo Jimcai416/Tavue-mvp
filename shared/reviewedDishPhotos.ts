@@ -38861,5 +38861,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-126394190",
+    "title": "File:20221204 schabowy ziemniaki kapusta kompot.jpg",
+    "author": "Abraham",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:20221204_schabowy_ziemniaki_kapusta_kompot.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d5/20221204_schabowy_ziemniaki_kapusta_kompot.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "2ea7cc97817a4665f8742b0608b6c12d9f04b3de",
+    "name": "Schabowy, ziemniaki, kapusta i kompot",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-126394190.jpg",
+    "assetSha256": "511f398f6274c2bc7c91d2166cfdf3110c81e7eefb7f93cdd3adb75c246abd42",
+    "reviewedAt": "2026-11-17",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 540,
+    "height": 960,
+    "requiresExactMenuName": true
   }
 ];

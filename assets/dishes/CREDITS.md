@@ -2483,3 +2483,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-continuous-20261117-001
 
 - **Daube de porc** — Marianne Casamance. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Daube_de_porc.JPG). Local asset: `reviewed-commons-46813515.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-continuous-20261117-001
+
+- **Schabowy, ziemniaki, kapusta i kompot** — Abraham. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:20221204_schabowy_ziemniaki_kapusta_kompot.jpg). Local asset: `reviewed-commons-126394190.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
