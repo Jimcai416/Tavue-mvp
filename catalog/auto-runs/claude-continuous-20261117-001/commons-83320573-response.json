@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011Ch9Q5EbwvvWAJ9dP69u7V",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 5,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Fried tofu strips visible (brown, crispy)\",\n    \"White rice noodle rolls prominently displayed\",\n    \"Fresh herbs: cilantro, mint, leafy greens\",\n    \"Cucumber slices\",\n    \"Served on banana leaf with rattan basket\",\n    \"Natural, appetising presentation\"\n  ],\n  \"phone_observations\": [\n    \"Fried tofu, noodle rolls, herbs and vegetables clearly identifiable\",\n    \"Dish composition and components readable in thumbnail\",\n    \"Appetising appearance maintained at thumbnail scale\"\n  ],\n  \"protein_evidence\": {\n    \"pork\": \"steamed pork\",\n    \"shrimp\": \"shrimp paste\"\n  },\n  \"uncertainties\": [\n    \"Source title declares 'Fried tofu, rice noodle with shrimp paste' but description adds 'steamed pork'—visible tofu and noodle rolls confirmed, but steamed pork is not clearly visually distinguishable in the photograph (pale elements could be tofu or pork)\",\n    \"Shrimp paste is a condiment/flavouring and not visible as a discrete component; it is source-declared but not photographically proven\",\n    \"Exact dish identity and complete component list unclear due to source title/description mismatch\"\n  ],\n  \"reason\": \"High-quality, sharp, appetising photograph of a finished dish on banana leaf. Fried tofu and rice noodle rolls are visually confirmed; fresh herbs and vegetables are prominent and readable in the phone thumbnail. However, the source metadata is internally contradictory: the title names 'Fried tofu, rice noodle with shrimp paste' while the description adds 'steamed pork'. Steamed pork is not clearly identifiable in the visible image, and shrimp paste is a hidden flavouring, not a visible component. The exact dish identity cannot be confidently established. All quality and photograph checks pass, but identity check fails due to source contradiction and ambiguity.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1643,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 599,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011Ch9Q4qepTuNPbsA2fRbaX",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Clear broth-based soup in white bowl\",\n    \"Green leafy vegetable (rau rút/water spinach)\",\n    \"Pale round items consistent with crab meat balls or similar\",\n    \"Two textured patties visible in broth (ground meat)\",\n    \"Natural colours, finished dish presentation\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows all major components: greens, round items, broth\",\n    \"Dish is prominent and identifiable at small scale\",\n    \"Essential food visible and readable\"\n  ],\n  \"protein_evidence\": {\n    \"protein\": \"cua (crab)\"\n  },\n  \"uncertainties\": [\n    \"Title claims 'canh cua' (crab soup) but visible meat patties appear to be ground meat (likely pork or beef), not typical crab preparation. Crab as primary protein is undeclared in the two visible meat items.\",\n    \"Description states 'nấu với khoai sọ' (cooked with elephant ear/taro) but the round pale items are morphologically inconsistent with peeled taro—they appear more like fish balls, meat balls, or processed seafood balls.\",\n    \"The exact identity of the two textured patties cannot be visually confirmed as crab-based.\",\n    \"Source metadata conflicts with visible form: if crab is the protein, its presentation form in this broth is unclear and unconfirmed.\"\n  ],\n  \"reason\": \"Identity check fails due to critical mismatch between source protein claim (cua/crab as main ingredient) and visible components. The two textured items in the broth appear to be ground meat patties, not crab meat or crab-based balls. The round pale items may be misidentified in source description as 'khoai sọ' (taro) but appear morphologically different. While photograph and phone thumbnail quality are good and the dish is finished and appetising, the actual protein composition cannot be reliably verified against the source title. Hold pending clarification of exact dish identity and protein species.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1630,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 604,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
