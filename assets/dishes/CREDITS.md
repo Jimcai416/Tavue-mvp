@@ -2461,3 +2461,9 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 
 - **Risotto with White Truffles from Alba** — [Arnold Gatilao  from Fremont, CA, USA](https://www.flickr.com/photos/58819758@N00). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Risotto_with_White_Truffles_from_Alba.jpg). Local asset: `reviewed-commons-14236747.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Risotto with truffles** — Marifer Veloz. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Risotto_with_truffles_in_Saudi_Arabia.jpg). Local asset: `reviewed-commons-107035481.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-continuous-20261117-001
+
+- **White Truffle Risotto** — [Photograph:    Lou Stejskal  
+ Derivative work: MagentaGreen](https://www.flickr.com/photos/loustejskal/). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:White_Truffle_Risotto,_2015-(01_retouched).jpg). Local asset: `reviewed-commons-77635958.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Rice cake filled with sweet bean paste and wrapped in a pickled cherry leaf** — katorisi. [CC BY 3.0](https://creativecommons.org/licenses/by/3.0); [source](https://commons.wikimedia.org/wiki/File:A_rice_cake_filled_with_sweet_bean_paste_and_wrapped_in_a_pickled_cherry_leaf,katori-city,japan.JPG). Local asset: `reviewed-commons-3655033.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
