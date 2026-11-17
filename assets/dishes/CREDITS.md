@@ -2495,3 +2495,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-continuous-20261117-001
 
 - **Caldo Gallego** — Takeaway. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Madrid_caldo_gallega.JPG). Local asset: `reviewed-commons-11926062.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-continuous-20261117-001
+
+- **Chicken Chow Mein** — Miansari66. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Chinese_Chicken_Chow_Mein.JPG). Local asset: `reviewed-commons-20011472.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.

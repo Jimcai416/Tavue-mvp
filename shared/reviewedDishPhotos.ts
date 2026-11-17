@@ -38929,5 +38929,29 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 643,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-20011472",
+    "title": "File:Chinese Chicken Chow Mein.JPG",
+    "author": "Miansari66",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chinese_Chicken_Chow_Mein.JPG",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Chinese_Chicken_Chow_Mein.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "98a7403f01d25dab47b02e2c1f26ce381dc6f0e2",
+    "name": "Chicken Chow Mein",
+    "aliases": [],
+    "proteins": [
+      "chicken"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-20011472.jpg",
+    "assetSha256": "07d5505db06b5503db030562cb7698ebd4aed9550617eec9af4531f6c857ecb5",
+    "reviewedAt": "2026-11-17",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];
