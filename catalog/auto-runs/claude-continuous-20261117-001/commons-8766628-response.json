@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011Ch942q3iEFTTyZBVMVcP9",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Pasta in amber/brown skillet on warming stand\",\n    \"Broad, flat ribbon pasta consistent with pappardelle form\",\n    \"Reddish-brown meat sauce or ragù coating pasta\",\n    \"Restaurant plating on white tablecloth with wine bottle and glassware\",\n    \"Fork visible in skillet\"\n  ],\n  \"phone_observations\": [\n    \"Pasta and sauce clearly visible in thumbnail\",\n    \"Skillet and food occupy appropriate centre proportion\",\n    \"Colour and texture convey finished dish appearance\"\n  ],\n  \"protein_evidence\": {\n    \"protein\": \"cinghiale\"\n  },\n  \"uncertainties\": [\n    \"Source title declares 'cinghiale' (wild boar), but the red-brown sauce appearance alone does not visually prove wild boar species versus domestic pork, beef, or other red meat ragù\",\n    \"No explicit source quote confirms the meat species in English or provides unambiguous visual differentiation for verification\"\n  ],\n  \"reason\": \"Source metadata declares 'Pappardelle al cinghiale' (wild boar), but the visible sauce and meat texture do not provide independent visual confirmation that the dish contains wild boar rather than domestic pork or another red meat. The image quality, composition, and phone thumbnail are acceptable, but the identity check fails because the specific protein (cinghiale/wild boar) cannot be visually verified from the photograph alone and relies entirely on the source title. Per protocol, ambiguous meat species must be held pending explicit visual or textual confirmation beyond metadata title.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1555,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 488,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
