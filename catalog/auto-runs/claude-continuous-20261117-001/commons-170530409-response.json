@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011Ch95DLtDp5Jj7oQJFWY4s",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Eight golden-brown breaded spherical croquettes on white oval plate\",\n    \"Crispy exterior with even browning\",\n    \"Natural plating on plain ceramic\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows eight golden croquettes on white plate\",\n    \"Shape and colour consistent with full image\",\n    \"Croquettes prominent and readable\"\n  ],\n  \"protein_evidence\": {\n    \"protein\": \"Ham\",\n    \"source_quote\": \"Ham croquettes\"\n  },\n  \"uncertainties\": [\n    \"Title references 'croquetas jamón' (ham croquettes) but metadata contains file path, photographer attribution, and license info that must be excluded from canonical naming\",\n    \"Description confirms ham identity but source metadata format requires extraction of clean dish name only\",\n    \"No unambiguous standalone source title phrase available after removing File: prefix, date, photographer, and license elements\"\n  ],\n  \"reason\": \"Photograph and thumbnail both show finished, sharply detailed, appetising croquettes with excellent composition and natural colour. All quality checks pass with scores ≥4. However, the source metadata presents only a filename with embedded date/attribution rather than a clean, explicit dish title in a standard format. The description 'Ham croquettes, served at restaurant O Poleiro in Combarro, Spain' is present but canonical_name must be copied exactly from source title/description without file artifacts. The filename 'File:20250720 Croquetas jamón at Restaurant O Poleiro in Combarro anagoria.jpg' cannot be sanitised into a proper canonical name without editorial interpretation. Hold pending clarification of an explicit, clean source title that permits direct quotation.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1563,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 523,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
