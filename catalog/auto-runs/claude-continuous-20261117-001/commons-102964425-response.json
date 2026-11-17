@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011Ch94NsxeXrVjLBpQcYrMm",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Pasta with reddish-brown sauce visible in thumbnail\",\n    \"Sauce texture and colour consistent with full image\"\n  ],\n  \"protein_evidence\": {\n    \"protein\": \"skipjack tuna\"\n  },\n  \"uncertainties\": [\n    \"Source metadata states 'skipjack tuna' but no visible tuna pieces, flakes or recognisable fish protein are evident in either full photograph or thumbnail. The sauce appears uniform and meat is not visually distinguishable or identifiable as tuna.\",\n    \"Sauce colour and texture more consistent with ground beef ragù or general meat sauce than with typical tuna-based preparations.\",\n    \"No tuna flakes, chunks or characteristic seafood appearance visible in prominent sauce.\"\n  ],\n  \"reason\": \"Identity check fails. While the source title explicitly names 'skipjack tuna', the visual evidence does not support this claim. The sauce presents as a uniform, finely ground or minced preparation with a colour and appearance typical of beef ragù rather than tuna sauce. No visible tuna pieces, characteristic flakes, or seafood protein elements are discernible in either the full photograph or phone thumbnail. Per protocol, hidden flavours may only be accepted when explicitly source-declared; however, the visible form contradicts the declared protein identity. This source contradiction triggers a hold per guidelines.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1754,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 439,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

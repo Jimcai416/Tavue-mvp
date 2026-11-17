@@ -9888,5 +9888,299 @@
       ],
       "reason": "Photograph quality, sharpness, lighting and composition all meet standards. The dish is finished, exposed, sharply detailed, naturally coloured and appetising in both full and thumbnail views. However, identity check fails: the source description does not explicitly name the meat species. 'Ragù fatto in casa' is a generic Italian ragù designation. Protocol requires an exact source quote naming the protein (chicken/beef/pork/duck/lamb/seafood). Without explicit species declaration, identity cannot be confirmed and protein_evidence remains empty. Hold pending source clarification of meat type."
     }
+  },
+  {
+    "id": "commons-192666329",
+    "sourceSha1": "a88ea512ec27de1f5de94911639084f2a1e9b44f",
+    "previewSha256": "6cfe828857bfccf9280dcaf2775b0fe91011707c8a20beef54334f3f85304f45",
+    "phonePreview": {
+      "width": 124,
+      "height": 96,
+      "fit": "centre-cover"
+    },
+    "verdict": "held",
+    "reviewedBy": "claude-api:claude-haiku-4-5-20251001",
+    "reviewedAt": "2026-11-17T19:33:29.089669+00:00",
+    "reason": "model_reject",
+    "modelOutput": {
+      "verdict": "reject",
+      "canonical_name": null,
+      "evidence_quote": null,
+      "checks": {
+        "identity": false,
+        "quality": false,
+        "photograph": false,
+        "phone": false,
+        "variant_preserved": false
+      },
+      "scores": {
+        "sharpness": 3,
+        "lighting": 2,
+        "composition": 2,
+        "appeal": 1
+      },
+      "visible_support": [],
+      "phone_observations": [
+        "Thumbnail shows only a dense, uniform tan mass with no visible peas, meat texture distinction, or sauce definition",
+        "No appetising detail; subject appears as undifferentiated cooking mixture",
+        "Essential components (peas, meat grains, sauce) are not readable in phone view"
+      ],
+      "protein_evidence": {},
+      "uncertainties": [
+        "Source metadata declares 'carne picada' (ground meat) but species is not specified—could be beef, pork, or mixed; no explicit protein name matching review protocol",
+        "Image shows a preparation/cooking stage (in-pot mixture), not a finished plated dish"
+      ],
+      "reason": "Rejection: This is a mid-cooking preparation photograph, not a finished exposed dish. The full image lacks sharp focus and natural appetising presentation—it shows a raw, mid-stage bolognese sauce simmering in a pot. The phone thumbnail is severely deficient: the mixture appears as an undifferentiated tan mass with no readable component structure, no visible pea or meat grain distinction, and no visual appeal. Phone check fails: essential food components are not discernible. Quality checks fail: lighting is flat/dim, composition is uninformative, sharpness and appeal scores are too low. Identity check fails: source declares 'carne picada' (ground meat) without specifying animal species, violating the protein evidence requirement. This does not meet the standard of a finished, sharply detailed, naturally coloured, appetising dish suitable for Tavue review."
+    }
+  },
+  {
+    "id": "commons-153674978",
+    "sourceSha1": "2079657d2dd1f15a01680b9313430936a1fd6eda",
+    "previewSha256": "f83d4bcabf2452761716033c37ddbc6472cd87677f7b1db4bc6e4fc33ccf5b14",
+    "phonePreview": {
+      "width": 124,
+      "height": 96,
+      "fit": "centre-cover"
+    },
+    "verdict": "held",
+    "reviewedBy": "claude-api:claude-haiku-4-5-20251001",
+    "reviewedAt": "2026-11-17T19:33:29.090098+00:00",
+    "reason": "model_hold",
+    "modelOutput": {
+      "verdict": "hold",
+      "canonical_name": null,
+      "evidence_quote": null,
+      "checks": {
+        "identity": false,
+        "quality": true,
+        "photograph": true,
+        "phone": true,
+        "variant_preserved": false
+      },
+      "scores": {
+        "sharpness": 5,
+        "lighting": 4,
+        "composition": 4,
+        "appeal": 4
+      },
+      "visible_support": [
+        "Cooked spaghetti noodles present",
+        "Red/orange tomato-based sauce coating noodles",
+        "White plate, natural presentation",
+        "Well-lit, sharp detail of finished dish"
+      ],
+      "phone_observations": [
+        "Thumbnail clearly shows spaghetti with red sauce",
+        "Noodles and sauce visible and identifiable",
+        "Dish remains prominent and readable at small size"
+      ],
+      "protein_evidence": {},
+      "uncertainties": [
+        "Source metadata states 'pretends to be Bolognese' but description identifies only 'tomato sauce, strictly a ragú'—no specific protein named in source",
+        "No visible meat or protein components identifiable in photograph",
+        "Contradiction between 'Bolognese' (which traditionally contains meat) and source admission it is 'strictly ragú' (tomato-based) without protein declaration"
+      ],
+      "reason": "Source identity check fails: description explicitly disclaims Bolognese status and declares only 'tomato sauce, strictly a ragú', but no protein is named in the source text or visibly evident in the image. Per protocol, meat species cannot be inferred from tradition or generic naming. Ambiguous identity and missing explicit protein evidence trigger hold."
+    }
+  },
+  {
+    "id": "commons-33078923",
+    "sourceSha1": "c970e4488ae51783b5bbb1ca833e6e0568734cb2",
+    "previewSha256": "5e4f52c246cd4362b9da235f43c72608bfe134e2c97eeb2419e0e9f1129875c0",
+    "phonePreview": {
+      "width": 124,
+      "height": 96,
+      "fit": "centre-cover"
+    },
+    "verdict": "held",
+    "reviewedBy": "claude-api:claude-haiku-4-5-20251001",
+    "reviewedAt": "2026-11-17T19:33:29.090379+00:00",
+    "reason": "name_not_in_source",
+    "modelOutput": {
+      "verdict": "accept",
+      "canonical_name": "Spaghetti with Ragù alla bolognese",
+      "evidence_quote": "Spaghetti mit Ragù alla bolognese in Homemade",
+      "checks": {
+        "identity": true,
+        "quality": true,
+        "photograph": true,
+        "phone": true,
+        "variant_preserved": true
+      },
+      "scores": {
+        "sharpness": 5,
+        "lighting": 5,
+        "composition": 4,
+        "appeal": 4
+      },
+      "visible_support": [
+        "Bright, well-lit full photograph of spaghetti pasta base",
+        "Rich, meaty ragù bolognese sauce covering the pasta",
+        "Shaved or grated cheese garnish visible on top",
+        "Cooked ground meat dispersed throughout the sauce",
+        "Natural plating on white ceramic dish",
+        "Phone thumbnail clearly shows pasta, sauce, and toppings"
+      ],
+      "phone_observations": [
+        "Thumbnail composition centred on pasta mound with sauce",
+        "Cheese garnish visible in phone view",
+        "Dish shape and plate rim clearly identifiable",
+        "Colour saturation natural and appetising",
+        "Essential components (pasta, sauce, meat, cheese) all readable at small scale"
+      ],
+      "protein_evidence": {
+        "protein": "Ragù alla bolognese"
+      },
+      "uncertainties": [],
+      "reason": "Finished, professionally plated spaghetti bolognese with sharply detailed, naturally coloured, appetising appearance. Full photograph and phone thumbnail both show complete dish with readable components. Source title and description confirm Ragù alla bolognese preparation. All quality metrics meet acceptance threshold. Homemade cooking style does not diminish acceptance."
+    }
+  },
+  {
+    "id": "commons-102964425",
+    "sourceSha1": "b0331e88bcefb924c08120dd02a7b857e3c2b286",
+    "previewSha256": "665ed79ff3358d5c7ffca9806137dd7db6b49c2f59b4e0e4528c9dc6e5ff3a88",
+    "phonePreview": {
+      "width": 124,
+      "height": 96,
+      "fit": "centre-cover"
+    },
+    "verdict": "held",
+    "reviewedBy": "claude-api:claude-haiku-4-5-20251001",
+    "reviewedAt": "2026-11-17T19:33:29.090707+00:00",
+    "reason": "model_reject",
+    "modelOutput": {
+      "verdict": "reject",
+      "canonical_name": null,
+      "evidence_quote": null,
+      "checks": {
+        "identity": false,
+        "quality": true,
+        "photograph": true,
+        "phone": true,
+        "variant_preserved": false
+      },
+      "scores": {
+        "sharpness": 4,
+        "lighting": 4,
+        "composition": 4,
+        "appeal": 4
+      },
+      "visible_support": [],
+      "phone_observations": [
+        "Pasta with reddish-brown sauce visible in thumbnail",
+        "Sauce texture and colour consistent with full image"
+      ],
+      "protein_evidence": {
+        "protein": "skipjack tuna"
+      },
+      "uncertainties": [
+        "Source metadata states 'skipjack tuna' but no visible tuna pieces, flakes or recognisable fish protein are evident in either full photograph or thumbnail. The sauce appears uniform and meat is not visually distinguishable or identifiable as tuna.",
+        "Sauce colour and texture more consistent with ground beef ragù or general meat sauce than with typical tuna-based preparations.",
+        "No tuna flakes, chunks or characteristic seafood appearance visible in prominent sauce."
+      ],
+      "reason": "Identity check fails. While the source title explicitly names 'skipjack tuna', the visual evidence does not support this claim. The sauce presents as a uniform, finely ground or minced preparation with a colour and appearance typical of beef ragù rather than tuna sauce. No visible tuna pieces, characteristic flakes, or seafood protein elements are discernible in either the full photograph or phone thumbnail. Per protocol, hidden flavours may only be accepted when explicitly source-declared; however, the visible form contradicts the declared protein identity. This source contradiction triggers a hold per guidelines."
+    }
+  },
+  {
+    "id": "commons-55200449",
+    "sourceSha1": "fefa1b9f10cecfd3cf2abc248b91a3138b5da286",
+    "previewSha256": "01a68263b46c617fb01412311eee40b72d1f5deaf490e00777285dbc1c3eee88",
+    "phonePreview": {
+      "width": 124,
+      "height": 96,
+      "fit": "centre-cover"
+    },
+    "verdict": "held",
+    "reviewedBy": "claude-api:claude-haiku-4-5-20251001",
+    "reviewedAt": "2026-11-17T19:33:29.091001+00:00",
+    "reason": "claude_full_and_phone_review_passed",
+    "modelOutput": {
+      "verdict": "accept",
+      "canonical_name": "Tagliatelle Bolognese",
+      "evidence_quote": "Tagliatelle Bolognese at restaurant We Pasta in Kamppi, Helsinki, Uusimaa, Finland.",
+      "checks": {
+        "identity": true,
+        "quality": true,
+        "photograph": true,
+        "phone": true,
+        "variant_preserved": true
+      },
+      "scores": {
+        "sharpness": 4,
+        "lighting": 4,
+        "composition": 4,
+        "appeal": 4
+      },
+      "visible_support": [
+        "Ribbon tagliatelle pasta clearly visible and identifiable",
+        "Rich tomato-based Bolognese sauce coating the pasta",
+        "Natural restaurant plating on white ceramic plate",
+        "Warm, appetising colour indicating finished dish",
+        "Sauce texture shows depth and proper coating"
+      ],
+      "phone_observations": [
+        "Thumbnail clearly shows pasta dish in white bowl",
+        "Red sauce and pasta form visible and recognisable",
+        "Centre composition captures subject adequately",
+        "Essential components readable: pasta shape and sauce"
+      ],
+      "protein_evidence": {},
+      "uncertainties": [],
+      "reason": "Finished, exposed pasta dish with classic Bolognese preparation. Full image shows sharp detail of tagliatelle ribbon pasta coated in rich tomato sauce, naturally coloured and appetising. Thumbnail maintains clarity of essential components (pasta shape, sauce) in readable form. Source title exactly matches visible identity. All quality checks pass with scores ≥4. No protein claims made—Bolognese traditionally contains meat but no explicit source quote naming specific animals provided, so protein_evidence omitted per instructions. Home restaurant context acceptable."
+    }
+  },
+  {
+    "id": "commons-10284656",
+    "sourceSha1": "5d29fef981a05402bdb3b81f5ffc00c21353d525",
+    "previewSha256": "4c8f22084df7a2f60f4013d41e024aa3195d562e22ff692fbea08a7759c46021",
+    "phonePreview": {
+      "width": 124,
+      "height": 96,
+      "fit": "centre-cover"
+    },
+    "verdict": "held",
+    "reviewedBy": "claude-api:claude-haiku-4-5-20251001",
+    "reviewedAt": "2026-11-17T19:33:29.091350+00:00",
+    "reason": "model_hold",
+    "modelOutput": {
+      "verdict": "hold",
+      "canonical_name": null,
+      "evidence_quote": null,
+      "checks": {
+        "identity": false,
+        "quality": true,
+        "photograph": true,
+        "phone": true,
+        "variant_preserved": false
+      },
+      "scores": {
+        "sharpness": 5,
+        "lighting": 4,
+        "composition": 5,
+        "appeal": 5
+      },
+      "visible_support": [
+        "Finished, cooked tagliatelle pasta with meat ragù sauce",
+        "Generous grated cheese topping (white, likely Parmesan)",
+        "Rich reddish-brown meat sauce visible throughout",
+        "Natural colours, appetising presentation",
+        "Sharp detail in both source and thumbnail"
+      ],
+      "phone_observations": [
+        "Thumbnail clearly shows tagliatelle ribbon pasta",
+        "Meat sauce and cheese topping readable",
+        "Subject prominent and well-framed",
+        "Essential components visible"
+      ],
+      "protein_evidence": {
+        "protein": null
+      },
+      "uncertainties": [
+        "Source title states 'Tagliatelle Bolognese con ragu' but description attributes it to Heston Blumenthal's 'Perfect Spaghetti Bolognese'—contradiction in both pasta shape and attribution",
+        "No explicit animal protein named in source metadata; meat species (beef/pork/etc.) not declared",
+        "Title-description mismatch creates ambiguity about true identity and preparation"
+      ],
+      "reason": "Photograph quality, sharpness, lighting and composition all excellent (scores 4–5); dish is finished, appetising and readable in thumbnail. However, identity check fails due to source contradiction: title names 'Tagliatelle Bolognese con ragu' while description credits Heston Blumenthal's 'Perfect Spaghetti Bolognese'—conflicting pasta shape and attribution. No explicit protein species quoted in source. Without resolved source identity and protein evidence, hold pending clarification."
+    }
   }
 ]

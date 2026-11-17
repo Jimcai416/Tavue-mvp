@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011Ch94NtRvfwVtpNNKXz7nF",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 3,\n    \"lighting\": 2,\n    \"composition\": 2,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows only a dense, uniform tan mass with no visible peas, meat texture distinction, or sauce definition\",\n    \"No appetising detail; subject appears as undifferentiated cooking mixture\",\n    \"Essential components (peas, meat grains, sauce) are not readable in phone view\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source metadata declares 'carne picada' (ground meat) but species is not specified—could be beef, pork, or mixed; no explicit protein name matching review protocol\",\n    \"Image shows a preparation/cooking stage (in-pot mixture), not a finished plated dish\"\n  ],\n  \"reason\": \"Rejection: This is a mid-cooking preparation photograph, not a finished exposed dish. The full image lacks sharp focus and natural appetising presentation—it shows a raw, mid-stage bolognese sauce simmering in a pot. The phone thumbnail is severely deficient: the mixture appears as an undifferentiated tan mass with no readable component structure, no visible pea or meat grain distinction, and no visual appeal. Phone check fails: essential food components are not discernible. Quality checks fail: lighting is flat/dim, composition is uninformative, sharpness and appeal scores are too low. Identity check fails: source declares 'carne picada' (ground meat) without specifying animal species, violating the protein evidence requirement. This does not meet the standard of a finished, sharply detailed, naturally coloured, appetising dish suitable for Tavue review.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1673,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 483,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
