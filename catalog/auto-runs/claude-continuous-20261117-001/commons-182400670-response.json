@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011Ch95JVwLLJ6vD4bvRJQLE",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Plated dish on white bowl with dark wooden surface\",\n    \"Fried noodles with visible vegetable pieces (green pepper, carrot)\",\n    \"Broccoli florets on left side\",\n    \"Golden-brown protein pieces (5-6 visible chunks)\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows complete plated composition\",\n    \"Noodles, protein and broccoli all visible and identifiable\",\n    \"Natural colours preserved in reduction\"\n  ],\n  \"protein_evidence\": {\n    \"protein\": null\n  },\n  \"uncertainties\": [\n    \"Source title describes 'baked orange chicken made from a frozen, ready-made product' but does not explicitly name the protein animal in the dish itself\",\n    \"Metadata states 'frozen, ready-made product' suggesting processing/packaging origin rather than finished cooking\",\n    \"No explicit statement that the visible protein pieces are chicken\",\n    \"Description contradicts 'homemade' claim with reference to commercial frozen product\"\n  ],\n  \"reason\": \"Reject: source metadata describes the dish as made from a 'frozen, ready-made product' (commercial packaging/preparation stage), which violates the requirement for a finished, exposed, home-cooked or street food dish. Additionally, while the dish appears visually finished and well-photographed, the source does not contain an explicit quote naming 'chicken' as the protein—the description infers the identity but does not state it as direct evidence. The title/description is unreliable metadata and cannot serve as the canonical name basis. Identity check fails due to lack of explicit protein naming and commercial product origin statement.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1715,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 507,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

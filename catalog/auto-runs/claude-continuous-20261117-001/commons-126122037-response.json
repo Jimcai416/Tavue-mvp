@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011Ch95JWCTUiVLKYSwX5YbA",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 3,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [\n    \"Cooked noodles with glossy appearance\",\n    \"Mixed vegetables visible including what appears to be cabbage, carrots, and leafy greens\",\n    \"Dark seasoning and sauce coating\",\n    \"Served on dark plate/vessel\"\n  ],\n  \"phone_observations\": [\n    \"Noodle strands clearly visible in thumbnail\",\n    \"Vegetable components recognizable\",\n    \"Overall composition readable but detail limited at small scale\",\n    \"Colouration consistent between full and thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source metadata declares 'Vegetarian Chow Mein' but no explicit protein is named in the description\",\n    \"The source title is a filename field (File:Vegetarian Chow Mein.jpg), not a formal dish description\",\n    \"Visible meat-like brown fragments cannot be definitively identified as vegetarian protein or meat product from appearance alone\",\n    \"No authoritative source quote explicitly confirming vegetarian status or protein composition\"\n  ],\n  \"reason\": \"Identity check fails. Source metadata format (filename) is not an authoritative dish description. The title 'Vegetarian Chow Mein' contradicts visible brown fragments that resemble meat or non-vegetarian protein, creating source-image contradiction. No explicit canonical description exists beyond the filename. Without a clear, authoritative source quote matching visible form and resolving the vegetarian/meat ambiguity, identity cannot be verified. Photograph and phone quality are acceptable but identity uncertainty is fatal.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1617,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 485,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

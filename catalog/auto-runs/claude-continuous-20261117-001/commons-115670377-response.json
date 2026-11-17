@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011Ch95JVqNgsPp2Va7e7ci5",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 3,\n    \"lighting\": 3,\n    \"composition\": 2,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows packaged military rations in plastic pouches against light background\",\n    \"Subjects are uncooked/unprepared ingredients in packaging, not finished prepared dish\",\n    \"No recognizable cooked food visible in phone view\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Image shows raw/preparation stage packaging, not an exposed finished dish\",\n    \"Printed labels on packaging visible, not evidence of actual dish identity\",\n    \"No cooked or plated food present in photograph\"\n  ],\n  \"reason\": \"REJECT: This is a photograph of military combat rations (MRE components) in sealed packages, not a finished, exposed, cooked dish. The image displays uncooked ingredient packets and labels against an artificial studio background. It is representative of food packaging and preparation stages, explicitly excluded. The subjects are not appetising, prominent finished dishes but rather commercial product packaging. The phone thumbnail shows packaged items, not a recognizable prepared meal. This fails the core requirement of showing a finished, exposed, likely photographic dish suitable for food review.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1974,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 383,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
