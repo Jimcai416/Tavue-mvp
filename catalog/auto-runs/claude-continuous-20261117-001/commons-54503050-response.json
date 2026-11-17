@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011Ch94cTRQ9ettaZpD1MboL",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 2,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Subject is packaged food inside plastic wrapping, not an exposed finished dish\",\n    \"Packaging dominates the image; food itself not distinctly visible as a prepared item\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source metadata lists this as packaged sweet pastry, not a photographed finished dish ready to eat\",\n    \"The image shows the product in its retail packaging with label, not an exposed, exposed food item\"\n  ],\n  \"reason\": \"Rejection: This is a photograph of packaged food on a store shelf or in original wrapping, not a finished, exposed, prepared dish suitable for Tavue intake. The pastry remains in its commercial plastic packaging with manufacturer label visible. Identity check fails because the subject is 'packaged food product' rather than an exposed, ready-to-eat dish. The photograph and phone thumbnail both show packaging as the primary subject, not appetizing presentation of the food itself. Per intake guidelines, printed food on packaging and unexosed products are explicitly excluded.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1610,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 369,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

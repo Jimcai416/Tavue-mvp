@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011Ch94cTrCNDFTR7G6YcpqJ",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Raw poultry pieces in marinating liquid\",\n    \"Chopped vegetables: carrots, celery, onions visible\",\n    \"Fresh parsley garnish\",\n    \"Dark peppercorns and cloves scattered on surface\",\n    \"Pink/pale flesh indicating uncooked meat\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail shows raw meat preparation stage\",\n    \"Vegetables and marinade visible but dish unfinished\",\n    \"No cooked or plated presentation evident\"\n  ],\n  \"protein_evidence\": {\n    \"protein\": \"chicken\",\n    \"source_quote\": \"The chicken is marinated in a mix of red Burgundy wine\"\n  },\n  \"uncertainties\": [],\n  \"reason\": \"Rejection: This is a preparation/marinating stage, not a finished dish. The source description explicitly identifies this as 'The chicken is marinated' — a raw, in-process image. The poultry is visibly uncooked (pink/pale flesh), submerged in marinade liquid. Per guidelines, raw/preparation stages are explicitly rejected. While photograph quality is acceptable and identity matches source description of Coq au Vin marinating, the dish criterion requires 'a finished, exposed, likely photographic dish' — this is neither finished nor exposed for consumption.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1555,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 431,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
