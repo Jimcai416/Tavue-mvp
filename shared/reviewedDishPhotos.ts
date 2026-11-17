@@ -38789,5 +38789,29 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "height": 720,
     "requiresExactMenuName": true,
     "authorUrl": "https://www.flickr.com/people/94637630@N00"
+  },
+  {
+    "id": "commons-111090111",
+    "title": "File:Blanquette de poulet en feuilletés avec émulsion au vin jaune.jpg",
+    "author": "lazy fri13th",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Blanquette_de_poulet_en_feuillet%C3%A9s_avec_%C3%A9mulsion_au_vin_jaune.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/70/Blanquette_de_poulet_en_feuillet%C3%A9s_avec_%C3%A9mulsion_au_vin_jaune.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "7b724dda374d7ce3112b0ee2c3ee7a77b1c49f4c",
+    "name": "Blanquette de poulet en feuilletés avec émulsion au vin jaune",
+    "aliases": [],
+    "proteins": [
+      "chicken"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-111090111.jpg",
+    "assetSha256": "098b49b451905fce188592258d40569d9a1a7158f7e6805fe85066706688027b",
+    "reviewedAt": "2026-11-17",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];
