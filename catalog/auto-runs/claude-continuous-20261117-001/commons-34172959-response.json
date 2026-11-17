@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011Ch9QS1ZSvtYHsLeJSmTZN",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 2,\n    \"composition\": 1,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Mobile thumbnail shows a museum display cart/vendor booth, not a finished food dish\",\n    \"No visible prepared food, served dish, or appetising meal presentation\",\n    \"Display case with glass panels and storage compartments only\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title references 'Cart of Rujak (Rojak)' but image shows only the empty vendor apparatus, not the food itself\",\n    \"Museum ethnology display, not a food photograph\",\n    \"No finished, exposed, photographic dish visible in either full image or thumbnail\"\n  ],\n  \"reason\": \"Image is a museum photograph of a street food vendor cart/display apparatus, not a finished food dish. No prepared rujak, food components, or served meal are visible or prominently featured. The subject is the equipment structure itself in a museum context. Fails identity (no dish present), quality (insufficient lighting, contrast, focus on food), and photograph (documentary/museum display, not food photography) checks. Thumbnail shows only the empty cart frame. Does not meet acceptance criteria for a food review.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1657,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 386,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

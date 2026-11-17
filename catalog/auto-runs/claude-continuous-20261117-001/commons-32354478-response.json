@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011Ch9QRtHAJFEuhoXPuuYUL",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Gado-gado vegetable salad with fried tofu, shrimp, potato visible on banana leaf\",\n    \"Prawn crackers (krupuk) alongside\",\n    \"Hard-boiled egg halves visible in companion dish\",\n    \"Dark soup (rawon) in bowl\",\n    \"Plain white rice on plate\",\n    \"Banana leaf serving base\"\n  ],\n  \"phone_observations\": [\n    \"Gado-gado salad clearly prominent in thumbnail\",\n    \"Vegetable mix, proteins and sauce legible\",\n    \"Companion dishes (egg, soup, rice) visible\",\n    \"Natural colours, sharp detail preserved at reduced size\"\n  ],\n  \"protein_evidence\": {\n    \"protein\": \"source states 'rawon beef soup' but beef is not visually confirmed in the gado-gado dish itself; shrimp visible in gado-gado\"\n  },\n  \"uncertainties\": [\n    \"Source title/description field names are metadata labels, not a confirmed canonical dish name in quoted format\",\n    \"Beef declared only for the rawon soup component, not the primary gado-gado dish\",\n    \"No explicit direct quote from a source title that names the complete meal as a single dish entity\",\n    \"Species of shrimp and other minor proteins in gado-gado not individually named in source\"\n  ],\n  \"reason\": \"Image quality, sharpness, lighting, composition and phone thumbnail legibility all meet acceptance thresholds. However, identity check fails: the source provides metadata fields ('description') rather than a canonical dish title in quoted format. The description lists components (gado-gado, rawon, rice) as separate items, not as a unified dish name. Beef is attributed only to the rawon soup, not to the gado-gado salad itself—the primary visible dish. No exact canonical_name phrase can be extracted that preserves the dish identity without invention. Hold pending clarification of the intended dish identity and confirmation of protein declarations for the gado-gado component.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1523,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 598,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
