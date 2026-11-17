@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011Ch94sRRmXzJ2VxWiWMJXZ",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Broth-based soup with whole vegetables\",\n    \"Cabbage wedge, potatoes, carrot, broccoli\",\n    \"Meat strip on right side of bowl\",\n    \"Clear amber broth\",\n    \"Cream-coloured bowl on wooden surface\"\n  ],\n  \"phone_observations\": [\n    \"Vegetable soup elements clearly visible in thumbnail\",\n    \"Broth and cooked vegetables distinguish it from raw preparation\",\n    \"Meat element visible on right side\",\n    \"Legible composition at phone size\"\n  ],\n  \"protein_evidence\": {\n    \"protein\": \"Unspecified meat strip visible but not named in source description\"\n  },\n  \"uncertainties\": [\n    \"Source title describes 'pot-au-feu soup' but metadata states 'based on consomme soup' — pot-au-feu is traditionally a braised meat and vegetable dish, not a soup\",\n    \"Meat species not identified in source description\",\n    \"Actual dish identity conflicts with source framing (soup vs. pot-au-feu preparation)\"\n  ],\n  \"reason\": \"Source metadata contradicts itself: title claims 'pot-au-feu soup' but description qualifies it as 'based on consomme soup' — these are distinct preparations. Pot-au-feu is a braised meat-vegetable dish; consommé is a clarified soup stock. The visible meat strip is unspecified in the source description. Identity agreement cannot be confirmed due to source contradiction and lack of explicit protein naming. Hold pending source clarification.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1515,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 496,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
