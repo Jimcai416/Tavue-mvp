@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011Ch9ESarX253jEybtAm6Nr",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Stir-fried noodles with crispy exterior visible\",\n    \"Orange carrot strips and green scallion pieces distributed throughout\",\n    \"Golden-brown soy sauce colouration consistent with pad see ew\",\n    \"Crumbled protein component throughout the dish\",\n    \"Thai iced tea beverage present in background\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows stir-fried noodle dish\",\n    \"Protein particles and vegetable pieces legible\",\n    \"Adequate composition for recognition\"\n  ],\n  \"protein_evidence\": {\n    \"protein\": \"vegan chicken\"\n  },\n  \"uncertainties\": [\n    \"Source title declares 'vegan chicken' but Tavue accepts only real animal proteins: chicken/beef/pork/duck/lamb/seafood with explicit sourcing\",\n    \"No real poultry protein present—substance is plant-based meat substitute\",\n    \"Cannot verify animal species from visual appearance alone when plant-based substitute is declared\"\n  ],\n  \"reason\": \"Dish identity confirmed as Pad See Ew from metadata and visual appearance (stir-fried wide noodles, soy-based sauce, vegetables, characteristic browning). However, the protein component is explicitly 'vegan chicken'—a plant-based substitute. Tavue's protein requirement restricts to real animal proteins (chicken/beef/pork/duck/lamb/seafood) with exact source quotes naming the animal. A plant-based meat substitute does not meet this criterion. Rejection is based on protein ineligibility, not photograph quality.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1886,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 499,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
