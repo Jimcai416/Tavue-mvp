@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011Ch93xuzFraH3Psv1bAQHD",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Raw ingredients laid out: uncooked rice in bowl, cheese block, wine bottle (Baden Grauer Burgunder), mushrooms in colander, bacon package, onion, green beans, mushrooms scattered\",\n    \"Phone thumbnail shows colander of cooked mushrooms and onion in cooking context\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail displays partial cooked mushroom and onion mixture in mesh colander\",\n    \"No finished plated dish visible in thumbnail\",\n    \"Cooking stage image, not a completed dish presentation\"\n  ],\n  \"protein_evidence\": {\n    \"protein\": \"bacon\"\n  },\n  \"uncertainties\": [\n    \"Source title references 'Mushroom Risotto' but image shows ingredients and preparation stage, not a finished risotto dish\",\n    \"Thumbnail and full source show raw/cooking ingredients and stages, not an exposed, finished plated dish\",\n    \"No cooked risotto with identifiable rice grains and final texture visible in either image\"\n  ],\n  \"reason\": \"Image shows ingredient preparation and cooking stages, not a finished, exposed, plated mushroom risotto dish. The thumbnail displays only partial cooked components in a colander. Neither the full source nor thumbnail meets the requirement for a complete, finished photographic dish with sharp detail, natural colour, and appetising presentation. This is a preparation-stage documentation, not a food photograph of a served dish.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1522,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 453,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
