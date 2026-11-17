@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011Ch9Pjuv1oHRESCc13fuAx",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 5,\n    \"appeal\": 5\n  },\n  \"visible_support\": [\n    \"Glazed grilled meat with caramelised surface, prominent in both images\",\n    \"White jasmine rice base visible in full image and thumbnail\",\n    \"Blue-and-white ceramic bowl typical of Vietnamese service\",\n    \"Scattered scallions and what appears to be black garlic or dark garnish on meat\",\n    \"Natural daylight, sharp detail on meat texture and rice grains\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail shows meat clearly against rice\",\n    \"Bowl rim visible with decorative blue pattern\",\n    \"Glazed meat colour and texture readable at small scale\",\n    \"Essential components visible and not clipped\"\n  ],\n  \"protein_evidence\": {\n    \"protein\": null\n  },\n  \"uncertainties\": [\n    \"Source title 'Cơm tấm' (broken rice) does not specify meat species. Filename suggests 'thịt nướng' (grilled meat) but metadata/filename are untrusted.\",\n    \"Visible meat is glazed and caramelised, consistent with grilled pork or chicken, but species cannot be determined from appearance alone.\",\n    \"No explicit protein species named in the description provided.\",\n    \"Potential regional variant (e.g., cơm tấm thịt nướng) suggested by filename but not confirmed in authorised description.\"\n  ],\n  \"reason\": \"Image quality, sharpness, lighting, composition and appeal all excellent. Photograph and phone thumbnail both clear and readable. However, identity check fails: source description 'Cơm tấm' alone does not specify meat species, and filename metadata are untrusted. The visible glazed grilled meat cannot be confirmed as a specific protein without explicit source naming. Canonical name cannot be constructed without confirmed protein qualifier. Hold pending source clarification of exact dish name and meat species.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1730,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 553,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

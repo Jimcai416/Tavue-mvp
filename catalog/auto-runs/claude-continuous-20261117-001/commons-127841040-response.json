@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011Ch9Pje4mfzBXVHTVYo5kH",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 5,\n    \"appeal\": 5\n  },\n  \"visible_support\": [\n    \"White rice base, clearly visible and well-cooked\",\n    \"Red-glazed grilled meat pieces with charring and shine\",\n    \"Fresh cucumber slices (green)\",\n    \"Dark leafy greens visible\",\n    \"Orange/carrot pieces mixed throughout\",\n    \"Green onion/scallion garnish\",\n    \"Blue-and-white decorated ceramic bowl\",\n    \"Professional, sharp, well-lit composition\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows rice base\",\n    \"Red grilled meat distinctly visible\",\n    \"Cucumber slices prominent on right side\",\n    \"Overall dish identity recognisable at thumbnail scale\",\n    \"No clipping of essential components\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title 'Cơm tấm' (broken rice) does not match filename description 'cơm tấm thịt nướng' (broken rice with grilled meat)\",\n    \"Protein species not explicitly named in source metadata; red glazed meat appears to be pork or beef but cannot be visually confirmed as specific animal without source declaration\",\n    \"Filename suggests 'thịt nướng' (grilled meat) but source description omits this qualifier\",\n    \"Exact canonical name unclear due to metadata contradiction between title and filename\"\n  ],\n  \"reason\": \"Image quality, composition, sharpness, and appeal are excellent; both full photograph and phone thumbnail are sharp, appetising, well-lit, and show a finished, properly exposed dish with prominent components. However, identity cannot be confirmed: the source title provides only 'Cơm tấm' (broken rice), while the filename indicates 'cơm tấm thịt nướng' (broken rice with grilled meat). No explicit protein species is named in the source description. Canonical name cannot be established without resolving the source contradiction between title and filename description, and protein must be declared explicitly rather than inferred from appearance. Hold pending source clarification.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1625,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 598,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
