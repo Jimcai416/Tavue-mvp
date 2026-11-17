@@ -1,6 +1,6 @@
 const {chromium}=require(process.env.TAVUE_UI_NODE_MODULES ? process.env.TAVUE_UI_NODE_MODULES + '/playwright' : 'playwright');
 (async()=>{const browser=await chromium.launch({headless:true,args:['--no-sandbox']});const page=await browser.newPage({viewport:{width:430,height:932},deviceScaleFactor:1});const errors=[];page.on('pageerror',e=>errors.push(e.stack || e.message));
-await page.addInitScript(()=>{localStorage.setItem('tavue.history',JSON.stringify([{id:'photo-review-fixture',date:new Date().toISOString(),language:'English',result:{cuisine:'Review Test Menu',currency:'GBP',menu_language:'English',dishes:['Pancakes','Eggs Sardou','Moules Normandes','Tajarin al Castelmagno','Banana pancakes'].map(name=>({original_name:name,translated_name:name,romanized:null,category:'Dishes',description:'Representative dish photo review fixture.',price:'12.00',converted_price:'12.00',spice_level:0,flags:[],worth_it:null,image_query:name==='Banana pancakes'?'Pancakes':name,image_dish_name:name==='Banana pancakes'?'Pancakes':name,image_url:null}))}}]));});
+await page.addInitScript(()=>{localStorage.setItem('tavue.history',JSON.stringify([{id:'photo-review-fixture',date:new Date().toISOString(),language:'English',result:{cuisine:'Review Test Menu',currency:'GBP',menu_language:'English',dishes:['Pancakes','Eggs Sardou','Moules Normandes','Tajarin al Castelmagno','Seafood risotto','Baked Macaroni and Cheese','Chicken Achiote Tacos','Ingefærsmåkager','Banana pancakes'].map(name=>({original_name:name,translated_name:name,romanized:null,category:'Dishes',description:'Representative dish photo review fixture.',price:'12.00',converted_price:'12.00',spice_level:0,flags:[],worth_it:null,image_query:name==='Banana pancakes'?'Pancakes':name,image_dish_name:name==='Banana pancakes'?'Pancakes':name,image_url:null}))}}]));});
 await page.goto('http://127.0.0.1:8765',{waitUntil:'networkidle'});console.log((await page.locator('body').innerText()).slice(0,1600));
 await page.getByText('Review Test Menu',{exact:true}).click();await page.waitForTimeout(1000);
 console.log('RESULT', (await page.locator('body').innerText()).slice(0,2400));
@@ -9,9 +9,15 @@ const fs=require('node:fs');fs.mkdirSync('ui-results',{recursive:true});
 const thumbnail=page.getByLabel('Pancakes — Reference photo',{exact:true}).first();await thumbnail.waitFor();
 const thumbnailBounds=await thumbnail.boundingBox();
 if(!thumbnailBounds||thumbnailBounds.width>180||thumbnailBounds.height>180)throw Error('Thumbnail uses intrinsic image size instead of fitting its card: '+JSON.stringify(thumbnailBounds));
+for (const name of ['Seafood risotto','Baked Macaroni and Cheese','Chicken Achiote Tacos','Ingefærsmåkager']) {
+  const image=page.getByLabel(name+' — Reference photo',{exact:true}).first();
+  await image.scrollIntoViewIfNeeded();
+  if(!await image.evaluate(el=>{const img=el.tagName==='IMG'?el:el.querySelector('img');return !!img && img.complete && img.naturalWidth>0;})) throw Error(name+' failed to render');
+}
+if(await page.getByLabel('Banana pancakes — Reference photo',{exact:true}).count()) throw Error('Banana pancakes incorrectly matched plain pancakes');
 const loaded=await page.locator('img').evaluateAll(imgs=>imgs.filter(x=>x.complete&&x.naturalWidth>0).length);if(loaded<1)throw Error('Reference images did not load');
 await page.screenshot({path:'ui-results/menu-with-reviewed-photos.png',fullPage:true});
-await page.getByRole('button',{name:'Photographer: Chefkitchen90',exact:true}).first().click();
+await page.getByRole('button',{name:'Photographer: 최광모',exact:true}).first().click();
 await page.getByText('View original & source',{exact:false}).waitFor();
 if(!await page.getByText('CC BY-SA 4.0',{exact:false}).count())throw Error('Licence missing from attribution');
 await page.waitForTimeout(500);

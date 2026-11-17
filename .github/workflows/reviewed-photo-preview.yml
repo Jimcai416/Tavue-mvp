@@ -1,7 +1,7 @@
 name: Verify reviewed photos in web UI
 on:
   push:
-    branches: ['feat/cloud-photo-review-resume']
+    branches: ['feat/cloud-photo-review-resume', 'feat/photo-review-20261117']
     paths: ['catalog/reviewed-photo-preview-request.json']
 permissions:
   contents: read
@@ -19,6 +19,9 @@ jobs:
       - run: npm run test:photos
       - run: node scripts/test-web-shell.cjs
       - run: npx tsc --noEmit
+      - run: python3 -m unittest discover -s scripts/photos -p test_reconcile_identity.py
+      - run: npx expo export --platform ios --platform android --output-dir catalog/work/native-export
+      - run: node scripts/check-native-photo-export.cjs
       - run: npm run export:web
       - run: npm install --prefix /tmp/tavue-ui-deps playwright@1.62.1
       - run: /tmp/tavue-ui-deps/node_modules/.bin/playwright install --with-deps chromium
