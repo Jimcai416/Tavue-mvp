@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011Ch94FRQHQyLgWs3mrrK6d",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows diced meat cubes in black pan during cooking\",\n    \"Raw or early-stage preparation visible; no finished plated dish\",\n    \"Meat appears partially cooked only\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title claims 'Rigatoni Alla Gricia' (a Roman pasta dish with guanciale and cheese) but photograph shows only raw/cooking diced meat in a pan—no pasta, no cheese, no finished dish visible\",\n    \"Critical source-image mismatch: metadata describes a completed pasta dish; image documents mid-preparation cooking stage\",\n    \"Meat species cannot be confirmed from appearance alone during cooking\"\n  ],\n  \"reason\": \"Reject: source title–image identity mismatch. Metadata claims 'Pasta alla gricia' (Rigatoni Alla Gricia), a finished Roman pasta dish with specific ingredients. Photograph shows only diced meat in early cooking stage in a pan—no pasta, no cheese, no plated or finished dish. This is a preparation/raw stage image, not a finished food photograph. Home cooking welcome, but the dish depicted does not match the declared identity. Identity check fails.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1604,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 413,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
