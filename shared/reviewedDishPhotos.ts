@@ -39231,5 +39231,101 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 723,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-30045555",
+    "title": "File:Sweet and sour pork.jpg",
+    "author": "ProjectManhattan",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sweet_and_sour_pork.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Sweet_and_sour_pork.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "f271d74c106f4f69a50884f01d7bf073ee40fc8f",
+    "name": "Sweet and sour pork",
+    "aliases": [],
+    "proteins": [
+      "pork"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-30045555.jpg",
+    "assetSha256": "9425240082a931d2c7b050207b63f547e4811088bd5ee79b8f22bfb03d570624",
+    "reviewedAt": "2026-11-17",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-93302919",
+    "title": "File:锅巴肉 Crispy Fried Pork with Sweet and Sour Sauce - Original Taste.jpg",
+    "author": "avlxyz",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E9%94%85%E5%B7%B4%E8%82%89_Crispy_Fried_Pork_with_Sweet_and_Sour_Sauce_-_Original_Taste.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ab/%E9%94%85%E5%B7%B4%E8%82%89_Crispy_Fried_Pork_with_Sweet_and_Sour_Sauce_-_Original_Taste.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "4c926c859fb9af21d8ce1c0fc1335b13d586b2be",
+    "name": "锅巴肉 Crispy Fried Pork with Sweet and Sour Sauce",
+    "aliases": [],
+    "proteins": [
+      "pork"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-93302919.jpg",
+    "assetSha256": "49fe668e4322c5bd35bb3d3850e7ccbe97b0ab534f180d1562744c23dc2e9dd0",
+    "reviewedAt": "2026-11-17",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-3192783",
+    "title": "File:Peking Duck, in a restaurant in Peking.jpg",
+    "author": "Ellywa",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Peking_Duck,_in_a_restaurant_in_Peking.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/31/Peking_Duck%2C_in_a_restaurant_in_Peking.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "37aaf19bf2e12a862792e1baf08d5c67c9700325",
+    "name": "Peking Duck",
+    "aliases": [],
+    "proteins": [
+      "duck"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-3192783.jpg",
+    "assetSha256": "c36505bb8b42d8ccd8d1055abce7348f0510ff669d6fb79b363a40f8193bd988",
+    "reviewedAt": "2026-11-17",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-130922162",
+    "title": "File:Peking Duck from Duck Victoria.jpg",
+    "author": "Peachyeung316",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Peking_Duck_from_Duck_Victoria.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Peking_Duck_from_Duck_Victoria.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "0c7594e7756d1913755e6a56b572985e1a509e80",
+    "name": "Peking Duck from Duck Victoria",
+    "aliases": [],
+    "proteins": [
+      "duck"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-130922162.jpg",
+    "assetSha256": "e6754c2bc8ec2341b84cd5ec866c0796f7899dc5d9c0344669d656a9f2c6faa9",
+    "reviewedAt": "2026-11-17",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];
