@@ -1,6 +1,6 @@
 import type { DishPhoto } from './dishPhotoCatalog';
 import { resolveFromPhotos, type PhotoDish } from './dishPhotos';
-export type ReferencePhoto = Pick<DishPhoto, 'id' | 'name' | 'aliases' | 'proteins' | 'approved' | 'kind' | 'title' | 'author' | 'license' | 'licenseUrl' | 'sourceUrl' | 'reviewedAt'> & {
+export type ReferencePhoto = Pick<DishPhoto, 'id' | 'name' | 'aliases' | 'proteins' | 'approved' | 'kind' | 'title' | 'author' | 'authorUrl' | 'license' | 'licenseUrl' | 'sourceUrl' | 'reviewedAt'> & {
   deliveryPath: string;
 };
 // The app builds the image URL from its own API origin; source metadata cannot
@@ -14,6 +14,7 @@ export function validReferencePhoto(value: unknown): value is ReferencePhoto {
     && new RegExp(`^/photos/${p.id}/[a-f0-9]{64}\\.(jpg|png|webp)$`).test(p.deliveryPath)
     && /^https:\/\/commons\.wikimedia\.org\/wiki\/File:/.test(p.sourceUrl)
     && /^https:\/\/creativecommons\.org\/(licenses|publicdomain)\//.test(p.licenseUrl)
+    && (p.authorUrl === undefined || (typeof p.authorUrl === 'string' && p.authorUrl.length < 2000 && /^https:\/\/[^\s/@]+(?:\/[^\s]*)?$/.test(p.authorUrl)))
     && (/^CC BY(?:-SA)? (1\.0|2\.0|2\.5|3\.0|4\.0)$/.test(p.license) || ['CC0','Public domain'].includes(p.license))
     && [p.aliases,p.proteins].every(a => Array.isArray(a) && a.length <= 100 && a.every(v => typeof v === 'string' && v.length <= 240));
 }

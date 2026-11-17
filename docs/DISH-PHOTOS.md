@@ -1,6 +1,6 @@
 # Reviewed dish photographs
 
-The 48 manually reviewed reference photographs (about 8.7 MiB) are a pilot, not the launch catalogue. The user’s launch target is at least 10,000 approved photographs. See [the scalable collection and release workflow](../catalog/README.md). Open `docs/photo-review.html` after cloning this branch to inspect every photo at full size and follow its photographer/source/licence links. No image API key is required.
+The test bundle currently contains 408 reviewed reference photographs, including the original 48-photo pilot. The user’s launch target is at least 10,000 approved photographs. See [the scalable collection and release workflow](../catalog/README.md) and [latest per-photo review evidence](../catalog/review-runs/2026-11-17/continuous-review/README.md). The historical `docs/photo-review.html` gallery contains the original 48 only; all additions are integrated into the app. No image API key is required.
 
 ## Why this change
 
@@ -13,7 +13,7 @@ The FatSecret OAuth 2.0 controls passed, but the user's 60-dish benchmark counte
 - The menu parser can propose an exact canonical `image_dish_name`; the Worker then checks the indexed cloud catalogue without embedding its entire contents in the prompt. This is still model-assisted identification and must be checked on real multilingual menus. A plausible canonical name is not proof of what a restaurant serves.
 - Old saved scans resolve through their original/translated/romanized names or exact legacy English identity. Arbitrary `image_url` and unverified `image_id` fields are never rendered. Worker resume results are sanitized too.
 - Unmatched dishes use the existing letter placeholder. Translation, descriptions and ordering still work. This release does not promise a photo for every dish.
-- Credit opens a complete uncropped photograph, author, title, source and licence. Exported OrderSheet pictures include full credit text and links in the captured area. Source links open externally only when tapped.
+- Credit opens a complete uncropped photograph, author, title, source and licence, including the photographer website when specifically requested by that source. Exported OrderSheet pictures include full credit text and links in the captured area. Source links open externally only when tapped.
 - Pictures are representative of a recipe, not restaurant-specific portions, ingredients or plating. They are not evidence for dietary/allergen decisions.
 
 ## Photo review and additions
@@ -37,7 +37,7 @@ npx tsc --noEmit
 npm run export:web
 ```
 
-Automated checks cover matching and rejection, attribution and asset hashes, fresh mocked Worker scans, old scan-cache migration and the absence of any image-provider requests. Web export includes all 48 photos. No production credentials were available for a live OCR scan. The cloud browser blocked local preview, so device interaction is not yet visually verified.
+Automated checks cover canonical matching for all 408 photos, rejection rules, attribution and asset hashes, fresh mocked Worker scans, old scan-cache migration and the absence of any image-provider requests. Web export and both native resource exports include all 408 photos. Real Chromium at a phone-sized viewport displays nine additional photo fixtures, declines an incorrect banana-pancake match, opens attribution and verifies the requested photographer-website link. This is not an installed iOS/Android build or real-device acceptance, and no live OCR scan was used for these UI fixtures.
 
 Before rollout, open the gallery; then open an old saved menu and a newly scanned menu on iOS/Android and a narrow web viewport. Check that matched photos load, unknown/modified dishes remain placeholders, credits open and close, full photos are uncropped, source/licence links work and exported orders retain attribution. Check real French, Italian and Chinese menu names against their photos.
 

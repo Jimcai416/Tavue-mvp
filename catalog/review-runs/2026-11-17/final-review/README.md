@@ -1,5 +1,7 @@
 # Review continuation — 17 November 2026
 
+Historical checkpoint. The subsequent [continuous review](../continuous-review/README.md) exhausted the remaining 1,054-row identity queue and increased the test bundle to 408 photographs. Counts below describe this earlier 80-photo checkpoint.
+
 Reviewed 80 previously unresolved identity candidates from 25 discovery groups. All 80 uncropped previews were inspected on contact sheets and 34 were examined again in enlarged panels. Current Commons source hashes, author and licence values matched the saved candidate records for all 80. The declared file titles/descriptions and visible dish structure support **23 accepted additions**. The remaining **57 are held with individual reasons**; they are not approvals. Recipe details hidden inside a dish are explicitly source-declared, not visually proven. No automatic rule or model score granted release approval.
 
 The test-branch bundle now contains **93 distinct photographs** (48 starter + 22 previously integrated + 23 today). Each new photograph retains its photographer, original URL, Commons file page, licence, source hash and delivered asset hash. Images are uncropped resized JPEG previews without generative modification. The app uses exact source-supported menu labels; no inferred generic aliases, vegetarian status or allergen promises were added.

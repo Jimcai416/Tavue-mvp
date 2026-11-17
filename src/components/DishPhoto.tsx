@@ -41,7 +41,10 @@ export default function DishPhoto({ dish, style, hideWhenMissing = false }: {
               <Text style={styles.eyebrow}>{t('representativePhoto')}</Text>
               <Text style={styles.title}>{photo.name}</Text>
               <Text style={styles.note}>{t('representativePhotoNote')}</Text>
-              <Text style={styles.author}>{t('photoCredit')}: {photo.author}</Text>
+              {photo.authorUrl ? <Pressable accessibilityRole="link" accessibilityLabel={`${t('photoCredit')}: ${photo.author}`}
+                onPress={() => { void Linking.openURL(photo.authorUrl!).catch(() => {}); }}>
+                <Text style={[styles.author, { color: colors.accent }]}>{t('photoCredit')}: {photo.author} ↗</Text>
+              </Pressable> : <Text style={styles.author}>{t('photoCredit')}: {photo.author}</Text>}
               <Text style={styles.note}>{photo.title}</Text>
               <Pressable accessibilityRole="link" onPress={() => { void Linking.openURL(photo.sourceUrl).catch(() => {}); }}>
                 <Text style={styles.link}>{t('viewOriginalPhoto')} ↗</Text>
@@ -68,6 +71,7 @@ export function ExportPhotoCredit({ dish }: { dish: Dish }) {
   return <Text style={styles.exportCredit}>
     {photo.title} · {photo.author} · {photo.license}{'\n'}
     {photo.licenseUrl}{'\n'}{photo.sourceUrl}{'\n'}
+    {photo.authorUrl ? photo.authorUrl + '\n' : ''}
     Representative photo. Preview cropped to fit. Wikimedia Commons.
   </Text>;
 }

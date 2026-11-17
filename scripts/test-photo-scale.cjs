@@ -17,6 +17,10 @@ const temp=fs.mkdtempSync(path.join(os.tmpdir(),'tavue-photo-scale-'));
   assert.equal(validReferencePhoto(remote),true);
   assert.equal(validReferencePhoto({...remote,deliveryPath:'https://unapproved.invalid/photo.jpg'}),false);
   assert.equal(validReferencePhoto({...remote,license:'CC BY-NC 4.0'}),false);
+  assert.equal(validReferencePhoto({...remote,authorUrl:'https://ms-fox.pl/'}),true);
+  for (const authorUrl of ['javascript:alert(1)','http://example.com/',42,'https://bad host/','https://user@example.com/']) {
+    assert.equal(validReferencePhoto({...remote,authorUrl}),false);
+  }
   // Test 160 distinct dishes against an actual indexed SQLite catalogue with
   // 10,000 SYNTHETIC rows. These do not count as real photographs or coverage.
   const db=path.join(temp,'scale.sqlite');
