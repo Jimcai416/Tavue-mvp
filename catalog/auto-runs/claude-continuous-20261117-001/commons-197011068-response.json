@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011Ch94N4JiVcXke3GaKHBNq",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 2,\n    \"composition\": 1,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Jar contents shown in extreme close-up, uncooked/raw preparation stage visible\",\n    \"Pink/uncooked meat pieces clearly visible suspended in sauce\",\n    \"No finished dish presentation; this is a raw ingredient or mid-preparation state\",\n    \"Jar photography typical of recipe/ingredient documentation, not plated food\"\n  ],\n  \"protein_evidence\": {\n    \"protein\": \"pork beef\"\n  },\n  \"uncertainties\": [\n    \"Source metadata lists 'pork beef' but image shows raw/uncooked meat pieces in jar — not a finished dish\",\n    \"This appears to be documenting sauce ingredients or preparation stage, not a finished plated/served dish\"\n  ],\n  \"reason\": \"Rejection: This is a raw preparation stage or ingredient jar, not a finished, exposed, cooked dish. The pink meat pieces visible in the thumbnail and full image indicate uncooked ingredients. The image documents sauce-making process rather than a finished food photograph. All quality scores fall below the required threshold (sharpness 2/5, lighting 2/5, composition 1/5, appeal 1/5). Finished, cooked, plated Bolognese sauce would show browning, integration into the sauce, and appetizing presentation — none visible here.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1877,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 430,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
