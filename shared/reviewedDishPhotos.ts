@@ -40627,5 +40627,77 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 590,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-130769028",
+    "title": "File:Chicken karahi in Azerbaijan.jpg",
+    "author": "Aykhan Zayedzadeh",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chicken_karahi_in_Azerbaijan.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/72/Chicken_karahi_in_Azerbaijan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "57e0ecbc7837b704857ee62e5a556fccd352d016",
+    "name": "Chicken Karahi",
+    "aliases": [],
+    "proteins": [
+      "chicken"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-130769028.jpg",
+    "assetSha256": "557974029eb211db315a3f190447030793fd4d92a1558d8ec51e631fac6a6eea",
+    "reviewedAt": "2026-11-17",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 541,
+    "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-101847010",
+    "title": "File:Kadhai chicken- Gorakhpur- Uttar Pradesh- 001.jpg",
+    "author": "Foodgage",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kadhai_chicken-_Gorakhpur-_Uttar_Pradesh-_001.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/48/Kadhai_chicken-_Gorakhpur-_Uttar_Pradesh-_001.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "d1b54c58d6ca67f0e8efa2912950dd554c9eed16",
+    "name": "Kadhai chicken",
+    "aliases": [],
+    "proteins": [
+      "chicken"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-101847010.jpg",
+    "assetSha256": "6b26184ae4ff69bfbc02d6b10c811a336a48af3603aa712c3197667f9f54f918",
+    "reviewedAt": "2026-11-17",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 960,
+    "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-40674365",
+    "title": "File:Murgh Makhani.jpg",
+    "author": "Preeti Melville",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Murgh_Makhani.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Murgh_Makhani.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "ff80443b6ff00726900332d635ae0fa2fc58eeac",
+    "name": "Butter Chicken in a Kadai",
+    "aliases": [],
+    "proteins": [
+      "chicken"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-40674365.jpg",
+    "assetSha256": "c4caf5a218d5bc4553daf922c285af93e0b527c217b7b3ee438095e5ada28d03",
+    "reviewedAt": "2026-11-17",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 540,
+    "requiresExactMenuName": true
   }
 ];

@@ -2634,3 +2634,9 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-continuous-20261117-001
 
 - **Gosht Paya Nihari** — Foodaholix. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Gosht_Paya_Nihari.jpg). Local asset: `reviewed-commons-40697376.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-continuous-20261117-001
+
+- **Chicken Karahi** — Aykhan Zayedzadeh. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Chicken_karahi_in_Azerbaijan.jpg). Local asset: `reviewed-commons-130769028.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Kadhai chicken** — Foodgage. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Kadhai_chicken-_Gorakhpur-_Uttar_Pradesh-_001.jpg). Local asset: `reviewed-commons-101847010.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Butter Chicken in a Kadai** — Preeti Melville. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Murgh_Makhani.jpg). Local asset: `reviewed-commons-40674365.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
