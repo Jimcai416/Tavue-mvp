@@ -39086,5 +39086,29 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 683,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-82799594",
+    "title": "File:Kung Pao Chicken (in Fresno, California) - 宮保雞丁（在加利福尼亞州的弗雷斯諾）.jpg",
+    "author": "NeoBatfreak",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kung_Pao_Chicken_(in_Fresno,_California)_-_%E5%AE%AE%E4%BF%9D%E9%9B%9E%E4%B8%81%EF%BC%88%E5%9C%A8%E5%8A%A0%E5%88%A9%E7%A6%8F%E5%B0%BC%E4%BA%9E%E5%B7%9E%E7%9A%84%E5%BC%97%E9%9B%B7%E6%96%AF%E8%AB%BE%EF%BC%89.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Kung_Pao_Chicken_%28in_Fresno%2C_California%29_-_%E5%AE%AE%E4%BF%9D%E9%9B%9E%E4%B8%81%EF%BC%88%E5%9C%A8%E5%8A%A0%E5%88%A9%E7%A6%8F%E5%B0%BC%E4%BA%9E%E5%B7%9E%E7%9A%84%E5%BC%97%E9%9B%B7%E6%96%AF%E8%AB%BE%EF%BC%89.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "d4b6ab78814fa940461461ddb667cba05ab2a756",
+    "name": "Kung Pao Chicken",
+    "aliases": [],
+    "proteins": [
+      "chicken"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-82799594.jpg",
+    "assetSha256": "cf091377157451036e926bed8553dd92c29bc2c5c44b9cc0af73694292569c6e",
+    "reviewedAt": "2026-11-17",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 721,
+    "requiresExactMenuName": true
   }
 ];
