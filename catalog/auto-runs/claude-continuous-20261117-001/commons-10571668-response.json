@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011Ch948VUePD95c177XsRWx",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Bucatini pasta clearly visible in long, thin strands\",\n    \"Red sauce coating the pasta\",\n    \"Shaved or sliced pale garnish (appears to be cheese or possibly guanciale)\",\n    \"Fresh green herb garnish (parsley)\",\n    \"White plate, professional plating\"\n  ],\n  \"phone_observations\": [\n    \"Pasta and sauce clearly recognizable in thumbnail\",\n    \"Red colour and strand texture evident\",\n    \"Garnish visible but small\",\n    \"Overall composition preserved in reduction\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title states 'Bucatini (amatriciana rossa)' but description specifies 'variant of amatriciana sauce using parsley'; canonical amatriciana rossa traditionally includes guanciale (cured pork jowl), pecorino romano, and tomato—no parsley. Parsley is non-traditional.\",\n    \"Pale garnish visible in photograph cannot be definitively identified as guanciale, pecorino, or another ingredient from visual inspection alone\",\n    \"Description says 'variant' but does not specify which protein ingredients are present or absent\",\n    \"Title suggests standard amatriciana rossa; description contradicts with 'variant' and 'parsley' addition, creating identity ambiguity\",\n    \"No explicit source quote names any animal protein\"\n  ],\n  \"reason\": \"Image quality and photograph technical standards are acceptable (sharpness, lighting, composition, appeal all ≥4; natural colour, sharp detail, appetising, prominent dish). However, identity check fails due to source contradiction: the title 'Bucatini (amatriciana rossa)' conflicts with the description 'variant of amatriciana sauce using parsley.' Canonical amatriciana rossa does not include parsley. The source does not explicitly name proteins (guanciale or other meats); the pale garnish visible cannot be confirmed visually. Without protein clarity and resolution of the variant/canonical contradiction, identity cannot be verified against the exact source title/description. Hold pending clarification of whether this is authentic amatriciana rossa or a declared variant with specific ingredients named.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1515,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 632,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
