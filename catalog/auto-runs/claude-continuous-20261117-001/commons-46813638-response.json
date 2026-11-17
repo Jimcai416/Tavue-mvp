@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011Ch94vHz8jYJKPhFwhCMNZ",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Plate clearly visible with decorative floral rim\",\n    \"Brown braised meat pieces identifiable\",\n    \"Boiled potatoes visible alongside\",\n    \"Sauce visible pooling on plate\"\n  ],\n  \"protein_evidence\": {\n    \"protein\": null,\n    \"note\": \"Source title claims 'sanglier' (wild boar), but wild boar is not in the approved protein list (chicken/beef/pork/duck/lamb/seafood). The meat species cannot be visually confirmed from photograph alone, and source-declared wild boar falls outside acceptable protein categories.\"\n  },\n  \"uncertainties\": [\n    \"Source title declares 'sanglier' (wild boar), which is not an approved protein category. Approved proteins are: chicken, beef, pork, duck, lamb, seafood only.\",\n    \"Visual appearance (dark braised meat) could indicate beef, pork, or wild boar, but species cannot be definitively confirmed from photograph alone.\",\n    \"Wild boar is a game meat outside the canonical protein list.\"\n  ],\n  \"reason\": \"Reject: Source-declared protein is wild boar (sanglier), which does not match approved protein list. Approved proteins are chicken/beef/pork/duck/lamb/seafood only. While the photograph shows a finished, braised dish with potatoes and sauce that is adequately sharp and composed, the protein species cannot be accepted because it falls outside the permitted categories, and visual confirmation alone is insufficient to reclassify it to an approved species. Photo quality issues (softness, lighting) secondary to this critical protein identification problem.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1618,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 504,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
