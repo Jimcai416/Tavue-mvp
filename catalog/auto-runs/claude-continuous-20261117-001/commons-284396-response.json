@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011Ch9DFBXe1w2mDzKvEVm8E",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 2,\n    \"composition\": 1,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Basket/strainer with plastic covering and label on bare floor\",\n    \"No prepared food visible\",\n    \"Equipment/packaging only, not a finished dish\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title references 'tempura nabe' but no tempura or cooked food is present\",\n    \"Image shows only an empty or packaged wok/strainer tool\"\n  ],\n  \"reason\": \"Image shows kitchen equipment (a metal basket strainer with handles and plastic wrapping/label) photographed on a floor, not a finished, exposed, cooked dish. The subject is packaging and equipment, not prepared food. Essential food components are absent. Phone thumbnail confirms no food is visible. Metadata/title cannot substitute for visual evidence of an actual dish. Fails identity, quality, photograph, and phone checks. Rejects all acceptance criteria.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1609,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 340,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
