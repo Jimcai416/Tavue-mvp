@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011Ch949goKANnJnJRLtRxw3",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 2,\n    \"composition\": 1,\n    \"appeal\": 0\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows only a marble plaque with Italian text\",\n    \"No food subject visible in phone thumbnail\",\n    \"Plaque text is unreadable at thumbnail resolution\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source describes a historical plaque about origins of spaghetti all'amatriciana, not an actual dish photograph\",\n    \"No finished food dish visible in either full image or thumbnail\",\n    \"Image shows only commemorative marble inscription on wall\"\n  ],\n  \"reason\": \"Rejection: This is a photograph of a marble historical plaque mounted on a wall, not a finished, exposed food dish. No actual spaghetti all'amatriciana is present in the image. The source description explicitly identifies it as 'La targa marmorea sulle origini degli spaghetti alla amatriciana' (the marble plaque on the origins of spaghetti all'amatriciana), confirming this is documentary/architectural photography, not food photography. Essential checks fail: identity (plaque, not food), quality (poor detail/composition for plaque), photograph (not a dish photo), and phone (no food subject). No finished, exposed, appetising dish is present.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1305,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 419,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011Ch949gqYgXrQfjWU4du6E",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Spaghetti with tomato-based sauce\",\n    \"Visible meat pieces throughout the pasta\",\n    \"Coated noodles with orange-red sauce\",\n    \"Decorative plate with fruit/leaf pattern\",\n    \"Fork lifting pasta\",\n    \"Home or restaurant setting on granite surface\"\n  ],\n  \"phone_observations\": [\n    \"Spaghetti dish clearly visible and prominent\",\n    \"Red-orange sauce coating visible on noodles\",\n    \"Meat pieces discernible in phone thumbnail\",\n    \"Plate pattern recognizable\",\n    \"Sharp enough to identify dish type\"\n  ],\n  \"protein_evidence\": {\n    \"protein\": null\n  },\n  \"uncertainties\": [\n    \"Source title states 'Spaghetti all' Amatriciana' but traditional amatriciana uses guanciale (cured pork jowl); meat species in photograph is not explicitly named in source and cannot be definitively identified visually as guanciale, pancetta, or generic pork\",\n    \"Source metadata (title, author, license) is untrusted; description alone does not constitute explicit protein naming in source documentation\",\n    \"Visible meat composition cannot confirm the specific guanciale requirement of authentic amatriciana\"\n  ],\n  \"reason\": \"Image quality, sharpness, lighting, composition and appeal all meet standards; photograph and phone thumbnail both show a finished, appetising spaghetti dish with clear sauce and meat. However, the identity check fails because the source description 'Spaghetti all' Amatriciana' does not include an explicit statement naming the meat protein (guanciale, pancetta, or pork). Although the dish is visually consistent with amatriciana, the protein cannot be claimed as source-verified without an exact quote naming the animal. Hold pending explicit protein identification in source documentation.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1507,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 557,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
