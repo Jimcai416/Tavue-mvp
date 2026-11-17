@@ -38586,5 +38586,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 640,
     "height": 960,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-32145556",
+    "title": "File:00 Black Truffle Risotto.jpg",
+    "author": "Mark Mitchell",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:00_Black_Truffle_Risotto.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/23/00_Black_Truffle_Risotto.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "c87370f69c44399d38af6be12ba7d343362dfaf4",
+    "name": "Black Truffle Risotto",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-32145556.jpg",
+    "assetSha256": "8d4986d0d00f98e4c1754164b8ab3f2632aa149fd13ddae2066642e9b0e3dcf2",
+    "reviewedAt": "2026-11-17",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];

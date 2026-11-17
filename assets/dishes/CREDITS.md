@@ -2443,3 +2443,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 
 - **Pasta al pesto con fagiolini e patate** — M&A. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Pasta_al_pesto_con_fagiolini_e_patate.jpg). Local asset: `reviewed-commons-145974100.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Spaghetti pasta with homemade pesto** — Marco Del Torchio 95. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Pasta_al_pesto_fatto_in_casa.jpg). Local asset: `reviewed-commons-146883276.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-continuous-20261117-001
+
+- **Black Truffle Risotto** — Mark Mitchell. [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:00_Black_Truffle_Risotto.jpg). Local asset: `reviewed-commons-32145556.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
