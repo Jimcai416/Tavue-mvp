@@ -2714,3 +2714,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 
 - **Lumpia** — Donald Trung Quoc Don (Chữ Hán: 徵國單)  -  Wikimedia Commons  -  © CC BY-SA 4.0 International . ( Want to use this image? ) Original publication 📤: --  Donald Trung 『徵國單』  ( No Fake News 💬 ) ( WikiProject Numismatics  💴) ( Articles 📚 )  23:51, 27 May 2019 (UTC). [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Loempia_from_the_Ying_Ping,_Winschoten_(2019)_01.jpg). Local asset: `reviewed-commons-79269220.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Lumpia or fried spring rolls** — Anne Molina. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Lumpia_or_fried_spring_rolls.jpg). Local asset: `reviewed-commons-126851267.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-continuous-20261117-001
+
+- **Cebuchon or Lechon Belly** — Micluna. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Cebuchon_or_Lechon_Belly.jpg). Local asset: `reviewed-commons-127221430.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.

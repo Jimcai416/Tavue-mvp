@@ -41765,5 +41765,29 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-127221430",
+    "title": "File:Cebuchon or Lechon Belly.jpg",
+    "author": "Micluna",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cebuchon_or_Lechon_Belly.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Cebuchon_or_Lechon_Belly.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "2e7e3375f854fb4cdf0869214ab304ad936030ea",
+    "name": "Cebuchon or Lechon Belly",
+    "aliases": [],
+    "proteins": [
+      "pork"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-127221430.jpg",
+    "assetSha256": "a344771a86fee04a56166893c7f83f7ba5b6fff0c841ecb2bb5b96c3b64573b7",
+    "reviewedAt": "2026-11-17",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 640,
+    "requiresExactMenuName": true
   }
 ];
