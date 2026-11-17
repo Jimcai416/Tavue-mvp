@@ -2740,3 +2740,9 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 
 - **Garnalenkroket (croquette with shrimp paste)** — Ziko van Dijk. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:20231018_133452_shrimp_paste_croquette.jpg). Local asset: `reviewed-commons-139182395.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Shrimp cakes** — Fumikas Sagisavas. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Shrimp_cakes_(20241004).jpg). Local asset: `reviewed-commons-154169573.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-continuous-20261117-001
+
+- **Gado-gado** — Andy Li. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Gado-gado_-_Bali_2025-09-25.jpg). Local asset: `reviewed-commons-175582839.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Indian Rojak, Singapore** — Mokkie. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Indian_Rojak.JPG). Local asset: `reviewed-commons-45460066.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Indian rojak** — Terence Ong. [CC BY 2.5](https://creativecommons.org/licenses/by/2.5); [source](https://commons.wikimedia.org/wiki/File:Indian_rojak.JPG). Local asset: `reviewed-commons-925448.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
