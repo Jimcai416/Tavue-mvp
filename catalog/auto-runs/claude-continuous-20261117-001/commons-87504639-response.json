@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011Ch94k5G858CoCgMgLSk1n",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Golden-brown grilled fish fillet with herb garnish\",\n    \"Lemon wedge and microgreens/radish microleaf decoration\",\n    \"Fork and knife in use, dining context\",\n    \"Professional plating on white plate\"\n  ],\n  \"phone_observations\": [\n    \"Grilled fish clearly visible in thumbnail centre\",\n    \"Herb-crusted surface distinguishable\",\n    \"Lemon and garnish elements present\",\n    \"Adequate detail for dish recognition\"\n  ],\n  \"protein_evidence\": {\n    \"protein\": \"Seezunge (Dover sole)\",\n    \"source_quote\": \"Seezunge vom Grill\"\n  },\n  \"uncertainties\": [\n    \"Source title states 'Seezunge vom Grill' (Dover sole grilled) but metadata indicates this is from San Martino restaurant in Bardolino, Italy. Dover sole (Solea solea) is a European Atlantic/North Sea species; Italian menus sometimes use 'seezunge' colloquially for local sole variants or similar flatfish. Exact species cannot be visually confirmed from photograph alone.\",\n    \"German title conflicts with Italian restaurant location and context, creating ambiguity about authentic dish identity and regional preparation.\",\n    \"Whether this represents the authentic 'Seezunge vom Grill' dish or a local Italian interpretation remains unclear.\"\n  ],\n  \"reason\": \"Identity check fails. Source metadata presents conflicting evidence: German title 'Seezunge vom Grill' (Dover sole grilled) paired with Italian restaurant location (San Martino, Bardolino, Gardasee). Dover sole is Atlantic/North Sea species; Italian lakeside restaurant context suggests possible misidentification or use of colloquial terminology for regional flatfish variant. Photograph shows a competently grilled flatfish with appropriate garnish and excellent quality, but species-specific identity cannot be verified visually. Without resolution of geographic/taxonomic contradiction in source metadata, the canonical dish identity remains uncertain. Hold pending source clarification.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1532,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 595,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
