@@ -39913,5 +39913,30 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 640,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-83134241",
+    "title": "File:Gyu Don - Sushiko (2649809662).jpg",
+    "author": "Alpha  from Melbourne, Australia",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gyu_Don_-_Sushiko_(2649809662).jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Gyu_Don_-_Sushiko_%282649809662%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "fb95d0434216825c6cd17702c702544de01522ff",
+    "name": "Gyu Don",
+    "aliases": [],
+    "proteins": [
+      "beef"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-83134241.jpg",
+    "assetSha256": "1344b3327efa33022103a70d2e6e3a9b2d9c3224a314a78114a9ebcf228f8d92",
+    "reviewedAt": "2026-11-17",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true,
+    "authorUrl": "https://www.flickr.com/people/10559879@N00"
   }
 ];

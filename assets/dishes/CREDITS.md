@@ -2579,3 +2579,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 
 - **Special pork cutlet bowl** — 毒島みるく. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Special_pork_cutlet_bowl_of_Katsuya.jpg). Local asset: `reviewed-commons-123315326.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Tonkatsu (pork cutlet)** — Fred Cherrygarden. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Tonkatsu_at_Miyoshiya.jpg). Local asset: `reviewed-commons-169560357.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-continuous-20261117-001
+
+- **Gyu Don** — [Alpha  from Melbourne, Australia](https://www.flickr.com/people/10559879@N00). [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:Gyu_Don_-_Sushiko_(2649809662).jpg). Local asset: `reviewed-commons-83134241.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
