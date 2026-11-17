@@ -38475,5 +38475,28 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-34969184",
+    "title": "File:Simple minestrone (1).jpg",
+    "author": "jules",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Simple_minestrone_(1).jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/30/Simple_minestrone_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "c87c3aa28ab4802fc6a1e56190c3105ee81c31ba",
+    "name": "Simple minestrone",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-34969184.jpg",
+    "assetSha256": "516aa408cf87409e059a5fe408b205f9415bca74764f28794a4f4a85d1bfc58c",
+    "reviewedAt": "2026-11-17",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 639,
+    "requiresExactMenuName": true,
+    "authorUrl": "https://www.flickr.com/people/58367355@N00"
   }
 ];

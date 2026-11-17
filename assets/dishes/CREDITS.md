@@ -2426,3 +2426,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-continuous-20261117-001
 
 - **Minestrone** — E4024. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Minestrone_in_Turkey.jpg). Local asset: `reviewed-commons-44562442.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-continuous-20261117-001
+
+- **Simple minestrone** — [jules](https://www.flickr.com/people/58367355@N00). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Simple_minestrone_(1).jpg). Local asset: `reviewed-commons-34969184.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
