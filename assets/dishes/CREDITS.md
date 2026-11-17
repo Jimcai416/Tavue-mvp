@@ -2554,3 +2554,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 - **Miso-ramen and Chahan** — ノボホショコロトソ. [CC BY 4.0](https://creativecommons.org/licenses/by/4.0); [source](https://commons.wikimedia.org/wiki/File:Miso-ramen_and_Chahan_of_Gantetsu_02.jpg). Local asset: `reviewed-commons-153906379.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Miso Beef Ramen** — Gunawan Kartapranata. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Miso_Beef_Ramen_in_Jakarta_2.jpg). Local asset: `reviewed-commons-61263212.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Miso Ramen** — [Guilhem Vellut  from Annecy, France](https://www.flickr.com/people/22539273@N00). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Miso_Ramen_@_Naritake_Kotteri_Ramen_@_Paris_(15190629368).jpg). Local asset: `reviewed-commons-149213782.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-continuous-20261117-001
+
+- **Sukiyaki** — N509FZ. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Sukiyaki_after_cooking_at_Ebisu_An,_The_Gate_City_Mall,_Beijing_(20201208193258).jpg). Local asset: `reviewed-commons-108775519.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
