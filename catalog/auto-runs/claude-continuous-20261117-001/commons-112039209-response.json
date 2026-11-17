@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011Ch94ELtspRWQ7Mdd9MWjo",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Couscous or similar grain base visible in both images\",\n    \"White spheres (mozzarella pearls or similar garnish)\",\n    \"Green herbs and darker leafy garnish\",\n    \"Yellow vegetable pieces (artichoke hearts or peppers)\",\n    \"Red sauce visible beneath grain\",\n    \"Sesame seeds scattered across top\",\n    \"Professional plating on dark slate\"\n  ],\n  \"phone_observations\": [\n    \"Grain-based dish clearly visible in thumbnail\",\n    \"White garnish pearls prominent and readable\",\n    \"Green herbs and decoration visible\",\n    \"Red sauce base evident\",\n    \"Composed, appetising presentation\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title declares 'Vegan gnocchi arrabbiata' but visible dish appears to be couscous-based, not gnocchi\",\n    \"Gnocchi would be distinct potato dumplings; this shows granular grain texture inconsistent with gnocchi structure\",\n    \"No protein is visually present or source-declared as edible animal component\",\n    \"Title contradicts visible form: gnocchi arrabbiata is a pasta dish, not a grain salad with scattered toppings\",\n    \"Source metadata describes 'Vegan gnocchi' but vegan status and actual gnocchi presence cannot be visually confirmed and appear contradicted by appearance\"\n  ],\n  \"reason\": \"Identity check fails. Source title 'Vegan gnocchi arrabbiata' contradicts visible dish form. The photograph clearly shows a couscous or similar granular grain base with scattered toppings (mozzarella, herbs, vegetables, sesame), not the distinctive soft, pillowy dumplings of gnocchi. Gnocchi arrabbiata is a hot pasta dish; this appears to be a cold grain salad. The fundamental identity mismatch between declared dish type and visible preparation means the dish cannot be authenticated. Source metadata is untrusted evidence and may be incorrect. Without source title matching actual form, identity check cannot pass.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1901,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 607,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
