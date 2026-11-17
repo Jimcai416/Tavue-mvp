@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011Ch9AeTUddVxRTrskXiFst",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Sliced smoked pork belly visible in gravy\",\n    \"Two whole boiled potatoes with herb garnish (parsley)\",\n    \"Golden-brown sauce with glossy consistency\",\n    \"Red pepper slice and watercress garnish\",\n    \"Restaurant plating on white dish\"\n  ],\n  \"phone_observations\": [\n    \"Meat slices clearly visible in thumbnail\",\n    \"Yellow potatoes prominent\",\n    \"Brown sauce visible\",\n    \"Dish composition recognizable at small size\"\n  ],\n  \"protein_evidence\": {\n    \"protein\": \"Smoked pork belly, cured and blackened in smoke\",\n    \"source_quote\": \"Smoked pork belly, cured and blackened in smoke, with sweet and sour sauce\"\n  },\n  \"uncertainties\": [\n    \"Source title contains 'Schwarzfleisch' (literally 'black meat'), but description specifies 'smoked pork belly'—identity mismatch between German name and English description creates ambiguity about whether this is a named regional dish or a descriptive preparation\",\n    \"No visible evidence of the described sweet and sour sauce (vinegar + sugar) in the golden-brown gravy shown; sauce character cannot be verified visually\",\n    \"Potatoes described as 'potato dumplings' but appear to be whole boiled potatoes\"\n  ],\n  \"reason\": \"Reject due to identity conflict: source filename/German title 'Schwarzfleisch' does not match the English description 'Smoked pork belly'. The canonical name cannot be reliably extracted without contradicting either the German name or the English descriptor. Additionally, 'sweet and sour' flavouring (sugar and vinegar) is claimed but not visually verifiable in the photograph; the sauce appears to be a simple pan gravy. Potato form (whole boiled vs. dumplings) is also inconsistent with description. Hold pending clarification of authoritative dish name and actual preparation.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1656,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 584,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
