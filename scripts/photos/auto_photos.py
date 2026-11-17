@@ -22,14 +22,17 @@ import unicodedata
 import urllib.error
 import urllib.parse
 from PIL import Image, ImageOps
+from download_review import RateGate,retry_seconds
 import collect
 import triage
 
 ROOT=Path(__file__).resolve().parents[2]
 CONFIG=ROOT/'catalog/auto-photo-request.json'
 MODEL='claude-haiku-4-5-20251001'
+WAVE_SIZE=24
+DOWNLOAD_GATE=RateGate()
 PHOTO_FIELDS=('id','title','author','license','licenseUrl','sourceUrl','originalUrl','commonsSha1')
-GENERIC={'food','dish','pasta','salad','cake','bread','dessert','soup','rice','meat','lunch','dinner','noodles','curry','pastry'}
+GENERIC={'food','dish','pasta','salad','cake','bread','dessert','soup','rice','meat','lunch','dinner','noodles','curry','pastry','chicken','beef','pork','duck','lamb','fish','seafood','vegetables'}
 PROTEINS={
  'chicken':r'\b(chicken|poulet|pollo)\b|鸡|雞|鶏',
  'beef':r'\b(beef|boeuf|bœuf|wagyu)\b|牛肉',
@@ -48,6 +51,19 @@ def now():return datetime.datetime.now(datetime.timezone.utc).isoformat()
 def norm(s):return ' '.join(re.sub(r'[^\w]+',' ',''.join(c for c in unicodedata.normalize('NFKD',s.lower()).replace("'",'').replace('’','') if not unicodedata.combining(c))).split())
 def read(p):return json.loads(Path(p).read_text(encoding='utf-8-sig'))
 def digest(data):return hashlib.sha256(data).hexdigest()
+def push_checkpoint(repo,branch,attempts=7,sleep=time.sleep):
+ """Retry an idempotent Git write, never the paid provider operation before it."""
+ for attempt in range(attempts):
+  result=subprocess.run(['git','push','origin','HEAD:refs/heads/'+branch],cwd=repo,capture_output=True,text=True)
+  if result.returncode==0:return
+  error=result.stderr or ''
+  if any(s in error.lower() for s in ['non-fast-forward','fetch first','permission denied','authentication failed','protected branch','repository not found']):
+   raise RuntimeError('Checkpoint push requires branch/authentication recovery; local paid results retained')
+  if attempt+1==attempts:break
+  delay=min(120,5*2**attempt)
+  print(json.dumps({'checkpointPushRetry':attempt+1,'retryAfterSeconds':delay,'paidRequestsRepeated':0}),flush=True)
+  sleep(delay)
+ raise RuntimeError('Checkpoint push failed after retries; local paid results retained for recovery')
 def credit_url(meta):
  for name in ['Attribution','Artist']:
   for link in re.findall(r'href=[\"\']([^\"\']+)',meta.get(name,{}).get('value',''),re.I):
@@ -81,7 +97,10 @@ def evaluate(value,source):
  evidence=[source['title'].removeprefix('File:').rsplit('.',1)[0],source['description']]
  if not isinstance(name,str) or not 2<=len(name)<=200 or norm(name) in GENERIC:return False,'non_specific_name'
  if not any(norm(name) in norm(s) for s in evidence):return False,'name_not_in_source'
- if not isinstance(quote,str) or not quote.strip() or not any(quote in s for s in evidence):return False,'unsupported_quote'
+ # Quotes are checked against the complete original fields, including filenames.
+ # Only canonical menu names exclude File:/extensions; mixing the two rejected
+ # valid quotes such as "File:Lasagna Karachi.jpg" after paid review.
+ if not isinstance(quote,str) or not quote.strip() or not any(quote in source[k] for k in ['title','description']):return False,'unsupported_quote'
  if not isinstance(value.get('reason'),str) or not value['reason'].strip():return False,'missing_reason'
  if re.search(r'\b(vegan|vegetarian|plant.based|meatless|mock|deconstructed|fusion|inspired|substitute|without|no cheese|gluten.free)\b|素食|纯素|純素|ヴィーガン|비건',name,re.I):return False,'variant_requires_special_matching'
  pe=value.get('protein_evidence',{})
@@ -106,15 +125,16 @@ class Pipeline:
   self.paid_lock=any(r['status'] in ('reserved','ambiguous') for r in self.ledger['requests'].values())
   self.records=read(self.out/'candidates.json') if (self.out/'candidates.json').exists() else []
   self.decisions=read(self.out/'decisions.json') if (self.out/'decisions.json').exists() else []
- def persist(self,message):
+ def persist(self,message,publish=True):
   self.ledger['updatedAt']=now();self.ledger['accountedUSD']=sum(r.get('actualUSD',r.get('reservedUSD',0)) for r in self.ledger['requests'].values())
+  self.ledger.update(discovered=len(self.records),processed=len(self.decisions),remaining=len(self.records)-len(self.decisions),apiReviewsCompleted=sum(k!='planner' and r['status']=='completed' for k,r in self.ledger['requests'].items()))
   triage.write_json(self.out/'ledger.json',self.ledger)
   triage.write_json(self.out/'candidates.json',self.records);triage.write_json(self.out/'decisions.json',self.decisions)
   if os.environ.get('GITHUB_ACTIONS')=='true':
    subprocess.run(['git','add',str(self.out.relative_to(ROOT)),'assets/dishes','shared/reviewedDishPhotos.ts','src/lib/dishPhotoAssets.ts'],cwd=ROOT,check=True,stdout=subprocess.DEVNULL)
    if subprocess.run(['git','diff','--cached','--quiet'],cwd=ROOT).returncode:
     subprocess.run(['git','-c','user.name=Tavue Claude photo worker','-c','user.email=photo-worker@users.noreply.github.com','commit','-qm',message],cwd=ROOT,check=True)
-    subprocess.run(['git','push','origin','HEAD:refs/heads/'+os.environ['TAVUE_PHOTO_BRANCH']],cwd=ROOT,check=True,stdout=subprocess.DEVNULL)
+   if publish:push_checkpoint(ROOT,os.environ['TAVUE_PHOTO_BRANCH'])
   print(json.dumps({'status':self.ledger['status'],'discovered':len(self.records),'reviewed':len(self.decisions),'newApproved':self.ledger['newApproved'],'accountedUSD':round(self.ledger['accountedUSD'],4)}),flush=True)
  def api(self,path,body=None):
   # GET/counting may be retried. Paid Messages POST is retried only for an
@@ -123,13 +143,14 @@ class Pipeline:
    try:return json.loads(triage.request(path,self.key,body))
    except urllib.error.HTTPError as e:
     if e.code==429 or (path!='messages' and e.code in (500,502,503,504)):
-     delay=max(5,float(e.headers.get('Retry-After',10)))
-     print(json.dumps({'providerRateLimit':e.code,'retryAfterSeconds':delay}),flush=True);time.sleep(min(delay,300));continue
+     delay=retry_seconds(e.headers.get('Retry-After')) if e.headers.get('Retry-After') else min(120,10*2**attempt)
+     print(json.dumps({'providerRateLimit':e.code,'retryAfterSeconds':delay}),flush=True);time.sleep(delay);continue
     raise
   raise RuntimeError('provider_rate_limit_persisted')
- def reserve(self,key,body):
+ def reserve(self,key,body,counted=None):
   if key in self.ledger['requests']:return False
-  counted=self.api('messages/count_tokens',{k:body[k] for k in ['model','system','messages']})['input_tokens']
+  if counted is None:counted=self.api('messages/count_tokens',{k:body[k] for k in ['model','system','messages']})['input_tokens']
+  if type(counted) is not int or counted<0:raise ValueError('Invalid provider token count')
   reservation=expense(int(counted*1.15)+128,body['max_tokens'])
   spent=sum(r.get('actualUSD',r.get('reservedUSD',0)) for r in self.ledger['requests'].values())
   if spent+reservation>self.config['budgetUSD']:return False
@@ -206,8 +227,18 @@ class Pipeline:
  def prepare(self,r):
   key=r['id'];p=self.work/(key+'.jpg')
   try:
+   if triage.source_flags(r):raise ValueError('incomplete_source_metadata')
    if not p.exists():
-    source=triage.image_source(r['previewUrl']);im=Image.open(io.BytesIO(base64.b64decode(source['data'])));im.load();im=ImageOps.exif_transpose(im).convert('RGB');im.thumbnail((960,960));im.save(p,quality=90)
+    for attempt in range(3):
+     DOWNLOAD_GATE.wait()
+     try:source=triage.image_source(r['previewUrl']);break
+     except urllib.error.HTTPError as e:
+      if e.code not in (429,500,502,503,504) or attempt==2:raise
+      DOWNLOAD_GATE.pause(retry_seconds(e.headers.get('Retry-After')) if e.code==429 else 5*2**attempt)
+     except (TimeoutError,OSError):
+      if attempt==2:raise
+      DOWNLOAD_GATE.pause(5*2**attempt)
+    im=Image.open(io.BytesIO(base64.b64decode(source['data'])));im.load();im=ImageOps.exif_transpose(im).convert('RGB');im.thumbnail((960,960));im.save(p,quality=90)
    data=p.read_bytes();im=Image.open(io.BytesIO(data));im.load();phone=ImageOps.fit(im,(124,96),centering=(.5,.5));buf=io.BytesIO();phone.save(buf,format='JPEG',quality=95)
    metadata={k:r[k] for k in ['title','description','author','license','licenseUrl','requiredCredit']}
    blocks=[{'type':'text','text':'Full source photograph:'},{'type':'image','source':{'type':'base64','media_type':'image/jpeg','data':base64.b64encode(data).decode()}},{'type':'text','text':'Actual 124x96 phone centre-cover thumbnail:'},{'type':'image','source':{'type':'base64','media_type':'image/jpeg','data':base64.b64encode(buf.getvalue()).decode()}},{'type':'text','text':json.dumps(metadata,ensure_ascii=False)}]
@@ -264,13 +295,20 @@ class Pipeline:
   completed={r['id'] for r in self.decisions};pending=[r for r in self.records if r['id'] not in completed and r['id'] not in self.ledger['requests']]
   self.ledger['status']='reviewing'
   with concurrent.futures.ThreadPoolExecutor(max_workers=self.config['concurrency']) as pool:
-   for start in range(0,len(pending),self.config['concurrency']):
+   for start in range(0,len(pending),WAVE_SIZE):
     if self.expired():break
-    prepared=list(pool.map(self.prepare,pending[start:start+self.config['concurrency']]))
+    with concurrent.futures.ThreadPoolExecutor(max_workers=3) as downloads:
+     prepared=list(downloads.map(self.prepare,pending[start:start+WAVE_SIZE]))
+    def count(item):
+     r,body,error=item
+     if error:return r,body,error,None
+     try:return r,body,None,self.api('messages/count_tokens',{k:body[k] for k in ['model','system','messages']})['input_tokens']
+     except Exception as e:return r,body,'token_count_'+type(e).__name__,None
+    counted=list(pool.map(count,prepared))
     jobs=[];sources={};stopped_budget=False
-    for r,body,error in prepared:
+    for r,body,error,tokens in counted:
      if error:self.decisions.append({'id':r['id'],'sourceSha1':r['commonsSha1'],'verdict':'held','reason':'preview_'+error,'reviewedAt':now()});continue
-     if not self.reserve(r['id'],body):stopped_budget=True;break
+     if not self.reserve(r['id'],body,counted=tokens):stopped_budget=True;break
      jobs.append((r['id'],body));sources[r['id']]=r
     if not jobs:break
     self.persist('Reserve parallel Claude photo reviews before paid calls')
@@ -283,7 +321,9 @@ class Pipeline:
        if yes:passing.append((r,v,d))
       except (KeyError,TypeError,ValueError):d['reason']='invalid_or_truncated_model_response'
      self.decisions.append(d)
-    self.persist('Checkpoint paid Claude responses before source revalidation and intake')
+    # Save/commit responses immediately; publish with intake as one idempotent
+    # write. Before the next paid wave, every prior response is remote-durable.
+    self.persist('Checkpoint paid Claude responses before source revalidation and intake',publish=False)
     self.integrate(passing);self.ledger['held']=sum(d['verdict']!='approved' for d in self.decisions)
     self.persist('Integrate tested Claude-approved photographs and checkpoint decisions')
     if stopped_budget:break
@@ -303,16 +343,46 @@ class Pipeline:
    else:d['reason']=why
   self.integrate(passing)
   if passing:self.persist('Recover already-paid passing reviews without resubmission')
+ def recover_saved_reviews(self):
+  """Reuse already-paid responses and isolate missing ones without double billing."""
+  sources={r['id']:r for r in self.records};decisions={d['id']:d for d in self.decisions};recovered=0
+  for key,r in self.ledger['requests'].items():
+   if key=='planner':continue
+   response=self.out/(key+'-response.json')
+   if r['status'] in ('reserved','ambiguous'):
+    if response.exists():self.settle(key,read(response),None)
+    else:
+     r['status']='ambiguous'
+     decisions.setdefault(key,{'id':key,'sourceSha1':sources[key]['commonsSha1'],'verdict':'held','reason':'provider_result_missing_after_interruption','reviewedAt':now()})
+     continue
+   if key not in decisions and response.exists():
+    try:
+     value=parse_message(read(response));yes,why=evaluate(value,sources[key])
+     decisions[key]={'id':key,'sourceSha1':sources[key]['commonsSha1'],'verdict':'held','reviewedBy':'claude-api:'+MODEL,'reviewedAt':now(),'modelOutput':value,'reason':why}
+    except (KeyError,TypeError,ValueError):continue
+   d=decisions.get(key)
+   if d and d.get('verdict')=='held' and d.get('reason') in ('unsupported_quote','claude_full_and_phone_review_passed') and d.get('modelOutput'):
+    yes,why=evaluate(d['modelOutput'],sources[key])
+    if yes:
+     row,body,error=self.prepare(sources[key])
+     if not error:
+      image_hash=digest((self.work/(key+'.jpg')).read_bytes())
+      # A recorded review hash is authoritative. For old response-only recovery,
+      # require the reconstructed request to match its pre-POST reservation.
+      matches=image_hash==d.get('previewSha256') if d.get('previewSha256') else digest(json.dumps(body,sort_keys=True).encode())==r.get('requestSha256')
+      if matches:d.update(reason='claude_full_and_phone_review_passed',previewSha256=image_hash);recovered+=1
+  self.decisions=list(decisions.values());self.ledger['held']=sum(d['verdict']!='approved' for d in self.decisions)
+  if recovered:self.persist('Recover existing paid source-supported judgements without new inference')
  def run(self):
   model=self.api('models/'+MODEL)
   if model.get('id')!=MODEL:raise ValueError('Configured Claude model unavailable')
   print(json.dumps({'credentialPresent':True,'modelAvailable':MODEL,'budgetUSD':self.config['budgetUSD'],'parallelReviews':self.config['concurrency']}),flush=True)
   queries=self.plan();self.discover(queries)
-  if self.paid_lock:raise ValueError('Outstanding ambiguous paid reservation; preserved without duplicate submission')
-  self.recover_intake();self.review()
+  self.recover_saved_reviews();self.recover_intake();self.review()
 
 def main():
  config=read(CONFIG)
+ config.pop('resumeAttempt',None) # A trigger is not a new queue or new spending allowance.
  if not re.fullmatch(r'[a-z0-9-]{1,70}',config.get('requestId','')):raise ValueError('Invalid run ID')
  if config.get('policy')!='user-authorized-automatic-v1' or config.get('model')!=MODEL:raise ValueError('Unexpected automatic review policy/model')
  if not 0<config['budgetUSD']<=15 or not 1<=config['concurrency']<=6:raise ValueError('Budget/concurrency out of bounds')

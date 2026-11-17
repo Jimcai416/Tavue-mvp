@@ -11,6 +11,26 @@ class AutomaticReviewTests(unittest.TestCase):
  def source(self):return {'title':'File:Chicken adobo.jpg','description':'Chicken adobo served with rice.','requiredCredit':''}
  def verdict(self):return {'verdict':'accept','canonical_name':'Chicken adobo','evidence_quote':'Chicken adobo','checks':dict.fromkeys(['identity','quality','photograph','phone','variant_preserved'],True),'scores':dict.fromkeys(['sharpness','lighting','composition','appeal'],4),'visible_support':['Finished chicken pieces in sauce beside rice.'],'phone_observations':['Chicken and rice remain legible in the actual thumbnail.'],'protein_evidence':{'chicken':'Chicken adobo'},'uncertainties':[],'reason':'Source and both photographs agree.'}
  def test_complete_supported_model_judgement_passes(self):self.assertTrue(a.evaluate(self.verdict(),self.source())[0])
+ def test_complete_original_filename_is_valid_source_quote(self):
+  v=self.verdict();v['evidence_quote']='File:Chicken adobo.jpg'
+  self.assertTrue(a.evaluate(v,self.source())[0])
+ def test_checkpoint_retries_do_not_repeat_paid_post(self):
+  rejected=subprocess.CompletedProcess([],1,stdout='',stderr='! [remote rejected] HEAD -> branch (failed)')
+  accepted=subprocess.CompletedProcess([],0,stdout='',stderr='')
+  with patch.object(a.subprocess,'run',side_effect=[rejected,accepted]) as git,patch.object(a.triage,'request') as paid:
+   sleeps=[];a.push_checkpoint(Path('.'),'branch',sleep=sleeps.append)
+   self.assertEqual(git.call_count,2);self.assertEqual(sleeps,[5]);paid.assert_not_called()
+ def test_checkpoint_push_retries_even_when_remote_already_has_commit(self):
+  with patch.object(a.subprocess,'run',return_value=subprocess.CompletedProcess([],0,stdout='',stderr='Everything up-to-date')) as git:
+   a.push_checkpoint(Path('.'),'branch');git.assert_called_once()
+ def test_checkpoint_retry_exhaustion_preserves_results_and_stops_new_calls(self):
+  with patch.object(a.subprocess,'run',return_value=subprocess.CompletedProcess([],1,stdout='',stderr='remote rejected')) as git,patch.object(a.triage,'request') as paid:
+   with self.assertRaisesRegex(RuntimeError,'retained'):a.push_checkpoint(Path('.'),'branch',attempts=3,sleep=lambda n:None)
+   self.assertEqual(git.call_count,3);paid.assert_not_called()
+ def test_branch_conflict_is_not_force_pushed(self):
+  with patch.object(a.subprocess,'run',return_value=subprocess.CompletedProcess([],1,stdout='',stderr='non-fast-forward')) as git:
+   with self.assertRaises(RuntimeError):a.push_checkpoint(Path('.'),'branch',sleep=lambda n:None)
+   git.assert_called_once();self.assertNotIn('--force',git.call_args.args[0])
  def test_score_alone_and_phone_crop_cannot_approve(self):
   for field in ['phone','identity','photograph','variant_preserved']:
    v=self.verdict();v['checks'][field]=False;self.assertFalse(a.evaluate(v,self.source())[0])
@@ -55,6 +75,25 @@ class AutomaticReviewTests(unittest.TestCase):
    p.settle('x',{'id':'msg_test','usage':{'input_tokens':1000,'output_tokens':200}},None)
    self.assertEqual(p.ledger['requests']['x']['status'],'completed');self.assertAlmostEqual(p.ledger['requests']['x']['actualUSD'],.002)
    self.assertTrue((p.out/'x-response.json').exists())
+ def test_uncertain_old_request_remains_reserved_and_is_not_resubmitted(self):
+  with tempfile.TemporaryDirectory() as t:
+   p=self.pipeline(t);p.records=[{'id':'c1','commonsSha1':'sha'}]
+   p.ledger['requests']['c1']={'status':'reserved','reservedUSD':.008}
+   with patch.object(p,'paid') as paid:p.recover_saved_reviews()
+   self.assertEqual(p.ledger['requests']['c1']['status'],'ambiguous')
+   self.assertEqual(p.ledger['requests']['c1']['reservedUSD'],.008)
+   self.assertEqual(p.decisions[0]['reason'],'provider_result_missing_after_interruption');paid.assert_not_called()
+ def test_resume_reuses_saved_response_and_actual_usage(self):
+  with tempfile.TemporaryDirectory() as t:
+   p=self.pipeline(t);s=self.source();s.update(id='c1',commonsSha1='sha');p.records=[s]
+   p.ledger['requests']['c1']={'status':'reserved','reservedUSD':.008}
+   v=self.verdict();v['verdict']='hold'
+   message={'id':'msg_saved','stop_reason':'end_turn','content':[{'type':'text','text':json.dumps(v)}],'usage':{'input_tokens':1000,'output_tokens':200}}
+   a.triage.write_json(p.out/'c1-response.json',message)
+   with patch.object(p,'paid') as paid:p.recover_saved_reviews()
+   self.assertEqual(p.ledger['requests']['c1']['status'],'completed')
+   self.assertAlmostEqual(p.ledger['requests']['c1']['actualUSD'],.002)
+   self.assertEqual(len(p.decisions),1);paid.assert_not_called()
  def test_original_source_change_prevents_intake(self):
   with tempfile.TemporaryDirectory() as t:
    p=self.pipeline(t);r={'id':'c1','commonsSha1':'sha'};d={}

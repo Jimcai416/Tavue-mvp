@@ -35,8 +35,15 @@ endpoint, 15% input padding, and maximum output tokens at the published Haiku
 4.5 standard rates ($1/$5 per million input/output tokens, checked 17 November).
 Actual usage replaces reservations after a response. Every paid wave is pushed
 before POST; ambiguous paid requests are never automatically resubmitted.
-Responses are saved before source revalidation. Already-paid passing reviews
-can finish intake after restart without a second model call. Explicit rate
+Git checkpoint writes retry the same commit with backoff and never repeat a
+paid model call. Reviews run six at a time inside 24-photo checkpoint waves,
+reducing remote writes by about sixfold compared with the first implementation.
+Responses are saved and locally committed before source revalidation, then
+published with tested intake before any subsequent paid wave. Already-paid passing reviews
+can finish intake after restart without a second model call. Exact filename
+quotes are validated against the complete original source fields. Missing
+provider responses retain their cost reservation and stay held; they do not
+cause the same image to be submitted again. Explicit rate
 limits back off; budget/time limits checkpoint rather than run indefinitely.
 
 Passing images, static app assets, credits and decisions are committed
@@ -46,6 +53,13 @@ cost; source/query records, raw provider responses and final decisions remain
 alongside it. Cloud execution uses the already configured GitHub
 `ANTHROPIC_API_KEY` secret, not a copied local key. This does not deploy
 production or bypass the separate 10,000-photo/device release gates.
+
+Run 44158055065 stopped after 534 processed candidates and 41 additions when
+GitHub rejected a checkpoint push. All 499 completed provider responses were
+recovered from its SHA-256-verified artifact; cost accounting continues from
+$2.030313 against the same $15 cap. `resumeAttempt` changes only the workflow
+trigger, not the queue identity or spending allowance. Failed-run artifacts now
+also preserve a Git bundle of any committed changes not yet pushed.
 
 The repository contains:
 

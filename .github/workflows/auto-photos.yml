@@ -35,11 +35,21 @@ jobs:
       - run: npm run test:photos
       - run: npx tsc --noEmit
       - run: npm run export:web
+      - name: Preserve committed changes that could not be pushed
+        if: always()
+        shell: bash
+        run: |
+          git update-ref refs/heads/auto-checkpoint HEAD
+          if test "$(git rev-list --count origin/${{ github.ref_name }}..HEAD)" -gt 0; then
+            git bundle create catalog/work/auto-checkpoint.bundle refs/heads/auto-checkpoint ^origin/${{ github.ref_name }}
+          fi
       - name: Preserve decisions and receipts even if interrupted
         if: always()
         uses: actions/upload-artifact@v4
         with:
           name: claude-photo-run-${{ github.run_id }}
-          path: catalog/auto-runs/
+          path: |
+            catalog/auto-runs/
+            catalog/work/auto-checkpoint.bundle
           retention-days: 90
           if-no-files-found: ignore
