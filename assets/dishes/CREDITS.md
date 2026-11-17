@@ -2583,3 +2583,11 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-continuous-20261117-001
 
 - **Gyu Don** — [Alpha  from Melbourne, Australia](https://www.flickr.com/people/10559879@N00). [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:Gyu_Don_-_Sushiko_(2649809662).jpg). Local asset: `reviewed-commons-83134241.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-continuous-20261117-001
+
+- **Tajima Beef Shabu-Shabu Hot Pot** — [Nishimuraya Kinosaki Onsen](https://www.flickr.com/people/136749227@N06). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Tajima_Beef_Shabu-Shabu_Hot_Pot_(25519259666).jpg). Local asset: `reviewed-commons-83857315.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Chicken Yakisoba** — [Merelymel13](https://www.flickr.com/photos/merelymel/). [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:Chicken_yakisoba_Merelymel13.jpg). Local asset: `reviewed-commons-2897256.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Fukaya Negi Curry Yakisoba** — M yanagisawa. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Fukaya_Negi_Curry_Yakisoba_by_Kaede.jpg). Local asset: `reviewed-commons-163093146.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Bokkake Yakisoba** — Tokumeigakarinoaoshima. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Nagata_Honjoken_Bokkake_Yakisoba.jpg). Local asset: `reviewed-commons-95800809.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Ota Yakisoba** — Ocdp. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Ota_Yakisoba_002.jpg). Local asset: `reviewed-commons-110506677.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
