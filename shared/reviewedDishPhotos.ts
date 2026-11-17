@@ -27235,28 +27235,6 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "requiresExactMenuName": true
   },
   {
-    "id": "commons-105195660",
-    "title": "File:Papanasi-romaniancook.jpg",
-    "author": "Romaniancook",
-    "license": "CC BY-SA 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Papanasi-romaniancook.jpg",
-    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Papanasi-romaniancook.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "commonsSha1": "06b7cc5a6126397d4ec19cbc985bf8805b7ca471",
-    "name": "Papanasi with sour cream and jam without semolina",
-    "aliases": [],
-    "proteins": [],
-    "approved": true,
-    "kind": "photograph",
-    "asset": "reviewed-commons-105195660.jpg",
-    "assetSha256": "6412517a35d12d3d7f3c80aa42596f1e6effc8edceae98d95b047d08591c0ec7",
-    "reviewedAt": "2026-11-17",
-    "reviewNote": "Assistant reviewed uncropped contact sheet and enlarged preview, exact source caption and current Commons metadata. Finished serving and visible structure agree with the exact source title/caption. Named hidden flavours and protein species rely on the source declaration; unspecified meat is not assigned a species. Source-declared hidden flavours/ingredients are not independently visible. Resized and JPEG re-encoded without cropping or generative edits. Representative image; no allergen guarantee. Published author/licence are source declarations.",
-    "width": 960,
-    "height": 960,
-    "requiresExactMenuName": true
-  },
-  {
     "id": "commons-84717279",
     "title": "File:Pear Upside-Down Cake (25621732193).jpg",
     "author": "Stephanie Clifford  from Arlington, VA, USA",
