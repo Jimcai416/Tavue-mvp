@@ -2374,3 +2374,8 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-continuous-20261117-001
 
 - **pasta alla cacio e pepe** — it:Markx89. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Cacio_e_pepe_2024.jpg). Local asset: `reviewed-commons-148742302.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-continuous-20261117-001
+
+- **Cacio e pepe with tonnarelli** — Schellack. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Cacio_e_pepe_at_trattoria_in_Rome.jpg). Local asset: `reviewed-commons-79545896.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Spaghetti cacio e pepe** — Andy Li. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Spaghetti,_cacio_e_pepe_%26_bitter_leaf_salad_-_Tutto_2024-04-04.jpg). Local asset: `reviewed-commons-147092362.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
