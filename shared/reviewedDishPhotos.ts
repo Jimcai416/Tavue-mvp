@@ -39865,5 +39865,53 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "height": 640,
     "requiresExactMenuName": true,
     "authorUrl": "https://www.flickr.com/people/22539273@N00"
+  },
+  {
+    "id": "commons-123315326",
+    "title": "File:Special pork cutlet bowl of Katsuya.jpg",
+    "author": "毒島みるく",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Special_pork_cutlet_bowl_of_Katsuya.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/00/Special_pork_cutlet_bowl_of_Katsuya.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "e74a7813bfb0c85f5baf439df2bc56ff4defcedc",
+    "name": "Special pork cutlet bowl",
+    "aliases": [],
+    "proteins": [
+      "pork"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-123315326.jpg",
+    "assetSha256": "31ad617c43f3de32dfbe5f86c4252777346d9c1f039ee1e66ae20b0dcebae279",
+    "reviewedAt": "2026-11-17",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 832,
+    "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-169560357",
+    "title": "File:Tonkatsu at Miyoshiya.jpg",
+    "author": "Fred Cherrygarden",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tonkatsu_at_Miyoshiya.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Tonkatsu_at_Miyoshiya.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "98e9d7c32700ccb844c9601ffbb4635579bbd913",
+    "name": "Tonkatsu (pork cutlet)",
+    "aliases": [],
+    "proteins": [
+      "pork"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-169560357.jpg",
+    "assetSha256": "60beb3ec18fe7de20222487ea3438af0f8b3017a3c760186000bcfe1aee6572b",
+    "reviewedAt": "2026-11-17",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 640,
+    "requiresExactMenuName": true
   }
 ];
