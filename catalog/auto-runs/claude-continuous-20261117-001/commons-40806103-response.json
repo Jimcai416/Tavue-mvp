@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011Ch9LkzJMuCg9Pz3URDWry",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Golden-brown tandoori-style cooked chicken pieces\",\n    \"Two distinct cooking styles visible on plate\",\n    \"Finished, exposed dish with appetising appearance\",\n    \"Sharp detail in full image; readable in phone thumbnail\"\n  ],\n  \"phone_observations\": [\n    \"Plate clearly visible with cooked chicken items\",\n    \"Two preparation styles distinguishable\",\n    \"Golden colour preserved in thumbnail\",\n    \"Essential components prominent and not clipped\"\n  ],\n  \"protein_evidence\": {\n    \"protein\": \"Chicken Tandoori on the right side of the image along with Chicken Tikka on the left side\"\n  },\n  \"uncertainties\": [\n    \"Source metadata assigns 'Chicken Tandoori' to right side and 'Chicken Tikka' to left side, but visual morphology does not reliably distinguish these preparations in the photograph. Both appear golden-brown and cooked; tandoori typically refers to clay-oven cooking method, tikka to cubed marinated pieces, but the photograph does not prove these distinctions.\",\n    \"Lighting creates strong shadows and warm cast that obscures precise surface detail and may affect colour accuracy assessment\",\n    \"Exact boundary between the two claimed preparations is ambiguous in the image\"\n  ],\n  \"reason\": \"Reject: Identity check fails. Source metadata claims two distinct preparations ('Chicken Tandoori' and 'Chicken Tikka') with specific side assignments, but the photograph does not contain sufficient visual evidence to distinguish these cooking methods reliably. Both appear as golden-brown cooked chicken pieces; the photographic detail does not prove the tandoori (clay-oven) or tikka (cubed, marinated) preparation distinctions claimed in metadata. Without clear visual proof of the claimed identity split, the dish cannot be accepted as matching the specific source description. Lighting also introduces warm cast and shadows that reduce clarity of surface preparation detail.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1526,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 565,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

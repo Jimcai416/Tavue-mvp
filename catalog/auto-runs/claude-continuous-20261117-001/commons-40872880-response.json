@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011Ch9LkvhZrgKX3b5N2FjoQ",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Cooked meat with char marks visible in lower portion\",\n    \"Grilled onions, peppers and green vegetable pieces in upper portion\",\n    \"Pale greenish-yellow sauce (consistent with mint chutney)\",\n    \"White plate background\",\n    \"Cooked, exposed finished dish\"\n  ],\n  \"phone_observations\": [\n    \"Meat and vegetables clearly visible and readable\",\n    \"Sauce portion visible but partially cropped at edge\",\n    \"Essential components present in thumbnail\"\n  ],\n  \"protein_evidence\": {\n    \"protein\": \"Chicken\",\n    \"source_quote\": \"Chicken Tandoori Tangri Kabab\"\n  },\n  \"uncertainties\": [\n    \"Source metadata declares 'Chicken Tandoori Tangri Kabab' but the visible meat form is ambiguous—the dark charred item in the lower portion could be a drumstick/leg but lacks the clear bone structure and distinctive shape characteristic of a tangri kabab (marinated chicken drumstick). The form appears more consistent with a rolled or flattened preparation, possibly seekh kabab or minced meat skewer.\",\n    \"Visual appearance does not unambiguously match the named variant 'Tangri Kabab' (whole marinated drumstick)\",\n    \"Metadata title contains 'File:' prefix and filename extension, indicating raw source metadata rather than verified dish description\"\n  ],\n  \"reason\": \"While the photograph shows a cooked, exposed finished dish with grilled vegetables and sauce in appetising condition with good sharpness and composition, there is a critical mismatch between the source-declared identity ('Chicken Tandoori Tangri Kabab') and the visible form. A tangri kabab should display a recognisable whole chicken drumstick with bone structure, but the dark charred meat visible here does not exhibit the characteristic shape or bone prominence of a tangri preparation. The form appears consistent with seekh kabab or another rolled/minced meat variant. This identity contradiction—between source declaration and visual evidence—requires hold pending clarification of the actual dish prepared.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1630,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 609,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
