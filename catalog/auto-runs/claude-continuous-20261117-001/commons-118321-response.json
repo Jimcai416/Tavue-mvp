@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011Ch9Dbdtiw5mipxmaefnKv",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Skewered meat pieces on a griddle\",\n    \"Golden-brown, cooked surface\",\n    \"Multiple skewers in progression\",\n    \"Active grilling/cooking stage\"\n  ],\n  \"phone_observations\": [\n    \"Skewered protein visible\",\n    \"Griddle/cooking surface clear\",\n    \"Multiple items in row\",\n    \"Cooking in progress, not finished plated dish\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Species of meat not explicitly stated in source metadata—appears to be poultry but cannot be confirmed from visual appearance alone without source quote\",\n    \"Image shows cooking/preparation stage rather than finished, plated, served dish\",\n    \"Yakitori traditionally means chicken skewers, but metadata does not explicitly name the protein\"\n  ],\n  \"reason\": \"Reject: This photograph documents the cooking process rather than a finished, exposed, plated dish. The image captures meat skewers mid-grilling on a commercial griddle, which is a preparation/cooking stage. Per brief requirements, Tavue accepts 'finished, exposed, likely photographic dish' and home cooking/street food, but only when complete and plated for consumption. Additionally, while the source title references 'yakitori,' no explicit protein identification appears in the metadata or as a direct quote confirming the animal species. The protein must be named in source material; visual appearance and traditional dish association are insufficient. The photograph quality and phone thumbnail are satisfactory, but identity and variant requirements cannot be met.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1541,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 479,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
