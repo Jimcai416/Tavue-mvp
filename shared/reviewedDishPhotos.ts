@@ -38158,5 +38158,28 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-18808931",
+    "title": "File:Lasagna (1).jpg",
+    "author": "jeffreyw",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lasagna_(1).jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Lasagna_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "574defe116f1bd59dcff83b7009d147c812c4226",
+    "name": "Lasagna",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-18808931.jpg",
+    "assetSha256": "40659466baad0f60293e769e744ff55608a4baee506d5973aeea3caf34b785d1",
+    "reviewedAt": "2026-11-17",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 781,
+    "requiresExactMenuName": true,
+    "authorUrl": "https://www.flickr.com/people/7927684@N03"
   }
 ];
