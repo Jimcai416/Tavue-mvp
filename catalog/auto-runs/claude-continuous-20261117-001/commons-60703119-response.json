@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011Ch94pd6QNQ8bzk5BtCfGM",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Stewed meat and vegetable dish in brown broth, clearly identifiable\",\n    \"Potato salad side dish with green onion garnish\",\n    \"Natural lighting, home/restaurant setting on wooden table\",\n    \"Sharp detail on both full image and phone thumbnail\"\n  ],\n  \"phone_observations\": [\n    \"Central dish clearly visible in thumbnail\",\n    \"Broth-based meat stew with visible meat, potato, and carrot\",\n    \"Side salad plate readable\",\n    \"Natural colours preserved at reduced resolution\"\n  ],\n  \"protein_evidence\": {\n    \"protein\": \"beef\",\n    \"source_quote\": \"Beef steak, potato salad, pot-au-feu\"\n  },\n  \"uncertainties\": [\n    \"Source metadata lists multiple dishes (beef steak, potato salad, pot-au-feu, highball) but only two are visible in photograph\",\n    \"Pot-au-feu is traditionally made with beef, but source lists 'beef steak' separately—unclear if the stewed dish in bowl is the pot-au-feu or a different preparation\",\n    \"Exact identity of the broth-based stew (pot-au-feu vs. other beef stew) cannot be visually confirmed independent of source description\",\n    \"Source metadata contains file name, date stamp, photographer, and URL—only structured fields trusted\"\n  ],\n  \"reason\": \"Photograph and thumbnail are sharp, well-lit, naturally coloured, and appetising. Beef is explicitly named in source title. However, source lists 'beef steak, potato salad, pot-au-feu' as separate items but the photograph shows only a stewed dish in broth and a side salad—the specific identity of the stewed dish cannot be visually confirmed as pot-au-feu without relying on source text alone. The relationship between listed components and visible dishes is ambiguous. The requirement that 'identity must agree with the exact source title/description and visible form' cannot be satisfied because the visual components do not clearly map to the source's item list. Hold pending clarification of which dish is being submitted and confirmation of pot-au-feu identity.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1764,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 629,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
