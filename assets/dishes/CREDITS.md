@@ -2479,3 +2479,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-continuous-20261117-001
 
 - **Daube of beef** — tpholland. [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Daube_de_boeuf_carottes.jpg). Local asset: `reviewed-commons-14616090.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-continuous-20261117-001
+
+- **Daube de porc** — Marianne Casamance. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Daube_de_porc.JPG). Local asset: `reviewed-commons-46813515.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
