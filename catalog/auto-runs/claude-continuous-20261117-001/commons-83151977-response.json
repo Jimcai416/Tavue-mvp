@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011Ch9EWMXCpiar55VVTzBZw",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Stir-fried dish with corn, red bell pepper, green beans\",\n    \"Crispy shredded protein on top\",\n    \"White rice on the side\",\n    \"Glossy sauce coating\",\n    \"Restaurant plating on white dish\"\n  ],\n  \"phone_observations\": [\n    \"Corn and red pepper visible in thumbnail\",\n    \"Main protein component visible but identification uncertain at thumbnail resolution\",\n    \"Rice clearly visible\",\n    \"Dish composition recognizable\"\n  ],\n  \"protein_evidence\": {\n    \"protein\": \"chicken breast\",\n    \"source_quote\": \"lean strips of chicken breast\"\n  },\n  \"uncertainties\": [\n    \"Source title describes 'Gai Pad Grapow' (Thai basil stir-fry), but the visible photograph shows corn, red bell pepper, and green beans—not characteristic ingredients of authentic Gai Pad Grapow, which typically features Thai basil, bird's eye chillies, and minced or sliced chicken without corn\",\n    \"The shredded crispy element on top does not match typical Gai Pad Grapow presentation; it appears more consistent with a crispy noodle or fried shallot garnish unusual for this dish\",\n    \"Source mentions fried egg but no fried egg is clearly visible in either the full photograph or thumbnail\",\n    \"The vegetable composition (corn, bell pepper, green beans) contradicts the classic Thai basil stir-fry identity\",\n    \"Critical discrepancy between title identity and visible ingredients suggests either mislabeling or significant deviation from canonical Gai Pad Grapow\"\n  ],\n  \"reason\": \"Identity check fails. While the source explicitly identifies this as 'Gai Pad Grapow with rice,' the visible dish contains corn, red bell pepper, and green beans—ingredients not characteristic of authentic Gai Pad Grapow (Thai basil chicken stir-fry). The source description mentions Thai basil and chilli as key components, but neither is visually prominent or identifiable in the photograph. The crispy garnish and overall composition do not match standard Gai Pad Grapow presentation. The mentioned fried egg is not visible. This substantial contradiction between source title/description and visible form, combined with significant deviation from the canonical dish identity, warrants rejection pending clarification of the actual dish composition.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1655,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 677,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

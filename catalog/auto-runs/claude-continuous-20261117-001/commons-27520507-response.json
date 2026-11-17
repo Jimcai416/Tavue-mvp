@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011Ch9EVP5vR9fTQiuoDRfQP",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Thin rice noodles clearly visible\",\n    \"Green vegetables (long beans)\",\n    \"Red tomato pieces\",\n    \"Pink/translucent protein strips\",\n    \"Dark brown crustacean segments in centre\"\n  ],\n  \"phone_observations\": [\n    \"Noodle-based dish on white plate readable in thumbnail\",\n    \"Bright green vegetable strips visible\",\n    \"Red component visible\",\n    \"Central darker protein component identifiable\"\n  ],\n  \"protein_evidence\": {\n    \"protein\": \"brined rice paddy crabs\",\n    \"source_quote\": \"green papaya salad with brined rice paddy crabs\"\n  },\n  \"uncertainties\": [\n    \"Source title declares 'som tam pu' (green papaya salad with brined rice paddy crabs), but the visible dish appears to be a rice noodle preparation, not a papaya salad\",\n    \"No visible green papaya or papaya salad base in photograph—primary component is thin rice noodles\",\n    \"Identity mismatch between declared dish type (green papaya salad) and photographed form (noodle dish)\"\n  ],\n  \"reason\": \"Source title and description declare 'som tam pu (green papaya salad with brined rice paddy crabs)', but the photograph shows a rice noodle dish with vegetables and crabs, not a papaya salad. This is a material identity contradiction. The photograph quality and presentation are acceptable, but the declared identity does not match the visible dish form. Per protocol, source contradictions between title and visible form require hold/rejection.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1941,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 502,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
