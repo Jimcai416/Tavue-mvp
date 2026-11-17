@@ -51,10 +51,15 @@ export function resolveFromPhotos<T extends Pick<DishPhoto, 'name' | 'aliases' |
 ): T | null {
   if (!dish) return null;
   const original = [dish.original_name, dish.translated_name, dish.romanized, dish.image_query].filter(Boolean).join(' ');
-  if (VARIANTS.test(original)) return null;
+  // "Style" may itself be part of a reviewed source's exact menu label.
+  // All other disallowed substitutions remain blocked; style-qualified queries
+  // can only resolve a reviewed canonical label which retains that qualifier.
+  if (VARIANTS.test(original.replace(/\bstyle\b/gi, ''))) return null;
+  const styleQualified = /\bstyle\b/i.test(original);
   for (const name of photoIdentityNames(dish)) {
     const photo = photos.find(p => p.approved && [p.name, ...p.aliases].some(a => normalizeDishName(a) === name));
     if (!photo) continue;
+    if (styleQualified && (!photo.requiresExactMenuName || !/\bstyle\b/i.test(photo.name))) continue;
     if (photo.requiresExactMenuName) {
       // Newly reviewed variants require a menu-supplied name. A simplified AI
       // image query must not erase toppings, flavours or regional qualifiers.

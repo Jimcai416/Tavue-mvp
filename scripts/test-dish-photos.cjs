@@ -32,6 +32,10 @@ try {
   assert.equal(match('Banana pancakes', {translated_name:'Pancakes',image_query:'Pancakes'}), null);
   assert.equal(match('Pancakes with honey'), 'commons-100280051');
   assert.equal(match('Pancakes', {flags:['vegetarian']}), null);
+  assert.equal(match('Mexican Style Chicken Salad'), 'commons-37738653');
+  assert.equal(match('French style Carbonara', {image_query:'Spaghetti Carbonara'}), null);
+  assert.equal(match('Vegan Mexican Style Chicken Salad', {image_query:'Mexican Style Chicken Salad'}), null);
+  assert.equal(match('Thai style Mexican Style Chicken Salad', {image_query:'Mexican Style Chicken Salad'}), null);
   assert.equal(match('Moules Normandes'), 'commons-35403633');
   assert.equal(match('Chicken Moules Normandes', {image_dish_name:'Moules Normandes'}), null);
   assert.equal(match('Tajarin al Castelmagno'), 'commons-53778714');

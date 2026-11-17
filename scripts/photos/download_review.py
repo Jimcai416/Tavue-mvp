@@ -10,6 +10,19 @@ from PIL import Image, ImageDraw, ImageOps
 from triage import validate_url, ImageRedirect
 import urllib.request
 
+def write_checkpoint(path,obj):
+    """Keep the previous checkpoint intact while Windows readers briefly lock it."""
+    temp=path.with_suffix(path.suffix+'.tmp')
+    payload=json.dumps(obj,ensure_ascii=False,indent=2)+'\n'
+    for attempt in range(16):
+        try:
+            temp.write_text(payload,encoding='utf-8')
+            temp.replace(path)
+            return
+        except PermissionError:
+            if attempt==15:raise
+            time.sleep(min(1,.1*2**attempt))
+
 
 def retry_seconds(value, now=None):
     minimum=120
@@ -51,8 +64,7 @@ def main():
         sample.append(item)
     out=Path(a.out);out.mkdir(parents=True,exist_ok=True)
     def write(name,obj):
-        path=out/name;temp=path.with_suffix(path.suffix+'.tmp')
-        temp.write_text(json.dumps(obj,ensure_ascii=False,indent=2)+'\n',encoding='utf-8');temp.replace(path)
+        write_checkpoint(out/name,obj)
     if (out/'sample.json').exists() and json.loads((out/'sample.json').read_text())!=sample:
         raise ValueError('Output already belongs to a different sample')
     write('sample.json',sample)

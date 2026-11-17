@@ -1,8 +1,23 @@
 import unittest
 from unittest.mock import patch
-from download_review import retry_seconds,RateGate
+from download_review import retry_seconds,RateGate,write_checkpoint
 
 class RateTests(unittest.TestCase):
+    def test_locked_checkpoint_preserves_previous_data_then_recovers(self):
+        import tempfile,json
+        from pathlib import Path
+        with tempfile.TemporaryDirectory() as directory:
+            target=Path(directory)/'progress.json';target.write_text('[1]')
+            original=Path.replace;attempts=[]
+            def replace(source,destination):
+                attempts.append(1)
+                if len(attempts)==1:
+                    self.assertEqual(json.loads(target.read_text()),[1])
+                    raise PermissionError('temporary Windows reader')
+                return original(source,destination)
+            with patch.object(Path,'replace',replace),patch('download_review.time.sleep'):
+                write_checkpoint(target,[1,2])
+            self.assertEqual(json.loads(target.read_text()),[1,2])
     def test_always_wait_two_minutes_and_respect_longer_delay(self):
         for value in [None,'','bad','0','30','-10']:
             self.assertEqual(retry_seconds(value),120)
