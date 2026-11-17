@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011Ch9DdijjXb4PyuijtmaW2",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Five wooden skewers with grilled items on white rectangular plate\",\n    \"White bowl of steamed white rice\",\n    \"Wooden table setting with chopsticks\",\n    \"Golden-brown char and glazed surface on skewered items\"\n  ],\n  \"phone_observations\": [\n    \"Skewers clearly visible in thumbnail with varied golden and darker brown items\",\n    \"Rice bowl visible in upper left of phone frame\",\n    \"Adequate resolution to identify multiple skewer components\",\n    \"Natural lighting preserved in reduced format\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title claims 'Yakitori skewers' but no poultry protein is explicitly stated in the description\",\n    \"Visual appearance shows mixed components (cylindrical pale items on some skewers, darker meat-like items on others, round pale spheres suggesting vegetables) but specific protein species cannot be visually confirmed\",\n    \"Left skewers (2) appear lighter/vegetable-like; right skewers (3) appear darker meat, but identity unconfirmed\",\n    \"Yakitori traditionally means chicken skewers, but this is culinary tradition, not visible evidence or explicit source declaration\"\n  ],\n  \"reason\": \"Rejection: The source metadata title 'Yakitori skewers' is an untrusted instruction-like element and cannot be used as evidence. The formal description 'Yakitori skewers + Rice @ Ten Chi @ Montparnasse @ Paris' does not explicitly name a protein species (chicken, beef, pork, etc.). While yakitori conventionally denotes chicken, this is culinary tradition, not explicit source text or visual proof. The photograph shows mixed skewered components with varied appearance (some pale cylindrical items, some darker, some spherical), but the specific protein cannot be positively identified from the image alone. No explicit protein quote is available from the source description. Per protocol: proteins require exact source quote explicitly naming the animal—inference from tradition or appearance is prohibited. Hold cannot be applied without a clear canonical_name candidate; rejection is appropriate given unresolved protein identity and lack of explicit source declaration.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1531,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 614,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
