@@ -38453,5 +38453,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 638,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-44562442",
+    "title": "File:Minestrone in Turkey.jpg",
+    "author": "E4024",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Minestrone_in_Turkey.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Minestrone_in_Turkey.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "35516b323189190240283815e57923b25d71d128",
+    "name": "Minestrone",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-44562442.jpg",
+    "assetSha256": "f1212faa757fdad9682a36c7dc69c135b2c3faa5c6a8567f6b4d26b154afe22c",
+    "reviewedAt": "2026-11-17",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];
