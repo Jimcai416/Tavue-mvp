@@ -2434,3 +2434,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-continuous-20261117-001
 
 - **Tagliatelle Bolognese** — JIP. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Tagliatelle_Bolognese_at_restaurant_We_Pasta.jpg). Local asset: `reviewed-commons-55200449.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-continuous-20261117-001
+
+- **Tagliatelle al ragù** — Ivan Vighetto. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/); [source](https://commons.wikimedia.org/wiki/File:Tagliatelle_al_rag%C3%B9_(image_modified).jpg). Local asset: `reviewed-commons-994361.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
