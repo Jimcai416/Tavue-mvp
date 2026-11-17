@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011Ch9HkU1MzwnsgT8excUDg",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Cooked rice base visible\",\n    \"Red-brown meat pieces prominent\",\n    \"Onion slices present\",\n    \"Orange carrot pieces\",\n    \"Red sauce/chutney in bowl\",\n    \"White sauce/yogurt in bowl\",\n    \"Aluminium serving tray\",\n    \"Street/casual food setting\"\n  ],\n  \"phone_observations\": [\n    \"Meat pieces clearly visible\",\n    \"Rice and toppings readable\",\n    \"Sauce bowl visible\",\n    \"Adequate subject prominence\"\n  ],\n  \"protein_evidence\": {\n    \"protein\": \"Title claims 'Chicken fry piece mandi' but visual form does not unambiguously match source description\"\n  },\n  \"uncertainties\": [\n    \"Source title says 'Chicken fry piece mandi' but photograph shows what appears to be biryani-style layered rice with meat pieces and garnish, not classic mandi structure\",\n    \"Exact meat species cannot be visually confirmed from colouring and shape alone; source title provides label but dish presentation diverges from title description\",\n    \"Description states 'Mandi Biryani' (contradicting title's 'mandi') and describes it as 'Middle Eastern rice and meat dish' — generic description does not confirm specific dish identity\",\n    \"No visible evidence of mandi's characteristic vertical layering or traditional presentation method\",\n    \"Metadata title/description mismatch (title: 'Chicken fry piece mandi' vs. description: 'Mandi Biryani') creates source contradiction\"\n  ],\n  \"reason\": \"Reject: source identity contradiction. Title names 'Chicken fry piece mandi' but description labels it 'Mandi Biryani' — two different dish claims. The visual presentation (flat rice bed with scattered meat and garnish) does not clearly align with traditional mandi structure (vertical spiced rice with central meat well). While photograph quality and phone thumbnail are acceptable, the unresolved identity contradiction and mismatch between source title and dish appearance prevent confident canonical naming. Hold pending source clarification of exact dish type.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1615,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 617,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

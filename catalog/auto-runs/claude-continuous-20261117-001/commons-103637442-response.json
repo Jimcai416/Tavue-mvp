@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011Ch9HkybLxGGynWgePpB5y",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Golden-yellow basmati rice with turmeric colouring\",\n    \"Layered rice texture consistent with biryani\",\n    \"Visible onions and spice specks throughout\",\n    \"Cooked, finished dish appearance\",\n    \"Home or restaurant presentation on decorative plate\"\n  ],\n  \"phone_observations\": [\n    \"Yellow rice with darker caramelised patches visible\",\n    \"Central white/light ingredient visible (possibly egg or onion)\",\n    \"Rice detail sharp and readable in thumbnail\",\n    \"Colour and texture consistent with biryani preparation\"\n  ],\n  \"protein_evidence\": {\n    \"protein\": \"Source description states 'goat meat or chicken' but does not specify which is present in this image\"\n  },\n  \"uncertainties\": [\n    \"Source title says 'Chicken Dum Biryani' but description mentions 'goat meat or chicken' as alternatives without clarity on which animal is in this specific dish\",\n    \"No visible meat pieces are distinctly identifiable in the photograph to confirm species\",\n    \"Ambiguous protein identity: title declares chicken but description introduces goat as alternative\"\n  ],\n  \"reason\": \"The photograph shows a finished, well-cooked biryani with appetising golden rice, appropriate lighting, sharpness and composition. However, source contradiction between the title ('Chicken') and description ('goat meat or chicken') creates ambiguity about the actual protein present. No meat pieces are visually distinct enough to resolve this. Per protocol, ambiguous meat species or source contradictions require hold. The dish is not rejected—quality and presentation are strong—but protein identity must be resolved by source clarification before acceptance.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1841,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 515,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

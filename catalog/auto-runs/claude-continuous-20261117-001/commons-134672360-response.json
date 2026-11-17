@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011Ch9HmQVJfq1AHVTRsiz1W",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Finished, cooked biryani rice dish clearly visible\",\n    \"Meat pieces (described as jali kabab) prominent on rice\",\n    \"Natural colours, appetising presentation\",\n    \"White ceramic plate, restaurant setting\",\n    \"Crispy fried onion strands visible on rice\"\n  ],\n  \"phone_observations\": [\n    \"Meat and rice components clearly readable in thumbnail\",\n    \"Essential dish structure preserved in phone crop\",\n    \"No critical food elements clipped\",\n    \"Sufficient detail to identify as biryani with meat\"\n  ],\n  \"protein_evidence\": {\n    \"protein\": \"mutton\"\n  },\n  \"uncertainties\": [\n    \"Source metadata states 'mutton' but mutton commonly conflates with goat in South Asian contexts; species ambiguous without explicit confirmation of sheep\",\n    \"Title references 'Kacchi Biryani' but photograph appearance does not clearly distinguish kacchi (raw-marinated assembly) from pakki (pre-cooked) preparation method\",\n    \"Jali Kabab identity in photograph cannot be visually confirmed as 'minced meat ball' vs. compressed meat paste or other kabab form\"\n  ],\n  \"reason\": \"Image quality, sharpness, lighting and composition all meet threshold (≥4). Photograph and phone thumbnail both acceptable. However, identity check fails: source metadata ambiguously labels protein as 'mutton' (which may indicate sheep or goat in South Asian usage without explicit species declaration), and the distinction between Kacchi vs. Pakki biryani preparation is not visually determinable from the exposed dish alone. Canonical name cannot be established with certainty matching the exact source description without resolving these protein species and preparation method ambiguities. Per protocol, hold pending clarification.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1661,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 542,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
