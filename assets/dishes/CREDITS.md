@@ -2383,3 +2383,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-continuous-20261117-001
 
 - **Lasagna** — [jeffreyw](https://www.flickr.com/people/7927684@N03). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Lasagna_(1).jpg). Local asset: `reviewed-commons-18808931.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-continuous-20261117-001
+
+- **Lasagna Rustica** — HarshLight. [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Lasagna_Rustica.jpg). Local asset: `reviewed-commons-84824680.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.

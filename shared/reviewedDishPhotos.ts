@@ -38181,5 +38181,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "height": 781,
     "requiresExactMenuName": true,
     "authorUrl": "https://www.flickr.com/people/7927684@N03"
+  },
+  {
+    "id": "commons-84824680",
+    "title": "File:Lasagna Rustica.jpg",
+    "author": "HarshLight",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lasagna_Rustica.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/84/Lasagna_Rustica.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "7b8494b893ccf5972f579fe07c6438371f1a5ae0",
+    "name": "Lasagna Rustica",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-84824680.jpg",
+    "assetSha256": "075ea8c7709c37cad082cd315b877e701bc4e7c394e6bc4c709dbd08872672d0",
+    "reviewedAt": "2026-11-17",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 640,
+    "requiresExactMenuName": true
   }
 ];
