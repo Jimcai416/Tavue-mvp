@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011Ch946YJWSEmEM5bjC4mMV",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Spaghetti visible and prominent\",\n    \"Cooked shellfish and crustacean clearly present in sauce\",\n    \"Golden pasta colour natural and appetising\",\n    \"Glossy, well-coated sauce with visible ingredients\",\n    \"Phone thumbnail shows dish detail adequately\"\n  ],\n  \"phone_observations\": [\n    \"Pasta and mixed seafood sauce clearly visible\",\n    \"Sufficient detail to identify as a seafood pasta dish\",\n    \"Natural colours preserved in thumbnail\"\n  ],\n  \"protein_evidence\": {\n    \"protein\": \"vongole e gambarone\",\n    \"translation_note\": \"vongole = clams; gambarone = large prawn/shrimp\"\n  },\n  \"uncertainties\": [\n    \"Title specifies 'vongole e gambarone' (clams and large prawn) but clams are not visually distinguishable from other shellfish in the photograph. Only shrimp/prawn-like crustaceans are clearly identifiable in the visible sauce.\",\n    \"Shellfish species cannot be confirmed by appearance alone; relying on source title for clam identification.\",\n    \"No exact canonical phrase provided in source description—only generic 'Primi' category and filename identifier.\"\n  ],\n  \"reason\": \"Image quality, composition, photography, and phone thumbnail are all acceptable (scores ≥4). However, identity check fails: the source title provides a specific dish name ('Spaghetti con vongole e gambarone') but the description field contains only the generic category 'Primi' with no matching canonical phrase. The visible protein (shrimp/prawn in sauce) matches 'gambarone' but clams ('vongole') claimed in the title are not visually verifiable—only inferred from source declaration. Protocol requires exact canonical phrase from source title or description: the filename is excluded, and 'Primi' alone is insufficient. Without a confirmed canonical name matching source text and without visual proof of all named proteins, identity cannot be verified. Hold for clarification of authoritative dish name.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1605,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 604,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
