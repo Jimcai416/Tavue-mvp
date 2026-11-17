@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011Ch9AJQWyPKpK5HbfNRxmb",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Brown braised meat with visible sauce\",\n    \"Green scallion garnish\",\n    \"White steamed rice portion\",\n    \"Clear dish presentation on patterned fabric\"\n  ],\n  \"phone_observations\": [\n    \"Meat and rice components visible in thumbnail\",\n    \"Garnish detail legible\",\n    \"Composition and plating apparent\"\n  ],\n  \"protein_evidence\": {\n    \"protein\": \"Chicken\",\n    \"source_quote\": \"Kung Pao Chicken served with white rice\"\n  },\n  \"uncertainties\": [\n    \"Source title declares 'Kung Pao Chicken' but photograph shows no visible peanuts, cashews, or dried chillies characteristic of authentic Kung Pao preparation\",\n    \"Visible meat composition and sauce profile inconsistent with typical Kung Pao Chicken appearance\",\n    \"No evidence of the defining peanut component in either full image or thumbnail\"\n  ],\n  \"reason\": \"Identity check fails. The source metadata declares 'Kung Pao Chicken' but the photograph displays a braised meat dish with green scallion garnish and sauce that lacks the visually distinctive peanuts or cashews and dried chillies essential to Kung Pao identity. The visible form contradicts the named dish category. A generic braised chicken with rice cannot be accepted as Kung Pao without photographic evidence of signature components. Protein is source-quoted as chicken; however, the dish identity mismatch prevents acceptance.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1642,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 477,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

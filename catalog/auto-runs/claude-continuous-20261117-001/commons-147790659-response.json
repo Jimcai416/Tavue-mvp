@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011Ch9AJ1HE8b4QYaoBoSwaq",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Dark brown meat pieces with glossy sauce\",\n    \"Green onion garnish visible\",\n    \"White steamed rice mound\",\n    \"Clear glass serving plate\"\n  ],\n  \"phone_observations\": [\n    \"Meat dish and rice both visible\",\n    \"Adequate resolution to identify components\",\n    \"Natural colour rendering\"\n  ],\n  \"protein_evidence\": {\n    \"protein\": \"Chicken\",\n    \"source_quote\": \"Kung Pao Chicken served with white rice\"\n  },\n  \"uncertainties\": [\n    \"Title claims 'Kung Pao Chicken' but source description does not explicitly name chicken as the protein—it only appears in the filename title\",\n    \"No visible peanuts, characteristic of authentic Kung Pao, present in the dish\",\n    \"Meat pieces appear larger and darker than typical diced chicken in Kung Pao preparations; could indicate beef or another protein\"\n  ],\n  \"reason\": \"Identity check fails. While the title metadata states 'Kung Pao Chicken', the official description field only says 'Kung Pao Chicken served with white rice' without explicit protein confirmation in the structured description. More critically, the visible meat does not match Kung Pao Chicken's typical appearance: pieces are large, irregularly cut, and very dark/heavily braised, lacking the characteristic diced, lighter-coloured chicken cubes. No peanuts are visible, contradicting the dish's defining ingredient. The meat's appearance is more consistent with braised beef or similar preparations. The protein cannot be reliably confirmed by visual inspection alone, and the dish variant does not match source identity visually. Hold pending clarification of actual protein and dish authenticity.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1642,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 522,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

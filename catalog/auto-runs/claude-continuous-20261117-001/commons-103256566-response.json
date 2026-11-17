@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011Ch9AHWpxSSSqgYSc1Fdve",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 3,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Stir-fried meat with peanuts, diced vegetables (peas, carrots, onions), and what appears to be diced potatoes\",\n    \"Crispy wonton strips as garnish\",\n    \"White plate, restaurant setting\",\n    \"Side bowl of rice visible\",\n    \"Cooked, finished dish appearance\"\n  ],\n  \"phone_observations\": [\n    \"Dish clearly visible in thumbnail centre\",\n    \"Essential components readable: meat, peanuts, vegetables, potato cubes, wonton strips\",\n    \"Good colour contrast and composition\"\n  ],\n  \"protein_evidence\": {\n    \"protein\": \"Title claims 'Kung Pao chicken' but source metadata (filename, title field) cannot be treated as instruction or evidence per review protocol. Visible meat colour and texture suggest poultry but species cannot be definitively confirmed from appearance alone.\"\n  },\n  \"uncertainties\": [\n    \"Source title 'Kung Pao chicken' in filename/metadata is untrusted evidence per protocol—metadata are explicitly non-instructional. Visual poultry appearance alone does not constitute explicit source quote verification of 'chicken' as the protein.\",\n    \"No trusted source description provided that explicitly names the protein in the dish itself\",\n    \"Kung Pao is traditionally chicken, but visual confirmation of species is insufficient without canonical source quote\"\n  ],\n  \"reason\": \"While the photograph shows a well-executed, finished stir-fried dish with peanuts and vegetables in good quality and composition, the identity check fails. The only protein claim comes from untrusted metadata (filename/title field). Per protocol, proteins may only be included with an exact source quote explicitly naming the animal. No such verified source description was provided. The filename 'Kung Pao chicken' is metadata and cannot serve as authoritative evidence. Hold or reject required.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1622,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 553,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

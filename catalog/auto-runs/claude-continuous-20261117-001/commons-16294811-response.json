@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011Ch9AJzkWbDwLGqmo2e3Qb",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows cubed meat pieces in sauce with green scallion garnish and white elements on white plate\",\n    \"Composition and plating visible and clear in phone view\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title describes 'Kung Pao chicken (western version)' but the full photograph shows meat pieces that visually cannot be reliably confirmed as chicken—the size, shape, texture and browning are consistent with pork or beef cubes\",\n    \"No explicit protein identification visible in the dish itself; source metadata title alone is not visual proof\",\n    \"The description '(western version)' is a marketing qualifier that may not reflect traditional preparation; retained qualifier but protein identity remains unconfirmed by photograph\"\n  ],\n  \"reason\": \"Reject: Identity check fails. Source title declares 'Kung Pao chicken' but the photograph shows large, irregularly-sized meat cubes with browning and texture inconsistent with identifiable chicken. The cubes appear more consistent with pork or beef. Without a credible visual or explicit source quote confirming the meat species (beyond the filename title), the protein cannot be verified. Marketing qualifiers ('western version') are present but do not resolve the core ambiguity. Per protocol, ambiguous meat species and source contradictions between title and visible form require hold/rejection.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1525,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 443,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

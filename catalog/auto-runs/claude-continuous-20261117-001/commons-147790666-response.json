@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011Ch9AJqcM6JgKR5i7UqraL",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"White rice mound, properly cooked and plated\",\n    \"Brown meat curry with green scallion garnish\",\n    \"Clear glass serving plate\",\n    \"Natural daylight, home/casual setting\"\n  ],\n  \"phone_observations\": [\n    \"Rice and curry components clearly visible\",\n    \"Plate and fabric background recognisable\",\n    \"Dish structure legible in thumbnail\"\n  ],\n  \"protein_evidence\": {\n    \"protein\": null\n  },\n  \"uncertainties\": [\n    \"Source title claims 'Kung Pao Chicken' but photograph shows no visible peanuts, cashews, or dried chillies characteristic of authentic Kung Pao\",\n    \"Meat species cannot be reliably determined from appearance alone; brown colour and texture are consistent with beef, lamb, or other dark meat curry, not exclusively chicken\",\n    \"Dish structure and gravy consistency resemble a braised/stewed preparation rather than the stir-fried profile typical of Kung Pao\",\n    \"Source metadata (title, author, description) is untrusted evidence and cannot override visual ambiguity\"\n  ],\n  \"reason\": \"Protein identity unverifiable. The photograph shows a brown meat curry with rice, but the visible form does not confirm chicken, and characteristic Kung Pao elements (peanuts, cashews, dried chillies, stir-fried texture) are absent. Source title and description metadata are untrusted and cannot override the gap between claimed identity and observable dish characteristics. Meat species cannot be inferred from appearance; explicit visual evidence of chicken is required. Hold criteria for protein uncertainty are met.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1642,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 505,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

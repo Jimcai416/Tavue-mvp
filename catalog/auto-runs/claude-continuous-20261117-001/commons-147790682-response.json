@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011Ch9AJRzH8bRT1Z4UJKJqP",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Plate clearly visible in thumbnail with white rice portion and darker meat curry\",\n    \"Garnish with green onions visible on meat component\",\n    \"Portions and colour contrast readable at phone size\"\n  ],\n  \"protein_evidence\": {\n    \"protein\": \"Chicken\"\n  },\n  \"uncertainties\": [\n    \"Source title states 'Kung Pao Chicken' but photograph shows what appears to be a braised/stewed beef curry dish with intact large meat chunks, not the diced poultry and peanut composition characteristic of Kung Pao preparation\",\n    \"Visual appearance contradicts stated identity: Kung Pao Chicken typically features small diced pieces and visible peanuts; this shows large braised meat chunks in gravy more consistent with beef stew or similar preparation\",\n    \"Species conflict: metadata claims chicken; visible form shows substantial meat chunks suggesting beef\"\n  ],\n  \"reason\": \"Identity check fails. The source title claims 'Kung Pao Chicken' but the photograph displays what appears to be a braised beef curry or stew with large meat chunks in dark gravy, garnished with green onions—visually incompatible with Kung Pao preparation (diced chicken with peanuts and characteristic spicing). This is a material contradiction between source-declared identity and visible form. The dish quality, sharpness, and photographic standards are acceptable, but the fundamental identity mismatch triggers rejection per protocol: 'Source contradictions => hold' escalates to reject due to inability to verify actual dish identity.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1642,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 489,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
