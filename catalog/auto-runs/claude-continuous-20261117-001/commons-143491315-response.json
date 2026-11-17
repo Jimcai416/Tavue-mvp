@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011Ch9Dzc5yAMSM71oW4a5VX",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows ingredient display: leafy greens at top, noodles and prepared components in middle and bottom rows\",\n    \"Individual ingredient bowls visible but no finished plated dish evident\",\n    \"Appears to be an ingredient station or food service setup\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title/description identifies a restaurant (Gyu Gyu) but provides no specific dish name\",\n    \"Image shows raw ingredients and prepared components in baskets and bowls, not a finished plated dish\",\n    \"No cooked, assembled, or plated food is visible in either full source or thumbnail\",\n    \"Cannot establish identity: no canonical dish name provided in source metadata\"\n  ],\n  \"reason\": \"Rejection: This is an ingredient display or food service prep station, not a finished, exposed, plated dish. The photograph shows raw vegetables in baskets, noodles, proteins, and other components in individual bowls—preparation stage, not a complete dish ready for consumption. Source title provides only restaurant name and location, not a specific dish identity. No finished food presentation is visible in either the full photograph or phone thumbnail. Identity check fails due to absence of dish-specific source description.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1682,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 414,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
