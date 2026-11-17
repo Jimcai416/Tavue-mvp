@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011Ch9MA45E1A9xNTNkPamaB",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Long-grain basmati rice, well-cooked and visibly seasoned with spices\",\n    \"Four halved hard-boiled eggs arranged on the surface\",\n    \"Dark brown meat pieces visible in the centre, consistent with slow-cooked lamb or mutton\",\n    \"Visible vegetables (orange carrot pieces, green herbs/onion)\",\n    \"Natural plating on white dish, home-style presentation\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows rice dish with egg halves\",\n    \"Central meat component visible but not species-identifiable from photograph alone\",\n    \"Colour and composition consistent with biryani\",\n    \"Food is prominent and central in phone view\",\n    \"No clipping of essential components\"\n  ],\n  \"protein_evidence\": {\n    \"protein\": \"mutton\",\n    \"source_quote\": \"Mutton Biriyani Kolkata Style\"\n  },\n  \"uncertainties\": [\n    \"Species ambiguity: 'mutton' in source title may refer to goat or sheep in regional contexts; visual appearance alone cannot distinguish between mature lamb, mutton, or goat meat in cooked form\",\n    \"Source metadata (title/description) is untrustable per instructions; visible meat form does not independently prove species identity\"\n  ],\n  \"reason\": \"Dish is visually finished, well-exposed, sharply detailed, naturally coloured, and appetising. Phone thumbnail shows all essential components clearly. However, identity verification fails due to species ambiguity: the source declares 'mutton' but this term is regionally ambiguous (sheep/goat/lamb distinctions), and the cooked meat appearance alone cannot visually confirm the specific animal species. Per protocol, ambiguous meat species must be held. Regional variant 'Kolkata Style' is preserved in source title but cannot be canonicalized without resolving the protein identity uncertainty.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1617,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 564,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

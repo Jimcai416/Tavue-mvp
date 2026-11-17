@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011Ch9M9Xyig2Q3pcxamZBTy",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Yellow-golden rice with visible browning and spice flecks\",\n    \"Visible meat pieces (pale brown/tan coloured) scattered throughout and prominently on top\",\n    \"Cooked, finished plated dish on white ceramic plate\",\n    \"Natural lighting, appetising appearance\"\n  ],\n  \"phone_observations\": [\n    \"Rice and meat components clearly visible at thumbnail resolution\",\n    \"Spiced rice texture readable in reduction\",\n    \"Meat pieces prominent and distinguishable\",\n    \"Overall dish identity maintained in phone thumbnail\"\n  ],\n  \"protein_evidence\": {\n    \"protein\": \"Murgh (chicken)\",\n    \"source_quote\": \"Kachhi Murgh Dum Biryani\"\n  },\n  \"uncertainties\": [\n    \"Title specifies 'Kachhi Murgh' (raw chicken prepared) but source description states only 'Dum Biryani Plate' without meat species confirmation\",\n    \"Meat species appears consistent with chicken in appearance but source metadata title and description do not perfectly align on animal identity\",\n    \"Variant qualifier 'Kachhi' (raw-marinated preparation method) appears in filename title but not in provided description field\"\n  ],\n  \"reason\": \"Source metadata contains a discrepancy: the filename title 'Kachhi Murgh Dum Biryani (plated)' specifies chicken as the protein, but the description field states only 'Dum Biryani Plate' without naming the meat. The image quality, photograph composition, phone thumbnail clarity, and finished plated presentation all meet acceptance standards. However, the conflicting identity evidence between title and description—where the description does not explicitly confirm the protein species—creates sufficient uncertainty to hold pending clarification. The 'Kachhi' variant qualifier also appears only in the title, not the description. All visual and technical checks pass, but identity verification requires resolution of the metadata contradiction.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1633,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 577,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

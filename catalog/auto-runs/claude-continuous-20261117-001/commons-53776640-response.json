@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011Ch9M8ewe5H4bEjrQNP48Q",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 2\n  },\n  \"visible_support\": [\n    \"Jarred cooking sauce, not a finished dish\",\n    \"Tesco Vindaloo Cooking Sauce label clearly visible\",\n    \"Red/brown sauce in glass jar with blue lid\",\n    \"Label states: 'A fiery curry sauce with tomatoes, red chillies and onions'\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail shows packaged cooking sauce jar\",\n    \"Label branding dominant\",\n    \"No finished food dish visible\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [],\n  \"reason\": \"Rejection: This is a bottled/jarred cooking sauce ingredient, not a finished prepared dish. The image shows commercial packaging (Tesco Vindaloo Cooking Sauce) with the product label prominent. Per guidelines, printed food on packaging is explicitly rejected. A cooking sauce in a jar does not constitute a 'finished, exposed, likely photographic dish' with 'appetising, prominent' components readable in the thumbnail. While photograph quality is good, identity check fails because the subject is a condiment/ingredient, not a completed food item suitable for Tavue food photography review.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1427,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 391,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011Ch9M9adEAHV4iaXc8eG3b",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 2,\n    \"composition\": 2,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows only compressed, undifferentiated tan/brown rice mass\",\n    \"No readable food components visible at this resolution\",\n    \"No distinct texture, protein, or structural elements discernible\",\n    \"Insufficient detail to verify dish identity or finished state\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title claims 'chicken' but no chicken is visibly identifiable in either full image or thumbnail\",\n    \"Image appears to show rice in mid-preparation or in-pot state, not a finished plated dish\",\n    \"Severe lack of sharpness and definition across both images prevents component verification\",\n    \"Full image suffers from poor focus, inadequate lighting (appears to be in a metal pot under poor ambient light), and no appetising presentation\",\n    \"Phone thumbnail is entirely unreadable—essential components cannot be distinguished\"\n  ],\n  \"reason\": \"Rejection on multiple grounds: (1) Photograph quality fails—severe softness, poor lighting, composition shows raw/mid-preparation state in cookware rather than a finished, exposed dish; (2) Phone thumbnail is non-diagnostic—compressed brown mass shows no readable components, failing the requirement for 'readable essential components'; (3) Identity unverified—despite source title naming 'chicken', no poultry is visibly identifiable in the rice mass; (4) All quality scores fall below the minimum threshold of 4. This appears to be an in-pot intermediate stage, not a finished food photograph suitable for review.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1940,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 480,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011Ch9M8xLQPZpK9yvMtc2aE",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Buttered naan base visible\",\n    \"Orange/red sauce layer present\",\n    \"Cooked sausage pieces visible\",\n    \"Purple/red onion slices visible\",\n    \"Seasoning visible on protein\"\n  ],\n  \"phone_observations\": [\n    \"Plated dish clearly visible in thumbnail\",\n    \"Naan and toppings readable at reduced size\",\n    \"Orange sauce and protein components distinguishable\"\n  ],\n  \"protein_evidence\": {\n    \"protein\": \"chicken-mushroom sausage\",\n    \"source_quote\": \"fried chicken-mushroom sausage\"\n  },\n  \"uncertainties\": [\n    \"Source title describes 'Vindaloo on buttered naan' but dish appears to be pizza on naan, not a vindaloo curry plated on naan\",\n    \"Vindaloo is a spiced curry sauce; the orange/red base appears to be a pizza-style tomato/red sauce, not vindaloo preparation\",\n    \"Identity mismatch: photograph shows naan-bread pizza with sausage and onion, not vindaloo curry served with naan\",\n    \"The presentation and sauce type contradict the stated dish name\"\n  ],\n  \"reason\": \"Reject: Identity check fails. Source title claims 'Vindaloo on buttered naan' but the photograph shows a pizza-style dish baked on naan bread with tomato-based sauce, sausage, and onion—not vindaloo curry plated with naan as the title suggests. While the photograph quality, phone thumbnail, and protein documentation (chicken-mushroom sausage) are acceptable, the fundamental dish identity does not match the source description. The mismatch between claimed dish type (vindaloo curry) and visible presentation (naan pizza) creates unresolved source contradiction.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1959,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 555,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
