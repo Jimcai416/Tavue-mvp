@@ -2396,3 +2396,8 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-continuous-20261117-001
 
 - **Mushroom and scallion risotto** — Elfer  at the  English-language Wikipedia. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/); [source](https://commons.wikimedia.org/wiki/File:Bowl_of_mushroom_and_scallion_risotto.jpg). Local asset: `reviewed-commons-25331958.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-continuous-20261117-001
+
+- **Mushroom risotto** — [Karen and Brad Emerson](https://www.flickr.com/people/10293577@N03). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Mushroom_risotto_(3990739885).jpg). Local asset: `reviewed-commons-103534442.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Risotto with Chicken Breast & Mushrooms** — Andy Li. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:RISOTTO_POLLO_E_FUNGHI_-_Marrocco%27s_2025-05-09.jpg). Local asset: `reviewed-commons-164987324.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.

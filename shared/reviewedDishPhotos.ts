@@ -38270,5 +38270,52 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-103534442",
+    "title": "File:Mushroom risotto (3990739885).jpg",
+    "author": "Karen and Brad Emerson",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mushroom_risotto_(3990739885).jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Mushroom_risotto_%283990739885%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "76c147b13e0bc20ed9ffc398b4238ab4a1d46d9b",
+    "name": "Mushroom risotto",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-103534442.jpg",
+    "assetSha256": "d252a6750dcaec6e153717b692b81e322e016f7708d03acb76feb545711ec14b",
+    "reviewedAt": "2026-11-17",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 700,
+    "requiresExactMenuName": true,
+    "authorUrl": "https://www.flickr.com/people/10293577@N03"
+  },
+  {
+    "id": "commons-164987324",
+    "title": "File:RISOTTO POLLO E FUNGHI - Marrocco's 2025-05-09.jpg",
+    "author": "Andy Li",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:RISOTTO_POLLO_E_FUNGHI_-_Marrocco%27s_2025-05-09.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3a/RISOTTO_POLLO_E_FUNGHI_-_Marrocco%27s_2025-05-09.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "ef24e13205f11bfd8455b514046de7b2fa7eb3af",
+    "name": "Risotto with Chicken Breast & Mushrooms",
+    "aliases": [],
+    "proteins": [
+      "chicken"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-164987324.jpg",
+    "assetSha256": "302ddd7f0a314d081e5e3bac606fa0f1ef7c3fbc6d357310340a4ec8e7a08915",
+    "reviewedAt": "2026-11-17",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 723,
+    "requiresExactMenuName": true
   }
 ];
