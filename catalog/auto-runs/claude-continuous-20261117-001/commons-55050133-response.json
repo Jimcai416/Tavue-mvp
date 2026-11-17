@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011Ch94gCRNjKDop911WE7eq",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Braised poultry in red wine sauce\",\n    \"Fresh thyme garnish visible\",\n    \"Cast-iron Dutch oven (red exterior, cream interior)\",\n    \"Natural browning and caramelization on meat surface\",\n    \"Rich red-brown braising liquid\",\n    \"Multiple poultry pieces\"\n  ],\n  \"phone_observations\": [\n    \"Poultry pieces clearly visible in braising liquid\",\n    \"Red wine sauce evident\",\n    \"Spicing and browning readable\",\n    \"Thyme garnish distinguishable\",\n    \"Finished dish presentation confirmed\"\n  ],\n  \"protein_evidence\": {\n    \"protein\": null\n  },\n  \"uncertainties\": [\n    \"Title claims 'Coq au vin' (rooster) but source does not explicitly state poultry species\",\n    \"Metadata title/description are untrusted; no independent confirmation of 'coq' (rooster) vs. chicken or other poultry in the visible image\",\n    \"Without explicit source confirmation of species, cannot verify canonical identity\"\n  ],\n  \"reason\": \"Reject: Identity check fails. The metadata title 'Coq au vin simmering' and description claim rooster ('coq'), but this is metadata (untrusted evidence per instructions). The photograph shows a finished, well-executed braised poultry dish in red wine with fresh thyme—excellent quality, sharp, naturally lit, appetizing, and readable in the phone thumbnail. However, the source does not contain an explicit quote confirming the poultry species (rooster vs. chicken vs. other). Per instructions, ambiguous meat species or unconfirmed protein identity must be held. The title alone is insufficient to override the requirement for exact source-quoted protein evidence. A new submission with explicit species confirmation in the source description would be acceptable.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1746,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 553,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

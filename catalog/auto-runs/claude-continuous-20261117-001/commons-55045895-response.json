@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011Ch94gCqRjc9FfWrMC19MC",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Braised poultry in deep burgundy sauce with glossy surface\",\n    \"Prominent leg/thigh with visible bone handle\",\n    \"Layered rolled meat pieces suggesting traditional braised preparation\",\n    \"Fresh green salad (arugula/rocket visible) in white bowl\",\n    \"Rustic wooden table setting\",\n    \"Professional plating on white dish with linen\"\n  ],\n  \"phone_observations\": [\n    \"Central braised poultry clearly visible in phone thumbnail\",\n    \"Deep burgundy sauce colour readable\",\n    \"Green salad side visible at frame edge\",\n    \"Essential dish components present and identifiable at thumbnail scale\"\n  ],\n  \"protein_evidence\": {\n    \"protein\": \"source metadata states 'Coq au vin' (rooster/chicken in wine)\"\n  },\n  \"uncertainties\": [\n    \"Source title/description field states 'Coq au vin' but no explicit protein declaration appears in provided source quote text itself—only in filename metadata\",\n    \"Species ambiguity: 'coq' traditionally means rooster, but modern coq au vin often uses chicken; visual appearance does not definitively distinguish mature rooster from chicken breast/leg\",\n    \"No explicit source quote provided confirming the exact protein species in canonical source documentation\"\n  ],\n  \"reason\": \"Image shows a finished, sharply detailed, appetising braised poultry dish in burgundy sauce with fresh greens side. Photography, lighting, composition and phone thumbnail all pass. However, the protocol requires canonical_name to be 'copied exactly from source title or description' with an exact source quote, and proteins must include 'an exact source quote explicitly naming each animal.' The metadata filename 'Coq au vin' and description field 'Coq au vin with greens' provide the dish identity, but no explicit protein quote is separately documented in the source description field provided. While 'Coq au vin' traditionally means rooster (coq), standard modern recipes often use chicken, and the visual form cannot definitively prove the species. Hold pending explicit source documentation of the exact protein species and confirmation that the canonical source title/description field can be quoted verbatim.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1498,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 629,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
