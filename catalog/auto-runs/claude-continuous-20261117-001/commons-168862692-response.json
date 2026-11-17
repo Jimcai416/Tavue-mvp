@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011Ch9LivHiNxwcG7CuKPNbL",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Golden-brown fried triangular pastries in cast-iron skillet\",\n    \"Red chilli slices and yellow/green pepper strips as garnish\",\n    \"Cooked, exposed finished dish\",\n    \"Natural lighting, appetizing presentation\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows fried pastries with red chilli topping\",\n    \"Skillet and garnish visible and identifiable\",\n    \"Prominent, readable essential components\"\n  ],\n  \"protein_evidence\": {\n    \"protein\": null\n  },\n  \"uncertainties\": [\n    \"Source description claims 'cheese' but no cheese is visibly evident in either full photograph or thumbnail\",\n    \"Samosa identity unconfirmed by visual inspection alone; pastry type consistent with samosa but could be other fried triangular pastry\",\n    \"No animal protein (meat/seafood) is visible or identifiable\",\n    \"Description states 'vegetables and cheese' but cheese is not visually supported; vegetables (tomato, peppers) are visible but cheese is not\"\n  ],\n  \"reason\": \"Identity check fails. Source description ('Samosa pastry with vegetables and cheese') cannot be verified visually. Cheese is not visible in the photograph; only fried pastries, red chilli, and peppers are evident. No protein (meat or seafood) is identifiable. The samosa identity itself is not definitively confirmed by visual appearance alone. The contradiction between source text (cheese claimed) and visible form (no cheese apparent) creates unresolved uncertainty that prevents acceptance under identity verification requirements.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1622,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 494,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

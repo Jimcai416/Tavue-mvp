@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011Ch9LhiVWrG6ZjTg82eTXp",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Yellow pancake/dosa visible in phone thumbnail\",\n    \"Bubbled surface texture consistent with full image\",\n    \"Subject occupies adequate frame space\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title contains 'File:' prefix and metadata artifacts inconsistent with clean canonical naming\",\n    \"Description is a recipe narrative with multiple preparation methods, not a finished dish identity\",\n    \"Jaggery (sweet) version vs. 'Cheppi surnali' (bland) distinction unresolved—cannot determine which variant is present visually\",\n    \"Turmeric added 'while grinding' or as powder—preparation detail contradicts visual identity requirement\",\n    \"No single canonical dish name extractable from source; 'Surnoli dosa' vs. 'Surnali' spelling inconsistency in description itself\"\n  ],\n  \"reason\": \"Source metadata is malformed (File: prefix) and description is a recipe narrative with contradictory variant details rather than a dish identity statement. The sweet vs. bland variant cannot be visually distinguished. Spelling inconsistency ('Surnoli' vs. 'Surnali') within the source itself prevents confident canonical naming. No protein is present. Source does not provide a clean, unambiguous finished-dish identity suitable for canonical naming.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1930,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 443,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
