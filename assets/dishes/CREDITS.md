@@ -2417,3 +2417,8 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-continuous-20261117-001
 
 - **Penne all'arrabbiata** — [Benoît Prieur](https://www.wikidata.org/wiki/Q42790984). [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Penne_all%27arrabbiata_-_Pizzeria_Bella_Italia_(Cr%C3%A9pieux-la-Pape)_-_2.jpg). Local asset: `reviewed-commons-107387720.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-continuous-20261117-001
+
+- **Pasta Arrabbiata** — Missvain. [CC BY 4.0](https://creativecommons.org/licenses/by/4.0); [source](https://commons.wikimedia.org/wiki/File:Umbria_Glen_Ellen_-_Oct_2018_-_Stierch_03.jpg). Local asset: `reviewed-commons-73608112.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Tortellini in Brodo** — Marco Carboni. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Tortellini_In_Brodo.jpg). Local asset: `reviewed-commons-4599786.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
