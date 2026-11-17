@@ -40699,5 +40699,51 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 540,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-101608648",
+    "title": "File:Sheekh kebab by pradeep chamaria.jpg",
+    "author": "Pradeep Chamaria",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sheekh_kebab_by_pradeep_chamaria.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Sheekh_kebab_by_pradeep_chamaria.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "92c8abaa2b49508eb7e83310af927502fa24188b",
+    "name": "Sheekh kebab",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-101608648.jpg",
+    "assetSha256": "1626a2c70754ddfbe6d958dda8ca32da3ec4dcd99a90ce2197cac65133b4f95a",
+    "reviewedAt": "2026-11-17",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 640,
+    "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-40850349",
+    "title": "File:THE MOUTH WATERING SEEKH KEBAB.jpg",
+    "author": "Chauhan.dhananjaisingh",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:THE_MOUTH_WATERING_SEEKH_KEBAB.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a0/THE_MOUTH_WATERING_SEEKH_KEBAB.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "523b9a5dfb08c83feee29e61ad6beaf5611814a0",
+    "name": "Seekh Kebab",
+    "aliases": [],
+    "proteins": [
+      "lamb"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-40850349.jpg",
+    "assetSha256": "d794b3b5fcf2c49e4c376eb4c60aa76615475e291d23a02afbaf272fe30f365c",
+    "reviewedAt": "2026-11-17",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 540,
+    "height": 960,
+    "requiresExactMenuName": true
   }
 ];
