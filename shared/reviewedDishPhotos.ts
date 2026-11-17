@@ -38498,5 +38498,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "height": 639,
     "requiresExactMenuName": true,
     "authorUrl": "https://www.flickr.com/people/58367355@N00"
+  },
+  {
+    "id": "commons-55200449",
+    "title": "File:Tagliatelle Bolognese at restaurant We Pasta.jpg",
+    "author": "JIP",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tagliatelle_Bolognese_at_restaurant_We_Pasta.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/28/Tagliatelle_Bolognese_at_restaurant_We_Pasta.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "fefa1b9f10cecfd3cf2abc248b91a3138b5da286",
+    "name": "Tagliatelle Bolognese",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-55200449.jpg",
+    "assetSha256": "01a68263b46c617fb01412311eee40b72d1f5deaf490e00777285dbc1c3eee88",
+    "reviewedAt": "2026-11-17",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];
