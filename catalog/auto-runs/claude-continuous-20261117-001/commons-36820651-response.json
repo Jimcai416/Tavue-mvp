@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011Ch94fDGSawe43RjTb2JT7",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Golden-brown braised poultry in amber liquid\",\n    \"Intact bird presentation in oval baking dish\",\n    \"Natural home-cooking context\",\n    \"Clear detail of roasted skin and sauce\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail shows braised poultry in liquid clearly\",\n    \"Golden colour and dish shape visible\",\n    \"Subject prominent and recognizable\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'Coq au vin' (rooster) but source metadata is from filename only, not authoritative dish description\",\n    \"Visible form shows whole poultry but species cannot be determined from appearance—could be chicken, rooster, or other bird\",\n    \"No explicit source quote confirming rooster/coq identity in provided description\",\n    \"Metadata origin (Wikimedia filename) is untrusted evidence per instructions\"\n  ],\n  \"reason\": \"Identity check fails. The filename-derived title 'Coq au vin' claims a specific poultry species (rooster/coq), but the source description provided contains no explicit quote confirming this species. The visible photograph shows braised poultry in sauce but cannot prove it is rooster rather than chicken or another bird. Per protocol, ambiguous meat species or source contradictions must be held. The photograph itself is well-executed and appetising, but identity cannot be verified from trusted sources.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1605,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 460,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

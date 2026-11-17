@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011Ch94fDPdp8nRG1keYkUSj",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Braised meat over rice on white plate\",\n    \"Rich brown sauce with mushrooms and pearl onions visible\",\n    \"Garnish of fresh green herbs\",\n    \"Fine dining presentation with water glass and cutlery\"\n  ],\n  \"phone_observations\": [\n    \"Meat and sauce clearly visible in thumbnail\",\n    \"Rice base prominent\",\n    \"Central composition readable at small scale\"\n  ],\n  \"protein_evidence\": {\n    \"protein\": \"No explicit protein species named in source description\"\n  },\n  \"uncertainties\": [\n    \"Source title references 'coq au vin' (chicken in wine), but metadata describes only 'coq au vin' without explicit confirmation of chicken species in the visible dish\",\n    \"Braised meat colour and texture consistent with chicken, but source does not provide an explicit quote naming chicken as the protein\"\n  ],\n  \"reason\": \"Identity check fails. The source description states 'A plate of coq au vin' but provides no explicit quote that names 'chicken' as the protein. Per protocol, chicken species must be confirmed by exact source quote naming the animal; tradition and dish name alone are insufficient. The photograph quality is excellent and all technical checks pass, but the protein cannot be accepted without direct evidence from source text.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1627,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 422,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
