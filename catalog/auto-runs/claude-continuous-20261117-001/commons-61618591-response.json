@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011Ch9Mpzup2g77AQf88gRQJ",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Plate of diced, golden-orange coloured fried rice visible and prominent in thumbnail\",\n    \"White plate clearly distinguished from red background\",\n    \"Rice pieces appear cooked and glistening with oil\",\n    \"No essential components clipped\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title lists multiple unrelated dishes (Pandesal, Puto, Chicken gizzard, Adobo, Chicken feet, Sinangag, Fried rice) without specifying which appears in this photograph\",\n    \"Metadata describes this as 'Fried rice in the Philippines' but does not name the specific dish variant or identify any protein visibly present\",\n    \"No explicit source quote identifying the dish by a singular canonical name\",\n    \"Visible form is fried rice (sinangag) but source does not isolate this dish with a specific title or variant qualifier\"\n  ],\n  \"reason\": \"Identity check fails. The source title/description lists seven different dishes without specifying which one is depicted in this photograph. While the visible dish is clearly fried rice (sinangag), the metadata does not provide an explicit, isolated canonical name for it. The only reference to 'Fried rice' appears buried in a list alongside unrelated items. This ambiguity prevents extraction of a reliable, source-matched canonical name. No protein is visibly identifiable in the dish itself, and none is explicitly quoted in source text as an ingredient of this particular item. The photograph and phone thumbnail quality are acceptable, but identity verification cannot be satisfied.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1788,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 493,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

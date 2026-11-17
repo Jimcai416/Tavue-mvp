@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011Ch9MqS6sVwWUnH2tSnTG3",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Finished, cooked stew with glossy dark-brown sauce\",\n    \"Multiple meat pieces, brown and tender\",\n    \"Orange/red vegetable chunks (carrot visible)\",\n    \"White ceramic bowl, clean presentation\",\n    \"Natural light, appetising appearance\",\n    \"Sharp detail in both full source and phone thumbnail\"\n  ],\n  \"phone_observations\": [\n    \"Stew clearly visible in white bowl\",\n    \"Rich brown sauce prominent\",\n    \"Meat pieces and vegetables readable\",\n    \"Colour and composition consistent with source\",\n    \"Thumbnail size adequate for recognition\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title/description lists 15 different Philippine dishes (Fried pork, Chicken gizzards, Menudo, Nilaga, Dinuguan, Giniling, Adobo, Paksiw, Bopis, Bicol Express, Ginataan, Lechon Kawali, Tilapia, Pinangat, Tocino, Sinigang, Kinilaw, Kare-Kare) but photograph shows only ONE dish\",\n    \"No explicit match between visible stew form and any single named dish in source metadata\",\n    \"Dark stew with carrots and meat could match multiple dishes (Nilaga, Menudo, or generic Estofado/stew preparation)\",\n    \"Protein species not explicitly stated in source; meat type unconfirmed visually (pork, beef, chicken, or offal)\",\n    \"Source description does not identify which of the 15 listed dishes is actually pictured\"\n  ],\n  \"reason\": \"Source metadata lists 15 different Filipino dishes without specifying which one is shown in this photograph. The image shows a finished, well-photographed stew with meat and vegetables in rich brown sauce, but cannot be matched to a specific canonical dish name without explicit source confirmation. Identity check fails due to source ambiguity. Protein species unconfirmed. Hold pending clarification of which single dish is represented.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1831,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 605,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
