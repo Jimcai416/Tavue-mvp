@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011Ch95EFGArhGzXYKu38J14",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Wheat noodles, cooked and glistening\",\n    \"Diced dark meat visible (charred/seared pieces)\",\n    \"White onion or cabbage shreds\",\n    \"Green peas or scallion pieces\",\n    \"Stir-fried preparation style\",\n    \"Steamed dumplings visible in background\"\n  ],\n  \"phone_observations\": [\n    \"Noodle-based dish clearly visible\",\n    \"Dark meat pieces distinguishable\",\n    \"Vegetable mix readable\",\n    \"Overall composition legible at thumbnail size\"\n  ],\n  \"protein_evidence\": {\n    \"protein\": \"Buff Chow mein\",\n    \"source_quote\": \"Buff Chow mein\"\n  },\n  \"uncertainties\": [\n    \"Species ambiguity: 'Buff' in the source title is colloquial/regional for buffalo/yak meat in South Asian contexts, but this is not an explicit English species name in the source description\",\n    \"No explicit confirmation that the dark meat pieces are buffalo/yak rather than beef or another dark meat\",\n    \"Regional variant qualifier 'Buff' is present but its exact meaning requires regional knowledge not provided in explicit sourcing\"\n  ],\n  \"reason\": \"The photograph shows a finished, well-exposed stir-fried noodle dish with clear identity as chow mein. Quality, sharpness, lighting and composition all meet thresholds (all ≥4). The phone thumbnail legibly displays the noodles and essential components. However, the source uses the colloquial/regional term 'Buff' rather than an explicit English animal species name. While 'Buff' is widely understood in South Asian cuisine to mean buffalo or yak meat, the source description does not provide an explicit species quote (e.g. 'buffalo chow mein' or 'yak chow mein'). Per protocol, protein must be named with an exact source quote explicitly naming the animal species. The ambiguity of 'Buff' as colloquial terminology rather than an explicit species declaration prevents acceptance under strict protein evidence requirements.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1615,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 617,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

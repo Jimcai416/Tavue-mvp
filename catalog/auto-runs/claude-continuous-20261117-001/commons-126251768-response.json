@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011Ch95EFJ9RSdEBAdNWM2nB",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Stir-fried noodles with sliced meat strips\",\n    \"Purple cabbage garnish\",\n    \"Orange/carrot pieces\",\n    \"White plate presentation\",\n    \"Metal bowl with sauce visible in background\"\n  ],\n  \"phone_observations\": [\n    \"Noodle dish clearly visible in thumbnail\",\n    \"Purple cabbage garnish prominent\",\n    \"Meat strips identifiable\",\n    \"Overall composition readable\"\n  ],\n  \"protein_evidence\": {\n    \"protein\": \"Chicken\",\n    \"source_quote\": \"Chicken Chow mein\"\n  },\n  \"uncertainties\": [\n    \"Visual appearance shows brown/reddish strips consistent with many protein sources; metadata claims 'Chicken' but strips appear darker/more seasoned than typical pale chicken, resembling duck or pork colouration\",\n    \"No explicit visual confirmation that the meat is chicken—coloration and texture more consistent with darker poultry (duck) or pork\",\n    \"Source metadata may not reflect actual dish contents\"\n  ],\n  \"reason\": \"Identity check fails. Metadata declares 'Chicken Chow mein' but the visible meat strips display a deep brown, heavily seasoned appearance inconsistent with typical chicken chow mein. The colour, texture and searing pattern resemble duck or pork far more closely. Protein species cannot be visually confirmed as chicken from the photograph alone. Without explicit, unambiguous visual or credible source evidence matching the declared protein, this cannot be accepted as the stated dish. All other quality and photograph checks pass (sharpness, lighting, composition, appeal all ≥4), but the fundamental identity discrepancy between declared and apparent meat type creates an unresolved uncertainty that blocks acceptance.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1615,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 528,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
