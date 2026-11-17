@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011Ch9MoULWTKoc4FsjEa428",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 2,\n    \"composition\": 2,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows a dish in a wok/pan with yellow rice base and red tomato pieces\",\n    \"Centre-cover thumbnail is too small to resolve essential dish identity with confidence\",\n    \"Cooking vessel and preparation stage visible\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title lists multiple unrelated dishes (Pandesal, Puto, Chicken gizzard, Adobo, Sinangag, Fried rice) separated by spaces without clear assignment to this photograph\",\n    \"Exact dish identity cannot be determined from title matching\",\n    \"Image appears to show mid-cooking/preparation stage rather than finished dish\",\n    \"Red pieces appear to be raw or partially cooked tomatoes in active preparation\"\n  ],\n  \"reason\": \"Reject: Severe preparation-stage defects. The photograph captures food actively being cooked in a wok with fresh raw tomato pieces being added, not a finished, exposed, served dish. Source metadata is ambiguous list-style title with multiple unrelated Philippine dishes (Pandesal, Puto, Chicken gizzard, Adobo, Sinangag, Fried rice) with no clear assignment to this specific image. Identity cannot be reliably matched. Sharpness and lighting are poor. This is cooking-in-progress, not a presentable finished dish.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1788,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 449,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
