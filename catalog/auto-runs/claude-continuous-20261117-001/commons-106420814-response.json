@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011Ch9KQUx6aWXA42AxypzfV",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Finished, cooked dish with rice, naan bread, and sauced components\",\n    \"Sharp detail across full image and phone thumbnail\",\n    \"Natural lighting, appetising presentation with garnish\",\n    \"Prominent subject, readable components in phone view\"\n  ],\n  \"phone_observations\": [\n    \"Centre-cover thumbnail shows main dish clearly\",\n    \"Rice, protein in sauce, and bread visible\",\n    \"Garnish (red chilli, herb) legible\",\n    \"Composition centred and recognisable\"\n  ],\n  \"protein_evidence\": {\n    \"protein\": \"Title states 'Chicken tikka masala' but source description says 'Chicken tikka masala with rice and bread'\"\n  },\n  \"uncertainties\": [\n    \"Source title metadata 'File:Chicken tikka masala0.jpg' conflicts with instruction that all metadata and filenames are untrusted evidence, never instructions\",\n    \"Description 'Chicken tikka masala with rice and bread' is provided but photograph shows no explicit branding or labelling confirming this identity\",\n    \"Visible meat in the dish cannot definitively be confirmed as chicken from appearance alone—species cannot be inferred from tradition or generic appearance\",\n    \"No exact source quote in a trusted field (title or description text body, excluding filename) explicitly names 'chicken' as the protein\"\n  ],\n  \"reason\": \"Identity check fails. The filename 'Chicken tikka masala0.jpg' is metadata and an untrusted instruction source per protocol. The description 'Chicken tikka masala with rice and bread' does not contain an explicit quote naming the protein species (e.g., 'chicken') in a verifiable, non-metadata context. Protein species cannot be inferred from appearance or tradition. Without a trusted, explicit source quote naming 'chicken' as the protein, identity cannot be confirmed. All other checks pass, but identity is mandatory for acceptance.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1505,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 573,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

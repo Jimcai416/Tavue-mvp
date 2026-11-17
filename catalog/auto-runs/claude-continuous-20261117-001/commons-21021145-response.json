@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011Ch9KQRQmxXA1NMhuT7UuC",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Golden-brown charred skewers on wok\",\n    \"Cubed protein with spice coating\",\n    \"Active cooking stage in pan\",\n    \"Clear bamboo skewers\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail shows skewered protein during cooking\",\n    \"Golden colour and char visible at reduced scale\",\n    \"Skewers readable in phone view\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title claims 'Chicken Tikka Masala' but image shows preparation/grilling stage, not finished Tikka Masala dish\",\n    \"Tikka Masala traditionally is a creamy tomato-based curry sauce; this image shows only grilled/charred skewers without sauce\",\n    \"Cannot visually confirm protein species from cubed form alone\",\n    \"Source description states this 'can be grilled' but does not confirm chicken or finished state\",\n    \"No explicit protein naming in source (title assumes chicken without declaring it)\"\n  ],\n  \"reason\": \"Reject: image shows raw/mid-preparation grilling stage, not a finished Tikka Masala dish. Source title claims identity as 'Chicken Tikka Masala' but provides no explicit protein quote naming chicken, only assumption. The dish depicted lacks the essential creamy curry sauce characteristic of Tikka Masala. Preparation stages are excluded per guidelines. Source description confirms this is a step in cooking method, not a plated finished dish suitable for food photography review.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1630,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 483,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
