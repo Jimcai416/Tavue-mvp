@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011Ch9EXoLVjjLvxmx8dZP6A",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Finished, cooked fried rice dish\",\n    \"Visible red meat pieces throughout (consistent with sausage)\",\n    \"Corn kernels, green onion, egg visible\",\n    \"Fresh cucumber and lemon garnish\",\n    \"Served on decorative plate\",\n    \"Natural lighting, appetising presentation\"\n  ],\n  \"phone_observations\": [\n    \"Fried rice clearly visible and prominent\",\n    \"Red meat component visible in thumbnail\",\n    \"Garnish visible but small\",\n    \"Plate pattern recognisable\"\n  ],\n  \"protein_evidence\": {\n    \"protein\": \"naem (sausage)\",\n    \"source_quote\": \"sausage fried rice\"\n  },\n  \"uncertainties\": [\n    \"Source title 'Khao phat naem' and description 'sausage fried rice' refer to the dish type, but 'naem' is a specific Thai fermented sausage. The visible red meat pieces are consistent with this, but the exact animal species (pork/chicken) is not explicitly stated in source metadata.\",\n    \"Species of meat in sausage not declared in source—cannot verify whether pork, chicken, or other species without explicit source statement.\"\n  ],\n  \"reason\": \"Image quality, photography and phone thumbnail all excellent; dish is clearly a finished, appetising fried rice with visible sausage pieces and garnish. However, the source does not explicitly name the animal species comprising the sausage ('naem'). Thai naem is traditionally pork-based, but this is tradition-inference, not an explicit source statement. The instructions require 'an exact source quote explicitly naming each animal' for protein evidence. The source provides only the generic term 'sausage' and the Thai name 'naem' without species declaration. This creates unresolved uncertainty about protein composition that meets the hold criterion.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1610,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 560,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
