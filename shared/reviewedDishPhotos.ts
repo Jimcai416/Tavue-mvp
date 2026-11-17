@@ -41719,5 +41719,51 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "height": 643,
     "requiresExactMenuName": true,
     "authorUrl": "https://www.flickr.com/people/10559879@N00"
+  },
+  {
+    "id": "commons-79269220",
+    "title": "File:Loempia from the Ying Ping, Winschoten (2019) 01.jpg",
+    "author": "Donald Trung Quoc Don (Chữ Hán: 徵國單)  -  Wikimedia Commons  -  © CC BY-SA 4.0 International . ( Want to use this image? ) Original publication 📤: --  Donald Trung 『徵國單』  ( No Fake News 💬 ) ( WikiProject Numismatics  💴) ( Articles 📚 )  23:51, 27 May 2019 (UTC)",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Loempia_from_the_Ying_Ping,_Winschoten_(2019)_01.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Loempia_from_the_Ying_Ping%2C_Winschoten_%282019%29_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "999917428ca898ccf3935453b0e6d62c22912d18",
+    "name": "Lumpia",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-79269220.jpg",
+    "assetSha256": "ddf30e6cddf21faecbd4be5da22b7a2500dfa26286e2b0ae066d5293befacc5f",
+    "reviewedAt": "2026-11-17",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 540,
+    "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-126851267",
+    "title": "File:Lumpia or fried spring rolls.jpg",
+    "author": "Anne Molina",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lumpia_or_fried_spring_rolls.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Lumpia_or_fried_spring_rolls.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "7b11d73397e2bd3acc1227146857cdf6469d004e",
+    "name": "Lumpia or fried spring rolls",
+    "aliases": [],
+    "proteins": [
+      "pork"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-126851267.jpg",
+    "assetSha256": "d4cff1e37afc91eb9559634eb2147943a3b26a7fe5d84d3e522110b91c0fce5e",
+    "reviewedAt": "2026-11-17",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];
