@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011Ch9ER8gtL65YQsGkzqVPn",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Wide stir-fried rice noodles visible\",\n    \"Chinese broccoli (gai lan) present\",\n    \"Green vegetables and egg visible\",\n    \"Dark soy sauce coating evident\",\n    \"Wok-cooked appearance confirmed\"\n  ],\n  \"phone_observations\": [\n    \"Dish clearly visible in thumbnail centre-cover\",\n    \"Noodles, broccoli and protein distinguishable\",\n    \"Adequate detail for recognition\"\n  ],\n  \"protein_evidence\": {\n    \"protein\": \"chicken\",\n    \"source_quote\": \"rice noodles cooked in a wok with chicken, chinese broccoli, egg, black soy sauce\"\n  },\n  \"uncertainties\": [\n    \"Title claims 'Pad See Ew' (Thai dish) but source credits 'Night + Market Song, Silverlake CA' (US restaurant). Pad See Ew is a established Thai dish; this attribution to a US venue creates regional/authenticity ambiguity without explicit statement that this is a US restaurant's version of the Thai dish.\",\n    \"Source metadata lists 'rice noodles' but Pad See Ew traditionally uses wide fresh rice noodles (sen lek or sen yai). Visual confirmation shows wide noodles, but source description does not preserve the Thai variant qualifier.\"\n  ],\n  \"reason\": \"While the photograph is sharp, well-lit, and appetising, with clear identity as a stir-fried noodle dish with chicken, broccoli and egg, there is a critical identity conflict: the Thai dish name 'Pad See Ew' paired with a Silverlake, California restaurant credit creates ambiguity about whether this is an authentic Thai dish or a US restaurant's interpretation without explicit clarification. The source description omits key Thai variant qualifiers (fresh wide rice noodles, Thai preparation style). These source contradictions prevent confident identity verification. Hold pending source clarification of the dish's actual origin and name.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1643,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 585,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011Ch9EQuDXHWpi4u7NDAzmt",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 2,\n    \"composition\": 2,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows only rice and fork in soft focus\",\n    \"Essential dish components not clearly distinguishable\",\n    \"Inadequate detail to verify dish identity\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title references two dishes (Pad See Ew + Pineapple Fried Rice) but image composition is unclear and ambiguous\",\n    \"No clear visual separation or identification of which dish is which\",\n    \"Severe softness and lack of sharpness throughout full image\",\n    \"Poor lighting with heavy shadows obscuring food detail\",\n    \"Fork and hand in frame detract from subject prominence\",\n    \"Cannot reliably identify proteins or verify finish state\"\n  ],\n  \"reason\": \"Image fails multiple critical criteria: (1) sharpness score 2/5 — entire image is soft-focused and blurred, with no crisp detail of finished dish; (2) quality score 2/5 — severe softness, poor lighting, and unfocused composition prevent assessment of proper exposure and colour; (3) phone thumbnail score fails — only rice and fork visible in unsharp coverage, essential food components not clearly readable; (4) identity check fails — source lists two dishes but photograph does not clearly separate or identify them, creating ambiguity about which dish is being submitted; (5) composition poor — utensil and partial hand in frame, subject not prominent. All scores fall well below minimum 4/5 threshold. Image does not meet photographic standards for food review intake.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1536,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 483,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011Ch9ERZrUR7m6LWq9y8Ays",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Wide stir-fried noodles with dark soy sauce base\",\n    \"Prominent crispy fried protein element (top centre)\",\n    \"Green leafy vegetable (appears to be Chinese broccoli/gai lan)\",\n    \"Caramelised onions and garlic visible\",\n    \"White plate, natural daylight\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows stir-fried noodle dish with crispy fried element\",\n    \"Green vegetables and caramelised components readable\",\n    \"Dish prominence and essential components visible at this scale\"\n  ],\n  \"protein_evidence\": {\n    \"protein\": \"unspecified\"\n  },\n  \"uncertainties\": [\n    \"Source title declares 'phat si hiew avec des nouilles kuai tiao sen yai' (Pad See Ew with wide noodles), but the crispy fried protein component dominating the composition is not explained in title or description\",\n    \"The fried element appears to be a crispy protein (possibly chicken or pork), but source metadata does not explicitly name the animal species\",\n    \"Title references only noodles and sauce, not the prominent fried protein topping—identity contradiction between title scope and visible dish composition\"\n  ],\n  \"reason\": \"Source title describes pad see ew (stir-fried wide noodles with soy sauce) but the actual dish prominently features a large crispy-fried protein component (top centre, occupying ~30% of plate real estate) that is neither named nor explained in the metadata. The identity check fails because the source declaration does not match the full visible composition. Protein species cannot be inferred from appearance alone and is not explicitly stated in source text. The photograph and thumbnail are sharp, well-lit and appetising, but the dish identity cannot be confirmed without source clarification of the fried protein component and explicit naming of the meat species. Hold pending source identity confirmation.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1805,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 576,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
