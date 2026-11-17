@@ -38362,5 +38362,29 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-146419457",
+    "title": "File:Cucina Verona - March 2024 - Sarah Stierch.jpg",
+    "author": "Missvain",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cucina_Verona_-_March_2024_-_Sarah_Stierch.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/84/Cucina_Verona_-_March_2024_-_Sarah_Stierch.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "c3844a1e5774651a413ed32ec423806c175cc334",
+    "name": "Penne pasta with arrabbiata sauce and shrimp",
+    "aliases": [],
+    "proteins": [
+      "seafood"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-146419457.jpg",
+    "assetSha256": "1e6fc2d35fa8c89b25b0b340eef68cb76a80d9f6c7aa06626e20d717ee0662f3",
+    "reviewedAt": "2026-11-17",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 960,
+    "requiresExactMenuName": true
   }
 ];

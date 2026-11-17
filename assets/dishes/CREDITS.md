@@ -2409,3 +2409,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-continuous-20261117-001
 
 - **Bucatini all'amatriciana** — LPLT. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Bucatini_amatriciana.JPG). Local asset: `reviewed-commons-15105943.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-continuous-20261117-001
+
+- **Penne pasta with arrabbiata sauce and shrimp** — Missvain. [CC BY 4.0](https://creativecommons.org/licenses/by/4.0); [source](https://commons.wikimedia.org/wiki/File:Cucina_Verona_-_March_2024_-_Sarah_Stierch.jpg). Local asset: `reviewed-commons-146419457.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
