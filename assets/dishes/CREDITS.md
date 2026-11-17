@@ -2558,3 +2558,11 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-continuous-20261117-001
 
 - **Sukiyaki** — N509FZ. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Sukiyaki_after_cooking_at_Ebisu_An,_The_Gate_City_Mall,_Beijing_(20201208193258).jpg). Local asset: `reviewed-commons-108775519.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-continuous-20261117-001
+
+- **Crispy kangkong** — ChristianCelestial. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Deep_Fries_Water_Spinach_In_Tempura_Batter.jpg). Local asset: `reviewed-commons-126634526.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Tempura** — Danaimge. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:HK_%E5%8C%97%E8%A7%92_North_Point_%E5%92%8C%E7%94%B0_Wada_Japanese_Restaurant_%E6%94%BE%E9%A1%8C_Buffet_dinner_%E5%A4%A9%E5%A9%A6%E7%BE%85_deep-fried_Tempura_Mar-2013.JPG). Local asset: `reviewed-commons-25407298.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Satsuma age** — Original uploader;  Hykw-a4  at  ja.Wikipedia. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/); [source](https://commons.wikimedia.org/wiki/File:Satsumaage.jpg). Local asset: `reviewed-commons-3703352.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Tempura set meal** — Ocdp. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Tempura_001.jpg). Local asset: `reviewed-commons-92447108.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Tempura and Hegisoba in Yuzawa** — Syced. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Tempura_and_Hegisoba_in_Yuzawa.jpg). Local asset: `reviewed-commons-98743883.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
