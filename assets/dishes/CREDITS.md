@@ -2392,3 +2392,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 
 - **Lasagna bolognese** — [Rebecca Siegel](https://www.flickr.com/people/70757891@N00). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Lasagna_bolognese,_February_2012.jpg). Local asset: `reviewed-commons-18808924.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Home made lasagna** — Olos88. [Public domain](https://creativecommons.org/publicdomain/mark/1.0/); [source](https://commons.wikimedia.org/wiki/File:Lasagna_by_Olos88.JPG). Local asset: `reviewed-commons-11772689.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-continuous-20261117-001
+
+- **Mushroom and scallion risotto** — Elfer  at the  English-language Wikipedia. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/); [source](https://commons.wikimedia.org/wiki/File:Bowl_of_mushroom_and_scallion_risotto.jpg). Local asset: `reviewed-commons-25331958.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
