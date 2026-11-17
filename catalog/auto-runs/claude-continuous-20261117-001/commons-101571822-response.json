@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011Ch9JPiCS1zzhrS4h5NVRb",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"White rice base visible\",\n    \"Fried onions (brown, crispy strands) distributed across surface\",\n    \"Cashew nuts (whole, golden) visible\",\n    \"Fresh mint/cilantro garnish (green leaves)\",\n    \"Cooked in metal pressure cooker/pot\",\n    \"Steam-cooked appearance consistent with dum technique\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows rice dish with toppings\",\n    \"Fried onions and cashews visible and readable at reduced size\",\n    \"Composed as a finished, plated dish in serving vessel\",\n    \"Natural colour and appetising presentation maintained\"\n  ],\n  \"protein_evidence\": {\n    \"protein\": null\n  },\n  \"uncertainties\": [\n    \"Source title states 'Veg Kaju Dum Biryani' (vegetarian) but metadata filename is 'Veg Kaju Dum Biryani.jpg' — no contradiction, but requires careful identity verification\",\n    \"Description explicitly declares vegetarian status and cashew as main ingredient; no meat visible or claimed\"\n  ],\n  \"reason\": \"REJECT: identity check fails. Source explicitly declares this a VEGETARIAN biryani ('vegetarian version of biryani', 'Veg' prefix, description emphasizes cashew nuts as main ingredient with no meat mentioned). The review protocol accepts 'chicken/beef/pork/duck/lamb/seafood' only, with exact source quotes naming each animal. This dish contains no protein from the permitted list. The photograph quality, composition, lighting, and phone thumbnail are all strong (scores 4+), and the dish is clearly a finished, appetising, well-detailed dum biryani. However, the absence of a named permitted protein means the identity check cannot pass. Home cooking is welcome, but only if it matches identity criteria. Vegetarian variants fall outside the scope of this reviewer.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1707,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 573,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
