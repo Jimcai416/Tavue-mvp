@@ -2370,3 +2370,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 - **Zebra pound cake** — axmai. [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:Zebra_pound_cake.jpg). Local asset: `reviewed-commons-164460605.jpg`. Uncropped resized JPEG.
 - **Cookies with jam and nuts** — Sentimentalna. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:%D0%9A%D0%BE%D0%BB%D0%B0%D1%87%D0%B8_%D1%81%D0%BE_%D1%9F%D0%B5%D0%BC_%D0%B8_%D0%BE%D1%80%D0%B5%D0%B2%D0%B8.jpg). Local asset: `reviewed-commons-178994339.jpg`. Uncropped resized JPEG.
 - **Baked apples from Plana de L'Arc** — Juan Emilio Prades Bel. [CC BY 4.0](https://creativecommons.org/licenses/by/4.0); [source](https://commons.wikimedia.org/wiki/File:Manzanas_cocinadas_al_horno._Gastronom%C3%ADa_de_los_pueblos_de_la_Plana_de_L%27Arc_(Castell%C3%B3n).jpg). Local asset: `reviewed-commons-179211386.jpg`. Uncropped resized JPEG.
+
+### Claude automatic intake claude-continuous-20261117-001
+
+- **pasta alla cacio e pepe** — it:Markx89. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Cacio_e_pepe_2024.jpg). Local asset: `reviewed-commons-148742302.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.

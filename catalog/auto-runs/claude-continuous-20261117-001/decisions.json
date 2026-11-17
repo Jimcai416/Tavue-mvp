@@ -71,7 +71,7 @@
     "verdict": "held",
     "reviewedBy": "claude-api:claude-haiku-4-5-20251001",
     "reviewedAt": "2026-11-17T19:26:28.978546+00:00",
-    "reason": "claude_full_and_phone_review_passed",
+    "reason": "duplicate_id_source_or_exact_dish",
     "modelOutput": {
       "verdict": "accept",
       "canonical_name": "Cacio e pepe",
@@ -106,6 +106,13 @@
       "protein_evidence": {},
       "uncertainties": [],
       "reason": "Full-image and thumbnail both show a finished, sharply detailed cacio e pepe dish with natural colours and appetising appearance. The creamy sauce, black pepper, and Pecorino Romano cheese are all visibly prominent. The source description exactly matches the visible form: spaghetti with cheese and pepper, the defining components of this classic Roman pasta. All checks pass and all scores meet threshold."
+    },
+    "sourceCheck": {
+      "consistent": true,
+      "changedFields": [],
+      "reason": null,
+      "checkedAt": "2026-11-17T19:26:30.821638+00:00",
+      "sourceSha1": "f4d8cf7a9b2ed62c645cf103af040bfada125289"
     }
   },
   {
@@ -219,7 +226,7 @@
       "height": 96,
       "fit": "centre-cover"
     },
-    "verdict": "held",
+    "verdict": "approved",
     "reviewedBy": "claude-api:claude-haiku-4-5-20251001",
     "reviewedAt": "2026-11-17T19:26:28.980469+00:00",
     "reason": "claude_full_and_phone_review_passed",
@@ -258,6 +265,36 @@
       "protein_evidence": {},
       "uncertainties": [],
       "reason": "Full source photograph and phone thumbnail both show a finished, well-plated cacio e pepe dish with sharp detail, natural colouring, and appetising appearance. Spaghetti is evenly coated with creamy sauce, generously seasoned with black pepper, and prominently displayed. The title and visual evidence align perfectly. No meat proteins are present or claimed. All acceptance criteria met."
-    }
+    },
+    "sourceCheck": {
+      "consistent": true,
+      "changedFields": [],
+      "reason": null,
+      "checkedAt": "2026-11-17T19:26:30.821706+00:00",
+      "sourceSha1": "a9ff7de6d99d40d9973128c2442fdf5d5f0ef634"
+    },
+    "photo": {
+      "id": "commons-148742302",
+      "title": "File:Cacio e pepe 2024.jpg",
+      "author": "it:Markx89",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cacio_e_pepe_2024.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Cacio_e_pepe_2024.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "commonsSha1": "a9ff7de6d99d40d9973128c2442fdf5d5f0ef634",
+      "name": "pasta alla cacio e pepe",
+      "aliases": [],
+      "proteins": [],
+      "approved": true,
+      "kind": "photograph",
+      "asset": "reviewed-commons-148742302.jpg",
+      "assetSha256": "6b15128094a5aeb9430088e92318920e3ec2b4aa6a407257357c15d1019b06f3",
+      "reviewedAt": "2026-11-17",
+      "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+      "width": 960,
+      "height": 723,
+      "requiresExactMenuName": true
+    },
+    "integrationTest": "passed"
   }
 ]

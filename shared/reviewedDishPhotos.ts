@@ -38092,5 +38092,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-148742302",
+    "title": "File:Cacio e pepe 2024.jpg",
+    "author": "it:Markx89",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cacio_e_pepe_2024.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Cacio_e_pepe_2024.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "a9ff7de6d99d40d9973128c2442fdf5d5f0ef634",
+    "name": "pasta alla cacio e pepe",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-148742302.jpg",
+    "assetSha256": "6b15128094a5aeb9430088e92318920e3ec2b4aa6a407257357c15d1019b06f3",
+    "reviewedAt": "2026-11-17",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 723,
+    "requiresExactMenuName": true
   }
 ];
