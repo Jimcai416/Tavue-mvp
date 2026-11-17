@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011Ch95539A1MiogWL4Prpay",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 0,\n    \"lighting\": 0,\n    \"composition\": 0,\n    \"appeal\": 0\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows a cooking competition setup with large pots and crowd\",\n    \"No finished dish visible in phone thumbnail\",\n    \"Cooking equipment and event environment dominate the frame\",\n    \"No plated or exposed food recognizable as a finished dish\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title references 'marmitako' (a Basque fish stew) but the image shows only the competition cooking setup, not a finished plated dish\",\n    \"Cooking in progress or event documentation, not a food photograph\"\n  ],\n  \"reason\": \"This is an event/competition documentation photograph, not a food photograph. Neither the full source image nor the phone thumbnail shows a finished, exposed, plated dish suitable for menu/food review. The image captures a cooking competition scene with large pots, crowd, and cooking equipment. No finished food dish is visible or prominent enough to review. The subject is the cooking event, not the actual food product. Fails identity (not a food dish photograph), quality (event documentation), photograph (wrong subject type), and phone (no recognizable dish in thumbnail) checks.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1424,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 395,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
