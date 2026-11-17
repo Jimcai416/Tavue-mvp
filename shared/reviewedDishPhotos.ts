@@ -41010,5 +41010,53 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "height": 960,
     "requiresExactMenuName": true,
     "authorUrl": "https://www.flickr.com/people/10559879@N00"
+  },
+  {
+    "id": "commons-27620548",
+    "title": "File:Homemade chicken tikka masala.jpg",
+    "author": "Rezwalker",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Homemade_chicken_tikka_masala.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/61/Homemade_chicken_tikka_masala.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "8a3c69e9511f3c3c8451cf97e00c02fb2436fb5b",
+    "name": "Homemade chicken tikka masala",
+    "aliases": [],
+    "proteins": [
+      "chicken"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-27620548.jpg",
+    "assetSha256": "1680c7c22225df0666720e4ff7e6d7d56e7ace2f98c3e25f6660b891b856c31f",
+    "reviewedAt": "2026-11-17",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-137585212",
+    "title": "File:Taj Mahal - Chicken Tikka Massala.jpg",
+    "author": "Francesc Fort",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Taj_Mahal_-_Chicken_Tikka_Massala.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Taj_Mahal_-_Chicken_Tikka_Massala.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "bfcb0188acad9b77373de32f396fe0fed4b7f5bb",
+    "name": "Chicken Tikka Massala",
+    "aliases": [],
+    "proteins": [
+      "chicken"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-137585212.jpg",
+    "assetSha256": "ba0cbe92686799574d96b73c47a04256c589ec422fe88a27591ea560a4be56ab",
+    "reviewedAt": "2026-11-17",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 721,
+    "requiresExactMenuName": true
   }
 ];
