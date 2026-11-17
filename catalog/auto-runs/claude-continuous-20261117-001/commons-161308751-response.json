@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011Ch94BeA8Y3a4RGStWNug5",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Red sauce visible over pasta in thumbnail\",\n    \"Penne shapes clearly identifiable\",\n    \"White plate with wood surface background matches full image\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source metadata states 'pre-produced Arrabbiata' but provides no explicit protein identification\",\n    \"Arrabbiata traditionally contains no protein, but description does not confirm this preparation contains no meat\",\n    \"Image shows red tomato-based sauce but no visible meat components to verify or contradict source claim\"\n  ],\n  \"reason\": \"Identity check fails. Source title describes 'Penne on plate with pre-produced Arrabbiata' but provides no protein quote. Arrabbiata is traditionally a vegetarian pasta dish (tomato, garlic, chilli, olive oil), yet the descriptor 'pre-produced' introduces ambiguity about actual contents. Without an explicit source quote identifying animal protein or confirming vegetarian preparation, protein_evidence cannot be populated. Canonical identity cannot be established from metadata alone. All quality scores meet threshold, photograph and thumbnail are sharp and appetising, but the absence of verifiable identity documentation in source material (no manufacturer name, ingredient list, or explicit preparation statement) prevents acceptance.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1521,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 420,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
