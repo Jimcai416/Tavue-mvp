@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011Ch94Pu2fQ9bq1Yh8T18Pv",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Wide ribbon pasta (tagliatelle) in natural golden colour\",\n    \"Rich brown meat ragù sauce coating pasta and forming prominent mound on top\",\n    \"Glossy, well-cooked appearance consistent with traditional ragù preparation\",\n    \"Ceramic plate visible at plate rim with decorative blue edge\",\n    \"Home-style plating typical of Italian regional cuisine\"\n  ],\n  \"phone_observations\": [\n    \"Pasta and sauce clearly visible and prominent in thumbnail\",\n    \"Natural colours preserved in reduction\",\n    \"Dish components readable at small scale\",\n    \"Appetising appearance maintained in phone view\"\n  ],\n  \"protein_evidence\": {\n    \"protein\": \"Wildschweinsauce (wild boar sauce)\"\n  },\n  \"uncertainties\": [\n    \"Source title states 'Tagliatelle mit Wildschweinsauce' (wild boar sauce) but no explicit source description confirms wild boar as the protein ingredient—only the German metadata title does\",\n    \"Wild boar (Wildschweinsauce) is not among the canonical proteins (chicken/beef/pork/duck/lamb/seafood) specified in intake criteria\",\n    \"Source identity claims wild boar but this species falls outside the approved protein list\"\n  ],\n  \"reason\": \"Image quality, composition, sharpness and phone thumbnail all meet acceptance criteria. Pasta and sauce are clearly visible, natural, appetising and sharply detailed. However, identity check fails: the source declares wild boar (Wildschweinsauce) as the protein, which is not an approved species under the specified protein list (chicken/beef/pork/duck/lamb/seafood only). Without explicit confirmation that the meat is one of the canonical proteins, or ambiguity that might permit reinterpretation, the dish cannot be accepted. Hold pending clarification of actual meat species or source redescription.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1619,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 563,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

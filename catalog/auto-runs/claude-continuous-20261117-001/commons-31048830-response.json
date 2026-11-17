@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011Ch94PtgpSYasqxtrriHm8",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Wide ribbon pasta (tagliatelle) clearly visible\",\n    \"Rich brown meat sauce coating the pasta\",\n    \"Glossy, well-cooked appearance\",\n    \"Natural home-style plating on white dish\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows tagliatelle with meat ragù\",\n    \"Ribbon pasta shape is identifiable at reduced size\",\n    \"Brown sauce is visible and prominent\",\n    \"Appetising presentation maintained in thumbnail\"\n  ],\n  \"protein_evidence\": {\n    \"protein\": \"cinghiale\",\n    \"issue\": \"Wild boar (cinghiale) is not in the approved protein list (chicken/beef/pork/duck/lamb/seafood)\"\n  },\n  \"uncertainties\": [\n    \"Source metadata declares 'sugo di cinghiale' (wild boar sauce), but wild boar is not an approved protein category for canonical classification\",\n    \"Cannot verify if cinghiale is a regional variant name for an approved species or is genuinely wild boar\"\n  ],\n  \"reason\": \"Image quality, sharpness, lighting, composition and appeal all meet standards (scores ≥4). Dish identity is clear: tagliatelle with meat ragù. Phone thumbnail is sharp and appetising. However, the source description explicitly names 'cinghiale' (wild boar) as the protein, which falls outside the approved protein list (chicken/beef/pork/duck/lamb/seafood). Without source-level clarification that cinghiale represents an approved species, identity cannot be confirmed. Holding pending protein specification.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1618,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 498,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
