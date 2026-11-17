@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011Ch9E4CQYfotdCHz9F3c6P",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Yellow noodles, stir-fried\",\n    \"Diced meat (brown/tan pieces visible)\",\n    \"Red and orange peppers\",\n    \"White onion or cabbage pieces\",\n    \"Glossy coated finish typical of stir-fry\",\n    \"Served in white bowl on striped placemat\"\n  ],\n  \"phone_observations\": [\n    \"Noodle and vegetable composition clearly visible at thumbnail size\",\n    \"Meat pieces readable but species not definitively identifiable\",\n    \"Overall dish proportions and structure preserved in thumbnail\"\n  ],\n  \"protein_evidence\": {\n    \"protein\": null,\n    \"note\": \"Meat is visibly present but species cannot be determined from appearance alone; source title provides only generic 'Stir-fried noodle' with no explicit protein declaration\"\n  },\n  \"uncertainties\": [\n    \"Meat species not explicitly named in source description ('Stir-fried noodle' only)\",\n    \"Protein identity cannot be inferred from visual appearance alone (could be pork, beef, chicken, or other)\",\n    \"No specific dish variant name provided in source metadata\"\n  ],\n  \"reason\": \"Image quality, sharpness, lighting, composition and phone thumbnail all meet acceptance criteria. However, the source title and description provide only generic 'Stir-fried noodle' without naming a specific dish variant or explicitly identifying the meat protein visible in the photograph. Per protocol, ambiguous meat species and absent explicit protein naming require hold status. Identity check fails due to lack of specific canonical dish name and protein declaration in source.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1513,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 504,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
