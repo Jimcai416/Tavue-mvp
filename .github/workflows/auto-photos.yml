@@ -1,0 +1,45 @@
+name: Claude continuous photo discovery and intake
+run-name: Claude finds and reviews new dish photos · ${{ github.run_id }}
+on:
+  push:
+    branches: ['feat/photo-review-20261117']
+    paths: ['catalog/auto-photo-request.json']
+permissions:
+  contents: write
+concurrency:
+  group: tavue-claude-photo-intake
+  cancel-in-progress: false
+jobs:
+  collect-review-integrate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref_name }}
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: python -m pip install 'Pillow>=11,<13'
+      - run: npm ci --no-audit --no-fund
+      - run: python -m unittest discover -s scripts/photos -p test_auto_photos.py
+      - name: Claude discovery, parallel review and tested automatic intake
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          TAVUE_PHOTO_BRANCH: ${{ github.ref_name }}
+        run: python -u scripts/photos/auto_photos.py
+      - run: npm run test:photos
+      - run: npx tsc --noEmit
+      - run: npm run export:web
+      - name: Preserve decisions and receipts even if interrupted
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: claude-photo-run-${{ github.run_id }}
+          path: catalog/auto-runs/
+          retention-days: 90
+          if-no-files-found: ignore

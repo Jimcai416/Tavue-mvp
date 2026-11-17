@@ -55,7 +55,9 @@ def audit():
  progress=read(REVIEW/'progress.json')
  assert progress['finalReviewed']==len(decisions) and progress['newApproved']==len(approved)
  assert progress['held']==len(decisions)-len(approved) and progress['remainingToReview']==0
- assert progress['bundledPhotos']==len(asset_hashes)
+ # The crop audit is a completed historical queue. Later reviewed intakes may
+ # increase the live catalogue without changing this frozen checkpoint.
+ assert progress['bundledPhotos']<=len(asset_hashes)
  return {'queueAtStart':len(manifest),'reviewed':len(decisions),'approved':len(approved),'held':len(decisions)-len(approved),'remainingInThisQueue':0,'enlargedPreviews':sum(r['enlargedPreviewReviewed'] for r in decisions),'phonePreviews':sum(r['phonePreviewReviewed'] for r in decisions),'liveMetadataConsistent':sum(r['liveMetadataConsistent'] for r in decisions),'bundledPhotos':len(asset_hashes),'uniqueAssetHashes':len(set(asset_hashes)),'paidModelCalls':0,'launchTarget':10000,'shortfall':10000-len(asset_hashes),'launchReady':False,'productionDeployed':False,'nativeBinaryBuilt':False,'deviceTested':False}
 if __name__=='__main__':
  result=audit()

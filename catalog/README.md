@@ -4,6 +4,49 @@ Target: at least **10,000 distinct approved photographs**, with distinct named d
 
 Current test branch inventory (17 November 2026): **1,734 bundled reviewed photos** (408 before this crop review + 1,326 additions). The [latest review record](review-runs/2026-11-17/crop-continuous-review/README.md) exhausts all 3,697 frozen crop candidates: 1,326 accepted and 2,371 held with individual reasons. The earlier 1,054-row identity review is also complete and remains a separate historical record. Other screening categories and future collection are separate. The unchanged 10,000-photo launch gate is still 8,266 photos away; production has not been deployed.
 
+## Claude automatic collection and intake
+
+On 17 November the user explicitly authorized Claude API to find and review
+photos automatically for efficiency. The active route is now
+`.github/workflows/auto-photos.yml` and `scripts/photos/auto_photos.py`, driven by
+`auto-photo-request.json`. The legacy manual/suggestion-only commands below
+remain available; their manual-review requirement is not applied to this
+separately authorized automatic route.
+
+Claude plans specific dish searches; the collector executes Commons searches
+with at most three source requests in parallel. Existing discovery IDs and
+earlier review decisions are excluded before paid photo review. Six concurrent
+Claude Haiku 4.5 Messages requests review full photographs, actual 124×96
+centre-cover thumbnails and source evidence together. This avoids waiting for
+each discounted Message Batch to finish before submitting the next one.
+
+Automatic intake requires a complete positive model judgement, full/phone
+observations, all visual dimensions at least 4/5, no unresolved uncertainty,
+an exact source-supported dish name, explicit protein evidence, unchanged live
+source/author/licence metadata, an allowlisted licence, unique source/name, and
+passing app matching/hash regressions. Complex custom credit requests are held.
+Model scores alone do not approve photos or grant image rights. Intake decisions
+identify the Claude model, policy, provider response and usage; they never claim
+human review. No broad aliases or dietary/allergen guarantees are added.
+
+The initial continuous run has a **$15 accounted/reserved cost cap**, at most
+180 queries and 5,400 candidates. Cost reservations use the provider token-count
+endpoint, 15% input padding, and maximum output tokens at the published Haiku
+4.5 standard rates ($1/$5 per million input/output tokens, checked 17 November).
+Actual usage replaces reservations after a response. Every paid wave is pushed
+before POST; ambiguous paid requests are never automatically resubmitted.
+Responses are saved before source revalidation. Already-paid passing reviews
+can finish intake after restart without a second model call. Explicit rate
+limits back off; budget/time limits checkpoint rather than run indefinitely.
+
+Passing images, static app assets, credits and decisions are committed
+automatically to the task branch after tests. Other images remain held with
+reasons. `catalog/auto-runs/<requestId>/ledger.json` reports actual progress and
+cost; source/query records, raw provider responses and final decisions remain
+alongside it. Cloud execution uses the already configured GitHub
+`ANTHROPIC_API_KEY` secret, not a copied local key. This does not deploy
+production or bypass the separate 10,000-photo/device release gates.
+
 The repository contains:
 
 - `pilot-reviewed.json`: the 48 visually reviewed source photographs and attribution.
