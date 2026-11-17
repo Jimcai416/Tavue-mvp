@@ -2413,3 +2413,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-continuous-20261117-001
 
 - **Penne pasta with arrabbiata sauce and shrimp** — Missvain. [CC BY 4.0](https://creativecommons.org/licenses/by/4.0); [source](https://commons.wikimedia.org/wiki/File:Cucina_Verona_-_March_2024_-_Sarah_Stierch.jpg). Local asset: `reviewed-commons-146419457.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-continuous-20261117-001
+
+- **Penne all'arrabbiata** — [Benoît Prieur](https://www.wikidata.org/wiki/Q42790984). [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Penne_all%27arrabbiata_-_Pizzeria_Bella_Italia_(Cr%C3%A9pieux-la-Pape)_-_2.jpg). Local asset: `reviewed-commons-107387720.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.

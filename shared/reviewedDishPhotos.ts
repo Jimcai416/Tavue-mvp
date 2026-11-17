@@ -38386,5 +38386,28 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 960,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-107387720",
+    "title": "File:Penne all'arrabbiata - Pizzeria Bella Italia (Crépieux-la-Pape) - 2.jpg",
+    "author": "Benoît Prieur",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Penne_all%27arrabbiata_-_Pizzeria_Bella_Italia_(Cr%C3%A9pieux-la-Pape)_-_2.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/04/Penne_all%27arrabbiata_-_Pizzeria_Bella_Italia_%28Cr%C3%A9pieux-la-Pape%29_-_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "02914023128b2d818f213ef236443fac5c254728",
+    "name": "Penne all'arrabbiata",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-107387720.jpg",
+    "assetSha256": "5bfa8782c967357eae044abf4ffb9daeaab16133213a63832514d5b64be928b6",
+    "reviewedAt": "2026-11-17",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true,
+    "authorUrl": "https://www.wikidata.org/wiki/Q42790984"
   }
 ];
