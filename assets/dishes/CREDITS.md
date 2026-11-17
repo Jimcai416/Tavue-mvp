@@ -2467,3 +2467,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 - **White Truffle Risotto** — [Photograph:    Lou Stejskal  
  Derivative work: MagentaGreen](https://www.flickr.com/photos/loustejskal/). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:White_Truffle_Risotto,_2015-(01_retouched).jpg). Local asset: `reviewed-commons-77635958.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Rice cake filled with sweet bean paste and wrapped in a pickled cherry leaf** — katorisi. [CC BY 3.0](https://creativecommons.org/licenses/by/3.0); [source](https://commons.wikimedia.org/wiki/File:A_rice_cake_filled_with_sweet_bean_paste_and_wrapped_in_a_pickled_cherry_leaf,katori-city,japan.JPG). Local asset: `reviewed-commons-3655033.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-continuous-20261117-001
+
+- **Sweet bean paste and Strawberry Sushi** — [Ryosuke Hosoi](https://www.flickr.com/people/94637630@N00). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Sweet_bean_paste_and_Strawberry_Sushi.jpg). Local asset: `reviewed-commons-34077177.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.

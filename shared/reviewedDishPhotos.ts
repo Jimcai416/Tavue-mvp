@@ -38766,5 +38766,28 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-34077177",
+    "title": "File:Sweet bean paste and Strawberry Sushi.jpg",
+    "author": "Ryosuke Hosoi",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sweet_bean_paste_and_Strawberry_Sushi.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/99/Sweet_bean_paste_and_Strawberry_Sushi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "7a08d49126c6fd7b5274ddbb85cd6b86c0d09ba6",
+    "name": "Sweet bean paste and Strawberry Sushi",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-34077177.jpg",
+    "assetSha256": "dcf815240301eeb97ac1d86d06b94b25c951f092547298712209b3eaf13146ad",
+    "reviewedAt": "2026-11-17",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true,
+    "authorUrl": "https://www.flickr.com/people/94637630@N00"
   }
 ];
