@@ -2456,3 +2456,8 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 
 - **Truffle-infused arancini** — [Ewan Munro  from London, UK](https://www.flickr.com/people/55935853@N00). [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:Murano,_Mayfair,_London_(5211404336).jpg). Local asset: `reviewed-commons-24283301.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Risotto aux truffes** — [Rafael Meirelles](https://www.flickr.com/people/10940137@N08). [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:Risotto_aux_truffes_(3220172071).jpg). Local asset: `reviewed-commons-65042591.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-continuous-20261117-001
+
+- **Risotto with White Truffles from Alba** — [Arnold Gatilao  from Fremont, CA, USA](https://www.flickr.com/photos/58819758@N00). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Risotto_with_White_Truffles_from_Alba.jpg). Local asset: `reviewed-commons-14236747.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Risotto with truffles** — Marifer Veloz. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Risotto_with_truffles_in_Saudi_Arabia.jpg). Local asset: `reviewed-commons-107035481.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
