@@ -40603,5 +40603,29 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 720,
     "height": 960,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-40697376",
+    "title": "File:Gosht Paya Nihari.jpg",
+    "author": "Foodaholix",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gosht_Paya_Nihari.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Gosht_Paya_Nihari.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "392cd1b4be8f124deb8ab4b112fffdb623e2f081",
+    "name": "Gosht Paya Nihari",
+    "aliases": [],
+    "proteins": [
+      "lamb"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-40697376.jpg",
+    "assetSha256": "51b77c460e3ccfcfa3aa5cc857d8653781f5b382c1f8ce4068644838a5fd9f3c",
+    "reviewedAt": "2026-11-17",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 590,
+    "requiresExactMenuName": true
   }
 ];

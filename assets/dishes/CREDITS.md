@@ -2630,3 +2630,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 - **Thai fried rice** — en:User:Jazzcello. [CC BY 2.5](https://creativecommons.org/licenses/by/2.5); [source](https://commons.wikimedia.org/wiki/File:Thaifriedrice.jpg). Local asset: `reviewed-commons-1420206.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Gaeng massaman** — Joanbanjo. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Gaeng_massaman,_restaurant_tailand%C3%A9s,_X%C3%A0bia.jpg). Local asset: `reviewed-commons-76124860.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Beef Nihari** — Satcreak. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Beef_Nihari,_made_by_Saleha_Atif,_Pakistan.jpg). Local asset: `reviewed-commons-90967908.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-continuous-20261117-001
+
+- **Gosht Paya Nihari** — Foodaholix. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Gosht_Paya_Nihari.jpg). Local asset: `reviewed-commons-40697376.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
