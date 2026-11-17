@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011Ch9GLC3PQ41yay8JNkrKv",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Two reddish-brown meat preparations with surface char and spice crust\",\n    \"Thin onion slices and what appears to be pickled vegetable garnish\",\n    \"Green broccoli florets on white plate\",\n    \"Restaurant plating on white ceramic\"\n  ],\n  \"phone_observations\": [\n    \"Central meat patties remain clearly visible and identifiable\",\n    \"Reddish-brown colour and texture preserved in thumbnail\",\n    \"Essential dish components readable at mobile scale\"\n  ],\n  \"protein_evidence\": {\n    \"protein\": \"Description states 'Chicken Seekh kabab' but visual form is inconsistent with seekh kabab structure\"\n  },\n  \"uncertainties\": [\n    \"Title claims 'Chicken Seekh kabab' but the visual form appears to be flat patties/cutlets, not cylindrical seekh kabab\",\n    \"Second component titled 'Hariyali Tikka' is not clearly visible or distinguishable in the photograph; green broccoli is a side vegetable, not the named dish\",\n    \"Ambiguity between what is the named dish versus plated accompaniments\",\n    \"Source title format includes 'File:' prefix and metadata inconsistent with canonical extraction requirement\"\n  ],\n  \"reason\": \"Identity check fails due to material contradiction between source title (seekh kabab = cylindrical skewered preparation) and visible form (flat, patty-like cutlets). The 'Hariyali Tikka' component listed in title is not clearly identifiable as a discrete, cooked preparation in the frame; green florets appear to be broccoli side. Quality, photograph and phone checks pass, but the identity mismatch and unresolved variant ambiguity prevent acceptance. Hold for clarification of exact dish names and confirmation that visible components match named preparations.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1615,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 550,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

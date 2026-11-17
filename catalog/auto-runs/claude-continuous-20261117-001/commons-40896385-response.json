@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011Ch9GMXu1iCub78XVdt78k",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Herb-crusted seekh kebab visible\",\n    \"Spiced onion rings with lime garnish clearly present\",\n    \"Green herb coating on multiple items\",\n    \"Paneer tikka identifiable\",\n    \"Leafy greens base\"\n  ],\n  \"phone_observations\": [\n    \"Herb-crusted kebab prominent in thumbnail\",\n    \"Onion rings with lime visible\",\n    \"Multiple cooked protein components readable\",\n    \"Green herb coating apparent\"\n  ],\n  \"protein_evidence\": {\n    \"issue\": \"Source claims 'vegetarian' but visible items contradict this\",\n    \"paneer\": \"paneer tikka stated in description\",\n    \"soya\": \"afghani soya mentioned\",\n    \"conflict\": \"Seekh kebab and galouti kebab are traditionally meat preparations; source labels platter 'vegetarian' but kebab items appear meat-based or species ambiguous\"\n  },\n  \"uncertainties\": [\n    \"Source metadata states 'vegetarian tandoor platter' but seekh kebab and galouti kebab are traditionally meat dishes; visual appearance (colour, texture) suggests meat-based preparation, contradicting vegetarian claim\",\n    \"Species of any meat component not explicitly stated in source description\",\n    \"Contradiction between 'vegetarian' label and traditional kebab nomenclature creates ambiguity about actual ingredients\"\n  ],\n  \"reason\": \"Identity contradiction: source title claims 'vegetarian tandoor platter' but description lists seekh kebab and galouti kebab, which are traditionally meat preparations. Visual evidence (browning, texture) is consistent with meat cooking, not vegetarian protein. No explicit animal species named in source. The fundamental identity conflict between stated vegetarian status and listed traditional meat kebab items cannot be resolved from visual inspection alone. Hold criteria violated.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1643,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 551,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

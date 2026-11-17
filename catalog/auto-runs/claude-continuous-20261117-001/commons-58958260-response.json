@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011Ch9GLXyhrHRrTrwntsvg4",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Skewered meat kebabs on grill\",\n    \"Red/orange spiced coating visible on all skewers\",\n    \"Active charcoal fire with glowing embers below\",\n    \"Professional street-food grill setup\",\n    \"Multiple uniform skewers prepared together\"\n  ],\n  \"phone_observations\": [\n    \"Skewers clearly visible and prominent in thumbnail\",\n    \"Spiced coating colour distinguishable\",\n    \"Grill and fire context present\",\n    \"No essential food clipped\"\n  ],\n  \"protein_evidence\": {\n    \"protein\": \"mutton\",\n    \"source_quote\": \"Mutton Seekh\"\n  },\n  \"uncertainties\": [\n    \"Species ambiguity: 'mutton' in source title is imprecise—may denote sheep or goat in regional usage; no explicit statement of animal species\",\n    \"Source title uses 'mutton' but this term encompasses both Ovis aries (sheep) and Capra aegagrus hircus (goat) depending on regional convention; exact species unverifiable from visual form alone\"\n  ],\n  \"reason\": \"Image quality, composition, and phone thumbnail are strong. However, the source title 'Mutton Seekh' cannot be accepted as canonical because 'mutton' is an ambiguous species qualifier in subcontinental meat terminology—it may refer to sheep or goat meat. Per instructions, ambiguous meat species trigger a hold. The exact animal species is not explicitly named in the source description, only inferred from regional context. No other defects detected, but species ambiguity is a mandatory hold condition.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1507,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 509,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

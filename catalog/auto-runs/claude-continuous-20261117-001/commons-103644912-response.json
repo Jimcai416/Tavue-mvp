@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011Ch9GLf56AaFsFmq22FyeR",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Indian thali platter format with multiple steel bowls\",\n    \"Folded flatbreads (dosa or crepe-like wraps) prominently displayed\",\n    \"White rice mound visible\",\n    \"Red/maroon-coloured dish (likely meat preparation)\",\n    \"Multiple curry/gravy bowls with brown and darker sauces\",\n    \"White yogurt/raita bowl\",\n    \"Vegetable preparation in upper left bowl\"\n  ],\n  \"phone_observations\": [\n    \"Folded flatbreads clearly visible and prominent in thumbnail\",\n    \"Central platter composition readable\",\n    \"Red meat dish distinguishable\",\n    \"Overall platter layout identifiable\",\n    \"No critical clipping of essential components\"\n  ],\n  \"protein_evidence\": {\n    \"protein\": \"non vegetarian thali\",\n    \"confidence\": \"source states 'non vegetarian' but does not specify individual protein species\"\n  },\n  \"uncertainties\": [\n    \"Source title describes this as 'Non Veg Thali' but does not explicitly name which meats are present\",\n    \"Red/maroon dish appears to be meat but species cannot be determined from appearance alone\",\n    \"Individual curry contents (brown sauces in bowls) are ambiguous—could contain multiple proteins not visually distinguishable\",\n    \"Specific meat proteins (chicken/beef/pork/lamb/duck/seafood) are not explicitly named in source description\",\n    \"No visible protein nameplate or clear labeling of individual components\"\n  ],\n  \"reason\": \"Image quality, photograph composition, and phone thumbnail are all acceptable. However, identity check fails because the source description 'Non Veg Thali' does not explicitly name specific protein species present. Per instructions, ambiguous or unspecified meat species cannot be accepted. The red dish and curries are visually present but their exact protein composition cannot be verified against an explicit source quote naming individual animals. Hold pending source clarification of specific proteins (chicken/beef/pork/lamb/duck/seafood) with exact quotes.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1668,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 604,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

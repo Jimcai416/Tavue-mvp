@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011Ch9GLfJytbQV9XLAA7cgQ",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Steel thali plate with multiple compartments\",\n    \"Steamed white rice (centre)\",\n    \"Naan or roti bread (left side, charred markings)\",\n    \"Red/maroon curry in lower compartment (appears meat-based)\",\n    \"Brown curry in lower compartment with green herb garnish\",\n    \"Diced vegetables (onion, capsicum pieces in upper right)\",\n    \"Yogurt/raita in upper centre compartment\",\n    \"Cream/paneer-based item in right compartment\",\n    \"Sliced meat in upper right compartment (pinkish, partially visible)\"\n  ],\n  \"phone_observations\": [\n    \"Thali plate centred and readable\",\n    \"Rice, bread, and multiple curry components visible\",\n    \"Meat and accompaniments distinguishable in thumbnail\",\n    \"Essential dish structure preserved in phone crop\"\n  ],\n  \"protein_evidence\": {\n    \"protein\": \"non vegetarian thali\"\n  },\n  \"uncertainties\": [\n    \"Source title states 'non vegetarian thali' but does not explicitly name specific meat species (chicken/beef/pork/lamb/duck/seafood)\",\n    \"Sliced meat in upper right compartment appears pinkish but species cannot be definitively identified from visual appearance alone\",\n    \"Red curry meat component species unspecified in source description\",\n    \"No explicit animal name appears in source title or description\"\n  ],\n  \"reason\": \"Image quality, photograph composition, phone thumbnail clarity, and dish identity as a thali all meet acceptance criteria. However, the source description provides only the generic label 'non vegetarian thali' without naming specific meat species. The sliced meat visible in the upper right compartment and the red curry component show animal protein, but the exact species (chicken/beef/pork/lamb/duck/seafood) cannot be determined from visual inspection alone and are not explicitly stated in the source metadata. Per protocol, ambiguous meat species or unspecified animal proteins require hold status. The canonical_name cannot be completed without explicit protein identification from source text.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1668,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 607,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
