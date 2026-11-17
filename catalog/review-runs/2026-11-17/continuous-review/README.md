@@ -14,4 +14,4 @@ Validation passed locally: canonical matching and metadata/hash checks for all 4
 
 **Production is not deployed; launchReady is false.** The 10,000-photo target is still **9,592 photographs short**, and the broader crop/discovery work remains unresolved. Native export does not establish signed binaries, installation, camera behaviour or real-device acceptance. Those checks remain outstanding. This Windows environment has no configured Android SDK/Java or connected phone.
 
-Cloud verification will be recorded after the complete review commit passes the branch workflow.
+Cloud verification also passed: [GitHub run 44079319462](https://github.com/Jimcai416/Tavue-mvp/actions/runs/44079319462), code commit `5f338855378daa62f422c965cb8da79febb1eea9`. All photo/Worker/scale regressions, TypeScript, saved-queue checks, both native exports and 408-asset hash checks, web export and real Chromium UI/photographer-link checks passed. Screenshots and the native-export receipt are retained in the workflow artifact. This does not change the outstanding production/device/collection gates above.
