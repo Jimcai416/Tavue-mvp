@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011Ch94jHbWMCR1RddDjuiyu",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Raw/marinated fish pieces (pale, translucent, partially opaque pink-white tissue visible)\",\n    \"Corn kernels (boiled, pale yellow)\",\n    \"Sweet potato pieces (orange, boiled)\",\n    \"Green lettuce bed\",\n    \"White plate, wooden table background\"\n  ],\n  \"phone_observations\": [\n    \"Central raw fish preparation clearly visible in thumbnail\",\n    \"Corn and sweet potato components identifiable\",\n    \"No cooked or finished dish appearance evident\"\n  ],\n  \"protein_evidence\": {\n    \"protein\": \"lenguado (sole/flounder)\"\n  },\n  \"uncertainties\": [\n    \"Source title describes 'Ceviche de lenguado' (sole ceviche), but the dish is a raw/marinating preparation stage, not a finished exposed cooked dish\",\n    \"Ceviche is cured rather than cooked by heat; classified as raw/preparation stage per review guidelines\"\n  ],\n  \"reason\": \"Reject: Ceviche de lenguado is a cured/marinating raw fish preparation, not a finished, heat-exposed cooked dish. The visible raw, translucent, partially opaque fish pieces indicate preparation stage rather than a finished photographic dish suitable for Tavue food intake. While photograph quality, sharpness, lighting and composition are acceptable (all ≥4), and components are identifiable in the phone thumbnail, the identity check fails because ceviche represents raw/preparation stage food processing rather than finished cuisine as defined by review criteria.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1626,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 482,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
