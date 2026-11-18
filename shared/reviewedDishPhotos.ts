@@ -43721,5 +43721,77 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 723,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-197206226",
+    "title": "File:Ginger and shallot yóulínjī with rice, Wing Loong Restaurant, Melbourne.jpg",
+    "author": "Alpha",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ginger_and_shallot_y%C3%B3ul%C3%ADnj%C4%AB_with_rice,_Wing_Loong_Restaurant,_Melbourne.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Ginger_and_shallot_y%C3%B3ul%C3%ADnj%C4%AB_with_rice%2C_Wing_Loong_Restaurant%2C_Melbourne.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "8c422015e41026ad810d3cb88bd42b5ac3f652f8",
+    "name": "Ginger and shallot yóulínjī with rice",
+    "aliases": [],
+    "proteins": [
+      "chicken"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-197206226.jpg",
+    "assetSha256": "597b85d3f8223ded3bfa67a3a32341a3960af24afb3606f142c19931d0562d4d",
+    "reviewedAt": "2026-11-18",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 643,
+    "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-164590717",
+    "title": "File:Khao Man Gai at Nong's Khao Man Gai.jpg",
+    "author": "Simon Tsu",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Khao_Man_Gai_at_Nong%27s_Khao_Man_Gai.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/12/Khao_Man_Gai_at_Nong%27s_Khao_Man_Gai.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "a1b73b278cfe0e218bf2cb36c84eef83e68b304a",
+    "name": "Khao Man Gai",
+    "aliases": [],
+    "proteins": [
+      "chicken"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-164590717.jpg",
+    "assetSha256": "42be8a470bf9e084418b5cbb7440d7369eec1c36bed7c0a2f81839428edb1b81",
+    "reviewedAt": "2026-11-18",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-178780029",
+    "title": "File:Gulai Chicken - Bali 2025-11-19.jpg",
+    "author": "Andy Li",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gulai_Chicken_-_Bali_2025-11-19.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/65/Gulai_Chicken_-_Bali_2025-11-19.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "eb5406099649ebb83a153b004d702736dcf3e67c",
+    "name": "Gulai Chicken",
+    "aliases": [],
+    "proteins": [
+      "chicken"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-178780029.jpg",
+    "assetSha256": "ef212537a3791d4b5572852b3b9ecf60f40dc322780db50a8b515d29964d1de5",
+    "reviewedAt": "2026-11-18",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 723,
+    "requiresExactMenuName": true
   }
 ];
