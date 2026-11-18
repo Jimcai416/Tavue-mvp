@@ -5405,3 +5405,11 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Khash** — Шнапс  (и блюда тоже). [Public domain](https://creativecommons.org/publicdomain/mark/1.0/); [source](https://commons.wikimedia.org/wiki/File:%D0%A5%D0%B0%D1%88_%D0%BD%D0%B0_%D1%81%D1%82%D0%BE%D0%BB%D0%B5.jpg). Local asset: `reviewed-commons-25263573.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Supplì al telefono** — Krista. [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Suppl%C3%AC_al_telefono.jpg). Local asset: `reviewed-commons-167772756.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **tarte flambée** — [uggboy](https://www.flickr.com/photos/43102195@N08). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:A_tarte_flamb%C3%A9e,_served_in_Bavaria,_Germany.jpg). Local asset: `reviewed-commons-11392913.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Salade niçoise** — [cyclonebill](https://www.flickr.com/people/23178876@N03). [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:Flickr_-_cyclonebill_-_Salade_ni%C3%A7oise.jpg). Local asset: `reviewed-commons-8814363.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Crépinettes** — Lepticed7. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Cr%C3%A9pinettes.jpg). Local asset: `reviewed-commons-84443529.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Petits farcis niçois** — Tangopaso. [Public domain](https://creativecommons.org/publicdomain/mark/1.0/); [source](https://commons.wikimedia.org/wiki/File:Petits_farcis_ni%C3%A7ois.jpg). Local asset: `reviewed-commons-41155852.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
