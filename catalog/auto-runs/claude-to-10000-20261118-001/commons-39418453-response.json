@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAxGhF7iqfyoQK2Lyc6L",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Crumbly, cooked ground meat texture consistent with picadillo\",\n    \"Reddish-brown colour typical of chorizo-based preparation\",\n    \"Served in blue-rimmed ceramic bowl\",\n    \"Home-style presentation\",\n    \"Sharp detail in both source and phone thumbnail\"\n  ],\n  \"phone_observations\": [\n    \"Dish clearly visible and identifiable in centre-cover thumbnail\",\n    \"Essential components preserved and readable\",\n    \"Appropriate scale and prominence\",\n    \"Colour and texture match source photograph\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'Picadillo de chorizo' but chorizo is a sausage product, not an allowed protein category (chicken/beef/pork/duck/lamb/seafood)\",\n    \"Source description does not explicitly name the base meat species—chorizo may contain pork, beef, or other species\",\n    \"Cannot confirm whether chorizo contains pork or another meat without explicit source statement of the animal\",\n    \"Picadillo is traditionally pork-based, but this is not stated in the supplied metadata\"\n  ],\n  \"reason\": \"Hold: The source title includes 'chorizo', which is a sausage product and not an allowed protein category. The description does not explicitly state which animal (pork, beef, etc.) the chorizo contains. Per protocol, unknown or unspecified meat species require hold status. The photograph and phone thumbnail meet all quality and composition criteria, but protein identity cannot be established from the supplied title and description alone.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1878,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 489,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
