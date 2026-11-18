@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAtd4c5eCh7ZjCMr9oKm",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Yellow creamed dish with turmeric/cumin colour\",\n    \"Two dark olives as eyes\",\n    \"Peeled hard-boiled egg half\",\n    \"Green lettuce bed\",\n    \"White plate, home kitchen setting\",\n    \"Rice and water visible in background\"\n  ],\n  \"phone_observations\": [\n    \"Central yellow creamed mass clearly visible\",\n    \"Olive eyes readable\",\n    \"Egg half distinguishable\",\n    \"Green lettuce framing present\",\n    \"Dish identity recognizable at thumbnail scale\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'Aji de gallina' (Peruvian chicken cream dish) but source description states only 'delicioso' with no animal protein named\",\n    \"Visible form is consistent with ají de gallina preparation (creamed, yellow, egg, olives, lettuce), but no explicit protein declaration in provided metadata\",\n    \"Chicken is traditional in this named dish but metadata does not explicitly state 'chicken'—only the filename suggests species\"\n  ],\n  \"reason\": \"Image quality, sharpness, lighting, composition and appeal all meet standards (scores ≥4). Full photograph and phone thumbnail both show a finished, exposed dish with sharp detail, natural colour, and readable components. However, the source description ('delicioso') does not name any protein or confirm the dish identity. The title 'Aji de gallina' implies chicken, but titles are untrusted metadata and must be verified by explicit source text. Without an explicit protein declaration in the description (e.g. 'with chicken' or 'chicken ají de gallina'), protein_evidence remains empty. Identity cannot be confirmed as the description does not match or validate the filename title. Hold pending explicit source confirmation of dish name and protein.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1512,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 551,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

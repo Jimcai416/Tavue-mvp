@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAtdVazdYhtsgZ96oNRo",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [\n    \"Cooked meat product with caramelised exterior\",\n    \"Cross-section reveals pink/pale interior flesh\",\n    \"Presented on decorative plate with green scrollwork\",\n    \"Professional home cooking presentation\"\n  ],\n  \"phone_observations\": [\n    \"Sliced meat product clearly visible in thumbnail\",\n    \"Cooked exterior and interior structure legible\",\n    \"Subject adequately prominent and in focus\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Species identity unspecified: 'andouillette' is a traditional chitterling/offal sausage, but exact animal source (pork, beef, or mixed) is not stated in the provided title/description\",\n    \"Source metadata labels this as 'sausage' category, which is not an allowed protein key per instructions\"\n  ],\n  \"reason\": \"Although the photograph is sharp, well-lit, and appetisingly composed, and the thumbnail clearly shows the cooked dish, the source identity cannot be accepted. The title identifies this as 'andouillette'—a sausage product made from animal offal—but no explicit animal species is named in the provided title or description. The instructions require exact source quotes naming each animal and do not permit 'sausage' as a protein_evidence key. Generic or unknown meat species designation, including traditional sausages without explicit species declaration, requires a hold. This image cannot be approved without clarification of the specific animal origin.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1663,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 466,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
