@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChB5eQw1ipq7XUvTKhZvD",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 2,\n    \"composition\": 2,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Boiled meat heads barely visible in thumbnail, submerged in liquid\",\n    \"Essential food component (the meat) is not prominently featured\",\n    \"Liquid dominates the visual; meat detail is minimal in phone view\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Dish identity unclear—source says 'Boiled Heads in Tehran' but does not specify animal species (lamb, goat, beef, or other)\",\n    \"Raw/preparation stage appearance—heads appear semi-cooked or in early cooking stage rather than finished plated dish\",\n    \"Extreme glare and reflection cast across the entire bowl obscure the food\",\n    \"Soft focus and poor lighting severely compromise appetising presentation\"\n  ],\n  \"reason\": \"Reject: Multiple critical failures. (1) Animal species not explicitly named in source description ('Boiled Heads' alone is ambiguous—could be lamb, goat, beef, or other); protein_evidence cannot be populated without exact species declaration. (2) The image shows raw or early-stage preparation (boiling in progress in a large vat) rather than a finished, plated, exposed dish ready for service. (3) Severe glare, reflections, and soft focus throughout; lighting is poor and unappetising. (4) Essential food detail is not sharply visible or prominently featured in the phone thumbnail—the meat is largely submerged and obscured by liquid. (5) Composition and appeal scores all ≤2, failing the ≥4 minimum. This is a preparation-stage documentary image, not a finished food photograph suitable for intake.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1723,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 507,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

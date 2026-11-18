@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChB5entN6mWgJvPs9iNit",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 3,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [\n    \"Cooked meat pieces in pale and darker shades on white plate with printed floral decoration\",\n    \"Large flatbread (nan-like) visible in upper right\",\n    \"Ingredient bowls visible in upper left (small bowls with condiments)\",\n    \"Plate presentation style consistent with South/Central Asian offal dishes\"\n  ],\n  \"phone_observations\": [\n    \"Plate clearly visible with mixed cooked meat components\",\n    \"Flatbread prominent in frame\",\n    \"Overall composition legible at thumbnail scale\",\n    \"Soft lighting reduces definition of individual meat pieces\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title contains Persian/Farsi script; English translation not explicitly provided in metadata\",\n    \"Transliteration 'خوراک کله‌پاچه' likely refers to 'kale pache' or similar offal dish, but exact English dish name not confirmed in source\",\n    \"Specific animal species (sheep/lamb/beef/goat) not explicitly stated in available source text\",\n    \"Exact meat composition ambiguous from visual inspection alone\",\n    \"Source description in non-Latin script cannot be reliably parsed without explicit English translation\"\n  ],\n  \"reason\": \"Identity check fails: source metadata contains only non-Latin script title/description without explicit English translation or romanization. Canonical name cannot be reliably extracted from Persian text alone. Protein species unspecified—visual appearance suggests offal (possibly trotters, tongue, liver) but animal source not explicitly named in source. Image quality and composition are acceptable, but uncertainties about dish identity, protein species, and source language require hold status pending clarification with English-language source confirmation.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1741,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 522,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
