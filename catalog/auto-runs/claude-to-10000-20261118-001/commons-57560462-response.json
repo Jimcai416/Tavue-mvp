@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAwmivWBwHdpVNSTLBuE",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Golden-brown stewed vegetable mixture in white pot\",\n    \"Red pepper pieces visible throughout\",\n    \"Fresh parsley garnish\",\n    \"Wooden spoon in-pot\",\n    \"Natural cooking liquid/sauce\"\n  ],\n  \"phone_observations\": [\n    \"Stewed vegetable pot clearly visible\",\n    \"Red peppers and herbs recognizable\",\n    \"Wooden spoon present\",\n    \"Golden colour consistent with full image\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title describes 'ratatouille-fin-cuisson' (ratatouille at end of cooking), but the visible form shows what appears to be a chunky, heavily stewed preparation with prominent red pepper pieces and substantial liquid—inconsistent with the typical integrated, finely-diced texture of finished ratatouille\",\n    \"The composition and vegetable structure suggest this may be mid-preparation or a different stewed vegetable dish rather than a completed ratatouille\"\n  ],\n  \"reason\": \"Identity check fails. The source title claims 'Ratatouille in a pot. End of cooking,' but the visible preparation shows a chunky, liquid-heavy stew with large distinct red pepper pieces and a texture inconsistent with a finished ratatouille, which should show well-integrated, finely-diced vegetables. The form contradicts the stated identity. Additionally, ratatouille is a vegetable-based dish with no proteins, making it ineligible for Tavue's scope. Rejection on both grounds.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1631,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 485,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
