@@ -49524,5 +49524,77 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "height": 720,
     "requiresExactMenuName": true,
     "authorUrl": "https://www.flickr.com/people/10559879@N00"
+  },
+  {
+    "id": "commons-10138655",
+    "title": "File:Peruvian adobo chicken.JPG",
+    "author": "Polytheorist",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Peruvian_adobo_chicken.JPG",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/83/Peruvian_adobo_chicken.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "bef668a7e5c31d2be137ad2bf91ead7911371c86",
+    "name": "Peruvian Adobo Chicken",
+    "aliases": [],
+    "proteins": [
+      "chicken"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-10138655.jpg",
+    "assetSha256": "035ec9ae68c7ddcf6c2c258e5ad09abd583ccd00d1e2a6911aaf551bd807cde4",
+    "reviewedAt": "2026-11-18",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-125995016",
+    "title": "File:アオサンズの鶏肉のフォーIMG 20220828 120958 HDR 03.jpg",
+    "author": "経済特区",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E3%82%A2%E3%82%AA%E3%82%B5%E3%83%B3%E3%82%BA%E3%81%AE%E9%B6%8F%E8%82%89%E3%81%AE%E3%83%95%E3%82%A9%E3%83%BCIMG_20220828_120958_HDR_03.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1f/%E3%82%A2%E3%82%AA%E3%82%B5%E3%83%B3%E3%82%BA%E3%81%AE%E9%B6%8F%E8%82%89%E3%81%AE%E3%83%95%E3%82%A9%E3%83%BCIMG_20220828_120958_HDR_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "231b1d89deacd6ebeda0d43e1096cf7d766c0a3a",
+    "name": "鶏肉のフォー",
+    "aliases": [],
+    "proteins": [
+      "chicken"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-125995016.jpg",
+    "assetSha256": "dacfe6af19943058453aa67d4bfbd8eb762f0d3a7ad114530f0954efc7967917",
+    "reviewedAt": "2026-11-18",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 547,
+    "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-181753375",
+    "title": "File:Liat Portal for Foodie Disorder - Grilled Chicken with Roasted Vegetables.jpg",
+    "author": "HaJunkiyada",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Liat_Portal_for_Foodie_Disorder_-_Grilled_Chicken_with_Roasted_Vegetables.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Liat_Portal_for_Foodie_Disorder_-_Grilled_Chicken_with_Roasted_Vegetables.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "da2c6cfef21ec955a8708f9cc57158c6982144bc",
+    "name": "Grilled Chicken with Roasted Vegetables",
+    "aliases": [],
+    "proteins": [
+      "chicken"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-181753375.jpg",
+    "assetSha256": "ab0a106a09d25076c77e233a6f9a0889c012a5b82a0e65fccc178f7f956c92bf",
+    "reviewedAt": "2026-11-18",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 720,
+    "height": 960,
+    "requiresExactMenuName": true
   }
 ];
