@@ -74726,5 +74726,51 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 640,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-150660660",
+    "title": "File:Jianbing on plate.jpg",
+    "author": "Alwaleed Khaled",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jianbing_on_plate.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Jianbing_on_plate.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "3074a6a7439ccdadfc56ef4c8bf68d0a8a7d3782",
+    "name": "Jianbing",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-150660660.jpg",
+    "assetSha256": "09fe5beb14b6a01939a525fba206d32b7cb239fb7029607e2aaad366ce640377",
+    "reviewedAt": "2026-11-18",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 720,
+    "height": 960,
+    "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-150037713",
+    "title": "File:Poulet yassa 01.jpg",
+    "author": "Arnaud 25",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Poulet_yassa_01.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/41/Poulet_yassa_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "f0e73e7f89d5e53b394c2ad7f0ec545cc6ce653b",
+    "name": "Poulet yassa",
+    "aliases": [],
+    "proteins": [
+      "chicken"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-150037713.jpg",
+    "assetSha256": "ddc96277d13ac3fa70ba459837d5a36cad3814aa65a3f19788e2aa21b602d330",
+    "reviewedAt": "2026-11-18",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];
