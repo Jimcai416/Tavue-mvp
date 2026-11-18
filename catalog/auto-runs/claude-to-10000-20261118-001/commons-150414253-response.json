@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBGdRhAP8GVWWm42o8sk",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 3,\n    \"lighting\": 3,\n    \"composition\": 2,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows multiple containers and bowls arranged on ground during food preparation\",\n    \"No finished, plated dish visible in thumbnail\",\n    \"Preparation stage with various ingredients in bowls dominates frame\",\n    \"No appetising, exposed finished food dish prominent in thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title references 'Bubur Asyura' (Ashura porridge) but image shows preparation/ingredient assembly, not a finished dish\",\n    \"Cannot visually confirm finished, exposed, appetising dish in either full or thumbnail image\",\n    \"Ingredient composition unclear from visual inspection alone\"\n  ],\n  \"reason\": \"Reject: Image depicts a food preparation stage with multiple ingredient bowls and containers laid out on the ground, not a finished, exposed, plated dish. The thumbnail shows no appetising, complete dish suitable for review. Title-declared dish identity cannot be visually verified as a finished product. Quality checks (sharpness 3, lighting 3, composition 2, appeal 2) all fall below required threshold of >=4. This is ingredient assembly documentation, not a food photograph meeting acceptance criteria.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1354,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 402,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
