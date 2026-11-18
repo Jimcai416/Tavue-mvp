@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAzkxPSmzAFLMbkh1ck8",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Red-brown cooked meat pieces visible in both full image and thumbnail\",\n    \"Green herb garnish (cilantro or parsley) clearly present\",\n    \"Bright lime-green disposable bowl\",\n    \"Finished, cooked dish appearance\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail shows recognizable cooked meat with red-brown colour and green garnish\",\n    \"Dish clearly visible and identifiable at reduced size\",\n    \"Colour and composition readable in phone view\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title claims 'Pounded Yam and Vegetable soup' but no yam or soup visible—image shows a stew or braised meat dish with no visible tubers or broth\",\n    \"Meat species cannot be determined from appearance alone; no source-quoted species identifier provided\",\n    \"Description truncated ('This is an image of food from') provides no recipe detail or dish clarification\"\n  ],\n  \"reason\": \"Identity check fails: source title 'Pounded Yam and Vegetable soup' contradicts visible content (cooked meat stew, no yam, no soup consistency). No protein species can be established from source text or visual appearance. Incomplete description and title–image mismatch prevent acceptance.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 2047,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 433,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
