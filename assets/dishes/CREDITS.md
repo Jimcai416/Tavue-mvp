@@ -4953,3 +4953,9 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 
 - **Pretzel** — [Arnold Gatilao  from Oakland, CA, USA](https://www.flickr.com/people/58819758@N00). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Pretzel_(14243965679).jpg). Local asset: `reviewed-commons-40530635.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Lentils and spätzle** — K. Jähne, cooking by B. Gross,  Merops  image editing. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/); [source](https://commons.wikimedia.org/wiki/File:Linsen_Spaetzle_2.jpg). Local asset: `reviewed-commons-1207020.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Hungarian Pork Goulash** — adactio. [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Pork_goulash_on_sp%C3%A4tzle.jpg). Local asset: `reviewed-commons-6147237.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Maultaschen** — MOs810. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Maultaschen_2013.JPG). Local asset: `reviewed-commons-28924331.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Suya in skewers** — Halima Waziri. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Suya_in_skewers.jpg). Local asset: `reviewed-commons-164443696.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
