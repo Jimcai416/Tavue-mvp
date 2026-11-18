@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChArw3rhhVdpj28JsKHqc",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"White oval plate on dark burgundy surface\",\n    \"Central golden-brown sauce or topping covering pale cream-coloured dumplings\",\n    \"Visible dumpling edges and folds at sides\",\n    \"Spoon resting on plate\",\n    \"Fine black pepper and herbs sprinkled as garnish\",\n    \"Glossy, caramelised appearance of sauce\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows white plate with central cluster of golden-brown topped dumplings\",\n    \"Cream-coloured dumpling components visible at edges\",\n    \"Golden sauce prominent and readable\",\n    \"Adequate detail for identification of finished plated dish\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title contains only filename metadata and restaurant name—no dish name provided in title or description\",\n    \"Aushak is an Afghan dumpling dish that may contain beef, chicken, or lamb—no protein explicitly named in source text\",\n    \"Sauce composition and filling ingredients not specified in source description\",\n    \"Cannot confirm exact preparation variant or regional origin from metadata alone\"\n  ],\n  \"reason\": \"Reject: source metadata provides only restaurant location and filename, with no explicit dish name, description, or protein identification in the title or description field. Although the visual evidence strongly suggests Aushak (Afghan dumplings with meat filling and sauce), the source does not state the canonical dish name or explicitly name any protein. Per instructions, identity must agree with the exact source title/description; unknown or unspecified meat species and missing source-declared identity constitute grounds for hold. Ambiguous meat species (aushak commonly contains beef, chicken, or lamb but source does not specify) requires hold, not rejection, but the complete absence of a dish name in the source metadata fails the identity check conclusively.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1739,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 546,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
