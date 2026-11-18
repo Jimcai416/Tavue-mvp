@@ -5013,3 +5013,23 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 - **Harira** — Miansari66. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Harira..JPG). Local asset: `reviewed-commons-24469491.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Nigeria Jollof Rice with chicken** — Ei'eke. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:A_Nigeria_Jollof_Rice_with_chicken.jpg). Local asset: `reviewed-commons-164485705.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **fufu (swallow)** — Andikan Efiok Eduok. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:A_woman_moulding_fufu_(swallow).jpg). Local asset: `reviewed-commons-147640771.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Beef massaman curry** — [Guilhem Vellut  from Paris, France](https://www.flickr.com/people/22539273@N00). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Beef_massaman_curry,_Saveurs_d%27Asie,_Rue_de_Vouill%C3%A9,_Paris_001.jpg). Local asset: `reviewed-commons-57066525.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Souvlaki (Barbequed Pork belly kebab)** — Kolforn   ( Kolforn )  
+ I'd appreciate if you could mail me  (Kolforn@gmail.com)  if you want to use this picture out of the Wikimedia project scope. 
+ 
+    
+        
+              This file is licensed under the  Creative Commons   Attribution-Share Alike 4.0 International  license.  
+  You are free:
+   to share  – to copy, distribute and transmit the work 
+  to remix  – to adapt the work   
+ Under the following conditions:
+   attribution  – You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use. 
+  share alike  – If you remix, transform, or build upon the material, you must distribute your contributions under the  same or compatible license  as the original.      https://creativecommons.org/licenses/by-sa/4.0  CC BY-SA 4.0   Creative Commons Attribution-Share Alike 4.0   true  true. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:2017-04-17_Souvlaki_(Barbequed_Pork_belly_kebab),_Trimingham.JPG). Local asset: `reviewed-commons-103851699.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Beef jollof rice** — Afimaame. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Beef_jollof_rice.jpg). Local asset: `reviewed-commons-164088372.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Tacos al Pastor** — Ari Helminen. [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Tacos_al_Pastor_2.jpg). Local asset: `reviewed-commons-92625029.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Chicken tenderloin Yakitori** — Ocdp. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Yakitori_005.jpg). Local asset: `reviewed-commons-39508106.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Lamb shish kebab** — E4024. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Lamb_shish_kebab_-_Ankara.jpg). Local asset: `reviewed-commons-70717303.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
