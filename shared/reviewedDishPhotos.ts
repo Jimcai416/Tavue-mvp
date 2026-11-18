@@ -70388,5 +70388,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-183103405",
+    "title": "File:Bowl of boat noodles.jpg",
+    "author": "Emppowering",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bowl_of_boat_noodles.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/06/Bowl_of_boat_noodles.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "cb4617e66da0cd937c8ac56ec367d4ad9f45a591",
+    "name": "Thai boat noodles",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-183103405.jpg",
+    "assetSha256": "3687a15463e3be41831e4a099add4b2283e22464deb608c04d7141840a1a2fec",
+    "reviewedAt": "2026-11-18",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 720,
+    "height": 960,
+    "requiresExactMenuName": true
   }
 ];
