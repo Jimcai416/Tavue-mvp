@@ -4064,3 +4064,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Plov with lamb and carrots** — Postovalov. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Plov_with_lamb_and_carrots_in_ceramic_bowl.jpg). Local asset: `reviewed-commons-192239906.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Panipuri** — Anuved. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Panipuri-made_in_home.jpg). Local asset: `reviewed-commons-103118686.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
