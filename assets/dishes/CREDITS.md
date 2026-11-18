@@ -4728,3 +4728,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 - **Adobo arequipeño** — Hunuequisde. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Adobo_arequipe%C3%B1o_siendo_servido.jpg). Local asset: `reviewed-commons-179530687.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Birria estilo Jalisco** — SoyMujer. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Birria.jpg). Local asset: `reviewed-commons-69734154.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Codornices en escabeche** — Tamorlan. [CC BY 3.0](https://creativecommons.org/licenses/by/3.0); [source](https://commons.wikimedia.org/wiki/File:Codornices_en_Escabeche-2009.jpg). Local asset: `reviewed-commons-8525268.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Ratatouille** — Benoit5656. [Public domain](https://creativecommons.org/publicdomain/mark/1.0/); [source](https://commons.wikimedia.org/wiki/File:Ratatouille-Dish.jpg). Local asset: `reviewed-commons-9813789.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.

@@ -67693,5 +67693,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 640,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-9813789",
+    "title": "File:Ratatouille-Dish.jpg",
+    "author": "Benoit5656",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ratatouille-Dish.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/03/Ratatouille-Dish.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "8c17223f46429686ffc2c6e818608707c57fb55b",
+    "name": "Ratatouille",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-9813789.jpg",
+    "assetSha256": "2adba495e7f83e8fdbfcd69eae58f43426d2dda58eb1e6c0b3c705c0ddc86c6e",
+    "reviewedAt": "2026-11-18",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 733,
+    "requiresExactMenuName": true
   }
 ];
