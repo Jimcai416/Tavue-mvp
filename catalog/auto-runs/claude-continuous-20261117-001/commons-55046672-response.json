@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChALtEky8X7fve5oHsVSB",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Golden-brown poultry thigh with crispy skin visible in thumbnail\",\n    \"Root vegetables and mushrooms partially visible in foreground\",\n    \"Blurred salad bowl in background\"\n  ],\n  \"protein_evidence\": {\n    \"protein\": null\n  },\n  \"uncertainties\": [\n    \"Source title declares 'Coq au Vin' (rooster in wine), which specifies poultry as rooster, but the photograph shows no visible evidence of braising liquid, wine reduction, or the characteristic glossy brown sauce integral to Coq au Vin preparation\",\n    \"The image displays what appears to be a roasted poultry leg with sautéed vegetables and potatoes—consistent with roast chicken/poultry, not the stewed preparation and wine-based sauce defining Coq au Vin\",\n    \"No credible visual evidence of the wine-braised technique, reduced sauce, or pearl onions and mushrooms in wine sauce that characterise authentic Coq au Vin\",\n    \"Source title may be inaccurate, misattributed, or the photograph may not represent the declared dish\"\n  ],\n  \"reason\": \"Identity mismatch. Source title declares 'Coq au Vin', a traditional French braised poultry dish prepared in wine with glossy reduction sauce. The photograph shows a golden roasted poultry leg with sautéed root vegetables and potatoes in a dry-roasted preparation style, with no visible braising liquid, wine reduction, pearl onions in sauce, or other defining characteristics of Coq au Vin. The visual preparation contradicts the source identity. While photograph quality and phone thumbnail clarity are acceptable (all scores ≥4), the fundamental identity check fails due to irreconcilable visual-to-title contradiction. Hold or reject pending corrected source description.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1686,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 559,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

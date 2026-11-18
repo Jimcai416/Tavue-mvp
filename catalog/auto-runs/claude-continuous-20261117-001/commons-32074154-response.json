@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChALswCHRSrHrV5YCTZKb",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"White bread exterior visible in both images\",\n    \"Fresh strawberry slices clearly visible\",\n    \"Sandwich in clear plastic wrapper\",\n    \"Natural brown wooden surface background\"\n  ],\n  \"phone_observations\": [\n    \"Strawberry and bread structure readable at thumbnail size\",\n    \"Red strawberry colour distinct against white bread\",\n    \"Subject adequately prominent in 124x96 centre-cover\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Sweet bean paste (あんこ) is not a protein and cannot be listed in protein_evidence\",\n    \"No animal protein explicitly named in source description\",\n    \"Source description mentions 'sweet bean paste' as filling but does not declare a protein animal\"\n  ],\n  \"reason\": \"Source title and description do not explicitly name any protein animal (chicken/beef/pork/duck/lamb/seafood). The sandwich is described as containing 'strawberry and sweet bean paste'—sweet bean paste is a legume product, not a protein under the acceptance rules. Without explicit source naming of a qualifying protein, identity cannot be confirmed as a complete dish suitable for Tavue intake. Identity check fails; cannot accept.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1384,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 403,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
