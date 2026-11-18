@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAiAaynELPiid1Nia8mS",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Golden-brown fried pancakes arranged on white plate\",\n    \"White cream or sour cream in central bowl\",\n    \"Natural daylight, well-exposed\",\n    \"Sharp detail of pancake edges and glaze\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail shows same pancake arrangement with cream bowl\",\n    \"Essential components clearly visible and readable\",\n    \"No clipping of significant food elements\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'Poffertjes with cream and maple syrup' but no visible maple syrup is present in either image—only cream is evident. Poffertjes are Dutch mini pancakes, but the title's promised syrup is not photographically supported.\",\n    \"The filename metadata and address are untrusted; the actual dish identity depends solely on what is visible and what a reliable source description states.\"\n  ],\n  \"reason\": \"Source title promises 'Poffertjes with cream and maple syrup' but the photograph shows only cream in the central bowl with no visible maple syrup glaze or drizzle on the pancakes themselves. This is a material contradiction between title claim and visual evidence. The dish quality and photograph are strong (all scores ≥4), but the identity check fails due to the undocumented syrup. Hold would be appropriate if this were a source description issue, but the strict mismatch between claimed ingredients and visible ones warrants rejection.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1777,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 463,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
