@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAKoK5R7DWQzLsZLcRtK",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 2,\n    \"composition\": 2,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Phone thumbnail shows same underexposed, soft-focus composition\",\n    \"Red meat rolls and green lettuce base visible but severely blurred\",\n    \"Lemon wedges visible but all details lack definition\",\n    \"Essential food components present but not sharply rendered\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title metadata claims 'Çiğ köfte' but this is raw/uncooked minced meat preparation, not a finished cooked dish\",\n    \"Çiğ köfte is traditionally served raw and uncooked—contradicts finished, exposed, cooked dish requirement\",\n    \"Severe underexposure and blur throughout both full image and thumbnail\",\n    \"Natural colours absent; image has yellow-blue colour cast\"\n  ],\n  \"reason\": \"Reject: Çiğ köfte is a raw/uncooked meat preparation, not a finished exposed dish. Additionally, the photograph fails technical quality standards: severe underexposure, soft focus, poor sharpness (2/5), inadequate lighting (2/5), and weak composition (2/5). The phone thumbnail is equally blurred and fails to show sharp, appetising detail of essential components. All quality scores fall below the required minimum of 4/5. Source metadata identity contradicts the finished-dish requirement.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1612,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 442,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

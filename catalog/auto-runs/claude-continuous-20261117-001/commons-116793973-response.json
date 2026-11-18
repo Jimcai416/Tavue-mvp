@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAKo8JWpAqjfSqHadrAS",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Golden-brown spherical balls in yellow gravy\",\n    \"Green herbs visible on surface\",\n    \"Rich turmeric-toned sauce\",\n    \"Appetising appearance\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows multiple balls in gravy\",\n    \"Yellow sauce prominent\",\n    \"Ball texture and colour readable at phone size\"\n  ],\n  \"protein_evidence\": {\n    \"protein\": null\n  },\n  \"uncertainties\": [\n    \"Source title describes 'Vegetarian homemade Kofta' but kofta traditionally contains meat (beef, lamb, or chicken); vegetarian variant contradicts canonical definition\",\n    \"Source lists ball ingredients as 'banana, paneer, gram flour' — no animal protein present despite dish name\",\n    \"No explicit protein animal name in source that matches traditional kofta identity\",\n    \"Contradiction between dish name (inherently meat-based) and stated vegetarian composition creates identity conflict\"\n  ],\n  \"reason\": \"Source identifies this as 'Vegetarian homemade Kofta', but kofta is a canonical meat dish (traditionally beef, lamb, or chicken). The source explicitly states the balls contain only banana, paneer, and gram flour—no meat protein. This is a vegetarian reinterpretation that contradicts the foundational identity of kofta. The image shows a finished, appetising dish with good technical quality and readable phone thumbnail, but the identity check fails due to the fundamental contradiction between the named dish and its stated composition. Without an explicit meat protein named in source, and with the vegetarian claim conflicting with kofta's traditional definition, acceptance would require source clarity that is absent.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1857,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 514,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
