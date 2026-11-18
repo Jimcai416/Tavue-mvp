@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChATGnJLY6SU3uT2wC7Cb",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Bowl contains white rice base\",\n    \"Glazed meat protein with caramelised appearance\",\n    \"Sesame seeds scattered on top\",\n    \"Green onion/scallion garnish visible\",\n    \"Sautéed onions and vegetables\",\n    \"Blue ceramic bowl with traditional pattern\"\n  ],\n  \"phone_observations\": [\n    \"Dish clearly visible and identifiable in thumbnail\",\n    \"Glazed meat and toppings prominent\",\n    \"Bowl detail readable\",\n    \"No clipping of essential components\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'Chicken Teriyaki Don' but description extensively discusses 'unagi don' (eel) as the reviewer's dish and praises its quality, stating 'The eel could almost be house-made'\",\n    \"The title refers to 'Peter's curry katsu don' (pork) in passing within the description, but the primary dish reviewed appears to be the unagi don\",\n    \"Visible glazed meat in photograph does not definitively establish whether it is chicken, eel, or pork\",\n    \"Source metadata contains contradictory dish identifications\"\n  ],\n  \"reason\": \"Identity mismatch: Title specifies 'Chicken Teriyaki Don' but the description's primary review focuses on 'unagi don' (eel), which the reviewer states they personally had and found 'good'. The photograph's glazed meat cannot be visually confirmed as chicken. The source contains conflicting dish claims (title vs. description narrative), violating the requirement that identity must agree with exact source title/description. This contradiction creates material uncertainty about which dish is actually pictured and cannot be resolved from visual evidence alone.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1959,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 531,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

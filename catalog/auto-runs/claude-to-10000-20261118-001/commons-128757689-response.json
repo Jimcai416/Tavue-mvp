@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChATGvCbZEh4dGiQtQWCw",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Crusty bread rolls with white/cream interior\",\n    \"Dark red cured meat slices (appears to be jamón/cured beef)\",\n    \"White cheese or fat visible\",\n    \"Professional food photography with watermark\"\n  ],\n  \"phone_observations\": [\n    \"Sandwich cross-section clearly visible in thumbnail\",\n    \"Bread, cured meat, and white cheese/fat components readable\",\n    \"Essential sandwich structure preserved in phone crop\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title references 'Bondiola sandwich' but source metadata only provides copyright/attribution information, not a formal dish title or description\",\n    \"Bondiola is a cured meat product (typically pork shoulder) but no explicit source text confirms this identification beyond the filename\",\n    \"Species of cured meat not stated in provided description text—only inferred from filename\",\n    \"No source title/description field provided to match against canonical requirements\"\n  ],\n  \"reason\": \"Cannot accept without explicit source title/description text. The filename 'Bondiola sandwich.jpg' is metadata and untrusted per instructions. The provided description field contains only copyright/author attribution, not a dish identification. Identity check fails: bondiola is not explicitly named in the trustworthy source description. While the photograph quality is good and the sandwich is clearly visible and appetizing, the absence of a formal, authoritative source title or description containing the dish name and meat species prevents canonical name confirmation and protein evidence extraction. Hold pending source title/description clarification.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1633,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 484,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
