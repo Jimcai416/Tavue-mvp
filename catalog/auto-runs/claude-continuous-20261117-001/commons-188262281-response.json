@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAKZ8FecEML4MnR7k6yT",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Wrapped tortilla partially visible in thumbnail\",\n    \"Minimal interior detail visible\",\n    \"Only cross-section of filled wrap shown\"\n  ],\n  \"protein_evidence\": {\n    \"protein\": \"döner kebab meat\"\n  },\n  \"uncertainties\": [\n    \"Döner kebab meat species is unspecified (typically beef/lamb/mutton but ambiguous without explicit source clarification of exact animal)\",\n    \"Source metadata lists 'döner kebab meat' without naming the specific animal\",\n    \"Cannot visually distinguish meat species from photograph alone\"\n  ],\n  \"reason\": \"Source description identifies protein as 'döner kebab meat' without specifying the animal species (beef, lamb, mutton, or other). Per protocol, ambiguous meat species—including döner kebab where the specific animal is not explicitly named—must be held. The image quality and composition are acceptable, but the unspecified protein identity fails the protein_evidence requirement. A specific source quote naming the exact animal is required.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1634,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 371,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

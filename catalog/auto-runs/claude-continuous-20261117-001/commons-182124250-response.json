@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAKZadfQTTkoZf27ANpU",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Plate clearly visible with salad, tomato slices, and cooked meat pieces\",\n    \"Small white bowl with sauce visible in lower right of thumbnail\",\n    \"Composition readable and appetising in phone view\"\n  ],\n  \"protein_evidence\": {\n    \"pork\": \"\\\"Pork and chicken doner kebab\\\"\",\n    \"chicken\": \"\\\"Pork and chicken doner kebab\\\"\"\n  },\n  \"uncertainties\": [\n    \"Title claims 'doner kebab' but source shows plated salad with loosely layered cooked meat pieces characteristic of döner preparation; however, the presentation differs significantly from typical kebab format\",\n    \"Source title declares 'pork and chicken' but no visual differentiation between meat types is possible in the photograph\",\n    \"Ambiguity whether this is a finished 'doner kebab' (traditionally sliced from a rotating spit and served in bread or on a plate) or a salad plate with doner-style meat components\"\n  ],\n  \"reason\": \"Identity check fails. Source title declares 'Pork and chicken doner kebab' but the actual dish is a composed salad plate with separately presented tomato slices, mixed greens, and cooked meat pieces with side sauce—not a traditional doner kebab format. The title does not accurately reflect the visible dish form. While photograph and phone quality are acceptable and both proteins are explicitly named in the source, the fundamental identity mismatch between the claimed dish name and what is visibly presented (a salad plate, not a kebab) prevents acceptance. The canonical name cannot be verified against visible form.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1826,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 508,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
