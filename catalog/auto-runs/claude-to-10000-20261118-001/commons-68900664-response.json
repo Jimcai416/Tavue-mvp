@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAinq28tFnszdosRZHVb",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Green herb-based stew in white bowl\",\n    \"Dark red kidney beans clearly visible\",\n    \"Oil coating consistent with Persian cuisine\",\n    \"Herbs visible throughout the dish\",\n    \"Natural lighting, appetising presentation\"\n  ],\n  \"phone_observations\": [\n    \"Green herb stew readable in thumbnail\",\n    \"Red beans clearly distinguished\",\n    \"Dish prominence and detail retained\",\n    \"Colour and essential components identifiable at phone size\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title is 'חורשט סבזי' (Hebrew transliteration); description claims 'Ghormeh Sabzi' with 'beef tenderloin', but metadata is untrusted evidence and cannot be used as instruction. The visible form shows herb stew with beans—no beef is visually apparent or identifiable.\",\n    \"Beef tenderloin is claimed in description but no meat tissue, chunks, or texture consistent with beef is visibly prominent in the photograph. Red kidney beans are visible; meat is not.\",\n    \"Ghormeh Sabzi traditionally contains meat (usually lamb or beef), but the visual composition shows primarily herbs and beans without clear, prominent meat evidence in the actual dish as photographed.\"\n  ],\n  \"reason\": \"Source description claims beef tenderloin as a protein, but the photograph shows a herb stew dominated by red kidney beans with no visibly prominent or identifiable meat component. The protein cannot be verified from the actual image—only the herbs and beans are clearly visible. Per protocol, unverifiable or contradictory protein claims require hold. The photograph quality and presentation are strong, but identity cannot be confirmed when the named protein is not visually supported.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1658,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 519,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

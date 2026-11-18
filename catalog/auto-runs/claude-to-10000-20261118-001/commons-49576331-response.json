@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAinsUiHkq3nX7hyYc44",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 5,\n    \"appeal\": 5\n  },\n  \"visible_support\": [\n    \"Four distinct stewed dishes in white bowls with spoons\",\n    \"Front-left: dark reddish-brown stew with visible meat and chickpeas\",\n    \"Back-left: green herb-based stew with visible meat pieces\",\n    \"Back-right: chocolate-coloured stew with cinnamon dusting\",\n    \"Front-right: golden-orange stew with vegetables and legumes\",\n    \"Professional plating, natural lighting, appetising presentation\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows three bowls: green herb stew, reddish meat stew with chickpeas, golden vegetable stew\",\n    \"Central meat-based dish is prominent and identifiable\",\n    \"Colours and composition match full image\",\n    \"No essential food clipped; representative coverage\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title lists four dishes but provides only generic category names without matching exact canonical forms\",\n    \"Fesenjān, Bahmia, Gheimeh, Ghormeh Sabzi are presented as separate dishes; no single dish canonical name can be extracted that matches visible form\",\n    \"Meat species in front-left dish (Gheimeh) is not explicitly named in source description—tradition suggests lamb, but source does not confirm\",\n    \"Image shows a platter/tasting arrangement of multiple dishes, not a single identifiable dish suitable for canonical naming\",\n    \"No explicit protein declarations (e.g., 'with lamb', 'with chicken') appear in the source description for individual dishes\"\n  ],\n  \"reason\": \"Image quality, photography, and phone thumbnail are excellent. However, identity cannot be confirmed because the source provides only generic category labels (Fesenjān, Bahmia, Gheimeh, Ghormeh Sabzi) without explicit protein naming. The meat species in the front-left dish (Gheimeh) is ambiguous—the description does not state whether it contains lamb, beef, or another animal. The image shows a multi-dish platter rather than a single finished dish with a verifiable canonical name. Per rules, ambiguous meat species and lack of explicit source protein quotes require a hold.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1809,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 637,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

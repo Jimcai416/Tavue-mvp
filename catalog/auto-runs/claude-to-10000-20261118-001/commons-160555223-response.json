@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAinPMHs5eSySGMtLzRx",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Seared meat pieces in creamy sauce in baking dish\",\n    \"Golden-brown seared surfaces on meat\",\n    \"Pale cream/custard-coloured sauce\",\n    \"Utensil visible in frame\",\n    \"Natural kitchen lighting\"\n  ],\n  \"phone_observations\": [\n    \"Meat pieces and sauce clearly visible at thumbnail scale\",\n    \"Seared browning distinguishable\",\n    \"Composition fits phone frame adequately\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title 'შქმერული' (Georgian script) does not match English description field\",\n    \"Meat species cannot be determined from visual appearance alone\",\n    \"No explicit protein identification in supplied metadata\",\n    \"Shkmeruli traditionally uses chicken or pork, but no source quote confirms which animal is present\"\n  ],\n  \"reason\": \"Identity check fails. The source provides only a Georgian-script title 'შქმერული' without an English canonical name in the description field. While the dish appearance is consistent with Shkmeruli (seared meat in creamy sauce), no source text explicitly names the protein species. The meat colour and size are ambiguous—the pieces could be chicken, pork, or another species. Without an explicit English source quote identifying the dish and its protein, identity cannot be verified as matching source documentation. Protein cannot be mapped without direct source statement of animal species.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1550,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 458,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
