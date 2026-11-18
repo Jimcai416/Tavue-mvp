@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAdFP5yf3pEdMNwwaLe3",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Two browned, crispy-surfaced patties with visible seasoning crust\",\n    \"Cauliflower florets and diced potato as sides\",\n    \"Natural daylight, well-exposed full dish\"\n  ],\n  \"phone_observations\": [\n    \"Meatballs/patties clearly visible on left\",\n    \"Vegetable sides readable in thumbnail\",\n    \"Adequate centre-cover prominence\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title lists four German regional names (Frikadellen, Fleischklopse, Fleischküchle, Buletten) but provides no specific dish identity or meat species confirmation\",\n    \"No explicit statement of which animal(s) comprise these patties—beef, pork, veal or combination unknown\",\n    \"Ambiguous whether single canonical name should be chosen from the four variants or if all must be preserved\",\n    \"CC0 metadata alone does not constitute reliable dish identity or ingredient sourcing\"\n  ],\n  \"reason\": \"Photograph quality and composition are strong. However, identity check fails: the source description lists four untranslated German regional names without selecting a canonical form or confirming protein species. German fleischklopse/buletten may contain beef, pork, veal or mixtures; meat type is not stated. No exact source quote disambiguates which name to preserve or which animal(s) are present. Per protocol, unknown or ambiguous meat species and conflicting/unclear source identity require hold pending explicit protein and dish-name confirmation.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1630,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 487,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

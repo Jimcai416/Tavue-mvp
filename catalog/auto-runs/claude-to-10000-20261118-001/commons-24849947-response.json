@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAdFNZUAtCq6y9akHbL5",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 3,\n    \"composition\": 1,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows only interior restaurant ceiling with pendant lamps and blurred human figures\",\n    \"No food dish visible in phone thumbnail\",\n    \"No finished food subject recognizable at any size\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title references 'Lamps' and describes restaurant/menu context, not an actual photograph of a dish\",\n    \"Full source image is a photograph of restaurant interior lighting, not food\",\n    \"No tonkatsu or any prepared food is visible in either full image or thumbnail\"\n  ],\n  \"reason\": \"Rejection: The source photograph is an interior restaurant scene (ceiling lamps and staff) with no finished food dish present. The source title 'Lamps' and description reference the restaurant and menu context but do not document an actual photographed dish. The phone thumbnail contains only blurred ceiling and figures. This violates the core requirement of a finished, exposed, sharply detailed, prominent dish. The image is a venue photograph, not food documentation.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1683,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 368,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

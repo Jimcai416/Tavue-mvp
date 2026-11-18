@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAdFnwBDbkNiUouq6Ye5",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": \"Rehpflanzerl (meatball with venison) with chanterelle sauce, red cabbage, potato dumplings and cranberry jelly on a slice of orange\",\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Four brown meatballs in creamy tan/brown sauce\",\n    \"Red cabbage slaw on left side\",\n    \"Two whole boiled potatoes with parsley garnish\",\n    \"Orange slice with dark jelly/meat component on top\",\n    \"Fresh parsley garnish throughout\",\n    \"Blue ceramic plate on wooden surface\"\n  ],\n  \"phone_observations\": [\n    \"Meatballs and sauce clearly visible\",\n    \"Orange slice with topping distinctive and readable\",\n    \"Potatoes and red cabbage components identifiable\",\n    \"Overall composition and dish structure evident at thumbnail size\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Species 'venison' is not in the allowed protein categories (chicken/beef/pork/duck/lamb/seafood)\",\n    \"Source explicitly names venison as the meat but this species cannot be mapped to canonical categories\",\n    \"Dish identity depends on venison specification which cannot be canonically preserved\"\n  ],\n  \"reason\": \"The source description explicitly identifies this as a venison meatball dish (Rehpflanzerl with venison), but venison is not an allowed protein category. The instructions require exact source quotes for protein evidence and restrict categories to chicken/beef/pork/duck/lamb/seafood only. Unknown meat species trigger a hold. The photograph quality, composition and phone thumbnail are all excellent, but the species constraint prevents acceptance of this otherwise well-documented dish.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1787,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 507,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
