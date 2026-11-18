@@ -70205,5 +70205,28 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 960,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-58980614",
+    "title": "File:Schwäbische Spätzle - panoramio.jpg",
+    "author": "Baden de",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Schw%C3%A4bische_Sp%C3%A4tzle_-_panoramio.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/49/Schw%C3%A4bische_Sp%C3%A4tzle_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "acc49eba6f0f3cd0e28036ea819b5659bfac32b5",
+    "name": "Schwäbische Spätzle",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-58980614.jpg",
+    "assetSha256": "19667bec7997eb6de246222d8f76b81328ef5ae3bda1d1e8b3cbc9ce57e17ed8",
+    "reviewedAt": "2026-11-18",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true,
+    "authorUrl": "https://web.archive.org/web/20161101110651/http://www.panoramio.com/user/7487252?with_photo_id=120544534"
   }
 ];
