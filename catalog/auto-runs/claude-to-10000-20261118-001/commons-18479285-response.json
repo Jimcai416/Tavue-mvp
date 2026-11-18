@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChATr5wf3kBok2S88v8Hx",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": true,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 2,\n    \"composition\": 2,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail is too obscured by steam and hand/fork position to identify dish components\",\n    \"Essential food detail is hidden behind cooking vapour\",\n    \"Hand and utensil occupy significant portion of thumbnail frame\",\n    \"No readable essential components visible in phone view\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Heavy steam obscures visual confirmation of chicken identity\",\n    \"Active cooking stage with hand intervention—may not qualify as finished exposed dish\",\n    \"Severe steam/moisture cast prevents colour assessment and appetising evaluation\",\n    \"Insufficient detail in both source and thumbnail to confirm finished plated presentation\"\n  ],\n  \"reason\": \"Reject: This is an active-cooking preparation stage rather than a finished, exposed dish. Heavy steam obscures the food throughout both images. The hand and fork in both source and thumbnail violate composition standards. The phone thumbnail fails critical legibility—essential components are hidden behind vapour and utensil placement. Sharpness, lighting, and appeal scores all fall below minimum threshold (all ≤2). No finished, appetising presentation is visible.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1740,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 389,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
