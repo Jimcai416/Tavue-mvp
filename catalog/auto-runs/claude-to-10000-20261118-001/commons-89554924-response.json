@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBHVjJxM1vqCFw1ernB4",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 5,\n    \"appeal\": 5\n  },\n  \"visible_support\": [\n    \"Rice vermicelli noodles in clear broth\",\n    \"Cooked shrimp visibly present\",\n    \"Beef-like meat pieces (dark, tender cuts)\",\n    \"Fresh green onion garnish\",\n    \"White onion slices\",\n    \"Spice dusting (pepper/chilli)\",\n    \"Finished, plated dish in white bowl\",\n    \"Natural lighting, appetising presentation\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows noodle bowl with mixed proteins\",\n    \"Shrimp and meat components visible at this scale\",\n    \"Green garnish readable\",\n    \"Bowl shape and soup evident\",\n    \"Food is prominent and well-exposed\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title describes 'Bún bò' (beef noodle soup) but image shows prominent shrimp alongside beef. The metadata title/description does not explicitly name 'seafood', 'shrimp', or 'tôm'. The beef component is visually clear but no direct source quote confirms the shrimp inclusion in the named dish.\",\n    \"Exact beef species not confirmed in source text. 'Bò' means beef generically but does not specify cut or exact animal confirmation via explicit naming.\",\n    \"The metadata describes the dish but does not provide an English-language canonical name or full ingredient declaration suitable for verification.\"\n  ],\n  \"reason\": \"Image quality, composition, lighting and phone thumbnail are excellent. The dish is clearly a finished, appetising noodle soup with visible beef and shrimp. However, the source metadata ('Bún bò cô chú bán mì quảng ở chợ Bình Long') is in Vietnamese and lacks explicit English confirmation of all visible proteins (particularly shrimp). The title 'Bún bò' (beef noodle) does not mention seafood, yet shrimp is prominently visible in the photograph. Protein categories require exact source quote confirmation; 'bò' (beef) is visually supported but no source text explicitly names the shrimp or confirms the dish variant includes both. Without a full, unambiguous English-language source description confirming the multi-protein composition, protein_evidence cannot be populated and identity check fails. Hold for clarification of the exact dish name and ingredient confirmation in English or verified source metadata.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1803,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 676,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

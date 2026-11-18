@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBHUibWsWTU4asZ6LnYG",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Noodles in spiced broth\",\n    \"Ground/minced meat visible\",\n    \"Shrimp present\",\n    \"Fresh herbs (green onion/cilantro)\",\n    \"White rice noodles\",\n    \"Orange-brown broth\",\n    \"Served in white bowl\"\n  ],\n  \"phone_observations\": [\n    \"Noodles and broth clearly visible\",\n    \"Protein components readable\",\n    \"Composition and ingredients identifiable\",\n    \"Appetising presentation maintained in thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title references 'Bún bò cô chú bán mì quảng' (lit. 'Beef noodle from aunt who sells Mì Quảng') but dish appearance is inconsistent with mì quảng (which typically features fewer noodles, wider rice noodles, and different broth structure)\",\n    \"Visible meat includes what appears to be both ground/minced meat and shrimp, but source does not explicitly name these animals\",\n    \"Ambiguity whether 'bò' (beef) is the only or primary protein; shrimp visibly present but not mentioned in title\",\n    \"No explicit source quote identifying meat species with required specificity\"\n  ],\n  \"reason\": \"Identity check fails due to source-title/visible-form contradiction: the title describes this as a mì quảng variant ('bán mì quảng'), but the photograph shows thin round noodles in a substantial broth—inconsistent with the characteristic presentation of mì quảng (wider, flatter rice noodles with minimal broth, topped differently). Although quality, composition and phone thumbnail scores are acceptable (all ≥4), the protein evidence cannot be established from explicit source naming: 'bò' (beef) appears in the title, but shrimp is visibly present and not named in the title or description. No exact case-sensitive substring from the source text explicitly identifies the visible proteins. Hold pending clarification of actual dish identity and explicit protein naming.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1873,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 611,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

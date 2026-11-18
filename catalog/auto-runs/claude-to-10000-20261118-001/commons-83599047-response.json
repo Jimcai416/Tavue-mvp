@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBHVHRDMBozy4xTZYeb8",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 5,\n    \"composition\": 5,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Raw/uncooked abalones in shells with no evidence of cooking or finishing\",\n    \"Crustacean preparation stage, not a finished dish\",\n    \"Accompanying dark condiment (possibly ground ingredient) on white plate\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows raw shellfish in open shells\",\n    \"No plating, sauce, or finished presentation visible\",\n    \"Preparation/raw ingredient stage evident in phone thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title is in Vietnamese ('Bào ngư Úc' = Australian abalone); raw/uncooked state contradicts 'finished dish' requirement\",\n    \"No evidence of cooking, heat application, or culinary completion\",\n    \"Image shows ingredient procurement or preparation stage, not a served/finished dish\"\n  ],\n  \"reason\": \"Rejection: The source shows raw abalone in shells in a preparation or procurement state, not a finished, cooked, or plated dish. The photograph explicitly violates the 'finished, exposed, likely photographic dish' criterion. Raw shellfish at ingredient stage does not meet acceptance standards for Tavue food review, regardless of image quality or composition merit. The Vietnamese metadata title reinforces this is raw seafood product ('ăn thịt rất ngon' = 'eat the meat is very delicious' — a descriptor of potential, not actual cooking).\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1754,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 458,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
