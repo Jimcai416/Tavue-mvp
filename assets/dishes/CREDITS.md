@@ -4025,3 +4025,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 
 - **Mushroom and pork dumplings** — Geoffreyrabbit. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Mushroom_pork_dumplings_for_lunch.jpg). Local asset: `reviewed-commons-82292989.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Spring soup dumplings (陽春湯餃)** — NeoBatfreak. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Spring_soup_dumplings_(%E9%99%BD%E6%98%A5%E6%B9%AF%E9%A4%83).jpg). Local asset: `reviewed-commons-80890052.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Grilled Lamb** — [John Thompson  from Iqaluit](https://www.flickr.com/people/71266843@N03). [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:Ju_Xiang_Yuan_Restaurant,_Ottawa_-_Grilled_Lamb_(6453828095).jpg). Local asset: `reviewed-commons-115576743.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.

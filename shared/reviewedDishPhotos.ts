@@ -59229,5 +59229,30 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-115576743",
+    "title": "File:Ju Xiang Yuan Restaurant, Ottawa - Grilled Lamb (6453828095).jpg",
+    "author": "John Thompson  from Iqaluit",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ju_Xiang_Yuan_Restaurant,_Ottawa_-_Grilled_Lamb_(6453828095).jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/55/Ju_Xiang_Yuan_Restaurant%2C_Ottawa_-_Grilled_Lamb_%286453828095%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "ce5db2080a56b53ba97f7e7a91f744f01625150c",
+    "name": "Grilled Lamb",
+    "aliases": [],
+    "proteins": [
+      "lamb"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-115576743.jpg",
+    "assetSha256": "a402bde538aa98e2b92c75223bb5e59c4f6ecee564c2aef779a8d5d0e9da313b",
+    "reviewedAt": "2026-11-18",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true,
+    "authorUrl": "https://www.flickr.com/people/71266843@N03"
   }
 ];
