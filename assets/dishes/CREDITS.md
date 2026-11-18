@@ -6039,3 +6039,8 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 - **Mechado** — BrokenSphere. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Mechado_cooking.JPG). Local asset: `reviewed-commons-3921831.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Pork Mechado** — Ralff Nestor Nacor. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Pork_Mechado_at_The_Aristocrat,_Manila.jpg). Local asset: `reviewed-commons-151493321.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Lugaw with calamansi** — SJasminum. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Lugaw_with_calamansi26.jpg). Local asset: `reviewed-commons-133555575.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Iraqi Kleicha** — Ayat Jaryan. [Public domain](https://creativecommons.org/publicdomain/mark/1.0/); [source](https://commons.wikimedia.org/wiki/File:1Iraqi_Kleicha_01.jpg). Local asset: `reviewed-commons-157666860.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Bobotie, South African dish** — Olga Ernst. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Bobotie,_South_African_dish.jpg). Local asset: `reviewed-commons-83682966.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
