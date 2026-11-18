@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAscx73vB8eT2xNNWnHy",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 2\n  },\n  \"visible_support\": [\n    \"Sliced bread on plate, clearly exposed\",\n    \"Sharp detail of bread crumb structure and toppings\",\n    \"Natural lighting, wood surface background\",\n    \"Phone thumbnail shows complete dish clearly\"\n  ],\n  \"phone_observations\": [\n    \"Plate and bread slices fully visible and readable\",\n    \"Topping distribution clearly shown\",\n    \"No clipping of essential components\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title states 'Chleb ze smalcem' (bread with lard/fatback) but image shows finished sliced bread with what appears to be a spread or topping—actual finished dish form is ambiguous. The source description does not unambiguously confirm this is a complete, finished plated dish ready to eat, rather than a preparation stage or component.\",\n    \"No protein category can be supported: lard/smalec is not chicken, beef, pork, lamb, duck, or seafood in the required sense (rendered fat is not a meat protein listed in the allowed categories).\"\n  ],\n  \"reason\": \"Reject: Identity check fails. The source title 'Chleb ze smalcem' refers to bread with lard/fatback spread, but the photograph shows sliced bread on a plate with toppings distributed across the surface. Without explicit source confirmation that this is a finished, plated dish (rather than a preparation stage or component display), identity cannot be verified as matching the description. Additionally, no protein evidence can be extracted: smalec (rendered pork fat) does not qualify as one of the allowed protein categories (chicken/beef/pork/lamb/duck/seafood). The image quality is acceptable, but the fundamental identity and protein requirements are not met.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1732,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 528,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
