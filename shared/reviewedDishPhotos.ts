@@ -76399,5 +76399,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "height": 720,
     "requiresExactMenuName": true,
     "authorUrl": "https://www.flickr.com/photos/emrank/"
+  },
+  {
+    "id": "commons-89554972",
+    "title": "File:Bún bò Huế ở Đông Hà (Liễu Quán) 2018 (1).jpg",
+    "author": "Phương Huy  ( thảo luận )",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:B%C3%BAn_b%C3%B2_Hu%E1%BA%BF_%E1%BB%9F_%C4%90%C3%B4ng_H%C3%A0_(Li%E1%BB%85u_Qu%C3%A1n)_2018_(1).jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8a/B%C3%BAn_b%C3%B2_Hu%E1%BA%BF_%E1%BB%9F_%C4%90%C3%B4ng_H%C3%A0_%28Li%E1%BB%85u_Qu%C3%A1n%29_2018_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "04f12cc1ad07a95556df35dc89c2deccdaeb13d1",
+    "name": "Bún bò Huế",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-89554972.jpg",
+    "assetSha256": "0eca98295a154c659f51680bd05877a605c02cff7c04d75e5e533e5e18003e71",
+    "reviewedAt": "2026-11-18",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 791,
+    "height": 960,
+    "requiresExactMenuName": true
   }
 ];

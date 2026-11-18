@@ -5495,3 +5495,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Lemang** — [Emran Kassim](https://www.flickr.com/photos/emrank/). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Lemang_Raya,_2007.jpg). Local asset: `reviewed-commons-58414950.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Bún bò Huế** — Phương Huy  ( thảo luận ). [Public domain](https://creativecommons.org/publicdomain/mark/1.0/); [source](https://commons.wikimedia.org/wiki/File:B%C3%BAn_b%C3%B2_Hu%E1%BA%BF_%E1%BB%9F_%C4%90%C3%B4ng_H%C3%A0_(Li%E1%BB%85u_Qu%C3%A1n)_2018_(1).jpg). Local asset: `reviewed-commons-89554972.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
