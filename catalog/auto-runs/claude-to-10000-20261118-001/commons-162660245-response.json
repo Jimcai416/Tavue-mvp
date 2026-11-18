@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChB4HT34k5ZJFDqvNYYgy",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows tan/beige conical packets with cream-coloured tops\",\n    \"No finished plated dish visible\",\n    \"Subject appears to be raw ingredient packages or preparation stage\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Image shows packaged groundnut paste (raw ingredient), not a finished prepared dish\",\n    \"Source metadata describes this as an ingredient for soup preparation, not a cooked dish itself\",\n    \"No prepared food or finished plating visible in either source or thumbnail\"\n  ],\n  \"reason\": \"Reject: This photograph documents groundnut paste in packaging—a raw ingredient or preparation stage—not a finished, exposed, cooked dish. The source description explicitly states it is used 'to prepare groundnut soup', confirming this is a component material, not a complete prepared meal. Tavue requires finished, exposed, appetising dishes with readable components. Raw ingredients in packets do not meet acceptance criteria, regardless of image quality or thumbnail clarity.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1746,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 361,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
