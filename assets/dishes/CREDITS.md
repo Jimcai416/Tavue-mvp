@@ -6183,3 +6183,8 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 - **rainbow kueh lapis** — ProjectManhattan. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Rainbow_kueh_lapis.jpg). Local asset: `reviewed-commons-35894383.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Pancit Malabon and Puto** — Judgefloro. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:1636Pancit_Malabon_and_Puto_05.jpg). Local asset: `reviewed-commons-64125705.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Sarson-ki-saag makki di roti** — Officialksv. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Sarson-ki-saag_makki_di_roti.jpg). Local asset: `reviewed-commons-40846484.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Puto (Filipino rice cake) with cheese** — Obsidian Soul. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Puto_(Filipino_rice_cake)_with_cheese.jpg). Local asset: `reviewed-commons-76567359.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Uzbek national dish "somsa"** — Xkmvch. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Somsa_1.jpg). Local asset: `reviewed-commons-149390732.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
