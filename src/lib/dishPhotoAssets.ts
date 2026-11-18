@@ -3231,4 +3231,11 @@ export const dishPhotoAssets: Record<string, ImageSourcePropType> = {
   'commons-106259595': require('../../assets/dishes/reviewed-commons-106259595.jpg'),
   'commons-47163228': require('../../assets/dishes/reviewed-commons-47163228.jpg'),
   'commons-176960066': require('../../assets/dishes/reviewed-commons-176960066.jpg'),
+  'commons-81989499': require('../../assets/dishes/reviewed-commons-81989499.jpg'),
+  'commons-103232742': require('../../assets/dishes/reviewed-commons-103232742.jpg'),
+  'commons-40988620': require('../../assets/dishes/reviewed-commons-40988620.jpg'),
+  'commons-93978871': require('../../assets/dishes/reviewed-commons-93978871.jpg'),
+  'commons-1930332': require('../../assets/dishes/reviewed-commons-1930332.jpg'),
+  'commons-139348065': require('../../assets/dishes/reviewed-commons-139348065.jpg'),
+  'commons-188843299': require('../../assets/dishes/reviewed-commons-188843299.jpg'),
 };
