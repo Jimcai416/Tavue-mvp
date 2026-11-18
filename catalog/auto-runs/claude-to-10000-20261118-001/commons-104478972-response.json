@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAtLJS4Qv3oYfg2kaBMj",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Bright, creamy yellow-green broth in metal pot\",\n    \"Fresh green leafy vegetable strips (kale-like appearance)\",\n    \"Pink/salmon-coloured meat pieces scattered throughout\",\n    \"Oil sheen on surface\",\n    \"Stovetop setting, in-progress or serving stage\",\n    \"Phone thumbnail shows same creamy broth, green garnish, meat pieces clearly\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows finished soup/broth dish\",\n    \"Creamy yellow-green liquid visible\",\n    \"Green leafy components readable\",\n    \"Pink meat pieces prominent and identifiable\",\n    \"Subject well-centered, not clipped\",\n    \"Adequate detail for recognition of finished dish\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'Caldo Verde' (Portuguese kale soup), but metadata are untrusted per instructions\",\n    \"Pink/salmon meat visible but species cannot be definitively determined from appearance alone – could be ham, sausage, or other pork product\",\n    \"No explicit source text naming the meat species provided in title or description\",\n    \"Source title is filename metadata ('File:Caldo Verde.jpg'), not a dish description to extract from\",\n    \"Instagram URL and author name are metadata, not authoritative dish information\"\n  ],\n  \"reason\": \"Image quality, sharpness, lighting and composition all meet acceptance thresholds (scores ≥4). Full photograph and phone thumbnail both show a finished, appetising creamy broth with green leafable strips and meat pieces, well-exposed and naturally coloured. However, identity check fails: the title is a bare filename ('File:Caldo Verde.jpg'), not an explicit source description. The pink meat pieces are visible but their species cannot be determined from appearance alone – no source quote explicitly names the animal. Per rules, unknown meat species and source contradictions require hold. Without a canonical source description that explicitly names both the dish and the meat protein, identity and protein evidence cannot be established with certainty.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 2036,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 601,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

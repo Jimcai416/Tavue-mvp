@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAtLBKfvNAsD5Joic11r",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": \"Bangladeshi style Shahi Haleem\",\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Finished, cooked dish in traditional terracotta bowl\",\n    \"Greenish-brown base with crispy fried onions and fresh cilantro\",\n    \"Lime wedges for garnish\",\n    \"Appetising presentation with natural colours\",\n    \"Sharp detail in both full and thumbnail views\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows the dish structure\",\n    \"Legible terracotta vessel and toppings visible at 124x96\",\n    \"Colour and composition readable; not clipped\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Shahi Haleem is a slow-cooked meat dish (traditionally beef, lamb, or goat) prepared with lentils and spices. The source description names the dish but does not explicitly name the meat species used in this particular version.\",\n    \"Visual inspection cannot reliably distinguish between beef, lamb, or goat in a finished, shredded haleem preparation.\",\n    \"No explicit protein species quote found in source title or description.\"\n  ],\n  \"reason\": \"The photograph is sharp, well-lit, appetising and clearly shows a finished haleem in a traditional terracotta bowl with appropriate garnishes (fried onions, cilantro, lime). Both full and thumbnail images are of high quality. However, the identity check fails because the source description 'Bangladeshi style Shahi Haleem' does not explicitly name the meat species. Haleem is fundamentally a meat dish, but without an exact source quote naming chicken/beef/pork/duck/lamb or seafood, protein_evidence cannot be populated. The instruction requires explicit animal naming in source text for each protein claimed. Hold pending clarification of meat species from source metadata or description.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1800,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 543,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

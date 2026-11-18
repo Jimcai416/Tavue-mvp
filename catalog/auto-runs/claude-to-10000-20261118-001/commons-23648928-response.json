@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAtKoyYAziV1xJhACGst",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Cream sauce base visible\",\n    \"Pale poultry portion identifiable\",\n    \"Green garnish visible\",\n    \"Red elements present\",\n    \"Plated presentation shown\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'Coq au Riesling' (rooster in Riesling sauce) but source metadata states 'Hahn' (German for rooster/chicken) with no explicit species confirmation in the visible dish\",\n    \"Poultry species cannot be definitively determined from appearance alone—could be chicken, rooster, or other fowl\",\n    \"Source title/description uses 'Coq' and 'Hahn' (both potentially rooster) but canonical identity requires explicit animal naming in a quote; metadata species designation is not a valid visual or textual dish identifier\"\n  ],\n  \"reason\": \"Reject: Source title 'Coq au Riesling' uses a French term ('Coq' = rooster) but the accompanying German metadata ('Hahn') creates ambiguity about the exact poultry species. The instruction requires proteins to include only chicken/beef/pork/duck/lamb/seafood with an exact source quote explicitly naming the animal. 'Coq' and 'Hahn' are traditional terms that may refer to rooster, which is not in the allowed category list. Ambiguous or unspecified poultry species without clear modern identification of the exact animal type must be held. The image quality and presentation are acceptable, but the protein identity cannot be established to canonical standards.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1762,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 503,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
