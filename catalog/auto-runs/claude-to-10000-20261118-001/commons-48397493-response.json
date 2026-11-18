@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAhSKqXeq84Wnsp4inMY",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Baked casserole dish in white ceramic pan\",\n    \"Golden-brown top with green pepper garnish\",\n    \"Layered vegetable structure visible at sides\",\n    \"Tomato-based sauce evident\"\n  ],\n  \"phone_observations\": [\n    \"Casserole clearly visible and readable\",\n    \"Golden crust and toppings prominent\",\n    \"Dish identity discernible\",\n    \"Representative thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title contains filename prefix 'File:' and metadata markers (not a clean dish name)\",\n    \"Description explicitly states '(without meat)' — dish contains no animal protein to document\",\n    \"Title 'Patates-patlıcan oturtma' is a regional Turkish variant name; description labels it a 'musakka version' but source itself declares it meatless\",\n    \"Canonical name extraction impossible: source provides only filename/metadata, not a formal dish title suitable for intake\"\n  ],\n  \"reason\": \"Reject: The source metadata is not a clean, formal dish title. The filename prefix 'File:' and metadata structure indicate this is a wiki/archive entry rather than user-provided dish identification. More critically, the source explicitly declares this dish is prepared '(without meat)' — it is a vegetarian casserole with no animal protein. Per intake rules, protein_evidence keys are limited to named animal categories (chicken/beef/pork/duck/lamb/seafood), and an empty protein_evidence object is acceptable; however, the source title/description format does not meet the standard for canonical_name extraction (it is a filename, not a dish description). The variant qualifier '(without meat)' and the 'musakka version' note create ambiguity about whether this is a true 'oturtma' preparation or a reinterpreted variant. Canonical name cannot be reliably extracted from metadata and filename structure.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1755,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 575,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
