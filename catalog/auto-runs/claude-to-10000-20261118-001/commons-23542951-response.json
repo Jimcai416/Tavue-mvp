@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChB3hpgcNeqXQBHp2s28g",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Sliced cured meat in white bowl\",\n    \"Deep red/burgundy colour consistent with cured beef\",\n    \"Crispy, dried exterior visible on edges\",\n    \"Liquid/jus visible in bowl base\"\n  ],\n  \"phone_observations\": [\n    \"Meat slices clearly visible at 124x96 resolution\",\n    \"Colour and texture identifiable as cured meat product\",\n    \"Subject adequately prominent in thumbnail\",\n    \"Essential components readable\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title 'Pastırma' is a Turkish/Eastern European cured meat, but the exact animal species (beef, horse, camel, lamb, mutton) is not explicitly stated in the supplied title or description\",\n    \"Pastırma is traditionally made from beef, but this cannot be visually confirmed and the source metadata does not explicitly name the animal\",\n    \"No explicit protein species declaration in title or description to support categorization\"\n  ],\n  \"reason\": \"Photograph quality, sharpness, lighting, composition and appeal are all strong (scores ≥4). The image shows a finished, exposed, appetising cured meat dish with sharp detail and natural colouring. Phone thumbnail is adequate. However, the identity check fails: the source title 'Pastırma' alone does not constitute an explicit animal species declaration. While pastırma is traditionally beef-based, the instructions require an exact source quote explicitly naming the animal—'beef', 'horse', 'camel', 'lamb' or 'mutton'—and no such quote exists in the supplied title or description. Without explicit protein species evidence in the source metadata, the dish cannot be accepted under the strict protein_evidence protocol. Hold pending clarification of the animal species in the original source.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1739,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 543,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

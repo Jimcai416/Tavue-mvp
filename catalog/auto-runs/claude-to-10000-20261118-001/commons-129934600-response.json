@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChB3iCgT7zu2bGC27DFUb",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 5,\n    \"composition\": 5,\n    \"appeal\": 4\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows ingredient layout, not a finished dish\",\n    \"Individual components (meat, walnuts, rice, brush, sauce) arranged for educational/recipe display\",\n    \"No plated or served food visible in phone crop\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Image is explicitly labelled as 'Kharcho ingredients' – a recipe/preparation guide, not a finished dish photograph\",\n    \"Source metadata states 'created on the basis of free images' – composite illustration, not authentic food photography\",\n    \"No finished, exposed, served dish is present in either source or thumbnail\"\n  ],\n  \"reason\": \"Rejection: This is an ingredients/recipe illustration, not a photograph of a finished, served dish. The full image and thumbnail both show component layout (raw meat, walnuts, rice, condiments, brush) for instructional purposes. The source metadata confirms it is a composite created from free images, not authentic food photography. The instructions require 'a finished, exposed, likely photographic dish' and explicitly reject 'illustrations' and 'preparation stages'. This violates core acceptance criteria.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1836,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 396,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

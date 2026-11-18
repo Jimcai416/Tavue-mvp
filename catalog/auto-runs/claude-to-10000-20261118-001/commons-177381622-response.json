@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChB3hrR3ud4nwQv9ya9P2",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 2,\n    \"composition\": 2,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows raw, uncooked meat mixture in a strainer—pale pink/grey granular texture\",\n    \"No visible cooking, browning, or finished preparation stage\",\n    \"Subject appears to be preparation-stage minced or ground meat, not a plated dish\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'Pempek ikan gabus' but photograph shows raw minced meat in a blue strainer—no visible fish cake, no cooking, no sauce typical of pempek\",\n    \"Severe mismatch between source identity (pempek, an Indonesian fish cake dish) and photograph content (raw meat preparation)\",\n    \"No recognizable finished dish; appears to be ingredient preparation, not an exposed, cooked food photograph\"\n  ],\n  \"reason\": \"Rejection: Photograph shows raw, uncooked minced meat in a strainer during preparation stage, not a finished, exposed, cooked dish. Source title claims 'Pempek ikan gabus' but no pempek, fish cake structure, browning, or plated presentation is visible. Identity mismatch is severe. Quality scores fail (sharpness 2, lighting 2, composition 2, appeal 1—all below acceptance threshold of 4). Phone thumbnail confirms raw, granular meat texture with no appetising finished-food qualities. This violates core acceptance criteria: finished, exposed, photographic dish with natural colour and appetising presentation.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1512,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 472,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
