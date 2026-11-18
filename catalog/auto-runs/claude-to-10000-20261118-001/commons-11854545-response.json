@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAuYF2NvJqRF1SkHh8Mo",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [\n    \"Dark braised meat with glossy, reduced sauce\",\n    \"Golden-brown fried bread cubes surrounding the meat\",\n    \"Warm amber ceramic dish\",\n    \"Natural lighting with clear detail of texture\"\n  ],\n  \"phone_observations\": [\n    \"Central dark braised meat mass clearly visible\",\n    \"Cream/tan bread cubes prominently positioned around edges\",\n    \"Sauce and meat components readable at thumbnail scale\",\n    \"Composition preserves dish identity in small format\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title references 'internal lamb liver, lungs, heart, blood, etc.' (offal/variety meats)\",\n    \"Visible photograph shows braised meat and bread but does not clearly distinguish organ meats from muscle meat\",\n    \"Species 'lamb' is explicitly named but the specific organ composition (liver, lungs, heart, blood) cannot be visually verified from the finished dish appearance\",\n    \"Offal/organ meats (liver, lungs, heart, blood) fall outside the allowed protein categories (chicken/beef/pork/duck/lamb/seafood with explicit species confirmation)\",\n    \"While 'lamb' is named, the dish identity depends critically on the organ/offal components which are not an allowed category\"\n  ],\n  \"reason\": \"Reject: The source description identifies this as a dish 'based on internal lamb liver, lungs, heart, blood, etc.' (Asadurilla/Chanfaina). Although lamb is a named allowed species, this dish is fundamentally defined by offal and organ meats (liver, lungs, heart, blood), which do not fall within the permitted protein categories. The rule requires exact source quote naming each animal for allowed categories only; organ/variety meat preparations cannot be supported under the current categories. The visible photograph cannot confirm whether muscle meat or offal predominates, and the dish identity is inseparable from its organ-meat composition as stated in the source.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1655,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 580,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

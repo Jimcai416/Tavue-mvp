@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAuYqjBXmBceeQ4vkUdE",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Large paella pan with saffron-coloured rice, clearly cooked and finished\",\n    \"Meat skewers (pinchos morunos) grilling on metal grate to the right\",\n    \"Street food vendor setting with Moroccan/Andalusian décor (red banners, ornamental ironwork)\",\n    \"Natural daylight, appetising presentation\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows the yellow paella pan dominant in frame\",\n    \"Skewered meat visible on grill at right edge\",\n    \"Vendor and setting identifiable; subject prominent and sharp\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title 'Cuscus y pinchos morunos' contradicts visible dish: a paella is prominently featured, not couscous (cuscus). The thumbnail and full image both show a large paella pan with saffron rice as the primary subject, not couscous.\",\n    \"Pinchos morunos (meat skewers) are visible and identifiable, but their exact protein species is not explicitly named in the source description—only 'pinchos morunos' is provided. Standard preparation traditionally uses lamb or pork, but this cannot be confirmed from the source metadata alone.\",\n    \"The title-image mismatch creates ambiguity about which dish is being submitted for review and what the actual identity should be.\"\n  ],\n  \"reason\": \"Hold: Critical identity conflict. Source title states 'Cuscus y pinchos morunos' (couscous and Moroccan meat skewers), but the photograph unmistakably shows a large paella pan filled with saffron-coloured rice as the dominant, finished dish—not couscous. The pinchos morunos (grilled skewers) are present but secondary. The source description does not name the meat species in the skewers explicitly (pinchos morunos is a preparation name, not a protein identifier). This contradiction between claimed title and visible form, combined with unspecified protein identity, requires hold pending clarification of the actual dish identity and meat source.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1727,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 623,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
