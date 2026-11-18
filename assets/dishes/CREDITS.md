@@ -3305,3 +3305,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 - **Pernil** — Ekem. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Pernil.1.jpg). Local asset: `reviewed-commons-37516306.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Ropa Vieja** — [USDAgov](https://www.flickr.com/people/usdagov/). [Public domain](https://creativecommons.org/publicdomain/mark/1.0/); [source](https://commons.wikimedia.org/wiki/File:MyPlate_gov_Cultural_Food_(20241025-USDA-FNS-UNK-0069).jpg). Local asset: `reviewed-commons-184647910.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Caramel custard** — PallaviKhale. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Caramel_custard_PK020.jpg). Local asset: `reviewed-commons-102895948.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Pasteis de Nata** — helmut.weigel. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Pasteis_de_Nata.jpg). Local asset: `reviewed-commons-61961308.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.

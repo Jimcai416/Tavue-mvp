@@ -49802,5 +49802,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 843,
     "height": 843,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-61961308",
+    "title": "File:Pasteis de Nata.jpg",
+    "author": "helmut.weigel",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pasteis_de_Nata.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/97/Pasteis_de_Nata.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "0c57394b39f657f1e182fa60e325dc45dd8dad8b",
+    "name": "Pasteis de Nata",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-61961308.jpg",
+    "assetSha256": "245ee15aa3e2e4709abda5a9aba93ebdee891a6696ef08058fe13006c4a4fcb9",
+    "reviewedAt": "2026-11-18",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];
