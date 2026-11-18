@@ -76329,5 +76329,52 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 540,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-74903962",
+    "title": "File:Arroz Caldo, Grape Custard, Fruits, Virgin Light.jpg",
+    "author": "George Parilla",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Arroz_Caldo,_Grape_Custard,_Fruits,_Virgin_Light.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Arroz_Caldo%2C_Grape_Custard%2C_Fruits%2C_Virgin_Light.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "1ade42727d181e0a92a2d21ded23037d8bf7234e",
+    "name": "Arroz Caldo",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-74903962.jpg",
+    "assetSha256": "9665a9c5b7d56b699a1d6848978c4ed20fe7a1eeeb45d56f71e8c267aab77056",
+    "reviewedAt": "2026-11-18",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 638,
+    "requiresExactMenuName": true,
+    "authorUrl": "https://www.flickr.com/photos/georgeparrilla/"
+  },
+  {
+    "id": "commons-95980795",
+    "title": "File:Bún bò Huế (20201109).jpg",
+    "author": "Baoothersks",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:B%C3%BAn_b%C3%B2_Hu%E1%BA%BF_(20201109).jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/01/B%C3%BAn_b%C3%B2_Hu%E1%BA%BF_%2820201109%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "d5a9495c17740812c5b7b055f0f708398c2e374c",
+    "name": "Bún bò Huế with beef balls and tendons",
+    "aliases": [],
+    "proteins": [
+      "beef"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-95980795.jpg",
+    "assetSha256": "445677ada915f5ecea5390072fdaf17d2429910f6c6ed706867d02589f51da2f",
+    "reviewedAt": "2026-11-18",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 540,
+    "requiresExactMenuName": true
   }
 ];
