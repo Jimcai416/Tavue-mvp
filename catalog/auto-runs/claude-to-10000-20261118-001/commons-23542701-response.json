@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChB3sRTejgZepdKCHpJvc",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 3,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Wooden block or log visible\",\n    \"Sliced cured meat scattered on white surface\",\n    \"Hand holding blade/knife above meat\",\n    \"Raw/preparation stage evident\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Image shows meat in preparation/slicing stage, not a finished dish\",\n    \"Subject is a cured meat product being cut, not a plated or served food\",\n    \"Pastırma is identified by source description, but photograph documents the preparation process rather than a finished, exposed, appetising dish\"\n  ],\n  \"reason\": \"Reject: This photograph documents a raw/preparation stage—a cured meat being actively sliced on a wooden block—not a finished, exposed, plated dish. The guidelines explicitly reject preparation stages. While the source metadata names 'Pastırma', the visual content shows meat mid-slicing with scattered fragments on a work surface, inconsistent with a finished, appetising food photograph suitable for a food review database. The composition and appeal scores reflect the instructional/process nature of the image rather than a culinary presentation.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1743,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 390,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChB3rXtpaXwqXAHGrLwaA",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Creamy, spiced sauce visible in both source and thumbnail\",\n    \"Cubed white cheese (paneer) clearly present\",\n    \"What appear to be vegetable pieces (possibly potato, carrot)\",\n    \"Golden-brown curry colour consistent with korma preparation\",\n    \"Finished, exposed dish in serving vessel\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail shows full dish with creamy sauce and visible components\",\n    \"Paneer cubes and other ingredients readable at phone size\",\n    \"Centre-cover framing captures the dish adequately\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title states 'Paneer based Veg Korma' but paneer is not a canonical protein category (not chicken/beef/pork/duck/lamb/seafood)\",\n    \"Cannot extract explicit animal protein from source description—only dairy (paneer) is confirmed\",\n    \"Vegetable korma with paneer does not map to required protein categories\"\n  ],\n  \"reason\": \"The image is a finished, well-photographed curry dish with good sharpness, lighting, composition and appeal. However, the source explicitly identifies this as 'Paneer based Veg Korma'—a vegetarian dish with paneer (cottage cheese) as the protein. Paneer is dairy, not an allowed category (chicken/beef/pork/duck/lamb/seafood). No canonical protein evidence can be extracted from the title or visible form. All checks pass except identity, because the dish identity cannot be preserved with a valid protein category. Rejection is required.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1973,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 499,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

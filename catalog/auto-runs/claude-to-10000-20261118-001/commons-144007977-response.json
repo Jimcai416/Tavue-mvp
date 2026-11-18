@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChB3s2HNVoYU9nCT8gZyd",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [\n    \"Cream/beige sauce base visible\",\n    \"Diced orange/red vegetables (carrots or tomato) prominent throughout\",\n    \"Served on white plate\",\n    \"Cooked, finished dish appearance\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail shows creamy sauce dish with vegetable pieces\",\n    \"Essential components visible and readable\",\n    \"Plate and food clearly presented\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'Veg korma' but visible meat pieces (pink/salmon-coloured chunks) are present throughout the dish\",\n    \"Orange pieces appear to be diced meat (possibly chicken or seafood) rather than carrots\",\n    \"Source metadata describes 'vegetable' but the photograph shows a non-vegetarian preparation\",\n    \"Cannot confirm meat species from appearance alone; source does not declare the protein ingredient\"\n  ],\n  \"reason\": \"Identity check fails. The source title 'Veg korma' claims a vegetarian dish, but the photograph clearly shows substantial pink/salmon-coloured protein pieces distributed throughout the creamy sauce—not visible in a vegetable-only korma. The title/description contradicts the actual visible contents. Without explicit source declaration of the meat species, and given the contradiction between title and photograph, this cannot be accepted. The dish may be a chicken, pork, or seafood korma, but the source provides no authoritative statement of protein identity.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1723,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 467,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
