@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAg9Uf1gBx2dK6DsW2SJ",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Herb-heavy bowl salad clearly visible in thumbnail\",\n    \"Bowl form and decorative rim consistent with full image\",\n    \"Leafy greens and white elements (possibly egg) prominent\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title describes 'Ceebu Yapp' (beef rice dish) but photograph shows a fresh herb salad with no visible rice, meat, or cooked components\",\n    \"No crusty rice visible as described ('best bits are the crusty bits of rice from the bottom of the pot')\",\n    \"No visible beef or any cooked protein in the dish\",\n    \"Severe contradiction between source text (rice-based one-pot meal) and actual visible food (raw salad preparation)\"\n  ],\n  \"reason\": \"Identity mismatch. Source describes Ceebu Yapp, a Senegalese beef and rice dish with characteristic crispy bottom rice, but the photograph clearly shows a fresh herb salad (kale, parsley, with egg and cucumber garnish) with no cooked rice, meat, or one-pot preparation visible. The description explicitly states this is 'roughly the same but with beef instead of fish' and highlights 'crusty bits of rice from the bottom of the pot', neither of which appears in this salad. This is either a mislabeled photograph or a preparation stage image, not the finished dish described. Hold for identity verification.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1818,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 464,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

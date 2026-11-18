@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAg9vQZY6SZJaUg473Qg",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 3,\n    \"lighting\": 3,\n    \"composition\": 2,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows raw/preparation stage: uncooked whole fish and dried fish component with knife-cut sections\",\n    \"Essential food items visible but not in finished dish form\",\n    \"Raw ingredients displayed, not a cooked or plated dish\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title references 'Thiéboudiène' but image shows only raw components/ingredients, not the finished dish\",\n    \"Fish species not explicitly named in source metadata\",\n    \"Dried/cured fish component (guedj) identity unclear from visual inspection alone\"\n  ],\n  \"reason\": \"Rejection: Image shows raw preparation stage and ingredient components, not a finished, exposed, cooked dish suitable for food review. Both full source and phone thumbnail display uncooked whole fish and raw dried fish cuts on a preparation surface, inconsistent with Tavue's requirement for finished, appetising dishes. The photograph documents ingredients rather than a completed culinary preparation. Source title incomplete (truncated description). No explicit animal species confirmation in metadata beyond ambiguous 'fish'.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1737,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 384,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
