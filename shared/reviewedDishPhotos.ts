@@ -61309,5 +61309,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-4342844",
+    "title": "File:Rýnská pečeně, bramborový knedlík.jpg",
+    "author": "Dezidor",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:R%C3%BDnsk%C3%A1_pe%C4%8Den%C4%9B,_bramborov%C3%BD_knedl%C3%ADk.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/58/R%C3%BDnsk%C3%A1_pe%C4%8Den%C4%9B%2C_bramborov%C3%BD_knedl%C3%ADk.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "0bbca135491eaea485680d8529ba02f9d0f83f4a",
+    "name": "Rýnská pečeně, bramborový knedlík",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-4342844.jpg",
+    "assetSha256": "2829cd9b3ac47ce9cca973cf716dd5135cc6d1ddf36b9eb46fe0d71a71f77413",
+    "reviewedAt": "2026-11-18",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];

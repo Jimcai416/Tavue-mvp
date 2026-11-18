@@ -4179,3 +4179,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 
 - **kluski z dziurka** — MOs810. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Food_in_Sobkow_Castle_(1)_kluski_z_dziurka.jpg). Local asset: `reviewed-commons-92898668.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Kluski śląskie** — MOs810. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Kluski_slaskie_(Poznan).jpg). Local asset: `reviewed-commons-89582245.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Rýnská pečeně, bramborový knedlík** — Dezidor. [CC BY 3.0](https://creativecommons.org/licenses/by/3.0); [source](https://commons.wikimedia.org/wiki/File:R%C3%BDnsk%C3%A1_pe%C4%8Den%C4%9B,_bramborov%C3%BD_knedl%C3%ADk.jpg). Local asset: `reviewed-commons-4342844.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
