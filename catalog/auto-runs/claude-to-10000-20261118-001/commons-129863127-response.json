@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBA234D23gbQZKg315vL",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 2,\n    \"composition\": 2,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Uncooked polenta slab in baking pan, pre-preparation stage\",\n    \"No visible feta cheese despite title claim\",\n    \"Raw/unfinished state, not an exposed cooked dish\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'feta' but no cheese is visibly apparent in either image\",\n    \"Preparation/raw stage, not finished cooked dish\",\n    \"No grilling has occurred; subject is explicitly pre-grilling state\"\n  ],\n  \"reason\": \"Reject: This is a raw preparation stage (uncooked polenta slab in a baking pan), not a finished, exposed, cooked dish. The title claims feta cheese but none is visibly evident in either the full image or thumbnail. The source explicitly states 'ready for grilling later', confirming this is pre-cooking. Tavue accepts only finished dishes with natural colour, appetising presentation, and sharp detail in the thumbnail. This fails all core acceptance criteria: it is unfinished, lacks visual evidence of claimed ingredients, has poor sharpness and lighting, and shows no finished food suitable for review.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1375,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 403,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

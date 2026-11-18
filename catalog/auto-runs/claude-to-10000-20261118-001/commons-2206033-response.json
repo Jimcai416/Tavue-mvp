@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBA29bMvH7sQctwtHY91",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 2\n  },\n  \"visible_support\": [\n    \"Yellow price sign reads 'LUTEFISK FRA KR. 49'\",\n    \"Cubed pale white/translucent fish product visible in market display\",\n    \"Commercial fishmonger setting with whole fish and salmon visible\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail shows cubed fish pieces in market bin\",\n    \"Orange and pink salmon visible to right\",\n    \"Overall setting consistent with full image\"\n  ],\n  \"protein_evidence\": {\n    \"seafood\": \"Lutefisk\"\n  },\n  \"uncertainties\": [\n    \"Lutefisk is a preparation (cured and lye-treated dried fish) rather than a finished cooked dish ready to eat\",\n    \"Image shows raw/preparation stage product in market display, not finished prepared food\",\n    \"No cooking visible; this is a retail/ingredient display, not a plated or served meal\"\n  ],\n  \"reason\": \"Reject: Lutefisk is displayed here as a raw/cured ingredient in a fishmonger's counter, not as a finished, cooked, prepared dish. The image documents a retail product display rather than appetising finished food suitable for Tavue's food photography collection. While the photograph quality and phone thumbnail are adequate, the subject fails the fundamental requirement of being a finished, exposed, cooked dish ready for consumption.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1730,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 439,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
