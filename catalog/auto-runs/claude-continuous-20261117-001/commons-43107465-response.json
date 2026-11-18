@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAKw3DQ69uPxRmdkgTfG",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Two metal skewers with charred meat cubes\",\n    \"White rice pilaf with golden onion pieces\",\n    \"Thin noodle-like orzo or vermicelli visible on right side\",\n    \"Fresh red pepper pieces\",\n    \"Fresh green leafy greens (rucula/arugula)\",\n    \"White plate, home/street food setting\"\n  ],\n  \"phone_observations\": [\n    \"Skewered meat clearly visible and prominent\",\n    \"Rice and noodle components readable\",\n    \"Pepper and greens visible in thumbnail\",\n    \"Dish composition recognisable at small size\"\n  ],\n  \"protein_evidence\": {\n    \"protein\": null\n  },\n  \"uncertainties\": [\n    \"Meat species not explicitly stated in source description—only 'meat cubes' on skewers visible. Traditional şiş kebap may be lamb, beef or pork; appearance alone cannot confirm species without explicit source declaration.\",\n    \"Source title is 'Şiş kebap and pilav' but description mentions 'şehriyeli pilav' (orzo/vermicelli pilaf), not plain pilav. Identity contradiction between title and description regarding pilaf type.\"\n  ],\n  \"reason\": \"Image quality, photography and phone thumbnail all meet standards. However, protein identity check fails: no explicit animal species named in source metadata despite meat being central to the dish. Source title/description also conflict (title says 'pilav', description specifies 'şehriyeli pilav'—orzo vs. rice distinction). Per protocol, unspecified meat species and source contradictions require hold pending clarification of exact meat type and pilaf variant from authoritative source.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1646,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 519,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

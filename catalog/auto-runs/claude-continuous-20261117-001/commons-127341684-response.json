@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAKxB5hPihZzrr8LemJR",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Cooked rolls visible on white plate\",\n    \"Golden-brown exterior colour consistent with baked/braised preparation\",\n    \"Cross-sections show grain-based filling with visible particles\"\n  ],\n  \"phone_observations\": [\n    \"Rolls clearly visible at thumbnail size\",\n    \"Golden-brown colour preserved\",\n    \"Plate and presentation readable\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title describes 'postna sarma (vegetarian sarma)' – explicitly vegetarian, no animal protein\",\n    \"Description states 'filling made of walnut and rice' – no meat declared\",\n    \"Visual cross-sections show grain-based filling consistent with vegetarian composition, no visible meat or seafood\",\n    \"Canonical name would be 'Postna sarma' or 'Vegetarian sarma', but source explicitly states vegetarian with walnut/rice filling\"\n  ],\n  \"reason\": \"Source explicitly identifies this as vegetarian sarma with walnut and rice filling, containing no animal proteins. Tavue review criteria require protein_evidence with exact source quotes naming animal proteins (chicken/beef/pork/duck/lamb/seafood). This dish contains none. Identity check fails because the source description contradicts acceptance of a meat-containing dish. While photograph and phone thumbnail quality are good, the fundamental identity requirement cannot be satisfied for a vegetarian dish when the system is designed to review dishes with named animal proteins.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1607,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 462,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
