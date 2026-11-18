@@ -75384,5 +75384,53 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 867,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-37839325",
+    "title": "File:Pork Sate Lilit Bali 1.JPG",
+    "author": "Gunawan Kartapranata",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pork_Sate_Lilit_Bali_1.JPG",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/df/Pork_Sate_Lilit_Bali_1.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "eef9313d0462176bdd7d0bffc087c474933731ec",
+    "name": "Pork Sate Lilit Bali",
+    "aliases": [],
+    "proteins": [
+      "pork"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-37839325.jpg",
+    "assetSha256": "132bc22a4f334cd209b5d91b05d7569ce0be7858aeaf223c891aae07cab59d60",
+    "reviewedAt": "2026-11-18",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 777,
+    "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-125345126",
+    "title": "File:RAAN–E–JIRGA.jpg",
+    "author": "Rohan kumar",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:RAAN%E2%80%93E%E2%80%93JIRGA.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2d/RAAN%E2%80%93E%E2%80%93JIRGA.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "049006e44296865423cf071f87fd27fc5fc78f50",
+    "name": "Slow-roasted baby lamb leg with ole chokha and jus",
+    "aliases": [],
+    "proteins": [
+      "lamb"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-125345126.jpg",
+    "assetSha256": "4323d3783cc33ccec5ee1d67caae72cc9bc416971e473971b3916431e60ebde4",
+    "reviewedAt": "2026-11-18",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 432,
+    "requiresExactMenuName": true
   }
 ];
