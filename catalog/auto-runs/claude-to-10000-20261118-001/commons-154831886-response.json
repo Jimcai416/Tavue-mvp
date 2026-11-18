@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAoNRkKqM31V3FeA4tyM",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Two round dumplings in clear broth with potato slices\",\n    \"Fresh green parsley garnish\",\n    \"White bowl with spoon\",\n    \"Natural, warm lighting\",\n    \"Phone thumbnail shows complete dish clearly\"\n  ],\n  \"phone_observations\": [\n    \"Dish is fully visible and identifiable in thumbnail\",\n    \"Two dumplings, broth, and potato are sharp and prominent\",\n    \"Garnish visible\",\n    \"Appropriate centre-cover framing\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title lists 'Leberknödel' (liver dumplings) and 'Eierstich' (egg dumplings), but only two dumplings visible—cannot visually distinguish which species/type each represents or confirm both are present as named\",\n    \"Description states 'beef broth' but broth species cannot be confirmed by appearance alone\",\n    \"Metadata title contains 'File:' and location tag (Kornbachtal), which are non-canonical elements\"\n  ],\n  \"reason\": \"Identity check fails: the source description names two distinct dumpling types (Leberknödel and Eierstich) with a beef broth base, but the photograph shows only two dumplings and clear broth with no visual means to confirm which dumpling is which species or that both types are present. Beef broth cannot be visually verified. While photograph and phone quality are strong (sharpness, lighting, composition, appeal all ≥4), and the dish is finished and appetising, the identity cannot be reliably matched to the exact source description without visual certainty of the component species and broth type. Hold pending clarification of which dumplings are present or a source title that specifies only what is visibly confirmed.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1757,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 546,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

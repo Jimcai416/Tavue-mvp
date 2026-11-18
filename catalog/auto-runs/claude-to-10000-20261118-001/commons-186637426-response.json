@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAoMwqJ5mMtccJXY9Nu8",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Golden-brown breaded cutlet with lemon slice visible on plate\",\n    \"French fries/pommes frites clearly present\",\n    \"Fresh cucumber and tomato garnish\",\n    \"Clear broth soup in white bowl with ladle\",\n    \"Natural restaurant lighting, well-exposed\"\n  ],\n  \"phone_observations\": [\n    \"Soup bowl prominent in lower left\",\n    \"Breaded schnitzel and fries clearly visible in centre-right\",\n    \"Garnish visible but small at phone resolution\",\n    \"All essential components readable in thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title states 'Wiener Schnitzel' but does not explicitly name the meat animal (veal, pork, chicken, etc.). Wiener Schnitzel traditionally refers to veal, but this cannot be verified from visual appearance alone. The source description does not contain an explicit quote naming the specific protein.\",\n    \"Leberknödel (liver dumpling) soup contains liver, but the animal species of the liver is not stated in the source title or description.\"\n  ],\n  \"reason\": \"Image quality, composition, sharpness, lighting and appeal all pass. Phone thumbnail is clear and readable. However, the source title 'Wiener Schnitzel' does not explicitly name the meat species, violating the requirement that 'proteins may include only chicken/beef/pork/duck/lamb/seafood, with an exact source quote explicitly naming each animal; never infer species from tradition, appearance or generic meat/sausage.' Traditional or conventional species cannot be assumed. The soup's liver origin is stated but the animal species is not. Identity check fails due to missing explicit protein naming in source metadata. Hold pending clarification of exact protein sources.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1550,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 538,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

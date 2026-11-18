@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAoNkDL6qmsLN3FksUdW",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 3,\n    \"appeal\": 3\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Pasty visible on plate with checkered tablecloth\",\n    \"Pint glass visible for scale reference\",\n    \"Venue context partially visible\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title refers to 'Hefty Pasty' but no source dish description provided to verify canonical identity\",\n    \"Pasty contents (filling) not visually identifiable or declared in metadata\",\n    \"No explicit protein declaration in source metadata\",\n    \"GBBF 2005 context is event/date metadata, not a dish identity source\"\n  ],\n  \"reason\": \"Rejection: The image shows a pasty at a beer festival, but the source metadata provides only a filename and event context ('GBBF 2005'), not an actual dish description or title that specifies the filling or variant. The term 'Hefty Pasty' is extracted from the filename, not from a canonical source title or description field. Without an explicit source-declared identity (filling type, regional variant, or preparation detail) and with no visible protein declaration in metadata, the dish identity cannot be verified against the exact source title/description requirement. The photograph itself is acceptable in quality, but identity verification fails.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1763,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 416,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
