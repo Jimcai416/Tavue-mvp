@@ -5304,3 +5304,8 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 - **Banku with Groundnut Soup** — Iamrobotboy. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Banku_with_Groundnut_Soup.jpg). Local asset: `reviewed-commons-36682947.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Kabsa** — [Sammy Six](https://www.flickr.com/people/62088518@N08). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Kabsa_(6486384335).jpg). Local asset: `reviewed-commons-32186072.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Tsire da kuli da albasa** — HK RIGASA2. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Tsire_da_kuli.jpg). Local asset: `reviewed-commons-162188309.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Attiéké** — Chado07. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Atti%C3%A9k%C3%A9_B%C3%A9nin_2.jpg). Local asset: `reviewed-commons-149536728.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Groundnut Soup** — Aderiqueza. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Groundnut_Soup_(Peanut_as_the_main_ingredient).jpg). Local asset: `reviewed-commons-118016417.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
