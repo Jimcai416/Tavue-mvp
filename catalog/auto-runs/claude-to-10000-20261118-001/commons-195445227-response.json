@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAWgj593GxPoAJZR8w5U",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 5,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Breaded, golden-brown fried patty visible\",\n    \"Fresh green lettuce layer\",\n    \"Tomato slice visible\",\n    \"Sesame seed bun\",\n    \"White plate presentation\"\n  ],\n  \"phone_observations\": [\n    \"Sandwich clearly visible in thumbnail\",\n    \"Breaded patty prominent\",\n    \"Lettuce and filling visible\",\n    \"Sesame bun readable\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title claims 'fried egg' but no fried egg is visible in either the full photograph or thumbnail—only breaded patty, lettuce, tomato, and bun\",\n    \"Source title claims 'melted mozzarella cheese' but no cheese layer is visible in the photograph\",\n    \"Visible patty does not clearly show exposed egg or cheese consistent with the source description\",\n    \"Contradiction between declared ingredients (fried egg, mozzarella) and what is photographed\"\n  ],\n  \"reason\": \"Source description lists 'fried egg' and 'melted mozzarella cheese' as sandwich components, but neither is visibly present in the photograph or thumbnail. The image shows only a breaded chicken patty, lettuce, tomato, and bun. This material contradiction between the declared identity and visible form prevents acceptance. The photograph itself is sharp and well-composed, but identity verification fails due to missing declared components.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1830,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 465,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

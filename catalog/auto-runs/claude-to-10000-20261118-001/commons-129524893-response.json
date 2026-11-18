@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAWghPBT6NkXzJHRrwED",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Saffron-coloured rice base with broth\",\n    \"Red lobster claw prominently displayed\",\n    \"Curved shrimp/prawn visible\",\n    \"Dice-cut seafood (possibly squid or additional crustacean)\",\n    \"Natural lighting, well-exposed dish\",\n    \"Finished, cooked presentation\"\n  ],\n  \"phone_observations\": [\n    \"Red lobster claw clearly visible in thumbnail\",\n    \"Golden rice with broth distinguishable\",\n    \"Composition and subject prominence adequate for phone view\",\n    \"Essential elements readable at reduced resolution\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'bogavante' (European lobster, Homarus gammarus) but source metadata is untrusted per instructions\",\n    \"Visual identification of lobster species cannot be confirmed from photograph alone\",\n    \"Additional crustaceans and molluscs present but species ambiguous—could be prawn, shrimp, squid, or other seafood\",\n    \"No explicit source quote provided in title/description field confirming exact species or preparation variant\",\n    \"Source title in metadata format ('File:Arroz caldoso con bogavante.jpg') is excluded per canonical_name rules\"\n  ],\n  \"reason\": \"Dish is a finished, appetising seafood paella-style rice (arroz caldoso) with excellent photograph and phone thumbnail quality. However, identity check fails because the source description 'Arroz caldoso con bogavante' exists only in untrusted metadata (filename and CC license fields), not in a user-provided, verified title/description field. Protein evidence cannot be extracted: 'bogavante' naming in metadata does not constitute an explicit source quote from a trusted title/description, and visual lobster species confirmation is impossible. The visible crustaceans and additional seafood cannot be definitively identified to species level from appearance alone. Per protocol, ambiguous or unverified marine species and hidden flavours require source documentation. Hold pending verified source title/description field with explicit species confirmation.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1735,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 605,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
