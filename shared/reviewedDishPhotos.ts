@@ -50818,5 +50818,51 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-41915091",
+    "title": "File:Shrimp soup.jpg",
+    "author": "Emna Mizouni",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Shrimp_soup.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/79/Shrimp_soup.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "c025254a6c326b44a149c8218bd738010ce1ecfb",
+    "name": "Shrimp soup",
+    "aliases": [],
+    "proteins": [
+      "seafood"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-41915091.jpg",
+    "assetSha256": "3b730a29ca505609266de3bfb8e7c2d908b4d0ac77b3b7d058d586218208dd90",
+    "reviewedAt": "2026-11-18",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 540,
+    "height": 960,
+    "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-83242115",
+    "title": "File:Chiles en nogada La Ópera CDMX 01.jpg",
+    "author": "Correogsk",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chiles_en_nogada_La_%C3%93pera_CDMX_01.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/15/Chiles_en_nogada_La_%C3%93pera_CDMX_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "28204a98e80fae04c04fe400da6afe793d8cdf6a",
+    "name": "Chiles en nogada",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-83242115.jpg",
+    "assetSha256": "25ade98ad6291ae1fa5e9806ac97ac9867651a348a8417cfaafb6efa94b2a9df",
+    "reviewedAt": "2026-11-18",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 539,
+    "requiresExactMenuName": true
   }
 ];

@@ -3397,3 +3397,8 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Shrimp Bisque** — French Recipes. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Shrimp_Bisque.jpg). Local asset: `reviewed-commons-16962323.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Shrimp soup** — Emna Mizouni. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Shrimp_soup.jpg). Local asset: `reviewed-commons-41915091.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Chiles en nogada** — Correogsk. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Chiles_en_nogada_La_%C3%93pera_CDMX_01.jpg). Local asset: `reviewed-commons-83242115.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
