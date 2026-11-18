@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChASzBqTsPD2RgtCbAzLo",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Orange-red broth characteristic of sour curry\",\n    \"Long green drumstick pods (moringa oleifera) clearly visible\",\n    \"Pale fish pieces distributed throughout\",\n    \"Natural home-cooking presentation in metal pot\"\n  ],\n  \"phone_observations\": [\n    \"Pot rim and handles clearly visible\",\n    \"Orange broth colour sharp and natural\",\n    \"Green vegetable pieces readable\",\n    \"Fish components identifiable as pale chunks\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source metadata names two different fish species: 'pla thu' (mackerel) and unspecified 'fish' (ปลา); no exact case-sensitive substring in title matching either common name\",\n    \"Title states 'with fish' but species designation is unclear—'pla thu' (ปลาทู, round scad or Indian mackerel) is not a standard Tavue category\",\n    \"Visible pale fish pieces cannot confirm species identity from appearance alone\"\n  ],\n  \"reason\": \"Image quality, composition, lighting and phone visibility are strong (all ≥4). Identity as Kaeng Som is visually supported by broth colour, drumstick pods and fish presence. However, source metadata declares 'pla thu' (ปลาทู) without providing an exact English common name that matches Tavue's restricted protein categories (chicken/beef/pork/duck/lamb/seafood). 'Seafood' is acceptable only with an explicit source quote naming the animal—'pla thu' and generic 'fish' do not meet this requirement. The contradiction between two fish names in metadata and absence of a category-matching quote requires hold pending clarification.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1699,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 527,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

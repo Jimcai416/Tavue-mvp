@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChASzM9ocZhb3aSVYLNFL",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Turmeric-laced rice noodles visible in both images\",\n    \"Bright orange quail egg clearly visible\",\n    \"Green onion garnish and herbs present\",\n    \"Blue and white decorative bowl\",\n    \"Two white rice cakes (bánh cuốn-like) in background\",\n    \"Reddish spice coating visible on noodles\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows the finished dish with noodles and orange egg prominent\",\n    \"Bowl detail legible and appetising\",\n    \"Essential components readable in phone crop\"\n  ],\n  \"protein_evidence\": {\n    \"pork\": \"sliced pork\",\n    \"seafood\": \"shrimp\"\n  },\n  \"uncertainties\": [\n    \"Source description mentions 'chả sausage' but does not explicitly name the animal species (pork is inferred from regional tradition, not stated)\",\n    \"Description states 'prawn crackers' as a component but crackers are not a protein category and no crackers are clearly visible in either image\",\n    \"Canonical name requires exact source quote: source uses 'Mì Quảng' throughout description but provides no single definitive title phrase matching the dish as plated\"\n  ],\n  \"reason\": \"Image quality, sharpness, lighting, composition and appeal all meet standards (all >=4). Both full image and phone thumbnail show a finished, exposed, sharply detailed dish with natural colours and appetising presentation. Identity is Mì Quảng, confirmed by repeated source mention. However, the source description does not provide a canonical title phrase (only 'Mì Quảng' in narrative context), and the protein list includes ambiguous 'chả sausage' without explicit species confirmation. Although turmeric-laced rice noodles, quail egg, sliced pork and shrimp are all visible and supported by exact source quotes, the sausage cannot be confirmed to a named animal. Hold pending clarification of complete ingredient list and a source-provided canonical dish name.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1944,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 606,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
