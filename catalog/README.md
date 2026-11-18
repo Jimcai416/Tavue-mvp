@@ -6,6 +6,37 @@ Current test branch inventory (18 November 2026): **2,062 bundled reviewed photo
 
 ## Claude automatic collection and intake
 
+### Active continuous 10,000-photo campaign (18 November)
+
+The user authorized continued discovery/review/intake toward 10,000 approved
+photographs, with a **$100 cumulative Claude API cap including the prior
+$9.440475**, then a budget decision if the target is still unmet. The request is
+`claude-to-10000-20261118-001` in `auto-photo-request.json`; execution now uses
+`scripts/photos/auto_photo_campaign.py`. Its live ledger and generated README
+under `auto-runs/claude-to-10000-20261118-001/` are authoritative while running;
+the 2,062-photo inventory above is the completed starting checkpoint.
+
+The controller continues directly into a new Claude search plan after each
+candidate queue is exhausted. It excludes previously searched/covered names,
+previous candidate IDs and exact original-image hashes. Searches are interleaved
+by dish during review; an already covered exact query/name may be mechanically
+held to prioritize unseen dishes without another paid visual call. Such holds
+are explicitly distinct from model judgements. The image/phone/source/variant
+acceptance standard is unchanged; the review prompt clarifies the protein-map
+JSON shape instead of reinterpreting old paid responses.
+
+Prior spending receipts are hashed and frozen, added to every new reservation,
+and never reset by search rounds or resumed jobs. Large candidate/decision queues
+use compressed JSON; raw model receipts remain separate. Up to eight sequential
+4h50 review jobs automatically resume time checkpoints from the latest task
+branch, with tests between jobs. A queue becoming empty is not campaign
+completion: the final gate requires 10,000 approved photographs. Budget stops,
+uncertain paid results, source exhaustion and failed app checks are reported as
+incomplete, with the saved shortfall and cost; no paid request is automatically
+resubmitted and production is not deployed.
+
+### Completed initial automatic queue
+
 On 17 November the user explicitly authorized Claude API to find and review
 photos automatically for efficiency. The active route is now
 `.github/workflows/auto-photos.yml` and `scripts/photos/auto_photos.py`, driven by

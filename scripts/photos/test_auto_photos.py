@@ -166,4 +166,24 @@ class AutomaticReviewTests(unittest.TestCase):
    self.assertEqual((root/'assets/dishes/prior.jpg').read_bytes(),b'prior unrelated photo')
    self.assertFalse((root/'assets/dishes/reviewed-c1.jpg').exists())
 
+ def test_target_cap_integrates_only_the_remaining_slot(self):
+  with tempfile.TemporaryDirectory() as t:
+   p=self.pipeline(t);p.config['targetPhotos']=1;root=Path(t)
+   (root/'shared').mkdir();(root/'src/lib').mkdir(parents=True);(root/'assets/dishes').mkdir(parents=True)
+   (root/'shared/reviewedDishPhotos.ts').write_text('export const reviewedDishPhotos = [];\n')
+   (root/'src/lib/dishPhotoAssets.ts').write_text('export const dishPhotoAssets = {\n};')
+   (root/'assets/dishes/CREDITS.md').write_text('Existing credits\n')
+   rows=[];decisions=[]
+   for key in ['c1','c2']:
+    a.Image.new('RGB',(200,160),'red').save(p.work/(key+'.jpg'))
+    record={k:'x' for k in a.PHOTO_FIELDS};record.update(id=key,commonsSha1=key)
+    value=self.verdict();value['canonical_name']=key;decision={}
+    rows.append((record,value,decision));decisions.append(decision)
+   with patch.object(a,'ROOT',root),patch.object(a,'catalogue',return_value=([],[])),patch.object(p,'current_source',return_value={key:{'consistent':True} for key in ['c1','c2']}),patch.object(a.subprocess,'run',return_value=subprocess.CompletedProcess([],0)):
+    p.integrate(rows)
+   self.assertEqual(p.ledger['newApproved'],1);self.assertEqual(p.ledger['bundledPhotos'],1)
+   self.assertEqual(decisions[1]['reason'],'target_reached_no_additional_intake')
+   self.assertTrue((root/'assets/dishes/reviewed-c1.jpg').exists())
+   self.assertFalse((root/'assets/dishes/reviewed-c2.jpg').exists())
+
 if __name__=='__main__':unittest.main()

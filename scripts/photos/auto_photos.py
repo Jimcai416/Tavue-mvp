@@ -25,6 +25,7 @@ from PIL import Image, ImageOps
 from download_review import RateGate,retry_seconds
 import collect
 import triage
+from auto_photo_state import read_rows,write_compressed_rows
 
 ROOT=Path(__file__).resolve().parents[2]
 CONFIG=ROOT/'catalog/auto-photo-request.json'
@@ -83,6 +84,7 @@ def parse_message(message):
  if not isinstance(result,dict):raise ValueError('model_output_not_object')
  return result
 def expense(input_tokens,output_tokens):return (input_tokens+5*output_tokens)/1_000_000
+def planner_key(key):return key=='planner' or key.startswith('planner-round-')
 def evaluate(value,source):
  """Validate model judgement/evidence; a score alone never approves a photograph."""
  if value.get('verdict')!='accept':return False,'model_'+str(value.get('verdict','invalid'))
@@ -123,13 +125,17 @@ class Pipeline:
   self.ledger=read(self.out/'ledger.json') if (self.out/'ledger.json').exists() else {'config':config,'createdAt':now(),'model':MODEL,'requests':{},'status':'starting','newApproved':0,'held':0}
   if self.ledger['config']!=config:raise ValueError('Frozen run configuration changed')
   self.paid_lock=any(r['status'] in ('reserved','ambiguous') for r in self.ledger['requests'].values())
-  self.records=read(self.out/'candidates.json') if (self.out/'candidates.json').exists() else []
-  self.decisions=read(self.out/'decisions.json') if (self.out/'decisions.json').exists() else []
+  self.records=read_rows(self.out,'candidates',config.get('compressedState',False))
+  self.decisions=read_rows(self.out,'decisions',config.get('compressedState',False))
+ def accounted(self):return sum(r.get('actualUSD',r.get('reservedUSD',0)) for r in self.ledger['requests'].values())
  def persist(self,message,publish=True):
-  self.ledger['updatedAt']=now();self.ledger['accountedUSD']=sum(r.get('actualUSD',r.get('reservedUSD',0)) for r in self.ledger['requests'].values())
-  self.ledger.update(discovered=len(self.records),processed=len(self.decisions),remaining=len(self.records)-len(self.decisions),apiReviewsCompleted=sum(k!='planner' and r['status']=='completed' for k,r in self.ledger['requests'].items()))
+  self.ledger['updatedAt']=now();self.ledger['accountedUSD']=self.accounted()
+  self.ledger.update(discovered=len(self.records),processed=len(self.decisions),remaining=len(self.records)-len(self.decisions),apiReviewsCompleted=sum(not planner_key(k) and r['status']=='completed' for k,r in self.ledger['requests'].items()))
   triage.write_json(self.out/'ledger.json',self.ledger)
-  triage.write_json(self.out/'candidates.json',self.records);triage.write_json(self.out/'decisions.json',self.decisions)
+  if self.config.get('compressedState'):
+   write_compressed_rows(self.out,'candidates',self.records);write_compressed_rows(self.out,'decisions',self.decisions)
+  else:
+   triage.write_json(self.out/'candidates.json',self.records);triage.write_json(self.out/'decisions.json',self.decisions)
   if os.environ.get('GITHUB_ACTIONS')=='true':
    subprocess.run(['git','add',str(self.out.relative_to(ROOT)),'assets/dishes','shared/reviewedDishPhotos.ts','src/lib/dishPhotoAssets.ts'],cwd=ROOT,check=True,stdout=subprocess.DEVNULL)
    if subprocess.run(['git','diff','--cached','--quiet'],cwd=ROOT).returncode:
@@ -152,7 +158,7 @@ class Pipeline:
   if counted is None:counted=self.api('messages/count_tokens',{k:body[k] for k in ['model','system','messages']})['input_tokens']
   if type(counted) is not int or counted<0:raise ValueError('Invalid provider token count')
   reservation=expense(int(counted*1.15)+128,body['max_tokens'])
-  spent=sum(r.get('actualUSD',r.get('reservedUSD',0)) for r in self.ledger['requests'].values())
+  spent=self.accounted()
   if spent+reservation>self.config['budgetUSD']:return False
   self.ledger['requests'][key]={'status':'reserved','requestSha256':digest(json.dumps(body,sort_keys=True).encode()),'reservedUSD':reservation,'countedInputTokens':counted,'createdAt':now()}
   return True
@@ -268,6 +274,8 @@ class Pipeline:
    return
   photos=[];accepted=[]
   for r,v,d in passing:
+   if self.config.get('targetPhotos') and len(known)+len(photos)>=self.config['targetPhotos']:
+    d.update(verdict='held',reason='target_reached_no_additional_intake');continue
    d['sourceCheck']=checks[r['id']]
    if not checks[r['id']]['consistent']:d.update(verdict='held',reason='source_metadata_changed');continue
    if r['id'] in ids or r['commonsSha1'] in shas or norm(v['canonical_name']) in names:d.update(verdict='held',reason='duplicate_id_source_or_exact_dish');continue
@@ -294,14 +302,22 @@ class Pipeline:
    print('Intake held: catalogue regression failed; app changes rolled back.',flush=True);return
   for d in accepted:d.update(verdict='approved',integrationTest='passed')
   self.ledger['newApproved']+=len(photos);self.ledger['bundledPhotos']=len(starter)+len(old)+len(photos)
+ def pending_records(self):
+  completed={r['id'] for r in self.decisions}
+  return [r for r in self.records if r['id'] not in completed and r['id'] not in self.ledger['requests']]
+ def filter_wave(self,wave):return wave
  def review(self):
-  completed={r['id'] for r in self.decisions};pending=[r for r in self.records if r['id'] not in completed and r['id'] not in self.ledger['requests']]
+  pending=self.pending_records()
   self.ledger['status']='reviewing'
   with concurrent.futures.ThreadPoolExecutor(max_workers=self.config['concurrency']) as pool:
    for start in range(0,len(pending),WAVE_SIZE):
     if self.expired():break
+    wave=self.filter_wave(pending[start:start+WAVE_SIZE])
+    if not wave:
+     self.ledger['held']=sum(d['verdict']!='approved' for d in self.decisions)
+     self.persist('Checkpoint covered search queries without paid review',publish=False);continue
     with concurrent.futures.ThreadPoolExecutor(max_workers=3) as downloads:
-     prepared=list(downloads.map(self.prepare,pending[start:start+WAVE_SIZE]))
+     prepared=list(downloads.map(self.prepare,wave))
     def count(item):
      r,body,error=item
      if error:return r,body,error,None
@@ -364,7 +380,7 @@ class Pipeline:
   """Reuse already-paid responses and isolate missing ones without double billing."""
   sources={r['id']:r for r in self.records};decisions={d['id']:d for d in self.decisions};recovered=0
   for key,r in self.ledger['requests'].items():
-   if key=='planner':continue
+   if planner_key(key):continue
    response=self.out/(key+'-response.json')
    if r['status'] in ('reserved','ambiguous'):
     if response.exists():self.settle(key,read(response),None)

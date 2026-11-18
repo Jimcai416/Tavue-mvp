@@ -1,13 +1,20 @@
 {
-  "requestId": "claude-continuous-20261117-001",
-  "policy": "user-authorized-automatic-v1",
+  "requestId": "claude-to-10000-20261118-001",
+  "policy": "user-authorized-continuous-v2",
   "model": "claude-haiku-4-5-20251001",
-  "budgetUSD": 15,
+  "budgetUSD": 100,
+  "targetPhotos": 10000,
+  "continuousDiscovery": true,
+  "compressedState": true,
+  "reviewVersion": "claude-full-phone-source-v2",
+  "priorRunIds": ["claude-continuous-20261117-001"],
   "concurrency": 6,
   "maxQueries": 180,
   "resultsPerQuery": 30,
-  "maxCandidates": 5400,
+  "maxCandidates": 100000,
+  "maxRounds": 200,
+  "maxEmptyRounds": 3,
   "seconds": 17400,
   "productionDeployed": false,
-  "resumeAttempt": 4
+  "resumeAttempt": 1
 }

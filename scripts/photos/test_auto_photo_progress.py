@@ -44,6 +44,21 @@ class ProgressTests(unittest.TestCase):
         self.decisions = [{'id': 'a'}, {'id': 'a'}]
         with self.assertRaises(ValueError): self.report()
 
+    def test_continuous_campaign_empty_queue_is_not_the_requested_goal(self):
+        self.ledger.update(status='time_limit', remaining=0, processed=0, bundledPhotos=2062, priorAccountedUSD=9.44, requests={})
+        self.ledger['config'].update(continuousDiscovery=True, targetPhotos=10000, budgetUSD=100)
+        self.candidates=[]; self.decisions=[]
+        result=self.report()
+        self.assertTrue(result['needsContinue']); self.assertFalse(result['complete'])
+        self.assertEqual(result['accountedUSD'],9.44); self.assertEqual(result['targetRemaining'],7938)
+
+    def test_target_can_finish_with_unused_candidates_but_budget_stop_cannot(self):
+        self.ledger['config'].update(continuousDiscovery=True,targetPhotos=10000,budgetUSD=100)
+        self.ledger.update(status='target_reached',bundledPhotos=10000)
+        self.assertTrue(self.report()['complete'])
+        self.ledger.update(status='budget_limit',bundledPhotos=4000)
+        self.assertFalse(self.report()['complete']); self.assertFalse(self.report()['needsContinue'])
+
 
 if __name__ == '__main__':
     unittest.main()

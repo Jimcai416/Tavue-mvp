@@ -37,7 +37,7 @@ jobs:
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           TAVUE_PHOTO_BRANCH: ${{ github.ref_name }}
-        run: python -u scripts/photos/auto_photos.py
+        run: python -u scripts/photos/auto_photo_campaign.py
       - run: npm run test:photos
       - run: npx tsc --noEmit
       - run: npm run export:web

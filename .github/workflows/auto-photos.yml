@@ -1,5 +1,5 @@
 name: Claude continuous photo discovery and intake
-run-name: Claude finds and reviews new dish photos · ${{ github.run_id }}
+run-name: Claude toward 10,000 photos, cumulative $100 cap · ${{ github.run_id }}
 on:
   push:
     branches: ['feat/photo-review-20261117']
@@ -32,8 +32,49 @@ jobs:
       stage: 3
     secrets:
       ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-  verify-queue-complete:
-    needs: [collect-review-integrate, continue-review-2, continue-review-3]
+  continue-review-4:
+    needs: continue-review-3
+    if: needs.continue-review-3.outputs.needsContinue == 'true'
+    uses: ./.github/workflows/auto-photo-stage.yml
+    with:
+      stage: 4
+    secrets:
+      ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+  continue-review-5:
+    needs: continue-review-4
+    if: needs.continue-review-4.outputs.needsContinue == 'true'
+    uses: ./.github/workflows/auto-photo-stage.yml
+    with:
+      stage: 5
+    secrets:
+      ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+  continue-review-6:
+    needs: continue-review-5
+    if: needs.continue-review-5.outputs.needsContinue == 'true'
+    uses: ./.github/workflows/auto-photo-stage.yml
+    with:
+      stage: 6
+    secrets:
+      ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+  continue-review-7:
+    needs: continue-review-6
+    if: needs.continue-review-6.outputs.needsContinue == 'true'
+    uses: ./.github/workflows/auto-photo-stage.yml
+    with:
+      stage: 7
+    secrets:
+      ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+  continue-review-8:
+    needs: continue-review-7
+    if: needs.continue-review-7.outputs.needsContinue == 'true'
+    uses: ./.github/workflows/auto-photo-stage.yml
+    with:
+      stage: 8
+    secrets:
+      ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+  verify-target-complete:
+    name: Verify 10,000 photos or report budget/error decision
+    needs: [collect-review-integrate, continue-review-2, continue-review-3, continue-review-4, continue-review-5, continue-review-6, continue-review-7, continue-review-8]
     if: always()
     runs-on: ubuntu-latest
     timeout-minutes: 10
@@ -44,8 +85,9 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Require successful review and verification stages
+      - name: Report actual target and cumulative budget state
+        if: always()
+        run: python scripts/photos/auto_photo_progress.py --require-complete
+      - name: Require successful review and app verification stages
         if: contains(needs.*.result, 'failure') || contains(needs.*.result, 'cancelled')
         run: exit 1
-      - name: Require every candidate to have a saved decision
-        run: python scripts/photos/auto_photo_progress.py --require-complete
