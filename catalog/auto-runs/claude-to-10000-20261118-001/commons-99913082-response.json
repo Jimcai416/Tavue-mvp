@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBB3qz8NjihYjcsBUJwp",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [\n    \"Spiced curry in white bowl with visible liquid and suspended solids\",\n    \"White rice in dark bowl, clearly separated component\",\n    \"Fried item on plate with brown seasoning/crust\",\n    \"Accompaniment sauce in small white bowl\"\n  ],\n  \"phone_observations\": [\n    \"Curry bowl prominent and readable\",\n    \"Rice component visible\",\n    \"Fried element visible but small in thumbnail\",\n    \"Overall composition legible at phone size\"\n  ],\n  \"protein_evidence\": {\n    \"seafood\": \"King Fish curry rice\"\n  },\n  \"uncertainties\": [\n    \"Source title states 'King Fish curry rice' but the fried item on the right plate is not clearly identifiable as fish in either full photo or thumbnail—it appears as a brown breaded/crusted item of ambiguous form\",\n    \"Description notes 'Fried fish slightly burnt' but visual confirmation of fish species and preparation state is unclear from the photograph alone\",\n    \"No explicit visual evidence that the fried component on the right is the same species (King Fish) as the curry\",\n    \"The composition shows separate plated elements (curry + rice + fried item + sauce) rather than a single integrated dish, creating ambiguity about what constitutes 'the dish'\"\n  ],\n  \"reason\": \"Source declares 'King Fish curry rice' with seafood protein (King Fish explicitly named), and the full photo and thumbnail show a spiced curry with rice and a fried accompaniment. However, the identity check fails because the fried item on the right plate—which the source notes is 'fried fish slightly burnt'—cannot be visually confirmed as fish or as King Fish specifically from the photograph. The brown crust obscures the underlying protein, and its form does not provide certain evidence of seafood identity. The variant_preserved check also fails because source metadata includes pricing and subjective quality notes ('slightly burnt') that cannot be verified visually and create ambiguity about the finished dish's intended state. The uncertainty about whether the fried component is actually the declared protein species, combined with unclear integration of components, requires hold pending clearer evidence that the full dish matches the source declaration.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1778,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 621,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBB59Gi7hfQJSvNtzdo6",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [\n    \"White rice bed present\",\n    \"Fried protein pieces with spice crust visible\",\n    \"Cooked, exposed dish on white plate\",\n    \"Distinct golden-brown coating on protein\"\n  ],\n  \"phone_observations\": [\n    \"Plate clearly visible with rice and fried items\",\n    \"Protein portions prominent and readable\",\n    \"Natural colour, appetising presentation in thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'King fish curry rice' but image shows fried (not curried) protein on rice with spice crust—preparation method contradicts source description\",\n    \"Protein species 'King fish' is not an allowed category (only chicken/beef/pork/duck/lamb/seafood accepted); seafood is generic and king fish is unspecified species\",\n    \"Source metadata notes 'fried fish slightly burnt'—visible charring present but contradicts 'curry' claim in title\",\n    \"Description lacks explicit animal name matching allowed categories\"\n  ],\n  \"reason\": \"Identity check fails: source title 'King fish curry rice' conflicts with visible preparation (fried, not curried). Protein species 'King fish' cannot be mapped to allowed categories (chicken/beef/pork/duck/lamb/seafood). Seafood is too generic and king fish is an unspecified species. The preparation mismatch and unverifiable protein category prevent acceptance despite adequate photograph and phone thumbnail quality.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1778,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 471,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

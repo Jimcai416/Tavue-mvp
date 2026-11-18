@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBB3qsS5ijURUDBFsooD",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 2,\n    \"composition\": 1,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows a stew/soup in a dark bowl with orange broth, visible ingredients including what appears to be meat and green onion\",\n    \"Thumbnail is too small and distant to verify actual dish composition reliably\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title is 'File:Kimchi-jjigae ingredients.png' – this is a metadata filename and illustration/diagram, not a finished dish photograph\",\n    \"The full image is an instructional graphic with labeled ingredient components (small photos around a map outline), not a primary photograph of a cooked dish\",\n    \"Metadata explicitly states 'The visual was created on the basis of free images' – indicating this is a composite/illustrated work, not an original food photograph\",\n    \"The main bowl image in the full source appears to be a stock photo component used in a diagram, not an independent, naturally-shot dish\",\n    \"No verifiable direct source title for the actual dish; only filename provided\",\n    \"Illustration/diagram format violates requirement for 'finished, exposed, likely photographic dish'\",\n    \"Korean text labels and map background confirm this is an educational graphic, not a Tavue food photograph\"\n  ],\n  \"reason\": \"Reject: This is an instructional diagram/composite graphic ('created on the basis of free images'), not an original food photograph. The metadata filename and description confirm it is an illustrated infographic showing ingredients for a stew, not a finished dish intended for culinary review. The format, layout, labeled components, and explicit statement that it is creator-generated artwork violate the requirement for a natural photograph of an actual cooked dish. No authentic source dish title is provided—only a filename. This fails the photograph authenticity check and does not meet intake criteria.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1844,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 539,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
