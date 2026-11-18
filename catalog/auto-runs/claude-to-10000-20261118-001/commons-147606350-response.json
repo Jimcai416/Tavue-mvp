@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChATQNrRQLvUAUfjyXeUS",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Raw mangoes prominently displayed in bulk at street vendor stall\",\n    \"Vendor in red apron at preparation counter\",\n    \"White bowls and containers visible suggesting preparation setup\",\n    \"Condiments and sauces in small containers on counter\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail shows raw mangoes as dominant subject\",\n    \"Vendor and prep area visible but not finished dish\",\n    \"No plated or served mango sticky rice visible in either image\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title describes 'mango sticky rice vendor' but neither photograph shows a finished, plated mango sticky rice dish\",\n    \"Images capture raw ingredient display and preparation stage, not the finished, exposed, appetising dish\",\n    \"Sticky rice and coconut milk preparation materials may be present but no completed dish is visibly presented\"\n  ],\n  \"reason\": \"Identity mismatch: source describes 'mango sticky rice vendor' but photographs show raw mangoes at a street stall during preparation stage, not a finished, exposed, plated mango sticky rice dish. The images document ingredient display and vendor preparation, not a completed, sharply detailed, naturally coloured finished dish suitable for food review. This is a preparation/raw ingredient stage, not an acceptable finished food photograph.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1752,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 435,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
