@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChB4bFjgETMABFd98UAUo",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Golden-brown fried youtiao (Chinese cruller) clearly visible\",\n    \"White plate with chopsticks present\",\n    \"Garnish visible in both full and thumbnail views\",\n    \"Natural daylight photography, restaurant setting\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows the fried youtiao as primary subject\",\n    \"Garnish visible in thumbnail\",\n    \"Subject sharp and recognizable at reduced size\",\n    \"Plate and utensils visible\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title mentions 'youtiao and shumai' but photograph shows only youtiao as a finished dish; shumai component is not visible or identifiable in either image\",\n    \"Source identity claims two distinct dishes but only one finished food item is photographed\",\n    \"Ambiguity about which component should be canonicalized\"\n  ],\n  \"reason\": \"Reject: source title/description claims both 'youtiao and shumai' but the photograph shows only youtiao (fried cruller) as a distinct, finished dish. The shumai component referenced in the metadata is not visible or identifiable. Identity mismatch between source description (dual components) and actual visible content (single component) violates the requirement that 'Identity must agree with the exact source title/description and visible form.' The photograph itself meets quality standards (sharp, well-lit, appetizing) but cannot be accepted without clarity on what dish is actually being reviewed.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1750,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 471,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

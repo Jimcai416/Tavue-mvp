@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChB4bi5SGPZgmdPgnGFe9",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Whole grilled/fried fish, darkly seared, prominent in lower plate area\",\n    \"Light-coloured protein mould or pâté with vegetable garnish (upper left)\",\n    \"Red shredded vegetable preparation (beet or similar, centre-right)\",\n    \"Colourful vegetable garnish: green, yellow, orange peppers and corn\",\n    \"Decorative plating on white dish with patterned rim\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail shows fish as primary component clearly\",\n    \"Light moulded preparation visible upper-left\",\n    \"Red shredded element visible centre\",\n    \"Plate composition readable in reduced format\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title references 'yassa au poisson' (fish yassa, a Senegalese dish) but source metadata is incomplete and appears auto-generated ('Farm to Plate' theme, generic description)\",\n    \"No explicit species confirmation in provided title or description—'poisson' means fish generically; exact species (grouper, snapper, mackerel, etc.) cannot be visually confirmed with certainty\",\n    \"Light-coloured upper component identity ambiguous: could be fish mousse, seafood pâté, or other protein preparation; not independently confirmed by source text\",\n    \"Source title in filename format ('File:Le yassa au poisson 08.jpg') is unreliable per instructions; actual canonical title/description from Tavue metadata not provided\"\n  ],\n  \"reason\": \"Identity check fails: source metadata is minimal, auto-generated, and unreliable (filename format, theme-based description without canonical dish confirmation). Although 'yassa au poisson' appears in filename, this is not a trustworthy authoritative source description. No explicit fish species named in supplied documentation. The light protein element upper-left is unidentified. All quality and photographic checks pass (sharpness, lighting, composition, appeal all ≥4; phone thumbnail shows complete dish clearly); however, without a specific, authoritative canonical source title confirming exact dish identity and without named fish species in an actual source description, the identity check cannot be satisfied. Hold for authoritative Tavue metadata and explicit species confirmation.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1807,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 646,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
