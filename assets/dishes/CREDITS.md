@@ -4395,3 +4395,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 - **Dhokla** — Yakshitha. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Dhokla_2.jpg). Local asset: `reviewed-commons-150882679.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Rumali roti stuffed with sweet mixture of chana daal and jaggery** — Rahul Patil. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Manda_(Khapravarchi_Puran_Poli).JPG). Local asset: `reviewed-commons-40872913.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Lomo Saltado** — JSeb05. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Lomo_Peruano_(Noviembre_3,_2022).jpg). Local asset: `reviewed-commons-124998554.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Mansaf, the traditional dish of Jordan** — Jktab. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Mansaf,_the_traditional_dish_of_Jordan.jpg). Local asset: `reviewed-commons-101921280.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.

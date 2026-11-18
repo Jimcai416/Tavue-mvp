@@ -64219,5 +64219,29 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-101921280",
+    "title": "File:Mansaf, the traditional dish of Jordan.jpg",
+    "author": "Jktab",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mansaf,_the_traditional_dish_of_Jordan.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/86/Mansaf%2C_the_traditional_dish_of_Jordan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "0966ac5419a18a71cb08d83947530e60bb698c42",
+    "name": "Mansaf, the traditional dish of Jordan",
+    "aliases": [],
+    "proteins": [
+      "lamb"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-101921280.jpg",
+    "assetSha256": "a1f5108ab0993f7c97db4b48c84e6f01a25064ea3244bc2466272a34c15e5c83",
+    "reviewedAt": "2026-11-18",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 750,
+    "height": 750,
+    "requiresExactMenuName": true
   }
 ];
