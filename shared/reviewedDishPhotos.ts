@@ -70250,5 +70250,51 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 624,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-32921805",
+    "title": "File:Sancocho en el Chorrerón.JPG",
+    "author": "Marche80",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sancocho_en_el_Chorrer%C3%B3n.JPG",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Sancocho_en_el_Chorrer%C3%B3n.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "713a13ca15098a020953ac1a8a0ce4c334f66f8f",
+    "name": "Sancocho",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-32921805.jpg",
+    "assetSha256": "0bd8e73b923c788b1b58d1fb26bad6844be7dc7c6c5ff08d0c08c5fbe28020f4",
+    "reviewedAt": "2026-11-18",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 720,
+    "height": 960,
+    "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-107844076",
+    "title": "File:The girl & the fig - July 2021 - Sarah Stierch 02.jpg",
+    "author": "Missvain",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_girl_%26_the_fig_-_July_2021_-_Sarah_Stierch_02.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/ca/The_girl_%26_the_fig_-_July_2021_-_Sarah_Stierch_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "fec13aa50952a641a5810f5b2d2f5d13f2805048",
+    "name": "Chicken thighs with spätzle, corn, tomatoes and pepitas pesto",
+    "aliases": [],
+    "proteins": [
+      "chicken"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-107844076.jpg",
+    "assetSha256": "66478a557ca7908a8bb7f950935842768efdcdab177ab8d9d3fd1e0df9e49685",
+    "reviewedAt": "2026-11-18",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 720,
+    "height": 960,
+    "requiresExactMenuName": true
   }
 ];
