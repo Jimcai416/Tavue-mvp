@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChALFhby5xFM8VVLvJr7n",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 5,\n    \"composition\": 5,\n    \"appeal\": 5\n  },\n  \"visible_support\": [\n    \"Three distinct dishes visible: two creamy dips/sauces in blue bowls, one with green herb garnish; one crouton-based salad with diced vegetables in dark-rimmed bowl\",\n    \"Fresh mint garnish on dips, red pepper and green vegetable pieces distributed throughout salad\",\n    \"Flatware, decorative tablecloth with floral embroidery, fresh flowers in vase, golden spice in small white dish\",\n    \"Home presentation, natural daylight, sharp detail throughout\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail shows three dishes clearly: two creamy preparations with herb/vegetable toppings in white bowls, one chunky crouton salad in dark bowl\",\n    \"Readable components: visible mint, red pepper, green herbs, bread cubes\",\n    \"High visual clarity and appetising presentation in constrained frame\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title transliteration 'فتوش فلسطيني' (Fattoush Palestinian) names only the crouton salad; metadata also mentions cucumber-yogurt salad and 'pasta dish' but no pasta is visibly prominent in the image\",\n    \"No explicit protein identification in source title or visible components for any dish—croutons and vegetables only\",\n    \"Metadata references three dishes but identity focus is unclear: is the subject the fattoush alone, or the fattoush + accompaniments as a meal set?\"\n  ],\n  \"reason\": \"Rejection: Source title identifies a single dish (Palestinian Fattoush) but the photograph shows a multi-dish presentation. Metadata ambiguously references cucumber-yogurt salad and pasta, neither of which is unambiguously identifiable in the full image. No protein is explicitly named in the source title or visibly prominent as a named component of any dish. The canonical identity cannot be reliably matched to source description because the source appears to conflate multiple dishes. The dips and their composition are unnamed in the source. Photography quality is excellent, but source-identity agreement fails.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1779,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 606,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
