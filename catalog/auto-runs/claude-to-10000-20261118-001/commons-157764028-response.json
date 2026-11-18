@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChB3et4vsyg6VmKLeKW4A",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Cured meat product held in hand, clearly visible\",\n    \"Multiple hanging sausages visible in background\",\n    \"Mottled texture consistent with cured meat\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title references 'Iraqi Pastirma-Mosul' but pastirma is traditionally a Turkish/Middle Eastern spiced cured beef or other meat preparation; the exact meat species is not explicitly named in the source description\",\n    \"Species of meat is ambiguous from source metadata alone—pastirma can be made from beef, lamb, mutton, or other animals, but no explicit animal name appears in title or description\",\n    \"Generic cured meat product without species confirmation in source text\"\n  ],\n  \"reason\": \"Reject: Identity check fails. The source title references 'Iraqi Pastirma-Mosul' but does not explicitly name the meat species (beef, lamb, mutton, pork, etc.). Pastirma is a traditional preparation that can use multiple meat types, and the description 'Photos from Iraq' provides no species clarification. Per protocol, ambiguous meat species—including preparations that might conventionally use mutton or other unspecified animals—must be held pending explicit source naming of the animal. The photograph itself is sharp and well-composed, but identity cannot be confirmed without species-explicit sourcing.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1520,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 448,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

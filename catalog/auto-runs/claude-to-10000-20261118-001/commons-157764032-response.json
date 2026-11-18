@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChB3ePePgaZ5cjnwSBDdJ",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 3,\n    \"lighting\": 3,\n    \"composition\": 2,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Multiple cured sausages hanging vertically\",\n    \"Industrial/commercial preparation environment\",\n    \"Thumbnail shows raw/uncooked meat products in processing state\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'Iraqi Pastirma' but image shows hanging cured sausages, not pastirma (a dried, spiced meat paste)\",\n    \"Severe mismatch between title and visible form: pastirma is typically a surface-applied preparation on flat meat slabs, not cylindrical hanging sausages\",\n    \"Cannot identify specific meat species from appearance alone\",\n    \"No explicit protein species confirmation in source description\"\n  ],\n  \"reason\": \"Reject: Identity check fails. The source title 'Iraqi Pastirma' contradicts the visible form shown—the photograph displays hanging cylindrical cured sausages in a processing environment, not pastirma (which is a spiced meat paste applied to flat surfaces). This is a preparation/processing stage, not a finished plated dish. The subject is uncooked/raw cured meat in a commercial facility, not an exposed, finished, appetising dish suitable for food intake review. Appeal score is too low. No reliable protein species evidence from title or description.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1520,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 424,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChB3ePcQYbdBX5UkEa2RX",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Raw sliced red meat on plate\",\n    \"White translucent noodles (daikon radish strands)\",\n    \"Fresh parsley garnish\",\n    \"Lemon slice\",\n    \"Yellow mustard paste\",\n    \"Ceramic plate with blue/green/beige sections\",\n    \"Chopsticks visible in frame\"\n  ],\n  \"phone_observations\": [\n    \"Plate clearly visible with sliced meat and noodles\",\n    \"Raw meat strips prominent and readable\",\n    \"Garnishes distinguishable\",\n    \"Overall composition readable in thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title is a filename (File:Basashi 馬刺し.jpg), not a dish description\",\n    \"Description is in Japanese and translates to location reference ('あそ路' = 'Aso Road'), not a formal dish name or identity confirmation\",\n    \"Basashi (馬刺し) = raw horse meat; horse is not an allowed protein category (chicken/beef/pork/duck/lamb/seafood only)\",\n    \"No English-language source title or description provided to confirm canonical dish name\"\n  ],\n  \"reason\": \"Rejection: Horse meat (basashi/馬刺し) is not within the allowed protein categories (chicken, beef, pork, duck, lamb, seafood). The source metadata consists of a filename and a Japanese location reference rather than a formal dish description. While the photograph is well-executed and shows a finished, exposed dish with sharp detail and appetising presentation, the protein species is explicitly outside the accepted scope and cannot be represented in protein_evidence. Identity check fails because the source does not provide a proper English dish name, only a Japanese filename and location tag.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1740,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 537,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
