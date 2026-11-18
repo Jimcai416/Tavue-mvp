@@ -4944,3 +4944,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 
 - **Maultaschen with potato salad** — Gerda Arendt. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Maultaschen,_Aulhausen.jpg). Local asset: `reviewed-commons-117567337.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Jägerschnitzel mit Champignonrahmsauce und Spätzle** — [https://www.lieferheld.de](https://www.lieferheld.de). [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:J%C3%A4gerschnitzel_mit_Sp%C3%A4tzle.jpg). Local asset: `reviewed-commons-69085600.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Geschnittene Maultaschen** — MartinThoma. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Maultaschen-geschnitten.jpg). Local asset: `reviewed-commons-66336289.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
