@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChALLA1LBeLVubhnUR3HG",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Shredded meat filling visible in cross-section\",\n    \"Purple cabbage slaw visible\",\n    \"Light coloured flatbread or pita\",\n    \"Green vegetable component (likely lettuce or herbs)\",\n    \"Appetising hand-held presentation\",\n    \"Street food context consistent with shawarma\"\n  ],\n  \"phone_observations\": [\n    \"Meat filling clearly visible in thumbnail\",\n    \"Purple cabbage slaw prominent\",\n    \"Essential sandwich components readable\",\n    \"Hand holding sandwich visible\",\n    \"No clipping of critical elements\"\n  ],\n  \"protein_evidence\": {\n    \"protein\": null\n  },\n  \"uncertainties\": [\n    \"Source title/description in Cyrillic 'Шаурма (шаверма)' transliterates to shawarma but provides no explicit animal protein identification\",\n    \"Meat species cannot be determined visually from shredded form alone\",\n    \"No explicit source quote naming the specific protein (chicken/beef/lamb/etc.)\",\n    \"Metadata title is filename, not authoritative dish description with protein detail\"\n  ],\n  \"reason\": \"Photograph and phone thumbnail are sharp, well-lit, appetising and show a finished sandwich with visible components. Identity matches shawarma/shaurma form. However, the source provides no explicit quote naming the animal protein used. Protocol requires exact source quote explicitly naming each animal protein; visual appearance of shredded meat alone cannot establish species. Without documented protein identification in source title or description, identity check fails. Hold for source clarification on meat type.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1611,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 493,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

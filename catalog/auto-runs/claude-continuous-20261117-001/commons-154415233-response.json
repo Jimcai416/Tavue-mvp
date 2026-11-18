@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChALLbvYz7Sxxpy1adRgh",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 3,\n    \"lighting\": 2,\n    \"composition\": 2,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows yellow plates with wrapped items and printed paper\",\n    \"No visible finished food or appetising detail recognisable\",\n    \"Wrapping obscures any dish identity or components\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title claims 'Spicy Shawarma' but image shows wrapped items in yellow plates with paper wrapping still on—no exposed, finished shawarma visible\",\n    \"No visible meat, vegetables, or dish structure—only wrapped packets\",\n    \"Source describes 'chicken, meat, beef and vegetables' (vague and contradictory: 'meat' unspecified, multiple proteins unnamed per instruction)\",\n    \"Printed paper wrapping is prominent and covers essential food components\",\n    \"Image does not show a finished, exposed, appetising dish\"\n  ],\n  \"reason\": \"Reject: image shows wrapped food items in paper with yellow plates—not a finished, exposed, appetising dish. Essential food components are obscured by wrapping. Phone thumbnail does not show readable dish detail. Source title 'Spicy Shawarma' contradicts visible form (wrapped, not plated shawarma). Source protein description is vague ('meat' unspecified) and lacks explicit animal-species quotes. Quality and identity checks fail.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1409,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 433,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

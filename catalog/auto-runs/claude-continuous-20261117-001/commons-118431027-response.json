@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChALKDNi4XeQTpaWxUZ34",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Cooked meat shreds visible in both source and thumbnail\",\n    \"Mixed pale and darker meat pieces characteristic of shawarma\",\n    \"Natural lighting, appetising colour palette\",\n    \"Sharp detail of shredded/sliced meat structure\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail shows mixed meat shreds clearly\",\n    \"Pale (chicken-like) and darker (lamb-like) meat both visible\",\n    \"Adequate detail for recognition at small scale\"\n  ],\n  \"protein_evidence\": {\n    \"protein\": \"Source title claims 'Chicken & Lamb' but only visual meat texture is present—no explicit quote confirming both species are definitively identifiable from appearance alone\"\n  },\n  \"uncertainties\": [\n    \"Source title declares 'Chicken & Lamb Shawarma' but visual identification of two distinct meat species in a mixed shredded preparation is ambiguous. Colour variation may reflect cooking stage, spice rub, or marinade rather than species difference.\",\n    \"No readable label, packaging text, or other visual confirmation of both animal species in the finished dish itself.\",\n    \"Shawarma is traditionally lamb or chicken, but mixed-meat claims require explicit, unambiguous visual or textual evidence within the photograph.\"\n  ],\n  \"reason\": \"Source title claims both chicken and lamb, but the photograph shows only visually ambiguous mixed shredded meat. While colour and texture suggest different cooking or spicing, definitive species identification is impossible from appearance alone in a blended shawarma. Per protocol, ambiguous meat species in source contradictions must be held. Visual evidence does not confirm the declared dual-protein identity.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1503,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 509,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
