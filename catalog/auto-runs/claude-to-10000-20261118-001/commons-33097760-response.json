@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChArii8TmaAySYK6A6VSi",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [\n    \"Cooked meat item with visible peppering\",\n    \"Creamy sauce with peppery specks\",\n    \"Gratin dauphinois visible in background\",\n    \"Mashed potato portion at top\",\n    \"Red beet slice for garnish\"\n  ],\n  \"phone_observations\": [\n    \"Central meat subject clearly visible\",\n    \"Creamy sauce prominent in thumbnail\",\n    \"Adequate detail for dish recognition\",\n    \"Lighting acceptable in preview\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Andouillette is a sausage of unspecified internal organ/meat composition; species cannot be determined from appearance or source title alone\",\n    \"Source title names 'andouillette' but does not explicitly declare the animal species or component meat types\",\n    \"Cannot visually confirm whether this contains pork, beef, or other animal proteins\"\n  ],\n  \"reason\": \"Reject: The source title identifies this as 'Andouillette lyonnaise à la moutarde ancienne et gratin dauphinois'. Andouillette is a traditional sausage category, but the source provides no explicit statement of the animal species or specific meat/organ components. The instruction requires that proteins be supported by explicit source quotes naming each animal; sausage/organ-based products with ambiguous species cannot be accepted. The photograph and phone thumbnail are of good technical quality and show a finished, appetising dish, but the protein identity cannot be established from the available metadata and cannot be inferred from appearance alone.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1745,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 488,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
