@@ -44230,5 +44230,53 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "height": 958,
     "requiresExactMenuName": true,
     "authorUrl": "https://www.wikidata.org/wiki/Q42790984"
+  },
+  {
+    "id": "commons-40710423",
+    "title": "File:Kuzu şiş in Ankara.jpg",
+    "author": "E4024",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kuzu_%C5%9Fi%C5%9F_in_Ankara.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Kuzu_%C5%9Fi%C5%9F_in_Ankara.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "8b007eef21e8ba3ab4c65385e1fdfe5c16d485f6",
+    "name": "Kuzu şiş",
+    "aliases": [],
+    "proteins": [
+      "lamb"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-40710423.jpg",
+    "assetSha256": "cec82ec30bc4e12b0d2a38734d760cffca20a4589e23a67ccf57ac73714a8593",
+    "reviewedAt": "2026-11-18",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-63566208",
+    "title": "File:Kuzu şiş kebap in Ankara.jpg",
+    "author": "E4024",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kuzu_%C5%9Fi%C5%9F_kebap_in_Ankara.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Kuzu_%C5%9Fi%C5%9F_kebap_in_Ankara.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "4457b6182051ea7a929a042411d71c6afcee5042",
+    "name": "Kuzu şiş kebap (lamb shish kebab)",
+    "aliases": [],
+    "proteins": [
+      "lamb"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-63566208.jpg",
+    "assetSha256": "785dcf87d151e093f05bb967cd0c055c212991d13675e63a919a6775db667806",
+    "reviewedAt": "2026-11-18",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];
