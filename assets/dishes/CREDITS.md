@@ -4845,3 +4845,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 - **Gundruk Bhat** — Gaurav Dhwaj Khadka. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Gundruk_Bhat.jpg). Local asset: `reviewed-commons-98900604.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Porto-style Bifana sandwich** — Siliconred. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Porto-style_Bifana_sandwich.jpg). Local asset: `reviewed-commons-128521351.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Esquites** — Jj saezdeo. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Esquites_at_Coyoacan_neighborhood_in_Mexico_City.jpg). Local asset: `reviewed-commons-87152675.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Porto-style Bifana sandwich with egg** — Siliconred. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Porto-style_Bifana_sandwich_with_egg.jpg). Local asset: `reviewed-commons-128521350.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
