@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChB3accdV9pDrCWGpBz1X",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [\n    \"White plate with pale translucent food blocks\",\n    \"Golden-brown sticks arranged across the blocks (consistent with cuko dipping sauce)\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows pale blocks with golden garnish\",\n    \"Composition readable but subject appears minimal and partially unfinished\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'kapal selem dak becuko' (without cuko) but photograph clearly shows golden cuko sauce drizzled across the dish—direct contradiction between title and visible content\",\n    \"Pempek is a seafood-based dish typically made with fish and tapioca, but no fish/seafood is explicitly named in the metadata\",\n    \"Unclear whether dish is finished or in preparation stage given the sparse, minimal plating\"\n  ],\n  \"reason\": \"Critical source contradiction: title explicitly states 'without cuko' but photograph visibly displays golden cuko garnish across the blocks. This breaks identity verification. Additionally, pempek's protein (fish) is not explicitly named in the supplied title or description, only inferred from regional tradition. The sparse, minimal plating with large empty plate space and apparent incompleteness raises concerns about whether this is a finished, exposed dish suitable for food review. All checks cannot pass due to identity contradiction and unspecified protein.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 2054,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 441,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChB3aajGvyaKmd49SD3dZ",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Two white plates with decorative floral rim on golden fabric background\",\n    \"Left plate: flat, pale brown bread with visible char marks (consistent with Taftan)\",\n    \"Right plate: meat pieces in dark red/brown gravy (consistent with korma preparation)\",\n    \"Meat appears cooked and sauced; chunks visible in curry sauce\"\n  ],\n  \"phone_observations\": [\n    \"Both plates clearly visible in thumbnail centre-cover crop\",\n    \"Bread plate recognizable as a finished, flat bread product\",\n    \"Curry plate shows distinct meat chunks in sauce, natural colour preserved\",\n    \"Overall composition readable at reduced resolution\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title states 'Chicken Korma' but no explicit animal species declaration visible in provided description text\",\n    \"Protocol requires exact source quote naming the animal; 'Chicken' appears only in title/filename, not in the body description\",\n    \"Description says 'usually served with' but does not explicitly confirm this specific instance contains chicken\"\n  ],\n  \"reason\": \"While the photograph is sharp, well-lit, appetising and shows finished dishes (bread and meat curry) clearly in both full and thumbnail views, the source description does not contain an explicit, case-sensitive quote naming the protein species in the descriptive text body. The word 'Chicken' appears in the filename/title ('File:Chicken Korma with Taftan.JPG'), which per instructions is untrusted metadata and does not constitute valid evidence. The description text alone states only that Taftan 'is usually served with Chicken Korma in weddings'—a general practice claim, not proof of the contents of this particular dish. Protocol mandates an exact source quote explicitly naming each animal within title or description; filename is excluded. Hold for explicit protein confirmation in source description.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1737,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 556,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

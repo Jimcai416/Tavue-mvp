@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChB3bSL3Tatk4fQPP2R4L",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 3,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [\n    \"Brown stew with visible chunks in white bowl\",\n    \"Bread visible at top right\",\n    \"Spoon present in dish\",\n    \"Glossy sauce indicates braised preparation\"\n  ],\n  \"phone_observations\": [\n    \"Stew visible and prominent in thumbnail\",\n    \"Brown colour and texture readable\",\n    \"Bread edge visible at top\",\n    \"Essential components present but soft focus overall\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title field shows 'Sarapatel' but description states 'Sorpotel' – these are conflicting regional variant names for the same Goan dish\",\n    \"No explicit animal species mentioned in source metadata despite this being a meat-based stew traditionally made with pork offal\",\n    \"Meat components visible in photograph but species cannot be confirmed from visual appearance alone\",\n    \"Source contradiction: filename vs description creates ambiguity about authoritative dish name\"\n  ],\n  \"reason\": \"Hold due to source metadata contradiction between title 'Sarapatel' and description 'Sorpotel' – both are legitimate variant names for the same Goan pork dish, but the conflict must be resolved to establish canonical identity. Additionally, no explicit protein species is named in the source description ('a Goan dish' alone is insufficient), and while meat chunks are visibly present in the photograph, species cannot be inferred from appearance. Sharpness is soft (3/5) and lighting creates some shadow wash, though composition and phone visibility are acceptable. Identity check fails due to unresolved source contradiction.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1731,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 493,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChB3aYZZHyYQVtTJbJM4X",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Pav (bread rolls) clearly visible in lower left\",\n    \"Red-brown curry sauce with visible meat pieces in white bowl\",\n    \"Golden fried potatoes on upper plate\",\n    \"Fresh salad with tomato and lettuce on upper plate\",\n    \"Two meat components plated separately\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows bread rolls, curry bowl, and salad greens\",\n    \"Red-brown sauce and meat texture legible\",\n    \"Plate and plating details readable at reduced size\",\n    \"Good colour and contrast preservation\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title specifies 'Pork Sorpotel with Pav and Beef tounge' but source description contains two distinct animal proteins with contradictory capitalization ('Beef tounge' appears to be a spelling variant of 'tongue')\",\n    \"Species ambiguity: 'tounge' (presumed 'tongue') is not explicitly named as beef in the visible form—beef tongue is identifiable only by source declaration, not visual inspection\",\n    \"Cannot confirm which meat component is which from visual inspection alone—the dark cooked meat on upper plate could be either pork or beef tongue\",\n    \"Source title metadata format ('File:' prefix) suggests this is a wiki upload; actual dish identity depends entirely on source text which contains internal contradiction/unclear specification\"\n  ],\n  \"reason\": \"Source title claims both 'Pork Sorpotel' and 'Beef tounge' but visual inspection cannot distinguish or confirm which meat is which, nor independently verify species. The spelling variant ('tounge') and unclear assignment of proteins to visible components introduces ambiguity about the actual dish identity. Beef tongue as a protein requires explicit source confirmation, which is present but contradicted by simultaneous pork claim. Under the rule that ambiguous meat species or source contradictions require a hold, this cannot be accepted without clarification of which proteins are actually present and which plated component is which.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1735,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 590,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

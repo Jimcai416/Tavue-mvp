@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChB3aaiYBzrgMXUEATf5M",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 2\n  },\n  \"visible_support\": [\n    \"Earthenware cazuela bowl visible\",\n    \"Crumb-based mixture with tan/brown colour\",\n    \"White garnish (described as fried egg) on top\",\n    \"Wooden spoon present\",\n    \"Red tablecloth/surface\",\n    \"Disposable white plates stacked in background\"\n  ],\n  \"phone_observations\": [\n    \"Crumbly tan mixture dominates thumbnail\",\n    \"White topping visible at top of bowl\",\n    \"Earthenware vessel recognizable\",\n    \"Wooden spoon edge visible\",\n    \"Appetitive crumb texture readable\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'huevo frito' (fried egg) but no yolk is visibly distinct—only white crumbled garnish visible\",\n    \"No protein animal explicitly named in source description\",\n    \"Migas traditionally contains ham/chorizo but none declared in provided metadata\",\n    \"Cannot confirm presence or species of any meat from visual inspection alone\"\n  ],\n  \"reason\": \"Source description 'Migas en cazuela de barro y su huevo frito' declares only egg, not any meat protein by explicit name. The visible egg white garnish is ambiguous—no intact yolk is clearly distinct. Migas is a traditional Spanish dish commonly prepared with cured pork (jamón, chorizo), but no such ingredient is explicitly named in the supplied title or description. The image shows a finished, appetizing dish in proper serving vessel with good photographic quality, but the absence of any explicit protein animal declaration in the source metadata, combined with the impossibility of visually confirming meat species from crumb-based appearance alone, triggers the hold rule: 'Unknown meat species (including mutton that might mean goat), source contradictions, or doubtful credits => hold.' Protein category cannot be populated without explicit source naming.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1628,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 566,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
