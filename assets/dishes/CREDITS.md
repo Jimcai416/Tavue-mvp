@@ -4618,3 +4618,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 - **Martabak dan kuah** — Agus Damanik. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Martabak_dan_kuah_tampak_dekat.jpg). Local asset: `reviewed-commons-126232361.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Bulalo from the Philippines** — Obsidian Soul. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Bulalo_from_the_Philippines.jpg). Local asset: `reviewed-commons-129559629.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Beef caldereta from the Philippines** — Obsidian Soul. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Beef_caldereta_from_the_Philippines.jpg). Local asset: `reviewed-commons-129559667.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Martabak Kubang** — Cun Cun. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Martabak_kubang.jpg). Local asset: `reviewed-commons-71630892.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
