@@ -63167,5 +63167,28 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "height": 960,
     "requiresExactMenuName": true,
     "authorUrl": "https://www.flickr.com/people/41000732@N04"
+  },
+  {
+    "id": "commons-26890409",
+    "title": "File:Kødboller med kartofler, flødesauce og tyttebær og øl (5198918171).jpg",
+    "author": "cyclonebill  from Copenhagen, Denmark",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:K%C3%B8dboller_med_kartofler,_fl%C3%B8desauce_og_tytteb%C3%A6r_og_%C3%B8l_(5198918171).jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/85/K%C3%B8dboller_med_kartofler%2C_fl%C3%B8desauce_og_tytteb%C3%A6r_og_%C3%B8l_%285198918171%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "9c2e82ee4828f6598e474998108a74761d064939",
+    "name": "Kødboller med kartofler, flødesauce og tyttebær",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-26890409.jpg",
+    "assetSha256": "1fa17a35ca55af5856dae4100be79fd70073b4d458a8eea9d7beb6df74cdb9b5",
+    "reviewedAt": "2026-11-18",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 638,
+    "requiresExactMenuName": true,
+    "authorUrl": "https://www.flickr.com/people/23178876@N03"
   }
 ];

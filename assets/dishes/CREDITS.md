@@ -4312,3 +4312,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 
 - **Puri with medu vada and potato masala** — Ambadyanands. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Puri_with_medu_vada_and_potato_masala.jpg). Local asset: `reviewed-commons-77157725.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Puris (Kashmiri Fried Bread)** — [Adam Jones  from Kelowna, BC, Canada](https://www.flickr.com/people/41000732@N04). [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:Puris_(Kashmiri_Fried_Bread)_with_Vendor_-_Old_City_-_Srinagar_-_Jammu_%26_Kashmir_-_India_(26564862530).jpg). Local asset: `reviewed-commons-64188836.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Kødboller med kartofler, flødesauce og tyttebær** — [cyclonebill  from Copenhagen, Denmark](https://www.flickr.com/people/23178876@N03). [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:K%C3%B8dboller_med_kartofler,_fl%C3%B8desauce_og_tytteb%C3%A6r_og_%C3%B8l_(5198918171).jpg). Local asset: `reviewed-commons-26890409.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
