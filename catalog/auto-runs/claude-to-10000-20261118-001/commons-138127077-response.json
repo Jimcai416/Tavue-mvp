@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAtp9uPLh2FFbyEnGfb6",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Tortilla chips visible around border\",\n    \"Diced vegetables including yellow, orange, and red peppers\",\n    \"Pink/white diced seafood visible throughout\",\n    \"Red onion pieces present\",\n    \"Garnish visible in topping\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail shows similar chip-and-topping composition\",\n    \"Central topping area prominent\",\n    \"Color palette consistent with full image\"\n  ],\n  \"protein_evidence\": {\n    \"seafood\": \"camarón\"\n  },\n  \"uncertainties\": [\n    \"Source title describes 'Ceviche de camarón con mango' but no mango is visually identifiable in either the full photograph or thumbnail; visible ingredients are diced peppers (yellow, orange, red), red onion, and diced shrimp, with no distinct mango pieces distinguishable\",\n    \"The dish appears to be ceviche served with tortilla chips rather than traditional ceviche presentation; source description does not clarify if chips are integral to the named dish or a serving accompaniment\"\n  ],\n  \"reason\": \"Identity mismatch: source title declares 'con mango' (with mango) but no mango is visually detectable in either photograph. Visible components are diced peppers, red onion, and shrimp on tortilla chips. The declared variant ingredient cannot be confirmed visually, creating a source–photograph contradiction that must be held for clarification.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1759,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 473,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
