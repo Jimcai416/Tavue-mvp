@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAyBxMSCqpRS7xhwSy7k",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Cooked, browned kebab patties with visible char and spice crust\",\n    \"Flatbreads (likely naan or roti) present and exposed\",\n    \"Raw onion slices as garnish\",\n    \"Lemon wedges for serving\",\n    \"Professional plating on blue-and-white plate\",\n    \"Natural colour, appetising presentation\"\n  ],\n  \"phone_observations\": [\n    \"Kebab patties remain visibly prominent in thumbnail\",\n    \"Flatbread clearly visible\",\n    \"Garnish and lemon distinguish the dish\",\n    \"No essential components clipped\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'Lucknowi Shami Kebab' but description refers to 'Awadhi Shami kebabs'—Lucknow and Awadh are related but distinct regional identities; source contradicts itself\",\n    \"Description states 'minced meat' without naming the animal species (chicken, beef, pork, lamb, duck, or seafood); species cannot be inferred from appearance or tradition\",\n    \"Chana dal is mentioned only in description, not visually confirmed in photograph\"\n  ],\n  \"reason\": \"Source title and description contradict each other (Lucknowi vs. Awadhi). More critically, the meat species is not explicitly named in either the title or description—'minced meat' is generic and unspecified. Protocol requires exact source quote naming the specific animal (chicken/beef/pork/duck/lamb/seafood). Without this explicit animal identification, protein_evidence cannot be populated and the identity check fails. The photograph and phone thumbnail are sharp, well-lit, appetising, and show a finished dish, but the source metadata ambiguity and missing protein specification force a hold.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1793,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 551,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

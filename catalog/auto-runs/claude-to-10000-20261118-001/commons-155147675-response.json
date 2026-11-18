@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAyCRHftACsNN75rQCnW",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Finished, cooked platter with visible meat chunks in gravy\",\n    \"Boiled potatoes and beet salad clearly present\",\n    \"Natural colours, appetising presentation\",\n    \"Sharp detail of main dish and accompaniments in full image\",\n    \"Phone thumbnail shows all essential components clearly\"\n  ],\n  \"phone_observations\": [\n    \"Plate dominates thumbnail with good prominence\",\n    \"Meat, potatoes, beets and gravy all readable in 124x96\",\n    \"Soup bowl visible but secondary\",\n    \"No clipping of essential food elements\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title states 'goulash' but visual inspection shows meat chunks in a creamy sauce, not characteristic red goulash gravy\",\n    \"Meat species cannot be determined from appearance alone; species must be explicitly named in source text\",\n    \"Description 'Polish platter' is generic and does not provide specific dish identity or confirm meat type\",\n    \"No explicit mention of beef, pork, or other allowed protein category in supplied title or description\"\n  ],\n  \"reason\": \"Image quality, sharpness, lighting, composition and appeal all meet standards (scores ≥4). Photograph and phone thumbnail are both acceptable and show a finished, appetising platter with visible components. However, identity check fails: the source description 'Polish platter' and 'goulash' conflict with visible appearance (meat in cream-coloured sauce rather than red goulash) and neither provides an explicit canonical dish name. No protein species is named in the metadata. Source contradictions and absence of explicit protein identification require hold.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1621,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 511,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

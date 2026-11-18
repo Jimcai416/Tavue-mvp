@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAyBitoVQJrwmm5VKahq",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Dried red chili pods with stems and sepals visible on kitchen scale\",\n    \"Natural colour, sharp detail of pod surface and dried texture\",\n    \"Home kitchen setting with wooden table and measurement context\"\n  ],\n  \"phone_observations\": [\n    \"Chili pods clearly visible in centre-cover thumbnail\",\n    \"Scale visible at bottom of thumbnail\",\n    \"Dried ingredient state readable\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title states 'Guajillo chili' but image shows dried chili pods being weighed during pozole preparation, not a finished dish\",\n    \"Photograph documents an ingredient/preparation stage, not an exposed, finished, cooked food dish\",\n    \"Pozole is the dish being made, but this image captures only raw ingredient weighing, not the completed pozole\"\n  ],\n  \"reason\": \"Image shows dried chili pods being measured on a kitchen scale during food preparation, not a finished, exposed, cooked dish. The source description indicates this is part of making pozole, but the photograph itself captures a raw ingredient stage, not the final dish. Per review criteria, preparation stages and ingredients are rejected in favour of finished, plated or served food photographs. While image quality, sharpness and home-cooking context are acceptable, the fundamental requirement—a finished, exposed, likely photographic dish—is not met.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1743,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 445,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
