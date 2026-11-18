@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChB3FqwYjYyoX3g5WrtSE",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Cooked noodles with glossy, al dente appearance\",\n    \"Pale yellow colour consistent with wheat noodles\",\n    \"Ceramic bowl with green-grey glaze\",\n    \"Wooden serving utensil visible\",\n    \"Natural indoor lighting\"\n  ],\n  \"phone_observations\": [\n    \"Noodles clearly visible and prominent in thumbnail\",\n    \"Cooked state evident with good detail retention at 124x96\",\n    \"Colour and texture well-preserved in reduction\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title 'File:Udon by udono.jpg' is a filename, not a dish description\",\n    \"Description '夢庵 IMG_6556' (Yume-an restaurant name and image ID) is metadata, not a canonical dish name\",\n    \"No explicit dish name, sauce type, broth presence, or toppings declared in source\",\n    \"Noodles appear plain or in a clear/light broth—identity as 'udon' inferred from filename, not from readable source description\",\n    \"Cannot confirm whether this is served in dashi broth, with sauce, or as a specific udon variant\"\n  ],\n  \"reason\": \"Source metadata (filename and camera roll ID) do not constitute a valid dish description. The filename 'Udon by udono.jpg' is an author attribution and format label, not a canonical title. The description '夢庵 IMG_6556' is a restaurant name and photo ID, not a dish name. No explicit, source-declared dish identity, preparation style, broth type, or toppings are provided in title or description. Although the photograph quality is excellent and the noodles are clearly cooked and appetising, the source does not supply the required explicit dish name and variant qualifiers. Identity cannot be confirmed from visible form alone without a readable source description.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1720,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 570,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
