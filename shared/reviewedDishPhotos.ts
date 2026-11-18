@@ -83199,5 +83199,53 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "height": 684,
     "requiresExactMenuName": true,
     "authorUrl": "https://www.flickr.com/people/95142644@N00"
+  },
+  {
+    "id": "commons-58242774",
+    "title": "File:Jerk Chicken, Rice.jpg",
+    "author": "simon thomas",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jerk_Chicken,_Rice.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Jerk_Chicken%2C_Rice.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "5f227c3bc7d77a666aff2e373edb1daef41725c3",
+    "name": "Jerk Chicken with rice and peas, served with coleslaw",
+    "aliases": [],
+    "proteins": [
+      "chicken"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-58242774.jpg",
+    "assetSha256": "83ef376ad0e9dc6b2bf30defd99d2650fb09ef95cf6c205521a69f954e60cc1e",
+    "reviewedAt": "2026-11-18",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-152028165",
+    "title": "File:Jerk Chicken Sandwich from West to West Kitchen at the Fire Food Festival 2024 in Abu Dhabi, UAE.jpg",
+    "author": "TravelPhotosNL",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jerk_Chicken_Sandwich_from_West_to_West_Kitchen_at_the_Fire_Food_Festival_2024_in_Abu_Dhabi,_UAE.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/58/Jerk_Chicken_Sandwich_from_West_to_West_Kitchen_at_the_Fire_Food_Festival_2024_in_Abu_Dhabi%2C_UAE.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "7cce549bf557f03f2fad234ec641a096ea942e0c",
+    "name": "Jerk Chicken Sandwich",
+    "aliases": [],
+    "proteins": [
+      "chicken"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-152028165.jpg",
+    "assetSha256": "987c33c22025441b4b4b540ea4099bee8faa799ca06cef138db59a95622bb97b",
+    "reviewedAt": "2026-11-18",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];
