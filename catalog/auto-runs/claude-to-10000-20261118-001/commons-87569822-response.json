@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChB5NRgiQaWoSrn1s5S8Z",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Stir-fried dish with rice noodles\",\n    \"Green vegetable garnish (spring onion or similar)\",\n    \"Glossy brown sauce coating\",\n    \"White rice noodle base\",\n    \"Restaurant plating on white dish\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows noodles with brown sauce and green garnish\",\n    \"Dish identity is visibly consistent between full image and thumbnail\",\n    \"Central composition focuses on the plated portion\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title states 'chop suey crevettes' (crevettes = prawns/shrimp in French), but no crustaceans are visibly identifiable in either photograph. The brown items appear to be mushrooms or possibly meat, not seafood.\",\n    \"Species ambiguity: if the brown pieces are meat rather than prawns, the species cannot be determined from visual inspection alone.\",\n    \"No explicit protein species confirmation visible in the dish itself that matches the source declaration.\"\n  ],\n  \"reason\": \"Source declares 'chop suey crevettes' (prawns), but no visible prawns/shrimp are identifiable in the photograph. The brown protein-like elements appear to be mushrooms or unidentified meat. Without visual confirmation of the declared protein species, identity cannot be verified. The image quality, photography, and phone thumbnail are all acceptable, but the protein mismatch between source title and visible content prevents acceptance.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1770,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 477,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

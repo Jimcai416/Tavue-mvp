@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChB5NJmF96DH6WNR9m9KL",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"White ceramic serving dish with handles\",\n    \"Mixed vegetables: broccoli, green peas, yellow corn, green bell pepper, yellow/orange carrot pieces\",\n    \"Peeled quail eggs distributed throughout\",\n    \"Sliced meat pieces visible (pale tan/grey toned)\",\n    \"Cooked, finished plated dish\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows composed mixed vegetable and protein dish\",\n    \"Prominent white quail eggs and bright yellow corn visible\",\n    \"Green broccoli and peppers readable\",\n    \"Dish shape and presentation recognizable in reduction\"\n  ],\n  \"protein_evidence\": {\n    \"pork\": \"Sliced Pork\",\n    \"seafood\": \"Squid\"\n  },\n  \"uncertainties\": [\n    \"Source title is 'Filipino chop suey' but metadata lists 'squid' as ingredient—squid/calamari is not an allowed protein category (only chicken/beef/pork/duck/lamb/seafood accepted, and squid is not among the five standard seafood options typically included in canonical protein set). Squid presence creates ambiguity about which allowed proteins are actually present.\",\n    \"The description explicitly names 'Squid' as an ingredient, but squid does not map to the allowed protein categories (chicken/beef/pork/duck/lamb/seafood where 'seafood' typically means fish, shrimp, crab, or mollusks as a generic group). No explicit quote confirms pork or squid as interpretable within the strict allowed category list.\",\n    \"Visual identification of the tan/grey meat pieces cannot definitively confirm pork species or squid presence from appearance alone.\"\n  ],\n  \"reason\": \"Source description lists 'Squid' as a named ingredient. Squid is not a standard protein category (the allowed set is chicken/beef/pork/duck/lamb/seafood, and squid specificity does not resolve to 'seafood' as a catch-all). The rule requires exact source quote naming each animal within allowed categories; 'Squid' is explicitly named but does not map to an approved protein key. This protein ambiguity/non-conformance prevents acceptance. Quality, photograph, and phone thumbnail are all acceptable; identity and variant preservation cannot be confirmed due to protein specification conflict.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1665,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 666,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
