@@ -4683,3 +4683,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 
 - **Börek mit Käse** — © Alice Wiegand. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:B%C3%B6rek_mit_K%C3%A4se.jpg). Local asset: `reviewed-commons-3301657.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **cheese borek** — Andy Li. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Cheese_borek_-_Lily%27s_Cafe,_Brighton_2024-02-03.jpg). Local asset: `reviewed-commons-144978175.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Momo, Nepali dumplings** — Gaurav Dhwaj Khadka. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Momo_2.jpg). Local asset: `reviewed-commons-108060355.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
