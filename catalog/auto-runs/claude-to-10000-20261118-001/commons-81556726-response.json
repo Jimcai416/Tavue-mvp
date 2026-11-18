@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAbYPo8BYHp6QfCZtjsM",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Large professional paella/goulash pan in street festival setting\",\n    \"Vibrant red-orange broth with visible golden meat pieces distributed throughout\",\n    \"Two oversized cast-iron serving pans visible, wooden serving utensil\",\n    \"Appetising colour, natural daylight, finished cooking state\",\n    \"Phone thumbnail clearly shows the dish with readable texture and colour\"\n  ],\n  \"phone_observations\": [\n    \"Centre-cover thumbnail displays the red broth and golden meat pieces sharply\",\n    \"Colour and composition match source photograph\",\n    \"Essential dish components fully visible and prominent\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title lists both 'gulasz' (goulash) and 'porkolt' as alternatives without specifying which dish is shown or which one is in this pan\",\n    \"No explicit animal protein named in source metadata—'gulasz' and 'porkolt' traditionally contain beef or pork, but source does not declare the specific protein\",\n    \"Cannot visually distinguish between beef and pork in the cooked meat pieces at this resolution\",\n    \"Ambiguity whether the foreground pan is the goulash or porkolt, or if both are present in the two visible pans\"\n  ],\n  \"reason\": \"Image quality, sharpness, lighting, composition, appeal and phone visibility are all strong (scores ≥4). The photograph shows a finished, appetising street-festival dish in natural colours with readable essential components. However, the source title lists two different dishes ('gulasz' / 'porkolt') without specifying which one is depicted in this particular pan, and no explicit animal protein is named in the metadata. Goulash and porkolt are traditional Hungarian/Polish stews that typically contain beef or pork, but visual appearance alone cannot reliably distinguish the protein species or confirm which named dish is actually shown. Per policy, ambiguous meat species and source contradictions require a hold pending clarification of the exact dish identity and protein declaration.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1772,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 590,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

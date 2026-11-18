@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAbY2UUR86gSG7sMQbXJ",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Golden-brown cooked egg dish in cast-iron skillet\",\n    \"Visible potato chunks throughout the mixture\",\n    \"Natural egg colouring with browning\",\n    \"In-progress or served state in cookware\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows the cooked egg and potato mixture\",\n    \"Pan rim and cooking vessel visible\",\n    \"Colour and texture readable at small scale\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title describes ingredients as 'papas, huevos, cebolla, cebollita de verdeo y tomate picado' but the visible photograph shows no discernible tomato, spring onion or regular onion pieces—only a homogeneous egg and potato mixture with browning\",\n    \"The declared ingredient list (cebolla, cebollita de verdeo, tomate picado) contradicts the visible uniform composition in both full and thumbnail images\",\n    \"Unclear whether this is a completed tortilla or a mid-cooking stage\"\n  ],\n  \"reason\": \"Source metadata declares specific ingredients (onion, spring onion, diced tomato) that are not visibly supported in the photograph. The image shows a uniform, golden egg and potato preparation with no visible pieces of the named vegetables. This material contradiction between declared identity and visible form triggers a hold under the rule that source contradictions require rejection. The photograph itself is sharp, well-lit and appetising, but identity verification fails.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1829,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 473,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
