@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAxdUhP7yDjysqNqBrkN",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Rich brown roux-based broth\",\n    \"Visible protein chunks (okra or seafood pieces)\",\n    \"Fresh diced white onion garnish\",\n    \"Green parsley sprinkle\",\n    \"Red bell pepper visible\",\n    \"Served in white bowl\"\n  ],\n  \"phone_observations\": [\n    \"Gumbo broth clearly visible in thumbnail\",\n    \"White onion garnish prominent and readable\",\n    \"Bowl shape and contents well-represented\",\n    \"Adequate detail for dish recognition\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title/description identifies venue (Lee Roy Selmon's) and generic 'gumbo' only—no specific gumbo type, regional variant, or protein species declared\",\n    \"Visible protein chunks in broth cannot be reliably identified as chicken, seafood, sausage, or other specific animal—appearance alone insufficient\",\n    \"No explicit protein naming in source metadata\",\n    \"Gumbo recipe and protein composition are ambiguous without source declaration\"\n  ],\n  \"reason\": \"Image quality, sharpness, lighting, composition and appeal all meet thresholds (≥4). Photograph and phone thumbnail both render the dish prominently, sharply and appetisingly. However, the source title and description provide only the venue name and generic term 'gumbo' with no specific variant, preparation qualifier, or explicit protein identification. Visible protein chunks cannot be reliably assigned to a canonical allowed category (chicken/beef/pork/duck/lamb/seafood) without source text. Per protocol, identity cannot be confirmed and meaningful variant preservation is impossible. Hold pending explicit source description of gumbo type and protein species.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1730,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 523,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
