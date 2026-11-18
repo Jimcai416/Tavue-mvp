@@ -2986,3 +2986,9 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 
 - **Risotto cakes with mascarpone and mushrooms** — [Nikchick](https://flickr.com/people/63871916@N00). [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:Risotto_cakes_with_mascarpone_and_mushrooms.jpg). Local asset: `reviewed-commons-10280414.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Strangozzi alla gricia** — [Diego](https://www.flickr.com/photos/dags1974/). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Strangozzi_alla_gricia,_2012.jpg). Local asset: `reviewed-commons-58467128.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-continuous-20261117-001
+
+- **Sauerkraut** — Qwerty Binary. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Sauerkraut_2.jpg). Local asset: `reviewed-commons-30836923.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Chow mein sandwich** — Meagan Fisher. [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Chow_mein_sandwich.jpg). Local asset: `reviewed-commons-129609130.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **American-style Moo Shu Pork with pancakes** — Swiss Frank. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:American-style_Moo_Shu_Pork_with_pancakes,_ready_to_wrap.jpg). Local asset: `reviewed-commons-113867775.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
