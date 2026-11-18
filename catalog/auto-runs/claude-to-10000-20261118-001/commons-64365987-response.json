@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChB5EMDbkuQCL2cKEXb1E",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 2,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Subject is very small in thumbnail and fills only central portion\",\n    \"Fine shredded structure visible but lacks context and surrounding elements\",\n    \"No complete dish presentation evident\",\n    \"Cannot assess plate, garnish, or serving context at this scale\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'Choucroute alsacienne' but image shows only raw/uncooked shredded cabbage with no visible meat, broth, potatoes or other canonical components of the finished dish\",\n    \"Appears to be cabbage in preparation stage rather than finished sauerkraut dish\",\n    \"No evidence of cooking, braising liquid, or the characteristic stewed appearance of choucroute\",\n    \"No protein components visible despite source title implying a meat dish\"\n  ],\n  \"reason\": \"Rejection: The source metadata title 'Choucroute alsacienne' describes a finished braised dish traditionally containing sauerkraut, meat (usually pork), potatoes and broth. The photograph shows only shredded raw cabbage on a white plate in what appears to be a preparation stage. The dish is not finished or exposed as a recognizable cooked meal. The tiny subject in the phone thumbnail compounds composition deficiency. Identity mismatch between source title and visible raw preparation stage, combined with absent protein components and lack of finished dish presentation, makes this unacceptable.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1732,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 461,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

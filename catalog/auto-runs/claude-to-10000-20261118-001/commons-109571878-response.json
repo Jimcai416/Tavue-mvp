@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChB5DQfSzpougNRTj6PUG",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": \"Choucroute impériale (chou, pommes de terre, poitrine, kässler, saucisses fumées et de Francfort, jarret entier)\",\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Cooked meat pieces visible (pale poached appearance consistent with choucroute)\",\n    \"Boiled potatoes present\",\n    \"Sausage/frankfurter visible on right edge\",\n    \"Shredded sauerkraut/cabbage visible in centre\",\n    \"Finished, exposed dish on white plate\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows composed plate with sausage, shredded cabbage, potatoes and meat\",\n    \"Essential components readable and prominent in phone centre-cover view\",\n    \"Dish identity preserved in reduced format\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source names 'poitrine' (pork breast), 'kässler' (smoked pork), 'saucisses fumées' (smoked sausages) and 'saucisses de Francfort' (frankfurters), but 'saucisses' are unspecified species—cannot confirm whether pork, beef or mixed\",\n    \"Jarret entier (knuckle/shank) species not explicitly stated in source; appears to be pork based on context but not named\",\n    \"No explicit animal qualifier provided for 'poitrine' alone, though context suggests pork\",\n    \"Sausage varieties ('saucisses fumées', 'saucisses de Francfort') cannot be assigned to allowed protein categories without explicit animal specification\"\n  ],\n  \"reason\": \"Image quality, photograph composition, phone thumbnail clarity and dish exposure all meet criteria. However, the source description includes multiple unnamed or ambiguously specified meat components (saucisses fumées, saucisses de Francfort, jarret entier). While 'poitrine' in context strongly suggests pork breast, the sausage varieties and jarret lack explicit animal naming required by the protocol. No exact animal qualifier in source text permits confident protein_evidence entry. Hold pending clarification of unspecified meat species.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 2102,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 632,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
