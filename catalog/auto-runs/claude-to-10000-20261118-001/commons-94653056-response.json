@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAzRzLzmU7VPVoxt7y8f",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 3,\n    \"lighting\": 3,\n    \"composition\": 3,\n    \"appeal\": 3\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows cake base with scoop of ice cream and dark fruit visible\",\n    \"Overall composition legible but soft focus reduces appeal\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Watermark or paper obstruction obscures upper third of full source image, blocking clear view of dish identity\",\n    \"Soft focus and lighting cast reduce sharpness below acceptable threshold\",\n    \"Actual cherry filling and cake structure not clearly distinguished in soft-focus full image\"\n  ],\n  \"reason\": \"Reject: watermark or paper obstruction blocks clear view of the finished dish in the full source photograph, violating the requirement for unobstructed documentation. Additional defect: soft focus and lighting cast reduce sharpness score to 3, below the mandatory >=4 threshold for all scores. While the phone thumbnail shows a plated dessert, the full image quality and obstruction prevent confident verification of identity, finish state, and essential components.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1749,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 356,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

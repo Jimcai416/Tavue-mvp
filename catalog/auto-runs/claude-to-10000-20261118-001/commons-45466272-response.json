@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAzSXHLNe57faFaKdR6z",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": \"Sancocho de hueso\",\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Stew in decorative bowl with visible meat pieces and vegetables\",\n    \"Boiled potatoes, corn, and meat on blue-patterned plate\",\n    \"Home-cooked appearance, natural plating\",\n    \"Broth-based soup consistent with sancocho preparation\"\n  ],\n  \"phone_observations\": [\n    \"Soup bowl prominent in left half\",\n    \"Plate with solids visible right side\",\n    \"Both components readable at thumbnail scale\",\n    \"Domestic table setting visible\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title specifies 'hueso' (bone/bone broth) but no unambiguous bone visible in the stew; meat species cannot be determined from appearance alone—'hueso' may refer to beef, pork, or other animal\",\n    \"Source metadata describes location and photographer but does not provide explicit protein species confirmation in the description\",\n    \"Meat on the plate appears cooked but species is not visually certain\"\n  ],\n  \"reason\": \"Image quality, composition, and phone thumbnail meet acceptance thresholds. However, the source title 'Sancocho de hueso' does not explicitly name an animal species—'hueso' refers to bone/bone broth preparation method, not a specific protein. No unambiguous bone or species-identifying feature is visible in the stew itself. Without an explicit source statement naming the animal (beef, pork, lamb, chicken, duck, or seafood), the protein category cannot be populated per instructions. Hold pending clarification of the specific protein used.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1737,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 498,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
