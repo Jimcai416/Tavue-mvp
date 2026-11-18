@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBCpJNiQmtYZNJppaiFv",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Stack of layered flatbreads with golden-brown char marks\",\n    \"Visible flaky, laminated texture consistent with paratha construction\",\n    \"Natural daylight, appetising presentation on white plate\",\n    \"Phone thumbnail clearly shows stacked parathas with characteristic browning\"\n  ],\n  \"phone_observations\": [\n    \"Stack of 3–4 flatbreads clearly visible and identifiable\",\n    \"Golden-brown surface charring prominent in thumbnail\",\n    \"Layered structure evident even at reduced resolution\",\n    \"Adequate detail for recognition of finished dish\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'Aloo Paratha' but no potato filling is visibly exposed, identifiable, or confirmed in the photograph. Only the exterior flatbread surface is shown.\",\n    \"Metadata (title, author, license, filename) is explicitly untrusted per instructions. The source description alone ('Aloo Paratha') does not constitute visual proof of potato filling.\",\n    \"Without visible evidence of the potato component (cut cross-section, interior exposure, or declared filling), identity cannot be verified against the claimed dish name.\"\n  ],\n  \"reason\": \"Reject: Although the photograph shows a well-executed stack of parathas with excellent quality, sharpness, lighting and composition, the identity check fails. The source title 'Aloo Paratha' claims a potato-filled paratha, but the visible photograph shows only the exterior of layered flatbreads. No potato filling is exposed, visible, or identifiable in either the full image or thumbnail. Per canonical instructions, identity must agree with visible form; hidden flavours may be source-declared but are never visually proven. The metadata title is untrusted evidence. The dish cannot be confirmed as 'Aloo Paratha' without visual evidence of the potato component. A plain paratha stack cannot be accepted under a filled-paratha identity without photographic support.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1729,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 575,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

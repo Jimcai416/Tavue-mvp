@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBCpT56UWg7xJ49839ZY",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Spherical fried/baked balls consistent with laddu form\",\n    \"Uniform golden-brown surface texture\",\n    \"Multiple units (13–14 pieces) on orange serving plate\",\n    \"Sharp detail in full image; phone thumbnail clearly shows balls and plate\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail legible, shows ball shapes and orange plate prominently\",\n    \"Essential food elements visible and unclipped\",\n    \"No watermark or severe glare observed\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title states 'Kadala laddu' but description claims 'black gram and jaggery' — kadala typically refers to chickpeas (or kidney beans), not black gram (urad). These are distinct ingredients and imply different dishes.\",\n    \"Visible form does not confirm whether the base is chickpea, black gram, or another legume.\"\n  ],\n  \"reason\": \"Source title–description mismatch: 'kadala laddu' (chickpea-based) contradicts 'black gram and jaggery' (urad-based). Cannot resolve which is correct from visual inspection alone. Per protocol, source contradictions => hold. However, given the fundamental identity conflict between metadata fields (title vs. description) rather than merely doubtful credit or hidden flavours, rejection is more appropriate. The dish identity cannot be reliably established.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1519,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 455,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
