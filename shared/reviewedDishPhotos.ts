@@ -78592,5 +78592,51 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 723,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-129761521",
+    "title": "File:香煎帶子黑魚籽龍蝦汁鮮蛋闊條麵.jpg",
+    "author": "Andy Li",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E9%A6%99%E7%85%8E%E5%B8%B6%E5%AD%90%E9%BB%91%E9%AD%9A%E7%B1%BD%E9%BE%8D%E8%9D%A6%E6%B1%81%E9%AE%AE%E8%9B%8B%E9%97%8A%E6%A2%9D%E9%BA%B5.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/48/%E9%A6%99%E7%85%8E%E5%B8%B6%E5%AD%90%E9%BB%91%E9%AD%9A%E7%B1%BD%E9%BE%8D%E8%9D%A6%E6%B1%81%E9%AE%AE%E8%9B%8B%E9%97%8A%E6%A2%9D%E9%BA%B5.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "5ffc0fdbdaa71e84b61ce5abe6f65bd25a915172",
+    "name": "Scallops, Lumpfish Caviar, Lobster sauce, with Fresh Egg Pappardelle",
+    "aliases": [],
+    "proteins": [
+      "seafood"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-129761521.jpg",
+    "assetSha256": "8f75994fd97a0dd80fa3efad8ebfceb6cef552397f92b4de2e2c6edf73908788",
+    "reviewedAt": "2026-11-18",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 720,
+    "height": 960,
+    "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-107874020",
+    "title": "File:Tips Roadside - 2021-07-03 - Sarah Stierch 04.jpg",
+    "author": "Missvain",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tips_Roadside_-_2021-07-03_-_Sarah_Stierch_04.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Tips_Roadside_-_2021-07-03_-_Sarah_Stierch_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "1ce66fcea9dd0d06fedafcbbf612dc838a425063",
+    "name": "Polenta fries with spicy aioli",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-107874020.jpg",
+    "assetSha256": "ced7100829f7b00892479caba62e4e52b70c07c027164cf71139b5a6119fb330",
+    "reviewedAt": "2026-11-18",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 960,
+    "requiresExactMenuName": true
   }
 ];
