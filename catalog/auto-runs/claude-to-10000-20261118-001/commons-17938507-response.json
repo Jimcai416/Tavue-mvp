@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAXrSLCsFFfVSjKLjnwL",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Cooked sliced pork meat visible\",\n    \"Boiled potato with spoon\",\n    \"Sausage/frankfurter present\",\n    \"White plate, tartan tablecloth\"\n  ],\n  \"phone_observations\": [\n    \"Plate contents clearly visible in thumbnail\",\n    \"Potato, sausage, and meat portions identifiable\",\n    \"No essential food clipped\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title states 'Choucroute alsacienne' but image shows no visible sauerkraut/cabbage—only meat, sausage, and potato\",\n    \"Meat species cannot be confirmed from appearance; source metadata does not explicitly name pork or other animal\",\n    \"Sausage present but species unspecified in source\",\n    \"Actual dish composition contradicts declared identity\"\n  ],\n  \"reason\": \"Identity mismatch: source declares 'Choucroute alsacienne' (sauerkraut-based dish), but the photograph shows boiled potato, sliced cooked meat, and sausage with no visible cabbage/sauerkraut. The core ingredient that defines choucroute is absent or not visible. Additionally, meat and sausage species are not explicitly named in the source title or description, so they cannot be confirmed. This fails the identity check and cannot be accepted as the stated dish.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1739,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 460,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

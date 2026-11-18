@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAXrDTodD1ND33VqvXLc",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 2,\n    \"composition\": 1,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows only granular powder/meal texture\",\n    \"No finished dish visible\",\n    \"No recognizable food form or components\",\n    \"Appears to be raw ingredient in preparation stage\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source claims 'blended melon seed ready to be used' – this is explicitly a raw ingredient/preparation stage, not a finished dish\",\n    \"No cooked or plated food visible in either image\",\n    \"Cannot assess identity of egusi soup from ingredient alone\"\n  ],\n  \"reason\": \"Rejection: Image shows raw melon seed powder/meal in preparation stage, not a finished, exposed, cooked dish. Source metadata explicitly states the item is 'ready to be used in making melon soup' – confirming this is an uncooked ingredient, not a completed food photograph. Full image and thumbnail both fail to show any finished dish, appetising presentation, or recognizable food form. Quality, sharpness, and composition scores reflect the limitation of photographing raw powder. Does not meet acceptance criteria for a photographic dish.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1525,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 388,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
