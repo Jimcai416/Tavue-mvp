@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAwztijcE7fYVa1VQLqj",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Layered vegetable slices visible: eggplant (dark), zucchini (yellow-green), red pepper\",\n    \"Glazed, caramelized surface with charred edges\",\n    \"White cheese (possibly mozzarella or feta) between layers\",\n    \"Golden-brown sauce pooling beneath\",\n    \"Sharp detail and natural colour in full image\",\n    \"Phone thumbnail clearly shows stacked vegetables and protein layers\"\n  ],\n  \"phone_observations\": [\n    \"Layered vegetable structure prominent and readable\",\n    \"White cheese component visible between vegetables\",\n    \"Glazed, appetising appearance\",\n    \"Essential components not clipped\",\n    \"Sufficient detail for dish recognition\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'Ratatouille' but the dish shown is a stacked, layered preparation with visible white cheese and caramelised glaze—structurally inconsistent with traditional ratatouille (a stewed vegetable medley). This appears to be a composed vegetable terrine or parmigiana-style preparation, not ratatouille.\",\n    \"White cheese layer is visible but unidentified in source metadata\",\n    \"Preparation method and final plating do not match the source dish name\"\n  ],\n  \"reason\": \"Identity check fails. The source title 'Ratatouille' contradicts the visible dish structure. The photograph shows a carefully layered, stacked vegetable preparation with cheese—characteristic of a vegetable terrine, parmigiana, or similar composed dish—not the traditional stewed vegetable medley of ratatouille. Source metadata does not describe the actual preparation or plating style shown. Rejection due to source–photograph mismatch on dish identity.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1549,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 541,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
