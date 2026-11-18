@@ -5070,3 +5070,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 - **Tonkatsu Donburi (Pork Schnitzel Rice Bowl)** — RegionVisitor90. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Sushi_Era_Japanese_Cuisine_@_Gawler_Green_Shopping_Centre,_Evanston_20260219-130102.jpg). Local asset: `reviewed-commons-184474802.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Gyoza japonais** — Arnaud 25. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Gyoza_japonais.jpg). Local asset: `reviewed-commons-131318152.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Gyoza no Antei** — Enming Yan / 闫恩铭. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Gyoza_no_Antei_-_3.jpg). Local asset: `reviewed-commons-81026850.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Hamamatsu Gyōza** — Ocdp. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Hamamatsu_Gy%C5%8Dza_001.jpg). Local asset: `reviewed-commons-88043966.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.

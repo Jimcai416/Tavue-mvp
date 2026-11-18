@@ -71222,5 +71222,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-88043966",
+    "title": "File:Hamamatsu Gyōza 001.jpg",
+    "author": "Ocdp",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hamamatsu_Gy%C5%8Dza_001.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/28/Hamamatsu_Gy%C5%8Dza_001.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "ac768b826c968a76a14dbfa3de4b2146f042c5a2",
+    "name": "Hamamatsu Gyōza",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-88043966.jpg",
+    "assetSha256": "740856ac7898e7cd1b1700400d3ef43671ac4478754f27baf607220ef6b567ce",
+    "reviewedAt": "2026-11-18",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 638,
+    "requiresExactMenuName": true
   }
 ];
