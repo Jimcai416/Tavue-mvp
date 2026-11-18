@@ -5460,3 +5460,10 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 
 - **Tamal Oaxaqueño de Mole Negro con Pollo** — Missvain. [CC BY 4.0](https://creativecommons.org/licenses/by/4.0); [source](https://commons.wikimedia.org/wiki/File:Guelaguetza_Restaurante_-_February_2024_-_Sarah_Stierch_10.jpg). Local asset: `reviewed-commons-145994101.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Plate of ugali with creamed spinach** — Queen Asali. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Plate_of_ugali_with_creamed_spinach.jpg). Local asset: `reviewed-commons-164467415.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Ugali and Mlenda** — MWANI. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Tanzania_Food_Ugali_and_Mlenda.jpg). Local asset: `reviewed-commons-76720341.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Pollo con mole negro** — StellarD. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Pollo_Mole_Negro_Restaurante_Terranova.jpg). Local asset: `reviewed-commons-36275636.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Tamal de frijol, con mole negro y plátano macho frito** — German matus. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Tamal_de_frijoles.jpg). Local asset: `reviewed-commons-105998167.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Ugali na Sukumawiki** — Bukulu Steven. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Ugali_na_Sukumawiki.JPG). Local asset: `reviewed-commons-36391828.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
