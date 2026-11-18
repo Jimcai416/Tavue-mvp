@@ -77390,5 +77390,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "height": 540,
     "requiresExactMenuName": true,
     "authorUrl": "https://www.wikidata.org/wiki/Q108103612"
+  },
+  {
+    "id": "commons-3577698",
+    "title": "File:Lemper.jpg",
+    "author": "Hariadhi",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lemper.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/26/Lemper.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "addc09e6652ce8e17bb888387f7797e6b301f58d",
+    "name": "Lemper",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-3577698.jpg",
+    "assetSha256": "b6d295b7845662aeb6f9808e4ce99ffaa2165f3810c1c3c484ff04bde6994a4c",
+    "reviewedAt": "2026-11-18",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 638,
+    "requiresExactMenuName": true
   }
 ];

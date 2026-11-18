@@ -5590,3 +5590,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Aachener Weihnachts-Leberwurst auf einer Schreibe Graubrot** — [© Raimond Spekking / CC BY-SA 4.0 (via Wikimedia Commons)](https://www.wikidata.org/wiki/Q108103612). [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Aachener_Weihnachts-Leberwurst_auf_Graubrot-92959.jpg). Local asset: `reviewed-commons-74976220.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Lemper** — Hariadhi. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Lemper.jpg). Local asset: `reviewed-commons-3577698.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
