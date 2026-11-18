@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAsBF1a2KpLDM443rdsz",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Cooked rice-based one-pot dish\",\n    \"Golden-brown colour, well-exposed\",\n    \"Fresh green herb garnish visible\",\n    \"Yellow/orange vegetable pieces (likely turmeric or corn)\",\n    \"Natural daylight, no severe glare\",\n    \"Prominent subject on white plate\",\n    \"Readable in phone thumbnail\"\n  ],\n  \"phone_observations\": [\n    \"Dish clearly visible and identifiable at 124x96\",\n    \"Colour and texture preserve well in thumbnail\",\n    \"Garnish detail legible\",\n    \"No clipping of essential components\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title is 'khichdi by Ibrahim' with no variant qualifier, regional origin, or protein declaration—source metadata does not confirm whether this is a savoury rice–lentil khichdi, a sweet variant, or any specific preparation\",\n    \"No explicit protein reference in source title or description; no visible meat, seafood, chicken, or duck confirmed by source\",\n    \"Canonical name cannot be extracted: source provides only generic 'khichdi' without meaningful regional, preparation, or ingredient variant that distinguishes it from a generic alias\",\n    \"Author and license metadata are untrusted; no authoritative dish specification supplied\"\n  ],\n  \"reason\": \"Image quality, sharpness, lighting, composition, and phone thumbnail are all acceptable (scores ≥4). The dish is a finished, exposed, well-photographed khichdi with appetising appearance and readable detail. However, the source title 'khichdi by Ibrahim' provides no variant qualifier, regional origin, protein declaration, or specific preparation detail that would permit extraction of a meaningful canonical_name distinct from a generic alias. Per protocol, unknown or underspecified variants and lack of explicit protein evidence (when protein category fields are required or when identity depends on it) warrant a hold. A more specific source title or description confirming regional variant, preparation style, or ingredient composition is required.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1723,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 587,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

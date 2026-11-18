@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAsBEihn7aqxqKzGXaNq",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Cooked chicken pieces in a creamy/gravy sauce\",\n    \"Golden-brown colour consistent with Kashmiri preparation\",\n    \"White serving bowl\",\n    \"Dish appears finished and plated\"\n  ],\n  \"phone_observations\": [\n    \"Chicken pieces clearly visible in thumbnail\",\n    \"Creamy sauce/gravy visible\",\n    \"Finished dish appearance maintained in reduction\",\n    \"Colour and composition consistent across both images\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title states 'Yakhni style chicken' but source description only says 'a chicken dish..kashmiri cuisine' — description does not explicitly name 'chicken', only the filename does\",\n    \"Exact canonical phrase cannot be verified from description alone; filename should not be used as source evidence\",\n    \"No explicit protein confirmation in the actual description field\"\n  ],\n  \"reason\": \"Metadata inconsistency: the filename 'Yakhni style chicken.jpg' names the protein and style, but the supplied description field ('a chicken dish ..kashmiri cuisine') does not explicitly state these qualifiers. Per rules, identity verification requires exact source title/description match. The description is incomplete/vague ('a chicken dish..') and does not provide the specific dish name or variant. While the photograph shows a finished, appetising Kashmiri-style chicken curry with good sharpness, lighting and composition, the source identity cannot be confirmed from the description field alone. Protein evidence cannot be extracted from an incomplete description. Hold pending clarification of the actual source title and complete description.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 2041,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 495,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
