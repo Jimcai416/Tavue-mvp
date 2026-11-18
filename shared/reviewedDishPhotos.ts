@@ -84901,5 +84901,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 546,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-73590279",
+    "title": "File:My Pastelon de Puerto Rico.jpg",
+    "author": "VANGOGH787",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:My_Pastelon_de_Puerto_Rico.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/67/My_Pastelon_de_Puerto_Rico.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "5b8170f7e35f0cee48a719e45e92ee3c3045f0c0",
+    "name": "Pastelón",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-73590279.jpg",
+    "assetSha256": "4ee2c37a9813828fddf274af524579f29a22d00d5fb52cc1d5397b26dd5b267b",
+    "reviewedAt": "2026-11-18",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 720,
+    "height": 960,
+    "requiresExactMenuName": true
   }
 ];

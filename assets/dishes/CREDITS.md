@@ -6215,3 +6215,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 
 - **Putong Bulanghoy** — whologwhy. [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Putong_balanghoy_(puto_lanson).jpg). Local asset: `reviewed-commons-79395629.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Pork Hamonado (Mindanao) cooked afritada-style (with tomato sauce)** — Obsidian Soul. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Pork_Hamonado_(Mindanao)_cooked_afritada-style_(with_tomato_sauce).jpg). Local asset: `reviewed-commons-80073030.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Pastelón** — VANGOGH787. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:My_Pastelon_de_Puerto_Rico.jpg). Local asset: `reviewed-commons-73590279.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
