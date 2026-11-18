@@ -2816,3 +2816,11 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-continuous-20261117-001
 
 - **Budae Jjigae** — Suohros. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Budae_Jjigae.jpg). Local asset: `reviewed-commons-141512292.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-continuous-20261117-001
+
+- **Tteokbokki, hot and spicy rice cake in Korean cuisine** — [by 南宮博士](https://www.flickr.com/photos/gameimp/). [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:Korean.snack-Tteokbokki-Mandu-01.jpg). Local asset: `reviewed-commons-3537266.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Tteokbokki, Korean spicy rice cake** — [by Sung Sook](https://www.flickr.com/photos/linsay007/). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Korean.snacks-Tteokbokki-03.jpg). Local asset: `reviewed-commons-3404061.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Korean rice cake (tteokbokki)** — Fumikas Sagisavas. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Korean_rice_cake_(tteokbokki).jpg). Local asset: `reviewed-commons-156620949.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Tteok-bokki (stir-fried rice cakes)** — [Jens Ohlig](https://www.flickr.com/photos/johl/). [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:Tteok-bokki_1.jpg). Local asset: `reviewed-commons-87760986.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Chicken Larb** — [Sodanie Chea  from Norwalk, Ca, United States](https://www.flickr.com/people/41942551@N02). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Day_224-_Chicken_Larb_(7947748382).jpg). Local asset: `reviewed-commons-40618787.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
