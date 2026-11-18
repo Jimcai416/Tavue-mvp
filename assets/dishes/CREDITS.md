@@ -4879,3 +4879,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Viennese goulash** — Lukáš Perný. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:V%C3%ADde%C5%88sk%C3%BD_gul%C3%A1%C5%A1,_j%C3%ADdelna_u_Havelk%C5%AF,_Brno.jpg). Local asset: `reviewed-commons-127206141.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Til Pitha - Assamese Ricecake** — দিব্য দত্ত. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Til_Pitha_-_Assamese_Ricecake.jpg). Local asset: `reviewed-commons-98685625.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.

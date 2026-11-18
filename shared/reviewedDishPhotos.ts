@@ -69215,5 +69215,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 729,
     "height": 960,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-98685625",
+    "title": "File:Til Pitha - Assamese Ricecake.jpg",
+    "author": "দিব্য দত্ত",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Til_Pitha_-_Assamese_Ricecake.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Til_Pitha_-_Assamese_Ricecake.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "198aa3efeba124d3782297600e99d08763b632da",
+    "name": "Til Pitha - Assamese Ricecake",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-98685625.jpg",
+    "assetSha256": "d9bef7c9f7c09d0a987006fecfd386f9f01923ad7cd81fac7ee6805c8ffbf6de",
+    "reviewedAt": "2026-11-18",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];
