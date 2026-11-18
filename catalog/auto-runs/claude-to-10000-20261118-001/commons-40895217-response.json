@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAsVfK4MDnV7bdvVx196",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 2,\n    \"composition\": 2,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Phone thumbnail shows only a small, cropped portion of the full composition\",\n    \"Essential dish components are severely clipped and unreadable at thumbnail scale\",\n    \"Central khichdi mass is partially visible but context is lost\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title references only 'Khichdi with ghee' but does not declare any animal proteins\",\n    \"Description mentions 'rajasthani delicacies' (plural) suggesting multiple dishes, but identity of all components is unclear\",\n    \"Visible fried items and accompaniments are not explicitly named in source\",\n    \"No specific protein animals are explicitly declared in title or description\"\n  ],\n  \"reason\": \"Rejection: Multiple critical failures. (1) Photograph quality: severe softness, poor lighting with heavy warm cast, low sharpness unsuitable for food review (scores all ≤2). (2) Phone thumbnail: essential food components are severely clipped and unreadable—the dish cannot be identified from the 124x96 centre-cover alone, violating core thumbnail legibility requirement. (3) Identity: source declares only 'Khichdi with ghee' and 'rajasthani delicacies' but does not explicitly name any animal proteins, and visible fried/cooked components remain ambiguous. (4) The image appears to be home-cooked plated food, but image quality, lighting defects, and lack of protein declaration combine to prevent acceptance. The composition and appeal scores reflect poor photographic execution.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1700,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 489,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
