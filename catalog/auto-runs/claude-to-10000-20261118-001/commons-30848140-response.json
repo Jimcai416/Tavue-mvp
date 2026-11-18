@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAs3t34DmJE4awdUVM69",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 5,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Four spherical, golden-brown fried balls in a reddish-brown gravy\",\n    \"Fresh green leaf garnish\",\n    \"Decorative ceramic plate with floral rim pattern\",\n    \"Red cloth background\",\n    \"Natural home-cooking presentation\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows the dish centred\",\n    \"Golden spheres and gravy visible\",\n    \"Plate rim and garnish visible\",\n    \"Essential components not clipped\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'Fish Kofta' but visual appearance is consistent with meat-based kofta (spherical structure, texture, colour suggest beef or lamb, not fish)\",\n    \"Fish kofta would typically have a different texture and cohesion; these spheres appear denser and more consistent with ground meat\",\n    \"Source metadata (title/description) contradicts visible form\",\n    \"No protein species can be verified from the source title or description alone without contradiction\"\n  ],\n  \"reason\": \"Identity check fails: the source title 'Fish Kofta' contradicts the visual evidence. The fried spheres display characteristics typical of meat-based kofta (beef, lamb, or goat) rather than fish kofta, which would typically exhibit different texture, binding and appearance. Fish kofta are traditionally more delicate and would show visible flaking or different structural properties. The source description in Urdu (مچھلی کے کوفتے, 'machli ke kofte' = fish kofta) also claims fish, but no protein species can be explicitly confirmed from title/description text, and the visual form creates a material contradiction. Per instructions, source contradictions and doubtful identity require a hold. Quality, photograph and phone checks pass; all scores ≥4.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1728,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 556,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

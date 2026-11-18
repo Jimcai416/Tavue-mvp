@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAs3t2oZhpdj2eSu9zja",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Shredded, braised meat and cabbage visible in full source image\",\n    \"Golden-brown caramelized exterior characteristic of bigos\",\n    \"Dark meat pieces visible beneath shredded components\",\n    \"Glossy braising liquid/sauce coating the dish\",\n    \"Phone thumbnail shows layered texture of main ingredient\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly displays shredded cabbage and meat composition\",\n    \"Golden-brown coloration preserved and identifiable\",\n    \"Central dish elements are sharp and prominent\",\n    \"Scale and prominence adequate for phone review\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title contains only filename 'Bigos, Poznan.jpg' and foreign-language description 'Bigos w Poznaniu' (Bigos in Poznań)\",\n    \"No explicit protein species named in source metadata or description\",\n    \"Bigos traditionally contains multiple meat types (pork, beef, game, sausage), but no specific animals are declared in the provided source text\",\n    \"Cannot verify which proteins are actually present from visual inspection alone\",\n    \"Description provides location only, not recipe details or ingredient list\"\n  ],\n  \"reason\": \"While the photograph shows a recognizable, well-prepared bigos dish with excellent quality, sharpness, lighting and phone thumbnail representation, the source metadata fails to provide explicit protein declarations. The title 'Bigos, Poznan.jpg' and description 'Bigos w Poznaniu' name only the dish category and location, without naming specific animal proteins. Bigos can contain pork, beef, duck, lamb, or sausage (unspecified species), but none are explicitly declared in the source text. Per protocol, ambiguous or unspecified meat species—including sausage of unknown animal origin and generic 'meat' references—must be held. A canonical name can be formed, but protein_evidence cannot be populated without explicit source quotation of animal names.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1794,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 588,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAs4MGuAVmjJVRzWEW4r",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Golden-yellow creamy curry in dark pan\",\n    \"Cooked meat pieces visible in sauce\",\n    \"Spiced turmeric-based broth\",\n    \"Metal ladle with sauce in foreground\",\n    \"Natural cooking in-process documentation\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail shows full pan composition with ladle\",\n    \"Golden curry colour clearly visible at reduced size\",\n    \"Meat and sauce elements distinguishable\",\n    \"Adequate centre-cover framing for recognition\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Yakhni is described as 'meat and curd blended' but source does not specify which meat species (chicken/beef/pork/lamb/duck)\",\n    \"Generic 'meat' in description does not meet explicit naming requirement for protein categories\",\n    \"Title 'Yakhni from kashmir' lacks species qualifier; regional tradition alone is insufficient\"\n  ],\n  \"reason\": \"Image quality, sharpness, lighting and composition all meet threshold (≥4). Photograph and phone thumbnail are acceptable; dish appears cooked and appetising. However, identity check fails: source description uses only generic 'meat' without explicit species naming. The instruction requires 'an exact source quote explicitly naming each animal' for protein evidence. 'Meat and curd blended with multiple spices' does not name the specific animal. Regional tradition (Kashmir yakhni) cannot substitute for explicit species identification. Protein evidence map remains empty. Hold pending source clarification of meat species.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1918,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 488,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

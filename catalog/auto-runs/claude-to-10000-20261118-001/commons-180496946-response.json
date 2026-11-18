@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAs4bgphgwzKu161eU9x",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 5,\n    \"appeal\": 5\n  },\n  \"visible_support\": [\n    \"Golden breaded cutlet visible and prominent\",\n    \"Rice and lentil mixture clearly identifiable\",\n    \"Fresh chopped salad with red tomato, green herbs, orange peppers visible\",\n    \"White plate, natural lighting, home-style plating\",\n    \"Phone thumbnail preserves all three components clearly\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail shows breaded protein left, rice/lentil mix top, salad right\",\n    \"All three components distinctly visible and recognisable\",\n    \"Colours natural and appetising\",\n    \"Plate edges visible, composition balanced\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Schnitzel traditionally made from veal, pork, or chicken; source metadata does not explicitly name the meat species\",\n    \"Title states 'schnitzel' but no source quote confirms the animal origin\",\n    \"Visible golden breading consistent with schnitzel but species cannot be visually determined\"\n  ],\n  \"reason\": \"Image quality, composition, lighting and phone thumbnail all excellent. Dish identity conflict: source title describes 'schnitzel, majadra, and Israeli salad' but metadata format (File:..., photographer credit, 'Foodie Disorder archive') is untrusted evidence per instructions. Schnitzel species (veal/pork/chicken) is not explicitly named in the title itself. Protein category requires exact source quote naming the animal; none provided. Without explicit species identification in a trusted source phrase, schnitzel cannot be canonicalised. Hold pending clarification of meat species from a source description that names it directly.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1817,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 506,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
