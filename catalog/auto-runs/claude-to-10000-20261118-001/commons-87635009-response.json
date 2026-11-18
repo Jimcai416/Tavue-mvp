@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAv7GjyfMpCNTso6hebQ",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Naan bread visible and prominent in upper portion\",\n    \"Yellow rice (declared saffron) in lower portion\",\n    \"Orange/tan curry sauce with visible meat pieces\",\n    \"Professional plating on decorative ceramic dish\",\n    \"Fork and knife visible, table setting context\"\n  ],\n  \"phone_observations\": [\n    \"Curry and rice clearly visible at thumbnail size\",\n    \"Naan partially visible at top edge\",\n    \"Colour and composition readable\",\n    \"Dish identity discernible in reduced format\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title declares 'Korma chicken' but no chicken is explicitly named in the description field provided; identity depends on title metadata\",\n    \"Description lists 'tarkha dhaal' (lentil curry) but the orange curry visible appears to be the korma—composition and primary identity unclear from description alone\",\n    \"Source metadata indicates this is a Sainsbury's packaged/prepared meal, not a fresh dish photographed in situ\",\n    \"Ambiguity about whether this is a food photography submission or a packaging/product photograph\"\n  ],\n  \"reason\": \"Identity check fails. The source title (in filename metadata, which is untrusted) claims 'Korma chicken', but the supplied description does not explicitly state chicken or korma as the primary dish. The description lists components ('tarkha dhaal, saffron rice & naan bread') without confirming the curry is chicken korma. Additionally, the source metadata indicates this is a Sainsbury's prepared meal photographed on 17/05/2019, suggesting a commercial product rather than a fresh-cooked dish. The image quality, lighting, composition, and phone thumbnail are all acceptable, but the identity cannot be verified from the description alone, and the protein cannot be supported by an exact case-sensitive substring in the supplied description field. Hold or reject on identity grounds.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1791,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 569,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

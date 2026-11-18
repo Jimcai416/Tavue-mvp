@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAv7VF4Lq2zm6bJvdTDn",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Pale sliced ingredient visible (likely pork sausage pieces)\",\n    \"Red chilli and green onion visible\",\n    \"Orange/brown dressing consistent with som tam style\",\n    \"Fresh herbs and lime wedge present\",\n    \"Cabbage garnish visible\"\n  ],\n  \"phone_observations\": [\n    \"Dish clearly visible and identifiable in thumbnail\",\n    \"Colour and composition match full image\",\n    \"Essential components readable\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title references 'mu yo' (Thai pork sausage), but the visible pale sliced pieces cannot be definitively confirmed as pork sausage rather than tofu, mushroom, or another pale protein by photograph alone\",\n    \"Source describes 'mu yo' as 'Thai pork sausage' but also notes it is 'often also described in Thailand as \\\"Vietnamese sausage\\\"' — the protein identity cannot be established from visual evidence alone without explicit naming in the visible dish itself\"\n  ],\n  \"reason\": \"Rejection due to unspecified protein species. The source metadata describes 'mu yo' as a 'Thai pork sausage' but does not explicitly state that pork is visible or identifiable in this specific photograph. The pale sliced components are ambiguous in appearance and could represent multiple ingredients. Per instructions, sausage cannot be accepted as a protein category key, and the actual animal cannot be inferred from tradition, appearance, or generic meat/sausage description without explicit visual confirmation. The photograph quality, composition, and phone thumbnail are all acceptable, but protein uncertainty prevents acceptance.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1683,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 503,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
