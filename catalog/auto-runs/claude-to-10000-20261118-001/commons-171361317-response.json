@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChB2zmdfvzRv9xSfrWMDX",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Cream/tan-coloured broth with noodles visible in bowl\",\n    \"Fried meat pieces on plate (brown, crispy coating)\",\n    \"Beancurd sheets visible in broth\",\n    \"Bowl has blue rim decoration\"\n  ],\n  \"phone_observations\": [\n    \"Cream-coloured soup bowl with noodles clearly visible\",\n    \"Fried meat topping on separate plate\",\n    \"Composition matches full image\"\n  ],\n  \"protein_evidence\": {\n    \"pork\": \"Hong Kong Style Pork Chop\"\n  },\n  \"uncertainties\": [\n    \"Source metadata declares 'Pork Bone' broth but image shows cream/tan liquid that is visually inconsistent with traditional pork bone broth appearance (typically milky-white or dark)\",\n    \"Title claims 'Noodle soup in Asia Bowl' but image shows noodles in creamy broth, not a traditional Asian noodle soup style\",\n    \"Visual appearance does not match typical pork bone noodle soup presentation\"\n  ],\n  \"reason\": \"Reject: Identity check fails. The source description claims 'Pork Bone' broth base and identifies this as a noodle soup, but the visible liquid appears to be a cream-based or peanut sauce rather than pork bone broth. The visual character of the dish—creamy tan broth, fried pork chop topping, beancurd sheets—is inconsistent with the declared 'Pork Bone - Rice Noodles' soup base. The contradiction between the stated soup type and the photographed result creates unresolved identity uncertainty. All quality and photograph checks pass, but the fundamental dish identity cannot be reliably confirmed from the image itself.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1789,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 537,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

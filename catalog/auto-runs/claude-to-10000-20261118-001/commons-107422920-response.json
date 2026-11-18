@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChB31A3YwhwcDtMqpnh4P",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [\n    \"Two white bowls on wooden tray\",\n    \"Upper bowl: dry instant ramen noodles, uncooked\",\n    \"Lower bowl: cooked instant ramen in dark broth\",\n    \"Noodles clearly visible and sharp\"\n  ],\n  \"phone_observations\": [\n    \"Both bowls visible in thumbnail\",\n    \"Cooked and uncooked noodles distinguishable\",\n    \"Composition and bowls readable\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title claims 'Soba Noodles' but product is instant ramen (Nongshim Ramyeon), not soba\",\n    \"Identity mismatch between title and visible product—instant ramen is not soba noodles\",\n    \"Image shows preparation stages (dry noodles in upper bowl) rather than a finished dish alone\"\n  ],\n  \"reason\": \"Reject: Identity check fails. Source title 'Soba Noodles' contradicts the visible instant ramen product (Nongshim Ramyeon branding typical of Korean instant ramen, not Japanese soba). The upper bowl displays raw/uncooked noodles in a preparation-stage arrangement. Only the lower bowl shows a finished cooked dish. The image composition presents both preparation and finished states rather than a single, finished, exposed dish ready to eat. No protein is explicitly named in the source title.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1645,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 462,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
