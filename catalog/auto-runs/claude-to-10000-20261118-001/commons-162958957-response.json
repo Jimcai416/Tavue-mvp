@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBFVQbawBknzfDzRE7EE",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 2,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Subject is a small wrapped bundle and shadow on tiled surface, not a finished dish\",\n    \"No recognizable food is visible in the thumbnail\",\n    \"Composition shows preparation stage, not plated or served food\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title references 'Tarhana kurutma' (tarhana drying), which is a drying/preparation stage, not a finished dish\",\n    \"Image shows drying/curing process, not a finished, exposed, cooked dish ready to eat\"\n  ],\n  \"reason\": \"Reject: The photograph documents a food preparation/drying stage (tarhana kurutma), not a finished, exposed, appetising dish. The subject is a small wrapped bundle under drying conditions on roof tiles. This is a process photograph, not a dish photograph. The phone thumbnail shows no recognizable finished food. Essential identity check fails because the source describes a preparation process, not a plated or served dish. Composition and appeal scores cannot reach acceptance threshold for a preparation-stage image.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1616,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 381,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
