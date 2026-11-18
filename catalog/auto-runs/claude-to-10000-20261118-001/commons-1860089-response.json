@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChB1X3vodBcuvWi2Cfbnk",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 5,\n    \"composition\": 5,\n    \"appeal\": 5\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Blue ceramic bowl with decorative glaze visible in thumbnail\",\n    \"Lid clearly present and identifiable\",\n    \"No food content visible in either full source or thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Photograph shows only an empty decorative ceramic donburi bowl and lid, not a finished dish\",\n    \"No food is present or visible in the image\",\n    \"Source description references a restaurant experience but provides no dish identification\",\n    \"Title indicates this is 'Donburi-Bachi' (the vessel), not a donburi dish with food\"\n  ],\n  \"reason\": \"Rejection: This is a photograph of an empty decorative ceramic donburi bowl and lid, not a finished food dish. While the bowl itself is beautifully photographed with excellent sharpness, lighting and composition, there is no actual food present. The source metadata does not identify any specific dish, only the restaurant name and a general experience note. For Tavue food review, an actual prepared and plated dish is required. An empty bowl or tableware alone does not meet acceptance criteria.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1837,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 393,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

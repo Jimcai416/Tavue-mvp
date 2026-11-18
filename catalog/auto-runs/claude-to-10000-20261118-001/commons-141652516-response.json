@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChB1XtwLuSfSGKY5C3GYU",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Yellow rice base visible in both full image and thumbnail\",\n    \"Green vegetable strips (likely green beans or peppers) distributed throughout\",\n    \"Brown meat pieces embedded in rice\",\n    \"Natural, appetising colour palette\",\n    \"Sharp detail of rice grains and components\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail shows recognisable paella composition with rice and vegetables\",\n    \"Sufficient detail to identify as a finished rice dish\",\n    \"No clipping of essential components\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title states 'Paella' but provides no specific paella variant name or type\",\n    \"Brown meat visible in image but species cannot be reliably determined from appearance alone\",\n    \"No explicit protein identification in source title or description\",\n    \"Generic restaurant attribution without dish specification\"\n  ],\n  \"reason\": \"Rejection due to insufficient identity evidence. The source metadata provides only a generic title 'Paella' with restaurant attribution but no specific variant name, preparation style, or explicit protein identification. While the photograph clearly shows a finished paella with rice, green vegetables, and meat components, the source documentation does not meet the requirement of a specific dish phrase that preserves meaningful variant qualifiers. The meat species visible cannot be inferred from appearance alone without an explicit source statement. A specific paella type (e.g. 'Paella Valenciana', 'Paella Negra', 'Paella de Marisco') would be required, along with explicit protein naming in the source.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1736,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 487,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
