@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAfnPCWtmA2JLQPtXijs",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Cooked rice in large compartment\",\n    \"Green curry or similar dark sauce in left compartment\",\n    \"Cream or yoghurt-based sauce in right compartment\",\n    \"Red/orange tandoori meat curry in copper serving bowl\",\n    \"Naan bread visible in background\",\n    \"Water and drinking glass present\",\n    \"Restaurant table setting\"\n  ],\n  \"phone_observations\": [\n    \"Plate compartments visible with rice, curries, and meat dish\",\n    \"Red tandoori preparation clearly visible in serving bowl\",\n    \"Naan bread discernible in background\",\n    \"Utensils and glass visible\"\n  ],\n  \"protein_evidence\": {\n    \"chicken\": \"tandoori oven grilled chicken\",\n    \"seafood\": \"king prawns\"\n  },\n  \"uncertainties\": [\n    \"Source title describes 'Tandoori Mix' but photograph shows a compartmentalised plate with separate curries and a tandoori meat/seafood dish in a serving bowl—the exact compositional relationship and whether all named proteins are visually distinguishable as cooked components in the main plate is unclear\",\n    \"The red tandoori curry in the copper bowl contains meat and prawns but their individual portions and visual distinction within that single dish cannot be confirmed\",\n    \"Whether the visible compartments correspond exactly to the described preparation (herb-yoghurt marinade, tandoori grilling, spicy masala sauce) cannot be visually proven from the image alone\"\n  ],\n  \"reason\": \"Source declares 'Tandoori Mix' with both chicken and king prawns in tandoori marinade and masala sauce. The photograph shows a compartmentalised plate with rice, two sauces, naan, and a red tandoori curry in a separate serving bowl. While the proteins are named in the source description, the visual composition—a compartmentalised plate format rather than a unified mixed tandoori dish—and the inability to distinguish both proteins within the visible tandoori preparation create ambiguity about whether this is the dish described or a composite plate. The identity check cannot be confirmed because the exact visual correspondence between the source title 'Tandoori Mix' and the plated presentation is uncertain. All other quality, photograph, and phone checks pass; scores are ≥4.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1791,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 659,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

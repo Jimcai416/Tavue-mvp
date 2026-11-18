@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAfoSmMHzEW6Fj3PXDbw",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Sliced bread arranged in a wicker basket with pink paper liner\",\n    \"Golden-brown toasted surface visible on all slices\",\n    \"Uniform diagonal slicing pattern characteristic of ciabatta\",\n    \"Prominent in phone thumbnail with clear detail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title/description contains contradictory claims: 'Ciabatta klasická nebo s olivou' (classic or with olive) but photograph shows only sliced ciabatta without visible olive chunks or clear visual confirmation of olive variant\",\n    \"Metadata describes 'Různé druhy' (various types) but only one type is photographed\",\n    \"No protein ingredient explicitly named in source; ciabatta is a bread-only product with no meat/seafood component\"\n  ],\n  \"reason\": \"Identity check fails. The source description claims both 'classic' and 'with olive' variants ('klasická nebo s olivou'), but the photograph shows sliced ciabatta without visibly identifiable olives embedded in the crumb. The generic description 'various types' contradicts the singular dish shown. The source is ambiguous about which variant is actually depicted. Ciabatta contains no proteins in the allowed category (chicken/beef/pork/duck/lamb/seafood). The image itself is well-photographed and appetising, but the fundamental identity uncertainty—whether this is classic ciabatta or olive ciabatta—prevents acceptance without source clarification.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1810,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 475,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

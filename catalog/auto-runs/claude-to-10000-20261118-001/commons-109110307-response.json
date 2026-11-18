@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAfoLdkVvEFFc6yB9Qiv",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Sliced bread visible in basket\",\n    \"Pink paper lining visible\",\n    \"Woven basket container visible\",\n    \"Multiple bread slices arranged in rows\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title describes 'Ciabatta klasická nebo s olivou' (classic or with olive) but photograph shows only sliced bread in a basket—no prepared dish, no assembled food item, no identifiable olives visible in either full image or thumbnail\",\n    \"Image shows bread slices presented for serving or display, not a finished plated or composed dish\",\n    \"Description claims suitability for 'raut' (buffet), Italian cuisine, or weddings, but these are use-case claims, not identity of a specific dish\",\n    \"No evidence of a named, finished, exposed culinary dish with readable components\"\n  ],\n  \"reason\": \"Rejection: This is a bread-serving photograph showing sliced ciabatta in a presentation basket, not a finished dish. The image shows raw/prepared bread arranged for buffet service. While the photograph quality and visibility are acceptable, the subject fails the core requirement of being 'a finished, exposed, likely photographic dish' with identifiable components. Bread slices in a basket for serving do not constitute a Tavue-eligible food photograph. The source description contains only use-case context (weddings, Italian cuisine) and variant uncertainty (classic or with olive—no olives clearly visible), not a specific finished dish identity.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1810,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 480,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

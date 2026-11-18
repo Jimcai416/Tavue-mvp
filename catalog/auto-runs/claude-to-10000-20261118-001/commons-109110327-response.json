@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAfomTzpEc3jiMJ4qaM3",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Whole loaves and cut bread visible on wooden board\",\n    \"Crusty exterior clearly shown\",\n    \"Black knife present\",\n    \"Bread subjects prominent and sharp in thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title describes ciabatta 'klasická nebo s olivou' (classic or with olive) but photograph shows three bread loaves with no visible olives or distinguishing features to confirm which variant is present\",\n    \"Description mentions multiple types but image provides no visual evidence of olive-containing loaves versus plain classic ciabatta\",\n    \"Unclear which variant(s) are actually depicted\"\n  ],\n  \"reason\": \"Reject: source description lists two variants (classic or with olive) but the photograph provides no visual evidence to confirm identity. The three loaves show crusty bread but no visible olives or distinguishing features. This ambiguity between source-declared variants and what is visibly present violates the requirement that identity must agree with visible form. Variant qualification cannot be determined from the image alone.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1810,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 379,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
