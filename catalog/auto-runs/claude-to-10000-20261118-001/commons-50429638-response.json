@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChB9P6AhwCEzKAL1HWHx8",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Finished, baked dish in aluminium container\",\n    \"Golden-brown surface with charred spots\",\n    \"Fresh parsley garnish and black olives visible\",\n    \"Accompanied by rice in white bowl and orange sauce\",\n    \"Natural indoor lighting, well-exposed\"\n  ],\n  \"phone_observations\": [\n    \"Central dish clearly visible in phone thumbnail\",\n    \"Golden colour and garnish readable\",\n    \"Rice bowl and sauce visible in context\",\n    \"Adequate detail for recognition\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title metadata reads 'File:Enchiladas 1.jpg' — filename, not canonical dish name\",\n    \"Description states 'enchiladas is a mexican cousine' but provides no specific dish variant, preparation style, or protein identification\",\n    \"Visual inspection shows a baked, cheese-topped dish with herbs and olives, consistent with enchiladas verdes or similar Mexican gratinéed preparation, but no protein (chicken, beef, pork, lamb, seafood, or duck) is explicitly named in source text\",\n    \"Cheese and vegetable-forward appearance does not prove protein content; could be vegetarian\",\n    \"No exact canonical dish phrase available from source; metadata is filename-based, not a proper dish description\"\n  ],\n  \"reason\": \"Source title is a filename ('File:Enchiladas 1.jpg'), not a canonical dish name. Description is generic and contains no explicit protein declaration, variant qualifier, or specific dish phrase. Although the photograph is sharp, well-lit, appetising and clearly shows a finished, baked Mexican-style gratinéed dish with rice and sauce, identity cannot be confirmed without an exact source-quoted dish name and explicit protein evidence. Generic 'enchiladas' without variant detail and without named protein does not meet canonical_name or protein_evidence requirements.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 2051,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 559,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

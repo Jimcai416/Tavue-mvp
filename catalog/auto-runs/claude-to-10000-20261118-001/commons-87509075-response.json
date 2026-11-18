@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChB9NcR6Cbkgt7bnMYZ1L",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Finished, cooked dish clearly visible\",\n    \"Rice and protein components present\",\n    \"Lettuce, cheese, tomato garnish visible\",\n    \"Natural colours, appetising presentation\",\n    \"Sharp detail in both full and thumbnail views\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows rice portion, rolled/layered protein item, shredded cheese, tomato and lettuce\",\n    \"Essential components readable at small size\",\n    \"Adequate contrast and sharpness for recognition\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title 'Enchiladas' is generic and does not specify meat type, preparation method or regional variant\",\n    \"Protein component visible but species cannot be determined from appearance alone—could be chicken, beef, or other meat\",\n    \"No explicit animal name in title or description to meet protein_evidence requirement\",\n    \"Dish identity requires source-declared specificity (e.g. 'Chicken Enchiladas Verdes' or 'Beef Enchiladas') to establish canonical form\"\n  ],\n  \"reason\": \"Photograph quality, sharpness, composition and phone thumbnail are all strong (all scores ≥4). However, the source title 'Enchiladas' is insufficiently specific and does not name the meat protein, regional preparation style, or sauce variant. The visible protein item cannot be identified to species from appearance alone. Identity check fails because the generic title does not preserve a canonical named dish variant. Hold pending source clarification of exact dish type and meat ingredient.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1511,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 491,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
