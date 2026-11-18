@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChB29TRvCyDvzx7iA8H72",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Preparation stage visible in thumbnail: uncooked dough in mortar with pestle\",\n    \"Raw/mid-preparation ingredient, not finished dish\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'Fufu in mortar' but source description is incomplete and generic ('Farm to Plate' theme only)\",\n    \"Image shows an intermediate preparation step, not a completed, cooked, plated dish\"\n  ],\n  \"reason\": \"Rejection: Image shows raw dough or uncooked preparation stage in a mortar with pestle, not a finished, exposed, cooked dish. The thumbnail confirms this is mid-preparation, not appetising finished food suitable for Tavue. Per guidelines, raw/preparation stages must be rejected. Source metadata is incomplete (generic 'Farm to Plate' description) and does not provide sufficient canonical identity confirmation beyond filename.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1526,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 343,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChB2A9pY6SJfqRrjzirFW",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Yellow saffron rice throughout\",\n    \"Green okra/long beans prominently visible\",\n    \"Red pepper pieces scattered\",\n    \"Brown legumes visible (possibly beans or lentils)\",\n    \"Cooked in wide paella pan with speckled interior\",\n    \"Full dish exposed and finished\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail shows complete, finished paella in grey pan\",\n    \"Yellow rice dominates and is sharply visible\",\n    \"Green and red vegetable components readable\",\n    \"Composition and colours consistent with full image\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'Paella de verdures' (vegetable paella) but source description 'Natzaret' contradicts this—Natzaret typically refers to a meat paella variety, not a vegetable paella\",\n    \"Brown legume/meat components visible in the dish do not align clearly with 'de verdures' (vegetables only) claim\",\n    \"Source metadata inconsistency: filename indicates vegetable paella; description suggests meat or mixed paella tradition\"\n  ],\n  \"reason\": \"Reject due to source contradiction. The title 'Paella de verdures' (vegetable paella) conflicts with the description 'Natzaret', which is a named regional paella variant typically associated with meat, not vegetables only. Visible brown pieces (legumes or meat) in the photograph introduce further ambiguity about the actual dish identity. This contradiction between title and description makes the canonical identity unresolvable. All quality and photograph checks pass, but identity check fails due to irreconcilable source conflict.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1727,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 514,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

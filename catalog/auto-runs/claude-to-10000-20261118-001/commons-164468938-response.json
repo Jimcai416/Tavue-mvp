@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChB29PeDnwDQoqZwa9wxS",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Couscous grain prominently visible in yellow form\",\n    \"Cooked meat component in centre of platter\",\n    \"Traditional metal serving platter\",\n    \"Yellow squash/pumpkin vessel visible\",\n    \"Hands performing service at table\"\n  ],\n  \"phone_observations\": [\n    \"Yellow couscous grain clearly visible in thumbnail\",\n    \"Central meat component readable\",\n    \"Platter form recognizable\",\n    \"Essential dish components not clipped\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title contains only filename 'File:Couscous marocain resto UCAD 20.jpg' without explicit canonical dish name\",\n    \"Description is generic 'Farm to Plate' theme attribution, not a specific dish declaration\",\n    \"Meat species in central component not explicitly named in source metadata\",\n    \"No source quote provides a canonical_name matching actual dish variant or preparation style\",\n    \"Cannot confirm whether this is 'Couscous Marocain', 'Couscous Royal', or other regional Moroccan variant from metadata alone\"\n  ],\n  \"reason\": \"Image quality, sharpness, lighting and composition all meet standards. Photograph and phone thumbnail both show a finished, appetizing couscous dish with prominent yellow grain and meat component. However, source metadata provides only a filename and generic theme description—no explicit, authoritative canonical dish name. Meat species is not named in the source title or description. Protocol requires that canonical_name be copied exactly from source title/description and that protein_evidence values be exact substrings from supplied metadata. The filename 'Couscous marocain' suggests Moroccan couscous but is a filename, not a dish declaration. The description adds no specificity. Without a clear source-provided dish name and explicit protein identification, identity and variant_preserved checks cannot be confirmed as true. Hold for clarification of exact dish name and protein composition from authoritative source text.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1635,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 581,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
