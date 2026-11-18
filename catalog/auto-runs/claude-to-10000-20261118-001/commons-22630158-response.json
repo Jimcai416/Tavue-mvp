@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChB7REKQfQniaH4SdtARZ",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Clay/earthenware cooking vessel (traditional presentation)\",\n    \"Orange-red broth with visible oil/fat\",\n    \"Shredded or pulled meat pieces\",\n    \"Green and red vegetable chunks (peppers/capsicum)\",\n    \"Finished, cooked appearance with natural colour\"\n  ],\n  \"phone_observations\": [\n    \"Dish clearly visible in thumbnail\",\n    \"Orange-red stew/broth prominent\",\n    \"Meat and vegetables readable\",\n    \"Appetising presentation maintained in reduction\"\n  ],\n  \"protein_evidence\": {\n    \"chicken\": \"chicken in spiced soap\"\n  },\n  \"uncertainties\": [\n    \"Source title contains 'spiced soap' which appears to be a transcription error or OCR failure—likely 'spiced stew' or similar culinary term, not literally soap\",\n    \"The description metadata is unreliable and contains an apparent corruption that prevents confident identity verification\"\n  ],\n  \"reason\": \"Image quality, photograph authenticity, phone thumbnail visibility, and composition all pass. Chicken is explicitly named in source description. However, the source description contains 'spiced soap'—a term that does not match standard culinary terminology for Kédjénou (a West African chicken stew). This appears to be a metadata error (OCR or transcription corruption). Without a reliable, uncorrupted source description confirming the exact dish identity and preparation method, the identity check cannot be verified with confidence. Hold pending clarification of the actual source title/description.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1867,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 480,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
