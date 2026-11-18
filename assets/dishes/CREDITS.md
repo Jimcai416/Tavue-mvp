@@ -4515,3 +4515,8 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Churrasco, Costa - Ecuador** — Kevinmero. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Churrasco_Ecuador_(gastronom%C3%ADa_Ecuatoriana).jpg). Local asset: `reviewed-commons-129657491.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Pastel de Bacalhau** — [T Chu](https://www.flickr.com/photos/20124252@N00). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Pastel_de_Bacalhau.jpg). Local asset: `reviewed-commons-4058802.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Fish Ceviche as served in La Punta - Callao (Peru)** — Jorge G. Mori. [Public domain](https://creativecommons.org/publicdomain/mark/1.0/); [source](https://commons.wikimedia.org/wiki/File:Ceviche_de_pescado_(La_Punta,_Callao).jpg). Local asset: `reviewed-commons-3749415.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.

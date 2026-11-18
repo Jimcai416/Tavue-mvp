@@ -65366,5 +65366,54 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 684,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-4058802",
+    "title": "File:Pastel de Bacalhau.jpg",
+    "author": "T Chu",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pastel_de_Bacalhau.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Pastel_de_Bacalhau.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "bce99ec46061ac83edfebed64ee4e6065aca1336",
+    "name": "Pastel de Bacalhau",
+    "aliases": [],
+    "proteins": [
+      "seafood"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-4058802.jpg",
+    "assetSha256": "d8d39a40ab97f0ead3a9660ad6b718652b335fba482d30d8d8b7c9155b3d5f93",
+    "reviewedAt": "2026-11-18",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 721,
+    "requiresExactMenuName": true,
+    "authorUrl": "https://www.flickr.com/photos/20124252@N00"
+  },
+  {
+    "id": "commons-3749415",
+    "title": "File:Ceviche de pescado (La Punta, Callao).jpg",
+    "author": "Jorge G. Mori",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ceviche_de_pescado_(La_Punta,_Callao).jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Ceviche_de_pescado_%28La_Punta%2C_Callao%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "4ff6dd43eda927f44134afa8241a6ff24c193ee7",
+    "name": "Fish Ceviche as served in La Punta - Callao (Peru)",
+    "aliases": [],
+    "proteins": [
+      "seafood"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-3749415.jpg",
+    "assetSha256": "9363f98617702cb12f7d6e7426265698904aecc9ccdff94b08748cf4802b38a1",
+    "reviewedAt": "2026-11-18",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];
