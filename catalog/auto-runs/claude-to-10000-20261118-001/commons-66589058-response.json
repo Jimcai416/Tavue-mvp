@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAZcsZbU6K5EMLDY4Xbj",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Three dark-brown fried meatballs with herb garnish\",\n    \"White rice pilaf component\",\n    \"Golden French fries\",\n    \"Green pepper (possibly chili) on plate\",\n    \"Red condiment (ketchup)\",\n    \"Red-and-white checkered tablecloth\"\n  ],\n  \"phone_observations\": [\n    \"Meatballs, rice, and fries all clearly visible in thumbnail\",\n    \"Essential components readable and prominent\",\n    \"No clipping of major food elements\",\n    \"Natural colours preserved in thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title says 'Fried koftes' but does not explicitly name the meat species (beef, lamb, or mixed)\",\n    \"Description refers to 'meatballs' generically without specifying animal protein\",\n    \"Köfte can be made from multiple meat types; no source quote unambiguously identifies which animal(s) are used\"\n  ],\n  \"reason\": \"Image quality, composition, and telephoto readability all meet acceptance thresholds. However, the source metadata does not explicitly name any meat species. 'Koftes' and 'meatballs' are generic terms; the description does not contain a direct quote naming chicken, beef, pork, lamb, duck, or seafood. Per protocol, ambiguous meat species must result in a hold. The canonical_name cannot be assigned without resolved protein identity from an exact source quote.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1817,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 477,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

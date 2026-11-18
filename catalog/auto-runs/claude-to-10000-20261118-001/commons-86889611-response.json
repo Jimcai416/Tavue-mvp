@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAZcsXchHDK29HmWxMat",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Plated meat dish with bone (foreground, centre-right)\",\n    \"Village yogurt (white, left)\",\n    \"Tomato salad (right)\",\n    \"Green olives in small bowl (centre-back)\",\n    \"Lemon (yellow, centre)\",\n    \"Bread in basket (back-left)\",\n    \"Multiple accompaniments consistent with meze/mezze spread\"\n  ],\n  \"phone_observations\": [\n    \"Central plated meat dish clearly visible\",\n    \"Yogurt, olives, salad components all prominent in thumbnail\",\n    \"Tableware and beverages recognisable\",\n    \"Meal composition readable at phone size\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title is 'FOLK CUISINE IN NORTH CYPRUS' — a geographic/cultural category, not a specific dish name\",\n    \"Description lists accompaniments (yogurt, olives, lemon) but does not name the main plated meat dish\",\n    \"Meat species in the central plate cannot be determined from visual appearance alone\",\n    \"No explicit dish name provided in source metadata matching the visible plated protein\",\n    \"Cannot confirm whether this represents a single named traditional dish or a composite meal/meze service\"\n  ],\n  \"reason\": \"Source metadata provides only a geographic/cuisine category and lists side components, not a canonical dish name. The central protein dish is not explicitly identified. Identity check fails: no specific dish name in source title/description matches the visible plated meat. Without an exact source-provided name for the main dish and without explicit meat species declaration, canonical identity cannot be established. Photograph and phone quality are acceptable, but required identity evidence is absent.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1552,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 520,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
