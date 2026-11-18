@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAdenU32DkRYkPdnrcyM",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 3,\n    \"composition\": 1,\n    \"appeal\": 0\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Phone thumbnail shows only a menu board in wooden stand\",\n    \"No food dish visible in either source or thumbnail\",\n    \"Text is Japanese menu pricing and descriptions, not a food photograph\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title references 'Kino-zen' (紀の善), a Japanese establishment, but no actual dish is photographed\",\n    \"File appears to be a documentation of a menu display, not a finished food dish\"\n  ],\n  \"reason\": \"Rejection: This is a photograph of a printed menu board, not a finished food dish. No prepared food is visible in the source image or phone thumbnail. The subject is a wooden menu stand with Japanese text listing items and prices. This fails the core requirement of accepting only 'a finished, exposed, likely photographic dish.' The image shows printed text on packaging/menu material rather than an actual prepared and exposed food subject suitable for a food photograph review.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1614,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 355,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
