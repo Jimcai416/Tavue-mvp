@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAhAQwg43bfAw4fpQUNy",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Finished, cooked dish in white bowl\",\n    \"Golden broth visible\",\n    \"Fresh vegetables: shredded papaya, red peppers, julienned green papaya\",\n    \"Protein visible: white shrimp/prawns\",\n    \"Peanuts scattered throughout\",\n    \"Natural colours, appetising presentation\",\n    \"Sharp detail in thumbnail and full image\"\n  ],\n  \"phone_observations\": [\n    \"Shrimp and vegetables clearly visible in thumbnail\",\n    \"Golden broth apparent\",\n    \"Red pepper garnish distinct\",\n    \"Peanuts recognizable\"\n  ],\n  \"protein_evidence\": {\n    \"seafood\": \"shrimp\"\n  },\n  \"uncertainties\": [\n    \"Source title 'ส้มตำ ตำถาด' (Som Tam Tamtaad) in Thai; English dish identity unclear\",\n    \"Description metadata lists both 'ตำไทยไข่เค็ม' (Som Tam with salted egg) and 'ส้มตำ' (Som Tam) with no single canonical match\",\n    \"Contradiction: image shows shrimp prominently, but Thai title variants do not explicitly state seafood component in provided source text\",\n    \"Cannot verify exact regional variant 'Tamtaad' or confirm salted egg presence from visual inspection alone\"\n  ],\n  \"reason\": \"Identity check fails due to source metadata contradiction and ambiguity. Title provided in Thai without English clarification; description lists multiple variant names without resolving which is canonical. While the image clearly shows a som tam variant with shrimp, papaya, vegetables, and peanuts in broth, the source does not provide a single, unambiguous English or Thai dish name that matches the visible form with certainty. The term 'Tamtaad' appears only in filename context, not in explicit title or description. Protein (seafood/shrimp) is visible but source text does not clearly declare it. Hold for clarified source identity and confirmed canonical name.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1765,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 607,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
