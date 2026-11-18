@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChALYgeeJ5FmtmPFsV9R9",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 5,\n    \"composition\": 5,\n    \"appeal\": 5\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows the central dish with ingredient components arranged around it\",\n    \"Dish is prominently visible and sharp in the thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source metadata explicitly states 'The visual was created on the basis of free images' — this is a composite illustration, not a photograph of an actual prepared dish\",\n    \"Image is a recipe/ingredient diagram, not a finished dish photograph\",\n    \"Ingredients are displayed as separate components surrounding a central dish illustration\"\n  ],\n  \"reason\": \"REJECT: This is an illustrated ingredient diagram, not a photograph of a finished, exposed dish. The source metadata explicitly confirms this visual was 'created on the basis of free images' — it is a composite illustration/infographic showing pastitsio ingredients arranged around a central dish image. It does not meet the requirement for a 'finished, exposed, likely photographic dish.' The image serves as a recipe guide rather than evidence of an actual prepared and photographed meal. Illustrations are explicitly excluded from acceptance criteria.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1682,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 373,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
