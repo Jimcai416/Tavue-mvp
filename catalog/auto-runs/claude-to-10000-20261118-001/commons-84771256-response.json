@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAb7t8FbU3LBThFMnTC4",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": true,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 2,\n    \"composition\": 2,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Phone thumbnail shows a food stall interior at extreme distance and scale\",\n    \"No finished dish is visible or identifiable in the phone thumbnail\",\n    \"Subject is the stall structure, not food on a plate or serving vessel\",\n    \"Essential food content is not prominent or readable at thumbnail resolution\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title references acarajé (a finished Brazilian street food), but the photograph shows only a stall interior and preparation equipment\",\n    \"No finished, plated, or individually-served acarajé is visible in either the full photograph or phone thumbnail\",\n    \"The image documents a food stall, not a prepared dish\"\n  ],\n  \"reason\": \"Photograph fails identity and quality checks. Source describes 'Uma barraca de acarajé' (an acarajé stall), but the image is a stall interior with cooking equipment, not a finished dish. No prepared acarajé is visible or prominent. The phone thumbnail shows only the stall structure at extreme distance, with no readable food content. The subject is the establishment, not the food. Photographs of empty stalls, preparation areas, or cooking equipment without a finished, exposed, appetizing dish do not meet acceptance criteria.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1638,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 424,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAb7AcusqaB7SQM8eG99",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 2,\n    \"composition\": 1,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Phone thumbnail shows people at a table, not a food subject\",\n    \"No finished dish visible or prominent in thumbnail\",\n    \"Essential food elements are clipped or absent from centre-cover framing\",\n    \"Subject is a social gathering, not a plated or presented dish\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title references 'Acarajé da Claudia Baiana' but photograph shows a social event with people, not a food preparation or finished dish\",\n    \"Severe identity mismatch: title claims a specific Baiana street food stall dish; image is an event photograph\"\n  ],\n  \"reason\": \"Photograph is a social event scene with people posing in front of food service tables. It is not a finished, exposed, appetising dish photograph. The phone thumbnail fails to show any food as prominent or readable. The source title 'Acarajé da Claudia Baiana' describes a specific regional street food stall dish, but the actual photograph is an event/gathering photo, not a food photograph of that dish. Identity mismatch between source description and actual image content. Composition, sharpness, and food visibility all fail acceptance criteria.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1762,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 415,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
