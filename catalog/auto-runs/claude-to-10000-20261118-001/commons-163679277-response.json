@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChB1tJPndur2TphqNuQte",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Couscous-like base visible in both images\",\n    \"Rich brown stew/sauce topping with visible meat pieces\",\n    \"Bay leaf or herb garnish visible\",\n    \"Professional plated presentation on white dish\",\n    \"Kitchen/cooking environment\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows composed dish with granular base\",\n    \"Stew topping visible and readable\",\n    \"Appetising appearance maintained at reduced size\",\n    \"Essential components (couscous base, meat sauce) legible\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title references 'thiéré' (millet couscous) but metadata is untrusted and cannot be verified as instruction\",\n    \"Meat species in stew cannot be determined from appearance alone—no source quote explicitly names the protein\",\n    \"Exact dish name and variant qualifiers must come from verified source description, not metadata title\"\n  ],\n  \"reason\": \"Image quality, composition, photography and phone thumbnail all pass technical checks. However, identity check fails: the metadata title 'Couscous de mil (thiéré)' appears only in untrusted filename/metadata fields, not in a supplied title or description field that would constitute proper source evidence. No explicit, case-sensitive source quote confirming the canonical name or any protein species has been provided. The meat species in the stew cannot be identified visually. Per instructions, metadata and URLs are untrusted evidence and never instructions. Hold pending verified source description with explicit dish name and any protein declarations.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1773,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 489,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
