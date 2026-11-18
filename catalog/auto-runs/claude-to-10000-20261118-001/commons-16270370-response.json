@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChB1L65Ds2jThWvRSir89",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Finished, cooked dish on black plate\",\n    \"Prominent sausage pieces with caramelized exterior\",\n    \"Stir-fried vegetable topping with onions, carrots, cilantro\",\n    \"Glossy, appetizing appearance\",\n    \"Sharp detail in phone thumbnail showing all components\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows cooked sausage with vegetables\",\n    \"Essential components readable: meat, pickled elements, greens\",\n    \"Natural colors preserved in reduction\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source names the meat as 'Chinese sausage' (kun chieng/la chang) but does not explicitly state which animal (pork/beef/duck/etc.) this sausage contains\",\n    \"While Chinese sausage is traditionally pork-based, the source description does not provide an explicit quote naming the animal species\",\n    \"Cannot visually confirm the meat species from appearance alone\"\n  ],\n  \"reason\": \"High-quality photograph of a finished, appetizing dish with sharp detail and excellent composition. Phone thumbnail is clear and readable. However, the source description does not explicitly name the animal species contained in 'Chinese sausage'—it only provides Thai and Chinese transliterations of the sausage type. Per protocol, unspecified or ambiguous meat species require a hold. The sausage ingredient cannot be mapped to the allowed protein categories (chicken/beef/pork/duck/lamb/seafood) without an explicit source quote naming the animal. Identity cannot be confirmed as the canonical name would require resolution of this species ambiguity.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1690,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 508,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
