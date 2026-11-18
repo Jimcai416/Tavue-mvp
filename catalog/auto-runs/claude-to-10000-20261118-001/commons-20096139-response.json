@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChB5szJZodcBzUBYL5xbc",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Brioche-wrapped sausage roll, sliced to reveal pink/purple interior filling\",\n    \"Golden-brown scored crust characteristic of brioché pastry\",\n    \"Natural plated presentation on decorative ceramic dish\",\n    \"Cross-section clearly shows sausage/meat filling within brioche\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows sliced brioche roll with visible meat filling\",\n    \"Colour and structure match source photograph\",\n    \"Essential dish components (brioche exterior, sausage core) readable at 124x96\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title 'Saucisson brioché' names the sausage type as 'saucisson' (generic French charcuterie term), not a specific animal species\",\n    \"No explicit statement in source identifying the animal (pork/beef/duck/lamb/seafood) from which the saucisson is made\",\n    \"Visible appearance suggests pork, but this cannot override the requirement for explicit source naming of the animal category\"\n  ],\n  \"reason\": \"Photograph and phone thumbnail are of high quality and authentically represent a finished, appetising brioche-wrapped sausage dish. However, protein_evidence cannot be populated: the source description 'Saucisson brioché' uses 'saucisson', a generic French sausage term that does not explicitly name a specific animal species (chicken/beef/pork/duck/lamb/seafood). The instructions require exact case-sensitive substrings from title/description naming each animal, never inference from appearance or tradition. Without explicit animal species naming in the source metadata, identity check fails. Hold criteria not met (no source contradiction or ambiguity of the dish type itself); rejection is appropriate because the protein requirement cannot be satisfied.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1629,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 548,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

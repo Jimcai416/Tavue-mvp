@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChB5tW7wvEBLQzi72Rtg8",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Person in formal attire and apron with 'RACLETTE' text visible\",\n    \"Cheese block being scraped/served\",\n    \"Small plate with what appears to be cheese and possibly potatoes\",\n    \"Raclette scraper and service setup visible\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title is a filename 'File:Raclette-degustation.jpg', not a canonical dish name\",\n    \"Description 'Raclette' alone does not constitute a complete, specific source-authorised dish title\",\n    \"Raclette is a preparation/service method, not a dish identity; lacks specification of accompaniments, regional variant, or complete dish name\"\n  ],\n  \"reason\": \"Identity check failed. Source metadata (filename and minimal description 'Raclette') does not provide a complete, specific canonical dish title that meets the requirement for exact copying from source title/description. The filename format 'File:Raclette-degustation.jpg' cannot be used as canonical_name per instructions (must exclude 'File:' and filename extensions). The bare word 'Raclette' is insufficient—raclette is a cooking/serving method and class of dishes, not a specific dish identity. No source text provides a complete dish phrase with meaningful variant qualifiers, accompaniments, or specific identity. All checks cannot be confirmed true without authoritative source dish specification.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1723,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 466,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
