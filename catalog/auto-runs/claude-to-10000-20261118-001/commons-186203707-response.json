@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAYUtjTGw2Dy9rw6SYLY",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 5,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Golden-brown deep-fried cylindrical rolls\",\n    \"Crispy exterior texture visible\",\n    \"Served with dipping sauce in white bowl\",\n    \"White plate presentation\",\n    \"Appetizer portion size\",\n    \"Phone thumbnail clearly shows rolls and sauce\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail sharp and well-composed\",\n    \"Rolls prominently displayed\",\n    \"Sauce bowl clearly visible\",\n    \"Finished dish evident\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title says 'ground meat, usually pork' but photograph shows only the finished exterior; pork cannot be visually confirmed from appearance alone\",\n    \"Description contains generic qualifier 'usually pork' rather than explicit statement that THIS dish contains pork\",\n    \"No visible evidence of meat species inside the rolls\"\n  ],\n  \"reason\": \"While the photograph is sharp, well-lit, and shows a finished appetizer dish clearly in both full image and phone thumbnail, the protein cannot be accepted. The source description states 'ground meat, usually pork' — a generic category statement with uncertainty ('usually'), not an explicit declaration that this specific dish contains pork. The exterior appearance alone does not prove meat species. Identity cannot be verified without explicit protein confirmation in the source title or description. Per protocol, ambiguous or unspecified meat species requires hold, but since the description's vagueness ('usually') and lack of explicit naming of the animal in this specific instance disqualifies positive protein_evidence, rejection is appropriate.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1758,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 483,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

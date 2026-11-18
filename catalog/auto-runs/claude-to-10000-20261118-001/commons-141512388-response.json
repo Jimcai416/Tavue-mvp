@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAYVcXfJQss4H1d84SAL",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Yellow broth-based stew in dark metal bowl\",\n    \"Noodles visible at surface\",\n    \"Steaming appearance consistent with hot dish\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source metadata states 'pork' but no pork is explicitly visible in the photograph\",\n    \"Noodles in the bowl suggest doenjang jjigae or a Korean noodle soup variant, but exact dish identity cannot be confirmed from visual evidence alone\",\n    \"Title references 'Doenjang Jjigae' but metadata description claims pork as an ingredient without visual proof in image\"\n  ],\n  \"reason\": \"Rejection: source metadata describes pork as an ingredient, but pork is not visibly identifiable in the photograph. The dish appears to be a soybean paste-based Korean stew with noodles, but the protein composition cannot be verified from the image. Per protocol, unverified protein claims and source contradictions between description and visible form require hold or rejection. The image quality and composition are acceptable, but identity cannot be confirmed due to lack of explicit visual protein evidence matching the source claim.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1789,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 402,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
