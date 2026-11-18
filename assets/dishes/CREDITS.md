@@ -3309,3 +3309,9 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Pasteis de Nata** — helmut.weigel. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Pasteis_de_Nata.jpg). Local asset: `reviewed-commons-61961308.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Baklavas** — [Eylem Başak Ekinci](https://www.flickr.com/photos/51886338@N00). [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:Baklavas.jpg). Local asset: `reviewed-commons-2851746.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Kabak mücveri** — [William Neuheisel  from DC, US](https://www.flickr.com/people/7678722@N07). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Zucchini_Fritters_-_Lunch_at_Yanyali_Fehmi_Lokantasi_(6421047753).jpg). Local asset: `reviewed-commons-40531023.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Crème Caramel (Caramel Custard)** — Donvikro. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Cr%C3%A8me_Caramel_(Caramel_Custard).jpg). Local asset: `reviewed-commons-202643036.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
