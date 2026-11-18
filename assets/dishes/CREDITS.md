@@ -5852,3 +5852,10 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 
 - **Nilaga baboy** — Aerous. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Nilaga.jpg). Local asset: `reviewed-commons-190362716.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Pork Nilaga** — Ralff Nestor Nacor. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Pork_Nilaga,_Mar_2024.jpg). Local asset: `reviewed-commons-146172013.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Coxinha especial** — [Romerito Pontes  from São Carlos](https://www.flickr.com/people/36102864@N05). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:(2014-11-22)_Hamburgueria_1282_-_S%C3%A3o_Carlos_-_Coxinha_especial_Romerito_Pontes_(15869475032).jpg). Local asset: `reviewed-commons-45725751.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Testi Kebab** — Niels Elgaard Larsen. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:TestiKebabGoreme.jpg). Local asset: `reviewed-commons-6819487.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Mtsvadi** — [Vladimer Shioshvili](https://www.flickr.com/people/70601645@N00). [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:Mtsvadi_(1).jpg). Local asset: `reviewed-commons-7217698.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Coxinha** — Tom B. [Public domain](https://creativecommons.org/publicdomain/mark/1.0/); [source](https://commons.wikimedia.org/wiki/File:Coxinha.jpg). Local asset: `reviewed-commons-1134284.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
