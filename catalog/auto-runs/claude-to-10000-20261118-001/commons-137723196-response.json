@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBHZPiqpg3r2PbRDisSz",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Bright red whole cooked crabs with intact shells and claws\",\n    \"Natural daylight illumination\",\n    \"Crabs displayed on woven bamboo baskets\",\n    \"Sharp detail of crab carapaces and appendages\",\n    \"Street vendor context visible (colorful clothing, baskets)\"\n  ],\n  \"phone_observations\": [\n    \"Red cooked crabs clearly visible in thumbnail\",\n    \"Multiple whole specimens distinguishable\",\n    \"Adequate centre-cover prominence\",\n    \"Natural color preserved\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title is a filename (File:Cua Cà Mau...) not a dish name\",\n    \"Description 'Crab dishes of Vietnam' is a category label, not a specific dish identifier\",\n    \"No canonical dish name provided in source metadata\",\n    \"Cannot determine specific preparation method, sauce, or serving style from image alone\",\n    \"No explicit dish name matches the visual content\"\n  ],\n  \"reason\": \"Rejection: Source metadata provides only a filename and generic category ('Crab dishes of Vietnam'), not a specific canonical dish name. The image shows cooked whole crabs on display, likely street vendor stock or preparation, but without a source-declared specific dish identity (e.g., 'Cua Cà Mau Nước Mắm', 'Cua Luộc', etc.), the identity check fails. Per protocol, category alone is not evidence of a finished, named dish. A meaningful dish name must be extracted from the source title or description, not inferred from ingredient visibility.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1746,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 506,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

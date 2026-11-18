@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBHZk9fZmo5cYkm7Y84T",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"White bowl with glossy glaze\",\n    \"Rice noodles (bún) coated in reddish-brown broth with oil sheen\",\n    \"Visible beef pieces (darker, cooked)\",\n    \"Pink shrimp/seafood pieces\",\n    \"Sliced white onion/scallion whites\",\n    \"Green scallion tops scattered throughout\",\n    \"Black pepper seasoning visible\",\n    \"Spoon in bowl\",\n    \"Metal bowl rim visible\"\n  ],\n  \"phone_observations\": [\n    \"Noodle bowl fully visible in thumbnail centre-cover\",\n    \"Protein components readable: beef, shrimp, onion\",\n    \"Broth and noodles sharp and prominent\",\n    \"Appetizing presentation with good colour contrast\",\n    \"No clipping of essential food elements\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title describes 'Bún bò' (beef noodle) but dish also contains visible shrimp/seafood—no explicit source confirmation of shrimp as ingredient\",\n    \"Source metadata title references 'mì quảng' (Quảng noodles) but photograph and dish composition appear to be bún bò (beef and rice noodle soup), not the typically dry mì quảng—contradiction between title context and actual dish form\",\n    \"Beef species not explicitly named in source (only 'bò')\",\n    \"Seafood species (shrimp vs other) not explicitly stated in source description\"\n  ],\n  \"reason\": \"Identity check fails due to source metadata contradiction: the file title references selling 'mì quảng' at a market, but the actual dish photographed is a wet bún bò soup with rice noodles in broth, not the characteristic dry mì quảng. The source description 'Bún bò cô chú bán mì quảng ở chợ Bình Long' is ambiguous—it may describe the vendor's location/context rather than the dish identity. Protein evidence cannot be extracted: beef is implied by 'bò' but not an explicit English animal name in source; visible shrimp/seafood is not mentioned in the provided description. Without explicit source confirmation of all visible proteins and resolution of the mì quảng vs. bún bò discrepancy, identity cannot be established with certainty.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1978,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 686,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
