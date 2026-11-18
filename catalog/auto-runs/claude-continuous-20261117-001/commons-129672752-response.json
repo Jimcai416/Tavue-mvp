@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChALcCNQDk41qqv2aJNhY",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Swirled cream/white and golden layers in baking pan\",\n    \"Pan occupies full frame in thumbnail\",\n    \"Uncooked state clearly visible\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title describes 'dough' only—no finished dish visible\",\n    \"Image shows raw, unbaked preparation stage with swirled filling and dough layers\",\n    \"No cooked surface, crust colour, or finished plate presentation\",\n    \"Description 'Albanian spinach pie dough' refers to component, not complete dish\"\n  ],\n  \"reason\": \"Rejection: image documents the preparation stage (raw dough with filling swirled in baking pan before cooking), not a finished, exposed, cooked dish. Source metadata explicitly labels this as 'dough' and shows no evidence of baking, browning or completion. Food photograph requirement is for finished dishes with readable essential components in complete, appetising form. This fails the identity check (preparation stage ≠ finished dish) and quality check (no cooked appearance).\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1226,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 385,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
