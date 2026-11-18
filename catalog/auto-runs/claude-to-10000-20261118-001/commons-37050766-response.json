@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChB7LkJZqHv7tTCx8fJ2m",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Multiple prepared dishes in serving bowls visible in full image\",\n    \"Couscous or grain-based dishes with red pepper garnish\",\n    \"Reddish stew or sauce in rightmost bowl\",\n    \"Hand holding foil-wrapped item (possibly meat)\",\n    \"Phone thumbnail shows aligned bowls with similar components\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows multiple bowls in sequence\",\n    \"Grain dishes and reddish sauce visible and readable\",\n    \"Composition matches full image central region\",\n    \"All essential food components visible at this resolution\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title field is incomplete: 'This is an image of food from' – destination/dish name missing\",\n    \"Filename 'Riz-attieke-kedjenou.JPG' suggests three components (rice/riz, attieke, kedjenou) but source description does not confirm full dish identity or preparation\",\n    \"Foil-wrapped item in left of image cannot be definitively identified as cooked meat or specific protein\",\n    \"Red bowl contents appear to be a stew but animal protein source is not stated or visibly certain\",\n    \"No explicit source quote names any meat species\"\n  ],\n  \"reason\": \"Source description is incomplete ('This is an image of food from' – lacks destination). Although filename hints at Ivorian components (riz, attieke, kedjenou), the incomplete and truncated description does not provide canonical identity confirmation. No protein species are explicitly named in the supplied metadata. The photograph and thumbnail are sharp and appetising, but identity cannot be verified from the incomplete source text alone. Hold pending complete, authoritative source description that names the dish and any meat components.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1731,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 533,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

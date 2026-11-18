@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChB7KxYz5FBChzuTN7AzF",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Finished, cooked breakfast plate with multiple components\",\n    \"Sharp detail of rice, yellow vegetable (corn/peas mix), and two golden-brown fried items\",\n    \"Accompanying beverage in patterned mug (coffee/chai)\",\n    \"Natural lighting, natural colours, appetising presentation\",\n    \"Phone thumbnail clearly shows all major components\"\n  ],\n  \"phone_observations\": [\n    \"Plate, beverages and all dishes legible and prominent in 124x96 centre-cover\",\n    \"Golden-brown fried items clearly visible\",\n    \"Rice and yellow vegetable side clearly distinguished\",\n    \"Spoon and mug edges present but do not clip essential food\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title states 'Bajil upkari' but visible plate contains fried items, rice, and vegetables—bajil upkari is traditionally a dry, spiced vegetable preparation; fried items (possibly cutlets or fritters) are not standard components\",\n    \"Golden-brown fried objects are unidentified—could be vegetable fritters, meat cutlets, or other preparations; no source text explicitly names protein species or fried item type\",\n    \"Description 'Traditional Mangalorean Breakfast' is regional category only; does not resolve dish identity or confirm bajil upkari match\",\n    \"Exact dish identity and composition cannot be verified from image alone against source title\"\n  ],\n  \"reason\": \"Identity check fails. Source title 'Bajil upkari' implies a specific dry vegetable dish, but the visible plate shows fried items (species/type unspecified), rice, and mixed vegetables—a composition that contradicts the named traditional form. No source text explicitly identifies the fried components or confirms whether this is bajil upkari or a broader breakfast platter. Without resolution of this source–image mismatch and explicit protein/component identification in the source, hold is required. Image quality, sharpness, lighting, composition and phone legibility are all acceptable.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1518,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 597,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

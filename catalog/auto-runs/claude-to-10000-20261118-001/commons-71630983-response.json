@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChB7MDtziovK9Sma9DjeU",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Yellow scrambled preparation with red and green peppers visible\",\n    \"Golden fried items in background\",\n    \"White plate, natural restaurant setting\"\n  ],\n  \"phone_observations\": [\n    \"Yellow dish with vegetable pieces clearly visible\",\n    \"Subject prominent and readable in thumbnail\",\n    \"Adequate sharpness and colour saturation\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title describes 'Pescado con aki' (fish with ackee), but no visible fish component is identifiable in the photograph\",\n    \"The yellow ingredient appears to be scrambled ackee fruit, but the declared 'saltfish' (fish protein) is not visually evident in either image\",\n    \"The fried items in the background are not definitively identified as fish\",\n    \"Source describes a specific Costa Rican Limón regional dish, but visual content does not provide explicit confirmation of fish presence required for accurate identity verification\"\n  ],\n  \"reason\": \"Identity mismatch. The source title declares 'Pescado con aki' (fish with ackee), which requires visible fish as a key component. The photograph shows a yellow ackee preparation with vegetables and fried items, but no fish is visibly identifiable. The protein element critical to the dish identity cannot be confirmed from the image. This creates a contradiction between the declared identity and visible form that cannot be resolved without explicit visual fish evidence.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 2025,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 456,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

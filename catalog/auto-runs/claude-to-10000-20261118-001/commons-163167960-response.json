@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChB7LqJwu7FoZ4oGyJAu4",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 3,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows a bowl with pale tan/beige starch paste in liquid broth\",\n    \"Bowl visible but subject is preparation-stage or in-progress, not a finished plated dish\",\n    \"Minimal visual appeal; appears mid-cooking or still being prepared\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title field contains 'File:' prefix and metadata markers, not a clean dish name\",\n    \"Description is generic template text ('Farm to Plate theme from:') with no dish identification\",\n    \"Source metadata is incomplete and does not provide a canonical dish name\",\n    \"Image appears to show preparation or cooking stage, not a finished, exposed, plated dish\"\n  ],\n  \"reason\": \"Reject: The source title and description do not provide a usable canonical dish name (title contains file metadata prefix; description is generic template text). The photograph shows what appears to be a cooking or preparation stage—a starchy paste in liquid within a metal bowl—rather than a finished, exposed, appetizing plated dish. While foufou/fufu is a known West African dish, the title metadata is not a clean source description, and the image does not meet the standard for a finished, prominent, naturally composed food photograph. The thumbnail confirms the subject lacks finished-dish presentation and appeal.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1385,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 434,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

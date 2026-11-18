@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChB7LpiUaSSShF7J5b6oE",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 3,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [\n    \"Cooked meat pieces in dark brown sauce on white plate\",\n    \"Pale starch component (cassava/fufu-like preparation) alongside\",\n    \"Spoon with sauce residue visible\",\n    \"Home/casual dining setting with patterned pink tablecloth\"\n  ],\n  \"phone_observations\": [\n    \"Meat and starch components clearly visible\",\n    \"Sauce-covered plate readable at thumbnail size\",\n    \"Composition retained in reduction\",\n    \"Subject adequately prominent\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title truncated in source metadata ('This is an image of food from' – destination country/region unknown)\",\n    \"Meat species not explicitly named in available description\",\n    \"Starch component identity ambiguous (fufu, cassava, or other root vegetable preparation not confirmed)\",\n    \"Kedjenou preparation details and meat type not visible in image alone\",\n    \"Source title incomplete – cannot verify exact canonical name against full original title\"\n  ],\n  \"reason\": \"Incomplete source metadata. Title field terminates mid-sentence ('This is an image of food from') without naming the country, dish origin, or meat species. The filename suggests 'Futu and Kedjenou' but this is filename metadata, not a verified title/description field. No explicit protein naming in the truncated description. Visual identity cannot be confirmed without complete source documentation. Home-cooked appearance and composition are acceptable, but identity verification fails due to source data incompleteness.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1727,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 479,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
