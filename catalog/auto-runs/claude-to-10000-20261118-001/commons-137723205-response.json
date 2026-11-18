@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBHtxSsczia9qshuNpsT",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 5,\n    \"composition\": 4,\n    \"appeal\": 5\n  },\n  \"visible_support\": [\n    \"Whole cooked crustacean with bright orange-red shell\",\n    \"Prominent claws and legs visible\",\n    \"Natural colour, glossy finish consistent with cooked seafood\",\n    \"Sharp detail and appetising presentation\",\n    \"Phone thumbnail clearly shows main subject\"\n  ],\n  \"phone_observations\": [\n    \"Crab body and claws clearly visible and prominent\",\n    \"Rich orange-red colour readable in thumbnail\",\n    \"Essential components not clipped\",\n    \"Sharp enough to identify as cooked crustacean\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title is a filename with no specific dish name provided\",\n    \"Description 'Crab dishes of Vietnam' is a category, not a canonical dish identity\",\n    \"No exact dish name (e.g., 'Cua Cà Mau', preparation method, regional variant) extracted from source metadata\",\n    \"Species 'crab' is not in the allowed protein categories (chicken/beef/pork/duck/lamb/seafood); crab is a crustacean, not seafood as narrowly defined for this system\"\n  ],\n  \"reason\": \"Reject: Although the photograph is sharp, well-lit, appetising and the subject is clearly visible in both full image and phone thumbnail, the source metadata fails to provide a specific canonical dish name. The description 'Crab dishes of Vietnam' is a category statement, not a dish identity. The filename is not a suitable source for canonical_name. Additionally, 'crab' (a crustacean) does not map to any of the allowed protein categories (chicken/beef/pork/duck/lamb/seafood). Without an explicit, specific dish name from the source title or description, identity cannot be confirmed and protein cannot be supported.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1743,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 547,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

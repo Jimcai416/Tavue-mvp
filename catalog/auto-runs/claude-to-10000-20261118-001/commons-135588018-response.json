@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBHtpqV3SiJky9ye2gbk",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Grilled poultry legs and wings with charred, caramelized exterior\",\n    \"Fresh green garnish (rocket/arugula) on white plate\",\n    \"Shredded carrot and cucumber accompaniment\",\n    \"Small bowls of dipping sauces visible at left\",\n    \"Wooden dining surface and casual home/street food setting\"\n  ],\n  \"phone_observations\": [\n    \"Grilled poultry clearly visible in thumbnail\",\n    \"Green salad garnish prominent\",\n    \"Essential dish components readable at 124x96 resolution\",\n    \"Appetising colour and char visible at thumbnail scale\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title contains Vietnamese text 'chân gà và cánh gà nướng' (literal: chicken legs and wings grilled) but file name uses generic 'File:SG th1n2023' as prefix. Title appears truncated or non-English. Cannot confirm exact canonical dish name without original Vietnamese source clarity.\",\n    \"Description states 'Grilled food of Vietnam' but does not name the specific dish. The Vietnamese filename elements suggest chicken legs and wings, but metadata alone cannot serve as instruction per rules.\",\n    \"Protein species 'chicken' is visually apparent and aligns with the Vietnamese title fragment, but no English-language source title or explicit quote confirming 'chicken' exists in the supplied description field.\"\n  ],\n  \"reason\": \"Image quality, sharpness, lighting, composition and appeal are all excellent (scores 4+). Full photograph and phone thumbnail both show a finished, exposed, appetising grilled poultry dish with fresh garnish and visible components. However, identity check fails: the source description in English is generic ('Grilled food of Vietnam') and does not name the specific dish. The Vietnamese filename fragment 'chân gà và cánh gà nướng' is metadata/filename, not a supplied title or description in the documented source field. Without an explicit, case-sensitive canonical source title or description in English or confirmed original language, and without a source quote matching variant qualifiers, canonical_name cannot be reliably assigned. Protein inference from appearance is not permitted. Hold pending clarification of the actual source title/description for this dish.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1744,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 648,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
