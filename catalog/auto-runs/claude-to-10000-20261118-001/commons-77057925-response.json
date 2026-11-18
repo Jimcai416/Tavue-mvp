@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAo87AV3JQbXQqa5UyVH",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 3,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Greenish-yellow broth with scattered particulates and oil gleam\",\n    \"Bowl rim visible with decorative pattern\",\n    \"Spoon present in frame\",\n    \"Liquid consistency dominates; no distinct solids clearly identifiable\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title claims 'red lentil soup' but photograph shows greenish-yellow broth inconsistent with red lentils\",\n    \"Source description lists 'turkey stock' but no poultry can be verified visually; turkey is unspecified species in protein category\",\n    \"Visible particulates (carrot fragments, potato) are present but not distinctly recognizable as the named vegetables\",\n    \"Broth colour and appearance do not match typical red lentil soup presentation\"\n  ],\n  \"reason\": \"Reject: source-photograph mismatch. The title claims 'red lentil soup' but the dish displays a greenish-yellow broth inconsistent with red lentils. The description names 'turkey stock' as a protein component, but turkey is not an allowed category (only chicken/beef/pork/duck/lamb/seafood accepted). No poultry is visually verifiable. Colour discrepancy and unverifiable protein identity create irreconcilable doubt about identity match with the source title.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1554,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 447,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

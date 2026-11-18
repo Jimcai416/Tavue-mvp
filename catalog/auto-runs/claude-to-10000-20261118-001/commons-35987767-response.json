@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAo921DBMLDUZfaL4u16",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Cooked meat portion with glossy sauce, center-left of plate\",\n    \"Herb-flecked green mashed potato component, right-center\",\n    \"Yellow/pale fried potato chips, left-center\",\n    \"Red tomato slices visible top-right\",\n    \"Fork resting on white plate rim\",\n    \"Plated, finished dish presentation\"\n  ],\n  \"phone_observations\": [\n    \"Meat, greens, and potatoes clearly visible in thumbnail\",\n    \"Plate and fork edge visible\",\n    \"Subject sharp and well-composed within 124x96 frame\",\n    \"Appetising colour balance maintained\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title/description incomplete: 'This is an image of food from' is truncated and does not name the dish\",\n    \"Meat species not explicitly identified in truncated metadata\",\n    \"Mukimo and Kachumbari mentioned in filename only, not in provided description text\",\n    \"Cannot confirm if red-cooked meat is beef, lamb, or other species without explicit source statement\",\n    \"Filename suggests Kenyan dish but description field is cut off\"\n  ],\n  \"reason\": \"Source description is incomplete ('This is an image of food from' – truncated). Although the filename suggests 'Mukimo and Kachumbari', the actual provided description does not name the dish or any protein. The meat species visible in the photograph cannot be verified against explicit source text. Identity check fails due to insufficient supplied metadata. Protein evidence cannot be populated without a direct quote from title or description naming the animal. Hold pending complete, untruncated source description.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1625,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 518,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
