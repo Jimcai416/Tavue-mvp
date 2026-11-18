@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAmnaYqjXqi1zzTNbKXs",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 2\n  },\n  \"visible_support\": [\n    \"Cooked cubed/chunked meat or offal in pan\",\n    \"Orange-brown colour consistent with braised tripe\",\n    \"Pan with visible cooking liquid\",\n    \"Black pepper seasoning visible\",\n    \"Fire/cooking environment in background\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail shows cooked cubed protein in pan with sauce\",\n    \"Colour and texture consistent with source description\",\n    \"Essential dish components readable\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Species qualification 'di bovino' (bovine) in description cannot be visually confirmed as beef; source states it refers to intestinal tracts/prestomaci which is offal, not a standard protein category\",\n    \"Tripe is an offal/organ meat product not in the allowed protein_evidence categories (chicken/beef/pork/duck/lamb/seafood)\",\n    \"Visual identification of tripe as a specific meat cut is not reliably possible from photograph alone\"\n  ],\n  \"reason\": \"Reject: The source describes Padellata di trippa (tripe dish), where the primary ingredient is offal (bovine intestinal tracts/prestomaci). Tripe is not a standard protein category in the allowed list (chicken/beef/pork/duck/lamb/seafood). Although 'di bovino' indicates bovine origin, offal products require explicit category support which does not exist. The photograph shows cooked cubed protein with sauce, consistent with the description, and phone thumbnail is adequate, but the protein evidence cannot be classified within acceptable categories. Hold rules prevent acceptance of ambiguous or unsupported protein species/types.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1775,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 512,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

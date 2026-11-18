@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAmnf8v65ciF5UjHSJNf",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows pasta with meat and sauce in a container\",\n    \"Pasta strands clearly visible and identifiable\",\n    \"Dark brown/meat components visible throughout\",\n    \"Adequate resolution for dish recognition in thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title states 'Pasta con le sarde' (pasta with sardines), but no fish/seafood is visibly identifiable in either the full source image or thumbnail\",\n    \"The visible dark brown components appear to be ground meat, not sardines\",\n    \"No characteristic sardine shapes, fish elements, or seafood texture visible\",\n    \"Dish identity cannot be verified—visual form does not match source declaration of sardine-based pasta\"\n  ],\n  \"reason\": \"Identity check fails. The source declares 'Pasta con le sarde' (a Sardinian pasta traditionally made with fresh sardines), but the visible contents show what appears to be ground meat pasta, with no discernible fish or sardine elements in either the full photograph or phone thumbnail. The visual form contradicts the source title. This represents either a mislabelled image or a substitution inconsistent with the named dish. Cannot accept without identity agreement between visible form and source declaration.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1722,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 421,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

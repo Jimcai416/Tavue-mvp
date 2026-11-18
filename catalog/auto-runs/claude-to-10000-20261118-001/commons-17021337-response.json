@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAmoCJegYyKE5KqQ49tX",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows diced/chunked orange-red meat in sauce on yellow plate\",\n    \"Texture consistent with cooked tripe but visually unappetizing\",\n    \"Sauce visible but dish appearance unpolished\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title declares 'Trippa alla Romana' (tripe dish), but tripe is an organ/offal not in the allowed protein categories (chicken/beef/pork/duck/lamb/seafood)\",\n    \"Animal species of tripe origin not specified in source\",\n    \"Dish identity cannot be accepted without explicit animal species declaration for organ meat\"\n  ],\n  \"reason\": \"Trippa (tripe) is organ/offal meat. The source declares the dish identity but does not explicitly name the animal species (beef tripe, pork tripe, etc.). Tripe does not fall within the allowed protein categories unless the specific source text names chicken, beef, pork, duck, lamb, or seafood. The requirement to preserve exact source wording and extract only explicitly named proteins cannot be met. Additionally, the dish's visual appeal is notably low (scored 2/5) with an unappetizing appearance in both full and thumbnail views, though this alone would not trigger rejection if identity and protein evidence were satisfied. Hold would be appropriate if the source explicitly named the animal; however, the metadata contradiction (title vs. protein requirements) results in rejection.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1747,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 466,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
