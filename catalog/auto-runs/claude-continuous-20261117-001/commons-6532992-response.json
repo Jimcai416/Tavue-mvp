@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011Ch9UPmxJxcRDa7W927VMT",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Raw/partially cooked beef on hot griddle surface\",\n    \"Mushrooms and squid/seafood visible\",\n    \"White bowls in background suggest table service\",\n    \"Commercial griddle cooking setup\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail shows meat at preparation/cooking stage, not finished plated dish\",\n    \"Meat appears undercooked relative to typical galbi service\",\n    \"Griddle and unplated components dominate the frame\"\n  ],\n  \"protein_evidence\": {\n    \"protein\": \"Short ribs\",\n    \"source_quote\": \"Short ribs @ Chosun Galbee\"\n  },\n  \"uncertainties\": [\n    \"Image captures cooking process rather than finished, plated, exposed dish ready for consumption\",\n    \"Meat colour and texture suggest active cooking, not complete doneness\",\n    \"No visible finishing, plating, or presentation of a complete dish\"\n  ],\n  \"reason\": \"Reject: This photograph captures Korean BBQ ingredients and meat during the active grilling/cooking stage on a commercial griddle, not a finished, exposed, plated dish. While the source metadata confirms 'Short ribs', the image shows raw or undercooked meat with vegetables still being prepared on the griddle surface. Tavue requires finished, exposed, appetising dishes—not food preparation stages or griddle cooking in progress. The phone thumbnail reinforces this is a mid-cooking capture, not a completed dish suitable for review.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1610,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 470,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
