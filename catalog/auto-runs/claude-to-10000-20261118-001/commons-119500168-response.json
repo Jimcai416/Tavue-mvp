@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAUYozbR4U45xksvTHVR",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 1,\n    \"lighting\": 2,\n    \"composition\": 2,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows noodle bowl with yellow corn, green vegetables, brown meat pieces, and white rim of container\",\n    \"Essential composition visible but source claims Cup Noodle (instant/packaged product)\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title describes instant Cup Noodle product (カップヌードル 牛骨コムタン ビッグ / Cup Noodle Beef Bone Gomtang Big), but photograph shows what appears to be a home-cooked or fresh-prepared noodle bowl\",\n    \"Severe motion blur, soft focus, and poor lighting throughout full image make detail assessment impossible\",\n    \"No visible packaging, branding, or container lip that would confirm this is an instant noodle product\",\n    \"Visual presentation inconsistent with typical Cup Noodle packaging photography\",\n    \"Beef/牛 mentioned in title but cannot be visually confirmed as specific protein species from meat pieces alone\"\n  ],\n  \"reason\": \"Reject: Identity mismatch between source title (instant Cup Noodle product) and photograph (appears to be fresh-prepared dish); severe motion blur and soft focus across full image (sharpness=1); poor lighting and composition prevent quality assessment. Title contains unverified protein claim (牛骨/beef bone) with no explicit visual confirmation. All quality and photograph checks failed.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1685,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 460,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

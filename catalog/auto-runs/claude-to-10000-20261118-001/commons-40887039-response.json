@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAUYhSwdJYHy4pzTFga6",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Diced potatoes, golden-brown and seasoned\",\n    \"Fresh cilantro garnish throughout\",\n    \"White cheese (paneer) visible on top\",\n    \"Served on white plate\",\n    \"Natural restaurant lighting\"\n  ],\n  \"phone_observations\": [\n    \"Potatoes and cheese clearly visible\",\n    \"Green herb garnish prominent\",\n    \"Dish identity readable\",\n    \"Good colour contrast in thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title states 'makhani aloo ghobhi' (butter potato cauliflower) but no cauliflower is visible in either photograph—only potatoes and paneer\",\n    \"The visible dish appears to be aloo matar (potato pea) or similar potato-based curry, not the stated aloo ghobhi\",\n    \"Source title/visible form contradiction: metadata describes one dish but image shows different components\",\n    \"Paneer present but not mentioned in title 'makhani aloo ghobhi'\"\n  ],\n  \"reason\": \"Identity check fails. The source title 'makhani aloo ghobhi' indicates a potato and cauliflower dish, but neither full photograph nor thumbnail contains visible cauliflower. The dish shown is composed of diced potatoes, paneer cheese, and fresh cilantro—inconsistent with the stated identity. Per instructions, source contradictions and doubtful identity require hold. All photograph quality scores meet threshold, but the fundamental identity mismatch prevents acceptance.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1729,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 483,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
