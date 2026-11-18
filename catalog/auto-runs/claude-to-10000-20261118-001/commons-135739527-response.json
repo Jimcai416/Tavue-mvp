@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAwg8eMNErPWpn8bJLMk",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Clear white bowl with finished soup\",\n    \"Translucent noodles visible\",\n    \"Orange/pink protein pieces (shrimp or crab)\",\n    \"Fresh green cilantro garnish\",\n    \"Broth-based preparation\",\n    \"Chopsticks present\"\n  ],\n  \"phone_observations\": [\n    \"Soup bowl clearly visible\",\n    \"Noodles and broth distinguishable\",\n    \"Protein component visible\",\n    \"Garnish visible in thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title references 'súp cua' (crab soup) but metadata is filename/description only, not an authoritative source title or description field\",\n    \"Orange/pink protein visible but species ambiguous—could be shrimp, crab, or mixed seafood; no explicit source text confirms which animal\",\n    \"Description 'Breakfast in Vietnam' and filename are generic; no canonical dish name provided in structured source\",\n    \"Noodle type (glass/rice/egg) not explicitly stated in source\"\n  ],\n  \"reason\": \"Identity check fails: source metadata contains only filename, generic description, and author credit—no explicit canonical dish title or description field that names the dish and confirms protein species. The visible orange/pink protein could be crab, shrimp, or mixed seafood, but the filename 'súp cua' (crab soup) is untrusted metadata, not a source title/description. Without a trusted, explicit source statement matching visible form and naming the protein, identity cannot be confirmed. Hold pending authoritative dish name and protein confirmation from source description field.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1750,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 511,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

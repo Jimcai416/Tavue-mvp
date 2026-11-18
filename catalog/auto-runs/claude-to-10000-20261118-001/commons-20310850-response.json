@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAwhBCv2tESRPV2Pgaf7",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Red-cured pork product with visible layering visible in cross-section\",\n    \"Multiple rectangular portions on white plate\",\n    \"Natural colour consistent with cured/spiced pork\",\n    \"Sharp detail in both source and thumbnail\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows red cured pork portions\",\n    \"Layered structure visible in upper cross-section piece\",\n    \"Adequate size and prominence for phone review\",\n    \"Colour and form match source photograph\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'Adobo - Tocino' but metadata language is German ('Gewürzte Schweinespeckpartie' = spiced pork belly/bacon); source description contradicts file title\",\n    \"Tocino is a Filipino cured pork product, but Adobo is a stew/braise preparation—this appears to be uncooked or cured raw pork, not an adobo dish\",\n    \"Image shows what appears to be cured pork loin or belly slices, not a finished cooked adobo dish\",\n    \"No explicit 'pork' statement in English title, only German metadata description\"\n  ],\n  \"reason\": \"Reject: source identity contradiction and category mismatch. The title 'Adobo - Tocino' conflicts with the visible form and metadata description. Adobo is a cooked stew preparation; this image shows uncooked or cured raw pork slices, most consistent with tocino alone. The German description 'Schweinespeckpartie' (pork belly/bacon) does not align with the dual English title. The photograph is well-executed, but the dish identity is ambiguous and source-conflicted. No explicit pork species confirmation in the English-language title. Hold criteria not met due to irreconcilable source contradiction.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1626,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 572,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

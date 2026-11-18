@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAwgxSxTppT4xkeaKfpB",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 3,\n    \"composition\": 2,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows a festival tent/cooking area with people and tables\",\n    \"No finished dish is visible in the phone thumbnail\",\n    \"Subject is a crowd/event scene, not a food photograph\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"No actual dish visible in either source or phone thumbnail\",\n    \"Description mentions 'Crawfish Etouffee cook-off' but this is a behind-the-scenes festival scene, not a plated dish\",\n    \"Source description contains contradictory regional attribution ('Scotland' vs Louisiana)\",\n    \"No finished, exposed, appetising food is prominent in the frame\"\n  ],\n  \"reason\": \"Reject: This is a documentary photograph of a festival event/cooking competition tent, not a food photograph of a finished dish. No complete, clearly visible, appetising prepared dish is present in either the full source or phone thumbnail. The image shows crowd/event logistics, not a plated meal suitable for Tavue food intake. The vague description ('from Scotland') contradicts the location context and does not constitute reliable dish identity evidence.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1631,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 388,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
