@@ -53666,5 +53666,51 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-195172356",
+    "title": "File:Bara – Traditional Newari Lentil Pancake of Nepal.jpg",
+    "author": "SristiAwasthi21",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bara_%E2%80%93_Traditional_Newari_Lentil_Pancake_of_Nepal.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/16/Bara_%E2%80%93_Traditional_Newari_Lentil_Pancake_of_Nepal.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "ac6595ad0c84906c83e60ed7845123fe5a14c182",
+    "name": "Bara – Traditional Newari Lentil Pancake of Nepal",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-195172356.jpg",
+    "assetSha256": "ae89517b9b893a611aeb4136a134b016e485231dfbd1a39a2e70740cb410eb07",
+    "reviewedAt": "2026-11-18",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-80677154",
+    "title": "File:Pork momo in curry house.jpg",
+    "author": "Geoffreyrabbit",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pork_momo_in_curry_house.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/93/Pork_momo_in_curry_house.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "c13f8f0a40a849eee48b33696d077ee2a20e294e",
+    "name": "Pork momo in curry house",
+    "aliases": [],
+    "proteins": [
+      "pork"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-80677154.jpg",
+    "assetSha256": "72f88d9136c25e83593c6b0180afee9d204ff5c1196af70d0859fa600d4f3613",
+    "reviewedAt": "2026-11-18",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];

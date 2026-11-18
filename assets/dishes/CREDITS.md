@@ -3600,3 +3600,8 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 - **Chhola bhatura** — Armygirl9124. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Chhola_bhatura.jpg). Local asset: `reviewed-commons-129308634.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Cholle bhature** — Vipul7229. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Famous_Cholle_Bhature.jpg). Local asset: `reviewed-commons-103141759.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Puri** — Maharana7573. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Puri_1.jpg). Local asset: `reviewed-commons-103633537.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Bara – Traditional Newari Lentil Pancake of Nepal** — SristiAwasthi21. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Bara_%E2%80%93_Traditional_Newari_Lentil_Pancake_of_Nepal.jpg). Local asset: `reviewed-commons-195172356.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Pork momo in curry house** — Geoffreyrabbit. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Pork_momo_in_curry_house.jpg). Local asset: `reviewed-commons-80677154.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
