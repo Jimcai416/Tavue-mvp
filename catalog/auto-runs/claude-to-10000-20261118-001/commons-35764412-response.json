@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAu9gHGXyzgSxvLKGUje",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"White cubed tofu clearly visible and prominent\",\n    \"Red diced tomato base\",\n    \"Purple onion slices\",\n    \"Yellow corn kernels\",\n    \"Sliced cucumber/avocado\",\n    \"Couscous or similar grain side\",\n    \"Natural daylight, well-exposed\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail shows recognizable plated salad composition\",\n    \"Tofu, vegetables and grain components all visible at reduced size\",\n    \"Essential dish identity preserved in phone view\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'Tofu ceviche' but description contradicts with 'Baked frozen vegetable sausages and peas'—these are mutually exclusive dishes with incompatible ingredients\",\n    \"Description mentions sausages and peas, neither of which are visibly prominent in the photograph; visible instead are tofu, tomato, corn, cucumber, onion and couscous\",\n    \"Source metadata is internally contradictory and does not match visible dish components\",\n    \"No animal protein can be sourced from title or description with explicit naming\"\n  ],\n  \"reason\": \"Reject due to source contradiction: title declares 'Tofu ceviche' but description claims 'Baked frozen vegetable sausages and peas'. The photograph shows neither sausages nor peas prominently, and contains tofu, tomato, corn, cucumber, and grain—inconsistent with the description. This internal metadata conflict prevents confident identity verification. The dish cannot be reliably canonicalised when title and description fundamentally contradict each other and the visible content. No animal proteins are explicitly named in either statement.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1320,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 526,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAu9bz4SsDTX7pDBU5AQ",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Grilled meat slices with char marks visible in full image and thumbnail\",\n    \"Fried potato rounds (golden, crispy appearance)\",\n    \"Roasted tomato slice with herb garnish\",\n    \"Boiled potatoes with herb garnish (top left)\",\n    \"Creamy sauce in central ceramic bowl\",\n    \"Fresh chive/parsley garnish throughout\",\n    \"Professional plating on white dish with decorative border\"\n  ],\n  \"phone_observations\": [\n    \"Central white creamy sauce clearly visible\",\n    \"Grilled meat portions prominent with charring\",\n    \"Golden fried potatoes recognizable\",\n    \"All essential components visible in thumbnail\",\n    \"Sharp detail and natural colours preserved in reduction\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title references 'andouillette' (pork offal/chitterling sausage), but photograph shows intact grilled meat slices and fried potatoes—not a sausage preparation. Visual form does not match the named dish.\",\n    \"Andouillette is a specific charcuterie product; the visible grilled meat pieces do not resemble this preparation.\",\n    \"Cannot confirm meat species from visual inspection alone; source dish name implies pork offal but this contradicts visible form.\",\n    \"Identity between source description and actual visible dish content is irreconcilable.\"\n  ],\n  \"reason\": \"Reject: Source title names 'Andouillette tirée à la ficelle de chez Bobosse'—a French chitterling sausage dish—but the photograph displays intact grilled meat slices, fried potatoes, boiled potatoes, roasted tomato, and creamy sauce. These are distinct preparations and plating styles that do not match the named charcuterie product. The identity check fails due to source-photograph contradiction. Protein evidence cannot be established: 'andouillette' is an offal sausage, not an explicitly named animal protein category, and the visible meat form does not support this identification. Hold or reject required.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1758,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 609,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

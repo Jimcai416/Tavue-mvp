@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAu95L5BizJ2MHxJbrHv",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Plated dish with central protein mound visible\",\n    \"Decorative sauce drizzle around plate\",\n    \"Garnish visible on top\",\n    \"Fine dining presentation\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Rabbit is not an allowed protein category per specifications (only chicken/beef/pork/duck/lamb/seafood permitted)\",\n    \"Source title declares 'lapin' (rabbit) but rabbit cannot be verified or accepted as valid protein category\",\n    \"Full-image softness and motion blur prevent confident identification of dish components\"\n  ],\n  \"reason\": \"Reject: Source metadata declares 'rabbit rillettes' but rabbit is not an allowed protein category (only chicken, beef, pork, duck, lamb, or seafood are permitted). Additionally, the full source photograph exhibits significant softness, motion blur, and poor sharpness (score 2/5), failing the quality threshold despite acceptable composition and phone thumbnail clarity. The dish cannot be accepted without an allowed protein category match.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1736,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 375,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
