@@ -4732,3 +4732,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Ratatouille** — Benoit5656. [Public domain](https://creativecommons.org/publicdomain/mark/1.0/); [source](https://commons.wikimedia.org/wiki/File:Ratatouille-Dish.jpg). Local asset: `reviewed-commons-9813789.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Picadillo a la habanera** — El Mono Español. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Picadillo_a_la_habanera_(no_edit).jpg). Local asset: `reviewed-commons-98947494.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.

@@ -67715,5 +67715,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 733,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-98947494",
+    "title": "File:Picadillo a la habanera (no edit).jpg",
+    "author": "El Mono Español",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Picadillo_a_la_habanera_(no_edit).jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Picadillo_a_la_habanera_%28no_edit%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "a685ec62af6ec332605b8166b4c7c988a9da4dbb",
+    "name": "Picadillo a la habanera",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-98947494.jpg",
+    "assetSha256": "7dd309bbf0436aa58cb15d154b410d66d4f5e57400aad97c96a912d829576459",
+    "reviewedAt": "2026-11-18",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];
