@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChB2DTKaknJG1SJTo8ars",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Fine couscous grains clearly visible and prominently plated\",\n    \"Green vegetable pieces (fava beans/peas) distributed throughout\",\n    \"Creamy pale sauce or broth base visible\",\n    \"White bowl presentation on dark surface\",\n    \"Natural lighting, well-exposed, appetising appearance\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows couscous grain structure\",\n    \"Green vegetables visible and identifiable\",\n    \"Dish centrally framed in white bowl\",\n    \"Sauce/broth visible in thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title contains 'File:', date, photographer name and filename extension—metadata appears contaminated\",\n    \"Actual dish name claimed as 'couscous bedhan' in description, but not in formal title\",\n    \"Visible vegetables are green legumes/peas; source claims 'fava beans AND turnip' but no turnip pieces are visibly distinct in either image\",\n    \"No protein (meat, seafood, poultry) is visible or credibly named in source—only 'dairy couscous' is mentioned\",\n    \"Description metadata contains author attribution, license and archive context which may not reflect original submitted title\"\n  ],\n  \"reason\": \"Source metadata is contaminated with filename, date, photographer name and system fields. The proposed canonical name cannot be extracted as a clean, authoritative dish identifier from the title alone. Visible vegetables do not clearly match the stated 'fava beans and turnip' combination—only green peas/small legumes are distinct. No protein is visibly present or explicitly named in a form matching required category keys. The alternative name 'couscous bedhan' appears only in the description narrative, not in a formal title. Identity, variant preservation and protein evidence checks cannot be satisfied. Hold pending clarification of original source title and ingredient verification.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1838,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 566,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
