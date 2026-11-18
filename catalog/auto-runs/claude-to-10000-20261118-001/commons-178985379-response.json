@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChB9rhVikwQ1tnq6JRqUN",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Golden-brown rice dish with visible green herbs scattered throughout\",\n    \"Cooked grains evenly distributed across white plate\",\n    \"Natural colour, appetising appearance, finished plated dish\",\n    \"Sharp detail visible in phone thumbnail and full image\",\n    \"Prominent subject filling plate, no clipping\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows finished rice dish with herbs\",\n    \"Golden colour and grain texture readable at reduced size\",\n    \"Subject appropriately sized and positioned for recognition\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title 'Lebanese Mujadara' supplied in metadata only, not visible in image or source title field\",\n    \"Mujadara traditionally combines lentils and rice; no lentils are visibly distinguishable in this photograph despite the descriptor\",\n    \"Source title field shows 'File:Либанска Муџадара.jpg' (non-English filename) rather than English dish name\",\n    \"Visual appearance is consistent with spiced rice or herbed rice pilaf, but lentil component (essential to authentic mujadara) cannot be confirmed from image alone\",\n    \"Metadata description contradicts or is unreliably matched to actual visible form\"\n  ],\n  \"reason\": \"Identity check fails. The source title field contains only a Cyrillic filename ('File:Либанска Муџадара.jpg'), not a clear English dish description. The metadata description 'Lebanese Mujadara' is supplied separately but cannot be verified visually: authentic mujadara requires lentils as a core component, yet no lentils are visibly distinguishable in the photograph—only seasoned rice with herbs is apparent. Without a reliable, legible source title confirming the specific dish name and without visual evidence of the lentil component essential to mujadara, identity cannot be established. The photograph quality, sharpness, lighting, composition and appeal are all acceptable, and the image is a finished, plated dish. However, the source title/description mismatch and unconfirmed ingredient list prevent acceptance.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1972,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 614,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
