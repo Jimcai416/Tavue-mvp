@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAjm7W8ZtUefv8En8xUN",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Finished, cooked rice dish with visible orange/saffron colouring\",\n    \"Garnished with green herbs and darker spices\",\n    \"Served in white bowl\",\n    \"Natural restaurant lighting\",\n    \"Sharp detail of rice grains and toppings\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows orange rice in white bowl\",\n    \"Essential components readable: rice dish, bowl, garnish\",\n    \"Subject prominent and not clipped\",\n    \"Warm lighting consistent with full image\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title is 'Pulao.JPG' — a filename, not a canonical dish name or description\",\n    \"Description states 'Many variants are found across India' but provides no specific dish identification, region, or variant qualifier\",\n    \"Pulao/pilau encompasses many regional and ingredient variations; no visible meat or seafood component is identifiable to confirm a specific variant\",\n    \"No explicit source text naming proteins, preparation method, or regional origin to anchor canonical_name\",\n    \"Insufficient source metadata to distinguish this from hundreds of pulao/pilau preparations\"\n  ],\n  \"reason\": \"Reject hold: The source provides only a generic filename ('Pulao.JPG') and vague description ('Many variants are found across India') with no specific dish identity, regional qualifier, preparation method, or protein declaration. While the photograph is sharp, well-lit, and appetising, and shows a finished rice dish clearly, the source metadata does not supply the specific dish name required for canonical_name. A filename and generic category statement do not constitute a source title or description sufficient to establish identity. No proteins are visibly confirmed or explicitly source-named. Hold pending a source title or description that specifies the exact pulao variant, region, or key ingredients/proteins.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1617,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 552,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
