@@ -5141,3 +5141,16 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 - **Puttu** — Gannu03. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Puttu_(15923).jpg). Local asset: `reviewed-commons-166789792.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Khaman Dhokla** — Namrata Osta. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:KHAMAN_DHOKLA-HOMEMADE,CHANDRAPURA-JHARKHAND-2020002.jpg). Local asset: `reviewed-commons-101585538.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Potato Tahdig** — MRG90. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Potato_Tahdig.JPG). Local asset: `reviewed-commons-35209612.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Kashmiri Pulao** — Miansari66. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Kashmiri_Pulao_(cropped).JPG). Local asset: `reviewed-commons-108454273.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Chicken Ramen (salt flavored chicken broth, slow-braised chicken breast, kikurage, green onion, fried onion, and noodles)** — Missvain. [CC BY 4.0](https://creativecommons.org/licenses/by/4.0); [source](https://commons.wikimedia.org/wiki/File:Kintaro_Ramen_-_Stierch_-_Aug_2019.jpg). Local asset: `reviewed-commons-81665864.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Chicken and burdock tempura 5-piece udon noodles and oden 5-piece set** — IXTA9839  
+   
+       Sony ILCE-7M3. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Chicken_and_burdock_tempura_udon_and_Oden_in_Sukesan_Udon_Maebashi-Nishi.jpg). Local asset: `reviewed-commons-176960069.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Roti Jala or Net Bread** — Elly Suhailee. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:ROTI_JALA_WARNA_WARNI.jpg). Local asset: `reviewed-commons-106259595.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Masala uttapam** — Sharon. [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:Masala_uttapam.jpg). Local asset: `reviewed-commons-47163228.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Chicken and burdock tempura udon** — IXTA9839  
+   
+       Sony ILCE-7M3. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Chicken_and_burdock_tempura_udon_in_Sukesan_Udon_Maebashi-Nishi.jpg). Local asset: `reviewed-commons-176960066.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
