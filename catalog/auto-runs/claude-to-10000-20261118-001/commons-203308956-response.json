@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAc5hjVxpMd2LYpShMJ7",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Biryani-style layered rice with saffron and purple onions in large serving dish\",\n    \"Multiple brown/red gravies in small bowls consistent with meat-based curries\",\n    \"Green chutney (likely mint-walnut or cilantro-based)\",\n    \"Kebab-like items on white plate\",\n    \"Festive multi-course spread presentation\"\n  ],\n  \"phone_observations\": [\n    \"Central rice dish clearly visible with saffron/turmeric colour and purple onion garnish\",\n    \"Multiple gravy bowls readable around the plate\",\n    \"Green chutney visible at plate edge\",\n    \"Finished, exposed food suitable for review\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title/description names 'Gushtaba and Rista' (meat dumplings and meatballs) but no meat species is explicitly named in the metadata\",\n    \"Visible gravies strongly suggest meat preparation, but animal type (lamb/goat/beef) is not stated in source text\",\n    \"Seekh kebabs mentioned in description but their exact meat composition is not declared in source\",\n    \"Metadata describes the dish but does not provide an exact canonical dish name suitable for verification—'Kashmiri Wazwan Feast' is a generic descriptor, not a specific dish phrase\"\n  ],\n  \"reason\": \"While the photograph shows a well-executed, sharply detailed, appetising festive meal with visible biryani, gravies, and accompaniments meeting quality and composition standards, the source metadata fails critical identity verification. The title is a generic descriptor ('Kashmiri Wazwan Feast') rather than a specific canonical dish name. More critically, although the description names meat preparations ('Gushtaba', 'Rista', 'seekh kebabs'), it does NOT explicitly state which animal species (lamb, goat, beef, chicken, etc.) is used. Per protocol, protein categories require exact case-sensitive source quotes naming the animal; tradition, appearance, or generic 'meat' references do not substitute. The ambiguity over meat species and lack of a specific, verifiable dish name necessitate hold pending source clarification.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1674,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 636,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
