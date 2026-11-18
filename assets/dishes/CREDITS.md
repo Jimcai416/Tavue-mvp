@@ -2992,3 +2992,8 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 - **Sauerkraut** — Qwerty Binary. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Sauerkraut_2.jpg). Local asset: `reviewed-commons-30836923.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Chow mein sandwich** — Meagan Fisher. [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Chow_mein_sandwich.jpg). Local asset: `reviewed-commons-129609130.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **American-style Moo Shu Pork with pancakes** — Swiss Frank. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:American-style_Moo_Shu_Pork_with_pancakes,_ready_to_wrap.jpg). Local asset: `reviewed-commons-113867775.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-continuous-20261117-001
+
+- **Dal Khichdi** — Rpande. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Dall_Khichdi.jpg). Local asset: `reviewed-commons-40920527.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Dosa and Gravy** — Shruti1493. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Dosa_and_Gravy.jpg). Local asset: `reviewed-commons-40729838.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
