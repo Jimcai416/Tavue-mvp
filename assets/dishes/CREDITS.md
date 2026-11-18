@@ -5455,3 +5455,8 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 
 - **Khachapuri (Adjarian style)** — Alexey Nikulnikov. [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:%E1%83%90%E1%83%AD%E1%83%90%E1%83%A0%E1%83%A3%E1%83%9A%E1%83%98_%E1%83%AE%E1%83%90%E1%83%AD%E1%83%90%E1%83%9E%E1%83%A3%E1%83%A0%E1%83%98.jpg). Local asset: `reviewed-commons-31669490.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Enchiladas de mole negro oaxaqueño** — GPE.garcíaglez. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Enchiladas_de_mole_negro_oaxaque%C3%B1o.jpg). Local asset: `reviewed-commons-105947709.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Tamal Oaxaqueño de Mole Negro con Pollo** — Missvain. [CC BY 4.0](https://creativecommons.org/licenses/by/4.0); [source](https://commons.wikimedia.org/wiki/File:Guelaguetza_Restaurante_-_February_2024_-_Sarah_Stierch_10.jpg). Local asset: `reviewed-commons-145994101.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Plate of ugali with creamed spinach** — Queen Asali. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Plate_of_ugali_with_creamed_spinach.jpg). Local asset: `reviewed-commons-164467415.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.

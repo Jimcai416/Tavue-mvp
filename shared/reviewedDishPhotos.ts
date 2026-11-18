@@ -75967,5 +75967,51 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 540,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-145994101",
+    "title": "File:Guelaguetza Restaurante - February 2024 - Sarah Stierch 10.jpg",
+    "author": "Missvain",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Guelaguetza_Restaurante_-_February_2024_-_Sarah_Stierch_10.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Guelaguetza_Restaurante_-_February_2024_-_Sarah_Stierch_10.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "2e700de7fb1e000d4393e0282ee5f8ed60b7cd66",
+    "name": "Tamal Oaxaqueño de Mole Negro con Pollo",
+    "aliases": [],
+    "proteins": [
+      "chicken"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-145994101.jpg",
+    "assetSha256": "b00b4fe7842dcd75c87c2f175f71856da4c4668e231457535a4d4a7b211cb0ef",
+    "reviewedAt": "2026-11-18",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-164467415",
+    "title": "File:Plate of ugali with creamed spinach.jpg",
+    "author": "Queen Asali",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Plate_of_ugali_with_creamed_spinach.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/39/Plate_of_ugali_with_creamed_spinach.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "2bc810649575250deae978ab91f3e3d896d3e605",
+    "name": "Plate of ugali with creamed spinach",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-164467415.jpg",
+    "assetSha256": "60505d9c208bf7ef303263c7815de7a251916584375398848b833c368afa7689",
+    "reviewedAt": "2026-11-18",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 443,
+    "requiresExactMenuName": true
   }
 ];
