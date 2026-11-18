@@ -5422,3 +5422,10 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Oeuf en meurette, aux poivrons grillés** — Arnaud 25. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Oeuf_en_meurette,_poivrons_grill%C3%A9s.jpg). Local asset: `reviewed-commons-56628605.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **oeuf en meurette** — Popo le Chien. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Oeufs_meurette.jpeg). Local asset: `reviewed-commons-50344346.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Raclette** — Arnaud 25. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Raclette_008.jpg). Local asset: `reviewed-commons-65357475.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Œuf en meurette** — Arnaud 25. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:%C5%92uf_en_meurette.jpg). Local asset: `reviewed-commons-79581611.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Œufs en meurette** — Arnaud 25. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:%C5%92ufs_en_meurette.JPG). Local asset: `reviewed-commons-30008683.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
