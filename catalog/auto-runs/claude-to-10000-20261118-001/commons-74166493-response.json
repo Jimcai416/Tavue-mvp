@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAu6MuttgXLD8TVBUsAN",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Cooked sausage with caramelised exterior\",\n    \"Golden-brown French fries on white plate\",\n    \"What appears to be sautéed offal or tripe in background\"\n  ],\n  \"phone_observations\": [\n    \"Sausage clearly visible and prominent\",\n    \"Golden fries visible on right side\",\n    \"Sufficient detail for identification\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Andouillette is a traditional sausage made from pork intestines/tripe; the animal species (pork) is not explicitly named in the source description, only the prepared product name is given\",\n    \"Source refers to the dish by its French regional name without stating the meat species in the description text\"\n  ],\n  \"reason\": \"Rejection: The source description identifies the dish as 'Andouillette de Bourgogne' but does not explicitly name the animal species (pork) in the title or description text. Per instructions, 'ambiguous meat species' and cases where 'proteins may include only chicken/beef/pork/duck/lamb/seafood, with an exact source quote explicitly naming each animal' require a hold or rejection. While andouillette is traditionally pork-based, the source provides no explicit statement of the meat species, only the product name. This falls under the prohibition against inferring species 'from tradition, appearance or generic meat/sausage' names. Identity cannot be confirmed without explicit protein naming in the source.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1732,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 477,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

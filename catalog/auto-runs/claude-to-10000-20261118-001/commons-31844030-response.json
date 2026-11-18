@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAu6mzjFVzDrGs7dASGL",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Plate clearly visible with grilled courgettes, rice with red peppers, and central protein\",\n    \"Plating and components identifiable in thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title names 'Andouillette' but this is a traditional French charcuterie product (pork intestine sausage), which falls outside the allowed protein categories (chicken/beef/pork/duck/lamb/seafood)\",\n    \"Andouillette is a sausage/prepared charcuterie product, not a primary meat species\"\n  ],\n  \"reason\": \"The source explicitly identifies the dish as 'Andouillette, riz et courgettes'. Andouillette is a traditional French charcuterie made from pork offal (specifically intestines), presented as a sausage. While it contains pork, the product itself is a processed sausage product. Per instructions: 'Do not use sausage/rabbit/clams as keys' and 'do not guess which animal sausage contains'. Although andouillette is pork-based, the source does not explicitly state 'pork' as a simple ingredient—it names only the finished sausage product 'Andouillette'. The instructions require exact source quotes naming the animal and do not permit inference from sausage type or tradition. This creates an unresolvable gap: the protein cannot be classified without violating the sausage exclusion or inventing an animal inference. Hold would be appropriate for species ambiguity, but reject is more conservative given the sausage category exclusion applies directly.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1755,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 511,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
