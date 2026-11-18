@@ -43199,5 +43199,30 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 658,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-74480797",
+    "title": "File:Aunt Lay Leong's Rendang Beef (2875293268).jpg",
+    "author": "Alpha  from Melbourne, Australia",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Aunt_Lay_Leong%27s_Rendang_Beef_(2875293268).jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/16/Aunt_Lay_Leong%27s_Rendang_Beef_%282875293268%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "fd7d2a2b5b99d89d064f41b68f3d63ed63ea08cd",
+    "name": "Aunt Lay Leong's Rendang Beef",
+    "aliases": [],
+    "proteins": [
+      "beef"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-74480797.jpg",
+    "assetSha256": "cc396775e4764adb2dba4b6a1f88886939f32ba90eb22353cce36ec0aa747d6c",
+    "reviewedAt": "2026-11-18",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true,
+    "authorUrl": "https://www.flickr.com/people/10559879@N00"
   }
 ];
