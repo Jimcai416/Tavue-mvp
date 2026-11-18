@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChArnkkprhJuUB3BMkftE",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Cooked rice dish with long-grain rice\",\n    \"Brown meat pieces visibly distributed throughout\",\n    \"Natural colour and appetising presentation\",\n    \"Served on decorative plate with floral pattern\",\n    \"Sharp detail in both full source and phone thumbnail\"\n  ],\n  \"phone_observations\": [\n    \"Pulao rice and meat components clearly visible at 124x96 resolution\",\n    \"Plate decoration and overall dish form preserved in thumbnail\",\n    \"Adequate detail for recognition of finished dish\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title contains non-Latin script (Urdu: پنجابی یخنی پلاؤ); filename indicates 'Punjabi Yakhni Pulao' but source title uses Urdu characters exclusively\",\n    \"Meat species cannot be confirmed visually; brown pieces are present but animal type is not explicitly stated in the supplied source metadata\",\n    \"Yakhni typically implies broth-based preparation, but no explicit protein animal is named in the provided description or filename\"\n  ],\n  \"reason\": \"Identity check fails because the source metadata does not provide an explicit English title matching the dish shown. The filename 'Punjabi Yakhni Pulao' is not part of the official title or description fields supplied; only Urdu script is given in the description. Protein identity cannot be established without an explicit source quote naming the meat species. While the photograph is sharp, well-lit, and appetising, and the phone thumbnail is clear, the absence of verifiable English-language source identification and unnamed meat species trigger a hold per protocol. Do not infer species from tradition or appearance.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1735,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 515,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
