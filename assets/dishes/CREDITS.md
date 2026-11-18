@@ -4220,3 +4220,11 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Malai Kofta with Masala Kulcha** — Zainabtanvi. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Malai_kofta_with_masala_kulcha.jpg). Local asset: `reviewed-commons-40988651.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Doenjang-jjigae (soybean paste stew)** — [jyleen21](https://pixabay.com/users/jyleen21-738506/). [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Doenjang-jjigae.jpg). Local asset: `reviewed-commons-56608158.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Doenjang Jjiggae** — [Marie  from Malang, East Java, Indonesia](https://www.flickr.com/people/14671121@N03). [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:Doenjang_Jjiggae_(17049125165).jpg). Local asset: `reviewed-commons-80472569.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Doenjang jjigae** — Koralex90. [CC BY 3.0](https://creativecommons.org/licenses/by/3.0); [source](https://commons.wikimedia.org/wiki/File:Doenjangjiggae.JPG). Local asset: `reviewed-commons-7775220.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Doenjang jjigae and banchan** — [egg (Hong, Yun Seon)](https://www.flickr.com/photos/7828283@N04). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Korean_cuisine-Doenjang_jjigae_and_banchan.jpg). Local asset: `reviewed-commons-4218237.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **된장찌개** — 15jooyunl. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:%EB%90%9C%EC%9E%A5%EC%B0%8C%EA%B0%9C%EC%9D%98_%EC%99%84%EC%84%B1.jpg). Local asset: `reviewed-commons-26101244.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
