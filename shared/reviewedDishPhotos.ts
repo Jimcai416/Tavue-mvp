@@ -70228,5 +70228,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "height": 720,
     "requiresExactMenuName": true,
     "authorUrl": "https://web.archive.org/web/20161101110651/http://www.panoramio.com/user/7487252?with_photo_id=120544534"
+  },
+  {
+    "id": "commons-12807858",
+    "title": "File:Spätzle mit Rolladen.png",
+    "author": "RainCT",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sp%C3%A4tzle_mit_Rolladen.png",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Sp%C3%A4tzle_mit_Rolladen.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "ded0c8797d982342b812aad671eb9ff0f18fa9dc",
+    "name": "Spätzle mit Rolladen",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-12807858.jpg",
+    "assetSha256": "e134583af66d1054fd89a2469bd8dd02869d97f3b40a65a11ad278ff1ac19f83",
+    "reviewedAt": "2026-11-18",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 624,
+    "requiresExactMenuName": true
   }
 ];
