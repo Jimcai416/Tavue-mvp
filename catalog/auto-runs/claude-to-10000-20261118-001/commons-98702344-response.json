@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAwZB8ipsU5Yy2k9qsP9",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 3,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Raw poultry parts visible in white bowl against green foliage background\",\n    \"Uncooked meat with visible skin and pink/raw tissue\",\n    \"No visible broth, vegetables, or cooking evidence\",\n    \"Preparation/raw stage, not finished dish\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title describes 'Sinabawang bangus' (milkfish in tamarind broth with vegetables) but photograph shows raw poultry parts with no broth, tamarind, labanos, gabi, or bangus visible\",\n    \"Species ambiguity: poultry parts present but not identified in source title\",\n    \"Complete mismatch between declared dish and photographic content\"\n  ],\n  \"reason\": \"Reject: Identity check fails. Source describes a finished Filipino broth dish (Sinabawang labanos, gabi at bangus sa sampalok) with milkfish, vegetables, and tamarind broth. Photograph shows uncooked poultry parts on a plate with no broth, no tamarind preparation, no vegetables, and no bangus (milkfish). This is a raw preparation stage, not a finished, cooked dish. Essential components of the declared dish are absent. No protein species can be sourced from the title for the visible poultry parts.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1791,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 448,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

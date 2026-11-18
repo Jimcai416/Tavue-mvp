@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAwYv867pyTaRKgtGtTS",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 2\n  },\n  \"visible_support\": [\n    \"Raw poultry parts visible: pale pink thighs, drumsticks, wings with visible skin and bone structure\",\n    \"Plate clearly shows uncooked chicken in preparation stage\",\n    \"Natural daylight, sharp focus on raw meat texture\",\n    \"White ceramic plate with green foliage background\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows raw poultry pieces, not a finished cooked dish\",\n    \"Pale pink coloration and visible bone/skin structure confirm uncooked state\",\n    \"No evidence of cooking, sauce, or plating of a complete dish\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source metadata declares 'Sinabawang bangus' (milkfish in tamarind broth) but photograph shows raw poultry, not milkfish or any cooked broth dish\",\n    \"Critical identity mismatch: metadata describes a finished Filipino soup/broth dish; image shows raw meat preparation stage\"\n  ],\n  \"reason\": \"Reject: Fatal identity mismatch. Source title/description claims 'Sinabawang labanos, gabi at bangus sa sampalok' (Filipino milkfish in tamarind broth with vegetables), but the photograph displays raw, uncooked poultry parts in a preparation stage, not a finished, exposed, cooked dish. The image shows pale pink chicken thighs, drumsticks, and wings with visible bone and uncooked skin texture—no tamarind broth, no milkfish, no cooked components. This is a raw ingredient assembly, not a finished plated food suitable for Tavue. All checks fail due to identity contradiction and preparation-stage rejection rule.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1791,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 524,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
