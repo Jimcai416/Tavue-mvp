@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAvmcdd1UnwtnxArRhhR",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 1,\n    \"lighting\": 2,\n    \"composition\": 2,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows dark, indistinct meat pieces in liquid\",\n    \"No clear detail of finished dish components\",\n    \"Colour and texture obscured by poor lighting and focus\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title 'Dani Phol' is transliterated and does not match canonical dish name in standard references\",\n    \"Meat species cannot be reliably determined from appearance alone; 'wazwan' is a cuisine context, not a dish identifier\",\n    \"Image appears to be mid-cooking or preparation stage, not a finished plated dish\",\n    \"Severe softness and low contrast prevent confident identification of essential components\",\n    \"No explicit protein species named in title or description\"\n  ],\n  \"reason\": \"Rejection due to multiple critical failures: (1) Source title is ambiguous transliteration lacking standard canonical form; (2) Image shows poor sharpness (1/5), inadequate lighting (2/5), and unclear composition (2/5)—all below minimum threshold of 4; (3) Visual appearance suggests preparation/cooking stage rather than finished exposed dish; (4) Phone thumbnail fails to show readable essential components; (5) No protein species explicitly named in source metadata; (6) Cannot confirm identity with certainty or preserve specific dish variant from vague wazwan context alone.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1466,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 446,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
