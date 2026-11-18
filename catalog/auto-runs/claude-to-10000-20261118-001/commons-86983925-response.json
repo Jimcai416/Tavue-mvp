@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBGCQjAiv6tuEqn4WSQe",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Red/orange curry broth in large metal pot\",\n    \"Visible meat chunks distributed throughout\",\n    \"Green vegetable (appears to be gourd/squash piece on top)\",\n    \"Ladle with yellow/golden rice visible\",\n    \"Street food service setting with multiple dishes in background\",\n    \"Natural daylight, well-exposed\"\n  ],\n  \"phone_observations\": [\n    \"Curry stew with meat and vegetables clearly visible\",\n    \"Red broth prominent\",\n    \"Distinct ladle with rice\",\n    \"Subject occupies adequate portion of thumbnail\",\n    \"Readable as finished cooked dish\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title 'Gulai tunjang' specifies 'tunjang' (leg/shin meat) but animal species is not explicitly named in title or description\",\n    \"Meat species cannot be reliably determined from appearance alone\",\n    \"Gulai tunjang traditionally refers to beef or goat; source does not specify which\"\n  ],\n  \"reason\": \"Image quality, photograph authenticity and phone thumbnail all meet criteria. However, identity check fails: source title 'Gulai tunjang' names a preparation and cut (tunjang = leg/shin) but does not explicitly name the animal species. No protein can be accepted without an exact source quote naming the specific animal (chicken/beef/pork/duck/lamb/seafood). Traditional knowledge suggests beef or goat, but this cannot override the requirement for explicit source evidence. Hold pending clarification of meat species in authoritative source description.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1736,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 496,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

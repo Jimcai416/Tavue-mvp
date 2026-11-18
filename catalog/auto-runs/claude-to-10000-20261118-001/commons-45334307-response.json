@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBGCpRhStXco4eDUforo",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Cooked sticky rice (xôi) prominently featured\",\n    \"Red cured meat slices (lạp xường/Chinese sausage visible)\",\n    \"Pale meat patty with speckled appearance (giò bò candidate)\",\n    \"Green vegetable slices consistent with cucumber (dưa chuột)\",\n    \"Natural colours, finished dish, home-style plating\"\n  ],\n  \"phone_observations\": [\n    \"Rice with red meat toppings clearly visible in thumbnail\",\n    \"Cucumber slices sharp and readable\",\n    \"Meat patty visible at bottom\",\n    \"Composition matches full image, essential components present\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Species of 'giò bò' (beef paste/pâté) cannot be visually confirmed as beef; source states 'bò' (beef) but appearance does not prove species\",\n    \"Lạp xường identified as 'Chinese sausage' in source but specific meat animal not explicitly named in title/description\",\n    \"Source metadata format (File:...jpg) is untrusted and not used for canonical naming\",\n    \"Description is in Vietnamese; English rendering of 'giò bò' as beef and 'lạp xường' as sausage requires source confirmation of exact animal qualifier\"\n  ],\n  \"reason\": \"Image quality, composition, and phone thumbnail are all acceptable (scores ≥4). Dish is a finished, exposed, naturally coloured sticky rice preparation with visible components. However, identity cannot be confirmed because: (1) the source description lists 'giò bò' (beef paste) and 'lạp xường' (sausage), but 'lạp xường' does not explicitly name the animal species in the provided title/description—it is only identified generically as 'sausage' and 'Chinese sausage'; (2) 'giò bò' contains the Vietnamese qualifier 'bò' meaning beef, but visual appearance alone does not prove the meat species. Per protocol, unspecified or ambiguous meat species require a hold. A source quote with explicit animal naming (e.g., 'pork lạp xường') is needed to proceed.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1760,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 649,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

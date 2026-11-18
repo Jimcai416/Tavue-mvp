@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBGByBmhKWrcA7Ks1RpC",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Golden-yellow meat pieces in reddish-orange gravy\",\n    \"Herbs visible (green leaves)\",\n    \"Finished, cooked curry dish\",\n    \"Prominent in both full and thumbnail views\",\n    \"Naturally coloured, appetising appearance\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows stewed meat in red-orange sauce\",\n    \"Essential components visible and readable\",\n    \"No clipping of critical food elements\",\n    \"Consistent with full image composition\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title 'Gulai tunjang' refers to a specific regional Minangkabau curry, but the meat species is not explicitly named in the source description\",\n    \"'Tunjang' traditionally refers to a specific cut/meat but source does not state which animal (commonly beef shank, but not guaranteed)\",\n    \"No explicit protein species declaration in title or description to support acceptance\"\n  ],\n  \"reason\": \"The photograph shows a finished, well-composed curry dish with strong appeal and technical quality. However, the source title and description do not explicitly name the protein species. While 'gulai tunjang' is a known regional dish, the identity check requires explicit animal naming in the source to prevent inference by tradition or appearance. Without a clear statement like 'beef', 'lamb', or other allowed protein in the title or description, protein_evidence cannot be populated and identity remains unverified. Hold pending source clarification of meat species.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1736,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 477,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

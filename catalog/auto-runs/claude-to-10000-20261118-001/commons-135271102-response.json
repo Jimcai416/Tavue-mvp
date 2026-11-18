@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBGBtpqJM8SWCfrAZMg9",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Skewered meat on sticks, upper portion\",\n    \"Sausage links on lower tray\",\n    \"Street food preparation setting\",\n    \"Natural daylight, outdoor vendor context\"\n  ],\n  \"phone_observations\": [\n    \"Skewered meat and sausages both visible in thumbnail\",\n    \"Colouring consistent with grilled/roasted preparation\",\n    \"Food prominence adequate for phone crop\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title contains 'thịt nướng xâu Tây Bắc' (Northwest grilled meat skewers) but species is not explicitly named in English metadata\",\n    \"Sausage type ('lạp xưởng') is mentioned but specific animal source is not stated\",\n    \"Two distinct products visible: skewers and sausages; no single canonical dish name can be reliably extracted from metadata without ambiguity over which product is primary\"\n  ],\n  \"reason\": \"The photograph shows two distinct prepared meat products at a culinary festival: grilled meat skewers (thịt nướng xâu) and sausage (lạp xưởng). The source metadata does not provide explicit English animal species identification for either component—'thịt' means meat generically, and sausage species is unspecified. Without a clear single dish identity and explicit protein species confirmation in the source description, identity cannot be verified. The image quality, sharpness, lighting and phone presentation are all acceptable, but the protein_evidence requirement and identity check cannot be satisfied.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1783,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 498,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

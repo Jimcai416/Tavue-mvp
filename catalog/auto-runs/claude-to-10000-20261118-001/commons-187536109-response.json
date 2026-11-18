@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBGCTBWdk6L1or42AWZm",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Sticky rice (xôi) base visible and prominent\",\n    \"Shredded chicken clearly visible in centre\",\n    \"Crispy fried shallots or fried garlic scattered throughout\",\n    \"Sliced cured meat (lạp xướng) visible on plate\",\n    \"Two soft-boiled quail or small chicken eggs visible\",\n    \"Orange preserved vegetables (carrots or radish) visible\",\n    \"White ceramic plate, natural lighting, sharp detail\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows complete finished dish\",\n    \"Sticky rice and chicken components prominent in centre\",\n    \"Crispy fried elements visible\",\n    \"Eggs and sausage visible at plate edges\",\n    \"All essential components readable in thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title contains 'chinese sausages' but photograph shows 'Lạp Xướng' which is a specific Vietnamese cured pork sausage. The source description conflates regional origin with actual ingredient identity.\",\n    \"Species of sausage not explicitly named in source (sausage category excluded per rules)\",\n    \"Eggs identified as 'Trứng Non' (small/young eggs) in title but species unclear—could be quail or chicken; source does not explicitly name poultry species for eggs\",\n    \"Chicken is named in source title ('Gà' = chicken in Vietnamese), but canonical name must use exact source phrasing which mixes English and Vietnamese inconsistently\"\n  ],\n  \"reason\": \"Image quality, sharpness, lighting, composition and appeal all excellent (scores 4–5). Full image and phone thumbnail both show a finished, exposed, appetising sticky rice dish with clearly visible chicken, crispy elements, eggs, sausage and preserved vegetables. However, the source title/description contains unresolved protein identification issues: 'chinese sausages' contradicts the specific Vietnamese ingredient 'Lạp Xướng' and does not name the sausage animal; 'Trứng Non' (small eggs) does not explicitly name the bird species. The source also mixes Vietnamese and English terminology inconsistently ('Xôi Gà Trứng Non Lạp Xướng' alongside 'Sticky rice with chicken and eggs, and chinese sausages'). Per protocol, unknown or ambiguous meat species and conflicting source descriptions require a hold. No exact, unambiguous canonical name can be extracted that preserves all qualifiers while matching visible form and resolving species uncertainty.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1977,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 724,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
