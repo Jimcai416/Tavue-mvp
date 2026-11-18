@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAUBRJ2GHQkpFYR4GR5Y",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 3,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [\n    \"Thin vermicelli noodles visible throughout\",\n    \"Green vegetables (peas, diced onion) scattered\",\n    \"Yellow/golden colouring consistent with turmeric seasoning\",\n    \"Cooked, finished dish plating on plate\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail shows noodle-based dish clearly\",\n    \"Vermicelli strands prominent and identifiable\",\n    \"Vegetable pieces visible in phone view\",\n    \"Natural colour, appetising appearance maintained in thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title states 'Semolina Upma' but description and visible form indicate 'Seviya Upma' (vermicelli-based); metadata contradiction on primary ingredient\",\n    \"Description claims 'Mixed Veg' but specific vegetables only partially visible (peas, diced portions); other components not clearly identifiable\",\n    \"No protein (meat/seafood/legumes) visually evident or mentioned in source; identity ambiguous\"\n  ],\n  \"reason\": \"Source metadata contradiction: title says 'Semolina Upma' (semolina-based) but description explicitly states 'Seviya Upma or Vermicelli Upma' (vermicelli-based). Visual form matches vermicelli, not semolina. Canonical name cannot be confirmed as exact source title/description match. Hold required due to unresolved identity conflict between file title and description text.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1771,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 479,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

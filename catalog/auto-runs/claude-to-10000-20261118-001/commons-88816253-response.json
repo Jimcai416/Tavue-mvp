@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAUBjd5eihxdbgT79Bjq",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Brown curry sauce base on plate\",\n    \"Poached or soft eggs with visible runny yolk\",\n    \"Herb garnish (chives/green onion)\",\n    \"Wooden serving plate\",\n    \"Professional plating\",\n    \"Active service (spoon hovering)\"\n  ],\n  \"phone_observations\": [\n    \"Curry dish clearly visible in thumbnail\",\n    \"Eggs and sauce prominent\",\n    \"Plate and composition recognisable at reduced size\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title states 'Japanese curry rice' but visible dish shows curry on a wooden plate with eggs and no visible rice component\",\n    \"Eggs are prominent but their preparation (poached vs soft-boiled) cannot be definitively determined\",\n    \"No protein animal explicitly named in source description\",\n    \"Dish identity contradiction: rice not visibly present despite title claim\"\n  ],\n  \"reason\": \"Identity check fails. The source title 'Japanese curry rice' does not match the visible dish composition. The photograph shows curry sauce with eggs on a wooden plate, with no visible rice component that would justify the 'rice' designation in the title. This is a material contradiction between source description and actual photographed food. Additionally, no protein species is explicitly named in the source metadata, so protein_evidence is empty. The image quality, photograph authenticity, and phone thumbnail are acceptable, but the identity mismatch requires hold per protocol.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1614,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 464,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

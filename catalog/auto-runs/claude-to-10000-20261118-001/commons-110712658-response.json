@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAUBKeSDie7woTb7T3di",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Flatbread clearly visible in thumbnail\",\n    \"Golden-brown colour and sesame seed topping evident\",\n    \"Multiple naan pieces stacked in basket\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title is a generic description, not a specific dish name or variant identifier\",\n    \"File name format (File:...) and metadata presentation indicate this is a stock/reference image, not a restaurant dish photograph\",\n    \"No specific variant, preparation method, toppings, or regional qualifier can be extracted from the generic source description\",\n    \"Image appears to be a documentation photograph rather than a food service photograph\"\n  ],\n  \"reason\": \"Rejection: The source title/description is a generic encyclopedic definition ('Naan is a leavened, oven-baked or tawa-fried flatbread...') rather than a specific dish name or variant. The File: prefix and author/license metadata indicate this is a reference or stock image, not a finished dish from a food service context. No canonical_name can be extracted from generic category description alone. While the photograph quality and composition are acceptable, identity check fails because there is no specific, meaningful dish identifier in the source metadata—only a broad category name. Tavue requires specific dish identification with meaningful variant qualifiers.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1769,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 433,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
