@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChALUe8yBpwdoNLUaWB5y",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Cooked rice pilaf, light brown, granular texture, prominent left-centre position\",\n    \"Golden-brown baked pastry dish (top-left), appears to be layered\",\n    \"Sliced cooked meat, pale tan/beige colour, multiple pieces arranged right-centre\",\n    \"Visible plate with decorative green herb border\",\n    \"Home dining setting with patterned tablecloth and place settings\"\n  ],\n  \"phone_observations\": [\n    \"Pilaf visible in lower-left quadrant\",\n    \"Baked pastry dish readable in upper portion\",\n    \"Sliced meat pieces clearly visible\",\n    \"Overall composition legible and appetising at thumbnail scale\"\n  ],\n  \"protein_evidence\": {\n    \"lamb\": \"\\\"lamb\\\" in source description\",\n    \"turkey\": \"\\\"turkey\\\" in source description\"\n  },\n  \"uncertainties\": [\n    \"Source description lists four distinct components (pilaf, pastitsio, lamb, turkey) but photograph composition and meat presentation make it ambiguous which meat is which or whether both are clearly present and distinguishable\",\n    \"The sliced meat appears uniform in colour and texture—cannot visually confirm whether it represents lamb, turkey, or both species\",\n    \"Pastitsio is a pasta-based dish, but the golden-brown item shown appears to be a different preparation; identity and composition of the baked item cannot be verified visually\",\n    \"Source metadata declares \\\"Christmas Dinner\\\" as a composite meal, but the exact dish name/identity is unclear—this reads as a plate assembly rather than a single named dish\"\n  ],\n  \"reason\": \"Source description lists multiple components and two proteins (lamb and turkey) with conflicting or unclear visual representation. The sliced meat pieces do not permit confident species identification; the baked item's identity as 'pastitsio' cannot be verified visually; and the overall plate is presented as a home dinner assembly rather than a specific named dish. While photograph quality and composition are acceptable (sharpness 4, lighting 4, composition 4, appeal 4), the identity check fails due to ambiguity in the actual dish being served and uncertainty about protein species and component identity. Hold pending clarification of which specific finished dish this represents.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1630,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 639,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
