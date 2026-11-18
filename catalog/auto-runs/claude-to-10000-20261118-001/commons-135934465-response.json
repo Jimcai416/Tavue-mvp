@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAZv9n95Y7xsUp4x6BKf",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [\n    \"Large, puffy fried bread visible in full source image\",\n    \"Golden-brown colour consistent with deep-fried dough\",\n    \"Accompaniments in metal compartments (two golden curries, white side dish)\",\n    \"Phone thumbnail clearly shows the bread as main subject\"\n  ],\n  \"phone_observations\": [\n    \"Bread dominates centre-cover thumbnail\",\n    \"Puffed, light-coloured fried appearance readable\",\n    \"Accompanying items visible but secondary\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title contains four variant spellings (batoora, bhatura, batura, pathora) without specification of which applies to this preparation\",\n    \"Metadata lists variants as alternatives rather than confirming this specific dish's name\",\n    \"No explicit protein declaration in source; cannot verify if this is meat-filled or plain fried bread\"\n  ],\n  \"reason\": \"Source metadata presents multiple unresolved variant names (batoora/bhatura/batura/pathora) without clarity on which single canonical name applies to this specific preparation. The title format 'also known as' lists alternatives without committing to identity. Additionally, no protein is explicitly declared; the dish may be a plain fried bread or filled preparation, and appearance alone cannot confirm contents. Source title contradiction on identity ≠ specific source-exact match for canonical_name. Hold per protocol.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 2062,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 453,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

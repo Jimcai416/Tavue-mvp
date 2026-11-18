@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAZv3qi9pLgerACvnooN",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 5,\n    \"composition\": 5,\n    \"appeal\": 5\n  },\n  \"visible_support\": [\n    \"Cast iron skillet with golden-brown cubed protein and green herbs\",\n    \"Fresh herbs (green onions, cilantro) visible throughout\",\n    \"Dipping sauce in white bowl\",\n    \"Accompanying ingredients: dragon fruit, fresh greens, noodles\",\n    \"Sharp detail and natural daylight throughout\"\n  ],\n  \"phone_observations\": [\n    \"Central dish clearly visible in thumbnail\",\n    \"Golden cubes with green herb garnish prominent\",\n    \"Skillet and surrounding ingredients readable\",\n    \"Colour and composition match full source\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title declares 'Turmeric Fish' but visible cubes cannot be visually confirmed as fish rather than tofu or another protein\",\n    \"Source describes 'white fish, such as catfish or tilapia' but photograph shows golden cubes that do not display characteristic fish texture, flaking, or translucency\",\n    \"No explicit source quote names specific fish species; 'catfish or tilapia' are examples within description, not confirmations of content\",\n    \"Appearance is consistent with crispy tofu or fried protein, not grilled/steamed fish\",\n    \"Identity mismatch between declared dish and visual evidence\"\n  ],\n  \"reason\": \"Source metadata declares this as 'Turmeric Fish' (Chả Cá Lã Vọng) with specific fish species mentioned as examples, but the photograph shows uniformly golden-brown cubes with crispy exterior that are visually indistinguishable from tofu or other protein. No source text explicitly confirms which animal protein is present—the description lists fish species as examples within the dish explanation, not as a definitive statement of this image's contents. The visible form does not support the fish identity claim. Protein_evidence remains empty because no exact source quote naming a specific fish species (as a confirmatory statement about this dish) is present. Hold rules require rejection when protein identity is uncertain or unsupported by visual and textual evidence together.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1896,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 598,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

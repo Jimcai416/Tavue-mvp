@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAZu2b21AVWxB2C2WrWM",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 2,\n    \"composition\": 2,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Phone thumbnail shows only component bowls/dishes, not a finished plated biryani\",\n    \"Individual ingredient/side dishes visible (rice, dahi, sauce), not integrated dish\",\n    \"No cohesive finished dish presentation recognizable in thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source metadata lists 'Chicken' in ingredients but photograph shows only components/sides, not a finished biryani dish with identifiable chicken\",\n    \"Title claims 'Hyderabadi Dum Biryani' but image depicts preparation stage or component presentation, not a finished exposed biryani\"\n  ],\n  \"reason\": \"Photograph shows raw/preparation stage components (separate bowls of rice, dahi, sauce, spices) arranged on table, not a finished, cooked, plated biryani dish. Phone thumbnail confirms only individual ingredient bowls are visible, not a cohesive finished dish. Fails photograph quality check (preparation stage, not finished dish), phone check (components only, essential food scattered/clipped across bowls), and identity check (source claims finished biryani but image shows ingredient staging). Lighting is dim/uneven. No finished, exposed, appetising dish presentation is evident.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1759,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 420,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
