@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAxXL358a1eiu2b8pv3P",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Folded wheat tortillas with visible char marks\",\n    \"White cheese filling visible in cross-section\",\n    \"Served on white plate\",\n    \"Golden-brown exterior colouration\",\n    \"Multiple identical portions arranged in row\"\n  ],\n  \"phone_observations\": [\n    \"Quesadilla cross-sections clearly visible in thumbnail\",\n    \"Cheese fill and tortilla structure evident\",\n    \"Plate and presentation recognisable at reduced size\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title describes 'quesadilla - a Mexican tortilla with molten cheese' but provides no explicit protein identification\",\n    \"Visible cheese filling does not constitute protein category evidence under review rules\",\n    \"No animal protein explicitly named in source description\",\n    \"Generic 'cheese' alone cannot be mapped to any allowed protein_evidence key\"\n  ],\n  \"reason\": \"Reject: source description names only 'cheese' with no explicit animal protein species identified. Cheese is not an allowed protein category key. The description 'a Mexican tortilla with molten cheese' provides no quoted evidence of chicken, beef, pork, duck, lamb or seafood. Visual appearance of cheese filling cannot substitute for explicit source naming of protein species. Photo quality and composition are acceptable, but identity check fails due to lack of explicit protein evidence matching allowed categories.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1524,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 444,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

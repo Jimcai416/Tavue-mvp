@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAxWpv7fJUBp61EBnTyQ",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Cooked dark meat pieces visible\",\n    \"Red peppers and cucumber slices\",\n    \"Onion rings and ginger garnish\",\n    \"Sweet and sour sauce coating\",\n    \"Green leaf bed presentation\",\n    \"Finished, exposed dish state\"\n  ],\n  \"phone_observations\": [\n    \"Dish structure legible in thumbnail\",\n    \"Dark meat and vegetable components visible\",\n    \"Sauce evident\",\n    \"Professional plating apparent\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title specifies 'Maya-maya' (red snapper, Lutjanidae family), but source metadata lists only Wikipedia links without explicit confirmation the cooked meat visible is fish rather than another animal\",\n    \"Species identity cannot be visually confirmed from cooked appearance alone\",\n    \"No explicit protein identification statement in source description beyond the dish name\"\n  ],\n  \"reason\": \"The photograph is sharp, well-lit, compositionally sound, and shows a finished, appetising dish legible in the phone thumbnail. However, the check for identity fails because the source title references 'Maya-maya' (a specific fish species), but the actual protein cannot be confirmed visually from the cooked meat pieces. The source description does not include an explicit statement naming the fish species in the text itself—only dish name and Wikipedia links. Per protocol, ambiguous meat species or unconfirmed animal identification requires a hold. The variant name and preparation (ginger and sweet and sour sauce) are preserved in the title, but protein identity evidence cannot be extracted as a direct quote from the supplied description.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1702,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 495,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
