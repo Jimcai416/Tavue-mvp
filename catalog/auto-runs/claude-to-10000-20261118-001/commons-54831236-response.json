@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAwqfVVZR34bqp3Fided",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Vietnamese soup in white bowl\",\n    \"Rich amber-brown broth\",\n    \"Fresh green onion/scallion garnish\",\n    \"Fresh cilantro garnish\",\n    \"Visible protein chunks in broth\",\n    \"Spoon present\",\n    \"Appetising colour and presentation\"\n  ],\n  \"phone_observations\": [\n    \"Soup bowl clearly visible\",\n    \"Broth colour and texture readable\",\n    \"Garnish visible\",\n    \"Protein components present but not individually distinguishable at thumbnail scale\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'crabmeat and prawns' but source description does not explicitly name these proteins with exact phrase quotes matching the description text\",\n    \"Visible meat/protein pieces in the bowl cannot be reliably identified as crab versus prawn versus other seafood from visual inspection alone\",\n    \"Description states proteins but does not provide them as exact quoted phrases suitable for canonical identity confirmation\"\n  ],\n  \"reason\": \"While the photograph is sharp, well-lit, appetising and the dish is clearly a Vietnamese soup matching the general category, the protein_evidence cannot be populated because the source description 'having crabmeat and prawns' does not appear as exact case-sensitive substrings in a formal title suitable for canonical_name extraction. The source provides only 'File:Bun Rieu.jpg' as title and a descriptive sentence rather than a canonical dish name. Visible protein components in the bowl cannot be visually confirmed as specifically crab or prawn. Without an exact source-quoted canonical name and verifiable protein phrases, identity cannot be confirmed despite quality and photograph checks passing.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1533,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 518,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAwrMhSqCqKbeN1tA4xq",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [\n    \"Pot of broth-based stew with visible meat pieces and green vegetable garnish (okra or similar)\",\n    \"Ladle showing meat and broth suspended above pot\",\n    \"Kitchen setting with home cooking context\",\n    \"Natural lighting, in-progress preparation stage\"\n  ],\n  \"phone_observations\": [\n    \"Pot clearly visible with broth and ingredients\",\n    \"Ladle prominent with contents suspended\",\n    \"Dish recognizable but represents preparation/cooking stage\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Dish appears to be in active cooking/preparation stage, not a finished plated dish ready for consumption\",\n    \"Meat species cannot be definitively identified from visual appearance alone\",\n    \"Source description 'Gumbo' is generic and does not specify regional variant, meat type, or specific preparation\",\n    \"No explicit protein naming in source metadata\"\n  ],\n  \"reason\": \"Reject: This photograph depicts a dish during the cooking process (ladle actively suspending contents, pot on stovetop mid-preparation) rather than a finished, exposed, plated dish. Per guidelines, preparation stages are not acceptable. Additionally, the source provides only the generic title 'Gumbo' without specifying meat species, regional variant, or other meaningful qualifiers. Protein species cannot be determined from visual inspection alone and are not declared in source text. All quality and photographic checks pass, but identity criteria fail due to preparation stage and absence of required protein specification.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1720,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 474,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
