@@ -59183,5 +59183,51 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "height": 640,
     "requiresExactMenuName": true,
     "authorUrl": "https://www.flickr.com/photos/jorgecancela/"
+  },
+  {
+    "id": "commons-82292989",
+    "title": "File:Mushroom pork dumplings for lunch.jpg",
+    "author": "Geoffreyrabbit",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mushroom_pork_dumplings_for_lunch.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Mushroom_pork_dumplings_for_lunch.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "89036bf7f1302549d95f115242eee7b2ed9255a4",
+    "name": "Mushroom and pork dumplings",
+    "aliases": [],
+    "proteins": [
+      "pork"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-82292989.jpg",
+    "assetSha256": "ff0833e44abff60966ce90e1eb89bd4a16f7da22540d3f8fa46e345a39a634bc",
+    "reviewedAt": "2026-11-18",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-80890052",
+    "title": "File:Spring soup dumplings (陽春湯餃).jpg",
+    "author": "NeoBatfreak",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Spring_soup_dumplings_(%E9%99%BD%E6%98%A5%E6%B9%AF%E9%A4%83).jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/64/Spring_soup_dumplings_%28%E9%99%BD%E6%98%A5%E6%B9%AF%E9%A4%83%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "9ba775d6c1ea2507946264bb68a52eb9225fd1ba",
+    "name": "Spring soup dumplings (陽春湯餃)",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-80890052.jpg",
+    "assetSha256": "0729f33096cee5b536ed7827ee8aa2b0f43aa53774bdf42c072ecf5affa6db19",
+    "reviewedAt": "2026-11-18",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];
