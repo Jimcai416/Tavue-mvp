@@ -4743,3 +4743,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 - **Jambalaya** — Arnold Gatilao. [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Jambalaya_-_3315899200.jpg). Local asset: `reviewed-commons-90172048.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Satay in Singapore Airlines** — Jkr2255. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Satay_in_Singapore_Airlines.jpg). Local asset: `reviewed-commons-87695968.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Mole rojo estilo Querétaro** — Pabliotecario. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Mole_rojo_estilo_Quer%C3%A9taro.jpg). Local asset: `reviewed-commons-119871679.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Cajun Platter; Crawfish Etouffee, Shrimp Gumbo, Crab Legs, Shrimp, Potato, Corn** — Jesper Rautell Balle. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Jrb_20080924_cajun_etouffee_gumbo_shrimp_crab_leg.JPG). Local asset: `reviewed-commons-4880943.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.

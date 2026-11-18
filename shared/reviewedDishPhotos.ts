@@ -67825,5 +67825,29 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 720,
     "height": 960,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-4880943",
+    "title": "File:Jrb 20080924 cajun etouffee gumbo shrimp crab leg.JPG",
+    "author": "Jesper Rautell Balle",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jrb_20080924_cajun_etouffee_gumbo_shrimp_crab_leg.JPG",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Jrb_20080924_cajun_etouffee_gumbo_shrimp_crab_leg.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "98deaffd56783fc802adae36bee7a67cd1bbbbef",
+    "name": "Cajun Platter; Crawfish Etouffee, Shrimp Gumbo, Crab Legs, Shrimp, Potato, Corn",
+    "aliases": [],
+    "proteins": [
+      "seafood"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-4880943.jpg",
+    "assetSha256": "103f06550539b1bb1e1d64e39ab7b5447fc08766a934e314ce45b390f85b49b0",
+    "reviewedAt": "2026-11-18",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];
