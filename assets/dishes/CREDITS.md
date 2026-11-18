@@ -5984,3 +5984,9 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 
 - **Ensaladang Latô** — Obsidian Soul. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Ensaladang_Lato_(Seaweed_Salad)_-_Philippines_1.jpg). Local asset: `reviewed-commons-58011042.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Bacon Silog Meal** — Ralff Nestor Nacor. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Bacon_Silog_Meal,_Sep_2025.jpg). Local asset: `reviewed-commons-175469311.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Bacon Silog with French Fries** — Ralff Nestor Nacor. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Bacon_Silog_with_French_Fries,_Sep_2025.jpg). Local asset: `reviewed-commons-175469302.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Espasol** — Judgefloro. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:07441jfCuisine_Breads_Fruits_Baliuag_Landmarks_Bulacanfvf_42.jpg). Local asset: `reviewed-commons-61446015.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Chile relleno** — Missvain. [CC BY 4.0](https://creativecommons.org/licenses/by/4.0); [source](https://commons.wikimedia.org/wiki/File:El_Azteca_-_March_2024_-_Sarah_Stierch_01.jpg). Local asset: `reviewed-commons-146477480.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
