@@ -78638,5 +78638,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 960,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-118629044",
+    "title": "File:Steinpilz-Gnocchi, Martinsthal.jpg",
+    "author": "Gerda Arendt",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Steinpilz-Gnocchi,_Martinsthal.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Steinpilz-Gnocchi%2C_Martinsthal.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "c597e1dabc673a79baa74bac3b3162f848632027",
+    "name": "Porcini gnocchi, served with saitlings, green asparagus and cherry tomatoes",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-118629044.jpg",
+    "assetSha256": "96a1eac5f27bca9ec76057b506ebb04507136ca84e7cdcf78f6bdbf93040d461",
+    "reviewedAt": "2026-11-18",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 960,
+    "requiresExactMenuName": true
   }
 ];

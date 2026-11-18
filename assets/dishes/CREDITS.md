@@ -5703,3 +5703,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 
 - **Scallops, Lumpfish Caviar, Lobster sauce, with Fresh Egg Pappardelle** — Andy Li. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:%E9%A6%99%E7%85%8E%E5%B8%B6%E5%AD%90%E9%BB%91%E9%AD%9A%E7%B1%BD%E9%BE%8D%E8%9D%A6%E6%B1%81%E9%AE%AE%E8%9B%8B%E9%97%8A%E6%A2%9D%E9%BA%B5.jpg). Local asset: `reviewed-commons-129761521.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Polenta fries with spicy aioli** — Missvain. [CC BY 4.0](https://creativecommons.org/licenses/by/4.0); [source](https://commons.wikimedia.org/wiki/File:Tips_Roadside_-_2021-07-03_-_Sarah_Stierch_04.jpg). Local asset: `reviewed-commons-107874020.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Porcini gnocchi, served with saitlings, green asparagus and cherry tomatoes** — Gerda Arendt. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Steinpilz-Gnocchi,_Martinsthal.jpg). Local asset: `reviewed-commons-118629044.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
