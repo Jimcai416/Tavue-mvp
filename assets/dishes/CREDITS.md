@@ -5349,3 +5349,10 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Shaobing** — [C C](https://www.flickr.com/photos/37039463@N00). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Shaobing5.jpg). Local asset: `reviewed-commons-4825638.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Fesenjan** — Darafsh. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Fesenjan_7861.jpg). Local asset: `reviewed-commons-202670928.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Rau muống xào tỏi ớt** — Phương Huy. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Khu_ngh%E1%BB%89_d%C6%B0%E1%BB%A1ng_%E1%BB%9F_C%C3%A1i_B%C3%A8_(%C4%90%E1%BB%93_%C4%83n,_ch%C3%A9n_rau_mu%E1%BB%91ng_x%C3%A0o_t%E1%BB%8Fi_%E1%BB%9Bt).jpg). Local asset: `reviewed-commons-135775847.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Dhansak** — Miansari66. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Dhansak.JPG). Local asset: `reviewed-commons-15235231.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Rau muống xào tỏi** — Phương Huy. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Khu_ngh%E1%BB%89_d%C6%B0%E1%BB%A1ng_%E1%BB%9F_C%C3%A1i_B%C3%A8_(%C4%90%E1%BB%93_%C4%83n,_d%C4%A9a_rau_mu%E1%BB%91ng_x%C3%A0o_t%E1%BB%8Fi).jpg). Local asset: `reviewed-commons-135778494.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
