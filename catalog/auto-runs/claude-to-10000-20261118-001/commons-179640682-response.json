@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAcU9AKRY7MJt5CQu4R5",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Cabbage leaves visible as outer wrapping\",\n    \"Meat and rice filling visible in cross-section\",\n    \"Cooked, finished dish in pot\",\n    \"Natural browning and sauce evident\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail shows cooked cabbage rolls with visible meat/rice filling\",\n    \"Adequate detail of finished dish\",\n    \"Natural colour and composition preserved\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source metadata lists 'meat' without specifying animal species (chicken/beef/pork/lamb/duck/seafood)\",\n    \"Cannot determine which meat species is present from visual appearance alone\",\n    \"No explicit protein identification in source title or description\"\n  ],\n  \"reason\": \"Image shows a finished, well-photographed dish of stuffed cabbage rolls with visible meat and rice filling, presented in a pot with sauce. Quality and photograph checks pass. However, the source description states only 'meat' without naming the specific animal species (chicken, beef, pork, lamb, duck, or seafood). Per protocol, unspecified meat species cannot be included in protein_evidence, and this uncertainty prevents acceptance. The canonical_name cannot be completed without explicit protein specification from the source.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1805,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 420,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAcTz2Pb5qxd9DtnL9Kv",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": true,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 2,\n    \"composition\": 2,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Subject is extremely small in thumbnail, occupying ~8% of frame\",\n    \"Details entirely unreadable at phone scale\",\n    \"Essential food components clipped or obscured by distance and shadows\",\n    \"Lighting too dim to assess dish characteristics\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title references Adjaruli Khachapuri but source description is only 'IMG_2853', creating contradiction\",\n    \"Three objects are barely visible as pale outlines on dark wood; cannot confirm they are finished dishes\",\n    \"Insufficient detail to verify khachapuri form, filling, or toppings\",\n    \"Severe underexposure and distance make it impossible to assess colour, texture, or appetising presentation\"\n  ],\n  \"reason\": \"Rejection: (1) Essential food clipped/unreadable in phone thumbnail—subjects are tiny distant outlines. (2) Severe underexposure and distance prevent assessment of sharpness, natural colour, detail and appeal across both images. (3) Source title 'Adjaruli Khachapuri' contradicts actual description 'IMG_2853', creating identity uncertainty. (4) Composition score 2 reflects unfocused, distant treatment unsuitable for food review. (5) Multiple quality and phone checks fail. This is a preparation-stage or extreme long-shot image, not a finished dish portrait.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1627,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 459,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
