@@ -69171,5 +69171,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 720,
     "height": 960,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-145776570",
+    "title": "File:Pitha festival 2024 19.jpg",
+    "author": "Wasiul Bahar",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pitha_festival_2024_19.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/40/Pitha_festival_2024_19.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "f52cd177e6ee4fb421f66bc5d9de8a8f6e0bcaf7",
+    "name": "Pitha festival 2024",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-145776570.jpg",
+    "assetSha256": "8801a8642a0ba2bdd4069fa08cf3e666e6725d62864b7d6182fe060c8d09a2f1",
+    "reviewedAt": "2026-11-18",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 640,
+    "requiresExactMenuName": true
   }
 ];

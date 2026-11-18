@@ -4871,3 +4871,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Homemade Goulash with Rice** — HaJunkiyada. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Liat_Portal_for_Foodie_Disorder_-_Homemade_Goulash_with_Rice.jpg). Local asset: `reviewed-commons-181693534.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Pitha festival 2024** — Wasiul Bahar. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Pitha_festival_2024_19.jpg). Local asset: `reviewed-commons-145776570.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
