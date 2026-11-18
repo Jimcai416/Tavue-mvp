@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAz9S273fnsTCsfAz1mm",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 3,\n    \"composition\": 3,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Plate visible with mixed meat items\",\n    \"Cannot resolve individual components clearly\",\n    \"Low contrast and compression obscure detail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Boudin species cannot be determined from appearance alone; source uses generic 'boudin blanc & boudin noir' without explicit animal species declaration\",\n    \"Multiple unidentified meat items present (cured slices, sausages, cooked pieces)\",\n    \"Sausage category cannot be supported without explicit species naming\",\n    \"Side component (shredded vegetable/potato) identity unclear\",\n    \"No source quote explicitly names any animal species\"\n  ],\n  \"reason\": \"Reject: Source title 'Boudin blanc & boudin noir' names sausage types by colour/texture only, not by explicit animal species. Boudin may contain pork, veal, chicken, or other animals depending on regional variation and producer. The rule requires exact source quote explicitly naming each animal—a generic sausage name does not qualify. Additional unidentified meat components on the plate cannot be categorized. Full-image sharpness is poor (2/5), and phone thumbnail is too compressed to resolve essential components. All checks cannot pass without explicit species declaration in source metadata.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1450,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 427,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
