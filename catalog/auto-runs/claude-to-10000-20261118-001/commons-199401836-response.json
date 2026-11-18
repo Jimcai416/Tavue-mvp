@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChB1cHt5UfLskw2LFsQzs",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Red bowl with layered meat slices and vegetables\",\n    \"Golden-brown seared meat visible\",\n    \"Green vegetable garnish present\",\n    \"Orange item (described as tomato) on top\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title claims 'Chicken Teriyaki with Tomato' but photograph shows no visible rice bowl—only meat and vegetables on a red plate with no rice layer visible\",\n    \"The orange item on top is a whole tomato or egg, not a diced/integrated tomato component\",\n    \"No rice is visible in either the full source photograph or thumbnail, contradicting 'Rice bowl' in title\",\n    \"Meat species cannot be confirmed as chicken from appearance alone; slices resemble beef or duck\",\n    \"Source metadata (title/description) contradicts the actual visual content\"\n  ],\n  \"reason\": \"Identity check failed. The source title explicitly describes a 'Rice bowl' but the photograph shows no rice—only layered meat slices and vegetables on a red plate. The title claims 'Chicken Teriyaki' but the meat appearance is inconsistent with typical chicken teriyaki presentation and the slices resemble beef or duck. The tomato is presented whole on top, not integrated. Source description contradicts visible form. Cannot confirm chicken species from appearance alone, and no rice component matches the 'Rice bowl' specification.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1742,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 460,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

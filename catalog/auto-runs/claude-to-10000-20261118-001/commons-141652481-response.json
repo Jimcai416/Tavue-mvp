@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChB1bk2RBWxTirPG8zLis",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Yellow saffron rice base, clearly visible and prominent\",\n    \"Green beans (judiones/green legumes) arranged in strips across the dish\",\n    \"Shellfish including visible snails and what appear to be other molluscs\",\n    \"Brown/reddish meat pieces scattered throughout\",\n    \"Finished, plated paella in natural lighting\",\n    \"Sharp detail of rice grains and toppings in both source and thumbnail\"\n  ],\n  \"phone_observations\": [\n    \"Yellow rice base clearly visible and readable in thumbnail\",\n    \"Green bean strips prominent and identifiable\",\n    \"Shellfish and meat components visible at thumbnail resolution\",\n    \"Dish centre-cover framed appropriately for assessment\",\n    \"Natural colours and appetising appearance maintained in reduction\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title 'File:Binhui - Paella 5.jpg' is a filename, not a canonical dish name or description\",\n    \"Description 'Binhui (Restaurant i arrosseria de la ciutat de València)' identifies location/restaurant only, not the specific paella variant\",\n    \"Meat species cannot be confirmed visually—brown pieces are present but species is ambiguous\",\n    \"Shellfish species (snails clearly visible, other molluscs uncertain) are not explicitly named in source metadata\",\n    \"No source text explicitly names any animal protein, only implies paella category\",\n    \"Specific paella variant (seafood, mixed, Valenciana, etc.) is not stated in provided metadata\"\n  ],\n  \"reason\": \"Photograph quality, sharpness, lighting, composition and phone thumbnail all meet acceptance thresholds. The dish is clearly a finished, exposed, appetising paella with readable rice, vegetables and proteins. However, identity check fails because the source provides only a filename and restaurant location, not a canonical dish name or description. No explicit protein naming appears in the source metadata—meat and shellfish are visible but species are ambiguous and unconfirmed by text. Without a specific source-quoted dish name and confirmed protein declarations, canonical_name cannot be reliably constructed and all required protein_evidence keys remain empty. Hold pending clarification of the actual dish name and ingredient list from authoritative source.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1736,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 644,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChB1bUkQou9j1GnmDXasX",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 2,\n    \"composition\": 1,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows raw dough/paste in a dish with minimal detail\",\n    \"Essential subject is uncooked preparation stage, not finished dish\",\n    \"Poor contrast and unclear food form in phone thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Image captures intermediate preparation stage, not a finished, exposed, cooked dish ready for consumption\",\n    \"Subject is described as 'scooped out from the pot, hot, ready to be moulded' — a raw/preparation stage before finishing\",\n    \"Severe ambient shadow and cluttered ground-level composition obscure appetising presentation\",\n    \"No finished plating, no served dish form, no naturally appetising appearance\"\n  ],\n  \"reason\": \"Reject: This is a preparation-stage photograph of raw fufu dough immediately after boiling and scooping, not a finished, exposed, plated dish. The image shows the intermediate step before moulding and serving. Quality checks fail (sharpness 2, lighting 2, composition 1, appeal 1 — all well below the required ≥4 threshold). The phone thumbnail does not show a recognisable finished food item. Preparation stages, raw ingredients, and work-in-progress images are explicitly excluded. Home cooking welcome, but only finished dishes.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1764,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 434,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
