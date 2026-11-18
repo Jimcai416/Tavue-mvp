@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBBrfVtcGm31cUrUNmVk",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Spaghetti visible beneath meat sauce\",\n    \"Reddish-brown meat ragù with visible tomato pieces\",\n    \"Natural plating on white ceramic plates\",\n    \"Two portions presented in restaurant setting\"\n  ],\n  \"phone_observations\": [\n    \"Pasta and sauce clearly visible in thumbnail\",\n    \"Meat ragù prominent and recognizable\",\n    \"Plate and utensil context evident\",\n    \"No essential components clipped\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'Ragu Bolognese' but source metadata is untrustworthy (URL, website reference, filename). No explicit protein species identification visible in image or reliably stated in provided title.\",\n    \"Traditional Bolognese contains beef, but this cannot be visually confirmed and no source quote explicitly names the meat species.\",\n    \"Metadata may be fabricated or misleading; image alone shows meat ragù without species confirmation.\"\n  ],\n  \"reason\": \"Image quality, composition, and phone thumbnail are acceptable and all checks pass on photographic merit. However, identity check fails: the title 'Ragu Bolognese' is embedded in untrustworthy metadata/filename, and no explicit protein species (beef, pork, etc.) is named in a reliable source quote. Without a trustworthy source statement naming the specific meat, and given that ragù can be made from multiple species, identity cannot be confirmed. Hold for explicit species confirmation from a reliable source description.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1773,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 476,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

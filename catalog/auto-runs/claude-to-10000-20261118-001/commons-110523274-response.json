@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBBs8a56nfNXhHeseobV",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 5,\n    \"appeal\": 5\n  },\n  \"visible_support\": [\n    \"Couscous base visible in yellow granules\",\n    \"Meat stew (brown/dark sauce) surrounding and topping couscous\",\n    \"Chickpeas distributed throughout\",\n    \"Almonds arranged decoratively in centre\",\n    \"Sesame seeds visible on mounds\",\n    \"Boiled eggs halved and placed symmetrically\",\n    \"White serving plate\",\n    \"Finished, exposed dish with natural colours\"\n  ],\n  \"phone_observations\": [\n    \"Central almond flower arrangement clearly visible\",\n    \"Egg halves and sesame seed mounds readable\",\n    \"Meat stew and chickpea distribution evident\",\n    \"Couscous base visible beneath toppings\",\n    \"Decorative plating structure preserved in thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title states 'Moroccan roasted chicken' but no poultry is visually distinguishable in the meat stew—the braised meat appears uniform and cannot be confirmed as chicken from appearance alone\",\n    \"Metadata describes 'Tfaya' but source title does not use this word explicitly; only the description contains it\",\n    \"Exact canonical name cannot be established: source title and description do not form a single, consistent dish name that includes all qualifiers\"\n  ],\n  \"reason\": \"Identity check fails. The source title is 'Couscous Tfaya 3.jpg' (a filename, excluded per instructions) and the description states 'Moroccan couscous with Tfaya and Moroccan roasted chicken.' However, the meat species cannot be visually confirmed—the braised meat in the stew is homogeneous and indistinguishable as chicken. Per rules, 'chicken' requires an exact source quote explicitly naming the animal; metadata alone and unverified appearance do not satisfy the protein evidence requirement. The source description contradicts the filename, and no unambiguous canonical name can be formed from title or description that is both consistent and complete. Hold for source clarification and visual protein confirmation.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1628,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 603,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBBsa4G5X4iHcTNWyUn9",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Cooked meat pieces in dark wok with visible browning and caramelization\",\n    \"Green chilies and scallions/green onion visible as garnish\",\n    \"Glossy sauce coating indicates braised or fried preparation\",\n    \"Spice-forward colour palette consistent with South Indian curry\"\n  ],\n  \"phone_observations\": [\n    \"Meat and vegetable components clearly visible at thumbnail scale\",\n    \"Browning and texture readable despite reduction\",\n    \"Garnish detail preserved in phone view\",\n    \"Dish identity recognizable from miniature\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'Chettinad chicken' but source description says 'South Indian region' generically without confirming Chettinad variant or chicken species\",\n    \"Filename metadata ('AndhraPradesh') contradicts Chettinad attribution (Tamil Nadu); ambiguity whether this is authentic Chettinad chicken fry or a regional variant\",\n    \"No explicit source quote confirming 'chicken' as the protein—title contains it, but description does not name the animal\",\n    \"Visible meat species cannot be definitively distinguished from photograph alone; brown colour and texture could indicate chicken, but cannot be verified visually\"\n  ],\n  \"reason\": \"Source metadata contains a contradiction: title claims 'Chettinad Chicken Fry' (Tamil Nadu dish) but filename references 'AndhraPradesh' and description offers only generic 'South Indian region' attribution. Chettinad chicken is a named regional variant with specific preparation and spice profile; this contradiction creates doubt about authenticity and identity. Although 'chicken' appears in the title, the description does not explicitly name the protein. Protein evidence cannot be populated because the source description does not contain an exact quote naming 'chicken' as the animal. Title alone is insufficient given the geographic and variant ambiguity. Hold for identity clarification.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1991,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 580,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
