@@ -4060,3 +4060,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 - **Iskender kebab** — Benreis. [CC BY 3.0](https://creativecommons.org/licenses/by/3.0); [source](https://commons.wikimedia.org/wiki/File:Iskender_Kebap_Bursa_Iskender.JPG). Local asset: `reviewed-commons-48103263.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Uzbek pilaf** — GeoO. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Pilaf_of_Uzbekistan,_Yerevan.jpg). Local asset: `reviewed-commons-63411069.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Iskender Kebap** — Choi2451. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Iskender_Kebap_in_Ankara.jpg). Local asset: `reviewed-commons-75968036.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Plov with lamb and carrots** — Postovalov. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Plov_with_lamb_and_carrots_in_ceramic_bowl.jpg). Local asset: `reviewed-commons-192239906.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.

@@ -59688,5 +59688,29 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 576,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-192239906",
+    "title": "File:Plov with lamb and carrots in ceramic bowl.jpg",
+    "author": "Postovalov",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Plov_with_lamb_and_carrots_in_ceramic_bowl.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Plov_with_lamb_and_carrots_in_ceramic_bowl.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "3350206d5ab1d05060ec72c99bc8f87180c57eb5",
+    "name": "Plov with lamb and carrots",
+    "aliases": [],
+    "proteins": [
+      "lamb"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-192239906.jpg",
+    "assetSha256": "c8e03ec126a818b97ac8beff13e4b9cb335ab8aae53f9f89309ad52929fa457c",
+    "reviewedAt": "2026-11-18",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 723,
+    "requiresExactMenuName": true
   }
 ];
