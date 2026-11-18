@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011Ch9TtcrK6Ux7nuuJqXKSA",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Ground meat cooking in black pan with oil\",\n    \"Brown/reddish meat colour consistent with beef or lamb\",\n    \"Green vegetable pieces visible (possibly scallion or zucchini)\",\n    \"Home cooking context with natural lighting\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail shows cooked ground meat in pan\",\n    \"Colour and texture visible and readable\",\n    \"No significant clipping or quality loss in thumbnail\"\n  ],\n  \"protein_evidence\": {\n    \"protein\": null\n  },\n  \"uncertainties\": [\n    \"Title claims 'Bulgogi' but image shows ground meat in a pan during cooking stage, not the typical sliced marinated beef presentation of finished bulgogi\",\n    \"Meat species cannot be definitively determined from appearance alone—could be beef or lamb\",\n    \"Source metadata indicates 'Korean traditional cuisine, Bulgogi' but visual form does not match canonical bulgogi presentation (typically grilled or pan-fried thin slices, not ground meat)\",\n    \"Image appears to be a preparation or intermediate cooking stage rather than a finished plated dish\",\n    \"No explicit animal species confirmation in source description\"\n  ],\n  \"reason\": \"Identity check fails: the photograph shows ground meat cooking in a pan, which does not match the typical finished form of bulgogi (thinly sliced marinated beef, usually grilled or pan-seared as intact slices). While the source title claims 'Bulgogi', the visual evidence contradicts this—this appears to be either an atypical ground meat variant or a misidentified preparation stage. Additionally, no explicit protein species is named in the source description ('Korean traditional cuisine, Bulgogi'), and the meat species cannot be visually confirmed. The image quality and photograph technical aspects are acceptable, but the identity uncertainty and lack of specific protein evidence require a hold. Per protocol, meat species must have explicit source quote confirmation; tradition and appearance alone are insufficient.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1395,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 567,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
