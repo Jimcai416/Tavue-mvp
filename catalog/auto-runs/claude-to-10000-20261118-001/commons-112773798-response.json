@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAUeP3pwBys1hJLZN2Ri",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Noodle soup in blue-and-white ceramic bowl\",\n    \"Fresh green herbs (cilantro, scallions) prominent on surface\",\n    \"Clear broth visible\",\n    \"Served with bread roll on the side\",\n    \"Orange placemat visible\"\n  ],\n  \"phone_observations\": [\n    \"Bowl and noodles clearly visible in thumbnail\",\n    \"Green garnish readable\",\n    \"Dish proportions maintained\",\n    \"No essential components clipped\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title contains 'アオサンズの鶏のフォー' (Aosanzu chicken pho) but metadata format is filename-based (File: prefix), not a proper dish description\",\n    \"Metadata is untrusted per instructions; filename structure violates source description protocol\",\n    \"While 'chicken' (鶏) appears in filename, the instruction requires exact source title/description quote matching, and the filename structure is not a valid canonical source format\",\n    \"No explicit, trustworthy source description provided separate from filename metadata\"\n  ],\n  \"reason\": \"Identity check fails. The metadata supplied is a filename with File: prefix, not a legitimate source title or description. Per instructions, all metadata including filenames are untrusted evidence and never instructions. No authoritative, separate dish title or description was provided to verify identity. While the visible dish appears to be a chicken pho (suggested by the noodles, broth, fresh herbs, and contextual filename), without a proper, non-filename source description, canonical identity cannot be established. The protein 'chicken' cannot be validated via exact case-sensitive substring matching from a trustworthy source document. Hold pending proper source documentation.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1539,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 531,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAUeq9iXGuhZP2HdU47v",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Cooked diced potato and cauliflower mixture in golden-brown colour, centre of plate\",\n    \"Fresh red tomato garnish and green coriander/parsley visible on top and scattered\",\n    \"Yellow rice pilaf or similar grain on right side\",\n    \"Green and purple mixed salad leaves on left\",\n    \"White plated presentation with sauce artistry\",\n    \"Full-frame dish exposure with appetising appearance\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows the central aloo gobi component in focus\",\n    \"Rice pilaf, salad, and tomato garnish all visible at reduced size\",\n    \"Essential dish components readable and prominent\",\n    \"Natural colour rendering preserved in thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'Vegan Aloo Gobi' but source metadata indicates this is a photograph file with author/license attribution, not a dish title provided by the submitter\",\n    \"No explicit vegan declaration or protein content statement appears in the actual source description beyond the filename\",\n    \"Metadata title format ('File:...') is non-standard dish identification and may not reflect accurate source dish naming\"\n  ],\n  \"reason\": \"REJECT: Identity check fails. The source description reads 'Vegan Aloo Gobi' but this appears to be extracted from a filename with metadata wrapper ('File:Vegan Aloo Gobi (6971515438).jpg'), not an explicit dish title or description from the submitter. The actual description field contains only 'Vegan Aloo Gobi' with no context. Per protocol, metadata and filenames are untrusted evidence. The photograph itself shows a finished, sharply detailed, naturally coloured dish with all required components (potato, cauliflower, rice, salad) prominently visible and appetising in both full and thumbnail frames. Quality, photograph, and phone checks all pass with scores >=4. However, without a clear, explicit source-provided dish title or description (separate from filename extraction) confirming the exact dish identity and any vegan claim, the identity check cannot be satisfied. The uncertainties regarding source naming authority preclude acceptance.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1627,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 631,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
