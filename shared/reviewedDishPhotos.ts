@@ -69978,5 +69978,52 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 798,
     "height": 640,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-29484588",
+    "title": "File:Gebratene Maultaschen mit Ei.JPG",
+    "author": "Dr. Bernd Gross",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gebratene_Maultaschen_mit_Ei.JPG",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/35/Gebratene_Maultaschen_mit_Ei.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "03407addeff4444f3de8399fef4a58d9a6abab8b",
+    "name": "Gebratene Maultaschen mit Ei",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-29484588.jpg",
+    "assetSha256": "3776363f86c420fa86da4e2cf520febede91211b1e3999985b33d407ab0dfa08",
+    "reviewedAt": "2026-11-18",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-27906062",
+    "title": "File:Julia Child's Boeuf Bourguignon.jpg",
+    "author": "www.WorthTheWhisk.com",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Julia_Child%27s_Boeuf_Bourguignon.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/61/Julia_Child%27s_Boeuf_Bourguignon.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "0c8c20bc9f2f15c0e892c95377270f32d9b9bd5f",
+    "name": "Julia Child's Boeuf Bourguignon",
+    "aliases": [],
+    "proteins": [
+      "beef"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-27906062.jpg",
+    "assetSha256": "eb9ffb0ea8b16c0131674728d91958de3cc48be19a5c883dced689786743244b",
+    "reviewedAt": "2026-11-18",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 720,
+    "height": 960,
+    "requiresExactMenuName": true,
+    "authorUrl": "https://www.flickr.com/people/27836576@N02"
   }
 ];

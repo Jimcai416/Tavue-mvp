@@ -4934,3 +4934,8 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 
 - **Beef bourguignon made with ox cheek, served with pasta** — DC. [CC BY 3.0](https://creativecommons.org/licenses/by/3.0); [source](https://commons.wikimedia.org/wiki/File:Boeuf_bourguignon_servi_avec_des_p%C3%A2tes.jpg). Local asset: `reviewed-commons-4070518.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Clafoutis** — The original uploader was  Joan-T  at  French Wikipedia .. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/); [source](https://commons.wikimedia.org/wiki/File:Clafoutis.JPG). Local asset: `reviewed-commons-1446008.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Gebratene Maultaschen mit Ei** — Dr. Bernd Gross. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Gebratene_Maultaschen_mit_Ei.JPG). Local asset: `reviewed-commons-29484588.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Julia Child's Boeuf Bourguignon** — [www.WorthTheWhisk.com](https://www.flickr.com/people/27836576@N02). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Julia_Child%27s_Boeuf_Bourguignon.jpg). Local asset: `reviewed-commons-27906062.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
