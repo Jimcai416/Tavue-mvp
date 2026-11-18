@@ -5450,3 +5450,8 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Sashimi from Tsukiji- hirame, sanma, aji, salmon** — T.Tseng. [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Sashimi_from_Tsukiji-_hirame,_sanma,_aji,_salmon_-_Japanese_Cuisine_by_Omae_-_2.jpg). Local asset: `reviewed-commons-77162307.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Khachapuri (Adjarian style)** — Alexey Nikulnikov. [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:%E1%83%90%E1%83%AD%E1%83%90%E1%83%A0%E1%83%A3%E1%83%9A%E1%83%98_%E1%83%AE%E1%83%90%E1%83%AD%E1%83%90%E1%83%9E%E1%83%A3%E1%83%A0%E1%83%98.jpg). Local asset: `reviewed-commons-31669490.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Enchiladas de mole negro oaxaqueño** — GPE.garcíaglez. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Enchiladas_de_mole_negro_oaxaque%C3%B1o.jpg). Local asset: `reviewed-commons-105947709.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
