@@ -67963,5 +67963,29 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 540,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-89270896",
+    "title": "File:Shrimp mofongo from Rompeolas restaurant in Aguadilla, Puerto Rico.jpg",
+    "author": "The Eloquent Peasant",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Shrimp_mofongo_from_Rompeolas_restaurant_in_Aguadilla,_Puerto_Rico.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Shrimp_mofongo_from_Rompeolas_restaurant_in_Aguadilla%2C_Puerto_Rico.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "68869ca6a2a42d2875f1efbf529f0ee7f7752023",
+    "name": "Shrimp mofongo",
+    "aliases": [],
+    "proteins": [
+      "seafood"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-89270896.jpg",
+    "assetSha256": "22fd570ade73902c33b97d9f20eb28508e541c31b9b84156b750935c0842c1ab",
+    "reviewedAt": "2026-11-18",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];
