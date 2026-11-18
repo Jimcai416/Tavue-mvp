@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAaNZiXZFaExG4hudEM3",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Finished, cooked meat dish with sauce\",\n    \"White rice component clearly visible\",\n    \"Rich brown gravy/stew base\",\n    \"Prominent, appetising presentation\",\n    \"Natural colour and lighting\",\n    \"Sharp detail in both full image and thumbnail\"\n  ],\n  \"phone_observations\": [\n    \"Meat and rice proportions readable in thumbnail\",\n    \"Brown sauce/gravy visible in centre-cover crop\",\n    \"Essential components not clipped\",\n    \"Sufficient detail for dish identification\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title references 'Mafé domoda' (Senegalese groundnut stew) but metadata are untrusted and no source description provided to verify exact dish identity\",\n    \"Meat species cannot be determined visually—appearance suggests beef or lamb but no explicit source quote supplied naming the protein\",\n    \"Without a trusted source title or description in the query, identity cannot be confirmed against canonical regional variant qualifiers\"\n  ],\n  \"reason\": \"Photograph quality, sharpness, lighting and composition are all acceptable (scores >=4). Both full image and thumbnail show a finished, appetising dish with clear meat, rice and gravy components. However, the identity check fails: the filename metadata ('Mafé domoda Resto-UCAD 23.jpg') is explicitly untrusted per instructions, and no alternative source title or description has been provided to establish the exact canonical dish name and verify preservation of regional qualifiers. Protein species is visually ambiguous. Without a reliable source title matching the visible form, identity cannot be confirmed. Hold pending a verified source description.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1741,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 508,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
