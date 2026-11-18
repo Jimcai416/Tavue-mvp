@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAYsXhZLuqFgmfBt2msZ",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Cooked meat skewers on plate with rice\",\n    \"Grilled chicken pieces visible\",\n    \"Dark meat pieces consistent with beef/lamb kabab\",\n    \"Rice pilaf as stated side\",\n    \"Fresh salad with lettuce and tomato\",\n    \"Roasted pepper visible\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows grilled meat pieces and rice\",\n    \"Golden chicken and dark meat both visible\",\n    \"Essential dish components readable in phone view\",\n    \"No clipping of critical food elements\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title lists 'beef kabab, shish tawoook, and kafta kabab' but exact composition and quantity of each cannot be visually disambiguated from photograph alone\",\n    \"Shish tawoook typically contains chicken, but no explicit 'chicken' label appears in source title\",\n    \"Kafta kabab species not specified in title (beef vs. lamb vs. mixed not declared)\",\n    \"Source title does not explicitly state 'beef' or 'chicken' or 'lamb'—only generic dish names without protein qualifiers in English\"\n  ],\n  \"reason\": \"While photograph quality, sharpness, lighting, composition and phone thumbnail are all acceptable (scores ≥4), the identity check fails. The source title provides dish names ('beef kabab', 'shish tawoook', 'kafta kabab') but does not meet the strict protein_evidence requirement: 'beef kabab' and 'kafta kabab' do not explicitly name their meat species in the source text, and 'shish tawoook' is a dish name without a protein qualifier in the title. Under the protocol, protein_evidence keys require exact case-sensitive substrings from the title/description that explicitly name the animal. 'Beef kabab' contains 'beef' but that is a cut/product descriptor, not an animal species name matching the allowed categories (chicken/beef/pork/duck/lamb/seafood). The title's use of generic Middle Eastern dish nomenclature without explicit animal-category statements creates ambiguity. Hold pending clarification of exact protein composition or a source description that explicitly names each protein using canonical animal terms.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1797,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 644,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

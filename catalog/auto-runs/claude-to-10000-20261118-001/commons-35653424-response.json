@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAYskrL8RpVNd84y9bJ4",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"White creamy sauce with visible herbs in white bowl\",\n    \"Pita bread visible at left edge of frame\",\n    \"Natural daylight, well-exposed\",\n    \"Sharp detail of sauce texture\"\n  ],\n  \"phone_observations\": [\n    \"Sauce and bread clearly visible in thumbnail\",\n    \"Bowl and accompaniment readable\",\n    \"Adequate detail for identification\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title spells 'Tzatiki' but standard English spelling is 'Tzatziki'; source title does not match canonical Greek spelling\",\n    \"Description provides only 'Tzatiki' with no clarification of variant or spelling authority\",\n    \"Misspelling in source title creates ambiguity about intended dish identity\"\n  ],\n  \"reason\": \"The image shows a finished, appetising yogurt-based sauce (clearly tzatziki/tzatiki) with pita bread, well-photographed with sharp detail and good lighting. However, the source title contains a non-standard spelling ('Tzatiki' instead of the canonical 'Tzatziki'). The instruction requires canonical_name to be copied exactly from source title or description; applying this rule strictly, the misspelling in the source metadata creates a spelling-authority problem. While the food itself is identifiable and photographically sound, the source title's spelling divergence from established canonical forms introduces unresolved uncertainty about which exact variant name should be preserved. This ambiguity violates the requirement that identity must agree with the exact source title/description.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1619,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 485,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
