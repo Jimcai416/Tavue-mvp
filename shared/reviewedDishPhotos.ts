@@ -70318,5 +70318,29 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 842,
     "height": 960,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-124695111",
+    "title": "File:Or Lam at Amantaka.jpg",
+    "author": "Jpatokal",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Or_Lam_at_Amantaka.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Or_Lam_at_Amantaka.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "bb6436f24bca0b4218b09105d19a15720a1a3c23",
+    "name": "Or lam pork stew",
+    "aliases": [],
+    "proteins": [
+      "pork"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-124695111.jpg",
+    "assetSha256": "ac158055b6adfb8340a1364fd39ab37e3e03ab1e926aa866b7128be1b981f915",
+    "reviewedAt": "2026-11-18",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];
