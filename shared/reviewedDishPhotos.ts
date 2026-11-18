@@ -81934,5 +81934,28 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-83114498",
+    "title": "File:Kachori chaat (9246232760).jpg",
+    "author": "Devika",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kachori_chaat_(9246232760).jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Kachori_chaat_%289246232760%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "a202751082e44142165cf06ebf704c1482850fcc",
+    "name": "Kachori chaat",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-83114498.jpg",
+    "assetSha256": "3bd8c09bdc3a7aad755614af0720220ce9e727b6064e995dbac0394b9ccb97b2",
+    "reviewedAt": "2026-11-18",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true,
+    "authorUrl": "https://www.flickr.com/people/75531279@N05"
   }
 ];

@@ -5954,3 +5954,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
       
  
    This work   was made by   Masum-al-Hasan Rocky   and released under the license(s) stated below. Please feel free to use it for any purpose as long as you credit  Masum-al-Hasan Rocky  as author and follow the terms of the chosen license. If you use this work  outside  of the Wikimedia projects, I would very much like to get   a note   from you. Thanks!. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:%E0%A6%AC%E0%A6%B0%E0%A6%AB%E0%A6%BF.jpg). Local asset: `reviewed-commons-134169518.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Kachori chaat** — [Devika](https://www.flickr.com/people/75531279@N05). [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:Kachori_chaat_(9246232760).jpg). Local asset: `reviewed-commons-83114498.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
