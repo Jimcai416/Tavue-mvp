@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAjTbugSJz5JUswHVghn",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Rotating meat preparation visible in shop display\",\n    \"Commercial food service equipment shown\",\n    \"Street food vendor context evident\"\n  ],\n  \"phone_observations\": [\n    \"Vertically mounted rotating meat spit clearly visible in thumbnail\",\n    \"Metal collection tray and equipment housing visible\",\n    \"Commercial food service context confirmed in phone view\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title 'Indian Folk Cuisine (13).jpg' is a generic filename without dish identification\",\n    \"Description 'Indian Folk Cuisine' provides no specific dish name\",\n    \"Rotating meat spit shown but animal species not identified in source metadata\",\n    \"No explicit dish name, preparation method, or protein qualifier supplied\",\n    \"Cannot verify whether this is döner, doner kebab, shawarma, or another rotating meat preparation\",\n    \"Regional variant and specific dish identity cannot be established from available source information\"\n  ],\n  \"reason\": \"Rejection: Source metadata provides only generic title 'Indian Folk Cuisine (13).jpg' and description 'Indian Folk Cuisine' without identifying the specific dish name or protein type. While the photograph shows a commercial rotating meat spit in excellent technical quality and clear composition, the source does not supply the canonical dish name, preparation method, or protein species required for acceptance. The filename is a generic stock image label without meaningful dish identification. No explicit source quote names the dish or protein category. Identity check fails due to absence of specific dish nomenclature in source title/description.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1723,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 477,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

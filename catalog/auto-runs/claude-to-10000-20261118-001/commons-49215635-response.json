@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAjULVWHhGKnnvC2uZLD",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Finished, cooked kebab with charred exterior\",\n    \"Prominent grilled meat patty on flatbread\",\n    \"Fresh vegetables: tomatoes, peppers, onions, parsley\",\n    \"Natural colours and appetising presentation\",\n    \"Readable components in phone thumbnail\"\n  ],\n  \"phone_observations\": [\n    \"Kebab clearly visible centred in thumbnail\",\n    \"Cooked meat and bread prominent\",\n    \"Vegetables distinguishable\",\n    \"Overall composition preserved in reduction\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title contains 'File:' prefix and filename extension (Haşhaş kebap.jpg) rather than clean dish name\",\n    \"No explicit protein species named in title or description—only generic 'kebab' and 'meat patty'\",\n    \"Cannot visually confirm meat species (beef, lamb, pork, chicken, duck, or seafood) from appearance alone\",\n    \"Description emphasizes lack of spice and hot pepper but provides no other preparation or protein details\"\n  ],\n  \"reason\": \"Image quality, photography, and phone thumbnail are all acceptable (scores ≥4). However, identity check fails: the source title/description does not explicitly name any protein species (chicken/beef/pork/duck/lamb/seafood) required by protocol. The generic term 'kebab' and visual appearance alone are insufficient to determine which allowed protein category applies. Source metadata format (File: prefix) is also non-canonical. Hold for explicit protein identification or corrected source title.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1762,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 493,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

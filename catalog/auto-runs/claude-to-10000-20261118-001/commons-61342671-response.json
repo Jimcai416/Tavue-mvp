@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAjTYgi8cLfRNFt7Vz7H",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": \"Beyti is a Turkish meat (veal) dish (also considered a kebab) made with pieces of meat wrapped into a \\\"yufka\\\", like a dürüm, and then served with yogurt and tomato sauce.\",\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Golden-brown wrapped meat rolls arranged in circular pattern\",\n    \"White yogurt/sour cream dollop in centre\",\n    \"Red tomato sauce base visible\",\n    \"Green chili pepper garnish\",\n    \"Red tomato slice garnish\",\n    \"Orange lentil or rice accompaniment\"\n  ],\n  \"phone_observations\": [\n    \"Wrapped meat rolls clearly visible in thumbnail\",\n    \"White yogurt/cream centrepiece prominent\",\n    \"Red sauce visible beneath rolls\",\n    \"Overall composition readable and appetising\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source metadata declares 'veal' but veal is not an allowed protein category (only chicken/beef/pork/duck/lamb/seafood permitted)\",\n    \"The description states döner meat was used, but döner species is ambiguous and not explicitly declared\",\n    \"No exact species quote in source text matches allowed categories\"\n  ],\n  \"reason\": \"Image quality, composition and phone thumbnail all pass. However, protein identity cannot be verified with allowed categories. Source describes 'meat (veal)' and mentions 'döner' as possible filling, but veal is not an approved protein category, and döner species is not explicitly stated. Ambiguous meat species requires hold per protocol.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1814,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 481,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

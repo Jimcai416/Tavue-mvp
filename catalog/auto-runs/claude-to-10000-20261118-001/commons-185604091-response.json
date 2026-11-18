@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAjSzde9HgZPPZKzrLCf",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": true,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 2,\n    \"composition\": 2,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Phone thumbnail shows a street food stall interior with people and cooking equipment\",\n    \"No finished, exposed dish is prominently visible or sharply detailed in the thumbnail\",\n    \"Essential food components are not readable or distinguishable in the 124x96 centre-cover crop\",\n    \"The thumbnail is too distant and cluttered to verify a finished pani puri presentation\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"No finished dish is visibly prominent or clearly exposed in either the full source or phone thumbnail\",\n    \"The full photograph shows a busy street food stall scene with multiple people and equipment, but no single dish in focus\",\n    \"Even the titled 'pani puri' cannot be visually confirmed as a finished, appetising, sharply detailed preparation in the thumbnail or source\",\n    \"The source metadata title/description cannot substitute for visible photographic evidence of the prepared dish itself\"\n  ],\n  \"reason\": \"Rejection: The photograph is a documentary street scene of a food stall and customers, not a food product photograph. No finished, exposed, sharply detailed dish is prominent in either the full source or phone thumbnail. The composition, lighting, and sharpness scores all fall below the required threshold (all <4). The phone thumbnail fails to show readable essential food components or a distinguishable finished dish. While street food is welcome, the image must still present the actual prepared food prominently and clearly; this image prioritises the stall environment and people instead. Title-declared identity cannot substitute for visible photographic evidence of an appetising finished dish.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1786,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 490,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
