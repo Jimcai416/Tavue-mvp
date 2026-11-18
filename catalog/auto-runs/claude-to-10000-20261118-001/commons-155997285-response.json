@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBH2YBUH3K6KkaGo7MhF",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Red-brown broth in white bowl\",\n    \"Visible chunks of carrot, peppers, and leafy greens\",\n    \"Fresh cilantro garnish on top\",\n    \"Restaurant setting with beer bottles and tropical décor\",\n    \"Finished, exposed dish\"\n  ],\n  \"phone_observations\": [\n    \"Stew visible with orange and red vegetable pieces\",\n    \"Green herb garnish clearly readable\",\n    \"Bowl centre-covered and sharp in thumbnail\",\n    \"Broth and components identifiable at small size\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'Vegetable Afritada' but afritada is traditionally a meat stew (pork, chicken, or beef). No meat is visible in this dish—only vegetables, legumes, and broth.\",\n    \"Source metadata lists 'Vegetable Afritada' but provides no explicit identification of any protein, and none is visible in the photograph.\",\n    \"If this is a vegetarian variant, the canonical name must preserve 'Vegetable' as source-stated, but identity contradiction between traditional afritada (meat-based) and 'vegetable' version creates ambiguity about what dish is actually depicted.\"\n  ],\n  \"reason\": \"Identity check fails. The title 'Vegetable Afritada' contradicts the traditional definition of afritada as a meat stew. While the photograph shows a well-prepared, finished stew with vegetables and fresh garnish, the source claims a vegetable-only variant without naming or visibly showing any protein. The metadata does not explicitly state this is a vegetarian dish; it only omits meat entirely. Without source confirmation that this is indeed a recognized 'Vegetable Afritada' variant (not a misidentified dish), the identity cannot be verified. Afritada's canonical form includes meat; a vegetable-only variant must be explicitly source-declared as such. No protein_evidence can be extracted from either the description or the visible components.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1727,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 592,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
