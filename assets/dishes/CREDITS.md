@@ -5212,3 +5212,8 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 
 - **Tender Beef Noodle Soup (Large)** — Andy Li. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Tender_Beef_Noodle_Soup_(Large)_-_Mi_Rice_and_noodles_2026-03-17.jpg). Local asset: `reviewed-commons-186759679.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Uttapam with Coconut Chutney** — Nsaumya. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Uttapam_with_Coconut_Chutney.jpg). Local asset: `reviewed-commons-40982850.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Udon tofu** — Mantelmoewe. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Udon_Tofu.jpg). Local asset: `reviewed-commons-146114399.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Truffle ramen** — Misaochan2. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Truffle_ramen.jpg). Local asset: `reviewed-commons-121391927.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
