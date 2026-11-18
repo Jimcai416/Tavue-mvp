@@ -5099,3 +5099,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 - **Fonio couscous** — Crop Trust. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Fonio_couscous_served_at_the_Restaurant_du_Fonio_in_Natitingou,_Benin_-_55015102555.jpg). Local asset: `reviewed-commons-184803596.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Fufu** — Agoetee 123. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Fufu_serving_01.jpg). Local asset: `reviewed-commons-162418384.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **マッサマンスパイスカレー 大盛** — 円周率３パーセント. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:NGO_Higashi_CoCo_Ichi_massaman_spice_curry_20231103-02.jpg). Local asset: `reviewed-commons-140045592.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Risotto parmagiana** — [philip.mallis](https://www.flickr.com/people/122687277@N03). [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:Risotto_parmagiana,_Parma.jpg). Local asset: `reviewed-commons-117053899.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
