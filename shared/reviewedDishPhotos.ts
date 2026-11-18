@@ -42993,5 +42993,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 886,
     "height": 960,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-141512292",
+    "title": "File:Budae Jjigae.jpg",
+    "author": "Suohros",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Budae_Jjigae.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/92/Budae_Jjigae.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "fae5978264eb195b3d853049013eff3440659465",
+    "name": "Budae Jjigae",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-141512292.jpg",
+    "assetSha256": "619b54a6ad647b9917cd6f2742d023988ceddd012053d36bd7186d80b1bfe904",
+    "reviewedAt": "2026-11-18",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 723,
+    "requiresExactMenuName": true
   }
 ];

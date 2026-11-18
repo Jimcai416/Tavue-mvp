@@ -2812,3 +2812,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 - **Kongguksu (Noodles in Cold Soy Milk Broth)** — [Republic of  Korea  from Seoul, Republic of Korea](https://www.flickr.com/people/42438955@N05). [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:Kongguksu_07_(27198870013).jpg). Local asset: `reviewed-commons-109098887.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **콩국수** — hyolee2. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Kongguksu_2.JPG). Local asset: `reviewed-commons-41237175.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **green kernel black bean Kong-guksu** — Hyerimwon. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:%EC%84%9C%EB%A6%AC%ED%83%9C_%EC%BD%A9%EA%B5%AD%EC%88%98.jpg). Local asset: `reviewed-commons-69258505.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-continuous-20261117-001
+
+- **Budae Jjigae** — Suohros. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Budae_Jjigae.jpg). Local asset: `reviewed-commons-141512292.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
