@@ -5545,3 +5545,8 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 
 - **Ghee Mysore Pak** — Vaidehi Pujary. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Ghee_Mysore_Pak.jpg). Local asset: `reviewed-commons-126144005.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Ghoruwo Roti** — Gaurav Dhwaj Khadka. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Ghoruwo_Roti_2.jpg). Local asset: `reviewed-commons-104850213.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Rice and Stew** — Hajjare. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Rice_and_Stew_In_Northern_Nigeria.jpg). Local asset: `reviewed-commons-161373799.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Kaju Mysore Pak** — Gpkp. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Kaju_Mysore_Pak_(2026)_03.jpg). Local asset: `reviewed-commons-196889364.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
