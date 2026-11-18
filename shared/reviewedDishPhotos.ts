@@ -64533,5 +64533,53 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 720,
     "height": 960,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-87471888",
+    "title": "File:Shahjahani Khichdi (9307081572).jpg",
+    "author": "Devika",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Shahjahani_Khichdi_(9307081572).jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/05/Shahjahani_Khichdi_%289307081572%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "9fc34107c53bbccfcfa3287d67e1409ea2bcd6af",
+    "name": "Shahjahani Khichdi",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-87471888.jpg",
+    "assetSha256": "65fe6b180e65c6794779a4ed6612d19aebb27fc7c8a6159923792ff73163a11d",
+    "reviewedAt": "2026-11-18",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true,
+    "authorUrl": "https://www.flickr.com/people/75531279@N05"
+  },
+  {
+    "id": "commons-22935476",
+    "title": "File:Pastilla au poulet.jpg",
+    "author": "drea  from Vancouver, Canada",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pastilla_au_poulet.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/51/Pastilla_au_poulet.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "0a901a33ef1909fcd96fff4a662ab6a75abd524d",
+    "name": "Chicken pastilla",
+    "aliases": [],
+    "proteins": [
+      "chicken"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-22935476.jpg",
+    "assetSha256": "9a5e7543f3337ce15e92f52d6942af45941cc92358c35927ba4edfe341120afb",
+    "reviewedAt": "2026-11-18",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true,
+    "authorUrl": "https://www.flickr.com/people/32782663@N00"
   }
 ];
