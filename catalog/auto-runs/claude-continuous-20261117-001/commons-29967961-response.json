@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011Ch9UnYGBJyDm7Ew6XMDhk",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Green noodles visible in thumbnail with dark sauce\",\n    \"Noodles appear coiled/tangled in center\",\n    \"Dark glossy sauce coating visible\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source metadata describes 'green spaghetti jajangmyeon' but jajangmyeon (자장면) traditionally uses wheat noodles, not green-coloured noodles\",\n    \"Green noodle colour is atypical for standard jajangmyeon; could indicate spinach noodles, herb noodles, or vegetable variant not standard to the dish name\",\n    \"No protein visible or stated in source; jajangmyeon typically includes meat but none identifiable here\",\n    \"Metadata title 'File:Jajangmyeon 3.jpg' conflicts with description of 'green spaghetti' — unclear which is authoritative\",\n    \"Noodle material and flavour cannot be verified visually\"\n  ],\n  \"reason\": \"Identity check fails. Source description ('green spaghetti jajangmyeon') contradicts canonical jajangmyeon preparation and contains unverified colour/material claims. The green noodle variant is not established as a named regional or standard jajangmyeon form. No protein is visible or protein-named in source. Metadata inconsistency (filename vs. description) and atypical noodle appearance relative to source dish name prevent acceptance. Hold required.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1749,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 487,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

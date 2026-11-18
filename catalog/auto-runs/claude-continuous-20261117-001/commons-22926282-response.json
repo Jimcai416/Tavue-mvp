@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011Ch9UnZ5YsVTe7YEYXjuzA",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 5,\n    \"composition\": 5,\n    \"appeal\": 5\n  },\n  \"visible_support\": [\n    \"Dark brown/black sauce coating cubed meat\",\n    \"Sesame seeds sprinkled on top\",\n    \"Half hard-boiled egg with yolk visible\",\n    \"Green onion/scallion garnish\",\n    \"Wheat noodles beneath meat\",\n    \"White ceramic plate\"\n  ],\n  \"phone_observations\": [\n    \"Meat and noodles clearly visible\",\n    \"Egg, sesame and green onion readable\",\n    \"Composition maintains key elements in thumbnail\"\n  ],\n  \"protein_evidence\": {\n    \"protein\": null\n  },\n  \"uncertainties\": [\n    \"Source title states 'Jajangmyeon' but visible dish shows hard-boiled egg, green onion garnish and sesame seeds characteristic of Jjamppong or other noodle dishes, not traditional jajangmyeon (black bean sauce noodles without egg/sesame garnish)\",\n    \"Meat species not identified in source metadata\",\n    \"Dark sauce appearance and meat presentation inconsistent with canonical jajangmyeon preparation\"\n  ],\n  \"reason\": \"Source title–image identity conflict. Title claims 'Jajangmyeon' (Korean black bean noodles) but photograph shows hard-boiled egg half and sesame seed garnish with green onion—garnishes not typical of jajangmyeon. No protein species identified in source. Metadata contains only generic title without explicit meat declaration or preparation confirmation. High-quality photograph, but identity contradiction with source description prevents acceptance.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1504,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 487,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
