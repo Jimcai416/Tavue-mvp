@@ -5646,3 +5646,9 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Shkembe Chorba** — Bin im Garten. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Shkembe-chorba_in_Kardzhali_2011.JPG). Local asset: `reviewed-commons-17562124.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Enchiladas rojas, con salsa de jitomate, crema, queso rallado y cilantro** — Dahyana Yasada R. R.. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Enchiladas_con_salsa_roja.jpg). Local asset: `reviewed-commons-106166637.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Enchiladas en salsa de guajillo y queso prensado** — German matus. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Enchiladas_de_guerrero.jpg). Local asset: `reviewed-commons-105998185.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Tamales** — Southern Foodways Alliance. [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Tamales_in_Clarksdale,_MS.jpg). Local asset: `reviewed-commons-141390166.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
