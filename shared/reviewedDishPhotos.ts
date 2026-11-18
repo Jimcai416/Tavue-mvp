@@ -83102,5 +83102,102 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 680,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-145938036",
+    "title": "File:Chicken Tinola, Feb 2024.jpg",
+    "author": "Ralff Nestor Nacor",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chicken_Tinola,_Feb_2024.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Chicken_Tinola%2C_Feb_2024.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "eabfc3b4f9e81a82f4c1683286b8ccc13881a252",
+    "name": "Chicken Tinola",
+    "aliases": [],
+    "proteins": [
+      "chicken"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-145938036.jpg",
+    "assetSha256": "9bb0f50aaf3e2c2584e9a49da26730674cb2f8e91238ae7148190c8199ebfd75",
+    "reviewedAt": "2026-11-18",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 718,
+    "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-87520211",
+    "title": "File:Chicken tinola with green papaya and lemongrass.jpg",
+    "author": "Obsidian Soul",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chicken_tinola_with_green_papaya_and_lemongrass.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/56/Chicken_tinola_with_green_papaya_and_lemongrass.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "ef0500baa44b485663fb6bd43d7941e1135ac959",
+    "name": "Chicken tinola with green papaya and lemongrass",
+    "aliases": [],
+    "proteins": [
+      "chicken"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-87520211.jpg",
+    "assetSha256": "478bebd463a3621a8509db11eb3bbbd826871e1b837c3b56f47029037c1c2135",
+    "reviewedAt": "2026-11-18",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 540,
+    "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-89864440",
+    "title": "File:Chicken tinola with kalamunggay (moringa leaves) and chayote (Philippines).jpg",
+    "author": "Obsidian Soul",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chicken_tinola_with_kalamunggay_(moringa_leaves)_and_chayote_(Philippines).jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/04/Chicken_tinola_with_kalamunggay_%28moringa_leaves%29_and_chayote_%28Philippines%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "e7b94c6508af84c68e2387337e0f6fb35bbba9a7",
+    "name": "Chicken tinola with kalamunggay (moringa leaves) and chayote",
+    "aliases": [],
+    "proteins": [
+      "chicken"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-89864440.jpg",
+    "assetSha256": "b65f5cbd9d31fcca16417eb3f4a18140ef74a713c13db2a9b80da6aa2f4a7142",
+    "reviewedAt": "2026-11-18",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 825,
+    "height": 960,
+    "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-75422843",
+    "title": "File:Jamaican jerk chicken at The Reef (21110397941).jpg",
+    "author": "Ruth Hartnup  from Vancouver, Canada",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jamaican_jerk_chicken_at_The_Reef_(21110397941).jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Jamaican_jerk_chicken_at_The_Reef_%2821110397941%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "e12ba02fb8c0b6e7bcdb43d22850caf5b01fa81d",
+    "name": "Jamaican jerk chicken",
+    "aliases": [],
+    "proteins": [
+      "chicken"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-75422843.jpg",
+    "assetSha256": "51cf49eacab015fa4d601cba0cb69d4f78c6ee9692198941f44e7221af4f479f",
+    "reviewedAt": "2026-11-18",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 684,
+    "requiresExactMenuName": true,
+    "authorUrl": "https://www.flickr.com/people/95142644@N00"
   }
 ];

@@ -6066,3 +6066,10 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Sliced Beef biltong** — Delia du Plessis. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Sliced_Biltong.jpg). Local asset: `reviewed-commons-17206128.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Chicken Tinola** — Ralff Nestor Nacor. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Chicken_Tinola,_Feb_2024.jpg). Local asset: `reviewed-commons-145938036.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Chicken tinola with green papaya and lemongrass** — Obsidian Soul. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Chicken_tinola_with_green_papaya_and_lemongrass.jpg). Local asset: `reviewed-commons-87520211.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Chicken tinola with kalamunggay (moringa leaves) and chayote** — Obsidian Soul. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Chicken_tinola_with_kalamunggay_(moringa_leaves)_and_chayote_(Philippines).jpg). Local asset: `reviewed-commons-89864440.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Jamaican jerk chicken** — [Ruth Hartnup  from Vancouver, Canada](https://www.flickr.com/people/95142644@N00). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Jamaican_jerk_chicken_at_The_Reef_(21110397941).jpg). Local asset: `reviewed-commons-75422843.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
