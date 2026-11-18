@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAuHgQSWUESDBoxpeYJ7",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Cooked meat with peppercorn crust in gravy\",\n    \"Yellow rice with visible peas and peppers\",\n    \"White plate, natural lighting\",\n    \"Home-style plated dish\"\n  ],\n  \"phone_observations\": [\n    \"Yellow rice component clearly visible\",\n    \"Meat with sauce visible and readable\",\n    \"Adequate detail for dish identification\",\n    \"Prominent, well-proportioned composition\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title 'Sofrito' refers to a cooking technique (sautéed aromatics), not a finished dish name\",\n    \"Meat species not explicitly identified in source description—appears beef but unconfirmed\",\n    \"Sofrito as a dish category is ambiguous; Greek sofrito typically involves veal or beef but source does not specify\",\n    \"No explicit protein declaration in metadata\"\n  ],\n  \"reason\": \"The source title 'Sofrito' names a cooking technique rather than a specific finished dish. While the photograph shows a finished, well-plated dish with meat in gravy and yellow rice (likely saffron), the meat species is not explicitly named in the provided description. Greek sofrito traditionally uses beef or veal, but without explicit confirmation in the source text, the protein cannot be verified. The identity check fails because the description does not provide a canonical dish name with clear protein specification. Hold pending explicit source confirmation of the finished dish name and meat species.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 2065,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 468,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
