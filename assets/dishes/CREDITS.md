@@ -6110,3 +6110,10 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Litsong Kawali** — Markadan. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Lechon_Baboy_in_Kawali.jpg). Local asset: `reviewed-commons-186203176.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Jalebi rasgulla(bengal) pakoda** — ABHINAVKUMARSAHAI. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Rasgulla_Holi_Snacks.jpg). Local asset: `reviewed-commons-102155673.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Banh Cuon** — [Guilhem Vellut  from Paris, France](https://www.flickr.com/people/22539273@N00). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Banh_Cuon,_Chez_Y_Lan,_Paris_2_November_2016_001.jpg). Local asset: `reviewed-commons-52766924.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Steamed rice rolls or Banh Cuon with fried onions and lettuce** — Shyamal. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Banh_Cuon_2.jpg). Local asset: `reviewed-commons-121315172.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Bánh mì (Vietnamese sandwich) and Bánh cuốn** — [stu_spivack](https://www.flickr.com/photos/35034346243@N01). [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:Banh_mi_and_cuon.jpg). Local asset: `reviewed-commons-4012561.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
