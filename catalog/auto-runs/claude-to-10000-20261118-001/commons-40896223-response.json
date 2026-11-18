@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBDFCsXNBiTHHJJxXWJr",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": true,\n    \"phone\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 3,\n    \"appeal\": 3\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Phone thumbnail shows only a small portion of raw/bulk ingredients (legumes, spices, produce)\",\n    \"Essential food components are clipped; no finished dish visible in thumbnail centre-cover\",\n    \"Thumbnail lacks recognizable prepared food form\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title 'Street chaat stall' is a stall category, not a specific finished dish name\",\n    \"Full image displays bulk raw ingredients (lentils, chickpeas, spices, fresh vegetables) in vendor arrangement, not a prepared chaat dish\",\n    \"No single identifiable finished food item; image shows ingredient display/vendor setup\",\n    \"Chaat is a category of snacks; specific dish variant is not declared\"\n  ],\n  \"reason\": \"Rejection: This is a vendor stall photograph displaying bulk raw and dried ingredients, not a finished, exposed, prepared dish. The phone thumbnail clips essential components and shows only ingredient portions. The source title identifies a stall category, not a specific named dish. No prepared chaat variant is explicitly named or visually complete. Identity cannot be verified as a specific finished food item. Quality check fails because the image is preparation-stage/vendor setup, not a plated or served dish.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1731,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 413,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
