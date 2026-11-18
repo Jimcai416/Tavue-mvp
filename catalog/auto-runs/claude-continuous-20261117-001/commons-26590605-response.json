@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChALwZcs5j2hyMfraiq6L",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 3,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Raw meat pieces (dark red/burgundy colour) in marinade liquid\",\n    \"Carrot slices (orange rounds visible throughout)\",\n    \"Rosemary sprigs (green herb garnish)\",\n    \"Lemon wedges (yellow citrus visible at top right)\",\n    \"Yellow bowl with dark marinade liquid\",\n    \"Characteristic daube preparation stage\"\n  ],\n  \"phone_observations\": [\n    \"Raw meat and carrot slices clearly visible in phone thumbnail\",\n    \"Marinade liquid evident\",\n    \"Rosemary and citrus garnish recognisable\",\n    \"Subject adequately prominent in thumbnail\",\n    \"Colour rendering natural for uncooked marinade stage\"\n  ],\n  \"protein_evidence\": {\n    \"protein\": \"agneau et au bœuf\",\n    \"note\": \"Source describes both lamb and beef, but visual species confirmation is not possible from raw marinated meat appearance alone\"\n  },\n  \"uncertainties\": [\n    \"Source title lists 'daube d'agneau' (lamb daub) but description states 'daube à l'agneau et au bœuf' (lamb and beef daube) – conflicting protein specification\",\n    \"Image shows raw marinating stage, not finished cooked dish\",\n    \"Cannot visually distinguish lamb from beef in raw, marinated form\",\n    \"Dish identity requires resolution of title vs. description discrepancy\"\n  ],\n  \"reason\": \"Rejection criteria: image depicts a raw/preparation stage (marinating) rather than a finished, exposed, cooked dish. Additionally, the source contains a contradiction between the title ('daube d'agneau' – lamb daube) and the description ('daube à l'agneau et au bœuf' – lamb and beef daube). Per instructions, source contradictions => hold. The photograph is sharp enough and naturally coloured for a marinade, but it is explicitly a preparation stage, not a finished dish suitable for acceptance.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1192,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 580,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
