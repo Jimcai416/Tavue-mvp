@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBGrAJZKvERGq9vHUEMF",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Finished, cooked, glossy brown dish plated on white serving tray with accompanying sauce in small container\",\n    \"Sharp detail visible in phone thumbnail showing sauce cup and three stacked portions\",\n    \"Natural lighting, appetising appearance, prominent presentation\"\n  ],\n  \"phone_observations\": [\n    \"Sauce cup and three cooked portions clearly visible in centre-cover thumbnail\",\n    \"Adequate sharpness and colour fidelity for identity assessment\",\n    \"Dish dominates frame appropriately\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title lists three distinct dishes: 'Del Monte Sardines', 'Ginisa', and 'Kutsinta'. Photograph shows only one plated dish—identity contradiction unresolved.\",\n    \"Cooked form does not definitively match sardines (which are typically whole or recognisable), ginisa (a sautéed vegetable or meat preparation usually showing mixed ingredients), or kutsinta (a steamed rice cake with distinct ridged appearance). Visual identification impossible.\",\n    \"No explicit protein species named in source description; sardines would be seafood, but dish appearance does not confirm source match.\",\n    \"Metadata and filename are untrusted; photo content does not align with any single described dish.\"\n  ],\n  \"reason\": \"Identity check fails. Source title describes three different dishes (Del Monte Sardines, Ginisa, Kutsinta), but the photograph shows a single plated dish with glossy brown sliced portions and a sauce. The cooked form is not definitively identifiable as any of these three named dishes, and no explicit protein is named in the description that can be visually verified. Source-identity contradiction and ambiguous dish identity mandate hold for clarification, but given the fundamental mismatch between described dishes and photographed item, rejection is appropriate.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1816,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 549,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

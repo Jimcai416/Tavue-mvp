@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBGrRd4CKnoKyCmbhyLY",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows a brown steamed cake with glossy surface and an orange/caramel dipping sauce in a small white cup\",\n    \"Subject is prominent and legible in phone frame\",\n    \"Finished, exposed dish presentation with accessory\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title lists three dishes separated by commas: 'Del Monte Sardines, Cuisine of Bulacan Ginisa, Kutsinta'. Image shows only kutsinta (steamed brown cake) and dipping sauce—not sardines, not ginisa. Identity mismatch between title and visible content.\",\n    \"Kutsinta is a dessert/snack, not a savoury dish; the orange sauce appears to be brown sugar syrup, typical accompaniment, but the source description is ambiguous about what is actually being photographed.\"\n  ],\n  \"reason\": \"Source title lists three distinct dishes (sardines, ginisa, kutsinta) but the photograph shows only kutsinta with dipping sauce. This is a critical identity mismatch. The title does not reliably describe the visible dish. The image itself is sharp and well-composed, but cannot be accepted because the canonical name cannot be reliably extracted from a contradictory or multi-dish source description that does not match the single dish visible. Reject due to source-photograph identity conflict.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1816,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 451,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
