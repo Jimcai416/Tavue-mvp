@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChB1J6rJpy9e912YVTbkV",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": true,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 0,\n    \"lighting\": 0,\n    \"composition\": 0,\n    \"appeal\": 0\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows a boat on water with green awning\",\n    \"No food is visible in the phone thumbnail\",\n    \"Subject is a waterfront vessel, not a prepared dish\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title references 'boat noodles' but no noodle dish is visible in either image\",\n    \"Photograph shows only the boat exterior and water setting\",\n    \"No finished food dish is exposed, detailed or visible in full source or thumbnail\"\n  ],\n  \"reason\": \"Rejection: The photograph is entirely non-food content—it depicts a traditional fishing/vendor boat moored in Aberdeen harbour. Neither the full source nor the phone thumbnail shows any finished, exposed food dish. The filename title 'Lau Kee traditional boat noodles' references a food offering, but the image captures only the vessel's exterior, awning, and waterfront environment. This violates the core requirement for a finished, photographic food dish that is sharp, detailed, naturally coloured and appetising. No food identity can be visually verified from the photograph itself.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1740,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 388,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

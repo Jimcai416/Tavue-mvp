@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChB1JUvbbqMKhBxRuLAd5",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Shredded meat visible in white bowl\",\n    \"Rice noodles present\",\n    \"Green onion/scallion garnish\",\n    \"Orange-coloured fried cubes (declared as pork lard crackling)\",\n    \"Broth/soup base\",\n    \"Natural daylight, appetising presentation\",\n    \"Phone thumbnail shows all essential components clearly\"\n  ],\n  \"phone_observations\": [\n    \"Meat, noodles, garnish and fried elements all legible in 124x96 centre cover\",\n    \"Bowl not clipped, subject prominent\",\n    \"Colour reproduction adequate for identification\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title declares 'Nam Tok Beef Noodle Soup' but description states the soup is 'thickened with blood and occasionally topped with shredded ganja leaves' and separately mentions 'fried pork lard' topping—ambiguous whether primary protein is beef, pork, or both\",\n    \"Canonical name conflict: metadata filename 'Boat noodles.jpg' differs from stated dish name 'Nam Tok Beef Noodle Soup'; description calls it 'Boat Noodles' (alternative name) but source title assigns 'Nam Tok'\",\n    \"Orange cubes described as 'fried pork lard complete with crackling'—pork is a topping, not the primary meat; beef is listed in title but pork is explicitly named in description\",\n    \"No exact canonical phrase available without resolving title/description contradiction\",\n    \"Description contains non-standard English ('shredded ganja leaves'—unclear if this is actual dish content or colloquial description)\"\n  ],\n  \"reason\": \"Source metadata contains unresolved contradictions: title lists 'Nam Tok Beef Noodle Soup' but description identifies primary protein conflict (blood-thickened soup suggests one tradition, pork lard topping is explicit), and alternative name 'Boat Noodles' appears in description without clarification of which is canonical. Beef is named in title but pork is explicitly named as a topping component; primary protein cannot be unambiguously established from source. Filename and description also conflict on preferred dish name. Cannot extract a single, uncontradicted canonical name or protein evidence quote. Image quality and photograph are acceptable, but identity verification requires holding pending source clarification.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1840,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 689,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
