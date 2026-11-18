@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAgbAoh1y4DBGy3X8YBZ",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Cake in baking pan, still in bakeware\",\n    \"No plating, no serving presentation\",\n    \"Crumb texture visible but subject remains in raw/unfinished state\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title 'Carrot Cake' does not match visible form—cake remains in baking pan, not finished/plated/exposed as a served dish\",\n    \"Preparation/intermediate stage, not a finished exposed dish ready for consumption\"\n  ],\n  \"reason\": \"Reject: cake visible in baking pan is a preparation/intermediate stage, not a finished, exposed, plated dish. Tavue accepts only completed food photography showing the dish as served or presented. This shows an unfinished baked item still in its pan, without plating or service presentation. Despite acceptable sharpness and composition, the fundamental requirement—a finished, exposed, likely photographic dish—is not met.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1520,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 358,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

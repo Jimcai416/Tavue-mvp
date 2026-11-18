@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAgaKJPr4kmfkSianGFm",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"White bowl containing broth-based soup\",\n    \"Visible turmeric-stained meat pieces (fried appearance)\",\n    \"Red chilli garnish\",\n    \"Green onion/scallion garnish\",\n    \"White translucent noodles or potato\",\n    \"Patterned outdoor surface background\"\n  ],\n  \"phone_observations\": [\n    \"Soup bowl clearly visible in thumbnail\",\n    \"Fried meat components readable\",\n    \"Red garnish prominent\",\n    \"Overall composition and dish type identifiable\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title 'Soto Banjar' lacks explicit protein identification; meat species not named in supplied metadata\",\n    \"Visual fried meat pieces appear present but animal type cannot be determined from appearance alone\",\n    \"No explicit source quote names chicken, beef, pork, duck, lamb, or seafood\",\n    \"Regional variant name preserved but protein category cannot be supported without explicit source declaration\"\n  ],\n  \"reason\": \"Image quality, composition, sharpness and phone thumbnail all pass acceptance thresholds. Dish is identifiable as a finished, cooked soup (Soto Banjar). However, protein_evidence cannot be populated: the source title and description do not explicitly name any allowed protein category (chicken/beef/pork/duck/lamb/seafood). Although fried meat is visually present, species cannot be inferred from appearance. Per protocol, unknown or unconfirmed meat species requires hold status. Identity check fails due to lack of explicit protein naming in source metadata.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1520,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 495,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

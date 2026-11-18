@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAgZtc6YPtXM9E8PYn2z",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Cooked meat pieces with spice crust visible\",\n    \"Orange/red sauce or puree under darker meat\",\n    \"Thin flatbread (roti) in natural beige colour\",\n    \"Second meat item, cylindrical kebab form\",\n    \"Plate presentation, finished dish state\",\n    \"Natural daylight, well-exposed\"\n  ],\n  \"phone_observations\": [\n    \"Meat components clearly visible and prominent\",\n    \"Flatbread and kebab distinguishable\",\n    \"Orange-red element visible beneath top meat\",\n    \"Thumbnail composition readable and appetising\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title says 'mutton kebab' but mutton is an ambiguous species term that may refer to goat or sheep; species cannot be visually confirmed\",\n    \"Chicken curry: 'chicken' is named in source but no chicken meat is visibly distinguishable as separate from the other meat item in the photograph\",\n    \"Orange/red element under the top meat could be sauce, puree, or red pepper but is not explicitly identified in source\",\n    \"Cannot confirm which meat item is the 'chicken curry' and which is the 'mutton kebab' from visual appearance alone\"\n  ],\n  \"reason\": \"Source describes three components: chicken curry, mutton kebab, and rumali roti. The photograph shows two meat items and flatbread in finished, appetising form with good quality. However, identity cannot be confirmed because: (1) 'mutton' is an ambiguous species term in the source that does not explicitly name sheep or goat; (2) the meat items are not visually distinguishable as chicken versus mutton; (3) no source quote explicitly names 'chicken' as a visible protein component. The rumali roti is identifiable. Without species clarity or visual protein separation, and with the ambiguous 'mutton' qualifier, hold is required per protocol.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1741,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 580,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
