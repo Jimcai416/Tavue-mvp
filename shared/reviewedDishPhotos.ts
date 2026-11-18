@@ -45547,5 +45547,78 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "height": 640,
     "requiresExactMenuName": true,
     "authorUrl": "https://www.flickr.com/photos/ilove9and23/"
+  },
+  {
+    "id": "commons-88839171",
+    "title": "File:Dak-bulgogi.jpg",
+    "author": "Debbie Tingzon",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dak-bulgogi.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Dak-bulgogi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "cbb7eb106eebdf65fa2e7531b6956eea2f08bdbc",
+    "name": "Dak-bulgogi (spicy chicken bulgogi)",
+    "aliases": [],
+    "proteins": [
+      "chicken"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-88839171.jpg",
+    "assetSha256": "b164de22f88e4c649ebd6a525e7d70da467a07f4dff0ee076742fc2dbd95edb2",
+    "reviewedAt": "2026-11-18",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 640,
+    "height": 640,
+    "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-99711799",
+    "title": "File:Naeng-jjamppong 3.jpg",
+    "author": "대경라이프",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Naeng-jjamppong_3.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Naeng-jjamppong_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "7e98096d8efb9019bd85711fa2088b2f93dbd247",
+    "name": "Naeng-jjamppong (cold spicy seafood noodle soup)",
+    "aliases": [],
+    "proteins": [
+      "seafood"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-99711799.jpg",
+    "assetSha256": "c99d630f3b2f6bc57c1b1afe1fe22a4a27d68d5b924ecba8d07f35abc803d268",
+    "reviewedAt": "2026-11-18",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 945,
+    "height": 629,
+    "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-83134580",
+    "title": "File:Nasi Lemak with Rendang Beef - Jom Makan (436322132).jpg",
+    "author": "Alpha  from Melbourne, Australia",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nasi_Lemak_with_Rendang_Beef_-_Jom_Makan_(436322132).jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Nasi_Lemak_with_Rendang_Beef_-_Jom_Makan_%28436322132%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "44d7995f758fd9538bdd9d7386a8b69d458ccc8a",
+    "name": "Nasi Lemak with Rendang Beef",
+    "aliases": [],
+    "proteins": [
+      "beef"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-83134580.jpg",
+    "assetSha256": "a1412be99534f45c1a99a8e85f3cc28d1c5894e232f37d450ed79f7369846179",
+    "reviewedAt": "2026-11-18",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 800,
+    "height": 600,
+    "requiresExactMenuName": true,
+    "authorUrl": "https://www.flickr.com/people/10559879@N00"
   }
 ];
