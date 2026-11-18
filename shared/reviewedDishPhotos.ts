@@ -65344,5 +65344,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-129657491",
+    "title": "File:Churrasco Ecuador (gastronomía Ecuatoriana).jpg",
+    "author": "Kevinmero",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Churrasco_Ecuador_(gastronom%C3%ADa_Ecuatoriana).jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Churrasco_Ecuador_%28gastronom%C3%ADa_Ecuatoriana%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "34e1c22bc9008635ce30b4238ade01eb1092c8cf",
+    "name": "Churrasco, Costa - Ecuador",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-129657491.jpg",
+    "assetSha256": "d53e1eb4fc975fbd008a42a9b7a22288ff12c25c13c67d22fe7a7ad055da21fe",
+    "reviewedAt": "2026-11-18",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 684,
+    "requiresExactMenuName": true
   }
 ];

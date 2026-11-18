@@ -4511,3 +4511,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 
 - **Tabouleh** — [Katrin Gilger](https://www.flickr.com/people/26242865@N04). [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:Tabouleh_(4063361651).jpg). Local asset: `reviewed-commons-89958730.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Rillettes and toast** — User:Rachel Dalby photographer. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Rillettes_and_toast.JPG). Local asset: `reviewed-commons-95752633.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Churrasco, Costa - Ecuador** — Kevinmero. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Churrasco_Ecuador_(gastronom%C3%ADa_Ecuatoriana).jpg). Local asset: `reviewed-commons-129657491.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
