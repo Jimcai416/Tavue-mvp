@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBCwCwEpuvAWyjgAtwx3",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Large pan with mixed ingredients arranged in sections\",\n    \"Upper portion shows cooked noodles or fried snacks (brown/golden)\",\n    \"Lower sections show raw vegetables: corn, diced tomatoes, shredded greens, diced onions\",\n    \"Dish appears to be an assembly/preparation layout rather than a finished plated dish\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'Chaat items' but the photograph shows a large communal preparation pan with component ingredients separated and arranged, not a finished chaat dish\",\n    \"The upper cooked element and lower raw vegetables are displayed as separate components in a service setup, not combined as a finished, exposed dish\",\n    \"Chaat is typically a finished, eaten item; this appears to be a preparation or serving station\",\n    \"No specific chaat variant can be identified from the assembly layout alone\"\n  ],\n  \"reason\": \"Reject: Identity check fails. The source claims 'Chaat items' but the photograph shows a large communal preparation or serving pan with component ingredients (cooked noodles/snacks, raw diced vegetables, shredded greens) arranged in separate sections—this is a preparation layout or service station, not a finished, exposed, plated chaat dish. Chaat must be a recognizable finished dish in consumed form. The raw vegetables and separated components do not constitute evidence of a complete, identifiable chaat variant. Without a finished, combined dish visible, specific identity cannot be established and checked against source description.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1732,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 488,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
