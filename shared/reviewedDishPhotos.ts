@@ -85280,5 +85280,51 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-98701629",
+    "title": "File:Bánh cam.jpg",
+    "author": "Baoothersks",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:B%C3%A1nh_cam.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/61/B%C3%A1nh_cam.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "fa1e176430492e6a225596f347b17a0bc2a817ca",
+    "name": "Bánh cam",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-98701629.jpg",
+    "assetSha256": "33afaf8f56a82ef426d01a51a364ab27df75b2424394b400ea0b68d83ffbf9b1",
+    "reviewedAt": "2026-11-18",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 540,
+    "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-161087213",
+    "title": "File:Chow Fun and Chicken Kau with Black Bean Sauce.jpg",
+    "author": "Lorenzo Cassini",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chow_Fun_and_Chicken_Kau_with_Black_Bean_Sauce.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Chow_Fun_and_Chicken_Kau_with_Black_Bean_Sauce.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "3e052dec57959f62c30fdde497d1692ff67205cb",
+    "name": "Chow Fun and Chicken Kau with Black Bean Sauce",
+    "aliases": [],
+    "proteins": [
+      "chicken"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-161087213.jpg",
+    "assetSha256": "98b4c8b7c66ec85dd22a985bac4b0681b22738b70f2c2a771ac9fbecb2eff10f",
+    "reviewedAt": "2026-11-18",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 720,
+    "height": 960,
+    "requiresExactMenuName": true
   }
 ];
