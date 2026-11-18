@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChB8RNtU51B8wjuAUwMo1",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": \"Leberknödel , frittiert\",\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Two spherical fried dumplings clearly visible\",\n    \"One darker brown specimen (left), one lighter tan/speckled specimen (right)\",\n    \"Crispy fried exterior texture evident on both\",\n    \"Natural lighting, white background\",\n    \"Sharp detail of surface texture in phone thumbnail\"\n  ],\n  \"phone_observations\": [\n    \"Both dumplings clearly visible and prominent in centre-cover\",\n    \"Colour contrast (brown vs. tan) readable\",\n    \"Spherical form unambiguous\",\n    \"No clipping of essential components\",\n    \"Adequate sharpness for identification\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title/description supplied in German; 'Leberknödel' translates to 'liver dumplings' but source does not explicitly name the animal species (beef liver, pork liver, etc.)\",\n    \"Visual appearance cannot distinguish liver species from photograph alone\",\n    \"Exact canonical phrase in English vs. German source text unclear for standardization\"\n  ],\n  \"reason\": \"Image quality, photography, and phone thumbnail all meet criteria. However, the protein identity cannot be established from the source description alone. 'Leberknödel' (liver dumplings) does not explicitly state which animal's liver is used. Appearance alone cannot reliably determine species. Per rules, ambiguous or unspecified meat species → hold. Recommend source clarification naming the specific liver animal (e.g., 'Leberknödel aus Rinderleber' for beef liver).\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1625,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 503,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

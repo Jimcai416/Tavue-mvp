@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChB8RRtJe8AkZeZN4wT6a",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 2\n  },\n  \"visible_support\": [\n    \"Sliced sausage with pale yellow casing and pink-brown interior visible in cross-section\",\n    \"Sharp detail of texture and colour contrast\",\n    \"Positioned on black surface against neutral background\",\n    \"Full exposure of product showing both casing and interior\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows sliced sausage with casing and filled interior\",\n    \"Cross-section visible and readable\",\n    \"Colour and form consistent with full image\",\n    \"No clipping of essential components\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Leberwurst (liver sausage) is a prepared meat product, but the specific animal source (pork, beef, mixed) is not explicitly named in the title or description\",\n    \"German tradition typically implies pork, but this is not stated in the supplied source metadata\",\n    \"No explicit protein category can be verified from the source title/description alone\"\n  ],\n  \"reason\": \"Reject: Although the photograph is sharp, well-lit, and properly exposed, showing a sliced liver sausage with clear detail, the source description 'Aachener Weihnachts-Leberwurst' does not explicitly name the animal species. Leberwurst by tradition contains pork, but the source metadata does not state this. Per protocol, unknown or unspecified meat species (sausage/processed meat products without explicit animal naming) cannot be accepted. The protein_evidence object cannot be populated with any valid category because no exact source quote names a supported animal. Identity cannot be verified as a finished named dish—it is a food product whose key ingredient species is not explicitly declared in the supplied source.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1774,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 518,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

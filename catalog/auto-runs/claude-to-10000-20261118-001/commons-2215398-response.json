@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChB8QpVZazv3Z9r52jTmk",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 3,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [\n    \"Cooked meat components visible on plate in gravy\",\n    \"Sauerkraut visible under meat\",\n    \"Bread slices on side\",\n    \"Red wine in glass\",\n    \"Dining table setting\"\n  ],\n  \"phone_observations\": [\n    \"Plate dominates thumbnail but subject is blurred and unfocused\",\n    \"Gravy/sauce visible but essential food detail unclear\",\n    \"Lighting too dim to verify dish components sharply\",\n    \"Thumbnail lacks readable essential component detail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Bratwurst identity cannot be visually confirmed—sausage species unspecified in source metadata and meat type hidden inside casing\",\n    \"Leberknödel (liver dumpling) cannot be visually distinguished from other dumpling types in soft focus\",\n    \"Saumagenscheibe (pork belly slice) cannot be visually confirmed as distinct meat species—ambiguous without clear species declaration\",\n    \"Full image is out of focus and poorly lit\",\n    \"Phone thumbnail is severely blurred and does not meet sharp detail standard\"\n  ],\n  \"reason\": \"Rejection: source description names 'Bratwurst' and 'Saumagenscheibe' but neither meat species (pork, beef, etc.) is explicitly stated in the source metadata, and visual identification is impossible due to soft focus, dim lighting, and blur in both full image and phone thumbnail. The phone thumbnail fails the sharpness requirement—essential food components are not readable. Full image sharpness score is 3/5, below the mandatory ≥4 threshold. Without explicit species declarations in source text and without sharp visual confirmation, protein_evidence cannot be populated. All checks do not evaluate true.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1792,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 538,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

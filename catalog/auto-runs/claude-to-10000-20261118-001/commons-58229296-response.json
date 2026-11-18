@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChB8RCa6jrFUb2zU8m1jH",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Bowl of noodle soup with broth\",\n    \"Curly wheat noodles visible\",\n    \"Diced potato chunks\",\n    \"Orange vegetable pieces (carrot)\",\n    \"Golden-brown broth\",\n    \"White ceramic bowl\",\n    \"Classic Savory branded bowl rim visible\"\n  ],\n  \"phone_observations\": [\n    \"Noodle soup clearly recognizable in thumbnail\",\n    \"Bowl shape and broth visible\",\n    \"Noodles and solids distinguishable\",\n    \"Adequate detail for dish identification\"\n  ],\n  \"protein_evidence\": {\n    \"chicken\": \"Chicken Lomi\"\n  },\n  \"uncertainties\": [\n    \"Title/description is metadata pollution: contains unrelated fruits (Mangoes, Chico, Carica papaya), multiple dish names (Chicken Lomi, Milkfish dishes, Pixie's Sinugba), and conflicting cuisine attributions (Bulacan)\",\n    \"Only 'Chicken Lomi' in description can be matched to visible noodle soup, but description is demonstrably unreliable\",\n    \"No visible chicken pieces, fish, or protein sources confirmed in photograph\",\n    \"Source metadata is a jumbled file description, not an accurate dish identification\",\n    \"Cannot establish reliable identity from corrupted source description\"\n  ],\n  \"reason\": \"Reject: Source description is metadata corruption containing multiple unrelated dishes and ingredients (mangoes, papaya, milkfish, sinugba) mixed with 'Chicken Lomi'. The photograph shows a noodle soup with potato and carrot, but no visible chicken or protein can be identified. The only potentially matching dish name is 'Chicken Lomi', but the unreliable, contradictory source description fails the identity check. Source title/description does not match visible form in a trustworthy way. Cannot accept when source metadata is demonstrably polluted and no protein is visibly confirmed.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1864,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 584,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
