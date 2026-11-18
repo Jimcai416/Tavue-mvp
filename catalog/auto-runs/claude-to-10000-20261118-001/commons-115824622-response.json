@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChB6WSEnHDEMX998TFpGQ",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows cooked components: orange sweet potato slices, cooked chickpeas, and what appears to be diced raw or cured seafood with red onion\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'Ceviche peruano' (Peruvian ceviche), but the full image shows prominently cooked components: sweet potato and chickpeas are clearly roasted/boiled, not raw. Ceviche requires raw seafood cured in citrus. The visible seafood component (if present) cannot be confirmed as raw ceviche-style preparation—it appears diced but cooking state is ambiguous.\",\n    \"No explicit source statement identifies the seafood species, type, or even confirms seafood is present rather than another protein.\",\n    \"The dish composition (cooked tubers, legumes, and unclear protein) contradicts standard ceviche identity and preparation.\"\n  ],\n  \"reason\": \"Identity check fails. The source title 'Ceviche peruano' contradicts the visible preparation: ceviche requires raw seafood cured in citrus, but the image shows prominently cooked sweet potato and cooked chickpeas as major components. The seafood component's preparation state is ambiguous and unconfirmed by source text. No explicit protein species is named in the metadata. The visible dish does not match the claimed identity.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1735,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 456,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
