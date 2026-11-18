@@ -4854,3 +4854,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 
 - **Empanada at Sugbo Mercado** — IndayLiburan. [CC BY 4.0](https://creativecommons.org/licenses/by/4.0); [source](https://commons.wikimedia.org/wiki/File:Empanada_sulod_sa_Sugbo_Mercado.jpg). Local asset: `reviewed-commons-158842221.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Choripán** — [mariela morales](https://www.flickr.com/people/136527749@N07). [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Chorip%C3%A1n_-_Flickr_-_Marieloreto.jpg). Local asset: `reviewed-commons-44721263.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Goulash served in bread** — John Cambrick. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Goulash_i_br%C3%B8d_i_Prag.jpg). Local asset: `reviewed-commons-93700361.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
