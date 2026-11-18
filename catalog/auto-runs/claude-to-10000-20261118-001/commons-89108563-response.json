@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChB6MQPAoFqyAjqCGVK8G",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [\n    \"Three clear plastic containers with sushi and sashimi items\",\n    \"Chopsticks present in lower frame\",\n    \"White rice-based rolls visible in left and right containers\",\n    \"Raw fish slices visible in centre container\",\n    \"Garnish elements (green wasabi, pickled ginger, nori) present\"\n  ],\n  \"phone_observations\": [\n    \"Three containers clearly visible in thumbnail\",\n    \"Distinct items and presentation readable\",\n    \"Chopsticks recognizable in lower portion\",\n    \"Sushi/sashimi components identifiable at reduced resolution\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title is generic 'Sashimi, Sushi and Chopsticks' with no specific dish identity, preparation method, or regional variant\",\n    \"Cannot determine exact sashimi fish species from appearance alone—no source text specifies salmon, tuna, or other species\",\n    \"No source description of roll fillings or specific sushi varieties (nigiri, maki, uramaki)\",\n    \"Ambiguous identity: appears to be a mixed/assorted sushi platter rather than a single named dish\",\n    \"Source metadata ('mycurrency.com' author, generic stock-photo style) suggests this may be a composite or generic food photography without authentic dish provenance\"\n  ],\n  \"reason\": \"Identity check fails. The source title and description are generic category labels ('Sashimi, Sushi and Chopsticks') rather than a specific dish name or variant. No fish species are explicitly named in the source text, so protein_evidence cannot include any entries. The image shows multiple assorted items (mixed sushi, mixed sashimi, side garnishes) without a canonical, singular dish identity that can be verified against source documentation. While photograph and phone quality are acceptable, Tavue's protocol requires a specific, source-declared dish phrase with meaningful identity preservation—not generic collection titles. Hold or reject until a proper dish-specific source title is provided.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1737,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 589,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
