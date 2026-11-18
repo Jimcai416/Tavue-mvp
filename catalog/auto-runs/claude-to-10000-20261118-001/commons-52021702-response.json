@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAT4bytG5dNxanyJnCAY",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Creamy pale yellow/white pudding or kheer visible in earthenware bowl\",\n    \"Red/brown earthenware serving vessel with dark rim\",\n    \"Garnish of fried onions (saffron-coloured strands) and green herbs visible\",\n    \"Prominent dish in both full and thumbnail images\",\n    \"Natural lighting, appetising presentation\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows rounded earthenware bowl with pudding filling\",\n    \"Garnish detail legible in phone view\",\n    \"Dish identity readable from thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title is 'File:Food-Chandana-Kheer.jpg' – filename with 'File:' prefix is not a valid dish description per instructions\",\n    \"Description field is empty\",\n    \"Author and license metadata present but no actual dish name or variant details provided in source\",\n    \"Specific canonical name cannot be extracted from metadata alone; 'Chandana Kheer' is inferred from filename only\"\n  ],\n  \"reason\": \"Reject: source metadata does not contain a valid dish title or description. The filename 'Food-Chandana-Kheer.jpg' includes a 'File:' prefix and is not a proper source title/description field. The description field is empty. Per instructions, canonical_name must be copied exactly from source title or description; filenames are excluded. No explicit, unmetadata source statement of the dish name exists. Identity check fails due to absence of authoritative source documentation beyond filename.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1511,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 499,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

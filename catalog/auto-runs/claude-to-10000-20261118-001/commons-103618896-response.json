@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAT518BgvwQPVZpbtoQm",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Two bread rolls (pav) visible at top of plate\",\n    \"Thick spiced vegetable curry in center\",\n    \"Garnish of raw onion and fresh cilantro\",\n    \"Lime wedge and additional raw onion on side\",\n    \"Pink-tinted metal plate typical of street food service\"\n  ],\n  \"phone_observations\": [\n    \"Plate, pav, and curry all clearly visible in thumbnail\",\n    \"Curry texture and toppings readable\",\n    \"Composition matches full photograph\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title contains 'File:' prefix and metadata markers inconsistent with canonical source description\",\n    \"Source description states 'vegetable curry' but title prefix 'Famous Mumbai Pav Bhaji.jpg' is a filename, not a verified dish identifier\",\n    \"No explicit confirmation of exact preparation method or regional variant from a clean source statement\"\n  ],\n  \"reason\": \"The photograph clearly shows a finished, well-composed pav bhaji dish with appetizing appearance, sharp detail, natural colours, and readable components in both full and thumbnail views. However, the source metadata is malformed: the 'title' field contains 'File:' prefix and '.jpg' extension (filename elements), and the 'description' is generic. The canonical name cannot be reliably extracted from an unclean source title. The dish itself meets all visual and quality criteria, but the source identity verification fails due to metadata format corruption. Hold pending a clean, non-filename source title.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1644,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 486,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

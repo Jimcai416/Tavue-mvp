@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAT4XeSPviF8dhaFUebj",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 3,\n    \"appeal\": 3\n  },\n  \"visible_support\": [\n    \"Folded flatbread consistent with rumali roti description\",\n    \"Spherical fried potatoes visible on plate\",\n    \"Restaurant/catering setting with serving vessels\",\n    \"Natural colours, finished dish presentation\"\n  ],\n  \"phone_observations\": [\n    \"Plate with folded bread and round potato item clearly visible\",\n    \"Essential components readable in thumbnail\",\n    \"Sharp enough to identify dish components\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title claims 'paneer stuffed aloo dum' but no visible paneer is identifiable in the photograph—the potato appears to be fried whole without visible cheese stuffing\",\n    \"Paneer is not in the allowed protein categories (chicken/beef/pork/duck/lamb/seafood) and cannot be verified visually\",\n    \"Identity mismatch: source declares a paneer component that cannot be confirmed in the visible dish\"\n  ],\n  \"reason\": \"Reject: Identity check fails. The source title explicitly claims 'paneer stuffed aloo dum' but paneer (a vegetarian cheese product) is neither visually identifiable in the photograph nor within the allowed protein category list. The visible potato appears to be fried whole without evidence of cheese stuffing. Source metadata contradicts what is visibly presented. Paneer cannot be claimed as a protein under the specified categories.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1828,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 449,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

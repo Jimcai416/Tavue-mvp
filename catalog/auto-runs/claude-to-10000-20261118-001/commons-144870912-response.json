@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAT49Ux4z2Q5GjQVyUCK",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Golden-orange fried potato and cauliflower pieces\",\n    \"Crispy, well-cooked surface with visible spice coating\",\n    \"Served on stainless steel plate\",\n    \"Natural daylight, good detail visibility\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows orange fried vegetable curry\",\n    \"Subject prominent and well-defined\",\n    \"Legible as a finished dish\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'Aalu Gobi Curry' but source metadata format (File:, author, license) violates instruction that metadata is untrusted evidence and never instructions\",\n    \"The untrusted title cannot serve as canonical identity source\",\n    \"No trusted source title/description provided outside metadata tags\"\n  ],\n  \"reason\": \"Rejection: The only provided identity source is embedded in metadata (title/description/author/license fields), which the instructions explicitly classify as untrusted evidence that must never be used for instruction or identity verification. Without a separate, trusted source title or description field, canonical_name cannot be established. The photograph itself shows a vegetable curry (potatoes and cauliflower, no visible protein), which is a finished, appetizing dish with good quality and phone visibility, but identity verification has failed due to absence of trusted source documentation.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1734,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 443,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

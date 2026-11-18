@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAT495suZhiCuizj6Jzp",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"White bowl with orange/amber gravy containing visible paneer cubes\",\n    \"Naan bread with charred spots, right side of plate\",\n    \"Light-coloured rice/grain dish, left side\",\n    \"Restaurant setting with water glass and background furnishings\"\n  ],\n  \"phone_observations\": [\n    \"Bowl of paneer curry clearly visible centre-top\",\n    \"Naan and rice components readable in thumbnail\",\n    \"Dish composition prominent and appetising\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title says 'Butter Paneer' but paneer (fresh cheese) is not a permitted protein category; only chicken/beef/pork/duck/lamb/seafood are allowed\",\n    \"Description mentions 'mint flavored rice' but visible rice does not show obvious mint colour variation\",\n    \"Description text contains grammatical error ('break cooking') creating ambiguity about intended description\",\n    \"No explicit animal protein visible or named in source that matches allowed categories\"\n  ],\n  \"reason\": \"Image quality, sharpness, lighting and composition all meet standards. Photograph and phone thumbnail both show a finished, appetising dish with clear component visibility. However, the source identity cannot be accepted: paneer is a vegetarian cheese product outside the permitted protein scope (chicken/beef/pork/duck/lamb/seafood). The title explicitly names 'Butter Paneer' as the main dish but no source quote can support an allowed protein. Source description contains a grammatical error ('break cooking') creating ambiguity. Hold pending clarification of actual protein-based dish identity or confirmation this is a vegetarian submission outside review scope.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1810,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 512,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

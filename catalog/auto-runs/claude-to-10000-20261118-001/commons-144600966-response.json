@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAT5N4Gh4sLBYCvtDrcV",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 5,\n    \"appeal\": 5\n  },\n  \"visible_support\": [\n    \"Bowl of ramen with clear broth\",\n    \"Sliced pork chashu (two large pieces visible)\",\n    \"Soft-boiled egg halved with runny yolk\",\n    \"Green onion garnish\",\n    \"Dark seaweed visible\",\n    \"Wheat noodles in broth\",\n    \"Decorative bowl with dark glaze and white streaking\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows ramen bowl with broth\",\n    \"Pork chashu slices visible and prominent\",\n    \"Egg component identifiable\",\n    \"Bowl rim and essential components readable\",\n    \"No clipping of core dish elements\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title states 'chicken bone broth' and 'chicken chashu' but visible protein is clearly sliced pork chashu (pale pink colour and form diagnostic of pork belly), not chicken\",\n    \"Description adds disclaimer '*contains pork' but does not clearly state pork as a primary protein component name\",\n    \"Identity contradiction between 'chicken chashu' (menu description) and visible pork chashu (photograph evidence)\",\n    \"Protein naming in source does not explicitly name pork as a main protein component in the canonical format required\"\n  ],\n  \"reason\": \"The photograph shows high-quality, appetising ramen with excellent sharpness, lighting and composition. Phone thumbnail is clear and readable with no clipping of essential components. However, the source description claims 'chicken chashu' and 'chicken bone broth' as the main protein components, while the visible protein in the bowl is unmistakably sliced pork chashu (characteristic pale pink colour, texture and shape of pork belly). The source includes a parenthetical '*contains pork' disclaimer but does not name pork as an explicit primary protein in the canonical title/menu description. This creates a source contradiction: the named dish identity (chicken-based) does not match the visible protein (pork-based). Per instructions, source contradictions and ambiguous protein identity require a hold. The protein_evidence cannot be populated because the source does not contain an explicit quote naming pork as a main protein component in the dish title or primary description.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1782,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 648,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
