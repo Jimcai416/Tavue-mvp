@@ -5835,3 +5835,8 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **kuih lapis** — Jane and Xuan. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Kuih_Lapis_(_Malaysia_dessert_).jpg). Local asset: `reviewed-commons-190004291.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Ube halaya - mashed purple yam** — Obsidian Soul. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Ube_halaya_-_mashed_purple_yam_(Philippines)_02.jpg). Local asset: `reviewed-commons-79041045.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **kokoreç** — oğulcan bakiler, soner k.. [Public domain](https://creativecommons.org/publicdomain/mark/1.0/); [source](https://commons.wikimedia.org/wiki/File:Kokore%C3%A72.jpg). Local asset: `reviewed-commons-111286132.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
