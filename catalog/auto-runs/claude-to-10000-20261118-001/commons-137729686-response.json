@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBJ8NJwQgVJqR73icSUF",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Toasted baguette with visible crispy exterior\",\n    \"Layered filling with green vegetable (cucumber or similar)\",\n    \"Shredded meat component visible beneath green layer\",\n    \"Caramelized onions at base\",\n    \"Served on white disposable plate\",\n    \"Natural outdoor daylight lighting\"\n  ],\n  \"phone_observations\": [\n    \"Sandwich clearly visible and prominent in thumbnail\",\n    \"Essential components readable: bread, green vegetable layer, shredded meat, onions\",\n    \"Finished, exposed dish state evident\",\n    \"Sharp detail of bread crust and filling layers\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title 'Magiska mackor på num pang' is Swedish. 'Mackor' means sandwiches; 'num pang' is a Southeast Asian sandwich style. Exact dish identity unclear from title alone.\",\n    \"Shredded meat component visible but species cannot be reliably determined from appearance alone—could be chicken, pork, or duck. No explicit protein species named in source description.\",\n    \"Title is non-English descriptive phrase without standard English dish name or clear meat qualifier.\",\n    \"Source metadata (filename, author credit) are untrusted per instructions; title/description alone insufficient to establish canonical identity.\"\n  ],\n  \"reason\": \"Image quality, sharpness, lighting, composition and phone visibility all meet standards. Dish is a finished, exposed, appetising sandwich with readable components. However, identity check fails: the Swedish title 'Magiska mackor på num pang' does not clearly establish a canonical dish name, and the visible meat component's species cannot be visually confirmed or extracted from the source description. No explicit protein species is named in the supplied metadata. Per protocol, source contradictions, ambiguous meat species, and doubtful identity require hold. A source quote that explicitly names the dish and any protein species would be required for acceptance.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 2042,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 577,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
