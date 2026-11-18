@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAXBNJnNyvT3HEuHdWho",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 1,\n    \"lighting\": 1,\n    \"composition\": 1,\n    \"appeal\": 0\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows only glowing heating elements (yellow/orange grille pattern), no food visible\",\n    \"Dominant feature is industrial radiant heater, not a dish\",\n    \"No recognizable food components identifiable in either full image or thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title claims 'Shawarma' but the photograph shows only cooking equipment (radiant heater), not a finished shawarma dish\",\n    \"No meat, bread, vegetables, or other food components are visible or identifiable in either image\"\n  ],\n  \"reason\": \"Reject: This is a photograph of industrial heating equipment (radiant heater), not a finished food dish. Despite the metadata title claiming 'Shawarma in Sharjah, UAE', the actual visible content is exclusively cooking apparatus. No food is present, identifiable, or appetising in either the full photograph or phone thumbnail. The image fails identity, quality, composition, appeal and photograph checks. It does not meet the requirement for 'a finished, exposed, likely photographic dish' with 'readable essential components'.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1754,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 393,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
