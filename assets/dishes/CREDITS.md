@@ -4489,3 +4489,8 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 - **Tabbouleh - Lebanese salad** — Julo. [Public domain](https://creativecommons.org/publicdomain/mark/1.0/); [source](https://commons.wikimedia.org/wiki/File:Tabouleh.JPG). Local asset: `reviewed-commons-4478617.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Arroz negro** — Gerda Arendt. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Arroz_negro,_Madrid.jpg). Local asset: `reviewed-commons-154916883.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Brigadeiro** — VitorTo. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:BrigadeiroBrazil.jpg). Local asset: `reviewed-commons-26985138.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Haleem** — Miansari66. [Public domain](https://creativecommons.org/publicdomain/mark/1.0/); [source](https://commons.wikimedia.org/wiki/File:Haleem.JPG). Local asset: `reviewed-commons-12401914.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Caldo Verde** — [Wagner Tamanaha  from Sao Paulo, Brazil](https://www.flickr.com/people/98899298@N00). [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:Caldo_Verde_@_Dona_Deola_-_Higienopolis_(7037051241).jpg). Local asset: `reviewed-commons-101801143.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
