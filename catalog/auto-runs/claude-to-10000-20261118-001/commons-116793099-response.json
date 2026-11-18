@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAzwLSndE8gbvBU4hW2X",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Hands holding food obscures primary dish in thumbnail\",\n    \"Orange/turmeric coating visible but food identity unclear in small size\",\n    \"Hand and preparation gesture dominant rather than finished plated dish\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title references 'SUYA Spot Collection' and 'Northern SUYA' but no explicit dish name provided in title or description\",\n    \"File metadata is theme-based ('Home + Habitat in Africa') and author credit only—no actual dish name supplied\",\n    \"Visual form cannot be matched to a specific canonical dish name without explicit source description\",\n    \"Hands manipulating food suggest preparation stage rather than finished, plated dish ready for consumption\"\n  ],\n  \"reason\": \"Identity check fails. The source provides only a thematic title ('File:Tope Ayodeji Asokere Asokeretope5 (The Northern SUYA Spot Collection).jpg') and author/license metadata, with no explicit dish name in the description field. While the orange coating and context suggest a Northern Nigerian suya preparation, no canonical_name can be extracted as an exact match from the supplied title or description. The image also shows hands prominently holding and presenting the food, suggesting a preparation or handling moment rather than a finished, plated dish. A specific, unambiguous dish name from the source is required.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1760,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 453,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
