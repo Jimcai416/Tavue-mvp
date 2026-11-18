@@ -4438,3 +4438,9 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 
 - **Shahjahani Khichdi** — [Devika](https://www.flickr.com/people/75531279@N05). [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:Shahjahani_Khichdi_(9307081572).jpg). Local asset: `reviewed-commons-87471888.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Chicken pastilla** — [drea  from Vancouver, Canada](https://www.flickr.com/people/32782663@N00). [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:Pastilla_au_poulet.jpg). Local asset: `reviewed-commons-22935476.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Traditional Khichdi with Papad** — Maskaravivek. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Traditional_Khichdi_with_Papad.jpg). Local asset: `reviewed-commons-73735987.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Madeleines de Commercy** — myself (Bernard Leprêtre). [CC BY-SA 2.5](https://creativecommons.org/licenses/by-sa/2.5); [source](https://commons.wikimedia.org/wiki/File:Madeleines_de_Commercy.jpg). Local asset: `reviewed-commons-1637778.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Pastilla au poulet et sucre glace** — Bex.Walton. [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Pastilla_au_poulet_et_sucre_glace.jpg). Local asset: `reviewed-commons-26082892.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
