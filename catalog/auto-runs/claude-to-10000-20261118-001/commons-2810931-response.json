@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAigFLRgtQNmbhvGzyoB",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 3,\n    \"composition\": 3,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows a baked good with golden-brown exterior and visible filling/nuts\",\n    \"Subject is prominent in phone thumbnail\",\n    \"Some detail visible of texture and composition\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Full source photograph is severely out of focus and blurry\",\n    \"Essential food detail is not sharply visible in the main image\",\n    \"Lighting is dim and uneven in source photograph\",\n    \"Moon cake identity cannot be verified with confidence due to image quality\",\n    \"Filling composition and any protein content cannot be clearly determined from blurry source image\"\n  ],\n  \"reason\": \"Reject: The full source photograph is significantly out of focus and blurry, failing the sharpness requirement (score 2/5). While the phone thumbnail shows acceptable detail for the subject, the primary full-resolution image lacks the sharp detail and clear exposure necessary to verify the dish identity, filling composition, and any protein content with confidence. Essential visual components are not sharply detailed in the source photograph.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1726,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 376,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
