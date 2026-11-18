@@ -4559,3 +4559,8 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 
 - **Caracoles a la Madrileña** — Tamorlan. [CC BY 3.0](https://creativecommons.org/licenses/by/3.0); [source](https://commons.wikimedia.org/wiki/File:Cazuela_de_Caracoles-_2011.JPG). Local asset: `reviewed-commons-16036628.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Cooked chickpeas with sautéed vegetables, Posada Kitchen (Spain)** — Juan Emilio Prades Bel. [CC BY 4.0](https://creativecommons.org/licenses/by/4.0); [source](https://commons.wikimedia.org/wiki/File:Garbanzos_cocidos,_con_sofrito_de_verduras,_Cocina_de_Posada_(Espa%C3%B1a).jpg). Local asset: `reviewed-commons-201267714.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Malloreddus from Sardinia** — Popo le Chien. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Malloredus.jpg). Local asset: `reviewed-commons-62835339.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Ossobuco** — Kgbo. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Osteria_Epoca_Cafe_Bar,_Yeronga,_Queensland,_Ossobuco_dish.jpg). Local asset: `reviewed-commons-90584908.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
