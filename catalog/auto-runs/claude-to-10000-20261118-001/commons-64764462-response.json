@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAZ5LK35UY3YtaJXmmds",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": \"Turshu (on the house as amouse-bouche) and ishkembe soup in Ankara, Turkey\",\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Creamy soup with visible meat pieces in white bowl\",\n    \"Pickled vegetables on separate plate with fried long items\",\n    \"Two sauce/condiment bowls (garlic and vinegar per source)\",\n    \"Lemon wedge garnish\",\n    \"Restaurant plating on red patterned tablecloth\"\n  ],\n  \"phone_observations\": [\n    \"Soup bowl prominent and sharp in centre-cover thumbnail\",\n    \"Pickled vegetables plate visible upper left\",\n    \"Sauce bowls and garnish clearly readable\",\n    \"Natural colours, appetising presentation preserved at thumbnail scale\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title lists two separate dishes (Turshu and ishkembe soup) but canonical identity is ambiguous—which is the primary subject?\",\n    \"Ishkembe soup traditionally contains tripe (animal organ/offal), but source does not explicitly name the protein animal. Tripe is an organ meat not in the allowed protein categories (chicken/beef/pork/duck/lamb/seafood)\",\n    \"Cannot visually confirm tripe species or confirm whether dish actually contains only tripe or mixed offal\",\n    \"Turshu identity unclear—appears to be pickled vegetables but no protein element visually confirmed\"\n  ],\n  \"reason\": \"Identity check fails. Source lists two dishes but provides no unambiguous canonical name for a single dish. Ishkembe soup's protein is tripe (offal), which is not an allowed protein category and source does not explicitly name the animal species. Tripe cannot be claimed as beef/pork/lamb without explicit source naming. The composition as a two-dish plate with ambiguous primary identity and an organ-meat component with unspecified animal source triggers hold. All quality and photograph checks pass, but identity and protein evidence cannot be established to canonical standards.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1775,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 585,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
