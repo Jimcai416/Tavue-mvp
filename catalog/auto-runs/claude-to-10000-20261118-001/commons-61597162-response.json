@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAvAfX2S23dApd8wK7bM",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Cooked pork pieces visible in both images\",\n    \"Boiled potatoes present\",\n    \"Long green peppers (siling mahaba) visible\",\n    \"Leafy green vegetable component\",\n    \"Plain white plate, home-cooked presentation\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows cooked meat, vegetables and starch\",\n    \"Green pepper and potato components readable\",\n    \"Dish components adequately prominent and identifiable\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title contains two conflicting dish names: 'Sinigang na Baboy' and 'Nilagang Baboy' - these are distinct cooking methods (braised vs boiled)\",\n    \"Source description does not explicitly name 'pork' or 'baboy' as a declared protein; 'Baboy' is Tagalog for pork but metadata alone cannot confirm species without explicit English declaration\",\n    \"Presence of patola (bottle gourd) is mentioned in title but not clearly visible as a distinct component in the photograph\",\n    \"Ambiguity whether this is sinigang (braised pork in tamarind broth) or nilagang baboy (boiled pork) - broth visibility is minimal/absent\"\n  ],\n  \"reason\": \"Source metadata contains conflicting dish identities (two different preparation methods named simultaneously) and lacks explicit English-language protein declaration despite Tagalog terms. While the photograph shows appetising cooked meat with vegetables and potatoes in home-cooked style with adequate quality and phone thumbnail clarity, the unresolved contradiction between 'Sinigang' and 'Nilagang' and the absence of a source quote explicitly naming the protein in English prevents a canonical identity assignment. Hold pending clarification of which single dish this represents and explicit protein confirmation.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1896,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 557,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

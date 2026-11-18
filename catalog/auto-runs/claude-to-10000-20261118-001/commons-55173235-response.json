@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAvAfJ8KGPCJjv3wxK31",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Finished, cooked dish in white bowl\",\n    \"Rich orange-brown sauce characteristic of caldereta\",\n    \"Meat pieces submerged in sauce\",\n    \"Green vegetable visible (possibly okra or pepper)\",\n    \"Natural daylight photography\",\n    \"Home/street food presentation\"\n  ],\n  \"phone_observations\": [\n    \"Dish clearly visible in thumbnail\",\n    \"Orange sauce colour readable\",\n    \"Meat and vegetable components distinguishable\",\n    \"Overall composition preserved in crop\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title states 'minced vegetables' but photograph shows distinct meat pieces and what appears to be whole or chunked okra/peppers—contradiction between title and visual evidence\",\n    \"No explicit protein species identified in source description; meat type (beef, pork, chicken) cannot be visually determined with certainty\",\n    \"Title qualifier 'minced vegetables' does not match the visible preparation method of the meat or vegetables shown\"\n  ],\n  \"reason\": \"Source identity contradiction: title describes 'caldereta minced vegetables' but the photograph clearly displays meat chunks in sauce with whole/chunked green vegetables, not a minced preparation. No protein species is explicitly named in the source description, only inferred from visual appearance. Without source-declared protein identity and with unresolved preparation method mismatch, identity check fails. Hold for clarification.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1822,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 458,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
