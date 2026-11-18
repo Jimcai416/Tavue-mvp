@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAx5PFpYEExTbr9qpJXm",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Skewered meat cubes with charred exterior on wooden sticks\",\n    \"Golden-brown glaze with dark caramelized spots\",\n    \"Cucumber slices and pink onion garnish on plate\",\n    \"Decorative blue-patterned ceramic plate\",\n    \"Finished, exposed grilled dish\"\n  ],\n  \"phone_observations\": [\n    \"Skewers clearly visible in thumbnail with charred meat\",\n    \"Garnish visible but small\",\n    \"Plate pattern identifiable\",\n    \"Essential components readable at reduced size\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title states 'Satay Senibong' but no source description provided to confirm exact canonical name\",\n    \"Meat species not explicitly named in source metadata—visual appearance suggests poultry but cannot be confirmed from text alone\",\n    \"Regional variant 'Senibong' preserved in title, but full authoritative dish name requires exact source quote beyond filename\"\n  ],\n  \"reason\": \"Image quality, composition and phone thumbnail all pass. However, the identity check fails because the source title/description supplied does not include the full canonical phrase—only a filename 'Satay Senibong.jpg' and generic author credit. Protein species is not explicitly stated in any metadata. Per protocol, identity must agree with exact source title or description (excluding filename extension); a filename alone is insufficient. Without an explicit source description confirming both the full canonical name and protein identity, hold pending clarification.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1725,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 479,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

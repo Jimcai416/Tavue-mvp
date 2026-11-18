@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAx4v1yrMKQDTYwAobVg",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Cooked meat with visible browning and seasoning\",\n    \"Golden-yellow fried potato chips/fries prominently displayed\",\n    \"Finished plated dish on white ceramic plate\",\n    \"Natural daylight illumination\",\n    \"Readable protein form in both full and thumbnail images\"\n  ],\n  \"phone_observations\": [\n    \"Meat and potatoes both clearly visible in thumbnail\",\n    \"Essential dish components present and identifiable\",\n    \"No critical elements clipped from phone thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title states 'Conejo en escabeche' (rabbit in escabeche), but rabbit is not an allowed protein category per specifications\",\n    \"Rabbit cannot be verified as an acceptable protein type for canonical entry\",\n    \"Species ambiguity: escabeche preparation style does not definitively confirm rabbit identity from visual appearance alone\"\n  ],\n  \"reason\": \"Image quality and photograph composition meet acceptance standards. The finished dish is sharp, well-lit, appetising and prominently plated with identifiable components visible in both full and phone thumbnail. However, the source identifies the protein as rabbit (conejo), which is not an allowed category (chicken/beef/pork/duck/lamb/seafood only). Without an exact source quote matching an allowed protein species, identity cannot be verified, and the check fails. Hold pending clarification of protein identity or source correction.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1733,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 459,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

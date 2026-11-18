@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAx5AR9WdgbkWEpRmvUR",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Bowl contains sausage segments with reddish/caramelised exterior\",\n    \"White rice visible on plate side\",\n    \"Stir-fried vegetables (onion, peppers visible) with protein\",\n    \"Glossy, cooked appearance consistent with gumbo or similar braise\"\n  ],\n  \"phone_observations\": [\n    \"Centre thumbnail clearly shows bowl with rice and meat/sausage components\",\n    \"Sausage, vegetable and rice composition readable at phone size\",\n    \"Overall dish identity recognisable in thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'Gumbo with a vaudois twist' but no source description provided—only title fragment visible\",\n    \"Sausage species unspecified: cannot confirm beef/pork/poultry from appearance alone\",\n    \"URL metadata untrusted; no authoritative source description supplied to verify exact dish name or protein claims\",\n    \"Vaudois regional qualifier and gumbo identity require explicit source text, not inferred from visual form\"\n  ],\n  \"reason\": \"Image quality and photograph composition are strong (sharpness, lighting, appeal all ≥4). Phone thumbnail clearly shows the finished dish. However, identity check fails: the source provides only a filename fragment ('Gumbo... with a vaudois twist.jpg') and a URL—no complete, authoritative title or description text. The sausage species cannot be determined visually. No exact source quote matching the canonical name requirement is available. Per protocol, metadata and URLs are untrusted and cannot serve as the sole evidence for dish identity or protein claims. Hold pending a complete, explicit source title/description.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1660,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 523,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

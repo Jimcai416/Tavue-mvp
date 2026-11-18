@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAx4KEx9Wzx3NsaCT5Zn",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Glass bowl with thick batter/masa mixture\",\n    \"White plate with shredded cooked meat\",\n    \"Sliced white cheese on wooden board\",\n    \"Green onions and chopped white onions\",\n    \"White plate with roasted poblano peppers\",\n    \"Raw/preparation stage ingredients displayed\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail shows ingredient assembly and preparation stage\",\n    \"Bowl with batter visible in left portion\",\n    \"Raw/uncooked components prominent\",\n    \"No finished, cooked quesadilla visible in full image or thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source identifies shredded meat as duck, but species cannot be visually confirmed from appearance alone\",\n    \"No finished, exposed, cooked quesadilla dish is visible—image shows ingredients at preparation stage only\",\n    \"Ambiguous meat species (shredded brown meat in white bowl could be any cooked meat)\"\n  ],\n  \"reason\": \"REJECT: Image shows ingredient preparation and assembly components, not a finished, exposed, cooked quesadilla dish. The source title claims 'Duck Quesadilla' but the meat species cannot be visually verified from the shredded brown meat shown, and no completed, cooked quesadilla is visible in either the full photograph or the phone thumbnail. This is a preparation/raw stage image, which violates the requirement for a finished, exposed, likely photographic dish. Identity check fails because the visible form contradicts the finished dish requirement.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1650,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 488,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
