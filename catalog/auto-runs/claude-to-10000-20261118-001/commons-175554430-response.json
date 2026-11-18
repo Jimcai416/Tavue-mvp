@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAgVm7H1b4LjuDNDa547",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": \"Nyonya Prawn Noodle Soup\",\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Light blue bowl with 'NOODLES' text visible at rim\",\n    \"Noodles in reddish-brown broth\",\n    \"Soft-boiled egg visible in lower portion\",\n    \"Green vegetable garnish (likely bok choy or similar)\",\n    \"Finished, plated dish in restaurant setting\",\n    \"Natural colours, appetising presentation\"\n  ],\n  \"phone_observations\": [\n    \"Noodle dish clearly visible at centre\",\n    \"Reddish broth and noodles prominent in thumbnail\",\n    \"Egg and toppings readable\",\n    \"Bowl shape and texture discernible\",\n    \"No clipping of essential components\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title states 'Prawn Noodle Soup' but no visible prawn/shrimp can be confirmed in either image. The broth colour and noodle appearance are consistent with prawn-based soup, but no actual crustacean is distinguishable in the photograph.\",\n    \"Description metadata conflicts with visible form: metadata claims 'Prawn' (seafood category) but this cannot be visually verified from the dish contents shown.\"\n  ],\n  \"reason\": \"Identity check fails: source description declares 'Prawn Noodle Soup' but no prawn or seafood protein is visually identifiable in the photograph. Per protocol, hidden flavours may be source-declared, but protein claims require exact source quote with explicit naming and must be supported by visible form or unambiguous visual evidence. The visible egg and noodles in broth do not confirm prawn presence. Source contradiction between title and photograph contents triggers hold pending clarification.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1656,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 538,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

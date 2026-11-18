@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAgVxsDMGj3nEEzB9wzh",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 5,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Clear noodle soup bowl with blue-rimmed ceramic\",\n    \"Three brown meatballs (stated as beef balls)\",\n    \"Four white spheres (stated as fish balls)\",\n    \"Fine white noodles\",\n    \"Green vegetable garnish (likely bok choy or similar)\",\n    \"Finished, cooked dish in serving bowl\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows bowl composition\",\n    \"Meatballs and fish balls visible and distinct\",\n    \"Noodles and greens readable\",\n    \"Overall dish identity preserved in reduction\"\n  ],\n  \"protein_evidence\": {\n    \"beef\": \"Beef Balls\",\n    \"seafood\": \"Fish Balls\"\n  },\n  \"uncertainties\": [\n    \"Source title describes 'Fish Balls' but no specific fish species is named; seafood category accepted but species unidentified\",\n    \"Visual appearance of the four white spheres is consistent with fish balls, but exact fish species cannot be determined from photograph alone\"\n  ],\n  \"reason\": \"Image quality, composition, sharpness and phone thumbnail are all excellent and meet acceptance criteria. The dish is clearly a finished, cooked noodle soup with identifiable components. However, the source description names 'Fish Balls' without specifying the fish species. Per protocol, unknown or unspecified seafood species must be held. The beef balls are explicitly named and can be accepted, but the fish balls lack species identification despite being a core component. This ambiguity requires holding the submission pending clarification of the fish species used.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1754,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 495,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
