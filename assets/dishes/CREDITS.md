@@ -3557,3 +3557,11 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Azerbaijani traditional national dish of the yaprag dolması** — Photo by  MrArifnajafov  (Photography from the original).. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Dolma_Azerbaijani.JPG). Local asset: `reviewed-commons-19680365.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Amok with fish** — [eric yeargan](https://www.flickr.com/people/26370973@N08). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Amok_with_fish_(8259154034).jpg). Local asset: `reviewed-commons-76258556.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Fish Amok- Khmer specialty** — Ben Yapp. [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Fish_Amok-_Khmer_specialty.jpg). Local asset: `reviewed-commons-137741286.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Dolmeh Barg-e Mo** — Fars Media Corporation. [CC BY 4.0](https://creativecommons.org/licenses/by/4.0); [source](https://commons.wikimedia.org/wiki/File:Dolmeh_Barg-e_Mo_15.jpg). Local asset: `reviewed-commons-80492190.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Fish Amok** — Marie. [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:Fish_Amok.jpg). Local asset: `reviewed-commons-137741360.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Fish amok with white rice** — [sharonang](https://pixabay.com/users/sharonang-99559/). [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Fish_Amok_with_Rice.jpg). Local asset: `reviewed-commons-168537018.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
