@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAiUProLX2XxjzpdtuAs",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Full-image shows a finished cooked breakfast plate with beans in sauce, golden hash brown, mushrooms, tomatoes, fried egg, and additional potato products\",\n    \"Phone thumbnail clearly displays the main dish components with readable bean sauce and hash brown\",\n    \"Naturally coloured, appetising appearance with no severe glare or clipping\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail shows finished breakfast with prominent bean sauce, hash brown, and egg visible\",\n    \"Essential components readable; no critical food clipped\",\n    \"Natural colours and sharp detail preserved in reduction\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title describes this as 'a vegetarian breakfast' with no animal proteins explicitly named\",\n    \"While an egg is visibly present in the photograph, the source description does not explicitly state 'egg' as a component\",\n    \"The description emphasizes vegetarian identity, which contradicts the visible fried egg\"\n  ],\n  \"reason\": \"Identity mismatch: Source explicitly labels this a 'vegetarian breakfast,' but the photograph clearly shows a fried egg—an animal product. The source description does not name any proteins, and the declared vegetarian identity conflicts with visible non-vegetarian components. This ambiguity and source-image contradiction requires hold per protocol; however, the more severe issue is that the source does not provide a specific dish name (only a generic category), making canonical_name impossible to populate from exact source text. Rejection on identity grounds: the vegetarian claim is contradicted by photographic evidence, and no specific named dish is provided in the source.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1783,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 494,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

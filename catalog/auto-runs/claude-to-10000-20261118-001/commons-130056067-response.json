@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAiTWQfYtSZWNnrXpbAQ",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 5,\n    \"composition\": 5,\n    \"appeal\": 4\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Illustration/diagram, not a photograph of prepared food\",\n    \"Ingredient components displayed with labels in Armenian script\",\n    \"Two cooked patties shown centrally with ingredient icons around them\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title and metadata text in Armenian; metadata states 'created on the basis of free images' confirming this is an illustration, not a food photograph\",\n    \"File metadata declares 'Bubble and squeak ingredients' but source title contains only Armenian text\"\n  ],\n  \"reason\": \"Reject: This is an illustration/diagram of ingredients, not a photograph of a finished, prepared dish. The metadata explicitly states the visual was 'created on the basis of free images', confirming it is not an original food photograph. While the two central patties are cooked and identifiable, the overall image is a composite instructional graphic with labeled ingredient components, making it unsuitable for review as a finished food photograph. The phone thumbnail confirms the illustration format with simplified component graphics.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1838,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 369,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

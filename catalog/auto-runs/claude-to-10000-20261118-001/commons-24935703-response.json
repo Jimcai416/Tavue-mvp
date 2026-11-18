@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAiTwJNqAvChLE1KsyiC",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows baked dish in oval ceramic dish with golden-brown surface\",\n    \"Greenery visible across top (herbs, likely chives or spring onion)\",\n    \"Cheese visible in lighter patches\",\n    \"No clear sausages or batter structure discernible in thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title 'toad in the hole' describes a traditional British dish of sausages baked in batter, but the visible photograph shows what appears to be a baked egg-based casserole or frittata with cheese and herbs\",\n    \"No sausages are clearly visible in either the full source or thumbnail\",\n    \"The batter base characteristic of toad in the hole is not evident; this appears to be an entirely different dish (possibly a baked omelette, strata, or cheese and herb bake)\",\n    \"Identity mismatch between declared title and visual content\"\n  ],\n  \"reason\": \"Identity check fails. The source title declares 'toad in the hole' (UK sausage-in-batter dish), but the photograph shows a baked casserole or egg-based dish with cheese and herbs, with no visible sausages or characteristic batter structure. The two are inconsistent. The photograph quality itself is acceptable but cannot be accepted due to source-image contradiction. Hold would be appropriate if the true dish identity were uncertain, but the source explicitly misrepresents the content.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1729,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 472,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
