@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChB6vtfvy9SfRqWZM6GnN",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Stuffed vegetables visible: dark-skinned eggplant halves with filling, red pepper segment, white mushroom or similar\",\n    \"Fried wonton skin parcels golden-brown and crispy, prominent in composition\",\n    \"Green herbs/scallion garnish visible\",\n    \"Pink ceramic plate, home/restaurant setting\"\n  ],\n  \"phone_observations\": [\n    \"Stuffed eggplant and red pepper clearly visible\",\n    \"Wonton-wrapped items legible\",\n    \"White vegetable component visible\",\n    \"Essential components readable and prominent in thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title states 'fish paste' as filling, but no fish/seafood protein category can be supported—fish is not in the allowed protein categories (chicken/beef/pork/duck/lamb/seafood). The term 'fish paste' does not match any allowed single-animal protein name.\",\n    \"Canonical name must include the fish protein claim from the source description, but 'fish' is not an acceptable protein category key; 'seafood' requires an exact animal species (e.g. 'prawns', 'squid'), which is not provided.\"\n  ],\n  \"reason\": \"Image quality, composition, sharpness and phone thumbnail all meet acceptance criteria. However, the source description explicitly states the filling contains 'fish paste'. The allowed protein categories are chicken/beef/pork/duck/lamb/seafood, and each requires an exact source quote naming a specific animal. 'Fish paste' does not name a specific seafood species (e.g. not 'prawn paste', 'squid paste', etc.), and 'fish' alone is not an allowed category. This creates a source-to-protocol contradiction: the dish identity depends on the protein claim, but the protein cannot be verified against allowed categories. Hold pending clarification of the specific seafood species in the filling.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1742,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 574,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

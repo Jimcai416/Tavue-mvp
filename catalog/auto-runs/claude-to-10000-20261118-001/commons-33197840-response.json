@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChB6vc5oGsQe8VTPuhL2u",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 3,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Bamboo segments with open ends visible in thumbnail\",\n    \"Active fire/smoke in background\",\n    \"Raw preparation stage, not finished dish\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Lemang is a finished coconut rice dish traditionally cooked inside bamboo over fire, but this image shows bamboo tubes during active cooking/preparation, not a plated or finished exposed dish\",\n    \"No visible cooked rice or finished food component is prominently displayed or sharply detailed in either full image or thumbnail\",\n    \"The subject is the cooking apparatus and preparation stage, not the finished dish\"\n  ],\n  \"reason\": \"Reject: This is a preparation/cooking-in-progress photograph showing bamboo tubes over an active fire, not a finished, exposed, plated dish. Lemang should be presented as a cooked coconut rice dish with visible component detail. The image documents the cooking method rather than the finished food product. No readable essential components of the finished dish are visible in the phone thumbnail. This falls under raw/preparation stage rejection criteria.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1521,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 381,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
