@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAnypvCMU3D5RVG1y8Xb",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 2,\n    \"composition\": 2,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows raw/preparation stage meat in a pot mid-cooking\",\n    \"Browned meat chunks with visible raw or barely-cooked interiors\",\n    \"Diced onions and aromatics visible but dish is clearly unfinished\",\n    \"No plated, exposed finished dish evident in either image\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source metadata language is Czech; title translates to 'Bolognese mixture for spaghetti' but image shows raw preparation stage, not finished dish\",\n    \"Meat species claimed as 'beef' (hovězího masa) in description but not visually verifiable in raw/cooking state\"\n  ],\n  \"reason\": \"Rejection: Image shows raw/preparation stage meat browning in a pot, not a finished, exposed, photographic dish. Both full source and thumbnail show mid-cooking ingredients (chunks of meat, diced onions, sauce base) in active preparation. The subject is appetitively unappealing, poorly lit, lacks sharp focus on a finished component, and fails the core requirement of presenting 'a finished, exposed, likely photographic dish.' No plated or complete dish is evident. Source metadata (untrusted) claims beef but visual confirmation is impossible at this preparation stage. Reject preparation-stage food.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1727,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 437,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

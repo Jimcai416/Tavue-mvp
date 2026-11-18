@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAnyPuYZgNkutjJEUsq7",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Finished, cooked dish with puffed bread and legume curry\",\n    \"Naturally coloured, appetising presentation\",\n    \"Sharp detail visible in both full and phone images\",\n    \"Prominent subject on white plate\"\n  ],\n  \"phone_observations\": [\n    \"Puffed bread clearly visible and readable\",\n    \"Curry components visible in lower portion\",\n    \"Adequate centre-cover framing\",\n    \"No clipping of essential food\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title contains 'boori' (unclear if bhatura/puri variant or transliteration) – no authoritative source match\",\n    \"Description lists 'chola boori' and separately 'channa masala' – ambiguous whether these are components or separate dishes, or if 'boori' is a confirmed dish name\",\n    \"Exact canonical name cannot be verified from metadata against known regional variants\",\n    \"Protein species (legume-based curry) is vegetarian; no animal protein declared or visually identifiable\"\n  ],\n  \"reason\": \"Image quality, sharpness, lighting and composition all meet standards. However, identity check fails: 'boori' is not a standard, verifiable dish name in documented culinary sources. The description conflates 'chola boori' with 'channa masala' without clarity on whether these describe a single dish or components. The source metadata does not provide a reliable, specific canonical dish name that can be confirmed. Without a resolvable identity against known named dishes, acceptance cannot proceed.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1741,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 493,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

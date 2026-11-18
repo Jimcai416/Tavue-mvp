@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAny3WDPc1rLNVaJJEAs",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 3,\n    \"lighting\": 2,\n    \"composition\": 2,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Raw ground meat at mid-preparation stage, uncooked or barely seared\",\n    \"No finished dish visible\",\n    \"Ingredients being combined in cooking pot, not a plated or served food\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title describes this as preparation ('Add meat mix') and explicitly states it is not a finished dish but part of making a sauce\",\n    \"Image shows raw or early-stage ground meat, not an exposed, finished dish\"\n  ],\n  \"reason\": \"Rejection: This is a preparation/mid-cooking stage image, not a finished, exposed, photographic dish. The source title 'Add meat mix' and description 'Preparing a white Bolognese sauce' explicitly identify this as an intermediate cooking step, not a completed dish. The photograph shows raw or barely-seared ground meat being combined in a pot—a raw/preparation stage that violates acceptance criteria. No finished, appetising, platable dish is visible in either full image or thumbnail. Quality and appeal scores fall below threshold. This is documentary cooking process photography, not food photography of a finished dish.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 2034,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 394,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
