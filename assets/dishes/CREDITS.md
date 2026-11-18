@@ -5051,3 +5051,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 - **Moroccan Couscous** — Laurhim. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Couscous_(74111).jpg). Local asset: `reviewed-commons-165102120.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Cioppino et pain grillé** — Arnold Gatilao. [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Cioppino_et_pain_grill%C3%A9.jpg). Local asset: `reviewed-commons-52865996.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Tsukune (chicken meatballs)** — [Arnold Gatilao  from Oakland, CA, USA](https://www.flickr.com/people/58819758@N00). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Tsukune_(chicken_meatballs)_(16065642291).jpg). Local asset: `reviewed-commons-40530281.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Gyoza estil japonés** — Francesc Fort. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Gyoza_-_Tora.jpg). Local asset: `reviewed-commons-127209994.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.

@@ -70993,5 +70993,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "height": 640,
     "requiresExactMenuName": true,
     "authorUrl": "https://www.flickr.com/people/58819758@N00"
+  },
+  {
+    "id": "commons-127209994",
+    "title": "File:Gyoza - Tora.jpg",
+    "author": "Francesc Fort",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gyoza_-_Tora.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/28/Gyoza_-_Tora.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "efdf1ad51ebd59d2658d0a8ffcfa704b9a1c30ee",
+    "name": "Gyoza estil japonés",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-127209994.jpg",
+    "assetSha256": "c450a96b482324cb57a84b8cc58b6cbeb0fd3b67a67f3efbe1225eeb35cddb63",
+    "reviewedAt": "2026-11-18",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];
