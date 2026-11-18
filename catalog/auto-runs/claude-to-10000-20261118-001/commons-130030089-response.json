@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAbtQd3g2sz2UnccNtpf",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 1,\n    \"lighting\": 2,\n    \"composition\": 1,\n    \"appeal\": 0\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows a folded multi-panel restaurant menu at extreme distance and angle\",\n    \"Text is illegible at phone thumbnail resolution\",\n    \"No finished dish visible in either source image or thumbnail\",\n    \"Only printed menu pages visible, not food photography\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source metadata references multiple dishes (crab, shark fin soup, fish, goose, pork, cuttlefish) but no actual dish image is present\",\n    \"Menu text in both images is unreadable at required detail level\",\n    \"No specific dish can be identified from visual content\"\n  ],\n  \"reason\": \"Rejection: This is a photograph of a printed restaurant menu, not a finished dish photograph. The source image shows a folded menu viewed from distance and angle, with illegible text. The phone thumbnail confirms no food subject is visible—only menu pages at unreadable resolution. The metadata lists multiple possible dishes, but no actual plate, bowl, or prepared food is present in either image. No identity can be established, no quality assessment of a dish is possible, and the photograph fails all core acceptance criteria: it is not a finished, exposed, appetising dish with readable components.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1995,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 412,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

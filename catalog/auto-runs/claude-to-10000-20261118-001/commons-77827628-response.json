@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAbtmqVZMWcpR1jfLFiE",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Yellow folded omelet, prominent and well-exposed\",\n    \"Fresh mixed greens salad with visible leafy components\",\n    \"Brown bread roll in background\",\n    \"White plate, natural restaurant lighting\",\n    \"Phone thumbnail clearly shows omelet and greens\"\n  ],\n  \"phone_observations\": [\n    \"Omelet and greens both visible and readable\",\n    \"Yellow colour distinct\",\n    \"No clipping of essential components\",\n    \"Composition matches full image\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'Oyster omelet' but no oysters are visibly identifiable in the dish\",\n    \"Oysters are not in the allowed protein categories (chicken/beef/pork/duck/lamb/seafood); oysters would require explicit seafood classification but cannot be visually confirmed\",\n    \"No source quote in title or description explicitly names oysters as an ingredient—only the filename suggests it\",\n    \"The omelet appears to be a plain yellow egg-based omelet with no visible oyster pieces, meat, or seafood components\"\n  ],\n  \"reason\": \"Rejection: The dish is titled 'Oyster omelet' but oysters are not visually apparent in the photograph, and oysters do not fall under the allowed protein categories. No explicit source quote naming oysters as an ingredient exists in the provided title or description. The visible dish appears to be a plain egg omelet with greens and bread—the named protein cannot be verified, creating an identity mismatch. Per guidelines, unknown or unverifiable proteins must be held or rejected.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1734,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 499,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
