@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAM1tG9PG5L6tqeUSdVu",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Finished, cooked meat patties/kababs on turquoise plate\",\n    \"Fresh tomato and onion accompaniments with lemon\",\n    \"Tandoori roti/flatbread\",\n    \"Spiced gravy/sauce in metal bowl\",\n    \"Bean sprouts in separate bowl\",\n    \"Natural daylight, appetising presentation\"\n  ],\n  \"phone_observations\": [\n    \"Meat patties clearly visible in thumbnail\",\n    \"Gravy bowl prominent\",\n    \"Roti visible at left edge\",\n    \"Essential components readable at phone scale\"\n  ],\n  \"protein_evidence\": {\n    \"protein\": \"shami kabab\"\n  },\n  \"uncertainties\": [\n    \"Source title states 'delhi nihari, shami kabab and tandoori roti' but the primary meat dish visible is the kabab patties. Nihari is a slow-cooked meat stew typically served in gravy; the visible gravy bowl is small relative to a traditional nihari serving and presentation. The source description may conflate or compress multiple dishes or the nihari identity is not visually dominant or distinguishable from the meat patties.\",\n    \"Shami kabab species not explicitly named in source description ('shami kabab' alone is insufficient; source does not quote 'chicken', 'beef', 'lamb' or specific animal).\",\n    \"No explicit species attribution for the meat in the gravy bowl.\"\n  ],\n  \"reason\": \"Source identity claim ('delhi nihari, shami kabab and tandoori roti') cannot be verified against visible form. The kabab patties and gravy are present but the source conflates multiple dishes without clear visual hierarchy or the nihari is not visually established as the primary identity. Protein species for shami kabab is not explicitly named in source (only the prepared dish name given, not the animal). Ambiguous source description and unquoted protein species prevent acceptance.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1303,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 574,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

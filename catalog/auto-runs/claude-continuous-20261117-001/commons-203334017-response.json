@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAM2ceaVK7tDoSceJizF",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Steamed white rice (substantial portion, centre-dominant)\",\n    \"Brown meat gravy (bottom, glossy, spiced appearance)\",\n    \"White yogurt raita (left side, smooth bowl)\",\n    \"Golden-brown fried meat pieces (top left)\",\n    \"Reddish-brown cooked meat (top right)\",\n    \"Mixed vegetables/greens visible (right edge, olive-toned)\"\n  ],\n  \"phone_observations\": [\n    \"Rice clearly visible and prominent in thumbnail\",\n    \"White raita/yogurt bowl distinct and readable\",\n    \"Brown meat gravy prominent in lower portion\",\n    \"Fried meat pieces visible in upper area\",\n    \"Composition confirms multi-component platter structure\",\n    \"No clipping of essential food elements\",\n    \"Natural colours, no artificial cast detected\"\n  ],\n  \"protein_evidence\": {\n    \"protein\": \"source lists 'fried chicken' and 'meat gravy' but species of gravy meat unspecified\"\n  },\n  \"uncertainties\": [\n    \"Source title 'Malabar Feast Platter' is a generic marketing descriptor, not a specific dish name\",\n    \"Meat gravy species not explicitly identified in source (colour and appearance suggest beef or mutton, but unconfirmed)\",\n    \"Description claims 'vattayappam' but no steamed cake structure visibly distinct in photograph\",\n    \"Semiya payasam claimed but not visibly identifiable in platter composition\",\n    \"Source metadata (author, license, description) is untrusted; actual dish identity unverified\"\n  ],\n  \"reason\": \"Image quality and photograph technical standards meet criteria (sharpness, lighting, composition, appeal all ≥4; phone thumbnail clear and complete). However, identity check fails: source provides marketing descriptor 'Malabar Feast Platter' rather than a canonical dish name. Protein evidence incomplete—'meat gravy' species is not explicitly named in source text, only inferred from appearance. Source description lists components (vattayappam, semiya payasam) not visibly confirmed in the photograph. Metadata inconsistencies and untrusted description claims prevent canonical identity verification. Hold pending clarification of actual dish identity and gravy meat species from reliable source.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1674,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 655,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

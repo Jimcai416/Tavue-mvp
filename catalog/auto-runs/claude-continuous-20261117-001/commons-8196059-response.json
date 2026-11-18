@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAM34jDAMf8CMbN4ox5t",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Rich golden-brown curry sauce visible on meat pieces\",\n    \"Multiple meat components clearly present in foreground\",\n    \"Yellow rice visible in background\",\n    \"White plate with metallic spoons\",\n    \"Appetising gloss and texture on curry\"\n  ],\n  \"phone_observations\": [\n    \"Curry-coated meat clearly visible in thumbnail\",\n    \"Sauce and spoon prominent\",\n    \"Golden-brown colour preserved\",\n    \"Readable as a finished dish\"\n  ],\n  \"protein_evidence\": {\n    \"protein\": \"Source lists both \\\"Goat Masala\\\" and \\\"Lamb Rogan Josh\\\" as separate dishes in the meal\"\n  },\n  \"uncertainties\": [\n    \"Title claims two distinct dishes: Goat Masala AND Lamb Rogan Josh, but photograph appears to show a single combined plated dish, not two separate items\",\n    \"Cannot visually distinguish which meat pieces belong to goat versus lamb preparation\",\n    \"Source metadata lists both proteins but identity cannot be verified from visual appearance alone\",\n    \"Description implies this is a 'Value Meal' combination, but the exact composition of what is plated versus what comprises the full meal is ambiguous\"\n  ],\n  \"reason\": \"Identity check fails. The source title describes two distinct dishes (Goat Masala and Lamb Rogan Josh) as components of a 'Value Meal', but the photograph shows what appears to be a single plated dish. The source contains contradictory protein claims with ambiguous species (goat/lamb) and conflicting dish identity. The two proteins cannot be visually separated or distinguished in the photograph. This ambiguity regarding which meat is which, combined with the unclear dish boundary, prevents confident canonical identification. While photograph quality is good, the identity contradiction and inability to verify specific protein composition from appearance alone necessitates a hold pending clarification of the actual single dish being photographed.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1673,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 565,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

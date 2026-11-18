@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAM2DBSVvhwC63cTMqpy",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": true\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 2,\n    \"composition\": 3,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows cooked poultry pieces in purple/dark sauce in a metal vessel\",\n    \"Garnish visible but thumbnail resolution prevents detail verification\",\n    \"Sauce colour and composition discernible at thumbnail scale\"\n  ],\n  \"protein_evidence\": {\n    \"protein\": \"Chicken\"\n  },\n  \"uncertainties\": [\n    \"Source photograph severely underexposed with strong blue/purple cast—lighting quality compromised\",\n    \"Image sharpness degraded; fine detail of sauce, protein texture, and garnish not cleanly resolved in full source\",\n    \"Severe colour cast (purple/blue tint) obscures natural colour assessment and dish identification confidence\",\n    \"Dish identity supported by filename and description only; visual confirmation of 'Masala' preparation style uncertain due to lighting artefact\",\n    \"Photograph taken during/immediately after cooking in-pan—not a finished, plated presentation\"\n  ],\n  \"reason\": \"Reject: source photograph fails quality thresholds. Severe blue/purple lighting cast and underexposure prevent accurate colour and detail assessment. Sharpness score 2/5 due to soft focus and poor exposure. Image captured in-pan during cooking stage, not a finished plated dish. While phone thumbnail shows recognisable cooked chicken in sauce, the full source image quality is insufficient for reliable identity and appeal verification. Lighting defect is a captured artefact, not a proposed crop issue.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1616,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 458,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
