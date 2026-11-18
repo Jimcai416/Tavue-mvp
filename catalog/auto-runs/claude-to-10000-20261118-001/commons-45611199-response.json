@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAmFiuGfQZAoAFe1aHRF",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Raw dough spiral visible in thumbnail\",\n    \"Unbaked, pale dough appearance\",\n    \"No browning or colouration indicating cooking\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title references 'Tourtière' but image shows raw preparation stage, not finished dish\",\n    \"No filling visible or identifiable\",\n    \"Dough-only stage contradicts finished food requirement\"\n  ],\n  \"reason\": \"Image shows raw dough preparation stage, not a finished, exposed, cooked dish. The uncooked pale spiral dough with no browning, crust definition or visible filling fails the core requirement for a completed, appetising food photograph. Title metadata references tourtière but the visual evidence is preparation-stage dough only. Quality check fails: identity cannot be established without evidence of filling or cooking. Tourtière is a meat pie; this shows only uncooked pastry.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1835,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 353,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
