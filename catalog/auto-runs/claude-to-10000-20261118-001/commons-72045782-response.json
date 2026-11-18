@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBBFt4ER7X5H6Wfus5Eu",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Coiled sausage visible in thumbnail\",\n    \"Market/vendor display setting evident\",\n    \"Price label visible in full source image\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title references 'kielbasa z gesi' (goose sausage) but species cannot be visually confirmed from appearance alone\",\n    \"Sausage product category (species unspecified by source text as explicit declaration) cannot support protein evidence per rules\",\n    \"Source description in filename is Polish festival context, not explicit dish confirmation\"\n  ],\n  \"reason\": \"Reject: The image shows raw/uncooked sausage in a market display, not a finished, exposed, cooked dish. While the photograph quality is good and the thumbnail is clear, this is a raw meat product at preparation/sale stage, not a plated or finished food dish suitable for Tavue's food photography database. Additionally, the protein cannot be confirmed with certainty—the filename suggests 'goose sausage' but goose is not an allowed protein category (chicken/beef/pork/duck/lamb/seafood only), and the source does not provide an explicit English-language declaration matching allowed species. The image fails the finished dish requirement.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1806,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 420,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

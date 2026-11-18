@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBBFoZbvtnbWrZ69ynVz",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 3,\n    \"lighting\": 2,\n    \"composition\": 2,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Packaged product visible in thumbnail; packaging dominates the frame\",\n    \"Label and nutrition facts clearly visible but food itself is obscured by plastic wrap\",\n    \"No finished, exposed dish presentation in phone thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Subject is packaged retail meat product, not a finished prepared dish\",\n    \"Essential food components clipped/obscured by packaging in both full image and thumbnail\",\n    \"Species of meat ('sausage') unspecified in label; cannot confirm animal type from packaging text alone\"\n  ],\n  \"reason\": \"Rejection: This is a retail-packaged meat product photographed in its original wrapping, not a finished, exposed, prepared dish suitable for Tavue food review. The food itself is largely obscured by plastic packaging and labels in both the full photograph and phone thumbnail. Packaging photography is explicitly outside scope. Additionally, the meat product is identified only as 'sausage' without explicit species confirmation from the source—while 'kielbasa' traditionally refers to pork, the label text does not contain an unambiguous English-language animal identifier that would satisfy protein evidence requirements. The photograph fails quality and presentation criteria for food review.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1747,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 413,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

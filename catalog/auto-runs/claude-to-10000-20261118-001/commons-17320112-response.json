@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBBFUNCHj6ViimpknEW6",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 2,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Subject is a raw or uncooked sausage held in hand\",\n    \"No finished dish visible in phone thumbnail\",\n    \"Sausage casing texture clearly visible but not prepared/plated\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Species of meat in sausage not explicitly stated in source ('sausage' is unspecified species)\",\n    \"Subject is raw/preparation stage, not a finished exposed dish\"\n  ],\n  \"reason\": \"Rejection: This is a raw sausage in a preparation/handling stage, not a finished, exposed, cooked dish. The image shows an uncooked sausage held in a hand against a surface—a documentation photo of an ingredient, not a plated or served food photograph. The source title identifies it as 'sausage' but does not explicitly name the animal species (pork, beef, etc.), only the product category and beer flavour variant. Per protocol, unspecified sausage species cannot be accepted, and the uncooked state fails the finished dish requirement.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1682,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 382,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

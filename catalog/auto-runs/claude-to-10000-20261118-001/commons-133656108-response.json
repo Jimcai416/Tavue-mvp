@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBBFnMRE98W1ieg8fcAA",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Red sausage slices visible\",\n    \"Pickled gherkins/cornichons clearly present\",\n    \"Red/orange peppers visible\",\n    \"Creamy base consistent with potato salad\",\n    \"Gold-rimmed plate\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows sausage slices, pickles, and peppers on creamy base\",\n    \"Main components are distinct and readable at small size\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Sausage species cannot be verified from appearance alone; 'kielbasa' is a category/style descriptor, not a named animal species\",\n    \"Source title uses 'kielbasa' (Polish sausage type) but does not explicitly name the animal protein (pork/beef/etc.)\",\n    \"Protocol requires exact case-sensitive animal species from source quote; generic sausage type or unspecified meat species cannot be accepted\"\n  ],\n  \"reason\": \"While the photograph shows sharp, well-lit, appetising food with clear identity markers (sausage slices, cornichons, peppers, potato salad base) and the phone thumbnail is readable, the source description supplies only 'Kielbasa', which is a sausage style/category rather than an explicit animal species. Protocol requires exact protein species from source title/description (chicken/beef/pork/duck/lamb/seafood). 'Kielbasa' traditionally implies pork but tradition cannot substitute for explicit naming. The source does not state 'pork kielbasa' or name any animal. Without explicit species identification in the source, protein_evidence cannot be populated and identity check fails.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 2070,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 518,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBBFUZrSy6LqNnmDdfcQ",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 2,\n    \"composition\": 1,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Phone thumbnail shows only raw ground meat in a bowl with no finished dish context\",\n    \"No cooked preparation state visible in thumbnail\",\n    \"Essential dish identity not represented\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title references 'kielbasa ground' but source says 'kielbasa_ground' in description—ambiguous whether this is a finished dish or raw meat preparation\",\n    \"Image shows raw or under-cooked ground meat being dispensed from a KitchenAid mixer, clearly a preparation stage rather than finished food\",\n    \"No indication of complete dish, plating, or cooking completion\"\n  ],\n  \"reason\": \"Reject: This is a raw/preparation stage photograph showing ground meat being mixed in a KitchenAid attachment, not a finished, exposed, cooked dish. The phone thumbnail confirms the subject is unfinished ground meat in a bowl with no dish identity. Preparation stages are explicitly excluded. The image lacks sharp detail, proper lighting for a finished dish, appealing presentation, and readable essential components of a prepared food. Quality scores fall below acceptance threshold (all <4).\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1512,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 398,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

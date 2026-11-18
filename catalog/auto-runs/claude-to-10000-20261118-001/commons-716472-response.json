@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBBFUMhBde9UiKcUgzsy",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Sandwich visible on white plate with decorative markings\",\n    \"Yellow coating (mustard) visible on bread top\",\n    \"Dark reddish-brown sausage segments visible inside sandwich\",\n    \"Plate placed on dark granite or similar surface\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title states 'Kielbasa' but kielbasa is a sausage category of unspecified species origin; no explicit animal species declared in source metadata\",\n    \"Cannot confirm meat species from visual appearance alone; kielbasa traditionally may contain pork but source does not explicitly name the animal\",\n    \"Protocol requires exact source quote naming the animal; 'kielbasa' alone is insufficient without species declaration\"\n  ],\n  \"reason\": \"Reject: protein_evidence cannot be populated. Source title contains 'Kielbasa' (a sausage product of unspecified animal species), but the source metadata does not explicitly name which animal (pork, beef, or other) the kielbasa contains. Protocol requires an exact case-sensitive substring from title/description that explicitly names the animal for each protein category. 'Kielbasa' is a sausage type, not a species declaration. Inferring species from tradition or visual appearance is prohibited. Cannot proceed without explicit species attribution from the source.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1756,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 440,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

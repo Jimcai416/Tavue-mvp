@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBBGBzj5ZwRyQdXvsEvi",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Coiled sausage/kielbasa with visible marbling and spices\",\n    \"Market/festival display setting\",\n    \"Handwritten label visible\",\n    \"Product packaging labels with text\",\n    \"Fresh, finished appearance\"\n  ],\n  \"phone_observations\": [\n    \"Coiled sausage clearly visible and prominent\",\n    \"Red/burgundy colour with white fat marbling\",\n    \"Multiple links displayed in bundle\",\n    \"Sharp detail of casing texture\",\n    \"Market/retail context evident\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title references 'kielbasa z gesi' (goose kielbasa) but this cannot be visually confirmed from appearance alone and goose is not in the allowed protein category list\",\n    \"Species of meat is ambiguous from visual inspection - could be pork, beef, or other species\",\n    \"Exact dish name from source description is not clearly readable in the photograph\",\n    \"Source metadata indicates goose but no allowed protein category matches; cannot infer species from tradition or appearance\"\n  ],\n  \"reason\": \"Image quality is good and the subject is a finished sausage product appropriately photographed. However, the source title/description suggests 'kielbasa z gesi' (goose sausage), and goose is not in the allowed protein categories (chicken/beef/pork/duck/lamb/seafood). The visible form cannot definitively establish the actual meat species, and there is a source contradiction: the metadata naming goose cannot be visually proven and goose cannot be used as a protein key. The identity check fails because the source-declared species cannot be supported by the allowed category list and visual appearance alone is insufficient to identify the actual meat. Hold pending clarification of the actual meat species from an explicit, unambiguous source statement using only allowed categories.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1841,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 552,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

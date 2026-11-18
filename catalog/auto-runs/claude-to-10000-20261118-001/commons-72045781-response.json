@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBBFrEqRXYASTCqdHcN5",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Raw/uncooked sausages displayed at market stall\",\n    \"Price label visible in Polish (kielbasa/rzeznika)\",\n    \"Multiple sausages arranged in rows\",\n    \"Natural daylight, market setting\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows uncooked sausages with casing intact\",\n    \"No plating, preparation stage visible\",\n    \"Raw meat product in market display context\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title contains only generic filename reference 'File:Ogolnopolski Festiwal Dobrego Smaku 2018 (Poznan) (kielbasa).jpg' and event description, not an actual dish name\",\n    \"Image shows raw/preparation stage sausages, not a finished cooked dish\",\n    \"Specific sausage type/variant cannot be identified from visible form alone\",\n    \"No explicit identification of meat species in source metadata\"\n  ],\n  \"reason\": \"Rejection: Image depicts uncooked sausages at a market stall in preparation/display stage, not a finished, exposed, plated dish ready for consumption. Source metadata provides only event context and filename reference, not a specific canonical dish name. Raw meat product presentation fails the finished dish requirement. Identity cannot be established from source material alone.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1765,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 444,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
