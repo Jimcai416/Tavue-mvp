@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChB1jjmmLVrmZnoUDk7Uj",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Stewed meat in deep reddish-brown curry broth\",\n    \"White potatoes visible and prominent\",\n    \"Rich, glossy sauce characteristic of massaman curry\",\n    \"Served in white bowl with black rim\",\n    \"Chopsticks lifting single piece, indicating hot, cooked dish\",\n    \"Natural, appetizing colour and texture\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows bowl of curry with meat and potato pieces\",\n    \"Reddish-brown sauce visible and identifiable\",\n    \"Dish proportions and components readable at small size\",\n    \"No clipping of essential food elements\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title contains 'Daging' (Indonesian for 'meat') but metadata language is Indonesian whilst description claims 'Thai southern curry' – source language/origin contradiction\",\n    \"Exact meat species not explicitly named in title or description – 'Daging' is generic and unspecified\",\n    \"Title 'Kari Massaman Daging' does not provide the specific animal protein required (chicken/beef/pork/duck/lamb/seafood)\",\n    \"Massaman curry tradition varies by preparation and meat type – visual appearance alone cannot determine species\"\n  ],\n  \"reason\": \"Image quality, sharpness, lighting, composition, and appeal all meet acceptance thresholds. Full photograph and phone thumbnail both show a finished, exposed, sharply detailed curry dish with identifiable components and natural appetizing colour. However, identity check fails: the source title 'Kari Massaman Daging' uses generic 'Daging' (meat) without specifying the animal species required by protocol. The metadata contains a language/origin contradiction (Indonesian title versus 'Thai southern curry' description). No exact quote from source explicitly names a supported protein category (chicken/beef/pork/duck/lamb/seafood). Without source-explicit animal identification, the dish cannot be accepted despite strong visual evidence.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1767,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 589,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

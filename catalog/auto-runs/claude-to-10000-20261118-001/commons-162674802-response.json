@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChB1kDXNK5MNNtEPyheE3",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Cooked seafood visible: crustaceans (prawns/shrimp and crab claws)\",\n    \"White plate with orange/red sauce\",\n    \"Hand actively breaking apart food\",\n    \"Natural outdoor lighting\",\n    \"Appetising colour and texture\"\n  ],\n  \"phone_observations\": [\n    \"Plate clearly visible with cooked crustaceans\",\n    \"Orange/red sauce visible\",\n    \"Hand gesture prominent\",\n    \"Food components readable at thumbnail size\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'Chicken' but photograph shows only crustaceans (prawns/crab); no chicken visible\",\n    \"Description incomplete: '...from:' cuts off without naming the actual dish\",\n    \"Source title/description does not match visible food content\",\n    \"Cannot identify the actual dish name from the incomplete description\"\n  ],\n  \"reason\": \"Source title 'Fufu & Chicken' contradicts visible content—the photograph shows cooked crustaceans (prawns and crab), not chicken or fufu. The description is incomplete ('...from:' without conclusion) and provides no usable dish identity. Identity check fails: source metadata does not match the exposed food. Cannot assign a canonical name without accurate source documentation of what this dish actually is.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1631,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 438,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
