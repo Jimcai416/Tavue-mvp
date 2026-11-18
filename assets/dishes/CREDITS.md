@@ -5345,3 +5345,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 
 - **Jianbing** — Alwaleed Khaled. [CC BY 4.0](https://creativecommons.org/licenses/by/4.0); [source](https://commons.wikimedia.org/wiki/File:Jianbing_on_plate.jpg). Local asset: `reviewed-commons-150660660.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Poulet yassa** — Arnaud 25. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Poulet_yassa_01.jpg). Local asset: `reviewed-commons-150037713.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Shaobing** — [C C](https://www.flickr.com/photos/37039463@N00). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Shaobing5.jpg). Local asset: `reviewed-commons-4825638.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.

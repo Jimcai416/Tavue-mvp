@@ -74772,5 +74772,28 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-4825638",
+    "title": "File:Shaobing5.jpg",
+    "author": "C C",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Shaobing5.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Shaobing5.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "f9c9d74f439b4a51a187fc26fc5362bb0cc074e7",
+    "name": "Shaobing",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-4825638.jpg",
+    "assetSha256": "b5abcd8b691292b7932c35e5beae872607a5db8875b562737ad35c590b98f1e7",
+    "reviewedAt": "2026-11-18",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 900,
+    "height": 606,
+    "requiresExactMenuName": true,
+    "authorUrl": "https://www.flickr.com/photos/37039463@N00"
   }
 ];
