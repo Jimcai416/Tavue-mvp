@@ -4525,3 +4525,8 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 
 - **Anticuchos on a skewer** — Ser Amantio di Nicolao. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Anticuchos_on_a_skewer,_Raices_Peruvian_Cuisine.jpg). Local asset: `reviewed-commons-149019520.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Cassoulet toulousain** — Guilhem06  19:56, 6 December 2006 (UTC). [Public domain](https://creativecommons.org/publicdomain/mark/1.0/); [source](https://commons.wikimedia.org/wiki/File:Cassoulet_toulousain.jpg). Local asset: `reviewed-commons-1437610.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Ecuadorian ceviche, made of shrimp, lemon and tomato sauce** — [Rinaldo Wurglitsch](https://www.flickr.com/photos/16448758@N03). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Ceviche_ecuador.JPG). Local asset: `reviewed-commons-9688817.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Churrasco con yuca** — Xemenendura. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Churrasco_con_yuca.jpg). Local asset: `reviewed-commons-171667929.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.

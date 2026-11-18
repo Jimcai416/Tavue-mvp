@@ -65459,5 +65459,52 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 904,
     "height": 960,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-9688817",
+    "title": "File:Ceviche ecuador.JPG",
+    "author": "Rinaldo Wurglitsch",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ceviche_ecuador.JPG",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/66/Ceviche_ecuador.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "141db9cf8f94481d173bb1d017141f336615f27d",
+    "name": "Ecuadorian ceviche, made of shrimp, lemon and tomato sauce",
+    "aliases": [],
+    "proteins": [
+      "seafood"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-9688817.jpg",
+    "assetSha256": "da5c497f2a42449262251a87e2a6b55f28867b20b2e29200be31b45c1bd48ca0",
+    "reviewedAt": "2026-11-18",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true,
+    "authorUrl": "https://www.flickr.com/photos/16448758@N03"
+  },
+  {
+    "id": "commons-171667929",
+    "title": "File:Churrasco con yuca.jpg",
+    "author": "Xemenendura",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Churrasco_con_yuca.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Churrasco_con_yuca.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "cbfd78a36f0381ec3fd912c520cb72c536b0802c",
+    "name": "Churrasco con yuca",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-171667929.jpg",
+    "assetSha256": "916c064969f6e7f1aa54cf37e3f1b1a6ac7c0a6a2dd5c761b0400349d5570366",
+    "reviewedAt": "2026-11-18",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 720,
+    "height": 960,
+    "requiresExactMenuName": true
   }
 ];
