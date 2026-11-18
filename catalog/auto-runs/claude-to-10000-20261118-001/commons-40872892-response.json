@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChATxix2xxVT3gsrpBs4V",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Golden-brown spiced meat pieces on metal skewer\",\n    \"Characteristic tandoori colouration and texture\",\n    \"Grilled finish with charring visible\",\n    \"Metal plate/serving vessel\",\n    \"Phone thumbnail clearly shows spiced grilled meat\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail displays prominent golden-spiced meat pieces\",\n    \"Metal cooking surface visible\",\n    \"Colour and texture consistent with full image\",\n    \"Essential components readable and appetising\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title states 'Grilled Chicken Tandoor' but description says 'Chicken kabab grilled in oven' — tandoor (clay oven) vs conventional oven contradiction\",\n    \"Title specifies 'Chicken' but source metadata is untrusted; visual appearance alone cannot definitively distinguish chicken from other poultry or meat species\",\n    \"No explicit protein confirmation from trusted source text that can be verified against visible form\"\n  ],\n  \"reason\": \"Identity check fails due to unresolved contradiction between title ('Tandoor') and description ('oven'), and absence of verifiable protein evidence from source description. While the photograph quality, lighting, composition, appeal, and phone thumbnail all meet standards (all ≥4), and the dish appears to be a finished, exposed, appetising grilled meat preparation with sharp detail, the identity ambiguity and metadata contradiction prevent acceptance. The image cannot be confirmed as matching its declared dish identity with certainty.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1730,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 482,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
