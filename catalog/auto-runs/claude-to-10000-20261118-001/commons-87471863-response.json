@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAUM21pW66iP21gQc4W9",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Orange/reddish curry broth in white bowl\",\n    \"Spoon holding visible chunk of protein\",\n    \"Cooked pieces distributed throughout stew\",\n    \"Natural lighting, appetising presentation\"\n  ],\n  \"phone_observations\": [\n    \"Curry and spoon clearly visible in thumbnail\",\n    \"White bowl and pink patterned cloth background visible\",\n    \"Protein chunks readable in phone thumbnail\",\n    \"Composition prominent and well-framed\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title states 'Gobhi Aloo curry' (cauliflower and potato), but photograph shows prominent chunks of cooked protein material in spoon and throughout the dish that are inconsistent with vegetable-only composition\",\n    \"Description claims 'Cauliflower and potato in a thin stew' but visible protein pieces appear to be animal protein (possibly shrimp, chicken, or seafood based on colour and texture), not vegetables\",\n    \"Identity contradiction between metadata description and actual visible dish contents\"\n  ],\n  \"reason\": \"Source identity contradiction. The title and description declare 'Gobhi Aloo curry' (cauliflower and potato vegetables), but the photograph clearly shows substantial cooked protein chunks in the spoon and distributed throughout the orange broth—visually inconsistent with a vegetable-only dish. The metadata does not explicitly name any animal protein, and the visible protein cannot be reliably identified from appearance alone. This constitutes a material identity mismatch that cannot be resolved without source clarification. The photograph itself is sharp, well-lit, and appetising, but the identity uncertainty prevents acceptance.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1664,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 508,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
