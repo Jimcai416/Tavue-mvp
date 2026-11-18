@@ -3353,3 +3353,8 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Pan de queso (pão de queijo) con cebollitas de verdeo** — Horacio Cambeiro. [CC BY 4.0](https://creativecommons.org/licenses/by/4.0); [source](https://commons.wikimedia.org/wiki/File:Pan_de_queso_(p%C3%A3o_de_queijo)_con_cebollitas_de_verdeo_de_la_Provincia_de_Misiones_(Argentina).jpg). Local asset: `reviewed-commons-175363670.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Pão de queijo** — [Yusuke Kawasaki  from Tokyo, Japan](https://www.flickr.com/people/50902562@N00). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Pao_de_queijo_(4813929850).jpg). Local asset: `reviewed-commons-63305276.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Nyama choma** — safaritravelplus. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Nyama_choma_barbeque.jpg). Local asset: `reviewed-commons-115729984.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
