@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAkxLWQBDbicvPobMi3E",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Finished, cooked dishes visibly plated\",\n    \"Sharp detail on foreground poutine with fries, sauce, and toppings\",\n    \"Flammekueche visible in background on wooden board\",\n    \"Natural restaurant lighting, appetising colours\",\n    \"Prominent in both full source and phone thumbnail\"\n  ],\n  \"phone_observations\": [\n    \"Poutine clearly visible in white bowl with toppings and fries\",\n    \"Flammekueche visible on wooden board in background\",\n    \"Essential dish components readable in thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title lists two distinct dishes: 'Poutine + Flammekueche'. Tavue food review requires a single, finished dish identity. This is a composite meal photograph.\",\n    \"Poutine identity is established (Canadian fried potatoes with gravy and toppings), but source lists it as a paired offering, not a standalone subject.\",\n    \"Flammekueche (Alsatian pizza) is also identifiable but similarly presented as paired.\",\n    \"No explicit protein species named in source description ('Poutine' and 'Flammekueche' are traditional category names, but source does not state which meats or toppings appear).\",\n    \"Photograph shows both dishes together as a restaurant combination platter, not a single canonical dish.\"\n  ],\n  \"reason\": \"Reject: Source title and description present two distinct dishes ('Poutine + Flammekueche') as a paired combination served together. Tavue canonical_name requires a single, specific dish identity copied exactly from source title/description. While both individual dishes are well-photographed, finished, and appetising, the source itself does not establish a singular dish identity—it describes a multi-dish restaurant offering. No protein species are explicitly named in the source description, only traditional dish categories. A composite meal photograph does not meet the requirement for a unified, identifiable dish entry.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 2085,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 590,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

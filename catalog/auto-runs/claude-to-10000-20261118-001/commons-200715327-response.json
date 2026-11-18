@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAkwnan5kwbBES1aQGue",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Brown braised meat pieces in glossy sauce\",\n    \"Fresh green onion/scallion garnish\",\n    \"Diced orange carrot visible\",\n    \"Yellow potato chunks\",\n    \"White bowl presentation\",\n    \"Natural lighting shows appetising gloss\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows stewed meat dish with vegetables\",\n    \"Green onion garnish visible at top\",\n    \"Orange carrot and potato components readable\",\n    \"Brown glossy sauce evident\",\n    \"Dish prominence and detail acceptable for thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title describes 'Japanese poutine' but image shows a braised meat and vegetable stew with no visible fried potatoes or cheese—contradiction with stated 'poutine' dish type\",\n    \"No meat species explicitly named in source description; visible braised meat cannot be identified to species from appearance alone\",\n    \"Description lists 'potatoes with sesame, apple, carrot, green onion, and cheese' but photograph shows no visible cheese, sesame seeds, or apple; visible components are braised meat, carrot, potato, and green onion only\",\n    \"Substantial mismatch between titled dish identity ('poutine') and actual visible preparation (stewed/braised meat dish)\"\n  ],\n  \"reason\": \"Source title–image contradiction and unspecified protein. The description claims 'Japanese curry poutine' with specific toppings (sesame, apple, cheese) but the photograph shows a braised meat stew with no visible cheese, sesame, or apple—only meat, carrot, potato, and green onion. The dish is not a poutine in any recognisable form. No meat species is explicitly named in the source text, only 'meat' is implied by the braised appearance; identity cannot be determined from visual inspection alone. The mismatch between titled identity and visible form, combined with unspecified protein and missing named components, requires hold on identity grounds.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1757,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 595,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

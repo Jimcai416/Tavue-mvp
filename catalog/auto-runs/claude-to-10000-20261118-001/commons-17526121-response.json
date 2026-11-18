@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAkxFBvb8NKXhe3t8LkG",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 3,\n    \"lighting\": 3,\n    \"composition\": 3,\n    \"appeal\": 2\n  },\n  \"visible_support\": [\n    \"Golden-brown fried items in lower left (croquettes or similar breaded pieces)\",\n    \"Black oval container with gravy-covered potato wedges/fries and what appears to be cheese curds\",\n    \"Plated on black tray with white napkin liner\",\n    \"Warm indoor lighting with reddish-brown background\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail shows dark oval container with gravy-covered potatoes and cheese\",\n    \"Fried items visible in lower portion\",\n    \"Composition matches full image layout\",\n    \"Essential components visible but some detail loss in phone format\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title 'File:Poutine..jpg' is a filename, not a canonical dish description\",\n    \"Description 'Or food...cheesy fries' is ambiguous and contradictory phrasing, not a clear dish identity\",\n    \"Cannot confirm whether the gravy is meat-based, vegetarian, or unspecified without explicit source statement\",\n    \"Cheese curds vs. melted cheese distinction unclear from description\",\n    \"No explicit canonical name provided in source metadata\"\n  ],\n  \"reason\": \"Identity check fails. The source provides only a filename ('File:Poutine..jpg') and an unclear, fragmentary description ('Or food...cheesy fries'). Neither constitutes a proper canonical dish name with necessary variant detail. The description does not explicitly name any protein component (meat-based gravy type, cheese type, etc.), and contains contradictory or uncertain phrasing. While the photograph shows a finished, plated dish with reasonable visual appeal and the thumbnail captures the essential components, the absence of a clear, authoritative source-derived canonical name and the ambiguity of key ingredients (protein/gravy type unspecified) prevent acceptance. A proper dish description is required.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1721,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 562,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

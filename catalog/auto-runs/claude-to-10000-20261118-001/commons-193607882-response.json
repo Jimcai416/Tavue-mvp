@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAkxbiwAZB52bWaRgc3j",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Finished, cooked corn dog on stick with golden-brown batter\",\n    \"Topped with white crumbled cheese and caramelized onions\",\n    \"Appetising appearance, sharp detail in full source image\",\n    \"Phone thumbnail clearly shows toppings and form\"\n  ],\n  \"phone_observations\": [\n    \"Subject centered and prominent in thumbnail\",\n    \"Toppings (cheese, onions) readable and visible\",\n    \"Adequate contrast and sharpness for recognition\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title 'Poutine Dog' is a marketing/descriptive phrase, not a canonical dish name\",\n    \"No explicit protein species named in title or description (corn dog protein type unspecified)\",\n    \"Description identifies it as 'Korean corn dog' but actual canonical regional dish name is absent\",\n    \"Metadata contains filename and unverified attribution; true source identity unclear\"\n  ],\n  \"reason\": \"Reject: The source metadata provides only marketing descriptors ('Poutine Dog', 'Korean corn dog') and unverified context (file name, unconfirmed author, date). No canonical dish name from a reliable source (menu, restaurant, cuisine documentation) is supplied. Protein species is not explicitly named. The photograph itself is well-executed and appetising, but identity criteria cannot be met without a verifiable, specific canonical name and confirmed protein declaration. A proposed crop is not approval of identity.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1756,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 471,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
