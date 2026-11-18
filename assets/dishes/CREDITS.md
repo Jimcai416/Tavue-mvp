@@ -3402,3 +3402,9 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 
 - **Shrimp soup** — Emna Mizouni. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Shrimp_soup.jpg). Local asset: `reviewed-commons-41915091.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Chiles en nogada** — Correogsk. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Chiles_en_nogada_La_%C3%93pera_CDMX_01.jpg). Local asset: `reviewed-commons-83242115.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Swedish Meatballs** — Vincenty846. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Swedish_Meatballs_IKEA_Kota_Baru_Parahyangan.jpg). Local asset: `reviewed-commons-134992863.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **冬瓜虾肉粉丝汤** — [yomi yomi](https://www.flickr.com/photos/8458589@N08). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Tougan_shrimp_soup.jpg). Local asset: `reviewed-commons-4556546.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Vietnamese Shrimp and Vegetable noodle soup** — Peachyeung316. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Vietnamese_Shrimp_and_Vegetable_noodle_soup.jpg). Local asset: `reviewed-commons-116497269.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
