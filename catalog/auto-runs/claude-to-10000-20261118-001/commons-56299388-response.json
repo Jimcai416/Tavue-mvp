@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAzDNHErQZxpoPrqVhPe",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 5,\n    \"composition\": 5,\n    \"appeal\": 4\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Unripe green banana bunch clearly visible in thumbnail\",\n    \"Raw ingredient form recognizable\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title references 'sancocho' (a prepared dish), but the photograph shows only raw, unripe green bananas on the plant—a preparation stage ingredient, not a finished dish\",\n    \"No cooked or plated food visible in either full image or thumbnail\",\n    \"Raw agricultural produce, not an exposed, finished food dish\"\n  ],\n  \"reason\": \"Rejection: The photograph displays raw, unripe green bananas still on the plant stem—a preparation-stage ingredient, not a finished, exposed, cooked dish. Although the source title references 'sancocho' (a Caribbean stew), the actual image shows only the raw ingredient. Tavue's criteria require a finished, likely photographic dish with sharp detail, natural colour and appetite appeal. Raw produce at the agricultural stage does not meet the standard for a food dish review. The identity check fails because the visible form (unripe raw bananas) contradicts the implied finished-dish identity in the title.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1628,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 397,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

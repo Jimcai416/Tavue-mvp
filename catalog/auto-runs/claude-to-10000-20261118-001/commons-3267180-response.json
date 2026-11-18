@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAzDSCPWL1U7RjVjY99j",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 2,\n    \"composition\": 2,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Central subject is a pale pink/beige rectangular mass surrounded by dark brown material\",\n    \"Thumbnail shows clear contrast but subject identity is obscured\",\n    \"Object appears to be in a white square dish\",\n    \"No recognizable soup structure, components, or broth visible\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title claims 'Ribollita' (Tuscan bread and vegetable soup), but photograph shows what appears to be a solid or chunked preparation with a large pale central mass, inconsistent with ribollita's characteristic dense, cohesive soup texture\",\n    \"The pale rectangular object in the centre does not match the dark russet-brown colour expected of ribollita\",\n    \"No visible broth, recognizable vegetables, or bread integration typical of ribollita\",\n    \"Image quality and angle make definitive dish identification impossible\",\n    \"Possible misattribution or misdescription in source metadata\"\n  ],\n  \"reason\": \"Critical identity mismatch: source claims ribollita (a thick Tuscan soup with bread and vegetables), but the photograph shows an unidentifiable preparation with a large pale rectangular mass surrounded by dark material, presented in a dish rather than as a cohesive soup. Image quality is poor (soft focus, dim lighting, unflattering angle), sharpness score is 2/5, and the composition fails to convey an appetising finished dish. The visible form contradicts the declared identity. Scores do not meet minimum threshold (4+). Reject due to identity failure and inadequate photograph quality.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1724,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 495,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
