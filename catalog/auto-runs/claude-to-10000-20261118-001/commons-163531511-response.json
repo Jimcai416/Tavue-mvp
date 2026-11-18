@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAsuojzHtYRa6UVV6T4x",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 2,\n    \"composition\": 1,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows street-view meat stall with large cooking vessels\",\n    \"No finished dish visible in phone centre-cover\",\n    \"Foreground dominated by empty metal pots/cooking equipment\",\n    \"Background shows butcher shop storefront, not plated food\",\n    \"No recognisable finished dish prominent in thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'Pastilla from Souk Jmiaa' but image shows a butcher stall and cooking preparation area, not a finished pastilla dish\",\n    \"No pastilla (Moroccan phyllo pastry) visible in either photograph\",\n    \"Source title–image mismatch: metadata describes a finished dish but photograph documents a commercial meat preparation location\"\n  ],\n  \"reason\": \"Reject: source title–image identity mismatch. Title claims 'Pastilla' but both full source and phone thumbnail show a butcher/meat stall with large cooking vessels and no finished dish. No recognisable pastilla or plated food visible. Phone thumbnail fails to show a prominent, finished, appetising dish—it shows preparation infrastructure and storefront. Photograph documents a location/preparation stage, not a finished exposed dish. Essential food clipped and absent in phone thumbnail. Quality too poor and composition unsuitable for food review.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 2028,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 440,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

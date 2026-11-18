@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAsuFJ7BC1fyYq3vVZDe",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Plate contains dark seared cylindrical items (kofta-like)\",\n    \"Seared scallop or similar seafood visible on top\",\n    \"Fresh sautéed greens (possibly broccolini or similar)\",\n    \"Grain or lentil base visible underneath\",\n    \"Natural restaurant setting with marble surface\"\n  ],\n  \"phone_observations\": [\n    \"Cylindrical seared items clearly visible\",\n    \"Greens and seafood prominent in thumbnail\",\n    \"Dish composition readable at phone size\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'vegan lamb kofta' but image visibly contains a scallop (seafood), which is incompatible with vegan claim and contradicts the lamb identity\",\n    \"If kofta contains lamb, the vegan label is false; if truly vegan, the visible scallop means the dish identity does not match the title\",\n    \"Source metadata contradiction between claimed identity and visible contents\"\n  ],\n  \"reason\": \"Source title–image mismatch. Title declares 'Vegan lamb kofta' but photograph clearly shows a whole seared scallop (seafood) placed atop the dish. Lamb cannot be vegan, and the visible seafood contradicts both the vegan and lamb identities. Unresolved source contradiction prevents canonical identity assignment. The photograph itself is of high quality and appetizing, but the fundamental identity dispute with the source title requires hold.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1739,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 475,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
