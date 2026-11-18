@@ -87,13 +87,38 @@ class CampaignTests(unittest.TestCase):
         self.assertEqual(p.ledger['rounds'][0]['status'], 'completed')
         self.assertEqual(p.ledger['status'], 'target_reached')
 
-    def test_three_empty_rounds_stop_without_marking_goal_complete(self):
+    def test_three_empty_rounds_use_saved_dish_names_without_a_paid_plan(self):
         p = self.campaign()
-        def discover(row): row.update(status='reviewing', newCandidates=0)
-        with patch.object(p, 'api', return_value={'id': a.MODEL}), patch.object(p, 'persist'), patch.object(p, 'discover_round', side_effect=discover) as discover_call:
+        names = ['Aushak','Tanjia','Maklouba']
+        def discover(row):
+            number = row['number']
+            if number <= 3:
+                name = names[number-1]
+                a.triage.write_json(p.out/row['planFile'], [{'dish':name,'query':name+' descriptive ingredients','cuisine':'Test'}])
+                row.update(status='reviewing', newCandidates=0)
+                return
+            self.assertEqual(number,4)
+            self.assertEqual(row['planParseStatus'],'reused_dish_names')
+            self.assertNotIn('plannerKey',row)
+            self.assertEqual({r['query'] for r in p.plan_round(row)},set(names))
+            self.assertEqual(p.unused_dish_queries(),[])
+            raise c.CampaignStop('time_limit','test next-job checkpoint')
+        with patch.object(p, 'api', return_value={'id': a.MODEL}), patch.object(p, 'persist'), patch.object(p, 'discover_round', side_effect=discover) as discover_call, patch.object(p,'paid') as paid:
             p.run()
-        self.assertEqual(discover_call.call_count, 3)
-        self.assertEqual(p.ledger['status'], 'source_exhausted')
+        self.assertEqual(discover_call.call_count, 4)
+        self.assertEqual(p.ledger['status'], 'time_limit')
+        paid.assert_not_called()
+
+    def test_empty_rounds_without_unused_names_start_a_fresh_plan(self):
+        p=self.campaign()
+        p.ledger['rounds']=[dict(self.round_row(),number=n,status='completed') for n in range(1,4)]
+        def discover(row):
+            self.assertEqual(row['plannerKey'],'planner-round-0004')
+            self.assertEqual(row['searchStrategy'],'dish_name')
+            raise c.CampaignStop('time_limit','test next-job checkpoint')
+        with patch.object(p,'api',return_value={'id':a.MODEL}),patch.object(p,'persist'),patch.object(p,'discover_round',side_effect=discover):
+            p.run()
+        self.assertEqual(p.ledger['status'],'time_limit')
 
     def test_target_already_met_prevents_another_search_or_paid_review(self):
         p = self.campaign(); p.ledger['bundledPhotos'] = 10000
@@ -269,6 +294,12 @@ class CampaignTests(unittest.TestCase):
 
 
 class DiscoveryHelpersTests(unittest.TestCase):
+    def test_search_name_requires_a_source_text_match(self):
+        self.assertTrue(c.has_dish_name({'title':'File:Homemade Bún bò Huế.jpg','description':''},'Bun bo Hue'))
+        self.assertTrue(c.has_dish_name({'title':'File:上海红烧肉.jpg','description':''},'红烧肉'))
+        self.assertFalse(c.has_dish_name({'title':'File:History of the Maki family.jpg','description':''},'Maki sushi'))
+        self.assertFalse(c.has_dish_name({'title':'File:Another dish.jpg','description':'Fresh seafood noodles'},'food'))
+
     def test_malformed_legacy_plan_recovers_whole_rows_on_both_sides_of_bad_line(self):
         first={'dish':'Mofongo','query':'mofongo','cuisine':'Puerto Rican'}
         last={'dish':'Griot','query':'griot haiti','cuisine':'Haitian'}
