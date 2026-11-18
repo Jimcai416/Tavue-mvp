@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBHeAuoSuUcxTqf6fbR6",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 3,\n    \"lighting\": 2,\n    \"composition\": 2,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows a meat dish in a dark cast-iron pan with sauce and visible chunks\",\n    \"Golden-brown broth with meat pieces; phone thumbnail clearly captures the same preparation\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title explicitly names dog meat (Thịt chó, dồi chó, mẻ chó)\",\n    \"Tavue criteria restrict proteins to: chicken, beef, pork, duck, lamb, seafood only\",\n    \"Dog meat is not an allowed category\"\n  ],\n  \"reason\": \"Rejection: The source title explicitly identifies this as dog meat preparation (Thịt chó = dog meat, dồi chó = dog sausage, mẻ chó = dog offal). Dog is not among the allowed protein categories (chicken/beef/pork/duck/lamb/seafood). Although the photograph is adequately exposed and the dish is finished and plated, the protein species falls outside Tavue's acceptance criteria. The metadata is unambiguous and cannot be overridden by visual assessment alone.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1972,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 390,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBHeKrKhL1tiAR9a21jj",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 3,\n    \"appeal\": 2\n  },\n  \"visible_support\": [\n    \"Raw rice noodles in plastic bowl\",\n    \"Bowl of broth with red chilli peppers and what appear to be preserved vegetables\",\n    \"Preparation stage, components not yet combined\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail shows only a bowl of broth and noodles partially visible\",\n    \"Raw/preparation stage evident in full source image\",\n    \"No finished, plated dish visible\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Image shows preparation components, not a finished dish\",\n    \"Broth source, protein ingredients, and meat species not visibly identifiable\",\n    \"No completed, exposed dish suitable for food review\"\n  ],\n  \"reason\": \"Rejection: This is a preparation/assembly stage photograph, not a finished, exposed, plated dish. Raw rice noodles remain in a separate container and broth components are unmixed. The image documents ingredients before cooking completion or service assembly. No protein species can be identified visually or confirmed by source metadata. Tavue accepts finished, appetising dishes with readable essential components—this does not meet that standard.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1600,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 390,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
