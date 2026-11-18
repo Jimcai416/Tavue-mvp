@@ -56570,5 +56570,102 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 720,
     "height": 960,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-191711388",
+    "title": "File:El pollo a la brasa es el plato más consumido en Lima.png",
+    "author": "Blas2025wiki",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:El_pollo_a_la_brasa_es_el_plato_m%C3%A1s_consumido_en_Lima.png",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6c/El_pollo_a_la_brasa_es_el_plato_m%C3%A1s_consumido_en_Lima.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "af1c1b712a733099f4ed2bde434ece897401ae85",
+    "name": "El pollo a la brasa peruano",
+    "aliases": [],
+    "proteins": [
+      "chicken"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-191711388.jpg",
+    "assetSha256": "bf45968ed0958c3a7f5da33429394cd1f4acc71a6fab566d401a413ee400625d",
+    "reviewedAt": "2026-11-18",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-130735004",
+    "title": "File:Muslo de pollo a la brasa con guarnición variada.jpg",
+    "author": "Juan Emilio Prades Bel",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Muslo_de_pollo_a_la_brasa_con_guarnici%C3%B3n_variada.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/45/Muslo_de_pollo_a_la_brasa_con_guarnici%C3%B3n_variada.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "d09cfd8fefad5c5cfa56b36c95fadeeca782e760",
+    "name": "Muslo de pollo a la brasa con guarnición variada",
+    "aliases": [],
+    "proteins": [
+      "chicken"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-130735004.jpg",
+    "assetSha256": "63c54f0e42b3fed4656a4871a407d18d625ea29e8672a886dd9d115dbb6cd618",
+    "reviewedAt": "2026-11-18",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-96784557",
+    "title": "File:Muslo de pollo asado a la brasa.jpg",
+    "author": "Juan Emilio Prades Bel",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Muslo_de_pollo_asado_a_la_brasa.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Muslo_de_pollo_asado_a_la_brasa.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "dda9e6e0b520de0e11f7292e945ef0b89f988abf",
+    "name": "Muslo de pollo asado a la brasa",
+    "aliases": [],
+    "proteins": [
+      "chicken"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-96784557.jpg",
+    "assetSha256": "6df48e19add9e955011d0463f0f9e858b4a31a5617ce320a51bbf4c71b46145d",
+    "reviewedAt": "2026-11-18",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-9415775",
+    "title": "File:Pollo a la brasa.jpg",
+    "author": "Jorge Gobbi",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pollo_a_la_brasa.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/81/Pollo_a_la_brasa.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "acda80f8c91c51e07d3bf57ec891a03f4ce0cb6c",
+    "name": "Pollo a la brasa",
+    "aliases": [],
+    "proteins": [
+      "chicken"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-9415775.jpg",
+    "assetSha256": "3bdbdb72019421b6efa86875b8521c54c90620163469da2a995e248eeb9e2037",
+    "reviewedAt": "2026-11-18",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 800,
+    "height": 600,
+    "requiresExactMenuName": true,
+    "authorUrl": "https://www.flickr.com/photos/44124369279@N01"
   }
 ];
