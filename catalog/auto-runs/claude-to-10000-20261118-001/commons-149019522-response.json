@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAu3uNuPDbZn7ZVyTCTS",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Cooked meat pieces with charred/spiced crust visible in full image\",\n    \"White rice scattered on green plate\",\n    \"Red onion slices visible\",\n    \"Green herbs sprinkled\",\n    \"Olive oil or marinade pooled on plate\",\n    \"Metal forks positioned for serving\",\n    \"Phone thumbnail shows meat and rice clearly\"\n  ],\n  \"phone_observations\": [\n    \"Meat pieces prominent and identifiable\",\n    \"Rice and onion visible\",\n    \"Overall composition legible\",\n    \"No essential food clipped\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title describes 'anticuchos' but visible meat species cannot be confirmed from appearance alone—anticuchos traditionally use beef or organ meat, but the exact species is not explicitly named in the source description\",\n    \"No source quote directly names the animal protein used in this dish\"\n  ],\n  \"reason\": \"Although the photograph is sharp, well-lit, appetizing and the thumbnail is clear, the source description 'Sliced-up anticuchos on a plate' does not explicitly name the meat species. Anticuchos is a traditional Peruvian skewered meat dish, but the source metadata does not provide an explicit species declaration (beef, pork, lamb, etc.). Per protocol, ambiguous or undeclared meat species require a hold pending clarification. The canonical_name cannot be approved without a source quote that names the specific protein.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1457,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 470,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
