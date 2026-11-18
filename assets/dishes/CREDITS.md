@@ -6150,3 +6150,12 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Lontong Tuyuhan bentuk Segitiga** — Candramawa99. [CC BY 4.0](https://creativecommons.org/licenses/by/4.0); [source](https://commons.wikimedia.org/wiki/File:Lontong_Tuyuhan_bentuk_Segitiga.jpg). Local asset: `reviewed-commons-179813013.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Sürmene Kuymak: Edam cheese in butter, served with olives and simit** — Anagoria. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:20240810_S%C3%BCrmene_Kuymak_Restaurant_La_Femme_Berlin_anagoria.jpg). Local asset: `reviewed-commons-151893158.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Koobideh** — Atheist. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Koobideh_DSC0005.jpg). Local asset: `reviewed-commons-113942200.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Ghormeh Sabzi** — Amin Majidi. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Ghormeh_Sabzi.JPG). Local asset: `reviewed-commons-13338969.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Izmir mercimek köftesi** — Samizambak. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Izmir_mercimek_k%C3%B6ftesi.jpg). Local asset: `reviewed-commons-141331827.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Artvin usulü kuymak** — Nabbegat. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Artvin_usul%C3%BC_kuymak.jpg). Local asset: `reviewed-commons-148584066.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Fried Bánh Tét** — Vinhtantran. [Public domain](https://creativecommons.org/publicdomain/mark/1.0/); [source](https://commons.wikimedia.org/wiki/File:Banh_tet_chien.jpg). Local asset: `reviewed-commons-5104736.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
