@@ -4644,3 +4644,12 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Pork Kare-Kare Meal** — Ralff Nestor Nacor. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Pork_Kare-Kare_Meal,_Apr_2026.jpg). Local asset: `reviewed-commons-190407046.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Thukpa** — Arunabha.Goswami. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:A_bowl_of_Thukpa.jpg). Local asset: `reviewed-commons-40755902.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Qabuli palaw** — borosjuli. [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Qabuli_palaw_rice.jpg). Local asset: `reviewed-commons-78340264.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Cilbir eggs** — Deodora333. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:%D0%A7%D0%B8%D0%BB%D0%B1%D0%B8%D1%80_%D1%98%D0%B0%D1%98%D1%86%D0%B0.jpg). Local asset: `reviewed-commons-178985380.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Turkish pide with cheese** — Maksym Kozlenko. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:2019-07-27_Turkish_pide_with_cheese_at_Istanbul_restaurant.jpg). Local asset: `reviewed-commons-84800698.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Gemista** — I,  Badseed. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/); [source](https://commons.wikimedia.org/wiki/File:Gemista.jpg). Local asset: `reviewed-commons-2302703.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **chicken thukpa** — P retrover. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:A_bowl_of_chicken_thukpa.jpg). Local asset: `reviewed-commons-180367398.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
