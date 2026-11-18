@@ -5433,3 +5433,12 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Lamb tenderloin, garbanzo panisse, pomegranate** — Daderot. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Lamb_tenderloin,_garbanzo_panisse,_pomegranate,_etc_-_Wellington,_New_Zealand.jpg). Local asset: `reviewed-commons-153897879.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Idli and Medu Vada** — OdetomyLife. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Idli_and_Medu_Vada.JPG). Local asset: `reviewed-commons-40988782.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **bánh bò hấp** — Memberofc1. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Banh_bo_hap.jpg). Local asset: `reviewed-commons-11343852.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **banh bo nuong** — Memberofc1. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Banh_bo_nuong.jpg). Local asset: `reviewed-commons-11343845.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Bún chả cá Nha Trang** — [Nguyen Thi Quynh Tram](https://www.blogger.com/profile/08726553116792073475). [CC BY 3.0](https://creativecommons.org/licenses/by/3.0); [source](https://commons.wikimedia.org/wiki/File:Bun_cha_ca_nha_trang.jpg). Local asset: `reviewed-commons-163077963.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Medu Vada and Sambhar** — Namitakhaire. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Medu_Vada_and_Sambhar.JPG). Local asset: `reviewed-commons-40961241.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Medu vada with chutnies** — Ravi Talwar. [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Medu_Vada_with_chutnies.jpg). Local asset: `reviewed-commons-93299986.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
