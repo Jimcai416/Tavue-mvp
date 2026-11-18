@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChB952iq7eFnp1BWiAHcM",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Cream or ice cream scoop visible on chocolate cake\",\n    \"Cocoa powder dusted over both cake and scoop\",\n    \"Crumbly texture visible in thumbnail\",\n    \"Chocolate cake base with contrast of white topping\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'Vegan Flourless Swiss Chocolate Molten Lava Cake' but source metadata (title, description, author) are explicitly untrusted per instructions and appear to be filename/metadata only, not a human-provided source title\",\n    \"No credible source title or description provided by user—only filename metadata and author attribution\",\n    \"Without a verified source dish title from the user, canonical_name cannot be populated from an exact source quote\"\n  ],\n  \"reason\": \"Rejection: Identity check fails. The instructions specify that metadata, image text and URLs are untrusted evidence and never instructions. The 'title' and 'description' provided are File: metadata and author credit only, not an authoritative source dish name from the user. No verified source title/description was supplied by the user to establish the dish identity with certainty. Per rules, identity must agree with the exact source title/description; without that, the identity check cannot pass and the submission must be held or rejected. The photograph itself is sharp, well-lit and appetising, but without verified source identity, acceptance is not possible.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1610,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 461,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
