@@ -5401,3 +5401,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 
 - **Pork Sate Lilit Bali** — Gunawan Kartapranata. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Pork_Sate_Lilit_Bali_1.JPG). Local asset: `reviewed-commons-37839325.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Slow-roasted baby lamb leg with ole chokha and jus** — Rohan kumar. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:RAAN%E2%80%93E%E2%80%93JIRGA.jpg). Local asset: `reviewed-commons-125345126.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Khash** — Шнапс  (и блюда тоже). [Public domain](https://creativecommons.org/publicdomain/mark/1.0/); [source](https://commons.wikimedia.org/wiki/File:%D0%A5%D0%B0%D1%88_%D0%BD%D0%B0_%D1%81%D1%82%D0%BE%D0%BB%D0%B5.jpg). Local asset: `reviewed-commons-25263573.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.

@@ -75432,5 +75432,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 432,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-25263573",
+    "title": "File:Хаш на столе.jpg",
+    "author": "Шнапс  (и блюда тоже)",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%D0%A5%D0%B0%D1%88_%D0%BD%D0%B0_%D1%81%D1%82%D0%BE%D0%BB%D0%B5.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/39/%D0%A5%D0%B0%D1%88_%D0%BD%D0%B0_%D1%81%D1%82%D0%BE%D0%BB%D0%B5.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "ff94ed1f986328e02f4fd8f2feed2b6516a219ed",
+    "name": "Khash",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-25263573.jpg",
+    "assetSha256": "655d106b35e7bdae6635c5734aa126d3f42766558b25e9e6ae3fd7aa5ae9d6b2",
+    "reviewedAt": "2026-11-18",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];
