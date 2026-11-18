@@ -3631,3 +3631,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Egyptian Koshari** — Basma. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Egyptian_Koshari.jpg). Local asset: `reviewed-commons-35965634.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **gol gappas stuffed with potatoes chana and onions and corriander leaves** — Sarabpreet Singh Bahi. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Minty_pani_puri.jpg). Local asset: `reviewed-commons-40672663.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.

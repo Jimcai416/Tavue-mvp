@@ -54028,5 +54028,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 640,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-40672663",
+    "title": "File:Minty pani puri.jpg",
+    "author": "Sarabpreet Singh Bahi",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Minty_pani_puri.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Minty_pani_puri.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "ddfb2bd488c8f78ecdc8bde34342fb0664e3ae41",
+    "name": "gol gappas stuffed with potatoes chana and onions and corriander leaves",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-40672663.jpg",
+    "assetSha256": "58dc875e18ace5a8e89572be57545ef36f5f870ce959b4b12792bcf3c4db5963",
+    "reviewedAt": "2026-11-18",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];
