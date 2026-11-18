@@ -64288,5 +64288,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "height": 720,
     "requiresExactMenuName": true,
     "authorUrl": "http://georgiaabout.com"
+  },
+  {
+    "id": "commons-40709438",
+    "title": "File:Puran-Poli.jpg",
+    "author": "Anant6364",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Puran-Poli.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Puran-Poli.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "12fe637f8c490c93227f7a1ab6d000a7497bf39f",
+    "name": "Puran poli",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-40709438.jpg",
+    "assetSha256": "07454901cb410abc2d72c216d99bd355855608c1247622b0feede2aa08cf8c43",
+    "reviewedAt": "2026-11-18",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 540,
+    "requiresExactMenuName": true
   }
 ];
