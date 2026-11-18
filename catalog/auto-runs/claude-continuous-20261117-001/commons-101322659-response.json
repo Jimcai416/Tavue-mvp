@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011Ch9X6sGR7YyRhjRMjyfMb",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Thin rice noodles clearly visible\",\n    \"Dark crustacean (crab) prominent in centre-top\",\n    \"Red chilli visible in background\",\n    \"Green vegetable garnish (likely green onion/herb)\",\n    \"Orange/yellow corn kernels dispersed\",\n    \"Glossy wet appearance consistent with dressed salad\"\n  ],\n  \"phone_observations\": [\n    \"Crab and noodles both prominent in thumbnail\",\n    \"Dish identity readable at small size\",\n    \"Adequate contrast and detail preservation\"\n  ],\n  \"protein_evidence\": {\n    \"protein\": \"pickled crab\",\n    \"confidence\": \"source-declared\"\n  },\n  \"uncertainties\": [\n    \"Source title describes 'green papaya salad with peanut, dried shrimp, and pickled crab' but photograph shows what appears to be a noodle-based dish (som tam and noodles are distinct Thai dishes; som tam is typically crushed green papaya without noodles as primary component)\",\n    \"Visible noodles are not standard components of classic som tam; this may be a fusion variant, hybrid dish, or the source description may be mismatched to the photograph\",\n    \"Cannot visually confirm green papaya as primary base ingredient; crushed papaya texture not distinctly evident\",\n    \"Peanuts not clearly identifiable in photograph despite source claim\"\n  ],\n  \"reason\": \"Source description (som tam with peanut, dried shrimp, pickled crab) does not align with photographed dish structure. The image shows prominent rice noodles as a primary component, which is not characteristic of traditional som tam. While quality, sharpness, lighting and phone thumbnail are all acceptable, the identity check fails due to material discrepancy between source metadata and visible form. The dish may be a noodle salad with crab rather than green papaya salad, or the source description may be incorrectly applied. Per guidelines, source contradictions => hold, but the fundamental identity disagreement is severe enough to reject pending clarification.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1484,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 605,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
