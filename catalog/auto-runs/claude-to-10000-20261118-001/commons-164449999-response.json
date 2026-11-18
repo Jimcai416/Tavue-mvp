@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChB7sxwwok8j5tfparLhs",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Cooked fish visible in source photograph with glossy orange/golden glaze\",\n    \"White rice base clearly visible beneath protein\",\n    \"Orange-red stew sauce coating the fish\",\n    \"Finished, exposed dish plated on white rice\"\n  ],\n  \"phone_observations\": [\n    \"Phone thumbnail shows only sauce and fish pieces in close-up\",\n    \"Rice base not visible in phone thumbnail centre-cover crop\",\n    \"Thumbnail captures the protein and sauce adequately but loses dish context\"\n  ],\n  \"protein_evidence\": {\n    \"seafood\": \"fish\"\n  },\n  \"uncertainties\": [\n    \"Source title states 'Rice and beans with stew and fish' but no beans are visibly present in either photograph\",\n    \"Title claims 'beans' as component but only rice is visible as the starch base\",\n    \"Discrepancy between stated dish composition and visual evidence\"\n  ],\n  \"reason\": \"Reject: source title/description does not match visible form. Title declares 'Rice and beans with stew and fish' but no beans are evident in the full source photograph or thumbnail—only rice is present beneath the fish and stew. This is a material identity contradiction. The photograph itself is well-executed (sharp, well-lit, appetising, prominent fish on rice), but the canonical name cannot be verified against the visual evidence. Hold or correction of the source metadata is required.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1730,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 454,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
