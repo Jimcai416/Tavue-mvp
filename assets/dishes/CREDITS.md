@@ -4376,3 +4376,9 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 
 - **Rfissa de poulet marocaine** — Solima arizo. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Rfissa_de_poulet_marocaine.jpg). Local asset: `reviewed-commons-130042329.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Undhiyu** — Jatan1992. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Undhiyu.jpg). Local asset: `reviewed-commons-40987190.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Tabbouleh** — Toniher. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/); [source](https://commons.wikimedia.org/wiki/File:Tabbouleh.jpg). Local asset: `reviewed-commons-925319.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Khichdi Prasadam** — Yuv103m. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Khichdi_Prasadam_in_Donna_(Iskcon_Bangalore).jpg). Local asset: `reviewed-commons-40817035.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Dhokla (Gujarati snack)** — BhargavVora. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Dhokla_(Gujarati_snack).jpg). Local asset: `reviewed-commons-40944147.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
