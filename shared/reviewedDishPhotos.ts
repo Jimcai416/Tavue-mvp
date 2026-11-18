@@ -48359,5 +48359,52 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 960,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-40876231",
+    "title": "File:Rava Upma (Suji or Semolina Upma).JPG",
+    "author": "Mdsmds0",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rava_Upma_(Suji_or_Semolina_Upma).JPG",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/44/Rava_Upma_%28Suji_or_Semolina_Upma%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "890dc6e42501addf4bd209b9de34066a46863e10",
+    "name": "Rava Upma (Suji or Semolina Upma)",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-40876231.jpg",
+    "assetSha256": "7ee693f4c554b4018fba7b01ba9621020c332416feca90be26a52df3bca1a30d",
+    "reviewedAt": "2026-11-18",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-4689257",
+    "title": "File:Korean pancake-Haemul pajeon-03.jpg",
+    "author": "by Tales of an LA Addict (Abby)  at  Flickr",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Korean_pancake-Haemul_pajeon-03.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Korean_pancake-Haemul_pajeon-03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "8ef3198b145f2b618d2eb6978e718d1da4185061",
+    "name": "Haemul pajeon",
+    "aliases": [],
+    "proteins": [
+      "seafood"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-4689257.jpg",
+    "assetSha256": "f308b2dd9b2894363b76baedea0c07712cd3203fd0fac2001ed3b270d7cdc9b9",
+    "reviewedAt": "2026-11-18",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 641,
+    "requiresExactMenuName": true,
+    "authorUrl": "https://www.flickr.com/photos/la_addict/"
   }
 ];
