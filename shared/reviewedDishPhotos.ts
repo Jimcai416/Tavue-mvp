@@ -65644,5 +65644,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 832,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-108347060",
+    "title": "File:Tripous auvergnats.jpg",
+    "author": "Popo le Chien",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tripous_auvergnats.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/62/Tripous_auvergnats.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "a82206007d48fd484bd421b80e9f5072918d2d62",
+    "name": "Tripous auvergnat servis avec du riz",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-108347060.jpg",
+    "assetSha256": "891fda2eb16fdd60b583e2924e9c79daf4c558a9a36ca5bdcaae056792f39e5e",
+    "reviewedAt": "2026-11-18",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];

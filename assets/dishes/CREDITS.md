@@ -4542,3 +4542,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 - **Sopa de Mondongo (Menudo) y Gordita al estilo mexicano** — Daniel Di Palma. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Mexican_Beef_Tripe_Soup_and_Gordita_-_Sopa_de_Mondongo_y_Gordita.jpg). Local asset: `reviewed-commons-60432275.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Osso Buco** — [stu_spivack](https://www.flickr.com/photos/35034346243@N01). [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:Ossobuco_-_stu_spivack.jpg). Local asset: `reviewed-commons-11623136.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Cazuela chilena al estilo chilote** — Lufke. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Cazuela_Chilota.png). Local asset: `reviewed-commons-18489419.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Tripous auvergnat servis avec du riz** — Popo le Chien. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Tripous_auvergnats.jpg). Local asset: `reviewed-commons-108347060.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
