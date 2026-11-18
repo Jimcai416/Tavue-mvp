@@ -5577,3 +5577,8 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Urad dal vadas with chickpea ghugni** — Rupasree. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Vada_ghugni.JPG). Local asset: `reviewed-commons-40946798.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **chilled leek and potato soup (velouté glâcé)** — [Ewan Munro  from London, UK](https://www.flickr.com/people/55935853@N00). [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:Mon_Plaisir,_Covent_Garden,_London_(3717184145).jpg). Local asset: `reviewed-commons-24281649.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Lomo a lo pobre** — Jani Martínez. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Lomo_a_lo_pobre.JPG). Local asset: `reviewed-commons-43453429.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.

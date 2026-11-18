@@ -77298,5 +77298,52 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-24281649",
+    "title": "File:Mon Plaisir, Covent Garden, London (3717184145).jpg",
+    "author": "Ewan Munro  from London, UK",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mon_Plaisir,_Covent_Garden,_London_(3717184145).jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/89/Mon_Plaisir%2C_Covent_Garden%2C_London_%283717184145%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "dc789de1471b68561729db54b2cdc92f6ce9f653",
+    "name": "chilled leek and potato soup (velouté glâcé)",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-24281649.jpg",
+    "assetSha256": "ea671cefcbe3d5dfa7db7468045e993cf1b813c0372a9bdf5e0e32fe4dce846d",
+    "reviewedAt": "2026-11-18",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 640,
+    "requiresExactMenuName": true,
+    "authorUrl": "https://www.flickr.com/people/55935853@N00"
+  },
+  {
+    "id": "commons-43453429",
+    "title": "File:Lomo a lo pobre.JPG",
+    "author": "Jani Martínez",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lomo_a_lo_pobre.JPG",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/75/Lomo_a_lo_pobre.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "00f656786f229801c63f9c33c436a3922ff48cde",
+    "name": "Lomo a lo pobre",
+    "aliases": [],
+    "proteins": [
+      "beef"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-43453429.jpg",
+    "assetSha256": "78d4575160005df3a3faccf21e28f5a2b25fa001cd555e5b59acf04f951ca5ca",
+    "reviewedAt": "2026-11-18",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 640,
+    "requiresExactMenuName": true
   }
 ];
