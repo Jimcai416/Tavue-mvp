@@ -5366,3 +5366,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 - **Mchadi with Beetroot pkhali, pomegranate seeds and herbs** — Eka Samkharadze. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Mchadi_with_Beetroot_pkhali,_pomegranate_seeds_and_herbs.jpg). Local asset: `reviewed-commons-159188742.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Chicken and potato xacuti** — Kugelblintz. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Xacuti-2.jpg). Local asset: `reviewed-commons-144043579.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Pkhali, Badrijani and Ajika** — [salvagekat](https://www.flickr.com/people/10579374@N05). [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:Pkhali,_Badrijani_and_Ajika.jpg). Local asset: `reviewed-commons-31762286.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Spinach pkhali** — [Georgia About](http://georgiaabout.com). [CC BY 3.0](https://creativecommons.org/licenses/by/3.0); [source](https://commons.wikimedia.org/wiki/File:Spinach_pkhali.jpg). Local asset: `reviewed-commons-38143298.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
