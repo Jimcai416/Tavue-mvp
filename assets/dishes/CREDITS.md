@@ -4765,3 +4765,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Shrimp mofongo** — The Eloquent Peasant. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Shrimp_mofongo_from_Rompeolas_restaurant_in_Aguadilla,_Puerto_Rico.jpg). Local asset: `reviewed-commons-89270896.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Quesadilla de champiñones poblana** — Luis Alvaz. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Quesadilla_de_champi%C3%B1ones_poblana.jpg). Local asset: `reviewed-commons-106154991.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
