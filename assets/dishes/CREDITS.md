@@ -5692,3 +5692,9 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 
 - **Polenta argentina con salsa de carne** — Horacio Cambeiro. [CC BY 3.0](https://creativecommons.org/licenses/by/3.0); [source](https://commons.wikimedia.org/wiki/File:Polenta_argentina_con_salsa_de_carne.jpg). Local asset: `reviewed-commons-178754950.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Pappardelle con funghi porcini** — Anna.Massini. [CC BY 4.0](https://creativecommons.org/licenses/by/4.0); [source](https://commons.wikimedia.org/wiki/File:Pappardelle_con_funghi_porcini.jpg). Local asset: `reviewed-commons-175383973.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Creamy chicken and gnocchi soup** — Hatumai. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Gnocchi_in_creamy_chicken_and_gnocchi_soup.JPG). Local asset: `reviewed-commons-18321621.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Pappardelle with lamb sugo** — [Arnold Gatilao  from Oakland, CA, USA](https://www.flickr.com/people/58819758@N00). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Pappardelle_with_lamb_sugo_(17163334639).jpg). Local asset: `reviewed-commons-40530060.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **ravioli** — 3steph14. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Ravioli_3.jpg). Local asset: `reviewed-commons-141566084.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
