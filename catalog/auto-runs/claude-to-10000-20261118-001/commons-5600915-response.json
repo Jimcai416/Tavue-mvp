@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAZM1wS16icMHTJr8oQK",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": \"Prahok grilled in banana leaves, fresh green vegetables and steamed rice\",\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Banana leaf wrapping visible and characteristic\",\n    \"Ground paste filling consistent with prahok preparation\",\n    \"Fresh green beans and cucumber sides clearly visible\",\n    \"White steamed rice in bowl\",\n    \"Finished, exposed grilled dish\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail shows banana-leaf wrapped item with visible grilled surface\",\n    \"Rice and vegetables distinguishable\",\n    \"Essential components readable at phone scale\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title contains 'Fried Prahok' but description states 'grilled in banana leaves'—conflicting cooking method\",\n    \"Prahok is a fermented fish paste condiment; no visible animal species explicitly named in source as protein component of the dish itself\",\n    \"Species of fish in prahok paste not stated in title or description\"\n  ],\n  \"reason\": \"Source metadata contains internal contradiction: title says 'Fried' but description says 'grilled in banana leaves'. Prahok (fermented fish paste) is an ingredient, but the fish species is not explicitly named in the title or description, only the condiment name. The dish is a finished, well-photographed Cambodian preparation with good quality, composition and phone visibility, but the identity conflict and unspecified protein source prevent acceptance. Hold pending source clarification of cooking method and explicit fish species declaration.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1834,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 473,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
