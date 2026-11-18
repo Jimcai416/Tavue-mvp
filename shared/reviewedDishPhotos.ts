@@ -67939,5 +67939,29 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 720,
     "height": 960,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-68983161",
+    "title": "File:Jochi Resto Grill Pork Adobo.jpg",
+    "author": "RightCowLeftCoast",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jochi_Resto_Grill_Pork_Adobo.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/43/Jochi_Resto_Grill_Pork_Adobo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "44e88ddb5a5f194f932cc5f1da8d76aa7abd8d6a",
+    "name": "Pork Adobo",
+    "aliases": [],
+    "proteins": [
+      "pork"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-68983161.jpg",
+    "assetSha256": "e044d65399ec7a5cc4781a0b458421e711754d720227291911a474930100fee6",
+    "reviewedAt": "2026-11-18",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 540,
+    "requiresExactMenuName": true
   }
 ];
