@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBJPPmuhA5sdDTuyCK3z",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Two round flatbreads with dark speckles visible (pupusas)\",\n    \"Yellow rice portion with cilantro garnish\",\n    \"Dark thick sauce in small bowl (likely black beans)\",\n    \"Pickled vegetables in black bowl (onions, peppers)\",\n    \"Three dark meat patties/kebabs (plantains or meat unclear)\",\n    \"Fresh lettuce and tomato slices\"\n  ],\n  \"phone_observations\": [\n    \"Flatbreads, rice, meat/plantain items and two dark bowls clearly visible\",\n    \"Composition readable but individual components somewhat compressed\",\n    \"Dark sauce bowl and pickled vegetables identifiable\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title says 'Mexican restaurant' but description identifies this as 'Latin American meal' — regional source conflict\",\n    \"Three dark meat items on plate: cannot reliably distinguish plantain from meat species from photograph alone\",\n    \"Metadata describes 'at a Mexican restaurant in New Orleans' contradicting 'Latin American meal' — which cuisine/dish identity is correct?\",\n    \"If the dark items are plantains, there is no visible protein to declare; if meat, species is not visually determinable and not named in source\",\n    \"Pupusas are Central American (Salvadoran) not Mexican — source-to-title region mismatch\"\n  ],\n  \"reason\": \"Source metadata contradicts itself (Mexican restaurant vs. Latin American meal; Carrollton Riverbend vs. stated Mexican venue). The dark protein items cannot be reliably identified as a named species from appearance alone, and no protein is explicitly named in title or description. The regional identity conflict between 'Mexican' and 'Latin American' and the actual Central American origin of pupusas creates unresolved uncertainty about the dish category and preparation context. While photograph and thumbnail quality are acceptable, the identity check fails due to irreconcilable source contradictions and missing protein specification.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1754,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 579,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
