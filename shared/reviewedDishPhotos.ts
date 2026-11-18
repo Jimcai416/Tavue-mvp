@@ -43793,5 +43793,101 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 723,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-4470537",
+    "title": "File:Gulai ayam.JPG",
+    "author": "Midori",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gulai_ayam.JPG",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/da/Gulai_ayam.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "336e4cb4ab6ca15375c9df833b700637890245f0",
+    "name": "Gulai ayam",
+    "aliases": [],
+    "proteins": [
+      "chicken"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-4470537.jpg",
+    "assetSha256": "db6223353d2f6be91111611f8551e069cee8285344fb37a19a4babd37979fa48",
+    "reviewedAt": "2026-11-18",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-200139791",
+    "title": "File:Nasi padang ayam goreng dengan kuah gulai.jpg",
+    "author": "Quetszal",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nasi_padang_ayam_goreng_dengan_kuah_gulai.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Nasi_padang_ayam_goreng_dengan_kuah_gulai.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "86036246227b0696d01b6f78ce16d6ea6869ef07",
+    "name": "Nasi padang with fried chicken and curry broth",
+    "aliases": [],
+    "proteins": [
+      "chicken"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-200139791.jpg",
+    "assetSha256": "560277821029228571643f8ac94ef0bef0ecc9a77b197032b5d854a62fe28518",
+    "reviewedAt": "2026-11-18",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 720,
+    "height": 960,
+    "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-2090409",
+    "title": "File:Nasi ramas gulai ayam.JPG",
+    "author": "Midori",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nasi_ramas_gulai_ayam.JPG",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Nasi_ramas_gulai_ayam.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "817a180f8e3b7359ff663b21bd64447cccc4151a",
+    "name": "Nasi ramas, Indonesian spicy rice with chicken curry (gulai ayam)",
+    "aliases": [],
+    "proteins": [
+      "chicken"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-2090409.jpg",
+    "assetSha256": "c13a44b36233f3aadc27cab46c2e2bc60564aa8f5df9b90b67dc13dc37591213",
+    "reviewedAt": "2026-11-18",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-180528556",
+    "title": "File:Pork kebab and salad Pitta Corner Wood Green High Road London England.jpg",
+    "author": "Acabashi",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pork_kebab_and_salad_Pitta_Corner_Wood_Green_High_Road_London_England.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Pork_kebab_and_salad_Pitta_Corner_Wood_Green_High_Road_London_England.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "2d00c81cde55f537b4a21aa0aa897e8b5654decf",
+    "name": "Pork kebab and salad",
+    "aliases": [],
+    "proteins": [
+      "pork"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-180528556.jpg",
+    "assetSha256": "49b233df6e1fc34253d4885a86e579056dc306a9ce39e98d3b5dc5ce6c86c171",
+    "reviewedAt": "2026-11-18",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 791,
+    "requiresExactMenuName": true
   }
 ];
