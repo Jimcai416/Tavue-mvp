@@ -4455,3 +4455,9 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 
 - **Pastilla recouverte de sucre glace** — [kochtopf](https://www.flickr.com/people/kochtopf/). [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:Pastilla_marocaine_recouverte_de_sucre_glace.jpg). Local asset: `reviewed-commons-26083408.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Macarons d'Amiens** — Bycro. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Macarons_d%27Amiens_12.jpg). Local asset: `reviewed-commons-104997372.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Seafood pastilla** — إيان. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:%D8%A8%D8%B3%D8%B7%D9%8A%D9%84%D8%A9_%D8%AF_%D8%A7%D9%84%D8%AD%D9%88%D8%AA.jpg). Local asset: `reviewed-commons-112370502.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Salade lyonnaise** — Sebleouf. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Salade_lyonnaise_servie_au_restaurant_Simple_Food,_Lyon_7e_(mai_2019).jpg). Local asset: `reviewed-commons-83309664.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Macarons de chez Bouillet** — [Benoît Prieur](https://www.wikidata.org/wiki/Q42790984). [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Macarons_de_chez_Bouillet_en_juin_2023.jpg). Local asset: `reviewed-commons-133118032.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
