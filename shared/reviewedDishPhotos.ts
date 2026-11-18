@@ -67893,5 +67893,51 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 540,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-108138748",
+    "title": "File:Croquetas de garbanzo, Restaurante El Refugio, Valencia.jpg",
+    "author": "19Tarrestnom65",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Croquetas_de_garbanzo,_Restaurante_El_Refugio,_Valencia.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Croquetas_de_garbanzo%2C_Restaurante_El_Refugio%2C_Valencia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "2455ef34b05ac4803d90b96887a6647115d47ca3",
+    "name": "Croquetas de garbanzo",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-108138748.jpg",
+    "assetSha256": "01ff857c4521d796214addfcf1062dc9e1832fd251c03eaba8f15c8269d1035e",
+    "reviewedAt": "2026-11-18",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-180357209",
+    "title": "File:Escabeche Filipino Food at Night.jpg",
+    "author": "LadyPinayForever",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Escabeche_Filipino_Food_at_Night.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/61/Escabeche_Filipino_Food_at_Night.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "40b555e2b218597a31466ab763f112b05e31f5b5",
+    "name": "Escabeche Filipino Food",
+    "aliases": [],
+    "proteins": [
+      "seafood"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-180357209.jpg",
+    "assetSha256": "93795c5d2e17bd9b553cc3d9b46b06c17ded84137ca876746fd53401fc2c7d15",
+    "reviewedAt": "2026-11-18",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 720,
+    "height": 960,
+    "requiresExactMenuName": true
   }
 ];

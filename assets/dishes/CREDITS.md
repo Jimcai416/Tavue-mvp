@@ -4752,3 +4752,8 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 
 - **Escabeche (Philippines)** — Obsidian Soul. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Escabeche_(Philippines).jpg). Local asset: `reviewed-commons-80073422.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Adobong talong or Eggplant adobo (Philippines)** — Obsidian Soul. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Adobong_talong_or_Eggplant_adobo_(Philippines).jpg). Local asset: `reviewed-commons-79646916.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Croquetas de garbanzo** — 19Tarrestnom65. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Croquetas_de_garbanzo,_Restaurante_El_Refugio,_Valencia.jpg). Local asset: `reviewed-commons-108138748.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Escabeche Filipino Food** — LadyPinayForever. [CC BY 4.0](https://creativecommons.org/licenses/by/4.0); [source](https://commons.wikimedia.org/wiki/File:Escabeche_Filipino_Food_at_Night.jpg). Local asset: `reviewed-commons-180357209.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
