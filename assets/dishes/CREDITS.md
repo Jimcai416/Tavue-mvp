@@ -5746,3 +5746,9 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Chả cá tại Phố chả cá Hà Nội** — Phương Huy  ( thảo luận ). [Public domain](https://creativecommons.org/publicdomain/mark/1.0/); [source](https://commons.wikimedia.org/wiki/File:Ch%E1%BA%A3_c%C3%A1_t%E1%BA%A1i_Ph%E1%BB%91_ch%E1%BA%A3_c%C3%A1_H%C3%A0_N%E1%BB%99i.jpg). Local asset: `reviewed-commons-89810752.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **takoyaki** — Gianne Padilla. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Takoyaki_at_Macha_Caf%C3%A9.jpg). Local asset: `reviewed-commons-189301878.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Takoyaki balls** — Fumikas Sagisavas. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Takoyaki_balls_(1).jpg). Local asset: `reviewed-commons-150163177.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Takoyaki cooked by Wanaka Dotonbori Shop** — Miyuki Meinaka. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Takoyaki_cooked_by_Wanaka_Dotonbori_Shop.jpg). Local asset: `reviewed-commons-128636052.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
