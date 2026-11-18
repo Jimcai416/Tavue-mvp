@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAUF4J5DXC62apV7onpw",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Yellow curry sauce with visible texture and sheen\",\n    \"White steamed rice mound on side of plate\",\n    \"Red pickled ginger garnish on rice\",\n    \"Green onion/scallion sprinkle on curry\",\n    \"Served on white plate with underplate\",\n    \"Fork visible for scale\",\n    \"Natural restaurant lighting\"\n  ],\n  \"phone_observations\": [\n    \"Curry and rice clearly visible in thumbnail\",\n    \"Colour and composition match full image\",\n    \"Essential components readable at small size\",\n    \"Dish proportions evident\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title states 'Japanese curry rice' but provides no explicit protein identification\",\n    \"Curry appears to contain vegetables (corn visible) but no meat species named in source\",\n    \"Cannot visually confirm whether curry contains chicken, beef, pork, or seafood from appearance alone\",\n    \"No protein explicitly declared in title or description\"\n  ],\n  \"reason\": \"Reject: source title 'Japanese curry rice' does not explicitly name any protein animal. While the photograph shows a finished, well-plated curry dish with sharp detail, natural colour, and appetising appearance (all quality checks pass), the identity check fails because no protein species is confirmed by source text. Protocol requires explicit naming for protein categories; curry ingredients alone cannot be inferred from visual appearance or dish tradition. Hold would be appropriate if resubmitted with explicit protein identification in source metadata.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1727,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 473,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

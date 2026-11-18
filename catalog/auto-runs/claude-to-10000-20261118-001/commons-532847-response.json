@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAUEejV2i1GEEUcegpfV",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Cooked naan bread with characteristic charring and blistering\",\n    \"Golden-brown surface with darker spots from tandoor cooking\",\n    \"Puffy, well-risen dough structure\",\n    \"Served on decorative plate with red border\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows naan shape and texture\",\n    \"Charring and blistering visible in reduced view\",\n    \"Essential food component fully within frame\",\n    \"Adequate sharpness for recognition\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title contains only 'Nan from the Indian restaurant \\\"Shiva\\\"' with no specific variant descriptor\",\n    \"No explicit naan type identified (plain, peshwari, garlic, etc.)\",\n    \"Restaurant name alone is insufficient identity confirmation\",\n    \"Metadata describes restaurant origin but not dish specification\"\n  ],\n  \"reason\": \"Reject: Identity check fails. The source description 'Nan from the Indian restaurant \\\"Shiva\\\"' provides only a generic restaurant attribution and ingredient name, not a specific dish identity with variant qualifiers. The canonical_name requirement demands copying exact source title/description; here, the description is too generic to serve as a proper dish identifier. No specific naan variant (plain, peshwari, garlic, kashmiri, etc.) is named in the source. While the photograph itself shows good quality, sharpness, and appetising presentation of cooked naan bread, the absence of a specific, meaningful dish descriptor in the source metadata prevents acceptance. A specific naan variant name must be present in the source title or description to meet identity requirements.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1657,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 512,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
