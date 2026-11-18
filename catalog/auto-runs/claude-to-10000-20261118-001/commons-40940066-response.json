@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChATLp38GdgrqBVxPe6NV",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Finished, cooked curry dish with aromatic spicing and oil pooling\",\n    \"Naan bread with charred spots, natural colour and texture\",\n    \"Purple onion slices as fresh garnish\",\n    \"Plate presentation with fork and dining setup\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows main curry dish and flatbread\",\n    \"Garnish visible and identifiable\",\n    \"Dish identity readable in phone format\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title states 'Mutton Rogan Josh' but mutton commonly refers to goat meat in South Asian contexts; species ambiguity (sheep vs. goat) cannot be resolved from visual appearance alone\",\n    \"No explicit animal species confirmation in description beyond the ambiguous term 'mutton'\"\n  ],\n  \"reason\": \"Image quality, photograph and phone presentation all meet acceptance criteria. However, the protein identity cannot be confirmed: the source uses 'mutton', which is regionally ambiguous (may mean goat or mature sheep) and cannot be visually distinguished in the cooked curry form. Per guidelines, ambiguous meat species designation requires hold pending clarification. Identity check fails due to unresolved species qualifier.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1727,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 420,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

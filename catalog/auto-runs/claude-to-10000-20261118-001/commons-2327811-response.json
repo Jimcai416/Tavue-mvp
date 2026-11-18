@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChATLH3oNTC1zetqhGiib",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Clear noodle soup in blue-and-white porcelain bowl\",\n    \"White fishballs visible on left side\",\n    \"Brown beef balls visible on right side\",\n    \"Green scallion garnish on top\",\n    \"Natural broth, well-lit and appetising\",\n    \"Phone thumbnail shows prominent bowl with all components\"\n  ],\n  \"phone_observations\": [\n    \"Dish centred and clearly visible in thumbnail\",\n    \"Fishballs, beefballs, noodles and broth all readable\",\n    \"Sharp enough to identify key components\",\n    \"No clipping of essential food elements\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title/description lists 'Fishball Beefball fish ball beef ball' but provides no canonical dish name or proper phrase\",\n    \"Species of 'beef' not explicitly confirmed in source metadata—appears to be beef from context but not formally stated\",\n    \"Species of fish in fishballs is not identified in source\",\n    \"No formal dish name (e.g. 'Fish Ball Beef Ball Noodle Soup' or similar) provided in source\",\n    \"Metadata format is non-standard and does not contain a coherent dish title\"\n  ],\n  \"reason\": \"Image quality, photography and phone thumbnail all meet acceptance criteria. However, the source metadata fails to supply a canonical dish name or formal title phrase. The filename is not a usable source description. The description lists ingredients repetitively ('Fishball Beefball fish ball beef ball') but does not constitute a proper dish identifier. Protein identity: 'beef' is implied but not explicitly named in source text; 'fish' species is unspecified. Source contradictions and absent formal dish naming prevent acceptance. Hold pending clarification of exact dish name and explicit species identification in authoritative source.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1728,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 558,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
