@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAWbvhF9MsBGL9Gc4Esq",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": \"Kebab skewers (lamb and liver \\\"shish\\\"es) and accompanying dishes.\",\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Skewered meat on white plate in full image\",\n    \"Charred tomato and green pepper visible\",\n    \"Multiple accompaniment bowls: salsa, dip, fresh herbs, bread, vegetables\",\n    \"Skewers clearly visible in both full and thumbnail images\",\n    \"Natural daylight, warm wood table surface\"\n  ],\n  \"phone_observations\": [\n    \"Plate with skewered meat and vegetables prominent in centre\",\n    \"Accompaniments visible in background bowls\",\n    \"Adequate detail for dish recognition\",\n    \"Appetising presentation of main component\"\n  ],\n  \"protein_evidence\": {\n    \"lamb\": \"lamb and liver \\\"shish\\\"es\",\n    \"note_unspecified\": \"liver species not identified in source description\"\n  },\n  \"uncertainties\": [\n    \"Source description lists 'lamb and liver' but does not specify the animal species from which the liver originates\",\n    \"Liver identification from visual appearance alone is unreliable; source text does not explicitly name the animal\",\n    \"Canonical dish name cannot be determined: description is generic ('Kebab skewers...and accompanying dishes') rather than a specific regional or named dish variant\"\n  ],\n  \"reason\": \"Image quality and photograph are strong (sharp, well-lit, appetising, clear in both full and thumbnail). However, identity check fails: (1) the source description does not name a specific canonical dish—it describes a generic kebab with accompaniments, not a named variant; (2) liver species is unspecified, violating the rule that unknown meat species require a hold. The generic English description 'Kebab skewers (lamb and liver \\\"shish\\\"es) and accompanying dishes' cannot serve as canonical_name because it lacks the precision of a named dish and because the liver animal is unknown. Holding pending clarification of regional name and liver species.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1734,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 579,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
