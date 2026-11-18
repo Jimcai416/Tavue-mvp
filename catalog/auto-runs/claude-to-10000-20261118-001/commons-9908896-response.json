@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChB6JXqJNsf5xP7Tznrmf",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Two open clam shells on pale green plate\",\n    \"Raw clam meat visible inside shells\",\n    \"Red sauce (Japanese apricot/Prunus mume) on right clam\",\n    \"Fresh shiso leaves as garnish\",\n    \"Natural colours, sharp detail, appetising presentation\"\n  ],\n  \"phone_observations\": [\n    \"Clam shells and contents clearly visible at centre\",\n    \"Red sauce distinguishes the two halves\",\n    \"Green garnish visible at bottom edge\",\n    \"Essential components readable in thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Clams are not an allowed protein category (chicken/beef/pork/duck/lamb/seafood only); clams are molluscs, not covered by seafood category definition in this system\"\n  ],\n  \"reason\": \"Image is a finished, sharp, well-lit sashimi dish with excellent phone thumbnail representation. However, the protein is clam (Meretrix lusoria), which falls outside the allowed categories (chicken, beef, pork, duck, lamb, seafood as defined). Clams are molluscs and cannot be mapped to the permitted protein keys. Rejection is based on protein category constraint, not image quality.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1768,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 420,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
