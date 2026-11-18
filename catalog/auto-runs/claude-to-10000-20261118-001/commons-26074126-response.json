@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAnGc8cozP9yANCEb3t9",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Clay pot (douk sot) with golden-brown broth\",\n    \"Visible tofu cubes (white blocks)\",\n    \"Green onion/scallion garnish\",\n    \"Yellow/orange vegetables (likely zucchini or squash)\",\n    \"Red chili visible in broth\"\n  ],\n  \"phone_observations\": [\n    \"Dish is clearly visible and prominent in thumbnail\",\n    \"Broth colour and toppings readable\",\n    \"Finished, served state apparent\",\n    \"Essential components (tofu, vegetables, garnish) discernible\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Korean title and description reference '된장찌개' (doenjang-jjigae/miso soup stew) but no proteins explicitly named in source metadata\",\n    \"Common ingredients (tofu, vegetables) are visible but source provides no explicit protein declaration\",\n    \"Standard doenjang-jjigae often contains seafood or meat but metadata does not specify\",\n    \"No verifiable source quote naming specific protein ingredients\"\n  ],\n  \"reason\": \"Image quality, composition and phone visibility are excellent, and the finished dish is appetising and well-detailed. However, identity cannot be confirmed because the metadata title and description are in Korean and do not explicitly name the dish in English or declare specific protein ingredients. The visible form matches Korean miso stew preparation, but Tavue protocol requires the canonical_name to be copied exactly from source title/description and proteins to be supported by explicit source quotes. Without an English-language source description or specific protein declaration, identity verification fails. Hold for source clarification in English with explicit ingredient naming.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1747,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 514,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
