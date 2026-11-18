@@ -4546,3 +4546,11 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Tripous auvergnat servis avec du riz** — Popo le Chien. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Tripous_auvergnats.jpg). Local asset: `reviewed-commons-108347060.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Cuscus se zeleninou** — Pohled 111. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Cuscus_se_zeleninou_-_zahradn%C3%AD_raut_15.jpg). Local asset: `reviewed-commons-92420130.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Arroz a banda con sofrito de pimiento rojo** — Juan Emilio Prades Bel. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Arroz_a_banda_con_sofrito_de_pimiento_rojo.jpg). Local asset: `reviewed-commons-113922924.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Chilean cazuela and pebre** — E4024. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Cazuela_and_pebre.jpg). Local asset: `reviewed-commons-44330767.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Puchero** — [Photograph by  Mike Peel  ( www.mikepeel.net ).](https://www.mikepeel.net/). [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Puchero,_Uruguay_2017_001.jpg). Local asset: `reviewed-commons-57419097.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Puchero, Uruguay** — [Photograph by  Mike Peel  ( www.mikepeel.net ).](https://www.mikepeel.net/). [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Puchero,_Uruguay_2017_002.jpg). Local asset: `reviewed-commons-57419105.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
