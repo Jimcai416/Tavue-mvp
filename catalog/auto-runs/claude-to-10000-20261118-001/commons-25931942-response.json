@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAtudK2ntmR5nNxm9Qch",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Finished, cooked spread on toasted bread base\",\n    \"Rich brown colour consistent with veal tongue rillettes\",\n    \"Textured, chunky spread appearance\",\n    \"Appetising presentation on white plate\",\n    \"Sharp detail in both full image and thumbnail\"\n  ],\n  \"phone_observations\": [\n    \"Subject clearly visible and prominent in thumbnail\",\n    \"Toast base and spread topping both readable\",\n    \"Natural colour rendering preserved\",\n    \"Adequate detail for dish identification\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title contains 'langue de veau' (veal tongue), but 'veau' (veal) is not an allowed protein category. The instructions permit only: chicken/beef/pork/duck/lamb/seafood. Veal (calf meat) does not map to any approved category.\",\n    \"Animal species 'veau' (calf/veal) cannot be matched to canonical protein categories\",\n    \"Cannot extract a valid protein_evidence entry with allowed keys\"\n  ],\n  \"reason\": \"Image quality, sharpness, lighting, composition and phone visibility all meet standards. The dish is a finished, appetising, identifiable prepared food (rillettes spread on toasted bread). However, the source title declares 'langue de veau' (veal tongue). Veal/calf meat is not among the permitted protein categories (chicken/beef/pork/duck/lamb/seafood), and no exact source quote naming an allowed animal species is available. Under the rules, unknown or non-approved meat species must be held. This prevents acceptance despite otherwise excellent photograph quality.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1626,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 510,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

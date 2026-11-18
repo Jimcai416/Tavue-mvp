@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAtudLXbYgZ96TTMwdNj",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Grilled sausage with golden fries and mixed green salad on white plate\",\n    \"Sausage exhibits dark caramelized exterior consistent with grilling\",\n    \"Fries are uniformly golden and crispy-looking\",\n    \"Fresh mixed greens with red cabbage and herbs visible\"\n  ],\n  \"phone_observations\": [\n    \"Sausage, fries and salad clearly visible in thumbnail\",\n    \"Golden colour of fries prominent and appetising\",\n    \"Sausage dark exterior readable\",\n    \"Plate composition well-represented in 124x96 crop\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title states 'Andouillette grilleé' but andouillette is a specific French chitterling sausage made from pig intestines. The visible sausage cannot be confirmed as andouillette by appearance alone—it could be any grilled sausage. Species (pork) is traditionally associated but not explicitly stated in source text.\",\n    \"Source describes 'andouillette' but provides no explicit quote naming the animal/meat type as required by protocol\"\n  ],\n  \"reason\": \"Identity check fails. While the photograph shows a professionally plated grilled sausage with fries and salad of excellent quality and sharp detail, the source metadata identifies it as 'Andouillette grilleé' but provides no explicit statement that this sausage contains pork or any other named animal. Andouillette is traditionally a chitterling sausage, but the protocol requires exact source quote explicitly naming the animal—inference from tradition or dish name is not permitted. The visible sausage could theoretically be any grilled sausage variety. Without an explicit protein declaration in the source title or description, identity cannot be confirmed and protein_evidence remains empty. All other checks and quality scores meet acceptance thresholds.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1735,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 567,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

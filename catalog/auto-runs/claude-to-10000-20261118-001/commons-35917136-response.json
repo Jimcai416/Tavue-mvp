@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAtudTxwpSDuMjK3EFcE",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Cooked poultry leg with visible bone and browning\",\n    \"Second smaller poultry portion visible\",\n    \"White beans in tomato-based sauce\",\n    \"Green herbs (parsley) garnish\",\n    \"Cooked green vegetable (appears to be green beans or similar)\",\n    \"White plate on lime-green placemat\",\n    \"Restaurant presentation\"\n  ],\n  \"phone_observations\": [\n    \"Plate centre shows roasted poultry legs with beans and green vegetables\",\n    \"Composition clearly visible in thumbnail\",\n    \"Protein and accompaniments identifiable\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title/description states 'Cassoulet mit Gans und Bohnen' (Cassoulet with goose and beans) and explicitly names 'Gänsekeule' (goose leg) and 'Gänsewurst' (goose sausage)\",\n    \"Goose (Gans) is not an allowed protein category; only chicken/beef/pork/duck/lamb/seafood are permitted\",\n    \"Poultry species visible cannot be definitively distinguished as duck from photograph alone\",\n    \"Source declares goose but this species falls outside canonical protein list\",\n    \"Sausage component ('Gänsewurst') cannot be accepted as a protein key per instructions\"\n  ],\n  \"reason\": \"Source explicitly identifies this as a cassoulet with goose (Gans/Gänsekeule). Goose is not an allowed protein category in the canonical list (chicken/beef/pork/duck/lamb/seafood only). Although a poultry leg is clearly visible and well-prepared, the source-declared identity (goose) cannot be supported by the allowed protein vocabulary. The dish identity depends on this protein declaration, which contradicts the permitted taxonomy. Hold required.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 2009,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 568,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

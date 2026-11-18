@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAtv7RiTP8j2ZenYtPS3",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Raw/uncooked seafood with citrus cure visible in the main component\",\n    \"Purple onion slices prominent\",\n    \"Red chilli peppers as garnish\",\n    \"Lettuce bed visible\",\n    \"Cooked corn kernels and what appears to be cooked pulses (chickpeas or similar) as sides\"\n  ],\n  \"phone_observations\": [\n    \"Central dish clearly visible with shredded/cubed raw fish component\",\n    \"Red chilli garnish readable\",\n    \"Corn side component visible\",\n    \"Lettuce and onion composition apparent\",\n    \"Overall composition readable in thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title declares 'Ceviche del Perú' but the visible form shows what appears to be raw/marinated fish ceviche alongside separately plated cooked sides (corn, pulses). The arrangement is unusual: cooked vegetables are plated separately rather than mixed into the ceviche itself.\",\n    \"The seafood species is not explicitly named in the source title or description—only the generic regional designation 'del Perú' is provided. Fish identity cannot be verified visually or textually.\",\n    \"The white/pale spherical components on the plate (bottom portion) appear to be corn kernels and possibly chickpeas or lupini beans, but their exact identity and role in the dish are ambiguous from the image alone.\"\n  ],\n  \"reason\": \"Reject: Although the photograph is sharp, well-lit, and appetizing with good composition and the phone thumbnail is readable, the source identity cannot be verified with sufficient certainty. The title 'Ceviche del Perú' does not explicitly name the seafood species (required by guidelines: 'seafood' alone is insufficient without specific animal identification). Additionally, the plating arrangement—with cooked sides separated from the ceviche rather than traditionally mixed—and the visible preparation method create ambiguity about whether this represents the canonical dish as described. The source provides no explicit quote identifying the specific seafood type, only a regional designation. This fails the identity check and protein_evidence remains empty due to lack of explicit species naming.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1772,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 624,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
