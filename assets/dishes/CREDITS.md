@@ -5389,3 +5389,10 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 
 - **Garlic chicken and peapods chop suey with fried rice** — [Eli Hodapp  from Naperville, United States](https://www.flickr.com/people/40196377@N00). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Chopsueywithrice.jpg). Local asset: `reviewed-commons-2734782.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Arabic meze** — ©  Vyacheslav Argenberg. [CC BY 4.0](https://creativecommons.org/licenses/by/4.0); [source](https://commons.wikimedia.org/wiki/File:Syria,_Al-Husn,_Arabic_meze_or_mezze.jpg). Local asset: `reviewed-commons-99705607.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Aloo Puri** — Kushalkhera20. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Aloo_Puri.jpg). Local asset: `reviewed-commons-91975178.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Adana Kebab** — Anatolianpride. [Public domain](https://creativecommons.org/publicdomain/mark/1.0/); [source](https://commons.wikimedia.org/wiki/File:Adana_kebab.jpg). Local asset: `reviewed-commons-10616500.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Shakshuka eggs for breakfast** — FranHogan. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Shakshuka_eggs_for_breakfast.jpg). Local asset: `reviewed-commons-92677142.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Puri Bhaji** — AroundTheGlobe. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Puri_Bhaji.JPG). Local asset: `reviewed-commons-19320418.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
