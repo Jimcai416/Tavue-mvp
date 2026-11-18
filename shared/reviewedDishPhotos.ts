@@ -58388,5 +58388,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 640,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-146159840",
+    "title": "File:Bubble Breakfast - Belchers 2024-03-07.jpg",
+    "author": "Andy Li",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bubble_Breakfast_-_Belchers_2024-03-07.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Bubble_Breakfast_-_Belchers_2024-03-07.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "98831614e9acfa76072dcd0c094ad4c44e1a94bd",
+    "name": "Bubble & Squeak, Egg, Beans, Tomatoes, Bread & Spread, Mug of Tea or Coffee",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-146159840.jpg",
+    "assetSha256": "cc4bf902f74adc93b478628b80694ec0a15e2877dc5b0dfd5d28012c95b67618",
+    "reviewedAt": "2026-11-18",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];

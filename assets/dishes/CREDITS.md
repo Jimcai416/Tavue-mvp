@@ -3961,3 +3961,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 - **Cock-a-leekie Soup** — [Laurel F](https://www.flickr.com/photos/18295242@N00). [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:Cock-a-leekie_Soup.jpg). Local asset: `reviewed-commons-6763589.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Scotch broth** — [bnhsu](https://www.flickr.com/people/90994687@N00). [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:Lunch_at_Inveraray_Castle_-_Scotch_broth_(14342541740).jpg). Local asset: `reviewed-commons-38256400.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Cullen Skink** — Metukkalihis. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Cullen_Skink.JPG). Local asset: `reviewed-commons-19504960.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Bubble & Squeak, Egg, Beans, Tomatoes, Bread & Spread, Mug of Tea or Coffee** — Andy Li. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Bubble_Breakfast_-_Belchers_2024-03-07.jpg). Local asset: `reviewed-commons-146159840.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
