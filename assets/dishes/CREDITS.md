@@ -4992,3 +4992,24 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Thai boat noodles** — Emppowering. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Bowl_of_boat_noodles.jpg). Local asset: `reviewed-commons-183103405.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Anago Donburi** — [Ogiyoshisan](https://www.flickr.com/people/91077297@N08). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:%22Anago_Donburi%22_in_Tsukiji_(9298974847).jpg). Local asset: `reviewed-commons-56536892.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Beef Kebab with Basmati Rice & Fries** — Wide Awake!. [CC BY 4.0](https://creativecommons.org/licenses/by/4.0); [source](https://commons.wikimedia.org/wiki/File:Beef_Kebab_with_Basmati_Rice_%26_Fries_from_Shish_Kebab_Hub_(2024-11-17).jpg). Local asset: `reviewed-commons-155265040.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Souvlaki, Cypriot salad and Pitta Bread** — Kolforn   ( Kolforn )  
+ I'd appreciate if you could mail me  (Kolforn@gmail.com)  if you want to use this picture out of the Wikimedia project scope. 
+ 
+    
+        
+              This file is licensed under the  Creative Commons   Attribution-Share Alike 4.0 International  license.  
+  You are free:
+   to share  – to copy, distribute and transmit the work 
+  to remix  – to adapt the work   
+ Under the following conditions:
+   attribution  – You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use. 
+  share alike  – If you remix, transform, or build upon the material, you must distribute your contributions under the  same or compatible license  as the original.      https://creativecommons.org/licenses/by-sa/4.0  CC BY-SA 4.0   Creative Commons Attribution-Share Alike 4.0   true  true. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:2017-04-17_Souvlaki,_Cypriot_salad_and_Pitta_Bread,_Trimingham.JPG). Local asset: `reviewed-commons-103851187.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Iranian Dolma, Tabriz** — Alborz Fallah. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Dolma,_Tabriz.jpg). Local asset: `reviewed-commons-12628754.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Harira** — Miansari66. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Harira..JPG). Local asset: `reviewed-commons-24469491.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Nigeria Jollof Rice with chicken** — Ei'eke. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:A_Nigeria_Jollof_Rice_with_chicken.jpg). Local asset: `reviewed-commons-164485705.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **fufu (swallow)** — Andikan Efiok Eduok. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:A_woman_moulding_fufu_(swallow).jpg). Local asset: `reviewed-commons-147640771.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
