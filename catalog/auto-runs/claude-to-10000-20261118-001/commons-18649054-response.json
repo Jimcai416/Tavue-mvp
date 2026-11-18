@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBBbmjXFrYv2ymgMrBvt",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 1,\n    \"lighting\": 2,\n    \"composition\": 1,\n    \"appeal\": 0\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows a street scene with a cart and people, not a food dish\",\n    \"No finished food is visible or recognizable in either full or thumbnail image\",\n    \"Subject is a historical street vendor scene, not a plated or exposed food item\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [],\n  \"reason\": \"This is a historical photograph of a street vendor (marchande de socca) circa early 20th century, not a photograph of the finished food itself. The image shows people around a cart in a public square in Nice, France. No actual dish, prepared food, or recognizable finished socca is visible or prominently displayed. The source describes socca as a chickpea-flour specialty, but no food is visually evident in the photograph. This fails the core requirement of showing 'a finished, exposed, likely photographic dish, sharply detailed, naturally coloured, appetising, prominent'. The image is archival documentation of a vendor, not food photography suitable for Tavue's food review purposes.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1607,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 370,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
