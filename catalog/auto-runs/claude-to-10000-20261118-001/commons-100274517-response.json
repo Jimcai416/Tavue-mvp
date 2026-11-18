@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChB496kwwBZK28GMAGaEZ",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": \"Attieke with fish, oil, meat, shito, vegetables and salt\",\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Couscous-like grain (attieke) prominently displayed in right container with green garnish\",\n    \"Brown stew/curry in central dark bowl with visible meat pieces\",\n    \"Bright orange diced vegetable (carrot) in left container\",\n    \"Green chopped vegetables visible in containers\",\n    \"Multiple condiment bowls (yellow, pink, clear) containing sauces\",\n    \"Cooked, finished dish presentation on platter\"\n  ],\n  \"phone_observations\": [\n    \"Attieke grain portion clearly visible in top right\",\n    \"Central meat stew identifiable\",\n    \"Orange vegetable component readable\",\n    \"Multiple sauce containers present but specific contents not distinctly resolved\",\n    \"Finished dish composition evident despite small size\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title lists both 'fish' and 'meat' but photograph shows only one clearly cooked protein component in the central brown stew — species cannot be definitively determined from visual appearance alone\",\n    \"No explicit fish is visually isolated or unambiguously identifiable in the finished dish\",\n    \"Meat species in stew is ambiguous (could be beef, pork, or unspecified)\",\n    \"Source description contains two different proteins but only one appears cooked in the plated dish\"\n  ],\n  \"reason\": \"Identity contradiction: source title claims both 'fish' and 'meat' but the visible finished dish shows only one cooked protein component in the central stew, with species ambiguous from appearance. No explicit fish is visually distinguishable. Protein identity cannot be reliably determined from photograph alone, and the mismatch between source description (two proteins) and what is plated prevents confident canonical naming and protein_evidence mapping. Quality, photograph, phone observations, and variant preservation checks pass, but identity check fails due to unresolved protein ambiguity and source-to-plate discrepancy.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1732,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 589,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChB48nMAbGs43ANd6Cc56",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 3,\n    \"lighting\": 2,\n    \"composition\": 2,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Image shows vine leaves on living plant, not prepared food\",\n    \"No dish visible in phone thumbnail\",\n    \"Foliage and outdoor garden setting only\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title references 'Waraq enab' (grape leaf wraps), but source image is raw plant material, not a finished dish\",\n    \"Metadata title/description conflict with actual photograph content\"\n  ],\n  \"reason\": \"Rejection: This is a nature/botanical photograph of living grape vine leaves in an outdoor garden setting, not a finished food dish. Despite the metadata title referencing 'Waraq enab' (a prepared Middle Eastern grape leaf dish), the actual source photograph shows only raw, uncooked foliage on a living plant with severe backlighting, bokeh, and no prepared food visible. The photograph fails to meet the core requirement of showing 'a finished, exposed, likely photographic dish.' This is a preparation-stage or botanical documentation image, not food photography. All quality scores are below the 4-point minimum threshold. The phone thumbnail confirms no finished dish is present.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1732,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 394,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

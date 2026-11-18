@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChB49PXWF7CrcuwMKUDqZ",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": true,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 2,\n    \"composition\": 2,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Phone thumbnail shows only a central portion of cooking in progress\",\n    \"Essential subject (the prepared dish) is not fully visible or recognizable in thumbnail\",\n    \"Thumbnail captures mid-cooking stage, not a finished plated dish\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title metadata truncated: 'This is an image of food from' - incomplete description\",\n    \"Cannot verify canonical dish name from incomplete source description\",\n    \"Cooking stage unclear from full image: appears to show preparation/cooking of what may be shiro wot, not a finished plated presentation\",\n    \"No explicit protein identification in source description\",\n    \"Image shows food actively cooking in a pan, not a finished, exposed dish suitable for food review\"\n  ],\n  \"reason\": \"Reject: source description is incomplete ('This is an image of food from' – no dish name provided). Full source photograph shows active cooking in progress, not a finished, plated dish ready for service. Severe lack of sharpness, uneven/dim lighting, and minimal composition control. Phone thumbnail fails to capture a recognizable finished dish – it shows only a mid-cooking stage with essential components poorly visible and undefined. Quality scores all below threshold. Identity cannot be confirmed from truncated source metadata. This is a preparation/cooking-stage image, not a finished food photograph suitable for Tavue review.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1727,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 449,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

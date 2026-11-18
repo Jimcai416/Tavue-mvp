@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChB48JmVHynYdm2VzNmaE",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Spiced meat pieces with golden-brown coating\",\n    \"Multiple elongated strips arranged on newspaper\",\n    \"Held in hand showing finished preparation\",\n    \"Characteristic dry rub seasoning visible\"\n  ],\n  \"phone_observations\": [\n    \"Prominent spiced meat pieces clearly visible\",\n    \"Golden-brown colour and texture readable\",\n    \"Essential food components not clipped\",\n    \"Sufficient detail for recognition\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Species of meat not explicitly named in source description—'meat' alone is ambiguous\",\n    \"Tsire is traditionally made with beef or other meat, but the exact animal is not stated in the provided metadata\",\n    \"Without explicit species identification in source title/description, cannot assign protein category\"\n  ],\n  \"reason\": \"Image quality, composition and phone thumbnail are all acceptable. The dish is a finished, exposed, well-seasoned meat preparation with appetising appearance and sharp detail in the thumbnail. However, the source description provides only 'Tsire' without specifying the meat species. The instructions require exact case-sensitive substrings from title/description for protein_evidence keys, and do not permit inference from tradition or appearance. Since the metadata does not explicitly name the animal (beef, chicken, lamb, pork, duck or seafood), identity cannot be confirmed and protein_evidence remains empty. Hold pending clarification of meat species from authoritative source.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1414,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 459,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

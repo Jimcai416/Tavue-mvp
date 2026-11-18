@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChB48grWpAejRekjcFaGN",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Couscous-like grain visible in both full image and phone thumbnail\",\n    \"Lamb/beef meat pieces clearly present\",\n    \"Green peas distributed throughout\",\n    \"Toasted nuts (almonds/sliced almonds) visible\",\n    \"White yogurt-based sauce in green bowl (consistent with tzatziki description)\",\n    \"Plated, finished, appetising presentation\"\n  ],\n  \"phone_observations\": [\n    \"Grain dish with meat and peas clearly readable\",\n    \"Fork and sauce bowl visible confirming finished dish\",\n    \"MyPlate.gov watermark present (institutional source photo)\",\n    \"Composition and components match full image\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title states 'Freekeh Pilaf with Lamb' but the visible grain appears to be couscous, not freekeh (which has a distinctly different appearance—larger, roasted green wheat grains with darker colour)\",\n    \"The meat colour and size are consistent with lamb, but visual confirmation of species cannot be definitively established from appearance alone\",\n    \"Source description claims 'freekeh' preparation but visual grain morphology does not match freekeh's known characteristics\"\n  ],\n  \"reason\": \"Reject: Identity mismatch between source title claim and visible form. Source declares 'Freekeh Pilaf with Lamb' but the grain visible in both full photograph and phone thumbnail appears to be couscous (fine, pale, uniform spheres), not freekeh (which should display larger, visibly roasted, darker-hued wheat grains). This is a significant identity contradiction. While the protein_evidence map cannot be populated without an exact case-sensitive substring match for 'lamb' in title/description (the description uses 'lamb pieces' in a clause, making extraction ambiguous), the primary reason for rejection is the visual-to-title grain mismatch. Hold criteria are met: source contradiction between declared ingredient and visible form requires clarification before acceptance.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1805,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 591,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

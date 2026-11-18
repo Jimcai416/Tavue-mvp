@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChB49BxVDQKm6a5ffs7Tm",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 3,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows reddish-brown spice mixture with central cooked meat ingredient embedded within it\",\n    \"Central meat component is visually prominent in thumbnail but insufficient context for dish identification\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title references 'Red Thieboudienne' but source metadata is incomplete and untrustworthy ('This is an image of food from' - truncated, no actual description provided)\",\n    \"Image shows preparation/cooking stage with spice mixture in a metal pot/pan, not a finished plated dish\",\n    \"Meat species cannot be identified from visual appearance alone\",\n    \"No explicit protein identification in the incomplete source description\",\n    \"Thieboudienne is a Senegalese rice dish, but this appears to be a mid-preparation stage showing spices and meat before rice component, starch, or plating\",\n    \"Incomplete metadata prevents verification of exact dish variant or identity\"\n  ],\n  \"reason\": \"Image shows a preparation/cooking stage rather than a finished, exposed, plated dish. The subject appears to be ingredients in mid-preparation (spice mixture with embedded meat in cookware), not a completed food photograph suitable for intake. The source metadata is incomplete ('This is an image of food from' provides no actual description), making identity verification impossible. No explicit protein species declaration in available metadata. The composition and lighting suggest active cooking rather than a finished photograph. All acceptance criteria for identity and completeness cannot be met.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1621,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 471,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
