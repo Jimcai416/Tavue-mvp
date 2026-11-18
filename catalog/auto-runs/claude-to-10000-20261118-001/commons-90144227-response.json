@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAxPjU1YPLqKhe4fuGok",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Brown roux-based broth with visible meat pieces\",\n    \"Rice base with green onion garnish\",\n    \"Toasted bread slice leaning in bowl\",\n    \"Colour and texture consistent with gumbo preparation\"\n  ],\n  \"phone_observations\": [\n    \"Bowl of brown broth clearly visible\",\n    \"Bread slice prominent and legible\",\n    \"Rice and garnish visible in thumbnail\",\n    \"Dish identity readable from phone view\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title references 'Gumbo at Angeline's Louisiana Kitchen' but provides no explicit protein declaration\",\n    \"Meat pieces visible in broth but species cannot be determined from appearance alone\",\n    \"No exact source quote naming specific animal proteins (chicken/beef/pork/duck/lamb/seafood)\",\n    \"Generic 'gumbo' does not specify meat composition required for canonical naming\"\n  ],\n  \"reason\": \"Image quality, sharpness, lighting and composition are all acceptable (scores ≥4). The photograph shows a finished, appetising gumbo dish with sharp detail in both source and thumbnail. However, identity check fails because the source provides no explicit protein declaration. The visible meat in the broth cannot be identified to species from photograph alone, and the source title 'Gumbo at Angeline's Louisiana Kitchen' does not name the animals used. Without an exact source quote explicitly naming which proteins are present (chicken/beef/pork/duck/lamb/seafood), canonical_name cannot be constructed per requirements. Hold pending source clarification of protein composition.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1729,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 500,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
