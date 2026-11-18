@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAY9EvLX37cjZjzLNQKi",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Pizza base with cheese and cooked meat topping\",\n    \"Fresh herbs (mint/parsley) garnish visible\",\n    \"Diced red onion visible on surface\",\n    \"Ground meat component clearly present\",\n    \"Natural colour and sharp detail in full image\",\n    \"Phone thumbnail shows pizza on wooden board\"\n  ],\n  \"phone_observations\": [\n    \"Pizza clearly visible and prominent\",\n    \"Cheese, meat and herb toppings readable\",\n    \"Wooden serving board visible\",\n    \"Overall composition legible at thumbnail size\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title 'Pizza Kebab' does not specify meat species (beef/lamb/pork/chicken ambiguous)\",\n    \"Ground meat visible but species cannot be determined from appearance alone\",\n    \"No explicit protein declaration in source metadata\"\n  ],\n  \"reason\": \"Image quality, sharpness, composition and phone thumbnail legibility all meet criteria. However, the source title 'Pizza Kebab' provides no explicit species declaration for the visible ground meat topping. Without a source quote naming the specific animal (beef/lamb/pork/chicken/duck), the protein identity cannot be verified. Per guidelines, ambiguous meat species must trigger hold. The dish identity itself—a pizza with kebab-style meat topping—is clear visually, but cannot be canonicalized without confirmed protein specification.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1614,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 454,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
