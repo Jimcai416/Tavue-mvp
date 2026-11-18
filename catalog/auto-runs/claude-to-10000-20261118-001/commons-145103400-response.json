@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBC8YkHpMivsMncAAwiy",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 3,\n    \"composition\": 2,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Boiling broth with floating ingredients barely distinguishable in thumbnail\",\n    \"No finished dish appearance; active cooking stage evident\",\n    \"Bubbles and steam obscure detail; raw preparation visible\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims pork but no cooked meat visible in either photograph\",\n    \"Image shows raw/early cooking stage, not finished plated dish\",\n    \"Excessive bubbling and translucent broth indicate boiling preparation, not presentation\"\n  ],\n  \"reason\": \"Reject: This is a preparation/cooking stage photograph, not a finished dish. Extensive bubbles, active boiling, and translucent broth are inconsistent with a completed, exposed, appetising food photograph. No cooked pork meat is visibly prominent or identifiable in either the full image or thumbnail. The dish does not meet the requirement for 'finished, exposed, likely photographic dish' with 'readable essential components' in the phone thumbnail. Quality scores fall below threshold (sharpness 2, appeal 2). This appears to be documentation of a cooking process rather than the finished dish itself.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1808,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 399,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
