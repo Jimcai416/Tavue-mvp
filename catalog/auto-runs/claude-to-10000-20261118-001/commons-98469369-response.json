@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChATjcyGHN5ZRkwNhaqyN",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Wavy instant noodles visible in white bowl\",\n    \"Orange-red broth consistent with sesame ramen\",\n    \"Nori (seaweed) garnish visible\",\n    \"Bowl and presentation suggest prepared instant noodle dish\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows bowl with ramen noodles in orange broth\",\n    \"Essential components readable: noodles, broth, garnish\",\n    \"Dish prominence and detail acceptable for phone view\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title describes 'Ottugi Instant noodles <Sesame Ramen>' but no protein species (chicken/beef/pork/duck/lamb/seafood) is explicitly named in title or description\",\n    \"Broth colour and sesame preparation visible, but animal protein source undeclared in metadata\",\n    \"Cannot confirm specific protein category from visible evidence alone without explicit source declaration\"\n  ],\n  \"reason\": \"While the photograph shows a well-executed, appetising instant ramen dish with sharp detail, natural colour, and readable components in both full image and thumbnail, the source metadata does not explicitly name any allowed protein species (chicken/beef/pork/duck/lamb/seafood). The title 'Ottugi Instant noodles <Sesame Ramen>' and description lack protein identification. Per intake rules, proteins may only be recorded with exact source quotes explicitly naming the animal. Without this declaration, identity cannot be fully verified and the dish must be held.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1779,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 489,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
