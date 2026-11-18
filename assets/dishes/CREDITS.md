@@ -2798,3 +2798,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 - **Korean stew-Kimchi jjigae** — [pcamp](https://www.flickr.com/photos/71711641@N00). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Korean_stew-Kimchi_jjigae-03.jpg). Local asset: `reviewed-commons-4249492.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Jajangmyeon** — 최광모. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Jajangmyeon_(mixed).jpg). Local asset: `reviewed-commons-40057698.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Noodles in blackbean sauce with pork** — Andy Li. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Jajangmyeon_-_Kogi_Korean_cuisine,_Brighton_2024-03-12.jpg). Local asset: `reviewed-commons-146354804.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-continuous-20261117-001
+
+- **Jjamppong (spicy seafood noodle soup)** — Vee Satayamas. [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Jjamppong_4.jpg). Local asset: `reviewed-commons-106471025.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
