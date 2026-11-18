@@ -6146,3 +6146,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Lontong Tuyuhan** — Candramawa99. [CC BY 4.0](https://creativecommons.org/licenses/by/4.0); [source](https://commons.wikimedia.org/wiki/File:Lontong_Tuyuhan_11.jpg). Local asset: `reviewed-commons-179813026.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Lontong Tuyuhan bentuk Segitiga** — Candramawa99. [CC BY 4.0](https://creativecommons.org/licenses/by/4.0); [source](https://commons.wikimedia.org/wiki/File:Lontong_Tuyuhan_bentuk_Segitiga.jpg). Local asset: `reviewed-commons-179813013.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.

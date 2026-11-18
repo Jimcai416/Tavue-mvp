@@ -84039,5 +84039,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 640,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-179813013",
+    "title": "File:Lontong Tuyuhan bentuk Segitiga.jpg",
+    "author": "Candramawa99",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lontong_Tuyuhan_bentuk_Segitiga.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Lontong_Tuyuhan_bentuk_Segitiga.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "79e50a7c942010d93bb842c9c880527757530a34",
+    "name": "Lontong Tuyuhan bentuk Segitiga",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-179813013.jpg",
+    "assetSha256": "1d0eeacd52b9c86daf5b13fa7650b6e462b349bf93537d5a932fea2b765be700",
+    "reviewedAt": "2026-11-18",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 640,
+    "requiresExactMenuName": true
   }
 ];
