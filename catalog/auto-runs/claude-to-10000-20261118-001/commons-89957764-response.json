@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAuUVsEBMoXhxK8mopx2",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 5,\n    \"composition\": 5,\n    \"appeal\": 5\n  },\n  \"visible_support\": [\n    \"Red meat slices with sage leaf garnish, clearly saltimbocca\",\n    \"Rice and mushroom side dish, visibly separate component\",\n    \"Natural colours, sharp detail, appetising presentation\",\n    \"Phone thumbnail preserves essential dish identity and proportions\"\n  ],\n  \"phone_observations\": [\n    \"Sage-garnished meat rolls clearly visible and readable\",\n    \"Yellow plate and plaid background recognisable\",\n    \"Dish identity unambiguous in thumbnail\",\n    \"Components and proportions accurately represented\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title references 'File:' and URL metadata only; no explicit recipe text or dish name declaration in provided description\",\n    \"Meat species in saltimbocca traditionally veal, but source contains no explicit statement of animal type\",\n    \"Only URL and filename hint at dish identity; description field lacks canonical dish phrase\"\n  ],\n  \"reason\": \"Photograph and thumbnail quality are excellent; composition, lighting and appeal all high. Identity visually matches saltimbocca alla romana (sage-garnished meat slices with rice/mushroom side). However, source description does not include an explicit canonical dish name or protein declaration—only a recipe link URL and filename. Without a source title or description field explicitly naming the dish and meat species, identity cannot be verified against the stated requirement that 'canonical_name must be a specific dish phrase copied exactly from source title or description'. Veal is traditional but not stated. Hold pending explicit source documentation of dish name and meat type.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1693,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 482,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

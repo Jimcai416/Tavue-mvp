@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAuT3hM7wfRRcUdAbN6n",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Pot lid visible with steam rising\",\n    \"Black cooking pot on fire\",\n    \"No finished dish visible in thumbnail\",\n    \"Active flames visible around pot base\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"No finished food dish is visible—only an actively cooking pot during preparation stage\",\n    \"Contents of pot are completely hidden beneath the lid\",\n    \"Title claims 'Sancocho de Gallina' (chicken sancocho) but the dish itself is not exposed or visible for verification\"\n  ],\n  \"reason\": \"Rejection: This is a preparation/cooking stage image, not a finished dish photograph. The source title declares 'Sancocho de Gallina Criolla a la Leña' but the actual contents remain completely obscured under a closed lid with active cooking in progress. The guidelines explicitly reject raw/preparation stages. No finished, exposed food is visible in either the full photograph or the phone thumbnail. While the cooking context and flames are authentically documented, the essential requirement—a finished, exposed, identifiable dish—is not met. The pot's contents cannot be verified visually.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1652,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 396,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

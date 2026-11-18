@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAuTdHw9hfnbUcDhLfGL",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 3,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Couscous grain bed with orange/golden colouring\",\n    \"Fresh vegetables visible: green pepper/basil leaf, red pepper, yellow squash or potato segments\",\n    \"White ceramic plate, restaurant plating style\",\n    \"Phone thumbnail clearly shows same dish composition\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail composition matches source photograph\",\n    \"Couscous grains sharply visible at 124x96 resolution\",\n    \"Vegetable garnish clearly distinguishable\",\n    \"Overall appeal and dish identity preserved in thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title 'File:Cuscus plate.jpg' with 'Typical cooked' description is incomplete and does not constitute a canonical dish name\",\n    \"No animal proteins explicitly named in source metadata\",\n    \"Exact dish variant, preparation method, and regional origin not specified in provided description\",\n    \"Cannot verify if couscous is the base or if this is a different grain-based dish without authoritative source text\"\n  ],\n  \"reason\": \"Photograph quality and composition are acceptable, and the phone thumbnail clearly represents the same finished dish. However, the source metadata is insufficient: 'File:Cuscus plate.jpg' with 'Typical cooked' is a filename fragment and vague descriptor, not a canonical dish name. No explicit protein declaration exists, and the dish variant, preparation style, and regional context cannot be established from the provided source title/description alone. A proper canonical name and clear identity confirmation are required before acceptance.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1509,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 490,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

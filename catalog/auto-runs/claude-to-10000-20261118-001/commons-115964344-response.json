@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAuTJS7fLD8gGKJeVRVr",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Stewed meat and vegetables visible in rich sauce\",\n    \"Potato chunks and green beans clearly present\",\n    \"Golden-brown meat pieces prominent\",\n    \"Adequate detail for thumbnail assessment\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title states 'Gibelotte de lapin' (rabbit gibelotte), but rabbit is not an allowed protein category\",\n    \"Visible meat pieces cannot be definitively identified as rabbit vs. other species from photograph alone\",\n    \"No explicit source text naming an allowed protein (chicken/beef/pork/duck/lamb/seafood)\"\n  ],\n  \"reason\": \"Rejection due to unallowed protein category. The source title 'Gibelotte de lapin' explicitly names rabbit as the meat, but rabbit is not among the allowed protein categories (chicken, beef, pork, duck, lamb, seafood). The visible meat in the photograph cannot be reliably distinguished from these allowed species by appearance alone, and no explicit source quote names an allowed protein. Per rules, unknown or unallowed meat species must be held/rejected. All quality checks pass, but identity check fails due to protein mismatch.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1726,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 407,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
