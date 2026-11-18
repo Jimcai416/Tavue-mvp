@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAXdhFXa84ENPGyo6T3r",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Spherical cooked meatballs with visible green herb speckling and browning\",\n    \"Golden-brown exterior with herbs clearly visible throughout\",\n    \"Finished, exposed dish with natural colour and appetising appearance\",\n    \"Prominent, sharply detailed balls on white paper backing\",\n    \"Phone thumbnail clearly shows the spherical form and green-herb composition\"\n  ],\n  \"phone_observations\": [\n    \"Centre-cover thumbnail maintains full visibility of multiple meatballs\",\n    \"Green herb speckling and browning pattern clearly readable\",\n    \"No clipping of essential food components\",\n    \"Spherical shape and colouration well-preserved in thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'Spinach meatballs' but source does not explicitly name the meat species (beef, pork, chicken, lamb, or other)\",\n    \"Spinach presence is visually supported (green speckling), but protein identity cannot be established from appearance alone\",\n    \"No explicit animal species declaration in source title or description\"\n  ],\n  \"reason\": \"Image quality, photograph authenticity, and phone thumbnail all pass. However, identity check fails: the source title 'Spinach meatballs' does not explicitly name the meat species used. Per instructions, ambiguous meat species (including unspecified 'meatballs') require a hold. The visible spinach and herb content is confirmed, but protein_evidence cannot be populated without an explicit source quote naming the animal. Hold pending clarification of meat type.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 2043,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 487,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

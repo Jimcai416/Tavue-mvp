@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAXdhJkTH9gxiHfLre2N",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"White starch component (ugali or similar maize porridge)\",\n    \"Red peppers/tomatoes in strips\",\n    \"Dark leafy greens (sukuma wiki or similar)\",\n    \"Brown stewed meat component\",\n    \"Fresh tomato pieces\",\n    \"White plate on outdoor surface\"\n  ],\n  \"phone_observations\": [\n    \"Plate clearly visible with all major components recognisable\",\n    \"White starch, red peppers, dark greens, and meat stew distinguishable\",\n    \"Adequate sharpness and colour rendering in thumbnail\",\n    \"Dish composition prominent and readable\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'beef stew' but source description is incomplete ('This is an image of food from' - truncated, lacks full context)\",\n    \"Meat species 'beef' stated in title but cannot be visually confirmed as beef from photograph alone\",\n    \"Description metadata is incomplete and unreliable\"\n  ],\n  \"reason\": \"Source title/description is incomplete and contradictory. The title states 'beef stew' but the description field is truncated ('This is an image of food from' with no completion). Although the photograph quality is acceptable and shows a recognisable finished dish with visible components, the protein claim ('beef') lacks explicit visual confirmation and the metadata is insufficient for reliable identity verification. Per protocol, ambiguous or unverifiable protein species with incomplete source documentation requires hold pending clarification.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1529,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 471,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
