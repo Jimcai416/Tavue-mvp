@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChB4Ym4StDf7SqgQvGKyi",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Whole grilled/fried fish, charred and golden, prominent on left side of plate\",\n    \"Couscous or millet base with colorful vegetable garnish (bell peppers, corn, capers)\",\n    \"Pickled/marinated red onions or beets in center\",\n    \"Diced vegetables (yellow, green, orange) arranged decoratively\",\n    \"Orange and cucumber ring garnish at bottom right\"\n  ],\n  \"phone_observations\": [\n    \"Fish clearly visible in thumbnail\",\n    \"Couscous/grain base visible\",\n    \"Red onions/beets visible\",\n    \"Vegetable garnishes readable\",\n    \"Overall composition matches full image\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title references 'yassa au poisson' (fish yassa) but provides only generic metadata ('Farm to Plate' theme, file name without dish confirmation)\",\n    \"Fish species not explicitly named in supplied title/description\",\n    \"Actual canonical dish name not extracted from source title or description—only file name 'Le yassa au poisson 06.jpg' is available, which is a filename, not an authoritative title\",\n    \"Cannot confirm exact regional variant or preparation name from provided metadata alone\"\n  ],\n  \"reason\": \"Image quality, sharpness, lighting, composition, and appeal are all strong (≥4). The photograph shows a finished, appetising grilled fish dish with distinctive accompaniments, clearly visible in both full image and phone thumbnail. However, identity cannot be confirmed: the supplied description lacks an explicit canonical title or dish name. The filename 'Le yassa au poisson' suggests Senegalese fish yassa, but filenames are not authoritative source titles. No exact case-sensitive quoted dish name is available from the description field. Fish species is not explicitly named in any supplied metadata. Per rules, source contradictions, missing explicit identity confirmation, and unnamed protein species require hold. A direct, authoritative source title matching the dish identity must be provided to proceed.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1912,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 595,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
