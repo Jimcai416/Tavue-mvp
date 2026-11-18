@@ -5055,3 +5055,10 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Gyoza estil japonés** — Francesc Fort. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Gyoza_-_Tora.jpg). Local asset: `reviewed-commons-127209994.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Jollof Rice** — DromoTetteh. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Jollof_(Jollof-_Rice).jpg). Local asset: `reviewed-commons-36699887.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Cioppino from Della Terra (Los Angeles), July 2022** — [Benoît Prieur](https://www.wikidata.org/wiki/Q42790984). [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Cioppino_from_Della_Terra_(Los_Angeles),_July_2022_(2).jpg). Local asset: `reviewed-commons-121118082.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Mentaimayo grilled chicken donburi set meal** — Sean Young (@assanges). [CC BY 4.0](https://creativecommons.org/licenses/by/4.0); [source](https://commons.wikimedia.org/wiki/File:Sukiya_Mentaimayo_grilled_chicken_donburi_set_meal_tw.jpg). Local asset: `reviewed-commons-82710312.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Greek chicken souvlaki merida** — Leeturtle. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Greek_chicken_souvlaki_merida.jpg). Local asset: `reviewed-commons-109533375.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
