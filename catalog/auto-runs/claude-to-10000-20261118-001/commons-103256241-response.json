@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAyUAFz9JeZfH8hM6dUE",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Brown broth-based soup in blue-rimmed bowl\",\n    \"Visible root vegetables and chunks in liquid\",\n    \"Plated presentation with accompaniment\",\n    \"Garnished side dish with parsley\"\n  ],\n  \"phone_observations\": [\n    \"Bowl of brown soup clearly visible and prominent\",\n    \"Side dish with diced vegetables readable\",\n    \"Overall composition legible in thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'goulash' but source description only states '@ Soppas, SV' with no dish name confirmation\",\n    \"Filename metadata (File:El urdido goulash...) is untrusted per instructions\",\n    \"No explicit protein identification in source description—beef/pork traditional in goulash but not visually certain or source-declared\",\n    \"Exact canonical dish name cannot be verified from trusted source title/description alone\"\n  ],\n  \"reason\": \"While the photograph is sharp, well-lit, and compositionally sound with appetizing presentation, the identity check fails. The only trusted source element is the description '@ Soppas, SV', which does not name the dish. The filename suggests 'goulash' but filenames are explicitly untrusted metadata. No source title or description provides an authoritative dish name. Without a verified, source-quoted canonical name and without explicit protein evidence in trusted text, the hold threshold is met per protocol.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1736,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 466,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

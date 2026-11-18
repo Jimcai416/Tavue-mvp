@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAyUuDtX6eTStKavyvdV",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Three distinct cooked meat dishes visible on red tablecloth\",\n    \"Centre plate contains granular-textured, herb-crusted patties consistent with kebab preparation\",\n    \"Upper left plate shows darker, denser fried/cooked meat pieces\",\n    \"Upper right plate displays pale green chutney and sliced purple onions (accompaniments)\",\n    \"Phone thumbnail clearly shows the centre kebab dish in focus\"\n  ],\n  \"phone_observations\": [\n    \"Centre kebab visible with spoon, granular herb coating prominent\",\n    \"Plate and dish identity clear in thumbnail\",\n    \"Adequate detail to confirm a finished, cooked meat preparation\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title lists 'Galawati Kebab (mutton)' and 'Shami Kebab (chicken)', but photograph shows three distinct dishes and unclear which corresponds to which plate\",\n    \"Mutton is ambiguous—may refer to sheep or goat; species cannot be visually confirmed\",\n    \"No visual evidence distinguishes mutton from chicken in the cooked form; reliance on metadata labelling contradicts instruction to treat metadata as untrusted\",\n    \"Central herb-crusted patties could be either declared dish; upper-left darker pieces could be the other, but assignment is not visually certain\",\n    \"Title format 'File:Tunday Kebabs.jpg' and dual-dish description suggest this is a composite/multi-dish image; identity of which dish is 'the' primary subject is unclear\"\n  ],\n  \"reason\": \"While the photograph shows finished, appetising, well-detailed cooked kebab dishes with strong visual appeal and sharp focus in both full and thumbnail formats, the source description lists two different proteins (mutton and chicken) and the image contains three distinct plated items. Visual identity cannot reliably match the specific description because (1) mutton is an ambiguous species term, (2) cooked kebab appearance does not confirm species visually, and (3) the metadata mapping of which plate corresponds to which named dish is not supported by the image itself. The filename and metadata are explicitly untrusted per instructions. Identity check fails due to ambiguous species declaration and unresolvable mapping of description to visible dishes.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1526,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 646,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

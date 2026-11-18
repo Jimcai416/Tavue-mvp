@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAyTuQGbBqCAhfs76rwG",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Shallow-fried, crispy brown exterior patties visible on decorative plate\",\n    \"Multiple flattened, fried portions consistent with patti (patty) form\",\n    \"Golden-brown spiced crust visible on all pieces\",\n    \"Plate presentation matches home/traditional cooking style\"\n  ],\n  \"phone_observations\": [\n    \"Fried patties clearly visible in phone thumbnail\",\n    \"Brown colour and texture legible at reduced resolution\",\n    \"Essential dish form preserved in thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Species ambiguity: 'minced mutton' in source is unspecific—mutton may denote sheep or goat in different regional traditions; exact animal species cannot be visually confirmed or disambiguated from the source description alone\",\n    \"No explicit animal species identifier present in source title or description that meets the requirement for an exact case-sensitive substring naming the specific animal\"\n  ],\n  \"reason\": \"Image quality, photograph authenticity, phone legibility, and composition are all acceptable. However, the protein evidence cannot be accepted because the source description uses 'mutton', which is ambiguous across regions (sheep vs. goat) and does not constitute an explicit, unambiguous species qualifier. Per protocol, ambiguous meat species designation requires hold. The canonical name cannot be constructed without resolving this ambiguity via an exact source quote naming the specific animal.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 2058,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 456,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
