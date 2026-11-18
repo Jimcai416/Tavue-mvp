@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAoDoY1GqXjQT7QJxcRP",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 3,\n    \"lighting\": 3,\n    \"composition\": 2,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows raw shredded tomato on a white plate, preparation stage only\",\n    \"No finished, cooked, or plated dish visible in phone thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title 'Weka nyanya' and metadata theme 'Rites and Rituals' do not match photograph content\",\n    \"Image shows raw ingredient preparation, not a finished dish\",\n    \"No identifiable finished food dish present\"\n  ],\n  \"reason\": \"Rejection: Image depicts raw ingredient preparation (shredded fresh tomato on a cutting board with whole tomatoes and onions in background), not a finished, cooked, or plated dish. The phone thumbnail confirms only raw tomato shreds are visible in centre-cover area. This is a preparation/ingredient stage, not suitable for Tavue food photography review. Source metadata describes 'Rites and Rituals' theme which contradicts food photography context. Essential Tavue criteria (finished dish, natural colour, appetising presentation, prominent in thumbnail) are not met.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1527,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 385,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
