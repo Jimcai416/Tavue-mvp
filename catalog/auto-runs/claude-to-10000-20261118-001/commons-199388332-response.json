@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAjFxt9xZSZbi1dTBv6Q",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Yellow/golden fried pieces in a metal bowl\",\n    \"Bowl-based presentation in bulk serving context\",\n    \"Adequate sharpness in thumbnail\",\n    \"Colour and texture legible\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source metadata is a Wikimedia Commons file description from WikiConference India 2026, not a dish-specific title or menu attribution\",\n    \"No explicit dish name provided in source title or description\",\n    \"Image shows preparation/bulk service context rather than a finished plated dish ready for consumption\",\n    \"Visible component is fried potato/vegetable pieces in oil, but no source explicitly names the dish variant\",\n    \"Cannot establish canonical identity from the generic conference event metadata alone\"\n  ],\n  \"reason\": \"Identity check fails. The source metadata describes a WikiConference event and mentions 'Food For Onam Sadhya - Grand Traditional Vegetarian Feast' as context, but this is an event caption, not a specific dish name or menu attribution. The photograph shows fried potato or vegetable pieces in a bulk serving bowl—a preparation/service stage rather than a finished, plated dish. No explicit canonical dish name is extractable from the source. Without a specific source title or menu description identifying the exact dish variant, identity cannot be confirmed. The image is a documentation photograph of conference catering, not a finished food photograph suitable for Tavue.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1805,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 459,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
