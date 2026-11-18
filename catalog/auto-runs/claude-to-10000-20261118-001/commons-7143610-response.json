@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAnFLHrChPBJmVPcpvx5",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Dark stone bowl (dolsot) with steaming broth\",\n    \"Orange-brown broth consistent with fermented soybean base\",\n    \"Visible green onion garnish\",\n    \"White steamed rice in accompanying bowl\",\n    \"Side dish (banchan) visible in left foreground\",\n    \"Restaurant table setting\",\n    \"Natural lighting with no severe glare\"\n  ],\n  \"phone_observations\": [\n    \"Stone bowl dish clearly visible and prominent in thumbnail\",\n    \"Broth colour and texture legible\",\n    \"Green garnish distinguishable\",\n    \"Overall composition readable and appetising\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title states 'Doenjang jjigae' (soybean paste stew) but source description omits explicit protein ingredient declaration\",\n    \"While the broth appearance is consistent with doenjang jjigae, no visible meat or seafood is clearly identifiable in either photograph\",\n    \"Korean stew traditions often include proteins (beef, seafood, etc.) but none can be visually confirmed or explicitly named in the source metadata\",\n    \"Without a source quote naming a specific protein, protein_evidence cannot be populated\"\n  ],\n  \"reason\": \"Image quality, sharpness, lighting, composition and phone legibility all meet acceptance thresholds. The dish is identifiable as a Korean fermented soybean stew (doenjang jjigae) based on the distinctive stone bowl, broth colour, and garnish. However, the source title/description does not explicitly name any protein ingredient. The instruction requires that proteins 'may include only chicken/beef/pork/duck/lamb/seafood, with an exact source quote explicitly naming each animal; never infer species from tradition, appearance or generic meat/sausage. Omit unspecified species.' No animal is explicitly named in the supplied metadata. While the dish likely contains protein (traditional recipes do), identity cannot be fully confirmed without an explicit source declaration of the protein component. Hold for clarification of protein content.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1782,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 600,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

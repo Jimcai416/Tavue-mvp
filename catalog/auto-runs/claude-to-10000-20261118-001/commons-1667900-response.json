@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAnEuaYrtswK5aaAtAT1",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": \"Doenjan jjigae\",\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Cooked ingredients in broth in dark ceramic vessel\",\n    \"Golden-brown liquid with visible red chilli flakes and green elements\",\n    \"Tofu cubes visible\",\n    \"Protein pieces submerged in stew\"\n  ],\n  \"phone_observations\": [\n    \"Finished dish clearly visible in thumbnail\",\n    \"Bowl/vessel shape recognisable\",\n    \"Colour and texture consistent with full image\",\n    \"Essential components visible at phone resolution\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title provides only generic dish name 'Doenjan jjigae' without specific protein identification\",\n    \"Visual inspection shows protein pieces but species cannot be reliably determined from appearance alone\",\n    \"No explicit protein name in source description to quote\",\n    \"Doenjan jjigae is traditionally made with soybean paste and various proteins; without source specification, protein identity cannot be confirmed\"\n  ],\n  \"reason\": \"Image quality, sharpness, lighting, composition and appeal all meet standards. Photograph and phone thumbnail both show a finished, exposed, appetising stew dish with identifiable components. However, identity check fails: the source provides only the generic dish category 'Doenjan jjigae' without naming a specific protein. Visible protein pieces cannot be reliably identified by appearance. No exact source quote explicitly names the protein species (chicken/beef/pork/duck/lamb/seafood). Per protocol, unspecified or ambiguous meat species requires hold. Canonical name cannot be confirmed without protein specification in source.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1739,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 500,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

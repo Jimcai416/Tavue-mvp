@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAnEaiUgcxyPu2X8aVVr",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Multiple small white bowls with various condiments and prepared components arranged around central plates\",\n    \"Central plated items including what appears to be shellfish and cooked preparations\",\n    \"Soup or broth in dark pot on left\",\n    \"Overall layout suggests meal components or mise en place rather than a finished dish\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title is generic 'Food.' with no dish identification\",\n    \"Image shows preparation layout, component bowls, and ingredient mise en place rather than a finished, plated dish\",\n    \"Multiple preparations visible but no single identifiable finished dish as primary subject\",\n    \"Shellfish species cannot be determined from image\",\n    \"No readable dish name or specific identity in source metadata\"\n  ],\n  \"reason\": \"Reject: source title 'Food.' provides no dish identity and cannot be matched to any canonical name. Image depicts ingredient mise en place, condiments, and preparation components rather than a finished, exposed, plated dish suitable for menu representation. Without source-declared identity and with composition showing preparation stage rather than final service, identity check fails.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1617,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 394,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
