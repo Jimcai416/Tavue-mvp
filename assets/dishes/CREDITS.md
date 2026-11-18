@@ -4068,3 +4068,11 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Panipuri** — Anuved. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Panipuri-made_in_home.jpg). Local asset: `reviewed-commons-103118686.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Pais lauk mas (pepes ikan mas)** — Gunawan Kartapranata. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Pepes_ikan_emas_(pais_lauk_mas)_Sunda.jpg). Local asset: `reviewed-commons-16653685.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Nasi Bakar Ayam** — Gunawan Kartapranata. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Nasi_Bakar_Ayam.JPG). Local asset: `reviewed-commons-19361139.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Nasi Campur / Combination Rice Plate** — [Alpha  from Melbourne, Australia](https://www.flickr.com/people/10559879@N00). [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:Nasi_Campur_-_Blok_M_Express_(3000521332).jpg). Local asset: `reviewed-commons-83152277.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Chicken Fried Rice With Sambal Terasi** — Ning Gusti. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Nasi_Goreng_Ayam_Sambal_Terasi.jpg). Local asset: `reviewed-commons-146021562.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Nasi ayam goreng** — Bahnfrend. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Nasi_ayam_goreng,_De_Caffeinator,_2023_(01).jpg). Local asset: `reviewed-commons-177659294.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
