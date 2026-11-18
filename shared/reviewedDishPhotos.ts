@@ -82566,5 +82566,51 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 723,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-164540408",
+    "title": "File:Pork Silog, May 2025.jpg",
+    "author": "Ralff Nestor Nacor",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pork_Silog,_May_2025.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/00/Pork_Silog%2C_May_2025.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "f33d5c46c531f7459e604d704e853680349e1037",
+    "name": "Pork Silog",
+    "aliases": [],
+    "proteins": [
+      "pork"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-164540408.jpg",
+    "assetSha256": "24d63a76c704b258da7a96310271e49417e0f63c2f5d4ce5d1640a5207f4380b",
+    "reviewedAt": "2026-11-18",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 723,
+    "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-191781656",
+    "title": "File:Lugaw and Kwek-Kwek.jpg",
+    "author": "Aerous",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lugaw_and_Kwek-Kwek.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/38/Lugaw_and_Kwek-Kwek.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "7a1541f9cd1b8a1d9018c039f103a43fb98b6c58",
+    "name": "Lugaw and Kwek-Kwek",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-191781656.jpg",
+    "assetSha256": "912d831ba56185ababc68603f4cf23b390eac7db1438fea661864dbdcefa5064",
+    "reviewedAt": "2026-11-18",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];
