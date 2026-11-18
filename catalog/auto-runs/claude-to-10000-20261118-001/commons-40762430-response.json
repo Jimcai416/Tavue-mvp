@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChASr7czVWNpMxSxwFZmh",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Plated meat dish over white rice on grey/tan plate\",\n    \"Brown braised meat pieces with visible sauce\",\n    \"Yellow/cream-coloured side dish in metal serving bowl with spherical components\",\n    \"Red sauce in separate bowl\",\n    \"Casual dining table setting with yellow plates and glassware\"\n  ],\n  \"phone_observations\": [\n    \"Yellow plates and table setting visible\",\n    \"Meat dish on rice clearly visible and prominent\",\n    \"Yellow/cream side dish visible in foreground\",\n    \"Overall composition and food presentation readable\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title references 'Kashmiri Warzwan' but description states 'combination of all types of chicken and mutton items like Rogan josh' – mutton species ambiguous (could mean sheep or goat; source does not specify exact animal)\",\n    \"Chicken presence claimed in description but not independently verifiable from visual inspection\",\n    \"Exact dish identity unclear: Warzwan vs. mixed combination description creates contradiction\",\n    \"Yellow side dish identity unconfirmed – could be korma, cream sauce preparation, or other component\"\n  ],\n  \"reason\": \"Source contains species ambiguity (mutton unspecified as sheep or goat) and internal contradiction between title (Kashmiri Warzwan – a specific lamb dish) and description (combination of chicken and mutton). Protein category cannot be supported without explicit, unambiguous species naming. Photograph quality and composition are acceptable, but canonical identity and protein evidence cannot be established reliably. Hold pending clarification of exact dish identity and meat species.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1764,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 508,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

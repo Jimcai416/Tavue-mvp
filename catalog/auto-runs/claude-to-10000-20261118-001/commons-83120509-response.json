@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChASqeX5KUTEW9jRYAXfy",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"White rice visible in foreground with brown sauce\",\n    \"Meat skewer on stick in lower right\",\n    \"Clear plastic container with brown cooked meat pieces (centre)\",\n    \"Noodle dish (pancit) visible upper right\",\n    \"Bowl with light broth/soup (upper left)\",\n    \"Red cup with beverage\",\n    \"Multiple protein dishes arranged on white serving tray\"\n  ],\n  \"phone_observations\": [\n    \"Red cup prominent left\",\n    \"Brown meat pieces in container visible centre\",\n    \"White rice mounds with brown sauce shown clearly\",\n    \"Meat skewer visible lower right\",\n    \"Composition readable and identifiable as multi-dish meal\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title lists 8 dishes but photograph shows mixed platter; unclear which specific dish to canonical name\",\n    \"Lechon (roasted pig) mentioned but no whole roasted suckling pig visible—only cooked meat pieces\",\n    \"Pork skewers mentioned; meat skewer visible but species (pork/beef) not visually certain from angle\",\n    \"Beef steak mentioned but cannot distinguish from other meat pieces in container\",\n    \"Chicken and Tripe in peanut sauce (Kare-kare) mentioned but specific location/component not individually identifiable in this multi-dish platter\",\n    \"Description lists multiple dishes but no source title specifies a single canonical dish name\",\n    \"Species of meat in central container ambiguous from photograph alone\"\n  ],\n  \"reason\": \"Source description lists 8 separate Filipino dishes (Lechon, Pork skewers, Rice, Chicken and Tripe in peanut sauce/Kare-kare, Pancit, Beef steak, Curry chicken, Lumpia) as a combined platter from a grocery store. No single canonical dish name is provided in the title or description. While the photograph is sharp, well-lit, appetising and shows multiple identifiable components, identity cannot be established to a specific dish: the source is a multi-dish combination platter rather than a named single preparation. Protein species cannot be reliably distinguished in the cooked meat components. To accept, a single canonical dish name matching the source would be required, or explicit visual isolation of each named dish with species confirmation. Hold pending clarification of which specific dish this platter represents, or acceptance of the full platter name from source.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1572,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 690,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

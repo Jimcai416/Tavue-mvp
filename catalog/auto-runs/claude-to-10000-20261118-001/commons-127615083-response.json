@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChASqb3UZRn26uTWs97uA",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Noodle soup in black-rimmed bowl\",\n    \"Thick yellowish broth\",\n    \"Cooked egg white visible\",\n    \"Green scallion garnish\",\n    \"Reddish-brown crumbled meat topping\",\n    \"Wavy/curly noodles throughout\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows bowl with thick broth and noodles\",\n    \"Egg white distinguishable\",\n    \"Red-brown meat garnish visible\",\n    \"Green onion visible\",\n    \"Composition matches full source\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source description states 'chicken or pork' but does not specify which animal is actually present in this dish\",\n    \"Red-brown garnish appears to be meat but exact species cannot be determined from visual inspection alone\",\n    \"No explicit source text naming a specific protein in the title or description\"\n  ],\n  \"reason\": \"Dish identity is 'Lomi' as stated in source title/description, and the photograph shows a finished, well-composed noodle soup with visible egg, broth, noodles, and meat garnish. All quality and photograph checks pass. However, the source description provides only 'chicken or pork' as a generic alternative—it does not explicitly name which animal is in this specific dish. Per instructions, ambiguous or unspecified meat species (including generic alternatives without explicit naming) require a hold. No exact protein-naming quote exists in the supplied source text that isolates a single animal for this instance. The canonical_name cannot be assigned without resolved protein identity.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1527,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 510,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
