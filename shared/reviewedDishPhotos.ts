@@ -50481,5 +50481,52 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-57466244",
+    "title": "File:Prawn and noodle soup.jpg",
+    "author": "stu_spivack",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Prawn_and_noodle_soup.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Prawn_and_noodle_soup.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "965147ceb4e4c3cf8afcfc0de09900c6b6ad8e93",
+    "name": "Prawn and noodle soup",
+    "aliases": [],
+    "proteins": [
+      "seafood"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-57466244.jpg",
+    "assetSha256": "1500c95cc1dbf5f0371c515b1c72de5a13c36366807f93c1cb3f42bce6487605",
+    "reviewedAt": "2026-11-18",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 638,
+    "requiresExactMenuName": true,
+    "authorUrl": "https://www.flickr.com/people/35034346243@N01"
+  },
+  {
+    "id": "commons-127022487",
+    "title": "File:Earl Grey Tea Greek Yogurt Cake.jpg",
+    "author": "Infrogmation of New Orleans",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Earl_Grey_Tea_Greek_Yogurt_Cake.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/db/Earl_Grey_Tea_Greek_Yogurt_Cake.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "42add9b0485eee9c3d29dba5e652b450d38ad849",
+    "name": "Earl Grey Tea Greek Yogurt Cake",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-127022487.jpg",
+    "assetSha256": "9296d65be172f58f2b4abf87132aa8d65cd61bdfec001b3dfc45d0de5a187ff0",
+    "reviewedAt": "2026-11-18",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];
