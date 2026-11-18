@@ -82406,5 +82406,51 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 584,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-182075859",
+    "title": "File:Lugaw, tokwa and lumpia.jpg",
+    "author": "Aerous",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lugaw,_tokwa_and_lumpia.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Lugaw%2C_tokwa_and_lumpia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "ecff166bf6195fb23c1ec831a53f93383c407354",
+    "name": "Lugaw, tokwa and lumpia",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-182075859.jpg",
+    "assetSha256": "2c8c7efc11722716e61c20709a40cb6158d5519964d1fbba01f319d60f1af652",
+    "reviewedAt": "2026-11-18",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-177350847",
+    "title": "File:Ham Silog Meal, Oct 2025.jpg",
+    "author": "Ralff Nestor Nacor",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ham_Silog_Meal,_Oct_2025.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/77/Ham_Silog_Meal%2C_Oct_2025.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "73ffe7d732a77e0fbe75cc8f45198fa1a1e8d8aa",
+    "name": "Ham Silog Meal",
+    "aliases": [],
+    "proteins": [
+      "pork"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-177350847.jpg",
+    "assetSha256": "b2f3b42c66b6eb63a0ae6ceac31e9fef3967be49d442c244085ee41cd01b3c80",
+    "reviewedAt": "2026-11-18",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 723,
+    "requiresExactMenuName": true
   }
 ];
