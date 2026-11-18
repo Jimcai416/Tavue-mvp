@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAtXnPsEgLMpFURejuHe",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 3,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows ingredient staging: raw tomatoes, lemon, fresh herbs, bottles of oil and bulgur\",\n    \"No finished dish visible in phone thumbnail\",\n    \"Raw ingredients and packaging dominate both images\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title references 'Tabouleh' but no prepared tabouleh dish is present in either image\",\n    \"Photographs show ingredient assembly and preparation stage, not a finished, exposed, cooked dish\"\n  ],\n  \"reason\": \"Rejection: This is a preparation/ingredient staging photograph, not a finished dish. Both full image and phone thumbnail show raw tomatoes, fresh parsley, bulgur package, walnut oil bottle, lemon, and spice jars—classic tabouleh ingredients in pre-assembly state. No cooked, finished, or plated dish is visible. The source title claims 'Tabouleh' but the actual content is raw ingredients and packaging. This violates the core requirement for 'a finished, exposed, likely photographic dish' and the explicit rejection criterion for 'raw/preparation stages'. The phone thumbnail confirms no appetising finished food is prominent.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1728,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 403,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
