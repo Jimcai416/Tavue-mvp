@@ -4520,3 +4520,8 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 
 - **Pastel de Bacalhau** — [T Chu](https://www.flickr.com/photos/20124252@N00). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Pastel_de_Bacalhau.jpg). Local asset: `reviewed-commons-4058802.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Fish Ceviche as served in La Punta - Callao (Peru)** — Jorge G. Mori. [Public domain](https://creativecommons.org/publicdomain/mark/1.0/); [source](https://commons.wikimedia.org/wiki/File:Ceviche_de_pescado_(La_Punta,_Callao).jpg). Local asset: `reviewed-commons-3749415.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Anticuchos on a skewer** — Ser Amantio di Nicolao. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Anticuchos_on_a_skewer,_Raices_Peruvian_Cuisine.jpg). Local asset: `reviewed-commons-149019520.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Cassoulet toulousain** — Guilhem06  19:56, 6 December 2006 (UTC). [Public domain](https://creativecommons.org/publicdomain/mark/1.0/); [source](https://commons.wikimedia.org/wiki/File:Cassoulet_toulousain.jpg). Local asset: `reviewed-commons-1437610.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
