@@ -50098,5 +50098,51 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-39682330",
+    "title": "File:Eggplant and green pepper şakşuka (shakshuka).jpg",
+    "author": "E4024",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Eggplant_and_green_pepper_%C5%9Fak%C5%9Fuka_(shakshuka).jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Eggplant_and_green_pepper_%C5%9Fak%C5%9Fuka_%28shakshuka%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "04201cc92f53afa24af61428355c4c53179c70db",
+    "name": "Eggplant and green pepper şakşuka",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-39682330.jpg",
+    "assetSha256": "db7e084e645bc599162b13835dec7e008a13e4df103cf6bc80c1f1b6b8550b05",
+    "reviewedAt": "2026-11-18",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-43750687",
+    "title": "File:Sarma and 2 sauces.jpg",
+    "author": "E4024",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sarma_and_2_sauces.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Sarma_and_2_sauces.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "5b8104e07a0c81eb6606c3d8d386bc41097a7ec9",
+    "name": "Etli yaprak sarma",
+    "aliases": [],
+    "proteins": [
+      "beef"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-43750687.jpg",
+    "assetSha256": "60e8af20c04d0167cdb6eb4ca28a4e0a91a64ee26c1beea3d43825a1f36fa30b",
+    "reviewedAt": "2026-11-18",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];
