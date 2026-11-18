@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011Ch9YGF2yHd5M47qac9buN",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Brown braised meat in gravy (centre-left)\",\n    \"Herb-flecked rice pilaf (right)\",\n    \"Stir-fried vegetables with green beans, carrots, cabbage (bottom)\",\n    \"Red beans in tomato sauce (top-left)\",\n    \"White plate, wood background\"\n  ],\n  \"phone_observations\": [\n    \"Plate composition clearly visible\",\n    \"Meat, rice and vegetables legible\",\n    \"All major components readable in thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title 'Sega karo rendhang' contradicts 'Rendang plate' filename: 'Sega karo' is Indonesian for beef, but only 'rendhang' (rendang) is explicitly named\",\n    \"Central meat species ambiguous: brown colour and braised appearance consistent with beef rendang, but no source statement explicitly identifies it as beef\",\n    \"Plate contains four distinct dish components (meat stew, rice, stir-fried vegetables, beans) that are assembled together but appear to be separate preparations, not a single unified dish\",\n    \"Description metadata 'Sega karo rendhang' may indicate beef rendang, but this is not explicit English confirmation in source title\",\n    \"Actual served composition as a mixed plate does not match a single canonical rendang dish\"\n  ],\n  \"reason\": \"Source identity contradiction and unspecified protein. Metadata title 'Sega karo rendhang' may indicate beef rendang, but 'Sega karo' is Indonesian language (beef) not an explicit English source quote. The filename 'Rendang plate.jpg' and description 'Sega karo rendhang' conflict without clear English identity statement. Protein species cannot be inferred from appearance or tradition; explicit source naming is required. The plate appears to be an assembled composed meal of four distinct components rather than a single identified dish. Hold pending clarification of English source title/description explicitly naming the dish identity and any protein species in unambiguous terms.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1915,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 605,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

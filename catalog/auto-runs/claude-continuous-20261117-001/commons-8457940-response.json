@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011Ch9YFmwJtCs9SKoeg7Mrt",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 2,\n    \"composition\": 3,\n    \"appeal\": 2\n  },\n  \"visible_support\": [\n    \"Spiced paste-based curry visible in both images\",\n    \"Orange-red oil/ghee layer on surface\",\n    \"Brown meat pieces embedded in paste\"\n  ],\n  \"phone_observations\": [\n    \"Subject occupies adequate frame area\",\n    \"Orange oil ring and paste texture visible\",\n    \"No clipping of essential components\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title states 'Half cooked Rendang' – acceptance requires a finished, exposed dish; 'half cooked' explicitly contradicts completion criteria\",\n    \"Meat species not specified in source description; appearance cannot determine chicken/beef/pork/lamb\",\n    \"No protein identification quote available from source\"\n  ],\n  \"reason\": \"Rejection: source description explicitly labels this 'Half cooked Rendang', indicating a preparation-stage image, not a finished dish ready for service. The directive requires finished, exposed dishes. Additionally, meat species is not named in the source, and species cannot be inferred from appearance alone. Sharpness (2/5) and lighting (2/5) fall below the minimum threshold of 4. These defects compound the preparation-stage disqualification.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1602,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 409,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
