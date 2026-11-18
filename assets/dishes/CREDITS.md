@@ -5540,3 +5540,8 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 - **Kedjenou de poulet** — Cyriac Gbogou. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Kedjenou_de_poulet_dans_une_marmite.jpg). Local asset: `reviewed-commons-37068616.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Doubles** — GeoTrinity (Wikimedia Commons). [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Doubles-GT.jpg). Local asset: `reviewed-commons-84034487.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Dal Roti** — Gaurav Dhwaj Khadka. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Dal_Roti.jpg). Local asset: `reviewed-commons-126182897.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Ghee Mysore Pak** — Vaidehi Pujary. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Ghee_Mysore_Pak.jpg). Local asset: `reviewed-commons-126144005.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Ghoruwo Roti** — Gaurav Dhwaj Khadka. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Ghoruwo_Roti_2.jpg). Local asset: `reviewed-commons-104850213.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
