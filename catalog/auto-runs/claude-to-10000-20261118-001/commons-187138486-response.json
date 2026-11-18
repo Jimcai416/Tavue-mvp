@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAheu1eQJJ3buFq2RxKA",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Plate contains gallo pinto (black beans and rice mixture)\",\n    \"Scrambled eggs, golden-yellow, cooked\",\n    \"Avocado slices, green\",\n    \"White cheese, identified as Turrialba\",\n    \"White cream sauce, identified as natilla\",\n    \"Toasted bread with spreads\",\n    \"Banana slices visible\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows all major components: gallo pinto, eggs, avocado, cheese, natilla, banana\",\n    \"Colours natural and appetising\",\n    \"Plate composition legible at small scale\",\n    \"No clipping of essential food items\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title lists 'sausage' as component, but sausage is not an allowed protein category and the specific animal species cannot be determined from appearance or generic term\",\n    \"Source description contains unspecified 'sausage' which cannot be categorised without explicit species identification (chicken/beef/pork/duck/lamb/seafood)\"\n  ],\n  \"reason\": \"Image quality, composition and phone thumbnail are excellent. However, the source description lists 'sausage' as a component, which is an unspecified protein category. Per rules, unspecified species (including generic sausage without explicit animal identification) must be held. The source metadata lists 'sausage' but does not specify whether it is pork, beef, chicken, or another animal. Without explicit species naming in the source, protein categorisation cannot proceed. All other components (gallo pinto, eggs, avocado, Turrialba cheese, natilla, banana, toast) are clearly visible and identifiable, but the protein ambiguity prevents acceptance.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1753,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 544,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
