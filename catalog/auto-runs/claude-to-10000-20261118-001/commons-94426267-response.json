@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAxgijpcDFEA5H4Z6AsH",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Rice-based dish with golden-brown colour\",\n    \"Visible vegetables including capers/olives and red pepper pieces\",\n    \"Presented on a ceramic plate\",\n    \"Natural daylight, well-exposed\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail shows rice dish clearly\",\n    \"Golden-brown rice visible and prominent\",\n    \"Vegetable inclusions readable at thumbnail scale\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title says 'Veg Biryani' but source description is only 'Veg Biryani' without regional variant qualification\",\n    \"No animal protein visible or named in source metadata\",\n    \"Biryani is typically a meat-based dish; vegetable variant is non-standard and source provides no explicit canonical name beyond generic 'Veg Biryani'\"\n  ],\n  \"reason\": \"Source title and description do not form a specific, meaningful canonical name. The metadata provides only 'Veg Biryani' as description with 'File:Vegetable Biryani IMG 001.jpg' as filename; neither constitutes a proper source-quoted dish identity. Biryani is characteristically a meat or protein dish, and the vegetable variant lacks regional specification or detail sufficient to establish identity. The photograph itself is well-executed (sharp, well-lit, appetising), but identity check fails due to insufficient source documentation. Hold pending explicit source title/description that names the dish variant precisely.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1624,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 475,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
