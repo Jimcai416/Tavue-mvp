@@ -2838,3 +2838,10 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-continuous-20261117-001
 
 - **Nasi Lemak** — [Charles Haynes](https://www.flickr.com/people/87232391@N00). [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:Nasi_Lemak_(8654151798).jpg). Local asset: `reviewed-commons-101322674.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-continuous-20261117-001
+
+- **Nasi Lemak bersama sambal bawang** — OreosDippedwithMilk. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Nasi_Lemak_bersama_sambal_bawang.jpg). Local asset: `reviewed-commons-106169527.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Nasi Lemak with Beef Curry** — [Alpha  from Melbourne, Australia](https://www.flickr.com/people/10559879@N00). [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:Nasi_Lemak_with_Beef_Curry_-_Laksa_King_AUD8.80_(4031875390).jpg). Local asset: `reviewed-commons-83152039.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Chicken satay** — Richx10. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Satay_Ayam.jpg). Local asset: `reviewed-commons-106232861.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Indonesian kue lapis legit** — Jack at Wikipedia. [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:Indonesia_kue_lapis_legit,_Singapore.jpg). Local asset: `reviewed-commons-126891474.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
