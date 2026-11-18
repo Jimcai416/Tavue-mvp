@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChATD2iu3hNPy76ZAejEa",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Brown braised meat pieces in rich gravy\",\n    \"Golden-brown broth with glossy surface\",\n    \"White plate with red background\",\n    \"Multiple meat portions visible\",\n    \"Natural photographic exposure\"\n  ],\n  \"phone_observations\": [\n    \"Meat and gravy clearly visible in thumbnail\",\n    \"Brown tones readable and appetising\",\n    \"Dish dominates centre-cover framing\",\n    \"Essential components not clipped\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title lists two alternatives: 'Mutton Gravy or Mutton Rogan Josh' — these are distinct dishes with different preparation methods and spice profiles. No source clarification confirms which one this is.\",\n    \"Mutton species ambiguity: source says 'mutton' which may refer to sheep or goat depending on regional convention. No explicit animal species confirmation.\",\n    \"Rogan Josh is a specific Kashmiri preparation with tomato and yoghurt-based sauce; this gravy appears darker and more reduced, inconsistent with classic Rogan Josh appearance.\"\n  ],\n  \"reason\": \"Source title presents two incompatible dish alternatives without clarification ('Mutton Gravy or Mutton Rogan Josh'). The ambiguous meat species ('mutton' may mean sheep or goat) and unresolved dish identity conflict with the requirement that identity must agree with exact source title/description. Visual appearance (darker, more reduced gravy) contradicts standard Rogan Josh characteristics. Per rules: source contradictions and ambiguous meat species => hold.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1627,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 497,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
