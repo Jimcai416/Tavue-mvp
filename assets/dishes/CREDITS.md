@@ -6188,3 +6188,9 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 
 - **Puto (Filipino rice cake) with cheese** — Obsidian Soul. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Puto_(Filipino_rice_cake)_with_cheese.jpg). Local asset: `reviewed-commons-76567359.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Uzbek national dish "somsa"** — Xkmvch. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Somsa_1.jpg). Local asset: `reviewed-commons-149390732.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Puto Balanghoy with Bukayo Filling** — Glenda226. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Puto_Balanghoy_with_Bukayo_Filling.jpg). Local asset: `reviewed-commons-141577758.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Somsa** — Amhogas. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Somsa_baker_in_Khiva_of_Uzbekistan.jpg). Local asset: `reviewed-commons-187547881.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Puto topped with cheese** — ShmilyDigital. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Puto_Cheese_1.jpg). Local asset: `reviewed-commons-156194008.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
