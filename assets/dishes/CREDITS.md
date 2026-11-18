@@ -6078,3 +6078,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 
 - **Jerk Chicken with rice and peas, served with coleslaw** — simon thomas. [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:Jerk_Chicken,_Rice.jpg). Local asset: `reviewed-commons-58242774.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Jerk Chicken Sandwich** — TravelPhotosNL. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Jerk_Chicken_Sandwich_from_West_to_West_Kitchen_at_the_Fire_Food_Festival_2024_in_Abu_Dhabi,_UAE.jpg). Local asset: `reviewed-commons-152028165.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **tinola** — FoxLad  at  English Wikipedia. [CC BY 3.0](https://creativecommons.org/licenses/by/3.0); [source](https://commons.wikimedia.org/wiki/File:Tinolalunch.jpg). Local asset: `reviewed-commons-17010930.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
