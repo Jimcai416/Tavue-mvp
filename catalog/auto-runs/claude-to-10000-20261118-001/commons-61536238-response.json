@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAYL76M1MGj3GhhuwcdC",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Plated dish on white ceramic plate\",\n    \"Pita/wrap base with visible greens and microsprouts\",\n    \"White creamy sauce drizzled across\",\n    \"Red sauce/condiment visible\",\n    \"Toasted/browned protein component at base\",\n    \"Natural daylight, well-exposed\"\n  ],\n  \"phone_observations\": [\n    \"Dish clearly visible and prominent in thumbnail\",\n    \"Microsprouts and toppings readable\",\n    \"Plate edges visible, composition intact\",\n    \"No clipping of essential components\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title describes 'vegán gyros tál (hús helyett szeitán)' — vegan gyros with seitan instead of meat. Seitan is a wheat gluten product, not an allowed protein category (chicken/beef/pork/duck/lamb/seafood). The dish explicitly replaces meat with a plant-based substitute.\",\n    \"No animal protein is named in the source description; seitan is explicitly identified as the protein component and it is not in the allowed category list.\"\n  ],\n  \"reason\": \"The source explicitly identifies this as a vegan gyros with seitan (wheat gluten), not an animal protein dish. Seitan is not an allowed protein category (chicken, beef, pork, duck, lamb, or seafood). Although the photograph is sharp, well-lit, and appetising with good composition, the dish does not qualify under the protein acceptance criteria because no allowed animal protein can be supported from the source description.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1635,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 494,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
