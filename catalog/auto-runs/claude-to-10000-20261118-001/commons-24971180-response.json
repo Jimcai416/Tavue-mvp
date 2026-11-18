@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBFZJAkNa84DNaty4vC5",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Crusted protein fillet visible in centre\",\n    \"Yellow/golden broth or sauce surrounding base\",\n    \"Red diced vegetables (tomato) on top\",\n    \"Green herb garnish (pesto or herb paste)\",\n    \"Crustacean and vegetable components in ragout\"\n  ],\n  \"phone_observations\": [\n    \"Crusted fillet clearly visible at phone thumbnail centre\",\n    \"Yellow broth/sauce prominent in phone view\",\n    \"Red garnish and green herb topping readable\",\n    \"Overall composition maintains visual interest at reduced size\"\n  ],\n  \"protein_evidence\": {\n    \"seafood\": \"crab and shrimp\"\n  },\n  \"uncertainties\": [\n    \"Source title states 'Salmon crusted' but visible protein appears to be a brown/caramelised fillet that could be salmon, but crusting ingredient is described as 'something' in the source—not explicitly named\",\n    \"The exact crust composition is visually ambiguous (could be breadcrumb, nut, or seed-based, but source does not specify)\",\n    \"Source title specifies crab and shrimp but does not explicitly name salmon as a protein with a direct quote confirming the visible fillet is salmon\"\n  ],\n  \"reason\": \"Rejection due to identity check failure. While the photograph shows a finished, well-composed dish with crusted fillet, ragout, garnish, and appealing presentation (all quality and photograph checks pass), the source description contains an ambiguity regarding the main protein. The title states 'Saumon en croûte' (Salmon crusted) but the description supplied says 'Salmon crusted with something on a ragout of crab and shrimp'—the word 'something' indicates the crust ingredient is unspecified by the source. More critically, crab and shrimp are named in the ragout, but the title's French phrase 'Saumon' suggests salmon as the crusted component; however, this requires inference rather than explicit confirmation. Per protocol, when source descriptions contain uncertainty markers like 'something' and when the main protein identity relies on translation of metadata rather than explicit English confirmation, the identity check cannot be marked true. The ambiguity about crust composition and unconfirmed main protein identity warrant a hold or rejection; rejection is applied because the core identity of the dish hinges on the unnamed crust ('crusted with something') which blocks acceptance.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1752,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 687,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
