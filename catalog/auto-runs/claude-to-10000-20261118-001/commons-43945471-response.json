@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAtk1TGSCD9dVPspRPL3",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Cooked sausage roll visible on white plate\",\n    \"Roasted potato cubes with herbs\",\n    \"Fork and knife present\",\n    \"Outdoor dining setting with beverage\",\n    \"Pink/magenta plate coloration\"\n  ],\n  \"phone_observations\": [\n    \"Sausage, potatoes and utensils clearly visible\",\n    \"Pink plate and herbs readable\",\n    \"Dish components prominent in thumbnail\",\n    \"Natural lighting preserved\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Andouillette is a sausage of unspecified internal composition (tripe-based organ meat, not explicitly named animal). Source title names 'Andouillette' but not the animal species it contains.\",\n    \"Protein category rules require exact source quote naming the animal explicitly. 'Andouillette' is a prepared sausage product, not a named meat species (chicken/beef/pork/duck/lamb/seafood).\",\n    \"Cannot infer whether this sausage contains pork, beef, or other species from appearance or tradition alone.\"\n  ],\n  \"reason\": \"Image quality, composition and phone thumbnail are strong (all checks true except identity). However, the source title identifies the dish as 'Andouillette'—a sausage of ambiguous species composition. The source provides no explicit animal name. Protein rules prohibit inferring species from tradition or appearance and forbid using 'sausage' as a protein key. The title does not contain an exact quote naming chicken, beef, pork, duck, lamb, or seafood. This unspecified meat species triggers a mandatory hold.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 2084,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 514,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

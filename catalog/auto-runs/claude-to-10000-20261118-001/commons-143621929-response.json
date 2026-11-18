@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAtjE4XTzU2vABTQ7hxQ",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Finished, plated dish with toasted baguette slices, mixed green salad, and pale spread\",\n    \"Natural colours, sharp detail in phone thumbnail\",\n    \"Prominent subject on white plate with wooden table background\",\n    \"Appetising presentation suitable for restaurant starter\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows baguette slices, greens, and pale spread\",\n    \"Components readable and identifiable at small scale\",\n    \"No essential elements clipped or obscured\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title contains 'File:' prefix and filename extension (Rillettes Gans Neuenstein.jpg) — metadata must be stripped to extract canonical name\",\n    \"Species identification: 'Gans' (German for goose) is not an allowed protein category (only chicken/beef/pork/duck/lamb/seafood permitted)\",\n    \"Rillettes is a traditional pâté-like spread; goose is not in the allowed proteins list\"\n  ],\n  \"reason\": \"Goose is not an allowed protein category. The source explicitly names 'Gans' (goose), which falls outside the restricted set of chicken/beef/pork/duck/lamb/seafood. Per protocol, unknown or unallowed meat species trigger a hold/reject. The photograph quality and presentation are acceptable, but the protein species disqualifies this dish from the Tavue food photography collection.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1760,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 473,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

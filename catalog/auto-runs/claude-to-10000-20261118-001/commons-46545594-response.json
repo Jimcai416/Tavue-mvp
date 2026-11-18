@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAtjE8jyBTVK6zgeibnf",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 3,\n    \"lighting\": 3,\n    \"composition\": 2,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Two pale cylindrical objects with minimal surface detail visible\",\n    \"Insufficient visual definition to confirm finished food state or appetising presentation\",\n    \"Unclear surface texture and composition at thumbnail resolution\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title references 'Andouillette' but metadata indicates this is a prepared charcuterie/offal product (traditional French pork intestine sausage), not a finished plated dish\",\n    \"Image shows raw or uncooked wrapped product, not an exposed finished cooked dish\",\n    \"No visible garnish, plating, or finished presentation typical of restaurant/prepared food photography\",\n    \"Subject appears to be a whole product photographed on a cutting board, not a dish ready for consumption\",\n    \"Pale colour and lack of browning suggest uncooked or cured state rather than finished exposed dish\"\n  ],\n  \"reason\": \"Rejection: This is a product photograph of raw or uncooked charcuterie (Andouillette), not a finished, exposed, cooked dish. The image shows wrapped sausages in preparation or raw state on a cutting board—not an appetising, finished food presentation suitable for a food photograph review. The composition lacks any plating, garnish, or serving context. Quality scores do not meet minimum threshold (all ≥4). Andouillette as traditionally made involves offal, which cannot be supported by the protein_evidence rules (only chicken/beef/pork/duck/lamb/seafood allowed, and 'offal/tripe' does not qualify). This fails the core requirement of a 'finished, exposed, likely photographic dish' and appears to be a raw ingredient or product shot.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1611,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 526,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
