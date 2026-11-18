@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBErgNLCTauTQgkUtkFP",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows cooked sausage/meat product with speckled seasoning\",\n    \"Brown, glistening surface consistent with full image\",\n    \"Essential components visible but identity unconfirmed\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title contains 'Boerewors' but metadata is incomplete and untrusted (filename format, truncated description)\",\n    \"Species of meat in sausage is not explicitly named in provided metadata\",\n    \"Cannot verify 'Kameelhout' (camel wood/spice) is an actual ingredient or just a filename element\",\n    \"Source description is truncated: 'This is an image of food from' – incomplete sentence prevents confirmation of dish identity\"\n  ],\n  \"reason\": \"Reject: Identity check fails. The filename suggests 'Boerewors' (South African sausage), but the provided metadata is insufficient and untrusted. The description is truncated mid-sentence ('This is an image of food from'), preventing confirmation of the actual dish. No explicit protein species declaration is present in the metadata. While the photograph quality and phone thumbnail are acceptable, the identity cannot be verified against a complete, authoritative source description.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1730,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 416,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

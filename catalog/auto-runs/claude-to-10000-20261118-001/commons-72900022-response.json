@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBErVfQPAK6sDLce1BVF",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Grilled meat on grill grate over white hot coals\",\n    \"Left side shows sausages with visible casing segments\",\n    \"Right side shows charred, browned chops or ribs\",\n    \"Natural outdoor lighting, food prominently featured\",\n    \"Cooked/finished state, appetising caramelization visible\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows grilled meat with grill marks\",\n    \"Sausages visible on left, chops/ribs on right\",\n    \"Adequate sharpness and contrast in phone view\",\n    \"Meat components readable and identifiable\"\n  ],\n  \"protein_evidence\": {\n    \"lamb\": \"Grilled rack of lamb\"\n  },\n  \"uncertainties\": [\n    \"Boerewors species ambiguous—traditional South African sausage typically made from beef/pork but no explicit animal naming in source\",\n    \"Cannot confirm if subject is 'rack of lamb chops' (as listed) or if right side shows different cut—visual distinction unclear due to grill angle\",\n    \"Source title says 'rack of lamb and boerewors' but description adds 'chops'—unclear if chops are part of the rack or separate item\"\n  ],\n  \"reason\": \"Lamb is explicitly named and visually supported. However, boerewors is a sausage of unspecified species in the source—no explicit animal declaration present. Source also contains ambiguity: title lists 'rack of lamb, chops and boerewors' but does not clarify whether chops are part of the rack or separate. Per protocol, unspecified sausage species and source contradictions require hold. Quality, photograph and phone checks pass; identity check fails due to protein ambiguity.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1808,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 544,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
