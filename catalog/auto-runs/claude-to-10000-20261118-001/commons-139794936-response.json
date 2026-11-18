@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAYHCtXXBeifHKEmt9FB",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"White mound of rice in centre of bowl\",\n    \"Rich brown gravy/sauce surrounding rice\",\n    \"White ceramic serving bowl\",\n    \"Professional plating typical of restaurant service\"\n  ],\n  \"phone_observations\": [\n    \"Rice mound clearly visible in thumbnail\",\n    \"Brown sauce visible around rice\",\n    \"Dish identity readable in phone view\",\n    \"Essential components not clipped\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title describes 'Red beans and rice' but no red beans are visibly present in either photograph—only white rice and brown sauce/gravy\",\n    \"The brown sauce appears to be a dark gravy rather than the characteristic red-bean broth of traditional red beans and rice\",\n    \"No visible red beans, kidney beans, or legumes in the dish despite source title\",\n    \"Visual composition matches a different dish (possibly gumbo or dark gravy-based rice dish) rather than red beans and rice\"\n  ],\n  \"reason\": \"Identity rejection: Source title claims 'Red beans and rice' but the visible dish shows white rice with brown gravy/sauce and no discernible red beans or legumes. The photographic evidence contradicts the source description—this appears to be a different dish altogether (possibly gumbo, dark gravy rice, or similar). The essential identifying component (red beans) is absent from both full image and thumbnail. Source metadata is unreliable for identity verification.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1627,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 465,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

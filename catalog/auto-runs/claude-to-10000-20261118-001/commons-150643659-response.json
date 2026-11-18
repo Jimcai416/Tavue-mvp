@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAYGgFHkyAhwQPzh3y11",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Grilled chicken gyros visible on orange plate\",\n    \"Golden fried spheres consistent with kaserokroketes (cheese croquettes)\",\n    \"Crispy chips/fries prominently displayed\",\n    \"Shredded lettuce and onion visible\",\n    \"White sauce (garlic mayo) in small container\",\n    \"Pitta bread wraps visible in background and in separate pan\",\n    \"Natural lighting, well-exposed, appetizing presentation\"\n  ],\n  \"phone_observations\": [\n    \"Main plated dish clearly visible at centre-cover\",\n    \"Chicken gyros, croquettes, chips and sauces readable\",\n    \"Pitta bread visible in lower portion\",\n    \"Composition preserves essential components\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title lists 'pancetta' as a chosen protein but pancetta (cured pork) is not a permissible protein category key; it is an ingredient qualifier that cannot be verified as a standalone dish component in the visual\",\n    \"Halloumi is listed as 'additional' but is a cheese, not a protein category\",\n    \"Source description states '3 portions of Protein' but only chicken gyros is unambiguously identifiable as a named protein dish; pancetta and kaserokroketes cannot be mapped to allowed category keys without explicit species confirmation beyond the image\"\n  ],\n  \"reason\": \"While the photograph is sharp, well-lit, appetising and the phone thumbnail preserves all essential components clearly, the identity check fails because the source title/description cannot be canonicalised to a single dish name. The menu describes a customisable 'main box' where the user selected multiple protein options including pancetta (not an allowed category) and kaserokroketes (a cheese croquette, not a protein category). The title lists four items (chicken gyros, pancetta, kaserokroketes, halloumi) without a clear primary dish identity. Pancetta cannot be entered as a protein_evidence key (only chicken/beef/pork/duck/lamb/seafood are allowed, and pancetta is a cured pork product qualifier, not a primary species declaration). The description does not provide an exact canonical dish phrase that encompasses all visible components as a single finished dish. This is a plated selection from a customisable menu rather than a named, specific dish. Hold criteria (source contradictions, ambiguous identity, unspecified species) are met.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1823,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 691,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

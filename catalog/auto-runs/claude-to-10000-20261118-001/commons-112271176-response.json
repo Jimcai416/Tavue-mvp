@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAYHWZ9agfdaZsTkJMV4",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Brown/dark sauce visible on plate\",\n    \"White rice mound prominently placed\",\n    \"Parsley garnish on rice\",\n    \"Plated presentation in restaurant setting\",\n    \"Fork and dining table visible\"\n  ],\n  \"phone_observations\": [\n    \"Central dish clearly visible in thumbnail\",\n    \"Brown sauce and white rice mound distinguish dish\",\n    \"Restaurant plating evident\",\n    \"No clipping of essential components\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title describes 'Red beans and rice' but no red beans are visibly present in either full photograph or thumbnail\",\n    \"Visible sauce appears brown, not the characteristic red-brown of red beans\",\n    \"No identifiable bean components in the plated dish\",\n    \"The dish shown appears to be a different preparation than the source title declares\",\n    \"No protein animal explicitly named in source metadata to extract\"\n  ],\n  \"reason\": \"Identity check fails. The source title explicitly claims 'Red beans and rice' but the photograph shows a brown sauce (possibly gravy or dark sauce) with white rice—no red beans are visible in either the full image or phone thumbnail. This is a material contradiction between source declaration and visible form. The dish does not match its stated identity, triggering a hold per protocol requiring exact agreement between canonical identity and visible form.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1631,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 443,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
