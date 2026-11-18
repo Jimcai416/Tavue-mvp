@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChASh2rFAedahA9SJJ3oK",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Finished, cooked ramen dish in black bowls\",\n    \"Clearly visible fried egg with black sesame seeds\",\n    \"Ham slices prominently displayed\",\n    \"Broth-based noodle soup\",\n    \"Broccoli florets visible\",\n    \"Mushrooms present\",\n    \"Chopped onions/spring onions\",\n    \"Natural restaurant lighting and plating\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail shows fried egg distinctly centred\",\n    \"Ham slices clearly visible in phone view\",\n    \"Bowl composition readable at small scale\",\n    \"No essential food clipped in thumbnail\"\n  ],\n  \"protein_evidence\": {\n    \"ham\": \"Ham\"\n  },\n  \"uncertainties\": [\n    \"Source title references 'BETTERDAY Sausage' as an option, but sausage species is unspecified and cannot be identified visually or from source—sausage is an excluded category key per instructions\",\n    \"Source description lists 'Sausage' as component but no visible sausage can be definitively identified in either photograph\",\n    \"Source lists both 'Calflower' (likely Cauliflower typo) and 'Brocolli' but only broccoli is visually confirmed; cauliflower presence is ambiguous\",\n    \"Ham is visually present and explicitly named in source, but sausage presence/species cannot be confirmed from either image or source wording\",\n    \"Dish identity as 'BETTERDAY Ramen' depends on restaurant/menu context rather than intrinsic visual characteristics\"\n  ],\n  \"reason\": \"Photograph and phone thumbnail are sharp, well-lit, naturally coloured, and appetising with prominent finished dish and readable components (fried egg, ham, broccoli, broth, noodles). However, identity check fails because the source description lists 'BETTERDAY Sausage' as a component option, but sausage species is unspecified and unidentifiable from either photograph. Per instructions, sausage cannot be used as a protein_evidence key and unknown meat species triggers a hold. The source wording 'Sausage' alone does not provide an explicit animal species. Additionally, the canonical_name would require the full descriptor 'Special BETTERDAY Ramen' but the dish identity is vendor-specific branding rather than a traditional named preparation. Hold pending clarification of sausage species or confirmation it was not included in this serving.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1814,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 706,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChASgeHSF2vWkVAAtgT7N",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 5,\n    \"composition\": 5,\n    \"appeal\": 5\n  },\n  \"visible_support\": [\n    \"Grilled meat and scallion skewers clearly visible on white plate\",\n    \"Green scallions alternating with browned meat cubes on two skewers\",\n    \"Natural charring and browning indicating grilled preparation\",\n    \"Dipping sauce in small white bowl\",\n    \"Accompanying sides: cooked greens, noodles, soup with green onion garnish\",\n    \"Chopsticks and wooden surface present\",\n    \"Phone thumbnail shows all key components legibly\"\n  ],\n  \"phone_observations\": [\n    \"Skewered protein and vegetables clearly identifiable\",\n    \"Dipping sauce visible in upper centre\",\n    \"Supporting dishes (greens, noodles, broth) discernible\",\n    \"Adequate detail and contrast for food recognition\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title states 'Grilled Chicken and Scallion Skewers' and 'Yakitori Negima has long been a popular dish among the Japanese', but photograph shows meat cubes that appear significantly larger and coarser than traditional yakitori negima portions\",\n    \"Traditional yakitori negima features small chicken pieces (typically 2–3 cm) alternating with thin white scallion rounds in a compact arrangement; visible skewers show substantially larger meat chunks (approximately 3–4 cm or more) with lengthier scallion segments\",\n    \"Scaling and proportions do not align with canonical yakitori negima preparation\",\n    \"Meat species cannot be confirmed visually from browning and texture alone; source label 'chicken' is present but visible form does not definitively support species identification\"\n  ],\n  \"reason\": \"Although photograph quality, lighting, sharpness, composition and appeal all exceed thresholds, and phone thumbnail is adequate, the visible dish proportions and structure materially contradict the stated yakitori negima identity. The meat pieces and scallion lengths appear substantially larger than traditional yakitori negima specifications. Additionally, chicken as the protein cannot be confirmed visually from the cooked appearance alone. Source title declares 'Chicken' but identity check fails because visible form contradicts the specific named variant and meat species cannot be independently verified from the photograph. Per protocol, source contradictions and doubtful identity require hold or reject; the degree of structural mismatch with the named dish warrants rejection rather than hold.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1830,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 674,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

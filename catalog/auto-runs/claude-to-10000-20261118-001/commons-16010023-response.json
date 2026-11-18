@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChASgGq6wy46TwiRhcgVh",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows active preparation stage with hands kneading/mixing dough on the griddle\",\n    \"Food is mid-cook, not a finished, exposed dish\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title is vague ('or something like that') and does not constitute reliable evidence of the specific dish identity\",\n    \"Description mentions 'served with toasted bread' but photograph shows dough being prepared, not a finished plated dish\",\n    \"Active food preparation stage visible—not a finished, exposed, ready-to-eat dish\"\n  ],\n  \"reason\": \"Rejection: The photograph captures a food preparation stage rather than a finished, exposed dish. Hands are actively working the dough on the griddle; this is a mid-cooking moment, not a completed plate. The source title is unreliable ('or something like that'), and the description does not match the visual state shown. Per intake rules, preparation stages must be rejected. The thumbnail confirms this is work-in-progress, not an appetising, finished food presentation.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1746,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 380,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
