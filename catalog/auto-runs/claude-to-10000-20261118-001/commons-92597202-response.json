@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBADXCgj7i6FG9YFTBNC",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": true,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 1,\n    \"lighting\": 2,\n    \"composition\": 2,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows a crowd scene at table level with severe grain and low contrast\",\n    \"Individual food items are not discernible in phone thumbnail\",\n    \"Table surface dominates; specific dishes are not readable\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Historical archival photograph, not a finished dish review submission\",\n    \"Image is a black-and-white historical scene, not a food photograph suitable for restaurant menu documentation\",\n    \"Individual dishes cannot be identified, isolated or assessed for quality\",\n    \"Source is a social/historical event photograph, not a food-focused image\"\n  ],\n  \"reason\": \"Reject: This is a historical archival photograph of a luau event (circa early 1900s), not a finished-dish food photograph. The image is severely degraded (grain, low contrast, monochrome), and individual dishes are not sharply detailed, prominently featured, or visibly distinct in either the source or thumbnail. The composition is a wide social scene rather than a focused food subject. Quality scores fail (sharpness 1, lighting 2). The photograph is unsuitable for Tavue's food intake workflow; it documents a historical event rather than presenting an assessable finished dish for identity verification and appeal evaluation.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1689,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 421,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
