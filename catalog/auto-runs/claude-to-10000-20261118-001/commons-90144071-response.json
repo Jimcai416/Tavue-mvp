@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAwvpQQa88er79hitvtz",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Stewed dish in shallow bowl with broth\",\n    \"Red/pink meat chunks visible\",\n    \"Okra pieces (green, characteristic ridged form)\",\n    \"Pale vegetable pieces (onion or other aromatics)\",\n    \"Natural colour palette consistent with home-cooked stew\"\n  ],\n  \"phone_observations\": [\n    \"Dish clearly visible in thumbnail centre\",\n    \"Bowl and food components readable\",\n    \"Broth and ingredient distribution evident\",\n    \"Red meat colour distinguishable from vegetables\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title/description states 'Gumbo' but specific meat species not explicitly named in metadata\",\n    \"Red/pink meat colour suggests beef or possibly ham/sausage, but species cannot be confirmed from source text alone\",\n    \"Okra visible and consistent with gumbo, but gumbo preparation and regional variant cannot be confirmed from title alone\",\n    \"No explicit protein identification in supplied source description\"\n  ],\n  \"reason\": \"While the photograph shows a well-presented, appetising stewed dish with clearly visible okra, meat, and broth in both full and thumbnail views, the source metadata provides only the generic term 'Gumbo' without specifying meat species, regional variant, preparation style, or other meaningful qualifiers. Per protocol, identity must agree with exact source title/description—the metadata does not supply sufficient specificity for canonical_name. The red meat visible suggests beef, ham, or sausage, but no explicit animal naming appears in the source text, so protein_evidence cannot be populated. Hold for source clarification on specific dish variant and meat composition.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1720,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 514,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

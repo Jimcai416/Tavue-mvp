@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAww38NzzvGu3p7WHwNU",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Stewed protein over white rice with green onion garnish\",\n    \"Reddish-brown sauce with visible shrimp/crawfish pieces\",\n    \"Toasted bread on plate side\",\n    \"Natural restaurant lighting, finished plated dish\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows stewed dish over rice\",\n    \"Protein elements visible but species confirmation limited at this resolution\",\n    \"Sauce colour and garnish consistent with full image\",\n    \"Dish prominence and readability acceptable\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'Crawfish Etouffee' but no crawfish/crayfish are explicitly named in provided metadata title or description field—only inferred from filename\",\n    \"Visible protein pieces are consistent with crawfish/shrimp size and appearance, but visual appearance alone cannot distinguish crawfish from large shrimp without source text confirmation\",\n    \"Source title field contains only restaurant/location, not dish name; dish identity depends on filename interpretation\"\n  ],\n  \"reason\": \"Identity check fails: the canonical source title/description provided does not explicitly state 'Crawfish' or 'Etouffee'—these terms appear only in the filename (untrusted metadata per instructions). The description field reads only 'at Sammy's Grill in Baton Rouge' with no dish identifier. While the visual appearance and context strongly suggest crawfish etouffee, and the protein is clearly a stewed crustacean dish over rice with appropriate garnish and sauce, an exact matching source quote confirming the specific protein species and dish name cannot be extracted from the trusted title/description fields. Holding pending clarification of authoritative dish identity from trusted source metadata.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1745,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 534,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

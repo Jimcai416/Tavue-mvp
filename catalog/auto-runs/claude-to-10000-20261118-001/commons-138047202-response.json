@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAwvF8Re4C7ZQLRwZTLr",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Finished, cooked soup in white bowls\",\n    \"Golden egg-based broth with visible seaweed (dark green strips)\",\n    \"Diced carrots (orange cubes) throughout\",\n    \"Fresh green herbs/scallions scattered on top\",\n    \"Charred/toasted seaweed pieces visible\",\n    \"Multiple servings plated consistently\",\n    \"Naturally coloured, appetizing presentation\"\n  ],\n  \"phone_observations\": [\n    \"Soup bowls clearly visible in thumbnail\",\n    \"Essential components (seaweed, carrot, broth, herbs) readable\",\n    \"Golden colour consistent with full image\",\n    \"Dish prominence adequate for phone view\",\n    \"No critical clipping of food elements\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title contains Vietnamese phrase 'súp cua rong biển cà rốt' which translates to 'crab seaweed carrot soup', but no crab meat is visibly identifiable in the photograph—only seaweed, carrots, egg, and broth\",\n    \"Source title format includes filename metadata and date stamp (Nhà mình Lễ 30th4n2023)\",\n    \"Cannot confirm presence of crab as protein; visible components appear to be egg, seaweed, and vegetables only\",\n    \"Exact canonical form unclear without disambiguating protein content\"\n  ],\n  \"reason\": \"Image quality, sharpness, lighting, composition and phone thumbnail all meet acceptance thresholds. However, identity check fails: the source description 'súp cua rong biển cà rốt' (crab seaweed carrot soup) cannot be visually verified. No visible crab meat is identifiable in either full or thumbnail image—only seaweed strips, diced carrots, egg-enriched broth, and herbs are observable. The protein_evidence cannot support 'crab' with a direct visual quote from the image. The source metadata format (filename with date) is also non-canonical. Hold pending clarification of actual protein content and canonical dish name without filename artifacts.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1751,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 621,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

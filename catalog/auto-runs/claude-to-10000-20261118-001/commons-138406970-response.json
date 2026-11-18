@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAwv4HZk9fEDtX36mU8e",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Wrapped pita/bread exterior visible\",\n    \"Filled interior with chunked/diced brown protein-like material\",\n    \"White shredded ingredient (described as salad)\",\n    \"Pink/magenta garnish visible (described as jalapeno)\",\n    \"Foil wrapper and casual street food setting\"\n  ],\n  \"phone_observations\": [\n    \"Wrapped sandwich clearly visible in thumbnail\",\n    \"Brown filling prominent\",\n    \"White shredded topping visible\",\n    \"Pink garnish present\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title describes 'vegan döner' with 'soya pieces' — no animal protein is claimed in the official description\",\n    \"Visual appearance of brown diced filling is indistinguishable from meat-based döner, but source explicitly states vegan/soya-only composition\",\n    \"Tavue canonical protocol requires exact source quote for protein_evidence; 'soya pieces' is a plant-based ingredient, not an allowed protein category (chicken/beef/pork/duck/lamb/seafood)\",\n    \"Identity mismatch: photograph shows what appears visually identical to a meat döner, but authorized description contradicts this with explicit vegan/soya claim\"\n  ],\n  \"reason\": \"Reject: Source description explicitly identifies this as a vegan döner made with soya pieces, not an animal-protein dish. Tavue accepts only dishes with chicken/beef/pork/duck/lamb/seafood proteins verified by exact source quotes. While the photograph is sharp, well-composed, and appetising, the authorized description contains no supported animal protein. The visual appearance of the filling does not override explicit source text. This falls outside the Tavue scope for protein-based dish review.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1776,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 539,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
