@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAaGrkHzJmwfuckPgd2j",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Brown stew/sauce with visible meat chunks\",\n    \"White rice base\",\n    \"Green okra pieces distributed throughout\",\n    \"Orange/red pepper visible\",\n    \"Potato or root vegetable chunks\",\n    \"Finished plated dish with natural colours\"\n  ],\n  \"phone_observations\": [\n    \"Sauce-based protein dish clearly visible\",\n    \"Rice, meat, and vegetable components readable\",\n    \"Warm natural lighting preserved\",\n    \"Dish identity recognisable at thumbnail scale\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title 'Senegalese maafé' does not specify meat species; meat chunks visible but species cannot be determined from appearance alone\",\n    \"Description is generic regional identifier, not a complete dish specification\",\n    \"No explicit animal name in title or description to match against allowed proteins (chicken/beef/pork/duck/lamb/seafood)\"\n  ],\n  \"reason\": \"Photograph and thumbnail quality are both acceptable and show a finished, appetising stew-based dish. However, the source title and description fail to explicitly name the meat species. While the dish appears to contain meat and is consistent with maafé preparation, the metadata does not state whether the protein is chicken, beef, lamb, pork, duck or another category. Per protocol, ambiguous meat species must be held pending clarification. The source quote 'Senegalese maafé' does not constitute sufficient protein evidence.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1584,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 467,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

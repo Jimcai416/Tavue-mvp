@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAaHbdEyqcx3hrqEcNEv",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Reddish-brown spiced rice base clearly visible\",\n    \"Large fish pieces prominent in centre\",\n    \"Orange/yellow vegetable pieces (pumpkin/squash) identifiable\",\n    \"Green vegetable visible (eggplant)\",\n    \"Communal presentation with multiple spoons\",\n    \"Natural, appetising appearance\"\n  ],\n  \"phone_observations\": [\n    \"Dish remains identifiable in thumbnail\",\n    \"Rice and fish components visible\",\n    \"Spoon handles visible at bowl edges\",\n    \"Orange vegetable pieces discernible\",\n    \"Central composition preserved\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title contains 'File:' and filename extension; canonical title extraction ambiguous\",\n    \"Description mentions 'guedj' (salted cured fish chunks) and 'yet' (salt-water mollusk Cymbium marmoratum) but neither is an allowed protein category (chicken/beef/pork/duck/lamb/seafood)\",\n    \"Fish species not explicitly named in source text—only 'very recognizable common types of fish' referenced generically\",\n    \"The mollusk and salted fish components are regional identifiers but do not match allowed protein category names\",\n    \"Source description does not provide exact fish species name required for 'seafood' category support\"\n  ],\n  \"reason\": \"Image quality, composition, and phone thumbnail representation all meet standards. However, the source description does not explicitly name any allowed protein species. While fish is clearly present and 'guedj' (cured fish) is mentioned, the exact species is not stated. The mollusk 'yet' (Cymbium marmoratum) is not a supported protein category. The source title includes filename artifacts ('File:', '.jpg'). Without explicit species naming for fish or other recognized proteins in the source text, protein_evidence cannot be populated, failing the requirement that specific source quotes must support all claimed proteins. Hold pending clarified source protein identification.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1884,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 587,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

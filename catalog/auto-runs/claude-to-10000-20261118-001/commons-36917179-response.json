@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAaHLJVoJbZTFcUgzs5r",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Yellow-golden rice base visible in phone thumbnail and full image\",\n    \"Red pepper strips prominently displayed on top\",\n    \"Cooked protein chunks with caramelized browning\",\n    \"Onions visible throughout the dish\",\n    \"Served in a yellow/golden bowl\",\n    \"Natural vibrant lighting with warm colour cast\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail shows finished plated dish with rice, protein, and red peppers clearly visible\",\n    \"Essential components readable: rice base, cooked meat pieces, red pepper garnish\",\n    \"Sharp enough detail for identification of main ingredients\",\n    \"Appetizing warm golden tones preserved in thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title metadata incomplete: 'This is an image of food from' is truncated and does not provide the complete dish name or location\",\n    \"Protein species not explicitly named in truncated description—visible cooked chunks cannot reliably determine whether chicken, beef, pork, or another meat without source declaration\",\n    \"Yassa is a known West African dish (Senegalese/Guinean) traditionally made with chicken, but the truncated metadata does not confirm this\",\n    \"No explicit source quote identifying the dish variant or protein type is available to verify identity\"\n  ],\n  \"reason\": \"Image quality, sharpness, composition and phone thumbnail are all acceptable (scores ≥4). The dish appears to be a finished, properly exposed, appetising plated meal with rice, cooked protein, red peppers and onions. However, the source metadata is incomplete—the description field ends abruptly mid-sentence ('This is an image of food from') without naming the dish, variant, or protein species. Although visual context (rice-based one-pot, red peppers, West African bowl style) and filename suggest Senegalese Yassa, the incomplete source text prevents confirmation of exact canonical name and protein identity. Protein species cannot be inferred from appearance alone. Hold pending complete, legible source title/description that explicitly names the dish and any protein components.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1621,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 608,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
