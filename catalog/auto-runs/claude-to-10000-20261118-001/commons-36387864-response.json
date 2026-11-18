@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBDDBcoRxnsYd3yzPz1Y",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": true,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 2,\n    \"composition\": 1,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Plates are too small and distant in thumbnail to resolve essential dish components\",\n    \"Green plate dominates frame but food detail is not discernible at phone resolution\",\n    \"Multiple people and social context obscure focus on the finished dish itself\",\n    \"Thumbnail fails to show readable, prominent food subject\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title lists two contradictory dish names: 'Chicken Kabiraji Cutlet' or 'Chicken Coverage Cutlet' – identity is ambiguous and unresolved\",\n    \"Food on plates is not distinctly visible in either source or thumbnail; cutlet form/texture cannot be verified\",\n    \"Image is primarily a social documentation photograph of a meetup, not a food photograph with the dish as the subject\"\n  ],\n  \"reason\": \"Reject: This is a social documentation photograph of a Wikimedia meetup, not a food review image. The dish is incidental to the scene of four people dining together. Food on the green plates is too distant and poorly resolved in both source and thumbnail to meet sharpness, detail, and prominence requirements. The source description contains an unresolved contradiction ('Chicken Kabiraji Cutlet' or 'Chicken Coverage Cutlet') that cannot be disambiguated from the image. The phone thumbnail fails to show any readable essential food components. All quality checks fail.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1789,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 455,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
