@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBBwyCQbNrtRZLQiowyc",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": true,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 2,\n    \"composition\": 2,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Subject is extremely small in thumbnail, barely identifiable\",\n    \"Cooked meat pieces are present but lack definition and detail at phone scale\",\n    \"Aluminium foil container edges dominate the frame\",\n    \"No readable essential components in the phone thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title lists three dishes (Bicol Express, Nilaga baboy, Ginataang kalabasa) but only one plate is visible; ambiguous which dish this photograph represents\",\n    \"Meat species cannot be reliably identified from the image alone\",\n    \"Exact dish identity cannot be determined without source clarification\"\n  ],\n  \"reason\": \"Rejection on multiple grounds: (1) Phone thumbnail fails—essential food subject is tiny and barely discernible, with composition dominated by aluminium foil container rather than the dish itself. (2) Quality scores all critically low (<4): severe lack of sharpness and definition, poor lighting, weak composition, and minimal appeal. (3) Identity failure—source description lists three different dishes but only one plate is photographed; cannot determine which dish this represents. (4) No protein species can be visually confirmed. (5) The image appears to be a preparation or casual documentation stage rather than a finished, exposed, appetising dish suitable for food review. Street food context does not override fundamental quality and identity criteria.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1813,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 450,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
