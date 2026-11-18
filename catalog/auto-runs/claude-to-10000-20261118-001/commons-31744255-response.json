@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAm6AVcRL2zo8fzB84dK",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Circular plated dish visible in thumbnail\",\n    \"White base with green powder/herb topping\",\n    \"Central spiral or swirl pattern\",\n    \"Dish clearly presented in serving plate\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title contains 'File:' prefix and '.png' extension—metadata format inconsistent with canonical dish name extraction\",\n    \"Image appears to be a preparation or assembly stage rather than a finished, exposed dish ready to serve\",\n    \"Creamy white base with herb garnish visible, but internal components (cucumber pieces) are not prominently visible or sharply detailed in either full or thumbnail view\",\n    \"Dish lacks appetising visual prominence; appears more like a component in preparation than a complete, finished plated food item\"\n  ],\n  \"reason\": \"Reject: The source metadata contains file formatting markers ('File:', '.png') which must be excluded per instructions. More critically, the image shows a preparation or intermediate assembly stage—a creamy base with herb garnish applied—rather than a finished, exposed, fully plated dish. The essential food components (cucumber) are not sharply detailed or visually prominent in the thumbnail or full image. The composition and appeal scores do not meet the ≥4 threshold required for acceptance. This appears to be a culinary work-in-progress, not a photographed finished dish suitable for Tavue review.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1946,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 455,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
