@@ -3791,3 +3791,9 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 
 - **Dadar with Pecel** — Alaric Rasendriya Aniko. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Dadar_with_Pecel.png). Local asset: `reviewed-commons-99174921.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Nasi Uduk Betawi** — Gunawan Kartapranata. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Nasi_Uduk_Betawi.jpg). Local asset: `reviewed-commons-15739036.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Grilled green asparagus with lettuce and grains, served with hollandaise sauce and bread** — Benreis. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Gegrillter_gr%C3%BCner_Spargel_Blattsalat_Hollandaise_Dinzler.jpg). Local asset: `reviewed-commons-132878765.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Herbed pancake with white asparagus and sauce hollandaise** — Gerda Arendt. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Kr%C3%A4uterpfannkuchen_mit_Spargel,_Rauenthal.jpg). Local asset: `reviewed-commons-118393430.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Asparagus with fried salmon and boiled potatoes as a side dish with sauce hollandaise** — Benreis. [CC BY 3.0](https://creativecommons.org/licenses/by/3.0); [source](https://commons.wikimedia.org/wiki/File:Spargel_Lachs_Kartoffeln_Sauce_hollandaise_.jpg). Local asset: `reviewed-commons-49521171.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
