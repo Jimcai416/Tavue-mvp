@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBDa1hakA1fU4roxrFqn",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 3,\n    \"appeal\": 3\n  },\n  \"visible_support\": [\n    \"Shredded meat in brown/tan gravy in metal container\",\n    \"Sliced onions visible throughout\",\n    \"Red pepper pieces scattered\",\n    \"Cooked, finished dish appearance\",\n    \"Wet, sauce-based preparation\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows finished, sauce-coated shredded meat dish\",\n    \"Onions and meat components identifiable at reduced size\",\n    \"Brown gravy/sauce evident\",\n    \"Dish legible and recognizable in phone format\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source metadata lists multiple Philippine dishes (Dinuguan, Menudo, Giniling, Adobo, Bopis, Kare-Kare, etc.) without specifying which single dish this photograph represents\",\n    \"Title field contains only filename reference, not a canonical dish name\",\n    \"Description enumerates ~15 different dishes; photograph cannot be definitively matched to one specific dish\",\n    \"No explicit animal species declared in source for this particular image\",\n    \"Shredded meat appearance could correspond to multiple distinct dishes (Giniling, Dinuguan, Bopis, Kare-Kare)\",\n    \"Gravy colour and composition do not uniquely identify dish type\"\n  ],\n  \"reason\": \"Source metadata fails identity check: the description lists numerous Philippine dishes without specifying which one this photograph documents. The filename is not a canonical name. Without explicit source confirmation of the specific dish identity and protein species, identity cannot be verified. The photograph is technically sound (sharpness 4, composition and appeal 3–4), and the finished, sauce-based meat dish is appetising and clear in both full and phone formats; however, the fundamental requirement that canonical_name must match source title/description exactly cannot be satisfied because the source provides a list of unrelated dishes, not a single identified dish. Hold pending source clarification of which specific named dish this photograph represents and what animal protein it contains.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1950,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 592,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

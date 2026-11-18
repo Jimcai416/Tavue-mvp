@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBDaD4hpUjUgo54TGcig",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Glazed cured meat strips (tocino) visible\",\n    \"Red sauce-braised meat pieces visible\",\n    \"Garlic fried rice visible\",\n    \"Fresh tomato and cucumber slices visible\",\n    \"Fried egg visible\"\n  ],\n  \"phone_observations\": [\n    \"Plate composition clearly readable in thumbnail\",\n    \"Distinct meat components visible\",\n    \"Rice portion sharp and prominent\",\n    \"Vegetables distinguishable\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title lists 'tocino' and 'longanisa' but source description uses slash notation 'Toci/Long-silog' creating ambiguity about which proteins are actually present in this specific dish\",\n    \"Longanisa is a sausage of unspecified animal origin—cannot determine if it is pork, beef, or other species\",\n    \"Visible meat components include both glazed strips (likely tocino) and red sauce pieces, but species of tocino (traditionally cured pork but not explicitly stated in source) cannot be confirmed from source text alone\",\n    \"No explicit animal species confirmation in title or description\"\n  ],\n  \"reason\": \"Rejection: Source material does not explicitly name the animal species for either tocino or longanisa. 'Longanisa' is a sausage category of ambiguous species origin. While the dish is a legitimate Filipino breakfast item and the photograph is sharp and appetizing, the protein_evidence rules require exact source quotes naming each animal. The source description 'Toci/Long-silog' and hashtags do not provide species identification. Tocino traditionally uses pork but this is not stated in the supplied source text. Per protocol: 'Omit unspecified species' and 'Unknown meat species still means hold.' The ambiguity over which proteins are actually present in this specific preparation, combined with lack of explicit species naming, requires holding this submission.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1401,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 574,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
