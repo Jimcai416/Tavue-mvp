@@ -5958,3 +5958,9 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Kachori chaat** — [Devika](https://www.flickr.com/people/75531279@N05). [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:Kachori_chaat_(9246232760).jpg). Local asset: `reviewed-commons-83114498.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Sandesh** — Miansari66. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Sandesh_3.jpg). Local asset: `reviewed-commons-26635706.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Katori Chaat** — Rutvi Mistry. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Katori_Chaat-Indian_Street_food.JPG). Local asset: `reviewed-commons-40906599.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Masala Puri Chaat** — Harshil Mehta. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Masala_Puri_Chaat.jpg). Local asset: `reviewed-commons-203296938.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
