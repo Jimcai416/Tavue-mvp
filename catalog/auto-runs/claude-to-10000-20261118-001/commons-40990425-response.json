@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBHFyve4mAFDBtbP5XoJ",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 2,\n    \"composition\": 3,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Cream-coloured sauce visible in thumbnail\",\n    \"White spherical objects (koftas) partially visible\",\n    \"Garnish visible but details unclear at this resolution\",\n    \"Pan edge and dark background visible\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'potato and dryfruits' but no protein animal is explicitly named in source description\",\n    \"Source describes fasting dish which typically excludes animal proteins, contradicting standard Malai Kofta composition\",\n    \"Image quality and angle prevent confident identification of actual ingredients\",\n    \"Koftas appear to contain only plant-based ingredients per source ('potato and dryfruits') rather than paneer or other traditional protein\"\n  ],\n  \"reason\": \"Rejection: Source description explicitly states 'Malai Kofta Curry made of potato and dryfruits eat for Fasting' with no animal protein named. This contradicts the identity claim and creates fundamental uncertainty about dish composition. Full image suffers from poor sharpness (score 2), weak lighting (score 2), and low visual appeal (score 2). The thumbnail shows cream sauce and white objects but insufficient detail to verify ingredients. The fasting designation combined with potato/dryfruits description suggests a vegetarian variant without named protein, failing protein requirements and creating identity ambiguity. Source metadata contradicts typical Malai Kofta composition.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1745,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 462,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

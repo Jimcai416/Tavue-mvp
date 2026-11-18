@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBHFZmqAGqsmHpRUe7Na",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Quinoa grains visible and prominent\",\n    \"Fresh parsley and herbs clearly present\",\n    \"Diced vegetables including orange/carrot pieces and pale celery\",\n    \"Natural colours and appetising presentation\",\n    \"Sharp detail in both full and thumbnail images\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows quinoa salad in blue bowl\",\n    \"Vegetable components and herbs visible at reduced scale\",\n    \"Dish identity readable from thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title states 'Vegan quinoa tabbouleh' but description mentions 'Baked frozen vegetable sausages and peas' — sausages are not visible in either photograph\",\n    \"Vegetable sausage species cannot be identified visually or named from source\",\n    \"Description contradicts title claim of vegan preparation if sausages were present\",\n    \"No peas visibly identifiable in the dish\",\n    \"Mismatch between metadata description and actual visible content\"\n  ],\n  \"reason\": \"Source metadata contains contradictions and unverifiable claims. Title claims 'vegan quinoa tabbouleh' but description references 'baked frozen vegetable sausages' which are not visible in the photograph. Vegetable sausages cannot be accepted as a named protein category, and the description's mention of peas cannot be visually confirmed. Identity cannot be reliably established due to source conflict between vegan claim and sausage reference. The visible dish appears to be a quinoa salad with vegetables and herbs, but the source description does not match photographed content.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1768,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 508,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

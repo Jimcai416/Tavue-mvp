@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBHEiipiDvjWBPfRFyDa",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 3,\n    \"appeal\": 3\n  },\n  \"visible_support\": [\n    \"Naan bread with black seeds visible on plate\",\n    \"Yellow curry sauce on right side of plate\",\n    \"Pink onion slice in brine visible at bottom\",\n    \"Small red condiment (pickle) visible in background\",\n    \"White plate, restaurant setting with maroon background\"\n  ],\n  \"phone_observations\": [\n    \"Naan with seeds clearly visible in thumbnail\",\n    \"Yellow curry sauce prominent\",\n    \"Pink onion visible\",\n    \"Composition readable but subject density low for phone review\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title 'All or naan ♥' is a pun/marketing phrase, not a dish name\",\n    \"Description states 'paneer kofta curry' but paneer koftas are not visible as distinct items on the plate\",\n    \"The yellow substance appears to be curry sauce but the actual koftas (paneer meatballs) are not clearly identifiable as separate components in the photograph\",\n    \"Description conflicts with what is visibly plated: naan and curry sauce are evident, but the named protein component (paneer kofta) cannot be distinguished\",\n    \"Paneer is a vegetarian product, not an allowed protein category\"\n  ],\n  \"reason\": \"Reject: The source description names 'paneer kofta curry' as the main dish, but paneer is not an allowed protein category and the koftas themselves are not visibly identifiable as distinct components on the plate. Only naan bread and an unnamed yellow curry sauce are clearly visible. The title 'All or naan ♥' is a marketing pun rather than a canonical dish name. Identity check fails due to source-description mismatch with visible plate content and use of vegetarian cheese protein outside allowed categories.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1833,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 543,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
