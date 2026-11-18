@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAsKgMHqozXQAS4B2HRH",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 5,\n    \"appeal\": 5\n  },\n  \"visible_support\": [\n    \"Yellow saffron rice base visible\",\n    \"Cream/white yogurt sauce covering central portions\",\n    \"Roasted peanuts or similar nuts scattered across surface\",\n    \"Meat pieces visible beneath yogurt layer\",\n    \"Professional plating in white serving dish\",\n    \"Garnish detail consistent with regional Arab cuisine\"\n  ],\n  \"phone_observations\": [\n    \"Central dish clearly visible in thumbnail\",\n    \"Rice and sauce contrast readable\",\n    \"Nut garnish distinguishable\",\n    \"Adequate sharpness and composition retained\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title contains Arabic script 'منسف أردني باللحم البلدي و الجميد البلدي' which translates approximately to 'Jordanian mansaf with local/country meat and local jameed', but 'البلدي' (baladi/local) does not specify the exact animal species (could be lamb, goat, or other meat)\",\n    \"Visible meat pieces cannot definitively confirm species from appearance alone\",\n    \"English title metadata absent; only Arabic description and photographer credit provided\",\n    \"Source title does not contain explicit English animal species name required for protein_evidence\"\n  ],\n  \"reason\": \"Image quality, sharpness, lighting, composition and phone thumbnail all meet acceptance criteria. However, the source description in Arabic uses the generic qualifier 'لحم البلدي' (local/country meat) without explicitly naming the animal species in either Arabic or English. Per protocol, ambiguous meat species designations and source contradictions require hold. The exact animal (lamb, goat, or other) cannot be confirmed from visual inspection or from the provided title/description text. No explicit English species name matching the protocol's allowed categories (chicken/beef/pork/duck/lamb/seafood) appears in the supplied title or description, preventing valid protein_evidence entry.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 2081,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 570,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

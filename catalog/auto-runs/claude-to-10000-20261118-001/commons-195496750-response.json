@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAsKhcwUyfn9DhfwXN3L",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 2,\n    \"composition\": 3,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows a cream/yellow gravy dish with meat spheres in a large pan\",\n    \"Meatballs or dumpling texture is visible but soft detail is lost at 124x96\",\n    \"Overall composition readable but insufficient detail for confident vegetable/paneer identification\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title claims 'Kofta Curry (Spiced Dumplings in Gravy)' but description explicitly states dumplings are made from 'minced vegetables, paneer' with no meat mentioned\",\n    \"Visual appearance shows what appear to be meat spheres (tan/brown colour, texture, and density typical of cooked minced meat), contradicting the vegetarian description\",\n    \"Severe source internal contradiction: title suggests meat kofta; description specifies vegetable and paneer only\",\n    \"Cannot resolve whether dish contains meat protein or is vegetarian; source metadata is internally inconsistent\",\n    \"Full source image quality is poor (soft focus, underexposed, low contrast, taken in-progress on stovetop)\",\n    \"Lighting is flat and dim; colours are muddy and lack natural appetising appearance\"\n  ],\n  \"reason\": \"Reject: Source title and description directly contradict each other (title: 'Kofta Curry'; description: 'minced vegetables, paneer' with no meat). Visual appearance resembles meat kofta, but cannot accept when source metadata is self-contradictory. Additionally, full photograph fails quality checks: poor sharpness (soft focus), inadequate lighting (dim, flat), low colour saturation (muddy gravy), and apparent in-progress preparation state rather than finished dish presentation. Phone thumbnail alone is insufficient to override these defects and resolve the identity contradiction.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1557,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 544,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
