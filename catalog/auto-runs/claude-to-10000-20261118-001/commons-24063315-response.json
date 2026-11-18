@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChB2bAvDE2qQrkHCUXJkj",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": \"Congee made with oxtail, with scallions, fried shallots, and fried dried shrimp garnish\",\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Congee base clearly visible and well-presented\",\n    \"Fried shallots garnish prominent and golden\",\n    \"Green scallions visible on top\",\n    \"White porcelain bowl in clean setting\",\n    \"Natural, appetising colour palette\",\n    \"Sharp detail in garnishes\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail shows full bowl composition clearly\",\n    \"Garnish details readable at small size\",\n    \"Dish identity apparent from thumbnail\",\n    \"Adequate contrast and colour reproduction\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Oxtail is not in the allowed protein category list (chicken/beef/pork/duck/lamb/seafood)\",\n    \"Fried dried shrimp is present but shrimp/seafood species is not explicitly named in allowed categories and source says 'shrimp' not 'seafood'\",\n    \"Source metadata contains file name, date context, and experimental photo notation that contaminate canonical identity\"\n  ],\n  \"reason\": \"Image quality, photography, composition and phone thumbnail all pass. However, identity cannot be accepted: oxtail is not an allowed protein category, and the source description contains file metadata and experimental photography notes rather than a clean dish title. Fried dried shrimp garnish is visible but 'shrimp' as a specific species does not map to the allowed 'seafood' category without explicit source confirmation. Hold pending clarification of primary protein identity using only allowed categories.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1732,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 507,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

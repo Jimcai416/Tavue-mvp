@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChB2b2Tj88UAmmCVWTsHD",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": \"Feu, the Lao cousin of pho.\",\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Clear noodle soup with rice noodles\",\n    \"Light broth\",\n    \"Fresh green scallions/cilantro garnish\",\n    \"White protein pieces (pork or seafood)\",\n    \"Decorative bowl with floral rim\"\n  ],\n  \"phone_observations\": [\n    \"Soup bowl prominently visible\",\n    \"Noodles, broth, and garnish clearly readable\",\n    \"Spoon visible in composition\",\n    \"No clipping of essential elements\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title 'Feu' is a filename descriptor, not a canonical dish name. No explicit source title/description field provided beyond 'Feu, the Lao cousin of pho'\",\n    \"Protein species cannot be determined from visual inspection alone. The white chunks visible are ambiguous—could be pork, chicken, seafood, or tofu\",\n    \"No explicit protein identification in the source description provided. 'Feu' as a Lao soup category does not specify which proteins are present in this particular bowl\",\n    \"Description lacks the required explicit source quote naming specific animal proteins\"\n  ],\n  \"reason\": \"Photograph quality and composition are strong (all scores ≥4), and the food is identifiable as a finished, appetising noodle soup. However, identity cannot be confirmed because: (1) the source provides only 'Feu, the Lao cousin of pho' as a descriptor—a category reference rather than a specific dish name with qualifiers; (2) no explicit protein species is named in the source description; (3) the visible white protein chunks cannot be reliably identified visually. Per protocol, ambiguous protein species and source descriptions lacking explicit animal identification require a hold. A proper canonical name with specific, quoted qualifiers and protein identification from source is required.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1626,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 571,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
