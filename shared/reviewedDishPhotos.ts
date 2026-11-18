@@ -50391,5 +50391,51 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 640,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-177393486",
+    "title": "File:Arroz con albóndigas con salsa de tomates y cebollas acompañado de papas y batatas horneadas (plato).jpg",
+    "author": "Horacio Cambeiro",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Arroz_con_alb%C3%B3ndigas_con_salsa_de_tomates_y_cebollas_acompa%C3%B1ado_de_papas_y_batatas_horneadas_(plato).jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Arroz_con_alb%C3%B3ndigas_con_salsa_de_tomates_y_cebollas_acompa%C3%B1ado_de_papas_y_batatas_horneadas_%28plato%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "8b1f9ee8a89f2e8931a04c234f1d45731cabd3cf",
+    "name": "Arroz con albóndigas con salsa de tomates y cebollas acompañado de papas y batatas horneadas",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-177393486.jpg",
+    "assetSha256": "bd39f367b0069e070bc62dd094b946f49bbf0a6f4d822829e228b1250b61dc04",
+    "reviewedAt": "2026-11-18",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-113908930",
+    "title": "File:HK KTD 觀塘區 Kwun Tong Sau Mau Ping 安泰邨 On Tai Estate shop 名舫酒家 Famous Restaurant food 蝦球湯麵 shrimp soup noodle January 2022 Px3 01.jpg",
+    "author": "Chiam wingwhuoang Haagem",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:HK_KTD_%E8%A7%80%E5%A1%98%E5%8D%80_Kwun_Tong_Sau_Mau_Ping_%E5%AE%89%E6%B3%B0%E9%82%A8_On_Tai_Estate_shop_%E5%90%8D%E8%88%AB%E9%85%92%E5%AE%B6_Famous_Restaurant_food_%E8%9D%A6%E7%90%83%E6%B9%AF%E9%BA%B5_shrimp_soup_noodle_January_2022_Px3_01.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/08/HK_KTD_%E8%A7%80%E5%A1%98%E5%8D%80_Kwun_Tong_Sau_Mau_Ping_%E5%AE%89%E6%B3%B0%E9%82%A8_On_Tai_Estate_shop_%E5%90%8D%E8%88%AB%E9%85%92%E5%AE%B6_Famous_Restaurant_food_%E8%9D%A6%E7%90%83%E6%B9%AF%E9%BA%B5_shrimp_soup_noodle_January_2022_Px3_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "0716832325af86ede030ce6b294391d60be0831d",
+    "name": "蝦球湯麵 (shrimp soup noodle)",
+    "aliases": [],
+    "proteins": [
+      "seafood"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-113908930.jpg",
+    "assetSha256": "ad9600df47ebe4a906a5eaf42d1097e6ab36af5773739068ff1f5381846eb9e0",
+    "reviewedAt": "2026-11-18",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];
