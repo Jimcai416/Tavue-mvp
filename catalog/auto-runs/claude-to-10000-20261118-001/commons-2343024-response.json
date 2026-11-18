@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChB36QtfKbsxhkrL5cK7E",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 3,\n    \"lighting\": 3,\n    \"composition\": 2,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Person dominates frame, partially obscuring dish\",\n    \"Dish itself is secondary to human subject\",\n    \"Limited clear view of food components in thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title mentions 'Curry Soba' but no protein animal is explicitly named\",\n    \"Meat species in the curry broth cannot be visually identified with certainty\"\n  ],\n  \"reason\": \"Rejection: This is a portrait photograph with incidental food, not a food photograph. The human subject dominates the composition and obscures essential dish detail. The phone thumbnail confirms the person is the primary subject. While a dish (noodles in curry broth) is present and visible, the photographic intent and framing are documentary of the diner rather than the food. Additionally, no explicit protein animal is named in the source title or description—'Curry Soba' does not declare meat species, and visual identification alone cannot confirm protein type. Per guidelines, this fails the core requirement of being 'a finished, exposed, likely photographic dish' as the primary subject, and protein cannot be inferred from appearance without explicit source declaration.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1755,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 401,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
