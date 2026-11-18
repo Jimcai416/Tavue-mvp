@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBDdyyGQYP4US7xp6ESp",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Finished, cooked meat rolls in orange/red sauce visible in full source\",\n    \"Browned exterior on rolled meat visible\",\n    \"Gravy/sauce coating evident\",\n    \"Green vegetable garnish (chili pepper or similar) visible\"\n  ],\n  \"phone_observations\": [\n    \"Rolled meat portions clearly visible in thumbnail\",\n    \"Orange-red sauce prominent\",\n    \"Composition readable at phone size\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title states 'Morcon, Pasta Dumplings' but photograph shows no pasta, dumplings, or starch component—only meat rolls in sauce\",\n    \"Meat species not explicitly named in source description; cannot infer from appearance alone\",\n    \"Identity contradiction: title references multiple dishes (Morcon AND Pasta AND Dumplings) but only one dish is visible (meat rolls in sauce)\",\n    \"Unclear which specific dish is being presented\"\n  ],\n  \"reason\": \"Identity check fails. Source title 'Morcon, Pasta Dumplings SM Little Stars' does not match the visible dish. The photograph shows meat rolls (possibly Morcon) in a red/orange sauce, but no pasta or dumplings are visible. The source description lists multiple dishes without clarity on which is featured. Meat species is not explicitly named in the source, so it cannot be identified. Title-image mismatch and unspecified protein prevent acceptance.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1832,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 469,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

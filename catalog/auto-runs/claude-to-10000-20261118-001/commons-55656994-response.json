@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBDevMmME59hUoQiFsbJ",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Orange ceramic square plate with golden-brown liquid/sauce\",\n    \"Multiple fried tofu cubes (tokwa) with crispy golden exterior\",\n    \"Pale toasted bread cubes\",\n    \"Cooked meat pieces in varying shades of brown\",\n    \"Natural daylight, no artificial glare\",\n    \"Sharp focus on individual components\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows same dish composition\",\n    \"Orange plate and golden sauce visible at reduction\",\n    \"Fried tofu cubes distinguishable\",\n    \"Bread and meat pieces readable\",\n    \"Adequate detail preserved for dish recognition\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title lists 'tilapia lugaw tokwat baboy' but photograph shows no identifiable tilapia or lugaw (rice porridge)\",\n    \"Meat species cannot be determined from appearance alone—'baboy' (pork) is noted in source but not visually confirmed\",\n    \"Exact dish name unclear: tokwa (fried tofu) is identifiable, but the complete traditional dish name and all components are ambiguous\",\n    \"Source description mentions multiple dishes but does not clearly isolate which single dish this photograph represents\",\n    \"Bread presence and tofu-and-meat preparation style do not match a recognizable canonical Philippine dish from the source listing\"\n  ],\n  \"reason\": \"Identity check fails due to critical mismatch between source description and visible content. Source lists 'tilapia lugaw tokwat baboy' but the photograph contains no identifiable tilapia or lugaw (rice porridge). While fried tofu (tokwa) is clearly visible and meat pieces are present, the meat species cannot be visually confirmed—only inferred from the source text 'baboy' (pork). The exact canonical dish name cannot be established from the source metadata because the description enumerates multiple possible dishes without isolating the specific one photographed. All quality and photograph checks pass (sharpness ≥4, lighting ≥4, composition ≥4, appeal ≥4), but the source fails to provide an unambiguous, specific dish title that matches the visible form. Hold for clarification of exact dish identity.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1820,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 645,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
