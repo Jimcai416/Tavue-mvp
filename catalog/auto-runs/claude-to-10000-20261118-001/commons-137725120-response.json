@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChB51NvgtN6epBdNB3JjQ",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Noodle soup in white bowl with dark broth\",\n    \"Fresh green herb garnish visible\",\n    \"Metal spoon resting in bowl\",\n    \"Accompanying bowl with solid components (right)\",\n    \"Natural restaurant setting\"\n  ],\n  \"phone_observations\": [\n    \"Soup bowl clearly visible in thumbnail\",\n    \"Noodles and broth render distinctly\",\n    \"Bright white bowl contrasts well\",\n    \"Essential dish elements readable\"\n  ],\n  \"protein_evidence\": {\n    \"chicken\": \"tô miến gà\"\n  },\n  \"uncertainties\": [\n    \"Filename indicates 'tô miến gà' (chicken noodle soup) but metadata title is only 'File:Vùng Cùa ở Cam Lộ...' — source description does not explicitly state canonical dish name in its own title field\",\n    \"Filename is not a reliable canonical source; only the metadata 'description' field states 'Cuisine of Vietnam' generically\",\n    \"No clear canonical_name matching exact source title/description provided in structured metadata\"\n  ],\n  \"reason\": \"The photograph shows a finished, well-composed noodle soup with chicken (protein confirmed in filename 'tô miến gà'), sharp detail, natural colour, appetising presentation, and clear visibility in both full image and phone thumbnail. However, the source metadata fails to provide the dish name in its title or description fields—only the filename contains 'tô miến gà'. Per protocol, canonical_name must be copied exactly from source title or description, not from filename. The structured metadata 'description' field contains only the generic category 'Cuisine of Vietnam', not the specific dish name. Without an explicit canonical dish name in the proper source fields, identity cannot be confirmed and the submission must be held pending clarification of the actual source title or description.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1863,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 561,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
