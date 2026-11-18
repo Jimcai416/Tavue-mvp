@@ -5370,3 +5370,11 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Spinach pkhali** — [Georgia About](http://georgiaabout.com). [CC BY 3.0](https://creativecommons.org/licenses/by/3.0); [source](https://commons.wikimedia.org/wiki/File:Spinach_pkhali.jpg). Local asset: `reviewed-commons-38143298.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Biji-jjigae (soy pulp stew)** — [차차PD](http://ccpd.tistory.com/). [CC BY 4.0](https://creativecommons.org/licenses/by/4.0); [source](https://commons.wikimedia.org/wiki/File:Biji-jjigae_1.jpg). Local asset: `reviewed-commons-69460329.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Macedonian Mezze, Ohrid** — [Dan  from Brussels, Europe](https://www.flickr.com/people/21013862@N08). [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:Macedonian_Mezze,_Ohrid_(34168473875).jpg). Local asset: `reviewed-commons-70177293.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Macedonian Mezze** — [Dan  from Brussels, Europe](https://www.flickr.com/people/21013862@N08). [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:Macedonian_Mezze,_Saint_Naum_(34169562945).jpg). Local asset: `reviewed-commons-70177291.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **poulet chop suey** — [Benoît Prieur](https://www.wikidata.org/wiki/Q42790984). [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Bourbon_Saveur_974_(Belley)_-_poulet_chop_suey.jpg). Local asset: `reviewed-commons-82998895.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Foie gras et choucroute d'Alsace** — Arnaud 25. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Foie_gras_et_choucroute_d%27Alsace.jpg). Local asset: `reviewed-commons-147825637.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
