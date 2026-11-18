@@ -66349,5 +66349,77 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-109673242",
+    "title": "File:NIlagang baboy (Philippines).jpg",
+    "author": "Obsidian Soul",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:NIlagang_baboy_(Philippines).jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c1/NIlagang_baboy_%28Philippines%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "757e957df4957e7d48671e88bfa7ae2f0cea9ac0",
+    "name": "Nilagang baboy (or pork nilaga) - pork soup with leafy vegetables (Philippines)",
+    "aliases": [],
+    "proteins": [
+      "pork"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-109673242.jpg",
+    "assetSha256": "13e790474082988c3a3957885fc036a2e1504ae271a114c362594affe2db37e0",
+    "reviewedAt": "2026-11-18",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 540,
+    "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-164743073",
+    "title": "File:Beef caldereta coconut milk.jpg",
+    "author": "CNEcija12345",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Beef_caldereta_coconut_milk.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Beef_caldereta_coconut_milk.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "280f9160d2e2c6ec7f660e55a90bdae01954d1bc",
+    "name": "Beef caldereta with coconut milk",
+    "aliases": [],
+    "proteins": [
+      "beef"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-164743073.jpg",
+    "assetSha256": "c3576b62f0b0b2e0790b44bff8c49aad97cfa94581f953633b7fe62f316dc183",
+    "reviewedAt": "2026-11-18",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 680,
+    "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-162169098",
+    "title": "File:Mohinga (20250315).jpg",
+    "author": "Allervous",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mohinga_(20250315).jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Mohinga_%2820250315%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "b8fbef6f52c4a22b791fb3e6b32588850be06441",
+    "name": "Mohinga",
+    "aliases": [],
+    "proteins": [
+      "seafood"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-162169098.jpg",
+    "assetSha256": "2344cbc2481d12078e4c6ff80f5d1ca173b09cc9b7689b6afd20377bf673912c",
+    "reviewedAt": "2026-11-18",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 723,
+    "height": 960,
+    "requiresExactMenuName": true
   }
 ];
