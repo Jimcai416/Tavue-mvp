@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChB3JYrUfft7TPNcckm8K",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Two ramen bowls with noodles in broth\",\n    \"Left bowl: yellow/miso broth, vegetables, sprouts, nori\",\n    \"Right bowl: tonkotsu-style creamy broth, sliced pork, half soft-boiled egg, nori, spiced powder\",\n    \"Professional plating in ceramic bowls\",\n    \"Restaurant setting with signage\"\n  ],\n  \"phone_observations\": [\n    \"Both bowls visible and identifiable\",\n    \"Right bowl shows clear tonkotsu characteristics and pork slice\",\n    \"Left bowl vegetables and broth colour distinct\",\n    \"Adequate detail for recognition at thumbnail scale\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'Tokyo Tonkotsu' but tonkotsu traditionally uses pork bone broth—pork species and preparation method cannot be visually verified as authentic tonkotsu\",\n    \"Left bowl described as 'Veggie Miso Ramen' in title but visible vegetables do not confirm miso flavour; broth appearance alone is insufficient evidence\",\n    \"Right bowl meat species (pork assumed from 'Tonkotsu' but not explicitly stated in source description)\",\n    \"No explicit source text naming 'pork' in the description; 'Tonkotsu' is a technique/style descriptor, not a protein declaration\"\n  ],\n  \"reason\": \"Reject: Source title and description do not explicitly name any protein with an exact quote. 'Tokyo Tonkotsu' is a dish category and cooking method, not a protein identifier. While the right bowl visually displays what appears to be sliced pork, the source does not contain the word 'pork' as a direct statement. Left bowl is described only as 'Veggie Miso Ramen'—miso flavour is not visually verifiable from broth appearance alone. Protein evidence cannot be established from exact source quotes as required by guidelines. Identity check fails due to missing explicit protein naming.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1765,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 598,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
