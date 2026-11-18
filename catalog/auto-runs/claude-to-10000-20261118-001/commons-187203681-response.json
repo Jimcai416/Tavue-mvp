@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAyYEcYDvzkQrT1Sspqb",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Two bread rolls on white plate against red background\",\n    \"Dark cooked meat filling clearly visible in lower sandwich\",\n    \"Upper sandwich unopened or partially wrapped\",\n    \"Finished, exposed dish state\",\n    \"Natural colour, appetising appearance\"\n  ],\n  \"phone_observations\": [\n    \"Lower sandwich clearly shows dark meat filling\",\n    \"Bread structure and colouring readable\",\n    \"Dish proportions and composition evident\",\n    \"Essential components visible and identifiable\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title states 'chorizo' but no species qualifier (pork/beef/lamb/duck/chicken/seafood) is provided in the title or description—chorizo is a generic sausage category whose animal composition is not explicitly named\",\n    \"Protocol forbids inferring meat species from tradition, appearance, or generic sausage category alone\",\n    \"Cannot confirm which allowed protein category this qualifies under without explicit source declaration of the animal\"\n  ],\n  \"reason\": \"Identity check fails: the dish cannot be accepted because the protein (chorizo) lacks an explicit, case-sensitive declaration of its animal species in the supplied title or description. The source states only 'chorizo', which is a generic sausage descriptor. Per instructions, unknown or unspecified meat species—including sausages without named animal qualification—must be held. Sharpness, lighting, composition and appeal are all excellent (scores 4–5), the photograph is sharp and naturally coloured, the phone thumbnail clearly shows the finished dish, and the form matches the title. However, without a source quote explicitly naming the animal (pork/beef/lamb/duck/chicken/seafood), protein_evidence cannot be populated and the identity check cannot pass.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1734,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 531,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
