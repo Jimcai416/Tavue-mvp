@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBANgmttJfBozXwZEuZB",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Dark braised meat in rich brown sauce\",\n    \"Cauliflower florets arranged around rim\",\n    \"Garnished with fresh green herbs\",\n    \"Presented in oval serving dish\",\n    \"Glossy sauce indicating slow-cooked preparation\"\n  ],\n  \"phone_observations\": [\n    \"Meat and cauliflower clearly visible in thumbnail\",\n    \"Dark sauce colour distinct\",\n    \"Oval dish shape recognizable\",\n    \"Green garnish visible at top\",\n    \"Adequate composition representation\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title is a filename ('File:Dalmatinska pašticada.jpg'), not a canonical dish description\",\n    \"French description ('Il s'agit d'un plat de dalmatinska pašticada') translates to 'This is a dish of dalmatinska pašticada' but does not constitute an explicit English dish name or source title\",\n    \"No explicit meat species identified in source text or visible form; pašticada traditionally contains beef but visual appearance alone cannot confirm species\",\n    \"Metadata untrusted per instructions; reliance on filename violates protocol\"\n  ],\n  \"reason\": \"Source metadata consists of untrusted filename and translated description without canonical English dish title or explicit meat species declaration. Filename 'File:Dalmatinska pašticada.jpg' is not a valid source title. French description does not constitute explicit English naming or protein evidence. The dish is identifiable as a braised meat and cauliflower preparation with professional finish and good photograph quality, but identity cannot be verified against a trusted source title, and no protein species is explicitly stated. Identity check fails; hold pending explicit English source title and protein declaration.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1422,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 530,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
