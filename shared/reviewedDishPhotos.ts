@@ -48220,5 +48220,52 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "height": 720,
     "requiresExactMenuName": true,
     "authorUrl": "https://flickr.com/photos/fri13th/"
+  },
+  {
+    "id": "commons-75733181",
+    "title": "File:Chicken Adobo Rice Topping with eggs.jpg",
+    "author": "George Parrilla",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chicken_Adobo_Rice_Topping_with_eggs.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/89/Chicken_Adobo_Rice_Topping_with_eggs.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "5832a061b71d58f66c549754fba1e6b024a39d4f",
+    "name": "Chicken Adobo Rice Topping with eggs",
+    "aliases": [],
+    "proteins": [
+      "chicken"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-75733181.jpg",
+    "assetSha256": "dde73f4afb986bd9361eace4232b74e88306b085b87f9c89423a9c50c28f1dca",
+    "reviewedAt": "2026-11-18",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 638,
+    "requiresExactMenuName": true,
+    "authorUrl": "https://www.flickr.com/photos/georgeparrilla/"
+  },
+  {
+    "id": "commons-150863242",
+    "title": "File:Deep-fried Tofu Japanese Curry Rice - MOGUMOGU 2024-07-26.jpg",
+    "author": "Andy Li",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Deep-fried_Tofu_Japanese_Curry_Rice_-_MOGUMOGU_2024-07-26.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Deep-fried_Tofu_Japanese_Curry_Rice_-_MOGUMOGU_2024-07-26.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "a417384312f46997611395309acbf35fa96b8324",
+    "name": "Deep-fried Tofu Japanese Curry Rice",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-150863242.jpg",
+    "assetSha256": "2ea693522d2d1dd28c7e5c92c5f5f875bdf59e4d39344b1235fa5770eabb5633",
+    "reviewedAt": "2026-11-18",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];
