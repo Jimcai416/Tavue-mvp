@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAKQ7bx7T5QVZQLNtnE3",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Layered fried bread visible on orange plate\",\n    \"Red bowl with brown sauce in background\",\n    \"Natural daylight, well-exposed\"\n  ],\n  \"phone_observations\": [\n    \"Layered fried bread clearly visible on orange plate\",\n    \"Red sauce bowl visible in thumbnail\",\n    \"Dish composition recognizable at small scale\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title metadata states 'Roti Cane Aceh (Cabe bread)' but describes it as a bread, not containing a protein animal. The description claims 'Cabe' (chilli) but the parenthetical suggests bread variant naming.\",\n    \"No protein animal is explicitly named in the source description or visibly identifiable as a distinct component in the photograph.\",\n    \"The dish is described as bread-based (roti cane), which is a starch/carbohydrate, not a protein-containing main dish suitable for Tavue's food photography database.\",\n    \"Source description metadata includes '[Cabe bread]' but 'cabe' means chilli in Indonesian—contradictory or unclear naming.\",\n    \"Protein column cannot be populated: no chicken, beef, pork, duck, lamb, or seafood is explicitly named in source or clearly visible.\"\n  ],\n  \"reason\": \"Reject: Source metadata describes 'Roti Cane Aceh (Cabe bread)' as a bread-based dish without explicit naming of any protein animal. While the photograph is sharp, well-lit, and appetising, the dish is primarily a fried flatbread with sauce—a starch-based preparation, not a protein-containing main dish. Tavue's protocol requires proteins (chicken/beef/pork/duck/lamb/seafood) with exact source quotes naming the animal. No animal protein is named in the source description or distinguishably visible as a primary component. The parenthetical '(Cabe bread)' is unclear or contradictory (cabe = chilli), creating identity ambiguity. This does not meet the protein evidence requirement.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1717,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 611,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

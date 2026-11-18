@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAKPukpRXg1TDxf22M7u",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Thin, folded flatbread visible in main compartment\",\n    \"Red/orange curry sauce in left compartment\",\n    \"Red spice powder in upper right compartment\",\n    \"Cooked meat pieces in upper left compartment\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail shows folded flatbread prominently\",\n    \"Curry sauce visible in compartment\",\n    \"Essential components identifiable at phone size\"\n  ],\n  \"protein_evidence\": {\n    \"protein\": \"Curry Chicken\"\n  },\n  \"uncertainties\": [\n    \"Source title states 'Curry Chicken' but no visible chicken pieces are clearly identifiable in the dish; the meat appears as small cooked fragments mixed into the curry sauce, making species confirmation uncertain\",\n    \"The composition and presentation do not clearly match standard roti canai service with identifiable chicken pieces\"\n  ],\n  \"reason\": \"Identity check fails. While the source title declares 'Curry Chicken', the visible meat in the photograph appears only as small indistinct cooked fragments within the curry sauce, not as clearly identifiable chicken pieces. The protein evidence cannot be visually confirmed from the photograph itself—only the metadata title claims 'Curry Chicken'. Per protocol, hidden flavours may be source-declared but never claimed as visually proven. The ambiguity between declared identity and visible form creates unresolved uncertainty that prevents acceptance.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1632,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 453,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
