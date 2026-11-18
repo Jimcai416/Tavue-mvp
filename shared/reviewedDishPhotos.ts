@@ -65250,5 +65250,29 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-113494745",
+    "title": "File:Rillettes, pork with pickled asparagus, on toasted homemade bread - Massachusetts.jpg",
+    "author": "Daderot",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rillettes,_pork_with_pickled_asparagus,_on_toasted_homemade_bread_-_Massachusetts.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Rillettes%2C_pork_with_pickled_asparagus%2C_on_toasted_homemade_bread_-_Massachusetts.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "528af2c5ae633c17c0845af0740aa9a535cfa618",
+    "name": "Rillettes, pork with pickled asparagus, on toasted homemade bread",
+    "aliases": [],
+    "proteins": [
+      "pork"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-113494745.jpg",
+    "assetSha256": "82760b4f06673a36754d85ed84058f71922f8e2e942688e5f6deae28b168041f",
+    "reviewedAt": "2026-11-18",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 960,
+    "requiresExactMenuName": true
   }
 ];
