@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAX7NNt8RcSNspmNEdsq",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows a legume-based stew or soup with orange-red sauce in a decorated blue-and-white bowl\",\n    \"Essential components clearly visible and readable in phone thumbnail\",\n    \"Dish appears finished and exposed with natural colouration\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title states 'Arroz con marisco' (rice with seafood) but the full photograph displays a legume stew with no visible rice, seafood, or any protein component that matches the declared title\",\n    \"The dish in the image appears to be a chickpea or bean stew in tomato sauce—inconsistent with the seafood paella or rice dish claimed in the source metadata\",\n    \"No visible marisco (seafood), no rice grains, and no identifiable protein source matching the declared identity\"\n  ],\n  \"reason\": \"Identity mismatch: source title declares 'Arroz con marisco' (rice with seafood), but the photograph shows a legume-based stew with orange sauce, containing no visible rice, seafood, or any protein matching the title. The visible dish does not correspond to the source description. Ambiguous protein species and significant source contradiction require hold.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1734,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 418,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
