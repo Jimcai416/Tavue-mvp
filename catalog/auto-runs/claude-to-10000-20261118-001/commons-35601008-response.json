@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChB3wUAUqWBJPBTMGEEgU",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows ingredient preparation stage with canned goods, fresh herbs, cheese, and tomato\",\n    \"Visible components are raw/uncooked ingredients, not a finished dish\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'Vegan Migas Ingredients' but photograph shows ingredient assembly, not a prepared/cooked dish\",\n    \"No finished, plated migas dish is visible—only component ingredients laid out\"\n  ],\n  \"reason\": \"Rejection: Image depicts ingredient preparation stage, not a finished, exposed, cooked dish. The source title 'Vegan Migas Ingredients' correctly identifies the content as raw components (canned okra, fresh cilantro, cheese, tomato, tortillas, etc.) awaiting cooking, not the completed dish itself. Tavue requires photographic evidence of finished food.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1732,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 341,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
