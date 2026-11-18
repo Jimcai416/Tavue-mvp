@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAM6crLjjXu4iyAnPHwv",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Left bowl: rice with noodles and stewed meat pieces in gravy\",\n    \"Right bowl: dark stew with meat chunks\",\n    \"Red table surface visible\",\n    \"White bowls clearly visible\"\n  ],\n  \"protein_evidence\": {\n    \"protein\": \"source claims pork blood, but photograph shows two distinct dishes with no visual proof of blood as primary ingredient\"\n  },\n  \"uncertainties\": [\n    \"Source title describes this as Vietnamese dinuguan (pork blood stew), but dinuguan is canonically Filipino, not Vietnamese. This is a source-identity contradiction.\",\n    \"The right bowl contains a dark stew, but blood stew appearance alone does not confirm blood as ingredient—dark colour could result from other braising techniques, soy sauce, or caramelization.\",\n    \"Left dish appears to be a separate preparation (rice with noodles and meat), not dinuguan.\",\n    \"Source metadata (title, description, author, license) is marked untrusted; the description contradicts known culinary geography.\"\n  ],\n  \"reason\": \"Source identity is contradictory and unreliable: dinuguan is a Filipino dish, not Vietnamese. The description assigns wrong origin. Visual evidence alone cannot confirm blood stew from colour. The photograph appears to show two different dishes (left: rice noodle dish; right: dark stew), and the stew's dark appearance is insufficient to verify blood as the defining ingredient. Protein species claimed but not visually confirmed. Hold criteria not met due to source contradiction on dish origin and lack of visual proof matching the claimed identity.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1337,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 496,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

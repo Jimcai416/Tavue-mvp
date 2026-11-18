@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAM7RvYHXS28XSz98yaF",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [\n    \"Tofu cubes visible in full image\",\n    \"Cabbage/leafy vegetable component visible\",\n    \"Red chilli sambal evident\",\n    \"Served in disposable foam container\"\n  ],\n  \"phone_observations\": [\n    \"Mixed cubed and sliced ingredients clearly visible\",\n    \"Golden-brown sautéed tofu and vegetables\",\n    \"Red sambal coating visible\",\n    \"Dish composition matches full image\"\n  ],\n  \"protein_evidence\": {\n    \"protein\": null\n  },\n  \"uncertainties\": [\n    \"Source title 'Tahu Kocek' but description claims only 'tahu dan kubis' (tofu and cabbage); no meat protein named in description despite 'kocek' variants sometimes including sausage or meat\",\n    \"Visible appearance suggests possible meat cubes mixed with tofu, but source description explicitly lists only tofu and cabbage with sambal\",\n    \"Ambiguity between source title tradition and explicit description creates identity conflict\"\n  ],\n  \"reason\": \"Identity check fails due to contradiction between source title 'Tahu Kocek' (which may denote meat-inclusive variants) and explicit source description limiting ingredients to 'tahu dan kubis' (tofu and cabbage). The full photograph shows what appears to be both tofu and meat components, inconsistent with the description-only claim. Without explicit source protein naming and given the visible/described mismatch, identity cannot be confirmed. Hold required.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1440,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 477,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

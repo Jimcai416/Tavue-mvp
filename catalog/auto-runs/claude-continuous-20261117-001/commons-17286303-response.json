@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAM7FjMvu8LG61eZYrAq",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 3,\n    \"composition\": 2,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Subject is a street vendor holding a large stack of unidentified food items on his head/shoulder\",\n    \"Food stack is chaotic, heavily bundled, and individual components are not clearly distinguishable in phone thumbnail\",\n    \"Prominent subject is the person, not the food itself\",\n    \"Food items are small relative to frame and obscured by wrapping/stacking\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source metadata lists 'hard-boiled quail eggs, fried peanuts, lontong, fried tofu' but the actual food in the photograph is unidentifiable—bundled, wrapped, and stacked in a jumbled mass\",\n    \"No single finished dish is visible or prominent\",\n    \"Individual food components cannot be visually verified from the photograph\",\n    \"The composition shows a street vendor portrait, not a food photograph suitable for dish review\"\n  ],\n  \"reason\": \"This is a street vendor portrait, not a finished-dish food photograph. The food stack is chaotic, bundled, heavily obscured by wrapping, and individual components are indistinguishable. The photograph prioritizes the vendor over the food. The claimed components (quail eggs, peanuts, lontong, fried tofu) cannot be visually confirmed from the actual image. The phone thumbnail shows a person, not appetizing food detail. Essential food items are clipped, obscured, and not sharply detailed or naturally presented. This fails Tavue's requirements for a recognizable, finished, prominent, appetizing dish with readable essential components.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1298,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 495,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
