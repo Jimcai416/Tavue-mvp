@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAXc1JBP5XW3MHn9WQYp",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Cooked meatballs in brown gravy\",\n    \"Green peas distributed throughout\",\n    \"Red pepper pieces visible\",\n    \"Glossy sauce coating\",\n    \"Finished, exposed dish in cooking vessel\",\n    \"Phone thumbnail clearly shows the braised meatball composition\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail matches full image content\",\n    \"Meatballs and peas clearly visible at reduced size\",\n    \"Sauce and components readable in phone view\",\n    \"No clipping of essential elements\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title describes 'Meatball with Pea and Pepper' but does not specify meat species (beef, pork, lamb, etc.)\",\n    \"Canonical Italian name 'Polpette in umido con piselli' is visible in filename but description lacks explicit animal identification\",\n    \"Protein category cannot be assigned without explicit source statement naming the animal\"\n  ],\n  \"reason\": \"Image quality, photograph authenticity, and phone thumbnail all pass. However, the source description and title do not explicitly name the meat species used in the meatballs. 'Meatball' or generic 'polpette' without species qualifier fails the protein evidence requirement. Hold pending source clarification of meat type (beef/pork/lamb/chicken/duck).\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1907,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 452,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
