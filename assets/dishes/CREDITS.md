@@ -4417,3 +4417,9 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **chocolate karpatka** — さえぼー. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:KarpatkainKrakow.jpg). Local asset: `reviewed-commons-151224557.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **mac and cheese** — Andy Li. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Mac_and_cheese_-_Morelli_Zorelli_2024-08-29.jpg). Local asset: `reviewed-commons-151971887.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Karpatka** — Alina Zienowicz  Ala z. [Public domain](https://creativecommons.org/publicdomain/mark/1.0/); [source](https://commons.wikimedia.org/wiki/File:POL_karpatka.jpg). Local asset: `reviewed-commons-6287830.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Fish pastilla, Beni Mellal, Morocco** — Vassia Atanassova - Spiritia. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Fish_pastilla,_Beni_Mellal,_Morocco.jpg). Local asset: `reviewed-commons-53577205.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
