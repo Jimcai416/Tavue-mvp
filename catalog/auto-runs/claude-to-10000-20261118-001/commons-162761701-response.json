@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChB88u6BjLaqFYdYHuWgJ",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"White rice clearly visible and prominently plated\",\n    \"Green and white shredded cabbage identifiable in lower portion\",\n    \"Brown stewed meat on left side of plate\",\n    \"Red plate, home-style presentation\",\n    \"Natural daylight, casual setting\"\n  ],\n  \"phone_observations\": [\n    \"Red plate dominates frame\",\n    \"Rice, cabbage, and meat all visible in thumbnail\",\n    \"Composition readable and subject prominent\",\n    \"Natural colours, no severe clipping\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title describes 'stew' but does not name the meat species (beef, lamb, mutton, pork, chicken, duck, or seafood)\",\n    \"Meat visible in photograph but identity not explicitly confirmed in source description\",\n    \"Cannot infer species from appearance alone; source does not declare specific animal\"\n  ],\n  \"reason\": \"Image quality, photograph authenticity, and phone thumbnail all pass. However, the source description 'White rice and stew with cabbage' does not explicitly name the meat species in the visible stew. Per protocol, unknown or unspecified meat species cannot be accepted in protein_evidence. Identity check fails because the source provides only a generic category ('stew') without declaring which animal was used. Hold pending clarification of the meat type from the source.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1730,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 445,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
