@@ -69932,5 +69932,51 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-4070518",
+    "title": "File:Boeuf bourguignon servi avec des pâtes.jpg",
+    "author": "DC",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Boeuf_bourguignon_servi_avec_des_p%C3%A2tes.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/53/Boeuf_bourguignon_servi_avec_des_p%C3%A2tes.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "f6d372f3b3281c9899f6824769f583b6ef7ebad9",
+    "name": "Beef bourguignon made with ox cheek, served with pasta",
+    "aliases": [],
+    "proteins": [
+      "beef"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-4070518.jpg",
+    "assetSha256": "e4f0999e65d77c4ac90b81180d03d3223c0db9cbbe942dde0151859ca86a2c0e",
+    "reviewedAt": "2026-11-18",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-1446008",
+    "title": "File:Clafoutis.JPG",
+    "author": "The original uploader was  Joan-T  at  French Wikipedia .",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Clafoutis.JPG",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/27/Clafoutis.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "082497c6d4e231e8b43246632919315170965698",
+    "name": "Clafoutis",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-1446008.jpg",
+    "assetSha256": "34cf5254bd59346f9d83f45b04a0f0a7e0a035895a218c22340c18b3fe3dc89f",
+    "reviewedAt": "2026-11-18",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 798,
+    "height": 640,
+    "requiresExactMenuName": true
   }
 ];
