@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAjocG5T9jZaoTWVwYZY",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 3,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows a cooked grain and meat mixture on a plate with decorative green striped rim\",\n    \"Distinct brown/reddish meat pieces visible mixed throughout grain\",\n    \"Colouration and texture consistent with cooked meat and rice preparation\",\n    \"Dish is prominent and identifiable in thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title declares 'Riz pilaf à base de riz rouge de Camargue' (red Camargue rice pilaf) but the visible dish contains substantial cooked meat pieces that are not explained or named in the source metadata\",\n    \"The meat species cannot be identified from appearance alone and is not explicitly named in the source title or description\",\n    \"Source metadata describes only the rice component; meat presence is undeclared in source text despite being visually prominent in both full image and thumbnail\"\n  ],\n  \"reason\": \"Identity check fails. The source title describes a rice pilaf made with red Camargue rice, but the photograph shows a dish with significant cooked meat pieces mixed throughout. The meat species is neither named in the source title/description nor visually identifiable. Per protocol, undeclared and unidentified meat species require a hold. The mismatch between source description (rice pilaf) and visible content (meat-containing mixture) creates sufficient uncertainty about the actual dish identity to reject acceptance.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1744,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 454,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

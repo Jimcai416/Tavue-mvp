@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAjp2LvFf3xBYBePeFDj",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Puffy white bread on wooden plate, clearly baked/cooked\",\n    \"Two small bowls with accompaniments (brown chilli/spice sauce, white creamy sauce)\",\n    \"Black sesame seeds visible on bread surface\",\n    \"Restaurant table setting with dining utensils\",\n    \"Phone thumbnail shows bread and sauce bowls clearly\"\n  ],\n  \"phone_observations\": [\n    \"Bread and sauces clearly visible and readable\",\n    \"Puffy form prominent in centre-cover thumbnail\",\n    \"Adequate detail for dish identification\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'Turkish Bread' but description references conflicting names: 'balloon bread' and 'pita' on Instagram\",\n    \"No single canonical menu name can be established from the contradictory source metadata\",\n    \"Unclear which variant name (Turkish Bread vs balloon bread vs pita) represents the actual served dish identity\",\n    \"Source description shows internal inconsistency between menu reference and social media aliases\"\n  ],\n  \"reason\": \"While photograph and phone thumbnail quality are acceptable and the finished, cooked bread with sauces is visually appetising, the identity check fails due to irreconcilable contradictions in the source metadata. The title states 'Turkish Bread' but the description explicitly notes it was also called 'balloon bread' and 'pita' on the restaurant's Instagram, creating ambiguity about which name correctly identifies the dish served. Per protocol, source contradictions on identity require a hold. A single authoritative canonical name matching exact source title or description cannot be established.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1762,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 502,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAjocHJwTfhhPP2mJgm4",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Banana leaf serving base visible\",\n    \"Multiple component dishes arranged on leaf\",\n    \"White rice varieties visible\",\n    \"Yellow noodle/rice dish visible\",\n    \"Protein item (appears fish/seafood) on left\",\n    \"Small bowls with chutneys/condiments\",\n    \"Multiple spherical fried items\",\n    \"Fresh coconut shreds visible (white)\",\n    \"Natural colours, no severe casts\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail shows full layout recognisably\",\n    \"Main protein item prominent and readable\",\n    \"Colour contrast sufficient for identification\",\n    \"Essential components visible at phone scale\",\n    \"Banana leaf base distinguishable\",\n    \"No critical clipping of main dishes\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title 'South-Indian Breakfast' is a meal category, not a specific dish name\",\n    \"Description declares coconut and chutneys but does not name the specific dish\",\n    \"Protein species ambiguous—appears to be fish or seafood but source does not explicitly name the animal\",\n    \"Multiple component dishes visible but no source designation of which are primary vs. sides\",\n    \"Without explicit dish name and protein identification in source, identity cannot be verified as a specific canonical dish\"\n  ],\n  \"reason\": \"Photograph quality and composition are strong. However, source metadata provides only a meal category ('South-Indian Breakfast') and ingredient description, not a specific dish name. The protein item is visually prominent but its species is not explicitly named in the source—it appears to be fish or seafood but cannot be confirmed. Source title and description do not match the canonical_name requirement of 'a specific dish phrase copied exactly from source title or description'. Identity check fails because no specific, named dish is supplied. Protein evidence cannot be populated without explicit animal naming in source text. Hold pending source clarification of the specific dish identity and protein species.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1750,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 580,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
