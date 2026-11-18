@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAyfs3UXcpfQbWrpkF2D",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Red-orange broth with visible shrimp\",\n    \"Yellow shrimp prominently displayed throughout\",\n    \"Cooking in dark pot on gas stove\",\n    \"Fresh herbs visible (green garnish)\",\n    \"Vibrant colour typical of tomato-based seafood stew\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows orange broth and yellow shrimp\",\n    \"Dish identity legible and consistent with full image\",\n    \"No clipping of essential components\",\n    \"Natural colour and appetising appearance maintained\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title states 'Moqueca São Paulo' but source description provides only generic 'Moqueca' with no regional qualifier or protein specification\",\n    \"Shrimp are visibly prominent but source description does not explicitly name any protein or seafood\",\n    \"Moqueca typically contains fish and/or seafood, but no explicit mention in provided metadata\",\n    \"Cannot confirm if this is specifically São Paulo variant or standard moqueca without explicit source statement of regional identity\"\n  ],\n  \"reason\": \"Image quality, sharpness, lighting, composition and appeal all meet standards (scores ≥4). Photograph is finished, exposed, sharply detailed, naturally coloured and appetising. Phone thumbnail preserves detail and identity clearly. However, identity check fails: source title claims 'Moqueca São Paulo' but description provides only generic 'Moqueca'. Regional variant qualifier contradicts minimal description. Protein evidence cannot be supported: while shrimp are visibly prominent, the source description contains no explicit protein naming—only the generic title. Per rules, hidden flavours may be source-declared but are never claimed as visually proven, and source contradictions require hold. The discrepancy between title (São Paulo variant) and description (no qualifier) plus absence of explicit protein statement in source text prevents acceptance.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1719,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 570,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

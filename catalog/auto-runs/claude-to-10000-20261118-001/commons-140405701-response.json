@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAyfYMpX7jNmMMY65Y7h",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 3,\n    \"composition\": 3,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows a dish in a white bowl with red sauce and pale curved pasta/noodles\",\n    \"Central subject is visible but soft and lacks fine detail in phone view\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source metadata explicitly states this is a 'Better-looking version' and 'only for use as a stopgap', indicating post-processing manipulation rather than original photography\",\n    \"Description confirms NN upscaling, manual levels adjustment, and exposure modification—disqualifying as authentic food photograph\",\n    \"Filename references 'salvaged' version of another image, indicating reconstruction/editing rather than direct capture\",\n    \"No original source title provided; only file metadata and editor notes are available\",\n    \"Despite beef reference in description, no authoritative dish identity is supplied in source materials\"\n  ],\n  \"reason\": \"Reject: Source metadata explicitly documents this as a heavily post-processed 'stopgap' reconstruction (NN 4x upscale, levels adjustment, manual exposure correction, downscaling). It is not an authentic, unmodified food photograph. The description is editor commentary, not a canonical dish title. The image fails the photograph authenticity requirement and cannot be treated as direct evidence of a finished dish.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1480,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 423,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
