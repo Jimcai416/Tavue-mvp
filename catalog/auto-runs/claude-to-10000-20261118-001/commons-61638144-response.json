@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAgQnM3zH73uR3RHYGw1",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 2,\n    \"composition\": 2,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Multiple whole cooked fish visible in a tray with broth/liquid\",\n    \"Orange/yellow colored broth or sauce\",\n    \"Garnishes including what appear to be onions and peppers\",\n    \"Overall composition shows a prepared dish\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title contains a list of many dish names (Fried rice, Chicken gizzards, Menudo, Adobo, Lechon, Tilapia, Sinigang, Kinilaw, Paksiw, Kare-Kare) with no clear identification of which dish is actually pictured\",\n    \"The photograph shows whole fried/cooked fish, but the source description does not explicitly name any fish preparation as the subject\",\n    \"Cannot establish a canonical_name because the source title does not specify which single dish from the list corresponds to the visible food\",\n    \"The image quality is severely compromised: poor sharpness, muddy lighting with glare reflections, unclear detail despite adequate size\"\n  ],\n  \"reason\": \"Rejection: Source metadata provides a generic list of Philippine dish names without identifying which one is pictured. The visible dish—whole fish in broth with vegetables—cannot be matched to an explicit source-stated identity. Additionally, image quality is poor (sharpness 2/5, lighting 2/5) with significant glare, soft focus, and unflattering presentation that fails appeal and detail standards. Identity check fails due to ambiguous source description; quality and appeal scores both fall below threshold.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1950,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 495,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

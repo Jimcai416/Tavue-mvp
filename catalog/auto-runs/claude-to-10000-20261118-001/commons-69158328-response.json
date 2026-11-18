@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAgRwPnpzy36osK7b2am",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 3,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows preparation stage with flat pans/cooking surfaces and hands in motion\",\n    \"No finished, plated dish visible\",\n    \"Subject is a vendor/cooking activity, not a completed food item\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title describes a preparation activity ('makes a spring roll wrapper'), not a finished dish\",\n    \"No completed, exposed, plated food visible in either full image or thumbnail\",\n    \"Image documents the cooking process, not the final product\"\n  ],\n  \"reason\": \"Rejection: This is a documentary photograph of a food preparation stage (spring roll wrapper being made), not a finished, exposed, plated dish. The source title explicitly describes the action of making wrappers, not a completed dish. The full image and thumbnail both show the production process with multiple cooking pans and hands in motion, without a finished, appetising, prominent plated food item. Per guidelines, raw/preparation stages are not acceptable. The image lacks a recognizable finished dish suitable for food intake review.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1631,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 374,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

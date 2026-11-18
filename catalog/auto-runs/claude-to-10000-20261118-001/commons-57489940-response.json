@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAgRVu8JmRLzntirxLM4",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows a compartmentalized tray meal with five sections\",\n    \"Centre-right section clearly displays white cooked rice\",\n    \"Remaining sections contain curries and prepared components\",\n    \"Overall composition and arrangement visible and readable\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title lists only 'Vegetables', 'Mashed potato', 'Bhaji', 'Cooked rice' and 'Dal' — no proteins explicitly named\",\n    \"Dish described as 'Assamese-Bengali dish' but no specific canonical dish name provided, only generic component list\",\n    \"Individual curry components in compartments cannot be reliably identified to species level from appearance alone\",\n    \"No explicit protein animals named in source description despite multiple curry sections present\"\n  ],\n  \"reason\": \"Rejection: Source description provides only generic ingredient categories ('Vegetables', 'Dal', 'Mashed potato', 'Bhaji', 'Cooked rice') without naming a specific canonical dish or any protein species. The image shows a compartmentalized thali-style meal but lacks sufficient source-documented identity to establish a specific dish name. No proteins (chicken/beef/pork/duck/lamb/seafood) are explicitly named in the title or description. Appeal score is low due to institutional/canteen-style presentation and incomplete composition. Identity check fails because source provides descriptive components rather than a recognizable dish name.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1784,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 467,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
