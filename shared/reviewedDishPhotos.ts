@@ -61951,5 +61951,55 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 717,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-83152017",
+    "title": "File:Special Broken Rice with Pork Chop, Shredded Pork Skin and Fried Egg - Thanh Ha (3015036072).jpg",
+    "author": "Alpha  from Melbourne, Australia",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Special_Broken_Rice_with_Pork_Chop,_Shredded_Pork_Skin_and_Fried_Egg_-_Thanh_Ha_(3015036072).jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/71/Special_Broken_Rice_with_Pork_Chop%2C_Shredded_Pork_Skin_and_Fried_Egg_-_Thanh_Ha_%283015036072%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "aeff52c1a477b685fedace2fdd4f07bd3aa62930",
+    "name": "Special Broken Rice with Pork Chop, Shredded Pork Skin and Fried Egg",
+    "aliases": [],
+    "proteins": [
+      "pork"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-83152017.jpg",
+    "assetSha256": "318a21f009ed4ef5e45b480e50729e79de2c9559bd0cc7f1bdfa0e6fea3b551f",
+    "reviewedAt": "2026-11-18",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true,
+    "authorUrl": "https://www.flickr.com/people/10559879@N00"
+  },
+  {
+    "id": "commons-83152015",
+    "title": "File:Steamed Rice Noodles with Pork Loaf and Mung Bean Pie - Thanh Ha (3014200871).jpg",
+    "author": "Alpha  from Melbourne, Australia",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Steamed_Rice_Noodles_with_Pork_Loaf_and_Mung_Bean_Pie_-_Thanh_Ha_(3014200871).jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Steamed_Rice_Noodles_with_Pork_Loaf_and_Mung_Bean_Pie_-_Thanh_Ha_%283014200871%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "175ce833dff5f9f56b08aa6f6953236d23642cde",
+    "name": "Steamed Rice Noodles with Pork Loaf and Mung Bean Pie",
+    "aliases": [],
+    "proteins": [
+      "pork"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-83152015.jpg",
+    "assetSha256": "3c144a6301fcb7e7b332d0499a590e4f0e4a3e53f494f5f506ab66abab7668aa",
+    "reviewedAt": "2026-11-18",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true,
+    "authorUrl": "https://www.flickr.com/people/10559879@N00"
   }
 ];
