@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAybpezPUDazNn7gf9pq",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Two elongated rolls on white plate\",\n    \"One roll split and filled with dark cooked meat\",\n    \"Second roll appears to contain similar filling\",\n    \"Yellow Savora mustard bottle with red cap visible on red background\",\n    \"Sharp detail of filling texture and roll structure\"\n  ],\n  \"phone_observations\": [\n    \"Plate with two rolls clearly visible in thumbnail\",\n    \"Filled roll prominent and identifiable\",\n    \"Mustard bottle partially visible at edge\",\n    \"Composition readable and appetising at reduced resolution\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'chorizo' but source metadata does not explicitly state chorizo in the description field—only the filename title does\",\n    \"Chorizo species/type unspecified in source description; appears to be a prepared sausage but exact animal source cannot be verified from description alone\",\n    \"Visual inspection shows dark cooked meat filling, consistent with chorizo, but identity rules require exact source quote from description, not title metadata\"\n  ],\n  \"reason\": \"Reject: The source title contains 'chorizo' but the actual description field states only 'Choripán (argentine sandwich with chorizo and Savora).' while the JSON description key provides no protein specification. Per rules, proteins may only be included with an exact source quote explicitly naming each animal from the title or description. The title is metadata (file attribution) and chorizo is an ambiguous meat product whose animal species is not explicitly declared. Since the description does not independently confirm the chorizo identity with explicit animal naming, and species cannot be inferred from appearance or tradition, identity check fails. Hold pending clarification of exact protein species in authoritative description.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1847,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 520,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

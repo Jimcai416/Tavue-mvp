@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAycbCQGebnGKpCuC47Z",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Orange broth in metal pot with handles\",\n    \"Multiple crustaceans visible in liquid\",\n    \"Cooked seafood appearance\",\n    \"Active stovetop cooking scene\"\n  ],\n  \"phone_observations\": [\n    \"Pot clearly visible with orange broth\",\n    \"Seafood items distinguishable in thumbnail\",\n    \"Dish identity readable at phone size\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title states 'Crevetten' (shrimp/prawns in German/Dutch), but image shows what appear to be larger crustaceans—possibly crab or lobster pieces—not shrimp\",\n    \"Visual morphology of crustaceans in pot does not match typical crevette/shrimp size and form\",\n    \"Ambiguity between source metadata name and actual visible crustacean species\"\n  ],\n  \"reason\": \"Identity check fails. The source description 'Moqueca mit Crevetten' declares shrimp (crevettes), but the photograph shows substantially larger crustaceans with crab-like or lobster-like morphology—not shrimp. This is a material contradiction between declared identity and visible form. The photograph quality, lighting, composition and phone thumbnail are all acceptable, but the dish cannot be accepted when the stated protein species does not match the evidence in the image. Hold pending source clarification or corrected metadata.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1726,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 461,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
