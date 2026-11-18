@@ -85397,5 +85397,53 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-38151868",
+    "title": "File:Mì Quảng, Da Nang, Vietnam.jpg",
+    "author": "Christopher Crouzet",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:M%C3%AC_Qu%E1%BA%A3ng,_Da_Nang,_Vietnam.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/57/M%C3%AC_Qu%E1%BA%A3ng%2C_Da_Nang%2C_Vietnam.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "9109159e30f989fdb2efab6e6ada159ec0c04548",
+    "name": "Mì Quảng, Da Nang, Vietnam",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-38151868.jpg",
+    "assetSha256": "1c314407a40cf1dbee40be2282a3e78e11519001808b63ed10c46178eb1187f4",
+    "reviewedAt": "2026-11-18",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 640,
+    "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-6099227",
+    "title": "File:Mì Quảng.jpg",
+    "author": "SauceSupreme",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:M%C3%AC_Qu%E1%BA%A3ng.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c7/M%C3%AC_Qu%E1%BA%A3ng.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "0d843503c8e33b9deb4e7950033090d530cd4b52",
+    "name": "Mì Quảng",
+    "aliases": [],
+    "proteins": [
+      "pork",
+      "seafood"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-6099227.jpg",
+    "assetSha256": "d600b52a1762499cd81f5f59e7b5df60ecd0931c16861f2a831bd8494696c45d",
+    "reviewedAt": "2026-11-18",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true,
+    "authorUrl": "https://www.flickr.com/photos/91372089@N00"
   }
 ];

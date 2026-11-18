@@ -6258,3 +6258,8 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Mi quang noodles with pork and shrimp** — Jpatokal. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Mi_Quang_1A_Danang.jpg). Local asset: `reviewed-commons-119843025.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Mì Quảng, Da Nang, Vietnam** — Christopher Crouzet. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:M%C3%AC_Qu%E1%BA%A3ng,_Da_Nang,_Vietnam.jpg). Local asset: `reviewed-commons-38151868.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Mì Quảng** — [SauceSupreme](https://www.flickr.com/photos/91372089@N00). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:M%C3%AC_Qu%E1%BA%A3ng.jpg). Local asset: `reviewed-commons-6099227.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
