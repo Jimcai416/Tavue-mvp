@@ -3765,3 +3765,10 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Tonkatsu** — en:User:Kanzelsberger , uploaded to Commons by  Nihonjoe. [Public domain](https://creativecommons.org/publicdomain/mark/1.0/); [source](https://commons.wikimedia.org/wiki/File:Japanese_tonkatsu.jpg). Local asset: `reviewed-commons-4179994.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Kue lapis legit** — Edo Eky. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Kue_Tradisional_Palembang.jpg). Local asset: `reviewed-commons-173343206.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Lapis Legit Pontianak** — Ariefz. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Lapis_Legit_Pontianak.jpg). Local asset: `reviewed-commons-138460657.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **spekkoek** — Mx Lucy. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Spekkoek,_close_up.jpg). Local asset: `reviewed-commons-91849165.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **spekkoek met bananensmaak** — Mx Lucy. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Spekkoek_banaan.jpg). Local asset: `reviewed-commons-152815272.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
