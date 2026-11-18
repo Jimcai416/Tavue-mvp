@@ -67275,5 +67275,53 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 723,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-117009795",
+    "title": "File:Mexican picadillo.jpg",
+    "author": "Gravin mant",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mexican_picadillo.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Mexican_picadillo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "cfc80dad2703db2a24ad34dd7acab2bdb9634c69",
+    "name": "Mexican picadillo",
+    "aliases": [],
+    "proteins": [
+      "beef"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-117009795.jpg",
+    "assetSha256": "4b16dba9ba10164033979fb68acabfb470073869f1242b3dc4c8103a562b2f88",
+    "reviewedAt": "2026-11-18",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 640,
+    "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-144254958",
+    "title": "File:Beef birria burrito with sauces to taste.jpg",
+    "author": "Ser Amantio di Nicolao",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Beef_birria_burrito_with_sauces_to_taste.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Beef_birria_burrito_with_sauces_to_taste.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "df82e0f8787ffecc27642dfb6a22df46dbdd7c93",
+    "name": "Beef birria burrito with sauces to taste",
+    "aliases": [],
+    "proteins": [
+      "beef"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-144254958.jpg",
+    "assetSha256": "0f8a5a5f516f85d7108791abbaf8731280603ba23265a6314a0e37ebbf3d7e3a",
+    "reviewedAt": "2026-11-18",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 811,
+    "requiresExactMenuName": true
   }
 ];

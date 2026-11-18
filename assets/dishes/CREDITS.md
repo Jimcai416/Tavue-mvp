@@ -4695,3 +4695,8 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Lumpiang Togue** — Ralff Nestor Nacor. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Lumpiang_Togue,_Dec_2025.jpg). Local asset: `reviewed-commons-180292610.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Mexican picadillo** — Gravin mant. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Mexican_picadillo.jpg). Local asset: `reviewed-commons-117009795.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Beef birria burrito with sauces to taste** — Ser Amantio di Nicolao. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Beef_birria_burrito_with_sauces_to_taste.jpg). Local asset: `reviewed-commons-144254958.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
