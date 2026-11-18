@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAbU7MJxVDthco5zdUxo",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Brown stew/perkelt with visible meat pieces in sauce\",\n    \"White rice side component, yellow-tinted\",\n    \"Red pepper strip visible on rice\",\n    \"Finished, plated dish on white ceramic\"\n  ],\n  \"phone_observations\": [\n    \"Stew and rice both visible and identifiable\",\n    \"Stew sauce colour and texture readable\",\n    \"Rice component clear and prominent\",\n    \"Adequate resolution for dish recognition\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title states 'Krůtí perkelt' (turkey perkelt), but no explicit protein quote in English matches 'turkey' in the supplied title/description metadata\",\n    \"Species 'krůtí' (Czech for turkey) is not in the allowed category list (chicken/beef/pork/duck/lamb/seafood)\",\n    \"Cannot confirm turkey visually from the photograph alone\"\n  ],\n  \"reason\": \"The source title 'Krůtí perkelt, rýže' identifies this as a turkey (krůtí) perkelt with rice. However, 'turkey' is not in the allowed protein categories (chicken, beef, pork, duck, lamb, seafood), and the source metadata does not contain an explicit English-language quote naming turkey or any allowed species. The dish is well-photographed, finished, and appetising, but the protein cannot be assigned to an approved category. Identity verification requires an exact source quote matching an allowed protein type, which is absent here. Holding pending clarification or reframing of the source description to use an allowed protein category.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1730,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 507,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
