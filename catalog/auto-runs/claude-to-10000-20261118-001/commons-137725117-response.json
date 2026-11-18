@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChB4wU96aUKzW4yUQitgq",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Clear noodle soup in white bowl\",\n    \"Green herb garnish (cilantro/scallion visible)\",\n    \"Broth with golden-brown colour\",\n    \"Metal spoon in bowl\",\n    \"Restaurant table setting\",\n    \"Both full image and thumbnail show the same dish clearly\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows bowl of noodle soup with green garnish\",\n    \"Broth visibility sufficient in small format\",\n    \"Spoon and noodle strands readable\",\n    \"No clipping of essential elements\"\n  ],\n  \"protein_evidence\": {\n    \"chicken\": \"tô miến gà\"\n  },\n  \"uncertainties\": [\n    \"Source title contains filename elements and photographer name that obscure the canonical dish name\",\n    \"Only filename parenthetical text '(tô miến gà)' clearly identifies the dish; main file path is not a reliable source description\",\n    \"Exact Vietnamese dish name and any regional variant qualifiers cannot be reliably extracted from the malformed title\"\n  ],\n  \"reason\": \"Image quality, composition, sharpness and appeal all meet standards; both full and thumbnail photographs show a finished, appetising noodle soup with chicken and fresh garnish clearly visible. However, the source title is a file path with metadata noise and does not provide a clean, reliable canonical description. The parenthetical '(tô miến gà)' (chicken noodle soup) is the only readable dish identifier, but canonical_name requires extraction from proper title or description fields, not filename fragments. The metadata format prevents confident identity confirmation. Hold pending a clean source title or description.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1758,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 512,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

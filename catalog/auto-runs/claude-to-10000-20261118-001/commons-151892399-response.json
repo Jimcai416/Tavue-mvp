@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChB4v9JkHXxyHeY2ocyWV",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 5,\n    \"appeal\": 5\n  },\n  \"visible_support\": [\n    \"Grilled meat skewers with charred exterior, clearly visible in full image and thumbnail\",\n    \"White rice base with caramelized yellow/orange carrot strips\",\n    \"Dark raisins scattered across rice\",\n    \"Fresh cilantro and lemon wedge garnish\",\n    \"Red sauce in glass bowl\",\n    \"Served on white plate on wooden surface\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows grilled meat skewers, rice with carrot strips and raisins, and garnish\",\n    \"All essential components visible and identifiable at reduced size\",\n    \"Natural colours preserved; dish remains appetising and prominent\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title describes 'Kabab koobideh (kofta kabab made from ground lamb...)' but the description alone does not constitute visual confirmation of lamb species from the photograph. The meat appears grilled and charred but species identification from appearance alone is insufficient without explicit visual labelling or cross-section evidence.\",\n    \"Description states the meat is 'made from ground lamb' but the actual skewered form in the photograph does not show ground meat structure clearly enough to visually verify this claim against the description's parenthetical explanation.\"\n  ],\n  \"reason\": \"While the photograph is of excellent technical quality (sharp, well-lit, appetising, with all components visible in both full image and phone thumbnail), the protein identity cannot be accepted. The source description claims the meat is 'ground lamb,' but the visual appearance in the photograph shows grilled meat skewers that do not clearly display the ground meat texture described, and no explicit visual evidence (such as labelling, cross-section, or unambiguous structural markers) confirms lamb species from the image alone. The rule requires 'an exact source quote explicitly naming each animal' as a prerequisite for protein_evidence entry, but the parenthetical explanation in the description, while naming lamb, describes preparation details rather than providing a standalone explicit statement that permits visual verification. The identity check fails because the visual meat form does not unambiguously match the 'ground lamb' claim, and the guidelines prohibit inferring species from tradition or appearance. All other checks pass, but the hold is necessary due to the protein uncertainty.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1802,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 642,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
