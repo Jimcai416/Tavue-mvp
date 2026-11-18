@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBFdzwYEzzv3GDKSYkYe",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Golden-brown curry with visible spice coating\",\n    \"Diced potato chunks distributed throughout\",\n    \"Fresh green cilantro garnish\",\n    \"Served in stainless steel serving bowl with lid\"\n  ],\n  \"phone_observations\": [\n    \"Curry visible and identifiable in thumbnail\",\n    \"Golden colour and texture readable\",\n    \"Adequate detail for dish recognition\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'Aloo Gobi Masala' but no visible cauliflower florets are present in either source or thumbnail image—only potato pieces are clearly visible\",\n    \"Aloo Gobi traditionally contains both potato (aloo) and cauliflower (gobi); cauliflower absence contradicts stated identity\",\n    \"Possibility this is Aloo Masala, Aloo Curry, or another potato-only preparation, but source title explicitly states 'Aloo Gobi Masala'\"\n  ],\n  \"reason\": \"Identity check fails. The source title declares 'Aloo Gobi Masala', which requires both potato and cauliflower as essential components. The photograph shows only diced potato in a golden curry with no visible cauliflower florets. This contradiction between stated identity and visual content cannot be resolved without explicit source clarification. The image quality, sharpness, lighting and phone thumbnail are all acceptable, but identity mismatch is a disqualifying factor.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1769,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 472,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

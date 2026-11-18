@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBFdzxHxbTiBvaswjbSN",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Golden-brown protein portion visible right side\",\n    \"Fried rice with green onion garnish centre\",\n    \"Cucumber slice garnish left\",\n    \"Decorative blue and pink porcelain plate\"\n  ],\n  \"phone_observations\": [\n    \"Protein and rice clearly visible in thumbnail\",\n    \"Colour and composition match full source\",\n    \"Essential components readable at small scale\"\n  ],\n  \"protein_evidence\": {\n    \"pork\": \"Pad Kra Pao Moo Pork\"\n  },\n  \"uncertainties\": [\n    \"Source title describes 'Pad Kra Pao Moo Pork (Thai Basil Pork Stir Fry)' with ground pork stir-fried with garlic and chilies; visible dish shows a large fried or sautéed protein portion (not visibly ground) alongside fried rice\",\n    \"Preparation and form of protein do not match source description—description emphasizes ground pork stir-fry, but photograph shows what appears to be a whole or large pan-fried/shallow-fried piece\"\n  ],\n  \"reason\": \"Identity mismatch between source description and visible dish. The description specifies 'ground pork stir-fried with garlic Thai bird's eye chilies and holy basil,' but the photograph shows a substantial fried/sautéed protein portion (not ground pork) served alongside fried rice. The visible protein form, preparation method, and plating do not correspond to the stated Pad Kra Pao Moo Pork dish. This contradiction between claimed identity and visual evidence prevents acceptance.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1637,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 517,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
