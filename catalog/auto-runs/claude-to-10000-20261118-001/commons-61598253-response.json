@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBEEPW5HjzEcBKwxr2SU",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Orange-red braised dish with visible meat pieces\",\n    \"Glossy sauce coating\",\n    \"Green vegetables visible around edges\",\n    \"White plate, natural daylight\",\n    \"Finished, exposed cooked dish\"\n  ],\n  \"phone_observations\": [\n    \"Prominent orange-red coloured dish clearly visible in thumbnail\",\n    \"Readable overall composition\",\n    \"Appetising appearance maintained at reduced resolution\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source metadata lists 'Tuna Mechado' as one item in a multi-item collection description, but also lists 'Ginisang Patola' and 'Ginisang Ampalaya' without clear assignment of which dish is photographed\",\n    \"Visual appearance (orange-red braised with visible meat pieces and green vegetables) is inconsistent with Ginisang Patola (typically a stir-fry of bottle gourd with minimal sauce) and Ginisang Ampalaya (bitter melon dish)\",\n    \"Visual evidence suggests Tuna Mechado (braised tuna with tomato-based sauce), but metadata does not explicitly state which of the listed dishes this photograph represents\",\n    \"Title contains multiple unrelated foods and ingredients listed together in collection format rather than as a single dish identifier\",\n    \"Species ambiguity: 'Tuna' could refer to ocean tuna (seafood) or prickly pear fruit; context suggests animal protein but not conclusively proven from title alone\"\n  ],\n  \"reason\": \"Reject due to identity failure. The source metadata is a collection inventory listing multiple disparate foods (Patola, Ampalaya, Tuna Mechado, Betel nut products, etc.) without explicit assignment of which dish is shown in this photograph. While the visual appearance (orange-red braised dish with meat and vegetables) is consistent with Tuna Mechado, the metadata does not definitively confirm this identity—it treats all listed items as a single composite description. The title does not contain a clear canonical dish name matching the photograph. Additionally, 'Tuna' species identity cannot be confirmed from the title as a qualifying proteinaceous animal rather than a plant (prickly pear). Without a specific, unambiguous source statement identifying this exact photograph as a named dish, identity verification fails.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 2032,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 663,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

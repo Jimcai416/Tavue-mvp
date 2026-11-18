@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBEEgJ7a5gozqg1Lu4CC",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Orange/red diced meat visible in centre, consistent with cooked tuna\",\n    \"Green diced vegetables (ampalaya/bitter melon) visible around edges\",\n    \"White plate, natural colours, finished dish appearance\",\n    \"Prominent subject, readable components in both full and thumbnail\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows orange central mixture with green vegetable pieces at periphery\",\n    \"Finished, exposed dish with appetising appearance\",\n    \"Sharp detail retained in thumbnail; subject prominent and not clipped\"\n  ],\n  \"protein_evidence\": {\n    \"tuna\": \"Tuna Mechado\"\n  },\n  \"uncertainties\": [\n    \"Source title lists multiple unrelated dishes (Patola, Ampalaya, betel nut, paan) alongside 'Tuna Mechado Ginisang Ampalaya' without clear separation or hierarchy. Identity of this specific photograph is ambiguous.\",\n    \"Ambiguity whether the dish shown is 'Tuna Mechado' (mechado-style preparation), 'Ginisang Ampalaya' (sautéed bitter melon, suggesting ampalaya is primary), or a hybrid combination. Title structure does not clarify which dish is depicted.\",\n    \"No explicit source statement that this photograph illustrates 'Tuna Mechado' specifically; metadata lists it among many unrelated food items and betel-chewing documentation.\"\n  ],\n  \"reason\": \"Source metadata lists this photograph alongside multiple unrelated dishes (Patola fruits, betel nut chewing, paan ingredients) with no clear indication which dish is depicted. The title 'Tuna Mechado Ginisang Ampalaya' is ambiguous: it may indicate mechado-style tuna, sautéed ampalaya with tuna as secondary ingredient, or an unclear combination. Identity cannot be established with certainty from the source description. While the photograph itself is sharp, well-lit, and appetising with visible tuna and ampalaya components, the fundamental requirement that canonical_name be matched to a specific, unambiguous source statement cannot be met. Hold required.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 2032,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 624,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
