@@ -63949,5 +63949,51 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 720,
     "height": 960,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-130042329",
+    "title": "File:Rfissa de poulet marocaine.jpg",
+    "author": "Solima arizo",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rfissa_de_poulet_marocaine.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/44/Rfissa_de_poulet_marocaine.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "72b815d200c14681b2290758d12be2c039ad8369",
+    "name": "Rfissa de poulet marocaine",
+    "aliases": [],
+    "proteins": [
+      "chicken"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-130042329.jpg",
+    "assetSha256": "63f80f200ced7c8ad294ebd0315781d933065b3701e1fd08d2878890e90010cb",
+    "reviewedAt": "2026-11-18",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 720,
+    "height": 960,
+    "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-40987190",
+    "title": "File:Undhiyu.jpg",
+    "author": "Jatan1992",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Undhiyu.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Undhiyu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "47c055cd57cea9ec5cd342f4804504de1b366103",
+    "name": "Undhiyu",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-40987190.jpg",
+    "assetSha256": "30673cd1d47decd6172acbcd200346a1ff8e713b4078180b02b649f1753cc4f2",
+    "reviewedAt": "2026-11-18",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];
