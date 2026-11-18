@@ -4829,3 +4829,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 - **Halászlé** — MOs810. [CC BY 4.0](https://creativecommons.org/licenses/by/4.0); [source](https://commons.wikimedia.org/wiki/File:City_view_from_Siofok_(Hal%C3%A1szl%C3%A9).jpg). Local asset: `reviewed-commons-153445094.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **empanadas** — [stu_spivack](https://www.flickr.com/people/35034346243@N01). [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:Empanada_-_Stu_Spivack.jpg). Local asset: `reviewed-commons-4961437.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Milanesa plated with lemon slices and french fries** — Ben Tavener. [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Milanesa_plated_with_lemon_slices_and_french_fries_(in_Buenos_Aires,_Argentina).jpg). Local asset: `reviewed-commons-28851175.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Esquites en la CDMX** — Photo.MarioVG. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Esquites_CDMX.jpg). Local asset: `reviewed-commons-106154878.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.

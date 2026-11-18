@@ -68830,5 +68830,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 640,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-106154878",
+    "title": "File:Esquites CDMX.jpg",
+    "author": "Photo.MarioVG",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Esquites_CDMX.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Esquites_CDMX.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "743af12d893ddf863b66e212a7018f38ebaefcad",
+    "name": "Esquites en la CDMX",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-106154878.jpg",
+    "assetSha256": "477a2f1d49b0d43a8c5bac8b0f106161ff0da1149b6599c94162693602a91bb5",
+    "reviewedAt": "2026-11-18",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 960,
+    "requiresExactMenuName": true
   }
 ];
