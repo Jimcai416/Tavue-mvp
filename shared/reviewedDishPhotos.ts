@@ -61720,5 +61720,101 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-143238915",
+    "title": "File:Bicol Express at La Herencia Comida.jpg",
+    "author": "Ymirazudis",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bicol_Express_at_La_Herencia_Comida.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Bicol_Express_at_La_Herencia_Comida.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "df829aae479f31236b7686f5101e5e77745e1f7f",
+    "name": "Bicol Express",
+    "aliases": [],
+    "proteins": [
+      "pork"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-143238915.jpg",
+    "assetSha256": "ae11ba86d176fa8c622038dba1b719d1f190c2f5c96dc1a1b5b09351e9e5b9ca",
+    "reviewedAt": "2026-11-18",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 640,
+    "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-51197518",
+    "title": "File:Fish Head Curry at Banana Leaf Apolo.jpg",
+    "author": "JB Macatulad",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fish_Head_Curry_at_Banana_Leaf_Apolo.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Fish_Head_Curry_at_Banana_Leaf_Apolo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "b4858705a9cd52a18792cd116b7c63fa027c884a",
+    "name": "Fish head curry",
+    "aliases": [],
+    "proteins": [
+      "seafood"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-51197518.jpg",
+    "assetSha256": "1a3a795bf09b7e61900747b8b2c07a90910c0a0e53c1aaf3ef02d5ea2d27880e",
+    "reviewedAt": "2026-11-18",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 640,
+    "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-4830443",
+    "title": "File:Fish head curry peranakan z.JPG",
+    "author": "Chensiyuan",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fish_head_curry_peranakan_z.JPG",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/71/Fish_head_curry_peranakan_z.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "211ed05e9b4fefe6b30d570038452e7a353b6fba",
+    "name": "Fish head curry peranakan",
+    "aliases": [],
+    "proteins": [
+      "seafood"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-4830443.jpg",
+    "assetSha256": "3fb26c855513355bb1b2e4729ae008a97fbcdb2aee5961663529653d1de3f585",
+    "reviewedAt": "2026-11-18",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 541,
+    "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-93302912",
+    "title": "File:Fried Pork Spareribs - Claypot King Glen Waverley.jpg",
+    "author": "avlxyz",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fried_Pork_Spareribs_-_Claypot_King_Glen_Waverley.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Fried_Pork_Spareribs_-_Claypot_King_Glen_Waverley.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "8be2bc62f0b62c9f0145452425c53ec06083ad0a",
+    "name": "Fried Pork Spareribs",
+    "aliases": [],
+    "proteins": [
+      "pork"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-93302912.jpg",
+    "assetSha256": "693613d7864eb76bac85d68a89fb9ef58520eb893288470819e7d4b4cf4a4aef",
+    "reviewedAt": "2026-11-18",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];
