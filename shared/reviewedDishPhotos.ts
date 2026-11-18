@@ -82157,5 +82157,51 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-58011042",
+    "title": "File:Ensaladang Lato (Seaweed Salad) - Philippines 1.jpg",
+    "author": "Obsidian Soul",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ensaladang_Lato_(Seaweed_Salad)_-_Philippines_1.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Ensaladang_Lato_%28Seaweed_Salad%29_-_Philippines_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "05f17fa053b4ac55db8077a248e60a1a73aa0a77",
+    "name": "Ensaladang Latô",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-58011042.jpg",
+    "assetSha256": "7d1756cb6c88413bb3238ae7718ee3411ba749e36d9d4890b8d3a050a4356a22",
+    "reviewedAt": "2026-11-18",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 776,
+    "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-175469311",
+    "title": "File:Bacon Silog Meal, Sep 2025.jpg",
+    "author": "Ralff Nestor Nacor",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bacon_Silog_Meal,_Sep_2025.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/82/Bacon_Silog_Meal%2C_Sep_2025.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "2b3a3784a1f78116e6d1fa95633cd6292b43152a",
+    "name": "Bacon Silog Meal",
+    "aliases": [],
+    "proteins": [
+      "pork"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-175469311.jpg",
+    "assetSha256": "f9495778f6d9e9998ef765717de013527ed459dadb53dfdbbf352fdd6ea775be",
+    "reviewedAt": "2026-11-18",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 723,
+    "requiresExactMenuName": true
   }
 ];
