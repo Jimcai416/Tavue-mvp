@@ -76376,5 +76376,28 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 540,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-58414950",
+    "title": "File:Lemang Raya, 2007.jpg",
+    "author": "Emran Kassim",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lemang_Raya,_2007.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/72/Lemang_Raya%2C_2007.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "9d8911637ec58b88dc95f57a1f56092298c404bf",
+    "name": "Lemang",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-58414950.jpg",
+    "assetSha256": "af80e23f081fc132195c80270b3cdb08906280152eca0fe8b6feb4ddb5b2a0a8",
+    "reviewedAt": "2026-11-18",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true,
+    "authorUrl": "https://www.flickr.com/photos/emrank/"
   }
 ];
