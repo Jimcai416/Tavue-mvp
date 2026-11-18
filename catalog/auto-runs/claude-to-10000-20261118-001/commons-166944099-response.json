@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBF8ZjRvBv2S5ULThBEZ",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Active grilling operation with charred meat visible\",\n    \"Multiple protein pieces on metal grate over open flame\",\n    \"Street food/vendor context evident\",\n    \"Cooked exterior with browning and char marks\"\n  ],\n  \"phone_observations\": [\n    \"Grilled proteins prominent in frame\",\n    \"Charred surfaces and cooking stage clearly visible\",\n    \"Vendor with cooking tools visible in thumbnail\",\n    \"Active preparation/cooking stage, not finished plated dish\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title references 'Tinola' (a Filipino stew traditionally simmered in ginger broth) but photograph shows grilling operation, not a finished tinola dish\",\n    \"Description states 'Fish and pork being grilled' but no finished dish is presented—this is active cooking/preparation stage\",\n    \"Species cannot be verified visually: meat pieces are charred; fish type unspecified in source\",\n    \"Venue name suggests a restaurant/establishment, but this is active grilling, not a plated or finished service-ready dish\"\n  ],\n  \"reason\": \"Source title/description conflict: 'Tinola' implies a finished simmered dish, but photograph captures active grilling in preparation. The image shows cooking in progress, not a finished, exposed, plated dish suitable for food review. Per guidelines, raw/preparation stages are rejected. Additionally, protein species (fish type, pork cut/quality) are unspecified and cannot be visually confirmed from charred surfaces. Hold for clarification of actual finished dish identity and plating.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1754,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 499,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

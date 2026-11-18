@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBF9EkwsURfehG4JZP7Q",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 3,\n    \"appeal\": 3\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Meat strips on metal grating visible in thumbnail\",\n    \"Charred exterior evident\",\n    \"Metal cooking surface clearly shown\",\n    \"Cooked state apparent\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title states 'Jerk Chicken' but no chicken is visually identifiable in the photograph; the meat appears to be a continuous strip or multiple strips with uniform charring characteristics inconsistent with typical chicken presentation\",\n    \"Meat species cannot be definitively determined from visual inspection alone—the form, texture and charring pattern do not conclusively match poultry anatomy\",\n    \"No explicit confirmation that the visible meat corresponds to the declared protein in the source title\"\n  ],\n  \"reason\": \"Reject: Identity check fails. Source declares 'Jerk Chicken' but the photograph shows unidentifiable meat strip(s) on a metal grate. The visual form does not clearly support chicken identification—the continuous strip structure, texture and charring pattern are inconsistent with exposed chicken parts. The source title alone cannot substitute for visual protein evidence. This is a preparation/cooking-stage image (meat on active grate) rather than a finished, plated dish. Protein species cannot be visually confirmed, triggering mandatory hold per rules, but the cooking-stage nature and inability to identify the finished dish state also warrant rejection.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1592,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 444,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

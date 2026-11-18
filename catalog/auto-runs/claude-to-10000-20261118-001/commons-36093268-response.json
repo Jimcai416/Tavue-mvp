@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBF8ZQpbeiSi8DrhYuZa",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 3,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Raw poultry carcass mounted on rotisserie spit\",\n    \"Pale, uncooked flesh visible\",\n    \"No browning, caramelization or char marks\",\n    \"Preparation/raw stage, not finished dish\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Poultry species not visually confirmed as chicken\",\n    \"No visible evidence of jerk seasoning, marinade or cooking completion\"\n  ],\n  \"reason\": \"Image shows raw/preparation stage poultry on a rotisserie before cooking is complete. No browning, colour development, or finished dish characteristics visible. Essential requirement: 'Accept only a finished, exposed, likely photographic dish.' This is mid-preparation. Though metadata claims 'Jerk Chicken Rotisserie,' the actual visible subject is an uncooked bird with no visible jerk preparation marks or cooking completion. Reject for preparation stage and lack of finished dish criteria.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1523,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 361,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

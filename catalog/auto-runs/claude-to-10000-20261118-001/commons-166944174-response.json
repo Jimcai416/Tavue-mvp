@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBF8kFSLRueuc1Zszw72",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Active street/outdoor grill with multiple meat pieces\",\n    \"Charred, cooked meat with appetising browning\",\n    \"Finished plate visible at bottom with grilled meat and what appears to be a grilled vegetable or offal\",\n    \"Natural daylight, food prominently displayed\",\n    \"Phone thumbnail shows grilled meat clearly\"\n  ],\n  \"phone_observations\": [\n    \"Grilled meat pieces clearly visible on grill grates\",\n    \"Charred exterior consistent with finished cooking\",\n    \"Multiple items recognisable as cooked meat products\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Species identification impossible: source metadata claims 'fish being grilled' but photograph shows only terrestrial meat pieces (chicken, pork, beef, lamb, or offal cuts). No visible fish anatomy, skin, or fins present.\",\n    \"Source title 'Parrt Ebelle Tinola 2023-10-21 007.jpg' provides no dish identity or protein declaration—only a filename.\",\n    \"Source description contradicts visible content: declared fish contradicts meat-only appearance on grill and plate.\",\n    \"No canonical dish name extractable from untrusted metadata.\",\n    \"Cannot verify 'Tinola' (which is typically a broth-based stew) matches this grilled preparation.\"\n  ],\n  \"reason\": \"Reject: source metadata declares 'fish being grilled' but photograph displays only terrestrial cooked meat cuts (chicken, pork, beef, lamb, or organ meat)—no fish anatomy or seafood characteristics visible. This is a source contradiction. No exact dish name or protein species can be extracted from the filename alone. The description is unreliable evidence. Identity check fails.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1751,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 531,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

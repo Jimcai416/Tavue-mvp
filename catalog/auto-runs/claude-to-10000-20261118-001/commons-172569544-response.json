@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBF9NSnpUbH8ERGvKLxb",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Grilled meat visible in multiple plates and central pan\",\n    \"Charred exterior consistent with grilling\",\n    \"Natural daylight, outdoor setting\",\n    \"Multiple portions arranged on white plates and serving vessel\"\n  ],\n  \"phone_observations\": [\n    \"Grilled meat pieces clearly visible at thumbnail resolution\",\n    \"Distinct plating and serving arrangement readable\",\n    \"Subject prominent and well-framed in phone crop\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Species identity conflict: metadata states 'grilled fish and pork' but image shows only large pieces of meat with no visually distinguishable fish characteristics; fish would require intact skin, scales, or bone structure to verify\",\n    \"If fish is present, species is unidentifiable from visual inspection alone\",\n    \"Pork qualifier present in metadata but cannot be visually confirmed as distinct from other large meat cuts (beef, lamb, etc.)\",\n    \"No explicit source text quote naming individual animals in the title or description supplied\"\n  ],\n  \"reason\": \"Identity check fails due to unresolved protein uncertainty. Metadata describes 'grilled fish and pork' but (1) no visually distinctive fish characteristics are evident (scales, skin, bone structure, flaking, or anatomical shape diagnostic of fish), (2) the large meat pieces shown could be pork, beef, lamb, or other species and cannot be disambiguated visually, and (3) no exact source title/description quote explicitly names the animals. The establishment name 'Parr't Ebelle Tinola' and metadata description alone do not constitute visual proof of identity or species. All quality and photograph checks pass, but the protein_evidence map cannot be populated with any allowed category, and uncertainties are not empty. Hold rule prohibits acceptance when protein species is ambiguous or unconfirmed by explicit source quote.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1544,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 555,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
