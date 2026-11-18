@@ -44793,5 +44793,53 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 694,
     "height": 960,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-152528202",
+    "title": "File:Chicken Shawarma Wrap - Lavash 2024-09-11.jpg",
+    "author": "Andy Li",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chicken_Shawarma_Wrap_-_Lavash_2024-09-11.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Chicken_Shawarma_Wrap_-_Lavash_2024-09-11.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "4a6467e7d2d5343e6bee2d33a67559d44bd28e17",
+    "name": "Chicken Shawarma Wrap - Lavash",
+    "aliases": [],
+    "proteins": [
+      "chicken"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-152528202.jpg",
+    "assetSha256": "23847a49a77f66fd860fd13efbe3f492fbcbc7190b8945698568371bce304a67",
+    "reviewedAt": "2026-11-18",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 720,
+    "height": 960,
+    "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-126091141",
+    "title": "File:Shawarma chicken.jpg",
+    "author": "Nitinshrinivas",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Shawarma_chicken.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/02/Shawarma_chicken.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "027e0c1642cedfd834f45e026648e0e775e4c8f6",
+    "name": "Shawarma chicken",
+    "aliases": [],
+    "proteins": [
+      "chicken"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-126091141.jpg",
+    "assetSha256": "4629ac80c20be0b13bec643374bcea93d390c8a382989cfc4e245a4d98af5f56",
+    "reviewedAt": "2026-11-18",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 720,
+    "height": 960,
+    "requiresExactMenuName": true
   }
 ];
