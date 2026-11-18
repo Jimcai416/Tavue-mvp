@@ -50324,5 +50324,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 540,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-175363670",
+    "title": "File:Pan de queso (pão de queijo) con cebollitas de verdeo de la Provincia de Misiones (Argentina).jpg",
+    "author": "Horacio Cambeiro",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pan_de_queso_(p%C3%A3o_de_queijo)_con_cebollitas_de_verdeo_de_la_Provincia_de_Misiones_(Argentina).jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Pan_de_queso_%28p%C3%A3o_de_queijo%29_con_cebollitas_de_verdeo_de_la_Provincia_de_Misiones_%28Argentina%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "d40b8a0c2eb7048828542bf4429b353101e19c78",
+    "name": "Pan de queso (pão de queijo) con cebollitas de verdeo",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-175363670.jpg",
+    "assetSha256": "6b9bb0af911542abc485ce4e92dab6217d735f3c13704e1e1693fb0bdb2d4120",
+    "reviewedAt": "2026-11-18",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];
