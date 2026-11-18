@@ -42237,5 +42237,77 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 840,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-46468615",
+    "title": "File:Soto Ceker 1.jpg",
+    "author": "Gunawan Kartapranata",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Soto_Ceker_1.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Soto_Ceker_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "c4c6ec3370c369e4aa22973a4451b1756f04031c",
+    "name": "Soto Ceker, Indonesian chicken feet in spicy soto soup",
+    "aliases": [],
+    "proteins": [
+      "chicken"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-46468615.jpg",
+    "assetSha256": "9dc792b1a4494f79c42b2f254c906c0d6bfbf3445331832d88b46b90b8ca14ea",
+    "reviewedAt": "2026-11-18",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 641,
+    "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-1443355",
+    "title": "File:Soto ayam.JPG",
+    "author": "Sakurai Midori",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Soto_ayam.JPG",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/05/Soto_ayam.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "616b5106c04aa103c8e38042d2afb011c9a6d43e",
+    "name": "Soto Ayam (Indonesian chicken soup)",
+    "aliases": [],
+    "proteins": [
+      "chicken"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-1443355.jpg",
+    "assetSha256": "6c2fb1ecc1ff0b3f97b290b1296dddf1fdc8e952903418753f4241b554ba47ba",
+    "reviewedAt": "2026-11-18",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-74013925",
+    "title": "File:Soto ayam lamongan.jpg",
+    "author": "Shinta amalia",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Soto_ayam_lamongan.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Soto_ayam_lamongan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "4ed0aa4bad9cd9152a0b6f99bb38aa15a373d54a",
+    "name": "Soto ayam lamongan",
+    "aliases": [],
+    "proteins": [
+      "chicken"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-74013925.jpg",
+    "assetSha256": "e25b06a71a0499409c928c93bba7deea137cf84f6b773aa34755f9fd4fd70964",
+    "reviewedAt": "2026-11-18",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 720,
+    "height": 960,
+    "requiresExactMenuName": true
   }
 ];
