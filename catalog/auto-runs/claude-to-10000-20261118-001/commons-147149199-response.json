@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBHqXzNy5Cp93ReWHyfY",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Grilled meat with charred exterior on bright green plate\",\n    \"Cucumber slices and grilled onion visible as garnish\",\n    \"Natural daylight on pink tablecloth\",\n    \"Multiple meat pieces suggest mixed grilled components\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail shows grilled meat and garnish clearly\",\n    \"Green plate and pink background maintain prominence\",\n    \"Dish composition readable in phone view\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title mentions 'cánh gà nướng' (grilled chicken wing) and 'sườn nướng' (grilled ribs), but source meat species for ribs is unspecified—could be pork, beef, or lamb\",\n    \"Exact animal identity for the rib portion cannot be visually confirmed from appearance alone\",\n    \"Description 'Grilled food of Vietnam' is generic and does not resolve the ambiguity\"\n  ],\n  \"reason\": \"The photograph shows finished, exposed grilled meat with appetising appearance, good sharpness and composition. However, the source title contains an ambiguous meat component: 'sườn nướng' (grilled ribs) does not explicitly name the animal species. Vietnamese ribs can be pork, beef, or lamb. The chicken wing component is named ('cánh gà'), but the rib species cannot be verified from visual inspection or source text. Per protocol, ambiguous meat species requires hold status. No canonical name can be assigned until species ambiguity is resolved.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1794,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 490,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
