@@ -85326,5 +85326,51 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 720,
     "height": 960,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-20359013",
+    "title": "File:Cá lóc nướng trui.JPG",
+    "author": "Memberofc1",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:C%C3%A1_l%C3%B3c_n%C6%B0%E1%BB%9Bng_trui.JPG",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fa/C%C3%A1_l%C3%B3c_n%C6%B0%E1%BB%9Bng_trui.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "fd1abd27dfb4db2722288673807bd57624a0e3d0",
+    "name": "Vietnamese grilled snakehead fish",
+    "aliases": [],
+    "proteins": [
+      "seafood"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-20359013.jpg",
+    "assetSha256": "f2a7685d7d87ecf71884807dde986e990eb3572d5f6287e305f7df03c7bd9836",
+    "reviewedAt": "2026-11-18",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-45531898",
+    "title": "File:Bánh giầy ngọt.jpg",
+    "author": "Viethavvh",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:B%C3%A1nh_gi%E1%BA%A7y_ng%E1%BB%8Dt.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1a/B%C3%A1nh_gi%E1%BA%A7y_ng%E1%BB%8Dt.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "079efb8d6d21bcfddfb72a3d137301b91081a7f0",
+    "name": "Bánh dầy nhân đậu xanh sên đường",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-45531898.jpg",
+    "assetSha256": "ecb6011e1f4ff268ca1c6312e8d005a1edc54bad9a4c1468893af51590b7f0a1",
+    "reviewedAt": "2026-11-18",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];
