@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChB1TXuwGm4ctQgvda9Nx",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Ramen noodle garnish clearly visible standing upright\",\n    \"Orange-pink shrimp prominently displayed\",\n    \"Dark mussels visible in broth\",\n    \"Fresh mint and basil herbs garnishing the dish\",\n    \"Golden broth consistent with lemongrass preparation\",\n    \"White bowl presentation on dark table\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows finished plated dish with ramen noodle standing upright\",\n    \"Shrimp, mussels, and herbs distinctly visible\",\n    \"Golden broth and plating recognisable at small size\",\n    \"Dish identity readable in thumbnail context\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title lists 'Manila Clams' and 'Snow Crab Claws' as components, but clams and crab are not permitted protein categories (only chicken/beef/pork/duck/lamb/seafood allowed, and only seafood may appear, not specific shellfish species as independent keys)\",\n    \"Source lists 'Royal Shrimp' (shrimp is seafood) but cioppino traditionally contains multiple shellfish species that cannot be verified individually in the image with certainty\",\n    \"Protein category 'seafood' is too generic without an exact case-sensitive substring from title matching a specific allowed key\"\n  ],\n  \"reason\": \"Image quality and photograph composition are strong, and the dish is recognisable as a cioppino variant with visible components (shrimp, mussels, ramen, herbs, broth). However, the source description lists clams and crab claws as named components. These are shellfish, not members of the allowed protein categories (chicken/beef/pork/duck/lamb/seafood). While shrimp may qualify as 'seafood', the source explicitly names other shellfish species (Manila Clams, Snow Crab Claws) as essential dish components. Clams and crab cannot be encoded into protein_evidence using the allowed category keys. The dish identity depends on shellfish species that fall outside permitted protein classification. Hold pending clarification or use of a source that names only permitted proteins.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1698,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 632,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
