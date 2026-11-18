@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChB1wyEUZi65ccfX6f3u7",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 3,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Yellow couscous visible in compartments with browned meat or protein scattered across top\",\n    \"Plastic tray format typical of canteen/institutional service\",\n    \"Couscous grain structure clearly visible at thumbnail scale\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Meat species cannot be determined visually from the browning alone; source title references 'Couscous marocain' but provides no explicit protein declaration\",\n    \"Source metadata (title, author, license) are untrusted; actual dish name and meat type are not provided in verifiable description\",\n    \"Browned protein material is ambiguous in appearance and could represent multiple species\"\n  ],\n  \"reason\": \"Source title 'Couscous marocain resto UCAD 01.jpg' is filename metadata and explicitly untrusted per instructions. No explicit protein species declaration is provided in the description field. The meat visible in the image cannot be reliably identified to species from appearance alone. Identity cannot be confirmed; protein_evidence cannot be populated without an exact source quote naming the animal. All checks cannot be satisfied without explicit canonical description and protein identification. Hold rule applies: unknown meat species means hold, but rejection is warranted due to absence of any trusted source description beyond untrusted filename.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1740,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 428,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
