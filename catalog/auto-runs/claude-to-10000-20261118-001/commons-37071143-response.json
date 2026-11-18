@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChB9BQtVWN2j6Mp1poeaz",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 3,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Soup/stew in white bowl with spoon\",\n    \"Golden-brown broth with visible herbs/spices\",\n    \"Green salad with tomato and onion in background\",\n    \"Natural home-service presentation\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail shows only golden-brown broth surface\",\n    \"Essential identity components (ingredients, texture detail) not readable at phone size\",\n    \"Cannot verify specific dish type from thumbnail alone\",\n    \"Spoon visible in full image but absent from centre-cover crop\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title 'Chorba Frik' incomplete: no source description provided beyond filename\",\n    \"Chorba variants are numerous (chickpea, meat, vegetable); no visible protein confirmation in image\",\n    \"Golden broth and herbs visible but specific ingredients not definitively identifiable\",\n    \"No explicit source text confirming identity beyond untrusted filename\",\n    \"Frik (green wheat) may be present but not visually proven in photograph\"\n  ],\n  \"reason\": \"Source title is filename only ('File:Chorba Frik.jpg'), with no accompanying description text. While the image shows a finished soup/stew in natural home presentation with good lighting and composition, the specific identity cannot be verified from visual evidence alone. No protein animals are explicitly named in source text. The phone thumbnail cannot resolve essential components to confirm the dish type. Full source metadata is insufficient to meet identity verification requirements.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1725,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 477,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
