@@ -48775,5 +48775,51 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 752,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-142780790",
+    "title": "File:Chicken adobo meal 20231025.jpg",
+    "author": "Ian Lopez ( Ianlopez1115 )",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chicken_adobo_meal_20231025.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Chicken_adobo_meal_20231025.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "75bdb7357cf344b8393d7e5893e97cabea0b722a",
+    "name": "Chicken adobo meal",
+    "aliases": [],
+    "proteins": [
+      "chicken"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-142780790.jpg",
+    "assetSha256": "ae9e3aacfed210035409105f131e697a61e9c261b5f4a5943ad99cf8c177598c",
+    "reviewedAt": "2026-11-18",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-103621800",
+    "title": "File:Udupi style Mattu Gulla Sambar -My Home Bangalore-Karnataka-pic 12 Bisu.jpg",
+    "author": "ShruthiGauravAlva",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Udupi_style_Mattu_Gulla_Sambar_-My_Home_Bangalore-Karnataka-pic_12_Bisu.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Udupi_style_Mattu_Gulla_Sambar_-My_Home_Bangalore-Karnataka-pic_12_Bisu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "d02b9d95cd8bb90726af8f60a0f604af1a8611c5",
+    "name": "Udupi style Mattu Gulla Sambar",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-103621800.jpg",
+    "assetSha256": "258e426a91ea4cc02b82efeb4390471105b284890cc0d32b2d279e8eb73cad90",
+    "reviewedAt": "2026-11-18",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 720,
+    "height": 960,
+    "requiresExactMenuName": true
   }
 ];
