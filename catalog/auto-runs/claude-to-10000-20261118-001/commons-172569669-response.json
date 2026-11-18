@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBFCZQvvw4BGeNao6R2J",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Cooked meat pieces with charred exterior visible on plate\",\n    \"Broth or soup component in separate bowl\",\n    \"Side dishes (peppers, condiments) in small plates\",\n    \"Home/casual restaurant setting\"\n  ],\n  \"phone_observations\": [\n    \"Meat dish clearly visible in phone thumbnail\",\n    \"Broth component shown\",\n    \"Multiple accompaniments present\",\n    \"Adequate detail for dish recognition\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title describes 'Tinola and pork belly' but the photograph shows only prepared/cooked meat pieces and broth components without clear visual distinction of which portion is tinola (a ginger-based broth dish) versus which is the pork belly preparation\",\n    \"Species identity cannot be visually confirmed as pork from the charred, cooked meat alone—the source declares 'pork belly' but no unambiguous pork-specific anatomical features are visible in the finished dish\",\n    \"The dish composition does not clearly show the characteristic tinola structure (a broth-based stew with ginger, garlic, and ginger leaves) in a single cohesive presentation; instead it appears as separate components (broth bowl + meat plate)\",\n    \"Identity mismatch: source describes a composite dish ('Tinola and pork belly') but the photograph shows what appears to be a plated meat course with separate broth and sides, not a single unified tinola preparation\"\n  ],\n  \"reason\": \"Reject: Although the photograph is sharp, well-lit, and shows finished cooked meat with appetizing char and presentation, the identity check fails. The source describes 'Tinola and pork belly' as a single dish, but the photograph shows separated components (charred meat pieces on one plate, broth in a separate bowl) that do not visually correspond to a cohesive tinola preparation. Tinola is characteristically a ginger-based broth stew, but the visual presentation here contradicts that form. Additionally, while the source text declares 'pork belly', the cooked, charred meat pieces do not display unambiguous pork-specific anatomy, and the protein cannot be confirmed from appearance alone. The separation of components and lack of visual alignment with the stated dish identity prevent acceptance.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1544,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 653,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
