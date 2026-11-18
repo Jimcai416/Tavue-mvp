@@ -6142,3 +6142,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 - **Kuih cincin** — Ranking Update. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Kuih_cincin.JPG). Local asset: `reviewed-commons-27829258.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Kuih pinjaram** — Ranking Update. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Kuih_pinjaram_(Penyaram).jpg). Local asset: `reviewed-commons-27868956.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Bánh đúc** — Memberofc1. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:B%C3%A1nh_%C4%91%C3%BAc.JPG). Local asset: `reviewed-commons-20359001.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Lontong Tuyuhan** — Candramawa99. [CC BY 4.0](https://creativecommons.org/licenses/by/4.0); [source](https://commons.wikimedia.org/wiki/File:Lontong_Tuyuhan_11.jpg). Local asset: `reviewed-commons-179813026.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.

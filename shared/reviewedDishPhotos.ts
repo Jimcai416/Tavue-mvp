@@ -84017,5 +84017,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-179813026",
+    "title": "File:Lontong Tuyuhan 11.jpg",
+    "author": "Candramawa99",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lontong_Tuyuhan_11.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Lontong_Tuyuhan_11.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "d52112315ab994aaeafb4a0f11e10bda70d9fa42",
+    "name": "Lontong Tuyuhan",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-179813026.jpg",
+    "assetSha256": "94ae312d99b0372d60ce57d2474b34ba4fd5797b1566fbf370cd2ef16b6a8f0c",
+    "reviewedAt": "2026-11-18",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 640,
+    "requiresExactMenuName": true
   }
 ];
