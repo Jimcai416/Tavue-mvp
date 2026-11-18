@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAUPXB4R3YFjW7v3DaQH",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"White rice portion clearly visible on left side\",\n    \"Golden-brown curry sauce with visible texture and depth\",\n    \"Metallic spoon resting in curry\",\n    \"Natural daylight, well-exposed dish\",\n    \"Finished, served state in white bowl\"\n  ],\n  \"phone_observations\": [\n    \"Curry and rice both legible in thumbnail\",\n    \"Dish composition recognizable at small size\",\n    \"Spoon detail visible even at 124x96\",\n    \"Overall composition readable\"\n  ],\n  \"protein_evidence\": {\n    \"chicken\": \"chicken curry\"\n  },\n  \"uncertainties\": [\n    \"Source title says 'Chicken' but description says 'chicken curry' – minor inconsistency in capitalization/phrasing\",\n    \"Actual chicken pieces not clearly visible in photograph; only curry sauce visible. Protein identity depends entirely on source text declaration, not visual confirmation of meat\",\n    \"Curry ingredients and exact preparation style not visually determinable\"\n  ],\n  \"reason\": \"Source declares 'chicken curry' in description and 'Chicken' in title. Protein evidence supports chicken as named. Quality, sharpness, lighting, composition and phone legibility all meet threshold (scores ≥4). However, no actual chicken pieces are visually apparent in the photograph – the dish shows only rice and a golden curry sauce. While the source text explicitly names chicken, the visual evidence cannot independently confirm the protein species. This creates a gap between source declaration and visual verification. Holding pending confirmation that this represents a finished, authentic chicken curry dish with the protein component present but not prominently visible in the angle captured.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1649,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 506,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

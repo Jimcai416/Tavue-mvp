@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAUQ9Mvxd9RUxriz9bTe",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 3,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Scene shows food service/preparation activity in a crowded public setting\",\n    \"Central pot with liquid visible but contents unclear in thumbnail\",\n    \"Multiple people in casual/work attire handling small bowls\",\n    \"Cannot discern finished plated dish as subject\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source metadata (title/description) identifies people, not a dish: '木瀬部屋 宇良和輝' (Kise-beya Ura Kazuki—a sumo wrestler name)\",\n    \"No dish name or food identity provided in source\",\n    \"Photograph documents a food event/service scene, not a finished, presented dish suitable for menu documentation\",\n    \"What is being served is not clearly identifiable from the image\"\n  ],\n  \"reason\": \"Identity check fails: source metadata names a person (sumo wrestler), not a food dish. Photograph shows food preparation/service activity at a public event rather than a finished, exposed, appetising dish ready for menu cataloguing. No canonical dish name can be extracted from the source. The image documents an event moment, not a photographic food subject meeting Tavue's documentary standards for finished dishes.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1631,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 415,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAUPuidx2cfCGcc5peca",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 2,\n    \"composition\": 2,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows powdered/dusted chicken pieces, but detail is minimal at this resolution\",\n    \"Lighting in thumbnail is dim and uneven\",\n    \"Chicken pieces are small and poorly defined in thumbnail view\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title claims 'Filipino chicken adobo' but photograph shows what appears to be fried or sautéed chicken heavily dusted with powdered sugar or flour—not characteristic adobo appearance or colour\",\n    \"Adobo should be a braised dish with sauce; this appears dry and dusted\",\n    \"Visual appearance contradicts stated identity\",\n    \"Severe underexposure and uneven lighting obscure actual dish characteristics\",\n    \"Cannot verify if this is actually chicken adobo or a different preparation entirely\"\n  ],\n  \"reason\": \"Rejection: photograph quality fails (severe underexposure, uneven lighting, sharpness 2/5); apparent identity contradiction—source claims Filipino chicken adobo but visual appearance suggests fried/dusted chicken, not braised adobo; phone thumbnail is too dim and low-detail to confirm any dish identity; all quality scores below acceptance threshold; uncertain whether photograph matches stated dish at all.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1866,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 421,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
