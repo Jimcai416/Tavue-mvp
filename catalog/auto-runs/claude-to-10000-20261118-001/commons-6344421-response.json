@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAmZjcgU7c5kb8fR6Q2x",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Sliced smoked meat visible on plate\",\n    \"Yellow potato dumplings (bramborový knedlík) clearly present\",\n    \"Caramelized onion accompaniment visible\",\n    \"Home-cooked plated dish\",\n    \"Natural lighting, appetizing presentation\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail shows full plate composition clearly\",\n    \"Protein, starch and onion components all readable\",\n    \"Yellow dumplings prominent and identifiable\",\n    \"Meat slices visible and sharp\",\n    \"Overall dish presentation clear at reduced size\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title contains 'Uzené maso' (smoked meat) but exact animal species is not specified in title or description\",\n    \"Generic 'maso' means meat without species qualifier; cannot confirm beef, pork, or other allowed category\",\n    \"Appearance suggests pork but visual inference of species is not permitted without explicit source declaration\"\n  ],\n  \"reason\": \"Image quality, sharpness, lighting and composition all meet standards. Thumbnail is clear and readable. However, the source title 'Uzené maso, bramborový knedlík, cibulka' uses only the generic term 'maso' (meat) without specifying the animal species. Protein identity requires an explicit source quote naming the specific animal (chicken/beef/pork/duck/lamb/seafood). Visible appearance suggesting pork does not constitute valid evidence. Hold pending clarification of meat species from source metadata.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1742,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 494,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
