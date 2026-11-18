@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAhP1C2JSqueTXLpYh4L",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Finished plated dish with braised meat and mashed potato\",\n    \"Brown stewed meat pieces with glossy sauce\",\n    \"Creamy pale yellow mashed potato portion\",\n    \"White plate on bright daylight surface\",\n    \"Distinct two-component presentation\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows brown meat component and yellow potato\",\n    \"Proportions and colour contrast readable at small scale\",\n    \"Dish identity visually discernible in phone view\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title states 'Greek stifado' but no meat species is explicitly named in title or description\",\n    \"Stifado traditionally contains beef or rabbit, but source does not declare the specific animal\",\n    \"Meat species cannot be inferred from appearance alone\",\n    \"Description 'Greek stifado' is a category label, not a full dish specification with meat qualifier\"\n  ],\n  \"reason\": \"Image quality, sharpness, lighting, composition and appeal are all strong (scores ≥4). The photograph and thumbnail are both clear and appetising. However, the source title 'Greek stifado' names only a dish category without explicitly declaring which meat species is present. Stifado is traditionally made with beef or rabbit, but the supplied metadata does not state the specific protein. Per protocol, ambiguous meat species—including failure to explicitly name the animal in the source—requires a hold. The canonical name cannot be established without exact protein specification from the source title/description.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1724,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 485,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
