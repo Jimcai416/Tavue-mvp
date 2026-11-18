@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChB2jeg3NLBp3cViAX1c5",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Bowl of noodle soup with pale broth\",\n    \"Sliced meat visible on top\",\n    \"Green onion garnish\",\n    \"Wheat noodles in clear broth\",\n    \"White bowl with brown rim\",\n    \"Chopsticks present\",\n    \"Home/restaurant setting\"\n  ],\n  \"phone_observations\": [\n    \"Noodle soup clearly visible in foreground\",\n    \"Bowl composition prominent and readable\",\n    \"Meat and green garnish distinguishable\",\n    \"Broth colour and noodle form clear\",\n    \"Second bowl visible in background\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Description claims 'shredded pork and fish cake' but source title is 'Okinawa soba noodle' with no explicit protein qualifier in the title\",\n    \"Visible meat slices appear cooked but species cannot be definitively confirmed from photograph alone\",\n    \"Description contains marketing language ('very tasty', 'easy on the purse', 'So nice') which are user comments, not authoritative dish identity\",\n    \"Fish cake (kamaboko) is visible but description does not explicitly name it as a source ingredient—only as user observation\",\n    \"Title does not specify pork or fish cake; description attributes are unverified user commentary\"\n  ],\n  \"reason\": \"Image quality, sharpness, lighting, composition and phone thumbnail are all excellent. The dish is clearly a finished noodle soup served in a traditional setting. However, the source title 'Okinawa soba noodle' lacks explicit protein qualifiers, and the description mentioning 'shredded pork and fish cake' is user commentary ('The soup was very tasty...', 'Its price was easy on the purse...'), not authoritative source metadata. Per protocol, hidden flavours may be source-declared only if they appear in the title or formal description—not in user experience commentary. The visible meat and fish cake cannot be confirmed as pork specifically from the photograph alone. Identity and protein evidence cannot be established with certainty from the supplied authoritative source information. Hold for clarification of exact dish name and confirmed proteins from reliable source metadata.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1766,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 634,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChB2jGrPQmVH3KBxDBxTb",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Rice noodles visible in white bowl\",\n    \"Pink/red raw beef slices identifiable\",\n    \"Green onions and cilantro garnish prominent\",\n    \"Clear broth with herb-rich seasoning\",\n    \"White ceramic serving bowl\",\n    \"Lime wedges visible at table edge\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail shows noodle soup with meat and herbs\",\n    \"Pink beef and green garnish clearly readable\",\n    \"Bowl shape and broth colour preserved\",\n    \"Essential components visible at phone resolution\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title 'Cuisine of Vietnam' + filename reference to phở Lý Quốc sư does not constitute an explicit canonical dish name in the description field\",\n    \"Beef species not explicitly named in provided description—only inferred from visual appearance (pink raw slices typical of phở)\",\n    \"Generic 'Cuisine of Vietnam' description lacks specific dish identity confirmation\",\n    \"Filename suggests phở but metadata title/description do not contain exact dish phrase\"\n  ],\n  \"reason\": \"Photograph and phone thumbnail are both sharp, well-lit, naturally coloured, and appetising. Visible components (noodles, raw beef, herbs, broth, garnish) are identifiable. However, identity check fails: the source description provided is generic ('Cuisine of Vietnam') and does not contain an explicit canonical dish name. While the filename hints at 'phở Lý Quốc sư', filenames are explicitly untrusted metadata and cannot serve as the canonical source. The description alone does not state the dish name or confirm beef as a named protein. Without a trusted, explicit dish title or protein declaration in the actual description field, identity cannot be verified. Hold pending a source description that names the specific dish and explicitly identifies the protein.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1904,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 558,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
