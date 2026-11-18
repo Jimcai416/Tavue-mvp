@@ -3920,3 +3920,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 
 - **Green garlic and spinach soup** — [Valerie Hinojosa  from Washington DC, USA](https://www.flickr.com/people/54357435@N00). [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:Green_garlic_and_spinach_soup.jpg). Local asset: `reviewed-commons-57246532.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Swedish spinach soup with egg halves** — Axel Pettersson. [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Spenatsoppa.jpg). Local asset: `reviewed-commons-71105626.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Supe me spinaq** — MirelaAndoni. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Supe_me_spinaq.jpg). Local asset: `reviewed-commons-147431481.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
