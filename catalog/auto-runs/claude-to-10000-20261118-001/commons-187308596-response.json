@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChB81SwtJJpVsaqx4tLLu",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Curly instant noodles in golden-brown broth\",\n    \"Visible meat pieces (dark, irregular chunks) distributed throughout\",\n    \"Fresh garnish: chopped green herbs, diced red peppers, scattered across top\",\n    \"Rich, spiced broth with reddish-brown tone\",\n    \"White ceramic bowl on wooden surface\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows the noodle bowl composition\",\n    \"Broth colour and meat visibility preserved at reduced size\",\n    \"Dish remains prominent and identifiable\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title 'Pepper soup noodles' does not explicitly name any protein/meat species\",\n    \"Meat is visually present (dark chunks appear to be beef or possibly goat/lamb) but cannot be identified by species from appearance alone\",\n    \"No text in title or description provides an exact quote naming the animal\",\n    \"Regional variant qualification (e.g. Nigerian pepper soup noodles) is not provided in source metadata\"\n  ],\n  \"reason\": \"Image quality and photograph composition are strong (all technical scores ≥4), and the dish is finished, appetising, and well-presented in both full and thumbnail formats. However, the identity check fails because the source title 'Pepper soup noodles' contains no explicit protein species declaration. While meat is clearly visible in the dish, the source metadata does not provide the required exact quote naming the animal type. Protocol requires protein_evidence keys to be supported by explicit source text, never inferred from appearance. Hold pending clarification of meat species from source.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1543,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 507,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
