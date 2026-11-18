@@ -5942,3 +5942,15 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 - **Daulat ki Chaat** — Kanikagupta06. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Daulat_ki_chaat,_a_desert_from_Old_Delhi_or_Dilli_6,_made_only_during_winter.jpg). Local asset: `reviewed-commons-126217612.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Suji Barfi** — Sushreebbsr. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Suji_Barfi-Odisha.jpg). Local asset: `reviewed-commons-102415483.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Pongal** — Ashok Kumar P S. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Pongal_-_1.jpg). Local asset: `reviewed-commons-40832107.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Suji Dry Halwa** — Miansari66. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Semolina_Dry_Halwa.JPG). Local asset: `reviewed-commons-15827595.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Barfi** — Rocky Masum  
+ 
+ 
+
+  
+      
+ 
+   This work   was made by   Masum-al-Hasan Rocky   and released under the license(s) stated below. Please feel free to use it for any purpose as long as you credit  Masum-al-Hasan Rocky  as author and follow the terms of the chosen license. If you use this work  outside  of the Wikimedia projects, I would very much like to get   a note   from you. Thanks!. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:%E0%A6%AC%E0%A6%B0%E0%A6%AB%E0%A6%BF.jpg). Local asset: `reviewed-commons-134169518.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
