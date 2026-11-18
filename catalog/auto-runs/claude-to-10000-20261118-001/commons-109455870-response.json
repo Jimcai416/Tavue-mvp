@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChB5zZQJcL6n9MdjFQjuW",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Pizza with visible egg yolk in centre\",\n    \"Crispy, blistered crust with char\",\n    \"Bacon or cured meat strips visible\",\n    \"Fresh parsley garnish\",\n    \"Melted cheese base\",\n    \"Cooked, exposed finished dish\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail shows complete pizza circle\",\n    \"Central egg yolk clearly visible\",\n    \"Golden cheese and meat tones readable\",\n    \"Adequate detail for identity confirmation\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title 'Chez Panisse' is a restaurant name, not a dish name—no specific pizza variant or dish identity provided\",\n    \"Cured meat visible (appears to be bacon) but species not explicitly stated in source\",\n    \"No source description of dish name, ingredients, or variant qualifiers\"\n  ],\n  \"reason\": \"The photograph shows a finished, well-composed pizza with an egg and bacon topping, sharp detail, natural colours, and strong appeal. Both full image and phone thumbnail are of good quality. However, the source metadata provides only a restaurant name ('Chez Panisse') without any actual dish title or description. The file name, photographer credit, and license information are non-instructional metadata, but they do not constitute evidence of the dish's identity. Without a specific dish name from the source title or description (e.g. 'Pizza Carbonara', 'Bacon and Egg Pizza', etc.), the identity check fails. The visible bacon cannot be mapped to a protein category without explicit species naming in source text. Hold pending source provision of an actual dish name and ingredient description.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1735,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 515,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

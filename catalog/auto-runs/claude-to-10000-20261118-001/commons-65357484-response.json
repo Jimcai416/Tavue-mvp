@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChB61ErNyZaoHfeYeuhBT",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 3,\n    \"lighting\": 3,\n    \"composition\": 2,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Subject too small and distant in thumbnail\",\n    \"Hand and preparation activity dominant, not finished dish\",\n    \"Raclette cheese melting/scraping mid-preparation, not plated\",\n    \"Essential food component (the melted cheese on bread) inadequately visible in thumbnail\",\n    \"Preparation stage, not finished exposed dish\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [],\n  \"reason\": \"Rejection: This is a preparation/in-progress stage photograph, not a finished dish. The image captures raclette cheese being scraped mid-process, with the subject dominated by the hand holding a scraper and the preparation activity. The phone thumbnail shows the food too small and obscured by the preparation action to assess a finished, prominent, appetising dish. The essential components (melted cheese, bread base, finished plating) are not clearly visible or complete in the thumbnail. Per guidelines, raw/preparation stages and images where essential food is clipped or inadequately visible in the phone thumbnail are rejected. The photograph fails the phone_thumbnail acceptance criterion of showing a finished, exposed, prominent dish with readable essential components.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1722,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 390,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
