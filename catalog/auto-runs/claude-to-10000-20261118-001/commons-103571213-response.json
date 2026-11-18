@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChArabXNFWKc7EKzCbXmM",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [\n    \"Yellow spongy cake visible in both images\",\n    \"Crispy noodle topping (sev) clearly present\",\n    \"White onion garnish on side\",\n    \"Green chilli and cilantro visible\",\n    \"Plate presentation matches dhokla serving style\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail shows finished dhokla with sev topping\",\n    \"Yellow colour and texture consistent with source image\",\n    \"Garnishes not clearly resolved in thumbnail but dish identity evident\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title contains filename prefix 'File:' and date metadata, violating canonical naming rules\",\n    \"Source description spells 'Gujrat' (likely typo for 'Gujarat'); spelling inconsistency raises data quality concern\",\n    \"Description says 'testy' (apparent typo for 'tasty'), suggesting unreliable source metadata\",\n    \"No explicit confirmation of regional variant 'Authentic Gujrati' vs standard Dhokla in visible form alone\"\n  ],\n  \"reason\": \"Image quality and photograph are acceptable; dish is a finished, exposed, sharply detailed dhokla with appetizing presentation. However, source metadata contains unreliable elements (filename prefix, spelling errors, typos in description) that prevent confident canonical naming. The source title includes non-canonical elements (File: prefix, date stamp, .jpg extension) and the description contains apparent transcription errors ('testy', 'Gujrat'). While the dish itself is clearly dhokla, the source documentation is too compromised to extract a reliable canonical name. Hold pending cleaner source metadata.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1772,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 515,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
