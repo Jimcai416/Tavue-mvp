@@ -55755,5 +55755,53 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-58240505",
+    "title": "File:Humba (Philippines).jpg",
+    "author": "Obsidian Soul",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Humba_(Philippines).jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/41/Humba_%28Philippines%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "b9562fb92150b0977580ea58a9ebdee2d1edd494",
+    "name": "Humba (Philippines)",
+    "aliases": [],
+    "proteins": [
+      "pork"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-58240505.jpg",
+    "assetSha256": "3fa425a671f58983fb043131ea5f2a5df7dc48e07573bc1a8af784235c5ea271",
+    "reviewedAt": "2026-11-18",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-112249665",
+    "title": "File:Tosilog.jpg",
+    "author": "Arnold Gatilao",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tosilog.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Tosilog.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "138abd9fe1d071d16cf0c708ef883d109f1910b0",
+    "name": "Tosilog",
+    "aliases": [],
+    "proteins": [
+      "pork"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-112249665.jpg",
+    "assetSha256": "e15d0e305add2445278830fc20f12ad045b7eb922acd11560194818cab1b0f32",
+    "reviewedAt": "2026-11-18",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];
