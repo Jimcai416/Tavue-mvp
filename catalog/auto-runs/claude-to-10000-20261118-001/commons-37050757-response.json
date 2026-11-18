@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChB7FyF3i98BVf7Frtydz",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Couscous-like grain dish (attieke) visible in multiple plates\",\n    \"Cassava-based starch component clearly prepared and plated\",\n    \"Stewed meat dish in dark pot with visible sauce\",\n    \"Protein component present in multiple service pieces\",\n    \"Restaurant table setting with glassware and proper plating\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail shows grain dish, bread/toasted items, and stewed meat in pot\",\n    \"Central dark pot with meat stew is prominent in phone view\",\n    \"Light-coloured starch component visible left side\",\n    \"Overall composition legible at thumbnail scale\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title field contains only 'File:Attieke kedjenou.jpg' without a proper dish description\",\n    \"Description field is incomplete: 'This is an image of food from' (truncated, no origin/context)\",\n    \"Kedjenou typically implies a specific Ivorian braised meat dish, but the exact protein species (chicken, beef, or other) is not explicitly named in the truncated metadata\",\n    \"Multiple meat preparations visible (toasted items, stewed component) but source does not specify which is the primary kedjenou component or its protein identity\",\n    \"Cannot confirm whether this is a single kedjenou dish or a plated combination without authoritative source description\"\n  ],\n  \"reason\": \"Source metadata is incomplete and ambiguous. While the filename suggests 'Attieke kedjenou' (Ivorian dishes), the description field is truncated mid-sentence ('This is an image of food from') and provides no context. The protein species in the kedjenou is not explicitly named in any available metadata. Multiple cooked components are visible (grains, bread-like items, stewed meat) but their exact identities and which comprises the primary kedjenou cannot be confirmed from the incomplete source alone. Identity check fails due to insufficient and truncated source documentation. Hold pending complete, unambiguous source description that explicitly names the dish variant and any protein components.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1516,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 608,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

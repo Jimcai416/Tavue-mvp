@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChB7G987mtVrRS4ETtsDA",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 3,\n    \"lighting\": 2,\n    \"composition\": 2,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Image shows a topographic/3D terrain model, not a food photograph\",\n    \"Thumbnail reveals artificial rendering of a geographical location\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title 'Gandinga' and description 'Gandingos piliakalnis' refer to a Lithuanian hill/mound, not a dish\",\n    \"Metadata indicates LIDAR topographic data, not food photography\",\n    \"Image is a geographical 3D model visualization\"\n  ],\n  \"reason\": \"This is not a food photograph. The source is a topographic LIDAR visualization of Gandinga (Gandingos piliakalnis), a geographical location in Lithuania, as confirmed by the metadata ('LIDAR data provided by National Land Service of Lithuania'). The image shows a 3D terrain model with artificial green and yellow coloring typical of elevation mapping, not a finished dish. The thumbnail confirms this is geographical data, not food. No food identity, composition, or appeal are present. Rejection on all substantive grounds.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1481,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 377,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
