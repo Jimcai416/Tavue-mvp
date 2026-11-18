@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChB2wD7ju9bZ4N1ainByA",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 5,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Noodle soup in white bowl with broth\",\n    \"Fresh green herbs (scallions/green onions visible)\",\n    \"Light tan/pale noodles\",\n    \"Chopsticks present\",\n    \"Clear broth\",\n    \"Home/street food setting on metal surface\"\n  ],\n  \"phone_observations\": [\n    \"Bowl clearly visible in centre-cover\",\n    \"Noodles and broth distinguishable\",\n    \"Green herbs visible\",\n    \"Chopsticks visible\",\n    \"Essential components readable at thumbnail size\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title states 'Pho Vietnamese noodle soup' but no visible protein (beef, chicken, seafood, etc.) is identifiable in either image — pho traditionally contains a named meat protein\",\n    \"Visible ingredients include only noodles, broth, fresh herbs, and possibly onions — no meat component clearly present or declared in source metadata\",\n    \"Pho without an explicit, visible or source-declared protein cannot be confirmed as a complete, finished dish\"\n  ],\n  \"reason\": \"Image quality, composition, and photograph/phone checks pass. However, identity check fails because the source describes 'Pho Vietnamese noodle soup' but provides no visible protein and no metadata protein declaration. Pho is defined by its meat broth and protein; a bowlful of noodles and herbs alone does not constitute identifiable pho without visible or source-confirmed protein (beef, chicken, seafood, etc.). This creates a material uncertainty about whether a finished, complete dish is actually present. Hold pending clarification of protein identity.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1651,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 513,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

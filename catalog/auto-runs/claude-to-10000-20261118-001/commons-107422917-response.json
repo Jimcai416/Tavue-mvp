@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChB2wcsjRMVVdMgmaSPo3",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 5,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Coiled instant ramen noodles, uncooked, on white plate\",\n    \"Herb/seasoning packet visible in upper right bowl\",\n    \"Dark broth or sauce in lower right bowl\",\n    \"Styled flat-lay presentation with accompaniments\"\n  ],\n  \"phone_observations\": [\n    \"Coiled noodle cake dominates thumbnail, clearly visible\",\n    \"Seasoning packet and sauce bowls visible but very small\",\n    \"Composition and detail preserved in reduction\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title declares 'Nongshim Instant Ramen <Soba Noodles>' but image shows uncooked, dry instant noodles—a preparation stage, not a finished, exposed, cooked dish\",\n    \"Nongshim is a branded product; this is commercial instant ramen, not a prepared meal\",\n    \"No visible protein in the image; soba noodles are buckwheat-based and do not qualify as a protein category\"\n  ],\n  \"reason\": \"Rejection: Image depicts uncooked instant ramen noodles in their raw, dry state with accompaniments (seasoning packet and sauce), presented as a styled flat-lay product photo. This is a preparation stage or product demonstration, not a finished, exposed, cooked dish. The subject is commercial packaged instant ramen, not an appetising prepared meal. Additionally, no proteins meeting Tavue's allowed categories (chicken/beef/pork/duck/lamb/seafood) are present or supported by the source.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1890,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 495,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
