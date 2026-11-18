@@ -6026,3 +6026,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 
 - **Pork Silog** — Ralff Nestor Nacor. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Pork_Silog,_May_2025.jpg). Local asset: `reviewed-commons-164540408.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Lugaw and Kwek-Kwek** — Aerous. [CC BY 4.0](https://creativecommons.org/licenses/by/4.0); [source](https://commons.wikimedia.org/wiki/File:Lugaw_and_Kwek-Kwek.jpg). Local asset: `reviewed-commons-191781656.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Lugaw and Toge** — Aerous. [CC BY 4.0](https://creativecommons.org/licenses/by/4.0); [source](https://commons.wikimedia.org/wiki/File:Lugaw_and_Toge.jpg). Local asset: `reviewed-commons-191781658.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
