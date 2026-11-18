@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAtFGb3W3bAYsekFGgov",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 0,\n    \"lighting\": 0,\n    \"composition\": 0,\n    \"appeal\": 0\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows an urban street scene at dusk with illuminated building facade and crowded ground level\",\n    \"No food dish is visible or identifiable in the phone thumbnail\",\n    \"Scene is an architectural/cityscape photograph, not a food photograph\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title references 'Casa Portuguesa do Pastel de Bacalhau' (a restaurant/establishment name) but no food dish is photographed\",\n    \"Source metadata describes a building/location, not a finished dish\"\n  ],\n  \"reason\": \"Rejection: This is an architectural/street scene photograph of a building in Lisbon, not a food photograph. No finished, exposed dish is visible in either the full source image or the phone thumbnail. The title references a restaurant name rather than a specific dish. No food subject exists for review. Photographs of restaurant exteriors, building facades, or street scenes without visible food do not meet acceptance criteria.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1736,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 358,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAtFGcnQnZ8Prv2ynueS",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Basket of cooked sausages with golden-brown exterior\",\n    \"Market or fair display setting with price labels\",\n    \"Fresh garnish (bay leaves) visible\",\n    \"Natural daylight, sharp detail\",\n    \"Phone thumbnail clearly shows sausage forms and basket\"\n  ],\n  \"phone_observations\": [\n    \"Sausage products clearly visible and prominent in thumbnail\",\n    \"Golden-brown colour and form recognizable\",\n    \"Basket weave structure visible\",\n    \"Market setting evident\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title 'alheira' refers to a Portuguese sausage, but animal species/composition is not explicitly stated in title or visible form\",\n    \"Alheira traditionally may contain poultry, pork, or game, but no specific protein is named in the source metadata\",\n    \"Sausage category cannot be accepted as protein evidence per rules\"\n  ],\n  \"reason\": \"Reject: sausage species is unspecified. The source title 'alheira' names a traditional Portuguese sausage product, but no explicit animal protein (chicken/beef/pork/duck/lamb/seafood) is stated in the title or description. The visible form shows cooked sausages but does not prove composition. Per protocol, ambiguous meat species and unspecified sausage composition require hold/reject. Sausage cannot serve as a protein_evidence key.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1732,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 467,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
