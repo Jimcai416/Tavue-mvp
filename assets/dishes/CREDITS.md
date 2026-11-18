@@ -5772,3 +5772,8 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 - **Kimchi jjigae with tofu** — Teemeah. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Kimchi_jjigae_with_tofu.jpg). Local asset: `reviewed-commons-54129775.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Argentinian made Knishes** — Julianleibo. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Knishes.jpg). Local asset: `reviewed-commons-25859489.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Kimbap** — Suohros. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Kimbap.jpg). Local asset: `reviewed-commons-138384433.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Kisir salad** — Wiki leylek. [CC BY 4.0](https://creativecommons.org/licenses/by/4.0); [source](https://commons.wikimedia.org/wiki/File:Kisir_salad_in_Turkey_13.11.2026.jpg). Local asset: `reviewed-commons-203197233.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Kısır Salat** — Magnificient. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Kisir_salat-1024x768.jpg). Local asset: `reviewed-commons-117844598.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
