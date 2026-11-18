@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAmTDSZ3fKgD8mPW1TwY",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 0,\n    \"lighting\": 0,\n    \"composition\": 0,\n    \"appeal\": 0\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows only exterior architecture of a brick building\",\n    \"No food dish visible in phone thumbnail\",\n    \"No finished, exposed food present\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title references zapiekanki but no food is visible in either image\",\n    \"Full photograph shows only building exterior with no food dish present\",\n    \"Description mentions a stall but photograph captures only architecture\"\n  ],\n  \"reason\": \"Rejection: The source metadata references zapiekanki (a food dish) but neither the full photograph nor the phone thumbnail contains any visible finished food. Both images show only the exterior architecture of a brick building at Plac Nowy in Kraków. No dish, ingredients, or prepared food are visible. This is an architectural photograph, not a food photograph. The required identity match between title and visible form cannot be established—the dish named in the source is not depicted in the image provided.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1655,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 353,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
