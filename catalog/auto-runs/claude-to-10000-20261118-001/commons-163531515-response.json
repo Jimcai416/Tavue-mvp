@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAsxjoBFwiS8Gusf8xzX",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 2,\n    \"composition\": 1,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Phone thumbnail shows only hands, partial cooking vessel rim, and street background\",\n    \"No finished dish visible in thumbnail\",\n    \"Cooking vessel is the dominant element, not food\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'Pastilla' but image shows cooking in progress or preparation stage, not a finished dish\",\n    \"No pastilla (wrapped, finished pastry) visible in either full image or thumbnail\",\n    \"Image appears to document a cooking process or street food preparation, not a plated/served dish\"\n  ],\n  \"reason\": \"Rejection: The source title claims 'Pastilla' but neither the full photograph nor the phone thumbnail shows a finished, plated pastilla dish. Instead, both images show hands working with large cooking vessels in a street setting—a preparation or cooking stage, not an exposed, finished, appetising dish. The thumbnail shows only hands, vessel rim, and background, with no recognizable food. Essential food subject is either absent or not visibly finished. The photograph fails identity verification, quality standards (poor sharpness, composition), and phone thumbnail requirements. No finished dish is evident.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1678,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 400,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
