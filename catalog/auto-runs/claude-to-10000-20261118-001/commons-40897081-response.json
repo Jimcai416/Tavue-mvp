@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChB3nCcbSRdednUqGSfyo",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Finished curry dish in metal serving pan\",\n    \"Meat pieces in spiced sauce with orange-red colour\",\n    \"Sharp detail of meat texture and sauce\",\n    \"Natural lighting without excessive glare\",\n    \"Phone thumbnail clearly shows meat and sauce\"\n  ],\n  \"phone_observations\": [\n    \"Meat and sauce clearly visible in thumbnail\",\n    \"Orange-red gravy dominates the frame\",\n    \"Multiple meat pieces recognizable\",\n    \"Curry components readable at small scale\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title specifies 'Mutton Korma' but source metadata contains ambiguous term 'mutton' which may refer to goat or sheep—species cannot be determined from visual appearance alone\",\n    \"No explicit confirmation that the visible meat corresponds to the declared 'mutton' rather than lamb or another species\"\n  ],\n  \"reason\": \"Image quality, photograph authenticity, and phone thumbnail all pass. However, the source title contains 'mutton', a term with regional ambiguity (can refer to goat, sheep, or mature lamb depending on context). Per protocol, ambiguous meat species designations require hold pending clarification. The title cannot be used as canonical_name without resolving this species ambiguity. Visual appearance of meat texture cannot definitively establish species.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1735,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 437,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

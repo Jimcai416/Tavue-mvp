@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChB3nedXHrAVRyDiYvUiY",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 3,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows sliced cured meat and cylindrical cured meat product\",\n    \"Central subject is prominent and identifiable as cured meat\",\n    \"Thumbnail cuts do not clip essential food components\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title 'Pastırma' is a Turkish cured meat product, but no explicit animal species is stated in the title or description\",\n    \"Pastırma traditionally uses beef, but the source provides no direct confirmation of the animal species\",\n    \"Generic meat product without named animal qualifier in source metadata\"\n  ],\n  \"reason\": \"Reject: Identity cannot be confirmed because the source title 'Pastırma' does not explicitly name the animal species (beef, lamb, etc.). Per instructions, ambiguous meat species including those relying on tradition or appearance must be held, and unknown/unspecified species must be rejected. The source provides no quoted animal qualifier. While the photograph quality, sharpness, and composition are acceptable (scores 3–4), the absence of explicit protein identification in the source makes this ineligible for acceptance.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1743,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 391,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

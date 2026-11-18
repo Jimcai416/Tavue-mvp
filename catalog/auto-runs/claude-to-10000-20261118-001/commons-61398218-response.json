@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChB3meBSuhtfRuaVw7EV3",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Sliced cured meat (pastırma) prominently displayed\",\n    \"Fresh salad greens with lettuce and herbs\",\n    \"Carrot ribbons and julienne strips\",\n    \"Tomatoes, olives and cheese visible\",\n    \"Finished plated dish on white plate\",\n    \"Natural colours and appetising presentation\"\n  ],\n  \"phone_observations\": [\n    \"All essential components clearly visible in thumbnail\",\n    \"Cured meat, salad, vegetables and garnishes readable\",\n    \"Plate composition well-represented at 124x96 resolution\",\n    \"No critical elements clipped or obscured\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title contains 'Turkis pastırma' but metadata indicates Turkish variant spelling 'pastırma' (not 'pastirma'). Exact canonical name form unclear.\",\n    \"Description 'A slad-starter dish' appears to be a typo or non-standard term ('slad' vs 'salad'). Unclear if this is an established regional variant name or metadata error.\",\n    \"Pastırma is a cured meat product of uncertain primary animal origin in source text. While historically beef-based in Turkish tradition, source does not explicitly name the animal.\",\n    \"No explicit animal species confirmation in title or description despite visual prominence of the meat product.\"\n  ],\n  \"reason\": \"Identity check fails: source metadata contains apparent typographical errors ('slad-starter', 'Turkis') and lacks explicit animal species naming for pastırma despite it being the dish's primary component. Protein cannot be confirmed from explicit source quote. All quality, photograph and phone checks pass with strong scores (≥4). Image is sharp, well-lit, appetising and properly composed with readable components in thumbnail. Hold pending clarification of exact canonical name form and explicit protein identification from source.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1731,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 561,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChB3nUpAjSmejXhb57YjL",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 3,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows a pan of cooked granular mixture in dark cookware\",\n    \"Colour consistent between full image and thumbnail\",\n    \"Pan and stovetop visible in both frames\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title 'Migas de harina 1' refers to a flour-based preparation (migas typically made from breadcrumbs or flour fried in fat), not a finished plated dish\",\n    \"Image shows intermediate cooking stage in-pan rather than a finished, plated dish ready for service\",\n    \"No protein component visible or declared in source title\",\n    \"Migas de harina is fundamentally a preparation stage or component, not a canonical finished dish\"\n  ],\n  \"reason\": \"Rejection: This is a flour-based preparation (migas de harina) captured mid-cooking in a pan on a stovetop, not a finished, exposed dish suitable for food review. The source title explicitly names this as a harina (flour) preparation, which lacks protein identity and represents a cooking stage rather than a plated, finished dish. Identity check fails because the item is not a recognizable canonical finished dish, and appeal is diminished by its in-preparation state. Tavue accepts finished dishes, not cooking demonstrations or intermediate stages.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1728,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 433,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

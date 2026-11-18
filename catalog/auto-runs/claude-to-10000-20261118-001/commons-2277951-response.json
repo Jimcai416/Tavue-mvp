@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChB3n1oTVecGiE4uTJZjx",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows a wok/pan with crumbled yellow-orange food on a metal cooking surface outdoors\",\n    \"Food composition is visible but subject is mid-preparation stage\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Image shows food actively being cooked/stirred in a wok over outdoor heat source, not a finished, exposed dish\",\n    \"No plating or service stage visible; this is a preparation/cooking stage photograph\",\n    \"Title states 'Cooking Migas' - explicitly documenting the cooking process, not the finished dish\"\n  ],\n  \"reason\": \"Rejection: The photograph documents an active cooking stage, not a finished, exposed, plated dish. The title 'Cooking Migas' explicitly indicates this is mid-preparation. The food remains in a cooking vessel mid-stir with a utensil actively engaged. While the image quality and thumbnail detail are acceptable, the fundamental requirement that the dish be finished and ready for consumption is not met. Tavue accepts finished food photographs suitable for menu/review documentation, not cooking-process documentation.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1593,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 388,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
