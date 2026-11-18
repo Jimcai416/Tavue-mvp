@@ -51524,5 +51524,53 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "height": 720,
     "requiresExactMenuName": true,
     "authorUrl": "https://www.flickr.com/photos/70118259@N00"
+  },
+  {
+    "id": "commons-31197516",
+    "title": "File:Fried lamb kibbeh 1.JPG",
+    "author": "Dr. Bernd Gross",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fried_lamb_kibbeh_1.JPG",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Fried_lamb_kibbeh_1.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "10dd685a81966eaa88eb7bbcffa9919e9c841515",
+    "name": "Fried lamb kibbeh",
+    "aliases": [],
+    "proteins": [
+      "lamb"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-31197516.jpg",
+    "assetSha256": "3c21355f9565ff641e7fe08a5a6efa6e5e566abd81f849b1d20eca8f194184b6",
+    "reviewedAt": "2026-11-18",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-113346161",
+    "title": "File:HK 佐敦 Jordan 彌敦道 219 Nathan Road 莊士倫敦廣場 Chuang's Jordan Plaza shop 新新酒樓 Sun Sun Restaurant food 蝦仁 炒飯 fried peeled shrimps prawns rice December 2021 SS2 01.jpg",
+    "author": "HWUANGIAO Maeomn",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:HK_%E4%BD%90%E6%95%A6_Jordan_%E5%BD%8C%E6%95%A6%E9%81%93_219_Nathan_Road_%E8%8E%8A%E5%A3%AB%E5%80%AB%E6%95%A6%E5%BB%A3%E5%A0%B4_Chuang%27s_Jordan_Plaza_shop_%E6%96%B0%E6%96%B0%E9%85%92%E6%A8%93_Sun_Sun_Restaurant_food_%E8%9D%A6%E4%BB%81_%E7%82%92%E9%A3%AF_fried_peeled_shrimps_prawns_rice_December_2021_SS2_01.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/15/HK_%E4%BD%90%E6%95%A6_Jordan_%E5%BD%8C%E6%95%A6%E9%81%93_219_Nathan_Road_%E8%8E%8A%E5%A3%AB%E5%80%AB%E6%95%A6%E5%BB%A3%E5%A0%B4_Chuang%27s_Jordan_Plaza_shop_%E6%96%B0%E6%96%B0%E9%85%92%E6%A8%93_Sun_Sun_Restaurant_food_%E8%9D%A6%E4%BB%81_%E7%82%92%E9%A3%AF_fried_peeled_shrimps_prawns_rice_December_2021_SS2_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "e4de833ca5c6eaa535b6a80c16775d8fca7fec31",
+    "name": "蝦仁炒飯",
+    "aliases": [],
+    "proteins": [
+      "seafood"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-113346161.jpg",
+    "assetSha256": "4455f77e55175beb20f35f0888b848e9da84e7535e0a81a7da97007eb798a566",
+    "reviewedAt": "2026-11-18",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];
