@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBEMsJbFWENHcrFFQukt",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Braised meat chunks with visible browning\",\n    \"Diced orange/red vegetables (carrots)\",\n    \"Diced pale vegetables (potatoes or turnips)\",\n    \"Rich brown gravy/sauce throughout\",\n    \"Served in glass baking dish\"\n  ],\n  \"phone_observations\": [\n    \"Meat and vegetables clearly visible and distinguishable\",\n    \"Orange and pale vegetable chunks prominent\",\n    \"Dish identity readable from thumbnail\",\n    \"Adequate detail for recognition\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title states 'Mechado (Philippines)' but provides no explicit meat species declaration—mechado traditionally uses beef but appearance alone cannot confirm species\",\n    \"Metadata format 'File:Mechado (Philippines).jpg' is filename; actual canonical source description is only 'Mechado (Philippines)' without protein specification\",\n    \"Meat species (beef/pork/lamb/duck) cannot be visually confirmed from photograph alone\"\n  ],\n  \"reason\": \"Photograph quality and composition are strong (all scores ≥4), and the dish is clearly identifiable as a braised meat and vegetable stew. However, the source title/description 'Mechado (Philippines)' does not explicitly name a protein species. Mechado tradition suggests beef, but per protocol, species must be supported by explicit source quote, not inference from regional tradition or appearance. The source metadata does not provide a protein declaration. Identity check fails due to lack of species naming in source material. Hold pending explicit protein identification from source.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1510,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 494,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
