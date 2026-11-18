@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChB5gTniqWBRxfnNZLTc3",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Boneless meat mass, marinated appearance, tandoor-cooked texture visible\",\n    \"Garnish of raw onion slices, lime wedge, tomato slices present\",\n    \"Served on large flat plate in restaurant setting\",\n    \"Naan bread visible in background\"\n  ],\n  \"phone_observations\": [\n    \"Meat dish clearly visible and prominent in thumbnail\",\n    \"Onion, lime, and tomato garnish distinguishable\",\n    \"Plate and table setting visible\",\n    \"Overall composition readable at small size\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Species ambiguity: source states 'Goat meat' but Sikandri Raan is a traditional Lucknowi dish classically made with lamb or mutton. Goat meat is not the canonical preparation. The term 'mutton' could refer to goat in some regions, creating ambiguity about the actual species.\",\n    \"No explicit protein category match: 'goat' is not in the allowed category list (chicken/beef/pork/duck/lamb/seafood). Lamb is allowed but source explicitly claims goat.\",\n    \"Source metadata contradiction: title indicates Sikandri Raan but describes it as goat meat, departing from established regional identity of the dish\"\n  ],\n  \"reason\": \"Cannot accept due to unresolved protein species ambiguity. Source explicitly names 'Goat meat', which is outside the allowed protein categories. Sikandri Raan is traditionally a lamb/mutton dish from Lucknow; source's goat claim contradicts canonical preparation and creates uncertainty about actual animal species. The term 'mutton' in some regions may refer to goat, compounding ambiguity. Per rules, unknown or ambiguous meat species (including when traditional preparation suggests a different species than stated) requires hold. Quality and photograph technical aspects are acceptable; identity check fails due to protein species contradiction.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1749,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 579,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
