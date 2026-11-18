@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBFRuw5Bj5dCq5U6EcsU",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Cooked meat pieces on left (tan/brown, seared appearance)\",\n    \"Orange carrot batons on right\",\n    \"Rustic terracotta plate\",\n    \"Natural home-cooking presentation\",\n    \"Phone thumbnail clearly shows same dish arrangement\"\n  ],\n  \"phone_observations\": [\n    \"Meat and carrot components distinctly visible\",\n    \"Plate colour and shape match\",\n    \"Overall composition recognisable at thumbnail scale\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'Pork & Fruit Ragout' but no fruit is visibly present in either photograph; only seared meat and roasted carrots are observable\",\n    \"Meat species cannot be confirmed by appearance alone; source title declares pork but this contradicts the visible absence of any fruit component central to the named dish identity\",\n    \"The dish appearance (seared meat + carrots) does not match the ragout preparation and fruit inclusion described in the source title\"\n  ],\n  \"reason\": \"Identity check fails. The source title 'Minutal ex Praecoquis (Pork & Fruit Ragout)' explicitly names a ragout with fruit, but the photograph shows only seared/grilled meat pieces and roasted carrot batons—no fruit is visible in either the full image or thumbnail. This is a substantial contradiction between declared identity and visible form. The dish cannot be accepted as the named item. Although photograph and phone quality are acceptable, the core identity requirement is not met.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1694,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 480,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
