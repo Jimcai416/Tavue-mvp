@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBEnUXpzHKaG823kKfbs",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Toasted seeded bread, clearly visible and sharp\",\n    \"Grilled tomato halves with charred surface, prominent\",\n    \"White cheese (mozzarella or similar)\",\n    \"Sautéed mushrooms, brown and glossy\",\n    \"Dark sausage visible in upper left\",\n    \"Full breakfast plate on white china\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows toast, grilled tomato, and white cheese\",\n    \"Sausage and mushrooms visible but less prominent in phone crop\",\n    \"Overall composition readable and appetising at thumbnail scale\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Description claims 'Boerewors sausage (a spicy mix of beer and lamb)' but this is a source parenthetical explanation, not a verifiable visual identification of the dark sausage visible in the photograph\",\n    \"Boerewors traditionally contains beef/pork/lamb in varying regional recipes; the description's parenthetical does not constitute an explicit source statement naming the animal with certainty\",\n    \"The sausage species cannot be visually confirmed from the photograph alone\",\n    \"Source metadata describes it as 'The South African breakfast' but the actual canonical dish name is ambiguous—no explicit dish title is provided, only the descriptor 'The South African breakfast'\"\n  ],\n  \"reason\": \"Image quality, sharpness, lighting, composition and phone thumbnail all meet standards. However, identity cannot be confirmed: the source description does not provide an explicit canonical dish name (only a descriptor 'The South African breakfast'), and the protein evidence for the sausage is compromised. The description contains a parenthetical explanation of Boerewors contents ('a spicy mix of beer and lamb') but does not constitute a clear, unambiguous source statement naming a single animal species. Boerewors recipes vary regionally and historically; the parenthetical does not meet the standard of an explicit, single-species source quote. Without a canonical dish name from the title or description and without unambiguous protein identification, the identity check fails. Hold pending clarification of exact dish name and sausage species confirmation.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1673,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 627,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBEmmJ7DKakN2B5SUAtx",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": \"Tarhana soup with croutons and goat's milk cheese.\",\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Creamy pale soup with herb garnish in decorative metal bowl\",\n    \"Golden fried croutons visible in brown ceramic dish (top left)\",\n    \"White cheese component in separate white bowl (top center)\",\n    \"Green herb garnish (oregano or similar) scattered across soup surface\",\n    \"Oil drizzle visible on soup\"\n  ],\n  \"phone_observations\": [\n    \"Soup bowl clearly visible and central in thumbnail\",\n    \"Creamy pale colour with dark herb garnish legible\",\n    \"Decorative serving vessel distinguishable\",\n    \"Overall composition readable at reduced resolution\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title describes 'goat's milk cheese' as an accompaniment, but this is a dairy product, not a protein category (chicken/beef/pork/duck/lamb/seafood)\",\n    \"No animal protein explicitly named in the soup itself or identifiable in the visible components\",\n    \"Tarhana is traditionally a fermented grain and yogurt mixture; no meat is typically included, but source description does not clarify the soup's protein composition\"\n  ],\n  \"reason\": \"Image quality, sharpness, lighting, composition and phone visibility all meet acceptance thresholds (all ≥4). The dish is a finished, exposed soup photographed naturally with appetising presentation. However, the source description names only 'goat's milk cheese' as an accompaniment—a dairy product outside the allowed protein categories (chicken/beef/pork/duck/lamb/seafood). The soup itself contains no visible or declared animal protein matching the allowed categories. Per protocol, protein_evidence remains empty. The uncertainty regarding whether this qualifies as a reviewable food dish (given absence of allowed proteins) and the ambiguity about whether 'tarhana soup' alone without protein qualifiers matches identity requirements necessitate holding pending clarification of the actual protein composition.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1730,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 580,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
