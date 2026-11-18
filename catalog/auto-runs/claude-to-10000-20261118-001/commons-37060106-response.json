@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChB4neBbMRJMxSyusCcus",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Finished, cooked dish with ground/minced protein and white rice base\",\n    \"Served in a metal dish on striped fabric\",\n    \"Browned meat crumbles with visible herbs/green garnish\",\n    \"Prominent in both full image and thumbnail\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows rice base with meat topping\",\n    \"Rice and meat components well-resolved at 124x96\",\n    \"Colour and composition readable\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title references 'Yassa poulet' (chicken yassa, a Senegalese onion-based braise), but the visible dish shows ground meat over rice with no visible onion sauce or braise characteristic of yassa\",\n    \"Metadata title contradicts visible form: yassa is typically a stewed whole or large pieces of chicken in onion sauce; this appears to be a minced/ground meat rice dish\",\n    \"Protein species cannot be confirmed visually as ground/minced meat is indistinguishable by appearance alone\",\n    \"No explicit protein naming in source description to support identity\"\n  ],\n  \"reason\": \"Identity check fails. The source title 'Yassa poulet, Senegal' refers to a specific Senegalese dish of chicken braised in onion sauce, but the visible photograph shows ground/minced meat scattered over rice—a preparation and presentation wholly inconsistent with yassa. The metadata title does not match the dish's actual form. Protein species cannot be inferred from minced meat appearance, and no explicit protein naming is provided in the description. Source contradiction and unresolvable identity mismatch requires hold, but the most appropriate verdict given the fundamental incompatibility between claimed identity and visible content is rejection.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1728,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 541,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
