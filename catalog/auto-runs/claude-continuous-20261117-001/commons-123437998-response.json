@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAKhFA6Zdqo5dC4GxcbM",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Golden-brown breaded skewered items on grey tray\",\n    \"Some items show white filling visible in cross-section\",\n    \"Prawn/shrimp tails visible as skewer component\",\n    \"Price label '58 THAPS' visible on tray\"\n  ],\n  \"phone_observations\": [\n    \"Skewered golden breaded items clearly visible\",\n    \"Tray and composition readable in thumbnail\",\n    \"Items appear as finished, cooked appetisers\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title/description identifies this as a tapas competition entry from Spain, but provides no specific dish name\",\n    \"Visible component appears to be prawn/shrimp with possible cheese or cream filling, but cannot confirm exact identity from image alone\",\n    \"Price label '58 THAPS' does not constitute a canonical dish name\",\n    \"No explicit dish name provided in metadata or visible on the tray\"\n  ],\n  \"reason\": \"Identity check fails. The source provides only generic context (tapas competition, location, date) with no specific canonical dish name. The visible components suggest a skewered breaded prawn or similar appetiser, possibly with cheese filling, but without an explicit source title or description naming the specific dish, identity cannot be verified. A price label is not a dish identifier. Tavue requires canonical_name matched to explicit source title/description; generic categorisation as 'tapas' is insufficient.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1539,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 471,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
