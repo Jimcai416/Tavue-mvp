@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBB9XakVB81dzuSvF75C",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 5,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Spiral-wrapped organ meat rolls with caramelized exterior\",\n    \"Golden crispy chips alongside\",\n    \"Charred, cooked surface indicating finished dish\",\n    \"Layered cross-sections visible in slices\"\n  ],\n  \"phone_observations\": [\n    \"Spiral-wrapped meat rolls clearly visible\",\n    \"Golden fries prominent on right side\",\n    \"Brown caramelized surface of kokoretsi readable\",\n    \"Multiple slices arranged in row\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source metadata lists 'Kokoretsi' but provides only a French description 'servi à Ioannina, Grèce' (served in Ioannina, Greece) without explicit English title confirmation\",\n    \"Kokoretsi typically contains lamb or goat offal (intestines, liver, heart, lungs), but no explicit animal species is named in the supplied title or description\",\n    \"The file identifier 'File:Ioannina - kokoretsi.jpg' contains the dish name but also contains a filename component (should be excluded per instructions)\",\n    \"Cannot extract a canonical name from metadata that meets the requirement of an exact case-sensitive substring from title/description without the 'File:' prefix and location qualifier\"\n  ],\n  \"reason\": \"Photograph and thumbnail quality are excellent; the dish is clearly a finished, cooked, appetizing presentation of kokoretsi with chips. However, the source metadata does not provide an explicit English-language title or description that names the dish and any protein animals. The description is only in French ('servi à Ioannina, Grèce'), and the dish name appears embedded in the filename rather than in a canonical title field. Per protocol, the animal species (lamb, goat, or mixed offal) is not explicitly named in the supplied title/description text, only implied by the dish name itself. Identity cannot be confirmed from an exact source quote, and protein_evidence cannot be populated without an explicit animal name in the source material. Hold pending clarification of the authoritative English title/description.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1809,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 613,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

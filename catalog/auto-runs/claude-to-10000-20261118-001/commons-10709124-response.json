@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBB8fvn11TU6qzcdpgwz",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [\n    \"Cooked minced meat mixture with visible texture, colour and binding\",\n    \"Bright green fresh herb garnish (coriander leaves) prominent around dish\",\n    \"Natural plating on decorative ceramic plate\",\n    \"Spoon visible indicating served dish state\"\n  ],\n  \"phone_observations\": [\n    \"Dish centre clearly visible and recognizable in thumbnail\",\n    \"Herb garnish visible and readable in phone crop\",\n    \"Natural colours preserved in reduction\",\n    \"Adequate contrast and definition for identification\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title 'koi pla' and description indicate this is raw or fermented minced fish (pla = fish), but the photograph shows a fully cooked, brown, bound preparation inconsistent with traditional koi pla appearance\",\n    \"No fish species specified in title or description; 'pla' is Thai generic term for fish\",\n    \"Description associates dish with parasitic infection risk typical of raw fish preparations, contradicting the cooked appearance\",\n    \"The cooked, granular texture and browning suggest beef or pork mince preparation, not raw/fermented fish; identity mismatch between source claim and visual evidence\",\n    \"Cannot confirm whether this is actually koi pla or a different cooked meat dish mislabeled in metadata\"\n  ],\n  \"reason\": \"Hold. While photograph and phone thumbnail are sharp, well-lit, naturally coloured and appetising, there is a critical identity contradiction: the source metadata describes 'koi pla' (traditionally a raw or fermented fish preparation), but the image shows a fully cooked, brown, bound minced meat dish with no visible fish characteristics. The source description emphasises parasitic infection risk typical of raw fish, yet the photograph displays cooking evidence inconsistent with that preparation. No fish species is specified in the source. The visual appearance contradicts the source identity claim. Protein cannot be confirmed from either title or appearance. This requires clarification to establish whether the dish is correctly identified.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 2009,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 588,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
