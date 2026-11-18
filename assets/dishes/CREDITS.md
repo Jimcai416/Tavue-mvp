@@ -3761,3 +3761,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 
 - **Humba (Philippines)** — Obsidian Soul. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Humba_(Philippines).jpg). Local asset: `reviewed-commons-58240505.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Tosilog** — Arnold Gatilao. [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Tosilog.jpg). Local asset: `reviewed-commons-112249665.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Tonkatsu** — en:User:Kanzelsberger , uploaded to Commons by  Nihonjoe. [Public domain](https://creativecommons.org/publicdomain/mark/1.0/); [source](https://commons.wikimedia.org/wiki/File:Japanese_tonkatsu.jpg). Local asset: `reviewed-commons-4179994.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
