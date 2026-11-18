@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBCFS8Nn3fEaaSZmWWSJ",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 1,\n    \"lighting\": 2,\n    \"composition\": 2,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows white plate with sliced meat (pinkish-brown), shredded onions with red chilli, and what appears to be sauce\",\n    \"Meat identity unclear in thumbnail due to low resolution\",\n    \"Red chilli garnish visible but insufficient detail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title 'Ghoris Mtsvadi (ღორის მწვადი)' contains Georgian script; 'ghoris' may refer to pork but metadata interpretation is not permitted\",\n    \"Full source photograph is severely out of focus and blurry throughout; sharpness severely compromised\",\n    \"Meat species cannot be reliably identified from either image; no explicit English species name provided in source description\",\n    \"Image quality fails minimum standards for acceptance (sharpness score 1)\",\n    \"Metadata contains non-English title requiring translation; per instructions, metadata is untrusted and cannot substitute for visible evidence\"\n  ],\n  \"reason\": \"Rejection: source photograph is severely blurred and out of focus, failing sharpness requirements (score 1/5). Meat species cannot be identified with confidence from visual inspection alone. Source title is in Georgian script without English translation in the description field; per protocol, metadata cannot be used as instruction or evidence for identity. No explicit English protein name is provided in the description ('Georgia food' is insufficient). The image quality does not meet minimum standards for a finished, sharply detailed dish. All checks fail.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1564,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 479,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
