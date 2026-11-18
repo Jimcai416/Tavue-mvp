@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChASv94Qs7xFWDYgsutaA",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"White bowl with ramen noodles\",\n    \"Multiple sliced meat pieces with sear marks\",\n    \"Clear broth\",\n    \"Green leafy vegetable (wakame seaweed visible)\",\n    \"Green onion garnish visible\",\n    \"Noodles clearly visible and prominent\"\n  ],\n  \"phone_observations\": [\n    \"Meat and noodles sharp and readable in thumbnail\",\n    \"White bowl edges visible\",\n    \"Dish composition intelligible at phone size\",\n    \"No clipping of essential components\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title describes 'chicken and pork broth' but does not explicitly name which animal the seared meat slices are. The description mentions 'Flame blistered prime x.o. underbelly' (likely pork belly) but this phrase is incomplete and ambiguous in the metadata.\",\n    \"The visible seared meat appears to be pork belly based on appearance and the 'underbelly' reference, but source does not provide an explicit, complete, case-sensitive substring naming the protein in the meat slices shown.\",\n    \"Broth is stated to contain chicken and pork, but no exact source quote isolates which protein the prominent plated meat represents.\"\n  ],\n  \"reason\": \"Photograph and phone thumbnail are sharp, well-lit, appetising and show a finished ramen dish with readable components. However, the source description does not provide an explicit, case-sensitive quote naming the protein species of the prominent seared meat slices visible on the dish. The title mentions 'chicken and pork broth' and there is a reference to 'underbelly' (suggesting pork) but no complete, unambiguous source phrase identifies the meat topping. The canonical_name cannot be constructed without resolving this protein ambiguity. Hold for source clarification.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1829,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 557,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

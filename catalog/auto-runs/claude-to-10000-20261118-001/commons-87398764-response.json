@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChASvmaspYbFaNTjW6cr1",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": true,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 2,\n    \"composition\": 2,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Subject extremely small and obscured in 124x96 thumbnail\",\n    \"Foil container barely discernible\",\n    \"Individual food components unidentifiable at phone size\",\n    \"Critical details lost in reduction\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"No source title or description provided beyond country metadata\",\n    \"Dish identity completely unknown—cannot match any canonical form\",\n    \"Food composition unidentifiable from visual inspection alone\",\n    \"No readable essential components in phone thumbnail\",\n    \"Geographic metadata alone does not establish dish identity\"\n  ],\n  \"reason\": \"Rejection: (1) No supplied source title or description—identity cannot be verified against any canonical dish name. (2) Phone thumbnail shows subject far too small and details too obscured to read essential components or confirm finished, exposed, appetising presentation. (3) Full image shows poor sharpness (2/5), inadequate lighting (2/5), and weak composition (2/5)—lighting casts and lack of detail prevent confident dish identification. (4) Without explicit dish identification from metadata or readable form, the submission violates the requirement that canonical_name must match source title/description exactly. (5) No protein evidence available. This appears to be unidentified packaged food in a foil container photographed in an institutional setting with insufficient clarity for review.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1557,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 444,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
