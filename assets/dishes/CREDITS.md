@@ -6000,3 +6000,8 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Filipino Morcón** — Obsidian Soul. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Filipino_Morc%C3%B3n_being_fried_(northern_Mindanao,_Philippines).jpg). Local asset: `reviewed-commons-76567432.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Lugaw and egg** — Judgefloro. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:99300jfLugaw_and_eggfvf.jpg). Local asset: `reviewed-commons-59009048.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Morcon (Philippines)** — Judgefloro. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Morcon_(Philippines),_SM_City_Baliwag.jpg). Local asset: `reviewed-commons-74994825.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
