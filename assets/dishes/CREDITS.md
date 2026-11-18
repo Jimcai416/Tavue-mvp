@@ -3830,3 +3830,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Roscas de reyes mini, caseras, México** — Petrvs III. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Roscas_de_reyes_mini,_caseras,_M%C3%A9xico_01.jpg). Local asset: `reviewed-commons-106135282.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Polish duck blood soup with sugar (czarnina)** — MichalPL. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Polish_duck_blood_soup_with_sugar_(czarnina)_in_K%C5%82%C3%B3bka,_W%C5%82oc%C5%82awek_County,_Kuyavian-Pomeranian_Voivodeship,_Poland,_August_2022.jpg). Local asset: `reviewed-commons-122074038.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.

@@ -56689,5 +56689,29 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 720,
     "height": 960,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-122074038",
+    "title": "File:Polish duck blood soup with sugar (czarnina) in Kłóbka, Włocławek County, Kuyavian-Pomeranian Voivodeship, Poland, August 2022.jpg",
+    "author": "MichalPL",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Polish_duck_blood_soup_with_sugar_(czarnina)_in_K%C5%82%C3%B3bka,_W%C5%82oc%C5%82awek_County,_Kuyavian-Pomeranian_Voivodeship,_Poland,_August_2022.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Polish_duck_blood_soup_with_sugar_%28czarnina%29_in_K%C5%82%C3%B3bka%2C_W%C5%82oc%C5%82awek_County%2C_Kuyavian-Pomeranian_Voivodeship%2C_Poland%2C_August_2022.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "e911b7fd467c85ef245db72659636827b7848796",
+    "name": "Polish duck blood soup with sugar (czarnina)",
+    "aliases": [],
+    "proteins": [
+      "duck"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-122074038.jpg",
+    "assetSha256": "89ade022754184eb607d3529b1827a01c5a2aaa69a3a07b49ea971c07f82cb56",
+    "reviewedAt": "2026-11-18",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];
