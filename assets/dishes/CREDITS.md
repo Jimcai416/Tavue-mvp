@@ -4216,3 +4216,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 - **Fish head curry** — JB Macatulad. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Fish_Head_Curry_at_Banana_Leaf_Apolo.jpg). Local asset: `reviewed-commons-51197518.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Fish head curry peranakan** — Chensiyuan. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Fish_head_curry_peranakan_z.JPG). Local asset: `reviewed-commons-4830443.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Fried Pork Spareribs** — avlxyz. [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:Fried_Pork_Spareribs_-_Claypot_King_Glen_Waverley.jpg). Local asset: `reviewed-commons-93302912.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Malai Kofta with Masala Kulcha** — Zainabtanvi. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Malai_kofta_with_masala_kulcha.jpg). Local asset: `reviewed-commons-40988651.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.

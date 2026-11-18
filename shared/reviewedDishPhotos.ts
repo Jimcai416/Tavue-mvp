@@ -61816,5 +61816,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-40988651",
+    "title": "File:Malai kofta with masala kulcha.jpg",
+    "author": "Zainabtanvi",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Malai_kofta_with_masala_kulcha.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/20/Malai_kofta_with_masala_kulcha.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "9b216f54be3678a26e76f7c8554ed642bcef2a86",
+    "name": "Malai Kofta with Masala Kulcha",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-40988651.jpg",
+    "assetSha256": "fde991ed983bfa718a161957c76dc6a2a69806b1fa3ed624eed51b8681697e92",
+    "reviewedAt": "2026-11-18",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];
