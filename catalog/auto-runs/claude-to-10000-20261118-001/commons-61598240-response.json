@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBEAohjog97EdFXs9j1G",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Cooked dish with shredded orange/red protein component\",\n    \"Green vegetables visible (interpreted as patola/ampalaya)\",\n    \"Yellow/orange sauce or base\",\n    \"Served on white plate\",\n    \"Natural warm lighting\",\n    \"Home-style presentation\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail shows cooked dish clearly\",\n    \"Orange/red shredded protein prominent in centre\",\n    \"Green vegetables visible around edges\",\n    \"No essential components clipped\",\n    \"Readable as finished dish at thumbnail scale\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title lists 'Tuna Mechado' and 'Ginisang Patola - Tuna Mechado' but visual appearance (shredded orange/red protein) is inconsistent with typical tuna preparation; tuna is not explicitly stated as the protein in the dish itself, only listed among many unrelated topics in metadata\",\n    \"Metadata is a composite agricultural/cultural document, not a dish description; it conflates 'Ginisang Patola' (sautéed bottle gourd), 'Tuna Mechado' (braised tuna), and 'Ginisang Ampalaya' (bitter melon) without clear dish attribution\",\n    \"Visual protein form (fine shreds, orange-red colour, texture) does not match expected tuna appearance\",\n    \"Cannot confirm which dish is actually pictured or verify protein species from appearance alone\"\n  ],\n  \"reason\": \"Source metadata is unreliable: it is a Wikimedia Commons agricultural/cultural collage page listing multiple unrelated Philippine dishes, fruits, plants and cultural items rather than a focused dish description. The title conflates 'Ginisang Patola', 'Tuna Mechado', and 'Ginisang Ampalaya' without clarity on which dish is photographed. Protein species cannot be verified from visual form (shredded orange-red appearance is atypical for tuna). No explicit, unambiguous source quote confirms the identity of this specific dish or its protein. Identity check fails due to source ambiguity and protein uncertainty.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 2032,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 633,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

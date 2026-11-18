@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBEBQHcmPE8zzUqRmtx6",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Finished, cooked dish on white plate\",\n    \"Golden-orange sauce with red peppers and green vegetables\",\n    \"Naturally coloured, appetizing appearance\",\n    \"Prominent subject, readable in phone thumbnail\"\n  ],\n  \"phone_observations\": [\n    \"Dish clearly visible in thumbnail\",\n    \"Colour and composition readable\",\n    \"No clipping of essential food\",\n    \"Overall composition preserved\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title lists multiple unrelated dishes (Patola, Ampalaya, Tuna Mechado, Ginisang Patola, Ginisang Ampalaya, betel nut products, paan) without clarity on which corresponds to this photograph\",\n    \"Actual dish identity cannot be determined from metadata alone\",\n    \"No explicit, unambiguous title matches the visible preparation shown\",\n    \"Protein species unclear: 'Tuna Mechado' mentioned in title but cannot be visually confirmed as the dish in photograph\"\n  ],\n  \"reason\": \"Source metadata lists multiple disparate Philippine dishes and ingredients without clear correspondence to this photograph. While the dish itself is finished, well-presented, and photographically sound, the identity check fails because the exact canonical name cannot be reliably matched from the source description. The title mentions 'Tuna Mechado' and 'Ginisang Patola' and 'Ginisang Ampalaya' as separate items within a compound description, making identity ambiguous. No explicit single-dish title is provided. Hold pending clarification of which specific dish is pictured.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 2032,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 503,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
