@@ -83403,5 +83403,51 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 723,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-2978616",
+    "title": "File:Doner kebap Istanbul 20071026.JPG",
+    "author": "Pvasiliadis",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Doner_kebap_Istanbul_20071026.JPG",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Doner_kebap_Istanbul_20071026.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "5bc099d73f5e1dc199b9b1ed3d79ce7af4c89111",
+    "name": "Doner kebap",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-2978616.jpg",
+    "assetSha256": "f5a2494e6f27bd5a65feffd2383489d42d9a44b47ba61505305d1338f742611a",
+    "reviewedAt": "2026-11-18",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 528,
+    "height": 960,
+    "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-55113911",
+    "title": "File:Döner kebap.jpg",
+    "author": "FrugalGlutton.com",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:D%C3%B6ner_kebap.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/25/D%C3%B6ner_kebap.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "12b581746255fa5af3b31ef51ec5e4b2d2c24ed8",
+    "name": "Döner kebab sandwich with chicken",
+    "aliases": [],
+    "proteins": [
+      "chicken"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-55113911.jpg",
+    "assetSha256": "d2822aa17dab592f1dbfa3b0062a1ef3d259a0978bf2da0a878a64719c9bba4e",
+    "reviewedAt": "2026-11-18",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];
