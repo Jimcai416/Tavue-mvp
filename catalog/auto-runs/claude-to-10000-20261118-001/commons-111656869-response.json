@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChB9G8zRdtheevpxAeBbF",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Golden-brown toasted bun\",\n    \"Melted white cheese (appears to be mozzarella or similar)\",\n    \"Leafy green lettuce\",\n    \"Red/pink tomato slice visible\",\n    \"Cooked meat patty with sear marks\",\n    \"Home-cooked plated presentation\"\n  ],\n  \"phone_observations\": [\n    \"Sandwich clearly visible in thumbnail centre\",\n    \"Cheese and meat layers readable\",\n    \"Lettuce prominently shown\",\n    \"Overall composition matches full source\",\n    \"No essential components clipped\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title 'chivito' is ambiguous: Uruguayan chivito traditionally contains beef steak, ham, bacon, and sometimes chicken, but no meat species is explicitly named in the metadata description\",\n    \"Visible meat layer appears to be a single cooked patty; traditional chivito typically includes multiple meat components (steak + ham + bacon), but cannot confirm from visual inspection alone\",\n    \"Cannot verify if this is a simplified/variant preparation or misidentified dish\"\n  ],\n  \"reason\": \"Identity check fails. The source metadata provides only the generic title 'chivito' without explicit species declaration. While the photograph shows a well-composed sandwich with cheese, lettuce, tomato and cooked meat, the traditional Uruguayan chivito requires beef steak plus ham and bacon as named components. The visible meat structure does not confirm all required components, and the source description does not explicitly name any animal. Per rules, ambiguous meat species and source contradictions require hold. A specific, authoritative source quote naming each protein is required.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1728,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 517,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
