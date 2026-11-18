@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAuptyMW1ZziJ3UaPK65",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Raw ingredient mise en place visible in thumbnail\",\n    \"No finished dish evident in phone view\",\n    \"Loose diced vegetables and herbs, uncooked state\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Image shows ingredient preparation stage, not a finished dish\",\n    \"Title describes the cooking process ('being made') rather than a completed food item\",\n    \"No finished, exposed, cooked sofrito is visible—only raw mise en place\"\n  ],\n  \"reason\": \"Rejection: This image documents the raw ingredient stage of sofrito preparation (diced bell pepper, onion, garlic, and dried herbs in a pan before cooking), not a finished, exposed dish. The title explicitly states 'being made', confirming this is a mid-preparation photograph. The appeal score reflects the absence of finished food. Identity cannot match a completed dish when only raw components are present. Tavue accepts only finished, exposed, likely photographic dishes.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1733,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 358,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
