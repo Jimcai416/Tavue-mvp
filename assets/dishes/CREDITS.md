@@ -4833,3 +4833,9 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Esquites en la CDMX** — Photo.MarioVG. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Esquites_CDMX.jpg). Local asset: `reviewed-commons-106154878.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Hungarian Chicken Paprikash** — Paprikapete4467. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Hungarian_-_Chicken_Paprikash_-_Csirke_Paprik%C3%A1s.jpg). Local asset: `reviewed-commons-132397131.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Chimichurri leonés** — © ProtoplasmaKid /  Wikimedia Commons. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Chimichurri_leon%C3%A9s.jpg). Local asset: `reviewed-commons-145726650.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Empanada colombiana** — Francesc Fort. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Empanada_colombiana.jpg). Local asset: `reviewed-commons-148899233.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
