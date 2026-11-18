@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBCYSVvc8SrZ2g1sWhzP",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Glossy, cooked protein pieces in rich orange-red sauce\",\n    \"Green garnish (scallions/spring onions visible)\",\n    \"Yellow/golden turmeric-toned gravy\",\n    \"White plate presentation\",\n    \"Finished dish appearance\"\n  ],\n  \"phone_observations\": [\n    \"Prominent cooked protein visible in thumbnail\",\n    \"Rich sauce and colour clearly readable\",\n    \"Adequate detail for dish type recognition\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title states 'Chingri Macher Malai Curry' but image appears to show meat (chicken or lamb pieces), not seafood/prawns/shrimps\",\n    \"Description emphasizes chingri (prawns/shrimps/lobsters) but visible pieces are opaque, firm, and cubed—inconsistent with typical prawn/shrimp texture and form\",\n    \"No visible shellfish characteristics (shells, translucency, typical prawn shape) in photograph\",\n    \"Source metadata contradicts visible protein identity\"\n  ],\n  \"reason\": \"Identity mismatch. The title explicitly names 'Chingri Macher Malai Curry' (a seafood curry with prawns/shrimps/lobsters), but the photograph shows firm, opaque, cubed meat pieces characteristic of chicken or lamb, with no visible seafood traits. The source description and visible form do not align. A hold cannot proceed to acceptance without resolution of this fundamental contradiction between declared and visible protein identity.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1921,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 487,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
