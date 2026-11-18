@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBDNaJJm3mSyAYzDxRr4",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Cooked pork pieces visible in full source image\",\n    \"Clams clearly present throughout both images\",\n    \"Potatoes visible as golden cubes\",\n    \"Natural dish presentation in black skillet\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail shows clams, pork slices, and potatoes clearly\",\n    \"Readable essential components present\",\n    \"Appetising appearance maintained at reduced size\"\n  ],\n  \"protein_evidence\": {\n    \"pork\": \"pork\"\n  },\n  \"uncertainties\": [\n    \"Source title references 'clams' but Tavue protein categories do not include seafood/clams as an allowed key\",\n    \"Protocol restricts proteins to: chicken/beef/pork/duck/lamb/seafood only. 'Clams' are bivalve molluscs, not covered by seafood category specification\",\n    \"Dish identity and composition are authentic, but protein scope constraint cannot be satisfied\"\n  ],\n  \"reason\": \"Image quality, sharpness, lighting, composition and phone thumbnail all meet acceptance criteria. Pork is correctly identified from source and visibly supported. However, the dish 'Carne de Porco à Alentejana' is defined by its combination of pork AND clams. The source explicitly names clams as an essential component, visible in both images. Tavue's protein_evidence schema restricts keys to: chicken, beef, pork, duck, lamb, seafood. Clams (bivalve molluscs) cannot be encoded under any allowed category key without violating the protocol requirement that values must be exact case-sensitive substrings from the source. The source says 'clams' not 'seafood'. Rejecting because the dish cannot be accurately represented within the allowed protein scope.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1792,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 544,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

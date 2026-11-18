@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBDP2B438U8yLq2fzXSW",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [\n    \"Raw meat pieces on wooden board in foreground\",\n    \"Commercial rotisserie/tandoor oven in background with meat cooking inside\",\n    \"Street food preparation setting in Tehran\"\n  ],\n  \"phone_observations\": [\n    \"Chef visible with raw meat preparation\",\n    \"Oven contents visible but unfinished\",\n    \"Preparation stage dominates thumbnail\"\n  ],\n  \"protein_evidence\": {\n    \"lamb\": \"lamb liver kebab\"\n  },\n  \"uncertainties\": [\n    \"Image shows meat preparation and raw ingredients, not a finished, exposed dish\",\n    \"No completed, cooked kebab is prominently presented as a finished food photograph\",\n    \"The photograph captures the preparation stage, not the final plated or served dish\"\n  ],\n  \"reason\": \"Reject: This photograph documents the preparation stage of lamb liver kebab, not a finished, exposed, cooked dish. The prominent subject is raw meat on a cutting board and an in-progress rotisserie. While the source title correctly identifies the dish and meat species, Tavue's acceptance criteria require a finished, exposed, likely photographic dish that is appetising and prominently displayed. This is a behind-the-scenes preparation photograph, not a food dish photograph. The phone thumbnail reinforces the preparation-stage nature of the image.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1640,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 428,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
