@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChASmA3hSnoZEi1eGyHdg",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Vermicelli noodles in broth\",\n    \"Fresh green herbs and scallions\",\n    \"Multiple protein components visible\",\n    \"Reddish-brown broth consistent with shrimp paste\",\n    \"Served in white bowl with chopsticks\"\n  ],\n  \"phone_observations\": [\n    \"Dish clearly identifiable in thumbnail\",\n    \"Essential components visible: noodles, broth, proteins, garnish\",\n    \"Bowl and chopsticks properly framed\",\n    \"Natural lighting preserved\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source description lists 'fish steaks (small enough to be something like a trout)' but trout species is explicitly uncertain in source itself\",\n    \"Description ambiguously states 'pieces of pork and a few shrimp' but does not explicitly name pork or shrimp in a way that definitively identifies them in the visible dish\",\n    \"Fish species unconfirmed ('like a trout' is speculation, not identification)\",\n    \"Visible meat pieces cannot be definitively matched to source species claims without explicit identification\"\n  ],\n  \"reason\": \"While the photograph is sharp, well-lit, and appetising, and the dish is identifiable as Bún mắm, the source description contains unresolved protein species ambiguities. The fish is described speculatively ('small enough to be something like a trout'), and while pork and shrimp are mentioned, the visible components cannot be conclusively matched to these claims. The title 'Bún mắm' is acceptable, but protein_evidence cannot be populated without exact species confirmation in the source. Identity check fails due to unconfirmed protein composition in source description.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1836,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 529,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChASmazPhNcRaTWCy1RGS",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 1,\n    \"lighting\": 2,\n    \"composition\": 1,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail is entirely obscured by furniture, table legs, and human body/clothing\",\n    \"No finished dish visible in phone centre-cover crop\",\n    \"Only structural elements and street scene clutter are framed\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"The actual 124x96 phone thumbnail does not capture any food dish—it shows only table furniture and surrounding clutter\",\n    \"Although the source description names Mì Quảng with specific proteins (pork, chả sausage, shrimp), the photograph itself is too blurry, poorly composed, and shows the dish in an unappetising context buried under litter\",\n    \"Full source image is severely out of focus, with harsh glare, extreme motion blur, and chaotic background that obscures the finished dish\"\n  ],\n  \"reason\": \"Rejection on multiple grounds: (1) The phone thumbnail fails completely—it shows no recognizable food, only table furniture and environmental clutter; (2) The full source photograph is severely out of focus with sharpness ~1/5, composition ~1/5, and appeal ~1/5; (3) The dish is visually obscured by poor focus, harsh glare, and cluttered surroundings including litter on the ground, rendering it unappetising and not prominently featured; (4) Essential food components are not sharply detailed or naturally coloured in any usable frame. While the source description explicitly names Mì Quảng with pork, chả sausage, and shrimp, neither the full photograph nor the phone thumbnail meet the standard for a finished, sharply detailed, appetising dish suitable for Tavue review.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1939,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 523,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
