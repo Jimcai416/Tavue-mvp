@@ -42309,5 +42309,51 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 720,
     "height": 960,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-99348731",
+    "title": "File:Tumpeng Nasi Kuning dan Tiwul khas Gunungkidul.jpg",
+    "author": "Rahayunita",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tumpeng_Nasi_Kuning_dan_Tiwul_khas_Gunungkidul.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/04/Tumpeng_Nasi_Kuning_dan_Tiwul_khas_Gunungkidul.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "47f65f9dc6538d0341b1221cb45eb88b3b6bc617",
+    "name": "Tumpeng Nasi Kuning dan Tiwul khas Gunungkidul",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-99348731.jpg",
+    "assetSha256": "851a08122db59bfe240114ce8148e3ef4da48152e65578d85531efb73509d4e6",
+    "reviewedAt": "2026-11-18",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-92269937",
+    "title": "File:Bakmi Bangka Bakso Kuah 1.jpg",
+    "author": "Gunawan Kartapranata",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bakmi_Bangka_Bakso_Kuah_1.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Bakmi_Bangka_Bakso_Kuah_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "5878784feb18fcac17a545e45cca0b5a206f6b43",
+    "name": "Bakmi Bangka and Bakso Kuah",
+    "aliases": [],
+    "proteins": [
+      "pork"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-92269937.jpg",
+    "assetSha256": "ed60290913d5b7e710f916e97a7a232e06fe33f50639df6d4044ddb632ecfc30",
+    "reviewedAt": "2026-11-18",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 875,
+    "requiresExactMenuName": true
   }
 ];
