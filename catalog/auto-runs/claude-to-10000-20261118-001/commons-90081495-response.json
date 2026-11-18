@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAZVz54u7ZDnd5yiPBFo",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 3,\n    \"appeal\": 3\n  },\n  \"visible_support\": [\n    \"Grape leaves clearly visible and identifiable\",\n    \"Cooked meat pieces visible throughout\",\n    \"Natural colours consistent with steamed/boiled preparation\",\n    \"Both source and thumbnail show same dish\"\n  ],\n  \"phone_observations\": [\n    \"Meat and grape leaves both visible in thumbnail\",\n    \"Adequate detail for dish recognition\",\n    \"Thumbnail composition reflects full image\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title states 'Chicken' but no visual confirmation of poultry in the meat pieces—colour and texture are ambiguous and could be pork or another meat\",\n    \"Exact species cannot be reliably determined from appearance alone; meat is tan/brown and cooked, insufficient to distinguish chicken from alternatives\"\n  ],\n  \"reason\": \"Source metadata declares 'Chicken' but visual inspection of the meat pieces does not provide clear, unambiguous support for poultry identification. The cooked meat is tan/brown in colour with texture that could be consistent with multiple species. Per protocol, ambiguous meat species or source-declared proteins not visibly confirmed must be held. No explicit protein quote from the source description unambiguously names the animal in a way that matches visible form. Identity check fails due to protein uncertainty.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1382,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 422,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

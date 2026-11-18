@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAZVEedmCiAgGFvFcMJD",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Mounded white rice prominently displayed\",\n    \"Small dark stew/curry in black bowl with garnish\",\n    \"Fresh vegetable side (leafy greens, carrots, purple cabbage visible in phone thumbnail)\",\n    \"Served on white plate, natural restaurant/cafeteria setting\",\n    \"Finished, exposed dish at appetising angle\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail shows complete plate composition\",\n    \"Rice, stewed protein component, and vegetables all readable\",\n    \"Plate edges not clipped; subject prominent and well-framed\",\n    \"All essential components visible in 124x96 centre-cover\"\n  ],\n  \"protein_evidence\": {\n    \"pork\": \"chair de porc\"\n  },\n  \"uncertainties\": [\n    \"Title in French (Prahok ktis) differs from phonetic Khmer script provided; cannot verify exact match against canonical Khmer dish name\",\n    \"No visible pork species confirmation in photograph alone; pork declared in French description 'chair de porc' (pork meat)\",\n    \"Prahok paste itself (fermented fish product) is not in allowed protein categories and cannot be claimed as primary protein\"\n  ],\n  \"reason\": \"Identity check fails: source description is in French ('Prahok et chair de porc, légumes crus et riz') with Khmer script label, but no exact English or verified Khmer canonical form is provided in the metadata. The dish name cannot be confirmed as matching a standard reference. Pork is declared in French text ('chair de porc'), satisfying protein evidence requirements, but the primary identity of this Cambodian dish cannot be securely matched to a single canonical phrase without linguistic verification. All quality, photograph, and phone checks pass; all scores are ≥4. Hold pending clarification of authoritative dish name in a standard transliterated or English form.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1759,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 568,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

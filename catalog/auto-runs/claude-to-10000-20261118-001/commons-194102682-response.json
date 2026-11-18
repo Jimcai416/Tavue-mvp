@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAZV2oWEVoWFev8cPzp9",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Three steamed parcels in banana leaves on white plate\",\n    \"Green banana leaf base with visible texture\",\n    \"Red chilli pepper strips arranged on top\",\n    \"White cream/yogurt or coconut paste visible in centres\",\n    \"Fresh herb garnish (dill/fennel fronds)\",\n    \"Red textile background\"\n  ],\n  \"phone_observations\": [\n    \"Three parcels clearly visible in thumbnail\",\n    \"Banana leaf and red pepper decoration readable\",\n    \"White plate and plating visible\",\n    \"Overall composition and subject prominence clear\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'amok trei' (fish amok), but no fish is visibly identifiable in the cooked dish—the interior is predominantly white/cream paste with no visible fish flesh, bones or characteristic texture\",\n    \"Source title describes 'fish steamed in banana leaves' but the finished dish does not show protein evidence consistent with fish preparation; the white interior could be tofu, coconut cream, or other proteins\",\n    \"The steamed amok interior composition is ambiguous and does not confirm the declared fish species\"\n  ],\n  \"reason\": \"Reject: Identity check fails. The source title explicitly declares this as 'amok trei' (fish steamed in banana leaves), but the finished dish's white/cream interior shows no visible fish tissue, structure, or characteristic colour that would confirm seafood as the primary protein. The composition appears consistent with tofu amok, coconut-based paste, or an indeterminate protein preparation. Per instructions, protein species must be supported by visible form or explicit source quote naming the animal. The title's fish declaration cannot be visually verified in this cooked form, and no other protein is explicitly named in the source metadata. This creates a source-to-visible contradiction that requires hold/rejection. The photograph and phone thumbnail are of good quality and the dish is finished and appetising, but identity authenticity cannot be established.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1389,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 576,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
