@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBGQrYmQSUNbRFvGfac4",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 3,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows pasta strands being lifted from a pot with creamy sauce below\",\n    \"Kitchen setting visible in background\",\n    \"Hand holding pasta, early preparation/cooking stage visible\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Image shows pasta during cooking/preparation, not a finished plated dish\",\n    \"Kuymak is traditionally a Turkish cheese and cornmeal dish, but this appears to be pasta in a cream sauce\",\n    \"Source title 'Kuymak' does not match the visible pasta dish\",\n    \"No finished, exposed, plated food product visible—this is mid-cooking documentation\"\n  ],\n  \"reason\": \"Rejection: The photograph captures pasta during preparation/cooking stage, not a finished, exposed, appetising dish. The source title 'Kuymak' (a Turkish cheese-cornmeal preparation) contradicts the visible pasta product. Essential identity mismatch and preparation-stage image violate acceptance criteria. Finished dish appearance and phone thumbnail clarity are insufficient to overcome identity and preparation-stage defects.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1722,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 383,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
