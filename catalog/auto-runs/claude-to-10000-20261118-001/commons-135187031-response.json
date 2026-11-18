@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAXvwSHYwNALqCdMhoun",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Plated meat dish with shredded/sliced cooked meat dominant\",\n    \"Bread roll, shredded cabbage slaw, white sauce (tzatziki-like)\",\n    \"Restaurant setting with beer bottle (Kulmbacher Edelherb)\",\n    \"Proper plating on white dish with cutlery\"\n  ],\n  \"phone_observations\": [\n    \"Meat and sides clearly visible in thumbnail\",\n    \"Dish composition readable\",\n    \"Adequate detail for food recognition\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title states 'Gyros' but meat species is not explicitly named in title or description—gyros traditionally implies lamb/pork/chicken but no source quote confirms which animal\",\n    \"Meat appearance suggests shredded/sliced pork or lamb, but visual inference alone cannot establish species without source declaration\",\n    \"Description provides location and date but no protein specification\"\n  ],\n  \"reason\": \"Image quality, composition, lighting and phone thumbnail are all acceptable (scores ≥4). However, the source title and description do not explicitly name a meat species. While 'Gyros' is a named dish, the protocol requires an exact source quote naming the protein animal (chicken/beef/pork/duck/lamb/seafood). The title 'Gyros in Theos Bistro in Tauberbischofsheim' and description do not meet this requirement. Identity cannot be confirmed as matching a specific source-declared variant with named protein. Hold pending clarification of meat species from authoritative source metadata.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1766,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 495,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

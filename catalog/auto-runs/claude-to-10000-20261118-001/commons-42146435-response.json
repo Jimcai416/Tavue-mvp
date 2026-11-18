@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAXvTu5UrrxEqo2gYxz1",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 2\n  },\n  \"visible_support\": [\n    \"Multiple bowls of deep red liquid with visible raw meat pieces\",\n    \"Green herb garnish (cilantro/coriander)\",\n    \"White bowls on patterned surface\",\n    \"Raw/uncooked preparation state evident\"\n  ],\n  \"phone_observations\": [\n    \"Red liquid and raw meat pieces clearly visible in thumbnail\",\n    \"Multiple servings in white bowls\",\n    \"Raw preparation state evident at phone size\"\n  ],\n  \"protein_evidence\": {\n    \"pork\": \"lợn\"\n  },\n  \"uncertainties\": [\n    \"Tiết canh is a raw/uncooked blood dish, representing a preparation stage rather than a finished, exposed, cooked dish\",\n    \"Raw meat and blood consumption dish does not meet appetising finished dish criterion\"\n  ],\n  \"reason\": \"Reject: Tiết canh is a raw blood and meat dish in preparation/consumption state. The guidelines explicitly reject raw/preparation stages. While the photograph is sharp, well-lit, and the identity is clear from source (Tiết canh lợn = pork blood dish), the dish itself is fundamentally raw rather than a finished, cooked, exposed dish. The unappetising appearance of raw blood and meat, combined with the preparation-stage nature of the dish, fails the finished dish and appeal criteria.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1731,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 438,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

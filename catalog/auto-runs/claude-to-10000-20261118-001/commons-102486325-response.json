@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAXwGJrHMb2Qaxhny4DC",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Cooked meat pieces with caramelized exterior, brown and glossy\",\n    \"Sliced raw onion garnish on top\",\n    \"Fresh green herbs (parsley or cilantro)\",\n    \"Red tomato slices visible at plate edge\",\n    \"Sauce dots in orange/amber tone scattered around plate\",\n    \"Professional plating on white oval plate\",\n    \"Both source and thumbnail show same dish from different angles\"\n  ],\n  \"phone_observations\": [\n    \"Meat and toppings clearly visible and sharp in thumbnail\",\n    \"Dish is prominent with readable components\",\n    \"Sauce drizzle pattern visible\",\n    \"Garnish and onion slices identifiable\",\n    \"Overall composition matches full source photo\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title 'Patvelia' is not explicitly confirmed in supplied title/description field—only appears in filename\",\n    \"Animal protein species not stated in provided description; meat type cannot be confirmed from visual appearance alone\",\n    \"Description says 'portioned on two different plates and photos taken from different angles' but does not specify the dish name or confirm Patvelia as the canonical name\",\n    \"Without explicit source quote naming the dish and protein species, identity cannot be verified\"\n  ],\n  \"reason\": \"While the photograph shows a finished, well-presented cooked meat dish with professional plating, sharp detail, natural colour, appetising appearance, and good quality in both full image and phone thumbnail, the identity check fails. The source description does not explicitly name 'Patvelia' as the dish title (it only appears in the filename, which is excluded from canonical naming per instructions). No animal protein is explicitly named in the provided description, and the instructions require exact source quote evidence for both identity and any protein claims. Without a clear, quoted dish name and protein specification from the actual title or description field, identity cannot be confirmed and protein_evidence must remain empty. Hold pending source clarification.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1751,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 583,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
