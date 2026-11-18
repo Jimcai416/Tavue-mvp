@@ -3929,3 +3929,9 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 
 - **Gallo Pinto** — Gmasmcal. [CC BY 4.0](https://creativecommons.org/licenses/by/4.0); [source](https://commons.wikimedia.org/wiki/File:Gallo_Pinto.jpg). Local asset: `reviewed-commons-155567089.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Costa Rican breakfast with gallo pinto** — [James Diggans  from Washington, DC, USA](https://www.flickr.com/people/99088547@N00). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Gallo_Pinto_at_breakfast.jpg). Local asset: `reviewed-commons-3758320.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Pasta with Sauce | Baasto iyo Suugo** — [U.S. Department of Agriculture](https://www.flickr.com/people/41284017@N08). [Public domain](https://creativecommons.org/publicdomain/mark/1.0/); [source](https://commons.wikimedia.org/wiki/File:BaastoSuugo.jpg). Local asset: `reviewed-commons-193829864.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Chicken Sosatie** — [chee.hong](https://www.flickr.com/photos/40135642@N00). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Chicken_sosatie.jpg). Local asset: `reviewed-commons-11038047.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Tuwon shinkafa miyan taushe** — Anasskoko. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Tuwon_shinkafa_miyan_taushe.jpg). Local asset: `reviewed-commons-86590905.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
