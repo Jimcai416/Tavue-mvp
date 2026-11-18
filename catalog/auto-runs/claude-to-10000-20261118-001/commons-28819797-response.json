@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAxCQ5dG5xRcgFBTozwX",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Braised meat in dark sauce visible in both full image and phone thumbnail\",\n    \"Lime wedge and fresh garnishes (cilantro, onion, jalapeño) present\",\n    \"White plate with blue rim, traditional presentation\",\n    \"Fresh produce context (radishes, tomatoes, onion, chiles) surrounding plate\",\n    \"Beer glass visible, suggesting authentic setting\"\n  ],\n  \"phone_observations\": [\n    \"Meat dish clearly visible in centre thumbnail\",\n    \"Sauce and garnishes readable at reduced resolution\",\n    \"Essential components (meat, lime, cilantro) distinguishable\",\n    \"Plate and plating style evident\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title contains 'File:' prefix and location data, treating as untrusted metadata per instructions\",\n    \"Description states 'Comida típica de la región' (typical food of the region) but provides no explicit dish name\",\n    \"Visible form strongly suggests birria or similar braised meat dish, but source title does not contain readable dish identifier after 'File:' and location prefix\",\n    \"Exact canonical dish name cannot be extracted from supplied title without interpreting location-based inference\",\n    \"No explicit protein species named in available title/description text\"\n  ],\n  \"reason\": \"Image quality, photograph authenticity, phone thumbnail clarity, and visual composition all meet standards. However, identity check fails: the source title 'File:Birria Tatemada, La Barca, Jalisco..jpg' contains filename prefix and location data marked as untrusted metadata. The description 'Comida típica de la región' provides no explicit dish name. Per instructions, canonical_name must be copied exactly from source title or description without File:, date, photographer or filename elements. No unambiguous, cleaned source phrase is available. Protein species is not explicitly named in title or description. Hold pending clarification of authoritative source title/description without file metadata.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1670,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 586,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

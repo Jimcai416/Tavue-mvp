@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAxCQMW1Lq3GdAq5bNUq",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Wheat tortilla base visible\",\n    \"Sliced meat protein distributed across surface\",\n    \"Julienned cheese strips arranged in crosshatch pattern\",\n    \"Green onion/scallion garnish visible\",\n    \"Red chilli flake garnish visible\",\n    \"Finished, plated dish on white dishware\",\n    \"Natural colour balance and exposure\"\n  ],\n  \"phone_observations\": [\n    \"Circular plated composition clearly visible\",\n    \"Protein, cheese, and garnish details readable at thumbnail scale\",\n    \"Central arrangement with garnish distribution evident\",\n    \"No essential food clipped in frame\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title states 'Duck quesadilla' but duck is not an allowed protein category\",\n    \"Visual appearance of the meat is consistent with duck (colour, texture), but duck cannot be accepted under the allowed protein list (chicken/beef/pork/duck/lamb/seafood only includes duck, but source does not provide explicit quote confirming duck)\",\n    \"The metadata title 'Duck quesadilla' is present but qualifies as untrusted evidence per instructions\",\n    \"No explicit source description confirming duck as the protein with a quotable phrase matching the canonical name requirement\"\n  ],\n  \"reason\": \"Reject: Source title declares 'Duck quesadilla' but duck, while visually consistent with the meat shown, cannot be verified against the allowed protein categories without an explicit source quote. The instructions specify proteins may include only chicken/beef/pork/duck/lamb/seafood with an exact source quote explicitly naming each animal. The metadata title alone is marked as untrusted evidence. The image quality, composition, and plating are strong (all scores ≥4), and the dish is clearly a finished, appetising quesadilla with readable components, but protein identity cannot be confirmed to match a quotable, trusted source description. Hold pending clarification of protein source documentation.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1825,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 581,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
