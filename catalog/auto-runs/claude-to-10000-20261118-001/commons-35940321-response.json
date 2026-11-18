@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBF4jPjksA14TC7vWaVi",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Charred, grilled meat pieces with dark caramelization\",\n    \"Rice base with visible purple/dark beans mixed in\",\n    \"Fresh red chilli slices and green vegetables as garnish\",\n    \"Sauce bowl visible on side of plate\"\n  ],\n  \"phone_observations\": [\n    \"Prominent grilled meat pieces in foreground\",\n    \"Rice and beans clearly visible as base\",\n    \"Charred exterior of meat dominant in thumbnail\",\n    \"Garnish visible but small in phone view\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title claims 'Jerk Chicken' but photograph displays only unidentifiable charred meat pieces with no visible poultry characteristics (skin, bone structure, or texture typical of chicken)\",\n    \"The meat appears to be significantly larger chunks than typical jerk chicken—resembles beef or lamb skewers/kebabs more than chicken portions\",\n    \"No clear visual evidence of chicken species; charred exterior obscures identification\",\n    \"Description contradicts visible form: meat size, shape, and preparation style inconsistent with standard jerk chicken plating\"\n  ],\n  \"reason\": \"Identity check fails. Source title claims 'Jerk Chicken' but the visible meat is unidentifiable charred chunks substantially larger than chicken portions, resembling beef or lamb skewers. The charring and form do not match typical jerk chicken. Without explicit protein naming in source metadata or clear visual evidence of chicken, and given the contradiction between claimed and visible identity, this cannot be accepted as the stated dish. No protein category can be supported from the visible evidence.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1468,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 500,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
