@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChB6fcGYcMFXzCYHbgfmd",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 5,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Whole fried fish, clearly cooked and plated\",\n    \"White starch ball (ugali) prominent in composition\",\n    \"Fresh vegetable garnishes: tomato slices, cucumber, red chilli, black olive\",\n    \"Sauce/dip in white bowl (top left)\",\n    \"Professional restaurant plating on white dish\",\n    \"Orange/red striped napkin and table setting visible\",\n    \"Both full image and thumbnail show complete, finished dish\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows whole fish, ugali, and vegetable garnish\",\n    \"All essential dish components visible and identifiable at 124x96\",\n    \"Colour and composition readable; fish detail preserved\",\n    \"No clipping of critical food elements\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title references 'Ugali and Samaki with some side of Sukumawiki' but visible vegetables (tomato, cucumber, chilli, olive) do not match sukumawiki (collard greens), which is not clearly present on plate\",\n    \"Fish species ('Samaki') is a Swahili generic term for fish, not an exact species name—cannot be mapped to chicken/beef/pork/duck/lamb/seafood canonical category\",\n    \"Metadata incomplete: description truncated ('This is an image of food from'); no full context provided\"\n  ],\n  \"reason\": \"Image quality, sharpness, composition and phone thumbnail are all excellent, and the dish is clearly a finished, professionally plated fried whole fish with ugali and garnishes. However, identity cannot be confirmed because: (1) the protein 'Samaki' is a generic Swahili term for fish and does not name a specific allowed category or species; (2) the visible vegetable garnishes (tomato, cucumber, chilli, olive) do not match the stated sukumawiki side, raising a source/visual contradiction; (3) the metadata description is incomplete. Per protocol, unknown or unverifiable fish species and source contradictions require hold pending clarification.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1595,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 613,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
