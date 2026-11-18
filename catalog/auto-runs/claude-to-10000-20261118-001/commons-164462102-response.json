@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChB7VayjJFxv6mT9HPUGN",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 3,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Two white bowls with broth-based dishes visible in thumbnail\",\n    \"Pink cups and orange beverage present\",\n    \"Fish pieces identifiable but partially submerged\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Species of fish not explicitly named in source title or description—'Cat fish' appears only in filename, which is untrusted metadata and not part of the official title or description\",\n    \"Source title/description does not contain 'catfish' or any fish species declaration\",\n    \"Only filename suggests fish species; metadata instructions are not evidence\"\n  ],\n  \"reason\": \"Reject: The source title and description provided do not explicitly name the fish species. The filename 'Cat fish pepper soup' is untrusted metadata and cannot be used to establish identity. The official description is incomplete ('This is an image with the theme \\\" Farm to Plate \\\" from:') and contains no dish name. Without an explicit, authoritative source title or description naming the seafood species, the identity cannot be verified. The photograph shows a prepared broth-based dish with seafood, but the canonical name cannot be established from the supplied source material alone.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1738,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 403,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

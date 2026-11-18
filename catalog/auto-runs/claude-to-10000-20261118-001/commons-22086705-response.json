@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChB7Vb8f9hMK8g2ERma7L",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Golden-brown triangular wrapped portion (likely pastry-enclosed item)\",\n    \"Dark cooked vegetables or legumes beneath\",\n    \"Rich brown sauce/gravy throughout\",\n    \"White plate, professional plating\",\n    \"Finished, exposed dish with sauce\"\n  ],\n  \"phone_observations\": [\n    \"Wrapped item clearly visible in phone thumbnail\",\n    \"Dark vegetables/components readable\",\n    \"Brown sauce evident\",\n    \"Overall composition and subject recognizable at small scale\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title states 'Kedjenou' but description contradicts itself: title says 'spicy stew prepared with chicken or guinea hen' yet the description explicitly states 'This particular version uses escargots instead of poultry'\",\n    \"Visible golden wrapped item and dark vegetables do not definitively match escargot preparation visual patterns\",\n    \"Guinea hen is not an allowed protein category\",\n    \"No explicit quote identifying the specific protein in THIS particular dish—only that it deviates from poultry to escargots\",\n    \"Escargot is not an allowed protein category and cannot be used as a key\"\n  ],\n  \"reason\": \"Source metadata contains internal contradiction: title/opening description indicate chicken or guinea hen, but then explicitly state 'this particular version uses escargots instead of poultry.' No exact source quote uniquely identifies the actual protein in this specific dish. Guinea hen is not an allowed category. Escargot cannot be mapped to an allowed protein key. Identity cannot be confidently resolved against the visible form without resolving the protein contradiction.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1507,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 502,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
