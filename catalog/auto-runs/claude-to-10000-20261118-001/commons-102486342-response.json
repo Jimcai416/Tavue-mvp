@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAXzty4mybZtS4XAoexf",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Finished, cooked meat dish with golden-brown colour\",\n    \"Plated on white ceramic with artistic sauce drizzle\",\n    \"Raw onion slices and fresh cilantro garnish visible\",\n    \"Tomato and what appears to be potato or other vegetable component\",\n    \"Naturally coloured, appetising presentation\"\n  ],\n  \"phone_observations\": [\n    \"Dish is prominent and sharp in thumbnail\",\n    \"Golden meat and sauce drizzle clearly visible\",\n    \"Garnish and plating details readable\",\n    \"No essential components clipped\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title references 'Patvelia' but no species-specific protein is named in source description\",\n    \"Meat species cannot be inferred from appearance alone (could be goat, lamb, beef, or other)\",\n    \"Source description states 'portioned on two different plates and photos taken from different angles' but only single plating visible here; unclear if this is the complete authorized dish or a crop\",\n    \"No explicit animal name provided in title or description to match against allowed proteins\"\n  ],\n  \"reason\": \"Identity check fails: source title/description does not explicitly name the protein species. While 'Patvelia' is mentioned, this is an unqualified reference without species declaration. Metadata indicates multiple plates and angles, but only one presentation is shown; cannot confirm this represents the full authorized dish rather than a selective crop. Protein evidence cannot be populated without exact source quote naming an allowed animal. Hold pending clarification of meat species and confirmation of complete, unedited plating.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 2066,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 504,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

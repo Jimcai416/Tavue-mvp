@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAY1gNZ2XiBANwapjyHk",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Cooked fried rice with visible ham/pork pieces, corn, peas, green onions\",\n    \"Natural colour and texture of prepared dish\",\n    \"Appetising presentation on white plate\",\n    \"Phone thumbnail clearly shows the fried rice composition\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail captures the main dish clearly\",\n    \"Fried rice texture and mixed ingredients visible\",\n    \"Plate and utensil visible in frame\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title is generic 'rice' — insufficient identity specificity\",\n    \"Red/pink pieces visible appear to be ham or pork, but source description does not explicitly name any protein\",\n    \"No explicit confirmation of dish variant (e.g. 'Chinese fried rice', 'chicken fried rice', 'shrimp fried rice') in the description field\",\n    \"Author attribution to restaurant is metadata only; does not constitute source dish declaration\"\n  ],\n  \"reason\": \"Image quality, sharpness, lighting and composition are all acceptable (scores ≥4), and the photograph shows a finished, exposed, appetising fried rice dish with readable components in both full image and phone thumbnail. However, the source description is insufficient for identity verification. The title is merely 'rice' and the description field contains only 'rice'. Although visible ham/pork pieces are present, the source provides no explicit protein declaration. The generic title does not constitute a specific dish name or variant qualifier. Identity check fails due to lack of precise source-title match for a named dish variant. Hold pending explicit source dish identification.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1639,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 503,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
