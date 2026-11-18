@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAx8M6vpZMKGYe5x9XSF",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Brown meat stew in cream-coloured bowl\",\n    \"Rich brown broth visible\",\n    \"Diced white onion garnish prominent\",\n    \"Fresh green cilantro scattered across surface\",\n    \"Finished, exposed dish characteristic of birria\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows stew composition\",\n    \"Onion and cilantro garnish readable\",\n    \"Broth colour and meat visible\",\n    \"Bowl edges defined\",\n    \"Sufficient detail for dish recognition\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source metadata states 'goat meat' but goat is not an allowed protein category\",\n    \"Visible meat pieces do not definitively establish species\",\n    \"Birria traditionally made with goat or beef; source claims goat but this cannot be verified visually\",\n    \"No exact phrase 'goat' or allowed protein name in canonical title context\"\n  ],\n  \"reason\": \"Image quality, photograph composition, and phone thumbnail all pass technical checks. Dish is clearly a finished birria stew with identifiable onion and cilantro garnish, natural colour, sharp detail, and appetising presentation. However, the source description explicitly names 'goat meat' as the protein, and goat is not an allowed protein category (only chicken/beef/pork/duck/lamb/seafood permitted). While birria can be made with beef or lamb (both allowed), the source metadata specifically claims goat, creating an unresolvable contradiction. The visible meat cannot confirm the species. Hold pending clarification or alternative source documentation confirming an allowed protein.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1868,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 508,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

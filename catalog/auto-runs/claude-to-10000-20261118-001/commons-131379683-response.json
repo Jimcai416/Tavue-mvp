@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAx9L1yPRfzBLGcUiqsm",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [\n    \"Dark braised sauce visible in white bowl\",\n    \"Cooked tentacles with curled edges\",\n    \"Intact stem/neck sections with preserved tentacle suckers\",\n    \"Bowl presentation consistent with Southeast Asian stew format\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows dark sauce and cooked squid pieces\",\n    \"Tentacles and body segments identifiable\",\n    \"Bowl and liquid visible at reduced resolution\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title declares 'Squid adobo' but the visible form shows whole or large squid pieces with intact tentacles and stems, not minced or finely diced squid typical of adobo preparation; the morphology suggests boiled or poached squid pieces in a braising liquid rather than a traditional Filipino adobo (which involves slow-cooked meat in vinegar, soy, garlic and spices with integrated sauce absorption)\",\n    \"The dish appearance is more consistent with 'squid in soy sauce', 'squid in gravy', or a boiled squid preparation than with canonical adobo technique and presentation\",\n    \"No explicit protein category match: source claims 'squid' (seafood), but Tavue's protein_evidence keys restrict to chicken/beef/pork/duck/lamb/seafood; 'squid' is cephalopod, not standard seafood category as defined in instructions\"\n  ],\n  \"reason\": \"Source title declares 'Adobong pusit (Squid adobo, Philippines)' but visible form does not support adobo identity: the squid is presented in large, recognizable pieces with intact tentacles and stems in a dark liquid, which contradicts the typical Filipino adobo preparation method (braised until sauce is absorbed and integrated). The morphology and presentation suggest a different preparation (poached, boiled, or stewed squid). Additionally, squid as a cephalopod does not match the specified seafood protein category (which typically denotes fish, shrimp, crab, etc.). Identity contradiction between source claim and visible form, combined with undefined protein category, requires hold.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1533,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 624,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
