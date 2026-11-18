@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBG7iJT24243JHapjNrW",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Compressed rice cake (lontong) visible as pale cylindrical blocks\",\n    \"Red/orange sambal balado sauce coating the dish\",\n    \"Shredded meat component with tan/brown colour\",\n    \"Potato slices visible\",\n    \"Served on clear plastic plate with spoon\",\n    \"Natural daylight on wooden table surface\"\n  ],\n  \"phone_observations\": [\n    \"Dish remains identifiable at thumbnail size\",\n    \"Red sauce, rice cake, and meat components readable\",\n    \"No essential food clipped by frame\",\n    \"Suitable centre-cover representation\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title specifies 'tongkol' (skipjack tuna/bonito) but source description in Indonesian states 'Sepiring lontong tongkol balado' — the meat component visible is shredded and tan/brown in colour, consistent with cooked fish, but species cannot be visually confirmed with certainty from appearance alone\",\n    \"No explicit English-language source title provided; metadata title is a filename, not a confirmed dish name\"\n  ],\n  \"reason\": \"Identity cannot be verified with certainty. The source provides only a filename ('Lontong Tongkol Balado.jpg') and an Indonesian description ('Sepiring lontong tongkol balado'). Although the description mentions 'tongkol' (skipjack tuna), the visible shredded meat component, while consistent with cooked fish, cannot be definitively confirmed as the stated species from visual evidence alone. The protocol requires that protein identity be supported by an exact source quote explicitly naming the animal; a filename does not meet this standard. The description is in Indonesian and refers to the dish generically without a formal English title match. All quality and photographic checks pass, but the protein species uncertainty prevents acceptance.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1741,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 555,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

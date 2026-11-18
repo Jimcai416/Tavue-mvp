@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBG7TBchfuVcsEtrpHs8",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows pale green translucent cubes with white filling on a light plate\",\n    \"Essential components are visible and readable in phone thumbnail\",\n    \"Bright lighting with some gloss on surfaces\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Bánh đúc is a Vietnamese dessert made from tapioca starch and mung bean. The source description claims this is a finished dish photo, but bánh đúc is fundamentally a sweet, non-savoury item (typically served with sweet syrup and coconut milk). Tavue's review scope is for food photographs of dishes—and bánh đúc, while a legitimate Vietnamese food item, falls into the category of sweet desserts/snacks rather than savory dishes suitable for Tavue's food photography database.\",\n    \"No animal proteins are present in bánh đúc. The dish contains no chicken, beef, pork, duck, lamb, or seafood.\",\n    \"The context (death anniversary ceremony) and ingredient profile (tapioca, mung bean) confirm this is a dessert, not a savory main or side dish.\"\n  ],\n  \"reason\": \"While the photograph itself is sharp, well-composed, and the thumbnail is clear and readable, bánh đúc is a sweet dessert made from tapioca starch and mung bean—not a savory dish within Tavue's review scope. The dish contains no animal proteins (chicken, beef, pork, duck, lamb, or seafood) and falls outside the category of food dishes suitable for this service. Reject on identity grounds: bánh đúc does not match the expected profile of dishes under review.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1770,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 517,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

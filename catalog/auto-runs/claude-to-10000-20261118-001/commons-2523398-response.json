@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBG71Q5vCN3tTsFohQBN",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Crumbled cooked meat (pale, finely minced texture)\",\n    \"Fresh cilantro/coriander leaves (prominent garnish)\",\n    \"Purple/red onion slices\",\n    \"Yellow/pale cabbage base\",\n    \"Orange/tan sauce or dressing\",\n    \"Green scallions/spring onion visible\"\n  ],\n  \"phone_observations\": [\n    \"Meat and garnish clearly visible at centre\",\n    \"Characteristic larb plating distinguishable\",\n    \"Sauce colour and ingredient distribution readable\",\n    \"Dish identity recognisable in thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title states 'Larb Gai Tom' (chicken larb) but source description lacks explicit protein naming; 'Gai' means chicken in Thai but is not a direct English-language quote in the provided description\",\n    \"Description 'Larb Gai Tom - Ton Kra Thai - Melbourne' does not contain the word 'chicken' as an explicit English substring\",\n    \"Visible minced meat colour and texture are consistent with chicken but cannot definitively rule out other poultry or pork without explicit source statement\"\n  ],\n  \"reason\": \"Image quality, sharpness, lighting, composition and phone thumbnail recognition are all strong (all scores ≥4). The dish is a finished, exposed larb with appetising appearance, sharp detail, natural colours, and prominent visible components (minced meat, cilantro, onion, cabbage, sauce). However, the source title 'Larb Gai Tom' uses Thai terminology for chicken ('Gai'), which is not an explicit English-language protein declaration matching the required exact substring rule. The description 'Larb Gai Tom - Ton Kra Thai - Melbourne' does not contain the word 'chicken' as a direct quote. Although culinary convention and Thai language knowledge strongly suggest chicken, the protocol requires explicit English-language protein naming in the source title or description. This ambiguity—while minimal—prevents full acceptance. Hold pending clarification of protein identity in explicit English-language source text.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1460,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 621,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
