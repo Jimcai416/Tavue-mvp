@@ -4429,3 +4429,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 - **Lagman** — Svetlov Artem. [CC BY 4.0](https://creativecommons.org/licenses/by/4.0); [source](https://commons.wikimedia.org/wiki/File:Lagman_Moscow_2023.jpg). Local asset: `reviewed-commons-129290989.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Bigos** — Aw58. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Bigos_-_2024.11.15.jpg). Local asset: `reviewed-commons-155238869.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Salad-maki (sushi)** — 石焼ビビンバ. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Salad-maki_(sushi).jpg). Local asset: `reviewed-commons-116250212.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Pot cooked lobio** — Shayat1. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/); [source](https://commons.wikimedia.org/wiki/File:Pot_lobio.jpg). Local asset: `reviewed-commons-1995538.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
