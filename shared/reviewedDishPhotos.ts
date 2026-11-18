@@ -52997,5 +52997,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-19680365",
+    "title": "File:Dolma Azerbaijani.JPG",
+    "author": "Photo by  MrArifnajafov  (Photography from the original).",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dolma_Azerbaijani.JPG",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Dolma_Azerbaijani.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "165a0bf25a56d6cc12fe4722eed59a18bbdac712",
+    "name": "Azerbaijani traditional national dish of the yaprag dolması",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-19680365.jpg",
+    "assetSha256": "a439c82ca6472a99929de1070e4083b91c02c29f6b761d3feb429ec6c01e432d",
+    "reviewedAt": "2026-11-18",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 636,
+    "requiresExactMenuName": true
   }
 ];
