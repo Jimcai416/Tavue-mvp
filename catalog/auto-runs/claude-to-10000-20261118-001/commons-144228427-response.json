@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBCkNeaF5KUuvonjVSfp",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Golden-yellow mustard paste coating\",\n    \"Whole fish with eye sockets visible\",\n    \"Oil/ghee pooling around dish\",\n    \"Spiced turmeric-forward appearance\"\n  ],\n  \"phone_observations\": [\n    \"Whole cooked fish clearly visible in phone thumbnail\",\n    \"Mustard-yellow colour preserved\",\n    \"Fish form entirely within frame\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Species identity unverified: source claims 'hilsa (Tenualosa ilisha)' but photograph alone cannot confirm specific fish species\",\n    \"No explicit protein category match: 'hilsa' or 'ilish' is not chicken/beef/pork/duck/lamb/seafood—it is a specific regional fish name without English common name confirmation in source\",\n    \"Metadata title contains non-Latin script and filename pattern; description is external assertion only\"\n  ],\n  \"reason\": \"The photograph is sharp, well-lit, properly composed and appetising, with the dish prominently displayed in both full and thumbnail views. The image shows a finished, cooked whole fish in mustard paste—clearly a photographic dish. However, the source description names the protein as 'hilsa (Tenualosa ilisha)', which is a specific regional fish species. The generic 'seafood' category in the protocol does not accommodate species-level identification, and 'hilsa' is not an English common name covered by chicken/beef/pork/duck/lamb/seafood. The source metadata title and description are external assertions that cannot be visually verified from the photograph alone. Without an exact match to an allowed protein category supported by visual and textual evidence, the dish cannot be canonically named and accepted.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1899,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 529,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
