@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAY5Esk7psnDfKqV348G",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 2,\n    \"composition\": 1,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Phone thumbnail shows restaurant menu boards and signage only\",\n    \"No finished dish visible in phone thumbnail\",\n    \"Menu text and prices dominate the frame\",\n    \"No prominent, appetising food subject in centre-cover area\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title references 'Yangzhou fried rice' but the full source photograph shows only restaurant menus and signage, not a finished plated dish\",\n    \"Cannot verify which menu item or dish is actually being documented\"\n  ],\n  \"reason\": \"Rejection: The source photograph is primarily a menu board documentation image showing restaurant signage and pricing lists, not a finished, exposed, photographic dish. The phone thumbnail contains only menu boards with no visible prepared food. The described identity 'Yangzhou fried rice' cannot be verified against visible content in either image—no finished rice dish is prominently displayed, sharply detailed, naturally coloured or appetising in either the full photograph or the phone thumbnail. This is a restaurant environment/menu record photograph, not a food subject photograph meeting Tavue acceptance criteria.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1812,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 388,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

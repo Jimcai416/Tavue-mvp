@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAY5anpE5gH6mpTA8d2B",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 2,\n    \"composition\": 2,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Jollof rice and salad visible in phone thumbnail\",\n    \"Fruit salad bowl in foreground with fork\",\n    \"Limited detail due to small size and distant angle\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title incomplete: 'This is an image of food from' — truncated mid-sentence, no origin or dish details provided\",\n    \"Title lists three dishes but provides no identifying information beyond category names\",\n    \"No source description of jollof rice preparation, spice profile, or regional variant\",\n    \"No protein species named in title or visible description\"\n  ],\n  \"reason\": \"Reject: source title is incomplete and truncated ('This is an image of food from'), providing no meaningful dish identification. Photograph is severely underexposed with poor lighting and soft focus throughout, scoring ≤2 on sharpness, lighting, and appeal. Identity check fails due to absent source specification. No protein evidence available. While the content appears to be three recognizable dish categories (jollof rice, vegetable salad, fruit salad), the incomplete source metadata and poor photograph quality prevent reliable intake.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1528,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 399,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

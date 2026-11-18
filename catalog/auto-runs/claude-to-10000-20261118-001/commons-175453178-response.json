@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAY5EsVZ2FXZzpSXM6F8",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Grilled meat cubes present on platter\",\n    \"Rice mound visible\",\n    \"Green vegetable (okra or similar) charred\",\n    \"Lemon wedge garnish\",\n    \"Fresh salad with mixed greens and beetroot\"\n  ],\n  \"phone_observations\": [\n    \"Plated dish with rice, meat cubes and vegetables clearly visible in thumbnail\",\n    \"Distinct components readable at small size\",\n    \"Appetising presentation maintained\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title claims both 'lamb and chicken' but visual differentiation of two distinct meat species on plate is not reliably possible from colour and form alone\",\n    \"Kebab description states 'skewered and grilled over charcoal' but cubes appear as individual pieces rather than on visible skewers\",\n    \"Cannot confirm which cubes are lamb vs chicken from appearance\",\n    \"Species ambiguity (particularly lamb vs mutton distinction not addressed in source)\"\n  ],\n  \"reason\": \"Source declares two proteins (lamb and chicken) with specific mention of each animal, but visual distinction between the two meat types is not reliably demonstrable from the photograph. The cubes show varying browning but this alone cannot prove separate species rather than different cooking stages of one meat. Identity check fails because the visible form cannot reliably confirm the claimed dual-protein composition. Hold pending clarification or source metadata confirming each protein separately, as the stated identity cannot be visually verified.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1753,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 475,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

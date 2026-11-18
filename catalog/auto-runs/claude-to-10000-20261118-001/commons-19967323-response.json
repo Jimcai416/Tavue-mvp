@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAY4m79hBXgfSGVMDLL3",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Full image shows two distinct plated dishes\",\n    \"Upper plate: golden-brown fried oblong items with yellow fries\",\n    \"Lower plate: fish-shaped arrangement of shredded orange material with cucumber and herb garnish\",\n    \"Thumbnail focuses on the fish-shaped dish\"\n  ],\n  \"phone_observations\": [\n    \"Phone thumbnail shows only the fish-shaped orange shredded dish\",\n    \"Cucumber slice visible as eye, herb garnish visible\",\n    \"Upper fried items are cropped out/not visible in thumbnail\",\n    \"Fish-shaped presentation dominates the thumbnail composition\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title states 'Fried kibbeh' but the full image shows two completely different dishes\",\n    \"The fish-shaped orange shredded dish is not kibbeh and does not match the stated identity\",\n    \"The thumbnail shows only the fish-shaped dish, not the fried items that might correspond to kibbeh\",\n    \"Composition of the orange fish-shaped dish is unclear—appears to be shredded vegetable or processed ingredient, not traditional kibbeh\",\n    \"No protein can be visually or textually confirmed for either visible dish\",\n    \"Source title/description does not match either visible dish\"\n  ],\n  \"reason\": \"Identity rejection. The source title 'Fried kibbeh' does not match either of the two plated dishes visible in the photograph. The upper plate shows fried oblong items with fries; the lower plate shows a fish-shaped arrangement of shredded orange material with vegetable garnish. Neither dish visually resembles or corresponds to the stated kibbeh identity. The thumbnail focuses on the fish-shaped dish, which contradicts the stated title. The discrepancy between title and actual visible content, combined with inability to confirm proteins or authentic dish identity, requires hold status.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1460,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 563,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

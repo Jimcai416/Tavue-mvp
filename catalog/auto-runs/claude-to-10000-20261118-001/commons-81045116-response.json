@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAY4mB8HTsShZfN6wkd5",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Two vertical döner/shawarma rotisseries mounted in commercial holders\",\n    \"Left spit shows reddish-brown meat column\",\n    \"Right spit shows lighter, layered meat column\",\n    \"Both in preparation/cooking state within rotisserie equipment\",\n    \"Drip trays visible at base collecting meat juices\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source metadata labels 'beef' and 'chicken' but these are unverified metadata claims, not visible proof of species\",\n    \"Meat colour alone cannot reliably distinguish beef from chicken or confirm species identity\",\n    \"Image shows raw/cooking stage meat on rotisserie, not a finished plated dish\",\n    \"No prepared, exposed, finished dish is visible\"\n  ],\n  \"reason\": \"Rejection: This is a commercial kitchen equipment photograph showing meat undergoing cooking/preparation on rotisserie spits, not a finished, plated, exposed food dish. The source metadata declares species ('beef', 'chicken') but metadata is explicitly untrusted and unverified by visual appearance alone. Meat colour and texture on an active rotisserie cannot reliably confirm species identity. The image fails the core criterion of presenting a finished, appetising, identifiable prepared dish suitable for a food photograph repository. Additionally, without independent visual confirmation of species, protein claims cannot be supported. Home cooking and street food are welcome, but preparation-stage equipment photography is not.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1734,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 468,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

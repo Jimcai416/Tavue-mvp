@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAY5MMvFPshxZhHkBRu4",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Street food stall setting with 'ASAM LAKSA' and 'PENANG FAMOUS LAKSA' signage visible\",\n    \"Cooked noodle dish with dark sauce and toppings in display window\",\n    \"Stall kitchen with cooking equipment, pots, and preparation area\",\n    \"Phone thumbnail shows the stall signage and dish display clearly\"\n  ],\n  \"phone_observations\": [\n    \"Stall sign 'ASAM LAKSA' prominent in thumbnail\",\n    \"Cooked dish visible in window display\",\n    \"Kitchen and working area visible in background\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title 'Goodall Laksa - 104' contradicts visible signage 'ASAM LAKSA' / 'PENANG FAMOUS LAKSA'\",\n    \"No specific protein source quote available from metadata\",\n    \"Identity mismatch between file title and actual stall name on signage\"\n  ],\n  \"reason\": \"Identity check fails: the source title 'Goodall Laksa - 104' does not match the actual visible stall signage which reads 'ASAM LAKSA' and 'PENANG FAMOUS LAKSA'. The photograph shows a street food stall rather than a finished plated dish in isolation. No explicit protein identification is provided in the source metadata. The image documents a stall environment rather than presenting a primary subject dish suitable for Tavue's intended use. Source-title contradiction requires hold per protocol.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1589,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 490,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
