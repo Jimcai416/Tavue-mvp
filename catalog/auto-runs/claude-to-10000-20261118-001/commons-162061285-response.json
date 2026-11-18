@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAtaDDvdRMDAdXjTsZ6g",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 3,\n    \"composition\": 2,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows only shredded/processed ingredient in basket, not a finished dish\",\n    \"No recognizable plated or served food form visible\",\n    \"Subject is ingredient-stage material, not a prepared meal\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source metadata describes smoked shrimp as an ingredient used in multiple dishes (caruru, vatapá, xinxim de galinha), not as a finished dish itself\",\n    \"Photograph shows raw/prepared shrimp material in a basket, not an exposed, finished, plated dish\",\n    \"No finished food form can be identified from either full image or thumbnail\"\n  ],\n  \"reason\": \"Rejection: The source describes smoked shrimp as an ingredient component used in festival dishes, not as a finished dish. The photograph shows dried/processed shrimp in a basket at a preparation stage, not a finished, exposed, plated dish. The thumbnail confirms the subject is ingredient material only. This fails identity (ingredient, not dish), photograph quality (preparation stage), and phone thumbnail requirements (no finished food visible). Sharpness and composition scores are low due to blur and lack of a recognizable finished dish form.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1574,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 411,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

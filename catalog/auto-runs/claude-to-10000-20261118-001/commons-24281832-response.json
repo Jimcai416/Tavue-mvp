@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAtaaVqQ8V5rdDAx2VAk",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Diced/cubed cooked protein with brown caramelization\",\n    \"Fresh green salad with red pepper strips\",\n    \"White bread or toast at top\",\n    \"Plate presentation with natural daylight\"\n  ],\n  \"phone_observations\": [\n    \"Central protein portion clearly visible and prominent\",\n    \"Salad and bread distinguishable in thumbnail\",\n    \"Natural colours, sharp enough for identification\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title claims 'Cassoulet' but visible dish does not match cassoulet (a slow-cooked bean and meat stew, typically with white beans, duck/goose, pork/sausage). The diced/cubed texture and presentation are inconsistent with traditional cassoulet appearance.\",\n    \"Protein species cannot be determined from visual inspection alone. The golden-brown diced pieces are ambiguous—could be chicken, pork, or another meat, but no source text explicitly names the animal.\",\n    \"No source description beyond filename and vague credit ('thanks to Steve'). The filename itself is metadata/untrusted and contradicts what is shown.\"\n  ],\n  \"reason\": \"Reject: Identity check fails. The source title 'Cassoulet' contradicts the visible dish form. Cassoulet is a distinctive slow-cooked bean and meat stew with whole beans and larger meat pieces; this image shows diced/cubed protein with no visible beans, incompatible with cassoulet's known structure. No explicit protein species declaration appears in the source description. Without reliable identity match and unambiguous protein naming, acceptance is not warranted.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1630,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 508,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

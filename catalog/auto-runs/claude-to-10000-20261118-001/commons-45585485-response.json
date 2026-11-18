@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAtaiBwhMQGJe61Dm46G",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 3,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Raw or uncooked sausage casings visible in thumbnail\",\n    \"No finished cooking evident\",\n    \"Pale, unappetizing appearance typical of raw preparation\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Andouillette is a traditional French pork chitterling sausage, but the source description explicitly states this is 'avant d'être réchauffée' (before being reheated/cooked)\",\n    \"Image shows the product at a raw/uncooked preparation stage, not a finished dish\"\n  ],\n  \"reason\": \"Rejection: source explicitly describes this as andouillette photographed BEFORE heating and cooking ('avant d'être réchauffée et plus ou moins cuisinée'). The image shows raw or uncooked sausage casings in pale, unappetizing form. Tavue accepts only finished, exposed, cooked dishes. Preparation-stage food is rejected per guidelines. While andouillette would normally qualify as a finished dish, this photograph documents the intermediate state before cooking, making it ineligible.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1701,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 390,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

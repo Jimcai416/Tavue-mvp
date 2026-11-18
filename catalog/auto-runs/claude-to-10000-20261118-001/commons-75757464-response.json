@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAtaVG529tvM6w7hd2oY",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": \"Seafood tacu-tacu\",\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Finished, cooked dish with golden-brown crust\",\n    \"Rice-based patty structure consistent with tacu-tacu preparation\",\n    \"Orange/yellow sauce characteristic of seafood preparations\",\n    \"Fried onion rings as garnish\",\n    \"Green lettuce garnish on white plate\",\n    \"Professional plating at restaurant\"\n  ],\n  \"phone_observations\": [\n    \"Dish remains clearly visible and identifiable in thumbnail\",\n    \"Orange sauce and fried onions prominent\",\n    \"Golden-brown colour and texture preserved\",\n    \"Adequate detail for recognition of dish type\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title 'Seafood tacu-tacu' declares seafood but does not specify which seafood species (fish, shrimp, squid, etc.)\",\n    \"Visual inspection cannot definitively identify the specific seafood protein(s) within the rice-based patty\",\n    \"No explicit animal name appears in source description matching the allowed category keys (chicken/beef/pork/duck/lamb/seafood)\",\n    \"Seafood is not an allowed protein_evidence category key; only specific animals (chicken/beef/pork/duck/lamb) or 'seafood' with explicit species naming in source\"\n  ],\n  \"reason\": \"Image quality, composition, and photograph sharpness all meet acceptance criteria. Phone thumbnail preserves dish identity adequately. However, the source description 'Seafood tacu-tacu' fails to name any specific seafood species (fish, shrimp, squid, mollusc, etc.). The instruction requires explicit source-quoted animal names; generic 'seafood' without species qualification cannot be accepted as protein evidence. Identity check fails due to unspecified protein component. Hold pending source clarification of seafood species.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1623,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 559,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
