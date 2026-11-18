@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAkK1DFTq7EvXNJHZkWk",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Miso-based broth, tan/brown colour\",\n    \"Noodles visible beneath toppings\",\n    \"Corn kernels, vibrant yellow\",\n    \"Green onion/scallion garnish\",\n    \"Butter pat, pale yellow, melting\",\n    \"Sliced pork belly or chashu visible\",\n    \"White ceramic bowl, well-presented\"\n  ],\n  \"phone_observations\": [\n    \"All essential components visible in thumbnail\",\n    \"Corn prominent and colour-accurate\",\n    \"Bowl shape and presentation clear\",\n    \"Broth colour distinguishable\",\n    \"Toppings layout identifiable\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title is in Japanese (ばり馬　濃厚バターコーン味噌ラーメン); English translation required for canonical_name\",\n    \"Pork species not explicitly named in source metadata—only visible as sliced meat on dish\",\n    \"Exact restaurant/brand name 'Bariuma' or 'ばり馬' unclear without transliteration confirmation\",\n    \"No English description provided; metadata contains only Japanese and filename\"\n  ],\n  \"reason\": \"Image quality, composition, and phone thumbnail meet acceptance criteria. However, the source title and description are entirely in Japanese without English translation or romanization. The canonical_name must be copied exactly from source title/description per instructions. The visible pork cannot be recorded as protein evidence without an explicit English source quote naming the species. Identity check fails because the exact English dish name cannot be confirmed from supplied metadata. Hold pending source clarification in English or standard romanization.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1748,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 520,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
