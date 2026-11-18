@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAut1bHgzQCyN6nmHgTY",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows a white bowl with rice-based mixture, diced vegetables (red, green, white/pink pieces), and corn kernels\",\n    \"Cooking stage evident: raw tomato (bright red heap) is being added to the pan, not yet incorporated\",\n    \"Wooden spoon visible in both full image and thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title describes this as 'Sofrito being prepared' — a preparation/cooking stage, not a finished dish\",\n    \"Title explicitly qualifies the image as preparation ('being prepared to cook'), not a complete, exposed, finished dish\",\n    \"The bright raw tomato dollop in the centre contradicts finished/exposed food state\",\n    \"Porotos granados is a legume and corn stew; this appears to be an ingredient prep or intermediate cooking stage\"\n  ],\n  \"reason\": \"Reject: This is a preparation/cooking-in-progress image, not a finished, exposed, plated dish. The source title explicitly states 'Sofrito being prepared to cook porotos granados'—the bright red tomato mound visible in the centre is unincorporated raw ingredient being added mid-cook. Identity is preparation, not a completed dish suitable for Tavue's finished food photograph standards.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1733,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 436,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

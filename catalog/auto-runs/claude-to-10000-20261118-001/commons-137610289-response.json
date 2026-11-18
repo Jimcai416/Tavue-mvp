@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAutoc1Fo7XwXyEwuAEU",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 3,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Raw ground meat visible in black pot, uncooked state\",\n    \"No finished dish characteristics present\",\n    \"Preparation/cooking stage, not a served or plated dish\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'Sofrito de verduras con ají' (vegetable sofrito with chili) but image shows raw ground meat in early cooking stage—severe source-image mismatch\",\n    \"Meat species unidentified in source; colour suggests beef but unconfirmed\",\n    \"No vegetables visible despite title claiming vegetable sofrito as primary dish\"\n  ],\n  \"reason\": \"Rejection: Image shows raw/early-stage ground meat during food preparation, not a finished, exposed, appetising dish. Source title 'Sofrito de verduras con ají' describes a vegetable-based dish, but the photograph contradicts this fundamentally—it displays only uncooked meat in a pot with no visible vegetables, chili, or other promised components. Identity check fails due to source-photograph mismatch. Meat species cannot be reliably determined from appearance alone without explicit source naming. Preparation stage does not meet acceptance criteria for finished food photography.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1727,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 413,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
