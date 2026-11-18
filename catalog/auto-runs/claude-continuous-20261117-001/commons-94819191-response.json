@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011Ch9XcdjAXezqhenkPQBGX",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Bowl contains visible rice cake and leafy greens in orange curry broth\",\n    \"Pink plate shows dark cooked meat with crispy coating\",\n    \"Glass contains amber beverage, likely tea\"\n  ],\n  \"protein_evidence\": {\n    \"protein\": \"spleen rendang\"\n  },\n  \"uncertainties\": [\n    \"Source title lists 'spleen rendang' (limpa) as protein; spleen is not chicken/beef/pork/duck/lamb/seafood and cannot be accepted under canonical protein requirements\",\n    \"Pink plate subject is unidentifiable—appears to be a fried organ meat or offal, species and type unconfirmed visually\",\n    \"Identity mismatch: source describes 'ketupat sayur rendang limpa' (spleen rendang); canonical protein list does not permit organ meats or unspecified offal\"\n  ],\n  \"reason\": \"Source declares spleen (limpa) as the protein component. Spleen is organ meat/offal and does not match the restricted protein list (chicken/beef/pork/duck/lamb/seafood). The pink plate contains an unidentifiable fried meat or organ—species and exact type cannot be determined visually. Identity cannot be preserved without accepting a protein category outside scope. Reject.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1559,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 434,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

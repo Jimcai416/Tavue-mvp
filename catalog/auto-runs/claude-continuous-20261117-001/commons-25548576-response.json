@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011Ch9XbqN8niMWFWizDnBVD",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Night market street food setting\",\n    \"Multiple skewered items on display\",\n    \"Overhead lighting characteristic of market stall\",\n    \"Cooked/browned surface visible on items\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail shows illuminated skewered items on a counter\",\n    \"Insufficient detail to identify specific meat species or dish\",\n    \"Essential food components not distinctly readable at thumbnail scale\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title states 'Thai barbecue' and 'various kinds of barbecued meat' but provides no specific dish name\",\n    \"Multiple different skewered items visible; impossible to determine which are chicken, beef, pork, lamb, duck or other species from appearance alone\",\n    \"No explicit source quote names any specific protein type\",\n    \"Generic category description without canonical dish identification\",\n    \"Cannot distinguish individual meat species in either full image or thumbnail with sufficient certainty\"\n  ],\n  \"reason\": \"Source metadata provides only generic description ('Various kinds of barbecued meat') without naming a specific dish or explicitly identifying meat species. While the photograph shows street food at a night market with reasonable quality and appeal, the identity check fails because no canonical dish name exists in source title/description, and no exact source quote explicitly names any protein type. Protein_evidence is empty due to absence of specific species naming in source material. This is a preparatory/market display image showing multiple unidentified items rather than a finished, identified dish.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1513,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 476,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
