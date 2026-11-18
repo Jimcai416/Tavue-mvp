@@ -50794,5 +50794,29 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "height": 720,
     "requiresExactMenuName": true,
     "authorUrl": "https://www.flickr.com/people/10559879@N00"
+  },
+  {
+    "id": "commons-16962323",
+    "title": "File:Shrimp Bisque.jpg",
+    "author": "French Recipes",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Shrimp_Bisque.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/53/Shrimp_Bisque.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "a09e83757a11dda46977203b2fd584f03b111014",
+    "name": "Shrimp Bisque",
+    "aliases": [],
+    "proteins": [
+      "seafood"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-16962323.jpg",
+    "assetSha256": "49cd9e87a6663db85bc16120139686c92952bbb98e1add2d38c0a588adbfd6ae",
+    "reviewedAt": "2026-11-18",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];
