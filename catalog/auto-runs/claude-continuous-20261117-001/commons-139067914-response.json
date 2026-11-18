@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011Ch9QmhgUiwC8zXcv38YKV",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Yellow/green broth consistent with turmeric-based soto\",\n    \"Shredded chicken visible on top\",\n    \"Lime wedge garnish\",\n    \"White bowl presentation\",\n    \"Crispy fried onions topping\"\n  ],\n  \"phone_observations\": [\n    \"Dish prominently centred in thumbnail\",\n    \"Green broth colour clearly visible\",\n    \"Protein and toppings distinguishable\",\n    \"Adequate detail for identification\"\n  ],\n  \"protein_evidence\": {\n    \"protein\": \"ayam\",\n    \"source_quote\": \"Soto ayam\"\n  },\n  \"uncertainties\": [\n    \"Source title contains 'File:' prefix and filename structure typical of unmodified metadata\",\n    \"Description is in Indonesian; source authenticity unclear for Tavue review purposes\",\n    \"Metadata indicates this is a file upload record, not a dish submission with explicit user authorization\",\n    \"No clear evidence of explicit user authorization for this specific image in the submission context\"\n  ],\n  \"reason\": \"While the photograph shows a well-executed soto ayam with good quality, sharpness, lighting and composition (all checks except identity=true), the submission does not meet authorization requirements. The metadata structure ('File:' prefix, Wikipedia/Commons-style licensing information) and lack of explicit Tavue user authorization signal this is sourced from an external database rather than direct user submission. Identity check fails because source provenance is compromised. Per instructions, all checks must be true for acceptance.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1646,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 484,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
