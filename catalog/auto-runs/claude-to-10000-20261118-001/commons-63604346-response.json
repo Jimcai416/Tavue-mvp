@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChB76A7sKg7J8ojm3NWfg",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 5,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Noodle soup in white bowl with broth\",\n    \"Pink/reddish broth characteristic of Bún bò Huế\",\n    \"Blood cake (dark blocks) visible\",\n    \"White/pale meat visible (pork)\",\n    \"Fresh herbs and bean sprouts on side plate\",\n    \"Chopsticks present\"\n  ],\n  \"phone_observations\": [\n    \"Bowl of soup with visible dark meat pieces and noodles clearly shown\",\n    \"Side plate with fresh herbs distinguishable\",\n    \"Broth colour and soup composition readable\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title provides only 'Bún bò Huế' without explicit animal qualification; 'bò' traditionally means beef but metadata alone cannot confirm species presence\",\n    \"Visible meat components include dark blood cake and pale meat; pale meat appears pork-like but species not explicitly named in source\",\n    \"Source title does not contain exact English animal name declaration required by protocol\"\n  ],\n  \"reason\": \"While the photograph shows a well-executed, appetising Bún bò Huế with sharp detail, natural colours, and clear phone visibility, the source title 'Bún bò Huế' does not explicitly name the animal species present (beef/pork) in English. Protocol requires exact source quote explicitly naming each protein category. The traditional term 'bò' suggests beef, but this is inference from tradition rather than explicit source declaration. Without a source statement like 'Bún bò Huế with beef and pork' or equivalent, protein_evidence cannot be populated and identity check fails. Hold for source clarification of animal species.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1532,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 518,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
