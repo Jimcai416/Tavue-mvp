@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011Ch9SnxPmXSJnGKQXTgNMB",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [\n    \"Golden-brown fried cubes in large wok with oil\",\n    \"Street-food preparation setting with industrial cookware\",\n    \"Consistent cube shape and colour across batch\"\n  ],\n  \"phone_observations\": [\n    \"Fried cubes clearly visible and identifiable\",\n    \"Golden colour and texture readable in thumbnail\",\n    \"Adequate composition for recognition\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source metadata lists 'Fried tofu' but tofu is not a protein animal product; tofu is a legume/soy derivative and cannot be recorded in protein_evidence field which accepts only chicken/beef/pork/duck/lamb/seafood\",\n    \"Title 'Tahu goreng' (Indonesian for fried tofu) confirms plant-based identity, not an eligible protein category\"\n  ],\n  \"reason\": \"While the photograph is sharp, well-composed, and clearly shows fried cubes in an appetising street-food preparation, the source explicitly identifies this as tofu (tahu), a soy product. The protocol restricts protein_evidence to animal proteins only (chicken/beef/pork/duck/lamb/seafood). Tofu cannot be recorded as a valid protein. The dish is a finished, exposed, photographic food item, but it does not meet the category requirement for Tavue's protein-focused review system.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1603,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 450,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

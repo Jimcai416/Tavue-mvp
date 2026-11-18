@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011Ch9SnvTvyov4Qxib7VvHV",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Golden-brown fried tofu cubes and strips in orange bowl\",\n    \"Natural daylight, sharp detail of texture\",\n    \"Finished cooking stage, appetising colour\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows fried tofu pieces in orange bowl\",\n    \"Golden colour and texture readable at small scale\",\n    \"No essential food clipped\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title 'Tahu digoreng' describes fried tofu (tahu = tofu, digoreng = fried), but source description states 'Fried tofu for cooking', suggesting this is a preparation stage ingredient, not a finished dish ready for consumption\",\n    \"No protein animals (chicken/beef/pork/duck/lamb/seafood) present—tofu is plant-based and outside the canonical protein scope\"\n  ],\n  \"reason\": \"Reject: This is fried tofu (Tahu digoreng), a plant-based preparation. While the photograph shows excellent technical quality—sharp, well-lit, appetising golden-brown finish, and clearly readable in the phone thumbnail—it does not meet acceptance criteria. The source description explicitly labels this as 'Fried tofu for cooking', indicating it is an ingredient or preparation stage rather than a finished dish. Additionally, tofu contains no animal proteins (chicken/beef/pork/duck/lamb/seafood), which are required for the canonical_name protein_evidence field. The image quality and presentation are excellent, but identity and protein scope requirements cannot be satisfied.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1604,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 492,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

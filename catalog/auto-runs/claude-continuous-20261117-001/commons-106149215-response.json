@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011Ch9SmkwuqpDS6JxMmymof",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Cooked vegetables present: green beans, carrots, potato, cabbage shreds\",\n    \"Tofu visible (white cubes)\",\n    \"Hard-boiled egg\",\n    \"Protein with reddish-brown coating (tempeh or beef unclear)\",\n    \"Bowl presentation consistent with Southeast Asian cuisine\"\n  ],\n  \"phone_observations\": [\n    \"Plate clearly visible with multiple components\",\n    \"Vegetables, protein, egg and tofu identifiable\",\n    \"Overall composition legible in thumbnail\"\n  ],\n  \"protein_evidence\": {\n    \"protein\": \"No explicit animal protein named in source description\"\n  },\n  \"uncertainties\": [\n    \"Source description lists 'endhog' (egg), 'wortel' (carrot), 'buncis' (green beans), 'tahu' (tofu), 'tempe' (tempeh), 'gobis' (cabbage), 'kenthang' (potato), 'krupuk' (crackers) and 'sambel kacang' (peanut sauce)\",\n    \"Red/brown coated protein is visually present but species cannot be determined with certainty from appearance alone\",\n    \"Source description does not explicitly name any meat animal (chicken/beef/pork/duck/lamb/seafood)\",\n    \"Gado-gado traditionally may include multiple proteins but source provides no explicit animal protein quote\",\n    \"Tempeh is fermented soybean, not an animal protein\"\n  ],\n  \"reason\": \"Source description lists ingredients in Javanese/Indonesian but does not explicitly name any animal protein with a direct quote. While a reddish-coated protein component is visible in the dish, protocol requires exact source quote naming the specific animal (chicken/beef/pork/duck/lamb/seafood). Without explicit animal protein identification in the source, identity verification cannot be completed. The photograph and phone thumbnail are of good quality and show a finished, appetising gado-gado dish, but the missing protein evidence prevents acceptance.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1646,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 594,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
