@@ -4349,3 +4349,8 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 - **Zaalouk** — Arnaud 25. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Zaalouk_01.jpg). Local asset: `reviewed-commons-145953420.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Muhammara** — Bazel. [Public domain](https://creativecommons.org/publicdomain/mark/1.0/); [source](https://commons.wikimedia.org/wiki/File:Muhammara.jpg). Local asset: `reviewed-commons-12584211.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Leche Flan** — Jerdean Uy. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Ellen%27s_Leche_Flan.jpg). Local asset: `reviewed-commons-47093399.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Macaroni soup with egg** — BiancaBrazal. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Ph_Food-07.jpg). Local asset: `reviewed-commons-144059255.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Fatayer** — Ayshamarjana. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Fatayer_2.jpg). Local asset: `reviewed-commons-91369143.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
