@@ -75249,5 +75249,52 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-2734782",
+    "title": "File:Chopsueywithrice.jpg",
+    "author": "Eli Hodapp  from Naperville, United States",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chopsueywithrice.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Chopsueywithrice.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "4f5609aab76107a0e48fa0367ad364c23ac1ce51",
+    "name": "Garlic chicken and peapods chop suey with fried rice",
+    "aliases": [],
+    "proteins": [
+      "chicken"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-2734782.jpg",
+    "assetSha256": "d37042f8dff192539f61f9cf9ec86a1d3c2cb3c1ebd0572db3af29dc4f1926bd",
+    "reviewedAt": "2026-11-18",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true,
+    "authorUrl": "https://www.flickr.com/people/40196377@N00"
+  },
+  {
+    "id": "commons-99705607",
+    "title": "File:Syria, Al-Husn, Arabic meze or mezze.jpg",
+    "author": "©  Vyacheslav Argenberg",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Syria,_Al-Husn,_Arabic_meze_or_mezze.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Syria%2C_Al-Husn%2C_Arabic_meze_or_mezze.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "0fd77015436d8b19231b4d600dbb227a658b6490",
+    "name": "Arabic meze",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-99705607.jpg",
+    "assetSha256": "74aad14d7002fdac698ec37d93bc3017a790a735a1647f601d0c4e734782d1a4",
+    "reviewedAt": "2026-11-18",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];
