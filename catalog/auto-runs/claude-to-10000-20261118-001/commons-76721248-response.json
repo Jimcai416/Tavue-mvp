@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChB6r3uArc5AVTXRtnMGs",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": \"Yen tafo is a clear broth with, usually, very silky wide rice noodles, fish balls, sliced fried tofu, squid, and phak bung\",\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Clear broth with pinkish tint\",\n    \"Wide rice noodles visible\",\n    \"Fish balls present\",\n    \"Fried tofu cubes (yellow/golden)\",\n    \"Green leafy vegetable (phak bung/water spinach)\",\n    \"Pink curved slices (likely squid)\",\n    \"Served in white bowl with chopsticks\",\n    \"Yaowarat-style presentation\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows bowl composition\",\n    \"Essential components visible and readable\",\n    \"Pink broth colour distinguishable\",\n    \"Tofu and other toppings identifiable\",\n    \"Subject prominent and not clipped\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title format 'File:2019 01 Yen tafo.jpg' does not provide a canonical dish name suitable for extraction\",\n    \"Pink curved slices described as 'squid' in source but squid is not an allowed protein category\",\n    \"Fish balls mentioned in description but no explicit species identification provided\",\n    \"Cannot extract canonical_name from metadata filename; must come from description text which provides ingredient list rather than a formal dish title phrase\"\n  ],\n  \"reason\": \"While the photograph is sharp, well-lit, appetising and the thumbnail clear, the identity check fails because: (1) the source title is a filename ('File:2019 01 Yen tafo.jpg') without a usable canonical phrase, (2) the description lists ingredients but does not provide a formal canonical dish name as a coherent phrase, and (3) protein evidence cannot be established—squid is not an allowed category, and fish balls lack explicit species identification. The dish is identifiable as Yen tafo from context, but source-supplied canonical naming requirements are not met, and protein species ambiguity prevents acceptance. Hold pending clarification of formal dish title and squid/fish ball species confirmation.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1880,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 622,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
