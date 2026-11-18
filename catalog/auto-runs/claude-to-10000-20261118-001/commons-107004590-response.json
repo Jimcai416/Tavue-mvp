@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAfa8yfTqC9AbtZFzbWC",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Cooked dark leafy greens with diced vegetables visible in full image and thumbnail\",\n    \"Golden-brown round items (described as ackee and saltfish, fry dumpling)\",\n    \"Boiled potato pieces upper left\",\n    \"Home-cooked plated meal on decorative floral dish\"\n  ],\n  \"phone_observations\": [\n    \"Callaloo greens clearly visible and prominent\",\n    \"Golden protein items visible left side\",\n    \"Adequate detail for dish identification\",\n    \"Natural lighting, appetising appearance\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title is 'Jamaican callaloo.jpg' but description lists multiple dishes: ackee, saltfish, fry dumpling, biscuit with jam, banana. No single canonical dish name is unambiguous.\",\n    \"The description mentions 'ackee and saltfish, the national dish of Jamaica' but the visible prominence and actual plated composition shows callaloo as dominant. Identity contradiction between title and description emphasis.\",\n    \"Saltfish species not explicitly named; 'saltfish' is a preparation category, not a specific fish species. Cannot map to allowed seafood category without species confirmation.\",\n    \"Multiple components described (ackee, saltfish, fry dumpling, biscuit, banana) but photograph shows a plated mixed breakfast. Unclear which is the primary dish being submitted.\",\n    \"Ackee is a fruit, not a protein category supported by guidelines. If present, cannot be credited as protein_evidence.\"\n  ],\n  \"reason\": \"Source metadata contains identity contradiction: file title 'Jamaican callaloo.jpg' conflicts with description listing ackee and saltfish as 'the national dish.' Callaloo is visibly dominant but source emphasises ackee/saltfish. Saltfish species unspecified. Multiple dishes described (callaloo, ackee/saltfish, fry dumpling, biscuit, banana) without clear canonical identity. Unclear which dish this submission represents. Cannot establish a single unambiguous canonical_name matching exact source wording. Hold pending clarification of primary dish identity.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1783,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 624,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
