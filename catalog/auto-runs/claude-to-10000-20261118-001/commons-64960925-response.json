@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAYpKWWAXsfw5VEUJUqp",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 2\n  },\n  \"visible_support\": [\n    \"Creamy soup with visible chunks in white bowl with spoon\",\n    \"Two small white sauce bowls in background (vinegar and garlic sauces)\",\n    \"Fried green long peppers on left plate\",\n    \"Lemon wedge on right\",\n    \"Red/white patterned tablecloth\",\n    \"Full meal plating at casual restaurant\"\n  ],\n  \"phone_observations\": [\n    \"Soup dominates thumbnail centre\",\n    \"Sauce bowls visible top-right\",\n    \"Side dish and lemon visible but secondary\",\n    \"Creamy pale appearance readable\",\n    \"Spoon visible in bowl\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source identifies dish as sheep stomach (İşkembe), but offal/stomach/tripe is not an approved protein category\",\n    \"No chicken/beef/pork/duck/lamb/seafood explicitly named in source\",\n    \"Lamb is a permitted protein only when explicitly named; sheep stomach is a distinct organ preparation and cannot be inferred as lamb\"\n  ],\n  \"reason\": \"Source title describes 'İşkembe' (sheep stomach) soup. The dish contains offal/organ meat (stomach lining), which does not map to any approved protein category (chicken/beef/pork/duck/lamb/seafood). Although the animal origin (sheep) is documented, the specific organ preparation cannot be credited as 'lamb' under the rules—lamb refers to the meat itself, not organ varieties. No other permitted protein is named or visibly identifiable. Identity check fails due to unsupported protein classification. Reject.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1764,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 510,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

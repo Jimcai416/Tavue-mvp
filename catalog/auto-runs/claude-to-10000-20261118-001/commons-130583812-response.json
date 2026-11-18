@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAYoWEtJ9D84q5mhbtBu",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": \"Tchi Kofte arméniens\",\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Cooked meatballs with textured surface, pale tan/beige colour\",\n    \"Fresh green onion/scallion garnish visible on top\",\n    \"Served on plain beige ceramic plate\",\n    \"Multiple spherical portions arranged compactly\",\n    \"Natural daylight, warm colour cast\"\n  ],\n  \"phone_observations\": [\n    \"Meatballs clearly visible and prominent in thumbnail\",\n    \"Green garnish legible and distinguishable\",\n    \"Plate edges visible, composition well-framed\",\n    \"Essential food components not clipped\",\n    \"Sharp detail adequate for phone format\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title 'Tchi Kofte arméniens' identifies a dish but does not explicitly name the meat species (beef, pork, lamb, or mixed)\",\n    \"Appearance alone cannot reliably determine meat type in meatballs\",\n    \"No explicit protein declaration in source metadata\",\n    \"Armenian kofte tradition may vary; species not visually certain from photograph\"\n  ],\n  \"reason\": \"Image quality, sharpness, composition and phone legibility all meet criteria. However, identity check fails: the source title does not explicitly name which meat(s) constitute these meatballs. Per protocol, ambiguous meat species—including traditional dishes where the protein is implied but not stated—must be held. Protein_evidence remains empty because no exact source quote names a specific allowed animal. The dish cannot be accepted without explicit protein declaration.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1775,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 493,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
