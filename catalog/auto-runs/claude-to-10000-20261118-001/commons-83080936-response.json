@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChATdjB9qgLMFm96A6vmf",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Beverage in white mug with turmeric powder garnish\",\n    \"Creamy, pale liquid base consistent with latte\",\n    \"Orange/golden turmeric dusting visible in both full and thumbnail\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows turmeric-dusted beverage\",\n    \"Mug handle visible\",\n    \"Spoon present\",\n    \"Creamy colour and garnish readable at reduced size\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title contains 'File:' prefix and filename extension (rejected metadata format)\",\n    \"Description states 'at Cafe Gratitude' but this is contextual attribution, not a verifiable dish identity\",\n    \"No explicit canonical dish name provided in source—only generic 'Turmeric Latte'\",\n    \"Metadata format violates submission requirements (filename notation included)\"\n  ],\n  \"reason\": \"Rejection: source metadata format is invalid (contains 'File:' prefix and filename extension '.jpg'). The title and description do not constitute a proper source document with a canonical dish identity. While the photograph itself shows a well-executed turmeric latte with good sharpness, lighting and appeal, the absence of a clean, formally presented source title/description makes identity verification impossible. The image quality and composition are acceptable, but metadata integrity requirements are not met.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1814,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 454,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

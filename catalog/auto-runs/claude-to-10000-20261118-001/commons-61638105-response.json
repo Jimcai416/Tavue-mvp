@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChATd76jcaRWtL4tvS89F",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Stainless steel pan containing sliced meat in brown/reddish sauce\",\n    \"Orange and green vegetable pieces visible (carrot, peas)\",\n    \"Glossy, cooked appearance with sauce coating\",\n    \"Finished, served dish in commercial/catering context\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows finished cooked meat dish\",\n    \"Brown sauce visible\",\n    \"Pan presentation readable\",\n    \"Sufficient detail for identification\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title lists 15+ dishes separated by spaces with no clear identifier for which dish this image depicts\",\n    \"Visible meat slices suggest pork or beef, but source contains both 'Fried pork Sinangag' and 'Chicken gizzards' and 'Dinuguan' and other pork/chicken dishes without clear attribution\",\n    \"Brown sauce with vegetables matches multiple Filipino preparations (Giniling, Menudo, Dinuguan, Adobo variants)\",\n    \"Cannot match exact dish name to this image with certainty from the ambiguous source description\",\n    \"Source metadata appears to be a category listing rather than a specific dish title\"\n  ],\n  \"reason\": \"Source title is a concatenated list of 15+ Filipino dishes without delimiters or specific attribution to this image. While the photograph shows a finished, well-presented cooked meat dish in sauce with vegetables (sharp, well-lit, appetising, prominent in both full and thumbnail views), the identity cannot be determined with certainty. The visible characteristics (sliced meat, brown sauce, peas, carrots) match multiple named dishes in the source list (Giniling, Menudo, Dinuguan, Adobo). The source metadata lists 'Fried pork Sinangag Fried rice' and 'Chicken gizzards' as separate items but provides no clear correspondence to this specific image. Without a definitive match between the visible dish and a specific source-declared name, identity check fails. Hold pending clarification of which single dish this image represents.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1950,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 613,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

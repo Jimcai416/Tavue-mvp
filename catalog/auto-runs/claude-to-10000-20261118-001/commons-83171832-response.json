@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChATdx2paqyoC3BY8w2EU",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Hotpot setup with broth pot and ingredients visible\",\n    \"Fresh cilantro garnish in clear broth\",\n    \"Dipping sauce in black holder\",\n    \"Fresh vegetables and thinly sliced raw ingredients on plate\",\n    \"Active dining/preparation stage\"\n  ],\n  \"phone_observations\": [\n    \"Hotpot broth pot clearly visible in thumbnail\",\n    \"Green cilantro distinctly readable\",\n    \"Sauce container and ingredient plate recognisable\",\n    \"Prominent and sharp detail of key components\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'hotpot beef soup' but no beef is visibly confirmed in the photograph—only raw ingredients on accompanying plate are shown; beef species not explicitly named in source description beyond metadata\",\n    \"Raw/preparation stage: ingredients are uncooked and laid out separately; this may represent the pre-cook setup rather than a finished, exposed dish\",\n    \"Identity contradiction: title describes 'hotpot beef soup' but visible form shows raw ingredient assembly with broth pot, not a completed hotpot dish\"\n  ],\n  \"reason\": \"Hold: source title claims 'hotpot beef soup' but the photograph shows raw, uncooked ingredient preparation (thinly sliced meat and vegetables on a plate) alongside a broth pot. The dish is not finished or exposed as a served hotpot. Protein species 'beef' is named only in metadata title, not explicitly in the description, and is not visually confirmed in the ingredients shown. The image represents a preparation/service stage rather than a completed appetising dish. Identity and finished-dish checks fail.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1844,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 513,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

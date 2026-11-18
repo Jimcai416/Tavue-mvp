@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChATdU8XYodQD7uW7CsAa",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Finished, cooked curry dish in blue bowl\",\n    \"Rich brown/amber sauce with visible meat pieces\",\n    \"Fresh green coriander garnish\",\n    \"Natural home-cooked appearance\",\n    \"Prominent in both full and thumbnail views\"\n  ],\n  \"phone_observations\": [\n    \"Curry and meat clearly visible in thumbnail\",\n    \"Essential components readable\",\n    \"Garnish visible\",\n    \"Bowl framing adequate\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Species ambiguity: 'mutton' in source description is problematic. Mutton conventionally means sheep meat, but in some South Asian contexts 'mutton' may colloquially refer to goat meat. No explicit visual species confirmation possible from photograph alone.\",\n    \"Source metadata title says 'mutton rogan josh' but metadata also contains 'File:' prefix and filename extension, which per protocol should be excluded from canonical_name derivation\"\n  ],\n  \"reason\": \"Image quality, composition, lighting and appeal all meet standards (scores ≥4). The dish is a finished, exposed, sharply detailed curry with prominent meat and gravy, naturally coloured and appetising, with readable components in the phone thumbnail. However, identity cannot be fully confirmed due to species ambiguity in the source description. 'Mutton' presents an unresolved uncertainty: it conventionally denotes sheep but may colloquially mean goat in some regional contexts. The instructions require that ambiguous meat species (including mutton that might mean goat) trigger a hold. No other explicit animal species confirmation is provided in the source title or description. Per protocol, protein_evidence cannot include an unspecified species. Hold pending clarification of the exact animal species.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1517,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 530,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

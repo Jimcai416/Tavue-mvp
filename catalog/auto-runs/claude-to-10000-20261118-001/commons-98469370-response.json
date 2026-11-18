@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChATdwy697y3Q7dRTXd3a",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Instant noodles in white bowl\",\n    \"Reddish-brown broth with sesame appearance\",\n    \"Wavy/crimped instant ramen noodles\",\n    \"Small dark seaweed garnish visible\",\n    \"Finished, exposed dish presentation\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail shows same bowl composition\",\n    \"Noodles and broth clearly visible\",\n    \"Sesame ramen character apparent in phone size\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title describes 'Ottugi Instant noodles <Sesame Ramen>' but this is a packaged product brand and instant noodle variety, not a prepared finished dish identity. The description identifies the manufacturer and product line, not a specific dish name.\",\n    \"No animal protein is explicitly named in the source title or description. While instant ramen often contains meat-derived flavouring, no specific protein is declared.\",\n    \"This is a commercial instant noodle product (Ottugi brand) rather than a home-cooked or restaurant dish, raising questions about whether it meets the photographic food standards for Tavue review.\"\n  ],\n  \"reason\": \"Reject: Identity check fails. The source metadata ('Ottugi Instant noodles <Sesame Ramen>') identifies a commercial instant noodle product and brand, not a finished dish name suitable for canonical cataloguing. The photograph shows the prepared result, which is sharp, well-lit and appetising, but the source identity is a product descriptor rather than a dish identity. No protein is explicitly declared in source text. While the photograph quality and presentation pass visual criteria, the institutional and labelling nature of instant packaged noodles, combined with absence of a proper dish name or protein declaration, makes this unsuitable for acceptance.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 2059,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 552,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
