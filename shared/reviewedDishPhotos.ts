@@ -67554,5 +67554,78 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 638,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-126520823",
+    "title": "File:Adobo Flakes Pasta.jpg",
+    "author": "ChefB13boomer",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Adobo_Flakes_Pasta.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Adobo_Flakes_Pasta.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "71f3af14df6b2ef68cd89ec2c07f49b3a2ac4785",
+    "name": "Adobo Flakes Pasta",
+    "aliases": [],
+    "proteins": [
+      "pork"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-126520823.jpg",
+    "assetSha256": "93a0ca853ea807eaeb64bafecee58f03b597f244f3228106f362a5e02ad12c0b",
+    "reviewedAt": "2026-11-18",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 671,
+    "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-35224258",
+    "title": "File:Bun Rieu - Dakao Hoang.jpg",
+    "author": "Alpha  from Melbourne, Australia",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bun_Rieu_-_Dakao_Hoang.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Bun_Rieu_-_Dakao_Hoang.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "6f61c9bc053e72043c66c02c96f163be02ea5e78",
+    "name": "Bún riêu",
+    "aliases": [],
+    "proteins": [
+      "pork"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-35224258.jpg",
+    "assetSha256": "9cc7e4cb9c77ec470a48417ab06749381883871cc1817d1da705bd622cefa1bd",
+    "reviewedAt": "2026-11-18",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true,
+    "authorUrl": "https://www.flickr.com/people/10559879@N00"
+  },
+  {
+    "id": "commons-127677338",
+    "title": "File:Blanquette de pollo, Mazatlán, 11 de enero de 2022 02.jpg",
+    "author": "El Nuevo Doge",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Blanquette_de_pollo,_Mazatl%C3%A1n,_11_de_enero_de_2022_02.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/95/Blanquette_de_pollo%2C_Mazatl%C3%A1n%2C_11_de_enero_de_2022_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "4c0e607df7354c3f790b7cf713e740a7203d91ed",
+    "name": "Chicken blanquette",
+    "aliases": [],
+    "proteins": [
+      "chicken"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-127677338.jpg",
+    "assetSha256": "a67bc7b07cb94019d9a97acf0ffd91e94dc3aa5982849303202bf9cc76cd79ed",
+    "reviewedAt": "2026-11-18",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 540,
+    "requiresExactMenuName": true
   }
 ];
