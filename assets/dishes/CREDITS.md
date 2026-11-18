@@ -3635,3 +3635,11 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **gol gappas stuffed with potatoes chana and onions and corriander leaves** — Sarabpreet Singh Bahi. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Minty_pani_puri.jpg). Local asset: `reviewed-commons-40672663.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Chicken Chettinad** — Andy Li. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:CHICKEN_CHETTINAD_-_Mini_Madras_2026-03-13.jpg). Local asset: `reviewed-commons-186174016.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Kharcho soup of beef with walnuts and rice** — [Lesya Dolyk](https://www.flickr.com/people/128268906@N07). [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:Kharcho_soup_of_beef_with_walnuts_and_rice,_Georgian_cuisine.jpg). Local asset: `reviewed-commons-39339472.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Chicken Chettinadu** — Andy Li. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Chicken_Chettinadu_-_Calcutta_16_2026-07-11.jpg). Local asset: `reviewed-commons-195793510.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Beef Stroganoff** — [V 2](https://www.flickr.com/photos/7960728@N04). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Beef_Stroganoff-04.jpg). Local asset: `reviewed-commons-6765827.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Pounded Yam and Egusi Soup** — Justdifference. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Pounded_Yam_and_Egusi_Soup.jpg). Local asset: `reviewed-commons-35836056.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
