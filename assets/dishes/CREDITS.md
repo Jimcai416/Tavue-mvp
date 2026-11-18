@@ -5550,3 +5550,10 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 
 - **Rice and Stew** — Hajjare. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Rice_and_Stew_In_Northern_Nigeria.jpg). Local asset: `reviewed-commons-161373799.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Kaju Mysore Pak** — Gpkp. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Kaju_Mysore_Pak_(2026)_03.jpg). Local asset: `reviewed-commons-196889364.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Ghugni chaat** — Marajozkee. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Ghugni_chaat.jpg). Local asset: `reviewed-commons-75494286.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Kédjenou de poulet pimenté** — Mandanye. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:K%C3%A9djenou_de_poulet_piment%C3%A9.jpg). Local asset: `reviewed-commons-37066192.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Ghugni, an Indian snack** — raasiel. [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Ghugni_image.jpg). Local asset: `reviewed-commons-26746758.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Mysore Pak** — Sudiptorana. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Mysore_Pak.jpg). Local asset: `reviewed-commons-40945774.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
