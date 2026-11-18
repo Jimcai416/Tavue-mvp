@@ -82023,5 +82023,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 673,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-39592401",
+    "title": "File:Papdi-chaat.jpg",
+    "author": "Sonia Goyal",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Papdi-chaat.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/05/Papdi-chaat.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "8dff9976de0b4f7a761915c10aa8932d353b7e13",
+    "name": "Papri Chaat",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-39592401.jpg",
+    "assetSha256": "4fa1d24dc8610c8a894ca2cb265ac74a6d5835f79e6951465d9d5945f7afff44",
+    "reviewedAt": "2026-11-18",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 723,
+    "requiresExactMenuName": true
   }
 ];
