@@ -5707,3 +5707,12 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Porcini gnocchi, served with saitlings, green asparagus and cherry tomatoes** — Gerda Arendt. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Steinpilz-Gnocchi,_Martinsthal.jpg). Local asset: `reviewed-commons-118629044.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Bihar Special Litti Chokha** — Abhikrajput. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Bihar_Special_Litti_Chokha.jpg). Local asset: `reviewed-commons-40904835.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Catering ćevapčići and french fries** — Silverije. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Catering_%C4%8Devap%C4%8Di%C4%87i_i_pomfri.jpg). Local asset: `reviewed-commons-193679095.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Trofie al pesto** — Pastalovers. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Trofie_al_peso_2.jpg). Local asset: `reviewed-commons-82294317.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Cotoletta alla milanese** — pier. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Cotoletta_alla_milanese.jpg). Local asset: `reviewed-commons-51348831.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **litti and chokha** — Dineshkumar4942. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Famous_litti_chokha_dish_of_bihar.jpg). Local asset: `reviewed-commons-101608457.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Pljeskavica** — Biso. [CC BY 3.0](https://creativecommons.org/licenses/by/3.0); [source](https://commons.wikimedia.org/wiki/File:Pleskavitsa.JPG). Local asset: `reviewed-commons-7882457.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
