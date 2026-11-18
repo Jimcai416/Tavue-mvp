@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAXZLKpvwnt5SNyktF3G",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Finished, cooked risotto dish with seafood\",\n    \"Large cooked shrimp/prawn prominently visible on left\",\n    \"Creamy saffron-coloured risotto with rice grains clearly defined\",\n    \"What appears to be scallop or additional seafood on top\",\n    \"Bread and cutlery visible, restaurant plating\",\n    \"Natural colours, appetising presentation\"\n  ],\n  \"phone_observations\": [\n    \"Risotto and cooked crustacean clearly visible and readable in thumbnail\",\n    \"Dish identity recognisable at small scale\",\n    \"Essential components prominent and not clipped\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title 'Nazaré' is a Portuguese location name, not a dish name\",\n    \"No explicit dish description provided in metadata\",\n    \"Specific seafood species (shrimp/prawn/scallop) cannot be confirmed from image alone without source naming them\",\n    \"Cannot confirm if this is risotto, paella, or another rice/seafood preparation without source description\",\n    \"No canonical dish name available to match against source\"\n  ],\n  \"reason\": \"Identity check fails: source metadata provides only a location name ('Nazaré') without a dish description or title. The photograph clearly shows a finished, well-presented seafood risotto or similar rice dish with cooked crustacean, sharp and appealing, but cannot be accepted without an explicit, source-provided dish name that matches the visible form. Protein evidence cannot be recorded because no source text explicitly names the seafood species.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1731,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 504,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

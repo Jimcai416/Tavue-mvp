@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAXZLH7KkGRNqoBE5r1L",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Ingredients and seafood visible in pan\",\n    \"Pre-cooking preparation stage evident\",\n    \"Diced vegetables (red, green, white/onion pieces) on top of raw seafood\",\n    \"Shellfish/seafood pieces visible but not cooked into a finished dish\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Image shows preparation stage, not finished cooked arroz de marisco\",\n    \"Source description explicitly states 'El final fue ya en el plato...y no estaba yo para fotos...se enfriaba' (The final dish was already on the plate...I wasn't around for photos...it was getting cold), confirming this is not the finished dish\",\n    \"Raw seafood and ingredients in cooking vessel, not a plated finished dish\"\n  ],\n  \"reason\": \"Rejection: This photograph depicts the preparation stage of arroz de marisco (seafood rice), not the finished, exposed, cooked dish. The source description explicitly confirms the photographer did not capture the finished plated dish because it was cooling. The image shows raw/cooking-stage ingredients in a pan—diced vegetables and seafood pieces—which violates the requirement for 'finished, exposed, likely photographic dish.' While the photograph quality is acceptable, the subject matter is a preparation stage, not a completed food dish suitable for review.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1777,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 446,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
