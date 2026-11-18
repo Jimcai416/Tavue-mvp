@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChB7ibphEStghPq6sEzQv",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Poultry pieces in brown braised sauce with visible vegetables (tomato, root vegetables)\",\n    \"Cooked, exposed dish in serving vessel\",\n    \"Natural lighting, appetising appearance\",\n    \"Phone thumbnail shows readable stew with meat components\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly displays braised poultry in brown sauce\",\n    \"Meat and sauce proportions visible and identifiable\",\n    \"Adequate detail for recognition of finished dish\"\n  ],\n  \"protein_evidence\": {\n    \"chicken\": \"poulet\"\n  },\n  \"uncertainties\": [\n    \"Title field contains only filename 'File:Kedjenou de poulet à koumassi.jpg' — metadata format, not a canonical dish name\",\n    \"Description 'Anụ ọkụkụ nke siri esi' is in Igbo language and translates to a generic term for cooked chicken, not a specific dish identity\",\n    \"Source-declared dish identity is Kedjenou de poulet, but description does not confirm this; language and content mismatch creates ambiguity about the actual dish being photographed\",\n    \"Geographic/variant qualifier 'à koumassi' cannot be verified against description\"\n  ],\n  \"reason\": \"Identity check fails. The filename suggests 'Kedjenou de poulet à koumassi' (Ivorian chicken stew, Komassi style), but the description in Igbo ('Anụ ọkụkụ nke siri esi' = cooked chicken) does not match and does not confirm the specific regional variant or dish name. Source title and description conflict; no clear confirmation that the photograph shows the declared Kedjenou variant. Without source-description agreement on identity, canonical name cannot be reliably extracted. Photograph quality and phone thumbnail are acceptable, but identity uncertainty blocks acceptance.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1742,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 563,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

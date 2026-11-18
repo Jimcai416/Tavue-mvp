@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChB7ibrvdgLt6CNqHNWRQ",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Stewed meat pieces in dark broth visible in phone thumbnail\",\n    \"Garnish and colour match full image\",\n    \"Bowl and dish arrangement clear at phone size\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title references 'bushmeat' but provides no specific animal species\",\n    \"Bushmeat is an ambiguous category covering multiple unspecified wild species (game, rodent, primate, etc.)\",\n    \"No explicit source declaration of which animal(s) are present\",\n    \"Cannot visually distinguish species from appearance alone\",\n    \"Cannot accept under protein category rules without exact species identification\"\n  ],\n  \"reason\": \"Reject: Identity cannot be verified. The source title uses the generic term 'bushmeat pepper soup' but does not name a specific animal species. Bushmeat encompasses many unidentified wild game animals. The protein_evidence rules require an exact source quote explicitly naming the animal (chicken/beef/pork/duck/lamb/seafood only, or hold if species is ambiguous or unknown). 'Bushmeat' fails this requirement—it is neither a recognized allowed protein category nor an explicit species declaration. The photograph and phone thumbnail are of acceptable quality, but identity verification cannot proceed without species-level clarity from the source.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1740,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 433,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

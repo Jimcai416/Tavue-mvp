@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChB7j3KNii9VAmFk821xS",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 3,\n    \"lighting\": 2,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Yellow/golden grain-based dish prepared at street-food vendor stall\",\n    \"Cooked legume or cereal visible on cooking surface\",\n    \"Street vendor in casual setting with prepared food on display\",\n    \"Fresh preparation evident with vendor actively serving\"\n  ],\n  \"phone_observations\": [\n    \"Yellow cooked grain/legume dish clearly visible in thumbnail\",\n    \"Vendor and stall setup recognizable at small scale\",\n    \"Food subject prominent and readable in phone crop\",\n    \"Natural colours preserved in thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title metadata indicates 'Ghugni' but no matching description field confirms this dish identity\",\n    \"Ghugni typically refers to spiced chickpeas or peas, but exact legume/grain species not visually certain\",\n    \"No visible protein ingredient explicitly named in provided source text\",\n    \"File title is metadata only and not a reliable source description per instructions\"\n  ],\n  \"reason\": \"Image quality and photograph composition meet standards; phone thumbnail shows prominent, appetising prepared food. However, identity check fails: the filename 'Food-Ghugni-Seller-4.jpg' is untrusted metadata and cannot serve as canonical source. The description field is empty. Without a verified, explicit source title or description that names the dish, identity cannot be confirmed. Ghugni is visually plausible (yellow legume/grain preparation) but cannot be asserted without authoritative source text. Hold pending verified dish description.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1513,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 482,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
