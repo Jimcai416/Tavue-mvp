@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAYwwHFV6qadvoUMnCeU",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"White creamy dip/sauce visible in bowl\",\n    \"Toasted bread slice partially visible at edge\",\n    \"No visible garnish detail in thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Tzatziki is a sauce/condiment, not a finished dish\",\n    \"No protein component present (yogurt-based dip only)\",\n    \"Bread is an accessory, not the primary subject\",\n    \"Does not meet 'finished, exposed, likely photographic dish' criterion\"\n  ],\n  \"reason\": \"Tzatziki is a yogurt-based condiment/dip, not a finished dish. The photograph shows it served with bread, but it remains fundamentally a sauce or meze component rather than a complete plated food suitable for Tavue's food photography intake. The identity check fails because a condiment does not satisfy the requirement for 'a finished, exposed, likely photographic dish' with readable essential components. No proteins present. Reject.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1615,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 369,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAYxkRBHdauGiRdUbGyh",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 3,\n    \"composition\": 2,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows a pale, uniform liquid in a bowl with a spoon\",\n    \"No visible solids or distinguishing food components\",\n    \"Broth appears thin and undifferentiated\",\n    \"Essential dish identity cannot be verified from phone view\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Tripe (offal) is not an allowed protein category\",\n    \"No specific animal source explicitly named in source description\",\n    \"Dish identity unverifiable as a finished, appetising photograph\"\n  ],\n  \"reason\": \"Rejection on multiple grounds: (1) Tripe is offal/organ meat and cannot be recorded in the allowed protein_evidence categories (chicken/beef/pork/duck/lamb/seafood only); (2) The photograph shows a nearly featureless pale soup with no visible solids, components, or textural detail—it appears to be in an early preparation or cooking stage rather than a finished, exposed dish; (3) The phone thumbnail fails to convey any appetising food identity or readable essential components—only an undifferentiated broth; (4) Sharpness and appeal scores are inadequate; (5) The source description does not provide an explicit animal qualifier beyond the dish name. This does not meet the threshold for acceptance as a representative finished food photograph.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1739,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 439,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

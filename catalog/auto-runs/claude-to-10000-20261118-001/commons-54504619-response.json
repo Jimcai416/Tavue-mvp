@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAYxM7iYApioZihAD5A2",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Skewered meat pieces with charred exterior\",\n    \"White rice bed\",\n    \"Red and green peppers\",\n    \"Fresh cilantro garnish\",\n    \"Served on white paper/cloth\"\n  ],\n  \"phone_observations\": [\n    \"Central skewered meat clearly visible\",\n    \"Charring and browning prominent\",\n    \"Rice and peppers readable in thumbnail\",\n    \"Overall composition maintains recognisability\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title claims 'Turkish Cuisine' but describes 'Shish Tawooq', which is an Arabic/Middle Eastern dish (primarily Levantine, Gulf, and North African), not Turkish\",\n    \"Meat species cannot be definitively determined from visual appearance alone; appearance is consistent with chicken but could be other white meats\",\n    \"No explicit protein identification in source title or description beyond the generic dish name\",\n    \"Geographic/cultural attribution contradiction between title and description requires clarification\"\n  ],\n  \"reason\": \"Identity check fails due to source contradiction: title claims 'Turkish Cuisine' but the dish 'Shish Tawooq' is specifically Arabic/Middle Eastern in origin and attribution. Protein species is not explicitly named in source metadata—visual appearance suggests chicken but cannot be confirmed without direct statement. Photograph quality, composition and phone thumbnail are all acceptable (scores ≥4), but the identity mismatch and unconfirmed protein prevent acceptance. Hold for source clarification and explicit protein documentation.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1745,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 482,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
