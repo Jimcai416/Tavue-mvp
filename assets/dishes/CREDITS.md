@@ -5573,3 +5573,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 
 - **Plat de foufou avec sauce tomate** — Akouete. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Plat_de_foufou_01.jpg). Local asset: `reviewed-commons-132433724.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Roti ghugni** — Rajeeb Dutta. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Roti_ghugni-MB27.jpg). Local asset: `reviewed-commons-95067361.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Urad dal vadas with chickpea ghugni** — Rupasree. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Vada_ghugni.JPG). Local asset: `reviewed-commons-40946798.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
