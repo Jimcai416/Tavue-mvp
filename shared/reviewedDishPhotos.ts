@@ -78100,5 +78100,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 638,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-119954738",
+    "title": "File:Enchiladas suizas rojas.jpg",
+    "author": "Wotancito",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Enchiladas_suizas_rojas.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/42/Enchiladas_suizas_rojas.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "68bc162de638283b9e80923fcc571236df7b36ba",
+    "name": "Enchiladas suizas rojas",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-119954738.jpg",
+    "assetSha256": "7e89a99f511e65d96757936f344ece14c2a4e2eaa44245c893a386a2b22ccd29",
+    "reviewedAt": "2026-11-18",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 720,
+    "height": 960,
+    "requiresExactMenuName": true
   }
 ];
