@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBHJp68vYeECBSqtqmzj",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Round, golden-brown fried spheres in sauce\",\n    \"Glossy surface with spice coating\",\n    \"Bright orange/golden liquid base\",\n    \"Multiple koftas densely packed in pan\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail shows recognizable fried ball shapes\",\n    \"Golden-orange colour visible at this scale\",\n    \"Dense composition readable as a curry dish\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'Paneer Kofta Curry' but source metadata states only File:Paneer Kofta Curry - Kolkata 2011-09-20 5425.JPG without independent description confirming paneer identity\",\n    \"Visual appearance shows spherical fried items in sauce but cannot definitively distinguish paneer koftas from potato-based, meat, or other kofta varieties from photography alone\",\n    \"No visible interior cross-section or distinctive paneer texture visible in full image to confirm paneer as primary protein/base\",\n    \"Metadata filename is unreliable evidence per instructions\"\n  ],\n  \"reason\": \"Image quality and photograph composition meet acceptance thresholds. However, identity cannot be confirmed: the filename suggests 'Paneer Kofta Curry' but per instructions, metadata and filenames are untrusted evidence. Visual inspection alone cannot distinguish paneer koftas from other kofta varieties (potato, meat, etc.) without cross-section or definitive textural evidence. The source description field is empty, leaving no authoritative independent confirmation. Identity check fails. Hold pending explicit source description of the dish.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1642,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 506,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
