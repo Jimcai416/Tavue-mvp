@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAjhDRiSANfXD2Nasfdd",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"White steamed rice clearly visible in centre\",\n    \"Two brown/tan spherical items (cutlets) coated in breadcrumbs\",\n    \"Tomato slices on left\",\n    \"Roti/flatbread on right\",\n    \"Three small bowls with gravies/curries\",\n    \"Boiled potato pieces upper left\",\n    \"Red condiment (tomato sauce/chutney)\",\n    \"Green condiment (coconut chutney/pickle)\"\n  ],\n  \"phone_observations\": [\n    \"Plate clearly visible with organized component layout\",\n    \"Rice, cutlets, roti all readable in thumbnail\",\n    \"Three bowls with curries visible\",\n    \"Condiments distinguishable\",\n    \"Overall composition preserved in reduction\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Cutlets composition unspecified—source lists 'cutlets' without naming the protein animal (could be vegetable, chicken, meat species unknown)\",\n    \"Source title 'Plate of Indian meals' is a generic category, not a specific finished dish name\",\n    \"Ambiguous identity: appears to be a composite thali/meal plate rather than a single named dish\",\n    \"Daal type not specified (protein: legume, not an allowed category)\",\n    \"Malai methi description insufficient—cannot determine if vegetarian or meat-based without explicit animal name\",\n    \"No single canonical dish identity extractable from source description\"\n  ],\n  \"reason\": \"Image quality and photograph are strong, but identity check fails because the source metadata describes a generic 'Plate of Indian meal' (component list) rather than a specific finished dish with a canonical name. The cutlets lack explicit protein identification (species unspecified), and Malai methi, daal, and other components do not support a single identified dish. No exact dish phrase suitable for canonical_name can be extracted from the source. Source is a component inventory, not a dish identity. Hold pending clarification of the specific dish name and cutlet protein source.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1781,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 601,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

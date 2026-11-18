@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAjhtRFcshp6vF658RJZ",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 5,\n    \"appeal\": 5\n  },\n  \"visible_support\": [\n    \"Skewered meat cubes with visible char and browning\",\n    \"Interleaved vegetables (red pepper, green pepper visible)\",\n    \"Flatbread base with char marks\",\n    \"Fresh mint garnish\",\n    \"Lemon wedges\",\n    \"Appetising presentation on white plate\"\n  ],\n  \"phone_observations\": [\n    \"Skewers clearly visible in thumbnail\",\n    \"Flatbread base readable\",\n    \"Garnish visible\",\n    \"Essential components sharp and prominent\",\n    \"No clipping of key elements\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title states 'Shashlik is a Russian dish' but provides no specific dish name or description beyond the generic category\",\n    \"Meat species not explicitly named in source metadata—appears to be pork or lamb based on colour and size, but neither is confirmed by source text\",\n    \"No variant qualifiers (preparation method, regional origin, specific topping names) provided in source\",\n    \"Metadata is minimal and does not constitute a proper canonical description\"\n  ],\n  \"reason\": \"Identity check fails: source metadata contains only a generic category statement ('Shashlik is a Russian dish') without a specific canonical dish name, variant qualifiers, or explicit protein identification. Although the photograph is sharp, well-lit, appetising and clearly shows a finished skewered meat dish with flatbread and garnish, the source title/description does not provide the required specific dish phrase to establish identity. Protein cannot be assigned without an explicit source quote naming the animal. Hold for clarification of exact dish name and meat species.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1725,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 506,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

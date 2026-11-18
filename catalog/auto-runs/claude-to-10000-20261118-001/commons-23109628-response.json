@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAjh3XA9NhVMrTrJ12Gy",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Pita bread base visible\",\n    \"Melted cheese (brie) clearly visible\",\n    \"Fresh basil herb garnish prominent\",\n    \"Mushroom slices identifiable\",\n    \"Red sauce layer present\",\n    \"Dark cooked meat visible\"\n  ],\n  \"phone_observations\": [\n    \"Pizza/pita format clearly readable at thumbnail size\",\n    \"Cheese, herbs, and toppings visible in miniature\",\n    \"Overall composition and subject prominence adequate\",\n    \"Colour palette natural and appetising\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title specifies 'sausage' but no sausage species declared (beef/pork/chicken/duck/lamb/seafood unspecified)\",\n    \"Visible dark meat cannot be confirmed as sausage or identified to allowed category\",\n    \"Source title/description does not use canonical phrase matching a standard dish name\"\n  ],\n  \"reason\": \"Source title describes ingredients on pita (sausage, mushrooms, brie, basil) rather than a specific named dish. Identity check fails: no canonical dish name in title, only ingredient list. Protein evidence cannot be accepted: 'sausage' is an unspecified meat species—the title does not declare whether it is beef, pork, chicken, duck, lamb, or seafood sausage. Visual appearance alone cannot determine species. Hold pending clarification of sausage type and confirmation of a specific dish identity beyond ingredient enumeration.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1626,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 478,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
