@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChB1pj4Ed4GCUofL4P2nP",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Couscous grain visible and prominent\",\n    \"Stewed meat or legume component embedded in couscous\",\n    \"Potato visible on right side\",\n    \"Natural colour, finished dish appearance\",\n    \"Sharp detail in phone thumbnail showing couscous texture and components\"\n  ],\n  \"phone_observations\": [\n    \"Couscous grain texture clearly readable\",\n    \"Meat/legume component visible\",\n    \"Potato visible at right edge\",\n    \"Essential components present and identifiable\",\n    \"No clipping of core dish elements\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title references 'thiéré bassi' (Senegalese dish) but source metadata is incomplete and untrusted; exact dish identity cannot be verified against a canonical description\",\n    \"Meat species in the couscous cannot be identified visually—appears to be stewed meat but specific animal type is not determinable from appearance alone\",\n    \"No explicit protein naming in the available title/description that meets the requirement for exact case-sensitive substring matching\"\n  ],\n  \"reason\": \"While the photograph shows a finished, appetising couscous dish with clear detail and appropriate composition, the identity check fails because the source title is extracted from filename metadata (untrusted) and lacks an explicit, verifiable canonical description. The meat component is visible but its species cannot be identified from appearance, and no exact protein quote is available from a trusted source description. The incomplete metadata prevents confident identity verification required for acceptance.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1746,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 476,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

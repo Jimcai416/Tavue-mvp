@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChB1oq28nvBvNP48cqmn5",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Yellow saffron rice base visible in full image and thumbnail\",\n    \"Red bell pepper strips prominent throughout\",\n    \"Green olives and artichoke hearts visible\",\n    \"Light-coloured meat pieces dispersed in both images\",\n    \"Cooked in wide paella pan, clearly visible in both frames\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows finished dish in pan\",\n    \"Yellow rice, red peppers and meat visible at 124x96\",\n    \"No clipping of essential components\",\n    \"Appetising presentation maintained in reduced resolution\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title is 'Paella, plato popular para comer los domingos en familia' (Paella, popular dish to eat on Sundays as a family) - generic description with no specific paella variant identified\",\n    \"Meat species cannot be determined from visual inspection alone - pale pieces could be chicken, rabbit, or other poultry, but no source text explicitly names the protein\",\n    \"No variant qualifier provided (e.g. paella valenciana, paella de marisco, paella mixta) - only generic 'paella'\",\n    \"Description does not state animal type for visible protein components\"\n  ],\n  \"reason\": \"Image quality and photograph technical standards are strong (all scores ≥4), and both full and thumbnail images show a finished, appetising paella dish. However, the source title provides only a generic description ('Paella, popular dish to eat on Sundays as a family') with no specific variant name or protein identification. The visible meat pieces cannot be definitively identified by species from appearance alone, and the source text does not explicitly name any protein. Per instructions, unknown or ambiguous meat species (and lack of explicit source naming) requires holding. A specific variant phrase with protein evidence is required for acceptance.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1749,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 561,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
