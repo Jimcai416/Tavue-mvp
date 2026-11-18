@@ -5336,3 +5336,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 - **Jianbing Guozi** — Xrdtj. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Jianbing_Guozi_in_Canada_20170625.jpg). Local asset: `reviewed-commons-86769950.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Jinyun Shaobing** — N509FZ. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Jinyun_Shaobing_baking_in_clay_oven_(20200822114520).jpg). Local asset: `reviewed-commons-93444823.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Youtiao, Doufunao and tea egg** — N509FZ. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Youtiao,_Doufunao_and_tea_egg_at_Xixinlitun_Breakfast_(20220324073746).jpg). Local asset: `reviewed-commons-116463720.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Youtiao** — Popo le Chien. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Youtiao.jpg). Local asset: `reviewed-commons-44707117.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.

@@ -74704,5 +74704,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 640,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-44707117",
+    "title": "File:Youtiao.jpg",
+    "author": "Popo le Chien",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Youtiao.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/78/Youtiao.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "740a02ebddc4cd05924fc9f5184222c89fd1e5e2",
+    "name": "Youtiao",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-44707117.jpg",
+    "assetSha256": "f1708cd90b39c57b581d5395de2192aa52b1a521add5b3db5f60635db78c2cc3",
+    "reviewedAt": "2026-11-18",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 640,
+    "requiresExactMenuName": true
   }
 ];
