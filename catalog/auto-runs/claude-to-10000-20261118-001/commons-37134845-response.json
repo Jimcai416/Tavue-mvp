@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAtnC3p6onLjtRB4okrQ",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Toasted bread slices on orange ceramic plate\",\n    \"Green spread (presumed rillettes or pâté) visible on bread\",\n    \"Natural daylight, good surface detail\",\n    \"Finished prepared dish\"\n  ],\n  \"phone_observations\": [\n    \"Bread and spread clearly visible in thumbnail\",\n    \"Orange plate recognizable\",\n    \"Green filling/spread prominent\",\n    \"Readable as a tartine/open sandwich\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title indicates 'Rillettes de Tours' but source description states 'tartine de rillettes de Tours' — tartine means an open-faced sandwich/toast preparation, not rillettes alone\",\n    \"The visible form is a toast or tartine with spread, not rillettes (a French pâté/meat spread) presented as the primary dish\",\n    \"Rillettes is a prepared meat product (typically pork), but the source provides no explicit animal declaration\",\n    \"Identity mismatch: photograph shows a prepared tartine (toast + spread), title/description reference rillettes (the filling ingredient only)\"\n  ],\n  \"reason\": \"The source title 'File:Rillettes de Tours.jpg' and description 'tartine de rillettes de Tours' present a category conflict. A tartine is a finished open sandwich (toast + spread); rillettes is the spread ingredient—a French meat pâté. The photograph shows a tartine (the prepared dish), but canonical identity should match the dish name precisely. The title alone refers to rillettes (the ingredient), while the description specifies tartine de rillettes (the prepared form). Additionally, rillettes is traditionally pork-based, but no explicit protein declaration appears in the source text, violating the protein evidence requirement for meat dishes. The photograph quality and presentation are acceptable, but the source identity is ambiguous between ingredient and finished dish, and no explicit protein naming is provided. Hold pending clarification of which dish name is authoritative and explicit protein confirmation.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1725,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 595,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
