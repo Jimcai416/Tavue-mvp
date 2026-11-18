@@ -66112,5 +66112,51 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-192493298",
+    "title": "File:Lumpia goreng dengan daun bawang dan petis dari atas.jpg",
+    "author": "Nafisaacdr",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lumpia_goreng_dengan_daun_bawang_dan_petis_dari_atas.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Lumpia_goreng_dengan_daun_bawang_dan_petis_dari_atas.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "fbf510f8ca15bdf1a215c66a977d11aedf4c07d9",
+    "name": "lumpia goreng dengan daun bawang dan petis",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-192493298.jpg",
+    "assetSha256": "50cad83ee29fd3ff18e9500da59cfafac82e778dc9ed44b7d6a11e10d02fc16e",
+    "reviewedAt": "2026-11-18",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 720,
+    "height": 960,
+    "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-142181135",
+    "title": "File:Bagnet Kare Kare.jpg",
+    "author": "Lyraauce",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bagnet_Kare_Kare.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Bagnet_Kare_Kare.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "b5675fcec4c117951f2773b2a95d7e3de7f8437c",
+    "name": "Bagnet Kare Kare",
+    "aliases": [],
+    "proteins": [
+      "pork"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-142181135.jpg",
+    "assetSha256": "60bbdf0027a960654424dbb639c0aa49f58e3f6ca649b3094ecd4b19225865bc",
+    "reviewedAt": "2026-11-18",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 640,
+    "requiresExactMenuName": true
   }
 ];
