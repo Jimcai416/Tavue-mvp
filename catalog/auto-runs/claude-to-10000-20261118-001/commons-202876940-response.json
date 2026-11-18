@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAWmsGtE7dJ7E7RQMwf3",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Roasted potato chunks visible\",\n    \"Zucchini slices present\",\n    \"Eggplant segments identifiable\",\n    \"Green herbs garnish on top\",\n    \"Natural golden-brown roasting colour\",\n    \"Olive oil coating evident\"\n  ],\n  \"phone_observations\": [\n    \"Vegetable medley clearly visible in phone thumbnail\",\n    \"Golden roasted tones dominant\",\n    \"Checkered tablecloth framing recognizable\",\n    \"Dish identity readable at small size\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title describes 'Greek Briam' but canonical_name must derive from exact source title/description without 'File:' prefix and metadata. The raw title is 'File:Greek Briam – Traditional Oven-Roasted Vegetables.jpg', making extraction ambiguous.\",\n    \"Description states 'typically including potatoes, zucchini, eggplant, tomatoes and onions' but tomatoes are not clearly visible in the photograph—only potatoes, zucchini, eggplant, and onions are plainly evident.\",\n    \"Source description contains generic 'typically' language rather than confirming actual visible components, introducing uncertainty about whether this instance matches the stated recipe.\"\n  ],\n  \"reason\": \"Reject: Source metadata contains contradictions. The description claims tomatoes are part of the dish, but no tomatoes are visibly present in either the full image or thumbnail—only potatoes, zucchini, eggplant, onions and herbs are shown. The source title format ('File:...') is non-standard for canonical naming. The discrepancy between source-declared ingredients and visible reality, combined with the generic 'typically includes' language in the description, creates unresolved identity uncertainty. All quality and photograph checks pass, but the identity check fails due to ingredient mismatch.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1665,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 568,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
