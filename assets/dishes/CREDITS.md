@@ -3203,3 +3203,8 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 
 - **Rava Upma (Suji or Semolina Upma)** — Mdsmds0. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Rava_Upma_(Suji_or_Semolina_Upma).JPG). Local asset: `reviewed-commons-40876231.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Haemul pajeon** — [by Tales of an LA Addict (Abby)  at  Flickr](https://www.flickr.com/photos/la_addict/). [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:Korean_pancake-Haemul_pajeon-03.jpg). Local asset: `reviewed-commons-4689257.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Aloo gobi (cauliflower and potato)** — [Geoff Peters  from Vancouver, BC, Canada](https://www.flickr.com/people/54359128@N00). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Aloo_gobi_(cauliflower_and_potato)_(3170159574).jpg). Local asset: `reviewed-commons-80211959.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Giant Japanese Curry Rice in Hong Kong** — Ceeseven. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Giant_Japanese_Curry_Rice_in_Hong_Kong.jpg). Local asset: `reviewed-commons-52175046.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
