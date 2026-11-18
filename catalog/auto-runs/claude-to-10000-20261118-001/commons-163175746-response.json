@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChB63RjXe6WUwXBQaXCWk",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Poached eggs visible in burgundy-red wine sauce\",\n    \"Toasted garlic bread slices prominent\",\n    \"Green onion/scallion garnish visible\",\n    \"Deep brown meurette sauce\",\n    \"Restaurant plating on red-bordered dish\"\n  ],\n  \"phone_observations\": [\n    \"Eggs and sauce clearly visible in thumbnail\",\n    \"Bread pieces identifiable\",\n    \"Red bowl rim visible\",\n    \"Essential components readable at small scale\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title references 'Oeufs en meurette' but metadata filename states 'Œufs en meurette Dijon.jpg'—character encoding inconsistency between title and filename\",\n    \"Description mentions 'bacon' as sauce ingredient but no bacon is visually identifiable in the dish itself; bacon is ingredient-level only, not a served protein component\",\n    \"Eggs are the primary protein but 'egg' is not an allowed protein category (only chicken/beef/pork/duck/lamb/seafood accepted)\"\n  ],\n  \"reason\": \"Reject: No allowed protein categories can be supported. Eggs are the primary served protein but egg/poultry as self-contained dish is not in the permitted protein list (chicken/beef/pork/duck/lamb/seafood). Bacon mentioned in description is a sauce ingredient, not a visually present served protein that meets category requirements. The photograph quality, composition and phone thumbnail are all excellent, but protein_evidence cannot be populated with any valid key, violating the acceptance requirement that all checks must be true.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1801,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 506,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

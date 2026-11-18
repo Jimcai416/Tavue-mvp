@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChB63Rm1ye7mq1bx3h1dK",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": true,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 2,\n    \"composition\": 3,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows a historical parade float/decorated vehicle with horses\",\n    \"No food dish is visible or identifiable in the phone thumbnail\",\n    \"Image is a documentary street scene from 1910, not a food photograph\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title references 'poule au pot' (a chicken dish) but the image is a decorated carnival float, not a finished plated food\",\n    \"The photograph documents a historical parade vehicle, not an actual prepared dish\"\n  ],\n  \"reason\": \"This is a historical documentary photograph of a Mi-Carême (Mardi Gras) parade float from 1910 Paris, not a food photograph. Although the float's name references 'poule au pot', the image shows only the decorated vehicle itself with people and horses, not an actual finished, exposed, prepared dish. The subject is a vehicle/float, not food. No actual food dish is visible, sharply detailed, or appetizingly presented in either the source or thumbnail. This fails the fundamental requirement of showing a finished, exposed, likely photographic dish.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1816,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 390,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
