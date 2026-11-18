@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAwHMMSiRE7uguPRF4K7",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 5,\n    \"composition\": 5,\n    \"appeal\": 5\n  },\n  \"visible_support\": [\n    \"Four golden-brown cylindrical pastries\",\n    \"Fresh green salad greens as bed\",\n    \"Professional plating on white dish\",\n    \"Natural, appetising colour and finish\"\n  ],\n  \"phone_observations\": [\n    \"Four rolled pastries clearly visible and prominent\",\n    \"Golden colour and cylindrical shape readable\",\n    \"Salad garnish visible at base\",\n    \"Dish detail sufficient for recognition\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title is 'File:Sigara Börek.jpg' (filename, not a dish name); description uses generic 'sigara böreği' or 'kalem böreği'\",\n    \"Description states filling options include 'feta cheese, potato, parsley and sometimes with minced meat or sausage' – no specific, definite protein is declared or visually verifiable\",\n    \"'Minced meat or sausage' is unspecified species; sausage identity cannot be determined\",\n    \"Visible interior is not exposed; filling composition cannot be confirmed from photograph alone\",\n    \"Description is generic list of possible ingredients, not an exact declaration of this dish's contents\"\n  ],\n  \"reason\": \"Source title is a filename without a canonical dish name. Description lists multiple optional fillings ('sometimes with minced meat or sausage') without committing to a specific composition. Minced meat species is unspecified, and sausage type cannot be identified. No exact source quote declares the definite filling of this particular dish. Without a precise source statement of identity and confirmed proteins, identity check fails. Hold pending clarified source description naming exact filling.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1739,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 512,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
