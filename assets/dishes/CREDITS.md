@@ -4769,3 +4769,8 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Quesadilla de champiñones poblana** — Luis Alvaz. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Quesadilla_de_champi%C3%B1ones_poblana.jpg). Local asset: `reviewed-commons-106154991.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Escabeche de pollo con queso, aceituna botija, huevo duro y arroz blanco** — MiguelAlanCS. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Escabeche_de_pollo_Peru.jpg). Local asset: `reviewed-commons-76008342.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Quesadilla de huitlacoche** — Gunnar Wolf. [CC BY 3.0](https://creativecommons.org/licenses/by/3.0); [source](https://commons.wikimedia.org/wiki/File:Quesadilla_de_huitlacoche.jpg). Local asset: `reviewed-commons-19148821.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.

@@ -68009,5 +68009,51 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-76008342",
+    "title": "File:Escabeche de pollo Peru.jpg",
+    "author": "MiguelAlanCS",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Escabeche_de_pollo_Peru.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/89/Escabeche_de_pollo_Peru.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "0659421bba18bb0303a4131109c3a99094527a7b",
+    "name": "Escabeche de pollo con queso, aceituna botija, huevo duro y arroz blanco",
+    "aliases": [],
+    "proteins": [
+      "chicken"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-76008342.jpg",
+    "assetSha256": "c994f3b37d72565a82dcb114af1c386e1a3a0540195c1f398e57c108bdabf119",
+    "reviewedAt": "2026-11-18",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 895,
+    "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-19148821",
+    "title": "File:Quesadilla de huitlacoche.jpg",
+    "author": "Gunnar Wolf",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Quesadilla_de_huitlacoche.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Quesadilla_de_huitlacoche.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "7b7af908377f42772af1862597fb649a979393a5",
+    "name": "Quesadilla de huitlacoche",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-19148821.jpg",
+    "assetSha256": "5b727e0df2f8628cf69efa2325bd894c0639b5bab1309bf054080c9d52d915bb",
+    "reviewedAt": "2026-11-18",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];
