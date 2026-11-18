@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChB44CRsh7RBZQFGDVK75",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [\n    \"Cooked grain (freekeh) visible and prominent\",\n    \"Diced white potato or similar vegetable clearly present\",\n    \"Green peas distributed throughout\",\n    \"Glossy broth coating visible\",\n    \"Served in disposable clear plastic container on pink surface\",\n    \"Finished, exposed dish in full presentation\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows finished grain dish with broth\",\n    \"Peas and diced vegetables legible at reduced size\",\n    \"Subject adequately prominent and not clipped\",\n    \"Overall dish identity retained in phone view\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title metadata declares 'طبق الفريكة الفلسطيني' (Palestinian Freekeh) but provides no English transliteration or exact English canonical name\",\n    \"Description mentions 'حب الحمص' (chickpeas) but visible components appear to be peas, not chickpeas\",\n    \"Metadata claims multiple spices ('العديد من البهارات') but no specific spices are named or visually identifiable\",\n    \"No explicit protein source (meat, legume species, etc.) confirmed in source text; visible peas alone do not constitute a named protein category\",\n    \"Exact dish name in English not provided in source; only Arabic and filename offered\"\n  ],\n  \"reason\": \"Image quality, sharpness, composition, and phone thumbnail all meet acceptance thresholds. Photograph is sharp, naturally coloured, appetising, and shows a finished, exposed dish. However, identity verification fails: the source provides only an Arabic title and a filename without an exact English transliteration or canonical English name that can be verified against standard dish nomenclature. The description contains claims about ingredients (chickpeas, multiple spices) that do not align with visible contents (peas are visible, spices are not individually identifiable). No protein source is explicitly named in English in the source metadata. The fundamental requirement that the canonical_name match an exact source title/description phrase (without metadata tags) cannot be satisfied because no unambiguous English dish name is provided. Hold for clarification of exact English dish name and resolution of ingredient discrepancies.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1776,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 642,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

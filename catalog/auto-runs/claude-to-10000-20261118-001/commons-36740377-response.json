@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChB44PCGUbYoAMHNc6noG",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Hand holding raw legume grains (chickpeas or similar) in palm\",\n    \"Legumes show charred/roasted surface texture\",\n    \"Subject is small but identifiable in thumbnail\",\n    \"Orange-brown legumes clearly visible against skin tone\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Image shows raw/preparation stage (whole legumes before grinding), not finished dish\",\n    \"Description states 'First process of preparing' – this is an ingredient photograph, not a plated meal\",\n    \"Shiro is a finished paste/stew; this shows unprocessed roasted legumes\"\n  ],\n  \"reason\": \"Rejection: This is a preparation-stage photograph showing raw roasted legumes held in a hand, explicitly described as 'First process of preparing the Ethiopian meal Shiro'. The guidelines exclude raw/preparation stages and require finished, exposed, likely photographic dishes. While the photograph is sharp and well-lit, it documents an ingredient or intermediate step, not a finished dish. The finished form (Shiro paste or stew) is not visible. This fails the identity check for a complete dish suitable for a food photograph collection.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1622,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 407,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

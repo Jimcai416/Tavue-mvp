@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChB44jHWhctcRawkgk94b",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 5,\n    \"appeal\": 5\n  },\n  \"visible_support\": [\n    \"Couscous-like grain (attieke) with visible red pepper pieces and herbs\",\n    \"Multiple charred grilled meat pieces with crispy exterior and caramelized edges\",\n    \"Sauce bowl (left) containing red/tomato-based liquid\",\n    \"Dark sauce or condiment bowl (right)\",\n    \"Natural wood table surface, home/restaurant plating\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows finished grilled meat pieces in foreground\",\n    \"Grain component prominently visible and readable\",\n    \"Sauce bowls visible on either side\",\n    \"Essential food elements not clipped\",\n    \"Satisfactory detail legibility at 124x96\"\n  ],\n  \"protein_evidence\": {\n    \"chicken\": \"chicken\"\n  },\n  \"uncertainties\": [\n    \"Title field contains only 'File:Attieke and chicken.jpg' – filename only, not a proper source description\",\n    \"Description incomplete: 'This is an image from' (truncated, no actual description provided)\",\n    \"Cannot verify exact dish name or any regional variant from provided metadata\",\n    \"No complete source title or description to extract canonical_name from\"\n  ],\n  \"reason\": \"Image quality, composition, and detail are excellent. Protein (chicken) is explicitly named in the filename. However, the metadata supplied does not constitute a complete source title or description—only a filename fragment ('File:Attieke and chicken.jpg') and an incomplete truncated description ('This is an image from'). The instructions require canonical_name to be 'copied exactly from source title or description', but neither is fully provided here. The filename alone is not suitable evidence for a canonical dish name. Hold pending complete source title/description.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1687,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 529,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
