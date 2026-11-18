@@ -115,6 +115,26 @@ class AutomaticReviewTests(unittest.TestCase):
     result=p.prepare(r)
    self.assertEqual(result[2],'HTTPError');self.assertEqual(fetch.call_count,3)
    self.assertEqual([c.args[0] for c in gate.pause.call_args_list],[120,120,120])
+ def test_unpaid_preview_retry_preserves_original_hold_and_never_pays_itself(self):
+  with tempfile.TemporaryDirectory() as t:
+   p=self.pipeline(t);p.records=[{'id':'c1'}];old={'id':'c1','verdict':'held','reason':'preview_HTTPError','reviewedAt':'original'};p.decisions=[old.copy()]
+   with patch.object(p,'persist') as save,patch.object(p,'paid') as paid:
+    self.assertEqual(p.retry_unpaid_previews(),1)
+   self.assertEqual(p.decisions,[]);self.assertEqual(p.ledger['unpaidPreviewRetries']['c1']['previousDecision'],old)
+   save.assert_called_once();paid.assert_not_called()
+   p.decisions=[old.copy()]
+   with patch.object(p,'persist') as save:self.assertEqual(p.retry_unpaid_previews(),0)
+   save.assert_not_called();self.assertEqual(p.decisions,[old])
+ def test_source_retry_excludes_every_existing_paid_request_state(self):
+  with tempfile.TemporaryDirectory() as t:
+   p=self.pipeline(t)
+   for status in ['completed','reserved','ambiguous']:
+    p.ledger['requests'][status]={'status':status,'reservedUSD':.01}
+   p.decisions=[{'id':s,'verdict':'held','reason':'preview_HTTPError'} for s in p.ledger['requests']]
+   p.decisions.append({'id':'model-held','verdict':'held','reason':'model_hold'})
+   before=copy.deepcopy(p.decisions)
+   with patch.object(p,'persist') as save:self.assertEqual(p.retry_unpaid_previews(),0)
+   self.assertEqual(p.decisions,before);save.assert_not_called()
  def test_completed_planner_response_is_recovered_without_paying_again(self):
   with tempfile.TemporaryDirectory() as t:
    p=self.pipeline(t);p.paid_lock=True

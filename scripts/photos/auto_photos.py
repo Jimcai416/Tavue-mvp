@@ -337,6 +337,16 @@ class Pipeline:
   self.ledger['status']='completed' if len(self.decisions)==len(self.records) else ('budget_limit' if not self.expired() else 'time_limit')
   self.ledger['unreviewed']=len(self.records)-len(self.decisions)
   self.persist('Save automatic photo pipeline completion or bounded checkpoint')
+ def retry_unpaid_previews(self):
+  """Give old unavailable sources one paced attempt, never repeat a paid request."""
+  history=self.ledger.setdefault('unpaidPreviewRetries',{})
+  retry=[d for d in self.decisions if d.get('verdict')=='held' and d.get('reason') in ('preview_HTTPError','preview_TimeoutError','preview_URLError','preview_OSError') and d['id'] not in self.ledger['requests'] and d['id'] not in history]
+  if not retry:return 0
+  for d in retry:history[d['id']]={'policy':'unpaid-source-download-retry-v1','reopenedAt':now(),'previousDecision':d}
+  ids={d['id'] for d in retry};self.decisions=[d for d in self.decisions if d['id'] not in ids]
+  self.ledger.update(status='retrying_unpaid_previews',held=sum(d['verdict']!='approved' for d in self.decisions),unreviewed=len(self.records)-len(self.decisions))
+  self.persist('Reopen unpaid source download holds once after paced fetch fix')
+  return len(retry)
  def recover_intake(self):
   """Finish an already-paid passing judgement after a runner restart; never call Claude again."""
   sources={r['id']:r for r in self.records};passing=[]
@@ -385,7 +395,7 @@ class Pipeline:
   if model.get('id')!=MODEL:raise ValueError('Configured Claude model unavailable')
   print(json.dumps({'credentialPresent':True,'modelAvailable':MODEL,'budgetUSD':self.config['budgetUSD'],'parallelReviews':self.config['concurrency']}),flush=True)
   queries=self.plan();self.discover(queries)
-  self.recover_saved_reviews();self.recover_intake();self.review()
+  self.recover_saved_reviews();self.recover_intake();self.retry_unpaid_previews();self.review()
 
 def main():
  config=read(CONFIG)

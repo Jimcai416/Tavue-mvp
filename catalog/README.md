@@ -50,6 +50,11 @@ source Retry-After cooldowns even after the last retry, and identify the project
 URL in their User-Agent. Backoff events log the image ID, status and delay.
 A wave containing only unavailable previews records those holds and continues
 to the next candidates; it is not mislabeled as budget exhaustion.
+Old unavailable-source holds may be reopened once per ID after this fix, only
+when the ID has no paid request of any state. The original decision is retained
+in `ledger.unpaidPreviewRetries` before retrying. Completed/ambiguous/reserved
+provider requests and visual/source-evidence rejections are never reopened by
+this mechanism. These reviews use the same run ID and original cost cap.
 
 A runtime checkpoint automatically starts the next sequential review stage
 from the latest branch checkpoint, with the same frozen queue and $15 cap.
