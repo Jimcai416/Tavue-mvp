@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAu17KuRzq6rn5R4rtBh",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 5,\n    \"composition\": 5,\n    \"appeal\": 5\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows finished seafood dish in blue bowl with shrimp, red onion, and green garnish\",\n    \"Bowl is prominent and sharp in phone view\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title 'File:Ceviche ingredients.png' contradicts finished dish appearance—image shows a plated ceviche, not ingredient components\",\n    \"Description states 'created on the basis of free images' indicating composite/AI-assembled origin rather than authentic photograph\",\n    \"Metadata indicates illustration/graphic creation rather than direct food photography\",\n    \"Title references 'ingredients' but the full image displays a finished dish\"\n  ],\n  \"reason\": \"Reject: source metadata explicitly identifies this as a created visual assembled from free images, not an authentic photograph. The title 'Ceviche ingredients' contradicts the finished plated dish shown. The declared composition method ('created on the basis of free images') indicates graphic illustration rather than direct photography. Although the dish appears sharp, well-lit and appetising, it fails the photograph authenticity criterion and cannot be accepted as representative food photography for Tavue.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1801,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 398,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
