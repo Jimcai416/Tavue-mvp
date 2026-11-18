@@ -34,16 +34,21 @@ def retry_seconds(value, now=None):
         except (TypeError,ValueError,OverflowError):return minimum
 
 class RateGate:
-    def __init__(self):self.until=0;self.lock=threading.Lock()
+    def __init__(self,min_interval=0):
+        self.until=0;self.next_request=0;self.min_interval=min_interval;self.lock=threading.Lock()
     def pause(self,seconds):
         with self.lock:self.until=max(self.until,time.monotonic()+seconds)
     def wait(self):
         announced=0
         while True:
-            with self.lock:left=self.until-time.monotonic()
-            if left<=0:return
+            with self.lock:
+                current=time.monotonic();left=max(self.until,self.next_request)-current
+                if left<=0:
+                    self.next_request=current+self.min_interval
+                    return
             if time.monotonic()-announced>=30:
-                print(json.dumps({'rateLimitPauseRemaining':round(left)}),flush=True);announced=time.monotonic()
+                if left>=10:print(json.dumps({'rateLimitPauseRemaining':round(left)}),flush=True)
+                announced=time.monotonic()
             time.sleep(min(5,left))
 
 def main():

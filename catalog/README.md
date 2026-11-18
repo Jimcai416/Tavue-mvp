@@ -45,6 +45,11 @@ quotes are validated against the complete original source fields. Missing
 provider responses retain their cost reservation and stay held; they do not
 cause the same image to be submitted again. Explicit rate
 limits back off; budget/time limits checkpoint rather than run indefinitely.
+Automatic image requests share a 1.25-second minimum start interval, retain
+source Retry-After cooldowns even after the last retry, and identify the project
+URL in their User-Agent. Backoff events log the image ID, status and delay.
+A wave containing only unavailable previews records those holds and continues
+to the next candidates; it is not mislabeled as budget exhaustion.
 
 A runtime checkpoint automatically starts the next sequential review stage
 from the latest branch checkpoint, with the same frozen queue and $15 cap.

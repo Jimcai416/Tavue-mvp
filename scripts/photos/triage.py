@@ -69,10 +69,10 @@ class NoRedirect(urllib.request.HTTPRedirectHandler):
         raise ValueError('API redirects are not allowed')
 
 
-def image_source(url):
+def image_source(url, user_agent='TavuePhotoReview/0.3 (Wikimedia Commons screening)'):
     hosts = ('upload.wikimedia.org', 'thumb.wikimedia.org')
     validate_url(url, hosts)
-    req = urllib.request.Request(url, headers={'User-Agent': 'TavuePhotoReview/0.3 (Wikimedia Commons screening)'})
+    req = urllib.request.Request(url, headers={'User-Agent': user_agent})
     with urllib.request.build_opener(ImageRedirect()).open(req, timeout=60) as response:
         validate_url(response.geturl(), hosts)
         data = response.read(4_000_001)

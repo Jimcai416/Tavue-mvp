@@ -32,6 +32,14 @@ class RateTests(unittest.TestCase):
         with patch('download_review.time.monotonic',side_effect=[100,100,100,105,105,110]),patch('download_review.time.sleep') as sleep:
             gate=RateGate();gate.until=110;gate.wait()
             self.assertEqual([c.args[0] for c in sleep.call_args_list],[5,5])
+    def test_shared_spacing_and_server_cooldown_are_both_respected(self):
+        clock=[100.0];delays=[]
+        def sleep(seconds):delays.append(seconds);clock[0]+=seconds
+        with patch('download_review.time.monotonic',side_effect=lambda:clock[0]),patch('download_review.time.sleep',side_effect=sleep):
+            gate=RateGate(min_interval=1.25);gate.wait();gate.wait()
+            self.assertEqual(delays,[1.25])
+            gate.pause(120);gate.wait()
+            self.assertAlmostEqual(clock[0],221.25)
 
 if __name__=='__main__':unittest.main()
 

@@ -30,7 +30,7 @@ ROOT=Path(__file__).resolve().parents[2]
 CONFIG=ROOT/'catalog/auto-photo-request.json'
 MODEL='claude-haiku-4-5-20251001'
 WAVE_SIZE=24
-DOWNLOAD_GATE=RateGate()
+DOWNLOAD_GATE=RateGate(min_interval=1.25)
 PHOTO_FIELDS=('id','title','author','license','licenseUrl','sourceUrl','originalUrl','commonsSha1')
 GENERIC={'food','dish','pasta','salad','cake','bread','dessert','soup','rice','meat','lunch','dinner','noodles','curry','pastry','chicken','beef','pork','duck','lamb','fish','seafood','vegetables'}
 PROTEINS={
@@ -231,10 +231,13 @@ class Pipeline:
    if not p.exists():
     for attempt in range(3):
      DOWNLOAD_GATE.wait()
-     try:source=triage.image_source(r['previewUrl']);break
+     try:source=triage.image_source(r['previewUrl'],user_agent='TavuePhotoReview/1.0 (https://github.com/Jimcai416/Tavue-mvp)');break
      except urllib.error.HTTPError as e:
-      if e.code not in (429,500,502,503,504) or attempt==2:raise
-      DOWNLOAD_GATE.pause(retry_seconds(e.headers.get('Retry-After')) if e.code==429 else 5*2**attempt)
+      if e.code not in (429,500,502,503,504):raise
+      delay=retry_seconds(e.headers.get('Retry-After')) if e.code==429 else 5*2**attempt
+      DOWNLOAD_GATE.pause(delay)
+      print(json.dumps({'sourceDownloadBackoff':e.code,'id':key,'retryAfterSeconds':delay,'attempt':attempt+1}),flush=True)
+      if attempt==2:raise
      except (TimeoutError,OSError):
       if attempt==2:raise
       DOWNLOAD_GATE.pause(5*2**attempt)
@@ -310,7 +313,11 @@ class Pipeline:
      if error:self.decisions.append({'id':r['id'],'sourceSha1':r['commonsSha1'],'verdict':'held','reason':'preview_'+error,'reviewedAt':now()});continue
      if not self.reserve(r['id'],body,counted=tokens):stopped_budget=True;break
      jobs.append((r['id'],body));sources[r['id']]=r
-    if not jobs:break
+    if not jobs:
+     if stopped_budget:break
+     self.ledger['held']=sum(d['verdict']!='approved' for d in self.decisions)
+     self.persist('Checkpoint unavailable source previews and continue the remaining queue')
+     continue
     self.persist('Reserve parallel Claude photo reviews before paid calls')
     passing=[]
     for key,message,error in pool.map(lambda x:self.paid(*x),jobs):

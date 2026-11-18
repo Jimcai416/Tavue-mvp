@@ -99,6 +99,22 @@ class AutomaticReviewTests(unittest.TestCase):
    p=self.pipeline(t);r={'id':'c1','commonsSha1':'sha'};d={}
    with patch.object(a,'catalogue',return_value=([],[])),patch.object(p,'current_source',return_value={'c1':{'consistent':False}}):p.integrate([(r,self.verdict(),d)])
    self.assertEqual(d['verdict'],'held');self.assertEqual(d['reason'],'source_metadata_changed')
+ def test_unavailable_preview_wave_does_not_skip_later_candidates(self):
+  with tempfile.TemporaryDirectory() as t:
+   p=self.pipeline(t);p.records=[{'id':'c1','commonsSha1':'sha1'},{'id':'c2','commonsSha1':'sha2'}]
+   with patch.object(a,'WAVE_SIZE',1),patch.object(p,'prepare',side_effect=lambda r:(r,{},'HTTPError')),patch.object(p,'persist'),patch.object(p,'paid') as paid:
+    p.review()
+   self.assertEqual([d['id'] for d in p.decisions],['c1','c2'])
+   self.assertEqual(p.ledger['status'],'completed');paid.assert_not_called()
+ def test_last_source_retry_still_preserves_shared_cooldown(self):
+  import urllib.error
+  with tempfile.TemporaryDirectory() as t:
+   p=self.pipeline(t);r={'id':'c1','previewUrl':'https://upload.wikimedia.org/test.jpg'}
+   error=urllib.error.HTTPError(r['previewUrl'],429,'Rate limited',{'Retry-After':'30'},None)
+   with patch.object(a.triage,'source_flags',return_value=[]),patch.object(a.triage,'image_source',side_effect=error) as fetch,patch.object(a,'DOWNLOAD_GATE') as gate:
+    result=p.prepare(r)
+   self.assertEqual(result[2],'HTTPError');self.assertEqual(fetch.call_count,3)
+   self.assertEqual([c.args[0] for c in gate.pause.call_args_list],[120,120,120])
  def test_completed_planner_response_is_recovered_without_paying_again(self):
   with tempfile.TemporaryDirectory() as t:
    p=self.pipeline(t);p.paid_lock=True
