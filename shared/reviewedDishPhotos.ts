@@ -47918,5 +47918,51 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 640,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-125644147",
+    "title": "File:Murir Moa Or Puffed Rice Laddu– Bengali Sweets, Kolkata - West Bengal - DSC 0029.jpg",
+    "author": "TAPAS KUMAR HALDER",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Murir_Moa_Or_Puffed_Rice_Laddu%E2%80%93_Bengali_Sweets,_Kolkata_-_West_Bengal_-_DSC_0029.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Murir_Moa_Or_Puffed_Rice_Laddu%E2%80%93_Bengali_Sweets%2C_Kolkata_-_West_Bengal_-_DSC_0029.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "65f3f082ed9a57426bc6c5f5b11f464280646c10",
+    "name": "Murir Moa Or Puffed Rice Laddu– Bengali Sweets, Kolkata - West Bengal",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-125644147.jpg",
+    "assetSha256": "e87a5d5aee72508795b631924984ff56cd7dc029b6b556974bec864aaeb7df65",
+    "reviewedAt": "2026-11-18",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 688,
+    "height": 960,
+    "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-83171833",
+    "title": "File:HK 上環 Sheung Wan 摩利臣街 Morrison Street 永樂街 Wing Lok Street Maxim's 美心快餐廳 MX fast food restaurant food dinner hotpot beef soup October 2019 SS2 02.jpg",
+    "author": "LriaS MAOVK wouexj",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:HK_%E4%B8%8A%E7%92%B0_Sheung_Wan_%E6%91%A9%E5%88%A9%E8%87%A3%E8%A1%97_Morrison_Street_%E6%B0%B8%E6%A8%82%E8%A1%97_Wing_Lok_Street_Maxim%27s_%E7%BE%8E%E5%BF%83%E5%BF%AB%E9%A4%90%E5%BB%B3_MX_fast_food_restaurant_food_dinner_hotpot_beef_soup_October_2019_SS2_02.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3b/HK_%E4%B8%8A%E7%92%B0_Sheung_Wan_%E6%91%A9%E5%88%A9%E8%87%A3%E8%A1%97_Morrison_Street_%E6%B0%B8%E6%A8%82%E8%A1%97_Wing_Lok_Street_Maxim%27s_%E7%BE%8E%E5%BF%83%E5%BF%AB%E9%A4%90%E5%BB%B3_MX_fast_food_restaurant_food_dinner_hotpot_beef_soup_October_2019_SS2_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "d2cf984ecf362f1c2e0a9e66e78f184aa042c192",
+    "name": "hotpot beef soup",
+    "aliases": [],
+    "proteins": [
+      "beef"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-83171833.jpg",
+    "assetSha256": "a9000c1416bd63642aa21c7e9d70b27227be18379c87e3577442b51e9939aabf",
+    "reviewedAt": "2026-11-18",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];
