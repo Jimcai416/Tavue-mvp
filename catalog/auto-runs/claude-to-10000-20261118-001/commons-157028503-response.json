@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChB8aHy4KzM3U9iTNzUKH",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 2\n  },\n  \"visible_support\": [\n    \"Steamed banana leaf parcel visible in both images\",\n    \"White speckled ceramic bowl\",\n    \"Woven rattan serving basket\",\n    \"Wooden table surface\"\n  ],\n  \"phone_observations\": [\n    \"Central subject clearly visible at reduced resolution\",\n    \"Banana leaf parcel remains identifiable\",\n    \"Plate and basket context preserved\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title 'Lemper di atas piring' (Lemper on a plate) is in Indonesian; standard English dish name and ingredients not provided in source metadata\",\n    \"Lemper is a traditional Indonesian snack typically made with glutinous rice and meat fillings, but no explicit protein ingredient is named in the supplied description\",\n    \"Interior contents of the banana leaf parcel are not visible; filling composition cannot be verified from the photograph\",\n    \"No explicit statement of meat species in source title or description\"\n  ],\n  \"reason\": \"Reject: Although the photograph shows a finished, properly exposed dish in an appetising presentation with good sharpness, lighting and composition, the source metadata provides only a non-English title and minimal description without naming specific ingredients or proteins. The filled banana leaf parcel's interior is completely obscured, preventing visual verification of its contents. Standard Lemper recipes vary widely in protein choice (chicken, beef, shrimp, or vegetarian variants). Without an explicit source statement naming the protein and without visual evidence of the filling, identity cannot be confirmed as required. The source description does not meet the specificity requirement for a canonical name with meaningful qualifiers.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1620,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 496,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

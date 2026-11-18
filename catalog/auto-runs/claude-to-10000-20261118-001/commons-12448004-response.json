@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChB8aDfLQwYVroiLTBAnx",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 3,\n    \"lighting\": 3,\n    \"composition\": 2,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows roasted meat in clay bowls inside a wood-fired oven\",\n    \"Meat is partially visible but heavily shadowed by oven interior\",\n    \"Essential food detail is obscured by oven opening darkness and angle\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title declares 'lechazo asado (cordero asado)' but the photograph is primarily an oven interior, not a finished dish presentation\",\n    \"Meat species (lechazo/cordero) cannot be visually confirmed from the dark, shadowed cooking stage image\",\n    \"The image captures food mid-cooking in situ rather than a finished, exposed, plated or service-ready dish\",\n    \"Essential food components are obscured by severe shadows and oven cavity depth\",\n    \"The subject is preparation/cooking stage, not a complete finished dish\"\n  ],\n  \"reason\": \"Reject: This is a cooking-stage photograph of meat roasting inside a wood-fired oven, not a finished, exposed, appetising dish suitable for food review. The essential components are heavily shadowed and obscured by the oven cavity. The image prioritises the oven and cooking environment over a finished food presentation. While the source title declares lechazo cordero asado, the visual evidence does not support identity verification of a completed dish—only an in-progress roasting stage. Quality, sharpness, lighting and composition scores all fall below the required threshold. The phone thumbnail confirms the food is too dark and obscured to meet acceptance criteria for a finished food photograph.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1585,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 492,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

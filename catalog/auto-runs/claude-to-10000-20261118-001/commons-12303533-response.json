@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChB8Ztq1S6c5ddvEnxHwc",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 3,\n    \"lighting\": 2,\n    \"composition\": 2,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows oven interior with active flames and cooking process, not finished dish\",\n    \"No plated or exposed finished food visible in phone thumbnail\",\n    \"Cook/chef partially visible; this is a preparation/cooking-stage scene\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title references 'lechazo asado' and 'cordero asado' (roast lamb), but the photograph shows only the cooking oven and process, not the finished plated dish\",\n    \"No finished, exposed dish is visible in either the full image or thumbnail\"\n  ],\n  \"reason\": \"Rejection: This is a documentary photograph of a wood-fired oven (horno de leña) during cooking, not a finished dish photograph. The image shows the oven interior with active flames and a chef at work. No finished, exposed, plated lamb or food is visible in the full source or the phone thumbnail. The scene captures the preparation/cooking stage, not a photographed finished dish suitable for food review. Home cooking and street food are welcome, but only when presented as finished, served dishes with visible components. This fails the core requirement of being a 'finished, exposed, likely photographic dish.'\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1589,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 414,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
