@@ -83541,5 +83541,29 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 643,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-186203176",
+    "title": "File:Lechon Baboy in Kawali.jpg",
+    "author": "Markadan",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lechon_Baboy_in_Kawali.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/67/Lechon_Baboy_in_Kawali.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "25f9fa8b2efcd1d7d75e27584faf338d3e9c9e87",
+    "name": "Litsong Kawali",
+    "aliases": [],
+    "proteins": [
+      "pork"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-186203176.jpg",
+    "assetSha256": "1e5ecbe374e3febf69976c7865de7087a51abeec88bb34322652a3af3ec02428",
+    "reviewedAt": "2026-11-18",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];
