@@ -3643,3 +3643,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 - **Chicken Chettinadu** — Andy Li. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Chicken_Chettinadu_-_Calcutta_16_2026-07-11.jpg). Local asset: `reviewed-commons-195793510.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Beef Stroganoff** — [V 2](https://www.flickr.com/photos/7960728@N04). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Beef_Stroganoff-04.jpg). Local asset: `reviewed-commons-6765827.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Pounded Yam and Egusi Soup** — Justdifference. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Pounded_Yam_and_Egusi_Soup.jpg). Local asset: `reviewed-commons-35836056.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Chilaquiles en salsa verde** — MX. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Chilaquiles_en_salsa_verde_-_Tamaulipas.jpg). Local asset: `reviewed-commons-73809104.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
