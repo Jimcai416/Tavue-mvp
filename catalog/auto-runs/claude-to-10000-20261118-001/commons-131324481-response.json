@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChB2GvWnpC7bhA3KYQiV4",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Bowl of rice grains in yellow/golden broth with spoon\",\n    \"Spoon hovering above contents showing texture\",\n    \"Bowl in white rim container with patterned exterior\",\n    \"Golden liquid visible surrounding grain\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title and description are metadata only (filename, Japanese text), not authoritative dish identity\",\n    \"Metadata states 'Nissin Massaman Curry-Meshi' but this is an instant/packaged product photo, not a finished dish\",\n    \"Image shows prepared instant noodles/rice product from packaging, not a fresh-cooked restaurant or home-made dish\",\n    \"Massaman curry identity cannot be visually confirmed—only yellow rice grains and broth are visible; no massaman curry components (peanuts, potatoes, meat, spices) are distinguishable\",\n    \"No protein species declared or visibly supported in any form\",\n    \"Instant product photography does not meet 'finished, exposed, likely photographic dish' standard for real food review\"\n  ],\n  \"reason\": \"Reject: This is an instant noodle/rice product prepared from packaged contents, not a finished fresh or authentic dish suitable for Tavue review. The source metadata (filename, Japanese description) cannot override the photographic evidence. Visual content shows only plain rice grains in yellow broth with no identifiable curry components, protein, or regional dish characteristics. Massaman curry identity is unverified and unvisible. Instant products fall outside scope of representative food photography review.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1759,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 500,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
