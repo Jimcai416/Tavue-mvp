@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAat8fjMb5jY6dCCtUca",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 2\n  },\n  \"visible_support\": [\n    \"Shredded meat visible (pale pink/lavender colour, texture consistent with cooked poultry)\",\n    \"Corn kernels clearly visible throughout\",\n    \"Green chopped scallion/spring onion present\",\n    \"White cubed pieces consistent with hard-boiled egg\",\n    \"Dark green elements consistent with dill pickle\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail shows the same mixed salad composition\",\n    \"Individual components are distinguishable at thumbnail size\",\n    \"Colour palette is naturalistic and matches full image\",\n    \"No essential food is clipped in thumbnail frame\"\n  ],\n  \"protein_evidence\": {\n    \"chicken\": \"boiled chicken\"\n  },\n  \"uncertainties\": [\n    \"Source title is 'Olivier Variety' but description explicitly states this is a 'non-standard variety' that omits traditional potato, green peas, and carrots. The composition shown does not match standard Russian Olivier salad.\",\n    \"The dish as pictured contradicts the conventional definition of Olivier salad by its absence of core ingredients.\",\n    \"Source describes this as prepared 'before dressing with mayonnaise' – a preparation stage, not a finished dish ready for service.\"\n  ],\n  \"reason\": \"Rejection: (1) Source explicitly labels this as a preparatory stage ('before dressing with mayonnaise'), not a finished, exposed, appetising dish. (2) Source describes this as a deliberately 'non-standard variety' that omits essential traditional components (potatoes, green peas, carrots), making identity ambiguous – it is neither a canonical Olivier salad nor clearly identified as an alternative named dish. (3) The undressed, component-visible presentation is a preparation photograph rather than a finished plated dish. Appeal score reflects the unfinished, unmixed, pre-dressing state.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1769,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 555,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
