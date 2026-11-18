@@ -4592,3 +4592,9 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 
 - **lumpia goreng dengan daun bawang dan petis** — Nafisaacdr. [CC BY 4.0](https://creativecommons.org/licenses/by/4.0); [source](https://commons.wikimedia.org/wiki/File:Lumpia_goreng_dengan_daun_bawang_dan_petis_dari_atas.jpg). Local asset: `reviewed-commons-192493298.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Bagnet Kare Kare** — Lyraauce. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Bagnet_Kare_Kare.jpg). Local asset: `reviewed-commons-142181135.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Bulalo (Philippine beef broth)** — [Yvette Tan](https://www.flickr.com/photos/glossmania/). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Bulalo.jpg). Local asset: `reviewed-commons-75244916.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Beef Kare-Kare** — Maffeth.opiana. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Beef_Kare-Kare.jpg). Local asset: `reviewed-commons-127491287.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Bulalo (Beef stew - Philippines)** — Obsidian Soul. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Bulalo_(Beef_stew_-_Philippines).jpg). Local asset: `reviewed-commons-81648461.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.

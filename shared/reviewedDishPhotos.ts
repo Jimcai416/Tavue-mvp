@@ -66158,5 +66158,78 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 640,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-75244916",
+    "title": "File:Bulalo.jpg",
+    "author": "Yvette Tan",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bulalo.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Bulalo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "a730f9897d48f47f2f759c7d972fad068f0d983c",
+    "name": "Bulalo (Philippine beef broth)",
+    "aliases": [],
+    "proteins": [
+      "beef"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-75244916.jpg",
+    "assetSha256": "45d212aea9b6219b77f793d91605ac79294db14852b028e37ecc0fbf065dc474",
+    "reviewedAt": "2026-11-18",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 960,
+    "requiresExactMenuName": true,
+    "authorUrl": "https://www.flickr.com/photos/glossmania/"
+  },
+  {
+    "id": "commons-127491287",
+    "title": "File:Beef Kare-Kare.jpg",
+    "author": "Maffeth.opiana",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Beef_Kare-Kare.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Beef_Kare-Kare.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "2f0cbdea5595d73a71301ef399451a1e3f789355",
+    "name": "Beef Kare-Kare",
+    "aliases": [],
+    "proteins": [
+      "beef"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-127491287.jpg",
+    "assetSha256": "b23cc539c5d72eec6ea262090d033ead37451416b998eb75ce10b2aac02829e2",
+    "reviewedAt": "2026-11-18",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 720,
+    "height": 960,
+    "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-81648461",
+    "title": "File:Bulalo (Beef stew - Philippines).jpg",
+    "author": "Obsidian Soul",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bulalo_(Beef_stew_-_Philippines).jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/97/Bulalo_%28Beef_stew_-_Philippines%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "a1c429487af54e3ab7b23e1c21f84e529aebf19d",
+    "name": "Bulalo (Beef stew - Philippines)",
+    "aliases": [],
+    "proteins": [
+      "beef"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-81648461.jpg",
+    "assetSha256": "8e6ec731ae220f98d6c0c31eda3a0704cd274c0a34dfda526cea4b6fdfde20e8",
+    "reviewedAt": "2026-11-18",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];
