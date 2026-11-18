@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBJ3fzAbpq3xwhJrP83G",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 5,\n    \"appeal\": 5\n  },\n  \"visible_support\": [\n    \"Chopped/shredded flatbread base visible in phone thumbnail\",\n    \"Glossy braised meat topping prominent in both images\",\n    \"White garnish (likely fried onions or coconut) scattered across surface\",\n    \"Rich brown sauce coating the dish\",\n    \"Characteristic kottu roti plated presentation\"\n  ],\n  \"phone_observations\": [\n    \"Stacked shredded roti clearly identifiable\",\n    \"Glazed meat component visible at top\",\n    \"White garnish pieces readable at phone resolution\",\n    \"Dish maintains appetizing appearance in thumbnail\",\n    \"Proportions and color consistent with full image\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title provides only generic filename 'Kottu.jpg' with no dish variant detail\",\n    \"Description states 'A food made in Sri Lanka' but does not name specific meat species in kottu\",\n    \"Visible meat topping appears braised/caramelized but species is not explicitly identified in source\",\n    \"Kottu roti traditionally includes meat but source does not specify chicken/beef/pork/lamb/duck/seafood\",\n    \"No explicit protein declaration in title or description to match against allowed categories\"\n  ],\n  \"reason\": \"Image quality, sharpness, composition and phone thumbnail are excellent. The dish is clearly a kottu roti—a finished, exposed, sharply detailed, naturally coloured, appetizing Sri Lankan dish with prominent components readable in the thumbnail. However, the source metadata fails the identity check: the title is a bare filename ('Kottu.jpg') and the description ('A food made in Sri Lanka') provides no variant name or protein specification. The visible meat component cannot be matched to an explicit source quote naming the animal species. Per protocol, identity must agree with the exact source title/description; unknown meat species and source contradictions require a hold. Canonical name cannot be established without a specific source dish phrase.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1698,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 579,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
