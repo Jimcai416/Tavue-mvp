@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAU5AuAwQFn2jzgdw6AD",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [\n    \"Raw ingredients displayed in bowls and on plates\",\n    \"Green onions in black bowls\",\n    \"Seafood visible in preparation containers\",\n    \"Napa cabbage in strainer\",\n    \"Packaged ingredients visible\",\n    \"Prep-stage vegetables and components\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail shows ingredient layout, not finished dish\",\n    \"Multiple bowls and components visible but uncooked\",\n    \"No finished, cooked pajeon visible in either image\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title describes 'Ingredients for Haemul Pajeon' – this is a preparation/ingredient photograph, not a finished dish\",\n    \"No cooked or plated pajeon is visible in either the full photograph or thumbnail\",\n    \"Image shows raw components in bowls, not an exposed finished dish\"\n  ],\n  \"reason\": \"Rejection: This photograph documents ingredients and preparation stage materials for Haemul Pajeon, not a finished, exposed, plated dish. The source description explicitly identifies this as 'Ingredients for Haemul Pajeon', and both the full image and thumbnail show raw components in bowls, strainers and plates – napa cabbage, green onions, seafood, and packaged items – rather than a cooked and presented dish. Per intake criteria, preparation stages are not acceptable. Identity check fails because the photograph's actual content (ingredients) contradicts acceptance of a finished dish product.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1758,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 477,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

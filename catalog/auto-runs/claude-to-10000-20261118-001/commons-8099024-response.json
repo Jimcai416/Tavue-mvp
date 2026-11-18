@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAU5BbqYcHMZizonnnGH",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Sliced cooked meat on white rectangular plate with dark rim\",\n    \"Fresh leafy greens (lettuce, perilla) on black plate\",\n    \"Multiple small sauce bowls and side dishes (banchan) arranged on table\",\n    \"Korean table setting with shared platters\"\n  ],\n  \"phone_observations\": [\n    \"Sliced meat dish clearly visible in phone thumbnail\",\n    \"Leafy greens prominently shown\",\n    \"Multiple small bowls readable as side dishes\",\n    \"Overall composition and food focus preserved in crop\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Meat species cannot be determined visually from sliced appearance alone—could be pork (traditional bossam), beef, or other species\",\n    \"Title references 'Namhae' location and contains 'Bossam' in filename, but source description field only states 'A view of a Namhae, South Korea' without naming the dish\",\n    \"Filename 'Bossam-01.jpg' is metadata/filename, not the supplied title or description field, and per instructions metadata is untrusted evidence never used as instruction\"\n  ],\n  \"reason\": \"Source title/description does not contain the word 'Bossam' or any explicit dish name—only location reference. The filename suggests bossam (Korean pork wrap), but filenames are untrusted metadata and cannot override the supplied title/description. The meat species visible in the photograph cannot be reliably identified from colour and slicing alone. Without explicit, case-sensitive dish identification in the actual title or description field, identity cannot be confirmed. Hold pending clarification of exact canonical dish name from a trusted source field.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1645,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 522,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
