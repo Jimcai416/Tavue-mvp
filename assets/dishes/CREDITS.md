@@ -3188,3 +3188,8 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 
 - **Chicken Adobo Rice Topping with eggs** — [George Parrilla](https://www.flickr.com/photos/georgeparrilla/). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Chicken_Adobo_Rice_Topping_with_eggs.jpg). Local asset: `reviewed-commons-75733181.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Deep-fried Tofu Japanese Curry Rice** — Andy Li. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Deep-fried_Tofu_Japanese_Curry_Rice_-_MOGUMOGU_2024-07-26.jpg). Local asset: `reviewed-commons-150863242.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Sambar** — KARANK21. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Sambar_4.jpg). Local asset: `reviewed-commons-103235454.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Garbanzos con allioli** — Juan Emilio Prades Bel. [CC BY 4.0](https://creativecommons.org/licenses/by/4.0); [source](https://commons.wikimedia.org/wiki/File:Garbanzos_con_allioli,_gastronom%C3%ADa_rural,_comarca_Maestrazgo.jpg). Local asset: `reviewed-commons-155821499.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
