@@ -70296,5 +70296,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 720,
     "height": 960,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-63281472",
+    "title": "File:Zürcher Geschnetzeltes mit Spätzle.jpg",
+    "author": "Christian Michelides",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Z%C3%BCrcher_Geschnetzeltes_mit_Sp%C3%A4tzle.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/77/Z%C3%BCrcher_Geschnetzeltes_mit_Sp%C3%A4tzle.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "ad560813616e1af0b8817b4b17ff3cc6b9323edb",
+    "name": "Zürcher Geschnetzeltes mit Spätzle",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-63281472.jpg",
+    "assetSha256": "dfe566198160946a02f2c87e9adc67896ef84ca4cd875a8727b7b120035cea4a",
+    "reviewedAt": "2026-11-18",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 842,
+    "height": 960,
+    "requiresExactMenuName": true
   }
 ];
