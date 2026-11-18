@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAucaD9CDafdbgXXGPQJ",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Stewed meat dish in rich brown/orange sauce on white plate\",\n    \"Tender meat pieces with visible texture\",\n    \"Professional table setting with wine glass and cutlery\",\n    \"Natural colour and appetising appearance\"\n  ],\n  \"phone_observations\": [\n    \"Dish clearly visible and identifiable in thumbnail\",\n    \"Brown sauce and meat components readable\",\n    \"White plate prominent\",\n    \"Sufficient detail for recognition\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Species ambiguity: description states 'vísceras de cordero o cabrito' (lamb or kid goat offal), but cannot visually distinguish between cordero (lamb) and cabrito (goat) from appearance alone\",\n    \"Spanish regional dish chanfaina typically uses offal/organ meats, but exact animal species cannot be confirmed from photograph\"\n  ],\n  \"reason\": \"Hold due to ambiguous animal species. The source description explicitly names two possible species—cordero (lamb) or cabrito (goat)—but the photograph cannot visually distinguish between them. Per guidelines, ambiguous meat species including uncertain goat/lamb identity requires hold. The dish is clearly a finished, well-presented stew with good photographic quality and all checks pass, but identity cannot be confirmed to match source specifications precisely. A source clarification naming a single species would be required for acceptance.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1766,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 447,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

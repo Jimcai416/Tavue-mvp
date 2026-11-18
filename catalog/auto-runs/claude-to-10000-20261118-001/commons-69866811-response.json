@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAucJboCyUrDBHgpCFJM",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 5,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Dry pasta with ridged, tubular shape visible in full image\",\n    \"Pale golden-yellow natural colour consistent with durum wheat pasta\",\n    \"Sharp detail of individual pasta pieces in both full and thumbnail images\",\n    \"Natural lighting without glare or colour casts\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail shows pasta pile clearly and prominently\",\n    \"Essential component (pasta shape) visible and readable\",\n    \"Appropriate centre-cover framing for a dry ingredient shot\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title contains 'File:' prefix and filename extension (.jpg) which should be stripped per instructions, but core identity claim is 'malloreddus'\",\n    \"Malloreddus is a Sardinian pasta, typically made from durum wheat and water; no protein animals are explicitly named in the source description\",\n    \"The image shows uncooked, dry pasta only—no prepared dish, sauce, or other components that would constitute a finished 'dish' suitable for Tavue food review\"\n  ],\n  \"reason\": \"Rejection: Image depicts raw/dried pasta ingredient only, not a finished, exposed, cooked dish. Malloreddus is correctly identified as a Sardinian pasta type, but the photograph shows the unprocessed ingredient in bulk form rather than a prepared meal. Tavue review requires a finished, exposed, appetising dish with readable essential components. Dry pasta as a standalone ingredient does not meet acceptance criteria. No proteins can be credited as the source provides no explicit animal naming.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1627,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 490,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
