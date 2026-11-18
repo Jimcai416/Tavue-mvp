@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBC1EcS9uoT8FRnzo252",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 2,\n    \"composition\": 2,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows raw, chopped pale vegetable matter on a metal tray\",\n    \"No finished dish visible; preparation stage clearly evident\",\n    \"Vegetable pieces are small, scattered, and uncooked\",\n    \"Metallic institutional tray suggests kitchen prep, not plated food\",\n    \"Essential food components are raw and unfinished\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title lists disparate categories (Omelettes, Mangoes, Nilaga, Tilapia) with no coherent match to the visible raw vegetable preparation\",\n    \"Description does not identify the vegetable or any finished dish name\",\n    \"Unclear which category applies to this raw ingredient state\"\n  ],\n  \"reason\": \"Image shows raw, chopped vegetables on a metal tray—a preparation stage, not a finished, exposed, appetising dish. The thumbnail confirms small, scattered raw vegetable pieces lacking any culinary appeal or recognisable finished form. Source metadata lists multiple unrelated dishes (Omelettes, Mangoes, Nilaga, Tilapia) but none matches the visible raw vegetable preparation. Quality scores (sharpness 2, lighting 2, composition 2, appeal 1) fall below the required minimum of 4. Reject for failing photograph quality, identity confirmation, and finished-dish criteria.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1842,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 450,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
