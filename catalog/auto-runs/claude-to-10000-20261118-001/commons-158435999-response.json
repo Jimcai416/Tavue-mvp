@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAj1bGGVFMr6jk3bp9J1",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 3,\n    \"composition\": 2,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Phone thumbnail shows packaged frozen food products stacked on shelves\",\n    \"No finished, cooked dish visible\",\n    \"Only packaging with product names visible\",\n    \"Food is in raw/frozen form, not prepared for consumption\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [],\n  \"reason\": \"Rejection: This is a retail shelf photograph of packaged frozen pelmeni products, not a finished, cooked dish photograph. The image shows uncooked frozen food in packaging at a store, which violates the core requirement for 'a finished, exposed, likely photographic dish.' No prepared/cooked pelmeni is visible. The composition is a supermarket shelf overview, not a food photograph suitable for Tavue. The phone thumbnail confirms only packaging is visible with no appetising prepared dish evident. This fails the fundamental identity check: the submission is a food product retail photograph, not a dish review photograph.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1738,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 346,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

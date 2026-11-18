@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAj1F83sp7jxpsFbANZH",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 3,\n    \"composition\": 1,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows a freezer display of packaged frozen products\",\n    \"No finished, exposed dish visible\",\n    \"Multiple packages of what appear to be frozen pelmeni in their retail packaging\",\n    \"Subject is a retail display, not a prepared food photograph\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [],\n  \"reason\": \"Image is a retail freezer display of packaged frozen products, not a finished, exposed, photographed dish. The source description claims 'Pelmeni in Novosibirsk' but the image shows only unopened commercial packaging in a display case. No finished prepared pelmeni are visible, exposed, or plated. The subject is too distant, the food is entirely packaged/obscured, and there are no readable essential components of an actual cooked dish in either the full image or thumbnail. This fails the fundamental requirement of being 'a finished, exposed, likely photographic dish' with 'prominent' and 'appetising' presentation. Printed food on packaging and raw/preparation stage materials are explicitly rejected per guidelines.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1738,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 380,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

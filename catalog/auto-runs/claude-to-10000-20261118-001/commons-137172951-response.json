@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAj2Czq66zhPopcrdWAX",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Two filled pitta breads with shredded filling\",\n    \"Crispy brown shallots visible on top\",\n    \"Green herb garnish (cilantro/parsley)\",\n    \"Purple/dark vegetable base visible (likely purple cabbage from slaw)\",\n    \"White creamy component (tahini dressing)\",\n    \"Bowl presentation on neutral surface\"\n  ],\n  \"phone_observations\": [\n    \"Pitta filled with shredded ingredients clearly visible\",\n    \"Crispy brown topping distinct in thumbnail\",\n    \"Purple vegetable base distinguishable\",\n    \"White creamy dressing visible\",\n    \"Overall composition legible at phone size\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'Oyster Mushrooms' but the description lacks explicit confirmation that mushrooms are the sole protein/main component in the visible form\",\n    \"Banana blossom is not a protein category and its visual presence cannot be independently verified in the image\",\n    \"No animal protein is named in source description; mushrooms are fungi, not a standard protein category\",\n    \"The source title begins 'Vg Korean' (likely vegan) but this is metadata context, not visual proof\"\n  ],\n  \"reason\": \"Reject: The source description lists only plant-based ingredients (oyster mushrooms, banana blossom, vegetables, tahini, sesame). No animal protein is claimed or visually identifiable. While the photograph shows a finished, appetising pitta dish with good sharpness, lighting and composition, Tavue's protein_evidence rules require that proteins map only to chicken/beef/pork/duck/lamb/seafood with explicit source quotes naming each animal. Mushrooms and banana blossom are neither animals nor standard protein categories. The dish does not meet the protein requirement for acceptance into the food review collection.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1772,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 558,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
