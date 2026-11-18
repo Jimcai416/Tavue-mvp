@@ -56667,5 +56667,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "height": 600,
     "requiresExactMenuName": true,
     "authorUrl": "https://www.flickr.com/photos/44124369279@N01"
+  },
+  {
+    "id": "commons-106135282",
+    "title": "File:Roscas de reyes mini, caseras, México 01.jpg",
+    "author": "Petrvs III",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Roscas_de_reyes_mini,_caseras,_M%C3%A9xico_01.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Roscas_de_reyes_mini%2C_caseras%2C_M%C3%A9xico_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "732e0c2c5c615a9bed905d7b8a9c642e89a36d74",
+    "name": "Roscas de reyes mini, caseras, México",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-106135282.jpg",
+    "assetSha256": "7e8155aa6a5090c807247b0062c9bb86e7df91a5cf0d98e22333dc73ee51b5e8",
+    "reviewedAt": "2026-11-18",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 720,
+    "height": 960,
+    "requiresExactMenuName": true
   }
 ];
