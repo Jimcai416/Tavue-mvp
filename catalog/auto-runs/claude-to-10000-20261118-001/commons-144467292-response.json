@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAmXhrCzkPeRx7VKHbSC",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [\n    \"Cooked game bird (roasted, dark brown, clearly prepared)\",\n    \"Boiled potatoes (pale chunks, left side)\",\n    \"White rice (right side, fluffy grains)\",\n    \"Served on white disposable plate\"\n  ],\n  \"phone_observations\": [\n    \"Game bird and components clearly visible in thumbnail\",\n    \"Adequate detail for identification\",\n    \"Colour and texture preserved\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Species identity unconfirmed: title states 'bažant' (pheasant in Czech), but pheasant is not in the allowed protein category list (chicken/beef/pork/duck/lamb/seafood)\",\n    \"Side component identity: source describes 'hlávkové zelí dušené' (braised cabbage) but thumbnail and full image show white rice, not cabbage. Title-image contradiction.\",\n    \"Potato component identification: source states 'bramborové knedlíky' (potato dumplings/gnocchi) but visible form appears to be boiled potato chunks, not dumplings\"\n  ],\n  \"reason\": \"Rejection: Pheasant (bažant) is not an allowed protein category. Additionally, significant discrepancy between source title description (which lists braised cabbage and potato dumplings) and visible photograph (which shows white rice and boiled potato chunks). These contradictions prevent confident identity verification. Source metadata describes preparation and regional context but does not override the absence of pheasant from the canonical protein list and the visual mismatch with stated side components.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1935,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 499,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

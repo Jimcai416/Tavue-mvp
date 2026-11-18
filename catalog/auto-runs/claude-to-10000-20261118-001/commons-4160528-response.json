@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAmXEjYgXzUn8AK9G829",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Sliced boiled potatoes with herb garnish\",\n    \"Pale meat pieces in cream sauce with mushrooms\",\n    \"Red pepper strips\",\n    \"Shredded carrot and cucumber garnish\",\n    \"White plate, finished plating\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail shows sliced potatoes, meat with mushrooms, and orange vegetable garnish\",\n    \"Dish components clearly visible and identifiable\",\n    \"Natural colours, appetising appearance in reduced view\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title states 'Kuřecí směs se žampiony' (chicken mix with mushrooms in Czech), but the meat visible in the photograph appears pale and uniform in texture, inconsistent with typical chicken presentation. The form and colour suggest pork or veal rather than chicken.\",\n    \"Meat species cannot be reliably determined from appearance alone; source title claims chicken but visual evidence contradicts this identification.\"\n  ],\n  \"reason\": \"Identity check fails. The Czech title 'Kuřecí směs se žampiony' explicitly names chicken, but the pale, finely-textured meat pieces in the photograph are inconsistent with cooked chicken and appear more consistent with pork or veal. Source title–image contradiction on the central protein component (animal species) triggers mandatory hold. The dish quality, photograph sharpness, lighting and composition all meet standards, and the phone thumbnail is clear and appetising, but the fundamental identity uncertainty cannot be resolved from visual evidence alone without explicit source clarification.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1729,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 487,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

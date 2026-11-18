@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAmXdkePHkEtLHvbieRx",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Cooked potato dumplings visible in full image\",\n    \"Meat components clearly present and identifiable\",\n    \"Sauce visible coating plate and components\",\n    \"Natural lighting, home-cooked presentation\",\n    \"Phone thumbnail shows complete dish clearly\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows dumplings and meat proteins\",\n    \"All essential components readable at reduced size\",\n    \"Appropriate contrast and colour retention\",\n    \"Dish prominence and composition preserved\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'bitką wieprzową' (pork cutlet) AND 'pieczonym udkiem kurczaka' (roasted chicken thigh). Source describes TWO different animal proteins from different species. Visible meat components are consistent with this dual-protein composition, but source itself contains an internal contradiction—a single finished dish cannot simultaneously be primarily pork AND primarily chicken unless both are explicitly present as named components of the named dish.\",\n    \"Species ambiguity: 'kurczaka' (chicken) is explicit, but 'bitką wieprzową' means pork cutlet. The visible meat shows what appears to be two distinct meat preparations, but source-title contradiction prevents confident species confirmation.\",\n    \"No explicit dish name in source title—only components listed. 'Kluski śląskie w sosie z bitką wieprzową i pieczonym udkiem kurczaka' is a component description, not a canonical regional dish name.\"\n  ],\n  \"reason\": \"Source title contains a logical contradiction: it names the dish as 'Kluski śląskie w sosie' (Silesian dumplings in sauce) with both pork cutlet AND chicken thigh as components. While the photograph clearly shows a finished, appetising, well-composed dish with multiple meats and potatoes in a home-cooked style, the source metadata lists two different animal proteins from different species without clarification of whether this is a valid named variant or an error. The title reads as a component list rather than a canonical dish name. Identity cannot be confirmed as a coherent single dish when the source itself declares two contradictory protein bases. Hold pending clarification of the actual dish name and definitive protein composition from reliable source.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1962,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 645,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
