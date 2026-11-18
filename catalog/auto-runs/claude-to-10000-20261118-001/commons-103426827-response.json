@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAn1L3KkFCMJutjhc5Jx",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Orange-brown curry sauce visible in both full image and thumbnail\",\n    \"Fish pieces with distinctive head and fins prominent in both views\",\n    \"Yellow-golden fried accompaniments (possibly plantain or similar starch) visible\",\n    \"Spiced, finished dish presentation in serving bowl\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows finished curry dish with fish and starch component\",\n    \"Orange sauce and fish anatomy readable at phone size\",\n    \"Dish proportions and essential components visible\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title states 'Kari Ikan Sri Lanka' (Sri Lankan Fish Curry) but description does not explicitly name the fish species—only mentions spices (cinnamon, mustard seeds) and that it tastes bitter-sweet\",\n    \"Fish species cannot be visually confirmed from anatomy alone; exact species is not source-declared\",\n    \"Description is in Indonesian/Malay and mentions comparative taste notes rather than ingredient specifics\",\n    \"Cannot verify 'Kari Ikan versi Sri Lanka' as the precise canonical title without explicit English confirmation or species declaration\"\n  ],\n  \"reason\": \"Photograph quality, composition and phone visibility meet standards. Fish curry dish identity is clear visually and matches source title intent. However, the fish species is never explicitly named in the source title or description—only 'Ikan' (fish) is used generically. Identity check fails because the source does not declare a specific seafood animal by name, making protein_evidence empty. Per rules, unknown meat species (including unspecified fish) requires hold. The description focuses on flavour and spice profile rather than ingredient declaration.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1799,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 519,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

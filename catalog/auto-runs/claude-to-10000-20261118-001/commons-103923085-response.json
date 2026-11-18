@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAn1LhGL2Xp44ARiZsGw",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [\n    \"Fish head with golden-brown seared skin visible in pot\",\n    \"Green beans, peas, red pepper strips arranged as garnish/component\",\n    \"Curry sauce visible in cooking vessel\",\n    \"Phone thumbnail shows composed dish in pot with clear layering\"\n  ],\n  \"phone_observations\": [\n    \"Fish head clearly visible and prominent in thumbnail\",\n    \"Vegetable components (green beans, peas, red pepper) legible\",\n    \"Dish appears mid-cook or plated in cookware\",\n    \"Golden browning on fish head apparent even at reduced size\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'Red Snapper Fish Head Curry' but source metadata states only 'Red Snapper Fish Head Curry'—no explicit 'red snapper' species declaration in provided title/description text itself, only in filename interpretation\",\n    \"Species identity depends on 'Red Snapper' being accepted as exact source text; metadata title format 'File:Kari Kepala Ikan Merah.jpg' is filename, not canonical source description\",\n    \"Actual description field reads 'Red Snapper Fish Head Curry'—this IS explicit, but authentication of species relies on metadata title matching visual form\"\n  ],\n  \"reason\": \"The image shows a fish head curry in an in-process or pot-plated state rather than a finished, plated dish ready for service. The subject is in a cooking vessel with visible liquid/sauce and loose vegetable components scattered around it, which represents a preparation or cooking stage rather than a finished, exposed, appetising presentation. While the photograph and thumbnail are sharp and well-composed, the dish does not meet the 'finished, exposed' criterion for acceptance. Home cooking stages and street food are welcome, but this appears to be capture mid-cook rather than a completed dish presentation. The fish species (red snapper) is stated in source description, satisfying protein identification, but the overall dish form fails the finished-presentation requirement.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1733,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 590,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
