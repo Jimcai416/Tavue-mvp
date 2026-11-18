@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAyGdT2QrKbsFA2fWUgN",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 3,\n    \"lighting\": 3,\n    \"composition\": 3,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows market stall/vendor setup with wooden structure\",\n    \"Raw vegetables visible in baskets/displays\",\n    \"No finished plated dish evident in phone thumbnail\",\n    \"Market/preparation environment, not a finished food photograph\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title claims 'Chicken paprikash' but image shows a market stall setup, not a finished dish\",\n    \"No recognizable plated chicken paprikash visible in either full image or thumbnail\",\n    \"Ingredients and raw vegetables displayed, not a prepared meal ready for consumption\",\n    \"Image appears to be a stall/vendor documentation photo rather than food photography\"\n  ],\n  \"reason\": \"Reject: Identity check fails. Source title describes 'Chicken paprikash' as a finished dish, but the photograph shows a market stall with raw vegetables, baskets, and a vendor setup at an Easter festival. No finished, plated, or exposed chicken paprikash dish is visible in either the full photograph or the phone thumbnail. This is a venue/market documentation photo, not a food photograph of the claimed dish. The essential food subject—a prepared chicken paprikash—is not present, clipped, or recognizable.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1761,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 420,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
