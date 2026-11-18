@@ -5598,3 +5598,9 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Liptovské droby, slovak leberwurst from Liptov region** — Jaspra-Karol (GABRIEL78). [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Liptovsk%C3%A9_droby.jpg). Local asset: `reviewed-commons-105556885.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Choco Lava Cake** — Dr. Raju Kasambe. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Choco_Lava_Cake_Food_by_Ms_Pranjali_Kasambe_DSCN9802_(4).jpg). Local asset: `reviewed-commons-90019384.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Armenian Lavash** — Narek75. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:LAVASH_-_%D4%BC%D4%B1%D5%8E%D4%B1%D5%87.JPG). Local asset: `reviewed-commons-48700713.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Leczo** — Tymekg. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Leczo.jpg). Local asset: `reviewed-commons-104567695.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
