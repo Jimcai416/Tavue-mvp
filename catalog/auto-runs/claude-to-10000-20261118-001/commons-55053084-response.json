@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBDx39GnWEN9HRX8SLTB",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Raw, translucent, uncooked meat cubes consistent with ceviche preparation\",\n    \"Lime and cucumber slices as fresh garnish\",\n    \"Diced onion and other aromatics visible throughout\",\n    \"Bright, natural daylight photography\",\n    \"Sharp detail of individual ingredient components in both source and thumbnail\"\n  ],\n  \"phone_observations\": [\n    \"Prominent diced raw meat cubes occupy centre and foreground\",\n    \"Lime and cucumber slices clearly visible and readable\",\n    \"Garnish and aromatics legible in 124x96 thumbnail\",\n    \"Overall composition and subject prominence adequate for identification\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title claims 'malasugi (Pacific blue marlin)' but marlin is not an allowed protein category (seafood category name required, not specific species)\",\n    \"Metadata species designation 'malasugi' cannot be visually confirmed—only raw, diced, translucent meat is visible; colour and texture alone do not reliably distinguish marlin from other fish\",\n    \"Source metadata lists 'malasugi' but this is a Filipino/Tagalog species name; species-to-category mapping is not explicit in source text\",\n    \"No explicit English-language source statement naming 'seafood' or confirming the fish species in verifiable form\"\n  ],\n  \"reason\": \"Image quality, sharpness, composition, and phone legibility all meet standards. The dish appears to be an authentic kinilaw (Philippine ceviche) with proper preparation and appetising presentation. However, the protein cannot be accepted: the source metadata names 'malasugi (Pacific blue marlin)' but 'marlin' is not a permitted protein category key, and the exact species cannot be visually confirmed from diced raw meat alone. The source does not provide an explicit quote naming 'seafood' as the protein category. Per protocol, unknown or unverifiable meat species requires hold. A source statement explicitly naming 'seafood' or confirming species identity would resolve this.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1752,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 609,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
