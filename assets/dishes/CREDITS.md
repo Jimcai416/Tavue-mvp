@@ -6102,3 +6102,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 - **Ragout fin** — user:Gruffi. [CC BY-SA 2.5](https://creativecommons.org/licenses/by-sa/2.5); [source](https://commons.wikimedia.org/wiki/File:Ragout_fin.jpg). Local asset: `reviewed-commons-245472.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Tarkhineh (Tarhana) as cooked in Malayer, Iran** — MRG90. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Tarkhineh.JPG). Local asset: `reviewed-commons-34889543.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Ragoût de Porc (Pork Stew)** — Hoyabird8  at  English Wikipedia. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Rago%C3%BBt_de_Porc_(Pork_Stew).jpg). Local asset: `reviewed-commons-25233776.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Ragoût de bœuf pommes de terre carottes** — vauvau. [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Rago%C3%BBt_de_b%C5%93uf_pommes_de_terre_carottes.jpg). Local asset: `reviewed-commons-24930126.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
