@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChASXx7jnKcn4oJKSoJ5s",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Yellow coconut-turmeric gravy clearly visible\",\n    \"White compressed rice (lontong) base visible\",\n    \"Mixed vegetables: potatoes, carrots, greens in gravy\",\n    \"Dark reddish-brown protein mass on top\",\n    \"Blue and white patterned plate consistent with home/street service\",\n    \"Plate and thumbnail composition match\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail shows yellow gravy, white rice base, brown protein and vegetables clearly\",\n    \"Central composition readable and appetising\",\n    \"Finished dish appearance confirmed\",\n    \"No clipping of essential components\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title 'Lodeh or lontong' creates ambiguity: lontong is compressed rice, lodeh is the gravy-based vegetable dish; identity unclear which dish is primary\",\n    \"Dark protein mass is unidentified species—neither visual appearance nor source metadata specifies meat type (beef, pork, lamb, chicken, duck, or seafood)\",\n    \"No explicit protein identification in source title or description\",\n    \"Source describes 'variety of vegetables' without enumeration, and gravy composition only (coconut milk, turmeric)\"\n  ],\n  \"reason\": \"Image quality, sharpness, lighting, composition and phone thumbnail are all acceptable (scores ≥4). Dish is finished, exposed, naturally coloured and appetising. However, identity check fails: source title 'Lodeh or lontong' is ambiguous—lontong refers to compressed rice, while lodeh is a vegetable gravy dish; the source does not clarify which is the primary identity. More critically, the prominent dark protein component is unidentified: no source text explicitly names any animal (chicken, beef, pork, duck, lamb or seafood), and species cannot be inferred from appearance alone. Per rules, unknown meat species and source identity contradiction both trigger hold.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1751,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 582,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

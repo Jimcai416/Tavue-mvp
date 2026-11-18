@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChASXA6HjeVoCe5eTsjqT",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Bean sprouts clearly visible\",\n    \"Fresh lime wedge positioned left\",\n    \"Green herbs/scallions on top\",\n    \"White porcelain bowl with blue rim\",\n    \"Natural daylight photography\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows noodle/sprout base with protein topping\",\n    \"Green herb garnish and lime wedge visible\",\n    \"Composition matches full image\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'Khao yam' (Thai rice salad), but photograph shows noodles/bean sprouts as base, not rice\",\n    \"Description mentions 'dried shrimp flakes' but no shrimp protein category exists in allowed list; seafood would require explicit shrimp naming\",\n    \"Visible tan/crispy topping could be fried shallots, toasted coconut, or other garnish—identity unclear\",\n    \"Source describes unmixed presentation, but actual components and dish identity do not align with stated Khao yam (which is a rice dish)\",\n    \"Fundamental mismatch between source title/description and what is photographed\"\n  ],\n  \"reason\": \"Identity check failed. Source title claims 'Khao yam' (Thai rice salad), but the photograph clearly shows noodles and bean sprouts as the base, not rice. This is a material contradiction between the declared dish identity and the visible form. Additionally, while dried shrimp is mentioned in the description, it cannot be visually confirmed as a distinct protein component in the photograph, and the allowed protein_evidence categories do not include seafood variants without explicit naming. The fundamental mismatch between source description and actual photograph content requires hold pending clarification of the actual dish served.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1712,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 539,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

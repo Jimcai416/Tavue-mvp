@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChASX9udSmjKjE6smSHaV",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Golden-yellow broth with turmeric/curry appearance\",\n    \"White fish chunks visible and prominent\",\n    \"Diced vegetables (carrot, okra visible)\",\n    \"White ceramic bowl with spoon\",\n    \"Natural lighting, appetising presentation\",\n    \"Phone thumbnail clearly shows soup with fish and vegetables\"\n  ],\n  \"phone_observations\": [\n    \"Soup contents fully visible and readable\",\n    \"Fish chunks clearly distinguished\",\n    \"Broth colour consistent with full image\",\n    \"Composition and subject proportion appropriate for phone thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'Gaeng Som Pla Or Thai sour fish soup' but source metadata are untrusted evidence per instructions\",\n    \"Fish species cannot be visually confirmed from appearance alone\",\n    \"No explicit source quote directly naming 'fish' or any specific aquatic species in a trusted descriptive field\",\n    \"Metadata title/description format (File:...) suggests this may be a wiki upload; actual authoritative source description unclear\"\n  ],\n  \"reason\": \"The photograph is sharp, well-lit, compositionally sound, and shows an appetising finished soup with visible fish chunks and vegetables in both full and thumbnail views. However, the identity check fails because the source metadata cannot be trusted as instruction per review guidelines, and no independent evidence in the image itself proves the protein identity. While the dish visually matches a Thai curry soup with fish, the actual species of aquatic protein cannot be determined from appearance, and the only source naming it ('fish') comes from untrusted metadata fields. The protein_evidence map remains empty because no exact case-sensitive substring from a trusted source explicitly names the animal. Hold for authoritative source confirmation of dish identity and protein specification.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1634,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 533,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
