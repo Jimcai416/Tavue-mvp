@@ -51885,5 +51885,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-129880264",
+    "title": "File:揚州炒飯 - 膳心小館.jpg",
+    "author": "Andy Li",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E6%8F%9A%E5%B7%9E%E7%82%92%E9%A3%AF_-_%E8%86%B3%E5%BF%83%E5%B0%8F%E9%A4%A8.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4e/%E6%8F%9A%E5%B7%9E%E7%82%92%E9%A3%AF_-_%E8%86%B3%E5%BF%83%E5%B0%8F%E9%A4%A8.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "54abcf14f491deb6a6f6f123d6ca25237b791bfc",
+    "name": "揚州炒飯",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-129880264.jpg",
+    "assetSha256": "e07bbe9544ca742f9294071be9b241db4a910af05eff975f32af61f563496949",
+    "reviewedAt": "2026-11-18",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 720,
+    "height": 960,
+    "requiresExactMenuName": true
   }
 ];

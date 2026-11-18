@@ -3474,3 +3474,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 - **Gyros in Nafplio** — Elgaard. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Nafplio_Gyros.jpg). Local asset: `reviewed-commons-82191780.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Yeung Chow Fried Rice** — Krista. [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Yeung_Chow_Fried_Rice.jpg). Local asset: `reviewed-commons-29596872.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **北京ちゃーはん** — OJ-JP. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:%E5%8C%97%E4%BA%AC%E3%81%A1%E3%82%83%E3%83%BC%E3%81%AF%E3%82%93.jpg). Local asset: `reviewed-commons-127328546.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **揚州炒飯** — Andy Li. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:%E6%8F%9A%E5%B7%9E%E7%82%92%E9%A3%AF_-_%E8%86%B3%E5%BF%83%E5%B0%8F%E9%A4%A8.jpg). Local asset: `reviewed-commons-129880264.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
