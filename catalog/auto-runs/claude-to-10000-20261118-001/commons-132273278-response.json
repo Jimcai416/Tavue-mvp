@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChB4QSDAEXuyk299jTvYA",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Storefront image, not a finished dish photograph\",\n    \"Restaurant exterior signage visible in thumbnail\",\n    \"No prepared food visible in centre-cover area\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title describes location and signage only, not a specific finished dish\",\n    \"Image shows restaurant storefront, not food on plate or in bowl\",\n    \"No prepared dish visible to review for quality, plating or components\"\n  ],\n  \"reason\": \"Rejection: This is a storefront photograph of a Chaoshan beef hotpot restaurant, not an image of a finished, prepared dish. The source describes location and signage (金田路 Jintian Road) rather than a specific dish identity. The full image and thumbnail both show the restaurant exterior with neon signs, windows and seating, not food on tableware. No completed dish is identifiable or reviewable. Per guidelines, store/location images without visible prepared food do not meet acceptance criteria.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1802,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 366,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
