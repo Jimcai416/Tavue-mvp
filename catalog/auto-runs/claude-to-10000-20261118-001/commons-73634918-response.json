@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAb3quhqmHJgqNZMPKuX",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Multiple whole fish with intact heads and tails\",\n    \"Charred/grilled exterior with visible scales\",\n    \"Natural browning and darkening consistent with grilling\",\n    \"Fish arranged vertically and densely packed\"\n  ],\n  \"phone_observations\": [\n    \"Fish bodies clearly visible in thumbnail\",\n    \"Grilled/cooked state evident from colour contrast\",\n    \"Multiple specimens present\",\n    \"Heads and fins discernible despite small size\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title field contains 'File:' prefix and image ID, indicating metadata contamination\",\n    \"Description 'Algarve' is a geographic location, not a dish name or confirmation of sardines\",\n    \"No explicit dish name or identity in title or description—only location reference\",\n    \"Species 'sardines' inferred from filename and location, not from source title/description text\",\n    \"No source-supplied canonical dish phrase to match against\"\n  ],\n  \"reason\": \"Reject: Identity check fails. The source metadata lacks an explicit dish name or confirmation. The title is a filename with CC license boilerplate; the description is only a geographic location ('Algarve'). Although the photograph clearly shows grilled whole fish, the species cannot be verified from the actual title or description—only inferred from the filename and location context. Per protocol, identity must agree with the exact source title/description; geographic location alone is insufficient. A specific canonical dish name matching the source title/description is required but absent.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1483,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 484,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
