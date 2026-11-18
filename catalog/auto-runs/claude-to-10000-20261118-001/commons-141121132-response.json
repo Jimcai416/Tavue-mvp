@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBDRDdgeu2eL3HSX6c22",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Large shallow dish with browned, sliced fish pieces\",\n    \"Red/tomato-based sauce visible beneath and around pieces\",\n    \"Charred, caramelized surface on meat portions\",\n    \"Traditional earthenware or metal tava vessel\",\n    \"Accompaniments: olives in small dish, greens on side plates\",\n    \"Phone thumbnail clearly shows the finished baked dish with reddish-brown colouring\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail captures the main dish clearly with reddish-brown colouring prominent\",\n    \"Sliced/segmented pieces distinguishable\",\n    \"Sauce and caramelization visible in reduced thumbnail\",\n    \"Dish centred and recognizable as a finished, cooked preparation\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source metadata states 'carp fish' but metadata and instructions are explicitly untrusted evidence; visible form shows no definitively identifiable fish characteristics that distinguish carp from other fish species\",\n    \"No explicit fish species naming in a trustworthy source title or description provided—only in untrusted metadata\",\n    \"Cannot visually prove the specific identity or species of the sliced fish pieces from appearance alone\"\n  ],\n  \"reason\": \"Although the photograph shows a finished, well-composed, appetizing baked dish with good sharpness and clear phone thumbnail representation, the dish cannot be accepted because the protein species (carp) is stated only in untrusted metadata/description fields. Per protocol, 'Unknown meat species…or doubtful credits => hold.' The instructions specify that fish and seafood require 'an exact source quote explicitly naming each animal,' and no canonical source title or description field explicitly names carp—only the untrusted metadata does. The variant and identity cannot be confirmed from trusted sources, and protein_evidence cannot include unsourced species claims. Hold pending a trusted, explicit source naming the fish species in the actual dish title or description.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1754,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 581,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBDRDZiTp32eKFxryuxV",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Cooked meat cubes in rich red sauce\",\n    \"Green pepper or similar vegetable pieces interspersed\",\n    \"Clay oval baking dish characteristic of regional Turkish cuisine\",\n    \"Natural daylight, finished and exposed dish\",\n    \"Prominent in both full and thumbnail views\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows finished stewed meat dish\",\n    \"Red sauce and vegetable components readable\",\n    \"Dish shape and presentation consistent with full image\",\n    \"No clipping of essential food elements\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title contains 'File:' prefix and metadata markers inconsistent with canonical format requirement\",\n    \"Description explicitly states 'real lamb (not mutton nor veal)' but provides this as a distinguishing qualifier against alternatives rather than as direct visual evidence in the dish itself\",\n    \"Lamb declared in description but not visible as a named component in the actual title/heading used for canonical_name extraction\",\n    \"Source contradicts itself: title is 'Tepsi tava' but description emphasizes lamb qualification as the key differentiator from Belen tava, creating ambiguity about whether lamb is part of the canonical dish name or only source metadata\"\n  ],\n  \"reason\": \"Hold. While photograph and phone thumbnail are of high quality, sharp, well-lit, naturally coloured, appetising, and show a finished, exposed stewed meat dish in a characteristic clay vessel, the source metadata is problematic. The description qualifies the meat as 'real lamb (not mutton nor veal)' as a distinguishing note against similar dishes rather than as an explicit component name in the title itself. The canonical_name must be extracted from the actual title or description without inventing; 'Tepsi tava' alone does not confirm lamb identity from the title. The source's own phrasing ('It is a dish similar to Belen tava but made with real lamb') suggests lamb is a source-declared qualifier to explain difference rather than an inherent, visually proven component readable from the dish form. This ambiguity and the metadata format issues prevent confident identity confirmation. A clearer source title explicitly including 'lamb' or 'with lamb' would permit acceptance.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1786,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 641,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

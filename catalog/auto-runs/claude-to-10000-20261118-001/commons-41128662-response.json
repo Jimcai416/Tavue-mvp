@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBDRDdgU71C4en7iY78V",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Multiple white plates with prepared dishes on wooden table\",\n    \"Eggplant salad visible (darkened, herb-topped dish, left)\",\n    \"Orange-coloured cooked onions or similar preparation (centre-left)\",\n    \"Fresh parsley garnish with lemon wedge (centre)\",\n    \"Red tomato-based preparation (right)\",\n    \"White yogurt-based dish with herbs (top left)\",\n    \"Red/pink preparation with corn and herbs (top right)\",\n    \"Turkish restaurant placemat and branding visible\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail shows four distinct dishes in white plates arranged horizontally\",\n    \"Left dish: mixed/stewed preparation in brown/orange tones\",\n    \"Centre-left: orange-cooked items (onions or similar)\",\n    \"Centre: bright green herbs with lemon\",\n    \"Right: red preparation (tomato or cured meat)\",\n    \"All dishes clearly visible and readable at thumbnail scale\",\n    \"Natural lighting, adequate contrast\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title describes this as 'amuse-bouche' (a collective set of bites/starters) rather than a single identifiable dish—no single canonical dish name is extractable\",\n    \"Individual component identities are partially unclear: description lists 'Patlıcan salatası (eggplant salad), cacık, fried onions etc' but does not exhaustively or unambiguously match all visible plates\",\n    \"Red preparation (right plate, top right) identity uncertain—could be cured meat, tomato preparation, or other ingredient; no explicit protein species named in source\",\n    \"Exact composition and preparation of each plate cannot be definitively verified against source description\",\n    \"Source uses 'etc' suggesting additional unlabelled components\"\n  ],\n  \"reason\": \"Source describes this as a multi-plate Turkish amuse-bouche ('on the house') serving multiple starter dishes collectively, not a single named dish. No singular canonical_name can be extracted that meets the requirement of a 'specific dish phrase copied exactly from source title or description.' The description lists some components (eggplant salad, cacık, fried onions) but uses 'etc', leaving uncertain which visible plates correspond to which named items. No protein species is explicitly named in source text. While the photograph and thumbnail are sharp, well-lit, and appetising, the identity check fails because no specific, complete, single-dish name can be matched to the source. Hold for clarification of which individual dish should be reviewed, or for a source title that names a specific preparation rather than a collective service.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1773,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 739,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
