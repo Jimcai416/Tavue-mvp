@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChB8cxCzogB5kEEmPWWh7",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Sliced sausage product with pinkish-tan colour and visible speckle\",\n    \"Mounted on dark surface, legible form\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Leberwurst contains liver and pork; sausage species cannot be confirmed from appearance alone and 'sausage' is not an allowed protein category key\",\n    \"Source metadata lists only 'Fleischerei Metzger Matthes' as maker—no explicit animal declaration in title or description\"\n  ],\n  \"reason\": \"Rejection: Leberwurst (liver sausage) contains multiple meat components, but the source title and description do not explicitly name the specific animal(s) in a form suitable for protein_evidence mapping. 'Sausage' is not an allowed protein category key. The instructions prohibit guessing which animal sausage contains or using species inference from tradition or appearance. No explicit text states 'pork' or other qualifying animal. Identity check fails due to inability to verify exact protein composition from source declarations. Hold would be appropriate, but the unresolvable protein ambiguity combined with the dish being a processed sausage product (not a finished, exposed, recognisably whole dish in the culinary sense expected by Tavue standards) results in rejection.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1623,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 437,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
