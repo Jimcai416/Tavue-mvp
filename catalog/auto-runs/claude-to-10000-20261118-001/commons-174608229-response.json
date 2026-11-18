@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBEhhQbNX7vxyGuJa1rX",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Coiled sausages on active braai grill with visible coals and flames\",\n    \"Natural reddish-brown colour consistent with spiced ground meat sausage\",\n    \"Multiple specimens clearly visible in full source image\",\n    \"Appetising char marks and glistening surface indicating active cooking\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows coiled sausages on grill grates\",\n    \"Sufficient detail to identify coiled form and cooking state\",\n    \"Subject prominent and unclipped in phone view\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title describes 'Boerewors' but provides no explicit animal species identifier in the supplied text\",\n    \"Boerewors traditionally contains beef and pork, but the metadata does not explicitly name either animal\",\n    \"Without an exact case-sensitive substring from title or description naming a specific protein category (chicken/beef/pork/duck/lamb/seafood), species cannot be verified\"\n  ],\n  \"reason\": \"Image quality, composition, sharpness and lighting are all acceptable (scores ≥4), and the photograph is clearly a finished, exposed dish of coiled sausages actively cooking on a braai. However, identity check fails: the source title 'Boerewors braai' does not explicitly name any allowed protein category (chicken/beef/pork/duck/lamb/seafood) as a case-sensitive substring. Although boerewors traditionally contains beef and/or pork, the metadata does not provide an explicit, verifiable quote naming these animals. Per protocol, unknown or unconfirmed meat species means hold/reject. The protein_evidence map must remain empty because no exact protein keyword appears in the supplied source text.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1589,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 534,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
