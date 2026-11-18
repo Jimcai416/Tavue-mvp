@@ -6062,3 +6062,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 - **Potjiekos, ragoût de Namibie** — Ji-Elle. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Potjiekos_servi_avec_du_pap-Namibie.jpg). Local asset: `reviewed-commons-53681730.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Boerewors, puthu, chakalaka sauce** — Kai Hendry. [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:South_African_food.jpg). Local asset: `reviewed-commons-164459801.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **South African cuisine of pap and spinach with beans** — Curvy rose. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:South_African_cuisine_of_pap_and_spinach_with_beans.jpg). Local asset: `reviewed-commons-145036698.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Sliced Beef biltong** — Delia du Plessis. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Sliced_Biltong.jpg). Local asset: `reviewed-commons-17206128.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
