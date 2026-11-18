@@ -4736,3 +4736,10 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Picadillo a la habanera** — El Mono Español. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Picadillo_a_la_habanera_(no_edit).jpg). Local asset: `reviewed-commons-98947494.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Mole poblano de fiesta** — Pabliotecario. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Mole_poblano_de_fiesta.jpg). Local asset: `reviewed-commons-119871273.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Jambalaya** — Arnold Gatilao. [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Jambalaya_-_3315899200.jpg). Local asset: `reviewed-commons-90172048.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Satay in Singapore Airlines** — Jkr2255. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Satay_in_Singapore_Airlines.jpg). Local asset: `reviewed-commons-87695968.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Mole rojo estilo Querétaro** — Pabliotecario. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Mole_rojo_estilo_Quer%C3%A9taro.jpg). Local asset: `reviewed-commons-119871679.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
