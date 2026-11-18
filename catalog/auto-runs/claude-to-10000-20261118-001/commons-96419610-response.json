@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBHhqmUrfPrrff235VWn",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 2,\n    \"composition\": 2,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows a white bowl with broth-based dish containing sliced ingredients and red chilli peppers\",\n    \"Companion tray with lime and herbs visible in phone thumbnail\",\n    \"Glass of water visible in phone thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title metadata indicates dog meat (thịt chó), which is not an accepted protein category for Tavue review\",\n    \"Metadata describes 'mắm ruốc' (shrimp paste) preparation, but cannot confirm from visual content alone\",\n    \"Dish identity cannot be verified without acceptable protein confirmation\"\n  ],\n  \"reason\": \"Rejection: The source metadata indicates this is a dish prepared with dog meat ('Thịt chó'). Dog is not an approved protein category for Tavue. Regardless of photographic quality or composition, the protein identity stated in the source makes this ineligible for acceptance. User authorization does not override the restriction on non-approved protein categories.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1651,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 368,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBHiLSebUbeoYHuR8CkV",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 3,\n    \"appeal\": 2\n  },\n  \"visible_support\": [\n    \"Whole grilled fish clearly visible\",\n    \"Charred exterior consistent with grilling\",\n    \"Natural coloration of cooked seafood\"\n  ],\n  \"phone_observations\": [\n    \"Whole fish recognizable in thumbnail\",\n    \"Grilled preparation evident\",\n    \"Fish positioned prominently\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Species identity unconfirmed: 'cá lóc' is Vietnamese common name; exact English species (snakehead, giant snakehead, or other) cannot be visually verified without additional taxonomic reference\",\n    \"Source title contains metadata (File:, date, photographer context) which is untrusted per instructions\",\n    \"No explicit seafood category match available in allowed proteins (chicken/beef/pork/duck/lamb/seafood); 'seafood' requires exact species name in source quote, not Vietnamese colloquial name\"\n  ],\n  \"reason\": \"Reject: Although the photograph shows a finished, grilled whole fish dish with sharp detail and natural colouring suitable for food review, the source metadata does not provide an explicit English species identification. The Vietnamese common name 'cá lóc' cannot be reliably mapped to an exact seafood species without authoritative reference. Per protocol, ambiguous species designation—even for seafood—requires hold status. The source description is in Vietnamese and lacks the explicit English species name required to populate protein_evidence with a valid seafood entry. Identity check fails due to unconfirmed species.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1956,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 477,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
