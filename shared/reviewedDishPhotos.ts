@@ -84855,5 +84855,51 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 540,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-79395629",
+    "title": "File:Putong balanghoy (puto lanson).jpg",
+    "author": "whologwhy",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Putong_balanghoy_(puto_lanson).jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/12/Putong_balanghoy_%28puto_lanson%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "fde95caaff6102bac3581f5e7f717f1e6db57e79",
+    "name": "Putong Bulanghoy",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-79395629.jpg",
+    "assetSha256": "f635e1fc2f808d3f4c0405f016193ce8c29b515c0919d3581efecc76a3c580ad",
+    "reviewedAt": "2026-11-18",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 638,
+    "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-80073030",
+    "title": "File:Pork Hamonado (Mindanao) cooked afritada-style (with tomato sauce).jpg",
+    "author": "Obsidian Soul",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pork_Hamonado_(Mindanao)_cooked_afritada-style_(with_tomato_sauce).jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/36/Pork_Hamonado_%28Mindanao%29_cooked_afritada-style_%28with_tomato_sauce%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "cdcf588d878b6927fe1a453c520d1f9848f87309",
+    "name": "Pork Hamonado (Mindanao) cooked afritada-style (with tomato sauce)",
+    "aliases": [],
+    "proteins": [
+      "pork"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-80073030.jpg",
+    "assetSha256": "1407c02f6ca9e4a5956ab5c1b4329a86a105f55e57e08d53e0ea8c42c6074056",
+    "reviewedAt": "2026-11-18",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 546,
+    "requiresExactMenuName": true
   }
 ];
