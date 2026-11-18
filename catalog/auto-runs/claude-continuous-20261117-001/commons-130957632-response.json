@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAKrvSVrk5VGNvqL5hVh",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Raw/uncooked meat on skewers in preparation stage\",\n    \"Wet, glistening surface indicating marinade or fresh preparation\",\n    \"Distinct colour variation from pale pink to deep red across pieces\",\n    \"Skewers arranged in woven basket with metal frame\",\n    \"Title explicitly states 'avant barbecue' (before barbecue)\"\n  ],\n  \"phone_observations\": [\n    \"Raw meat pieces clearly visible on skewers\",\n    \"Wet surface consistency visible at thumbnail scale\",\n    \"Uncooked state apparent from colour and texture\"\n  ],\n  \"protein_evidence\": {\n    \"protein\": null\n  },\n  \"uncertainties\": [\n    \"Title 'Chiche kebab' is non-standard French; likely misspelling of 'Chiche' or regional variant name—no matching canonical kebab variant confirmed\",\n    \"Meat species not explicitly named in source description\"\n  ],\n  \"reason\": \"REJECT: Image shows raw/uncooked meat in preparation stage, not a finished exposed dish. Source title explicitly states 'avant barbecue' (before barbecue), confirming this is a pre-cooking preparation photograph. Policy requires finished, exposed, likely photographic dishes. Additionally, the meat species is not explicitly named in the source, and 'Chiche kebab' does not match a recognized canonical dish name or standard variant spelling. All quality and photograph checks pass, but identity check fails due to preparation stage and uncertain dish identity.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1761,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 473,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

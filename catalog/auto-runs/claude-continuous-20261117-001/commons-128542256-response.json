@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAKrrjzgZFT7jpdLM4fb",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Skewered meat cubes on metal skewers\",\n    \"Two fried bread pockets (pita/naan-like)\",\n    \"Cooked rice pilaf with vegetable mix\",\n    \"Charred green onion/leek\",\n    \"Raw onion salad with herbs and spice garnish\",\n    \"Grilled appearance and browning consistent with kebab preparation\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows skewered meat, fried bread, and rice\",\n    \"Meat colour and texture visible but species not definitively distinguishable at thumbnail resolution\",\n    \"Composed dish layout readable in phone view\"\n  ],\n  \"protein_evidence\": {\n    \"protein\": \"Lamb\",\n    \"source_quote\": \"Lamb Shish Kebab\"\n  },\n  \"uncertainties\": [\n    \"Source title declares 'Lamb' but photograph shows meat cubes that could visually correspond to lamb, beef, or pork; the reddish-brown colour and texture are consistent with lamb but not exclusively diagnostic\",\n    \"No explicit visual confirmation of lamb species (marbling, fat distribution, or other lamb-specific characteristics) is definitively visible in the photograph that would distinguish it from similarly cooked beef or other red meat\",\n    \"Source metadata (title/description) is explicitly noted as untrusted evidence per review instructions\"\n  ],\n  \"reason\": \"While the photograph shows a well-composed, appetising finished kebab dish with rice, bread, vegetables, and grilled components—all checks for quality, photograph, and phone visibility are satisfied (scores all ≥4)—the identity check fails because the source title claims 'Lamb' but the photograph alone does not provide visual proof of lamb species. Per protocol, hidden flavours or specific meat species cannot be claimed unless visually proven or explicitly named in a trustworthy source quote. The source metadata (file title) is marked as untrusted evidence. Without independent confirmation that this is definitively lamb (not beef or another red meat), and given the prohibition on inferring species from appearance or tradition alone, identity cannot be verified. Hold pending clarification from a trusted, non-metadata source or visual lamb-specific markers.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1618,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 633,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
