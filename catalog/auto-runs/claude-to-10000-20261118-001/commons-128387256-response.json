@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChB2eroAKTUFvB3zU5h9f",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Noodle soup in white bowl with broth\",\n    \"Fresh herb garnish (cilantro visible)\",\n    \"Chopsticks lifting noodles and meat\",\n    \"Meat component clearly visible on chopsticks\"\n  ],\n  \"phone_observations\": [\n    \"Noodle soup with broth and garnish visible\",\n    \"Meat on chopsticks is prominent in thumbnail\",\n    \"Dish identity readable as noodle soup\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title says 'pho' but no explicit protein species named in title or description\",\n    \"Meat visible on chopsticks but species cannot be definitively determined from appearance alone (could be beef, chicken, or other)\",\n    \"Source metadata is filename/author/license only—no detailed description provided to confirm meat type\"\n  ],\n  \"reason\": \"The photograph is sharp, well-lit, appetising and shows a finished noodle soup dish prominently. The phone thumbnail clearly displays the dish. However, the source title is a filename ('File:First bite of the pho in The Big Bowl.jpg') and the description is minimal ('first bite of the pho in The Big Bowl'). No explicit protein declaration appears in the supplied title or description. While a meat component is visually present on the chopsticks, the specific animal species cannot be inferred from appearance alone and is not explicitly named in the source text. Per instructions, unknown meat species requires holding for clarification. The canonical name cannot be extracted without an explicit protein qualifier from the source.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1727,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 489,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
