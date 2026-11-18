@@ -5429,3 +5429,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 - **Raclette** — Arnaud 25. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Raclette_008.jpg). Local asset: `reviewed-commons-65357475.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Œuf en meurette** — Arnaud 25. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:%C5%92uf_en_meurette.jpg). Local asset: `reviewed-commons-79581611.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Œufs en meurette** — Arnaud 25. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:%C5%92ufs_en_meurette.JPG). Local asset: `reviewed-commons-30008683.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Lamb tenderloin, garbanzo panisse, pomegranate** — Daderot. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Lamb_tenderloin,_garbanzo_panisse,_pomegranate,_etc_-_Wellington,_New_Zealand.jpg). Local asset: `reviewed-commons-153897879.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
