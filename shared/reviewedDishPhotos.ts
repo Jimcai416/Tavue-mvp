@@ -75610,5 +75610,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 687,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-56628605",
+    "title": "File:Oeuf en meurette, poivrons grillés.jpg",
+    "author": "Arnaud 25",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Oeuf_en_meurette,_poivrons_grill%C3%A9s.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Oeuf_en_meurette%2C_poivrons_grill%C3%A9s.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "33e57c05e0c012dfa3911a12006ee9e1ece05912",
+    "name": "Oeuf en meurette, aux poivrons grillés",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-56628605.jpg",
+    "assetSha256": "51d2663bca637cf3bf811dedddf8bfd4bdfa121a3ef423a1674c4ef17939d877",
+    "reviewedAt": "2026-11-18",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];

@@ -5418,3 +5418,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 
 - **Oeufs en meurette** — Tangopaso. [Public domain](https://creativecommons.org/publicdomain/mark/1.0/); [source](https://commons.wikimedia.org/wiki/File:Brasserie_le_Terminus_(Tournus)_-_Oeufs_en_meurette.jpg). Local asset: `reviewed-commons-61703036.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Œufs meurette** — Romainbehar. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Lyon_4e_-_Rue_Dumenge_-_Brasserie_Le_Commerce_-_%C5%92ufs_meurette.jpg). Local asset: `reviewed-commons-190456720.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Oeuf en meurette, aux poivrons grillés** — Arnaud 25. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Oeuf_en_meurette,_poivrons_grill%C3%A9s.jpg). Local asset: `reviewed-commons-56628605.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
