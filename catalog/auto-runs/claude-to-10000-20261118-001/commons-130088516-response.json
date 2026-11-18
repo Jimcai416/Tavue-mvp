@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAwKqBa8Lw7qDtjGshok",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Steamed dumplings with characteristic pleated, closed-top folds\",\n    \"Pale cream-coloured dough wrapper indicating steaming\",\n    \"Served in a dark rimmed bowl/plate\",\n    \"Fresh herbs visible as garnish on top\",\n    \"Glossy surface suggesting steam and moisture\",\n    \"Multiple dumplings arranged in serving dish\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows steamed dumplings with pleated structure\",\n    \"Cream-coloured, unstuffed-appearance wrappers visible\",\n    \"Essential dumpling form and detail readable at thumbnail size\",\n    \"Garnish visible in both full and thumbnail versions\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title 'Buff Momo' specifies buffalo meat filling, but no visual confirmation of filling type or meat species visible in photograph\",\n    \"Filling is completely hidden within sealed dumplings; only wrapper exterior and garnish visible\",\n    \"Buffalo (buff) is not an allowed protein category (only chicken/beef/pork/duck/lamb/seafood permitted)\",\n    \"Source metadata states 'Buff Momo' but canonical identity requires exact matching source quote with permitted protein only\"\n  ],\n  \"reason\": \"High-quality photograph of expertly steamed dumplings with sharp detail, natural lighting, and appetising presentation. However, identity cannot be confirmed because: (1) the source-declared protein is 'buff' (buffalo), which is outside the permitted protein categories (chicken/beef/pork/duck/lamb/seafood); (2) the filling is not visually verifiable from the sealed dumpling exterior; (3) no exact source quote with a permitted protein category exists. The dish is clearly Momo, but the specific variant 'Buff Momo' cannot be canonicalised without a permitted protein match. All quality checks pass, but the identity check fails due to protein category restriction.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1728,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 581,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
