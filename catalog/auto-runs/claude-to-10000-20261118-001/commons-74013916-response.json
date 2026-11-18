@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChATgwJEjrXnnV9QrHruB",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Finished, cooked dish clearly visible\",\n    \"Bean sprouts, green onion, and radish garnish prominent\",\n    \"Brown sauce coating visible on base components\",\n    \"Naturally coloured food with appetizing presentation\",\n    \"Sharp detail in phone thumbnail matching full image\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows stacked components with brown sauce base\",\n    \"Garnishes (sprouts, green onion, radish slices) readable\",\n    \"Cooked egg visible on sides\",\n    \"Adequate centre-cover framing of dish\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'egg tofu dish' but source description says 'egg tofu dish with peanut sauce'; photograph shows brown sauce but peanut sauce type unconfirmed visually\",\n    \"Tofu component present but species/material qualification absent from title\",\n    \"Exact dish name does not match canonical Indonesian 'tahu telur' or English variant—description mixes multiple phrasings\"\n  ],\n  \"reason\": \"Identity check fails. Source title is 'File:Tahu telur.jpg' (filename, not a dish name), and description 'egg tofu dish with peanut sauce' does not match either canonical Indonesian or standard English documentation. The photograph itself is sharp, well-lit, finished, and appealing with readable components in the thumbnail. However, the metadata is contradictory and insufficient to establish the exact variant name. The title field contains a filename with extension, not a canonical dish phrase. Without a clear, consistent source title/description matching a recognizable regional variant name, identity cannot be confirmed. Hold pending clarification of the precise dish name and sauce type.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1726,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 530,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

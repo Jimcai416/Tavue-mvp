@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAThNu7gJpJSipYWb4Us",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Unleavened flatbread with characteristic char spots\",\n    \"Multiple pieces stacked on white plate\",\n    \"Natural golden-brown colouration with darker burnt patches\",\n    \"Prominent positioning in both source and thumbnail\"\n  ],\n  \"phone_observations\": [\n    \"Flatbread clearly visible at centre-cover\",\n    \"Char patterns readable in thumbnail\",\n    \"Adequate detail for dish identification\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title 'naan' is generic descriptor only, not a specific canonical dish name with meaningful qualifiers\",\n    \"No variant information provided (flavour, regional origin, preparation method, filling, topping)\",\n    \"Metadata lacks sufficient specificity for Tavue intake standards\"\n  ],\n  \"reason\": \"Reject: source title is a bare generic category label ('naan') without variant qualifiers, regional specification, preparation method, or other meaningful dish identification. While the photograph itself is well-exposed, sharp, and appetising, and clearly shows finished unleavened flatbread with characteristic charring, Tavue canonical_name requires a specific dish phrase from the source that preserves meaningful variant qualifiers. 'naan' alone does not meet this standard. A proper source description would specify regional origin (e.g., 'Indian naan', 'tandoori naan'), flavour/filling (e.g., 'garlic naan', 'peshwari naan'), or preparation detail. The check 'identity' fails because the generic title cannot anchor a specific dish identity.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1714,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 491,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

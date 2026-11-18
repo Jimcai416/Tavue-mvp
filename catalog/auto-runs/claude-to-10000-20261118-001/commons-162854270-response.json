@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChATgYU4n9Eseg9pNXp8T",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 3,\n    \"lighting\": 3,\n    \"composition\": 3,\n    \"appeal\": 2\n  },\n  \"visible_support\": [\n    \"Cooked pork belly sliced and plated\",\n    \"Red pepper flakes visible on meat surface\",\n    \"Served in a metal tray/container\",\n    \"Pale cream-coloured cooked pork\"\n  ],\n  \"phone_observations\": [\n    \"Phone thumbnail shows sliced pork belly with red pepper seasoning\",\n    \"Essential meat component clearly visible in phone view\",\n    \"Plating and portion readable in thumbnail\"\n  ],\n  \"protein_evidence\": {\n    \"pork\": \"belly\"\n  },\n  \"uncertainties\": [\n    \"Source title states 'Bossam belly' but bossam traditionally refers to boiled pork wrapped in lettuce leaves, not sliced belly plated alone with pepper garnish\",\n    \"The presentation shown (sliced belly on a tray with red pepper) does not match standard bossam preparation or service\",\n    \"Wikipedia link provided in metadata but metadata is untrusted; visible form contradicts typical bossam identity\",\n    \"Unclear whether this is bossam, a bossam component, or a different pork belly preparation misidentified as bossam\"\n  ],\n  \"reason\": \"Identity check fails. While the photograph shows cooked pork belly with professional plating and adequate quality, the source title 'Bossam belly' contradicts the visible presentation. Bossam is traditionally served as boiled pork wrapped in lettuce leaves with banchan, not as sliced belly garnished with red pepper on a serving tray. The visible form does not match the declared identity. Source title/description contradiction requires hold pending clarification.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1458,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 503,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
