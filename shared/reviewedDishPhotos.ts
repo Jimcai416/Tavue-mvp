@@ -64355,5 +64355,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "height": 960,
     "requiresExactMenuName": true,
     "authorUrl": "http://georgiaabout.com"
+  },
+  {
+    "id": "commons-151224557",
+    "title": "File:KarpatkainKrakow.jpg",
+    "author": "さえぼー",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:KarpatkainKrakow.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e2/KarpatkainKrakow.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "986c01abc7247ca150fbcfddfad1155ad89aa1c7",
+    "name": "chocolate karpatka",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-151224557.jpg",
+    "assetSha256": "504a35b75e7fbbd23e2555872f9b830214b195ec0afa773b790f6ffd9dbdaea0",
+    "reviewedAt": "2026-11-18",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];

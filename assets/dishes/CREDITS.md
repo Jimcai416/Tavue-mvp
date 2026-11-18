@@ -4413,3 +4413,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 
 - **Karpatka Kajmakowa** — MichalPL. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Karpatka_Kajmakowa_in_Poland.jpg). Local asset: `reviewed-commons-97205869.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Lobio with pomegranate juice** — [Georgia About](http://georgiaabout.com). [CC BY 3.0](https://creativecommons.org/licenses/by/3.0); [source](https://commons.wikimedia.org/wiki/File:Lobio_with_pomegranate_juice.jpg). Local asset: `reviewed-commons-38127824.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **chocolate karpatka** — さえぼー. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:KarpatkainKrakow.jpg). Local asset: `reviewed-commons-151224557.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
