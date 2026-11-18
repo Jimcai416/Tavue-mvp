@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAsRzpTiuuC7bNEKSthg",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 3,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Yellow-cream coloured grain dish with visible kernels dominates thumbnail\",\n    \"Metal spoon with portion visible\",\n    \"Metal plate/tray background\",\n    \"Secondary items blurred in background\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title field contains only 'File:Khichdi rangilogujarati.jpg' — a filename, not a canonical dish description\",\n    \"Description field is empty\",\n    \"No explicit source-provided dish title or description available for identity verification\",\n    \"Khichdi preparation method, regional variant, and ingredient specifics cannot be confirmed from metadata alone\",\n    \"No protein species declared in any provided source text\"\n  ],\n  \"reason\": \"Rejection due to insufficient source documentation. The metadata supplied contains only a filename and photographer credit, with no actual dish title or description field. The rule requires canonical_name to be 'copied exactly from source title or description' and identity to be verified against 'exact source title/description'. An empty description field and filename-only title field do not constitute valid source evidence for identity verification. The photograph itself appears to show a khichdi-like grain dish, but without an authoritative source title or description, variant qualifiers, preparation details, and ingredient claims cannot be verified or preserved. Filename metadata is explicitly untrusted per instructions.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1723,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 443,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
