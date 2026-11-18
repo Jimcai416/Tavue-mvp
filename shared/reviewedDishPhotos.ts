@@ -80421,5 +80421,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 800,
     "height": 600,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-190004291",
+    "title": "File:Kuih Lapis ( Malaysia dessert ).jpg",
+    "author": "Jane and Xuan",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kuih_Lapis_(_Malaysia_dessert_).jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Kuih_Lapis_%28_Malaysia_dessert_%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "072556aaa244e0d39d33bfbd2eaf7c55f074d913",
+    "name": "kuih lapis",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-190004291.jpg",
+    "assetSha256": "86ae5df1ba1090ead97e0647207fcd05899f05b127b28e50d67e14a8fc342f24",
+    "reviewedAt": "2026-11-18",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 540,
+    "requiresExactMenuName": true
   }
 ];

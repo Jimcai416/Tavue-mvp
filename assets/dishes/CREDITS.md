@@ -5831,3 +5831,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 - **Malay Traditional kuih Lapis** — M G Dilhani Piyadasa. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:IMG-20230629-WA0001.jpg). Local asset: `reviewed-commons-133729637.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Home-made Ube Halaya** — Ralff Nestor Nacor. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Home-made_Ube_Halaya,_Jul_2026.jpg). Local asset: `reviewed-commons-196606924.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Saltimbocca** — Joachim Pietzowski. [Public domain](https://creativecommons.org/publicdomain/mark/1.0/); [source](https://commons.wikimedia.org/wiki/File:Saltimbocca-2.jpg). Local asset: `reviewed-commons-6034196.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **kuih lapis** — Jane and Xuan. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Kuih_Lapis_(_Malaysia_dessert_).jpg). Local asset: `reviewed-commons-190004291.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
