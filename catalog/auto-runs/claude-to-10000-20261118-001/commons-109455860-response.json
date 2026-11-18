@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChB5pxJgMsqaLeXHhiVNX",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 3,\n    \"composition\": 2,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows kitchen interior with wood counters and brick pizza oven\",\n    \"No finished dish visible in phone thumbnail\",\n    \"Staff and kitchen workspace dominate frame\",\n    \"No food subject identifiable at phone resolution\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"No finished food dish present in either image\",\n    \"Source describes restaurant name only, no specific dish\",\n    \"Photograph is a kitchen/workspace scene, not a food photograph\"\n  ],\n  \"reason\": \"Rejection: This is a kitchen interior photograph of Chez Panisse restaurant, not a food photograph. No finished, exposed dish is visible in the full image or phone thumbnail. The subject is the workspace, brick oven, and staff preparation area. No identifiable food dish, components, or plating are present. The source metadata provides only a restaurant name, not a dish identity. This fails the fundamental requirement of showing a finished, appetising, prominent food subject suitable for Tavue intake.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1735,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 365,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

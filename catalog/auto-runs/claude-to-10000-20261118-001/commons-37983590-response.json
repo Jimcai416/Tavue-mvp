@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChB5oxFS2FqiEi67oU3YY",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 3,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Glossy spherical element consistent with egg\",\n    \"Green leaf garnish visible\",\n    \"Reddish-brown sliced vegetables (carrots)\",\n    \"White creamed base\",\n    \"Fine dining plating style\"\n  ],\n  \"phone_observations\": [\n    \"Central spherical element remains prominent\",\n    \"Creamed base and garnishes visible in thumbnail\",\n    \"Adequate detail for identity confirmation\",\n    \"Plating clarity preserved\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'Ouef en Meurette' but description does not match the classical dish definition. Ouef en Meurette is a Burgundian dish of poached eggs in red wine sauce, typically with lardons, mushrooms and pearl onions. The visible sauce appears cream-based, not wine-based.\",\n    \"Metadata title contains quotation marks and filename artifact (File:) - treating description field as authority\",\n    \"Description lists ingredients but does not explicitly name the primary protein as egg; 'Ouef' in title implies egg but source description lacks explicit egg statement\",\n    \"Classical Ouef en Meurette should contain no béarnaise sauce; béarnaise is butter-based and incompatible with traditional red wine preparation. This contradiction suggests either misidentification or non-classical variant.\",\n    \"Visible cream-based presentation conflicts with classical Ouef en Meurette definition\",\n    \"No explicit protein naming in the description text supplied\"\n  ],\n  \"reason\": \"Hold: Critical identity conflict. The title references 'Ouef en Meurette' (a classical Burgundian poached-egg-in-red-wine dish), but the description lists 'sauce béarnaise' (a butter-based emulsion that contradicts the traditional preparation) and does not explicitly name egg as a component. The creamed appearance in the photograph suggests a dish unlike classical Ouef en Meurette. The source description provides ingredient lists but no explicit protein statement. Without clarity on whether this is a non-classical variant, misidentification, or mislabeling, and given the absence of explicit protein naming in the description, identity cannot be confirmed. Protein_evidence remains empty per rules.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1655,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 641,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
