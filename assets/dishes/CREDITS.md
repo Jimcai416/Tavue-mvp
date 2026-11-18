@@ -5973,3 +5973,9 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 
 - **Tarhana Çorbası** — Apallosa1986. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Tarhana_%C3%87orbas%C4%B1.jpg). Local asset: `reviewed-commons-69288002.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Kalamar tava, tartar sauce and salad** — E4024. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Kalamar_tava,_tartar_sauce_and_salad.jpg). Local asset: `reviewed-commons-51056141.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Chile de cera relleno con queso y epazote** — Koffermejia. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Chile_de_cera_relleno.jpg). Local asset: `reviewed-commons-111710658.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Tupig** — JFVelasquez Floro. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:6142Street_food_(Tupig)_vendors_in_the_Philippines_02.jpg). Local asset: `reviewed-commons-103362535.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Coconut rice, fried fish, tostones and Balboa beer** — ProtoplasmaKid. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Arroz_con_coco,_pescado_frito_y_patacones.jpg). Local asset: `reviewed-commons-77615313.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
