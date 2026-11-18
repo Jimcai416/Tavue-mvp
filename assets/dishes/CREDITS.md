@@ -4183,3 +4183,10 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Rýnská pečeně, bramborový knedlík** — Dezidor. [CC BY 3.0](https://creativecommons.org/licenses/by/3.0); [source](https://commons.wikimedia.org/wiki/File:R%C3%BDnsk%C3%A1_pe%C4%8Den%C4%9B,_bramborov%C3%BD_knedl%C3%ADk.jpg). Local asset: `reviewed-commons-4342844.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Beef Goulash** — [USDAgov](https://www.flickr.com/people/usdagov/). [Public domain](https://creativecommons.org/publicdomain/mark/1.0/); [source](https://commons.wikimedia.org/wiki/File:Child_Care_Recipes_(Team_Nutiriton)_(20211103-FNS-UNC-8742).jpg). Local asset: `reviewed-commons-184890676.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Lebkuchen** — Silar. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:00504_Lebkuchen_Weihnachts_Sanok_2012.JPG). Local asset: `reviewed-commons-23244856.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Polish gingerbread cookies from Toruń** — Marcin Floryan. [CC BY 2.5](https://creativecommons.org/licenses/by/2.5); [source](https://commons.wikimedia.org/wiki/File:PL_gingerbread_from_Torun.jpg). Local asset: `reviewed-commons-1300867.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Pierniki Natalii** — Aw58. [CC BY 4.0](https://creativecommons.org/licenses/by/4.0); [source](https://commons.wikimedia.org/wiki/File:Pierniki_Natalii_-_2024.12.24.jpg). Local asset: `reviewed-commons-157068069.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
