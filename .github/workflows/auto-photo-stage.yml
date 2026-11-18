@@ -1,0 +1,64 @@
+name: Claude photo review stage
+on:
+  workflow_call:
+    inputs:
+      stage:
+        type: number
+        required: true
+    secrets:
+      ANTHROPIC_API_KEY:
+        required: true
+    outputs:
+      needsContinue:
+        value: ${{ jobs.review.outputs.needsContinue }}
+permissions:
+  contents: write
+jobs:
+  review:
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    outputs:
+      needsContinue: ${{ steps.progress.outputs.needsContinue }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref_name }}
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: python -m pip install 'Pillow>=11,<13'
+      - run: npm ci --no-audit --no-fund
+      - run: python -m unittest discover -s scripts/photos -p 'test_auto_photo*.py'
+      - name: Claude discovery, parallel review and tested automatic intake
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          TAVUE_PHOTO_BRANCH: ${{ github.ref_name }}
+        run: python -u scripts/photos/auto_photos.py
+      - run: npm run test:photos
+      - run: npx tsc --noEmit
+      - run: npm run export:web
+      - name: Report durable queue progress
+        id: progress
+        run: python scripts/photos/auto_photo_progress.py
+      - name: Preserve committed changes that could not be pushed
+        if: always()
+        shell: bash
+        run: |
+          git update-ref refs/heads/auto-checkpoint HEAD
+          if test "$(git rev-list --count origin/${{ github.ref_name }}..HEAD)" -gt 0; then
+            git bundle create catalog/work/auto-checkpoint.bundle refs/heads/auto-checkpoint ^origin/${{ github.ref_name }}
+          fi
+      - name: Preserve decisions and receipts even if interrupted
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: claude-photo-run-${{ github.run_id }}-stage-${{ inputs.stage }}
+          path: |
+            catalog/auto-runs/
+            catalog/work/auto-checkpoint.bundle
+          retention-days: 90
+          if-no-files-found: ignore

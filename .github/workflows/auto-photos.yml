@@ -11,8 +11,32 @@ concurrency:
   cancel-in-progress: false
 jobs:
   collect-review-integrate:
+    uses: ./.github/workflows/auto-photo-stage.yml
+    with:
+      stage: 1
+    secrets:
+      ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+  continue-review-2:
+    needs: collect-review-integrate
+    if: needs.collect-review-integrate.outputs.needsContinue == 'true'
+    uses: ./.github/workflows/auto-photo-stage.yml
+    with:
+      stage: 2
+    secrets:
+      ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+  continue-review-3:
+    needs: continue-review-2
+    if: needs.continue-review-2.outputs.needsContinue == 'true'
+    uses: ./.github/workflows/auto-photo-stage.yml
+    with:
+      stage: 3
+    secrets:
+      ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+  verify-queue-complete:
+    needs: [collect-review-integrate, continue-review-2, continue-review-3]
+    if: always()
     runs-on: ubuntu-latest
-    timeout-minutes: 350
+    timeout-minutes: 10
     steps:
       - uses: actions/checkout@v4
         with:
@@ -20,36 +44,8 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - uses: actions/setup-node@v4
-        with:
-          node-version: 22
-          cache: npm
-      - run: python -m pip install 'Pillow>=11,<13'
-      - run: npm ci --no-audit --no-fund
-      - run: python -m unittest discover -s scripts/photos -p test_auto_photos.py
-      - name: Claude discovery, parallel review and tested automatic intake
-        env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-          TAVUE_PHOTO_BRANCH: ${{ github.ref_name }}
-        run: python -u scripts/photos/auto_photos.py
-      - run: npm run test:photos
-      - run: npx tsc --noEmit
-      - run: npm run export:web
-      - name: Preserve committed changes that could not be pushed
-        if: always()
-        shell: bash
-        run: |
-          git update-ref refs/heads/auto-checkpoint HEAD
-          if test "$(git rev-list --count origin/${{ github.ref_name }}..HEAD)" -gt 0; then
-            git bundle create catalog/work/auto-checkpoint.bundle refs/heads/auto-checkpoint ^origin/${{ github.ref_name }}
-          fi
-      - name: Preserve decisions and receipts even if interrupted
-        if: always()
-        uses: actions/upload-artifact@v4
-        with:
-          name: claude-photo-run-${{ github.run_id }}
-          path: |
-            catalog/auto-runs/
-            catalog/work/auto-checkpoint.bundle
-          retention-days: 90
-          if-no-files-found: ignore
+      - name: Require successful review and verification stages
+        if: contains(needs.*.result, 'failure') || contains(needs.*.result, 'cancelled')
+        run: exit 1
+      - name: Require every candidate to have a saved decision
+        run: python scripts/photos/auto_photo_progress.py --require-complete

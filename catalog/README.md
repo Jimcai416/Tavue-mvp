@@ -46,6 +46,15 @@ provider responses retain their cost reservation and stay held; they do not
 cause the same image to be submitted again. Explicit rate
 limits back off; budget/time limits checkpoint rather than run indefinitely.
 
+A runtime checkpoint automatically starts the next sequential review stage
+from the latest branch checkpoint, with the same frozen queue and $15 cap.
+There are at most three stages per trigger; errors, uncertain paid requests and
+budget exhaustion do not trigger another stage. A final gate checks durable
+candidate/decision IDs and rejects an unfinished queue, so a successful workflow
+means the queue is exhausted and its app checks passed. Per-stage artifacts have
+distinct names. `python scripts/photos/auto_photo_progress.py` reports this state
+without making provider requests.
+
 Passing images, static app assets, credits and decisions are committed
 automatically to the task branch after tests. Other images remain held with
 reasons. `catalog/auto-runs/<requestId>/ledger.json` reports actual progress and
