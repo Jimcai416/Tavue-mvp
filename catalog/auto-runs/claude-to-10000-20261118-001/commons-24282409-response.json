@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAiX5dm1ncGWPMsJXSch",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Toasted bread with butter\",\n    \"Fried egg\",\n    \"Sautéed mushrooms\",\n    \"Grilled tomato\",\n    \"Baked beans in bowl\",\n    \"Hash brown or similar potato cake\"\n  ],\n  \"phone_observations\": [\n    \"Plate clearly visible with multiple components\",\n    \"Toast, egg, mushrooms, beans bowl visible in thumbnail\",\n    \"Adequate detail for dish identification\",\n    \"Natural lighting, no severe defects\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title is a filename (File:Montpelier...) not a dish name\",\n    \"Description is evaluative commentary, not a canonical dish identifier\",\n    \"No explicit dish name provided in metadata\",\n    \"Generic 'breakfast' reference insufficient for canonical naming\"\n  ],\n  \"reason\": \"Identity check fails. The source provides only a filename and descriptive commentary, not a canonical dish name or title. The description 'A pretty decent breakfast' is a subjective evaluation, not a dish identifier. While the photograph shows a well-composed, sharp, appetising full English/British breakfast with clearly visible components (toast, egg, mushrooms, tomato, baked beans, hash brown), and the phone thumbnail is adequate, the absence of a specific source dish name or title means canonical_name cannot be derived from an exact source quote. Hold or reject policy applies to ambiguous or missing source dish identity.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1784,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 465,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

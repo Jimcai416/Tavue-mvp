@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAiX5fVwmHBxoGPn3nQs",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Two sausages visible and cooked\",\n    \"Baked beans in tomato sauce\",\n    \"Grilled tomato slice with char marks\",\n    \"Mashed potatoes/bubble and squeak (yellowish, unfried)\",\n    \"Mushrooms sautéed\",\n    \"Poached egg with ham\"\n  ],\n  \"phone_observations\": [\n    \"Plate clearly visible with all components\",\n    \"Sausages, beans, tomato prominent\",\n    \"Composition readable in thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Sausage species unspecified: description states 'probably quorn' (non-meat plant protein), not an allowed category\",\n    \"Source metadata contains instructional commentary ('Tasty and it feels healthier') and speculative annotation ('oddly unfried bubble & squeak')\",\n    \"No explicit animal protein source quote available; metadata suggests possible quorn/vegetarian preparation\"\n  ],\n  \"reason\": \"Reject: sausage species cannot be determined and source suggests quorn (plant-based protein), which is not in the allowed protein categories (chicken/beef/pork/duck/lamb/seafood). No explicit source quote names an allowed animal protein. Title/description lacks a specific canonical dish name and contains metadata commentary rather than a formal dish identity. Identity check fails due to ambiguous/unspecified protein and lack of a proper dish name from source.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1780,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 465,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

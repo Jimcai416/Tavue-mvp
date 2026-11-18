@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAiXTk3Smx2TCMYtfVQL",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 3,\n    \"composition\": 3,\n    \"appeal\": 2\n  },\n  \"visible_support\": [\n    \"Sausages visible in baking tray\",\n    \"Pan with gravy on stovetop\",\n    \"Kitchen preparation setting\"\n  ],\n  \"phone_observations\": [\n    \"Sausages and gravy pan visible in thumbnail\",\n    \"Subject recognizable but soft focus affects detail\",\n    \"Composition shows both dish components\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Sausage species unspecified—'pork and apple sausage' does not name the animal explicitly as required\",\n    \"Source describes toad in the hole but no batter/Yorkshire pudding visible in either image, only raw/cooking-stage sausages\",\n    \"Image shows preparation or early cooking stage, not a finished, exposed, plated dish\"\n  ],\n  \"reason\": \"Reject: Multiple failures. (1) Protein evidence: 'Pork and apple sausage' is a marketing descriptor; the source does not explicitly name 'pork' as the animal in the required format, and sausage species cannot be inferred. (2) Preparation stage: Both images show sausages in a raw or early-cooking state in a baking tray and a gravy pan on the stovetop—not a finished, exposed, plated dish. (3) Identity mismatch: The title claims 'toad in the hole' but no batter, Yorkshire pudding, or baked integration is visible; only loose sausages in a tray. (4) Sharpness and appeal scores below threshold (2 and 2). This is a cooking-process photograph, not a finished food photograph suitable for Tavue review.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1461,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 514,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
