@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBC69v3s2xraFUoUL4JQ",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Cooked meat pieces visible in white bowl\",\n    \"Leafy green vegetables (bok choy or similar)\",\n    \"Pale yellow/white layered vegetable sections\",\n    \"Clear broth or light sauce\",\n    \"Natural outdoor setting, grass background\",\n    \"Bowl contents clearly exposed and finished\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail shows same dish clearly\",\n    \"Bowl, meat, and greens readable at 124x96\",\n    \"No essential components clipped\",\n    \"Appropriate contrast and visibility\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title lists three dishes (Nilaga, Okay and Pancit) but only one bowl is visible—uncertain which dish this represents\",\n    \"Meat species cannot be identified with certainty from appearance alone; no explicit protein naming in description\",\n    \"Exact preparation style and regional variant of Nilaga unclear from description alone\",\n    \"Source title/description does not unambiguously match the single dish shown\"\n  ],\n  \"reason\": \"Identity check fails. The source description lists three separate dishes ('Nilaga, Okoy and Pancit') but the photograph shows only a single bowl. Without explicit confirmation of which dish this is, or an exact source quote identifying this specific preparation, identity cannot be verified. No protein species is named in the metadata. The image quality and photograph quality are strong, but the ambiguity between the title's multiple dishes and the single visible preparation prevents acceptance.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1840,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 477,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
