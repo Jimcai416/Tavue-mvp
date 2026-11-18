@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAvapZfa4f9Y4LysPa2i",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 2,\n    \"composition\": 1,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows partially visible sandwich or folded pastry with filling\",\n    \"Essential components clipped or unclear at edges\",\n    \"Limited detail of finished dish structure\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title contains 'gehakt' (generic minced meat) with no explicit animal species named\",\n    \"Photograph is severely out of focus with motion blur\",\n    \"Image appears to be a mid-consumption or preparation shot with crumbs and scattered fragments\",\n    \"Extreme soft focus makes essential components unreadable\",\n    \"Composition shows only partial view of the dish\",\n    \"Lighting is poor and creates no appetising presentation\"\n  ],\n  \"reason\": \"Reject: Multiple critical failures. The photograph is severely out of focus with motion blur, making sharpness unacceptable (score 2). The image appears to show a partially eaten or mid-preparation state with scattered crumbs and fragments on the plate, not a finished, exposed, appetising dish. Lighting is poor (score 2). Composition is fragmented (score 1) with no clear presentation. The phone thumbnail shows clipped essential components and poor visibility of the dish structure. Most critically, the source description names only 'gehakt' (generic minced meat) without explicit animal species identification—the metadata instruction 'gehakt losgeklopt in ei' provides no species declaration, only a generic meat reference. Per guidelines, ambiguous meat species (unspecified gehakt) triggers a hold condition; combined with severe image defects, rejection is warranted.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1746,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 493,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

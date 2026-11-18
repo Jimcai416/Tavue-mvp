@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAvatACuS2pFjd3S8hcW",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Golden-brown curry sauce visible in full image and thumbnail\",\n    \"Green vegetable garnish (mint/basil) prominent in centre\",\n    \"Chunked meat/protein distributed throughout sauce\",\n    \"Metallic serving platter with raised edge\",\n    \"Natural daylight, well-exposed dish\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows the finished dish\",\n    \"Golden colour and texture readable\",\n    \"Green garnish visible at centre\",\n    \"No essential components clipped\",\n    \"Appropriate centre-cover framing\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title states 'Kare-kare baka' but description alone says 'Kare-kare' without qualifier\",\n    \"'Baka' typically means goat in some contexts, but could refer to beef preparation; source does not explicitly name the animal in English\",\n    \"Visible chunks appear meat-like but species cannot be confirmed from appearance alone\",\n    \"No explicit protein identification in supplied title or description\"\n  ],\n  \"reason\": \"Image quality, composition, lighting and phone thumbnail all pass. However, the source title/description contains ambiguity: 'Kare-kare baka' implies a specific meat variant (baka = goat in some languages, but source does not provide explicit English animal identification). The description field states only 'Kare-kare' without the qualifier. Per protocol, ambiguous meat species or source contradictions require hold. The exact canonical name and protein evidence cannot be established from the metadata supplied without explicit animal naming in English.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1552,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 501,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
