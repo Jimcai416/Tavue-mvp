@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAxkSXMcb5pVpSwWdfgj",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": \"Plato de picadillo de chorizo con una frasca de vino en la Venta del Obispo, San Martín del Pimpollar, Ávila, España\",\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Cooked, granular meat mixture in white bowl\",\n    \"Golden-brown colour consistent with chorizo picadillo\",\n    \"Wine glass and decanter present\",\n    \"Restaurant setting with wooden panelling\",\n    \"Checkered napkin holder visible\"\n  ],\n  \"phone_observations\": [\n    \"Dish clearly visible and prominent in thumbnail\",\n    \"Golden-brown granular texture readable\",\n    \"Wine accompaniment visible\",\n    \"Natural lighting, no severe glare or blur\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title states 'picadillo de chorizo' but chorizo is a sausage product—the actual meat species within chorizo is not specified in the source\",\n    \"Cannot visually confirm whether the mixture contains only chorizo or includes other meats (picadillo often combines multiple meat types)\",\n    \"No explicit declaration of which animal(s) the sausage contains in source metadata\"\n  ],\n  \"reason\": \"Image quality, composition and phone visibility are all acceptable. However, the protein cannot be verified: the source declares 'chorizo' (a sausage), but sausage products have ambiguous or unknown species composition and cannot be used as a protein key per guidelines. The source does not explicitly name the underlying animal in the chorizo. Identity check fails due to inability to map an unspecified sausage to an allowed protein category (chicken/beef/pork/duck/lamb/seafood). Hold pending source clarification of the actual meat species.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1554,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 525,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
