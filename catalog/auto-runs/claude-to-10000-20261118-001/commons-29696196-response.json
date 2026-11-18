@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChB2oz4iT7VZcvBD4dvgz",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 5,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"White rice as base\",\n    \"Diced yellow/orange bell pepper\",\n    \"Green peas visible\",\n    \"Dark leafy herbs (consistent with fenugreek/methi)\",\n    \"Served in traditional metal handi pot with handles\",\n    \"Natural home-cooked appearance\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows rice dish in metal vessel\",\n    \"Vegetables and herbs visibly distributed\",\n    \"Appropriate scale and prominence for dish identification\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source metadata lists 'Pulao Vegetable Methi India' but provides no canonical dish name from title/description field\",\n    \"Description 'Rice dish prepared with veggies' is generic and does not confirm specific dish identity\",\n    \"Methi (fenugreek) leaves visible but source does not explicitly state 'methi' or 'fenugreek' in a formal title\",\n    \"No authoritative regional variant name preserved from source title\",\n    \"File metadata format suggests wiki/repository source, but no formal title phrase extracted\"\n  ],\n  \"reason\": \"Image quality, photography, and phone thumbnail all pass. Visible components (rice, vegetables, herbs, traditional vessel) are sharp, well-lit, and appetising. However, identity check fails: source provides only a generic description ('Rice dish prepared with veggies') without an explicit, formal canonical name. The file name 'Pulao Vegetable Methi India.jpg' is metadata/filename, not a title or description field suitable for canonical extraction. No exact source title or description phrase can be reliably matched to the dish. Regional variant qualifiers cannot be preserved without explicit source documentation. Hold pending clarification of authoritative dish name from formal title or description.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1726,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 543,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
