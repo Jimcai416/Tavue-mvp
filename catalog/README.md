@@ -35,6 +35,19 @@ uncertain paid results, source exhaustion and failed app checks are reported as
 incomplete, with the saved shortfall and cost; no paid request is automatically
 resubmitted and production is not deployed.
 
+Search plans now request at most 60 compact entries per new round. Complete
+query objects can be recovered from a token-truncated planner response using
+the JSON decoder, without inventing a missing tail or calling the provider
+again. This recovery is restricted to search terms: truncated photo-review
+outputs remain ineligible for approval. An invalid plan is reported separately
+from empty source results. Previously empty cached rounds are reopened in order,
+with their original checkpoint and raw response retained; their candidate
+counts begin at their actual resumed discovery boundary. Offline recovery is
+available through `python scripts/photos/auto_photo_campaign.py --recover-plans-only`
+and does not require an API key. The 18 November recovery restored 471 searches
+from three already-paid replies; all 673 existing request records and the
+$12.547365 cumulative cost were unchanged.
+
 ### Completed initial automatic queue
 
 On 17 November the user explicitly authorized Claude API to find and review

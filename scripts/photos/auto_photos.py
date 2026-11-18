@@ -118,8 +118,8 @@ def evaluate(value,source):
  return True,'claude_full_and_phone_review_passed'
 
 class Pipeline:
- def __init__(self,config):
-  self.config=config;self.key=triage.api_key();self.started=time.monotonic()
+ def __init__(self,config,key=None):
+  self.config=config;self.key=triage.api_key() if key is None else key;self.started=time.monotonic()
   self.out=ROOT/'catalog/auto-runs'/config['requestId'];self.out.mkdir(parents=True,exist_ok=True)
   self.work=ROOT/'catalog/work/auto-photos'/config['requestId'];self.work.mkdir(parents=True,exist_ok=True)
   self.ledger=read(self.out/'ledger.json') if (self.out/'ledger.json').exists() else {'config':config,'createdAt':now(),'model':MODEL,'requests':{},'status':'starting','newApproved':0,'held':0}

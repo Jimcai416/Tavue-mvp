@@ -164,8 +164,99 @@ class CampaignTests(unittest.TestCase):
         self.assertEqual(Image.open(io.BytesIO(base64.b64decode(pictures[1]['data']))).size,(124,96))
         self.assertEqual(a.digest(body['system'].encode()),p.ledger['reviewPromptSha256'])
 
+    def saved_empty_rounds(self):
+        rows=[]
+        for number in [2,3,4]:
+            row=self.round_row()
+            row.update(number=number,status='completed',queryCount=0,startedCount=0,finishedAt='old-checkpoint',
+                       plannerKey=f'planner-round-{number:04d}',planFile=f'round-{number:04d}-plan.json',searchFile=f'round-{number:04d}-search.json')
+            rows.append(row)
+        return rows
+
+    def install_saved_empty_rounds(self,p):
+        p.ledger['status']='source_exhausted';p.ledger['rounds']=self.saved_empty_rounds()
+        for row in p.ledger['rounds']:
+            query={'dish':f'New regional dish {row["number"]}','query':f'New regional dish {row["number"]}','cuisine':'Test'}
+            message={'stop_reason':'max_tokens','content':[{'type':'text','text':'```json\n{"queries":['+json.dumps(query)+',{"dish":"unfinished'}]}
+            a.triage.write_json(p.out/row['planFile'],[])
+            a.triage.write_json(p.out/(row['plannerKey']+'-response.json'),message)
+            p.ledger['requests'][row['plannerKey']]={'status':'completed','actualUSD':.08,'providerMessageId':f'msg_{row["number"]}'}
+
+    def test_saved_truncated_rounds_reopen_once_without_model_or_receipt_changes(self):
+        p=self.campaign();self.install_saved_empty_rounds(p)
+        before=copy.deepcopy(p.ledger['requests'])
+        raw={path.name:path.read_bytes() for path in p.out.glob('*-response.json')}
+        with patch.object(p,'api') as api,patch.object(p,'paid') as paid:
+            self.assertEqual(p.recover_search_plans(),[2,3,4])
+            self.assertEqual(p.recover_search_plans(),[])
+        api.assert_not_called();paid.assert_not_called()
+        self.assertEqual(p.ledger['requests'],before)
+        self.assertEqual(raw,{path.name:path.read_bytes() for path in p.out.glob('*-response.json')})
+        for row in p.ledger['rounds']:
+            self.assertEqual(row['status'],'discovering');self.assertEqual(row['queryCount'],1)
+            self.assertIsNone(row['startedCount']);self.assertEqual(row['emptyPlanCheckpoint']['status'],'completed')
+
+    def test_reopened_rounds_run_in_order_then_start_another_round_automatically(self):
+        p=self.campaign();self.install_saved_empty_rounds(p);order=[]
+        def discover(row):
+            order.append(row['number'])
+            if row['number']==5:raise c.CampaignStop('time_limit','test next-job checkpoint')
+            row.update(status='reviewing',newCandidates=1)
+            p.records.append({'id':str(row['number'])})
+        def review():
+            p.decisions=[{'id':row['id'],'verdict':'held','reason':'model_hold'} for row in p.records]
+            p.ledger['status']='completed'
+        with patch.object(p,'api',return_value={'id':a.MODEL}),patch.object(p,'paid') as paid,patch.object(p,'persist'),patch.object(p,'discover_round',side_effect=discover),patch.object(p,'review',side_effect=review):
+            p.run()
+        self.assertEqual(order,[2,3,4,5]);paid.assert_not_called()
+        self.assertEqual(p.ledger['status'],'time_limit')
+
+    def test_recovered_round_counts_start_at_its_actual_discovery_boundary(self):
+        p=self.campaign();p.records=[{'id':'prior-candidate'}];row=self.round_row();row['startedCount']=None
+        with patch.object(p,'plan_round',return_value=[]),patch.object(p,'known_sources',return_value=(set(),set())),patch.object(p,'persist'):
+            p.discover_round(row)
+        self.assertEqual(row['startedCount'],1);self.assertEqual(row['newCandidates'],0)
+
+    def test_invalid_plan_is_reported_as_invalid_not_empty_source_results(self):
+        p=self.campaign();row=self.round_row()
+        p.ledger['requests'][row['plannerKey']]={'status':'completed','actualUSD':.08}
+        a.triage.write_json(p.out/(row['plannerKey']+'-response.json'),{'stop_reason':'end_turn','content':[{'type':'text','text':'{"queries":['}]})
+        with patch.object(p,'paid') as paid:
+            with self.assertRaises(c.CampaignStop) as stopped:p.plan_round(row)
+        self.assertEqual(stopped.exception.status,'planner_invalid')
+        self.assertFalse((p.out/row['planFile']).exists());paid.assert_not_called()
+
+    def test_fresh_plan_limits_terms_and_does_not_pay_again_on_reload(self):
+        p=self.campaign();row=self.round_row();row['requestedQueries']=60
+        queries=[{'dish':f'New dish {i}','query':f'New dish {i}','cuisine':'Test'} for i in range(75)]
+        message={'id':'new-plan','stop_reason':'end_turn','content':[{'type':'text','text':json.dumps({'queries':queries})}],'usage':{'input_tokens':1000,'output_tokens':3000}}
+        with patch.object(p,'api',return_value={'input_tokens':1000}),patch.object(p,'persist'),patch.object(p,'paid',return_value=(row['plannerKey'],message,None)) as paid:
+            first=p.plan_round(row);again=p.plan_round(row)
+        self.assertEqual(len(first),60);self.assertEqual(first,again);paid.assert_called_once()
+        body=paid.call_args.args[1]
+        self.assertEqual(json.loads(body['messages'][0]['content'])['queryLimit'],60)
+        self.assertEqual(body['max_tokens'],8000)
+
+    def test_offline_recovery_does_not_require_an_api_key(self):
+        with patch.object(a.triage,'api_key',side_effect=AssertionError('No key should be read')):
+            p=c.Campaign(copy.deepcopy(self.config),key='')
+        with patch.object(p,'api',side_effect=AssertionError('No network operation')):
+            self.assertEqual(p.recover_search_plans(),[])
+
 
 class DiscoveryHelpersTests(unittest.TestCase):
+    def test_only_complete_query_objects_are_salvaged_from_a_truncated_plan(self):
+        first={'dish':'菜品甲','query':'Query A','cuisine':'Text containing } and \\" braces'}
+        second={'dish':'B','query':'Query B','cuisine':'Test'}
+        message={'stop_reason':'max_tokens','content':[{'type':'text','text':'```json\n{"queries":['+json.dumps(first)+','+json.dumps(second)+',{"dish":"unfinished'}]}
+        value,status=c.search_plan_value(message)
+        self.assertEqual(value['queries'],[first,second]);self.assertEqual(status,'complete_objects_from_truncated_plan')
+
+    def test_search_recovery_does_not_relax_the_photo_response_completeness_gate(self):
+        truncated={'stop_reason':'max_tokens','content':[{'type':'text','text':'{"verdict":"accept","queries":[]}'}]}
+        with self.assertRaises(ValueError):a.parse_message(truncated)
+        with self.assertRaises(ValueError):c.search_plan_value(truncated)
+
     def test_source_queries_are_interleaved_before_more_photos_of_same_dish(self):
         rows = [{'id': 'a1', 'searchDish': 'A'}, {'id': 'a2', 'searchDish': 'A'}, {'id': 'a3', 'searchDish': 'A'}, {'id': 'b1', 'searchDish': 'B'}, {'id': 'b2', 'searchDish': 'B'}]
         self.assertEqual([r['id'] for r in c.fair_order(rows)], ['a1', 'b1', 'a2', 'b2', 'a3'])

@@ -14830,7 +14830,7 @@
       "actualUSD": 0.087635
     }
   },
-  "status": "source_exhausted",
+  "status": "recovering_search_plans",
   "newApproved": 173,
   "held": 711,
   "priorCostSources": [
@@ -14859,50 +14859,120 @@
     },
     {
       "number": 2,
-      "status": "completed",
+      "status": "discovering",
       "startedAt": "2026-11-18T13:33:09.029806+00:00",
-      "startedCount": 884,
+      "startedCount": null,
       "newCandidates": 0,
       "plannerKey": "planner-round-0002",
       "planFile": "round-0002-plan.json",
       "searchFile": "round-0002-search.json",
-      "queryCount": 0,
-      "finishedAt": "2026-11-18T13:34:24.387855+00:00"
+      "queryCount": 180,
+      "emptyPlanCheckpoint": {
+        "number": 2,
+        "status": "completed",
+        "startedAt": "2026-11-18T13:33:09.029806+00:00",
+        "startedCount": 884,
+        "newCandidates": 0,
+        "plannerKey": "planner-round-0002",
+        "planFile": "round-0002-plan.json",
+        "searchFile": "round-0002-search.json",
+        "queryCount": 0,
+        "finishedAt": "2026-11-18T13:34:24.387855+00:00"
+      },
+      "planParseStatus": "complete_objects_from_truncated_plan",
+      "planRecovery": {
+        "at": "2026-11-18T13:51:30.891818+00:00",
+        "completeRows": 270,
+        "freshQueries": 180,
+        "responseSha256": "8266286cb2bc368c090ff606a0e9c85bc973adc4a917c69c5b3d3f5222c8ed08",
+        "newPaidCalls": 0
+      }
     },
     {
       "number": 3,
-      "status": "completed",
+      "status": "discovering",
       "startedAt": "2026-11-18T13:34:25.555690+00:00",
-      "startedCount": 884,
+      "startedCount": null,
       "newCandidates": 0,
       "plannerKey": "planner-round-0003",
       "planFile": "round-0003-plan.json",
       "searchFile": "round-0003-search.json",
-      "queryCount": 0,
-      "finishedAt": "2026-11-18T13:35:40.918972+00:00"
+      "queryCount": 111,
+      "emptyPlanCheckpoint": {
+        "number": 3,
+        "status": "completed",
+        "startedAt": "2026-11-18T13:34:25.555690+00:00",
+        "startedCount": 884,
+        "newCandidates": 0,
+        "plannerKey": "planner-round-0003",
+        "planFile": "round-0003-plan.json",
+        "searchFile": "round-0003-search.json",
+        "queryCount": 0,
+        "finishedAt": "2026-11-18T13:35:40.918972+00:00"
+      },
+      "planParseStatus": "complete_objects_from_truncated_plan",
+      "planRecovery": {
+        "at": "2026-11-18T13:51:30.907584+00:00",
+        "completeRows": 268,
+        "freshQueries": 111,
+        "responseSha256": "af652f7b8b0483fb2085455d40be1629c79b27c0116d8c2a6c5a888f50ebe21d",
+        "newPaidCalls": 0
+      }
     },
     {
       "number": 4,
-      "status": "completed",
+      "status": "discovering",
       "startedAt": "2026-11-18T13:35:42.038546+00:00",
-      "startedCount": 884,
+      "startedCount": null,
       "newCandidates": 0,
       "plannerKey": "planner-round-0004",
       "planFile": "round-0004-plan.json",
       "searchFile": "round-0004-search.json",
-      "queryCount": 0,
-      "finishedAt": "2026-11-18T13:36:58.072047+00:00"
+      "queryCount": 180,
+      "emptyPlanCheckpoint": {
+        "number": 4,
+        "status": "completed",
+        "startedAt": "2026-11-18T13:35:42.038546+00:00",
+        "startedCount": 884,
+        "newCandidates": 0,
+        "plannerKey": "planner-round-0004",
+        "planFile": "round-0004-plan.json",
+        "searchFile": "round-0004-search.json",
+        "queryCount": 0,
+        "finishedAt": "2026-11-18T13:36:58.072047+00:00"
+      },
+      "planParseStatus": "complete_objects_from_truncated_plan",
+      "planRecovery": {
+        "at": "2026-11-18T13:51:30.922842+00:00",
+        "completeRows": 260,
+        "freshQueries": 180,
+        "responseSha256": "d2fc9e6acad7edf21276325302d713c31b7f7cad91a5c7de6d5d86705d639dca",
+        "newPaidCalls": 0
+      }
     }
   ],
   "unpaidPreviewRetries": {},
   "ownAccountedUSD": 3.10689,
   "targetRemaining": 7765,
-  "updatedAt": "2026-11-18T13:36:59.316289+00:00",
+  "updatedAt": "2026-11-18T13:51:30.924359+00:00",
   "accountedUSD": 12.547365,
   "discovered": 884,
   "processed": 884,
   "remaining": 0,
   "apiReviewsCompleted": 669,
   "unreviewed": 0,
-  "stopReason": "Discovery safety bound reached; target is not marked complete"
+  "stopReason": "Reuse complete terms in already-paid truncated search plans",
+  "planRecoveries": [
+    {
+      "at": "2026-11-18T13:51:30.924066+00:00",
+      "rounds": [
+        2,
+        3,
+        4
+      ],
+      "previousStatus": "source_exhausted",
+      "previousStopReason": "Discovery safety bound reached; target is not marked complete",
+      "newPaidCalls": 0
+    }
+  ]
 }
