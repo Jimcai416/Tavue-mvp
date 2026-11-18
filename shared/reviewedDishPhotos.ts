@@ -69193,5 +69193,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 640,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-127206141",
+    "title": "File:Vídeňský guláš, jídelna u Havelků, Brno.jpg",
+    "author": "Lukáš Perný",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:V%C3%ADde%C5%88sk%C3%BD_gul%C3%A1%C5%A1,_j%C3%ADdelna_u_Havelk%C5%AF,_Brno.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/81/V%C3%ADde%C5%88sk%C3%BD_gul%C3%A1%C5%A1%2C_j%C3%ADdelna_u_Havelk%C5%AF%2C_Brno.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "514f7978c961251e51d2d33a03b686c23c23235a",
+    "name": "Viennese goulash",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-127206141.jpg",
+    "assetSha256": "d2cee2c1e303542c1ff8822c47536c2a50ba14fce2e89adb348c3af51fbf80d3",
+    "reviewedAt": "2026-11-18",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 729,
+    "height": 960,
+    "requiresExactMenuName": true
   }
 ];
