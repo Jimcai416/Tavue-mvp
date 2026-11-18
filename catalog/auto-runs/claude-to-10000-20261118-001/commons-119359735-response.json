@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChB7Zn6Lk1sSXCSFECig3",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Golden-orange spherical dumplings in deep red broth, left bowl\",\n    \"Meat pieces and two eggs in burgundy liquid, right bowl\",\n    \"Natural daylight, smartphone capture\",\n    \"Served in blue-rimmed bowls on wood surface\"\n  ],\n  \"phone_observations\": [\n    \"Both bowls clearly visible in thumbnail\",\n    \"Colour and texture of dumplings and broth render distinctly\",\n    \"Meat and eggs visible in smaller bowl\",\n    \"Composition and prominence adequate for identification\"\n  ],\n  \"protein_evidence\": {\n    \"chicken\": \"poulet\"\n  },\n  \"uncertainties\": [\n    \"Title claims 'Foufou igname au poulet' but source metadata lists this as filename only, not verified dish description\",\n    \"Igname (yam) dumplings not independently confirmed—foufou preparation and yam species unverified in image alone\",\n    \"Meat in right bowl appears consistent with chicken but species not visually certain\",\n    \"Source title format (File: prefix) suggests metadata labelling rather than authoritative dish documentation\",\n    \"No supplementary description confirms igname, foufou preparation method, or complete ingredient list\"\n  ],\n  \"reason\": \"Identity check fails: source title is a filename metadata field ('File:Foufou igname au poulet.png'), not an authenticated dish name or description. Chicken ('poulet') is supported by source text, but the specific dish identity, preparation (foufou), and primary ingredient (igname/yam) cannot be verified from the image alone and lack independent source confirmation beyond the filename. Metadata context is insufficient to establish canonical identity. Photograph and phone thumbnail quality are good (all scores ≥4), but identity uncertainty prevents acceptance. Hold pending verified authoritative dish description.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1627,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 547,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

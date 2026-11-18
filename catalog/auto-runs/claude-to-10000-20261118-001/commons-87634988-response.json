@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChB7ZnBoDpcXXJDWArhKh",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Stewed meat in rich brown gravy\",\n    \"Mashed potatoes\",\n    \"Brussels sprouts\",\n    \"Home-cooked plated dish\"\n  ],\n  \"phone_observations\": [\n    \"Meat, potatoes, and vegetables clearly visible\",\n    \"Gravy visible in thumbnail\",\n    \"Appetising appearance maintained at reduced size\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Species identity unconfirmed: title states 'Oxtail' but oxtail is not an allowed protein category (cattle/beef/lamb/pork/chicken/duck/seafood only). Oxtail is a bovine tail cut; the source does not explicitly state 'beef'.\",\n    \"No explicit source quote identifying the meat as 'beef'\"\n  ],\n  \"reason\": \"Rejection: The source title names 'Oxtail' as the protein, but oxtail is not a recognized allowed protein category, and the source does not explicitly state the animal species as 'beef' or another allowed category. Protocol requires exact source quote explicitly naming an allowed protein (chicken/beef/pork/duck/lamb/seafood). The unspecified species and lack of explicit animal identification prevent acceptance, despite good photograph and phone thumbnail quality.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1789,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 427,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChB7ab4LzBwcqhirjgF1i",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Finished, cooked dish in serving vessel\",\n    \"Meat pieces in reddish-orange sauce\",\n    \"Starch accompaniment (cassava/fufu-like mound) visible in phone thumbnail and full image\",\n    \"Natural colour, appetizing appearance\",\n    \"Home-style presentation\"\n  ],\n  \"phone_observations\": [\n    \"Stewed meat and sauce clearly visible\",\n    \"Orange-red braised preparation recognizable\",\n    \"Starch component partially visible at top\",\n    \"Adequate detail for dish identification\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title field contains only 'File:Kedjenou de Poulet.jpg' (filename, not a usable source description)\",\n    \"Description incomplete: 'This is an image of food from' – truncated, no dish details provided\",\n    \"File metadata suggests Ivorian Kedjenou de Poulet (chicken stew), but no explicit text in title or complete description confirms 'chicken' as named component\",\n    \"Meat species not explicitly stated in the supplied title or description text – cannot extract required exact quote naming the animal\",\n    \"Visible meat texture and braising suggest poultry, but visual appearance alone does not meet the requirement for explicit source naming\"\n  ],\n  \"reason\": \"Identity check fails. The provided title is a filename only ('File:Kedjenou de Poulet.jpg'), and the description is incomplete and truncated ('This is an image of food from'). Although the visual evidence and filename strongly suggest Ivorian Kedjenou de Poulet (chicken), the canonical_name must be derived from an exact quote in the supplied title or description. The word 'chicken' or any explicit protein identifier does not appear in the incomplete description text provided. No complete, usable source description is available to establish the canonical dish name or extract protein evidence. Photography, composition, lighting and phone thumbnail quality all meet standards, but identity verification cannot be completed without a complete, explicit source description.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1728,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 593,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
