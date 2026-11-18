@@ -56274,5 +56274,52 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 906,
     "height": 960,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-37983680",
+    "title": "File:Ciabatta (4202043675).jpg",
+    "author": "Arnold Gatilao  from Oakland, CA, USA",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ciabatta_(4202043675).jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Ciabatta_%284202043675%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "121cc5e1072d260892e3c08a6f14bad76c50f388",
+    "name": "Ciabatta",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-37983680.jpg",
+    "assetSha256": "15fb8b0ae47e35786e4561693717ae1934495fc9cd5c28802216dc700efd9136",
+    "reviewedAt": "2026-11-18",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 549,
+    "requiresExactMenuName": true,
+    "authorUrl": "https://www.flickr.com/people/58819758@N00"
+  },
+  {
+    "id": "commons-2432268",
+    "title": "File:Ciabatta beef pastrami.jpg",
+    "author": "I,  Chensiyuan",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ciabatta_beef_pastrami.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/84/Ciabatta_beef_pastrami.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "d6a4c1d35e454b62e320a84c217d729d7a7647df",
+    "name": "Beef pastrami served in Ciabatta",
+    "aliases": [],
+    "proteins": [
+      "beef"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-2432268.jpg",
+    "assetSha256": "3e0925da74ccb1c80db3ae6272733662924c9ccde0aa3b0d07c08ab3c03b81d0",
+    "reviewedAt": "2026-11-18",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];
