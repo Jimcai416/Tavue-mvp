@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChATXDazyWAKWR95ReAa8",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Central dish clearly visible with noodles and protein components\",\n    \"Plate edges and border decoration visible\",\n    \"Adequate resolution for component recognition\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title states 'Nasi Pecel Madura' but the dish is predominantly noodles, not rice (nasi). The central component is clearly curried wheat or egg noodles, not pecel rice.\",\n    \"Description claims 'spiced chicken' but no chicken is visibly identifiable or explicitly named in a form matching the source title.\",\n    \"Description lists 'tofu, tempeh, eggs, spiced chicken, and kerupuk.poli' but source title does not name these components, creating contradictory identity evidence.\",\n    \"The dish structure (noodle-based with fried tofu, tempeh, egg, and fried items) does not align with standard Nasi Pecel Madura presentation (rice-based with vegetable peanut sauce).\"\n  ],\n  \"reason\": \"Identity mismatch: source title 'Nasi Pecel Madura' (rice-pecel dish) contradicts the visible photograph, which shows a noodle-based dish. The description introduces protein claims ('spiced chicken') not present in the canonical title and not reliably visible. The fundamental dish identity cannot be reconciled between title and form. Source metadata contains internal contradictions (title vs. description components) that prevent confident canonical naming or protein category assignment. Hold criteria met due to source contradiction and uncertain protein species.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1989,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 496,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

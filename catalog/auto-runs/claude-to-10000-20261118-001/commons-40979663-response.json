@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChATXfNJ6JN6WA5Z25guQ",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 2,\n    \"composition\": 2,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows diced yellow vegetables in a pale pot\",\n    \"Cannot distinguish individual components clearly at this scale\",\n    \"No visible cauliflower florets or distinct potato pieces recognizable\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title claims 'Aloo Gobhi' (potato and cauliflower), but the image appears to show only yellow diced potato with no visible raw or cooked cauliflower florets\",\n    \"The description lists 'Onion, Potato and Cauliflower' but onion and cauliflower are not visibly distinguishable in either the full or thumbnail image\",\n    \"Severe underexposure and poor focus make component identification unreliable\",\n    \"Image shows a preparation/cooking stage, not a finished, plated dish\"\n  ],\n  \"reason\": \"Reject: This is a mid-cooking preparation stage in a pot, not a finished dish suitable for food photography review. The image is severely underexposed and poorly focused (sharpness 2/5, lighting 2/5), making it impossible to verify the claimed components. The source title claims 'Aloo Gobhi' (potato and cauliflower), but no cauliflower is visibly present—only yellow diced potato is apparent. The dish is not appetising, not properly exposed, and lacks the essential clarity and finish required for acceptance. Home cooking is welcome, but this must be a completed, plated dish in natural daylight or proper lighting, not an in-progress pot photograph.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1764,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 494,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

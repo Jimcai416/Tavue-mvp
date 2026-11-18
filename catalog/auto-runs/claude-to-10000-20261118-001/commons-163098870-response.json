@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChATXfisaoQP27przrFs3",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Stewed meat in deep brown gravy with visible chunks\",\n    \"Green herb garnish (likely cilantro) sprinkled on top\",\n    \"Cooked in red enamelled cast iron Dutch oven\",\n    \"Rich, glossy sauce characteristic of rogan josh preparation\"\n  ],\n  \"phone_observations\": [\n    \"Meat and gravy clearly visible in thumbnail\",\n    \"Brown sauce colour consistent with spiced preparation\",\n    \"Dish prominently displayed, not clipped\",\n    \"Essential components readable at small scale\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title states 'Mutton Rogan Josh' but mutton is an ambiguous term that may refer to goat or sheep; species cannot be visually confirmed from photograph alone\",\n    \"Description references 'Café Ilang-Ilang Manila Hotel heritage dishes' but this contradicts the mutton rogan josh identity, which is associated with Indian/Kashmir cuisine, not Filipino heritage cuisine; no clear reconciliation of this geographical/culinary inconsistency\"\n  ],\n  \"reason\": \"Hold due to unresolved ambiguities: (1) 'mutton' is an imprecise species designation that could indicate either sheep or goat, violating the requirement for exact animal identification; (2) the source description claims this is a heritage dish from Café Ilang-Ilang Manila Hotel (Filipino), which contradicts the Indian/Kashmiri identity of rogan josh, creating a source consistency problem that cannot be resolved visually. Photograph quality and food presentation are acceptable, but identity verification cannot proceed without clarification of the actual protein species and resolution of the culinary/geographical contradiction in the metadata.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1739,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 522,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
