@@ -4980,3 +4980,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Or lam pork stew** — Jpatokal. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Or_Lam_at_Amantaka.jpg). Local asset: `reviewed-commons-124695111.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Khao niao sangkhaya** — Takeaway. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Khao_niao_sangkhaya.JPG). Local asset: `reviewed-commons-18291020.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.

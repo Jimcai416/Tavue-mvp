@@ -70342,5 +70342,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-18291020",
+    "title": "File:Khao niao sangkhaya.JPG",
+    "author": "Takeaway",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Khao_niao_sangkhaya.JPG",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/24/Khao_niao_sangkhaya.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "f6f1dda1b45bc821500ce464bd175fbbae3c8af0",
+    "name": "Khao niao sangkhaya",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-18291020.jpg",
+    "assetSha256": "f39495cbad95530564aa9b3e60e64acc437a195c47d10b88f57abd7276884d38",
+    "reviewedAt": "2026-11-18",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 636,
+    "requiresExactMenuName": true
   }
 ];
