@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAbPXH5iPQc1QNtsfFhL",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 2,\n    \"composition\": 3,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Plate visible with dark stewed meat and mashed potato/puree topping\",\n    \"Thumbnail confirms meat and starch elements present\",\n    \"Overall composition recognizable but heavily softened\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title contains 'borju pörkölt' (veal pörkölt) but also parenthetical 'carne guisada' (stewed meat generic); contradictory animal declaration\",\n    \"Severe softness and low resolution prevent confident species identification of the meat\",\n    \"Image colour cast and lighting make true appearance assessment impossible\",\n    \"File metadata (title/description) untrusted; visible meat form does not clearly confirm veal vs. other species\"\n  ],\n  \"reason\": \"Source title contains a contradiction: 'borju pörkölt' (veal) with parenthetical 'carne guisada' (generic stewed meat). Protein species cannot be reliably inferred from the severely soft, low-contrast, colour-cast photograph. Sharpness score of 2 and lighting score of 2 fall below the required threshold of >=4 for all scores. The image quality is too compromised to visually verify the declared identity or confirm the meat species. Holding pending clarification of the exact dish name and species, or a higher-quality photograph.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1751,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 450,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

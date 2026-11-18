@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAbQ7dosziQuhVu3EZtS",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 5,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Rich reddish-brown stew with visible meat chunks in glossy broth\",\n    \"Meat pieces appear cooked and tender\",\n    \"Natural colour consistent with paprika-based stew\",\n    \"Sharp detail across full frame and thumbnail\",\n    \"Clean white plate presentation\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows stewed meat in red-brown sauce\",\n    \"Central composition readable at small scale\",\n    \"Meat chunks and liquid visible and distinguishable\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title states 'Gulasch' but description parenthetically states '(actually: pörkölt)', creating direct contradiction about dish identity\",\n    \"Gulasch and pörkölt are distinct Hungarian dishes with different preparation methods; metadata conflict prevents canonical identification\",\n    \"No animal species explicitly named in source metadata\",\n    \"Meat species cannot be inferred from appearance alone\"\n  ],\n  \"reason\": \"Source metadata contains unresolved contradiction: title claims 'Gulasch' while description explicitly corrects it to 'pörkölt'. These are distinct dishes and the conflict prevents confident identity matching. No protein species is explicitly named in source title or description. The photograph itself is well-executed and appetising, but identity uncertainty and absent protein evidence require hold.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 2016,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 440,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

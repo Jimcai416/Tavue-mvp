@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAbPToUUSNMvju13NxYP",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Pot of red liquid visible in phone thumbnail\",\n    \"Small reddish-brown powder bowl visible\",\n    \"Composition matches full source\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title describes 'Russian borscht' but no finished dish is visible—only ingredient prep stage (a pot of broth/stock and a bowl of spice powder)\",\n    \"No cooked vegetables, meat, or other components visible that would constitute a finished borscht dish\",\n    \"Image appears to show preparation stage rather than a plated or served dish\"\n  ],\n  \"reason\": \"Reject: This is a preparation/ingredient stage photograph, not a finished dish. The image shows a pot of red liquid (likely broth) and a bowl of spice powder on a work surface—these are components in preparation, not a recognizable finished borscht ready for consumption. Tavue accepts finished, exposed dishes with identifiable components. Raw/preparation stages must be rejected per guidelines. The source title claims 'Borscht' but no cooked vegetable mix, meat (if any), or finished plated/bowl presentation is visible.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1654,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 401,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
