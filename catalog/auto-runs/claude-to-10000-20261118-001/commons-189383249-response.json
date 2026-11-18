@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAWXaZvHMZzDGfvLvNgF",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows cooked, shredded/chopped meat pile clearly\",\n    \"Brown-gray coloration consistent with full image\",\n    \"Prominent meat subject, readable texture and form\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Species ambiguous: metadata describes 'pork or beef' as speculation, not definitive identification\",\n    \"No explicit dish name supplied in source title or description\",\n    \"Title contains only generic functional description ('savory chopped cooked meat') with no canonical dish identity\",\n    \"Metadata speculates on possible uses (pulled pork, carnitas, taco filling) but does not confirm actual dish\"\n  ],\n  \"reason\": \"Rejection due to identity failure. The source title provides only a generic descriptive phrase ('savory chopped cooked meat piled on a plate ready to serve') without naming a specific dish. The description explicitly states the meat species is uncertain ('might be pork or beef') and proposes possible end-uses rather than identifying the actual prepared dish. No canonical_name can be extracted from the source that specifies what this dish actually is. The photograph shows a finished, well-cooked meat preparation suitable for intake in principle, but without an explicit source-identified dish name and with unresolved protein species ambiguity, identity requirements cannot be satisfied.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1768,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 438,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

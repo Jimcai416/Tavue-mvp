@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAWXahM6GqWbY8t5PiP3",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Dark reddish-brown soup in white bowl\",\n    \"White dollop of sour cream or similar garnish\",\n    \"Toast on side of plate\",\n    \"Spoon present\",\n    \"Striped cloth placemat\"\n  ],\n  \"phone_observations\": [\n    \"Soup visible and recognizable in phone thumbnail\",\n    \"Garnish visible\",\n    \"Appropriate centre-cover framing\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title states 'Black bean soup' but visible soup appears reddish-brown rather than black, inconsistent with black bean soup colour\",\n    \"Colour mismatch between source description (black turtle bean) and actual dish appearance (brown/reddish broth)\"\n  ],\n  \"reason\": \"Identity check fails. The source metadata declares 'Black bean soup' made with black turtle beans, but the photographed dish displays a distinctly reddish-brown soup, not the dark black or very dark brown colour expected from black bean soup. This is a significant visual contradiction between the declared identity and the visible form. The photograph quality is acceptable, but the fundamental identity mismatch prevents acceptance.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1934,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 403,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

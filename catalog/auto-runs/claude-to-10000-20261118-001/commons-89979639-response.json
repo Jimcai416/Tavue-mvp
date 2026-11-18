@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAWXag7Us5WD7BMLVJVB",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Red/orange rice visible on left side of plate\",\n    \"Yellow enchiladas with visible sauce coating and herbs on right\",\n    \"Finished, plated dish in container\"\n  ],\n  \"phone_observations\": [\n    \"Red rice and yellow enchiladas clearly visible in thumbnail\",\n    \"Main components prominent and readable\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title states 'green sauce enchiladas' but photo shows yellow sauce, not green\",\n    \"No protein (chicken/beef/pork/duck/lamb/seafood) explicitly named in source description\",\n    \"Title contradiction: 'green sauce' vs. visible yellow sauce in image\"\n  ],\n  \"reason\": \"Reject: Identity check fails. Source description claims 'Verde (green) sauce enchiladas' but the photograph clearly displays yellow/golden sauce on the enchiladas, not green. This is a material contradiction between the declared identity and visible form. Additionally, no protein is explicitly named in the source metadata—only the sauce colour and rice type are specified. The image quality and composition are acceptable, but the identity mismatch prevents acceptance.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1574,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 395,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
