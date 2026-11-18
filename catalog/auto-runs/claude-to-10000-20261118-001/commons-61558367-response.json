@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBGhnQCnJy9nhexFquyu",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Orange-red mashed or shredded preparation clearly visible in centre thumbnail\",\n    \"Served in disposable clear plastic plate\",\n    \"Adequate size and prominence in phone view\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source metadata lists 'Afritadang talong' (eggplant afritada) but also mentions 'Purefoods Chicken Afritada' and 'Shredded chicken breast'—conflicting identity\",\n    \"Visual appearance is consistent with a shredded meat or processed protein preparation, NOT eggplant afritada (which would show visible eggplant chunks)\",\n    \"Metadata contains multiple dish names and descriptions; the actual dish identity cannot be reliably determined from visual evidence alone\",\n    \"Title references eggplants but the visible contents show no recognizable eggplant structure\"\n  ],\n  \"reason\": \"Source metadata is internally contradictory and does not match visible content. The description lists 'Afritadang talong' (eggplant afritada) in the title, but the visible dish appears to be a shredded meat preparation with no visible eggplant structure. The metadata also simultaneously references 'Chicken Afritada' with 'Shredded chicken breast.' The visual evidence does not support eggplant as the primary component, and the source does not provide a single, unambiguous canonical identity. This contradicts the requirement that identity must agree with exact source title/description and visible form. Hold for clarification of actual dish identity.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1908,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 497,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
