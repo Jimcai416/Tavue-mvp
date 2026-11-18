@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAncrGUU9Qa9tD2GuE6A",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Orange-glazed shrimp with curved form prominent in foreground\",\n    \"Golden-brown cakes visible in background blur\",\n    \"White rectangular plate, professional plating\",\n    \"Natural lighting, appetising colour\",\n    \"Multiple canapés arranged in line\"\n  ],\n  \"phone_observations\": [\n    \"Shrimp canape clearly visible in phone thumbnail\",\n    \"Golden cakes distinguishable in background\",\n    \"Plate and plating evident\",\n    \"Sufficient detail for recognition\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source lists multiple distinct dishes (Dungeness Crab & Shrimp Cakes, Prawns Piri Piri, Bolhinos de Bacalhau, Pate au Foie Gras do Canard, Nicoise Salad) but photograph shows a plated selection/flight\",\n    \"Foreground shrimp identity unclear: could be the 'Prawns Piri Piri' but no Portuguese chili sauce visually confirmed; could also be part of 'Dungeness Crab & Shrimp Cakes'\",\n    \"Golden cakes in background: source lists both shrimp cakes AND salt cod fritters (Bolhinos de Bacalhau) — which cakes are these?\",\n    \"No single canonical dish name matches the visible composed selection as a unified item\",\n    \"Source description lists five separate dishes, not a named multi-item canape selection\"\n  ],\n  \"reason\": \"Source lists five distinct individual dishes (crab & shrimp cakes, prawns piri piri, bacalhau fritters, foie gras pate, nicoise salad) presented as separate menu items, not as a unified named dish. The photograph shows a composed flight/selection of multiple canapes, but no source title or description provides a canonical name for this specific plated arrangement. Identity cannot be resolved to a single exact source phrase. The photograph itself is sharp, well-lit, and appetising, but without a matching canonical dish name in the source metadata, acceptance cannot proceed. Hold for source clarification of the intended dish name.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1839,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 630,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

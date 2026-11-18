@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAncwWjmFm7jty4G7T4y",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Cooked shrimp/prawn visible in centre-foreground with caramelized glaze\",\n    \"Three distinct canapé components on white rectangular plate\",\n    \"Fine dining plating with professional presentation\"\n  ],\n  \"phone_observations\": [\n    \"Centre thumbnail shows orange-glazed shrimp/prawn clearly\",\n    \"Three canapé components visible in thumbnail arrangement\",\n    \"Shrimp protein prominent and readable\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source lists four named dishes but photograph shows only three canapé components; mapping unclear\",\n    \"Prominent shrimp/prawn visible but source uses both 'Prawns Piri Piri' and 'Dungeness Crab & Shrimp Cakes' — cannot determine which component is photographed or if both are present\",\n    \"Pate au Foie Gras component visible (lower right) but duck liver pâté is not an allowed protein category\",\n    \"No explicit source quote isolates a single canonical dish name matching the photographed composition\"\n  ],\n  \"reason\": \"Source describes a 'Canapes selection' but lists four distinct named dishes (Crab & Shrimp Cakes, Prawns Piri Piri, Bolhinos de Bacalhau, Pate au Foie Gras, plus Nicoise Salad). The photograph shows three canapé components, one of which is clearly a cooked shrimp/prawn. However, it is impossible to determine which of the named dishes corresponds to the photographed elements, or whether the shrimp is part of 'Dungeness Crab & Shrimp Cakes' or 'Prawns Piri Piri.' No single canonical_name can be extracted from the source that matches the specific composition shown. The pâté component is visible but duck liver is not an allowed protein category. Ambiguous identity mapping prevents acceptance.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1839,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 590,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
