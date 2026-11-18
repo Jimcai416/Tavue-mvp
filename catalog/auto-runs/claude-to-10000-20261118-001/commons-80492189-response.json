@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAmewHYg3iHTQJcWFRoW",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 3,\n    \"lighting\": 3,\n    \"composition\": 2,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows a preparation/washing stage, not a finished dish\",\n    \"Raw green leaves being rinsed under running water in a purple basin\",\n    \"No plated or exposed finished food visible\",\n    \"Hand actively washing/handling raw ingredient\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims Dolmeh Barg-e Mo (grape leaf dolma), but image shows only raw leaf preparation stage\",\n    \"No finished, cooked, or plated dolma visible in either full photograph or thumbnail\",\n    \"Photograph documents food preparation, not a finished dish\"\n  ],\n  \"reason\": \"Image shows a raw ingredient preparation stage (washing grape leaves under running water), not a finished, exposed, appetising dish. The source description indicates Dolmeh Barg-e Mo, but no completed dolma is visible—only uncooked leaves being cleaned. Phone thumbnail confirms this is mid-preparation, not a finished food photograph. Rejects on photograph quality (preparation stage), phone quality (uncooked ingredient), and appeal (not a finished dish).\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1626,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 389,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
