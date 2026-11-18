@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAXFK1D4i7akQ9X8q51C",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Five fried meatballs in oil in a dark pan\",\n    \"Golden-brown exterior with spice coating visible\",\n    \"Oil bubbling around patties indicates active frying\",\n    \"Phone thumbnail captures patties and pan clearly\"\n  ],\n  \"phone_observations\": [\n    \"Four meatballs clearly visible in thumbnail\",\n    \"Pan and oil visible\",\n    \"Golden-brown colour and form distinct\",\n    \"Adequate detail for recognition\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title says 'Hommade fried meatballs' but provides no specific dish name, regional variant, or protein species\",\n    \"No explicit statement of meat type (beef/pork/lamb/chicken/duck/seafood) in title or description\",\n    \"Generic 'meatballs' cannot be assigned to a canonical dish without species declaration\",\n    \"Description is too vague to preserve meaningful identity\"\n  ],\n  \"reason\": \"Rejection: The source provides only a generic description ('Hommade fried meatballs') with no specific dish name, regional qualifier, or explicit protein species declaration. Per rules, unknown meat species and source-declared generics without specificity require hold or rejection. The photograph itself is well-executed and sharp, but identity cannot be established from the vague metadata. A canonical name cannot be drawn from an unspecified generic dish category.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1519,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 457,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

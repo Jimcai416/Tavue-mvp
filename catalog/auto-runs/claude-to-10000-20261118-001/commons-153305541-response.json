@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAXFTBaeNt31eE7LinH6",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Finished, cooked dish clearly visible\",\n    \"Creamy pale purée base characteristic of hummus\",\n    \"Prominent chickpeas in sauce scattered across surface\",\n    \"Fresh green herbs (parsley) garnish\",\n    \"Red/orange sauce visible in sections\",\n    \"Authentic presentation on white plate\",\n    \"Natural lighting, appetising appearance\",\n    \"Sharp detail in both source and thumbnail\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows hummus-like purée base\",\n    \"Chickpeas and toppings readable and prominent\",\n    \"Garnish visible, natural colours preserved\",\n    \"Dish centre well-framed and exposed\",\n    \"No clipping of essential components\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title describes 'حمص مع فول' (hummus with fava beans) but visual identification cannot distinguish chickpeas from fava beans with certainty\",\n    \"Source metadata contains Arabic text and untrusted filename; exact English dish identity unclear\",\n    \"Fava bean presence unconfirmed visually; legume species ambiguous from appearance alone\",\n    \"Description claims 'Palestinian heritage' but no source-quoted English canonical name provided to verify exact dish identity\",\n    \"Protein category cannot be assigned: no explicit animal protein named in source title or description\"\n  ],\n  \"reason\": \"Reject identity check: source metadata is in Arabic with untrusted filename; no explicit English dish name or exact variant phrasing provided by source. Visual evidence shows a legume-based purée (hummus or similar) with cooked legumes, but cannot visually confirm whether the whole legumes are chickpeas or fava beans. Source description 'صحن حمص مع فول' is ambiguous—'حمص' means chickpeas, 'فول' means fava beans—but exact English canonical name and variant qualifiers are not supplied by source in a trusted format. No animal proteins named. Cannot proceed without exact source-quoted English dish identity and confirmation of legume species. Hold for clarification.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1747,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 618,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

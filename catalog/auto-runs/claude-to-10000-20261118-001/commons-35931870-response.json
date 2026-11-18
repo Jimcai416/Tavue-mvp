@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAXEnUufpFbLF3N4V64c",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Banana leaf wrapping visible in left dish\",\n    \"Dark braised meat in banana leaf parcel\",\n    \"White starch base (posho/ugali) visible\",\n    \"Thin flatbread (chapatti) on right plate\",\n    \"Golden-brown fried plantain (matoke) visible\",\n    \"Beans in white dish at top rear\",\n    \"Rustic, home-cooked presentation\"\n  ],\n  \"phone_observations\": [\n    \"Banana-leaf-wrapped meat dish clearly visible in thumbnail\",\n    \"White starch component readable\",\n    \"Golden fried plantain strips visible\",\n    \"Flatbread present on right side\",\n    \"Distinct plating of multiple components\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title states 'goat meat' but photograph cannot visually confirm species—meat appears dark and braised, consistent with goat but indistinguishable from beef or other dark meat in cooked form\",\n    \"Description lists 'mboga (green vegetables)' but no green vegetables are clearly visible in the photograph; only beans, starch, meat, plantain and bread are evident\",\n    \"Source description mentions components not clearly present or visible (e.g. mboga/green vegetables)\"\n  ],\n  \"reason\": \"Identity check fails. The source description claims 'goat meat' and 'mboga (green vegetables)', but neither can be visually confirmed in the photograph. Cooked braised meat cannot be reliably identified to species by appearance alone. The absence of visible green vegetables contradicts the description. Per protocol, unknown or unconfirmed meat species and source-description mismatches require hold. All quality, photograph and phone checks pass; sharpness, lighting, composition and appeal are all adequate (≥4). The dish is a finished, exposed, naturally coloured, appetising traditional Ugandan meal with sharp detail and readable components in the thumbnail. However, protein species cannot be confirmed visually, and visible components do not fully match the source description.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1585,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 598,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

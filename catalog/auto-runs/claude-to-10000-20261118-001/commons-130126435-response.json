@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAXEz1D5TwxdPYBx63ip",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 5,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Dark braised legume and meat stew in rich gravy occupies upper half\",\n    \"White and yellow rice portions with fresh green herb garnish\",\n    \"Yellow citrus segment (lemon or orange) visible lower left\",\n    \"Coarse golden farofa (cassava flour) portion bottom right\",\n    \"Decorative black-and-white patterned serving plate\",\n    \"Finished, exposed dish with natural colours and sharp detail\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows stew, rice, citrus, and greens in correct layout\",\n    \"Dark braised meat and bean components prominent in upper portion\",\n    \"Rice and accompaniments visible and readable\",\n    \"Overall composition matches full image scaling\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title 'File:Feijoada Carioca de Sexta Feira.jpg' contains filename syntax and day-of-week qualifier ('Sexta Feira'/'Friday'); canonical title extraction unclear\",\n    \"Description 'cozido de feijões e carnes' (stewed beans and meats) names no specific meat species—ambiguous species cannot be declared as evidence\",\n    \"Feijoada traditionally contains pork and beef, but tradition alone is not visual proof; visible meat is unidentified in source\",\n    \"No explicit, case-sensitive animal name in supplied title or description to anchor protein_evidence\"\n  ],\n  \"reason\": \"Photograph quality, sharpness, lighting, composition and appeal all excellent (scores 4–5); dish is finished, naturally coloured, appetising and prominently displayed with readable components in both full and thumbnail views. However, the source title includes non-canonical metadata (filename prefix 'File:' and day qualifier 'Sexta Feira') and the description provides only the generic term 'carnes' (meats) without naming any specific animal species. Feijoada identity is traditional and visually consistent, but canonical naming cannot be extracted from the supplied source without ambiguity, and no explicit protein species is named in title or description to meet protein evidence requirements. Hold pending clarified source title and meat specification.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 2018,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 632,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
