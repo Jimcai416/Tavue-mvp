@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAXnP4tWEi45GsinrL34",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Sauerkraut (fermented cabbage) with visible shreds and pale colour\",\n    \"Poached or boiled egg white, clearly visible\",\n    \"Lemon wedge (yellow citrus quarter)\",\n    \"Sausage/cured meat product (reddish-brown, unspecified species)\",\n    \"Garnish with fresh herbs (chives or parsley)\",\n    \"White plate with decorative blue floral rim\",\n    \"Professional plating consistent with Alsatian choucroute\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows sauerkraut, egg, lemon and sausage\",\n    \"Components are distinct and recognisable at small size\",\n    \"Natural colours preserved in reduction\",\n    \"Composition remains coherent and appetising\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title references 'Choucroute' (traditional Alsatian dish) but provides no specific dish name or protein identification\",\n    \"Sausage species cannot be determined from appearance—could be pork, beef, or mixed; source provides no explicit animal name\",\n    \"Exact dish variant (e.g. 'Choucroute Garnie', specific meat composition) is not stated in source metadata\",\n    \"No explicit confirmation of which proteins are present beyond visual inference\"\n  ],\n  \"reason\": \"Image quality, sharpness, lighting, composition and appeal are all strong (scores ≥4). The photograph clearly shows a finished choucroute dish with sauerkraut, egg, lemon and sausage, naturally coloured and appetising. The phone thumbnail is sharp and readable. However, identity check fails: the source title/description does not provide a specific canonical dish name—it only names the location ('Le Clou @ Strasbourg') and ingredient category ('Choucroute'). More critically, protein_evidence cannot be populated: the sausage visible in the dish cannot be definitively identified by species from appearance alone, and the source metadata does not explicitly name any animal protein. Without an exact source quote identifying the dish variant and protein components, and with no explicit animal name in source text, the hold rule is triggered. A specific dish name (e.g. 'Choucroute Garnie with pork sausage') and explicit protein identification in source metadata are required for acceptance.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1654,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 678,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

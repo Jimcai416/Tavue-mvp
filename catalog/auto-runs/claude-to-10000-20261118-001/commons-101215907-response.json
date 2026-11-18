@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAXm6A8LWY3wnBTeFJjz",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Finished, cooked dish with shredded potato base\",\n    \"Multiple sliced cured meats (ham, sausage variants) arranged on top\",\n    \"Natural colour, prominent subject on white plate\",\n    \"Readable components in phone thumbnail\"\n  ],\n  \"phone_observations\": [\n    \"Dish remains identifiable in thumbnail\",\n    \"Shredded potato and meat layers visible\",\n    \"No clipping of essential food elements\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"No source title or description provided to identify the specific dish\",\n    \"Metadata only contains generic photo archive information ('Divers 2021 - January') with no dish identification\",\n    \"Cured meat species and types cannot be confirmed without source dish name\",\n    \"Cannot determine if this is a named regional variant (e.g., raclette, choucroute, regional potato dish) or preparation method\"\n  ],\n  \"reason\": \"Identity check fails. The source metadata provides only a generic archive filename and bilingual photo collection descriptor ('Divers 2021', 'Various pictures taken in 2021 without real subject'), not a dish title or description. The photograph shows what appears to be a shredded potato dish with multiple cured meats, but without a source-provided canonical dish name or identity statement, identity cannot be verified. Protein species cannot be named from visual appearance alone without explicit source attribution. Acceptance requires a specific, non-generic source title or description that names the dish and any meat components.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 2021,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 482,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

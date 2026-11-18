@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAXnJ7VQueQqgLbpwPwM",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": \"noodles with minced chicken\",\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [\n    \"Pale yellow noodles in aluminium container\",\n    \"Brown minced meat topping with visible seasoning\",\n    \"Accompanying condiments (pickled vegetables, sauce packets, beverage)\",\n    \"Airline meal service context\"\n  ],\n  \"phone_observations\": [\n    \"Noodle dish clearly visible in thumbnail\",\n    \"Meat topping prominent and distinguishable\",\n    \"Complete dish composition readable at thumbnail scale\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title states 'minced chicken' but visual appearance is consistent with beef or pork mince; colour and texture do not definitively confirm chicken species\",\n    \"Meat species cannot be reliably determined from appearance alone in airline meal context\",\n    \"Description mentions 'two choices of meals' but does not explicitly confirm this specific container is the chicken variant\"\n  ],\n  \"reason\": \"Identity check fails: the source description identifies the dish as 'noodles with minced chicken', but the visual appearance of the cooked minced meat topping (brownish colour, texture, cooking style) is ambiguous and does not provide reliable visual confirmation of chicken as the specific protein. The title/description conflict with visual evidence cannot be resolved by appearance alone. Protein identity requires explicit source naming, and while the source does state 'chicken', the actual visual evidence does not unambiguously support this species identification. Hold pending clarification of protein species through definitive source documentation or additional identifying features.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1690,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 475,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
