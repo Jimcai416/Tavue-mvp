@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAymwt77u7VoehfAt6YM",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows raw/partially cooked meat pieces and onions in preparation stage\",\n    \"No finished, exposed dish visible in phone thumbnail\",\n    \"Raw or intermediate cooking stage evident\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Species ambiguity: description claims 'beef' but source metadata is unreliable and cannot be verified visually from raw meat appearance alone\",\n    \"Preparation stage, not finished dish: image shows sealing/browning phase, not a completed plated dish\"\n  ],\n  \"reason\": \"Reject: This is a preparation/intermediate cooking stage (sealing beef for goulash), not a finished, exposed, plated dish. The source description metadata identifies species as 'beef', but metadata is explicitly untrusted per guidelines and cannot be verified from raw meat appearance. The photograph and thumbnail both show raw or partially cooked meat with onions in a pan—a cooking process stage, not a served dish suitable for food photography review. Additionally, protein_evidence cannot include unverified species claims from metadata alone.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1722,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 379,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
