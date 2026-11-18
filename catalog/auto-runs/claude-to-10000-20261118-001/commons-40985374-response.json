@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChB7orDmCCwicjdDxMEne",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Metal bowl with spiced curry containing visible chunks of pale protein\",\n    \"Wheat roti with charred spots on plate above bowl\",\n    \"Fresh vegetable accompaniments: tomato slices, cucumber, onion, lemon wedges, carrot\"\n  ],\n  \"phone_observations\": [\n    \"Curry bowl clearly visible with orange-brown gravy\",\n    \"Protein chunks identifiable but species ambiguous at thumbnail scale\",\n    \"Roti and vegetables present in peripheral view\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title states 'PANEER GRAVY' but the visible protein chunks appear larger and more opaque than typical paneer; they resemble cooked chicken, meat, or possibly paneer at an ambiguous scale\",\n    \"No explicit source quote unambiguously confirms paneer as the protein—'paneer gravy' in the title could refer to the sauce style rather than guaranteed ingredient\",\n    \"Protein species cannot be definitively confirmed from visual appearance alone\"\n  ],\n  \"reason\": \"Reject: Identity check fails. The source title claims 'Paneer Gravy' but paneer is not an allowed protein category (only chicken/beef/pork/duck/lamb/seafood are supported). The visible protein chunks are visually ambiguous—they could be paneer, chicken, or another meat. Without an explicit source quote naming an allowed protein species, and given the visual ambiguity, the dish cannot be accepted. The photograph and phone thumbnail are of high quality and show a finished, appetising curry dish, but the protein identity cannot be verified against allowed categories.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1623,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 501,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
