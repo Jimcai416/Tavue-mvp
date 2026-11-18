@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChB2RkCg4xieA7Jxr8v5A",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"White bowl with creamy curry sauce, green herb garnish, spoon present\",\n    \"Naan breads in basket with char marks, clearly baked\",\n    \"Sliced red onions on side plate\",\n    \"Restaurant table setting with ambient lighting\"\n  ],\n  \"phone_observations\": [\n    \"Curry bowl prominent and readable in thumbnail\",\n    \"Naan basket visible in upper portion\",\n    \"Red onion slices identifiable\",\n    \"Overall composition legible at 124x96 resolution\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title 'Naan chappathi.jpg' is a filename, not a dish name or description\",\n    \"Description 'Naan time' is marketing/colloquial, not a canonical dish identifier\",\n    \"Curry identity unspecified—no source text declares the gravy type (butter chicken, paneer tikka masala, dal, etc.)\",\n    \"No protein species explicitly named in provided metadata\",\n    \"Metadata does not contain a formal dish title matching visible content\"\n  ],\n  \"reason\": \"Identity check fails. The source provides only a filename ('Naan chappathi.jpg') and casual description ('Naan time'), neither of which constitutes a specific, formal dish name. The curry sauce visible in the bowl cannot be identified from the metadata alone—no source text declares butter, paneer, chicken, lentils or any other key ingredient. Without an explicit canonical dish name and protein declaration from the source, identity cannot be verified. Photograph and phone thumbnail are well-exposed and appetising, but metadata ambiguity and lack of a verifiable source description block acceptance.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1513,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 517,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

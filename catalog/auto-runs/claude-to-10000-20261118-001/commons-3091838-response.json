@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChB2SAipR6pMMYM6gyFbN",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Yellow-green broth consistent with Vietnamese banh canh\",\n    \"Thick noodles visible in both full image and thumbnail\",\n    \"Fresh cilantro and green onion garnish\",\n    \"Diced red chilli visible\",\n    \"Pale round items consistent with fish balls or tofu\",\n    \"Brown meat visible in full image\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows bowl of soup with noodles and garnish\",\n    \"Yellow-green broth prominent\",\n    \"Garnish and components readable\",\n    \"Composition matches full source photograph\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title lists 'pork, fish balls, prawn cakes and fried tofu' but no explicit animal protein name appears as a quoted substring from the title\",\n    \"The title phrase 'Vietnamese banh canh noodle soup with pork, fish balls, prawn cakes and fried tofu' contains multiple proteins, but metadata format does not provide a clear canonical name matching the exact title structure\",\n    \"Brown visible meat in image cannot be definitively matched to 'pork' without explicit source quote confirmation of which protein is the primary/named component\",\n    \"Fish balls, prawn cakes, and fried tofu are present but source description does not form a standard dish canonical name phrase\"\n  ],\n  \"reason\": \"Photograph quality is excellent (sharp, well-lit, appetising, prominent subject with readable components in thumbnail). However, the source metadata presents a compound description ('Vietnamese banh canh noodle soup with pork, fish balls, prawn cakes and fried tofu') that lists multiple proteins without a single canonical phrase. Per rules, proteins require exact source quote with explicit animal naming. The description contains multiple protein sources (pork/fish balls/prawn cakes/tofu) but does not constitute a standard canonical dish name. The title is a filename without a clear canonical phrase to extract. While the dish is identifiable as banh canh, the specific protein composition and canonical phrasing remain ambiguous relative to the metadata structure provided. Hold pending clarification of the actual dish name and primary protein designation.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1490,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 629,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
