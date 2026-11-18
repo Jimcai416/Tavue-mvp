@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBD8nzevjvgM1Br4cbV1",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Finished, cooked dish with exposed components\",\n    \"Sharp detail of potato/bread base and toppings in both images\",\n    \"Natural colour, appetising spiced presentation\",\n    \"Red chaat masala and black pepper visible\",\n    \"White plate, home/street food style\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows spiced chaat components\",\n    \"Red/brown spicing and white base legible\",\n    \"Composition and subject prominence adequate for recognition\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title states 'Delhi Chaat with saunth chutney' but visible form is ambiguous—appears to be potato-based chaat (possibly aloo chaat) with specific preparation unclear\",\n    \"Exact chaat variant (aloo chaat, dahi bhalle, pani puri components, or other) cannot be definitively identified from visual inspection alone\",\n    \"Description metadata ('Really yummy & spicy') is promotional, not identity confirmation\"\n  ],\n  \"reason\": \"Identity check fails. The source title 'Delhi Chaat with saunth chutney' is a category descriptor with chutney specification, not a precise canonical dish name. The visible form—a spiced potato or bread-based preparation—matches general chaat family characteristics, but the specific chaat variant (aloo chaat, dahi bhalle, potato chaat, etc.) cannot be visually confirmed from the photograph. Without explicit source confirmation of the exact dish type, canonical name cannot be safely extracted. Quality, photograph, phone, and visual appeal checks all pass. Hold pending source clarity on specific chaat variant.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1744,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 513,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
