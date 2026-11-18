@@ -73009,5 +73009,51 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 723,
     "height": 960,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-186759679",
+    "title": "File:Tender Beef Noodle Soup (Large) - Mi Rice and noodles 2026-03-17.jpg",
+    "author": "Andy Li",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tender_Beef_Noodle_Soup_(Large)_-_Mi_Rice_and_noodles_2026-03-17.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Tender_Beef_Noodle_Soup_%28Large%29_-_Mi_Rice_and_noodles_2026-03-17.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "79713acd377dc8e9cc5d67be83dd0a09bb96d320",
+    "name": "Tender Beef Noodle Soup (Large)",
+    "aliases": [],
+    "proteins": [
+      "beef"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-186759679.jpg",
+    "assetSha256": "c6568c6d5162e4a8126a6574a2cacb9c056581523694001e51fcf25e2cbe12c1",
+    "reviewedAt": "2026-11-18",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 723,
+    "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-40982850",
+    "title": "File:Uttapam with Coconut Chutney.jpg",
+    "author": "Nsaumya",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Uttapam_with_Coconut_Chutney.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Uttapam_with_Coconut_Chutney.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "5aa9647e804c6017ceaec788913913e067ae2e34",
+    "name": "Uttapam with Coconut Chutney",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-40982850.jpg",
+    "assetSha256": "353574dc81f585e8cfd3bafffd982ddeeb71144cfeec92ef35f20c107290a3aa",
+    "reviewedAt": "2026-11-18",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 752,
+    "requiresExactMenuName": true
   }
 ];
