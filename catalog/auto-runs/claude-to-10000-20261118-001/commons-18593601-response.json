@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAgot3jmcJd9KhQtDCoe",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Cooked sauce/paste with visible vegetable pieces (orange/red and pale green elements)\",\n    \"Glossy, oily finish consistent with sambal preparation\",\n    \"Served in bright coral/pink plate\",\n    \"Natural daylight photography, home/street food setting\"\n  ],\n  \"phone_observations\": [\n    \"Sauce-based dish clearly visible and prominent in thumbnail\",\n    \"Colour and texture consistent with full image\",\n    \"Readable as a finished cooked dish\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'Sambal served with grilled fish' but no fish is visible in either photograph—only the sambal paste itself is shown\",\n    \"Description states this is sambal paired with grilled fish, but the grilled fish component is absent or entirely clipped from frame\",\n    \"Identity mismatch: the visible dish is sambal alone, not 'sambal ikan bakar' (grilled fish sambal) as titled\"\n  ],\n  \"reason\": \"The source title/description ('Sambal served with grilled fish, Makassar' / 'Sambal ikan bakar Makassar') explicitly claims this is a dish of sambal WITH grilled fish. However, the photograph shows only the sambal paste—no grilled fish is visible in the full image or thumbnail. The essential named component (grilled fish) is either missing or entirely clipped, creating a source-description mismatch. The sambal itself is well-photographed and appetising, but identity cannot be confirmed because the dish as described is not fully present. Hold criteria satisfied: identity check fails due to undeclared absence of a primary named ingredient.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1731,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 520,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAgojazerBTpcepap9xc",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Noodles visible in broth\",\n    \"Yellow vegetables (bok choi) prominent\",\n    \"Prawn visible\",\n    \"White bowl presentation\",\n    \"Clear broth\",\n    \"Dark vegetables (mushrooms/seaweed) scattered throughout\"\n  ],\n  \"phone_observations\": [\n    \"Yellow vegetable clearly visible in thumbnail\",\n    \"Noodles and protein visible\",\n    \"Bowl contents well-framed\",\n    \"Sufficient detail to identify dish type\"\n  ],\n  \"protein_evidence\": {\n    \"seafood\": \"sweet prawn\",\n    \"chicken\": \"shredded chicken meat\"\n  },\n  \"uncertainties\": [\n    \"Source title references only 'File:Wonton noodle soup' but description lists 'sweet prawn' and 'shredded chicken meat' without confirming wonton presence in visible dish—no wontons clearly identifiable in photograph\",\n    \"Exact canonical dish name cannot be verified from visible form against source title alone; metadata description is supplementary but does not resolve the dish identity discrepancy\"\n  ],\n  \"reason\": \"Identity check fails. Source title is 'Wonton noodle soup' but the description lists ingredients (prawn, chicken, mushrooms, bok choi) without confirming wontons are present or visible in the photograph. No wonton dumplings are clearly identifiable in the bowl. The metadata description does not match the title precisely enough to establish the exact canonical name. Although photograph and phone thumbnail quality are acceptable and proteins are explicitly named in the source description, the core identity of the dish cannot be verified as matching the title without visual confirmation of wontons. Hold pending clarification of actual dish identity.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1484,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 520,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
