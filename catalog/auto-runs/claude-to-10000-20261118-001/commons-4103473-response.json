@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChB8Vgx2DUe4qkMoMeigm",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 5,\n    \"composition\": 5,\n    \"appeal\": 5\n  },\n  \"visible_support\": [\n    \"Finished, cooked meat dumplings in rich brown sauce, prominently plated\",\n    \"Fresh vegetable garnish: cucumber slices, tomato, fresh herbs, carrot decorations\",\n    \"Sauerkraut visible as pale shredded bed beneath the dumplings\",\n    \"Toasted bread slices in background plate\",\n    \"Appetising presentation with natural colours and sharp detail\"\n  ],\n  \"phone_observations\": [\n    \"Central plated dish clearly visible in thumbnail\",\n    \"Brown meat dumplings with sauce are prominent and sharp\",\n    \"Green herbs and vegetable garnish readable\",\n    \"Sauerkraut base distinguishable\",\n    \"Overall composition and food identity clear in thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title 'Lewwerknepp mit Sauerkraut' appears to be a misspelling or variant of 'Leberknödel mit Sauerkraut' (liver dumplings). The description states 'Leberknödel' (liver dumplings), but the title differs.\",\n    \"Liver is not an explicitly allowed protein category (chicken/beef/pork/duck/lamb/seafood only). The source declares 'Leberknödel' (liver dumplings) but liver cannot be accepted under the protein categories.\",\n    \"Source metadata contains contradictory dish names between title and description.\",\n    \"Animal source of liver not specified in metadata.\"\n  ],\n  \"reason\": \"The photograph shows a finished, beautifully presented dish with excellent quality, sharpness, lighting and composition (all scores 5/5). The phone thumbnail is clear and readable. However, the dish identity cannot be accepted: the source title 'Lewwerknepp mit Sauerkraut' conflicts with the description 'Leberknödel mit Sauerkraut', and more critically, the protein is liver (Leber), which falls outside the allowed category list (chicken/beef/pork/duck/lamb/seafood). Liver and organ meats are not supported under the current protein schema. The source does not provide explicit animal species attribution for the liver. Hold for clarification of authoritative English/German dish name and to confirm whether a non-liver variant exists, or for policy review if organ meats should be supported.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1797,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 674,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
