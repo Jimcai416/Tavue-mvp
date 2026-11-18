@@ -5656,3 +5656,8 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Enchiladas suizas rojas** — Wotancito. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Enchiladas_suizas_rojas.jpg). Local asset: `reviewed-commons-119954738.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Enchiladas tapatias** — El Sabor de Jalisco. Edicion jalisco. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Enchiladas_tapatias.JPG). Local asset: `reviewed-commons-38521307.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Enchiladas rojas, con arroz rojo, nopales asados y cebollas caramelizadas** — Dahyana Yasada R. R.. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Plat%C3%B3n_de_enchiladas,_arroz,_nopales_y_cebollas.jpg). Local asset: `reviewed-commons-106166646.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
