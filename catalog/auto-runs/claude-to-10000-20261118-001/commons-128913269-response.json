@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAyQuWPLsKP3QFP73zQ4",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 5,\n    \"composition\": 5,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Raw ingredients displayed: onions, limes, jalapeños, tomatoes, cilantro, dried chiles, corn kernels in pot, tortilla chips\",\n    \"Preparation stage evident: ingredients not yet combined or cooked into finished dish\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail shows ingredient prep layout, not a finished plated dish\",\n    \"Individual components visible but not cooked together\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title 'Making pozole' indicates preparation stage, not finished dish\",\n    \"No completed, exposed, cooked pozole visible in either image\",\n    \"Subject is ingredient mise en place for cooking, not the final dish\"\n  ],\n  \"reason\": \"Rejection: This is a preparation/ingredients photograph, not a finished, exposed, cooked dish. The title 'Making pozole' and visible raw ingredients (onions, limes, dried chiles, uncooked corn kernels) confirm this is a pre-cooking stage. Per guidelines, raw/preparation stages must be rejected. A finished pozole stew with cooked hominy and broth would be acceptable; this ingredient layout is not.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1524,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 404,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

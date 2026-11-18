@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAyQGMjSdtHDWZXtramS",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 1,\n    \"lighting\": 2,\n    \"composition\": 2,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Bowl contains dark stewed meat pieces in brown broth\",\n    \"Spoon visible with meat and liquid\",\n    \"Essential food present but severely underexposed in phone thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Extreme underexposure and poor lighting prevent reliable identification of dish components\",\n    \"Meat species cannot be determined from visual appearance alone\",\n    \"Source title 'El legítimo goulash' contradicts file metadata which shows only restaurant location; no dish confirmation in description field\",\n    \"No explicit meat species named in source description\"\n  ],\n  \"reason\": \"Rejection: Image quality fails acceptance criteria. Severe underexposure, dim warm cast, low sharpness (score 1), poor lighting (score 2), and composition (score 2) render visual detail insufficient for confident dish identification. Phone thumbnail lacks clarity. Source metadata ambiguity: title appears in filename only, actual description provides only restaurant location '@Noir et l'Or, HU' without dish confirmation. No explicit animal species named in supplied description field. While a goulash with meat is likely present, visual and textual evidence is insufficient to confirm identity or protein composition with required certainty.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1740,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 415,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
