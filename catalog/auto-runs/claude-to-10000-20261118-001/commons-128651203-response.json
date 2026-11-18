@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAXRSmJgcEe9WcacB7BX",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Single spherical red meat item on dark surface\",\n    \"Visible texture consistent with ground meat\",\n    \"Adequate detail for thumbnail identification\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'Meatball' but description states 'smashburger w restauracji Hamburg, Opole' – direct contradiction\",\n    \"Visual form is spherical (meatball-like) but metadata declares a smashburger, which should be flat/patty-shaped\",\n    \"No protein species explicitly named in source\",\n    \"Metadata language mismatch and unclear source authority\"\n  ],\n  \"reason\": \"Source identity contradiction: filename title 'Meatball 01' conflicts with description 'smashburger w restauracji Hamburg, Opole'. The visible form is a sphere consistent with a meatball, not a flattened smashburger patty. No explicit protein species declaration in source. Ambiguous meat species and conflicting identity claims require hold per protocol.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 2043,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 375,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
