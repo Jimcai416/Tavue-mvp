@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAjYtKJQSJP6NY1Jss7F",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Golden-brown, round fried shells with spice dusting visible in full source photograph\",\n    \"Sharp detail of individual golgappa shells in phone thumbnail\",\n    \"White plate presentation, natural daylight\",\n    \"Two bowls of liquid (pani/sauces) in background suggest street food context\"\n  ],\n  \"phone_observations\": [\n    \"Golgappa shells clearly visible and in focus\",\n    \"Spice coating and fried surface texture readable\",\n    \"Prominent subject positioned well in frame\",\n    \"Natural colour and appetising appearance\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title describes 'Golgappa for pani puri' — the shells alone are components of an assembled dish, not a finished dish\",\n    \"Photograph shows only the hollow fried spheres without filling, stuffing, potato, chickpeas, onion or other interior components\",\n    \"Pani puri is a composite street food assembled at consumption; golgappa shells without assembly do not constitute the finished dish identity\"\n  ],\n  \"reason\": \"Reject: The source describes 'Golgappa for pani puri', identifying these as component shells rather than a finished dish. Pani puri is traditionally an assembled street food where hollow golgappa shells are filled with potato, chickpeas, spices and onion, then topped with flavoured water (pani). The photograph shows only the unfilled, unassembled shells — a preparation stage or component, not the complete, finished, consumed dish. Identity check fails because the visible form does not match the finished dish category required for Tavue.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1628,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 507,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

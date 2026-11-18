@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAjYShgPj4DGay3LLo6c",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [\n    \"Round reddish-brown spheres consistent with gulab jamun\",\n    \"Cream-coloured puree or paste (likely chutney)\",\n    \"Orange/reddish sauce in compartment\",\n    \"Pale beige mixture in lower compartment\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail shows compartmentalised metal tray\",\n    \"Central reddish sphere visible\",\n    \"Orange sauce and pale mixtures readable\",\n    \"Overall composition matches full source\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title references 'Roti Lunch Special' and multiple curries (Goat Masala, Butter Chicken, Eggplant Curry) but the photograph shows only a dessert (Gulab Jamun) with condiments—no main dishes visible\",\n    \"Description mentions 'Roti Platter' with 2 Roti/Naans + 2 NonVeg + 1 Veg curry components, but photograph displays none of these elements\",\n    \"Source title does not match the visible food: title is 'Roti Lunch Special' but image is 'Gulab Jamun, chutney'\",\n    \"Severe contradiction between source description (lunch platter with breads and curries) and actual photograph content (dessert and accompaniments only)\"\n  ],\n  \"reason\": \"Identity check fails. Source title 'Gulab Jamun, chutney - Chilli India Express - Roti Lunch Special AUD10.95' contradicts the actual dish visible. The photograph shows only gulab jamun (a sweet dessert) and condiments/chutneys, not the described Roti Lunch Special platter with naans, Goat Masala, Butter Chicken, and Eggplant Curry. The title references a main course platter but the image captures only dessert. This is a substantial mismatch between source description and photographed content. Hold criteria cannot be met due to irreconcilable source-to-image contradiction.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 2022,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 615,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

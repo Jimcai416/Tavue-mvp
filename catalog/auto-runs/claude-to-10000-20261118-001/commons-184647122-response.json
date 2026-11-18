@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAjXdYGJGCbnhemqp3qn",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Cooked greens (collard or similar leafy vegetable) in dark bowl and on plate\",\n    \"Red-brown stewed meat with visible spice crust\",\n    \"Hard-boiled egg halves visible on plate\",\n    \"Cornbread or similar pale starch on left side of plate\",\n    \"Water glass and spice shaker with red powder in background\",\n    \"Professional plating on white plate with red placemat\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows stewed meat, greens, and egg components\",\n    \"Red-brown colour and texture of meat consistent with source description\",\n    \"Plate composition readable and appetising in thumbnail\"\n  ],\n  \"protein_evidence\": {\n    \"chicken\": \"Chicken Stew | Doro Wat\"\n  },\n  \"uncertainties\": [\n    \"Source title lists two names: 'Chicken Stew' and 'Doro Wat' — which is canonical? Doro Wat is the actual Ethiopian dish name; 'Chicken Stew' is a generic English description. The pipe separator suggests alternative names, but source identity is ambiguous.\",\n    \"Description mentions 'eggs' as ingredient but does not explicitly state hard-boiled eggs are plated; visible hard-boiled egg halves on plate are inferred from appearance, not source quote.\",\n    \"Traditional Doro Wat preparation does not typically include cornbread; visible starch on plate (pale, crumbly item on left) is not identified in source description and may indicate a non-traditional serving.\"\n  ],\n  \"reason\": \"Source presents conflicting identity labels ('Chicken Stew' vs 'Doro Wat') without clear canonical designation. The pipe-separated format suggests alternative names rather than a single authoritative title. While the photograph shows well-executed, appetising food with chicken and eggs visible, and all quality scores meet threshold, the source's internal contradiction about which name is primary blocks acceptance. The unmentioned cornbread on the plate and absence of explicit confirmation that visible hard-boiled eggs are part of the standard dish create further uncertainty. Hold pending clarification of canonical dish name from source.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1802,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 629,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

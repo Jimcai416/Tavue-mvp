@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAjYuXDmCaBjDR4Bzvra",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 5,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Flatbreads with char marks (roti/paratha variants)\",\n    \"White rice\",\n    \"Two brown/reddish curries with cream garnish\",\n    \"Vegetable curry with visible greens and turmeric\",\n    \"Pickled onions\",\n    \"Green and white condiment bowls (chutneys/raita)\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows thali platter structure with flatbreads, rice, curries, and condiments\",\n    \"Individual components readable: breads, two sauce portions, vegetable dish, pickled onions, side bowls\",\n    \"Composition and plating consistent with full image\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title/description uses generic phrase 'Indian Meal' and 'Indian thali' without specific regional identity or dish name\",\n    \"Curry bases appear to contain meat (possibly chicken in top curry based on appearance) but no explicit protein species named in metadata\",\n    \"Cannot determine exact curry type, preparation style, or regional variant from metadata alone\",\n    \"Vegetable curry identity unclear—appears to contain potato/eggplant but specific dish unknown\",\n    \"No verifiable canonical name provided by source; generic 'thali' is a category, not a specific dish identity\"\n  ],\n  \"reason\": \"Image quality, sharpness, lighting, composition and phone thumbnail all meet standards. However, source metadata fails identity requirement: provides only generic English category terms ('Indian Meal', 'Indian thali') without a specific dish name, regional variant, or component identities. No protein species are named in the source despite visible curry components. 'Thali' describes a platter format, not a named dish. Without explicit source-provided canonical identity beyond generic English food category, identity check cannot pass. Hold pending source clarification of actual dish name or regional variant.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1452,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 568,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
