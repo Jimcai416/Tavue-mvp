@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAj4FHK3aLB4ivB6SRcE",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 5,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Cooked dumplings with pleated, steamed wrapper appearance\",\n    \"Glossy surface indicating proper steaming\",\n    \"Prominent plating on white dish\",\n    \"Clear detail in both full image and phone thumbnail\",\n    \"Natural colour and finished state\"\n  ],\n  \"phone_observations\": [\n    \"Dumplings clearly visible and identifiable\",\n    \"Pleated wrapper structure readable\",\n    \"Adequate size and prominence in thumbnail\",\n    \"Steamed finish evident\"\n  ],\n  \"protein_evidence\": {\n    \"pork\": \"Pork and Celery\"\n  },\n  \"uncertainties\": [\n    \"Title claims 'jiaozi' but description says 'Restaurant Gyozas chinas' (gyoza/gyozas is a Japanese term, not standard Chinese nomenclature for jiaozi)\",\n    \"Conflict between metadata identity: filename says 'jiaozi' but description uses 'Gyozas' — these are distinct regional variants\",\n    \"Cannot determine internal filling composition visually; only wrapper and cooked state are visible\",\n    \"No visible celery or other filling components in exterior appearance\"\n  ],\n  \"reason\": \"Source metadata contains contradictory identity claims (jiaozi vs. gyozas) that cannot be resolved from visual inspection alone. While the protein (pork) is explicitly stated in the title and the dish quality and photograph are excellent, the canonical name cannot be established with certainty due to the unresolved variant terminology conflict. Jiaozi and gyoza are distinct regional dish forms with different preparation traditions. Holding for clarification of intended dish identity.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1731,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 505,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
