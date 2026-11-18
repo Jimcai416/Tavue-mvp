@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAWTW3By61EU7PvCmrDN",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Grilled meat chunks on black barbecue grill\",\n    \"Charred exterior with pink interior visible on some pieces\",\n    \"Street/outdoor cooking setting with person in white shirt\",\n    \"Natural daylight, Kenyan context\"\n  ],\n  \"phone_observations\": [\n    \"Meat pieces clearly visible and prominent in thumbnail\",\n    \"Grill and charring pattern readable\",\n    \"Subject occupies adequate frame coverage\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Meat species not explicitly named in source description ('barbecue' and 'being prepared' are generic)\",\n    \"No specific dish name or variant identifier provided\",\n    \"Cannot visually distinguish between beef, lamb, goat, or other grilled meats from appearance alone\",\n    \"Source describes preparation stage/activity rather than finished dish identity\"\n  ],\n  \"reason\": \"Photograph quality, sharpness, lighting and composition are all acceptable (scores 4+). Both full image and phone thumbnail show readable, appetising grilled meat on a barbecue in a street food context. However, identity check fails: the source provides only a generic location ('Barbecue kenya') and activity description ('being prepared'), with no explicit dish name or meat species declaration. The metadata title and description do not supply a canonical dish name or confirm the protein type. Without a specific source quote naming the dish and meat species, identity cannot be verified. Hold pending explicit dish identification and protein confirmation.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1625,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 466,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
