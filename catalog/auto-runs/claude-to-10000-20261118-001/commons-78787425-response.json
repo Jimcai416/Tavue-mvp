@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAyte21LhYWGxGakAhxr",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 3,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"White plate with blue rim\",\n    \"White rice base\",\n    \"Golden-brown protein portion with sauce\",\n    \"Spiced/herb-garnished preparation\",\n    \"Restaurant table setting\"\n  ],\n  \"phone_observations\": [\n    \"Plate clearly visible with rice and protein\",\n    \"Golden-brown main component readable\",\n    \"Sauce visible on protein\",\n    \"Rice portion prominent and sharp enough\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title references 'Moqueca de Namorado' but source metadata is filename/location only, not a user-supplied title or description of the dish\",\n    \"Moqueca is a Brazilian fish stew, but the visible protein form (appears to be cutlets or medallions with sauce) does not match typical moqueca presentation\",\n    \"No explicit protein species confirmation in provided source text\",\n    \"Actual dish identity cannot be verified from metadata alone; filename is unreliable evidence\"\n  ],\n  \"reason\": \"Source metadata contains only filename, photographer, and location—not an authoritative title or description. The filename 'Moqueca de Namorado' is not an explicit dish declaration by the source. The visible preparation (breaded/sautéed cutlets with sauce over rice) does not match the expected form of a Brazilian moqueca stew. No protein species is explicitly named in any trusted source text. Identity cannot be confirmed and presentation is inconsistent with the suggested dish type. Hold pending reliable source description.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1754,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 479,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

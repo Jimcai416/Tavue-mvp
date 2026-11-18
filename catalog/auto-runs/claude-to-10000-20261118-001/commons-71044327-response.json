@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAytb7NuSVdpuF1HfpmV",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Two plated dishes in restaurant setting with warm ambient lighting\",\n    \"Left bowl: pale golden spherical items in brown gravy with green herb garnish\",\n    \"Right black cauldron-style vessel: dark brown stew/gravy\",\n    \"Phone thumbnail clearly shows both dishes with readable components\"\n  ],\n  \"phone_observations\": [\n    \"Both dishes visible and distinguishable in thumbnail\",\n    \"Golden spherical items legible in left bowl\",\n    \"Dark gravy in right vessel clearly shown\",\n    \"Overall composition and dish prominence retained\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title claims 'Springbok Goulash' but springbok (a wild South African antelope) is not in the allowed protein categories (chicken/beef/pork/duck/lamb/seafood)\",\n    \"Visual appearance of the meat/protein cannot reliably distinguish springbok from beef or other species in the brown gravy\",\n    \"No explicit source quote identifies the protein using only allowed category names\",\n    \"Species ambiguity: springbok is a wild game animal not matching any canonical protein category\"\n  ],\n  \"reason\": \"While the photograph is sharp, well-lit, and appetising with both dishes clearly visible and identifiable in the phone thumbnail, the identity check fails because the source title names 'Springbok' as the protein. Springbok (a wild antelope) is not in the allowed protein categories (chicken/beef/pork/duck/lamb/seafood). The visual appearance cannot confirm springbok or rule out beef. No source quote explicitly identifies the protein using only allowed category names. Unknown meat species requires hold per guidelines.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1738,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 510,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

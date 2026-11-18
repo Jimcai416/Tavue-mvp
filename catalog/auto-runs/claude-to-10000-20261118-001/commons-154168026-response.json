@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAytzWoJwELf4G2vDxo3",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Stewed meat with browning visible\",\n    \"Pearl onions or small potatoes in gravy\",\n    \"Fresh parsley garnish\",\n    \"Mixed green salad on separate plate\",\n    \"Small egg noodles or Knöpchen base\"\n  ],\n  \"phone_observations\": [\n    \"Stewed meat dish clearly visible\",\n    \"Salad accompaniment recognizable\",\n    \"Plating and colour carry through to thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title states 'veal goulash' but veal is not an allowed protein category (only chicken/beef/pork/duck/lamb/seafood permitted)\",\n    \"Meat species cannot be visually confirmed as veal from appearance alone\",\n    \"No explicit source quote names veal as a supported animal protein\"\n  ],\n  \"reason\": \"Veal is not an allowed protein category for Tavue review. The source declares veal goulash, but veal does not appear in the permitted protein list (chicken, beef, pork, duck, lamb, seafood). Although photograph quality, composition and phone thumbnail are acceptable, the identity check fails because the named protein cannot be supported. Hold or reject required.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1769,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 419,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
