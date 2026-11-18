@@ -42670,5 +42670,55 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "height": 720,
     "requiresExactMenuName": true,
     "authorUrl": "https://www.flickr.com/photos/10559879@N00"
+  },
+  {
+    "id": "commons-55750320",
+    "title": "File:Spicy Pork Bulgogi, L'Arbre de Sel, Montparnasse, Paris 001.jpg",
+    "author": "Guilhem Vellut  from Paris, France",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Spicy_Pork_Bulgogi,_L%27Arbre_de_Sel,_Montparnasse,_Paris_001.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Spicy_Pork_Bulgogi%2C_L%27Arbre_de_Sel%2C_Montparnasse%2C_Paris_001.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "08795080c86a9dd9cec94cecd4f7c05297bf37b4",
+    "name": "Spicy Pork Bulgogi",
+    "aliases": [],
+    "proteins": [
+      "pork"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-55750320.jpg",
+    "assetSha256": "cf3b92f4cc19423a08a16253b835b742d85a085d19a54fb254fe97fca2b182fa",
+    "reviewedAt": "2026-11-18",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 640,
+    "requiresExactMenuName": true,
+    "authorUrl": "https://www.flickr.com/people/22539273@N00"
+  },
+  {
+    "id": "commons-57378743",
+    "title": "File:Dwaeji-galbi-jjim.jpg",
+    "author": "Chloe Lim",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dwaeji-galbi-jjim.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/84/Dwaeji-galbi-jjim.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "70f3ea9a8d779ecac207fb417f4adbc9ea38674d",
+    "name": "dwaeji-galbi-jjim (braised pork ribs)",
+    "aliases": [],
+    "proteins": [
+      "pork"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-57378743.jpg",
+    "assetSha256": "3cb388f317237b66b4afc162c640d2ed61c0a22a1f8cb4e1c36914114042a1dc",
+    "reviewedAt": "2026-11-18",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 612,
+    "height": 612,
+    "requiresExactMenuName": true,
+    "authorUrl": "https://www.flickr.com/photos/kfoodaddict/"
   }
 ];
