@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAhwGWfXHRea6qXcuUa5",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Okra pieces visible throughout dish\",\n    \"Rich brown broth\",\n    \"Central dark protein mass\",\n    \"Seasoned vegetables with visible seeds\",\n    \"Cooked, exposed finished dish\"\n  ],\n  \"phone_observations\": [\n    \"Central dark protein clearly visible\",\n    \"Okra slices readable in thumbnail\",\n    \"Broth evident\",\n    \"Dish composition apparent at small scale\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title contains 'bushmeat' which is an ambiguous, unspecified animal category—no explicit species identified (not chicken/beef/pork/duck/lamb/seafood)\",\n    \"Source description incomplete: 'This is an image of food from' (truncated, no full context)\",\n    \"Cannot confirm identity from incomplete metadata\"\n  ],\n  \"reason\": \"The photograph is sharp, well-lit, appetising, and shows a finished okra soup with a prominent central protein in natural broth. Phone thumbnail is clear. However, the source title names 'bushmeat' as the protein, which is not an allowed category—it is an unspecified animal species that could refer to any game meat. The source description is also truncated and incomplete. Per rules, unknown or ambiguous meat species require a hold. The dish cannot be accepted without explicit identification of the protein animal (chicken/beef/pork/duck/lamb/seafood with direct source quote).\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1730,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 465,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
