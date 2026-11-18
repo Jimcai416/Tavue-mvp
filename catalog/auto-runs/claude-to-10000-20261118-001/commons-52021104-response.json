@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBCgTWfbGbT1WwebnkpJ",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Elongated brown object on white foam tray visible in thumbnail\",\n    \"Object appears uniform, unadorned, minimal detail at phone resolution\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title field contains only 'Food-Langcha.jpg' filename; no descriptive title or description provided\",\n    \"Langcha is a sweet Indian confection (syrup-soaked pastry), not a savoury dish, and the visual form is ambiguous for positive identification\",\n    \"No metadata confirms dish identity, preparation stage, ingredients or flavour\",\n    \"Object form and colour consistent with fried pastry or dough but lacks contextual plating, garnish or accompaniment typical of finished langcha presentation\"\n  ],\n  \"reason\": \"Rejection due to missing source title/description. The metadata supplied contains only a filename ('File:Food-Langcha.jpg'), no actual descriptive title or description field. Per instructions, canonical_name must be copied exactly from source title or description; none exists here. While the photograph itself is sharp and well-lit, identity cannot be verified against explicit source-declared text. The filename alone cannot serve as authoritative evidence of dish identity, and the visual form is insufficiently distinctive to confirm it is a finished, exposed, appetising langcha without supporting description.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1507,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 436,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

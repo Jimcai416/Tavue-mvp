@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBCg5JBf2WogkDxPpT8p",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 2,\n    \"composition\": 3,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Centre thumbnail shows two vessels with food on dark background\",\n    \"Lower vessel contains dark cooked items with green herb garnish, legume-like objects visible\",\n    \"Upper vessel partially visible with white element and green garnish\",\n    \"Overall lighting and detail insufficient for clear component identification\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title describes 'aloo Tikki' (potato fritter) but photograph shows two distinct prepared dishes in bowls/vessels being held—identity mismatch between title and visual form\",\n    \"Upper dish contains unidentified white element and cooked components; lower dish contains dark cooked items and legumes—neither clearly matches 'deep-fried aloo Tikki' description\",\n    \"No potato fritter or fried preparation clearly visible in either vessel\",\n    \"Severe underexposure and motion blur make component identification unreliable\",\n    \"Source metadata describes preparation stage/ingredients ('deep-fried aloo Tikki with all chutney and spices') rather than finished dish identity\"\n  ],\n  \"reason\": \"Identity mismatch: source title/description refers to 'aloo Tikki' (potato fritter), but photograph shows two served dishes in vessels with unclear components that do not visually match a recognizable fritter preparation. Severe underexposure, motion blur (sharpness=2), and poor lighting (lighting=2) prevent reliable component identification. Photograph quality fails to meet acceptance threshold. Source description emphasizes ingredients and preparation rather than finished dish form. Cannot establish confident match between supplied title and visible food form.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1759,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 502,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
