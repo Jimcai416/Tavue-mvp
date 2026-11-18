@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChB7ws6aPA7mmxCz78V65",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 3,\n    \"lighting\": 2,\n    \"composition\": 1,\n    \"appeal\": 0\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Subject is a fungal fruiting body (mushroom/puffball), not a finished food dish\",\n    \"Thumbnail shows raw, uncooked specimen held in hand\",\n    \"No preparation, plating, or consumption context visible\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title references 'Pepper Pot' but description identifies a fungal species (Myriostoma coliforme)\",\n    \"No evidence this is a prepared culinary dish\"\n  ],\n  \"reason\": \"Rejection: This is a raw fungal specimen (puffball mushroom), not a finished, exposed, cooked food dish. The image shows an uncooked biological specimen being held for taxonomic documentation. No plating, preparation, cooking, or serving context is evident. This fails the core requirement of being a 'finished, exposed, likely photographic dish' and does not meet food photography standards for Tavue intake. The source metadata contradiction between 'Pepper Pot' (culinary reference) and the scientific taxonomy (Myriostoma coliforme) further indicates this is a nature/mycology photograph, not food documentation.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1735,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 401,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

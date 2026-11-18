@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChB7xQTy8CRE11Pbsv5Vj",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Stew visible in black pot with meat pieces in reddish-brown sauce\",\n    \"White wooden spoon present\",\n    \"Central composition shows browned meat chunks in gravy\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Species identity unverifiable: 'rat' is a declared protein but cannot be confirmed from appearance alone and is not an approved category (chicken/beef/pork/duck/lamb/seafood only)\",\n    \"Source title contains 'rat' which falls outside the permitted protein categories\"\n  ],\n  \"reason\": \"Rejection: The source title explicitly identifies the protein as 'rat' (Kédjénou de rat), which is not an approved category. Allowed proteins are chicken, beef, pork, duck, lamb, and seafood only. The image quality and photograph composition are acceptable, but the protein identity cannot be accepted per guidelines. No exact match to an approved protein category can be established from source documentation.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1763,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 361,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

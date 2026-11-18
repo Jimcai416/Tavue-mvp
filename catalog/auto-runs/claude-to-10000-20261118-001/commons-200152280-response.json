@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChB7wwcvryTB8o7RqJ6bo",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 2,\n    \"composition\": 1,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows a street scene with buildings and vehicles at night\",\n    \"No food subject visible in thumbnail\",\n    \"Low contrast, dim lighting prevents any food identification\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title/description identifies this as 'Moki's Garage, Buea' – a transit reference point and location, not a food dish\",\n    \"No food photograph present in either full source or thumbnail\",\n    \"Image depicts a street scene with buildings and vehicles, not a prepared dish\"\n  ],\n  \"reason\": \"This is a photograph of a garage/transit location in Buea, not a food dish. The source metadata explicitly describes it as 'a prominent transit reference point' connecting quarters, not food content. No prepared food, dish, meal or food photograph is visible in either the full source or the phone thumbnail. Identity check fails because the subject is architectural/locational, not culinary. All other checks fail as a consequence.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1754,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 362,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
