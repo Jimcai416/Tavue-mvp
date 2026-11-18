@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAzqBBzeM7jKteBZw2xK",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 3,\n    \"lighting\": 2,\n    \"composition\": 3,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows a white plate with a white bowl containing dark leafy greens/soup and a white mound (pounded yam) on the left side\",\n    \"Essential components are visible in phone thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title/description is incomplete: 'This is an image of food from' – the description is truncated and does not provide a complete, specific dish identification\",\n    \"No explicit dish name provided in source metadata\",\n    \"Soup/broth composition and meat content cannot be determined from visual inspection alone\",\n    \"No protein species explicitly named in the incomplete source description\"\n  ],\n  \"reason\": \"Rejection: The source title/description is incomplete ('This is an image of food from' with no completion). Without a complete, authoritative source title or description that explicitly names the specific dish, identity cannot be verified. The image shows what appears to be pounded yam with a leafy green soup, but canonical_name requires an exact match to source title/description text, which is absent here. The truncated metadata fails the identity check requirement.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1726,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 391,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
