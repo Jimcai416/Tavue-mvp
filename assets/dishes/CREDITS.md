@@ -6082,3 +6082,12 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **tinola** — FoxLad  at  English Wikipedia. [CC BY 3.0](https://creativecommons.org/licenses/by/3.0); [source](https://commons.wikimedia.org/wiki/File:Tinolalunch.jpg). Local asset: `reviewed-commons-17010930.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Çoban salatası** — E4024. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Amanida_turca.jpg). Local asset: `reviewed-commons-40713958.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Manakeesh** — Ser Amantio di Nicolao. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Manakeesh_at_the_Folklife_Festival.jpg). Local asset: `reviewed-commons-131253706.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **stuffed eggplant** — Sharon Hahn Darlin. [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Berat,_Albania_November_2022_-_stuffed_eggplant,_Restaurant_Klea.jpg). Local asset: `reviewed-commons-124975238.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Half a chicken with salad** — E4024. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Half_a_chicken_with_salad.jpg). Local asset: `reviewed-commons-65787147.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Dürüm mit Ayran** — Triplec85. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Ali_Baba_D%C3%B6ner-Kebap-Stube_Tauberbischofsheim_-_D%C3%BCr%C3%BCm_mit_Ayran.jpg). Local asset: `reviewed-commons-77179916.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Halloumi Fries** — Andy Li. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:HALLOUMI_FRIES_(small)_2_-_Jonny%27s_2025-05-27.jpg). Local asset: `reviewed-commons-166149941.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
