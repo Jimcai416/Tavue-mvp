@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011Ch9UjwmyLFQxkC9N1PPbx",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Spiced broth with visible meat pieces\",\n    \"Green onion/scallion garnish\",\n    \"Orange-red colour consistent with gochugaru (chilli powder) seasoning\",\n    \"Served in dark metal cooking vessel (ttukbaegi)\",\n    \"Bubbling/boiling stage evident\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows stew composition\",\n    \"Orange-red broth colour visible and distinctive\",\n    \"Garnish visible at edges\",\n    \"Cooked, finished state apparent\"\n  ],\n  \"protein_evidence\": {\n    \"protein\": null\n  },\n  \"uncertainties\": [\n    \"Source title describes 'Budae jjigae' but no visible source title/description provided to verify canonical name\",\n    \"Meat species cannot be definitively identified from visual inspection alone—appears to include multiple protein components but exact types not visually verifiable without source declaration\",\n    \"Specific ingredients (sausage, spam, tofu, etc.) present but not confirmed by explicit source text\",\n    \"No authoritative source description field provided beyond metadata filename\"\n  ],\n  \"reason\": \"Image quality, composition and phone thumbnail are all excellent; the dish appears to be a finished, cooked jjigae (stew) with appetising appearance. However, the identity check fails: while the metadata filename and description suggest 'Budae jjigae', these are untrusted evidence per protocol. No explicit, authoritative source title or description was provided in the input to match against. The protein check cannot pass: meat components are visually present but species cannot be confirmed without exact source quotes naming each animal (chicken/beef/pork/duck/lamb/seafood). The visible components suggest this may be Budae jjigae, but without a canonical source title and explicit protein naming, hold is required.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1617,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 557,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
