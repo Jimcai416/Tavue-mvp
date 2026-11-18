@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBFMS4B2gfYE3yDFCZ54",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Golden-brown fried cheese sticks visible in hand\",\n    \"Outdoor casual dining setting with packaging\",\n    \"Natural daylight, sharp focus on subject\",\n    \"Branding visible on packaging in background\"\n  ],\n  \"phone_observations\": [\n    \"Fried cheese sticks clearly visible in thumbnail\",\n    \"Hand holding subject prominent\",\n    \"Packaging and setting context present\",\n    \"Golden colour and texture distinct\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title describes 'Halloumi Fries' but photograph shows what appears to be a single fried cheese stick or churro-like item being held, not multiple fries\",\n    \"Identity mismatch: 'Fries' (plural, typically thin-cut fried potato or cheese strips) versus single elongated fried item in photograph\",\n    \"Halloumi is a cheese product, not a protein category supported by review criteria\"\n  ],\n  \"reason\": \"Identity check fails. The source title 'Burger King's Halloumi Fries' describes a dish identity that does not match the visible form in the photograph. The image shows a single fried item held vertically, inconsistent with the plural 'Fries' designation which would typically show multiple thin-cut pieces. Halloumi is a cheese rather than a supported protein category (chicken/beef/pork/duck/lamb/seafood). The mismatch between titled identity and visible form, combined with lack of a valid protein category, requires hold per protocol.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1736,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 486,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBFN6gdJrjbLaaEqxqc1",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [\n    \"Rich brown ragout sauce with glossy surface\",\n    \"Semmelknödel (bread dumpling) topped with sour cream and fresh chives\",\n    \"Served in white bowl with spoon\",\n    \"Garnish of fresh green herbs visible\",\n    \"Natural restaurant photography\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows brown ragout and lighter dumpling topping\",\n    \"Central composition readable at small size\",\n    \"Sour cream and chives visible even at 124x96\",\n    \"Overall dish identity recognizable\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title 'Herz-Lungen-Ragout' translates to 'Heart-Lung Ragout' but heart and lung are organ meats, not among the allowed protein categories (chicken/beef/pork/duck/lamb/seafood)\",\n    \"No explicit statement in source identifying which animal the organs derive from\",\n    \"Organ meats cannot be matched to the canonical allowed protein list without specific animal attribution\"\n  ],\n  \"reason\": \"Image quality, photography, and phone thumbnail are all acceptable. The dish identity is clear: Herz-Lungen-Ragout (Heart-Lung Ragout) with Semmelknödel. However, the source contains organ meats (heart and lung) whose animal origin is not specified. The allowed protein categories require explicit sourced naming of chicken/beef/pork/duck/lamb/seafood. Organ meats from an unspecified animal cannot be assigned to any canonical protein key. Hold pending clarification of the animal source or acceptance of a source that explicitly names it.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1967,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 518,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
