@@ -6010,3 +6010,8 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 
 - **Lugaw, tokwa and lumpia** — Aerous. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Lugaw,_tokwa_and_lumpia.jpg). Local asset: `reviewed-commons-182075859.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Ham Silog Meal** — Ralff Nestor Nacor. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Ham_Silog_Meal,_Oct_2025.jpg). Local asset: `reviewed-commons-177350847.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Lugaw from Max's Restaurant, Manila** — [John Ong](https://www.flickr.com/photos/puck777/). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Lugaw_(congee)_from_Max%27s_Restaurant,_Manila.jpg). Local asset: `reviewed-commons-74904054.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Hotdog Silog Meal** — Ralff Nestor Nacor. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Hotdog_Silog_Meal,_Apr_2026.jpg). Local asset: `reviewed-commons-188888726.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
