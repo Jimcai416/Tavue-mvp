@@ -4984,3 +4984,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Khao niao sangkhaya** — Takeaway. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Khao_niao_sangkhaya.JPG). Local asset: `reviewed-commons-18291020.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Boat Noodles with sliced beef round steak, beef ball, braised shank and tendon** — Zheng Zhou. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Boat_Noodles_with_sliced_beef_round_steak,_beef_ball,_braised_shank_and_tendon.jpg). Local asset: `reviewed-commons-142440743.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.

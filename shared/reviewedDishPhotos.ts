@@ -70364,5 +70364,29 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 636,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-142440743",
+    "title": "File:Boat Noodles with sliced beef round steak, beef ball, braised shank and tendon.jpg",
+    "author": "Zheng Zhou",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Boat_Noodles_with_sliced_beef_round_steak,_beef_ball,_braised_shank_and_tendon.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Boat_Noodles_with_sliced_beef_round_steak%2C_beef_ball%2C_braised_shank_and_tendon.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "5058d4f69b3374dfd58f36c48c628c2e9e07bac0",
+    "name": "Boat Noodles with sliced beef round steak, beef ball, braised shank and tendon",
+    "aliases": [],
+    "proteins": [
+      "beef"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-142440743.jpg",
+    "assetSha256": "12dbfc3c98f12cdccb4c022bb939380af7784eb29f4c820535129529b7736963",
+    "reviewedAt": "2026-11-18",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];
