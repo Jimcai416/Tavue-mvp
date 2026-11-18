@@ -5446,3 +5446,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Medu Vada** — Mdsmds0. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Medu_Vadas.JPG). Local asset: `reviewed-commons-40876412.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Sashimi from Tsukiji- hirame, sanma, aji, salmon** — T.Tseng. [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Sashimi_from_Tsukiji-_hirame,_sanma,_aji,_salmon_-_Japanese_Cuisine_by_Omae_-_2.jpg). Local asset: `reviewed-commons-77162307.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.

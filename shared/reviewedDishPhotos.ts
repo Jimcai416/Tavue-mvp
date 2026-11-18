@@ -75899,5 +75899,29 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-77162307",
+    "title": "File:Sashimi from Tsukiji- hirame, sanma, aji, salmon - Japanese Cuisine by Omae - 2.jpg",
+    "author": "T.Tseng",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sashimi_from_Tsukiji-_hirame,_sanma,_aji,_salmon_-_Japanese_Cuisine_by_Omae_-_2.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Sashimi_from_Tsukiji-_hirame%2C_sanma%2C_aji%2C_salmon_-_Japanese_Cuisine_by_Omae_-_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "b61eee8712e796a465ab702ff1c8bfa206160680",
+    "name": "Sashimi from Tsukiji- hirame, sanma, aji, salmon",
+    "aliases": [],
+    "proteins": [
+      "seafood"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-77162307.jpg",
+    "assetSha256": "4f274d9ff5ce2a920cb15bcab6d55735d5fa2b57fa7c62502fb1c0ce7ab3a04f",
+    "reviewedAt": "2026-11-18",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 960,
+    "requiresExactMenuName": true
   }
 ];
