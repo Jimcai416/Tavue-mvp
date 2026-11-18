@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAvTeKaC3xNYkcsfbFvB",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Stewed meat with visible chunks in brown sauce\",\n    \"Red pepper strips prominent\",\n    \"Green vegetable strips (likely long beans)\",\n    \"Yellow/orange vegetables visible\",\n    \"Glossy, cooked appearance consistent with braised dish\",\n    \"Served in disposable aluminium container\",\n    \"Phone thumbnail shows all key components clearly\"\n  ],\n  \"phone_observations\": [\n    \"Meat, sauce, peppers and vegetables all legible at 124x96\",\n    \"Brown colour and composition match source\",\n    \"Red and green vegetable pieces distinguishable\",\n    \"Overall dish structure preserved in reduction\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title states 'Kare-kare (Philippines)' but no meat species is explicitly named in the title or description\",\n    \"Kare-kare traditionally uses beef, pork or oxtail, but the visible meat chunks do not definitively establish species from appearance alone\",\n    \"No exact quoted meat identifier present in supplied source metadata\"\n  ],\n  \"reason\": \"Image quality, sharpness, lighting and composition all meet standards. The photograph shows a finished, appetising braised dish with vegetables in a glossy brown sauce, clearly visible in both full image and phone thumbnail. However, the source title and description fail to explicitly name any meat species. The dish is identifiable as kare-kare by its characteristic appearance and regional marker, but identity check fails because no protein can be supported by an exact source quote. Protein_evidence remains empty. Hold pending source clarification of meat type(s).\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1729,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 499,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
