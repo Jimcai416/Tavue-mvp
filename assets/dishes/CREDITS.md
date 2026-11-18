@@ -4747,3 +4747,8 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Cajun Platter; Crawfish Etouffee, Shrimp Gumbo, Crab Legs, Shrimp, Potato, Corn** — Jesper Rautell Balle. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Jrb_20080924_cajun_etouffee_gumbo_shrimp_crab_leg.JPG). Local asset: `reviewed-commons-4880943.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Escabeche (Philippines)** — Obsidian Soul. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Escabeche_(Philippines).jpg). Local asset: `reviewed-commons-80073422.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Adobong talong or Eggplant adobo (Philippines)** — Obsidian Soul. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Adobong_talong_or_Eggplant_adobo_(Philippines).jpg). Local asset: `reviewed-commons-79646916.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
