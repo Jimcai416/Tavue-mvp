@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAsFaTUL1BVoGQY2NYqM",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Shredded meat dish with crispy, caramelized edges\",\n    \"Rich reddish-brown colour consistent with slow-cooked meat\",\n    \"Fresh green herb garnish (parsley/cilantro)\",\n    \"Plated on white dish with decorative speckled rim\",\n    \"Pink checkered tablecloth visible\",\n    \"Sauce pooling around base of dish\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows finished plated dish\",\n    \"Garnish visible and readable\",\n    \"Colour and texture consistent with source image\",\n    \"Dish prominence and detail adequate for phone review\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'Bigos' (Polish hunter's stew) but source description lists 'Bigos (1).jpg' without explicit recipe confirmation in metadata\",\n    \"Bigos traditionally contains multiple meat species and cabbage; visible shredded meat and colour are consistent but specific protein composition (pork, beef, game, etc.) cannot be determined from appearance alone\",\n    \"No explicit statement of meat species in title or description to satisfy protein_evidence requirement\",\n    \"Plating and presentation (crispy edges, decorative garnish) suggests restaurant preparation, but traditional bigos preparation and ingredient list not stated in source metadata\"\n  ],\n  \"reason\": \"Image quality, composition, and phone thumbnail meet acceptance thresholds. However, the source metadata ('Bigos (1).jpg' at 'Karczma Lwowska, Wroclaw') does not provide an explicit canonical title or specific ingredient statement. The title field contains only the filename. While the visible dish is consistent with bigos (shredded cooked meat, colour, garnish, sauce), the source does not explicitly name the dish or confirm protein composition in a way that permits canonical_name assignment without invention. The description does not quote a dish name or ingredient list from a menu or source document. Hold pending explicit source title/description that names the dish and any protein species.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1747,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 597,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
