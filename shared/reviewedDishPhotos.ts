@@ -82338,5 +82338,29 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-76567432",
+    "title": "File:Filipino Morcón being fried (northern Mindanao, Philippines).jpg",
+    "author": "Obsidian Soul",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Filipino_Morc%C3%B3n_being_fried_(northern_Mindanao,_Philippines).jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/45/Filipino_Morc%C3%B3n_being_fried_%28northern_Mindanao%2C_Philippines%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "f71a1c454356193753e48a094193f1a2c5e09ee0",
+    "name": "Filipino Morcón",
+    "aliases": [],
+    "proteins": [
+      "beef"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-76567432.jpg",
+    "assetSha256": "786849b220bb702b9f3f95ac12932ad3d93310e5a026e6e9be28b3f572a3f60b",
+    "reviewedAt": "2026-11-18",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 563,
+    "requiresExactMenuName": true
   }
 ];

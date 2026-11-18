@@ -5996,3 +5996,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 - **Bangus Silog Meal** — Ralff Nestor Nacor. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Bangus_Silog_Meal,_Sep_2025.jpg). Local asset: `reviewed-commons-174495539.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Fely J's Morcón** — [Yvette Tan](https://www.flickr.com/photos/glossmania/page55). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Fely_J%27s_Morc%C3%B3n.jpg). Local asset: `reviewed-commons-75246248.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Popia goreng bersira** — Wiki Farazi. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Popia_goreng_bersira_20230404_203637.jpg). Local asset: `reviewed-commons-131863898.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Filipino Morcón** — Obsidian Soul. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Filipino_Morc%C3%B3n_being_fried_(northern_Mindanao,_Philippines).jpg). Local asset: `reviewed-commons-76567432.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
