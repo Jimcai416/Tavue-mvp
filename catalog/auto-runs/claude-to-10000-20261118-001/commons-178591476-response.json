@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChB6CMH8VZK7FzYCnjVCE",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Bowl of broth-based noodle soup\",\n    \"Visible meat pieces (pale, shredded and chunked)\",\n    \"Clear broth with scattered green onion/scallion\",\n    \"Crispy fried shallots or fried garlic garnish\",\n    \"White bowl presentation\",\n    \"Bean sprouts visible in background container\"\n  ],\n  \"phone_observations\": [\n    \"Central dish clearly visible in thumbnail\",\n    \"Broth, meat, crispy garnish and green onion readable\",\n    \"Overall composition preserved in reduction\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Species of meat cannot be confirmed from visual appearance alone; pale colour and shred/chunk forms are consistent with pork or chicken but not definitively identifiable\",\n    \"Source title states 'Hu Tieu' but does not name meat species; Hu Tieu traditionally uses pork but this is not explicitly declared in the provided source\",\n    \"Exact variant of Hu Tieu (Hu Tieu Nam Vang, Hu Tieu Kho, Hu Tieu Nuoc, etc.) is not specified in source description\"\n  ],\n  \"reason\": \"Image quality, composition and phone thumbnail are strong (all checks true). However, the meat species is not explicitly named in the source title or description—only the dish category 'Hu Tieu' is provided. While the visual appearance suggests pork or poultry, visual inference of species is not permitted. The source does not declare the meat qualifier required by the protocol. Hold pending explicit species identification in source metadata.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1751,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 506,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

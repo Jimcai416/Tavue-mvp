@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChB6D65rvQAXE8icEP6rW",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"White bowl on burgundy surface\",\n    \"Shredded meat prominently visible\",\n    \"Crispy wonton or crepe topper\",\n    \"Green onions and cilantro garnish\",\n    \"Red pepper strips\",\n    \"Noodles visible beneath toppings\",\n    \"Natural daylight with minimal cast\"\n  ],\n  \"phone_observations\": [\n    \"Dish clearly visible and identifiable\",\n    \"Component balance readable in thumbnail\",\n    \"Appetising presentation maintained at small scale\",\n    \"Essential elements (noodles, meat, crispy topper) prominent\"\n  ],\n  \"protein_evidence\": {\n    \"pork\": \"pork\",\n    \"seafood\": \"squid, prawn\"\n  },\n  \"uncertainties\": [\n    \"Title lists 'quail egg' but no quail egg is visually identifiable in either photograph—only crepe/wonton visible\",\n    \"Source metadata specifies three distinct proteins (pork, squid, prawn) plus quail egg, but visual confirmation of all four is impossible; quail egg may be hidden beneath noodles or not present in this serving\",\n    \"Exact Vietnamese regional name and transliteration (Hu Tieu Kho vs. Hủ Tiếu Khô) not explicitly confirmed from visible evidence alone\"\n  ],\n  \"reason\": \"Source title and description contain a protein (quail egg) that cannot be visually confirmed in either the full photograph or thumbnail. The visible proteins (pork, squid, prawn) are present and correctly identified, but the unverifiable quail egg creates uncertainty about whether the dish matches the source declaration. Per rules, hidden flavours may be source-declared, but a component listed in the title should be either visible or absent from the dish identity. This contradiction—between source listing and visual absence—requires hold pending clarification.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1800,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 563,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
