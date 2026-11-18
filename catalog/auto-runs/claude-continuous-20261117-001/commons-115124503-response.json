@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChALQgE8BXoY59ueisWjM",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Layered dish with golden potato/béchamel topping\",\n    \"Browned meat filling visible between layers\",\n    \"Single plated portion on white decorative plate\"\n  ],\n  \"phone_observations\": [\n    \"Layered structure clearly visible in thumbnail\",\n    \"Golden top crust prominent\",\n    \"Dark meat layer distinguishable\",\n    \"Adequate detail for recognition\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title states 'Preparing moussaka' but image shows finished plated dish, not preparation stage\",\n    \"Meat species not identified in source metadata\",\n    \"Source description contradicts visible content (finished vs. preparation)\"\n  ],\n  \"reason\": \"Identity check fails: source description 'Preparing moussaka' describes a preparation stage, but the photograph shows a finished, cooked, plated moussaka portion. This is a material contradiction between source declaration and visible form. Additionally, no protein species is explicitly named in source metadata, preventing confirmation of meat identity. The image quality and photograph are acceptable, but identity uncertainty and source-description mismatch warrant hold pending clarification of actual dish state and meat type.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1529,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 403,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

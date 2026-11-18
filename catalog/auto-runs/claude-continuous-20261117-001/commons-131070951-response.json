@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChALR4mSrFWn9FMMRY8qb",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 3,\n    \"lighting\": 3,\n    \"composition\": 2,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows only ingredient components, not a finished dish\",\n    \"Meat item barely visible in extreme top-left corner\",\n    \"Dish itself occupies minimal space in phone thumbnail\",\n    \"Layout is ingredient-focused graphic, not food photography\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title is in Armenian script; no English dish name provided\",\n    \"Image is an ingredient diagram/infographic, not a finished dish photograph\",\n    \"Meat species cannot be reliably identified from the small raw ingredient shown\",\n    \"No explicit protein naming in readable metadata\"\n  ],\n  \"reason\": \"Rejection: This is an ingredient infographic/diagram, not a finished dish photograph. The source is a labeled recipe guide showing component ingredients (raw meat, eggplant, cheese, tomato sauce, cream, butter) with Armenian text labels. The 'dish' shown is merely the finished reference in the diagram. The phone thumbnail confirms the composition is ingredient-focused with minimal prominence of the final dish and unidentifiable protein in the corner. The image fails the core requirement of a 'finished, exposed, likely photographic dish' and lacks sharp, natural food photography qualities. Printed/labeled instructional content is explicitly excluded.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1682,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 420,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
