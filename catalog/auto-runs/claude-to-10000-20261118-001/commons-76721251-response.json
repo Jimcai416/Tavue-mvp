@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChB18vTjPWdVCuxfhtE7h",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 2\n  },\n  \"visible_support\": [\n    \"Dark translucent eggs arranged in circle on white plate\",\n    \"Pale preserved ginger visible in centre\",\n    \"Glossy, cooked surface texture\",\n    \"Formal plating on decorative tablecloth\"\n  ],\n  \"phone_observations\": [\n    \"Circular arrangement of dark eggs clearly visible\",\n    \"Pale centre filling distinguishable\",\n    \"Overall composition readable in thumbnail\",\n    \"Food subject prominent and not clipped\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title is a filename (File:2019 02 Khao Yiao Ma.jpg), not a proper dish description\",\n    \"Description names the dish 'Khai yiao ma' but this is a prepared ingredient/component, not a finished dish suitable for food photography review\",\n    \"Image shows century eggs with preserved ginger, which are typically components of khao tom kui (rice congee) according to source, but the congee itself is not visible or plated here\",\n    \"No finished, restaurant-quality or home-cooked complete dish evident—only prepared ingredient presentation\"\n  ],\n  \"reason\": \"Reject: The source provides only a filename as title and describes this as a component (century eggs with preserved ginger) typically served with khao tom kui, not as a finished dish itself. The image shows processed eggs and ginger as ingredients/sides rather than a complete, identifiable prepared dish. While photograph and phone thumbnail quality are acceptable, the identity check fails because no canonical finished dish name can be extracted from the source metadata, and the visual composition represents ingredient presentation rather than a served dish meeting Tavue's finished food standards.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1797,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 509,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

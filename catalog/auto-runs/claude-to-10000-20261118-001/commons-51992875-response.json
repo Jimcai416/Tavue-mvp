@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChB18ofCoXAovWWE26pXd",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Metal chimney in centre of large hot-pot style broth bowl\",\n    \"Visible mushroom slices (appearing to be white/button mushrooms)\",\n    \"Green vegetable pieces (likely green onion or similar)\",\n    \"Pale meat visible in broth (colour and texture ambiguous)\",\n    \"Aromatic broth with golden-brown colouration\",\n    \"Restaurant setting with table service\",\n    \"Phone thumbnail clearly shows the dish composition\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly displays the distinctive central metal funnel/chimney characteristic of hot-pot service\",\n    \"Mushrooms and green vegetables are identifiable\",\n    \"Broth colour and ingredients match full source\",\n    \"Dish is prominent and sharp in thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Meat species cannot be reliably determined from appearance alone—pale, cooked pieces in broth could be chicken, pork, or seafood\",\n    \"Title states 'Tom Yum Gai' (implying chicken), but no source description explicitly names chicken in a quoted text\",\n    \"Visible meat components are ambiguous in species without explicit source statement\",\n    \"The presentation resembles a hot-pot or suki-yaki broth service, but this conflicts with traditional Tom Yum preparation methods\"\n  ],\n  \"reason\": \"Although the photograph is sharp, well-lit, appetising, and the phone thumbnail is excellent, the identity check fails. The source title 'Tom Yum Gai' implies chicken ('Gai' = chicken in Thai), but the visible presentation strongly suggests a hot-pot or communal broth dish with a central metal chimney—a service style atypical of traditional Tom Yum. No source description explicitly confirms the presence of chicken as a named protein. The visible meat pieces are too ambiguous in colour and texture to visually prove the species. Under the strict protocol, ambiguous meat species and source contradictions between traditional dish identity and actual presentation require a hold, not acceptance. The mismatch between the dish name (suggesting a specific Thai curry-soup) and the actual hot-pot presentation creates unresolved identity uncertainty.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1735,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 629,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

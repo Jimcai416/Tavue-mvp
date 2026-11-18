@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChB18NC1baZajNS2eca8k",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 5\n  },\n  \"visible_support\": [\n    \"Finished, cooked dish with crumbled brown meat\",\n    \"Red tomato-based component with herbs visible\",\n    \"Rice or grain component on plate\",\n    \"Natural colours, sharp detail, appetising appearance\",\n    \"Phone thumbnail clearly shows all major elements\"\n  ],\n  \"phone_observations\": [\n    \"Meat and tomato components prominent and identifiable\",\n    \"Rice visible in background\",\n    \"Herbs visible on meat component\",\n    \"No clipping of essential elements\",\n    \"Readable as a prepared dish\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title 'Nam prik ong' refers to a Thai dip/paste traditionally made with tomato and chilli, often without meat or with minimal meat as optional garnish. The photograph shows a prominent meat preparation with rice and what appears to be a fresh tomato-chilli component, but the meat species is not explicitly named in the source title or description\",\n    \"The dish composition (crumbled meat dominant, served with rice and nam prik ong-style tomato mixture) does not match the canonical Thai dish 'nam prik ong', which is fundamentally a paste/dip. This appears to be a different preparation or a regional variant not reflected in the source title\",\n    \"No protein species explicitly stated in source metadata\"\n  ],\n  \"reason\": \"Identity check fails: the source title 'Nam prik ong' does not match the visible dish composition. Nam prik ong is a Thai tomato-chilli dip/paste; this photograph shows a meat-based dish with rice and a tomato component served alongside. The meat species is not named in source title or description, preventing protein_evidence population. Source-to-photograph mismatch and absent explicit protein identity require hold.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1626,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 541,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
