@@ -3627,3 +3627,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 
 - **Kal-guksu (knife-cut noodle soup)** — insatiablemunch. [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Kal-guksu_4.jpg). Local asset: `reviewed-commons-88698615.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Kal-jebi** — Kinkreet. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Kaljebi.jpg). Local asset: `reviewed-commons-94229438.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Egyptian Koshari** — Basma. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Egyptian_Koshari.jpg). Local asset: `reviewed-commons-35965634.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.

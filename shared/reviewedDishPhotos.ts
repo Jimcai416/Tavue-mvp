@@ -54006,5 +54006,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-35965634",
+    "title": "File:Egyptian Koshari.jpg",
+    "author": "Basma",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Egyptian_Koshari.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Egyptian_Koshari.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "a2d938119e6831cddf5d52cce81d40fe587bc24d",
+    "name": "Egyptian Koshari",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-35965634.jpg",
+    "assetSha256": "d629a3eb7b809f89b972aa9c826458b04130f430dfdebf5e4755b68146604b54",
+    "reviewedAt": "2026-11-18",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 640,
+    "requiresExactMenuName": true
   }
 ];
