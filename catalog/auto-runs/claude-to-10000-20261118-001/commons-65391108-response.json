@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChB3S9bhhf3ngfL3JJVaK",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [\n    \"Raw or cured meat slices on white plate\",\n    \"Marbled texture visible in both full and thumbnail images\",\n    \"Plate with textured white surface\",\n    \"Natural colour, good detail in full photograph\"\n  ],\n  \"phone_observations\": [\n    \"Meat slices clearly visible in thumbnail\",\n    \"Colour and texture readable\",\n    \"Subject prominent and not clipped\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Pastirma is a cured/dried meat preparation, not a finished cooked dish\",\n    \"Image shows raw or uncooked cured meat, not an exposed finished dish ready to eat\",\n    \"Cannot definitively confirm meat species from appearance alone; source says 'entrecote' (beef cut) but metadata is untrusted evidence\"\n  ],\n  \"reason\": \"Rejection: The image shows raw or cured uncooked meat slices, which is a preparation stage, not a finished, cooked, exposed dish. Pastirma is a cured meat product that has not been prepared into a served culinary dish. Per guidelines, raw/preparation stages are not acceptable. Additionally, protein identity cannot be visually confirmed as separate from metadata (which is untrusted). The subject fails the 'finished, exposed, likely photographic dish' requirement.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1728,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 435,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

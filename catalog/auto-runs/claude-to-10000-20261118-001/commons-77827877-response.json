@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChB3Sn4StDi2Mxw3F3wrs",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Raw sliced meat with visible marbling and fat striations\",\n    \"Decorative plating with green shiso leaves, pale garnish (possibly wasabi), and patterned ceramic bowl\",\n    \"Presentation consistent with sashimi/raw meat service\"\n  ],\n  \"phone_observations\": [\n    \"Marbled raw meat slices clearly visible in thumbnail\",\n    \"Decorative bowl and garnish elements recognizable\",\n    \"Raw/uncooked state evident from colour and texture\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Basashi (horse meat) is not an allowed protein category in the system (only chicken/beef/pork/duck/lamb/seafood permitted)\",\n    \"Source title identifies dish as horse meat, which falls outside acceptable protein scope\"\n  ],\n  \"reason\": \"While the photograph is sharp, well-lit, appetisingly plated, and the identity is clearly supported by visible raw sliced marbled meat and Japanese sashimi-style presentation matching the source title 'Basashi', the dish contains horse meat. Horse meat is not an allowed protein category (permitted categories: chicken, beef, pork, duck, lamb, seafood only). Rejection is required due to protein category constraint, not photograph quality.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1620,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 422,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChB3ShdnNei4nvURS3W1R",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Multiple curry dishes visible in white bowls\",\n    \"Orange/red curry sauces identifiable\",\n    \"Rice and bread components present\",\n    \"Cooked proteins visible in several dishes\"\n  ],\n  \"phone_observations\": [\n    \"Buffet table layout clearly visible in thumbnail\",\n    \"Multiple bowls and dishes readable\",\n    \"Colour contrast allows dish distinction\",\n    \"Food composition prominent and not clipped\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title describes 'buffet table' but lists multiple named Goan dishes without clear one-to-one mapping to visible components\",\n    \"Dish descriptions include unclear or non-standard terms: 'Addmas', 'Xit-coddi (Prawns curry rice)', 'Nustem (Fry fish mackerels)', 'Vac', 'Dudhi sukem', 'Chana bhaji'—some are ambiguous, unverifiable, or lack standard English/transliteration consistency\",\n    \"Multiple proteins mentioned (prawns, fish/mackerels, beef) but cannot visually distinguish which bowl contains which species with certainty\",\n    \"Source description is a list of components rather than identification of a single finished dish\",\n    \"Spelling and transliteration inconsistencies in source (e.g. 'On or Vonn or dall') suggest transcription uncertainty\",\n    \"Cannot establish a canonical single-dish identity from metadata\"\n  ],\n  \"reason\": \"This is a buffet or spread photograph showing multiple prepared dishes, not a single finished dish. While the photograph quality, sharpness, lighting and phone thumbnail all meet standards, the source description lists multiple distinct Goan dishes without clear one-to-one correspondence to visible components, uses non-standard or unclear transliterations ('Xit-coddi', 'Nustem', 'Addmas', 'Vac', 'Dudhi sukem'), and contains apparent transcription errors ('On or Vonn or dall'). Protein species (prawns, mackerels, beef) are named in the source but cannot be visually verified to specific bowls with confidence. The source does not identify a single canonical dish suitable for review under the stated protocol. Hold pending clarification of which specific finished dish is intended as the subject.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1831,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 664,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
