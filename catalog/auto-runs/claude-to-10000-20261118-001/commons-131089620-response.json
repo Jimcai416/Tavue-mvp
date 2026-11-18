@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAXUSSJA51F6QFkA4ize",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 5,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows finished stew in dark pot with ingredient labels around it\",\n    \"Central dish is clearly visible and identifiable\",\n    \"Ingredients are shown as individual components, not integrated into final dish\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source metadata states 'Feijoada ingredients' and 'created on basis of free images' — indicates this is an instructional composition, not a photograph of an actual finished dish\",\n    \"Title in Armenian script does not match the English filename/description conflict\",\n    \"Image is a styled ingredient layout with the finished dish as one element among isolated components — characteristic of recipe illustration rather than food photography\",\n    \"Metadata indicates this is CC BY-SA licensed educational content, not an original food photograph\"\n  ],\n  \"reason\": \"This is an instructional ingredient composition image created to illustrate a recipe, not a photograph of a naturally finished dish served for consumption. The arrangement with isolated ingredient photographs surrounding the prepared dish, combined with metadata stating 'created on basis of free images,' confirms this is a recipe illustration/infographic rather than authentic food photography. Phone thumbnail confirms the same instructional layout. Reject per policy: illustrations and created composites are not acceptable, only finished exposed dishes photographed naturally.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1803,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 422,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

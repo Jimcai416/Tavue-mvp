@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAXTyY3NW8cAu2TBcWao",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Raw or mid-cooking ground meat patty under metal press/spatula\",\n    \"Unfinished preparation stage, not a plated finished dish\",\n    \"Visible raw meat texture and color inconsistency\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail shows raw/cooking meat under press\",\n    \"No finished plating or serving context visible\",\n    \"Subject in active preparation, not presentation\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title 'Meatball 02.jpg' contradicts description 'smashburger w restauracji Hamburg, Opole' – identity mismatch between filename and stated dish\",\n    \"Image shows neither a meatball nor a finished smashburger – it depicts raw meat being pressed during cooking\"\n  ],\n  \"reason\": \"Rejection: This is a preparation/cooking stage photograph, not a finished, exposed, plated dish. The meat is raw or actively cooking under a press/spatula. Additionally, source metadata conflicts: the filename claims 'Meatball' while description states 'smashburger'. Neither identification matches the visible raw meat being processed. Tavue requires finished, exposed, appetising dishes suitable for review; preparation stages are explicitly excluded.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 2043,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 421,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
