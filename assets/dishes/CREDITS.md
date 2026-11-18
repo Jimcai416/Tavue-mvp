@@ -4622,3 +4622,9 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Martabak Kubang** — Cun Cun. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Martabak_kubang.jpg). Local asset: `reviewed-commons-71630892.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **martabak mesir dan kuah** — Agus Damanik. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Martabak_mesir_dan_kuahnya.jpg). Local asset: `reviewed-commons-126232256.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Kare-kare (Philippines)** — Obsidian Soul. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Kare-kare_(Philippines)_03.jpg). Local asset: `reviewed-commons-148396756.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Caldereta** — CNEcija12345. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Caldereta_beef.jpg). Local asset: `reviewed-commons-162854040.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
