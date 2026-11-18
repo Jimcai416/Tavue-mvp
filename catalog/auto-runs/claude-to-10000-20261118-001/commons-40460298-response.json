@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChB9xBwdcNZkgpqkV7tzk",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 1,\n    \"lighting\": 1,\n    \"composition\": 2,\n    \"appeal\": 0\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows historical monochrome image of people and food preparation items\",\n    \"No finished, exposed, appetising dish is visible\",\n    \"Essential food components are not sharply detailed or recognizable\",\n    \"Image quality unsuitable for food review\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [],\n  \"reason\": \"Rejection: This is a historical documentary or ethnographic photograph, not a finished food dish suitable for Tavue review. The source itself states 'Making Ready the Feast'—this depicts preparation stage, not a completed, plated, or served dish. The image is severely low-contrast black-and-white archival material with poor sharpness (score 1), inadequate lighting for food assessment (score 1), and no appetising presentation (appeal score 0). Food components visible in the foreground are obscured, unfinished, and not prominently displayed as a readable dish. Neither full source nor phone thumbnail meets the requirement for a finished, exposed, sharply detailed, naturally coloured, appetising dish. This falls under rejection criteria: 'raw/preparation stages' and fails all quality and photograph checks.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1798,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 396,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChB9wntoQ6U9MXpMbjGrM",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": true,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 2,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Raw fish fillets and whole fish on ice, uncooked display\",\n    \"Subject too small and poorly defined in thumbnail\",\n    \"No finished, exposed, appetising dish visible\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"This is a fishmarket display of raw, uncooked ingredients, not a finished food dish\",\n    \"No prepared or cooked dish is present—only raw seafood in a retail setting\"\n  ],\n  \"reason\": \"Reject: This is a raw fishmarket display photograph showing uncooked whole fish and fillets on ice at a commercial seafood counter. The source metadata lists ingredients and species (lutefisk, bass, tuna, bream) but the image itself shows no finished, cooked, or prepared dish. The photograph captures raw food in a preparation/retail stage, not a completed, appetising dish suitable for food intake review. The phone thumbnail confirms the subject is raw, uncooked seafood display material. Quality checks pass, but identity, composition and appeal checks fail—no finished dish is visible.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1902,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 379,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
