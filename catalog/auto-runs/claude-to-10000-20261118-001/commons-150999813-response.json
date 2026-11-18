@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChB229WiSjo4EbzqzxaE5",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": true,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 3,\n    \"composition\": 2,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows active boiling with heavy foam and bubbles obscuring dish detail\",\n    \"Individual components not readable in phone view\",\n    \"Broth-heavy appearance makes essential food identification impossible at thumbnail scale\",\n    \"No appetising presentation visible; active cooking stage evident\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Paella type/variant cannot be determined from active boiling stage\",\n    \"Protein components obscured by foam and broth\",\n    \"Cannot confirm finished, exposed dish state\"\n  ],\n  \"reason\": \"Reject: Image depicts paella during active boiling, not a finished, plated dish. Essential components are obscured by heavy foam, bubbles and broth. The phone thumbnail is unreadable—individual food elements are not distinguishable, making it impossible to verify identity or assess appeal. The source description explicitly states 'while boiling', confirming this is a preparation stage, not a finished food photograph. Quality is poor due to severe bubbling/glare. No variant details can be verified.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1729,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 379,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

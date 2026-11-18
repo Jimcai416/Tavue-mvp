@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChB22dj6QdrotaMjUfvEN",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 3,\n    \"composition\": 2,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows soup in a pot with granular yellow surface texture\",\n    \"Essential dish details obscured by dense, uniform surface coating\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Dish identity unconfirmed by supplied source title/description\",\n    \"No protein species explicitly named in metadata\",\n    \"Preparation/cooking stage unclear—appears to be mid-cook or in-pot state rather than finished plated dish\"\n  ],\n  \"reason\": \"Reject: Image depicts a dish in an in-pot, mid-preparation state rather than a finished, exposed, plated dish suitable for food photography review. The granular surface coating obscures essential food components. The title field contains only 'File:Pot of Egusi soup.jpg' (filename with extension, not canonical description); metadata provides no explicit source description confirming identity or any protein species. Per instructions, filenames and unverified metadata are untrusted. The photograph fails to show a finished dish presentation and does not meet appetizing, sharply detailed, naturally composed standards. Phone thumbnail confirms obscured essential components. No meaningful identity verification or protein evidence supplied.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1561,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 397,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

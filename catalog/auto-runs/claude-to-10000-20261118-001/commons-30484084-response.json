@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChB21hz4hRH3tAFgFDFNM",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 5,\n    \"composition\": 5,\n    \"appeal\": 5\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Ingredient mise en place visible in thumbnail\",\n    \"Multiple bowls and prepared components shown\",\n    \"Cooked crustacean clearly visible on right side\",\n    \"Cutting board with lemon, herbs, and seasonings\",\n    \"No finished, plated cioppino dish visible\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title/description identifies this as 'Ingrédients du cioppino' (ingredients of cioppino), not a finished cioppino dish\",\n    \"Image shows ingredient preparation and mise en place, not an exposed, finished, cooked dish\",\n    \"Cannot identify specific seafood species with certainty from visible components alone\",\n    \"No complete dish composition present—only raw and prepared ingredients staged for cooking\"\n  ],\n  \"reason\": \"Rejection: This is a preparation/ingredients image, not a finished dish photograph. The source explicitly identifies it as 'Ingrédients du cioppino' (cioppino ingredients), showing mise en place, raw seafood, bowls of components, and a cutting board with garnishes and seasonings. No cooked, plated, or finished cioppino is visible in either the full photograph or the phone thumbnail. Tavue accepts only finished, exposed, cooked dishes—not raw materials, preparation stages, or ingredient styling. The photograph is technically excellent but fails the fundamental requirement of showing a completed dish ready to eat.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1620,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 463,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
