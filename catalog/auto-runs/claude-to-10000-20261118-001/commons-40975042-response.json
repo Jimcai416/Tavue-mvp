@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChArfKXLHxgcNR2xELCJk",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Yellow-golden crumbly texture consistent with gram flour-based dish\",\n    \"Fresh cilantro garnish visible\",\n    \"Sliced onion garnish on the side\",\n    \"Black pepper visible throughout\",\n    \"Served in white bowl on blue-and-white cloth\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail shows same crumbly yellow dish clearly\",\n    \"Garnish and texture readable in phone view\",\n    \"Dish is prominent and sharp in thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title provides only 'Pithla' with no variant qualifier, preparation style, or confirmed ingredients in visible form\",\n    \"Pithla is a traditional Maharashtrian gram flour preparation with regional and household variations that cannot be visually distinguished\",\n    \"No explicit ingredient statement in source metadata beyond the dish name\",\n    \"Visual appearance alone cannot confirm specific variant (traditional, spiced level, oil/ghee content, or accompaniment tradition)\"\n  ],\n  \"reason\": \"Reject: Identity check fails. The source provides only a bare dish name 'Pithla' without any variant descriptor, preparation qualifier, or explicit ingredient confirmation. While the photograph shows a finished, appetizing gram flour preparation with good quality, sharpness, lighting and phone thumbnail clarity, Tavue protocol requires the canonical_name to preserve meaningful variant qualifiers from the source. A single-word title that does not distinguish between regional or household recipe variations cannot be accepted as sufficient source documentation for a traditional dish with known preparation diversity. No protein category applies. All quality scores meet threshold, but identity requirement is unmet.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1722,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 506,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

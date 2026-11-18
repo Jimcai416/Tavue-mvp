@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChArfNEJkEySSkruPajer",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [\n    \"Round, flat breads cooking on a griddle\",\n    \"Golden-brown surface with spice speckling\",\n    \"Street food preparation setting\",\n    \"Multiple items at cooking stage\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows unfinished breads mid-cooking on griddle\",\n    \"Items are at preparation/cooking stage, not finished plated dish\",\n    \"No garnish, no service presentation visible\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title describes item 'in making'—this is an active cooking/preparation stage, not a finished exposed dish\",\n    \"No finished, plated food visible; this shows work-in-progress on commercial griddle\",\n    \"Bobbattu/Puran Poli are sweet breads—no savoury protein visible or declared\"\n  ],\n  \"reason\": \"Reject: image shows breads during active preparation/cooking on griddle, not a finished, exposed, plated dish. Source metadata explicitly states 'in making', confirming preparation stage. No finished food presentation, garnish, or service context. Fails identity and finished-dish requirements.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1760,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 403,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

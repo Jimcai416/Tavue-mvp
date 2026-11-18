@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChArewjuC8BhHk82kXrTg",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 2,\n    \"composition\": 1,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Phone thumbnail shows only a clay pot with foil-wrapped lid on a wooden table\",\n    \"No visible food dish is exposed or plated in either image\",\n    \"The pot appears closed/sealed—the subject is a container, not a finished dish\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"The image shows a preparation vessel (tajine pot) rather than the cooked, exposed dish itself\",\n    \"No plated food, sauce, meat, vegetables or other components are visible\",\n    \"Cannot verify identity, flavour, or ingredients without an open, finished dish photograph\"\n  ],\n  \"reason\": \"Rejection: This is a photograph of a sealed clay cooking vessel (tajine), not a finished, exposed food dish. The pot is wrapped and closed, with no cooked food visible inside or plated. Tavue requires sharply detailed, exposed, appetising finished dishes with readable essential components. Raw/preparation stage imagery is explicitly excluded. The photograph fails identity verification (shows equipment, not food), quality checks (too soft, no food detail), composition (subject is a container), and phone thumbnail requirements (no visible dish). No protein evidence can be extracted.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1727,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 404,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
