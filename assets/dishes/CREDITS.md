@@ -4029,3 +4029,10 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Grilled Lamb** — [John Thompson  from Iqaluit](https://www.flickr.com/people/71266843@N03). [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:Ju_Xiang_Yuan_Restaurant,_Ottawa_-_Grilled_Lamb_(6453828095).jpg). Local asset: `reviewed-commons-115576743.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Chenjeh kabab** — مانفی. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Chenjeh.jpg). Local asset: `reviewed-commons-43555280.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Pkhali (spinach and walnut salad)** — [Krista](https://www.flickr.com/people/49215102@N00). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Pkhali_3.jpg). Local asset: `reviewed-commons-35887716.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Chicken Stew | Doro Wat** — [USDAgov](https://www.flickr.com/people/usdagov/). [Public domain](https://creativecommons.org/publicdomain/mark/1.0/); [source](https://commons.wikimedia.org/wiki/File:MyPlate_gov_Cultural_Food_(20241025-USDA-FNS-UNK-0018).jpg). Local asset: `reviewed-commons-184647090.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Dahi Puri (dahi gupchup)** — Kamya18. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Dahi_Puri_(dahi_gupchup).jpg). Local asset: `reviewed-commons-103645732.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
