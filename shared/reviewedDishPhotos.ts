@@ -59853,5 +59853,55 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 767,
     "height": 960,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-6217649",
+    "title": "File:Moroccan food-Chicken tagine with preserved lemons and olives-01.jpg",
+    "author": "Foodista",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Moroccan_food-Chicken_tagine_with_preserved_lemons_and_olives-01.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Moroccan_food-Chicken_tagine_with_preserved_lemons_and_olives-01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "6be612a2b8fe4cf482d94d44f3e1f3cdc077e1b6",
+    "name": "Moroccan food-Chicken tagine with preserved lemons and olives",
+    "aliases": [],
+    "proteins": [
+      "chicken"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-6217649.jpg",
+    "assetSha256": "cb2c6f36b2a2bda95dbe6c93ca789743044bef23a703914e8c42f1f32aa8a924",
+    "reviewedAt": "2026-11-18",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true,
+    "authorUrl": "https://www.flickr.com/photos/23766209@N04"
+  },
+  {
+    "id": "commons-6217656",
+    "title": "File:Moroccan food-Chicken tagine with preserved lemons and olives-02.jpg",
+    "author": "Foodista",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Moroccan_food-Chicken_tagine_with_preserved_lemons_and_olives-02.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Moroccan_food-Chicken_tagine_with_preserved_lemons_and_olives-02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "9abf98c01d4c68f73b773cb41e3a62f2a069a16e",
+    "name": "Chicken tagine with preserved lemons and olives",
+    "aliases": [],
+    "proteins": [
+      "chicken"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-6217656.jpg",
+    "assetSha256": "6054f8286ee3bd489481c7606ba5c150834baab03ae0c2db0e9b18777bb2c3bc",
+    "reviewedAt": "2026-11-18",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true,
+    "authorUrl": "https://www.flickr.com/photos/23766209@N04"
   }
 ];
