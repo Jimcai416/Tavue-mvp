@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAKUbGDuJinCrqCKxV7C",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"White disposable food container\",\n    \"Sliced poultry strips arranged over rice\",\n    \"Cucumber garnish on left\",\n    \"Rice base visible throughout\",\n    \"Golden-brown meat colour\",\n    \"Casual street/restaurant setting\"\n  ],\n  \"phone_observations\": [\n    \"Meat and rice clearly visible in thumbnail\",\n    \"Container edges visible\",\n    \"Dish components readable at small size\"\n  ],\n  \"protein_evidence\": {\n    \"protein\": null\n  },\n  \"uncertainties\": [\n    \"Source title 'Khao man gai.jpg' is a filename, not an authoritative description\",\n    \"Source description is minimal ('good') and does not confirm dish identity or protein species\",\n    \"Poultry type (chicken, duck, or other) is not explicitly stated in source metadata\",\n    \"No quote from source directly names the protein or confirms the dish variant\"\n  ],\n  \"reason\": \"Identity check fails. The filename 'Khao man gai.jpg' is a proposed name only, not an explicit source title or description. The actual source description ('good') contains no dish identification or protein confirmation. Although the photograph visually matches Thai chicken and rice characteristics, the source metadata does not explicitly name the protein species or confirm the dish identity in readable text. Per protocol, ambiguous species and unconfirmed identities must be held pending authoritative source text.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1505,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 455,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
