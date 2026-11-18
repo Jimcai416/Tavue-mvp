@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChB4ecDoDRFk1jNmjajER",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Whole cooked fish, deeply browned, clearly visible in lower half of plate\",\n    \"Red onion purée or paste in upper right quadrant\",\n    \"Pale grain-based mousse or pâté (left upper quadrant) with vegetable garnish\",\n    \"Diced vegetables: cucumber, yellow pepper, corn visible on accompaniments\",\n    \"Sliced red chilli on white plate edge\",\n    \"Professional plating on white plate\"\n  ],\n  \"phone_observations\": [\n    \"Fish dominates lower centre of thumbnail, cooked appearance clear\",\n    \"Red purée visible upper right, pale mousse upper left\",\n    \"Garnish vegetables and chilli visible but small\",\n    \"Composition and dish structure legible at thumbnail size\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title references 'yassa au poisson' (fish yassa, a Senegalese dish) but no source title/description provided in submission—only filename metadata and license info\",\n    \"Fish species not identified in any supplied text\",\n    \"Red purée composition unclear—may be beetroot, red onion, or other ingredient; described as 'purée' in image only, not named in source\",\n    \"Pale mousse/pâté in upper left: composition and ingredient list unknown; could be fish mousse, vegetable purée, or other base\",\n    \"Cannot confirm canonical dish name without explicit, authoritative source description of the actual dish\"\n  ],\n  \"reason\": \"Image quality, sharpness, lighting, composition and appeal are all strong (scores 4–4). Both full photograph and phone thumbnail are sharp, well-lit, naturally coloured and show a finished, appetising, clearly plated dish with prominent components. However, the submission provides only filename metadata ('File:Le yassa au poisson 11.jpg'), author, license URL and a generic theme phrase ('Farm to Plate'), not an actual source title or description. The filename hints at Senegalese fish yassa but cannot be treated as authoritative dish identification. No supplied text explicitly names the fish species, the red component, or the pale mousse/pâté. The rule requires canonical_name to be copied exactly from source title or description, with all meaningful qualifiers preserved and all protein species from explicit source quotes. Without a genuine source title or description, identity cannot be confirmed, protein_evidence remains empty (no species quote), and variant qualifiers cannot be preserved. Accept only if a real source title/description is provided.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1877,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 701,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

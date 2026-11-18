@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChB4e6Tu3EzvhXNYYYSuU",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Flatbread with charred spots and sesame seeds\",\n    \"Golden-brown baked surface\",\n    \"Visible char marks from high-heat cooking\",\n    \"Round, finished baked product\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows finished baked flatbread\",\n    \"Sesame seeds visible on surface\",\n    \"Char marks and browning evident\",\n    \"Prominent, readable as baked food item\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title contains 'File:' prefix and metadata markers rather than a clean dish name\",\n    \"Chinese text visible on packaging (金云烧饼) suggests 'Jinyun Shaobing' but source title field is filename format\",\n    \"Description only states price (CNY10), not a canonical dish identifier\",\n    \"Cannot extract a clean, authoritative English or transliterated canonical name from the metadata provided\",\n    \"The dish appears to be a Chinese sesame flatbread (shaobing) but source documentation is non-standard\"\n  ],\n  \"reason\": \"Image quality, photograph authenticity, and phone thumbnail all pass. However, the source title is a filename with 'File:' prefix, and the description contains only pricing information. No clean, authoritative canonical dish name matching the required format (extracted from title or description without file markers or metadata) can be reliably established. The Chinese text suggests this is Jinyun Shaobing, but this must be verified against a proper, non-filename source title. Hold pending clarification of the actual dish name in standard format.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1636,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 504,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
