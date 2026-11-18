@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAh6Q1W51ga74eU8UpMu",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 3,\n    \"lighting\": 3,\n    \"composition\": 3,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows cooked rice dish in white bowl with spoon\",\n    \"Pink/salmon-coloured rice visible with scattered vegetables\",\n    \"Composition matches full source but subject small and softness evident\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title 'Spanish rice' is a generic category name, not a specific dish identity\",\n    \"No explicit protein declaration in source metadata or visible in photograph\",\n    \"Cannot distinguish individual protein components or confirm any animal-based ingredients from visual inspection alone\",\n    \"Generic descriptor without regional variant, preparation method, or named dish qualification\"\n  ],\n  \"reason\": \"Rejection: Source title 'Spanish rice' is insufficient for canonical_name. It is a generic category descriptor, not a specific dish phrase with meaningful qualifiers. No explicit protein evidence present in source or visually identifiable. Soft focus (sharpness 3) and minimal appeal (score 2) further weaken acceptance. Identity check fails due to absence of a specific, qualified dish name that preserves variant detail. Uncertainties prevent acceptance.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1989,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 384,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

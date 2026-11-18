@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAh6MmKQ4swcRnBCEZv6",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Cooked pork tamale clearly visible\",\n    \"Brown/red sauce covering the tamale\",\n    \"White sesame seed or almond garnish on top\",\n    \"Yellow rice on the side\",\n    \"Refried beans visible on plate\",\n    \"Finished, exposed, appetising dish\"\n  ],\n  \"phone_observations\": [\n    \"Tamale and sauce clearly visible in thumbnail\",\n    \"Garnish visible\",\n    \"Rice and beans discernible\",\n    \"Adequate detail for recognition\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title describes 'Pork tamale topped with red enchilada sauce and ground beef'. The visible tamale appears to be pork-based, but the description lists both pork (tamale) and ground beef (topping/sauce component). The source is internally contradictory regarding which meat species are present and their roles in the dish.\",\n    \"Ground beef is not in the allowed protein category list (chicken/beef/pork/duck/lamb/seafood). Although 'beef' appears in the source, the composition and visibility of a distinct beef component on the tamale itself is unclear.\",\n    \"The canonical dish name and protein composition cannot be reliably extracted due to source ambiguity about whether this is primarily a pork tamale with a beef-containing sauce, or a composite multi-protein dish.\"\n  ],\n  \"reason\": \"Source description contains ambiguous and potentially contradictory protein information (pork tamale + ground beef topping/sauce). While the photograph is sharp, well-lit, and appetising, and the tamale itself is clearly visible and finished, the protein identity rule requires exact source quotes for each animal and cannot accommodate internal source contradictions or unclear protein roles. The description does not unambiguously name a single canonical dish. Hold pending clarification of the actual dish identity and primary protein composition.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1759,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 561,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

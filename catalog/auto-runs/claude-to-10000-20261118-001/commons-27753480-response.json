@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAh6rKnYN5AeXERbYbLe",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 5,\n    \"composition\": 5,\n    \"appeal\": 5\n  },\n  \"visible_support\": [\n    \"Four yellow crispy taco shells filled with seasoned meat and toppings\",\n    \"Bed of golden Spanish rice with red peppers and cilantro garnish\",\n    \"White rectangular plate, professional plating\",\n    \"Fresh cilantro garnish visible\",\n    \"Sharp focus, natural lighting, appetising presentation\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows taco shells and rice base\",\n    \"Toppings and garnish visible in phone view\",\n    \"Composition readable at small scale\",\n    \"Appetising appearance maintained\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title describes 'Tacos and Spanish Rice' but no meat species is explicitly named in title or description\",\n    \"Meat filling is visible but identity cannot be determined from appearance alone (could be beef, pork, chicken, or other)\",\n    \"Description does not contain any explicit animal protein qualifier\"\n  ],\n  \"reason\": \"Reject: The source description names the dish as 'Tacos and Spanish Rice' but provides no explicit statement identifying the meat species used in the filling. The meat is visibly present in the taco shells, but species cannot be inferred from appearance alone. Per rules, protein must include 'an exact source quote explicitly naming each animal; never infer species from tradition, appearance or generic meat'. No such quote exists. This creates an unresolvable uncertainty that mandates hold/reject status. Image quality is excellent, but identity verification fails due to missing explicit protein documentation.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1602,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 483,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
