@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBGnD7ro9Tb1HNibeuUe",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Brown elongated cylindrical item with glossy surface on white plate\",\n    \"Small white cup with tan/beige sauce visible\",\n    \"Essential subject clearly visible in thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title lists three distinct dishes (Del Monte Sardines, Ginisa, Kutsinta) but photograph appears to show only one item—identity cannot be reliably matched to source description\",\n    \"Unclear which of the three named dishes this photograph represents\",\n    \"No explicit protein confirmation in source for the visible item\"\n  ],\n  \"reason\": \"Identity check fails. The source description lists three separate dishes (Del Monte Sardines, Cuisine of Bulacan Ginisa, Kutsinta) but the photograph appears to show a single prepared item with an accompanying sauce. The photograph cannot be reliably matched to any single named dish from the contradictory source metadata. This ambiguity violates the requirement that identity must agree with the exact source title/description and visible form. Source contradictions require hold under protocol, but the fundamental inability to assign a canonical name to this specific photograph results in rejection.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1816,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 398,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
