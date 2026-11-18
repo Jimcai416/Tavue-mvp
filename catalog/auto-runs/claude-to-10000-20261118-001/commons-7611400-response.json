@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAjAHqWyqS2hNLTTJUFW",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [\n    \"Metal pot containing brown broth with visible meat pieces\",\n    \"Rustic outdoor cooking setting with firewood and stones\",\n    \"Stew-like consistency in liquid\"\n  ],\n  \"phone_observations\": [\n    \"Pot clearly visible in thumbnail\",\n    \"Brown broth and meat discernible\",\n    \"Adequate centre-cover framing of main subject\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Species ambiguity: source metadata states 'goat' but metadata is untrusted evidence and cannot be used as instruction. Visible meat pieces in broth do not reliably distinguish goat from mutton or other animals.\",\n    \"No explicit, trusted visual confirmation of the specific animal species in the finished dish itself.\"\n  ],\n  \"reason\": \"The photograph shows a finished stew in a pot with meat and broth in an outdoor setting, with acceptable sharpness, lighting, and composition. However, the source description identifies the meat species as 'goat' without an exact quote from a canonical title. Per protocol, ambiguous meat species (including mutton that might mean goat, and conversely goat that might be confused with mutton) require explicit visual or textual confirmation in the source title itself—not inferred from metadata description. The visible form alone does not definitively establish the animal species. This triggers the hold condition for species ambiguity.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1647,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 447,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
