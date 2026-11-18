@@ -4640,3 +4640,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 
 - **Martabak Telur at Martabak Har Palembang** — [fitri agung  from Pekanbaru, Riau, Indonesia, Indonesia](https://www.flickr.com/people/30721655@N04). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Martabak_telur_Palembang.jpg). Local asset: `reviewed-commons-10272528.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Kare-kare with bagoong** — Roderick Suñaz Sumalinog. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Kare-kare_with_bagoong.jpg). Local asset: `reviewed-commons-142762052.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Pork Kare-Kare Meal** — Ralff Nestor Nacor. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Pork_Kare-Kare_Meal,_Apr_2026.jpg). Local asset: `reviewed-commons-190407046.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
