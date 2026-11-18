@@ -3750,3 +3750,9 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Stuffed Cabbage Golomki** — [Steven Depolo  from Grand Rapids, MI, USA](https://www.flickr.com/people/10506540@N07). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Stuffed_Cabbage_Golomki.jpg). Local asset: `reviewed-commons-17252285.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Breaded escalope with mushroom cream sauce and french fries** — Benreis. [CC BY 3.0](https://creativecommons.org/licenses/by/3.0); [source](https://commons.wikimedia.org/wiki/File:Champignon_Schnitzel_Th%C3%BCngen_Schlossstube.JPG). Local asset: `reviewed-commons-50498903.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Pork with bread dumplings** — Dezidor. [CC BY 3.0](https://creativecommons.org/licenses/by/3.0); [source](https://commons.wikimedia.org/wiki/File:Vep%C5%99ov%C3%A1_k%C3%BDta_s_houskov%C3%BDmi_knedl%C3%ADky.jpg). Local asset: `reviewed-commons-5009892.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Jägerschnitzel (hunter's cutlet, breaded pork cutlet in creamy mushroom sauce)** — JIP. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:J%C3%A4gerschnitzel_at_restaurant_Harald.jpg). Local asset: `reviewed-commons-113131446.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
