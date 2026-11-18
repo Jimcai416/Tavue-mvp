@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAjd2iBQ78HU93WTFsoJ",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 2,\n    \"composition\": 2,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Plate visible but severely underexposed in thumbnail\",\n    \"Spoons and small bowls of condiments dominate the frame\",\n    \"Main dish components (roti, curries) are clipped or obscured\",\n    \"Essential food elements not clearly readable in phone view\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source metadata labelled this a 'vegetarian' meal, but metadata is explicitly untrusted per instructions\",\n    \"No explicit protein animals named in source description\",\n    \"Title contains only generic 'curries' without species declaration\"\n  ],\n  \"reason\": \"Rejection: Multiple critical failures. The full photograph shows a cluttered setup dominated by empty spoons and small condiment bowls, with the main dish (roti and curries) displaced to edges and upper frame. Lighting is poor with severe overhead glare casting shadows; sharpness is soft throughout. The phone thumbnail shows the plate severely underexposed and obscured by serving implements; essential food components are clipped or illegible at thumbnail scale. Composition is unfocused on the finished dish itself. Source description declares 'vegetarian' but metadata is untrusted and contains no explicit protein animal names—no protein_evidence can be supported. The image fails photograph quality, phone legibility, and composition standards required for acceptance.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1763,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 439,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

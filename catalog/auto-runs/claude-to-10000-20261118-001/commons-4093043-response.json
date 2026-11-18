@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAjdR94qJWKQ1WSECLrS",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 2,\n    \"composition\": 2,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows raw/uncooked potatoes in plastic bag and preparation ingredients (raw potatoes, limes, bowls with components)\",\n    \"No finished, exposed, cooked dish visible\",\n    \"Preparation stage, not a plated or served food\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title claims 'pani puri' but image shows raw potato preparation and ingredient assembly, not a finished pani puri dish\",\n    \"Severe identity mismatch: pani puri is a prepared street snack with crispy shells, filling and flavored water, not raw potatoes and scattered ingredients\"\n  ],\n  \"reason\": \"Reject: image depicts raw/preparation stage (uncooked potatoes, ingredient bowls, plastic storage bags) not a finished, exposed, appetising dish. The source title 'pani puri' contradicts the visible content—no crispy shells, filling, or prepared snacks are visible. Phone thumbnail confirms this is a preparation/supply photograph, not a food photograph suitable for Tavue. Quality checks fail on all visual criteria: soft focus, harsh/flat lighting, cluttered composition, and zero appeal as a finished dish. Identity check fails due to fundamental mismatch between claimed dish type and actual preparation-stage content.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1693,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 431,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

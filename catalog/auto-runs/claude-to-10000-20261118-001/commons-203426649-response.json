@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAjcMAAGDF9dhCSxnbCM",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Plated thali with multiple components\",\n    \"White basmati rice, clearly visible\",\n    \"Cooked curry with visible spices and herbs\",\n    \"Fried bread (likely chapati or similar)\",\n    \"Leafy greens stir-fry with seeds\",\n    \"Cucumber slices\",\n    \"Sesame seeds scattered\",\n    \"Side bowl with lentil curry\",\n    \"Glass of water\",\n    \"Natural daylight, sharp detail throughout\"\n  ],\n  \"phone_observations\": [\n    \"Central plate clearly visible in thumbnail\",\n    \"Rice, curry, bread and green components identifiable\",\n    \"Essential dish structure preserved in crop\",\n    \"Readable composition at reduced scale\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'Indian Vegetarian Thali' but visible curry contains dark cooked meat pieces inconsistent with vegetarian declaration\",\n    \"Description lists 'spiced black chickpea and potato curry' and 'yellow split lentils' but photograph shows what appears to be ground or minced meat curry in substantial quantity\",\n    \"Source title–description–photograph mismatch: dish appears to be a non-vegetarian meat thali, contradicting the explicit 'Vegetarian' label\",\n    \"No explicit protein animal identification in source text to support the visible meat content\"\n  ],\n  \"reason\": \"Critical source contradiction: title claims 'Indian Vegetarian Thali' and description lists only plant-based curries (black chickpeas, potatoes, lentils), but the photograph displays a prominent cooked meat curry as a primary component. This is a fundamental identity mismatch. The source provides no explicit animal protein declaration to reconcile the visual evidence. Without clarity on the actual dish identity and protein content from source metadata, acceptance cannot proceed. Photograph quality and plating are acceptable, but the identity check fails due to irreconcilable title–image conflict.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 2016,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 579,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
