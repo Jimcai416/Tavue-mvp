@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAjzSFctsJjhxNMNuzdR",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Fried chicken drumsticks with golden-brown caramelized exterior, clearly cooked and exposed\",\n    \"White steamed rice mound, properly plated\",\n    \"White protein block consistent with tofu description\"\n  ],\n  \"phone_observations\": [\n    \"Fried chicken, rice, and white protein visible in thumbnail\",\n    \"Composition readable at phone size\",\n    \"Essential components not clipped\"\n  ],\n  \"protein_evidence\": {\n    \"chicken\": \"ayam goreng\"\n  },\n  \"uncertainties\": [\n    \"Source title references three components (chicken, rice, tofu) but metadata describes this as a singular composite meal, not a named regional dish\",\n    \"No canonical dish name supplied in source—only ingredient list formatted as description\",\n    \"Cannot verify if this represents a specific named Indonesian preparation or is merely a documenting photo of assembled basic components\"\n  ],\n  \"reason\": \"Source metadata provides only an ingredient inventory (rice, fried chicken, tofu) formatted as description, not a canonical dish name or regional variant. The photograph shows a home-cooked or casual meal assembly rather than a finished named dish identity. Identity check fails because no specific dish phrase exists in source title or description to match against. Chicken is explicitly named and supported; rice and tofu are visible. Without a source-declared canonical dish name, acceptance cannot proceed.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1670,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 443,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAjzSF7aVZBoo5X3a95U",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Bowl of noodle soup with broth\",\n    \"Visible noodles in brown/amber broth\",\n    \"Green herbs/scallions on surface\",\n    \"Pink/reddish elongated item (claimed as snail)\",\n    \"Tofu cubes visible\",\n    \"Fresh herbs bowl in background\",\n    \"Casual dining setting consistent with street food\"\n  ],\n  \"phone_observations\": [\n    \"Noodle soup clearly visible in centre\",\n    \"Broth colour and noodles sharp and readable\",\n    \"Dish components prominent in thumbnail\",\n    \"Background context visible but not intrusive\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title 'Bun oc Hoe Nhai' does not match visible form—file name suggests snail (ốc) but visible pink item cannot be reliably identified as snail versus sausage/pork product without explicit source text confirming snail species\",\n    \"Description claims 'snail based' but visible protein is ambiguous—pink elongated object could be processed pork product, sausage, or snail, and species cannot be visually confirmed\",\n    \"No explicit species identification for the pink protein in the supplied title or description—only implicit claim via 'snail based' in description, which does not constitute a named source quote\",\n    \"Metadata title/filename is unreliable per instructions; description 'snail based' is not an explicit dish name or species declaration suitable for protein_evidence\"\n  ],\n  \"reason\": \"Identity check fails: source description claims snail-based soup, but the visible pink protein item cannot be reliably identified as snail from appearance alone. Instructions require explicit source quote naming the animal species for protein_evidence; 'snail based' in description is insufficient and contradicts ambiguous visual form. The canonical name cannot be confirmed because the exact variant (snail type, regional qualifier) depends on resolving the protein identity, which remains uncertain. All quality, photograph, and phone checks pass, but identity uncertainty and missing explicit protein species quote prevent acceptance.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1764,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 609,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

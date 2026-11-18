@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAjzSGMgsdZS2UKBJdZn",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 3,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Fried chicken pieces visible and identifiable\",\n    \"White rice mound clearly present\",\n    \"Red sauce/condiment visible on plate\",\n    \"Thumbnail composition matches source photograph\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title references 'KFC' (branded commercial product) rather than a specific dish name\",\n    \"Description 'Ayam goreng KFC dan nasi' identifies the chicken only as a KFC product, not by species or preparation method independent of branding\",\n    \"Cannot verify authenticity or specific preparation of the protein based on appearance alone when source relies entirely on brand attribution\"\n  ],\n  \"reason\": \"Rejection: The source metadata identifies this as a KFC branded product ('KFC dengan nasi'), not an independently describable dish. The title and description do not provide a specific dish name, regional variant, or preparation method—only brand attribution and a generic Indonesian phrase 'Ayam goreng KFC dan nasi' (KFC fried chicken and rice). Per instructions, identity must agree with the exact source title/description; a branded fast-food product that lacks an independent canonical dish name cannot be accepted. The photograph quality is acceptable, but the source documentation does not establish a verifiable, specific dish identity separate from commercial branding.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1721,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 432,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAjzSFcKfyiqH2CtN82x",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 3,\n    \"appeal\": 2\n  },\n  \"visible_support\": [\n    \"McDonald's branded red box visible in source photo\",\n    \"McDonald's cup with logo visible\",\n    \"Fried chicken piece present on dark plate\",\n    \"White rice mound visible\",\n    \"Home/office setting, cluttered background\"\n  ],\n  \"phone_observations\": [\n    \"Fried chicken, rice and packaging recognizable in thumbnail\",\n    \"Dark plate visible\",\n    \"McDonald's branding partially visible\",\n    \"Composition centred on main dish\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title 'File:McD fried chicken.jpg' is a filename, not a canonical dish name\",\n    \"Description states 'sold in Indonesia' but no specific regional dish variant name provided\",\n    \"No explicit statement confirming the chicken species or preparation method beyond 'fried'\",\n    \"McDonald's menu item name not supplied in metadata\"\n  ],\n  \"reason\": \"Identity check fails: the source title is a filename ('File:McD fried chicken.jpg'), not a proper canonical dish name. The description provides context (McDonald's, Indonesia, fried chicken with rice) but does not supply an exact dish name to match against. Without an explicit, canonical menu item name or regional variant from the source, canonical_name cannot be established. The photograph and phone thumbnail are acceptable quality and show a finished, exposed dish, but source metadata must provide the actual dish identity. Filename and generic description do not constitute sufficient identity evidence.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1562,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 468,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

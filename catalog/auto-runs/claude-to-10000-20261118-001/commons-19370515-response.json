@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAk1HEAfimbVb6vV6EPx",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Fried rice visible in substantial portion on plate\",\n    \"Fried noodles (mie goreng) clearly present and identifiable\",\n    \"Multiple protein components visible including sausage pieces and cooked meat\",\n    \"Vegetables (cucumber, corn, peppers, carrots) clearly present\",\n    \"Garnish of crackers visible at top of noodles\",\n    \"Orange juice and red beverage shown in accompanying glasses\",\n    \"White plate on green table surface\"\n  ],\n  \"phone_observations\": [\n    \"Plate clearly visible with multiple distinct components\",\n    \"Fried rice and noodles both readable as primary components\",\n    \"Protein elements distinguishable but species identification ambiguous in thumbnail\",\n    \"Overall composition and food presence unambiguous\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title describes 'chicken sausages' and 'beef rendang' but sausage species cannot be visually confirmed from appearance alone\",\n    \"Sausage is not an allowed protein category key; only underlying animal species (chicken/beef/pork/duck/lamb/seafood) are permitted\",\n    \"Red cooked meat pieces could represent beef rendang but visual confirmation of beef species is not definitive\",\n    \"No explicit visual evidence in the photograph unambiguously identifies which animal the sausage contains\"\n  ],\n  \"reason\": \"Source metadata declares 'chicken sausages' and 'beef rendang' but sausage cannot be categorized as a protein key—only the underlying animal species are allowed. 'Chicken sausages' would require the key 'chicken' with an exact source quote, but the source says 'chicken sausages', not 'chicken' alone. The beef rendang is plausible visually but rendang preparation and colour alone do not definitively establish beef species in the photograph. Without unambiguous visual or textual support for mapped protein categories (chicken, beef, pork, duck, lamb, seafood) using exact source quotations, protein_evidence cannot be populated. The dish identity itself is a composite breakfast plate rather than a single canonical named dish. Hold pending clarification of protein species visual evidence or exact source naming of individual proteins.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 2091,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 639,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
