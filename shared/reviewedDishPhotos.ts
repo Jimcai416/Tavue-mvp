@@ -69125,5 +69125,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 720,
     "height": 960,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-129566330",
+    "title": "File:Pozole, Mazatlán, 13 de marzo de 2023 02.jpg",
+    "author": "El Nuevo Doge",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pozole,_Mazatl%C3%A1n,_13_de_marzo_de_2023_02.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/61/Pozole%2C_Mazatl%C3%A1n%2C_13_de_marzo_de_2023_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "21fd6259daded260eb06618b6933299743a8bc9a",
+    "name": "Pozole",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-129566330.jpg",
+    "assetSha256": "655f2cd287926cf648f238066a9f61c30ce7d42c32bcddd96fdb01ac87d3e007",
+    "reviewedAt": "2026-11-18",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 678,
+    "requiresExactMenuName": true
   }
 ];
