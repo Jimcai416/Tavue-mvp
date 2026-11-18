@@ -4530,3 +4530,9 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 
 - **Ecuadorian ceviche, made of shrimp, lemon and tomato sauce** — [Rinaldo Wurglitsch](https://www.flickr.com/photos/16448758@N03). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Ceviche_ecuador.JPG). Local asset: `reviewed-commons-9688817.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Churrasco con yuca** — Xemenendura. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Churrasco_con_yuca.jpg). Local asset: `reviewed-commons-171667929.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Giouvetsi - leg of lamb with kritharaki** — Robert Kindermann. [CC BY-SA 2.5](https://creativecommons.org/licenses/by-sa/2.5); [source](https://commons.wikimedia.org/wiki/File:Giouvetsi.JPG). Local asset: `reviewed-commons-1056618.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Casunziei alle rape rosse** — [ildirettore](https://web.archive.org/web/20161027001136/http://www.panoramio.com/user/2378800?with_photo_id=77232664). [CC BY 3.0](https://creativecommons.org/licenses/by/3.0); [source](https://commons.wikimedia.org/wiki/File:Casunziei_alle_rape_rosse_al_rifugio_Venezia_-_panoramio.jpg). Local asset: `reviewed-commons-55105778.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Culurgiones** — -- IlSignoreDeiPC  (  talk  ) usando una fotocamera iPhone.. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Culurgiones.jpg). Local asset: `reviewed-commons-24598696.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
