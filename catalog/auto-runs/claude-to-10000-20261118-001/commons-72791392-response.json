@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChB8L9jpHmfDT5FCsqeAK",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 5,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Sliced grey-brown liver sausage (leberwurst) arranged on white plate\",\n    \"Pickled gherkins and onion slices as garnish\",\n    \"Single red tomato slice on a clam shell\",\n    \"Natural daylight, sharp focus, appetising presentation\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows sliced grey liver sausage with pickles and garnish\",\n    \"Central clam shell with red tomato is visible and identifiable\",\n    \"Composition and colours match full image exactly\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title 'Leberwurst aus der Dose' (canned liver sausage) contradicts visual appearance: the slices show fresh, moist texture inconsistent with tinned product that typically appears more uniform and compact\",\n    \"Protein species in leberwurst is not explicitly stated in source metadata; traditional recipe includes pork liver and pork meat, but source provides no explicit animal naming\",\n    \"Clam shell plating and decorative presentation suggest restaurant plating, not home preparation of canned product as described\"\n  ],\n  \"reason\": \"Source metadata does not explicitly name the protein species (pork/beef/other animals), violating the requirement that proteins must include only named animals with exact source quote. Additionally, significant discrepancy exists between source description ('aus der Dose'—from a tin) and visible freshness/presentation style of the sliced product, creating identity doubt. Per rules: 'Unknown meat species... => hold', and source contradictions => hold.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1757,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 497,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChB8M9PWJiUZ6A7d6NwiG",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Noodle soup in broth with visible egg noodles, potato, and leafy vegetable\",\n    \"Served in white bowl on white saucer with spoon\",\n    \"Restaurant placemat with 'Classic SAVORY' branding visible\",\n    \"Finished, exposed dish suitable for food review\"\n  ],\n  \"phone_observations\": [\n    \"Noodle soup clearly visible in centre thumbnail\",\n    \"Bowl, saucer and spoon all readable\",\n    \"Golden broth and noodle texture preserved in reduction\",\n    \"Restaurant context evident from placemat\"\n  ],\n  \"protein_evidence\": {\n    \"chicken\": \"Chicken Lomi\"\n  },\n  \"uncertainties\": [\n    \"Title lists 'Chicken Lomi' but description is a metadata dump mixing multiple unrelated dishes (Mangoes, Chico, Papaya, Milkfish, Sinugba) with no clear declaration this specific photograph shows chicken lomi or what its actual components are\",\n    \"Source title/description contradiction: metadata appears auto-generated or corrupted, conflating fruits and multiple regional dishes without clear match to the noodle soup visible\",\n    \"Cannot confirm identity with confidence: photograph shows what appears to be lomi (egg noodle soup), but source metadata does not reliably establish this dish or its protein as the subject of this specific image\",\n    \"No explicit statement in usable source text that this bowl contains chicken\"\n  ],\n  \"reason\": \"Source identity check fails. The title and description are incoherent—metadata lists 'Chicken Lomi' as one item in a jumbled list of mangoes, fruits, papaya, milkfish, and other Philippine dishes, with no clear attribution to this specific photograph. The image shows a finished noodle soup that resembles chicken lomi, but the source evidence is too contradictory and unreliable to confirm the dish name or protein. The description appears to be a corrupted or auto-generated metadata merge. Identity cannot be verified against the exact source title/description as required. Hold for clarification of the actual dish and source attribution.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1864,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 615,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
