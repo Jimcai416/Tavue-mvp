@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAzenUETbDxsWzjMmi5p",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Two servings of stew in glass bowls with greens and meat pieces\",\n    \"Pounded yam portions on black plate\",\n    \"Fresh green onion garnish visible\",\n    \"Natural daylight with consistent exposure\",\n    \"Professional plating on decorative wooden surface\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail shows dark stew in bowl with visible greens\",\n    \"White pounded yam clearly visible in phone crop\",\n    \"Garnish and plating details readable at small size\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title 'Efo-Riro by Afrolems' does not match metadata title 'Efo riro and pounded yam.jpg'—conflicting identifiers\",\n    \"Meat species in stew cannot be determined from appearance alone; not explicitly named in either title or description\",\n    \"File metadata description truncated ('This is an image of food from') provides no substantive identity confirmation\",\n    \"No explicit protein declaration in available source text\"\n  ],\n  \"reason\": \"Identity check fails due to conflicting source identifiers (caption vs. file metadata). Meat species in the efo riro stew is not visually identifiable and not explicitly named in any provided source text. Per protocol, ambiguous meat species and source contradictions require hold. Photograph and phone quality are strong (all ≥4), but absence of confirmed protein declaration and source identity mismatch prevent acceptance.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1729,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 475,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

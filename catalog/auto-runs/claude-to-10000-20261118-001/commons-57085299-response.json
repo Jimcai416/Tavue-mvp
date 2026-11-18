@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAzfBzLqbc5GoqYAxePg",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 2,\n    \"composition\": 3,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Phone thumbnail shows dark sausages in a white tray, recognisable as the same subject\",\n    \"Thumbnail clarity adequate for identification of cooked sausage form\"\n  ],\n  \"protein_evidence\": {\n    \"pork\": \"Porc Fermier\"\n  },\n  \"uncertainties\": [\n    \"Full source photograph is severely out of focus and blurred throughout, with significant motion blur or focus failure\",\n    \"Lighting is poor with strong pink/magenta colour cast from background, compromising natural colour assessment\",\n    \"Sharp detail of the finished dish is not visible in the full photograph despite being recognisable in the thumbnail\",\n    \"Essential component visibility and colour accuracy cannot be verified from the blurred full source image\"\n  ],\n  \"reason\": \"Reject: The full source photograph fails quality checks. Sharpness is severely compromised (score 2/5) with substantial blur and motion artifacts making fine detail unreadable. Lighting is poor (score 2/5) with a strong unnatural pink/magenta cast from the background that distorts colour assessment. While the subject is identifiable as cooked sausages (Boudin noir / Pork Fermier), the photograph does not meet the requirement for 'sharp detail' and 'natural colour'. The phone thumbnail is adequately sharp, but the full source image is the controlling evidence and fails technical photograph standards. All scores must be ≥4 for acceptance.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1620,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 466,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
