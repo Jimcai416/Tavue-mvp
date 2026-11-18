@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAWz7gtiufWwFupnqWq1",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 5,\n    \"composition\": 5,\n    \"appeal\": 5\n  },\n  \"visible_support\": [\n    \"Yellow ceramic pot with handles\",\n    \"Two red/brown sausages prominent in lower half\",\n    \"Clear broth\",\n    \"Zucchini slices (green-ringed, pale centre)\",\n    \"Broccoli florets\",\n    \"Mushroom pieces (button/cremini type)\",\n    \"Carrot chunks (orange)\",\n    \"Leek segments\",\n    \"Tofu cube visible in upper right\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail composition centred on sausages and vegetables\",\n    \"Yellow bowl clearly visible with handles\",\n    \"Essential sausage meat and vegetable components sharp and readable\",\n    \"Natural colour rendering consistent with source photograph\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'Pot-au-feu' (French classical broth dish with beef, not sausages)\",\n    \"Description states 'ソーセージ入りポトフ' (sausage pot-au-feu variant) but sausages are unspecified animal species\",\n    \"Source title 'Pot-au-feu' contradicts visible prominent sausages as primary protein (pot-au-feu is traditionally beef boiled in broth)\",\n    \"Sausage species cannot be determined from appearance alone; metadata species claims ('ソーセージ') are untrusted\",\n    \"No explicit animal species named in source description for the sausages\"\n  ],\n  \"reason\": \"Identity mismatch: Source title is 'Pot-au-feu' (a French classical dish defined by beef), but the visible dish is sausage-based. Protein hold: Sausages are present but animal species is not explicitly named in trusted source text (only generic '入り' meaning 'with sausage'). Sausage species cannot be inferred from appearance. The source description in Japanese names vegetables but does not specify which animal the sausages contain. This creates an unresolvable contradiction between the canonical French dish name and the actual contents, and an unspecified protein category.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1770,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 620,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAWyok9mngJCdttpFzcG",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 5,\n    \"appeal\": 5\n  },\n  \"visible_support\": [\n    \"Golden-yellow saffron rice base visible in full image and thumbnail\",\n    \"Three black mussels clearly visible\",\n    \"Light-coloured seafood pieces (likely shrimp/prawns) distributed throughout\",\n    \"Red pepper strips and diced red onion garnish prominent\",\n    \"Fresh cilantro and green peas visible\",\n    \"Professional plating on white dish\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows complete finished dish with strong visual appeal\",\n    \"All major components (rice, mussels, shrimp, peppers, garnish) readable at thumbnail scale\",\n    \"Vibrant colour contrast and composition preserved\",\n    \"No clipping of essential food elements\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'Arroz con Mariscos' but provides no explicit protein species enumeration in description\",\n    \"Description mentions 'fresh seafood' generically without naming specific species (shrimp/prawn species, mussel species unclear)\",\n    \"Visible mussels (black shells) and shrimp-like pieces are identifiable by appearance, but source text does not explicitly name these animals\",\n    \"Description lists sauce ingredients (chardonnay, aji amarillo) but these are contradictory to strict saffron-rice identification and their presence/recipe cannot be visually confirmed\",\n    \"Source metadata (title, description, author, license info) may contain untrusted framing; dish identity requires exact quoted species confirmation from source\"\n  ],\n  \"reason\": \"Image quality and photograph composition are excellent; thumbnail is clear and appetising. However, the source description does not explicitly name specific seafood proteins (e.g. 'shrimp', 'mussels', 'clams'). It uses only the generic term 'fresh seafood', which violates the requirement that protein_evidence keys must be supported by an exact case-sensitive substring naming the animal. While mussels and crustaceans are visually apparent, the source text does not provide the required explicit naming. This is a source-integrity issue, not a photograph defect. Hold pending clarification of exact protein species in an authoritative source statement.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1759,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 636,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
