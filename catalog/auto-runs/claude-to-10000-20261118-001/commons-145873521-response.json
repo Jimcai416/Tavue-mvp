@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAyqfu2hi2wkTN34CPpC",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Finished, cooked dishes on banana leaves and paper\",\n    \"Sharp detail of assembled components in full image\",\n    \"Natural colours: red tomato sauce, white crumbled cheese, pink onions, green avocado slices\",\n    \"Prominent presentation on checkered paper\",\n    \"Readable components in phone thumbnail\"\n  ],\n  \"phone_observations\": [\n    \"Red sauce-topped item on left clearly visible\",\n    \"Crumbled white topping and pink garnish on centre-right item visible\",\n    \"Colourful toppings (tomato, avocado, onion) legible at thumbnail size\",\n    \"Three distinct dishes distinguishable\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title lists three dishes (Tamale, panucho and empanada) but no single canonical identity matches the full photograph composition\",\n    \"Left item appears to be the empanada (red sauce on banana leaf); centre-right appears to be the tamale or panucho (crumbled cheese, structural form); lower right items are garnished components of one of these\",\n    \"No explicit protein declarations in source title for any dish\",\n    \"Dish boundaries ambiguous—cannot isolate and confirm individual identity of each component with certainty\"\n  ],\n  \"reason\": \"Source description lists three distinct dishes (Tamale, panucho and empanada) presented as a combined platter, but the submission requires a single canonical_name matching one specific finished dish. The photograph shows multiple items on a shared presentation surface, making it impossible to assign a single definitive identity. Each dish requires a separate submission with explicit source title identifying it individually. No protein species are explicitly named in the source. Identity check fails because the source lists three dishes, not one.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1750,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 539,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
