@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAziB5cS7HoMFmyBZtkv",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"White bowl containing broth-based stew\",\n    \"Visible corn on the cob (yellow kernels)\",\n    \"Green leafy herbs (cilantro or similar)\",\n    \"Brown meat pieces consistent with poultry and other animal parts\",\n    \"Steaming appearance indicating hot, freshly cooked dish\",\n    \"Arepa visible at bowl edge (rounded flatbread)\"\n  ],\n  \"phone_observations\": [\n    \"Bowl of stew clearly visible in thumbnail\",\n    \"Green herbs prominent across surface\",\n    \"Yellow corn visible\",\n    \"Meat components identifiable\",\n    \"Dish identity readable from thumbnail\"\n  ],\n  \"protein_evidence\": {\n    \"chicken\": \"Gallina\"\n  },\n  \"uncertainties\": [\n    \"Source title lists 'Rabo' (tail) and 'Costilla' (rib/side): species ambiguous—cannot confirm whether these refer to beef, pork, or other animal without explicit species declaration in source\",\n    \"Metadata declares 'Gallina' (chicken/hen) explicitly, but 'Rabo' and 'Costilla' lack species qualifiers\",\n    \"Cannot visually confirm all three meat components with certainty or distinguish which visible pieces correspond to which declared part\"\n  ],\n  \"reason\": \"Source title declares 'Sancocho cruzado de Gallina, Rabo y Costilla' but only 'Gallina' (chicken) has an explicit species identifier. 'Rabo' (tail) and 'Costilla' (rib/side) are anatomical parts without species declaration—they could refer to beef, pork, or other animals. Per rules, ambiguous meat species and source contradictions require hold. The photograph and thumbnail are sharp, well-lit, appetizing, and show a finished, exposed dish with identifiable components. Identity partially matches the source declaration, but protein ambiguity (unspecified species for two of three declared meat components) prevents acceptance.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1683,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 589,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
