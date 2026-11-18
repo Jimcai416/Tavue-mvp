@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAt4NqGzcKXXewpQgae8",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Mixed green and red leaf lettuce base\",\n    \"Red tomato wedges\",\n    \"Cooked crumbled brown meat scattered across salad\",\n    \"Natural daylight, appetizing presentation\",\n    \"Sharp detail in phone thumbnail\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows composed salad with meat topping\",\n    \"Greens, tomato, and protein visible and proportionate\",\n    \"Professional plating on white dish\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title states 'foies de volaille écrasés' (crushed poultry livers), but visible meat appears as crumbled ground-textured protein, not liver pieces or crushed livers\",\n    \"Poultry type unspecified in source description—could be chicken, duck, or other poultry; 'volaille' is generic\",\n    \"Visual form does not match source claim of 'écrasés' (crushed/mashed); appears as crumbled ground meat instead\"\n  ],\n  \"reason\": \"Source title claims 'foies de volaille écrasés' (crushed poultry livers), but the visible protein is inconsistent with that description—it appears as crumbled ground meat rather than crushed liver. Additionally, the specific poultry species is not named (only generic 'volaille'), which prevents protein_evidence entry. Per protocol, visual contradiction with source description and unspecified poultry species warrant hold. Quality, photograph, phone, and sharpness/lighting/composition are acceptable, but identity check fails.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1745,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 501,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
