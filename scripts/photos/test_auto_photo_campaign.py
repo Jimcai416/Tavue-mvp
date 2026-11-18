@@ -230,12 +230,36 @@ class CampaignTests(unittest.TestCase):
         p=self.campaign();row=self.round_row();row['requestedQueries']=60
         queries=[{'dish':f'New dish {i}','query':f'New dish {i}','cuisine':'Test'} for i in range(75)]
         message={'id':'new-plan','stop_reason':'end_turn','content':[{'type':'text','text':json.dumps({'queries':queries})}],'usage':{'input_tokens':1000,'output_tokens':3000}}
-        with patch.object(p,'api',return_value={'input_tokens':1000}),patch.object(p,'persist'),patch.object(p,'paid',return_value=(row['plannerKey'],message,None)) as paid:
+        with patch.object(p,'api',return_value={'input_tokens':1000}) as api,patch.object(p,'persist'),patch.object(p,'paid',return_value=(row['plannerKey'],message,None)) as paid:
             first=p.plan_round(row);again=p.plan_round(row)
         self.assertEqual(len(first),60);self.assertEqual(first,again);paid.assert_called_once()
         body=paid.call_args.args[1]
         self.assertEqual(json.loads(body['messages'][0]['content'])['queryLimit'],60)
         self.assertEqual(body['max_tokens'],8000)
+        fields=body['output_config']['format']['schema']['properties']['queries']['items']
+        self.assertEqual(set(fields['required']),{'dish','cuisine','query'})
+        self.assertFalse(fields['additionalProperties'])
+        self.assertEqual(api.call_args.args[1]['output_config'],body['output_config'])
+
+    def test_unusable_saved_plan_does_not_stop_the_next_round(self):
+        p=self.campaign()
+        row=self.round_row()
+        p.ledger['rounds']=[row]
+        p.ledger['requests'][row['plannerKey']]={'status':'completed','actualUSD':.08}
+        a.triage.write_json(p.out/(row['plannerKey']+'-response.json'),
+                            {'stop_reason':'end_turn','content':[{'type':'text','text':'{"queries":['}]})
+        discover=p.discover_round
+        def advance(current):
+            if current['number']==1:
+                return discover(current)
+            self.assertEqual(current['number'],2)
+            raise c.CampaignStop('time_limit','test next-job checkpoint')
+        with patch.object(p,'api',return_value={'id':a.MODEL}),patch.object(p,'persist'),patch.object(p,'paid') as paid,patch.object(p,'discover_round',side_effect=advance):
+            p.run()
+        paid.assert_not_called()
+        self.assertEqual(row['planParseStatus'],'invalid')
+        self.assertEqual(row['status'],'completed')
+        self.assertEqual(p.ledger['status'],'time_limit')
 
     def test_offline_recovery_does_not_require_an_api_key(self):
         with patch.object(a.triage,'api_key',side_effect=AssertionError('No key should be read')):
@@ -245,6 +269,14 @@ class CampaignTests(unittest.TestCase):
 
 
 class DiscoveryHelpersTests(unittest.TestCase):
+    def test_malformed_legacy_plan_recovers_whole_rows_on_both_sides_of_bad_line(self):
+        first={'dish':'Mofongo','query':'mofongo','cuisine':'Puerto Rican'}
+        last={'dish':'Griot','query':'griot haiti','cuisine':'Haitian'}
+        text='{"queries":[\n'+json.dumps(first)+',\n"query":"broken row"},\n'+json.dumps(last)+'\n]}'
+        plan,status=c.search_plan_value({'stop_reason':'end_turn','content':[{'type':'text','text':text}]})
+        self.assertEqual(plan['queries'],[first,last])
+        self.assertEqual(status,'complete_rows_from_malformed_plan')
+
     def test_only_complete_query_objects_are_salvaged_from_a_truncated_plan(self):
         first={'dish':'菜品甲','query':'Query A','cuisine':'Text containing } and \\" braces'}
         second={'dish':'B','query':'Query B','cuisine':'Test'}

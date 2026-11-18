@@ -155,7 +155,9 @@ class Pipeline:
   raise RuntimeError('provider_rate_limit_persisted')
  def reserve(self,key,body,counted=None):
   if key in self.ledger['requests']:return False
-  if counted is None:counted=self.api('messages/count_tokens',{k:body[k] for k in ['model','system','messages']})['input_tokens']
+  if counted is None:
+   count_body={k:body[k] for k in ('model','system','messages','output_config') if k in body}
+   counted=self.api('messages/count_tokens',count_body)['input_tokens']
   if type(counted) is not int or counted<0:raise ValueError('Invalid provider token count')
   reservation=expense(int(counted*1.15)+128,body['max_tokens'])
   spent=self.accounted()
