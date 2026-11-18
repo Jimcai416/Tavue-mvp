@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAy3m5YpCbGDsT6Tsr6S",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Golden-brown bread rolls on white plates\",\n    \"Split rolls revealing interior filling\",\n    \"Red tablecloth, indoor dining setting\",\n    \"Multiple plated portions arranged on table\"\n  ],\n  \"phone_observations\": [\n    \"Sandwich halves clearly visible on plate\",\n    \"Golden bread crust prominent\",\n    \"Interior filling distinguishable\",\n    \"Red tablecloth provides context\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title describes 'Argentine Choripán con savora' but the visible filling appears dark and meat-like; choripán requires chorizo (a sausage of unspecified species in the source). No explicit animal source naming is provided in the title/description.\",\n    \"The filled ingredient is not visually identifiable with certainty as chorizo or any named protein species.\",\n    \"No exact species declaration (chicken/beef/pork/duck/lamb/seafood) appears in the source metadata.\"\n  ],\n  \"reason\": \"Rejection due to unspecified protein species. Although the photograph is sharp, well-lit, and clearly shows a sandwich with meat-like filling on a plate, the source title refers to 'choripán' (a sausage sandwich) without naming the animal species of the sausage. 'Chorizo' is a generic sausage term that does not declare beef, pork, or another allowed category. The instructions require explicit source-quoted animal names for protein evidence; sausage species cannot be inferred from tradition or appearance. Without a source statement such as 'pork chorizo' or 'beef chorizo,' the identity cannot be verified as matching an allowed protein category, and the dish identity cannot be confirmed as complete.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1722,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 525,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

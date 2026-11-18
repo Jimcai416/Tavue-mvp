@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAy2gJH411MopwUYjT2s",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Cooked meat pieces in dark wok/karahi\",\n    \"Green chilli garnish visible\",\n    \"Generous oil/ghee coating\",\n    \"Golden-brown colour consistent with slow-cooked meat\",\n    \"Metal serving spoon present\",\n    \"Rustic presentation on striped placemat\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows meat dish in karahi\",\n    \"Garnish visible despite small size\",\n    \"Dish recognizable and prominent\",\n    \"Proper exposure and colour saturation\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Species ambiguity: description claims 'fat tail and rump sheep' but source uses term 'Dumba' which may refer to sheep or goat—visually indistinguishable from photograph alone\",\n    \"Source description contains unverified genus designation ('sheep') but actual animal cannot be confirmed from appearance\",\n    \"Metadata title/filename do not match description; filename is auto-generated camera output\"\n  ],\n  \"reason\": \"Reject: The source description identifies the meat as 'Fat tail and rump sheep' but uses the regional term 'Dumba Karahi'. The word 'Dumba' historically refers to fat-tailed sheep in Punjabi/Urdu contexts, but regional terminology can be ambiguous and may sometimes refer to goat. The photograph alone cannot visually confirm sheep versus goat. Per rules, ambiguous meat species (including mutton that might mean goat) trigger a hold. The identity cannot be confirmed as matching the exact declaration because the protein species cannot be visually proven and the source description introduces unresolved ambiguity. No exact source quote can support a confident protein categorization.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1775,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 533,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
