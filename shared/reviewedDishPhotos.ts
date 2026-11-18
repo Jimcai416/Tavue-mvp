@@ -79177,5 +79177,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 640,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-89810752",
+    "title": "File:Chả cá tại Phố chả cá Hà Nội.jpg",
+    "author": "Phương Huy  ( thảo luận )",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ch%E1%BA%A3_c%C3%A1_t%E1%BA%A1i_Ph%E1%BB%91_ch%E1%BA%A3_c%C3%A1_H%C3%A0_N%E1%BB%99i.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/51/Ch%E1%BA%A3_c%C3%A1_t%E1%BA%A1i_Ph%E1%BB%91_ch%E1%BA%A3_c%C3%A1_H%C3%A0_N%E1%BB%99i.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "3b615a76a7e1a73656b2c4841b7249c0cce91e76",
+    "name": "Chả cá tại Phố chả cá Hà Nội",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-89810752.jpg",
+    "assetSha256": "e43d76b02364d6c7d5b34b09c92e2ca26a942531dade3bcf1c9cac42b095a9ed",
+    "reviewedAt": "2026-11-18",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];
