@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChATuywcHdp1eFEAbWsLo",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Finished, cooked curry in white bowl\",\n    \"Golden-brown potato and cauliflower pieces\",\n    \"Reddish-brown spiced sauce\",\n    \"Fresh cilantro garnish\",\n    \"Natural colours, appetising appearance\"\n  ],\n  \"phone_observations\": [\n    \"Dish clearly visible in thumbnail\",\n    \"Sauce and vegetable components readable\",\n    \"Garnish visible\",\n    \"No clipping of essential elements\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title 'File:Aloo Gobi Sabji.jpg' is a filename, not a canonical dish name\",\n    \"Description 'Indian Curry' is generic category, not specific dish identity\",\n    \"Metadata does not provide exact dish name matching visible form\",\n    \"Aloo Gobi Sabji is a vegetable curry (potato and cauliflower); no proteins are visible or declared in source\"\n  ],\n  \"reason\": \"Reject: source metadata is insufficient for identity verification. The title is a filename, and the description is a generic category label. While the photograph shows a well-executed vegetable curry with good quality and phone visibility, no specific canonical dish name can be extracted from the provided source materials. The filename 'Aloo Gobi Sabji.jpg' and generic 'Indian Curry' description do not meet the requirement for an exact source title match. A proper source title or description specifying the exact dish name is required.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1599,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 478,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
