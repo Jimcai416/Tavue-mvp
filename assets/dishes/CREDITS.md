@@ -3746,3 +3746,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 - **Khachapuri** — Francesc Fort. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Batumi_-_Khachapuri.jpg). Local asset: `reviewed-commons-139627449.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Khachapuri amb ou** — Francesc Fort. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Batumi_-_Khachapuri_amb_ou.jpg). Local asset: `reviewed-commons-139627396.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Stuffed cabbage (homemade)** — HaJunkiyada. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Liat_Portal_for_Foodie_Disorder_-_Stuffed_cabbage_(homemade).jpg). Local asset: `reviewed-commons-181693532.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Stuffed Cabbage Golomki** — [Steven Depolo  from Grand Rapids, MI, USA](https://www.flickr.com/people/10506540@N07). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Stuffed_Cabbage_Golomki.jpg). Local asset: `reviewed-commons-17252285.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
