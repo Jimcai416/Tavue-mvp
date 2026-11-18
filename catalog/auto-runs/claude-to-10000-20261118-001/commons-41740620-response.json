@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAtQKadU4x5kFbhoiJ5w",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 2\n  },\n  \"visible_support\": [\n    \"Cross-section shows spiral muscle structure characteristic of andouillette\",\n    \"Cooked exterior with charring visible in full source image\",\n    \"Served with potatoes on blue cloth placemat\",\n    \"Raw/cut preparation stage displayed\"\n  ],\n  \"phone_observations\": [\n    \"Central subject is a cut cross-section of sausage, not a finished plated dish\",\n    \"Internal organ/offal texture prominently featured\",\n    \"Preparation/butchery stage rather than appetizing finished food\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Andouillette is a traditional French chitterling sausage (pork offal); species is pork but source does not use the word 'pork' explicitly in title/description, only the regional dish name and butcher name\",\n    \"Image shows raw/cut preparation stage, not a finished, cooked, plated dish ready to eat\"\n  ],\n  \"reason\": \"Reject: This is a preparation/butchery photograph showing the cross-section interior of an andouillette sausage, not a finished, exposed, appetizing cooked dish. The central subject in both source and thumbnail is a cut revealing offal texture—a stage of preparation rather than a completed food photograph. While the image is sharp and well-composed, the subject matter violates the core requirement that only finished, plated, ready-to-eat dishes be accepted. Additionally, although the source title names the dish as andouillette, the protein (pork offal/chitterlings) is not explicitly stated as 'pork' in the metadata, only implied by the regional dish name. The thumbnail clearly shows internal anatomy, not an appetizing finished plate.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1762,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 526,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
