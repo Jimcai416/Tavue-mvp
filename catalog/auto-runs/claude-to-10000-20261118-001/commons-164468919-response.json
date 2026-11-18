@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChB25gswWSyTa8K8AHD8c",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Yellow couscous grains visible\",\n    \"Shredded meat component identifiable\",\n    \"Served in clear plastic bowls with spoons\",\n    \"Active service/eating context\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail shows couscous and meat clearly\",\n    \"Yellow grain and brown protein components prominent\",\n    \"Sufficient detail to confirm dish type\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title contains 'File:' prefix and filename extension (rejected metadata)\",\n    \"Description is generic ('Farm to Plate theme') and does not identify the specific dish\",\n    \"No explicit dish name provided in source metadata\",\n    \"Meat species not named in available source text\",\n    \"Cannot verify 'Couscous marocain' from the actual description supplied—only from filename suggestion\"\n  ],\n  \"reason\": \"Identity check failed. The source metadata (title and description) do not contain a canonical dish name. The filename 'Couscous marocain resto UCAD 12.jpg' is not a valid source quote because filenames, paths, and 'File:' prefixes are explicitly untrusted metadata and must not be used as evidence. The description ('Farm to Plate') is too generic and does not identify the dish. No protein species is explicitly named in the source title or description. Without a trusted, specific source description that names both the dish and any protein components, identity cannot be established.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1740,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 469,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
