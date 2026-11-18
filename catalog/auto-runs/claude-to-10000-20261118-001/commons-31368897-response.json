@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChB2WuqW56zzmi76952rt",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Yellow and white rice visible and well-distributed\",\n    \"Brown meat pieces scattered throughout\",\n    \"Green vegetable pieces (consistent with fava beans or peas)\",\n    \"Plate presentation on white dish against dark wood\",\n    \"Thumbnail shows complete dish with clear colour contrast\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows finished rice dish with yellow rice dominant\",\n    \"Meat pieces visible and distributed across surface\",\n    \"Green vegetable component evident\",\n    \"Appetising presentation, sharp enough to identify main components\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title describes 'Baghali Polo' as made from 'rice and fava bean' only, with no meat mentioned, yet the photograph clearly shows brown meat pieces throughout\",\n    \"Meat species cannot be identified visually (could be beef, lamb, or other); no source text names the specific animal protein\",\n    \"Contradiction between source description (rice and fava bean) and visible photograph content (contains visible meat)\",\n    \"Filename metadata 'File:Baghali Polo.png' is metadata, not a reliable source description; the actual description is ambiguous about meat inclusion\"\n  ],\n  \"reason\": \"Source description states the dish is made from 'rice and fava bean' with no mention of meat, but the photograph clearly contains brown meat pieces distributed throughout. This is a material contradiction between the stated identity and visible form. Additionally, the meat species visible in the image cannot be determined from the source text or appearance alone. The identity cannot be confirmed as accurate, and protein evidence cannot be established. Hold pending clarification of the actual dish identity and meat component.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 2050,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 515,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
