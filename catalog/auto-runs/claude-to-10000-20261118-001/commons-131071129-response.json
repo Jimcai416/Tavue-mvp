@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAsZEzgUvE3VF7qteJaY",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 5,\n    \"composition\": 5,\n    \"appeal\": 4\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Centre thumbnail shows burger with patties, lettuce, tomato on seeded bun\",\n    \"Ingredients displayed around burger in layout format\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Image is an ingredients diagram/infographic, not a finished dish photograph\",\n    \"Title 'Kofta ingredients' is metadata only; actual finished kofta dish is not visible\",\n    \"The burger shown is a visual representation assembled for educational purposes, not an actual photographed meal\",\n    \"Source description explicitly states 'The visual was created on the basis of free images' — indicates composite/illustration\",\n    \"No evidence this is an actual finished, exposed, naturally photographed dish\"\n  ],\n  \"reason\": \"Reject: This is an instructional ingredients infographic, not a photograph of a finished dish. The burger shown is a composite assembly of ingredient photographs arranged with labels and text overlay. The source description confirms the visual was 'created on the basis of free images,' indicating it is an illustration/diagram rather than an actual finished food photograph. This violates the core acceptance criterion requiring a finished, exposed, naturally coloured, actual photographic dish. Watermarks and text overlays further disqualify it. No protein species can be verified from actual finished product appearance.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1801,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 427,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
