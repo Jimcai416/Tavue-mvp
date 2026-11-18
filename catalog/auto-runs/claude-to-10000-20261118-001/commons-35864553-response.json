@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChB4Ccjag8LZhNCUkpvBk",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [\n    \"Three separate dishes on pink-decorated plates arranged in a line\",\n    \"Left plate: dark fried items, possibly fish or seafood\",\n    \"Centre plate: pale yellow granular starch, consistent with attiéké (cassava couscous)\",\n    \"Right plate: dark brown sauce or stew\",\n    \"Home/street food presentation on simple wooden surface\",\n    \"Natural daylight, slight overhead shadows\"\n  ],\n  \"phone_observations\": [\n    \"All three components clearly visible in thumbnail\",\n    \"Colour contrast adequate for identification\",\n    \"Composition readable despite small size\",\n    \"No essential elements clipped\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Metadata title 'Attiéké-poissons' suggests fish (poissons = fish in French), but no fish is visibly identifiable in the left plate—only dark fried items of ambiguous species\",\n    \"Left plate contains dark fried matter that could be fish, but species and preparation cannot be confirmed from appearance alone\",\n    \"Right plate appears to be a sauce or stew but its primary protein component is not visible\",\n    \"No explicit source description provided—only incomplete metadata with filename extension\",\n    \"Cannot confirm 'fish' claim visually; fried items lack readable detail to establish species\"\n  ],\n  \"reason\": \"The image shows three plated components consistent with an Ivorian meal (attiéké + sides), and the metadata filename suggests poissons (fish). However, the visible left plate contains unidentifiable dark fried items—no fish is visibly confirmed. The protein_evidence cannot be populated because no allowed category (chicken/beef/pork/duck/lamb/seafood) can be explicitly matched to a source quote with visual support. The incomplete metadata ('description: This is an image of food from') provides no authoritative dish name or protein declaration. Identity cannot be confirmed without reliable source text. The image quality and composition are adequate, but the identity check fails due to protein uncertainty and missing canonical source description.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1730,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 595,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

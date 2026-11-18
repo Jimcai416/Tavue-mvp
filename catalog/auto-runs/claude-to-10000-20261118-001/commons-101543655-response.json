@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChB4Ccm5NfPRJkEo88B9X",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Pink/white cylindrical starch-based item (consistent with banku)\",\n    \"Brown/reddish broth with visible spice coating\",\n    \"Two darker solid items in sauce (consistent with protein/offal)\",\n    \"Dish plated on white rim plate\",\n    \"Natural daylight overhead lighting\"\n  ],\n  \"phone_observations\": [\n    \"Central cylinder clearly visible and prominent\",\n    \"Brown liquid surrounding main item readable\",\n    \"Overall composition legible at thumbnail size\",\n    \"No severe clipping of essential components\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title states 'Banku and groundnut soup' but source description only says 'Banku and soup' — groundnut is not explicitly confirmed in description\",\n    \"The two darker items in sauce are not identified by species in source metadata; they could be meat, offal, or other protein but exact animal/type is unspecified\",\n    \"No explicit animal protein names appear in title or description\"\n  ],\n  \"reason\": \"Source title/description conflict and missing protein clarity. The file title claims 'groundnut soup' but the description field only states 'Banku and soup' without naming groundnut. The two solid items visible in the broth are not identified by species or type in any source metadata. Without explicit confirmation of groundnut as the soup base and species identification of the protein items, identity cannot be verified as matching the full source claim. Hold pending clarification of exact dish variant and protein composition.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1734,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 477,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
