@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAmQ1oV8QtV7HLeit5cm",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Stewed meat in rich brown sauce\",\n    \"Boiled potatoes (whole, pale yellow)\",\n    \"Pickled vegetables (cucumbers, tomatoes, olives, capers)\",\n    \"White plate/dish\"\n  ],\n  \"phone_observations\": [\n    \"Prominent meat stew and potatoes clearly visible\",\n    \"Thumbnail composition matches full image layout\",\n    \"Essential components readable and appetising\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title states 'Gulasch mit Kartoffelklößen' (goulash with potato dumplings), but visible potatoes are whole boiled potatoes, not dumplings/klößen\",\n    \"Meat species in gulasch not explicitly named in source; beef is traditional but not stated\",\n    \"Discrepancy between declared preparation method (dumplings) and visible form (whole potatoes) creates identity uncertainty\"\n  ],\n  \"reason\": \"Image quality, sharpness, lighting and composition all meet standards. Phone thumbnail clearly shows the dish. However, the source title declares 'Kartoffelklößen' (potato dumplings) but the photograph shows whole boiled potatoes, not dumplings. This material contradiction between source description and visible form prevents identity confirmation. Additionally, the meat species is not explicitly named in the source, only implied by the generic 'Gulasch' term. These ambiguities require hold pending clarification of the actual dish identity and composition.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1738,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 476,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAmP5wVPjnfvuCzGTphq",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 5,\n    \"appeal\": 5\n  },\n  \"visible_support\": [\n    \"Roasted poultry leg with golden-brown skin on white plate\",\n    \"Yellow/golden boiled potatoes with sauce\",\n    \"Purple beetroot salad with almonds and edible purple flower\",\n    \"Green leaf lettuce bed\",\n    \"Professional plating and garnish\"\n  ],\n  \"phone_observations\": [\n    \"Roasted leg meat clearly visible in thumbnail\",\n    \"Yellow potatoes prominent and identifiable\",\n    \"Purple salad visible\",\n    \"Composed, appetising presentation preserved in crop\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'Gebratenes Kaninchen' (roasted rabbit), but rabbit is not an allowed protein category and cannot be verified as a supported ingredient\",\n    \"Species ambiguity: the leg could be rabbit, chicken, duck or other poultry; visual form does not definitively exclude other species\"\n  ],\n  \"reason\": \"Rejection: The source title explicitly names 'Kaninchen' (rabbit) as the protein. Rabbit is not an allowed protein category (only chicken/beef/pork/duck/lamb/seafood are permitted). The visible leg cannot be conclusively identified as a specific allowed species from appearance alone, and the source-declared animal is outside the supported set. Identity check fails due to unsupported protein declaration.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1662,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 442,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAmNgbJYJpZzncphNo2g",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 2,\n    \"appeal\": 3\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Person holding elongated sandwich prominently in phone thumbnail\",\n    \"Sandwich partially in mouth during consumption\",\n    \"Context is event/gathering setting, not food presentation\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title 'Open-face sandwich Zapiekanka' contradicts standard zapiekanka identity—zapiekanka is a baked Polish open-faced sandwich, not typically consumed as a handheld item in this manner\",\n    \"Visible toppings and fillings are ambiguous in both full image and thumbnail; specific components (cheese, meat, vegetables) cannot be reliably distinguished\",\n    \"No protein species can be identified with certainty from visual inspection\",\n    \"Image composition prioritizes people and event context rather than food detail and appetizing presentation\"\n  ],\n  \"reason\": \"Reject: The photograph is an event/lifestyle shot documenting consumption rather than food photography. The sandwich is partially obscured by the person's mouth and the composition emphasizes the social moment over dish presentation. Identity is contradicted by form—zapiekanka is a baked dish typically plated, not a handheld sandwich consumed this way. No readable, sharply-detailed, appetizing food presentation of the named dish. No protein species can be visually supported. Composition score fails acceptance threshold (2/5).\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1658,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 437,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
