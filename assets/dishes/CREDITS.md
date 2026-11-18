@@ -4399,3 +4399,8 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Mansaf, the traditional dish of Jordan** — Jktab. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Mansaf,_the_traditional_dish_of_Jordan.jpg). Local asset: `reviewed-commons-101921280.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Puran Poli (also known as Bobbattu)** — GaneshDatta  at  English Wikipedia. [CC BY 3.0](https://creativecommons.org/licenses/by/3.0); [source](https://commons.wikimedia.org/wiki/File:Obbattu.jpg). Local asset: `reviewed-commons-20108995.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Lobio with green onion** — [Georgia About](http://georgiaabout.com). [CC BY 3.0](https://creativecommons.org/licenses/by/3.0); [source](https://commons.wikimedia.org/wiki/File:Lobio_with_green_onion.jpg). Local asset: `reviewed-commons-38127823.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
