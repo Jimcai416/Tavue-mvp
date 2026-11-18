@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAZ2e732X3byAsVuS68q",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Cream-coloured soup in white bowl with red paprika garnish visible\",\n    \"Lemon wedge beside bowl on saucer\",\n    \"Bowl-and-saucer presentation clear\",\n    \"Garnish detail readable at thumbnail size\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Tripe as animal product category not in allowed protein list (chicken/beef/pork/duck/lamb/seafood only)\",\n    \"Source title explicitly names 'tripe soup' but tripe origin species (beef/lamb/pork) not stated in source metadata\",\n    \"Cannot verify animal species from visual appearance alone\"\n  ],\n  \"reason\": \"Source title describes 'Turkish tripe soup (işkembe)' but tripe is an organ meat whose source animal (beef, pork, or lamb) is not explicitly named in the supplied title or description. The allowed protein_evidence keys are restricted to chicken/beef/pork/duck/lamb/seafood with explicit source naming. Tripe as a standalone ingredient cannot be mapped to a supported protein category without source confirmation of species. Identity check fails due to unresolved protein species. Photograph and phone thumbnail quality are acceptable, but identity uncertainty triggers hold per protocol. All checks must be true for acceptance.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1736,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 432,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
