@@ -3193,3 +3193,8 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 
 - **Sambar** — KARANK21. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Sambar_4.jpg). Local asset: `reviewed-commons-103235454.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Garbanzos con allioli** — Juan Emilio Prades Bel. [CC BY 4.0](https://creativecommons.org/licenses/by/4.0); [source](https://commons.wikimedia.org/wiki/File:Garbanzos_con_allioli,_gastronom%C3%ADa_rural,_comarca_Maestrazgo.jpg). Local asset: `reviewed-commons-155821499.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Ayam Goreng Kalasan (free range chicken)** — Midori. [CC BY 3.0](https://creativecommons.org/licenses/by/3.0); [source](https://commons.wikimedia.org/wiki/File:Ayam_goreng_Kalasan_(ayam_kampung)_Ayam_Goreng_Prambanan_Bali.JPG). Local asset: `reviewed-commons-13299967.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Chicken Adobo with Coconut Milk** — Khayri R.R. Woulfe. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Chicken_Adobo_with_Coconut_Milk.jpg). Local asset: `reviewed-commons-109855755.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
