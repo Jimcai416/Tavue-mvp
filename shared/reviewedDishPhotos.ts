@@ -48034,5 +48034,52 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 581,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-127123360",
+    "title": "File:HK STD 大圍道 35 Tai Wai Road 金山樓 Kam Shan Building 小火焰韓式咖啡餐廳 Aidan Korean Dessert Cafe Restaurant 泡菜 韓式煎雞肉 紫菜飯 December 2022 Px3 01.jpg",
+    "author": "NineSteyeblow H980",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:HK_STD_%E5%A4%A7%E5%9C%8D%E9%81%93_35_Tai_Wai_Road_%E9%87%91%E5%B1%B1%E6%A8%93_Kam_Shan_Building_%E5%B0%8F%E7%81%AB%E7%84%B0%E9%9F%93%E5%BC%8F%E5%92%96%E5%95%A1%E9%A4%90%E5%BB%B3_Aidan_Korean_Dessert_Cafe_Restaurant_%E6%B3%A1%E8%8F%9C_%E9%9F%93%E5%BC%8F%E7%85%8E%E9%9B%9E%E8%82%89_%E7%B4%AB%E8%8F%9C%E9%A3%AF_December_2022_Px3_01.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0c/HK_STD_%E5%A4%A7%E5%9C%8D%E9%81%93_35_Tai_Wai_Road_%E9%87%91%E5%B1%B1%E6%A8%93_Kam_Shan_Building_%E5%B0%8F%E7%81%AB%E7%84%B0%E9%9F%93%E5%BC%8F%E5%92%96%E5%95%A1%E9%A4%90%E5%BB%B3_Aidan_Korean_Dessert_Cafe_Restaurant_%E6%B3%A1%E8%8F%9C_%E9%9F%93%E5%BC%8F%E7%85%8E%E9%9B%9E%E8%82%89_%E7%B4%AB%E8%8F%9C%E9%A3%AF_December_2022_Px3_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "f22807e20268072afbb543b799c541cfd4e6f7dd",
+    "name": "韓式煎雞肉",
+    "aliases": [],
+    "proteins": [
+      "chicken"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-127123360.jpg",
+    "assetSha256": "b4de974e0b4b8b5fa0659cdd8af08aba29b57581e64444a585ddb04c8ebccfbb",
+    "reviewedAt": "2026-11-18",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-3434949",
+    "title": "File:Korean.pancake-Pajeon-05.jpg",
+    "author": "by karendotcom127",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Korean.pancake-Pajeon-05.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Korean.pancake-Pajeon-05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "df91c78ee8145136d2eb744ea1ea77c853d9711d",
+    "name": "Pajeon",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-3434949.jpg",
+    "assetSha256": "f71c09854a41e265b9d6ad877c8c1ec910c691c5cca4914cd1697cd8768646ae",
+    "reviewedAt": "2026-11-18",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true,
+    "authorUrl": "https://www.flickr.com/photos/karendotcom127/"
   }
 ];
