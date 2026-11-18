@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChB8rncRvGFqy2HoJFsEp",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Cooked protein with charred exterior visible on plate\",\n    \"Bulgur pilaf (yellow grain component) present\",\n    \"Lavash bread in basket to right\",\n    \"Red cabbage (dark beet-like component) visible\",\n    \"Mixed salad with greens and lime wedge\",\n    \"Casual dining setting with table service\"\n  ],\n  \"phone_observations\": [\n    \"Central plate shows cooked protein and accompaniments\",\n    \"Lavash bread visible in wicker basket\",\n    \"Overall composition and components readable at thumbnail scale\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'Baked Salmon' but visible protein cannot be reliably confirmed as salmon from appearance alone; the cooked, charred exterior does not permit species-specific visual identification\",\n    \"Source metadata (title) names 'Salmon' but this is unverified by visual inspection; protein appears cooked but species is not visually proved\"\n  ],\n  \"reason\": \"Rejection: The source title explicitly names 'Salmon' as the protein, but visual inspection of the cooked, heavily charred protein cannot confirm salmon species with certainty. The rules require protein_evidence keys only when an exact case-sensitive substring from the supplied title/description explicitly names the animal AND visual evidence supports it. Here, the ambiguity between what the title asserts and what the photograph visibly confirms—a cooked protein with no species-specific visual markers—creates an unresolvable contradiction. Per the protocol, 'ambiguous meat species' and 'source contradictions' mandate hold or reject. Since the protein is cooked beyond reliable visual species identification and the source-declared species cannot be visually verified, this fails the identity check and creates material uncertainty. All-accept criteria require uncertainties to be empty.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1771,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 545,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
