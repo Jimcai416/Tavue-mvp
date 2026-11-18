@@ -5563,3 +5563,8 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 - **roti** — Dibrugarh2006. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Roti_(18131).jpg). Local asset: `reviewed-commons-160763680.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Roti from India** — Gannu03. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Roti_7.jpg). Local asset: `reviewed-commons-153265994.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Kochuri Ghugni** — Sumitsurai. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Local_breakfast_of_Kochuri_Ghugni_at_Chharrah.jpg). Local asset: `reviewed-commons-71581612.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Mokor sonkrantir breakfast pithe Puli gur ar ghugni** — Betssy13. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Mokor_sonkrantir_breakfast_pithe_Puli_gur_ar_ghugni.jpg). Local asset: `reviewed-commons-144749595.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Paratha aur ghugni** — Agamani Saha. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Paratha_aur_ghugni.jpg). Local asset: `reviewed-commons-102140896.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
