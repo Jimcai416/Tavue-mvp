@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAh1yJbN75Nq1aRu8Tu3",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Purple plate with clearly separated curry and rice components\",\n    \"Reddish-brown masala curry visible centre-left\",\n    \"Yellow/golden curry sauce visible lower-right\",\n    \"Two rice preparations: lighter rice upper-left, golden pulao rice upper-right\",\n    \"Green vegetable component (cabbage) visible mixed in left rice\",\n    \"Natural restaurant lighting, no severe glare or colour cast\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows separated curry portions and rice on purple plate\",\n    \"Reddish curry mass readable in phone thumbnail\",\n    \"Cream/yellow curry sauce area visible\",\n    \"Rice components distinct enough to identify in reduced format\",\n    \"Overall composition survives phone crop acceptably\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title lists 'Chicken Masala, Goat Masala' but does not disambiguate which curry is which on the plate—no visual cues confirm which masala (the red or the yellow) corresponds to which animal\",\n    \"Goat is an ambiguous species identifier (may refer to goat or mutton depending on regional usage; 'goat masala' could indicate goat meat, but source terminology is unclear)\",\n    \"Description provides speculative narrative ('I think it is a tandoori chicken cooked in masala spices') rather than definitive identification of the finished dish components\",\n    \"No explicit source confirmation of which curry contains which protein on the actual plate\"\n  ],\n  \"reason\": \"Image quality, sharpness, lighting, composition and appeal are all acceptable (scores ≥4). Full photograph and phone thumbnail both clearly show a finished, plated curry dish with separated components on a restaurant plate. However, identity check fails: the source description names two proteins (Chicken Masala and Goat Masala) but provides no visual evidence distinguishing which curry on the plate contains which animal. 'Goat' is ambiguous species terminology. The description also contains speculative narrative ('I think') rather than authoritative dish identification. Without unambiguous visual or explicit source mapping between each curry component and its named protein, protein_evidence cannot be populated with certainty, triggering mandatory hold per rules requiring all checks true for acceptance.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1900,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 646,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAh1yLa6UZwMev9DAQGR",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Crispy fried cubes prominently displayed on white plate\",\n    \"Fresh lettuce base with visible greens\",\n    \"Red tomato pieces scattered throughout\",\n    \"Purple onion slices visible\",\n    \"Green spring onion/scallion garnish\",\n    \"Warm golden-brown fried coating on main protein\",\n    \"Natural daylight, well-exposed photograph\"\n  ],\n  \"phone_observations\": [\n    \"Fried cubes remain sharp and identifiable at thumbnail size\",\n    \"Salad components clearly visible in reduced view\",\n    \"Golden-brown colour and texture preserved in phone thumbnail\",\n    \"Composition maintains dish legibility at 124x96 scale\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title describes 'Panzanella of sorts' but dish is primarily fried haloumi salad, not traditional panzanella (bread salad). The 'of sorts' qualifier indicates it is a non-canonical variant.\",\n    \"Description says 'extra fried haloumi' but haloumi is not an allowed protein category (chicken/beef/pork/duck/lamb/seafood only). Haloumi is a cheese product, not an animal protein.\",\n    \"The dish is fundamentally a cheese salad, not a meat-based dish. No poultry, beef, pork, duck, lamb or seafood visible or named as the primary protein.\"\n  ],\n  \"reason\": \"Reject: The source description identifies the main protein as 'fried haloumi' (cheese), which does not fall within the allowed protein categories (chicken/beef/pork/duck/lamb/seafood). Although the photograph shows excellent quality, sharpness, lighting and composition (all scores ≥4), and both full and phone images are clear and appetising, the dish cannot be accepted because the primary protein is not an allowed category. The title 'Panzanella of sorts' further indicates a non-canonical variant of the named dish type.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1635,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 594,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
