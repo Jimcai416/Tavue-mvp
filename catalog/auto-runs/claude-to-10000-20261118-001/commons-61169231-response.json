@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAv1tiXB65fNYEeDdKzo",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": true,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 2,\n    \"composition\": 2,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Subject too small and poorly defined in thumbnail\",\n    \"Detail insufficient to identify components clearly\",\n    \"Soft focus and low contrast render essential features unreadable\",\n    \"Food clipped and scattered across frame edges\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title mentions 'Kare-kare and Menudo' but only one dish is visibly plated here; unclear which dish is the subject\",\n    \"Meat species cannot be reliably determined from appearance alone\",\n    \"No explicit animal protein named in visible form\",\n    \"Source metadata ambiguity: title references two dishes but presentation shows only one\"\n  ],\n  \"reason\": \"Rejection on multiple grounds: (1) Phone thumbnail fails readability—essential food components are poorly defined, too small, and scattered across wrapping, with insufficient detail to identify dish identity or critical elements. (2) Full image has soft focus and poor sharpness (score 2), failing the >=4 threshold. (3) Identity is ambiguous—source title lists 'Kare-kare and Menudo' but only one dish appears plated; unclear which is being submitted. (4) No explicit protein species can be sourced from title or visually confirmed from appearance. (5) Wrapping, presentation on foil, and overall poor image quality do not meet finished-dish appetizing standards. Phone observations confirm unreadable subject in thumbnail view.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1940,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 463,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

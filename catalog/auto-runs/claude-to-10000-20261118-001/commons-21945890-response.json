@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAv36kcBXdP5oTy1XSdV",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Cooked meat pieces in rich brown-red sauce\",\n    \"White decorative plate with floral pattern\",\n    \"Glossy sauce indicating braised preparation\",\n    \"Visible ginger/garlic and spice colouring\"\n  ],\n  \"phone_observations\": [\n    \"Dish centre clearly visible in thumbnail\",\n    \"Sauce and meat composition readable\",\n    \"White plate rim present\",\n    \"Rich brown-red colour prominent\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'Chicken Korma' but visible sauce is deep brown-red, characteristic of a richer, spiced curry (possibly Chicken Rogan Josh, Chicken Bhuna, or Chicken Dopiaza) rather than the typical pale cream/yoghurt-based Korma\",\n    \"Meat species cannot be confirmed from appearance alone; relying entirely on title\",\n    \"Source metadata (title, description, author, license) is explicitly untrusted per instructions\"\n  ],\n  \"reason\": \"Identity check fails. The source title declares 'Chicken Korma' but the photograph shows a deep reddish-brown sauce with glossy, well-reduced appearance inconsistent with traditional Korma's pale, creamy character. This is a visual contradiction between source claim and actual dish appearance. Per protocol, source contradictions require hold/reject. The untrusted metadata cannot override visible evidence. The dish appears to be a different curry style (Rogan Josh, Bhuna, or similar), not Korma. Protein species cannot be independently verified from appearance.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1728,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 497,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

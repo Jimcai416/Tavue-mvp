@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAv2HsZWBRUmssaWm8yw",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Cooked pork visible in multiple pieces\",\n    \"Green long peppers (siling mahaba) clearly present\",\n    \"Yellow/pale root vegetables (possibly patola squash and potato)\",\n    \"Finished plated dish on white ceramic plate\",\n    \"Natural lighting, appetising presentation\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows cooked meat, green peppers, and pale vegetables\",\n    \"Dish components readable and prominent in phone view\",\n    \"Plate and plating visible\",\n    \"No clipping of essential food items\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title contains 'Sinigang na Baboy Nilagang Baboy' (pork sinigang and boiled pork) but no explicit 'pork' or 'baboy' phrase appears in English in the title itself—only Tagalog term 'Baboy'\",\n    \"Exact canonical name unclear: source lists both 'Sinigang na Baboy' and 'Nilagang Baboy' as variants without clear separator or hierarchy\",\n    \"Description metadata also includes unrelated content (peppers, locations, donor info) mixed with dish names, creating ambiguity about the actual dish identity\"\n  ],\n  \"reason\": \"Source description contains Tagalog dish name terms ('Baboy'/'Nilagang Baboy') but protocol requires explicit English protein naming in canonical phrase or exact English quote from source. The metadata conflates the dish name with location and ingredient photography notes without a clear, single English-language dish title. While the photograph quality is good and the visible components (cooked meat and vegetables) are appetising and clear, the identity cannot be established with certainty from the ambiguous mixed-language source description. Hold pending clarification of exact English dish name or explicit 'pork' statement in source title.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1896,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 566,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

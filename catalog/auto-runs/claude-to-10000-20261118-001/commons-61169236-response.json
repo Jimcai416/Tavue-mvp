@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAv3DcrapxpytgwM4nGi",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 3,\n    \"appeal\": 3\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows a dish in golden-orange sauce on foil wrapping\",\n    \"Sauce-coated meat and vegetable components visible but small and unclear\",\n    \"Greenish leafy vegetables and orange/yellow pieces present\",\n    \"Overall composition readable but detail resolution limited\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title states 'Kare-kare and Menudo' as a compound dish; photograph appears to show only one preparation, not both\",\n    \"Cannot definitively identify which dish is depicted or confirm presence of both named dishes\",\n    \"Protein species not explicitly named in source; meat type(s) cannot be visually confirmed with certainty\",\n    \"Source title includes metadata and location data inconsistent with canonical naming requirements\"\n  ],\n  \"reason\": \"Source title describes two distinct dishes ('Kare-kare and Menudo') but the photograph appears to show a single unified dish in one sauce. The identity cannot be reliably matched to the source description. Protein species are not explicitly named in the source. The title contains file metadata, location coordinates, and attribution notes that must be excluded from canonical naming. These contradictions and ambiguities require hold, but the unresolved compound-vs-single-dish discrepancy and absent explicit protein naming warrant rejection.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1940,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 436,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
