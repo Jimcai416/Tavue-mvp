@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAWukzLn9suiQ3aBnFNh",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Golden-brown spherical rolls with crispy exterior in woven basket\",\n    \"Characteristic cheese bread texture visible on surface\",\n    \"Natural indoor lighting, well-exposed\",\n    \"Sharp detail in both full image and phone thumbnail\"\n  ],\n  \"phone_observations\": [\n    \"Basket of golden cheese bread rolls clearly visible\",\n    \"Essential components readable: round shape, golden colour, basket presentation\",\n    \"No clipping of subject matter\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title 'Cheesebread.jpg' is a filename, not a proper dish name or description\",\n    \"Description 'cheese bread home made' is generic and lacks specificity required for canonical_name\",\n    \"No exact regional variant, preparation method, or specific cheese type stated in source metadata\",\n    \"Cannot extract a precise, authoritative canonical_name from filename or generic description alone\"\n  ],\n  \"reason\": \"Reject: Identity check fails. The source metadata provides only a generic filename ('Cheesebread.jpg') and minimal description ('cheese bread home made') with no specific variant name, regional designation, or precise dish identifier. The rules require canonical_name to be copied exactly from source title or description; a generic marketing term or filename does not constitute sufficient source evidence. While the photograph itself is sharp, well-lit, appetising and shows finished cheese bread rolls clearly in both full and phone formats, the absence of a proper, specific source title/description prevents extraction of a valid canonical_name. Home cooking is welcome, but the identity must still be verifiable from the source metadata.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1617,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 494,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
