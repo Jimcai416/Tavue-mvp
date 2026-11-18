@@ -5642,3 +5642,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 - **Traditional bulgarian soup - Kurban chorba** — Biso. [CC BY 3.0](https://creativecommons.org/licenses/by/3.0); [source](https://commons.wikimedia.org/wiki/File:Ready_kurban_chorba.JPG). Local asset: `reviewed-commons-8460336.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Yam pottage** — Obasi Ogbeyialu Precious. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Yam_pottage_1.jpg). Local asset: `reviewed-commons-203155974.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Ajiaco bogotano** — Armando Ávila Carreto. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Ajiaco_bogotano.jpg). Local asset: `reviewed-commons-93303954.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Shkembe Chorba** — Bin im Garten. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Shkembe-chorba_in_Kardzhali_2011.JPG). Local asset: `reviewed-commons-17562124.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
