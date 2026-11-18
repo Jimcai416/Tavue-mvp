@@ -58076,5 +58076,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-94056425",
+    "title": "File:Makroudh Pâtisserie tunisienne 05.jpg",
+    "author": "Zeinebtakouti",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Makroudh_P%C3%A2tisserie_tunisienne_05.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Makroudh_P%C3%A2tisserie_tunisienne_05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "41d832f5e4f0e49a6644a9c1e58ede5bd57fb984",
+    "name": "Makroudh Pâtisserie tunisienne",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-94056425.jpg",
+    "assetSha256": "348c1946aad32bd062517b504ce762bdbb0fd890ca1240356e1d6ac2c726fab7",
+    "reviewedAt": "2026-11-18",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 589,
+    "requiresExactMenuName": true
   }
 ];
