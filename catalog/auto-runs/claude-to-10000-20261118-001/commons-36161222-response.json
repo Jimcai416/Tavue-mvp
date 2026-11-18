@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBASuTVoMHvhHADcvpNs",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Chicken pieces browned in a pan\",\n    \"Purple/magenta olives visible throughout\",\n    \"Spiced sauce coating the meat\",\n    \"Home cooking presentation\"\n  ],\n  \"phone_observations\": [\n    \"Chicken and olives clearly visible in thumbnail\",\n    \"Purple olives prominent and identifiable\",\n    \"Dish identity readable from phone view\",\n    \"Adequate detail for recognition\"\n  ],\n  \"protein_evidence\": {\n    \"chicken\": \"Poulet\"\n  },\n  \"uncertainties\": [\n    \"Title contains 'Poulet chermoula aux olives rouges' (red olives) but visible olives are distinctly purple/magenta, not red\",\n    \"Metadata title format includes 'File:' prefix and '.png' extension, suggesting this may be a Wiki/database entry rather than a fresh food photograph\",\n    \"Source description is incomplete: 'This is an image of food from' (truncated, no origin specified)\",\n    \"Visual olive colour contradicts 'rouges' (red) in title\"\n  ],\n  \"reason\": \"Identity mismatch: title claims 'olives rouges' (red olives) but the photograph displays clearly purple/magenta olives. The metadata format and incomplete description suggest database/wiki sourcing rather than direct food photography. Colour discrepancy between canonical title and visible content creates ambiguity about whether this is the intended dish or a mislabelled image. Hold pending clarification of actual dish identity and confirmation that visible olives match the named variety.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1802,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 490,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

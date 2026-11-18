@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBASXDHR5vRbhvJ3KMxK",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Red/orange aromatic sauce consistent with chermoula\",\n    \"Cooked seafood pieces in prominent bowl\",\n    \"Decorative plate with yellow floral motif\",\n    \"Accompaniment bread visible left\",\n    \"Home/street food setting on granite surface\"\n  ],\n  \"phone_observations\": [\n    \"Sauce-based dish clearly visible in phone thumbnail\",\n    \"Bowl and bread both readable\",\n    \"Dish proportions and components identifiable\",\n    \"No essential food clipping detected\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title states 'seiches' (cuttlefish) but visible pieces are ambiguous in shape/colour and could represent various cephalopods or unidentifiable seafood species\",\n    \"No explicit visual confirmation that pieces are definitively cuttlefish rather than squid, octopus, or other molluscs\",\n    \"Species name 'seiches' is not an allowed protein category key; cephalopods cannot be claimed under chicken/beef/pork/duck/lamb/seafood without explicit English species confirmation\"\n  ],\n  \"reason\": \"Photograph and phone thumbnail are sharp, well-lit, appetising and clearly show a finished chermoula dish with bread. However, the protein cannot be verified: the source description names 'seiches' (cuttlefish in French), but this is not an allowed protein category, and the visible pieces do not unambiguously prove cuttlefish identity visually. No explicit English-language source quote identifies the seafood species using an allowed category name. Without verifiable protein evidence matching the allowed schema, identity check fails. Hold pending clarification of exact seafood species in an allowed category.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1764,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 526,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
