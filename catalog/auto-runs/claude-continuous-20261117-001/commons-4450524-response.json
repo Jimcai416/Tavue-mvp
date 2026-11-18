@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAKdE6k83D3wT2Z1e5Fs",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 3,\n    \"composition\": 2,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows raw dough squares with uncooked filling heaps\",\n    \"No finished, exposed dish visible\",\n    \"Preparation stage evident, not plated food\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source claims lamb filling, but photograph shows pre-cooking stage with no visible lamb\",\n    \"No finished dish present to verify any identity or protein\"\n  ],\n  \"reason\": \"Image documents a preparation/assembly stage of manti (raw dough with uncooked filling heaps arranged on work surface), not a finished, exposed, plated dish. Both full image and phone thumbnail show dough squares and filling before cooking. The source description refers to finished manti served with yogurt and butter, but the photograph presents only the intermediate assembly step. This violates the core requirement for a finished, photographic dish. Additionally, protein cannot be visually verified in raw/uncooked form from the photograph; source text alone is insufficient. Reject as preparation stage, not finished food.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1562,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 367,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

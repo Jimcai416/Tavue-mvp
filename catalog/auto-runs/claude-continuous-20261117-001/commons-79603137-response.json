@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAKdArn1t5fvJtH14MWy",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Folded dumplings with crimped edges on white plate\",\n    \"Red/paprika spice dusting visible\",\n    \"White cream or sour cream topping\",\n    \"Reddish-brown sauce base\",\n    \"Natural outdoor lighting on wooden table\"\n  ],\n  \"phone_observations\": [\n    \"Dumplings clearly visible and prominent in thumbnail\",\n    \"Spicing and cream topping readable\",\n    \"Plate edges visible, composition centred\",\n    \"Adequate detail for dish recognition\"\n  ],\n  \"protein_evidence\": {\n    \"protein\": \"minced meat\",\n    \"note\": \"Source states 'filled with minced meat' but does not specify species (beef, lamb, pork, etc.)\"\n  },\n  \"uncertainties\": [\n    \"Protein species unspecified in source—'minced meat' is generic without explicit animal identification\",\n    \"Source metadata describes 'Afghan dumplings' with varying regional names, but canonical identity requires exact source title phrase\",\n    \"File metadata indicates 'File:FOOD Mantu.jpg' as filename; actual source description is 'Mantu. Afghan dumplings filled with minced meat and onions.'\"\n  ],\n  \"reason\": \"Image quality, sharpness, lighting, composition and phone thumbnail all meet standards. Dish is finished, appetising and prominently displayed. However, protein species cannot be accepted: source states only 'minced meat' without naming the animal (beef, lamb, pork, duck, etc.). Protocol requires explicit species identification from source for protein inclusion. Canonical name cannot be assigned without resolving the exact source title phrase (metadata filename vs. description text conflict). Hold pending source clarification of protein species and definitive title.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1625,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 532,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

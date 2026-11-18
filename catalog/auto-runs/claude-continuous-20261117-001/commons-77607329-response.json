@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAKcmg1DsQsfq8YXTbHn",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Toasted bread with browned exterior\",\n    \"Layered lettuce and sliced onion visible\",\n    \"Red tomato slices on plate below\",\n    \"Hand-held presentation\",\n    \"Side of golden-brown fries\",\n    \"Beverage bottle in background\"\n  ],\n  \"phone_observations\": [\n    \"Sandwich cross-section clearly visible in thumbnail\",\n    \"Lettuce, onion and filling layers readable\",\n    \"Brown bread crust prominent\",\n    \"Hand-holding confirms food subject\"\n  ],\n  \"protein_evidence\": {\n    \"protein\": null,\n    \"note\": \"Source describes 'Vegan Doner Kebab' – vegan products are plant-based meat substitutes, not animal proteins (chicken/beef/pork/duck/lamb/seafood). No animal protein can be claimed.\"\n  },\n  \"uncertainties\": [\n    \"Source title declares 'Vegan Doner Kebab' but canonical requirement restricts proteins to chicken/beef/pork/duck/lamb/seafood with explicit source quote naming the animal. Vegan products do not meet this criterion.\",\n    \"Identity cannot be established under protein specification rules – the dish contains no named animal protein.\"\n  ],\n  \"reason\": \"Reject: Identity check fails. The source explicitly describes a vegan doner kebab (plant-based meat substitute). The review protocol requires proteins to include only chicken/beef/pork/duck/lamb/seafood with an exact source quote explicitly naming each animal. Vegan products are not animal proteins and cannot satisfy this requirement. No animal protein can be claimed, identified, or quoted from the source. While the photograph is sharp, well-lit, appetising and clearly shows a finished sandwich with readable components, the absence of qualifying animal protein per protocol rules prevents acceptance.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1623,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 546,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

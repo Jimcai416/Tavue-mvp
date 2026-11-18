@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAKcmgWo5LeXet6GrTmg",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Sandwich on toasted bread with fresh tomato slices, lettuce, cucumber, parsley garnish\",\n    \"Cooked meat patty visible in cross-section\",\n    \"White plate, wooden table setting\",\n    \"Ritz-Kola bottle visible in background\",\n    \"Thumbnail clearly shows sandwich structure with vegetables and meat\"\n  ],\n  \"phone_observations\": [\n    \"Sandwich is prominent and sharp in thumbnail centre\",\n    \"Finished, exposed sandwich clearly visible\",\n    \"Vegetables (tomato, lettuce, cucumber) and meat component identifiable\",\n    \"Natural colours, appetising appearance\",\n    \"No essential components clipped\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title states 'Vegan Doner Kebab' but photograph clearly shows a cooked meat patty in the cross-section—a contradiction that cannot be resolved visually\",\n    \"The word 'Vegan' in the title directly contradicts the visible meat protein in the dish\",\n    \"No explicit source quote naming any animal protein; title claims vegan but image shows meat\"\n  ],\n  \"reason\": \"REJECT: Critical identity contradiction. Source title 'Vegan Doner Kebab at Vöner' explicitly claims a vegan dish, but the full source photograph clearly shows a substantial cooked meat patty in the sandwich cross-section. This is a fundamental factual contradiction: the visible form is NOT vegan, and the source description does not match the photograph. Per protocol, source contradictions prevent acceptance. The dish identity cannot be established with confidence.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1907,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 500,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
