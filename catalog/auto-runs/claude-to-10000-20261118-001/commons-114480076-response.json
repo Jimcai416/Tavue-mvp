@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChB4kkPbkxBBRNobsBm1q",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 3,\n    \"appeal\": 2\n  },\n  \"visible_support\": [\n    \"Cooked shredded meat or poultry in golden-brown colour\",\n    \"White rice base visible in plate\",\n    \"Dish prepared in dark metal plate/pan\",\n    \"Overhead documentary-style photography\"\n  ],\n  \"phone_observations\": [\n    \"Plate clearly visible with cooked protein and rice\",\n    \"Golden-brown shredded meat prominent in thumbnail\",\n    \"Rice base distinguishable\",\n    \"Overall composition readable but subject small relative to background clutter\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title states 'Yassa Djёn au poisson' (fish), but visible shredded meat appears to be poultry or other protein—species contradiction between metadata and photograph\",\n    \"Exact protein species cannot be visually confirmed; shredded form obscures identifying characteristics\",\n    \"Description metadata is in French and untrusted; no English source title provided to verify exact dish name\",\n    \"Yassa preparation traditionally involves fish or meat with onion-based sauce, but sauce/marinade not clearly distinguished in this image\"\n  ],\n  \"reason\": \"Reject: source metadata declares 'poisson' (fish) but the photographed ingredient appears visually inconsistent with whole or recognizable fish forms—the shredded golden-brown protein contradicts the stated species. No exact source title in English supplied; French metadata alone is untrusted evidence. Without a clear, authoritative English dish name and resolved protein identity from a reliable source quote, identity check fails. Protein species cannot be visually confirmed and contradicts metadata claim, triggering mandatory hold per protocol.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1392,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 504,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
