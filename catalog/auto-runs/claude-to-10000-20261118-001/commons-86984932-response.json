@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBH8RdjxhiYLTTnuLgb6",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Golden-brown shredded potatoes visible\",\n    \"Black olives prominently garnishing the dish\",\n    \"Green parsley sprinkled across top\",\n    \"Creamy pale binding consistent with scrambled eggs\",\n    \"Matchstick-cut potato texture evident\"\n  ],\n  \"phone_observations\": [\n    \"Dish clearly visible and identifiable in thumbnail\",\n    \"Golden shredded potato base sharp and detailed\",\n    \"Black olives readable as garnish\",\n    \"Plate and spoon visible\",\n    \"Essential components present and recognizable\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title is a filename with Chinese characters (薯絲馬介休) with no accompanying romanized dish name in the title field itself\",\n    \"Description confirms Bacalhau à Brás (Cod à Brás), naming cod as the protein\",\n    \"However, the actual canonical title field contains only the filename; source description and title do not match in structure\",\n    \"Cod (bacalhau) is seafood and would be a valid protein category, but it is not explicitly named in a title—only in description metadata\",\n    \"Per protocol: canonical_name must be copied exactly from source title or description; the filename alone is insufficient and the description lacks a formal dish title that can be extracted as canonical\"\n  ],\n  \"reason\": \"Identity check fails. The source title field contains only a Chinese filename (薯絲馬介休.jpg) without a romanized or English dish name. The description metadata clearly identifies this as 'Bacalhau à Brás (Cod à Brás)', which would support acceptance, but protocol requires canonical_name to be extracted from the source title or description field, not from metadata context. The filename is not a reliable canonical source. The description does name 'cod' (bacalhau) as an explicit protein; however, without a formal title field that matches the description, identity verification is ambiguous. The image quality, photograph, and phone thumbnail all meet standards, but the source-title mismatch creates an unresolvable identity uncertainty. Hold pending clarification of the actual dish title.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1678,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 624,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
