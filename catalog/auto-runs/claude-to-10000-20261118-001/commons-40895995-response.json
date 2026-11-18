@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAuhWJtjWLCFemUvCmJq",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Golden-brown tofu or paneer block visible in white bowl\",\n    \"Orange-red tomato sauce clearly present\",\n    \"Red cherry tomatoes as garnish\",\n    \"Green microgreens/herbs on top\",\n    \"Professional plating on white dish\"\n  ],\n  \"phone_observations\": [\n    \"Central protein block sharply visible\",\n    \"Sauce colour and texture discernible\",\n    \"Garnish detail readable\",\n    \"Composition and dish identity clear in thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title states 'paneer' but photograph shows what appears to be tofu based on texture, colour, and density characteristics visible in both full image and thumbnail\",\n    \"No explicit visual confirmation of paneer (which is typically whiter, more crumbly, with different surface texture); the golden-brown exterior and smooth pressed appearance is inconsistent with typical marinated paneer presentation\",\n    \"Identity mismatch between declared 'paneer' and apparent tofu in finished dish\"\n  ],\n  \"reason\": \"Reject: identity check fails. Source declares 'marinated paneer' but the photograph shows characteristics inconsistent with paneer—the protein block appears to be tofu based on its texture, smooth surface, golden-brown colour, and density visible in both full image and phone thumbnail. This is a material identity contradiction. While the photograph itself is sharp, well-lit, appetising and properly exposed, and the phone thumbnail shows clear detail, the dish identity cannot be confirmed to match the source description. Paneer is a required component of the named dish and cannot be substituted without changing the dish identity.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1958,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 506,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
