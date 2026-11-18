@@ -5594,3 +5594,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Lemper** — Hariadhi. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Lemper.jpg). Local asset: `reviewed-commons-3577698.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Liptovské droby, slovak leberwurst from Liptov region** — Jaspra-Karol (GABRIEL78). [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Liptovsk%C3%A9_droby.jpg). Local asset: `reviewed-commons-105556885.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
