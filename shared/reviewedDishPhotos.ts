@@ -69079,5 +69079,51 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 540,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-118518349",
+    "title": "File:Empanada venezolana 2.jpg",
+    "author": "Muago",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Empanada_venezolana_2.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Empanada_venezolana_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "92a76137c7eda71b2d557bf1d68d36d1764aa0ed",
+    "name": "Empanada venezolana rellena de pollo",
+    "aliases": [],
+    "proteins": [
+      "chicken"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-118518349.jpg",
+    "assetSha256": "20114dd1b9bf0012531b9c58a1400ba391754649d6d212b23f3f098b16832759",
+    "reviewedAt": "2026-11-18",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-103501798",
+    "title": "File:Gundruk Sadeko.jpg",
+    "author": "Eastern Himalayas",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gundruk_Sadeko.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Gundruk_Sadeko.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "dcebb2a287b802697b83eec9b86c5d83b1f64c11",
+    "name": "Gundruk Sadeko",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-103501798.jpg",
+    "assetSha256": "5aa4e2e7d9f1079320bfc99f2da2887abda4296289d98c64dac88ecfc87939e7",
+    "reviewedAt": "2026-11-18",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 720,
+    "height": 960,
+    "requiresExactMenuName": true
   }
 ];

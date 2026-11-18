@@ -4858,3 +4858,8 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Goulash served in bread** — John Cambrick. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Goulash_i_br%C3%B8d_i_Prag.jpg). Local asset: `reviewed-commons-93700361.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Empanada venezolana rellena de pollo** — Muago. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Empanada_venezolana_2.jpg). Local asset: `reviewed-commons-118518349.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Gundruk Sadeko** — Eastern Himalayas. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Gundruk_Sadeko.jpg). Local asset: `reviewed-commons-103501798.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
