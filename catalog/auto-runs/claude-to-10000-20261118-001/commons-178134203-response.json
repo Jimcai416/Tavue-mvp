@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAYZY48wV4prKisGnqQH",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 5,\n    \"appeal\": 5\n  },\n  \"visible_support\": [\n    \"Cooked meatballs with deep red tomato sauce glaze\",\n    \"Golden-brown fried potato wedges\",\n    \"White plate presentation\",\n    \"Sharp detail and natural colour in both full and thumbnail views\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows red meatball mass and yellow potato wedges\",\n    \"Essential components prominently visible and readable\",\n    \"No clipping of key dish elements\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title describes 'Meatballs with tomato sauce' but does not explicitly name the animal species (beef, pork, lamb, chicken, duck, or seafood)\",\n    \"Metadata lists generic 'meatballs' without species qualification\",\n    \"No exact source quote naming a specific allowed protein category\"\n  ],\n  \"reason\": \"The photograph is sharp, well-lit, appetising and properly composed. Both full image and phone thumbnail are of high quality and clearly show a finished dish. However, the source title and description contain only the generic term 'Meatballs with tomato sauce' without explicitly naming the meat species. The rules require exact source quotes explicitly naming each animal for protein_evidence, and prohibit inferring species from appearance or tradition. The identity check fails because the source does not provide the specific protein qualification needed to establish canonical_name. Hold pending clarification of meat species from source metadata.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 2076,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 458,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

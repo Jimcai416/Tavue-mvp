@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAYZvynhokptjR1ToVei",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 5,\n    \"composition\": 5,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Chaphlu leaves visible (green wraps, left side)\",\n    \"Khana/Chinese broccoli leaves visible (larger green leaves, left)\",\n    \"Dried shrimp visible (orange, top left)\",\n    \"Peanuts visible (pale tan, top centre)\",\n    \"Fried fish visible (pale tan chunks, right)\",\n    \"Shallots visible (sliced pink/white, bottom right)\",\n    \"Carrot visible (orange dice, bottom centre-left)\",\n    \"Chillies visible (red, bottom left)\",\n    \"Fermented soy bean paste sauce visible (dark brown centre bowl)\"\n  ],\n  \"phone_observations\": [\n    \"All major components clearly visible at thumbnail size\",\n    \"Sauce bowl prominent in centre\",\n    \"Green wraps occupy substantial left portion\",\n    \"Proteins and accompaniments distinguishable\",\n    \"Composition readable and informative at small scale\"\n  ],\n  \"protein_evidence\": {\n    \"seafood\": \"dried shrimp\"\n  },\n  \"uncertainties\": [\n    \"Source title states 'Miang pla' (wrapped fish) but dried shrimp is the only clearly visible seafood protein; no fresh or fried fish can be reliably identified in the arrangement\",\n    \"The right side pale chunks identified as 'fried fish' in source description are ambiguous and cannot be visually confirmed as fish rather than another protein\",\n    \"Source describes sauce containing 'deep-fried pork skin' but this ingredient is not visibly identifiable in the photograph\"\n  ],\n  \"reason\": \"Reject: Identity mismatch. The dish is titled 'Miang pla' (wrapped fish), but only dried shrimp is visibly identifiable as seafood protein. The source description claims fried fish and pork skin are present, but these cannot be reliably distinguished in the photograph. The title's promise of fish as the primary protein is not supported by clear visual evidence. Pork skin and the specific identity of ambiguous pale chunks cannot be confirmed from appearance alone. This creates a material contradiction between the stated dish identity and what is visibly demonstrable.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 2234,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 624,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
