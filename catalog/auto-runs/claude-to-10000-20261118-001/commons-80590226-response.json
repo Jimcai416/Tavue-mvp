@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAwUStPJgk4pRxPEcUFY",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Golden-brown fried spring rolls (lumpia) on orange and white foam plate\",\n    \"Crumbly filling visible in center, consistent with mung bean sprout preparation\",\n    \"Finished, exposed dish with natural lighting and appetising appearance\",\n    \"Sharp detail of food components in both source and thumbnail\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows two fried rolls and crumbly filling\",\n    \"Essential food components readable and prominent\",\n    \"Orange plate rim visible; subject well-framed and not clipped\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title lists three dish names separated by spaces ('Pinangat Pangat Lumpiang Togue Lumpiang Shanghai') with unclear demarcation—ambiguous which name applies to this specific photograph\",\n    \"Lumpiang Togue (mung bean sprout lumpia) contains no animal protein; Lumpiang Shanghai typically contains pork but source provides no explicit protein declaration for this image\",\n    \"No source description explicitly identifies the filling or any meat species visible in this plate\"\n  ],\n  \"reason\": \"Source title contains three dish names with unclear boundaries and no explicit protein identification. The photograph shows fried spring rolls with a crumbly filling, but cannot be confidently matched to a single canonical dish name from the ambiguous title. No source text explicitly names any animal protein. All quality and photographic checks pass, but identity check fails due to source ambiguity. Hold pending clarification of which dish this image represents and any protein content.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1818,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 488,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

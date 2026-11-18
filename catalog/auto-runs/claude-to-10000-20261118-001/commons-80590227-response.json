@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAwULqVRQj5LBu3x1b6S",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Two distinct fried items on white plate\",\n    \"Left item: crispy wrapper with visible meat and vegetable filling (orange carrot, pale onion)\",\n    \"Right item: golden-brown cylindrical fried roll\",\n    \"Natural daylight, sharp detail of components\",\n    \"Phone thumbnail clearly shows both items with readable form\"\n  ],\n  \"phone_observations\": [\n    \"Both fried items prominently visible and sharply rendered\",\n    \"Left item filling details readable: meat and mixed vegetables\",\n    \"Right item cylindrical form clearly distinguished\",\n    \"Plate and composition fully captured in thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title lists three dish names ('Pinangat Pangat Lumpiang Togue Lumpiang Shanghai') with unclear separation and no matching the visible plate contents\",\n    \"Left item appears to be a lumpiang togue (mung bean sprout spring roll) but source does not explicitly identify which item is which dish\",\n    \"Right item identity uncertain: could be lumpia shanghai or a separate fried item, but source naming is ambiguous\",\n    \"No explicit protein naming in source description; 'Lumpiang Togue' traditionally contains only vegetables, but left item shows visible meat\",\n    \"Source metadata contradiction: description lists three dishes but only two items visible on plate\"\n  ],\n  \"reason\": \"Source title contains three dish names separated by spaces with no clear delimiters identifying which name applies to which visible item. Left item shows meat filling contradicting 'Lumpiang Togue' (mung bean sprout roll, traditionally vegetarian), creating ambiguity about actual dish identity. Right item cannot be reliably matched to source names. No explicit protein quote provided in source. Identity check fails due to source-description mismatch and lack of clear correspondence between listed dishes and plated items. Hold pending clarification of which source dish name applies to each item.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1818,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 573,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

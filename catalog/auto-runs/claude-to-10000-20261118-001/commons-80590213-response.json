@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAwTTZnP8UnE3ambXhNc",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 3,\n    \"appeal\": 2\n  },\n  \"visible_support\": [\n    \"Whole fish, cooked, in broth on white plate\",\n    \"Orange and pink garnishes visible on fish body\",\n    \"Green peppers and dark leafy garnish alongside\",\n    \"Phone thumbnail shows complete dish clearly\"\n  ],\n  \"phone_observations\": [\n    \"Whole cooked fish with broth clearly visible\",\n    \"Orange/pink topping elements readable\",\n    \"Side vegetables visible in thumbnail\",\n    \"Adequate sharpness for recognition\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title lists three dishes ('Pinangat Pangat Lumpiang Togue Lumpiang Shanghai') but photograph shows only one cooked fish dish—identity mismatch cannot be resolved\",\n    \"No explicit species identification for the fish in source title or description\",\n    \"Unclear which of the three named dishes this photograph is intended to represent\"\n  ],\n  \"reason\": \"Source title contains three distinct dish names ('Pinangat Pangat Lumpiang Togue Lumpiang Shanghai') but the photograph shows only a single whole cooked fish with broth and vegetables. The identity of the specific dish cannot be established with certainty—the title may refer to a collection rather than this single item. Additionally, the fish species is not explicitly named in the source metadata. The image quality and presentation are adequate, but the fundamental ambiguity about which dish is documented and what animal is present prevents acceptance. Identity check fails due to source–photograph mismatch.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1818,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 473,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

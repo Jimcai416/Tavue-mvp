@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAwTRHrqvhBHh4npB2Bf",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [\n    \"Whole cooked fish with scales visible\",\n    \"Orange/red slice (possibly pepper or tomato) on fish body\",\n    \"Pale broth or sauce in bowl\",\n    \"Green vegetable garnish (possibly okra or long bean)\",\n    \"White plate on outdoor surface\",\n    \"Natural daylight exposure\"\n  ],\n  \"phone_observations\": [\n    \"Fish and garnishes visible at thumbnail size\",\n    \"Broth visible\",\n    \"Orange accent readable\",\n    \"Overall dish composition discernible\"\n  ],\n  \"protein_evidence\": {\n    \"seafood\": \"whole fish visible in photograph\"\n  },\n  \"uncertainties\": [\n    \"Source title lists multiple dishes ('Pinangat Pangat Lumpiang Togue Lumpiang Shanghai') but photograph shows only one cooked whole fish dish—identity mismatch\",\n    \"Exact dish name unclear: 'Pinangat' and 'Pangat' are both soup/braise preparations, but source does not clearly specify which single dish this photograph represents\",\n    \"Orange garnish species uncertain (tomato slice vs. pepper vs. other ingredient)\",\n    \"Green vegetable species uncertain\",\n    \"Source metadata contains donor/license information not dish information, reducing clarity of intended dish identity\"\n  ],\n  \"reason\": \"Source title lists multiple distinct dishes (Pinangat, Pangat, Lumpiang Togue, Lumpiang Shanghai) but photograph shows only one finished whole-fish dish. Identity cannot be reliably matched to a single canonical name from source. The photograph itself is well-exposed and sharp, with readable components in both full and phone views, but the ambiguity of which named dish this represents prevents acceptance. Hold for clarification of exact dish identity.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1818,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 535,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
