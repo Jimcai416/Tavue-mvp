@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChArVwHNwqjkda9F8f1pV",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Golden-yellow stew with visible meat chunks in white bowl\",\n    \"Legume and vegetable components consistent with locro\",\n    \"Natural lighting, appetising appearance\",\n    \"Sharp detail of braise/slow-cooked preparation\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows stewed dish with meat and legumes\",\n    \"Golden broth and ingredient visibility preserved at small scale\",\n    \"Bowl and setting identifiable\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Meat species not explicitly named in source description ('Argentine locro' alone does not specify animal type; locro traditionally uses beef, pork, or goat but source provides no explicit protein declaration)\",\n    \"Source title 'Argentine locro' is generic regional category without ingredient specification\"\n  ],\n  \"reason\": \"Photograph quality, sharpness, lighting, composition and phone thumbnail all meet acceptance criteria. However, the source description 'Argentine locro' provides only a regional category name without explicit naming of meat species or other protein identity. Per protocol, meat species must be explicitly source-declared (not inferred from tradition or appearance), and unknown meat species requires hold. The source metadata does not name 'beef', 'pork', 'chicken', 'lamb', 'duck' or 'seafood' as a substring. Identity check fails due to insufficient protein evidence in source materials.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1509,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 451,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
