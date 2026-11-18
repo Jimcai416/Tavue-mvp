@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChB5ZTfpcB1XDw47FmFLG",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Unleavened flatbread (naan) stacked and folded on left\",\n    \"Pale tan/beige broth in white bowl, centre-foreground\",\n    \"Fresh herbs (green onions/scallions) in blue-rimmed basket\",\n    \"Black olives in small glass bowl\",\n    \"Table setting with decorative placemats\",\n    \"Home/family meal context\"\n  ],\n  \"phone_observations\": [\n    \"Flatbread clearly visible, stacked\",\n    \"Broth bowl prominent in centre\",\n    \"Fresh herbs visible in basket\",\n    \"Adequate detail for dish identification\",\n    \"Thumbnail composition readable\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'آبگوشت کله‌پاچه خانگی' (Abgoosht Kale Pache / head-and-foot stew), but no visible meat, bones, or recognisable protein components in either photograph\",\n    \"The broth alone does not visually prove the presence of head meat, feet, or any animal protein\",\n    \"Description states 'homemade' (خانگی) and 'local bread' (نان محلی) but no source English title provided to match canonical format\",\n    \"Broth appearance is consistent with meat-based stock, but this is not visual proof of species or preparation method\",\n    \"Persian/Farsi metadata title–no English canonical equivalent supplied by source\"\n  ],\n  \"reason\": \"Identity check fails: source metadata is in Persian/Farsi only; no English title or description supplied to verify canonical name. Protein evidence cannot be established visually: while the broth and accompaniments suggest a traditional Middle Eastern meat stew, no visible meat, bones, offal, or identifiable animal parts are discernible in the photograph. The dish type is implied by metadata, but Tavue's protocol requires exact source quote matching and visual or explicit protein naming. Without a readable English source title and without visible protein confirmation, this cannot be accepted. Hold pending English title/description and clarification of actual ingredients.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1756,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 621,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
