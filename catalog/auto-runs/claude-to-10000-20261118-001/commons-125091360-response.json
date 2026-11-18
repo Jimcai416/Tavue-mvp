@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAzMfqeKZPYfB3dyyQU7",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Dark seared disc (blood sausage) clearly visible\",\n    \"Yellow/pale base layer (crushed apples) prominent\",\n    \"Green chive garnish on top\",\n    \"Creamy sauce surrounding dish\",\n    \"Restaurant plating, natural colours, sharp detail\"\n  ],\n  \"phone_observations\": [\n    \"Main disc and base layer clearly distinguished in thumbnail\",\n    \"Green garnish visible\",\n    \"Colour and composition readable at reduced size\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Species composition of 'boudin noir' (blood sausage) is not explicitly stated in source description—it may contain pork, beef, or other animals, but the source does not name the specific animal(s)\",\n    \"Boudin is a category of sausage, not a named protein species eligible for the allowed protein keys (chicken/beef/pork/duck/lamb/seafood)\"\n  ],\n  \"reason\": \"Although the photograph is sharp, well-lit, and appetising, and the dish identity matches the source title 'Boudin noir', the protein cannot be accepted. Boudin noir is a blood sausage whose animal species is not explicitly named in the source description. The instruction requires exact source quote explicitly naming each animal for proteins, and 'boudin noir' alone does not qualify as an allowed protein category. Sausage/boudin are preparation methods, not species. The source does not state 'pork boudin' or specify the animal(s) used. All checks cannot be marked true without resolved protein evidence. Hold would be appropriate, but reject is applied because no eligible protein can be supported from the evidence provided.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1858,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 513,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
