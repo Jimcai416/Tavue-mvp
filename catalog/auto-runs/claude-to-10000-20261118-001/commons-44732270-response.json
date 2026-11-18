@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAbAv7uEs65tQvdLSCGE",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Raw whole fish with lemon slices visible in thumbnail\",\n    \"Fish appear uncooked, not plated as a finished dish\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title 'Portugal' provides no dish identity; metadata alone does not name a specific dish\",\n    \"Image shows raw/preparation stage fish with lemon garnish, not a finished cooked dish\",\n    \"No evidence of cooking, plating, or service presentation\"\n  ],\n  \"reason\": \"Rejection: source metadata ('Portugal' title with no dish name) fails to establish dish identity. The photograph shows raw whole fish with lemon garnish in what appears to be a market or preparation setting, not a finished, cooked, plated dish. This is a preparation/raw stage, not a photographed meal. Insufficient identity evidence and fails the 'finished, exposed, likely photographic dish' requirement.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1727,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 347,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
