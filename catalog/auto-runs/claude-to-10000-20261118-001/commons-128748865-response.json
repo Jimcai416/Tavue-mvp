@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAUhXMybVjx3zGRZcW5e",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Two distinct dishes in black bowls on white surface\",\n    \"Left bowl: noodles with vegetables and what appears to be protein, clearly stir-fried\",\n    \"Right bowl: rice, curry sauce, diced cubed protein, shredded cabbage/lettuce\",\n    \"Natural lighting, home/casual restaurant setting\",\n    \"Sharp detail of food components visible in phone thumbnail\"\n  ],\n  \"phone_observations\": [\n    \"Both dishes clearly visible and distinguishable at thumbnail scale\",\n    \"Noodle dish on left shows composed stir-fried elements\",\n    \"Rice bowl on right shows layered components: rice, curry sauce, protein cubes, vegetable garnish\",\n    \"Food is prominent and legible in reduced size\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title lists two dishes: 'Yaki udon and tofu curry rice' but does not specify which bowl corresponds to which dish name\",\n    \"Left bowl description does not match source title clearly – appears to contain noodles but protein identity unclear from visual alone\",\n    \"Right bowl explicitly states 'tofu curry rice' in source, but tofu is not explicitly named as a protein category in allowed set, and visual cannot definitively confirm tofu vs. another cubed protein\",\n    \"No explicit confirmation from source text which dish is which in the photograph\",\n    \"Protein species/type cannot be visually confirmed with certainty and source naming is ambiguous across the two bowls\"\n  ],\n  \"reason\": \"While the photograph quality, sharpness, lighting and composition are good, and both finished dishes are appetising and well-presented, the source description creates ambiguity: it lists two dishes ('Yaki udon and tofu curry rice') without clearly stating which bowl is which. The right bowl's protein cubes are visually consistent with tofu, but tofu is not an allowed protein category in the specified list (chicken/beef/pork/duck/lamb/seafood only). The left bowl's protein cannot be visually or textually confirmed. Source title and visible form do not align with sufficient certainty to establish identity. This requires clarification before acceptance.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1732,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 626,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
