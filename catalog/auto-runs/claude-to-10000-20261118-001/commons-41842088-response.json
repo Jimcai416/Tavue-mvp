@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAuNoR1QcvZ4zt4TQVYU",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 5,\n    \"appeal\": 5\n  },\n  \"visible_support\": [\n    \"Seeded sesame seed bun\",\n    \"Dark cooked patty consistent with beef\",\n    \"Fresh green leaves (arugula/rocket)\",\n    \"White plate presentation\",\n    \"Professional plating with decorative pick\"\n  ],\n  \"phone_observations\": [\n    \"Burger clearly visible at centre\",\n    \"Green leaves and patty distinctly readable\",\n    \"Sesame seed bun prominent\",\n    \"White plate background clean and identifiable\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'Hamburguesa de rabo de toro' (oxtail hamburger), but source description provides only 'In Ronda, Málaga' with no explicit confirmation that the patty contains rabo de toro (oxtail) rather than standard beef. The visible patty does not reveal its specific composition or species origin visually.\",\n    \"Rabo de toro is a Spanish regional preparation traditionally made from beef tail/oxtail, but the title does not explicitly state the animal (beef/oxtail) in an unambiguous way that matches the protein_evidence requirement: an exact case-sensitive substring naming the animal explicitly.\",\n    \"The filename metadata ('Hamburguesa de rabo de toro') is treated as untrusted evidence per instructions and cannot serve as the canonical source title without explicit confirmation in a trusted description field.\",\n    \"No trusted source description field explicitly confirms 'beef', 'oxtail', or any animal name in a verifiable manner independent of the filename.\"\n  ],\n  \"reason\": \"Image quality, sharpness, lighting, composition, and appeal are all excellent; both full photograph and phone thumbnail clearly show a finished, appetising burger with readable components. However, identity cannot be confirmed: the title 'Hamburguesa de rabo de toro' suggests oxtail, but the description field ('In Ronda, Málaga') provides no explicit animal confirmation. The filename is treated as untrusted metadata per instructions. Without an explicit, trusted source statement naming the animal (beef, oxtail, or other), the protein cannot be verified, and no canonical_name can be assigned. The dish requires hold pending clarification of the actual patty composition from a source field that explicitly names the animal.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1633,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 645,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
