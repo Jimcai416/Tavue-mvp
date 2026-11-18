@@ -65228,5 +65228,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "height": 600,
     "requiresExactMenuName": true,
     "authorUrl": "https://www.flickr.com/people/98899298@N00"
+  },
+  {
+    "id": "commons-2882268",
+    "title": "File:Cuisine Perú Papa a la Huancaína.jpg",
+    "author": "AgainErick",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cuisine_Per%C3%BA_Papa_a_la_Huanca%C3%ADna.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/db/Cuisine_Per%C3%BA_Papa_a_la_Huanca%C3%ADna.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "025b546608f0c4916a7988d78b4584839082af15",
+    "name": "Papa a la huancaína",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-2882268.jpg",
+    "assetSha256": "9914f22a29693d92f6e4807f694b637e3699ce0c1dd6fd73444be475309943d0",
+    "reviewedAt": "2026-11-18",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];
