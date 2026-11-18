@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAvKsiWKgNqJ1UrW9eNs",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Rich reddish-brown peanut-based sauce characteristic of kare-kare\",\n    \"White onion slices visible on top\",\n    \"Green long beans (sitaw) clearly visible\",\n    \"Visible meat pieces in sauce\",\n    \"Rice as apparent base component\",\n    \"Fresh green herbs (Thai basil or similar)\",\n    \"Finished plated dish in white bowl\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows the layered composition with meat, rice, and vegetables\",\n    \"Peanut sauce colour and texture visible at this resolution\",\n    \"Green beans and aromatics readable in phone view\",\n    \"Bowl shape and plating recognizable\",\n    \"Essential components present and identifiable in 124x96 format\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title states 'Kare-Kare' but does not explicitly name the protein/meat species present. Visible meat pieces appear to be beef or pork, but no source quote confirms the animal type.\",\n    \"Kare-kare traditionally includes beef, pork, or oxtail, but the source description does not state which variant this is.\",\n    \"Without explicit protein identification in the title or description, the specific meat cannot be assigned to protein_evidence keys.\"\n  ],\n  \"reason\": \"Image quality, sharpness, lighting, composition and phone thumbnail visibility all meet acceptance thresholds. The dish is clearly a finished, plated kare-kare with identifiable components (peanut sauce, meat, rice, long beans, aromatics). However, the source title 'Kare-Kare, Aug 2024' does not explicitly name the protein species (beef, pork, duck, lamb, or seafood). Visible meat is present but species cannot be confirmed from the source description alone. Per protocol, ambiguous or unspecified meat species requires a hold. Identity cannot be fully verified without explicit protein naming in source metadata.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1740,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 585,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

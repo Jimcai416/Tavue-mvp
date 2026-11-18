@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAvKfeDE6ZG4PM5W1Sm7",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Finished, cooked dish on serving paper\",\n    \"Sharp detail of toppings in full image\",\n    \"Natural colours: golden corn, dark raisins, shredded cheese\",\n    \"Phone thumbnail shows prominent toppings clearly\",\n    \"Appetising presentation with layered toppings\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly displays the distinctive layered topping pattern\",\n    \"Corn, dark dried fruit/raisins, and shredded cheese visible\",\n    \"Subject occupies adequate space in centre-cover frame\",\n    \"Essential components readable at reduced resolution\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title is 'Martabak Pizza.jpg' — filename only, not a descriptive title or dish description\",\n    \"Description states 'Martabak Pizza memiliki tampilan jauh lebih menarik dibandingkan dengan martabak manis konvensional' (comparative marketing claim about appearance vs. conventional sweet martabak), not a complete, authoritative dish specification\",\n    \"No explicit, detailed source description of ingredients, preparation, or exact variant provided beyond the filename\",\n    \"Metadata does not constitute reliable evidence of dish identity or variant qualifiers\"\n  ],\n  \"reason\": \"Reject: Source metadata (filename and description) are insufficient to establish canonical dish identity. The filename 'Martabak Pizza.jpg' alone is not a descriptive title or formal dish specification. The description is a marketing comparison without detailed ingredient or variant documentation. Per instructions, all metadata are untrusted evidence; a complete, authoritative source title or description matching the visible form is required. The photograph itself is well-executed and appetising, but identity cannot be securely established from the provided metadata. A formal, detailed source title or description is needed for acceptance.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1748,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 550,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

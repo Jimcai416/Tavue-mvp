@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAvK9YiubCdurgPYpijY",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Orange/reddish broth characteristic of kare-kare\",\n    \"Fresh green vegetables (long beans, leafy greens)\",\n    \"White onion/garlic slices\",\n    \"Dark eggplant visible\",\n    \"Cooking in wide metal wok/pan\",\n    \"Natural daylight, street food preparation context\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows orange broth and green vegetables\",\n    \"Essential components readable: beans, greens, onion, eggplant\",\n    \"Subject prominent and well-centered\",\n    \"No clipping of critical food elements\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title states 'Vegetable kare-kare' but no meat visible or declared in description\",\n    \"Traditional kare-kare often contains meat (chicken, beef, pork, shrimp); source explicitly claims 'Vegetable' variant with no protein animals named\",\n    \"Cannot visually confirm meat species in broth if present\",\n    \"Source provides no explicit animal protein declaration\"\n  ],\n  \"reason\": \"Image quality, photography, and phone thumbnail all meet standards. However, identity check fails: the source title/description explicitly declares this as 'Vegetable kare-kare' with no animal proteins named. No poultry, beef, pork, duck, lamb, or seafood is explicitly stated in the metadata. While the dish form and vegetables are authentic, protein_evidence cannot be populated without explicit source naming of an allowed animal category. The vegetable-only variant contradicts standard kare-kare composition but cannot be rejected on appearance alone. Hold pending clarification of protein content or acceptance that this is genuinely a vegetable-only preparation without meat declaration.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1696,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 536,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

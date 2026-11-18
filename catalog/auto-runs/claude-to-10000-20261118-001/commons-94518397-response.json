@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChAvK9bCUnAbH7rPdGg3n",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"White plate with multiple cooked items\",\n    \"Leafy green vegetable (appears to be seaweed or similar)\",\n    \"Orange-reddish cooked protein pieces\",\n    \"Light-coloured protein pieces (possibly fish or seafood)\",\n    \"Yellow/green peppers\",\n    \"Orange vegetables (possibly carrots or squash)\",\n    \"Finished, exposed dish in natural outdoor lighting\"\n  ],\n  \"phone_observations\": [\n    \"Plate clearly visible with multiple food components\",\n    \"Distinct layers and arrangement readable\",\n    \"Orange and light protein elements prominent\",\n    \"Green vegetable garnish visible\",\n    \"Overall composition and size appropriate for recognition\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title lists multiple sinigang variants (upos/isda, salay-salay-ginto, alimango, hipon dagat) but photograph shows only one prepared dish—unclear which specific variant is depicted\",\n    \"Protein species ambiguous: visible orange pieces could be shellfish (crab/shrimp), light pieces could be fish, but no explicit match to the listed variants\",\n    \"Description 'Sinigang na Upos (isda) sa Bayabas' suggests vegetable and fish sinigang in guava broth, but no clear visual confirmation of upos (bottle gourd) or guava cooking method\",\n    \"Multiple dish names in source metadata suggest this may be a composite food photograph or caption error rather than a single identifiable dish\"\n  ],\n  \"reason\": \"Source metadata lists multiple distinct sinigang dishes by name (Sinigang na Upos/isda, Sinigang na Salay-salay-ginto, Sinigang na Alimango, Sinigang na Hipon Dagat) but only one photograph is provided. The visible proteins cannot be reliably matched to a specific declared variant. The title's parenthetical '(isda)' suggests fish sinigang, but neither fish nor the claimed upos/bottle gourd component is clearly identifiable in the photograph. Source-metadata contradiction between multiple named dishes and single image, combined with ambiguous protein identity and unconfirmed regional variant preparation, requires hold pending clarification of which specific sinigang is photographed.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 2221,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 655,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
