@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011Ch9RmPFKaqpiJED7eRN9C",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 2,\n    \"composition\": 1,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows raw/preparation stage: partially unwrapped palm leaf bundle with exposed ingredients not yet plated as finished dish\",\n    \"No complete, cooked dish visible; components appear unassembled\",\n    \"Severe underexposure and poor focus in thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source mentions multiple possible proteins (abon ikan cakalang, daging, telur) but photograph shows no finished plated dish to verify any protein presence\",\n    \"Image depicts raw wrapping and preparation stage, not finished exposed dish\"\n  ],\n  \"reason\": \"Rejection: Photograph shows incomplete preparation stage—a palm leaf bundle with unwrapped ingredients, not a finished, exposed, plated dish. The thumbnail reveals only partially assembled components in poor focus and underexposed lighting. The image fails photograph quality (sharpness 2, lighting 2, composition 1, appeal 1—all well below minimum threshold of 4). No finished food subject is prominently displayed. This is preparation documentation, not a food photograph suitable for restaurant menu or review purposes. Identity cannot be confirmed without a finished dish presentation.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1540,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 398,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

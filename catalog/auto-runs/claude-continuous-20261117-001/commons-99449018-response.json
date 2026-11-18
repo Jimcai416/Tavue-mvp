@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011Ch9Rmk5DdxJN3fXtczPxq",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Yellow turmeric rice visible in full image\",\n    \"Reddish-brown shredded meat topping clearly present\",\n    \"Banana leaf wrapping evident\",\n    \"Home or street-food presentation style\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail shows yellow rice base with dark shredded meat topping\",\n    \"Banana leaf wrapping visible\",\n    \"Subject adequately prominent in thumbnail\",\n    \"Essential components readable\"\n  ],\n  \"protein_evidence\": {\n    \"protein\": \"ikan cakalang asap pedas\",\n    \"issue\": \"Source describes smoked spicy cakalang fish, but photograph shows shredded meat characteristic of beef jerky (dendeng), not fish preparation\"\n  },\n  \"uncertainties\": [\n    \"Source title declares 'Nasi Kuning khas Manado' with 'ikan cakalang' (cakalang fish/smoked sailfish) as the protein topping\",\n    \"Photograph displays dark, finely shredded meat that visually matches beef dendeng (jerky) or possibly a cured meat product, not the typical appearance of flaked or chunked smoked fish\",\n    \"Contradiction between source protein declaration (fish) and visible meat form (shredded, jerky-like texture typical of beef preparations)\",\n    \"Cakalang is a specific smoked fish preparation; the visible topping does not match standard cakalang appearance or preparation form\"\n  ],\n  \"reason\": \"Source-photograph protein mismatch prevents acceptance. The metadata declares 'ikan cakalang asap pedas' (smoked spicy cakalang fish) as the protein component. However, the full photograph shows finely shredded, dark cured meat with the texture and appearance of beef dendeng or similar jerky, inconsistent with how prepared cakalang fish typically appears. While the turmeric rice, banana leaf wrapping, and overall presentation style are correct for Nasi Kuning khas Manado, the visible protein form contradicts the source-declared ingredient. This ambiguity regarding the actual protein species and preparation form requires holding pending clarification of whether the dish contains the declared fish or a different meat substitute.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1794,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 634,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

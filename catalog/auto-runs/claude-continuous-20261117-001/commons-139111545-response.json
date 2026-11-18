@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011Ch9Rmpoj5c2t61Ny8CEv2",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 3,\n    \"lighting\": 3,\n    \"composition\": 2,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Multiple banana leaf-wrapped parcels with handwritten labels\",\n    \"Labels read 'AYAM' and 'IKAN' (chicken and fish)\",\n    \"Parcels are pre-portioned packages, not finished plated dishes\",\n    \"Market or display setting visible in background\"\n  ],\n  \"protein_evidence\": {\n    \"protein\": \"AYAM (chicken) and IKAN (fish) per visible labels\"\n  },\n  \"uncertainties\": [\n    \"Source title declares 'Nasi kuning bungkus daun' (yellow rice wrapped in leaves) but image shows raw preparation stage or packaged inventory, not an exposed finished dish\",\n    \"Cannot verify nasi kuning (yellow rice) content or colour inside sealed leaf parcels\",\n    \"Multiple different proteins labelled (chicken and fish) contradicts single-dish identity\",\n    \"Image captures market display/preparation inventory, not a served or finished food photograph\"\n  ],\n  \"reason\": \"Reject: image shows pre-portioned, sealed banana leaf parcels in a market/preparation setting with handwritten protein labels, not a finished, exposed, plated dish suitable for food review. The parcels conceal their contents; nasi kuning preparation and colouring are not visually verifiable. This is a preparation/inventory stage photograph, not an appetising finished dish with readable essential components. The source title's declared identity cannot be confirmed from the visible form, which presents multiple unlabelled protein variants.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1616,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 474,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
