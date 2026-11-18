@@ -69147,5 +69147,29 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 678,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-181693534",
+    "title": "File:Liat Portal for Foodie Disorder - Homemade Goulash with Rice.jpg",
+    "author": "HaJunkiyada",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Liat_Portal_for_Foodie_Disorder_-_Homemade_Goulash_with_Rice.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Liat_Portal_for_Foodie_Disorder_-_Homemade_Goulash_with_Rice.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "f56c293ebaa3c9fccb5997b264680d1bb47f1026",
+    "name": "Homemade Goulash with Rice",
+    "aliases": [],
+    "proteins": [
+      "beef"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-181693534.jpg",
+    "assetSha256": "0718da386749bdbc19e0b31e3150a8539e2c2a837dbff76edf1f18133c706e98",
+    "reviewedAt": "2026-11-18",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 720,
+    "height": 960,
+    "requiresExactMenuName": true
   }
 ];
