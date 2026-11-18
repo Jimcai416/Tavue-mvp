@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChB77fWj18B3X2icL5Hwv",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 5,\n    \"appeal\": 5\n  },\n  \"visible_support\": [\n    \"Round white bowl with wooden chopsticks\",\n    \"Noodle base with orange/amber broth\",\n    \"Multiple sliced beef cuts with visible marbling\",\n    \"Dark purple/maroon sliced items (likely blood cake)\",\n    \"Fresh pickled vegetables: pink pickled onions, white radish, orange carrot\",\n    \"Green scallions\",\n    \"Fried shallot or similar golden garnish visible in thumbnail\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows finished dish in white bowl\",\n    \"Beef slices prominently visible and identifiable\",\n    \"Noodles and broth composition readable\",\n    \"Garnishes (pickled vegetables, greens) distinguishable\",\n    \"Appetising presentation with good colour contrast\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'beef noodle soup' but source description uses only Vietnamese name without English meat specification\",\n    \"Visible dark sliced items appear to be blood cake (a traditional Bún bò Huế component) but source provides no explicit English naming of this ingredient\",\n    \"Source description 'Đà Nẵng version of the classic beef noodle soup' is a paraphrase, not an exact title quote\",\n    \"No explicit source quote directly states 'beef' in English; only Vietnamese regional name provided\"\n  ],\n  \"reason\": \"Image quality, composition, sharpness and phone thumbnail all excellent. Dish is visibly a finished, appetising beef noodle soup with traditional Bún bò Huế components. However, the canonical source title is a filename ('File:Bún bò Huế ở Đà Nẵng.jpg') which must be excluded per instructions. The description 'Bún bò Huế ở Đà Nẵng is the Đà Nẵng version of the classic beef noodle soup' is a paraphrase without an exact dish-name quote. While 'beef' appears in the description, it is not an exact substring match from a canonical title. The protein evidence cannot be populated because no exact case-sensitive substring from an authoritative source title/description explicitly names 'beef' in the required format. Hold pending source title clarification.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1766,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 663,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

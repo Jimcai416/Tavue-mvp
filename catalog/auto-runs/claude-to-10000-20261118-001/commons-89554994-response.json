@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChB77fXiZWFHhDNC851RV",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Orange-red broth characteristic of Bún bò Huế\",\n    \"Rice vermicelli noodles visible\",\n    \"Fresh herbs: cilantro and scallions\",\n    \"Meat components present in broth\",\n    \"White bowl, chopsticks, spoon visible\",\n    \"Appetising, finished dish presentation\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows noodle soup in white bowl\",\n    \"Orange-red broth is prominent and readable\",\n    \"Garnish herbs visible in centre\",\n    \"Bowl contents sharp and well-composed\",\n    \"No essential elements clipped\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Metadata filename indicates Liễu Quán location and 2018 date, but title/description does not explicitly name this restaurant or confirm current source accuracy\",\n    \"Visible meat pieces in broth cannot be definitively identified to species from appearance alone (beef, pork, or combination are traditional in Bún bò Huế, but no source text explicitly names the protein)\",\n    \"Source title contains location/date/photographer metadata format rather than a clean dish description; actual canonical source description is ambiguous\"\n  ],\n  \"reason\": \"Image quality, sharpness, lighting, composition and appeal all meet thresholds. Full photograph and phone thumbnail both show a finished, appetising noodle soup with characteristic Bún bò Huế orange-red broth, fresh herbs, and noodles. However, identity check fails because the supplied title/description ('File:Bún bò Huế ở Đông Hà (Liễu Quán) 2018 (4).jpg' and 'Bún bò Huế ở Đông Hà (Liễu Quán) 2018') contains metadata (filename, date, photographer, file extension) rather than a clean source dish title. More critically, protein_evidence cannot be populated: while meat is visibly present in the broth, the source text does not explicitly name the animal species (beef, pork, or specific combination), making protein identification unverifiable. Per protocol, hold when protein identity or source description is ambiguous.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 2020,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 645,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
