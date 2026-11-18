@@ -3647,3 +3647,10 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Chilaquiles en salsa verde** — MX. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Chilaquiles_en_salsa_verde_-_Tamaulipas.jpg). Local asset: `reviewed-commons-73809104.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Acarajé de Santa Bárbara** — Caiquefialhoo. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Acaraj%C3%A9_de_Santa_B%C3%A1rbara.jpg). Local asset: `reviewed-commons-161868428.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Acarajé e Abará Baiano** — Lucrilhas. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Acaraj%C3%A9_e_Abar%C3%A1_Baiano.jpg). Local asset: `reviewed-commons-183828085.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Acarajé na Bahia** — Nahtanom. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Acaraj%C3%A9_na_Bahia.jpg). Local asset: `reviewed-commons-160956877.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Acarajé na Festa de Santa Bárbara** — Caiquefialhoo. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Acaraj%C3%A9_na_Festa_de_Santa_B%C3%A1rbara.jpg). Local asset: `reviewed-commons-161868429.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
