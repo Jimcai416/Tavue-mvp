@@ -2834,3 +2834,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-continuous-20261117-001
 
 - **Aunt Lay Leong's Rendang Beef** — [Alpha  from Melbourne, Australia](https://www.flickr.com/people/10559879@N00). [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:Aunt_Lay_Leong%27s_Rendang_Beef_(2875293268).jpg). Local asset: `reviewed-commons-74480797.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-continuous-20261117-001
+
+- **Nasi Lemak** — [Charles Haynes](https://www.flickr.com/people/87232391@N00). [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:Nasi_Lemak_(8654151798).jpg). Local asset: `reviewed-commons-101322674.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.

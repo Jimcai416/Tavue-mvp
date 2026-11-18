@@ -43224,5 +43224,31 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "height": 720,
     "requiresExactMenuName": true,
     "authorUrl": "https://www.flickr.com/people/10559879@N00"
+  },
+  {
+    "id": "commons-101322674",
+    "title": "File:Nasi Lemak (8654151798).jpg",
+    "author": "Charles Haynes",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nasi_Lemak_(8654151798).jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Nasi_Lemak_%288654151798%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "7d542dfe1cec5b67988bf48cbf154a2247fa8434",
+    "name": "Nasi Lemak",
+    "aliases": [],
+    "proteins": [
+      "chicken",
+      "seafood"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-101322674.jpg",
+    "assetSha256": "1ea7dbfc68d072286f88198732450b3f6b210694ebb1abcb07a9daf0c34de7ae",
+    "reviewedAt": "2026-11-18",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 640,
+    "requiresExactMenuName": true,
+    "authorUrl": "https://www.flickr.com/people/87232391@N00"
   }
 ];
