@@ -67231,5 +67231,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 720,
     "height": 960,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-147431243",
+    "title": "File:Fried Dilis, Apr 2024.jpg",
+    "author": "Ralff Nestor Nacor",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fried_Dilis,_Apr_2024.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/00/Fried_Dilis%2C_Apr_2024.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "431bde90355adb86e10498ed9041de412d507ea7",
+    "name": "Fried Dilis",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-147431243.jpg",
+    "assetSha256": "0f4884a0b2b8c1c5a188c59ae1527c1ca3dce5a9efdd5b21a100718ff196bb58",
+    "reviewedAt": "2026-11-18",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 723,
+    "requiresExactMenuName": true
   }
 ];
