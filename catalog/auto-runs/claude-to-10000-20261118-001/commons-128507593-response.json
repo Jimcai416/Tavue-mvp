@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChByAW9pDWur28WiD44Ha",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 5,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Yellow couscous base visible in full image and thumbnail\",\n    \"Dark meat stew with onions visible\",\n    \"Orange/red beans prominently displayed\",\n    \"Dark nuts (likely almonds) scattered around rim\",\n    \"Served in traditional red/terracotta bowl\",\n    \"Plated, finished dish presentation\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows couscous bed with central stew and beans\",\n    \"Red bowl with floral cloth background visible\",\n    \"Dish components readable and proportionate\",\n    \"Natural colours, no severe distortion\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title describes 'meat' but specific animal species (beef/lamb/chicken/pork/duck) is not explicitly named anywhere in title or description\",\n    \"Description states 'consists of vegetables, meat and kind of pretzels' — meat type unspecified\",\n    \"Generic reference to 'meat' in description is insufficient; cannot infer species from appearance or Moroccan tradition\",\n    \"Actual dish name 'Moroccan couscous of tfaya' or 'Couscous tfaya' cannot be verified as exact match to source title format\",\n    \"Source metadata indicates this is from File namespace (Wikipedia Commons), suggesting possible encyclopedic or instructional context rather than straightforward food photography\"\n  ],\n  \"reason\": \"Image quality, sharpness, lighting, composition and appeal all meet thresholds. Full photograph and phone thumbnail both show a finished, plated couscous dish with clear components (couscous bed, meat stew, beans, nuts) in natural colours with good detail. However, the source description fails to explicitly name the protein animal species — it uses only the generic term 'meat'. Per rules, ambiguous or unspecified meat species (including when only 'meat' is stated) requires hold. Additionally, source title format ('File:Moroccan couscous of tfaya.jpg') contains file metadata prefix; the actual dish name cannot be reliably extracted. Without explicit species naming and with this ambiguity, acceptance cannot proceed.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1886,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 616,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

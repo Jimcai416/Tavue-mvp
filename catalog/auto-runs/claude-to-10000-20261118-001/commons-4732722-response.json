@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBy9w1GUB7APTnij7SW4",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 2,\n    \"composition\": 3,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Items are recognizable as cooked appetizers on white paper\",\n    \"Dark browning visible, consistent with bacon wrapping\",\n    \"Size and shape match typical date/bacon bites\",\n    \"Insufficient detail to verify almond stuffing or confirm all components\"\n  ],\n  \"protein_evidence\": {\n    \"pork\": \"bacon\"\n  },\n  \"uncertainties\": [\n    \"Source title contains 'File:' prefix and filename extension (not removed by user)\",\n    \"Full-source image is severely out of focus and poorly lit throughout\",\n    \"Almond stuffing cannot be visually verified in either image\",\n    \"No clear detail of date flesh or filled interior visible\",\n    \"Image quality falls below Tavue standard for finished-dish photography\"\n  ],\n  \"reason\": \"Reject: source metadata is improperly formatted (filename prefix/extension included), and full-source photograph is severely soft and poorly exposed, failing to meet sharpness, lighting and overall photograph quality standards despite the dish being identifiable in principle. The phone thumbnail is clearer but cannot compensate for the primary image defects. Regional/marketing name 'devils on horseback' is noted but cannot override technical rejection.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1736,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 413,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
