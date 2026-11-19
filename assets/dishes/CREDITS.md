@@ -9201,3 +9201,10 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Bonda of Hyderabad** — Bhaskaranaidu. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Bondas_in_Hyderabad.JPG). Local asset: `reviewed-commons-40893690.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Koozh and Maanga pachadi** — Thamiziniyan. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Koozh_and_Maanga.jpg). Local asset: `reviewed-commons-40048998.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Maakouda de Tlemcen** — Jeouit. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Maakouda.jpg). Local asset: `reviewed-commons-33979251.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Bajan macaroni pie** — Upjav. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Bajan_macaroni_pie.jpg). Local asset: `reviewed-commons-146550495.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **macaroni pie** — [Alex Liivet  from Chester, United Kingdom](https://www.flickr.com/people/23108377@N07). [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Macaroni_pie_(50313021887).jpg). Local asset: `reviewed-commons-112513094.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
