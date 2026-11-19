@@ -8069,3 +8069,10 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 
 - **Piononos en un forn de Barcelona** — Judesba. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Piononos_en_un_forn_de_Barcelona_-_1.jpg). Local asset: `reviewed-commons-124720859.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Loco Moco** — Zheng Zhou. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Loco_Moco_at_Ethel%27s_Grill,_Honolulu,_Hawaii.jpg). Local asset: `reviewed-commons-149642240.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Poke bowl** — Arnaud 25. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Poke_bowl_003.jpg). Local asset: `reviewed-commons-147591869.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Salmon Poke** — Pokebros. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Salmon_Poke.jpg). Local asset: `reviewed-commons-76202690.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Salmon Poke Bowl (S) with Spicy mayo sauce** — Andy Li. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Salmon_Poke_Bowl_(S)_with_Spicy_mayo_sauce_-_Kitokito.jpg). Local asset: `reviewed-commons-130690476.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Tuna poke with wonton chips** — Missvain. [CC BY 4.0](https://creativecommons.org/licenses/by/4.0); [source](https://commons.wikimedia.org/wiki/File:Ukiah_Brewing_Company_and_Restaurant_-_2021-10-31_-_Sarah_Stierch_02.jpg). Local asset: `reviewed-commons-112224792.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
