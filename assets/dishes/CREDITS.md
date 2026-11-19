@@ -10376,3 +10376,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 - **Kaalilaatikko with lingonberries** — Kotivalo. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Kaalilaatikko_with_lingonberries.jpg). Local asset: `reviewed-commons-62439439.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Svele** — Kjetil Ree. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Svele_Aug_2014.jpg). Local asset: `reviewed-commons-35213074.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Kladdkaka with cream** — ulfveronica0 (Veronika Olsson). [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Kladdkaka_with_cream.jpg). Local asset: `reviewed-commons-67154145.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Danish open sandwiches (smørrebrød)** — Anneli Salo. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Sm%C3%B8rrebr%C3%B8d_at_Kastrup_IMG_8275_C.JPG). Local asset: `reviewed-commons-8109061.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.

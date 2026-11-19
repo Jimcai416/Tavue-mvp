@@ -133136,5 +133136,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 540,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-8109061",
+    "title": "File:Smørrebrød at Kastrup IMG 8275 C.JPG",
+    "author": "Anneli Salo",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sm%C3%B8rrebr%C3%B8d_at_Kastrup_IMG_8275_C.JPG",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/25/Sm%C3%B8rrebr%C3%B8d_at_Kastrup_IMG_8275_C.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "95144144381f159dd26de5338255c417350ce402",
+    "name": "Danish open sandwiches (smørrebrød)",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-8109061.jpg",
+    "assetSha256": "cfe8731c91b54d77f2282ea06befff1f54800d57f7dab11e3a8cca184ed37722",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 621,
+    "requiresExactMenuName": true
   }
 ];
