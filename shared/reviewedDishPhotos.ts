@@ -92005,5 +92005,51 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 720,
     "height": 960,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-99767585",
+    "title": "File:Dumplings on a blue plate.jpg",
+    "author": "Mshuang2",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dumplings_on_a_blue_plate.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Dumplings_on_a_blue_plate.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "99d8d5e55d10a992faabf7c4f9448e2a4474724e",
+    "name": "Pan-seared dumplings (gyoza, jiao zi)",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-99767585.jpg",
+    "assetSha256": "eb127a6bea6c069bcef6509ce4fe6fd8d0f465f10cad7edc6d6fb59846829bdd",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 720,
+    "height": 960,
+    "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-162778354",
+    "title": "File:Home-made Dumplings & beef stew dish.jpg",
+    "author": "Mothusi Sekhomba",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Home-made_Dumplings_%26_beef_stew_dish.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Home-made_Dumplings_%26_beef_stew_dish.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "74cb38fac5023b573f28b52aa379ebda05cbe7eb",
+    "name": "Home-made Dumplings & beef stew",
+    "aliases": [],
+    "proteins": [
+      "beef"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-162778354.jpg",
+    "assetSha256": "7405e0d1e1e4219979ce62f2fd7af988367351da846cfc3c222921acd6dfc775",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 719,
+    "height": 960,
+    "requiresExactMenuName": true
   }
 ];
