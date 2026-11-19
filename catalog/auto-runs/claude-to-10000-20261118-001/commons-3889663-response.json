@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCQJJQWZriUT2uKqxHp1",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Multiple white plates with prepared dishes visible\",\n    \"Yellow/golden egg dish with red chilli visible in centre-left plate\",\n    \"Green vegetable dish with red chilli visible in right plate\",\n    \"Earthenware bowl with white/cream sauce and red chilli accent\",\n    \"Natural wood table setting\",\n    \"Hands pouring beverage in background\",\n    \"Casual dining scene with multiple participants\"\n  ],\n  \"phone_observations\": [\n    \"Centre thumbnail captures yellow egg dish and green vegetable sides clearly\",\n    \"Multiple white dishware visible and readable\",\n    \"Sauce bowl prominent in lower centre\",\n    \"Scene composition and food prominence appropriate for phone thumbnail\",\n    \"Natural lighting visible on all dishes\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title states 'Banchan, jeon (little pancake) and kimchi' but source description is generic/metadata-only without photograph-specific identification\",\n    \"Multiple unidentified dishes visible: jeon/pancake type unclear, yellow egg dish identity unconfirmed, green vegetable side unidentified\",\n    \"No explicit animal protein visible or named in source metadata\",\n    \"Cannot confirm which dish is 'banchan' (category term), which is 'jeon' (preparation method term), or which is 'kimchi' from photograph alone\",\n    \"Source title and description do not constitute canonical dish identification—metadata conflicts with requirement for exact source quote matching a specific identified dish\"\n  ],\n  \"reason\": \"Reject: Source metadata provides only generic category labels ('banchan' = side dishes, 'jeon' = Korean pancake type, 'kimchi' = fermented vegetable class) without identifying specific dishes. The photograph shows multiple cooked dishes but no source text explicitly names the identity of each visible plate. Title does not meet canonical_name requirement of a specific dish phrase copied exactly from source; it lists preparation types and ingredient categories rather than actual dish names. No protein is explicitly named. Identity check fails because the source description does not match any specific identifiable dish visible in the photograph. Hold pending source clarification of which individual dishes are depicted.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1622,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 617,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
