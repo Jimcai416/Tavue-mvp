@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCWf4fZ3ZPcdtA6zUQHi",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Cooked lobster meat visible in sandwich\",\n    \"Toasted roll with golden-brown exterior\",\n    \"Lemon wedge garnish\",\n    \"Paper wrapper with branding\",\n    \"Turquoise plate beneath\"\n  ],\n  \"phone_observations\": [\n    \"Lobster meat and roll clearly visible\",\n    \"Roll structure evident\",\n    \"Appetising colour and composition\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title states 'Maine-style lobster roll' but provides no explicit confirmation of the animal species 'lobster' in the title itself—only 'Maine-style' and descriptive context\",\n    \"Exact canonical phrase 'Maine-style lobster roll' is inferred from description rather than extracted verbatim from a formal dish title\",\n    \"No unambiguous source quote confirming the specific preparation variant or exact name as it would appear on a menu\"\n  ],\n  \"reason\": \"Although the photograph is sharp, well-lit, and appetising, with the lobster meat and roll clearly visible in both full and thumbnail views, the source metadata does not provide a formal canonical dish title. The description 'Maine-style lobster roll from Cousins Maine Lobster' is contextual but lacks the explicit dish-name quote required for canonical_name extraction. The protein 'lobster' appears only in the description field, not as an exact case-sensitive substring within a formal title field. Without a specific source title or menu name that explicitly names the dish and its protein, identity verification cannot be satisfied according to protocol rules requiring an exact source quote copied from title or formal description.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1744,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 505,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

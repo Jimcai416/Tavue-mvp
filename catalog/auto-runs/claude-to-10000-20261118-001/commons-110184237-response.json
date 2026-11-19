@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCWeYJScqjXN3pCe5B6L",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 5,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Toasted bun visible in both images\",\n    \"Red/orange seafood pieces heaped on bun\",\n    \"Mayonnaise-based dressing visible\",\n    \"Accompaniment cup (likely melted butter or oil) in source image\",\n    \"White paper serving container\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail shows completed sandwich with seafood topping\",\n    \"Colour and composition consistent with source\",\n    \"Essential components readable at phone size\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title states 'Lobster Roll' but no explicit 'lobster' or 'seafood' text in description to quote\",\n    \"Metadata title contains 'File:' prefix and filename extension — cannot use as canonical source\",\n    \"Visual appearance (colour, texture, size) is consistent with lobster, but identity depends on source declaration, not inference from appearance alone\"\n  ],\n  \"reason\": \"Rejection: The source metadata does not provide a bare dish title or description that explicitly names 'lobster' or 'seafood' as a quoted substring. The title field contains 'File:' prefix and '.jpg' extension (filename metadata), which must not be used as a canonical source. The description refers to location and style but does not contain the word 'lobster' as an exact text substring. Under the protocol, protein identity must be supported by an exact case-sensitive quote from title or description; visual appearance alone is not sufficient. The photograph quality is excellent, but identity cannot be confirmed from admissible source text.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1743,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 494,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
