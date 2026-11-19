@@ -6874,3 +6874,8 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 
 - **Oreo chimney cake** — Andy Li. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Oreo_chimney_cake_-_Yummy_K%C5%A9rt%C3%B5s_2025-04-10.jpg). Local asset: `reviewed-commons-163406140.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Cappelletti - Cappellacci - Pasta ripiena - Cucina tipica - Ferrara** — Lungoleno. [CC BY-SA 2.5](https://creativecommons.org/licenses/by-sa/2.5); [source](https://commons.wikimedia.org/wiki/File:03_Cappelletti_-_Cappellacci_-_Pasta_ripiena_-_Cucina_tipica_-_Ferrara.jpg). Local asset: `reviewed-commons-75114838.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Pączki** — MOs810. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Paczki_(Poznan),_home_made.jpg). Local asset: `reviewed-commons-31418433.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Pączki served at Wikimania 2024, Katowice** — さえぼー. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:PaczkiatWikimania2024.jpg). Local asset: `reviewed-commons-151398027.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
