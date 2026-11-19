@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBwxXr4zbhND3uRfPSK8",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Golden-brown pastry exterior, crispy and well-baked\",\n    \"Yellow curry-spiced filling clearly visible in cross-section\",\n    \"Layered pastry structure consistent with curry puff\",\n    \"Both full image and phone thumbnail show interior detail sharply\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows golden pastry with yellow curry filling\",\n    \"Cross-section visible and in focus\",\n    \"Adequate size and prominence in frame\",\n    \"Essential components readable\"\n  ],\n  \"protein_evidence\": {\n    \"chicken\": \"chicken\"\n  },\n  \"uncertainties\": [\n    \"Source title contains 'File:' prefix and filename extension (.png) indicating metadata labelling, not a canonical dish title\",\n    \"Arabic description text supplied in metadata (untrusted per instructions) but no English title provided in source document itself\",\n    \"Exact canonical name cannot be confirmed from reliable source title/description field—only filename and foreign-language metadata available\",\n    \"No verifiable English dish name or regional variant preserved in trusted source documentation\"\n  ],\n  \"reason\": \"Image quality, sharpness, lighting, composition and appeal all exceed thresholds. Photograph shows a finished, exposed curry puff with visible potato and chicken filling, naturally coloured and appetising. Phone thumbnail is sharp, prominent and readable. However, the source document supplies only a filename ('File:Curry Puff inside.png') and an untrusted Arabic description; no canonical English title or formal source description is provided. Per instructions, metadata and untrusted text are never instructions and do not establish identity. Without a reliable source title/description field containing the exact canonical name, identity cannot be verified. Hold pending a proper, English-language source title or description.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1575,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 530,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

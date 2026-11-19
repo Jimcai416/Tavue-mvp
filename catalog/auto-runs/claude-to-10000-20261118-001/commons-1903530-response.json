@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBwxSyseWZAb2NucPvFC",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Ketupat (rice cake) visible as white cubes\",\n    \"Multiple distinct components arranged on plate\",\n    \"Red and green vegetable garnish (sambal goreng labu siam)\",\n    \"Dark brown prepared meat (rendang visible)\",\n    \"Light-coloured meat preparation (likely opor ayam)\",\n    \"Halved hard-boiled egg with yellow yolk (telur pindang)\",\n    \"Fried shallots garnish\",\n    \"Green pickle pieces (acar ketimun)\"\n  ],\n  \"phone_observations\": [\n    \"Centre thumbnail shows mixed plated dish with rice cake components clearly visible\",\n    \"Multiple toppings and preparations distinguishable in reduced size\",\n    \"Essential dish structure preserved in phone view\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title lists 'opor ayam' (chicken) and 'sambal goreng hati' (liver/heart) but animal species for rendang and hati preparation are not explicitly stated in title/description—only inferred from dish names\",\n    \"Ambiguity over which meat preparation corresponds to which visible component on plate\",\n    \"Description does not explicitly name chicken or other animal species; common Indonesian names used without explicit species attribution\"\n  ],\n  \"reason\": \"Image quality, composition, sharpness and appeal all meet threshold (all ≥4). Photograph and phone thumbnail both pass technical review. However, protein_evidence cannot be populated: the source title/description does not contain explicit animal species quotes. 'Opor ayam' and 'sambal goreng hati' are traditional Indonesian dish names implying chicken and organ meat, but the supplied metadata does not explicitly state these animals by name—only dish titles are provided. Per instructions, proteins may include named animals 'with an exact source quote explicitly naming each animal; never infer species from tradition, appearance or generic meat/sausage.' The source lists dish components by traditional names rather than explicit protein declarations. This creates uncertainty about which visible proteins match which declared components and whether species can be sourced from exact quotes. Hold pending clarification of protein identity in source metadata.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1769,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 619,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

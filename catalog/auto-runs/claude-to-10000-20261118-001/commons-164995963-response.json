@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBwx5fDHsn7XHo6VeQv3",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 3,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows warm tan/golden curry or gravy in a metal pot\",\n    \"Visible chunks of solid ingredients distributed throughout\",\n    \"No ketupat (compressed rice cake) visible in either source or thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title claims 'Ketupat Sayur' but no ketupat (the characteristic compressed rice cake blocks) is visible in either photograph\",\n    \"Image shows only a gravy/curry dish with vegetable or meat chunks in a cooking pot\",\n    \"Identity mismatch between title and visible dish content\"\n  ],\n  \"reason\": \"Reject: Identity check fails. The source title 'Ketupat Sayur' refers to a specific Indonesian dish featuring ketupat (steamed compressed rice cakes served in a vegetable curry sauce). The photograph shows only a curry or gravy preparation in a metal pot during cooking, with no visible ketupat blocks—the defining component of the named dish. This appears to be a preparation stage or a different curry dish entirely, not a finished, identifiable ketupat sayur as described. Additionally, no protein species can be confirmed from the visible ingredients.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1745,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 408,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

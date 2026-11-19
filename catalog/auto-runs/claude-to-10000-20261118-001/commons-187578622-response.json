@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBwx5fiHwKvT1cTJHM5k",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 5,\n    \"appeal\": 5\n  },\n  \"visible_support\": [\n    \"Golden-brown spaghetti/long pasta strands\",\n    \"Coarsely ground breadcrumb topping\",\n    \"Rich caramel/brown sauce coating\",\n    \"Prominent plating on grey ceramic dish\",\n    \"Natural daylight, sharp focus throughout\"\n  ],\n  \"phone_observations\": [\n    \"Pasta and topping clearly visible and legible\",\n    \"Golden colour and texture evident at thumbnail scale\",\n    \"Central composition reads well in reduced form\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title states 'Pasta all'amatriciana' but traditional amatriciana contains guanciale (cured pork jowl) or pancetta. No meat is visibly identifiable in either photograph. The source description does not explicitly name any animal protein.\",\n    \"The brown/caramel-coloured sauce could be a reduced tomato-based sauce typical of amatriciana, but without visible meat pieces or an explicit protein declaration in the metadata, identity cannot be confirmed.\",\n    \"The granular topping appears to be breadcrumbs or similar (not grated cheese, which would be traditional), creating further ambiguity about whether this matches canonical amatriciana preparation.\"\n  ],\n  \"reason\": \"Although the photograph shows excellent technical quality, sharp focus, natural colour, prominent appetising presentation, and the phone thumbnail reads clearly, the identity check fails. The source title declares 'Pasta all'amatriciana', a dish that by definition contains guanciale or pancetta. No meat is visibly apparent in either the full photograph or thumbnail, and the metadata provides no explicit protein declaration. The protein_evidence map cannot be populated without an exact case-sensitive substring from title/description naming an animal. Per instructions, hidden flavours may be source-declared but are not visually proven, and source contradictions warrant a hold. The visible absence of meat combined with lack of explicit protein naming in the source creates unresolvable uncertainty about identity match.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1729,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 582,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
