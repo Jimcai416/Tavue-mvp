@@ -114231,5 +114231,51 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-173224558",
+    "title": "File:La vita é Bella - Pasta Carbonara.jpg",
+    "author": "Francesc Fort",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:La_vita_%C3%A9_Bella_-_Pasta_Carbonara.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9b/La_vita_%C3%A9_Bella_-_Pasta_Carbonara.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "b32097eeace694df86afee3e6557f391443bdebe",
+    "name": "Pasta Carbonara",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-173224558.jpg",
+    "assetSha256": "cc96e8b10ef2b00194c2ac2a704215006d07e509eb40013e481bf083bb9b24f6",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 721,
+    "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-133956225",
+    "title": "File:Rigatoni Alla Carbonara - Pinocchio 2023-07-04.jpg",
+    "author": "Andy Li",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rigatoni_Alla_Carbonara_-_Pinocchio_2023-07-04.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Rigatoni_Alla_Carbonara_-_Pinocchio_2023-07-04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "fe2a1e9a24ab355bca93619f67faaab466f28a22",
+    "name": "Rigatoni Alla Carbonara",
+    "aliases": [],
+    "proteins": [
+      "pork"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-133956225.jpg",
+    "assetSha256": "02a94cb710ca4ae193dd0fcd0cc2872882f4b4b8931f120bad64d88f57488ce0",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 720,
+    "height": 960,
+    "requiresExactMenuName": true
   }
 ];

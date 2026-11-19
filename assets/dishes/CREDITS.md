@@ -8667,3 +8667,8 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Fettuccine Alfredo** — Famartin. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:2020-03-14_21_40_07_Fettuccine_Alfredo_at_the_Olive_Garden_in_Fair_Lakes,_Fairfax_County,_Virginia.jpg). Local asset: `reviewed-commons-88121941.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Pasta Carbonara** — Francesc Fort. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:La_vita_%C3%A9_Bella_-_Pasta_Carbonara.jpg). Local asset: `reviewed-commons-173224558.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Rigatoni Alla Carbonara** — Andy Li. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Rigatoni_Alla_Carbonara_-_Pinocchio_2023-07-04.jpg). Local asset: `reviewed-commons-133956225.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
