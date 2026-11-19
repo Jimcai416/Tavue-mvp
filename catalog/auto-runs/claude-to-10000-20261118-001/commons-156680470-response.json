@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBqPLM9BQDpoHuVVvpQQ",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Phone thumbnail shows a seared item with dark brown crust and visible sparkly seasoning\",\n    \"Object form is consistent with source full image\",\n    \"Thumbnail detail is insufficient to verify foie gras identity independently\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title claims 'Cultivated foie gras' but photograph shows a seared, seasoned item that is visually indistinguishable from seared duck breast, seared liver, or other seared protein with salt crust\",\n    \"No explicit animal species confirmation in source description—'foie gras' is a prepared product category, not an animal identifier\",\n    \"Visual appearance alone cannot confirm hepatic tissue or foie gras identity versus other seared liver or poultry products\",\n    \"Source metadata (title/description) are explicitly untrusted per review instructions; visual evidence must independently support the claim\"\n  ],\n  \"reason\": \"Reject: Source description names 'foie gras' but provides no explicit animal species qualifier (duck/goose). Although the photograph is sharp, well-lit, and appetising, the visible form—a seared, seasoned item with salt crust—is visually consistent with many seared proteins and does not independently confirm foie gras identity. Per protocol, proteins may be included only with explicit source naming of the animal; a prepared-product category name without species confirmation is insufficient. Metadata are untrusted; visual evidence alone cannot prove hepatic tissue composition. Identity check fails.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1564,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 482,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
