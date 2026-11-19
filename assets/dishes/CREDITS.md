@@ -9511,3 +9511,11 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 
 - **Puri, Aloo Dum and Moya** — Agamani Saha. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Puri,_Aloo_Dum_and_Moya.jpg). Local asset: `reviewed-commons-101738774.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Fried Pooris with Aaloo ki Sabji** — Saumendra. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Puri-aloo_matter_-_cuttack-_odisha.jpg). Local asset: `reviewed-commons-101985198.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Aloo-Papdi Chaat** — Chiring chandan. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Alloo-Papadi_chaat.jpg). Local asset: `reviewed-commons-145634063.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Yayla çorbası** — E4024. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Yayla_corbasi.jpg). Local asset: `reviewed-commons-45690627.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Papdi Chaat** — Jnuite. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Chaat_Papri-_Gurgaon-_Haryana.jpg). Local asset: `reviewed-commons-103217052.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Dilli Ki Papdi Chaat** — Much Ramblings. [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Dilli_Ki_Papdi_Chaat.jpg). Local asset: `reviewed-commons-103709774.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Lucknowi Papdi Chaat** — AnshXAmolik. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Lucknowi_Papdi_Chaat.jpg). Local asset: `reviewed-commons-203253947.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
