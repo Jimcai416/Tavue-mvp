@@ -105566,5 +105566,54 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 540,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-8784788",
+    "title": "File:Bubur ayam Bali.jpg",
+    "author": "mokeneco  from Osaka, Japan",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bubur_ayam_Bali.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Bubur_ayam_Bali.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "cd1dfd5b225aa26e6e211fdde3f4f54a8eae71fa",
+    "name": "Chicken Porridge in Bali",
+    "aliases": [],
+    "proteins": [
+      "chicken"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-8784788.jpg",
+    "assetSha256": "39805753d7b1621bd74730bc359a6a0516326b83a5be0c8c36b21035cca03204",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 643,
+    "requiresExactMenuName": true,
+    "authorUrl": "https://www.flickr.com/people/34179554@N05"
+  },
+  {
+    "id": "commons-7361247",
+    "title": "File:Bubur ayam chicken porridge.JPG",
+    "author": "Sakurai Midori",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bubur_ayam_chicken_porridge.JPG",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Bubur_ayam_chicken_porridge.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "919fa7f21170ab70e408f102c803d563c0e1d593",
+    "name": "Bubur ayam chicken porridge",
+    "aliases": [],
+    "proteins": [
+      "chicken"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-7361247.jpg",
+    "assetSha256": "88e9a03ba0e34c71a245994ce98439d15e950652799c71b0b89fbcd929b6ca70",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];
