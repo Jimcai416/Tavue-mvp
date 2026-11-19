@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCr7WRJ9JmrL4ym3ueZn",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [\n    \"Cooked poultry pieces visible on white plate\",\n    \"Leafy greens (possibly ginger or bay leaves) garnish\",\n    \"Broth-cooked appearance consistent with sinigang method\",\n    \"Natural colours and finished cooking state\"\n  ],\n  \"phone_observations\": [\n    \"Plate and poultry pieces readable in thumbnail\",\n    \"Food is prominent and not clipped\",\n    \"Dish identity visually plausible\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title states 'Chicken' but visible poultry cannot be definitively confirmed as chicken rather than duck, quail or other bird species from appearance alone\",\n    \"Guava broth colour and components not visually verifiable; guava is a hidden flavour claim\",\n    \"Exact dish identity cannot be visually proven to match source description without explicit species confirmation\"\n  ],\n  \"reason\": \"The photograph shows a finished, cooked poultry dish with vegetables and garnish on a white plate, sharply detailed and naturally coloured. However, the source metadata lists 'chicken' but the visible poultry in the dish cannot be definitively identified as chicken rather than duck, quail, or another bird species from photographic appearance alone. The guava sour broth is a hidden flavour claim not visually demonstrable. Per strict protocol, ambiguous meat species (including unconfirmed poultry type) requires hold status. The identity check fails because the exact protein species cannot be visually verified to match the source claim.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1774,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 487,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
