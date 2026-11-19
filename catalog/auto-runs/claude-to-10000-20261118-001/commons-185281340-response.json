@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBoTYznXnW84HdfKrCmM",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Fried plantains clearly visible in left tray\",\n    \"Pasta dish visible in right tray\",\n    \"Small fish fritter visible in centre tray\",\n    \"Fish dish with vegetables visible in centre tray\"\n  ],\n  \"phone_observations\": [\n    \"Multiple dishes visible in thumbnail\",\n    \"Left tray shows fried plantains in detail\",\n    \"Right tray shows pasta in detail\",\n    \"Centre containers show smaller portions\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title describes 'Meal' as a composite platter, not a single dish\",\n    \"Description lists four distinct items (fried plantains, reggae pasta, fish fritters, Escovitch snapper) served together as a meal\",\n    \"Fish species in 'Escovitch snapper' is specified in description but photograph shows a composite food service, not an individual finished dish suitable for Tavue single-dish review\",\n    \"Reggae pasta identity unconfirmed by visual examination alone\",\n    \"Fish fritter and Escovitch snapper are components of a larger meal presentation rather than standalone plated dishes\"\n  ],\n  \"reason\": \"Source describes and photograph shows a composite meal platter with multiple distinct dishes served together at an event, not a single finished, prominent dish. Tavue accepts individual food items. The description explicitly names four separate components (fried plantains, reggae pasta, fish fritters, Escovitch snapper), and the photograph shows them in separate containers. While each component is visible and the photograph quality is good, the submission presents a meal service layout rather than a canonically identifiable single dish. Identity check fails because the source title is a generic 'Meal' descriptor, not a specific dish name.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1672,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 534,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
