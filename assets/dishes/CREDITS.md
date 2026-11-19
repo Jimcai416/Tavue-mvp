@@ -9884,3 +9884,11 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Green Pozole stew, cooked in traditional Guerrero State style** — Slevinr. [CC BY 3.0](https://creativecommons.org/licenses/by/3.0); [source](https://commons.wikimedia.org/wiki/File:Pozole_verde_estilo_Guerrero.JPG). Local asset: `reviewed-commons-25468211.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Kontomire stew with eggs and plantain** — Robertjamal12. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Kontomire_Stew,_Eggs_and_Plantian.jpg). Local asset: `reviewed-commons-112558601.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Kenkey with Okro soup** — Edithobayaa1. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Kenkey_with_Okro_soup.jpg). Local asset: `reviewed-commons-103024700.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Dal Curry + Cheese naan** — [Guilhem Vellut  from Annecy, France](https://www.flickr.com/people/22539273@N00). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Dal_Curry_%2B_Cheese_naan_@_Shanti_@_Komagome_(9281276685).jpg). Local asset: `reviewed-commons-83115156.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Prawn Curry** — Jubair1985. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Bangladeshi_Prawn_Curry.jpg). Local asset: `reviewed-commons-68905751.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Fish Curry** — [rovingI](https://www.flickr.com/people/70522326@N00). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Fish_Curry_(965863650).jpg). Local asset: `reviewed-commons-87475006.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
