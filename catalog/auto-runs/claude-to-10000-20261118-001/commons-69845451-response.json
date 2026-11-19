@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChC4GdoCc8q2ynPr76xqY",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Noodle soup with fresh herbs (green onion, dill, mint visible)\",\n    \"Shredded chicken visible in bowl\",\n    \"Thin rice noodles\",\n    \"Side condiment bowl (dark paste, consistent with mắm tôm)\"\n  ],\n  \"phone_observations\": [\n    \"Finished dish clearly visible\",\n    \"Bowl shape and noodle/herb composition readable\",\n    \"Prominent green herbs and noodles\",\n    \"Side condiment visible\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title lists three components: 'Bún thang, mắm tôm et cà cuống' — bún thang (chicken noodle soup) is the dish, but mắm tôm (shrimp paste) and cà cuống (aquatic insect) are sauce/condiment components, not proteins in the dish itself\",\n    \"Chicken is visibly shredded in the bowl but not explicitly named in the source title\",\n    \"cà cuống (water bug/aquatic insect) is not an allowed protein category and cannot be verified visually\"\n  ],\n  \"reason\": \"Source title structure is ambiguous: it appears to list dish + condiments rather than a single canonical dish name. The title 'Bún thang, mắm tôm et cà cuống' treats three separate items as equivalent, but bún thang is the dish while mắm tôm and cà cuống are accompaniments/flavourings. Visible chicken cannot be claimed as a supported protein because it is not explicitly named in the source title (only 'bún thang' + condiments are listed). cà cuống (aquatic insect) is not an allowed protein category. Without an explicit source quote that clearly names the dish and its proteins in a single phrase, and given the condiment ambiguity, identity cannot be confirmed as a finished, named dish.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1889,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 582,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

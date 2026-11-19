@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChC4GdiF2taCwgEHTGxsa",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Noodles in white bowl with red-rimmed plate\",\n    \"Shredded meat visible on top\",\n    \"Fresh green herbs (cilantro) scattered across\",\n    \"Sautéed mushrooms and vegetables in center\",\n    \"Yellow/pale noodle variety visible on right\",\n    \"Home-cooked presentation style\"\n  ],\n  \"phone_observations\": [\n    \"Noodle dish clearly visible and prominent\",\n    \"Central toppings and herbs legible\",\n    \"Appetizing composition preserved in thumbnail\",\n    \"Natural colors maintained\"\n  ],\n  \"protein_evidence\": {\n    \"chicken\": \"shredded chicken meat\"\n  },\n  \"uncertainties\": [\n    \"Source title 'Bún thang' does not appear in provided metadata; only filename and description given\",\n    \"Description mentions 'shredded steam pork cake' but pork cake (chả) is not a recognized protein category and is a prepared product, not raw meat\",\n    \"Description lists multiple components but no single canonical dish name supplied in source title field\",\n    \"Photograph quality and content are acceptable, but identity verification requires exact source title match, which is unavailable\"\n  ],\n  \"reason\": \"While the photograph shows a well-composed, sharp, appetizing noodle dish with visible shredded chicken, mushrooms, fresh herbs, and mixed noodles in natural lighting, the source metadata does not provide a formal dish title—only a filename reference and descriptive text. The identity check fails because no exact title phrase was supplied to match against the visible form. The description mentions 'pork cake' which is a prepared product outside standard protein categorization. Hold for source title clarification before acceptance.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1752,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 525,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
