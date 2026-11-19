@@ -9099,3 +9099,10 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Helzel (stuffed chicken neck skin)** — Wizard85  (original file) ;  Off-shell  (cropped and reprocessed version). [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Helzel2.jpg). Local asset: `reviewed-commons-104585299.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Moldavian tochitură with mămăligă, cheese and egg** — Nicubunu. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Tochitura-moldoveneasca.jpg). Local asset: `reviewed-commons-14629019.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **tochitura munteneasca** — Korinna. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Tochitura_munteneasca.jpg). Local asset: `reviewed-commons-202601835.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Tochitură cu mămăliguță și ouă ochi** — Ioanairinciuc. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Tochitur%C4%83_cu_m%C4%83m%C4%83ligu%C8%9B%C4%83_%C8%99i_ou%C4%83_ochi.jpg). Local asset: `reviewed-commons-203423285.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Tochitură de porc cu mămăligă, brânză de burduf și ou ochi** — AncaMosoiu. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Tochitur%C4%83_de_porc.png). Local asset: `reviewed-commons-203107485.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
