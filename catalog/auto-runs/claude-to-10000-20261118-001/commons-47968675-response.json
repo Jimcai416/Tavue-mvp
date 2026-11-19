@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCUzBrhUDdawdHAEfAs5",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 3,\n    \"lighting\": 3,\n    \"composition\": 3,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Stew in pot at middle cooking stage\",\n    \"Visible chunks of potato, carrot, and other vegetables\",\n    \"Meat pieces visible but not clearly defined\",\n    \"Broth-based dish in active preparation\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title references 'veal' but source metadata is untrusted and species cannot be visually confirmed from preparation photograph\",\n    \"Image shows mid-preparation stage with ingredients still cooking, not a finished exposed dish\",\n    \"Exact meat species unverifiable from photograph alone\",\n    \"Description states 'ingredients' — this is preparation stage, not finished plated food\"\n  ],\n  \"reason\": \"Reject: This is a preparation-stage photograph (mid-cooking stew in pot), not a finished, exposed, plated dish suitable for intake. The source metadata (title/description) is explicitly untrusted and cannot serve as protein evidence. While veal is mentioned in the description, no visual confirmation of meat species is possible in a stew at this cooking stage. The photograph fails the requirement for 'a finished, exposed, likely photographic dish' and shows ingredients still in preparation. Sharpness and lighting scores are also below threshold (3/5).\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1763,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 424,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

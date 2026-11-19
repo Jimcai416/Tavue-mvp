@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCV1ie9YJNpXNj7QhswX",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Cooked meat and vegetables in brown gravy\",\n    \"Diced potatoes, peppers, and other root vegetables\",\n    \"Fresh parsley garnish\",\n    \"White plate, home-style presentation\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail shows same dish clearly\",\n    \"Stew components identifiable\",\n    \"Garnish visible in reduced form\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Türlü is a vegetable-based stew, but this image shows prominent meat pieces (brown, dense, irregular chunks suggesting beef or lamb)\",\n    \"Source title 'Türlü season opened' does not name a specific dish—it is a seasonal reference only\",\n    \"The meat species cannot be determined visually and is not explicitly named in the source description\",\n    \"Traditional türlü is vegetarian or contains unspecified 'meat'; the actual protein here is ambiguous\"\n  ],\n  \"reason\": \"The source metadata provides only a seasonal reference ('Türlü season opened'), not a canonical dish name. While the image shows a plausible home-cooked stew with meat and vegetables, the meat species is visually ambiguous (could be beef, lamb, mutton, or other) and no explicit protein identification appears in the source description. Per protocol, ambiguous meat species and source contradictions (a traditionally vegetable-focused dish containing prominent unspecified meat) trigger a hold. No exact dish-specific title is supplied to verify identity.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1729,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 478,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
