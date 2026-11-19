@@ -9299,3 +9299,9 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Pane Carasau** — Luigi Chiesa. [CC BY 3.0](https://creativecommons.org/licenses/by/3.0); [source](https://commons.wikimedia.org/wiki/File:Pane_carasau.jpg). Local asset: `reviewed-commons-1803032.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **türlü** — E4024. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Details_of_a_t%C3%BCrl%C3%BC.jpg). Local asset: `reviewed-commons-66482840.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Güveçte türlü** — E4024. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:G%C3%BCve%C3%A7te_t%C3%BCrl%C3%BC.jpg). Local asset: `reviewed-commons-61714809.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Türlü and pilav** — E4024. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:T%C3%BCrl%C3%BC_and_pilav.jpg). Local asset: `reviewed-commons-47461356.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
