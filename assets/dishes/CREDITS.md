@@ -9586,3 +9586,8 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 - **Fırın helva ve dondurma** — E4024. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:F%C4%B1r%C4%B1n_helva_ve_dondurma.jpg). Local asset: `reviewed-commons-52071980.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Ezme and Haydari** — E4024. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Ezme_and_Haydari.jpg). Local asset: `reviewed-commons-52394524.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Dondurmalı irmik helvası** — E4024. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Helva_and_dondurma.jpg). Local asset: `reviewed-commons-41738957.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Haydari (Turkish meze)** — E4024. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Haydari_(Turkish_meze).jpg). Local asset: `reviewed-commons-46648323.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Un helvası** — E4024. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Un_helva.jpg). Local asset: `reviewed-commons-40227362.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
