@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCC9WNSZKDc3dRRyx4Zk",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Spaghetti noodles present\",\n    \"Visible meat pieces scattered throughout\",\n    \"Black pepper seasoning visible\",\n    \"Creamy sauce coating\",\n    \"White bowl presentation\"\n  ],\n  \"phone_observations\": [\n    \"Spaghetti carbonara composition clearly visible in thumbnail\",\n    \"Meat and noodles readable at phone size\",\n    \"Dish proportions and components identifiable\",\n    \"No clipping of essential elements\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title/description identifies dish as 'Spaghetti Carbonara von Unico Tauberbischofsheim' but provides no explicit protein declaration\",\n    \"Visible meat pieces appear to be guanciale, pancetta, or bacon, but species cannot be confirmed from visual appearance alone\",\n    \"No explicit animal identifier (chicken/beef/pork/duck/lamb/seafood) stated in source metadata\",\n    \"Traditional carbonara typically contains pork-based cured meat, but this cannot be visually proven or sourced from provided text\"\n  ],\n  \"reason\": \"Image quality, sharpness, lighting, composition and phone thumbnail all meet acceptance criteria. However, the source description does not explicitly name any protein by allowed category (chicken/beef/pork/duck/lamb/seafood). While the visible meat pieces are consistent with carbonara tradition, the exact species cannot be confirmed from visual inspection alone, and the metadata provides no explicit animal identifier. Per protocol, unknown or unconfirmed meat species requires a hold decision.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1754,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 492,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
