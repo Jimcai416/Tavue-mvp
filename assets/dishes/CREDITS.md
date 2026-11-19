@@ -10303,3 +10303,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 
 - **doi fuchka** — Dr. Asif Md. Rezaur Rahman. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Doi_fuchka_in_kurigram.jpg). Local asset: `reviewed-commons-103824729.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Seafood platter at the Marché des Capucins in Bordeaux** — Benreis. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Assiette_de_fruits_de_mer_March%C3%A9_des_Capucins_Bordeaux_(2).jpg). Local asset: `reviewed-commons-156525548.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Frutta martorana** — Auregann. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Frutta_martorana_1.jpg). Local asset: `reviewed-commons-153904829.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.

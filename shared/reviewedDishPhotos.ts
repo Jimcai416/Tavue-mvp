@@ -132383,5 +132383,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-153904829",
+    "title": "File:Frutta martorana 1.jpg",
+    "author": "Auregann",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Frutta_martorana_1.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Frutta_martorana_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "640293a8c5c5dddc9664e3a2b20a63f7afe5a920",
+    "name": "Frutta martorana",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-153904829.jpg",
+    "assetSha256": "470b893e3fe82927cdb37e9205dbdf8768014fafec89746298911628c584ba42",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 721,
+    "requiresExactMenuName": true
   }
 ];
