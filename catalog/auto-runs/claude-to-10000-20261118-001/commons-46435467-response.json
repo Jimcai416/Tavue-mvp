@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDBGMRWw2NDaRNy74Shf",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 2\n  },\n  \"visible_support\": [\n    \"Raw fish in liquid in metal pot\",\n    \"Fresh green peppers and red pepper arranged on top\",\n    \"Whole fish heads visible\",\n    \"Preparation/cooking stage, not finished plated dish\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail shows raw/cooking-stage ingredients in pot\",\n    \"Fish and vegetables identifiable but not a finished served dish\",\n    \"No plated presentation visible\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title references 'Ajicero' but image shows raw ingredient preparation, not a finished cooked dish\",\n    \"Fish species unspecified in source metadata\",\n    \"Whether this represents the final plated form or mid-preparation stage is unclear from image alone\"\n  ],\n  \"reason\": \"Reject: Image shows raw or early-stage preparation (whole fish in pot with fresh vegetables arranged on top), not a finished, exposed, plated dish suitable for food photography review. The subject appears to be ingredient assembly or cooking in progress rather than a completed food item. While quality and photograph properties are acceptable, the identity check fails because the visual form contradicts the expectation of a finished dish. No fish species are explicitly named in source metadata, and the preparation stage disqualifies this from intake.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1745,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 422,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDBGjRqqzrMAbhazKJd9",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Pot of mixed raw/partially cooked ingredients in broth\",\n    \"Visible raw potatoes, red peppers, sausage, and what appear to be raw chicken pieces\",\n    \"Preparation or mid-cooking stage, not a finished plated dish\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Image shows raw/preparation stage ingredients in a pot during cooking, not a finished exposed dish\",\n    \"Chicken and longaniza mentioned in source description, but visual form is uncooked ingredients in liquid—not a finished photographic dish suitable for food review intake\",\n    \"Cannot confirm chicken identity visually among raw pieces; longaniza is sausage (unspecified species, excluded from protein categories)\"\n  ],\n  \"reason\": \"Rejection: Image depicts a preparation or mid-cooking stage of curanto en olla with raw potatoes, peppers, and uncooked meat pieces in broth—not a finished, exposed, plated dish. Tavue accepts finished foods. Source names chicken and longaniza (sausage of unknown meat species), but the uncooked state and mixed raw ingredients fail the requirement for 'finished, exposed, likely photographic dish.' Sausage with unspecified species cannot be categorized. All checks cannot be true for a preparation-stage image.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1745,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 438,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
