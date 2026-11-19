@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBLcriEiAScxtjAnsoa4",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 3,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Raw ground meat patty in pot with oil/broth\",\n    \"Early-stage preparation, meat not yet broken apart or cooked\",\n    \"No finished dish visible in thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Meat species not explicitly named in title or description—only generic 'carne' (meat)\"\n  ],\n  \"reason\": \"Image shows raw/early preparation stage (intact ground meat patty being introduced to pot), not a finished, exposed, cooked dish. The title 'Preparazione ragù di carne' and description 'Carne in pentola' (meat in pot) confirm this is a preparation/cooking process photograph, not a plated or cooked result. No finished food is visible. Additionally, the meat species is not explicitly named—'carne' is generic and cannot be assigned to chicken/beef/pork/duck/lamb/seafood without an exact source quote. Quality score for appeal is 1 due to uncooked raw meat. Reject per guidelines: raw/preparation stages and unspecified meat species.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1737,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 388,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
