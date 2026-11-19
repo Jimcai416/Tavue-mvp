@@ -8778,3 +8778,10 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **linguini puttanesca** — [hans peter meyer  from Courtenay, CANADA](https://www.flickr.com/people/9522129@N03). [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:Yesterday%27s_linguini_puttanesca_at_@RISOfoodInc_(9693908241).jpg). Local asset: `reviewed-commons-180336061.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Fougasse** — Arnaud 25. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Fougasse_001.jpg). Local asset: `reviewed-commons-107416352.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Omurice with demi-glace sauce** — Akino yuugure. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Omuraisu_demigurasu.jpg). Local asset: `reviewed-commons-10615147.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Omurice** — [Banzai Hiroaki  from Tokyo, Japan](https://www.flickr.com/people/58165732@N00). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Omurice_(3352622289).jpg). Local asset: `reviewed-commons-152850352.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **デミソースのオムライス** — Ocdp. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Omurice_001.jpg). Local asset: `reviewed-commons-61344521.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
