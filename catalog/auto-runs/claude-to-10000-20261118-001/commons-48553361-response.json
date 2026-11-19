@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBdxWJgxttauHZHV6bht",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": true,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 2,\n    \"composition\": 2,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows soup in white bowl but subject is severely reduced and obscured\",\n    \"Spoon with small pale contents dominates thumbnail composition\",\n    \"Essential dish detail unreadable at phone size\",\n    \"Cream-coloured liquid fills bowl but texture and components indistinct\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Tripe identity cannot be visually confirmed—only pale chunks in cream broth visible\",\n    \"Spoon-held portion in phone thumbnail is unidentifiable and clipped\",\n    \"Specific tripe type (honeycomb, smooth, etc.) not discernible from soft-focus image\"\n  ],\n  \"reason\": \"Reject: photograph quality fails acceptance thresholds. Sharpness score 2 (severe softness throughout), lighting score 2 (flat, dull cast), composition score 2 (spoon-dominant framing obscures dish), appeal score 1 (unappealing presentation). Phone thumbnail fails readability—essential food components clipped and obscured by spoon, subject too small and blurred for identification. Full image also exhibits pervasive softness and colour cast that obscure detail. Tripe identity cannot be visually supported. All scores fall below required minimum of 4.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1728,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 431,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
