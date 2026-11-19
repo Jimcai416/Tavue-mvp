@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBgXy8tYPhZpYVfCZniW",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Crispy fried noodles visible in full image and thumbnail\",\n    \"Shredded golden-brown strips prominent in foreground\",\n    \"Green onion garnish visible\",\n    \"Green leaf (banana leaf or tray) base typical of Thai street food\",\n    \"Night market/street food setting evident\",\n    \"Natural colour and appetising appearance\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail shows prominent pile of crispy fried noodles with golden colour\",\n    \"Green onion stalks visible at bottom edge\",\n    \"Essential components readable and sharply detailed\",\n    \"No clipping of significant food elements\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title describes 'shredded omelet and stir-fried noodles' but visible image shows only noodles and fried strips—no omelet is clearly identifiable or distinguishable\",\n    \"Ambiguity between 'fried taro strips' and 'shredded omelet' in description; thumbnail does not resolve which component is which or confirm omelet presence\",\n    \"No explicit dish name provided in source title—description mentions components but not a canonical dish identity (e.g. 'mee krob', 'crispy chow mein', or specific Thai name)\",\n    \"Title framing as preparation components ('ready to top a savory street-food bowl') suggests this may be a component display rather than a finished, complete dish\"\n  ],\n  \"reason\": \"Image quality, sharpness, lighting, composition and phone thumbnail all meet standards. However, identity check fails: source description does not provide a specific canonical dish name, only component descriptions ('shredded omelet and stir-fried noodles'). The phrase 'ready to top a savory street-food bowl' indicates this is a component or preparation stage, not a finished plated dish. Visual inspection cannot distinguish omelet from fried strips with certainty, and no explicit proteins are named in a way that permits confident identity mapping. Without a source-provided dish name or unambiguous finished-dish identity, hold is required.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1811,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 616,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

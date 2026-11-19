@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBgYRnGSP32LYJf8KAWt",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Translucent segmented citrus flesh visible\",\n    \"Crispy fried elements consistent with sun-dried anchovies\",\n    \"Red chilli flakes and orange-red pieces visible\",\n    \"Clear broth in white bowl\",\n    \"Natural outdoor lighting\"\n  ],\n  \"phone_observations\": [\n    \"Pomelo segments clearly identifiable in thumbnail\",\n    \"Fried protein component visible\",\n    \"Red chilli and shrimp visible\",\n    \"Dish composition recognizable at small scale\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title contains ambiguous protein references: 'sun-dried anchovies' and 'dried shrimp' are not in the allowed protein_evidence category keys (chicken/beef/pork/duck/lamb/seafood)\",\n    \"Anchovies are a specific seafood species not covered by generic 'seafood' category\",\n    \"Dried shrimp species cannot be determined with certainty from visual inspection alone\",\n    \"No explicit genus/species identification available in source that would permit seafood categorization\"\n  ],\n  \"reason\": \"While the photograph is sharp, well-lit, appetising and accurately represents yam som-o, the dish contains protein components (sun-dried anchovies and dried shrimp) that cannot be accepted under the strict protein_evidence rules. Anchovies require a specific seafood designation, and dried shrimp identity cannot be visually verified as a supported seafood category. The source description explicitly names these animals, but they fall outside the allowed protein category keys, creating an irresolvable uncertainty. Hold pending clarification of permissible seafood species coding.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1686,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 517,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
