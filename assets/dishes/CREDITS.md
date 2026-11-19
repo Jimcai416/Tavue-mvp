@@ -7585,3 +7585,10 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Russian Olivier salad** — AlMare. [CC BY 2.5](https://creativecommons.org/licenses/by/2.5); [source](https://commons.wikimedia.org/wiki/File:Russian_Olivier_salad.jpg). Local asset: `reviewed-commons-3294513.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Traditional Eastern Europe Baked Pirozhki with Potatoes** — EgorovaSvetlana. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Traditional_Eastern_Europe_Baked_Pirozhki_with_Potatoes.jpg). Local asset: `reviewed-commons-146101398.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Bœuf Stroganoff** — [stu_spivack](https://www.flickr.com/photos/stuart_spivack/). [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:Beef_Stroganoff-05.jpg). Local asset: `reviewed-commons-19351326.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Blynai** — The original uploader was  Hugo.arg  at  Lithuanian Wikipedia .. [Public domain](https://creativecommons.org/publicdomain/mark/1.0/); [source](https://commons.wikimedia.org/wiki/File:Blini_Tanya.jpg). Local asset: `reviewed-commons-4534416.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Blini med löjrom** — Jonas Nordström. [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Blini_med_l%C3%B6jrom.jpg). Local asset: `reviewed-commons-137134486.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
