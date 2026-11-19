@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCXL6otLCLxjFGUA9ELU",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Finished, cooked soup in white bowl with handles\",\n    \"Rich brown broth with visible meat pieces\",\n    \"Garnish of fresh green herbs (parsley) and what appears to be grated cheese or bread croutons\",\n    \"Served on white underplate on wooden table\",\n    \"Natural lighting, appetising presentation\"\n  ],\n  \"phone_observations\": [\n    \"Soup bowl clearly visible in thumbnail\",\n    \"Brown broth and meat components readable\",\n    \"White bowl handles visible\",\n    \"Garnish visible but fine details compressed\",\n    \"Overall dish identity preserved in thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title 'Česnečka' (Czech garlic soup) suggests this is a traditional garlic soup, but no explicit protein identification is visible or declared in the metadata\",\n    \"While meat pieces are clearly visible in the broth, the specific animal source is not stated in the title or description\",\n    \"The title alone (a dish category name) does not constitute evidence of protein species\"\n  ],\n  \"reason\": \"Image quality, photography, and phone thumbnail all pass. The dish is a finished, exposed, sharply detailed soup with appetising appearance. However, the identity check fails: the source provides only a Czech dish name 'Česnečka' without explicit protein declaration. Česnečka is traditionally a garlic soup that may contain beef or other meats, but the metadata does not specify which animal protein is present. Per instructions, ambiguous meat species or absence of explicit source naming means hold. The dish requires a full source title/description explicitly naming the protein (e.g., 'Beef Česnečka') to proceed.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1716,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 523,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
