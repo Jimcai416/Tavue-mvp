@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBkJy2YruEqxBu8Fj4g7",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 3,\n    \"lighting\": 3,\n    \"composition\": 3,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows a pale, broth-heavy dish in a dark bowl\",\n    \"Main component (pale protein) is centrally visible but blurred\",\n    \"Herb specks visible but overall appearance is murky and unappealing\",\n    \"Limited detail resolution for specific dish identification\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title is a filename 'File:Калья.jpg' rather than a proper dish name\",\n    \"Description states 'Kalya' but provides no explicit protein identification—no quoted source text names the meat species\",\n    \"Kalya is a Russian soup with a long history and regional variants; without explicit protein naming in source text, the specific ingredients cannot be confirmed\",\n    \"Full photograph shows pale meat pieces but species is not visually determinable and not stated in source\",\n    \"Description offers only generic historical context ('predecessor of rassolnik'), not a complete dish specification\"\n  ],\n  \"reason\": \"Rejection: (1) Source identity fails—the title is a bare filename ('File:Калья.jpg') without proper dish specification; (2) Protein evidence absent—no explicit quote from source identifying the meat species, only a Russian dish name without ingredient detail; (3) Quality scores too low (sharpness 3, appeal 2)—the full photograph is soft, poorly lit, and the soup appears murky and visually unappealing; (4) The thumbnail, though visible, reinforces low appeal and lack of definition. Home cooking and street food are welcome, but sources must supply explicit protein naming and the finished dish must be sharply detailed and appetising. This entry meets neither criterion.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1728,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 515,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
