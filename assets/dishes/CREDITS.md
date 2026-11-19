@@ -8037,3 +8037,10 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Grilled kusshi oysters, uni, foie gras** — T.Tseng. [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Grilled_kusshi_oysters,_uni,_foie_gras_-_Japanese_Cuisine_by_Omae,_Las_Vegas_1.jpg). Local asset: `reviewed-commons-77162658.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Brinjal Fry (Ennai Kathirikkai Fry)** — Shriram Swaminathan. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Brinjal_Fry_(Ennai_Kathirikkai_Fry).jpg). Local asset: `reviewed-commons-40986895.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Brinjal fry with masala** — Ranjithsiji. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Brinjal_fry_with_masala.jpg). Local asset: `reviewed-commons-88157635.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Bryndzové halušky** — Backpack Foodie. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Bryndzove_halusky_slovak_cuisine.jpg). Local asset: `reviewed-commons-22627269.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Brinjal fry** — Muppalla Tirupati Rao. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Guthi_vankaya_kura.jpg). Local asset: `reviewed-commons-88130721.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
