@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBPQwuoN4sa2J5buCucS",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Raw or uncooked meat mixture formed into balls on dark griddle\",\n    \"Pre-cooking stage clearly visible\",\n    \"No browning, crust, or cooked exterior\",\n    \"Five meat balls in preparation state\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'smashburger' but image shows uncooked meat balls before any cooking or smashing\",\n    \"Description-title mismatch: metadata describes preparation stage, not finished dish\",\n    \"Cannot verify protein species from raw meat appearance alone\"\n  ],\n  \"reason\": \"Rejection: Image depicts raw meat mixture in preparation stage, not a finished, cooked, exposed dish. The source title/description ('smashburger w restauracji Hamburg, Opole' + 'Meatballs before smashing') explicitly confirms this is a pre-cooking stage. Tavue accepts only finished, exposed, likely photographic dishes. No protein species can be confirmed from uncooked meat. Identity check fails due to preparation-stage content contradicting finished-dish requirement.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1625,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 384,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

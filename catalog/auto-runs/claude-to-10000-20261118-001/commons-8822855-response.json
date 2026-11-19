@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBPQU3zu4pAF8gJ5dXso",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Boiled potatoes with skin visible on white plate\",\n    \"Golden-brown seared patties on right side\",\n    \"Creamy pale sauce visible in background (likely remoulade)\",\n    \"Natural home-cooked presentation\"\n  ],\n  \"phone_observations\": [\n    \"Potatoes clearly visible and prominent in thumbnail\",\n    \"Seared patties visible on right\",\n    \"Overall composition matches full image well\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title specifies 'Fiskefrikadeller' (fish meatballs/patties), but no visual evidence definitively confirms fish as the protein source—the patties appear seared and browned but contain no visible distinguishing features that prove fish composition\",\n    \"No exact protein species naming present in source title/description to support acceptance under protein_evidence rules\"\n  ],\n  \"reason\": \"The photograph shows a finished, well-composed dish with sharp focus, good lighting, and appetising presentation. Boiled potatoes and seared patties are clearly visible and prominent in both full image and phone thumbnail. However, the source title 'Fiskefrikadeller' names a fish-based dish, but the visible ingredients do not contain an explicit, exact source quote naming 'fish' or any specific seafood species. The rules require an exact case-sensitive substring from the supplied title or description to populate protein_evidence. The Danish title 'Fiskefrikadeller' translates to fish meatballs but is not an English species name quote. Without an explicit source-quoted protein identifier matching the allowed categories (chicken/beef/pork/duck/lamb/seafood with exact naming), identity cannot be fully verified and the hold threshold is triggered.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1750,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 529,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
