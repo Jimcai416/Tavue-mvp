@@ -106806,5 +106806,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 717,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-77162658",
+    "title": "File:Grilled kusshi oysters, uni, foie gras - Japanese Cuisine by Omae, Las Vegas 1.jpg",
+    "author": "T.Tseng",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Grilled_kusshi_oysters,_uni,_foie_gras_-_Japanese_Cuisine_by_Omae,_Las_Vegas_1.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/93/Grilled_kusshi_oysters%2C_uni%2C_foie_gras_-_Japanese_Cuisine_by_Omae%2C_Las_Vegas_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "f461f8ad43cce6d92e05732e6c152adc48ae3be2",
+    "name": "Grilled kusshi oysters, uni, foie gras",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-77162658.jpg",
+    "assetSha256": "86e111144354a153d58583de268072732c172694a09775b93f7a8546aef64211",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];

@@ -8033,3 +8033,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 - **Tapenade** — Berenguier Duncan. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/); [source](https://commons.wikimedia.org/wiki/File:Tapenade_dans_un_mortier.jpg). Local asset: `reviewed-commons-2194487.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Quesadillas de huitlacoche (hongo del maíz) y de flor de calabaza** — Jruizs2k. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Quesadillas_de_guisos.jpg). Local asset: `reviewed-commons-104952347.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Tapenade et olives noires sur focaccia** — Jen Arrr. [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:Tapenade_et_olives_noires_sur_focaccia.jpg). Local asset: `reviewed-commons-62381548.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Grilled kusshi oysters, uni, foie gras** — T.Tseng. [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Grilled_kusshi_oysters,_uni,_foie_gras_-_Japanese_Cuisine_by_Omae,_Las_Vegas_1.jpg). Local asset: `reviewed-commons-77162658.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
