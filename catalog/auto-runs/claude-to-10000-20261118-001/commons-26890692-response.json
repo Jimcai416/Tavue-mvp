@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBPY5inndmiaC1hNTjka",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 2,\n    \"composition\": 3,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Plate visible but components unclear in thumbnail\",\n    \"Golden potatoes visible but insufficient detail\",\n    \"Meat portion obscured and blurred in thumbnail\",\n    \"Overall thumbnail too soft to verify essential components\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title describes 'Flæskesteg' (Danish roast pork belly) but photograph shows braised meat in dark sauce—inconsistent with traditional flæskesteg presentation which features crispy skin and roasted potatoes\",\n    \"Meat appears stewed/braised rather than roasted, contradicting the named dish\",\n    \"Unclear if meat is pork; colour and presentation are ambiguous\",\n    \"Red cabbage salad (hvidkålssalat) not visible despite being named in title\"\n  ],\n  \"reason\": \"Reject: Identity mismatch. Source title 'Flæskesteg med kartofler og hvidkålssalat' describes Danish roast pork belly with crispy skin, but photograph shows braised meat in dark brown sauce—inconsistent preparation. Red cabbage salad claimed in title is absent from visible plate. Meat species cannot be confirmed visually. Sharpness severely compromised (2/5); full image and thumbnail both lack sufficient detail for confident component identification. Source title contains 'File:' prefix and metadata which are untrusted. All quality checks failed.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1652,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 463,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

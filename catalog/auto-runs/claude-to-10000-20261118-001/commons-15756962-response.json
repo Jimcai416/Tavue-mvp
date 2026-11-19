@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBPXggCuWpxiMke6mM2J",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 3,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Supermarket shelf display of packaged yogurt/dairy products\",\n    \"Multiple branded containers in rows, predominantly closed/packaged\",\n    \"No finished dish visible in phone thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source describes 'Skyrs dans un rayon de supermarché' (Skyr in supermarket shelf) — this is a retail display, not a finished food photograph\",\n    \"No prepared/served dish is visible — only packaged products on shelves\",\n    \"Cannot verify skyr as a finished, exposed, appetising dish with readable components\"\n  ],\n  \"reason\": \"Rejection: Image shows packaged dairy products (skyr) on supermarket shelves, not a finished, exposed, served dish. Identity check fails because the source depicts retail packaging/display rather than a prepared food item ready for consumption. Phone thumbnail confirms no plated or presented food is visible. This is product packaging photography, not food photography suitable for Tavue review.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1626,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 367,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBPXgej4ehYuKrpnMEgR",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Cooked meatballs clearly visible in broth\",\n    \"Ribs present and identifiable\",\n    \"Vermicelli noodles visible in both full and thumbnail images\",\n    \"Natural lighting, appetising presentation\",\n    \"Finished dish in white bowl on marble surface\"\n  ],\n  \"phone_observations\": [\n    \"Meatballs and broth prominently visible in thumbnail\",\n    \"Ribs visible in upper portion\",\n    \"Dish clearly recognisable at reduced size\",\n    \"Essential components readable\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Species of ribs not explicitly stated in source description; 'ribs' is ambiguous and could refer to pork, beef, lamb, or other animals\",\n    \"Meatball composition (beef/pork/chicken/lamb/other) not specified in source description\",\n    \"No explicit animal identification for either major protein component\"\n  ],\n  \"reason\": \"Image quality and photograph technical standards meet acceptance criteria. However, source description identifies only 'ribs' and 'meatballs' without naming specific animal species. Per rules, ambiguous meat species and unspecified protein sources require hold status. The source title/description does not explicitly name which animal the ribs or meatballs come from, preventing confident identity verification and protein_evidence extraction.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1523,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 446,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
