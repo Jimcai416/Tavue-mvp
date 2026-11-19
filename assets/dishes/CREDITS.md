@@ -6437,3 +6437,13 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Troccoli with ragù** — fugzu. [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Troccoli_al_rag%C3%B9.jpg). Local asset: `reviewed-commons-166932981.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Pancit luglug** — insatiablemunch. [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Pancit_-_16408491452.jpg). Local asset: `reviewed-commons-107372175.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Kaeng phet kai (haeng)** — Takeaway. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Kaeng_phed_gai_haeng.jpg). Local asset: `reviewed-commons-8051632.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Sansai tsukimi udon** — [Blue Lotus](https://www.flickr.com/photos/bluelotus/). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Sansai_tsukimi_udon.jpg). Local asset: `reviewed-commons-1171472.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Chicken gheeroast with ghee rice** — Pkd2512. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Chicken_gheeroast_with_ghee_rice_-_Bangalore_-_Karnataka.jpg). Local asset: `reviewed-commons-103617629.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **鶏胸肉の親子丼** — Ocdp. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Oyakodon_001.jpg). Local asset: `reviewed-commons-23577330.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Seasoned chicken & runny egg rice bowl** — Andy Li. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Oyako-don_(M)_-_MOGUMOGU_2024-08-16.jpg). Local asset: `reviewed-commons-151536690.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **月見うどん（大）** — ノボホショコロトソ. [CC BY 4.0](https://creativecommons.org/licenses/by/4.0); [source](https://commons.wikimedia.org/wiki/File:Tsukimi_udon_01.jpg). Local asset: `reviewed-commons-190076832.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
