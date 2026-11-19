@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBKeFpDiGM7Vf6xMtFb6",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 3,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Glossy, caramelised sauce coating visible protein and vegetables\",\n    \"White rice base visible on plate\",\n    \"Green garnish (scallions) visible on dish\",\n    \"Chinese restaurant setting confirmed\",\n    \"Plate decoration consistent with Asian dining\"\n  ],\n  \"phone_observations\": [\n    \"Toy figure (Domo/Danbo) prominently positioned in foreground of phone thumbnail\",\n    \"Food (mapo doufu) visible but secondary to prop subject\",\n    \"Toy figure occupies substantial visual real estate in centre-cover area\",\n    \"Dish is obscured/peripheral in phone thumbnail composition\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title references 'Egg plant Domo vs Mapo doufu' but metadata/filename suggests this is a playful, staged photograph rather than a food documentation photo\",\n    \"Primary subject of image composition is toy figures (Domo/Danbo), not the dish\",\n    \"Dish identity stated as 'Mapo doufu' in description but visual confirmation of eggplant variant cannot be established from image alone\",\n    \"Protein species in mapo doufu not explicitly named in source (tofu is not an allowed protein category)\"\n  ],\n  \"reason\": \"Reject: Although the photograph is sharp and well-lit, and shows a glossy Asian sauce dish with rice, it fails the core acceptance criterion that food must be 'prominent' and 'naturally composed as a food subject.' The phone thumbnail is dominated by toy figures (Domo/Danbo) used as a prop, with the actual dish relegated to secondary position. The image is primarily a styled prop photograph rather than a food documentation photo. The source title itself frames this as 'Domo vs Mapo doufu'—a playful toy narrative—rather than a straightforward dish presentation. No protein species (chicken/beef/pork/duck/lamb/seafood) is explicitly named in the source. The composition and intent prioritise the novelty prop over food presentation.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 2007,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 599,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

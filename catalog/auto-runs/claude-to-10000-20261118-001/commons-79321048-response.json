@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBKeK5Qt5JX8sMJwse8T",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 5,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Multiple bamboo steamer baskets with metal rims\",\n    \"Variety of dim sum items visible: fried items, dumplings with vegetables, what appears to be buns\",\n    \"Restaurant setting with diners' hands and other plates visible\",\n    \"Natural daylight with warm, appetising colour balance\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows steamer baskets as central subject\",\n    \"Multiple distinct dishes visible and distinguishable\",\n    \"Steamer construction and food content readable at phone size\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title 'Dim Sum Breakfast' is generic category, not a specific dish name\",\n    \"Individual dim sum items cannot be reliably identified from appearance alone: fried items could be spring rolls, shrimp balls, or other varieties; dumplings contain unspecified fillings; meat species (if present) are not visually determinable\",\n    \"No explicit source description of specific dishes, protein types, or preparation details beyond generic 'dim sum'\"\n  ],\n  \"reason\": \"Rejection: The source provides only a generic category ('Dim Sum Breakfast') without naming specific dishes or their components. While the photograph is well-composed and shows appetising steamed items in proper dim sum service, the multiple distinct dishes visible cannot be individually identified with certainty. No protein animals are explicitly named in the source. The title alone does not constitute a specific dish identity; it is a meal category. Acceptance requires canonical_name matching an exact source quote describing a particular dim sum dish, not the meal classification.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1719,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 495,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

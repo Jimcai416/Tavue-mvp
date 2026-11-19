@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBKenae9GL2oPquZyFP7",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Red bowl with glossy braised sauce\",\n    \"Visible diced protein cubes in golden-brown colour\",\n    \"Green scallion garnish on top\",\n    \"White rice base visible underneath\",\n    \"Spice packet visible on accompanying white dish\",\n    \"Professional restaurant presentation\"\n  ],\n  \"phone_observations\": [\n    \"Red bowl clearly visible and prominent\",\n    \"Protein and sauce legible\",\n    \"Garnish and rice base readable\",\n    \"Companion spice packet visible\",\n    \"Overall composition sharp and appetising in thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title states 'Mapo doufu bowl of Sukiya' but the visible dish contains prominent diced protein cubes (yellow/golden, cubic, meat-like in appearance), not tofu which would appear white/pale and have different texture\",\n    \"The dish visually appears to be a meat curry rice (possibly beef or chicken based on colour and cubic cut), not mapo doufu (which is a tofu-based Sichuan dish)\",\n    \"Source description in Japanese (すき家 マーボ丼) claims Sukiya mapo rice bowl, but visual evidence contradicts tofu identification\",\n    \"Species of protein cannot be definitively determined from appearance alone and source does not explicitly name the meat type\",\n    \"Title-image mismatch suggests either misidentification or mislabeling\"\n  ],\n  \"reason\": \"Identity check fails. The source title claims 'Mapo doufu bowl' but the photograph shows a meat curry rice with prominent diced protein cubes (appearing beef or chicken coloured, not tofu-white), contradicting the stated identity. Without an explicit species declaration in the source for the visible protein, and given the fundamental mismatch between the claimed dish type (tofu-based mapo doufu) and what is photographed (meat curry over rice), the identity cannot be verified. Hold criteria: source contradiction regarding essential dish identity component.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1630,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 590,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
