@@ -130012,5 +130012,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 955,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-11421851",
+    "title": "File:Kotlety ziemniaczane.jpg",
+    "author": "Magalia",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kotlety_ziemniaczane.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/29/Kotlety_ziemniaczane.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "d079de2c885f36a24a0927129e6e37bc10fea973",
+    "name": "Kotlety ziemniaczane z serem feta",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-11421851.jpg",
+    "assetSha256": "5af19a6ca69970df1a3a9ab840611c0829fd3ee6fb863b6b16e450efb37f29dc",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 824,
+    "requiresExactMenuName": true
   }
 ];
