@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCy264GMX2nGEeE9hzKv",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": true,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 3,\n    \"lighting\": 3,\n    \"composition\": 2,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows a landscape with a church building in the distance surrounded by vegetation and hills\",\n    \"No food subject visible in thumbnail\",\n    \"Church/architectural landmark is the primary subject\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title and description describe a landscape/geographical location, not a food dish\",\n    \"No food item visible in either full photograph or thumbnail\",\n    \"Image appears to be a travel/landscape photograph of Croatian countryside\"\n  ],\n  \"reason\": \"Rejection: This is a landscape/architectural photograph of the Croatian countryside near Gata and Zvečanje, showing a church building surrounded by vegetation and hills. No food dish is present in the image. The source description explicitly identifies this as a geographical location photograph ('Okolitá krajina' = surrounding landscape), not a food photograph. This fails the fundamental requirement of depicting a finished, exposed food dish. Identity does not match any food dish criterion.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1795,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 353,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
