@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCLgVpzmmEE4PxkNrhKq",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows fried golden-brown pieces on white plate\",\n    \"Texture consistent with source full image\",\n    \"Essential subject clearly visible and recognizable\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title describes 'Fried tempeh' but tempeh is a fermented soy product, not an allowed protein category (chicken/beef/pork/duck/lamb/seafood)\",\n    \"Description states 'Product of Bandung, West Java, Indonesia' which is metadata location, not identity confirmation\"\n  ],\n  \"reason\": \"Rejection: The dish is tempeh goreng (fried tempeh), a plant-based soy product. The review criteria specify that proteins may include only chicken/beef/pork/duck/lamb/seafood. Tempeh, being a fermented soy product, falls outside the allowed protein categories and cannot be supported under the protein_evidence framework. While photograph and phone thumbnail quality are acceptable, identity check fails because the subject does not match the allowable food categories for Tavue review.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1738,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 382,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

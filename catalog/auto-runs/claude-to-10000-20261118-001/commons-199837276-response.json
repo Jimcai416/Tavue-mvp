@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCLfzdqK1trb9MQMivxv",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 3,\n    \"appeal\": 2\n  },\n  \"visible_support\": [\n    \"Golden-brown fried rectangular pieces in clear plastic takeout containers\",\n    \"Textured surface consistent with fried tempeh\",\n    \"Multiple pieces arranged in two containers on outdoor surface\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail shows fried rectangular items in container with adequate clarity\",\n    \"Golden colour visible and consistent with full image\",\n    \"Composition captures main subject adequately\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title is a filename ('File:Tempe Goreng Krispi.jpg') rather than a proper dish description\",\n    \"Tempeh is a fermented soy product, not a supported protein category (chicken/beef/pork/duck/lamb/seafood)\",\n    \"Description 'Crispy fried tempeh breakfast menu' does not constitute an exact canonical dish name from reliable source metadata\"\n  ],\n  \"reason\": \"While the photograph itself is sharp, well-composed, and clearly shows fried tempeh in appetizing form suitable for a food database, the source metadata fails critical requirements. The 'title' field is a filename rather than a proper dish description. Tempeh, being a fermented soy product, falls outside the specified protein categories (chicken/beef/pork/duck/lamb/seafood) and cannot be encoded in protein_evidence. No exact source-quoted canonical dish name can be extracted. The generic description 'Crispy fried tempeh breakfast menu' lacks the specificity required for canonical_name. Identity check fails because source metadata does not provide a recognizable dish name, only a filename and generic descriptor.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1519,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 499,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

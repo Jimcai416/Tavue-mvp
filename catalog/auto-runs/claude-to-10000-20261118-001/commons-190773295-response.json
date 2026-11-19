@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCLgSmx4sBvRzEYZ7FUK",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Golden-brown fried cubes in pink basket\",\n    \"Crispy exterior texture visible\",\n    \"Street food presentation\",\n    \"Natural daylight with strong neon ambient cast\"\n  ],\n  \"phone_observations\": [\n    \"Fried items clearly visible in thumbnail\",\n    \"Pink serving basket prominent\",\n    \"Golden colour and crispy texture readable at phone size\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title declares 'Tempe goreng' (fried tempeh), which is a plant-based fermented soy product, not a supported protein category (chicken/beef/pork/duck/lamb/seafood)\",\n    \"No animal protein visible or declared in source description\"\n  ],\n  \"reason\": \"Reject: The source explicitly identifies this as 'Tempe goreng' (fried tempeh). Tempeh is a fermented soy product and does not fall within the allowed protein categories (chicken, beef, pork, duck, lamb, or seafood). The image quality and presentation are acceptable, but the dish contains no supported protein and therefore fails the identity check for Tavue's review scope.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1910,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 400,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

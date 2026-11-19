@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCLg2uFeAsCosZwEmZBV",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Golden-brown deep-fried rectangular blocks with crispy, textured surface\",\n    \"Arranged on bright yellow plate\",\n    \"Visible accompanying sauce in white bowl (top right)\",\n    \"Metal serving bowl visible (left)\",\n    \"Home/street food setting with casual presentation\"\n  ],\n  \"phone_observations\": [\n    \"Fried blocks clearly visible and prominent in thumbnail\",\n    \"Yellow plate colour distinguishable\",\n    \"Golden-brown colouration readable\",\n    \"Essential food subject retained in phone crop\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'Tempe Goreng' (fried tempeh, a soy product, not an animal protein)\",\n    \"No animal protein visible or claimed in source description\",\n    \"Cannot visually distinguish tempeh from other fried plant-based or grain products\",\n    \"Source title/description contains only 'Tempe Goreng Lesehan Wong Kito Danau Ranau' – no meat qualifier present\"\n  ],\n  \"reason\": \"Identity check fails. The source title explicitly identifies this as 'Tempe Goreng' (fried tempeh), a plant-based soy product. Tavue's protein_evidence category requires only chicken/beef/pork/duck/lamb/seafood with explicit source quotes. No animal protein is named in the title or description, and tempeh is not an eligible category. The photograph and phone thumbnail are of high quality and show a finished, appetising fried dish, but the dish itself does not meet the protein requirements for acceptance.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1747,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 498,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
