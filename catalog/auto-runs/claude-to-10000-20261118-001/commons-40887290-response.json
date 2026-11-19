@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCGwebJKwvgVV1Sct6Yd",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Finished, cooked dish in creamy gravy\",\n    \"Round kofta balls visible in both images\",\n    \"Fresh coriander garnish\",\n    \"White plate, home/restaurant setting\",\n    \"Natural warm lighting\",\n    \"Prominent subject, readable in thumbnail\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail shows gravy-based dish with round components\",\n    \"Koftas and cream-coloured sauce clearly visible\",\n    \"Green garnish distinguishable\",\n    \"Adequate centre-cover detail for identification\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'Malai kofta' but no source description explicitly names protein ingredient(s)\",\n    \"Koftas typically contain paneer and/or potato (vegetarian); no animal protein stated in provided metadata\",\n    \"Description 'mouth melting koftas in smooth gravy' does not specify or exclude meat\",\n    \"Visual appearance cannot definitively distinguish paneer-based from meat-based koftas\"\n  ],\n  \"reason\": \"Image quality and photograph composition are strong (all scores ≥4), and the dish is clearly a finished, appetising kofta curry in gravy. However, the identity check fails because the source metadata does not explicitly name any protein ingredient. 'Malai kofta' traditionally refers to a vegetarian paneer-potato preparation, but the description 'mouth melting koftas in smooth gravy' is generic and does not confirm the composition. Without an explicit protein statement in the source title or description that matches allowed categories (chicken/beef/pork/duck/lamb/seafood), identity cannot be verified. The dish may be vegetarian, making protein_evidence empty and the identity check unresolvable. Hold for clarification of actual ingredients.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1728,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 548,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
