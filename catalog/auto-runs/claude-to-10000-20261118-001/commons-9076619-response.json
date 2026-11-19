@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBgPcVCN4srfJSb46vWU",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": \"Swedish dish \\\"sausage stroganoff\\\"\",\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Finished, cooked dish with visible sausage pieces in stroganoff sauce\",\n    \"Rice side component clearly visible and readable in phone thumbnail\",\n    \"Warm, appetising colour palette with glossy sauce coating\",\n    \"Sharp detail of meat texture and sauce consistency\"\n  ],\n  \"phone_observations\": [\n    \"Sausage pieces and rice are both prominent and identifiable\",\n    \"Dish composition clear and readable at thumbnail scale\",\n    \"Natural lighting and colour reproduction adequate\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title describes 'sausage stroganoff' but sausage is an unspecified meat species; identity of the animal (pork, beef, mixed) cannot be determined from appearance or source metadata\",\n    \"Canonical name requires explicit animal species declaration for protein_evidence, which is unavailable\"\n  ],\n  \"reason\": \"The photograph is sharp, well-lit, appetising and clearly shows a finished sausage stroganoff dish with rice. However, the source describes only 'sausage' without naming the specific meat species (pork, beef, chicken, lamb, duck, or seafood). Per protocol, sausage cannot be used as a protein category key because the animal species is ambiguous and cannot be inferred. Without an explicit source quote naming a specific allowed animal, the protein cannot be recorded. The identity check fails because canonical_name cannot be reliably constructed with unspecified protein. Hold pending source clarification of the sausage meat species.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1690,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 488,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
