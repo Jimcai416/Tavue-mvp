@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBR6PwvdBwbAVhQhitc7",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows clay cooking vessels with cloth wrappings on shelf\",\n    \"No prepared food visible or identifiable in phone thumbnail\",\n    \"Earthenware pots appear to be equipment/vessels, not a finished dish\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Tangia is a Moroccan slow-cooked stew traditionally cooked in earthenware vessels, but no cooked food content is visible in either image\",\n    \"Only the empty or sealed cooking vessels themselves are shown, not the finished prepared dish\"\n  ],\n  \"reason\": \"Identity check fails. The photograph shows traditional Moroccan clay cooking vessels (tangia pots) on display in a market, but no finished, exposed, prepared food dish is visible. The subject is cookware/equipment, not a completed plated or served meal. Essential food content is absent from both source image and thumbnail. This violates the core requirement for 'a finished, exposed, likely photographic dish' with 'appetising, prominent' presentation. Home cooking and street food are welcome, but only if the actual food is visible and identifiable.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1631,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 393,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
