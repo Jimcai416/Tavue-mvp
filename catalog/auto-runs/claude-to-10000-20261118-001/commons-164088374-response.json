@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCvUXnx9w5cc2BU17kaa",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Cooked leafy green sauce with visible protein chunks\",\n    \"Pale starch component (cocoyam) in upper portion\",\n    \"Natural plated presentation on yellow dish\",\n    \"Home-cooked appearance, well-exposed\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail shows dark leafy greens prominently\",\n    \"Pale starch visible in upper portion\",\n    \"Sauce texture and ingredients readable\",\n    \"Natural colour, appetising presentation\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title references 'cocoyam and palava sauce' but provides no explicit protein declaration\",\n    \"Pale chunks in upper portion are presumed cocoyam (starch), not protein\",\n    \"No visible text, label or source description explicitly names any animal protein\",\n    \"Palava sauce traditionally may contain meat/fish, but this is not visually proven nor source-stated\",\n    \"Cannot infer species from appearance or tradition alone\"\n  ],\n  \"reason\": \"Image quality, photograph authenticity, phone thumbnail readability and composition all pass. However, identity check fails: the source title 'cocoyam and palava sauce' does not contain an explicit protein declaration naming a specific animal. While palava sauce may traditionally include meat or seafood, no source text visually visible in metadata explicitly states which protein is present. Per protocol, hidden flavours may be source-declared but are not visually proven, and no such declaration exists in the supplied title or description. Protein_evidence remains empty. Hold pending source clarification of protein content.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1736,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 493,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
