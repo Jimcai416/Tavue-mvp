@@ -111491,5 +111491,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 720,
     "height": 960,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-121398049",
+    "title": "File:Uqwu Afang soup 11.jpg",
+    "author": "Psalmbusy",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Uqwu_Afang_soup_11.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/42/Uqwu_Afang_soup_11.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "ddd41d602191550523e7a3de14f88c046a3aa5de",
+    "name": "Uqwu Afang soup",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-121398049.jpg",
+    "assetSha256": "ddb47a8428d367b22fa609d8c9ab2f0d71d7aafb41a61679611451fc55fc4581",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 432,
+    "requiresExactMenuName": true
   }
 ];
