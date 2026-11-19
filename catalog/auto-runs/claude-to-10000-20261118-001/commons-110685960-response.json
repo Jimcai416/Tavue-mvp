@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCoz2w9EVaqx1B3ZZzCX",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [\n    \"Purple foam container with two distinct components\",\n    \"Top compartment: reddish-brown sauce with visible particulates/grains\",\n    \"Bottom compartment: two white spherical dough portions in plastic wrap\",\n    \"Practical street/takeaway food presentation\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows two-part meal structure\",\n    \"Sauce component with grain/pepper visible at top\",\n    \"White starch balls prominent at bottom\",\n    \"Essential food elements legible and sharp in thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'Tuwo da miyar kubewa' but provides no source quote beyond filename; metadata describes only 'Nigerian Local food' generically\",\n    \"Exact dish identity cannot be verified against a canonical source description—only a filename is provided, which is not a reliable source title/description per instructions\",\n    \"Cannot confirm whether the reddish sauce contains meat (beef, lamb, etc.) or is purely vegetable/grain-based; visible particles are ambiguous\",\n    \"White dough balls identity unconfirmed—could be tuwo or similar starch preparation, but source does not explicitly describe contents\",\n    \"No explicit source quote describing the dish's components, preparation, or any protein species\"\n  ],\n  \"reason\": \"Image quality and photograph composition are strong, and the thumbnail clearly presents a finished, appetising two-part meal. However, identity cannot be verified: the supplied metadata lacks an explicit source title or description beyond a filename. Per protocol, canonical_name requires 'a specific dish phrase copied exactly from source title or description'—the filename 'Tuwo da miyar kubewa 02.jpg' is a filename, not a source description. The generic description 'Is a Nigerian Local food' does not provide the specificity needed to confirm identity or variant qualifiers. Additionally, protein_evidence cannot be established: no visible component explicitly confirms the presence of a named protein (beef, chicken, lamb, etc.), and the source metadata does not name any animal. These gaps require hold pending a full, explicit source description of the dish and its components.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1729,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 615,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
