@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBrkd3Seh2QGvVvqmbBp",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 5,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Nori-wrapped rectangular parcels with seared red meat on white plate\",\n    \"Rice base visible beneath nori and meat\",\n    \"Charred nori exterior characteristic of spam musubi\",\n    \"Five pieces arranged in circular pattern\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows nori-wrapped musubi pieces\",\n    \"Red seared meat sides visible in compressed view\",\n    \"White plate and rice base detectable\",\n    \"Composition remains recognizable at phone size\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Metadata title declares 'spam musubi' but source description says 'I made some spam musubi today'—neither is a formal canonical title from packaging, restaurant menu, or official recipe source\",\n    \"Spam is a branded processed pork product; species cannot be verified from visual appearance alone and requires explicit source naming of 'pork' as an ingredient\",\n    \"File metadata and author attribution are metadata only, not authoritative dish identification\"\n  ],\n  \"reason\": \"While the photograph is sharp, well-lit, properly composed, and shows a finished musubi dish prominently with readable components in the phone thumbnail, the source does not provide a formal canonical dish name from an authoritative reference (menu, restaurant, official recipe). The metadata title 'File:Spam musubi dllu.jpg' and casual user description 'I made some spam musubi today' are insufficient for canonical naming. Additionally, although spam is a known ingredient traditionally made from pork, the source does not explicitly state 'pork' as a named ingredient, so protein evidence cannot be established per protocol. Hold criteria are met.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1730,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 510,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

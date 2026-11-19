@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBrkcyidoSUDf9fWADWx",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Raw or lightly cooked cubed protein (pale brown/tan colour, translucent appearance)\",\n    \"Green onion/scallion garnish\",\n    \"Sesame seeds (black and white)\",\n    \"Yellow and red pepper dice\",\n    \"Bowl presentation consistent with poke format\"\n  ],\n  \"phone_observations\": [\n    \"Cubed protein clearly visible in thumbnail\",\n    \"Garnish and toppings legible\",\n    \"Bowl shape and overall composition preserved in reduction\",\n    \"Subject prominent and well-framed\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Protein species cannot be determined from visual appearance alone; pale translucent cubes are consistent with raw fish but could be sashimi-grade tuna, another fish species, or processed seafood product\",\n    \"Source title 'Poke bowl' is generic descriptor, not a specific dish name with declared protein\",\n    \"No explicit source text identifies the specific seafood species used\",\n    \"Ambiguity whether this is ahi tuna, yellowtail, salmon, or another species\"\n  ],\n  \"reason\": \"Image quality and photograph composition are strong (all scores ≥4), and the finished dish is appetising and prominently displayed in both full image and phone thumbnail. However, identity check fails because the source provides only a generic category ('Poke bowl') without declaring the specific seafood species. The protein evidence object is empty because no exact case-sensitive substring from the source title/description explicitly names the fish or seafood animal. Protein species cannot be reliably inferred from visual appearance alone in this context. Hold pending source clarification of the specific protein used (e.g., 'Ahi Tuna Poke Bowl', 'Yellowtail Poke Bowl').\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1720,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 544,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
