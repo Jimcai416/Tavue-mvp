@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBRNWupa12NKHBFANCbq",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 3,\n    \"lighting\": 3,\n    \"composition\": 3,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Stacked flatbreads with char marks visible in thumbnail\",\n    \"Subject prominent and recognizable as bread\",\n    \"Natural colour and cooked appearance\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source metadata lists multiple possible ingredients (wheat, jowar, bajra) but does not specify which is actually used in this particular photograph\",\n    \"Description contradicts identity: bhakri is traditionally millet-based (jowar/bajra), not wheat-based, yet description says 'made from wheat most of times'\",\n    \"Cannot visually distinguish wheat from millet flatbread in photograph\",\n    \"Source provides generic description of preparation method rather than specific identification of this dish variant\"\n  ],\n  \"reason\": \"Identity check fails. The source description creates ambiguity by stating bhakri 'is made from wheat most of times' and 'can also be made from Jowar, Bajra etc.' without specifying which flour was actually used in this photograph. Bhakri's canonical identity is traditionally tied to millet (jowar/bajra), and wheat-based versions represent a modern variant. The source metadata does not provide a definitive, specific canonical name matching the exact dish prepared here. Visual inspection cannot distinguish the grain type. The description is generic preparation guidance rather than precise dish identification. All quality and photograph checks pass, but the foundational identity requirement cannot be met due to unresolved source ambiguity about the actual ingredient composition of this specific image.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1763,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 473,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

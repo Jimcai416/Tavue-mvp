@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBRNWx3JMoauVGf4MCyu",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Two seared meat patties visible in full source\",\n    \"Cream/tahini sauce drizzled over meat and pita\",\n    \"Fresh vegetables: lettuce, tomato, cucumber, carrot, broccoli\",\n    \"White rice base\",\n    \"Hummus or similar beige spread on plate\",\n    \"Green herbs (parsley) garnish\",\n    \"Pita bread or flatbread component\",\n    \"Spice dusting on hummus\"\n  ],\n  \"phone_observations\": [\n    \"Plate clearly visible at reduced size\",\n    \"Meat patties and sauced composition readable\",\n    \"Vegetables and rice components visible\",\n    \"Overall dish structure preserved in thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title 'Kufta Kebab Plate' does not specify meat species (beef, lamb, or other animal not explicitly named)\",\n    \"Kufta/kofta is traditionally lamb or beef, but species is not stated in the source description\",\n    \"Without explicit protein identification in title or description, species cannot be confirmed as a named substring\"\n  ],\n  \"reason\": \"Image is a finished, well-composed, appetizing plated dish with sharp detail and natural colour. Full source and phone thumbnail both clearly show the prepared meal. However, the source title 'Kufta Kebab Plate' and description do not explicitly name the meat species used in the kebab patties. Per protocol, ambiguous or unspecified meat species (including those inferred from tradition or appearance) must be held. The protein_evidence cannot include any key because no exact case-sensitive substring from the source explicitly identifies the animal. Identity check fails due to lack of species specification in the canonical source material.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1731,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 538,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

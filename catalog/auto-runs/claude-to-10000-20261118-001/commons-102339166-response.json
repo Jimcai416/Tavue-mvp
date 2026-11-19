@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBRPNAjVykmAA5NLDJN2",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Whole wheat flatbread with spice dusting, clearly cooked and finished\",\n    \"Fresh cucumber slices, radish slices, red bell pepper strips arranged as accompaniment\",\n    \"White yogurt/dahi in a small bowl with spoon\",\n    \"Olive/yellowish curry or vegetable preparation in metal bowl with cilantro garnish and red peppers\"\n  ],\n  \"phone_observations\": [\n    \"Flatbread, vegetables, yogurt and curry/dal clearly visible in thumbnail\",\n    \"All components readable at reduced size\",\n    \"Natural colours and appetising presentation preserved\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title 'bharit bhakri salad dahi' is ambiguous: 'bharit' typically refers to roasted eggplant paste or mashed vegetable preparation, but the bowl shown contains a yellow/olive curry-like dish, not a recognisable bharit\",\n    \"No explicit protein animal declared in source description\",\n    \"Dish identity does not clearly match visible components: 'salad' is not visually prominent as a main component; the curry bowl does not match standard bharit appearance\",\n    \"Source metadata may not accurately reflect the actual dish prepared\"\n  ],\n  \"reason\": \"Identity check fails. The source description 'bharit bhakri salad dahi' does not reliably match the visible dish. 'Bharit' should be a roasted/mashed vegetable preparation, but the bowl shown appears to be a cooked curry or dal with a different texture and colour profile. 'Salad' does not visually dominate the plate. While photograph quality, sharpness, lighting and composition all meet standards (all ≥4), and the phone thumbnail is clear and appetising, the fundamental identity uncertainty—including possible metadata error or mismatch between title and actual preparation—requires hold pending clarification of the exact dish name and confirmation that bharit is the correct preparation style for the visible bowl contents.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1649,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 586,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
