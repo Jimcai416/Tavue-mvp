@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBWFpxQasEBzsYeDDNWE",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": \"Mutton briyani from Little India, Singapore\",\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Yellow-golden spiced rice mound visible and prominent in both images\",\n    \"Dark meat pieces embedded in rice\",\n    \"Cucumber slices and chutney accompaniments visible\",\n    \"White ceramic plate, restaurant plating\",\n    \"Sharp detail and natural colour in full source image\"\n  ],\n  \"phone_observations\": [\n    \"Spiced rice dish clearly visible at centre\",\n    \"Essential components readable: rice, meat, cucumber, sauce\",\n    \"Thumbnail shows complete plated composition\",\n    \"Adequate sharpness for phone review\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Species identity 'mutton' is ambiguous and cannot be visually confirmed from the photograph. Mutton may refer to goat or sheep, and the visual appearance of the dark meat pieces does not definitively establish species without explicit meat identification visible in the dish itself.\",\n    \"Source metadata describes the dish as 'Mutton briyani' but the meat species cannot be verified from visual inspection alone, triggering hold status per protocol rules for ambiguous meat species.\"\n  ],\n  \"reason\": \"Image quality, sharpness, lighting, composition and phone thumbnail all meet acceptance thresholds. The dish is a finished, exposed, appetising biryani with readable essential components. However, the source declares 'mutton' as the meat protein, which is ambiguous terminology that cannot be visually disambiguated (mutton may mean either sheep or goat). Protocol requires holding when meat species is ambiguous or doubtful, even with source declaration. No protein_evidence key can be populated because 'mutton' is not an exact allowed category name and species identity cannot be confirmed from the photograph. Identity check fails due to unresolved species ambiguity.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1672,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 541,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

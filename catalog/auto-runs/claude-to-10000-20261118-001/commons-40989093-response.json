@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBWFtMZ1VmgUvEVYqj5m",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Golden-brown spiced rice dominates the plate\",\n    \"Meat pieces visible among the rice\",\n    \"White paneer pieces visible bottom right\",\n    \"Green chilli on left side\",\n    \"Purple onion slices on right\",\n    \"Leafy greens (palak/spinach) visible\"\n  ],\n  \"phone_observations\": [\n    \"Spiced rice is prominent and sharp in thumbnail\",\n    \"Protein and vegetables visible and identifiable\",\n    \"Natural colours preserved in reduction\",\n    \"Dish components clearly readable at phone size\"\n  ],\n  \"protein_evidence\": {\n    \"chicken\": \"fresh Country Chicken\"\n  },\n  \"uncertainties\": [\n    \"Source title says 'briyani' but description claims rice with side dishes including paneer masala and sweet corn palak as separate items, then mentions curd rice as finisher—contradicting whether this single plate IS the biryani or a component of a larger meal\",\n    \"Exact canonical name unclear: is this 'South Indian spicy briyani', 'briyani with paneer masala and sweet corn palak side dish', or multiple dishes?\",\n    \"Description structure suggests paneer masala and sweet corn palak may be separate side dishes rather than biryani components, but their prominence in the visible plate and integration with rice is ambiguous\"\n  ],\n  \"reason\": \"Source metadata contains internal contradiction regarding dish identity and composition. Title indicates 'South Indian spicy briyani with side dish' but description describes it as 'boiled rice with side dish of paneer masala and sweet corn palak' with curd rice mentioned as a separate finisher. The relationship between the biryani and the accompanying items is unclear—whether this plate represents a complete biryani dish or a component of a larger meal sequence. Photograph quality, sharpness, lighting and phone thumbnail are all acceptable, and chicken is explicitly named. However, the ambiguous identity and conflicting descriptions in source metadata prevent confident canonical naming and dish classification. Identity check fails due to source contradiction rather than visual defect.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1701,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 602,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
