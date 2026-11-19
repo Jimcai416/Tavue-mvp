@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCCPhpfjK4yWvgB5MMjB",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Roasted pork leg with glossy mahogany-brown skin, clearly visible\",\n    \"Potato-based side dish (sauerkraut or similar)\",\n    \"Creamy mustard sauce in small bowl\",\n    \"Fresh garnish with parsley and tomato\",\n    \"Professional plating on white plate\"\n  ],\n  \"phone_observations\": [\n    \"Pork leg dominates thumbnail, clearly recognizable\",\n    \"Side dishes and sauce visible in reduced form\",\n    \"Overall composition preserved in thumbnail\",\n    \"Essential dish components readable\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'Schweinshaxe' (pork knuckle/leg), but description contains only price and cooking time, no explicit animal confirmation in canonical source text\",\n    \"File metadata title is not a user-provided description; metadata is explicitly untrusted per instructions\",\n    \"No animal species named in the actual description field provided by source\"\n  ],\n  \"reason\": \"The photograph shows a finished, well-plated roasted pork leg dish with excellent sharpness, lighting, composition and appeal. Both full image and phone thumbnail are clear and appetizing. However, the identity check fails: the canonical_name must derive from the exact source title or description without metadata artifacts. The 'description' field provided contains only 'CNY228 and 50 minutes'—pricing and time data, not a dish identifier. The filename 'Schweinshaxe at Der Landgraf' is metadata, which per instructions is untrusted and cannot serve as the basis for canonical_name. Without an explicit, trusted source statement naming the dish, animal species cannot be confirmed in protein_evidence. Hold rules require source certainty; this lacks it.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1640,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 536,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

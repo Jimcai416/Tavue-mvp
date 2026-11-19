@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCCQAvKfu2kHJfZrqjzZ",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Cooked meat with crispy skin on white plate\",\n    \"Rich dark brown gravy/sauce pooled around meat\",\n    \"Pale noodle or turnip-like garnish across top\",\n    \"Fresh parsley sprig visible\",\n    \"Glazed, caramelized surface on meat\",\n    \"Thumbnail shows same composition with meat and sauce prominent\"\n  ],\n  \"phone_observations\": [\n    \"Meat and sauce clearly visible and readable\",\n    \"Overall dish structure preserved at small scale\",\n    \"Garnish detail retained\",\n    \"Natural color rendering\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'Schweinshaxe' (pork knuckle/leg) but source metadata only appears in filename/description, not in a formal structured title field provided for review\",\n    \"While visual appearance (crispy skin, braised meat, dark sauce) is consistent with Schweinshaxe, the actual dish identity and meat species cannot be verified from an explicit canonical source title/description in the structured data provided\",\n    \"Description mentions 'Elsässer Sauerkraut' (Alsatian sauerkraut) but no sauerkraut is visibly prominent in the photograph; sauce and noodles/turnips dominate\",\n    \"Pale strands on meat are ambiguous—could be turnip, egg noodles, or other garnish; source does not clarify\"\n  ],\n  \"reason\": \"Source metadata (filename, description, author, location) is untrusted evidence and cannot serve as the canonical source title. The photograph shows a finished, well-plated braised meat dish with professional presentation, sharp detail, good lighting, and appetising appearance. However, identity cannot be confirmed because no explicit, trusted canonical title/description of the dish itself was provided in a structured field separate from metadata. The filename suggests Schweinshaxe (pork), but filenames are metadata and therefore not authority. Without a clear, formal dish title from a caption or label, the meat species and exact dish identity remain unverified. Hold pending a trusted source title.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1847,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 619,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
