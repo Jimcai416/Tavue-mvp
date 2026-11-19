@@ -8495,3 +8495,8 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Ceebu Jen, Senegalese dish** — Alweaver2. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Ceebu_Jen,_Senegalese_dish.jpg). Local asset: `reviewed-commons-37060104.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Turkish cold soup "ayran aşı"** — E4024. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Ayran_a%C5%9F%C4%B1.jpg). Local asset: `reviewed-commons-41795266.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Chicken fricassee** — [Sheri Wetherell  from Palo Alto](https://www.flickr.com/people/21965132@N00). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Chicken_fricassee_(3062217256).jpg). Local asset: `reviewed-commons-38341731.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.

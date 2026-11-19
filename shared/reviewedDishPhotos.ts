@@ -112195,5 +112195,52 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 720,
     "height": 960,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-41795266",
+    "title": "File:Ayran aşı.jpg",
+    "author": "E4024",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ayran_a%C5%9F%C4%B1.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/09/Ayran_a%C5%9F%C4%B1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "6d93e3beaaff9740c44c717dae17878f66f59fb1",
+    "name": "Turkish cold soup \"ayran aşı\"",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-41795266.jpg",
+    "assetSha256": "f7620f7b25c184e498774a9e8ff27ed22be71c77a4e777b531695ef8d92920fe",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-38341731",
+    "title": "File:Chicken fricassee (3062217256).jpg",
+    "author": "Sheri Wetherell  from Palo Alto",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chicken_fricassee_(3062217256).jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/99/Chicken_fricassee_%283062217256%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "8211d5d4e929c9bb0af3365abcf855183ee98234",
+    "name": "Chicken fricassee",
+    "aliases": [],
+    "proteins": [
+      "chicken"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-38341731.jpg",
+    "assetSha256": "abedadbd6d45b771ff66693b77c43a6ab8c0763c9ee7a607b3b0f4df8fdbd12a",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true,
+    "authorUrl": "https://www.flickr.com/people/21965132@N00"
   }
 ];
