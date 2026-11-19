@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBKMDVMA8Jcgfx6FnfAr",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Lamian noodles present, hand-pulled texture visible\",\n    \"Two soft-boiled eggs with visible yolks\",\n    \"Dark braised meat pieces (beef or unspecified species)\",\n    \"Green onion garnish visible\",\n    \"Rich brown broth\",\n    \"Red ceramic bowl\",\n    \"Natural lighting, appetising presentation\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail shows noodles, eggs, meat and broth clearly\",\n    \"Bowl colour and dish composition recognisable\",\n    \"Essential components visible at phone size\",\n    \"No clipping of major food elements\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'Lamian de Vedella i Curry' (Beef Lamian with Curry) but no visible curry powder, curry leaves, or curry-specific seasoning evident in photograph—broth appears to be traditional brown lamian broth, not curry-coloured\",\n    \"Meat species cannot be confirmed from appearance alone; title metadata 'Vedella' (Catalan for beef) is unverified source text, not visible proof\",\n    \"Curry component declared in title is not visually supported—may be a hidden flavour claim or title error\",\n    \"Source title format includes 'File:' prefix and filename extension (unreliable metadata)\"\n  ],\n  \"reason\": \"Identity check fails: title claims curry component ('Lamian de Vedella i Curry') but no curry is visually evident in the photograph—broth and seasonings appear consistent with traditional lamian, not curry lamian. Protein species (beef/vedella) cannot be confirmed from visual inspection alone and relies on untrusted source metadata. Photograph and phone thumbnail quality are strong (all scores ≥4), but meaningful contradictions between declared identity and visible form, plus unverifiable protein claim, trigger hold. Regional variant qualifier 'i Curry' cannot be preserved without visual evidence of curry seasoning.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1910,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 586,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

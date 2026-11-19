@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBKL2MqBboJo4z4FHYeH",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 1,\n    \"lighting\": 2,\n    \"composition\": 1,\n    \"appeal\": 0\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows storefront exterior only, no food visible\",\n    \"No finished dish, meal, or food product identifiable\",\n    \"Restaurant signage and architecture only\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title references a soba noodle restaurant but source photograph is a storefront exterior at night\",\n    \"No food dish present in either full image or thumbnail\",\n    \"Complete mismatch between metadata description and actual photographic content\"\n  ],\n  \"reason\": \"Rejection: source image is a restaurant storefront exterior photograph, not a food dish photograph. Neither the full source image nor the phone thumbnail contains any finished, exposed, photographic dish. The title metadata describes 'Japanese Soba Noodles Tsuta' but the actual photograph shows only a closed storefront with signage, lighting, and architectural elements. No food is visible or identifiable. This fails all core acceptance criteria: not a finished dish photograph, no food visible in thumbnail, no appetising food subject present.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1753,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 370,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
