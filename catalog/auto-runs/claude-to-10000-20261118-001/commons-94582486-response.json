@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBNjsJttKug2X3NQdizu",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Golden-brown round fried snacks clearly visible in thumbnail\",\n    \"Bowl/plate container evident\",\n    \"Natural colour and finished appearance maintained in thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title is 'File:Kachori MA23.jpg' – a filename, not a dish description; filename removed per instructions\",\n    \"Description provides only generic category info about kachori as a class of snacks, not this specific dish variant\",\n    \"No explicit filling, flavour variant, or specific preparation details stated in provided source text\",\n    \"Cannot confirm whether these are sweet or savoury kachori, nor specific regional variant or filling type\",\n    \"Description does not constitute a proper source title/description suitable for canonical naming\"\n  ],\n  \"reason\": \"Rejection: The source metadata consists only of a filename ('File:Kachori MA23.jpg') and a generic Wikipedia-style description of kachori as a snack category. No proper dish-specific title or description is provided from which to derive a canonical name. The image shows finished, appetising, well-photographed fried snacks, but identity cannot be verified against a specific source dish description—only against a generic category label. Per protocol, category/query alone is not evidence of a specific dish identity. A proper source title or description naming the exact variant, filling, preparation, or regional qualification is required.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1778,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 458,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
