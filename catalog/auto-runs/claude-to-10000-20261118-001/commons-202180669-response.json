@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDB5wZYLKTdgfwgsPYro",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Golden-brown fried potato wedges and sticks\",\n    \"Served on absorbent paper in stainless steel tray\",\n    \"Red tablecloth background\",\n    \"Top-down overhead view\",\n    \"Natural golden colouration\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows golden fried potato pieces\",\n    \"Central composition legible\",\n    \"Paper wrapping visible\",\n    \"Metal tray visible at edges\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title describes 'Rustic French fries' but metadata contains filename and descriptive phrases unsuitable for canonical_name extraction\",\n    \"No specific named dish variant provided in source—only generic 'French fries' descriptor\",\n    \"Argentine regional qualifier present but no distinct dish name beyond generic fried potatoes\"\n  ],\n  \"reason\": \"Rejection: source title/description does not contain a specific, named dish phrase suitable for canonical_name. The metadata provides only a generic descriptor ('Rustic French fries') with geographic context, not an exact dish name. Per instructions, canonical_name must be copied exactly from source title or description without file information or marketing phrases. The photograph itself is sharp, well-lit, appetizing and properly detailed, but identity cannot be established to a specific named dish variant. A generic 'French fries' or 'Rustic French fries' label does not meet the specificity requirement for acceptance.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 2041,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 467,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

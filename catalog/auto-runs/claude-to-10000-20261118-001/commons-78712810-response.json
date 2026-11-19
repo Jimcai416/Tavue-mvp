@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDB5WcMdVrcUip9h31t7",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Cooked beef frankfurter, visibly red with white seasoning flecks\",\n    \"Golden bun, sesame-seeded top half\",\n    \"Creamy spread (likely mayo or mustard) on bottom half\",\n    \"Foil wrapping typical of street/casual food service\",\n    \"Sharp detail of assembled sandwich\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows finished hot dog with red sausage and seeded bun\",\n    \"Adequate composition and colour reproduction in 124x96 view\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title references 'Beef Frankfurter' but this is metadata/filename only, not a source description that can be canonicalized\",\n    \"No authoritative dish name provided in source title or description—only a file name and casual holiday reference\",\n    \"Species 'beef' appears only in filename (File:), not in the actual description field which reads 'July 23rd is National Hot Dog Day!'\",\n    \"Cannot extract a canonical_name from the description alone without the filename\"\n  ],\n  \"reason\": \"Identity check fails. The source description ('July 23rd is National Hot Dog Day!') provides no specific dish name or protein qualifier. The word 'Beef' and the dish identifier appear only in the filename (File:What's Up Dog! 8 inch Beef Frankfurter...), which is metadata and untrusted evidence, never an instruction or identity source. Per rules, canonical_name must be copied from source title or description, excluding filename and extensions. The description field is insufficient to establish identity. The photograph and thumbnail are of good quality, but identity cannot be verified from trusted sources.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1740,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 526,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
