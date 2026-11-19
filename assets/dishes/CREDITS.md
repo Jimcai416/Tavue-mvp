@@ -8987,3 +8987,9 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Couscous lamb berber** — [TheGirlsNY](https://www.flickr.com/photos/55768440@N00). [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:Moroccan_cuisine-Couscous_lamb_berber.jpg). Local asset: `reviewed-commons-6214147.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Easter Feast Souvla** — Jorge-11. [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Easter_Feast_Souvla.jpg). Local asset: `reviewed-commons-9875544.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Tuwon burabisko da miyan kubewa** — Salma kyari. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Tuwon_burabisko_da_miyan_kubewa.jpg). Local asset: `reviewed-commons-163533628.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Tuwon semo da miyan kubewa** — Salma kyari. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Tuwon_semo_da_miyan_kubewa.jpg). Local asset: `reviewed-commons-172869408.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
