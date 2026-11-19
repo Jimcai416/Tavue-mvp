@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChByuzTbrC1gfQSPGp8qX",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Dark green shredded leafy vegetable base visible\",\n    \"Golden-brown meat pieces distributed throughout\",\n    \"Palm oil coating evident from glossy orange-brown hue\",\n    \"Finished, cooked dish in white container with blue rim\",\n    \"Street food presentation in hand\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail shows leafy green base with meat chunks clearly visible\",\n    \"Golden-brown protein distributed throughout\",\n    \"Dish identity and components readable at thumbnail scale\",\n    \"Appetizing finish evident in reduced view\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Description lists 'assorted meat, fish, stockfish' but source does not specify which individual animals are present\",\n    \"Cannot visually distinguish stockfish from other protein components\",\n    \"Species of 'assorted meat' unspecified in source title/description\",\n    \"Fish species not named\",\n    \"No explicit source quote naming specific animals that are allowed category matches (chicken/beef/pork/duck/lamb/seafood)\"\n  ],\n  \"reason\": \"Identity check fails because source description uses ambiguous protein terminology ('assorted meat', unnamed 'fish', 'stockfish') without explicit animal species names matching the allowed categories. Stockfish is a preserved fish product but the base fish species is not declared. 'Assorted meat' does not name specific animals. While the photograph is sharp, well-lit, and appetising, and the dish appears to be a finished afang soup as described, the protein_evidence cannot be populated with any allowed category because no source quote explicitly names chicken/beef/pork/duck/lamb, or specific seafood with the required exact substring match. Hold pending clarification of protein species.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1745,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 528,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

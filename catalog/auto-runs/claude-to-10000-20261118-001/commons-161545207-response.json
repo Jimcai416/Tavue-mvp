@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBytxPoirW4GWCwu3MEL",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 3,\n    \"lighting\": 3,\n    \"composition\": 2,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows only bottles with blue caps in a line\",\n    \"No visible food or finished dish content\",\n    \"Bottles are the subject, not prepared beverage or dish\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title references 'Ginger, zobo and tiger nuts drink' but image shows only sealed bottles with no visible beverage content, preparation stage, or finished served drink\",\n    \"Cannot verify if contents match description—only packaging visible\",\n    \"No distinct dish form or plated/served presentation\"\n  ],\n  \"reason\": \"Image is of sealed commercial bottles/packaging, not a finished, exposed, served beverage or dish. The source title describes drinks, but the photograph shows only sealed containers with blue caps in an inventory or storage arrangement. This violates the requirement for a finished, exposed, likely photographic dish. No beverage content is visible; this is a packaging photograph, not food photography. Both full image and phone thumbnail fail the food photograph test. Reject.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1725,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 369,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

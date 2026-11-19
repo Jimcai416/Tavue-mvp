@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChByuQ9cffbUm5cNg9pbH",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Red-orange broth with visible leafy greens and cooked protein pieces\",\n    \"Served in blue-rimmed white bowl\",\n    \"Natural daylight, home kitchen setting\",\n    \"Finished, exposed dish ready to eat\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail shows soup clearly with identifiable leafy greens and protein\",\n    \"Red-orange colour consistent with full image\",\n    \"Composition centred and readable\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title states 'Ofe Onugbu (Bitter Leaf Soup)' but no protein species is explicitly named in title or description\",\n    \"Visible cooked protein pieces in broth cannot be definitively identified as chicken, beef, pork, lamb, duck or seafood from appearance alone\",\n    \"No explicit animal name present in supplied metadata to support protein categorisation\"\n  ],\n  \"reason\": \"Image quality, photograph authenticity and phone thumbnail are all acceptable. However, the identity check fails because no protein species is explicitly named in the source title or description. The visible dish contains what appears to be cooked protein in a bitter leaf soup, but the exact animal cannot be determined from visual appearance without an explicit source declaration. Per protocol, ambiguous or unspecified meat species requires a hold. A source title or description explicitly naming the protein (e.g., 'Ofe Onugbu with chicken') would enable acceptance.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1530,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 465,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
