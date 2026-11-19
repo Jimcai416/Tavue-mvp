@@ -118706,5 +118706,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-64703168",
+    "title": "File:Polenta con funghi.jpg",
+    "author": "FakirNL",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Polenta_con_funghi.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/03/Polenta_con_funghi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "147acb1b69a93f23e828cdcb45cb1bfa5b3ba258",
+    "name": "Polenta con funghi",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-64703168.jpg",
+    "assetSha256": "0461c866ae96a6e37d102cc31cebe9b33f8bba9992d08d857c5ae25f18d1aa7e",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 540,
+    "requiresExactMenuName": true
   }
 ];
