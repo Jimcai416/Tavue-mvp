@@ -128775,5 +128775,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 720,
     "height": 960,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-114864861",
+    "title": "File:Le Lakh.jpg",
+    "author": "Babacar Dioum",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Le_Lakh.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/34/Le_Lakh.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "3d5235758eecf1d37b0369238fb5d0e0bdf84487",
+    "name": "Le Lakh",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-114864861.jpg",
+    "assetSha256": "77f2ef50d2444f7fa265a8ee1217d9d899342e04a601b774e6ed1c891ec59428",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 660,
+    "height": 960,
+    "requiresExactMenuName": true
   }
 ];
