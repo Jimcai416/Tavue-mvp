@@ -93236,5 +93236,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-199722271",
+    "title": "File:Piadina integrale in padella farcita, preparata da Dina Benedetto.jpg",
+    "author": "DinaBenedettoFerrandina",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Piadina_integrale_in_padella_farcita,_preparata_da_Dina_Benedetto.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/08/Piadina_integrale_in_padella_farcita%2C_preparata_da_Dina_Benedetto.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "bb2d1ccca78d62fd63b084c30b1015b91985ecaa",
+    "name": "Piadina integrale in padella farcita, preparata da Dina Benedetto",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-199722271.jpg",
+    "assetSha256": "020b0eb4d0c320cc6982f7a9ed35511df4c4d699618ef1790e0583d27fbefb7e",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];

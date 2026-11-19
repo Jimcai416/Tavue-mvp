@@ -6879,3 +6879,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 
 - **Pączki** — MOs810. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Paczki_(Poznan),_home_made.jpg). Local asset: `reviewed-commons-31418433.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Pączki served at Wikimania 2024, Katowice** — さえぼー. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:PaczkiatWikimania2024.jpg). Local asset: `reviewed-commons-151398027.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Piadina integrale in padella farcita, preparata da Dina Benedetto** — DinaBenedettoFerrandina. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Piadina_integrale_in_padella_farcita,_preparata_da_Dina_Benedetto.jpg). Local asset: `reviewed-commons-199722271.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
