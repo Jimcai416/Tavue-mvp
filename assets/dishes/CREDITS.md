@@ -8877,3 +8877,10 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Shanxi Liangpi** — ウィキ太郎 ( Wiki Taro ). [Public domain](https://creativecommons.org/publicdomain/mark/1.0/); [source](https://commons.wikimedia.org/wiki/File:Shanxi_Liangpi_%E9%99%95%E8%A5%BF_%E5%87%89%E7%9A%AE.jpg). Local asset: `reviewed-commons-73908208.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Malai Kofta** — Divya Kudua. [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Malai_Kofta_Garnished_and_Ready_to_Eat_India.jpg). Local asset: `reviewed-commons-29694947.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Traditional tostada topped with refried beans, queso fresco, vine ripe tomatoes, and fresh cilantro** — [TheCulinaryGeek  from Chicago, USA](https://www.flickr.com/people/72949902@N00). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Tostada_(5076307841)_(2).jpg). Local asset: `reviewed-commons-27753533.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Paneer malai kofta** — Dharshini Vinayagam. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Paneer_malai_kofta.jpg). Local asset: `reviewed-commons-154501077.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Tostada de tinga de pollo** — Valemvglez. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Tostada_de_tinga_de_pollo.jpg). Local asset: `reviewed-commons-83571313.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
