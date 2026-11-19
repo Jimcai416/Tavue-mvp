@@ -95656,5 +95656,51 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-85612411",
+    "title": "File:Nam tok kor moo yang.jpg",
+    "author": "JIP",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nam_tok_kor_moo_yang.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Nam_tok_kor_moo_yang.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "d5e949b09cf747a7907bc242f858153b4ab21f4a",
+    "name": "Nam tok kor moo yang, grilled sliced pork neck in spicy Isaan salad with roasted rice, chili and lime dressing",
+    "aliases": [],
+    "proteins": [
+      "pork"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-85612411.jpg",
+    "assetSha256": "0216cd700b85b50e2a6a2418f0b9b243c8860c498afd8bd19e158c626afd8e19",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-7313112",
+    "title": "File:Namtok-noodles102.jpg",
+    "author": "Xufanc",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Namtok-noodles102.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Namtok-noodles102.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "2b958a39101abf2fbab63f5d57ce0228c439a50b",
+    "name": "Nam tok bami noodles",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-7313112.jpg",
+    "assetSha256": "79418c1839c0b9d9cf66e419095c18eb906127a76b148746f4b0ed489f7116a1",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 871,
+    "requiresExactMenuName": true
   }
 ];
