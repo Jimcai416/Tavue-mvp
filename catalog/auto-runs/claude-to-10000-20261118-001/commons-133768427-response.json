@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBcZkpZrY8aRLUUY5DWp",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Black-eyed peas clearly visible throughout\",\n    \"Rice component present and distributed\",\n    \"Red/reddish pieces consistent with bacon or salt pork\",\n    \"Dark specks visible (likely black-eyed peas)\",\n    \"Cooked, finished dish appearance\",\n    \"Served in dark bowl with spoon\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows mixed legume and grain composition\",\n    \"Colour and texture consistent with full image\",\n    \"Dish remains prominent and identifiable at reduced resolution\",\n    \"No essential components clipped\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title describes 'Gullah or Charleston Hoppin John' but provides no explicit protein declaration in title/description\",\n    \"Red pieces are visually consistent with cured pork but species cannot be definitively confirmed from image alone\",\n    \"Source metadata does not explicitly name the meat component (bacon, salt pork, ham, or other pork product) in the supplied title or description text\",\n    \"Traditional Hoppin' John contains pork, but visual identification cannot substitute for explicit source naming\"\n  ],\n  \"reason\": \"While the photograph shows a well-executed, finished dish with sharp detail, appropriate lighting, and good composition—and the visual elements (black-eyed peas, rice, reddish meat pieces) are consistent with Hoppin' John—the source title and description do not explicitly name any protein. The rule requires an exact source quote explicitly naming each animal. Despite strong visual evidence of pork content, protein_evidence cannot be populated without an explicit source declaration. Identity check fails due to absence of verified protein naming in the supplied metadata. Hold for clarification of protein component in source description.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1658,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 531,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

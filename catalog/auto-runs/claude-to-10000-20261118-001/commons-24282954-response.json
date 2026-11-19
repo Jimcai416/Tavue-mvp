@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBcZAuscymzGCDA7WhTB",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Three distinct curries in stainless steel serving bowls\",\n    \"Green curry (left): dark spinach-based, fresh cilantro garnish, appears to be saag preparation\",\n    \"Orange curry (right): tomato-based sauce with visible chunks, cilantro garnish\",\n    \"Yellow curry (back): legume-based with visible peas and greens\",\n    \"Flatbread (paratha) visible top left with char marks\",\n    \"Restaurant table setting with glasses and place settings\"\n  ],\n  \"phone_observations\": [\n    \"Green and orange curries clearly visible and prominent\",\n    \"Stainless steel serving bowls render distinctly\",\n    \"Cilantro garnish readable on both curries\",\n    \"Flatbread visible in background\",\n    \"Essential dish details preserved in thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Description lists 'karahi saag paneer' but paneer (cheese) is not visually distinguishable in the green curry—only spinach-based sauce visible\",\n    \"Karahi mushroom claimed but mushroom pieces not clearly identifiable as distinct from other components in orange curry\",\n    \"Deigi chana methi composition unclear—chickpeas visible in yellow dish but whether this is the specifically named preparation is uncertain\",\n    \"No explicit animal protein named in description; paneer is dairy, not a supported protein category\"\n  ],\n  \"reason\": \"Source description lists three named dishes but identity cannot be confirmed because: (1) 'karahi saag paneer' cannot be visually verified as containing paneer (cheese/dairy) rather than meat, and paneer is not a supported protein category; (2) mushroom presence in 'karahi mushroom' is not clearly visible; (3) the specific preparation name 'deigi chana methi' cannot be verified from visual components alone. The description provides dish names but no explicit animal protein is stated. Photography and composition are strong (all scores ≥4), but the fundamental requirement that identity match visible form and that any named proteins be explicitly source-quoted is not satisfied. Hold pending clarification of which dishes contain supported proteins (chicken/beef/pork/duck/lamb/seafood) with exact source evidence.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1574,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 645,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
