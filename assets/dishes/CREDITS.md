@@ -8194,3 +8194,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 
 - **Aam papad** — Gannu03. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Aam_papad.jpg). Local asset: `reviewed-commons-155409244.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Fried Masala Papad** — Rajeeb ( Marajozkee ). [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Fried_Masala_Papad.jpg). Local asset: `reviewed-commons-91686192.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Balaleet** — Droodkin. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Balaleet_plate,_2018.png). Local asset: `reviewed-commons-69960573.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.

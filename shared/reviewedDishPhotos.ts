@@ -108676,5 +108676,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 724,
     "height": 960,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-69960573",
+    "title": "File:Balaleet plate, 2018.png",
+    "author": "Droodkin",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Balaleet_plate,_2018.png",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Balaleet_plate%2C_2018.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "8b48b0181dbb25977555a4780cfbc2dad3c2b075",
+    "name": "Balaleet",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-69960573.jpg",
+    "assetSha256": "a38c11ddb9ef0eaabd7827fc7ec320d2aa4097c8eecb2f468f0d7ca569264909",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];
