@@ -9947,3 +9947,8 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Melanzane alla Parmigiana** — [Flickr.com user "Blue Lotus"](https://www.flickr.com/people/bluelotus/). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Melanzane_alla_Parmigiana.jpg). Local asset: `reviewed-commons-1182714.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Parmigiana de melanzale** — Francesc Fort. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Parmigiana_de_melanzale_-_Italiamos.jpg). Local asset: `reviewed-commons-199846749.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Pastis landais** — Jibi44. [CC BY-SA 2.5](https://creativecommons.org/licenses/by-sa/2.5); [source](https://commons.wikimedia.org/wiki/File:Pastis_landais.JPG). Local asset: `reviewed-commons-1704070.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
