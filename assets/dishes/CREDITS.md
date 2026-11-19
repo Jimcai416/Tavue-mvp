@@ -7936,3 +7936,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 - **Lamb Kofta** — [Arnold Gatilao  from Oakland, CA, USA](https://www.flickr.com/people/58819758@N00). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Lamb_Kofta_(14908645506).jpg). Local asset: `reviewed-commons-40530510.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Colcannon** — [VegaTeam](https://www.flickr.com/people/59256189@N04). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Colcannon_(5532418361).jpg). Local asset: `reviewed-commons-84663750.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Rumbledethumps** — Glane23. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Rumbledethumps.JPG). Local asset: `reviewed-commons-11319287.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Chicken phaal** — Joey. [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Chicken_phaal.jpg). Local asset: `reviewed-commons-114143863.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
