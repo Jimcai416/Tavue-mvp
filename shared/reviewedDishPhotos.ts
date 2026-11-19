@@ -134634,5 +134634,29 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 540,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-47497768",
+    "title": "File:Chicken Shami Kabab.JPG",
+    "author": "Miansari66",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chicken_Shami_Kabab.JPG",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Chicken_Shami_Kabab.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "7224b457786b4b059d1690b488e1ed3f1766de5f",
+    "name": "Chicken Shami Kabab",
+    "aliases": [],
+    "proteins": [
+      "chicken"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-47497768.jpg",
+    "assetSha256": "e9467af3d3dea03b430bd2ce67acf0daeef3cb96aff478c65f42b7ecec050cc8",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];
