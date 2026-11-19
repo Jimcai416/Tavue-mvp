@@ -7365,3 +7365,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 - **Kissel, with bananas and grapes** — Silar. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:05166_Kissel,_with_bananas_and_grapes,_Sanok_2011.jpg). Local asset: `reviewed-commons-16921332.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Kitsune Udon** — LingLass. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Bowl_of_Kitsune_Udon.jpg). Local asset: `reviewed-commons-141047111.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Kimchi Mandu** — Wide Awake!. [CC BY 4.0](https://creativecommons.org/licenses/by/4.0); [source](https://commons.wikimedia.org/wiki/File:Kimchi_Mandu_from_Mr._Kimbob_(2025-02-02).jpg). Local asset: `reviewed-commons-159046153.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Bjelajski kiseli kupus** — Zavičajac. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Bjelajski_kiseli_kupus_2.jpg). Local asset: `reviewed-commons-184501102.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.

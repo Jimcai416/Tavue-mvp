@@ -99421,5 +99421,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 723,
     "height": 960,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-184501102",
+    "title": "File:Bjelajski kiseli kupus 2.jpg",
+    "author": "Zavičajac",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bjelajski_kiseli_kupus_2.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/61/Bjelajski_kiseli_kupus_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "e035481fa9c2721856bd4a689e952b684486ce91",
+    "name": "Bjelajski kiseli kupus",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-184501102.jpg",
+    "assetSha256": "a0fc4d4119d67d6f2240b994c2d6ef243b430d73fefb64433cd128db265edec8",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 720,
+    "height": 960,
+    "requiresExactMenuName": true
   }
 ];
