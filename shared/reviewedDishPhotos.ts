@@ -124491,5 +124491,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "height": 720,
     "requiresExactMenuName": true,
     "authorUrl": "https://www.flickr.com/people/15441925@N00"
+  },
+  {
+    "id": "commons-60938659",
+    "title": "File:Shirako gunkanmaki.jpg",
+    "author": "Schellack  at  English Wikipedia",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Shirako_gunkanmaki.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Shirako_gunkanmaki.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "092b230b44df38063767f38e5289c6b97352e6e8",
+    "name": "Shirako gunkan maki",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-60938659.jpg",
+    "assetSha256": "125138256788d25fd36ee569d0f3ab6717b975730209f503e5207d1726a568b9",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 717,
+    "requiresExactMenuName": true
   }
 ];

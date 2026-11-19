@@ -9562,3 +9562,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 
 - **Tutmaç çorbası** — E4024. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Tutma%C3%A7_soup.jpg). Local asset: `reviewed-commons-48547781.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Haggis, neeps and tatties** — [Edinburgh Blog](https://www.flickr.com/people/15441925@N00). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Haggis,_neeps_and_tatties_at_The_Cramond_Inn,_Edinburgh_(2660769244).jpg). Local asset: `reviewed-commons-99396381.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Shirako gunkan maki** — Schellack  at  English Wikipedia. [CC BY 3.0](https://creativecommons.org/licenses/by/3.0); [source](https://commons.wikimedia.org/wiki/File:Shirako_gunkanmaki.jpg). Local asset: `reviewed-commons-60938659.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
