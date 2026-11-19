@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChC3TTRJ6AndpHVHFXt25",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Golden-brown potato wedges/fries with crispy exterior\",\n    \"Fresh green onion/scallion garnish\",\n    \"White plate presentation\",\n    \"Appetizing colour and texture\",\n    \"Sharp detail in phone thumbnail\"\n  ],\n  \"phone_observations\": [\n    \"Wedge fries clearly visible and prominent\",\n    \"Green onion garnish readable\",\n    \"Subject occupies adequate frame space\",\n    \"Plate and food fully within thumbnail bounds\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title references 'Cornish Pasty Co' but image shows only fries/wedges with no pasty visible\",\n    \"Metadata describes location (Tempe, Arizona) but provides no dish name\",\n    \"No specific dish name provided in source—title is only a filename with business name\",\n    \"Cannot confirm the dish identity from title/description alone\"\n  ],\n  \"reason\": \"Rejection: identity check fails. The source title 'Cornish Pasty Co - Fries.jpg' is a filename without an explicit dish name. The description provides only location, not dish identity. While the photograph shows appetising, well-prepared potato wedges with garnish and excellent technical quality, there is no authoritative source-declared canonical dish name to match against the visible food. A business name and location are insufficient to establish confirmed dish identity. Hold or explicit dish naming would be required.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1621,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 463,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
