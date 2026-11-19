@@ -10395,3 +10395,8 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **chicken-and-Monterey-jack taquito** — Ser Amantio di Nicolao. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Taquito_from_7-Eleven.jpg). Local asset: `reviewed-commons-59266756.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Bakso Urat** — Cendy00. [CC BY 4.0](https://creativecommons.org/licenses/by/4.0); [source](https://commons.wikimedia.org/wiki/File:Bakso_Urat.jpg). Local asset: `reviewed-commons-164316785.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Indian(Indo-Tibetan) Faley or Phaley with a spicy green chilly chutney** — Souradeep Roy 1998. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Indian(Indo-Tibetan)_Faley_or_Phaley_with_a_spicy_green_chilly_chutney,_Siliguri,_West_Bengal_DSC_0860.jpg). Local asset: `reviewed-commons-103645617.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
