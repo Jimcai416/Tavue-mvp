@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBZs9CbFtj6huU4mqRLC",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [\n    \"Pleated dumplings arranged on decorative plate\",\n    \"Pale tan/beige colour consistent with unsteamed or lightly cooked momos\",\n    \"Crease and fold patterns typical of momo construction\",\n    \"Home kitchen setting with patterned plate\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows 12–14 pleated dumplings\",\n    \"Distinct pale colour with visible sheen\",\n    \"Readable individual dumpling shape and pleating\",\n    \"Subject adequately prominent and not clipped\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title states 'Momos ready to steam' — photograph shows uncooked/raw dumplings in pre-cooking stage, not a finished, exposed, cooked dish\",\n    \"No filling visible or identifiable; no protein species can be confirmed from appearance or source metadata\",\n    \"Source title does not declare any protein (chicken/beef/pork/duck/lamb/seafood)\",\n    \"Image shows preparation stage, not a finished, served food photograph\"\n  ],\n  \"reason\": \"Rejection criteria: The photograph and title explicitly document raw/unsteamed momos ('ready to steam'), which is a preparation stage, not a finished, exposed, cooked dish. Per instructions, raw/preparation stages must be rejected. No protein is declared in the source title or visible in the image. Identity and variant_preserved checks fail because the work is documentary of an ingredient state, not a completed dish. While sharpness, lighting, composition and phone legibility are adequate (scores ≥4), the fundamental requirement for a finished, exposed, likely photographic dish is not met.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1723,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 517,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
