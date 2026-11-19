@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBLZPL8aKiXcAPjU3jSm",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Two bowls of pasta in cream-based sauce clearly visible\",\n    \"Sauce colour consistent with creamy tomato blend\",\n    \"Pasta shape and portion prominent in thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title claims 'Pre-Packaged Tortellini in Parma Rosa Sauce' but no packaging is visible in either photograph\",\n    \"Cannot verify 'pre-packaged' status from home kitchen counter setting\",\n    \"Sauce appears to be a cream-based tomato blend, but 'Parma Rosa' is not a standard Italian sauce name and cannot be visually authenticated\",\n    \"No visible tortellini shape confirmation; pasta appears to be small curved shapes but exact form unclear\",\n    \"Title-photograph mismatch: metadata describes pre-packaged product but image shows home presentation\"\n  ],\n  \"reason\": \"Reject: Identity check fails due to source title claiming pre-packaged product while photograph shows home kitchen counter setting with no visible packaging. Sauce name 'Parma Rosa' is non-standard and unverifiable from visual inspection. The description contradicts the photographic evidence of a home-prepared or reheated dish, not a pre-packaged product presentation. Cannot confirm dish identity matches source claim.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1738,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 432,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

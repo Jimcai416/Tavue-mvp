@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBLZ3Bfc7KPz1jwiPDeQ",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Phone thumbnail shows lower plate with fried clams and lemon wedge\",\n    \"Upper plate visible with sautéed clams in sauce\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Clams are not an allowed protein category (chicken/beef/pork/duck/lamb/seafood only); clams do not map to 'seafood' as a named protein qualifier per instructions\"\n  ],\n  \"reason\": \"Source title explicitly names 'clams' as the primary protein. Clams are shellfish/molluscs and do not fall within the allowed protein categories (chicken, beef, pork, duck, lamb, or seafood with an exact species name). The instructions prohibit using generic category names like 'seafood' and require exact source quotes naming the animal. 'Clams' alone cannot be mapped to any allowed protein_evidence key. Rejection is mandatory when protein species cannot be supported by allowed categories.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1716,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 358,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBLZ1QGZz8Rw9YCQRrPJ",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Tortellini pasta clearly visible and identifiable\",\n    \"Green peas distributed throughout the dish\",\n    \"Grated cheese (likely Parmesan) on top\",\n    \"Creamy sauce coating the pasta\",\n    \"Natural plating on white dish\"\n  ],\n  \"phone_observations\": [\n    \"Tortellini and peas clearly readable in thumbnail\",\n    \"Cream-coloured sauce evident\",\n    \"Green peas visible as distinct components\",\n    \"Cheese garnish distinguishable\",\n    \"Adequate detail for dish identification\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title states 'Tortellini with peas' but provides no information about filling or protein content of the tortellini\",\n    \"The tortellini filling is not visibly identifiable—it could contain meat, cheese, or other ingredients\",\n    \"No explicit protein declaration in source metadata\"\n  ],\n  \"reason\": \"Rejection due to identity check failure. The source description 'Tortellini with peas' does not constitute a complete dish identity—tortellini is defined by its filling, which is not declared in the source and cannot be reliably determined from the photograph alone. The instructions require exact matching to source title/description and preservation of meaningful qualifiers. The filling type (meat, cheese, vegetable) is essential identity information that is missing. Without explicit source declaration of what protein or ingredient fills the tortellini, this cannot be accepted as a specific, identifiable dish.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1744,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 478,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
