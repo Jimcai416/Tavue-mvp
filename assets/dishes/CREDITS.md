@@ -9717,3 +9717,13 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Empanadas de queso** — E4024. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Empanadas_de_queso.jpg). Local asset: `reviewed-commons-60101327.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Apple peda** — Vis M. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Apple_peda_02.jpg). Local asset: `reviewed-commons-139457533.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Indian Sweet Dessert Peda** — Prashant Sahu. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Indian_Sweet_Dessert_Peda_in_a_glass_plate.jpg). Local asset: `reviewed-commons-40894864.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Kesar Peda** — Sameer Goyal. [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:Kesar_Peda.jpg). Local asset: `reviewed-commons-52217011.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Milk Peda** — Jaya.bhardwaj63. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Milk_Peda.JPG). Local asset: `reviewed-commons-40697757.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Kaju ka peda** — Vashisthapathak2015  (original image) ; reprocessed by  Off-shell. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Peda_(bright).JPG). Local asset: `reviewed-commons-42583635.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Peda Nepal** — Ritesh Man Tamrakar. [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Peda_Nepal.jpg). Local asset: `reviewed-commons-29631969.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Peda of Kerala** — Vis M. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Peda_of_Kerala_02.jpg). Local asset: `reviewed-commons-144189074.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
