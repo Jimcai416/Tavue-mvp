@@ -8997,3 +8997,9 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **kubis gulung** — Nafisathallah. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Golubtsy_kubis_gulung_3.jpg). Local asset: `reviewed-commons-169353641.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Bakwan jagung** — [Guilhem Vellut  from Paris, France](https://www.flickr.com/people/22539273@N00). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Bakwan_jagung_@_Born%C3%A9o_%C3%A0_Paris_@_Galerie_Vaugirard_@_Paris_(32963590453).jpg). Local asset: `reviewed-commons-57646441.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Indonesian Bakwan Jagung** — Nisyaasja. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Indonesian_Bakwan_Jagung_for_Iftar_2026.jpg). Local asset: `reviewed-commons-186027408.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Nasi bakwan jagung telur asin** — Midori. [CC BY 3.0](https://creativecommons.org/licenses/by/3.0); [source](https://commons.wikimedia.org/wiki/File:Nasi_bakwan_jagung_telur_asin.JPG). Local asset: `reviewed-commons-16433445.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
