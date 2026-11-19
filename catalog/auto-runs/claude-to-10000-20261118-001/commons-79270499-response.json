@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBbRwEHpe6VkythxTBaS",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Shredded meat filling visible in taco\",\n    \"Golden-brown tortilla\",\n    \"Natural daylight photography\",\n    \"Street food context (food truck behind)\"\n  ],\n  \"phone_observations\": [\n    \"Taco clearly visible in hand\",\n    \"Meat component readable\",\n    \"Prominent and identifiable in thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title states 'Mixta taco' but no source description provided to confirm exact canonical name\",\n    \"Meat species cannot be determined from visual appearance alone; 'mixta' typically implies mixed meats but source does not explicitly name animal species\",\n    \"Description mentions location/vendor but does not explicitly declare meat type or proteins\"\n  ],\n  \"reason\": \"While photograph quality, composition and phone thumbnail are all acceptable (scores ≥4), the identity check fails because the source title/description does not explicitly name the meat species. The title 'Mixta taco sample' is ambiguous—mixta typically means mixed meats, but no explicit source quote identifies which animals are included. Protein_evidence cannot be populated without an exact case-sensitive substring from the source naming a specific animal (chicken/beef/pork/duck/lamb/seafood). Per requirements, unknown meat species and source contradictions mandate hold. A proposed crop or vendor name alone is not sufficient evidence of protein identity.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1732,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 451,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
