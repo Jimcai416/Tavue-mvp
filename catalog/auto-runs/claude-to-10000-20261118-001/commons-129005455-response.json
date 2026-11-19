@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBURXxFykEkbWmxVPgGZ",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 5,\n    \"composition\": 5,\n    \"appeal\": 4\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Central dish visible in phone thumbnail\",\n    \"Ingredient labels present but unreadable at thumbnail resolution\",\n    \"Illustration style evident in both full and thumbnail versions\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title references 'Obazda ingredients' (German/Bavarian cheese spread), not Armenian dish despite Armenian-language labels\",\n    \"Image is a graphic illustration/diagram with ingredient callouts, not a photograph of a prepared dish\",\n    \"Metadata title 'Obazda ingredients' contradicts Armenian-language labels in image\",\n    \"Central bowl shows a stylized/illustrated food item, not a natural photograph\",\n    \"Cannot verify actual dish identity due to conflicting source metadata and visual treatment\"\n  ],\n  \"reason\": \"Reject: This is an illustrated ingredient diagram, not a photograph of a finished dish. The source metadata identifies it as 'Obazda ingredients' (a Bavarian cheese preparation), but the image contains Armenian-language labels, creating an irreconcilable identity contradiction. The visual treatment is clearly graphic illustration rather than photography. Home cooking and street food are welcome, but illustrations are explicitly rejected. The file header confirms it was 'created on the basis of free images' rather than being a direct photograph. All photograph checks fail.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1836,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 433,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
