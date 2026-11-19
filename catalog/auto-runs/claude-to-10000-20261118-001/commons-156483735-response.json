@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCsjEXStnxPC2C1QrgVN",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 5,\n    \"appeal\": 5\n  },\n  \"visible_support\": [\n    \"Plated fine-dining dish with central protein element\",\n    \"Pink cured meat (carpaccio) layered over grey/brown pâté or terrine\",\n    \"Red pepper slice as base layer\",\n    \"Garnished with green herbs and microgreens\",\n    \"Dusted with orange/paprika spice powder\",\n    \"Pool of yellowish oil or emulsion\",\n    \"White plate, wooden table setting\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail shows same plated dish clearly and sharply\",\n    \"Central protein component fully visible and prominent\",\n    \"Garnish, spice dusting and plate presentation all readable\",\n    \"Adequate detail for dish recognition in phone view\"\n  ],\n  \"protein_evidence\": {\n    \"beef\": \"carpaccio of Miyazaki ribeye\"\n  },\n  \"uncertainties\": [\n    \"Source title describes multiple distinct components (tomato panzanella, carpaccio, avocado, conserva, focaccia) but photograph shows only plated carpaccio with pâté, pepper, herbs and oil—missing or not visibly prominent: panzanella, avocado, pardon conserva, seaweed focaccia. Identity contradiction between full description and visible dish.\",\n    \"Grey/brown layer under carpaccio is not explicitly identified in title—inferred as pâté or liver terrine but no source confirmation of ingredient.\",\n    \"Whether this represents the complete intended composition or a partial plating is unclear from image alone.\"\n  ],\n  \"reason\": \"High-quality, sharply detailed, appetising fine-dining photograph with excellent scores across all criteria. Beef carpaccio identity is explicitly source-quoted and visually confirmed. However, the source title describes a complex multi-component dish (panzanella, carpaccio, avocado, conserva, focaccia) that does not align with the visible plated composition shown—only carpaccio, a grey terrine/pâté, pepper, herbs and oil are evident. This material discrepancy between source identity claim and photograph content prevents confident canonical naming and violates the identity check. Hold pending clarification of whether this image accurately represents the titled dish or shows only one component of it.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1689,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 640,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCsiR99JykFm9NYdEpj1",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Fresh green leaves (spinach or arugula)\",\n    \"Red bell pepper strips\",\n    \"Pink/translucent cured meat (prosciutto or cured ham)\",\n    \"White plate\",\n    \"Natural daylight\"\n  ],\n  \"phone_observations\": [\n    \"Salad composition clearly visible in thumbnail\",\n    \"Leafy greens, red peppers, and meat prominent\",\n    \"Essential components readable at reduced size\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title states 'Panzanella' but photograph shows a fresh green salad with cured meat and peppers—panzanella is traditionally a Tuscan bread salad (pan e acqua). No bread is visible in this image.\",\n    \"Cured meat species cannot be determined from appearance alone. Source provides no explicit animal identification.\",\n    \"The dish composition contradicts the declared identity.\"\n  ],\n  \"reason\": \"Identity mismatch: source declares 'Panzanella' (a traditional Italian bread salad) but the photograph shows a fresh leafy salad with cured meat and peppers, with no bread visible. This is a fundamental contradiction between title and visible content. Additionally, the cured meat species is not explicitly named in the source metadata, so it cannot be assigned to a supported protein category. Hold rules require source-declared identity to match visible form and cannot infer meat species from appearance.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1289,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 459,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
