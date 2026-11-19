@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCrmNh1QtTPj6nXm7iCK",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": \"Prawns and chouriço cataplana (Camarões e chouriço na cataplana) is a dish of prawns, chouriço sausage, cubed pork, onion, red and green peppers, onion, tomatoes, cooked in olive oil, garlic, tarragon, parsley, white wine using a traditional cataplana dish\",\n  \"checks\": {\n    \"identity\": true,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Cataplana vessel visible and in active use on stovetop\",\n    \"Prawns clearly visible and identifiable\",\n    \"Red sausage slices (chouriço) prominent\",\n    \"Red and green peppers present\",\n    \"Diced onion visible\",\n    \"Tomato pieces present\",\n    \"Steam/condensation on lid indicates active cooking\"\n  ],\n  \"phone_observations\": [\n    \"Dish proportions clear in thumbnail\",\n    \"Essential components (prawns, sausage, peppers) readable\",\n    \"Cataplana vessel recognizable\",\n    \"Cooking in progress state visible\"\n  ],\n  \"protein_evidence\": {\n    \"seafood\": \"Prawns\",\n    \"pork\": \"cubed pork\"\n  },\n  \"uncertainties\": [\n    \"Source title lists both 'Prawns and chouriço cataplana' and 'Camarões e chouriço na cataplana' as dish name variants with unclear canonical form\",\n    \"Chouriço sausage species unspecified in source—cannot confirm if pork or other animal without explicit statement\",\n    \"Description states 'cubed pork' as ingredient but does not explicitly confirm this is a named component of the finished dish identity\"\n  ],\n  \"reason\": \"Image quality, sharpness, lighting, composition and phone thumbnail all meet acceptance thresholds. Prawns and pork are explicitly named in source. However, chouriço is listed as 'chouriço sausage' without explicit animal-species attribution in the source text; the protein_evidence rule requires exact source quote naming the animal for sausage/unknown species. Additionally, the canonical_name is ambiguous between Portuguese and English titles with no clear single authoritative form in the source. These uncertainties prevent acceptance.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 2096,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 641,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
