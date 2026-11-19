@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDAd2A7MDEdKgbrkhrY5",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Golden, irregular thick-cut potato pieces\",\n    \"Browned/fried edges with visible seasoning specks\",\n    \"Served on absorbent paper\",\n    \"Natural daylight, appetising colour\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows golden fried potato pieces\",\n    \"Irregular shapes and thick cuts visible\",\n    \"Consistent with full image; adequate detail for recognition\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source metadata describes 'Argentine-style rustic French fries' but canonical identity requires exact phrase from title or description without file/location qualifiers\",\n    \"Title in metadata is a filename with 'File:' prefix and location tags—not a dish name suitable for canonical_name\",\n    \"No explicit dish name provided; only descriptive category ('rustic French fries')\"\n  ],\n  \"reason\": \"Reject: This is a side dish (fried potatoes) with no protein component. While the photograph and thumbnail meet quality and visibility standards, Tavue's review scope requires 'a finished, exposed, likely photographic dish' with readable essential components. Fried potatoes alone do not constitute a complete dish suitable for food review intake. The source metadata provides only a descriptive filename and location context, not a canonical dish identity. No acceptance criteria for sides-only items are met.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 2030,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 446,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
