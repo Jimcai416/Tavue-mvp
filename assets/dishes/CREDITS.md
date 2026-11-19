@@ -7653,3 +7653,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 - **Num banh chok samlar kari** — Turaids. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Num_Banh_Chok_Somlar_Kari.jpg). Local asset: `reviewed-commons-102906266.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Rice Ball Sambal Matah** — Lim Natee. [CC BY 4.0](https://creativecommons.org/licenses/by/4.0); [source](https://commons.wikimedia.org/wiki/File:Rice_Ball_Sambal_Matah_1.jpg). Local asset: `reviewed-commons-144353437.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Kālua Pork with Cabbage** — [USDAgov](https://www.flickr.com/people/usdagov/). [Public domain](https://creativecommons.org/publicdomain/mark/1.0/); [source](https://commons.wikimedia.org/wiki/File:MyPlate_gov_Cultural_Food_(20241025-USDA-FNS-UNK-0042).jpg). Local asset: `reviewed-commons-184647458.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Gyro en Pan Pita y Tzatziki** — JELYL. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Gyro_12.jpg). Local asset: `reviewed-commons-53329728.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.

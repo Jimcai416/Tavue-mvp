@@ -102615,5 +102615,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "height": 720,
     "requiresExactMenuName": true,
     "authorUrl": "https://www.flickr.com/people/usdagov/"
+  },
+  {
+    "id": "commons-53329728",
+    "title": "File:Gyro 12.jpg",
+    "author": "JELYL",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gyro_12.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/49/Gyro_12.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "eb8367a2c0451a047d158ad6ce213e64d0eba649",
+    "name": "Gyro en Pan Pita y Tzatziki",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-53329728.jpg",
+    "assetSha256": "50d0a9a69048324bb4e4c48f3fadc4571f25655991b66ab29195b73652460c61",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];
