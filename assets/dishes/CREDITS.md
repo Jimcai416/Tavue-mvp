@@ -9460,3 +9460,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 - **Latkes with sour cream and applesauce** — Newmila. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Latkes_with_sour_cream_and_applesauce.jpg). Local asset: `reviewed-commons-126732324.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **gefilte fish - whole stuffed fisch - a slice of the whole stuffed fish with red khren (horseradish with beetroot)** — Olaf.herfurth. [CC BY 3.0](https://creativecommons.org/licenses/by/3.0); [source](https://commons.wikimedia.org/wiki/File:Scheibe_gefilte_fisch.jpg). Local asset: `reviewed-commons-19038874.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Latkes with smetana** — Kagor  at the  Ukrainian language Wikipedia. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/); [source](https://commons.wikimedia.org/wiki/File:Ukrainian_potato_pancakes.jpg). Local asset: `reviewed-commons-5753178.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Paneer Do-Pyaza** — Prads2189. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Paneer_Do-Pyaza.jpg). Local asset: `reviewed-commons-40717817.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.

@@ -123409,5 +123409,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-40717817",
+    "title": "File:Paneer Do-Pyaza.jpg",
+    "author": "Prads2189",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Paneer_Do-Pyaza.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Paneer_Do-Pyaza.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "d42c7c8d87e80aa08c7d67b3cd29a43e77eaeba7",
+    "name": "Paneer Do-Pyaza",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-40717817.jpg",
+    "assetSha256": "79b158dd37fadc44dd7ee3ade9a7d7f5ed9c71322ba8fa39771fec33f230d040",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];
