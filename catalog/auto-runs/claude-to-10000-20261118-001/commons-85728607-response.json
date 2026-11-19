@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBmPyAywMECD89KDb4xi",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 2,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Preparation stage with raw meat on cutting board\",\n    \"Brush applying liquid to meat pieces\",\n    \"No finished plated dish visible\",\n    \"Cooking equipment and prep tools dominant\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title references 'Lampredotto' (tripe/offal) but image shows meat preparation stage, not a finished dish\",\n    \"Identity contradiction: metadata describes market location and architectural history, not the food itself\",\n    \"No finished, exposed dish visible—only raw preparation stage\"\n  ],\n  \"reason\": \"Reject: image shows raw meat preparation/cooking stage, not a finished, exposed, appetising dish. The source title 'Lampredotto' cannot be verified visually from an uncooked prep scene. Metadata describes market architecture rather than the actual food identity. Phone thumbnail confirms this is active food preparation, not a completed dish suitable for menu/review photography. Essential check 'identity' fails due to preparation-stage content versus finished-dish requirement.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1824,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 374,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

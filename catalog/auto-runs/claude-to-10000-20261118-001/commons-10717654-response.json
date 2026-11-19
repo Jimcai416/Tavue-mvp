@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBmPLBWGjKddCX2KkebE",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [\n    \"Coiled intestinal offal on hot griddle/grill\",\n    \"Golden-brown char and sear marks visible\",\n    \"Multiple pieces in various coil configurations\",\n    \"Spices visible on surface\",\n    \"Street/commercial cooking context evident\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows coiled organ meat with characteristic spiral form\",\n    \"Golden-brown colour and char visible at reduced resolution\",\n    \"Subject prominent and identifiable as intestinal preparation\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title 'Chinchulines' refers to small intestines (typically beef in Argentine cuisine), but photograph shows only coiled offal without explicit animal species identification in source metadata\",\n    \"No source description explicitly names the animal species (beef/pork/lamb/etc.)\",\n    \"Intestinal offal is an unspecified species category not in allowed protein list\"\n  ],\n  \"reason\": \"Rejection: Although the photograph is sharp, well-composed and appetisingly presented with strong griddle char, and the phone thumbnail clearly shows the coiled intestinal form, the source metadata does not explicitly identify the animal species. The title 'Chinchulines' is a regional dish name but does not constitute explicit species declaration in the source description. Intestinal offal requires unambiguous animal identification (beef/pork/lamb/etc.) which is absent from supplied metadata. Protein species cannot be inferred from tradition or appearance. Hold criteria not met due to protein species uncertainty.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1719,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 483,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
