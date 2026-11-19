@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChD7ABcXzzTYLxtNotLrt",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 0,\n    \"lighting\": 0,\n    \"composition\": 0,\n    \"appeal\": 0\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Image contains decorative dolls, angel figurines, and toy ornaments on red fabric\",\n    \"Red spherical objects are present but not a prepared food dish\",\n    \"No finished, exposed food photograph visible\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Metadata references 'Oua rosii' (red eggs) but image shows decorative collectibles and toys, not a food dish\",\n    \"No identifiable prepared or cooked food subject present\",\n    \"Red spheres appear to be ornamental or toy items rather than actual edible eggs\"\n  ],\n  \"reason\": \"This is not a photograph of a prepared food dish. The image depicts decorative dolls, clown figurines, angel ornaments, and toy items arranged on red fabric. While the metadata references 'red eggs' (Oua rosii), the actual visual content shows a still-life arrangement of collectible figurines and toys, not a food subject. This fails the fundamental requirement of being a 'finished, exposed, likely photographic dish.' The image is documentary/collection photography, not food photography.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1985,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 390,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

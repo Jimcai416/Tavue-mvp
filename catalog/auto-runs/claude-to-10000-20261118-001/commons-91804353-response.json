@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChD7AXPRE1gYLqz1UaaJn",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Yellow rice with visible beans/legumes scattered throughout\",\n    \"Brown stewed dish on white plate\",\n    \"Home-cooked plated presentation\",\n    \"Natural daylight, no watermarks\"\n  ],\n  \"phone_observations\": [\n    \"Rice and stewed component both visible and prominent in thumbnail\",\n    \"Colour and composition readable at reduced size\",\n    \"Dish boundaries clear\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title 'Pastele and yellow rice' is ambiguous: 'pastele' is not a standard English dish name and could refer to multiple regional preparations (Dominican pasteles, Filipino pansit, or other variants)\",\n    \"The brown component appears stewed but its exact identity, preparation method, and meat species (if any) cannot be determined from visual inspection alone\",\n    \"No explicit protein identification in source description—'delicious' provides no factual content\",\n    \"Unclear whether the stewed component contains meat or is vegetarian\",\n    \"Without a reliable source definition, the canonical dish name cannot be established with certainty\"\n  ],\n  \"reason\": \"While the photograph shows a finished, well-presented dish with sharp detail, natural colour, and readable components in both full and thumbnail views, the source metadata fails the identity check. The title 'Pastele and yellow rice' lacks sufficient clarity to confirm the exact dish identity—'pastele' has multiple regional meanings and the source provides no authoritative definition. The brown stewed component cannot be reliably identified, and no protein species is declared. The vague description ('delicious') contains no factual supporting evidence. Per policy, source contradictions and ambiguous identity trigger a hold. A specific, authoritative source reference or clearer dish description is required.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1626,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 529,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
