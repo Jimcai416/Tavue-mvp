@@ -6971,3 +6971,8 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Smoked fish sampler: Smoked trout, herbed gravlax, kippered salmon, oil cured sardine, salt cured anchovies** — [T.Tseng](https://www.flickr.com/people/68147320@N02). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Smoked_fish_sampler_Smoked_trout,_herbed_gravlax,_kippered_salmon,_oil_cured_sardine,_salt_cured_anchovies_(26906947094).jpg). Local asset: `reviewed-commons-101595689.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Gudeg** — Abdisaverio. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Gudeg_01.jpg). Local asset: `reviewed-commons-181293008.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **bánh bột lọc** — Viethavvh  at  Vietnamese Wikipedia. [Public domain](https://creativecommons.org/publicdomain/mark/1.0/); [source](https://commons.wikimedia.org/wiki/File:Banh_bot_loc.JPG). Local asset: `reviewed-commons-3505220.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
