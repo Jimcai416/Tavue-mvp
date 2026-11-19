@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChD7mqr9xRpS5TXnuCEQh",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 3,\n    \"lighting\": 2,\n    \"composition\": 3,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows scrambled eggs with mushrooms, identifiable but small and muddy\",\n    \"Golden-yellow egg and tan-brown mushroom fragments visible\",\n    \"Overall composition legible at thumbnail scale\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'Revuelto de setas' (mushroom scramble), but full image shows what appears to be sausage pieces (brown curved segments) alongside mushrooms and eggs—a composition inconsistent with a simple revuelto de setas\",\n    \"Brown meat-like objects do not match the declared dish identity\",\n    \"Cannot confirm whether meat is present and unidentified or if the source title is inaccurate\"\n  ],\n  \"reason\": \"Identity check fails. The source title 'Revuelto de setas' describes a mushroom scramble, but the full photograph contains prominent brown, curved meat-like pieces (possibly sausage or cured pork) that contradict the declared dish. The visual composition does not match the title. Source contradiction and ambiguous meat species (unidentified curved brown pieces) trigger a hold condition under identity and protein verification rules. The image quality and phone thumbnail are acceptable, but identity uncertainty is disqualifying.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1747,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 420,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
