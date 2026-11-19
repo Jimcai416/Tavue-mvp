@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDAwoE1wxsY5YS51Zcx2",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Two sausages clearly visible on white plate\",\n    \"Potato salad base with creamy dressing\",\n    \"Fresh parsley garnish on top\",\n    \"Natural daylight, well-exposed\",\n    \"Sharp detail throughout full image and thumbnail\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows two sausages with creamy potato filling\",\n    \"Parsley garnish visible and readable\",\n    \"Dish proportions and components identifiable\",\n    \"Appetising presentation maintained in reduced view\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Species of sausage unknown: 'Frankfurter' is a regional name without explicit meat species declaration in source\",\n    \"Source describes 'Ein Paar Frankfurter auf Kartoffelsalat' (A pair of Frankfurters on potato salad) but does not state whether beef, pork, or mixed meat\",\n    \"No explicit animal-species confirmation in title or description\"\n  ],\n  \"reason\": \"Identity check fails. The source title/description identifies this as 'Frankfurter wuerstchen' (Frankfurter sausages on potato salad), but Frankfurter is a regional variant name that does not explicitly declare the meat species. Protocol requires exact source quotation naming each animal for protein_evidence inclusion, and prohibits inference from tradition or appearance. Without explicit species declaration (beef/pork/duck/lamb/chicken/seafood), the protein cannot be verified and identity cannot be confirmed as a specific, unambiguous dish. Image quality and photograph quality are excellent, but identity ambiguity triggers hold per protocol. This is a food photograph of publishable quality, but the source-declared identity is insufficient for acceptance.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1736,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 532,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

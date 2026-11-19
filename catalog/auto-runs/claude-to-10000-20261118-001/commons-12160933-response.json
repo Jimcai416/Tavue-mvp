@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDAw1wTumM9jqVAqwhLi",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 3,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Plated terrine with layered composition\",\n    \"Red sauce swirl and green vegetable layer visible\",\n    \"Two round accompaniments (likely potato mousse)\",\n    \"Fresh herb garnish\",\n    \"Fine dining presentation on white plate\"\n  ],\n  \"phone_observations\": [\n    \"Terrine slice clearly visible in thumbnail\",\n    \"Red sauce and green layer readable\",\n    \"Accompaniments present but small\",\n    \"Overall dish composition discernible\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title states 'foie gras terrine' but foie gras is not an allowed protein category (duck/poultry liver product)\",\n    \"No explicit statement naming duck or any allowed animal species in source\",\n    \"Terrine composition cannot be visually confirmed—may contain liver, meat mixture, or other components not in allowed categories\",\n    \"Green layer ingredient unclear—possibly aspic, vegetable, or liver mousse\"\n  ],\n  \"reason\": \"Foie gras terrine cannot be accepted. The source identifies the dish as foie gras-based, but foie gras is processed poultry liver and does not match the allowed protein categories (chicken, beef, pork, duck, lamb, seafood). No explicit source text names duck as a primary protein component in a way that would allow acceptance. Liver products and organ-based dishes fall outside the defined scope. The visual appearance alone cannot override the unambiguous source identification of a foie gras dish.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1636,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 480,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

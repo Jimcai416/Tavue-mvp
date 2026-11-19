@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDAwc1puGdtD9eFu72qg",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Golden-brown, evenly fried potato wedges/steak fries\",\n    \"Crisp exterior with visible seasoning\",\n    \"Appetising colour and texture\",\n    \"Sharp detail and natural lighting in full image\",\n    \"Phone thumbnail clearly shows fried potato product\"\n  ],\n  \"phone_observations\": [\n    \"Central fried potato wedges clearly visible\",\n    \"Golden colour preserved in thumbnail\",\n    \"Dish identity unambiguous in phone view\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title 'French fries in Argentina' is a generic geographical descriptor, not a specific canonical dish name\",\n    \"No authoritative Tavue dish name provided in source metadata\",\n    \"Cannot determine if this is 'Papas fritas', 'Papas a la provenzal', 'Papas al horno' or another Argentine variant without explicit dish nomenclature\",\n    \"File metadata alone does not constitute a proper dish identity reference\"\n  ],\n  \"reason\": \"Rejection: The source metadata provides only a generic geographical description ('French fries in Argentina') without a specific, canonical dish name. Tavue requires exact canonical names copied from authoritative source titles or descriptions. While the photograph clearly shows well-prepared fried potato wedges with excellent quality (sharp, well-lit, appetising), the identity check fails due to absence of a proper dish nomenclature in the source. The image is suitable but cannot be accepted without an explicit, specific dish name from the source.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1719,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 480,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

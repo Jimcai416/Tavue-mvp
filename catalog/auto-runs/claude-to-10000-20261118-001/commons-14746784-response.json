@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDAwJnFAkwHPEyvSNh5T",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Plated terrine slice with golden toasted triangles visible\",\n    \"Garnish and sauce elements readable in thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title 'Foie Gras Terrine' cannot be accepted: foie gras is a prepared liver product that does not meet the allowed protein categories (chicken/beef/pork/duck/lamb/seafood with explicit animal naming). The source does not provide an exact quote naming which animal the liver derives from, only the processed product name.\",\n    \"No explicit source-quoted animal species provided for the protein component\"\n  ],\n  \"reason\": \"Rejection: The source description 'Foie Gras Terrine' identifies a dish by its prepared ingredient (foie gras/duck liver paste) rather than providing an explicit quote naming the animal. Protocol requires exact source quotes explicitly naming the animal when protein is claimed. Duck liver is implied by tradition but not stated in the title or description. Foie gras is a processed product outside the allowed protein category framework. The photograph and phone thumbnail are of high quality and clearly show a finished, plated terrine with professional presentation, but identity verification cannot proceed without explicit animal naming in the source metadata.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1722,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 419,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
