@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBj54yyMjFsWqMnBuYmU",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Stewed/braised meat with visible browning and texture\",\n    \"Golden-brown broth with visible oil sheen\",\n    \"Potatoes or root vegetable slices in sauce\",\n    \"Served in shallow metal bowl\",\n    \"Finished, exposed dish in natural lighting\"\n  ],\n  \"phone_observations\": [\n    \"Meat and broth clearly visible in thumbnail\",\n    \"Golden colour of sauce evident\",\n    \"Subject adequately prominent\",\n    \"Thumbnail captures essential dish components\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Term 'bushmeat' is unspecified regarding actual animal species (could be game meat, wild animal, or regional preparation)\",\n    \"No explicit species identifier in source (e.g. 'beef', 'goat', 'antelope') present in title or description\",\n    \"Cannot visually confirm meat species from photograph alone\",\n    \"Source description does not name a specific protein category\"\n  ],\n  \"reason\": \"Photograph quality, composition and phone presentation all meet criteria. However, the protein cannot be established: the source uses only the generic term 'bushmeat' without naming a specific animal species (chicken/beef/pork/duck/lamb/seafood). The instructions require exact source quotes naming the specific animal for protein_evidence. Unknown or ambiguous meat species triggers a hold. The canonical_name cannot be assigned without resolved protein identity.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1517,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 460,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

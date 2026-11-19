@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBj3ofhEuA7rMZbEFhKe",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Finished, cooked plated dish\",\n    \"Sharp detail in both source and thumbnail\",\n    \"Mashed potatoes prominently visible\",\n    \"Green peas clearly identifiable\",\n    \"Brown gravy coating visible\",\n    \"Naturalistic colours\",\n    \"Appetising presentation on decorative plate\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail shows complete dish composition\",\n    \"Essential components (meat, potato, peas, gravy) all readable\",\n    \"No clipping of key food elements\",\n    \"Plate decoration visible and identifiable\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title 'Faggots-and-gravy' refers to a traditional British offal dish (typically pork liver, heart, and other organ meats formed into balls), but the specific meat composition cannot be visually verified from the photograph alone. The brown items are consistent with cooked offal but could theoretically be other braised meats.\",\n    \"No explicit animal species confirmation visible in the image or reliably inferable from appearance\",\n    \"Traditional composition would be pork offal, but this is recipe knowledge, not visual evidence\"\n  ],\n  \"reason\": \"Image quality, composition, and plating are excellent across both source and thumbnail. However, the identity check fails because the source title references 'Faggots' (British offal dish), but the specific meat species cannot be visually confirmed. The photograph shows what appears to be braised meat with gravy, mashed potato, and peas, but offal identity and pork species are not visually proven—they depend on recipe tradition and the filename/title, which are untrusted evidence per protocol. The protein_evidence map must remain empty because no explicit animal name appears in the description ('Faggots, gravy, mashed potatoes and marrowfat peas'), and species inference from appearance or tradition is not permitted.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1744,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 571,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

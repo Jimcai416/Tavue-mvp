@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBj4KHum323WRCymH18V",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Curly instant noodles in reddish broth\",\n    \"Visible vegetable garnish (dark leafy, red cubes, green pieces)\",\n    \"Appetising presentation\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail shows noodle dish with vegetables\",\n    \"Broth colour and noodle form consistent with full image\",\n    \"Essential components visible at phone scale\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title describes 'jjamppong-flavoured instant noodles' (a flavoured product), not a finished dish of jjamppong soup\",\n    \"Jjamppong is a Korean spicy seafood noodle soup; the title indicates this is instant ramyeon packaged product flavoured to taste like jjamppong, not an actual jjamppong dish\",\n    \"No protein (seafood) explicitly named in source description\",\n    \"Identity mismatch: packaged instant noodle product versus finished seafood soup dish\"\n  ],\n  \"reason\": \"Source describes this as 'jjamppong-flavoured instant noodles'—a packaged instant ramyeon product—not a finished jjamppong dish. Jjamppong is a Korean seafood soup, but no seafood protein is named in the source title or description. The image shows what appears to be a prepared bowl, but the source identity is a flavoured instant noodle product, not the authentic dish. No protein evidence supports acceptance. Identity check fails.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1362,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 492,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

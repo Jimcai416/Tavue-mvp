@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBj4DWeHvHyZnHBm2fwW",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Dark brown sliced discs (black pudding) on left\",\n    \"Creamy mashed potato portion upper right\",\n    \"Caramelized fried onions in centre-lower area\",\n    \"Gravy visible on potato\"\n  ],\n  \"phone_observations\": [\n    \"All major components visible and identifiable in thumbnail\",\n    \"Colour and contrast adequate for recognition\",\n    \"Dark pudding, pale potato, golden onions distinct\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title describes 'black pudding' but no explicit animal species is named in the source text; black pudding typically contains pork blood but this is not explicitly stated in the provided description\",\n    \"Source mentions 'mashed potato with apple' but no visible apple is apparent in either the full photograph or thumbnail—only mashed potato, pudding and onions are evident\"\n  ],\n  \"reason\": \"Although the photograph is sharp, well-lit and appetizing, and the phone thumbnail clearly shows the dish components, identity cannot be confirmed. The source description names 'black pudding' as a component but does not explicitly identify the animal species (pork blood/offal is traditional but not stated in the metadata). Additionally, the source claims the dish includes apple ('mashed potato with apple') but no apple is visible in either the full image or thumbnail—only plain mashed potato is shown. This discrepancy between source description and visible contents creates unresolvable uncertainty about the actual dish identity. No protein can be verified with an explicit source quote naming the animal.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 2021,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 488,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
