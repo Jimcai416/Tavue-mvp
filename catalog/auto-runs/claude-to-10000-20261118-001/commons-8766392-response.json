@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCBXhWusA4weysqiMmwr",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Red stewed dish in dark metal pan\",\n    \"Visible vegetables (capers or olives, diced ingredients)\",\n    \"Rich brown-red sauce\",\n    \"Served in restaurant setting with fork and white plate visible\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows the red-sauced stew in dark pan\",\n    \"Sufficient detail to identify dish category\",\n    \"Pan and utensils visible\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source metadata contains only a URL reference and unreliable filename; no authoritative dish title or description provided in machine-readable form\",\n    \"Visual appearance strongly suggests Caponata (Sicilian eggplant stew), but this cannot be confirmed from the metadata supplied\",\n    \"No explicit confirmation that this is a finished, served dish versus preparation stage\",\n    \"Protein composition (if any) is not visible or stated in source\"\n  ],\n  \"reason\": \"Rejection: The source provides only a Wikimedia filename and embedded URL, with no explicit canonical dish title or description. While the photograph itself shows a well-executed, appetising red stew (likely Caponata based on appearance), and both full and thumbnail images are sharp and well-composed, the identity check fails because no authoritative source text matches the visible form. Metadata alone does not constitute reliable evidence per protocol. A proper dish title and description from an authoritative source is required.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1808,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 464,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
