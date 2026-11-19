@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBjYnPcEJPmzTNMt74Sm",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Noodles present and identifiable\",\n    \"Stir-fried preparation evident\",\n    \"Sesame seeds visible\",\n    \"Green and orange vegetables (cabbage, carrot)\",\n    \"Protein component visible but species ambiguous\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows noodle dish with toppings\",\n    \"Central protein element visible but not definitively identified\",\n    \"Sesame garnish and vegetables readable at phone size\",\n    \"Overall dish composition matches full image\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title states 'Yaki-udon' but visible noodles appear lighter/thinner than typical udon\",\n    \"Protein topping species cannot be definitively determined from visual inspection alone—appears shredded/flaked but could be chicken, pork, or other meat\",\n    \"No explicit animal species named in source description to support protein category assignment\"\n  ],\n  \"reason\": \"Identity check fails: source metadata describes 'Yaki-udon' but the noodle thickness and appearance do not conclusively match traditional udon noodles. More critically, the shredded protein topping is visually ambiguous—cannot reliably identify species from appearance alone. Source description provides no explicit protein qualifier. Protein_evidence must remain empty without an exact case-sensitive source quote naming the animal. Hold pending clarification of noodle type and protein identity.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1752,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 468,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

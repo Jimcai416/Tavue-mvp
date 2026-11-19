@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBjYYREUrjYnQtzgNMNf",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Yellow noodles visible in black bowl\",\n    \"Sliced meat with reddish-brown glaze (consistent with char siu)\",\n    \"Yellow spherical items (described as fishcake)\",\n    \"Green vegetable slices (likely scallions)\",\n    \"Red chilli sauce visible\",\n    \"Finished dish in serving bowl on red surface\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows noodle bowl with meat and yellow elements\",\n    \"Essential components visible and readable\",\n    \"Natural colour rendering\",\n    \"Dish prominence adequate for phone view\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'Char siu and Fishcake' but source description explicitly names these proteins only via metadata labels, not as part of the canonical dish name in title or description sentence\",\n    \"Title reads 'Wonton noodles or sometimes called wanton mee with Char siu and Fishcake' — the protein names appear as supplementary metadata labels in parentheses/italics, not as integrated dish qualifiers within a single canonical phrase\",\n    \"Fishcake is not an allowed protein category (seafood-based but ambiguous species; not explicitly named as fish species)\",\n    \"Char siu traditionally pork but source does not explicitly state 'pork' — only the Cantonese term 'Char siu' appears\",\n    \"No explicit quote matching the exact format 'chicken/beef/pork/duck/lamb/seafood' for any protein\"\n  ],\n  \"reason\": \"Source metadata declares char siu and fishcake as components, but neither qualifies as explicit protein evidence under rules. 'Char siu' is not an allowed category name and no source statement explicitly names the animal (pork is traditional but not stated). 'Fishcake' is not an allowed category and does not name a specific seafood species. The title/description structure treats these as supplementary labels rather than integrated variant qualifiers of the canonical dish name. All quality and photograph checks pass, but identity check fails because protein evidence cannot be established from an exact case-sensitive source quote matching allowed category keys. Hold pending source clarification of exact protein species.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1967,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 639,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
