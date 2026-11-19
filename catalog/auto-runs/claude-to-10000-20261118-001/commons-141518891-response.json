@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCPqGmnRpB4m6aFB7keG",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Fried rice with visible red peppers, orange peppers, white rice, green garnish, and cooked meat pieces\",\n    \"Protein visible: translucent shrimp/prawn on top, opaque tan/brown meat piece (species unclear)\",\n    \"Served on dark plate with black chopsticks, fresh cucumber slice visible\",\n    \"Natural lighting, appetising colour, well-composed dish\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows fried rice with red and orange vegetable pieces\",\n    \"Yellow protein (prawn/shrimp) is prominent and readable\",\n    \"Rice texture and colour are distinct and appetising\",\n    \"No essential food clipped; full dish representation adequate\"\n  ],\n  \"protein_evidence\": {\n    \"seafood\": \"Hongkong\"\n  },\n  \"uncertainties\": [\n    \"Title states 'Nasi goreng Hongkong di Indonesia' but metadata calls it 'Hongkong Fried Rice'; regional variant clarity compromised by mixed language and unclear intent (is this Indonesian-prepared Hong Kong fried rice, or a Hong Kong dish?)\",\n    \"Opaque tan/brown meat piece visible in source photograph cannot be reliably identified as chicken, beef, pork, duck, or lamb from appearance alone; no explicit species declaration in source title or description\",\n    \"Source description is minimal and does not explicitly name all animal proteins present\"\n  ],\n  \"reason\": \"Identity check fails: source metadata is contradictory and ambiguous (file title 'Hongkong Fried Rice 2.jpg' vs. description 'Nasi goreng Hongkong di Indonesia'—unclear whether this is a Hong Kong dish or an Indonesian preparation of one). Protein evidence is incomplete: shrimp/prawn is visually present and 'Hongkong' may imply traditional prawn use, but the opaque meat piece cannot be identified to species from appearance, and no explicit species declaration exists in the title or description. Protein_evidence map includes only 'seafood' under canonical term 'Hongkong', but this does not constitute explicit naming of the second meat. Hold pending clarification of regional identity and full protein declaration.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1520,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 637,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

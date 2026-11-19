@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCPqGebarszhqd2iuKAb",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Finished, cooked fried rice with visible rice grains, stir-fried vegetables (carrots, greens, onions)\",\n    \"Protein component: dark cooked meat pieces present on plate\",\n    \"Accompaniments: crispy fried item (plantain or bread), clear beverage, canned drink\",\n    \"Plate presentation is clean and plated\",\n    \"Phone thumbnail shows prominent rice and vegetable elements clearly\"\n  ],\n  \"phone_observations\": [\n    \"Rice and vegetables dominate the thumbnail centre-cover\",\n    \"Protein meat component visible but not explicitly identifiable in thumbnail\",\n    \"Stir-fried vegetable mix is sharp and recognizable\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title states 'Ghanaian fried rice' but no specific dish name or variant qualifier is provided—only a generic category\",\n    \"Dark cooked meat is visually present on the plate but its species cannot be determined from appearance alone; source metadata does not explicitly name the meat species\",\n    \"No explicit source quote identifies the protein (chicken/beef/pork/lamb/duck/seafood)\",\n    \"Description 'Accra food' is a location, not a dish specification\"\n  ],\n  \"reason\": \"Identity check fails. The source provides only a generic category ('Ghanaian fried rice') without a specific dish name or explicit protein species identification. Although the photograph shows a finished, well-plated fried rice dish with visible meat and vegetables, and all quality/photograph/phone checks pass, protein species cannot be established from the unqualified source description or visual appearance alone. Per protocol, unspecified or ambiguous meat species requires a hold. A specific named variant with explicit protein identification in the source title/description is required for acceptance.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1521,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 543,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
