@@ -7688,3 +7688,8 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 - **Okoy** — BrokenSphere. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Okoy_1.JPG). Local asset: `reviewed-commons-8649694.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Jajanan pasar lepet dengan kacang tolo di dalamnya** — Nela Fatimatun. [CC BY 4.0](https://creativecommons.org/licenses/by/4.0); [source](https://commons.wikimedia.org/wiki/File:Lepet_Jajanan_Pasar_5.jpg). Local asset: `reviewed-commons-191990902.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Risol dengan saus cabai yang pedas** — Nela Fatimatun. [CC BY 4.0](https://creativecommons.org/licenses/by/4.0); [source](https://commons.wikimedia.org/wiki/File:Risol_Jajanan_Pasar_3.jpg). Local asset: `reviewed-commons-191990879.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Wajik** — Nela Fatimatun. [CC BY 4.0](https://creativecommons.org/licenses/by/4.0); [source](https://commons.wikimedia.org/wiki/File:Wajik_Jajanan_Pasar_1.jpg). Local asset: `reviewed-commons-191990910.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Wajik yang terbuat dari beras ketan, gula merah, dan santan** — Nela Fatimatun. [CC BY 4.0](https://creativecommons.org/licenses/by/4.0); [source](https://commons.wikimedia.org/wiki/File:Wajik_Jajanan_Pasar_2.jpg). Local asset: `reviewed-commons-191990911.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
