@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCZTsyf9G5vEssyZKEu1",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Orange/reddish gravy-based stew in white handled pot\",\n    \"Cooked ingredient visible (appears to be egg or vegetable piece)\",\n    \"Street food preparation on charcoal stove\",\n    \"Natural daylight, vibrant colours, finished dish state\"\n  ],\n  \"phone_observations\": [\n    \"Gravy stew clearly visible in centre pot\",\n    \"Hand holding spoon, active serving moment\",\n    \"Stove and cooking apparatus visible at edges\",\n    \"Adequate detail of finished dish\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title contains 'garden eggs' but visual contents are ambiguous—the reddish stew component and any egg pieces are not distinctly identifiable as garden eggs (African eggplant) or as protein category eggs\",\n    \"Source metadata (title, description, author) are explicitly untrusted and contradict each other: title says 'Gravy mix garden eggs' but description says 'Farm to Plate' theme only\",\n    \"No exact dish name provided in source description—only vague theme reference\",\n    \"Cannot confirm whether central cooked item is egg, eggplant, or another vegetable\",\n    \"No explicit protein identification in trusted source text\"\n  ],\n  \"reason\": \"Rejection: Source title 'Gravy mix garden eggs' is untrustworthy metadata and contradicts the vague description. No reliable canonical name can be extracted. Visible contents are consistent with a stew, but the identity of key components (whether the visible piece is an egg, garden egg, or other ingredient) cannot be visually confirmed. The dish form is a finished, appetising stew in a pot on a charcoal stove, well-photographed and visible in the thumbnail, but the lack of a trustworthy source description and ambiguous ingredient identity prevent acceptance. Protein_evidence remains empty because no exact, trusted protein quote exists in the description.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1530,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 577,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCZTcJLCLhYRd4uvvC6Q",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 3,\n    \"appeal\": 2\n  },\n  \"visible_support\": [\n    \"Yellow/golden cooked eggs visible in white pot\",\n    \"Red peppers or tomatoes visible in dish\",\n    \"Open-air cooking environment with traditional clay/mud stove\",\n    \"Phone thumbnail shows same pot and stove setup\"\n  ],\n  \"phone_observations\": [\n    \"Pot and stove clearly visible\",\n    \"Cooked eggs distinguishable\",\n    \"Overall composition readable\",\n    \"Subject not clipped\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title contains 'Gravy mix garden eggs' but metadata is unreliable per instructions; no explicit protein animal named in source description\",\n    \"Cannot verify 'gravy mix' or specific preparation from visual inspection alone\",\n    \"Exact dish identity unclear—'garden eggs' may refer to eggplant in some regions, not chicken eggs; ambiguity unresolved by source text\",\n    \"No readable essential components in phone thumbnail confirm specific dish identity\"\n  ],\n  \"reason\": \"Reject: source title/description is ambiguous and does not provide a clear, unambiguous dish identity. 'Garden eggs' is a regional term that may refer to eggplant or eggs depending on context, and the description does not explicitly clarify. The composition check fails because identity cannot be confidently established from visible form + source pairing. Metadata is explicitly untrusted per instructions. While the photograph itself shows a cooking scene with plausible food, the absence of a reliable, specific canonical identity from the source text prevents acceptance.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1526,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 481,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
