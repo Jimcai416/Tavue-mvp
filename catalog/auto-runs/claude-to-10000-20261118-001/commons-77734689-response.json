@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDB7rx2q9HS9aLZ4mm3L",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Golden-brown fried potato sticks in black serving container\",\n    \"Garnished with fresh green herbs (parsley)\",\n    \"Natural, appetising colour and finish\",\n    \"Sharp detail and professional composition\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows fried potato sticks\",\n    \"Garnish visible in reduced form\",\n    \"Subject prominent and identifiable\",\n    \"No clipping of essential components\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'Truffle oil french fries' but no truffle oil is visibly verifiable in the photograph\",\n    \"Truffle oil is an invisible flavouring—only parsley garnish is confirmed visual evidence\",\n    \"Source description does not match visual content definitively; hidden flavours cannot be accepted as proven\",\n    \"Dish identity depends entirely on unverifiable metadata, not on what is photographed\"\n  ],\n  \"reason\": \"Reject: Identity check fails. The source title claims 'Truffle oil french fries', but truffle oil is an invisible seasoning that cannot be confirmed visually. The photograph shows only fried potato sticks garnished with parsley. Per instructions, hidden flavours may be source-declared but are never visually proven, and source contradictions with visible form trigger a hold. The visible dish is plain fried potatoes with herb garnish; the claimed identity (truffle oil fries) cannot be verified from the photograph alone and creates unresolvable uncertainty about what is actually being presented. This triggers rejection under identity verification rules.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1630,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 493,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
