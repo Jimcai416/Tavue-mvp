@@ -113918,5 +113918,51 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 720,
     "height": 960,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-141933681",
+    "title": "File:Ndolé.jpg",
+    "author": "Jimerveille",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ndol%C3%A9.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Ndol%C3%A9.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "87a9d8cfd8e249a1657e77dfd1ad8d7103ab43aa",
+    "name": "Ndolé accompagné du riz et des bananes",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-141933681.jpg",
+    "assetSha256": "484aebe3b15e1cd130142e1c04496c4dacc6b3460949cad7e9a8063be88ba945",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 720,
+    "height": 960,
+    "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-175686034",
+    "title": "File:Plat de ndolè au poulet dans un restaurant camerounais.jpg",
+    "author": "Mbiappa William",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Plat_de_ndol%C3%A8_au_poulet_dans_un_restaurant_camerounais.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Plat_de_ndol%C3%A8_au_poulet_dans_un_restaurant_camerounais.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "8e4efe82969b9fbff03fa8c6e0a3fc03731baf5e",
+    "name": "Ndolè au poulet",
+    "aliases": [],
+    "proteins": [
+      "chicken"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-175686034.jpg",
+    "assetSha256": "c7396c2d94189de1caaf1c943e2ba44ad6ca6190454f500574c71ea7adade165",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];

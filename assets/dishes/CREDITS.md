@@ -8637,3 +8637,8 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 - **Mukimo & Beef Stew** — Anitah Pezz. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Mukimo_%26_Beef_Stew.jpg). Local asset: `reviewed-commons-164462187.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Mukimo and beef curry** — Kiptoo96. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Mukimo_and_beef_curry.jpg). Local asset: `reviewed-commons-183727590.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Ndolè et banane bouillie** — Fawaz.tairou. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Ndol%C3%A8_et_banane_bouillie.jpg). Local asset: `reviewed-commons-90043488.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Ndolé accompagné du riz et des bananes** — Jimerveille. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Ndol%C3%A9.jpg). Local asset: `reviewed-commons-141933681.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Ndolè au poulet** — Mbiappa William. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Plat_de_ndol%C3%A8_au_poulet_dans_un_restaurant_camerounais.jpg). Local asset: `reviewed-commons-175686034.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
