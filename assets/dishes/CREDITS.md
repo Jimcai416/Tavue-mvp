@@ -7564,3 +7564,10 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Laksa Lemak** — [Alpha  from Melbourne, Australia](https://www.flickr.com/people/10559879@N00). [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:Laksa_Lemak_-_Billy_Chu_AUD8.50_(2293033305).jpg). Local asset: `reviewed-commons-83131214.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **A simit from Turkey** — E4024. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:A_simit_from_Turkey.jpg). Local asset: `reviewed-commons-40691908.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Dal dhokli** — Kanikatwl. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Dal_dhokli.JPG). Local asset: `reviewed-commons-40988340.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Chole puri halwa** — Photobless rupinder. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Chole_puri_halwa.jpg). Local asset: `reviewed-commons-40929083.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Big simit in Ankara** — E4024. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Big_simit_in_Ankara.jpg). Local asset: `reviewed-commons-57054816.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
