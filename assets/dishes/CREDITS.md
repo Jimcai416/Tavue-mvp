@@ -6976,3 +6976,9 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 
 - **Gudeg** — Abdisaverio. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Gudeg_01.jpg). Local asset: `reviewed-commons-181293008.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **bánh bột lọc** — Viethavvh  at  Vietnamese Wikipedia. [Public domain](https://creativecommons.org/publicdomain/mark/1.0/); [source](https://commons.wikimedia.org/wiki/File:Banh_bot_loc.JPG). Local asset: `reviewed-commons-3505220.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Bakso Sederhana** — Who'sisthis. [CC BY 4.0](https://creativecommons.org/licenses/by/4.0); [source](https://commons.wikimedia.org/wiki/File:Bakso_Sederhana.jpg). Local asset: `reviewed-commons-177381663.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Bakso Tumpeng** — Elicefa. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Bakso_Tumpeng.jpg). Local asset: `reviewed-commons-84318676.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Bakso dengan Pangsit** — Muhammad Riandi. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Bakso_dengan_Pangsit.jpg). Local asset: `reviewed-commons-177381944.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
