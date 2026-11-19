@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBeHJTLvTcuvM64eCgD6",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 3,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [\n    \"Red/amber broth in white bowl\",\n    \"Two visible spherical elements (possibly seafood or garnish)\",\n    \"Glossy liquid surface with reflections\",\n    \"Dark background\"\n  ],\n  \"phone_observations\": [\n    \"Broth and suspended solids visible in thumbnail\",\n    \"Bowl shape and liquid evident at 124x96 resolution\",\n    \"Colour consistent between full and phone versions\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title states 'Tom yam' but filename is 'Tom Yung Goong.jpg' (suggesting shrimp/prawn); description does not explicitly name any protein\",\n    \"Visible spherical elements are unidentified—cannot confirm shrimp, other seafood, or other components from visual inspection alone\",\n    \"Source title/description contradiction: 'Tom Yung Goong' typically denotes tom yam with shrimp, but the description field only says 'Tom yam' without protein specification\",\n    \"No explicit protein naming in the actual description field supplied\"\n  ],\n  \"reason\": \"The filename and title suggest 'Tom Yung Goong' (tom yam with shrimp), but the supplied description field states only 'Tom yam' without naming any protein. Per instructions, proteins may be included only with an exact source quote explicitly naming the animal; ambiguity between filename convention and actual description text constitutes a source contradiction. The visible spherical elements cannot be definitively identified as shrimp or any specific protein from the photograph alone. This ambiguity requires holding pending clarification of the authoritative dish name and protein declaration.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1722,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 510,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBeHKcJ9rRetCLQ9PSmg",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Finished, cooked sandwich with golden-brown exterior\",\n    \"White bread base with visible fillings\",\n    \"Tomato sauce spread on top slice (visible in full image)\",\n    \"Yellow/orange coloured protein visible in centre\",\n    \"Green pickle or pepper slice visible\",\n    \"Appetising, natural colours\",\n    \"Sharp detail in both full image and phone thumbnail\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows sandwich cross-section\",\n    \"Cooked meat and pickle filling plainly visible\",\n    \"Phone crop captures essential sandwich composition\",\n    \"Subject prominent and not clipped\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title provides only generic description 'Bocadillo Premium de La Pobla' without specifying meat species or complete ingredient list\",\n    \"Yellow/orange protein visible in photograph cannot be definitively identified from appearance alone—could be chicken, pork, or other poultry; species not explicitly named in source\",\n    \"No source text explicitly states the animal type of the visible cooked meat\",\n    \"Regional variant 'de La Pobla' is preserved but meat identity remains ambiguous\"\n  ],\n  \"reason\": \"Image quality, sharpness, lighting, composition and appeal all exceed threshold (all ≥4). Photograph is finished, exposed, naturally coloured, appetising and prominently detailed. Phone thumbnail shows the dish clearly without clipping. However, identity check fails: the source title 'Bocadillo Premium de La Pobla' provides no explicit species declaration for the visible meat filling. While a yellow/orange protein is clearly visible in both the full image and thumbnail, its exact animal origin cannot be confirmed from visual appearance alone and is not stated in the metadata. Per protocol, ambiguous meat species (where the animal cannot be named from an exact source quote) requires hold. No protein_evidence keys can be populated without an explicit source quote naming the animal.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1737,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 574,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
