@@ -100967,5 +100967,53 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 640,
     "height": 960,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-180430666",
+    "title": "File:1-2 PERi-PERi Chicken + Reg Chips + Drink, Nando's Carousel Westfield, 2025 (01).jpg",
+    "author": "Bahnfrend",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:1-2_PERi-PERi_Chicken_%2B_Reg_Chips_%2B_Drink,_Nando%27s_Carousel_Westfield,_2025_(01).jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/17/1-2_PERi-PERi_Chicken_%2B_Reg_Chips_%2B_Drink%2C_Nando%27s_Carousel_Westfield%2C_2025_%2801%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "48cf1bd7cad5df19258b518967d9ffe0a9ccb4bf",
+    "name": "1/2 PERi-PERi Chicken + Reg Chips + Drink",
+    "aliases": [],
+    "proteins": [
+      "chicken"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-180430666.jpg",
+    "assetSha256": "794f416649078f544643f527d1e39ed86627b93a222538d1926d42c001517f24",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 960,
+    "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-76414558",
+    "title": "File:Chicken, french fries, and bread for lunch, Nando's restaurant, Rosslyn, Arlington, Virginia.jpg",
+    "author": "Ser_Amantio_di_Nicolao",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chicken,_french_fries,_and_bread_for_lunch,_Nando%27s_restaurant,_Rosslyn,_Arlington,_Virginia.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Chicken%2C_french_fries%2C_and_bread_for_lunch%2C_Nando%27s_restaurant%2C_Rosslyn%2C_Arlington%2C_Virginia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "05edccc64969e04f019d9ae8a0a042e0739bd2e3",
+    "name": "Peri-peri chicken, chips, and garlic bread",
+    "aliases": [],
+    "proteins": [
+      "chicken"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-76414558.jpg",
+    "assetSha256": "88aba3d978b5e61bb2e450e836c24fc1a79f44c420db517dd6f9494084f4e3be",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];
