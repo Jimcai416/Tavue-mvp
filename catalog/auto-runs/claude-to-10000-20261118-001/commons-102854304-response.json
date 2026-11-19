@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBmLPZZxEZ3AhQ5LmqFF",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 3,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Plate visible with brown-sauced meat and what appear to be vegetable pieces\",\n    \"Sauce-heavy presentation with limited detail resolution at thumbnail size\",\n    \"Warm brown tones consistent with full image\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'Veal Piccata' but no source-document title field confirms this—only filename metadata\",\n    \"Description is a negative user review ('cat food', 'devoid of flavor'), not a dish specification\",\n    \"No explicit source text naming veal or any protein in the structured metadata provided\",\n    \"Piccata typically features lemon and capers; none are visibly distinct here\"\n  ],\n  \"reason\": \"Rejection: The source metadata does not include a formal dish title or description confirming the identity. The filename ('File:The Berghoff Veal Piccata...') is unstructured metadata and explicitly excluded as an instruction source. The 'description' field contains only a negative user review, not a dish specification. No structured title or description field validates 'Veal Piccata' or names veal as a protein. Without an authoritative source quote matching the dish name and protein, identity cannot be confirmed. The photograph is adequately sharp and composed, but the absence of verified dish identity is disqualifying.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1518,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 443,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
