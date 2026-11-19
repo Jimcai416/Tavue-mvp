@@ -8819,3 +8819,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 - **Cassava pone** — [stu_spivack](https://www.flickr.com/people/35034346243@N01). [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:Cassava_pone_(3153967448).jpg). Local asset: `reviewed-commons-101575896.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Johnnycakes** — Shockingly Tasty's photostream. [CC BY-SA 2.5](https://creativecommons.org/licenses/by-sa/2.5); [source](https://commons.wikimedia.org/wiki/File:Johnnycakes_(cropped).jpg). Local asset: `reviewed-commons-42083620.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Dhalpuri with Geera Chicken and Pumpkin** — anaxmedia. [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:Dhalpuri_with_Geera_Chicken_and_Pumpkin.jpg). Local asset: `reviewed-commons-154149082.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Michirones** — Avicentegil. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Michirones.JPG). Local asset: `reviewed-commons-6603288.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
