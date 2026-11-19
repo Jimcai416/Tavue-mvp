@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBfvnGKebWuMQpr517mz",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 5,\n    \"composition\": 5,\n    \"appeal\": 0\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows storefront exterior only\",\n    \"No food dish visible in phone image\",\n    \"Red shopfront with signage, no prepared food subject\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title is a filename/location, not a dish description\",\n    \"No actual food photograph supplied—image is a building/storefront exterior\",\n    \"Simit Palace is a restaurant name, not a dish identity\"\n  ],\n  \"reason\": \"The supplied image is a photograph of a restaurant storefront exterior (Simit Palace on Western Road, Brighton), not a finished, exposed food dish. No prepared food is visible, prominent or readable in either the full source or phone thumbnail. The source metadata provides only a building address and date, not a dish title or description. This violates the core requirement: 'Accept only a finished, exposed, likely photographic dish, sharply detailed, naturally coloured, appetising, prominent'. The photograph documents architecture and retail signage, not food content. Reject.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1729,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 372,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

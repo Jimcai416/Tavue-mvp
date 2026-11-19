@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBfvT1wBkTvPEQ3w123z",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Folded flatbread with spice seasoning (arayes visible)\",\n    \"Creamy beige dip with olive oil and spice drizzle (hummus visible)\",\n    \"White yogurt-based dip (laban visible)\",\n    \"Yellow rice with green herb garnish (top plate, back)\",\n    \"Sliced vegetables including purple cabbage, orange carrot, white onion\",\n    \"Falafel ball with white sauce drizzle\"\n  ],\n  \"phone_observations\": [\n    \"Composite plate clearly visible in thumbnail showing mixed components\",\n    \"Flatbread portion prominent and sharp\",\n    \"Creamy dip with decorative oil/spice pattern identifiable\",\n    \"Vegetable garnish visible and readable\",\n    \"No clipping of essential food elements\",\n    \"Finished, exposed dish in natural lighting\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title says 'arayes, hummus, laban, falafel y salata' but arayes (meat-filled flatbread) typically contains lamb or beef; source description does not explicitly name any animal protein\",\n    \"Falafel is chickpea-based (not meat), hummus is chickpea-based (not meat), laban is yogurt (not meat)\",\n    \"If arayes contains meat, the species is not explicitly stated in source\",\n    \"No protein category can be supported from explicit source quotation naming a specific animal\"\n  ],\n  \"reason\": \"Image quality, sharpness, lighting, composition and phone thumbnail visibility all meet acceptance standards. However, identity cannot be fully confirmed because the source description lists 'arayes' as a component, which is traditionally a meat-filled flatbread, but no explicit animal species is named in the source title or description. Falafel, hummus, laban and salata are all plant-based or dairy, not covered by the allowed protein categories. The unnamed meat in arayes (if present) cannot be assumed from tradition or appearance. Per rules, unknown meat species requires hold status.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1857,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 607,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
