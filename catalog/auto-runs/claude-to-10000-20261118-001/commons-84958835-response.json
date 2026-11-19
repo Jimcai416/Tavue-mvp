@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBMEZGWTz5xAz9HuDXuV",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Sliced pink/pale roasted meat on white plate\",\n    \"Pale lumpy dumplings with caramelised onion\",\n    \"Shredded cabbage side dish\",\n    \"Home-style plating consistent with Czech cuisine\"\n  ],\n  \"phone_observations\": [\n    \"Meat and dumplings clearly visible and prominent\",\n    \"Distinct components readable in thumbnail\",\n    \"Appetising home-cooked appearance preserved\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title specifies 'Bůček pečený po selsku' (home-style roasted pork knuckle/leg), but the visible meat slices do not definitively confirm pork species from appearance alone\",\n    \"Description mentions 'chlupaté knedlíky' (hairy/fluffy dumplings, colloquially 'klouzáky'), which matches visible lumpy potato dumplings with caramelised onion\",\n    \"Czech regional dish name and preparation method are clear, but exact source protein terminology ('Bůček') refers to a specific cut that requires explicit animal declaration in title/description—none provided in English-language metadata\",\n    \"Source title is in Czech; English description does not explicitly state 'pork'\"\n  ],\n  \"reason\": \"While the photograph is sharp, well-lit, appetising and shows finished home-style Czech cooking (dumplings, roasted meat, cabbage), and the phone thumbnail is clear and readable, the identity check fails because the source title and description do not explicitly name the protein as 'pork' in readable English-language text. The Czech term 'Bůček pečený' traditionally means pork knuckle, but this is inference from tradition and terminology, not an explicit source quote naming the animal. The protocol requires exact source declaration of species for meat dishes. The description identifies the dumplings precisely but omits categorical protein naming in the metadata supplied.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1810,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 578,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

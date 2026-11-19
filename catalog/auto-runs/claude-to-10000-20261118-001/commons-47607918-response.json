@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBMDxLJqSLSHa1epYRjV",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [\n    \"Red sausage visible and prominent\",\n    \"Mustard condiment clearly shown\",\n    \"Bread slice present\",\n    \"White plate/dishware visible\",\n    \"Thumbnail captures sausage, condiment and bread\"\n  ],\n  \"phone_observations\": [\n    \"Sausage, mustard and bread all legible in thumbnail\",\n    \"Composition readable at small scale\",\n    \"Essential components visible\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title uses 'knockwurst' but source metadata contains 'knackwurst' - inconsistent spelling in provided data\",\n    \"Species of sausage not explicitly named in title or description; 'knockwurst/knackwurst' is a category but specific meat composition (pork/beef blend/other) is not stated in the source material\",\n    \"Metadata describes dishware history and presentation context rather than confirming the dish identity or meat content\"\n  ],\n  \"reason\": \"Reject: protein_evidence cannot be populated because the source title/description does not explicitly name the animal(s) in the sausage. 'Knockwurst' and 'knackwurst' are sausage type names but do not constitute an exact quote naming chicken/beef/pork/duck/lamb/or seafood. Sausage species cannot be inferred from tradition or appearance. The inconsistency between 'knockwurst' and 'knackwurst' in metadata also creates ambiguity. Identity check fails: no exact meat qualifier can be extracted and verified from source material.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1640,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 496,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

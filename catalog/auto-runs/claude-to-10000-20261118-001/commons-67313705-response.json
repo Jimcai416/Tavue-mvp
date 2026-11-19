@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBME8aCrzU1Yrk1kVbhk",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Single nigiri-style piece on white ceramic plate\",\n    \"Raw fish fillet with silvery skin visible on top of rice\",\n    \"Professional sushi presentation\"\n  ],\n  \"phone_observations\": [\n    \"Nigiri sushi clearly visible in thumbnail\",\n    \"Fish and rice components readable\",\n    \"Appropriate scale and prominence for phone view\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Species identity unverifiable: 'Kohada' (dotted gizzard shad) is not in allowed protein categories (chicken/beef/pork/duck/lamb/seafood). Gizzard shad is a specific fish species, not a generic 'seafood' category.\",\n    \"Source describes prepared sushi but protein cannot be mapped to canonical allowed categories without explicit species confirmation in source\"\n  ],\n  \"reason\": \"Reject: The source description identifies this as 'Dotted gizzard shad (Kohada)' nigiri sushi. While the photograph is sharp, well-lit, and shows a finished sushi dish appetisingly presented with clear identity in both full and phone views, the protein species (gizzard shad/kohada) is not listed among the allowed protein categories (chicken/beef/pork/duck/lamb/seafood). The source does not use the word 'seafood' generically; it names a specific, unrecognised fish species. Without an explicit source quote mapping to an allowed category, this cannot be accepted.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1629,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 473,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
