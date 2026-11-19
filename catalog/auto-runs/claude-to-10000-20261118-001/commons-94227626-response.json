@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCuPGDpeSaUdGjGsMLhS",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 2,\n    \"composition\": 1,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Raw fish carcass visible in thumbnail with no finished dish appearance\",\n    \"Fish scales and anatomical structures dominate; uncooked/preparation stage\",\n    \"No recognizable plated or prepared food form\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title mentions 'Paksiw Imelda fish' and 'Sinampalukang Manok' but photograph shows only raw fish, not a finished dish\",\n    \"Metadata title/description conflict: source claims cooked dish but image shows raw preparation stage\",\n    \"No evidence of cooking, seasoning, sauce or finished presentation\",\n    \"Species identity unconfirmed: 'Imelda fish' is not a standard species name\"\n  ],\n  \"reason\": \"Rejection: Image shows raw fish at preparation/butchering stage, not a finished, cooked, or plated dish. Despite title claiming 'Paksiw' (a Filipino braised preparation), the photograph displays an ungutted fish carcass with visible scales and anatomical structures characteristic of raw handling. Phone thumbnail confirms raw/preparation content. All quality scores fall below threshold. No appetising finished dish evident. Severe discrepancy between source title (implying cooked dish) and actual photograph (raw fish). Does not meet 'finished, exposed, likely photographic dish' requirement.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 2166,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 448,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

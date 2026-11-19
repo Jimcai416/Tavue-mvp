@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCuPAJdF45FirHp53Cuh",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 2,\n    \"composition\": 2,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Raw whole fish, not a finished prepared dish\",\n    \"Essential subject clipped/cropped at edges in thumbnail\",\n    \"No recognisable cooked food elements visible\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title mentions 'Paksiw Imelda fish' and 'Sinampalukang Manok' but image shows raw whole fish on tiled floor, not a cooked dish\",\n    \"Source title/description mismatch: description references prepared dishes but photograph shows raw seafood at market or catch stage\",\n    \"Actual identity of shown fish species unclear from appearance alone\"\n  ],\n  \"reason\": \"Image shows raw whole fish laid on a floor, a preparation stage, not a finished exposed cooked dish. Source title describes prepared dishes (Paksiw, Sinampalukang Manok) but photograph contradicts this—it depicts raw fish inventory or catch, not a photographic dish suitable for Tavue. Thumbnail shows fish clipped at edges. Quality scores all fail minimum threshold. Title/photograph identity mismatch requires hold.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 2166,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 391,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

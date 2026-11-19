@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCuNcWfokLm97L31BBid",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Cooked shredded meat visible on plate\",\n    \"Leafy green vegetables present\",\n    \"Orange-red condiment or garnish visible\",\n    \"White ceramic plate\",\n    \"Natural outdoor setting\",\n    \"Finished, exposed dish\"\n  ],\n  \"phone_observations\": [\n    \"Plate clearly visible in thumbnail\",\n    \"Shredded meat discernible\",\n    \"Vegetables visible\",\n    \"Essential components readable at phone size\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title mentions 'Imelda fish' and 'Sinampalukang Manok' (chicken dish) but photograph shows what appears to be shredded meat with vegetables—identity unclear which dish is actually pictured\",\n    \"Metadata title contradicts itself: 'Paksiw Imelda fish' vs 'Sinampalukang Manok'—these are distinct dishes with different proteins (fish vs chicken)\",\n    \"No protein species can be confidently identified from the photograph alone without contradicting or inventing from the confused metadata\",\n    \"Visible form does not clearly match either 'Paksiw' (braise) or 'Sinampalukan' (soured with ginger) preparation style descriptions\"\n  ],\n  \"reason\": \"Source title contains conflicting dish names ('Paksiw Imelda fish' and 'Sinampalukang Manok') with incompatible proteins (fish vs chicken). The metadata is contradictory and unreliable. While the photograph shows a finished, well-composed dish with good quality, sharpness, lighting and appeal, the identity cannot be reliably established from the source description—no single canonical name can be extracted that matches the visible form. The title is internally inconsistent (names two different dishes), making it impossible to verify which dish is actually depicted or confirm protein identity from an exact source quote. Per instructions, source contradictions require hold.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 2166,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 579,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
