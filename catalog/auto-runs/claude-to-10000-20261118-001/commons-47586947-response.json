@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCNHeBdv7eJ9aUbPoHzP",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows active cooking in a large wok/pan with flame visible\",\n    \"Golden-brown spherical items visible but preparation stage dominates the frame\",\n    \"Active fire and cooking equipment prominent in phone thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Image shows active cooking/frying in progress, not a finished dish\",\n    \"Mandazi are fried dough pastries; this appears to capture mid-production rather than final plated food\",\n    \"Essential food components (the mandazi themselves) are present but subordinate to cooking process and flame\"\n  ],\n  \"reason\": \"Reject: This is a preparation/cooking stage photograph, not a finished, exposed dish. The source description explicitly states 'production of Mandazi' and the full image prominently features active flame, cooking vessel, and a cook's hands and body. While mandazi are visible as golden spheres in the pan, they remain in-process rather than finished and plated. The phone thumbnail confirms the cooking action dominates the composition. Tavue accepts finished dishes; production stages are excluded regardless of eventual palatability. No protein category can be assigned as mandazi are fried dough pastries without animal protein.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1631,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 413,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
