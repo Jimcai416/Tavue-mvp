@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCXfWrGHoGVdGa8uNzji",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 2,\n    \"composition\": 2,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows a person cooking over an open fire with a large flat pan/wok\",\n    \"No finished, plated dish visible in thumbnail\",\n    \"Subject is a preparation/cooking stage, not a completed dish\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title claims 'Cattle Intestines Soup' but no visible finished soup dish in either image\",\n    \"Only a cooking/preparation stage is shown, not an exposed, finished dish\"\n  ],\n  \"reason\": \"Reject: This is a preparation/cooking documentation photograph, not a finished dish photograph. The image shows a person in the act of cooking over an open fire with a large flat pan, but no completed, plated dish is visible. Neither the full source nor the phone thumbnail contains a finished, exposed, appetising dish suitable for intake. The composition shows a cooking method/technique rather than a food photograph. Additionally, the visual content (cooking in progress) does not match the claimed identity of a finished soup with identifiable components. Essential requirement: 'Accept only a finished, exposed, likely photographic dish' — not met.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1736,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 392,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

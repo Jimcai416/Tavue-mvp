@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCXfWh63aEhy25iKDyZx",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Four baked items in a container\",\n    \"Golden-brown bread rolls visible\",\n    \"Natural daylight overhead\",\n    \"Rolls appear whole and finished\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'Pandesal Mangoes' but image shows four baked bread rolls, not mangoes or mango-based dishes\",\n    \"Complete contradiction between source title and actual dish content\",\n    \"No visible mango, mango filling, or mango preparation in either photograph\",\n    \"Pandesal are Filipino bread rolls; no ambiguity about the food type, but the title is factually incorrect\"\n  ],\n  \"reason\": \"Identity check fails. The source title 'Pandesal Mangoes in the Philippines' contradicts the visible content: four plain or cinnamon-sugar bread rolls (pandesal) with no mango present, no mango filling visible, and no evidence of mango-based preparation. This is a critical source-identity mismatch. The photograph shows a finished, well-lit, appetizing baked good, but the metadata title is demonstrably false and creates unresolvable uncertainty about what dish this actually represents. Cannot establish a canonical name that matches visible form.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1987,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 425,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
