@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCs24yaLi6UpX12Scw5j",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Instant ramen noodles in broth\",\n    \"Visible vegetable garnish (green onion, diced carrot/corn)\",\n    \"Finished, served dish in white bowl\",\n    \"Warm, appetising appearance\"\n  ],\n  \"phone_observations\": [\n    \"Bowl and noodles clearly visible at centre\",\n    \"Ramen detail readable in thumbnail\",\n    \"No clipping of essential components\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title 'Jumbo Noodles (Paldo)' is a branded instant ramen product name, not a finished dish identity\",\n    \"No specific dish name provided beyond product brand\",\n    \"Metadata indicates packaged instant noodles prepared as-is, not a named regional or cultural dish variant\",\n    \"Cannot confirm whether this represents a specific canonical preparation style or regional variant\"\n  ],\n  \"reason\": \"Reject: Identity check fails. The source metadata provides only a branded product name ('Jumbo Noodles (Paldo)'), not a canonical dish name. The photograph shows instant ramen noodles prepared in broth with standard garnish, but without source-declared dish identity, regional variant, or preparation style beyond basic instant noodle preparation, canonical_name cannot be established. Metadata alone (product branding) is insufficient to establish dish identity. All quality and photographic criteria are met, but the identity requirement is mandatory for acceptance.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1880,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 467,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

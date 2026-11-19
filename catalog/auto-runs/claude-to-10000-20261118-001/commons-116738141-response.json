@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCs251oSt8wDgJwKqiEv",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Coiled instant ramen noodles, pale yellow, tightly compressed block\",\n    \"Dark red/brown condiment (likely gochujang or spicy sauce) in small white dish\",\n    \"White rectangular plate, clean presentation\",\n    \"Sharp detail of noodle texture and sauce colour\"\n  ],\n  \"phone_observations\": [\n    \"Noodle block clearly visible and sharp\",\n    \"Sauce small but distinguishable in phone thumbnail\",\n    \"Composition readable at thumbnail size\",\n    \"Overall visual hierarchy preserved\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'Paldo Bibim men (Spicy)' but photograph shows uncooked instant ramen block with separate condiment—not a prepared bibim men dish\",\n    \"Bibim men is a finished, mixed noodle dish; this is a packaging/product photograph of raw/dry noodle brick\",\n    \"No visible cooked state, mixing, or completion of the actual food item\",\n    \"Source title is a product name, not a dish description\"\n  ],\n  \"reason\": \"Identity check fails. The photograph shows an uncooked instant ramen brick (Paldo brand product) with a separate sauce packet, not a finished, prepared bibim men dish. Tavue accepts finished, exposed, cooked dishes. This is a raw/preparation stage product photograph. The title is a commercial product name rather than evidence of a completed culinary dish. Despite excellent image quality and sharp detail, the subject is an unconsumed, uncooked food item in packaging form rather than a prepared restaurant or home-cooked meal.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1568,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 508,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

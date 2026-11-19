@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCs251JuLZ9cQdZed5HD",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Three golden-brown cylindrical fried rolls on white plate\",\n    \"Red dipping sauce in small clear container\",\n    \"Natural daylight, well-exposed\",\n    \"Sharp detail of crispy exterior texture\",\n    \"Finished, cooked dish prominently displayed\"\n  ],\n  \"phone_observations\": [\n    \"Three rolls clearly visible and identifiable\",\n    \"Dipping sauce visible in thumbnail\",\n    \"Plate and composition recognizable\",\n    \"Appetising appearance maintained at scale\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'Spring Rolls' but visual form is cylindrical and tightly wrapped, consistent with spring rolls, egg rolls, or lumpia—ambiguous without interior visibility\",\n    \"No explicit protein identification in source metadata (chicken, pork, shrimp, vegetable, or mixed filling unknown)\",\n    \"Source title 'Sam Wo Spring Rolls' is a restaurant/location reference, not a specific dish variant descriptor\"\n  ],\n  \"reason\": \"Reject: Identity check fails. The source provides only a restaurant name ('Sam Wo Spring Rolls') and generic category ('Spring Rolls'), without explicit filling/variant specification or protein declaration. The visual form is consistent with multiple wrapped-roll dishes (spring rolls, egg rolls, lumpia) and interior contents are not visible. No exact dish variant phrase or protein evidence from source title/description can be extracted. Protein category cannot be supported from metadata alone. Quality, photograph, phone, and variant checks pass, but identity requirement is not met.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 2037,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 485,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
