@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCmKkc5Kur2heWYSqST8",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Full plate clearly shows a meat sandwich with roasted potatoes and garnish\",\n    \"Phone thumbnail captures the sandwich and potatoes prominently\",\n    \"Natural lighting, appetising presentation, finished dish\"\n  ],\n  \"phone_observations\": [\n    \"Sandwich with visible meat filling and roasted potato wedges clearly visible\",\n    \"Composition centred and recognisable at thumbnail scale\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source metadata lists 'Fatoush Turkish-Mediterranean Grill' but no specific dish name is provided in title or description\",\n    \"The sandwich meat species is not explicitly named in the source description—visual appearance suggests beef or lamb, but this cannot be confirmed from the source text\",\n    \"Dish identity cannot be matched to source title/description: the metadata only identifies the restaurant, not the specific dish ordered\"\n  ],\n  \"reason\": \"Rejection: source description identifies only the restaurant ('Fatoush Turkish-Mediterranean Grill') and date, not the specific dish name. No canonical_name can be extracted from the title or description that matches visible content. Protein species (beef/lamb) cannot be confirmed from source text—only inferred from appearance. Identity check fails: without an explicit dish name in source metadata, the dish cannot be verified against the description requirement.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1773,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 432,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

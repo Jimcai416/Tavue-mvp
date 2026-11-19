@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCmKkYboLz83sPoXyZT8",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Finished, cooked meat sandwich on seeded roll\",\n    \"Roasted potato wedges with caramelized exterior\",\n    \"Lettuce and tomato visible in sandwich\",\n    \"White sauce or spread on sandwich\",\n    \"Restaurant plating on white plate\",\n    \"Natural daylight, well-exposed\"\n  ],\n  \"phone_observations\": [\n    \"Sandwich and potatoes clearly visible in thumbnail\",\n    \"Meat sandwich fills right half of frame\",\n    \"Golden roasted potatoes prominent on left\",\n    \"Sandwich detail readable at reduced size\",\n    \"Plate and composition preserved in phone thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title references 'Fatoush Turkish-Meditterranean Grill' but the focal dish in photograph is a meat sandwich with roasted potatoes, not fatoush salad (which is visible blurred in background). Identity mismatch between source title and photographed subject.\",\n    \"Meat species cannot be determined with certainty from visual appearance alone—appears to be shredded or sliced roasted meat but could be beef, lamb, or other species. No explicit source quote identifying the protein.\",\n    \"Sandwich name or specific dish identity not provided in source description. The title refers to the restaurant and date, not the dish itself.\",\n    \"Background shows other plates including what may be fatoush salad, suggesting this photo captures a meal spread rather than a single identified dish\"\n  ],\n  \"reason\": \"Hold: Critical identity conflict. Source title and description identify the restaurant and date ('Fatoush Turkish-Meditterranean Grill...27 April 2016') but do not name the specific dish photographed. The focal subject is a meat sandwich with roasted potatoes, not fatoush. The protein species cannot be established from appearance alone, and no explicit source quote identifies the meat or the sandwich name. Canonical name requires an exact source quote that matches visible form; none is supplied. All photograph quality checks pass (sharpness, lighting, composition, appeal all ≥4; phone thumbnail preserves subject), but identity verification fails due to absence of specific dish naming in source metadata.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1773,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 628,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
