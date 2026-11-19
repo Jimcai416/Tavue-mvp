@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChC3CcUb1LeqxwBnBMdJG",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 2,\n    \"composition\": 2,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows indistinct pale brown/tan liquid with scattered green herb fragments and dark specks\",\n    \"Subject matter barely discernible at 124x96 resolution\",\n    \"No recognizable finished dish structure or appetising presentation\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title/description mismatch: 'Kootu Recipe' vs description 'veg spicy Dal' — recipe name does not match declared dish type\",\n    \"Ambiguous identity: Kootu typically refers to a vegetable-based curry, but 'Dal' suggests lentil preparation; sources contradict\",\n    \"No protein explicitly named in source\",\n    \"Image too soft and poorly lit to confirm any finished, appetising dish\"\n  ],\n  \"reason\": \"Reject: Source metadata contradiction (title 'Kootu Recipe' vs description 'veg spicy Dal') creates unresolved identity uncertainty. Image quality severely compromised — soft focus, poor lighting, inadequate sharpness (2/5) and appeal (1/5). Full photo shows muddled pale liquid with scattered herbs and unclear subjects, not a finished, sharply detailed, appetising dish. Phone thumbnail too indistinct to verify readable essential components. No protein evidence present. Does not meet quality, identity clarity, or appetising presentation standards.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1527,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 443,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

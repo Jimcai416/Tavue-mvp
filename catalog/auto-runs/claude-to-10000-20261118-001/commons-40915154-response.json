@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChC3CJmiocARttiQwf6pK",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [\n    \"Dark brown/purple brinjal pieces visible in reddish-brown tamarind gravy\",\n    \"Glossy wet surface indicating curry/kuzhambu\",\n    \"Served in a shallow bowl with spoon\",\n    \"Phone thumbnail clearly shows the dish composition\"\n  ],\n  \"phone_observations\": [\n    \"Brinjal pieces and gravy readable and identifiable\",\n    \"Bowl contents central and prominent\",\n    \"Adequate resolution for dish recognition\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title references 'File:' prefix and image filename format, suggesting metadata rather than user-provided source title\",\n    \"Brinjal (eggplant) is a vegetable, not a protein category; no meat, poultry, or seafood is visible or declared\",\n    \"Description states 'tamarind gravy made with brinjal' but does not explicitly name any animal protein as an ingredient\"\n  ],\n  \"reason\": \"Reject: The source metadata format (File: prefix, photographer attribution, license URL) indicates this is indexed image metadata, not a user-supplied dish title. More critically, brinjal kuzhambu is a vegetarian dish containing only eggplant and tamarind gravy. No protein ingredient (chicken/beef/pork/duck/lamb/seafood) is visible in the photograph or declared in the source description. The protocol requires protein_evidence to draw from explicit source quotes naming allowed animal categories; vegetable curries without named protein cannot be accepted under these criteria.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1631,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 485,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
