@@ -8898,3 +8898,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Soufiko** — Mario1952. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Soufiko.jpg). Local asset: `reviewed-commons-117585495.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Umm Ali** — Miansari66. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Umm_Ali.JPG). Local asset: `reviewed-commons-30058142.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
