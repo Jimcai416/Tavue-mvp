@@ -10058,3 +10058,9 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Pici with pistachio's pesto and meatballs** — [Luca Nebuloni](https://www.flickr.com/people/7897906@N06). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Pici_with_pistachio%27s_pesto_and_meatballs_(33547055151).jpg). Local asset: `reviewed-commons-57440886.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Chumbeque, turron originario del norte peruano** — Chasking. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Chumbeque,_dulce_piurano..JPG). Local asset: `reviewed-commons-18479522.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Flan de Turrón** — [Javier Lastras  from España/Spain](https://www.flickr.com/people/22662305@N04). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Flan_de_turron.jpg). Local asset: `reviewed-commons-10298086.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Turrón de Jijona o turrón blando** — Juan Emilio Prades Bel. [CC BY 4.0](https://creativecommons.org/licenses/by/4.0); [source](https://commons.wikimedia.org/wiki/File:Turr%C3%B3n.jpg). Local asset: `reviewed-commons-156861214.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
