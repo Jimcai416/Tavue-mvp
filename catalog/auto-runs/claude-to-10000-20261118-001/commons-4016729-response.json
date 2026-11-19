@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCFBv7MgEv5qGbv73Ecm",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Golden-yellow roasted vegetable strips (likely eggplant or similar)\",\n    \"Bright red roasted pepper\",\n    \"Glossy, caramelized surface indicating roasting\",\n    \"Natural colour, appetising appearance\"\n  ],\n  \"phone_observations\": [\n    \"Yellow vegetable component clearly visible\",\n    \"Red pepper component clearly visible\",\n    \"Sufficient detail to identify roasted vegetables\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title contains 'File:' prefix and filename extension, violating canonical_name rules\",\n    \"Description is vague and contradictory: mentions 'adjustment of meats or fish' but dish identity as escalivada (roasted vegetables) is unclear\",\n    \"No visible meat or fish component in photograph; description suggests optional/alternative ingredients rather than definite composition\",\n    \"Source metadata quality is poor: unclear authorship, generic description\"\n  ],\n  \"reason\": \"Reject: source metadata violates canonical naming rules (contains 'File:' prefix). More critically, identity cannot be confirmed—while the visible roasted vegetables appear to be escalivada, the source description contradicts itself by suggesting meats or fish as alternatives or adjustments, creating ambiguity about the actual dish identity. The photograph shows no meat or seafood component. Hold condition applies: source contradictions prevent confident identity confirmation.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1762,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 447,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
