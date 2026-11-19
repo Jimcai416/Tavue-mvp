@@ -8463,3 +8463,8 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 
 - **Couple of dürüm, with chicken meat** — E4024. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Couple_of_d%C3%BCr%C3%BCm.jpg). Local asset: `reviewed-commons-69764424.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Glutinous rice balls in syrup** — BYTE RIDER. [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:Glutinous_rice_balls_in_syrup.jpg). Local asset: `reviewed-commons-11456348.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Lotus peanut soup** — BAOSHUNLIN Hua 38383. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:SZ_%E6%B7%B1%E5%9C%B3_Shenzhen_%E7%A6%8F%E7%94%B0_Futian_%E6%B0%B4%E5%9C%8D_Shuiweicun_%E5%91%B3%E7%90%AA%E9%A4%90%E5%BB%B3_Wei_Qi_Restaurant_food_%E8%93%AE%E8%97%95_%E8%8A%B1%E7%94%9F%E6%B9%AF_Lotus_peanut_soup_August_2023_Px3_01.jpg). Local asset: `reviewed-commons-136827331.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Chicken Sisig** — Ralff Nestor Nacor. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Chicken_Sisig,_Mar_2024.jpg). Local asset: `reviewed-commons-145994592.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.

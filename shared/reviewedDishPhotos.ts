@@ -111872,5 +111872,51 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-136827331",
+    "title": "File:SZ 深圳 Shenzhen 福田 Futian 水圍 Shuiweicun 味琪餐廳 Wei Qi Restaurant food 蓮藕 花生湯 Lotus peanut soup August 2023 Px3 01.jpg",
+    "author": "BAOSHUNLIN Hua 38383",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:SZ_%E6%B7%B1%E5%9C%B3_Shenzhen_%E7%A6%8F%E7%94%B0_Futian_%E6%B0%B4%E5%9C%8D_Shuiweicun_%E5%91%B3%E7%90%AA%E9%A4%90%E5%BB%B3_Wei_Qi_Restaurant_food_%E8%93%AE%E8%97%95_%E8%8A%B1%E7%94%9F%E6%B9%AF_Lotus_peanut_soup_August_2023_Px3_01.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/05/SZ_%E6%B7%B1%E5%9C%B3_Shenzhen_%E7%A6%8F%E7%94%B0_Futian_%E6%B0%B4%E5%9C%8D_Shuiweicun_%E5%91%B3%E7%90%AA%E9%A4%90%E5%BB%B3_Wei_Qi_Restaurant_food_%E8%93%AE%E8%97%95_%E8%8A%B1%E7%94%9F%E6%B9%AF_Lotus_peanut_soup_August_2023_Px3_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "e955c1bc8f49b748cf8a6ec88cd33305f7a494db",
+    "name": "Lotus peanut soup",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-136827331.jpg",
+    "assetSha256": "1abebf7193a8c762c180f87968a1de86628094dca443856d4832b76cf896ec4b",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-145994592",
+    "title": "File:Chicken Sisig, Mar 2024.jpg",
+    "author": "Ralff Nestor Nacor",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chicken_Sisig,_Mar_2024.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Chicken_Sisig%2C_Mar_2024.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "07bf407c37919dd2b8273e02afddad0ac610b899",
+    "name": "Chicken Sisig",
+    "aliases": [],
+    "proteins": [
+      "chicken"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-145994592.jpg",
+    "assetSha256": "a674b132b3c35bfb4f9006a51e31e7a202743b0d65387ad961d4f0e658dc7198",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 723,
+    "requiresExactMenuName": true
   }
 ];
