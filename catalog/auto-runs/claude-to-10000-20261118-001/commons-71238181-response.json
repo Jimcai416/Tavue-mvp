@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBW3svQp5J2bqL32gM36",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Child with plate visible in thumbnail\",\n    \"Green bowl prominent in frame\",\n    \"Domestic/street setting\",\n    \"No finished dish clearly visible in phone thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title references 'Dal Bhat' but no dal or bhat is visibly present or prominently featured in either the full image or phone thumbnail\",\n    \"The plate in the child's hand is too distant and poorly resolved to confirm it contains dal bhat or any identifiable finished dish\",\n    \"The green bowl is empty or contains unclear contents in both images\",\n    \"The image is primarily a portrait of a child in a domestic/street setting, not a food photograph of a prepared dish\"\n  ],\n  \"reason\": \"Identity check fails. The source title claims 'Dal Bhat' but neither the full photograph nor the phone thumbnail shows a finished, clearly identifiable dal bhat dish prominently featured and sharply detailed. The plate held by the child is too distant and blurred to confirm any finished dish. The green bowl appears empty. This is fundamentally a portrait/lifestyle photograph rather than a food photograph meeting Tavue standards for a finished, exposed, appetising dish with readable essential components.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1679,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 416,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
