@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChD8ru29vn3qoTVHypZTU",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 1,\n    \"lighting\": 2,\n    \"composition\": 1,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Scene shows outdoor street/plaza setting with people and vendor tents\",\n    \"No distinct food dish visible in either full or thumbnail image\",\n    \"Architecture and crowd are primary subjects, not plated food\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"No finished, exposed food dish is visible or identifiable\",\n    \"Description mentions 'comida criolla' (Creole food) in a passage, but no specific dish is shown\",\n    \"Image captures the venue/setting, not a photographic representation of food\"\n  ],\n  \"reason\": \"This is an architectural/street scene photograph showing an outdoor market or vendor area with crowds and tent-lit stalls. No finished, exposed, sharply detailed food dish is prominent or identifiable in either the full source or phone thumbnail. The image documents a dining location rather than capturing a specific prepared dish. This violates the core requirement of accepting only finished, exposed, likely photographic dishes that are appetisingly presented and sharply detailed with readable components.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1550,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 368,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
