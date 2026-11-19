@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCnK26Kv4yt9TD99nxxm",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Paella visible in wooden spoon and pan\",\n    \"Rice, seafood components (orange/pink crustacean pieces), and green herbs visible\",\n    \"Active cooking stage with wet, steaming appearance\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Image shows actively cooking/mid-preparation stage, not a finished, exposed dish\",\n    \"Exact seafood species/components not identifiable with certainty (crustacean pieces visible but species ambiguous)\",\n    \"Source title references only 'paella de marisco' (seafood paella) in cooking process, not a finished plated dish\",\n    \"No specific protein names provided in source description to match against visible form\"\n  ],\n  \"reason\": \"Reject: This photograph documents a preparation/cooking stage ('Momento en el proceso de cocinado') rather than a finished, exposed, plated dish. The paella is actively being stirred mid-cook, with visible steam and wet rice. Per guidelines, raw/preparation stages must be rejected. Additionally, the source provides only the generic category 'paella de marisco' without naming specific seafood species; visible crustacean pieces cannot be reliably identified to species level, and no explicit protein quote exists in the source to satisfy protein_evidence requirements. Identity cannot be confirmed beyond the cooking-stage descriptor.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1740,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 443,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
