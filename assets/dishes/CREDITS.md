@@ -9939,3 +9939,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 
 - **Pâté de campagne et baguette au levain** — Julien Bertrand. [Public domain](https://creativecommons.org/publicdomain/mark/1.0/); [source](https://commons.wikimedia.org/wiki/File:Camp_pat.JPG). Local asset: `reviewed-commons-12194263.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Pâté de campagne** — Marianne Casamance. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Lafare_Bistrot_P%C3%A2t%C3%A9_de_campagne.JPG). Local asset: `reviewed-commons-46226962.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Papas rellenas** — MiguelAlanCS. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Papas_rellenas_Per%C3%BA.jpg). Local asset: `reviewed-commons-65742332.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.

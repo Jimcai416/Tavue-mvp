@@ -128530,5 +128530,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-65742332",
+    "title": "File:Papas rellenas Perú.jpg",
+    "author": "MiguelAlanCS",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Papas_rellenas_Per%C3%BA.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/be/Papas_rellenas_Per%C3%BA.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "f6b148e99ff6327f1518c34577cbe816be5c2377",
+    "name": "Papas rellenas",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-65742332.jpg",
+    "assetSha256": "f7084de03240c4188b7077ef16674af92c3e7ecd0c5c7947d13cc14aac8aa804",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 683,
+    "requiresExactMenuName": true
   }
 ];
