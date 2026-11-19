@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBQwyDf5SmhL65QPbiaD",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Homogeneous pureed soup in white disposable bowl\",\n    \"Golden-tan colour consistent across surface\",\n    \"No visible discrete ingredients or vegetable chunks\",\n    \"Thumbnail confirms smooth, blended texture\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title states 'Pea soup' but visual appearance is a smooth purée with uniform golden-tan colour typical of a cream soup or potentially processed product, not characteristic of traditional pea soup which typically shows visible pea fragments or a greener hue\",\n    \"Description 'Pea soup with onion' provides no protein category match (onion is vegetable, not a supported protein)\",\n    \"Homogeneous texture and colour do not visually confirm pea identity; could be any legume or vegetable purée\",\n    \"Metadata indicates this is a file photograph (File: prefix), not a submitted dish photograph\"\n  ],\n  \"reason\": \"Identity mismatch: visual appearance of a smooth, golden-tan purée does not match the expected characteristics of pea soup (which typically contains visible pea pieces or displays green colour). The description provides only vegetable ingredients with no supported protein category. Metadata indicates this is an archived file image rather than a Tavue user submission. All checks cannot be confirmed true, and identity check fails due to source-visual contradiction.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1864,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 447,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
