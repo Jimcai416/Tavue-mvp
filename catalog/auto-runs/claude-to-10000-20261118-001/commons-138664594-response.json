@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBPLVesSKCi61Uf3hx5L",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 3,\n    \"lighting\": 2,\n    \"composition\": 2,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Dish visible but small and unappetising in thumbnail\",\n    \"Orange/brown diced matter in plastic container with utensil\",\n    \"Black mug beside; composition cramped\",\n    \"No clear detail of finished dish quality or components\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title metadata references 'Pyttipanna' but no explicit protein declaration in title or description\",\n    \"Diced component appearance suggests potato-dominant preparation; no visible meat, sauce, or garnish clearly identifiable\",\n    \"Description states 'convenience meal' and 'cup of water'—suggests reheated/packaged or preparatory stage rather than finished plated dish\",\n    \"Image context (plastic container, utilitarian setting) and low visual appeal suggest preparation or serving stage, not a finished appetising photograph\"\n  ],\n  \"reason\": \"Reject: Identity uncertain—source title contains 'Pyttipanna' but no explicit protein named in supplied title or description. Photograph shows diced material in a plastic container with poor lighting, low sharpness (score 3), unappealing composition (score 2), and minimal visual detail. The setting, utilitarian presentation, and reference to 'convenience meal' and plain water suggest a preparatory or reheated stage rather than a finished, exposed, appetising dish. Phone thumbnail offers no sufficient visual confirmation of a complete, well-presented food item. Protein evidence cannot be sourced from visual appearance alone, and no explicit animal declaration is present in metadata.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1734,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 486,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
