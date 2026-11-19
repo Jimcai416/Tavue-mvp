@@ -93370,5 +93370,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-125328490",
+    "title": "File:Moroccan Mint Tea - 2.jpg",
+    "author": "Sarkar Sayantan",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Moroccan_Mint_Tea_-_2.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/23/Moroccan_Mint_Tea_-_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "e18263794d32f78c68aa676199aadab2643bf9ce",
+    "name": "Moroccan Mint Tea",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-125328490.jpg",
+    "assetSha256": "36bcb139084e5dee0af94fccb80c8ad8e69ef68316bb832d1bbbcb172f629576",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 768,
+    "height": 960,
+    "requiresExactMenuName": true
   }
 ];
