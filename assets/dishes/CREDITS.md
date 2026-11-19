@@ -8156,3 +8156,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 - **Famous Falooda** — Maduaraifamousjigarthandallp. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Famous_Falooda.jpg). Local asset: `reviewed-commons-160908074.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Murgh Musallam** — Miansari66. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Murgh_Musallam.JPG). Local asset: `reviewed-commons-23097432.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Fat-free lassi from Mumbai** — Swami Stream. [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Fatfreelassi.jpg). Local asset: `reviewed-commons-6931050.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Jigarthanda** — KARTY JazZ. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Jigarthanda.JPG). Local asset: `reviewed-commons-37198121.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.

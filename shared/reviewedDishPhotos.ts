@@ -108294,5 +108294,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 640,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-37198121",
+    "title": "File:Jigarthanda.JPG",
+    "author": "KARTY JazZ",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jigarthanda.JPG",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/46/Jigarthanda.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "deef662ee4f1a28a948ad2aed4f7f2b936bdd491",
+    "name": "Jigarthanda",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-37198121.jpg",
+    "assetSha256": "b54f6a53aefc56a003236db72439ac01791c5159f843d684dc1e065ef9007693",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 640,
+    "height": 960,
+    "requiresExactMenuName": true
   }
 ];
