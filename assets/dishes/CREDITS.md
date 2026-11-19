@@ -10257,3 +10257,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Vegetable Fajitas** — [Jennifer  from Vancouver, Canada](https://www.flickr.com/people/40650893@N04). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Vegetable_Fajitas_(4188499456).jpg). Local asset: `reviewed-commons-35685653.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Aloo tikki chaat with papdi** — Ivyselene. [CC BY 4.0](https://creativecommons.org/licenses/by/4.0); [source](https://commons.wikimedia.org/wiki/File:Delhi_Classic_-_Aloo_Tikki_Chaat_with_Papdi.jpg). Local asset: `reviewed-commons-203183211.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.

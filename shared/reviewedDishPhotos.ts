@@ -131820,5 +131820,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "height": 637,
     "requiresExactMenuName": true,
     "authorUrl": "https://www.flickr.com/people/40650893@N04"
+  },
+  {
+    "id": "commons-203183211",
+    "title": "File:Delhi Classic - Aloo Tikki Chaat with Papdi.jpg",
+    "author": "Ivyselene",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Delhi_Classic_-_Aloo_Tikki_Chaat_with_Papdi.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Delhi_Classic_-_Aloo_Tikki_Chaat_with_Papdi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "2d0e756cdf93d0f2d50f2b9c061a3066a9c3e0d9",
+    "name": "Aloo tikki chaat with papdi",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-203183211.jpg",
+    "assetSha256": "0e7ec7e5a2500ab9d5c373c285188f1b3d6a8d68661711802a9bc7e58342f64b",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 957,
+    "requiresExactMenuName": true
   }
 ];
