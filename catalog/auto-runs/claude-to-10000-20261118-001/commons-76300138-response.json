@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCXGmwEhtt7Nq9tDgUeH",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Finished, cooked broth-based soup in white bowl\",\n    \"Prominent cubed meat pieces (reddish-brown, appears beef)\",\n    \"Greenish broth with visible herbs/parsley garnish\",\n    \"Sharp detail in both source and phone thumbnail\",\n    \"Natural lighting and appetising presentation\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows meat cubes in broth\",\n    \"Essential dish components fully visible and legible\",\n    \"No clipping of critical elements\",\n    \"Colour and texture match source photograph\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source metadata states 'Czeska zupa czosnkowa' (Czech garlic soup), but no garlic is visually prominent and the dish appearance is atypical for traditional Czech garlic soup\",\n    \"Meat species cannot be confirmed from visual appearance alone; source description does not explicitly name the animal\",\n    \"Discrepancy between title/description ('garlic soup') and visible form (chunked meat soup with herb garnish and greenish broth)\"\n  ],\n  \"reason\": \"Identity check fails: source description 'Czeska zupa czosnkowa w Poznaniu' (Czech garlic soup in Poznan) does not match the visible form, which shows a substantial meat and herb broth soup with no discernible garlic component or traditional Czech garlic soup characteristics. Protein cannot be confirmed—no explicit animal name in source metadata. Contradiction between declared identity and photograph contents requires hold pending clarification.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1769,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 493,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
