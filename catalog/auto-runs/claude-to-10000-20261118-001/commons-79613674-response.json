@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBYfDUNE2AJTrdxFPy2t",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Street food stall with multiple cooking vessels\",\n    \"Dark brown curry/stew in foreground pan\",\n    \"Red/orange sauce in background pans\",\n    \"Golden fried items visible at top of image\",\n    \"Professional food service setup\"\n  ],\n  \"phone_observations\": [\n    \"Brown meat-based dish clearly visible in centre pan\",\n    \"Red sauce pans prominent in background\",\n    \"Fried items at top of thumbnail\",\n    \"Food service stall setting confirmed\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title references 'Gulai Kapau' (a Minangkabau dish) but source metadata shows only 'Beragam jenis gulai pada nasi kapau' (Various types of gulai with nasi kapau)\",\n    \"Multiple curry types visible in different pans; unclear which specific dish is the subject\",\n    \"Meat species in the brown curry pan not visually identifiable with certainty\",\n    \"No explicit protein naming in source description\",\n    \"Ambiguity whether this is a single dish or a collection display\"\n  ],\n  \"reason\": \"Source title/description does not explicitly identify a single canonical dish name or any protein species by name. The description 'Beragam jenis gulai pada nasi kapau' means 'Various types of gulai with nasi kapau'—a collection of curries, not a specific identifiable dish. The filename 'Gulai Kapau.jpg' is metadata and cannot serve as authoritative identity evidence per instructions. Multiple curry pans are visible but their individual contents, protein species, and specific preparation methods are not named in the source description. Protein species cannot be reliably inferred from appearance alone. Identity check fails due to source ambiguity and lack of explicit protein naming.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1730,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 549,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
