@@ -8828,3 +8828,9 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 
 - **shrimp Étouffée** — Alvin Wong. [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Acme_Oyster_House_French_Quarter_New_Orleans_March_2010_05.jpg). Local asset: `reviewed-commons-76252452.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Home stovies, cooked with optional peas** — AmadeusShiftwood. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Stovies2.jpg). Local asset: `reviewed-commons-97506282.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Papas a la huancaína** — Beatrizquiroga. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Papas_a_la_huancaina_.jpg). Local asset: `reviewed-commons-85012748.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Stovies with beef leftovers** — Mutt Lunker. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Stovies_with_beef_leftovers_%26_oatcakes.jpg). Local asset: `reviewed-commons-97509805.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Salsa huancaina** — Ezftiyiuhoerijzeury'tbh. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Salsa-huancaina.jpg). Local asset: `reviewed-commons-117633740.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
