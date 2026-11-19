@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBjqa8tPNzV4DENHT5kU",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 3,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Two clear plastic containers with sliced, pale, cooked meat strips\",\n    \"Raw/preparation stage: ingredient components visible in containers, not a finished plated dish\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title describes 'Nakrájené vařené vepřové kůže' (sliced cooked pork skin) but presents no finished, plated dish—only ingredient prep in storage containers\",\n    \"Description references 'Dršťková polévka' (tripe soup) but the photograph shows only raw component material, not the finished soup dish\",\n    \"Identity mismatch: source claims to illustrate a soup, but image shows ingredient staging\"\n  ],\n  \"reason\": \"Reject: This is a preparation/ingredient staging photograph, not a finished, exposed, plated dish. The source description claims to show Dršťková polévka (tripe soup from pork skin), but the actual image displays only sliced cooked pork skin components stored in plastic containers. The dish is not assembled, cooked, plated, or presented as a finished food item. Appeal is insufficient. Photographs of raw materials or ingredient prep stages do not meet acceptance criteria, even if the metadata describes an intended final dish.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1814,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 426,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBjq9UKRGYcy2pVShPDN",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 3,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows raw dough on ash/coals with active flames in background\",\n    \"Essential subject (the finished bread) is not clearly visible in phone thumbnail\",\n    \"Image appears to capture preparation/cooking stage rather than finished dish\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title references 'taguella' (Tuareg bread) but image shows dough on coals at preparation stage, not a finished, exposed, plated dish\",\n    \"No finished, cooked bread visible in phone thumbnail—only raw dough and active fire\",\n    \"Image documents cooking method rather than appetising finished product\"\n  ],\n  \"reason\": \"Reject: This is a preparation/cooking-stage photograph, not a finished dish. The phone thumbnail fails the essential requirement of showing a finished, exposed, appetising dish with readable components. The image captures raw dough being cooked on coals with active flames—a preparation documentation rather than a food photograph suitable for Tavue. The finished bread result is not clearly visible or prominently featured in either the full image or thumbnail.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1955,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 387,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
