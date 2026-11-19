@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCja8RtoCh8YM8axL9Pt",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Multiple whole fried fish with golden-brown exterior\",\n    \"Charred skin visible on fish bodies\",\n    \"Fish arranged on dark textured plate\",\n    \"Cooked, exposed finished dish\"\n  ],\n  \"phone_observations\": [\n    \"Fried fish clearly visible in thumbnail\",\n    \"Golden-brown colour preserved in reduction\",\n    \"Multiple whole fish recognisable\",\n    \"Dish prominence adequate for phone view\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title 'Lele goreng khas pantura' identifies dish as fried catfish (lele = catfish in Indonesian), but 'seafood' is the only allowed protein category and catfish is freshwater fish, not seafood\",\n    \"No explicit source quote names the fish species in English or confirms it falls under 'seafood' classification\",\n    \"Catfish is not in the allowed proteins list (chicken/beef/pork/duck/lamb/seafood)\",\n    \"Cannot match visible fish to canonical protein category from source metadata\"\n  ],\n  \"reason\": \"Reject: Identity cannot be established within constraints. Source title indicates 'Lele goreng khas pantura' (fried catfish, Pantura style), but catfish is freshwater fish and does not qualify under the allowed 'seafood' protein category. No explicit source quote provides an English species name or confirms eligibility. Protein evidence cannot be populated with allowed category keys. While photograph and phone thumbnail quality are acceptable, protein classification failure prevents acceptance.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1727,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 485,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
