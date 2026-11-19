@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBKkR1X1BJb4YRyW1VH1",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Bamboo steamer basket with three white dumplings\",\n    \"Dumplings marked with decorative brown/tan impressions\",\n    \"Parchment paper lining steamer\",\n    \"Marble table surface\",\n    \"Order ticket and decorative carton visible in background\"\n  ],\n  \"phone_observations\": [\n    \"Three white spherical dumplings clearly visible in steamer\",\n    \"Decorative face-like markings on each dumpling visible in thumbnail\",\n    \"Steamer basket edges visible\",\n    \"Adequate detail for dish recognition at mobile scale\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title 'Dim sum 3.jpg' is a filename, not a dish description\",\n    \"Metadata provides no specific dish name or variant identifier\",\n    \"Only country (China) is sourced; no regional or preparation qualifiers\",\n    \"Dumpling filling type cannot be determined visually or from metadata\",\n    \"No explicit protein declaration in source\",\n    \"Specific dim sum variety not identified\"\n  ],\n  \"reason\": \"Reject: Source metadata lacks a canonical dish name. The title 'Dim sum 3.jpg' is a filename only. No description field provides a specific dish identity, variant name, preparation method, or protein declaration. 'Dim sum' alone is a category, not a named dish. Identity check fails because there is no authoritative source phrase to match against visible content. All other image quality checks pass, but absence of a verifiable, specific source description makes canonical_name assignment impossible.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1554,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 495,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

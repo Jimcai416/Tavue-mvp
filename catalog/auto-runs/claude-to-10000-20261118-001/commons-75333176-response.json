@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBKk8fmUvCsbGEvkoJKs",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [\n    \"Full image shows foil-wrapped hand-held items with visible fillings (white cheese/paneer, green leaves, red fruits/tomatoes) on toasted bread bases\",\n    \"Accompanying bowls contain popcorn, red condiment, crushed nuts, and white sauce\",\n    \"Multiple plated examples visible and coherent with paan preparation context\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail shows same subject matter but items are severely reduced and compressed\",\n    \"Essential detail of individual paan components (cheese, leaves, fruit toppings) is lost at 124×96 resolution\",\n    \"Foil wrapping appears as faint texture only\",\n    \"Items too small to read composition or assess appetizing presentation\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title describes 'Paan' (betel leaf preparation), but full photograph clearly shows toasted bread bases with white cheese and foil wrapping—this is consistent with Indian pani puri or gol gappa preparation, not traditional paan which is a betel leaf wrap\",\n    \"Identity mismatch between source description and visible form: paan is a betel-leaf-based preparation, but the photograph shows bread-based items\",\n    \"No protein animals explicitly named in source description\"\n  ],\n  \"reason\": \"REJECT: Identity contradiction. Source title/description claims 'Paan' (traditional betel leaf wrap), but photograph clearly shows toasted bread bases with cheese and foil-wrapped toppings—inconsistent with paan identity. Additionally, phone thumbnail fails acceptance: at 124×96 pixels, essential details of individual items, cheese, leaves, and toppings are indistinguishable; foil-wrapped items appear as indecipherable texture. The thumbnail does not meet the standard for readable essential components. Source description contains no explicit protein animal naming. Mismatch between claimed dish and visual form prevents identity verification.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1750,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 573,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
