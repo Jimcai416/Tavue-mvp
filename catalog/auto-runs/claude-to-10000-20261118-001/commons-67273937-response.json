@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBfCpAzWhwpe8yaRigg7",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 3,\n    \"appeal\": 3\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows granular, crumbly texture consistent with corned beef hash\",\n    \"Pink/salmon meat colour visible with pale cubed potato pieces\",\n    \"Composition and texture legible in phone thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source metadata lists three distinct dishes (Tuyo Fried rice, Omelettes, Armour Corned Beef Hash) without clear correspondence to this photograph\",\n    \"Metadata contradiction: image filename suggests one dish category but description lists multiple unrelated items\",\n    \"Cannot definitively match photograph to a single canonical dish from the ambiguous source description\",\n    \"Metadata does not explicitly confirm which dish this photograph represents\"\n  ],\n  \"reason\": \"Reject due to source identity contradiction. The description lists three separate Philippine dishes (Tuyo Fried rice, Omelettes, Armour Corned Beef Hash) without clarity about which dish this photograph depicts. While the visual appearance resembles corned beef hash with diced potatoes, the metadata ambiguity and lack of explicit assignment prevent confident identity verification. The filename and description do not provide a single, unambiguous canonical dish name. Identity check fails.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1826,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 412,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
