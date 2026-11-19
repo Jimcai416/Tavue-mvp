@@ -135151,5 +135151,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-191608114",
+    "title": "File:Soto Mi Bogor.jpg",
+    "author": "Happywu",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Soto_Mi_Bogor.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Soto_Mi_Bogor.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "d98d1b9c4111078da090d6dc453b3a78c97896d7",
+    "name": "Soto Mie Bogor",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-191608114.jpg",
+    "assetSha256": "4573bdeecc522d9119224cb470f1b416bb0a7019bcae2020734dc7b03a850c06",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 720,
+    "height": 960,
+    "requiresExactMenuName": true
   }
 ];
