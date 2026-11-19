@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCCqWJbkeuefGWY2CnEx",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 2,\n    \"composition\": 2,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Plate visible with bread and side dishes\",\n    \"Severe motion blur and softness throughout thumbnail\",\n    \"Poor focus and lighting conditions\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title metadata is filename only; no proper dish description provided\",\n    \"Image quality severely compromised: soft focus, motion blur, poor lighting\",\n    \"Severe glare and unfocused presentation throughout both source and thumbnail\",\n    \"Roti visible but incomplete and clipped at edges\",\n    \"Side dishes (Rajma, Kundri) cannot be clearly identified or verified visually\",\n    \"No clear, sharp, appetising presentation of finished dish\",\n    \"Photograph taken overhead on decorative cloth background rather than proper food photography context\"\n  ],\n  \"reason\": \"Rejection: Image fails multiple critical criteria. The photograph exhibits severe softness, motion blur, and poor focus that make it unsuitable for food review (sharpness=2, lighting=2). The source metadata is a filename without a proper dish title or description—only 'Thali Dinner - Rajma,Kundri,Roti' as tags, which are insufficient for identity verification. The roti is partially clipped in the thumbnail; side dishes are not distinctly visible or verifiable. Lighting is poor with glare affecting the central components. The composition and appeal scores are critically low. No finished, exposed, sharply detailed dish with naturally readable essential components is evident in either the full image or the phone thumbnail. This does not meet acceptance standards for photograph quality or identity certainty.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1750,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 496,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
