@@ -126574,5 +126574,51 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 720,
     "height": 960,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-163413717",
+    "title": "File:Shrimp and grits from Boudro's in San Antonio.jpg",
+    "author": "Gatorfan252525",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Shrimp_and_grits_from_Boudro%27s_in_San_Antonio.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Shrimp_and_grits_from_Boudro%27s_in_San_Antonio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "280e4719a8cfb9239f5e7dd52c34bec0bfcee099",
+    "name": "Shrimp and grits from Boudro's in San Antonio",
+    "aliases": [],
+    "proteins": [
+      "seafood"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-163413717.jpg",
+    "assetSha256": "fd3d2e2c8b75d3b59caaf5fd61b27425bdc52c42996678056477098172fee92f",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-203332723",
+    "title": "File:Pimento cheese sandwiches.jpg",
+    "author": "Palmetto Cheese",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pimento_cheese_sandwiches.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/18/Pimento_cheese_sandwiches.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "b47202fd0416c7e13a0915ccc9fe7bb2a9caa104",
+    "name": "Pimento cheese sandwiches",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-203332723.jpg",
+    "assetSha256": "69ec844434d80f8eb32b8b9dd69b90251d22a4e1cb17a2b96ade74a54ba91ec6",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 894,
+    "height": 960,
+    "requiresExactMenuName": true
   }
 ];
