@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBUkvDyjRs6RvuWmhDuR",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 5,\n    \"appeal\": 5\n  },\n  \"visible_support\": [\n    \"Mixed grilled meats including sausage, steak and smaller cuts\",\n    \"Roasted potatoes and mushrooms\",\n    \"Fresh cucumber slices and lettuce garnish\",\n    \"Lemon wedges\",\n    \"Central bowl containing red sauce consistent with lyutenitsa\",\n    \"Red peppers visible as garnish\",\n    \"Natural colours, sharp detail, appetising presentation\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows composed meat platter with multiple protein types\",\n    \"Central red sauce bowl prominent and identifiable\",\n    \"Vegetables and garnish visible and readable\",\n    \"Platter composition well-preserved in thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title describes 'Meat dish' without specifying which animal species constitute the visible meats\",\n    \"Sausage visible on the platter cannot be categorised without explicit species declaration in source\",\n    \"Steak type (beef/pork) not explicitly named in source description\",\n    \"Generic 'Meat dish' does not provide sufficient specificity to map proteins to canonical categories\"\n  ],\n  \"reason\": \"Image quality, composition and phone thumbnail are excellent. However, identity check fails: the source description 'Meat dish with garnish and lyutenitsa sauce' is too generic and does not specify which animal proteins are present. While multiple meat types are visibly present (including sausage of unknown species, steaks, and smaller cuts), the source provides no explicit animal names. Sausage species cannot be inferred from appearance. Without source-explicit protein identification matching canonical requirements (chicken/beef/pork/duck/lamb/seafood), no valid protein_evidence can be generated and the dish cannot receive a specific canonical name. This violates the identity requirement that canonical_name must be a specific dish phrase matching source title/description with meaningful qualifiers preserved.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1791,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 567,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

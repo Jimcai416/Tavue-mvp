@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBUmuw9bxftkBgWjahsN",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Toasted bread slices clearly visible\",\n    \"White ramekin with golden spread (purportedly rouille)\",\n    \"Spoon resting in the ramekin\",\n    \"Lace doily plating presentation\",\n    \"Golden-brown toast colouration consistent with crust-toasted preparation\"\n  ],\n  \"phone_observations\": [\n    \"Toast slices and golden spread remain identifiable\",\n    \"Ramekin and spoon visible at right\",\n    \"Overall composition readable in thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'Bouillabaisse' but image shows only croûtons and rouille (toast and garlic-saffron spread) — components of bouillabaisse, not the finished dish\",\n    \"Bouillabaisse is a Provençal fish soup; no soup, fish, or broth is visible\",\n    \"Description accurately names the components shown, but not a standalone finished dish\",\n    \"Source metadata describes accompaniments only, not a complete identifiable dish\"\n  ],\n  \"reason\": \"Identity check fails. The image shows croûtons and rouille in isolation — garnish and condiment components of bouillabaisse — not the finished bouillabaisse dish itself (a fish soup). The source description ('Croûtons et rouille de bouillabaisse') explicitly names these as parts of a larger dish, not a standalone finished food suitable for menu photography. While photograph and phone thumbnail quality are acceptable, the visible subject does not meet the standard of 'a finished, exposed dish' — only its bread and spread accompaniments are present.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1470,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 515,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
