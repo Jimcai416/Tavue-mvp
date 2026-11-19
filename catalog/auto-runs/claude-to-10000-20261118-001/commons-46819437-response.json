@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBpnzSsknHkCgg7o66iD",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Golden-brown fried spheres visible in thumbnail\",\n    \"Green vegetable accompaniment present\",\n    \"Yellow spheres (likely corn or polenta) visible\",\n    \"Microgreens/pea shoots decoration evident\",\n    \"Professional plating on white plate\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title claims 'Battered Halloumi' but halloumi is a cheese, not a protein category supported by the system (chicken/beef/pork/duck/lamb/seafood only)\",\n    \"Visual appearance is consistent with fried cheese, but cheese does not map to accepted protein categories\",\n    \"No animal protein visible or stated in source that would qualify under allowed categories\"\n  ],\n  \"reason\": \"Identity check fails. The source explicitly identifies this as 'Battered Halloumi' – a fried cheese dish. Halloumi is a cheese product and does not fall within the allowed protein categories (chicken/beef/pork/duck/lamb/seafood). Although the photograph quality, composition, lighting and phone thumbnail are all acceptable, and the dish is clearly a finished, exposed, appetising photograph, the absence of any qualifying protein evidence means this cannot be accepted. Cheese-based dishes without a named animal protein source do not meet acceptance criteria.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1774,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 436,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBppFxJqzGhUa8xFEe5X",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Four brown spherical meatballs on plate with orange sauce and green vegetable strips\",\n    \"Red/brown broth in glass with spoon on left\",\n    \"Natural daylight, clearly plated dish\"\n  ],\n  \"phone_observations\": [\n    \"Meatballs and broth both visible and legible in thumbnail\",\n    \"Orange sauce and green vegetables clearly distinguishable\",\n    \"Red broth colour distinct in left portion\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Species of meat in meatballs cannot be visually confirmed from photograph alone\",\n    \"Source title 'kofte aur shorba' is transliterated/non-English; exact dish identity requires confirmation of meat species\",\n    \"Green vegetable strips appear to be cucumber or similar, but exact preparation uncertain\",\n    \"Meatball composition (beef/lamb/chicken/pork/mixed) not visually distinguishable from exterior alone\"\n  ],\n  \"reason\": \"Image quality, composition, sharpness and phone thumbnail all meet criteria. However, identity check fails: source title does not explicitly name the meat species in the kofte (meatballs). Visual inspection alone cannot determine whether these are beef, lamb, chicken, pork or duck kofte. Per instructions, unknown or ambiguous meat species requires hold. No explicit species quote exists in the supplied title/description to populate protein_evidence. Canonical name cannot be accepted without confirmed meat species in source documentation.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1658,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 469,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

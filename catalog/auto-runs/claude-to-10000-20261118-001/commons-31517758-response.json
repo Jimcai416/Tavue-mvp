@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBpnzP9MUX23LncwxDGT",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Finished, cooked meat curry in earthenware bowl with deep red-brown gravy\",\n    \"Fresh cilantro garnish and yellow vegetable visible\",\n    \"Flat bread (likely naan) partially visible in lower frame\",\n    \"Appetising presentation on white plate against red background\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows stewed meat dish in bowl\",\n    \"Garnish and sauce texture readable at reduced size\",\n    \"Bread and plating context preserved\",\n    \"Composition remains prominent and identifiable\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title contains 'Mutton' but mutton commonly refers to goat meat in South Asian contexts; species ambiguity unresolved\",\n    \"Source description is transliterated Urdu/Hindi without English translation; exact dish identity unclear\",\n    \"No explicit English confirmation of meat species in source metadata\",\n    \"Shorba is a category (stew/broth) not a specific named dish; regional variant unclear\"\n  ],\n  \"reason\": \"Image quality, photograph authenticity, and phone thumbnail all pass. However, the source metadata contains a critical identity ambiguity: 'Mutton' in South Asian cuisine can refer to either sheep or goat meat, and this distinction cannot be visually confirmed from the photograph alone. The source title is provided only in transliterated script without English clarification. The dish category 'Shorba' is generic. Per protocol, ambiguous meat species designation and source contradictions/unclear identity require hold pending clarification. No protein_evidence can be safely asserted without resolving the mutton/goat ambiguity explicitly in source documentation.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1733,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 519,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
