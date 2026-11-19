@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCMFjyiEerK74An2YCBv",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 2,\n    \"composition\": 3,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Puff pastry dome visible in thumbnail\",\n    \"Dark sauce/gravy visible through central opening\",\n    \"Pastry lacks sharp definition in thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Lighting is dim and yellowed, reducing visual clarity of pastry texture and filling composition\",\n    \"Central opening exposes dark filling but contents are not sharply identifiable as beef/kidney\",\n    \"Severe underexposure and colour cast obscure essential dish components\",\n    \"Pastry appears undercooked or discoloured; natural colour is questionable\",\n    \"No clear visual evidence of steak or kidney visible in the filling despite title\"\n  ],\n  \"reason\": \"Image fails quality threshold. Severe underexposure, strong yellow colour cast, and poor lighting render the dish unappealing and visually unclear. The filling is obscured and unidentifiable; no sharp, natural visual proof of steak or kidney components is visible. Sharpness (2/5) and lighting (2/5) are substantially below the required >=4 minimum. While the photograph shows a pastry dome over a filling, the image quality does not meet standards for a finished, appetising, clearly detailed dish representation.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1749,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 422,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

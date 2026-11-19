@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCMGK8GCd6h6PDiLS1qu",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": \"steak and kidney pie, boiled potatoes with butter and pre-prepared frozen vegetables\",\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Golden-brown pastry crust visible in full image and thumbnail\",\n    \"Boiled potatoes prominently displayed, buttered\",\n    \"Mixed frozen vegetables (peas, corn, carrots) clearly visible\",\n    \"Brown cooked meat visible under pastry in full image\"\n  ],\n  \"phone_observations\": [\n    \"Pastry-topped pie clearly identifiable\",\n    \"Vegetable mix prominent and readable\",\n    \"Potatoes visible and recognizable\",\n    \"Plate composition legible at thumbnail size\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title declares 'steak and kidney pie' but only the steak portion is visually identifiable; kidney is not separately visible or distinguishable in the photograph\",\n    \"Species of meat ('steak') is not explicitly named in the source description—only 'steak' (a cut) is mentioned, not the animal source (beef/other)\",\n    \"Kidney presence cannot be confirmed visually in either image\"\n  ],\n  \"reason\": \"Identity check fails: the source declares both 'steak' and 'kidney' components, but neither protein animal is explicitly named, and kidney is not visually confirmed. Protein evidence cannot be established without explicit species declaration in the source title/description. Hold pending clarification of meat species and visual confirmation of kidney component or source correction.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1760,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 465,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
