@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBzTqVEvavuNnh1aWFUM",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Plated on pink dish with strong daylight\",\n    \"Loaded with shredded cheese, white sour cream dollop, and green guacamole\",\n    \"Fried flour tortilla exterior visible\",\n    \"Brown filling visible at ends\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail shows the loaded chimichanga clearly\",\n    \"Pink plate and toppings visible at this scale\",\n    \"Sufficient detail for recognition\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title states 'steak chimichanga' but no beef is explicitly named in description text\",\n    \"Only 'steak' appears in title; description does not repeat or confirm the protein species\",\n    \"Visual inspection cannot definitively establish beef vs. other meat in the filling\"\n  ],\n  \"reason\": \"Identity check fails. The source title claims 'Giant steak chimichanga' but the description field does not explicitly name beef or steak. Per rules, proteins may include only chicken/beef/pork/duck/lamb/seafood with an exact source quote explicitly naming each animal; never infer species from appearance or tradition. The title alone is insufficient—the description must also explicitly confirm the protein. Source contradiction regarding protein identity => hold converted to reject due to inability to establish canonical identity with certainty via explicit textual evidence in both title and description.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1687,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 446,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

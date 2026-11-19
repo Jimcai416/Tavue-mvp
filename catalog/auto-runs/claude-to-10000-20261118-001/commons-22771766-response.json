@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBzUhK9TrBrv8XVPCvUR",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Golden-brown fried flour tortilla exterior, crisp and well-cooked\",\n    \"Melted cheese with green onion garnish on top\",\n    \"Diced red tomato-based salsa accompaniment\",\n    \"Brown sour cream or similar condiment on plate\",\n    \"Plated presentation typical of restaurant service\"\n  ],\n  \"phone_observations\": [\n    \"Chimichanga clearly visible and identifiable in thumbnail\",\n    \"Golden exterior and cheese/topping detail preserved\",\n    \"Salsa and garnish visible at scale\",\n    \"Adequate composition for recognition\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title states 'Chimichanga' but no meat species is specified in title or description\",\n    \"Filling composition and meat type are not visible or declared in source metadata\",\n    \"Cannot determine if filling contains chicken, beef, pork, or other protein without source declaration\"\n  ],\n  \"reason\": \"Reject: Although the photograph shows a well-executed, appetising chimichanga with sharp detail, natural colour, and excellent presentation (all checks pass, all scores ≥4), the source title and description provide no explicit protein identification. Per protocol, hidden flavours or fillings may not be claimed as visually proven, and ambiguous or unspecified meat species require a hold or rejection. The metadata supplies only the dish name 'Chimichanga' without naming the animal protein, making protein_evidence empty and creating an unresolvable uncertainty. Accept criteria require all uncertainties to be empty.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1733,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 490,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
