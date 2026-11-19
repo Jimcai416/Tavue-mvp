@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChD9zxhkKfbwYqJyAPDAe",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 3,\n    \"appeal\": 2\n  },\n  \"visible_support\": [\n    \"Dried chilli peppers visible in full source image\",\n    \"Wrinkled, dried texture consistent with piri piri description\",\n    \"Greenish-brown to dark brown coloration typical of dried chilli\"\n  ],\n  \"phone_observations\": [\n    \"Subject too small and fragmented in 124x96 thumbnail to identify as finished food dish\",\n    \"Individual dried peppers scattered and partially clipped\",\n    \"Essential components not readable or prominent in phone view\",\n    \"No clear sense of a plated, served, or composed dish\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title 'Dried Piri Piri' describes an ingredient, not a finished dish\",\n    \"Image shows raw/preparation stage (dried peppers), not an exposed, finished photographic dish\",\n    \"Subject is ingredient-level material, not a completed food service item\"\n  ],\n  \"reason\": \"Reject: The source material is dried chilli peppers (an ingredient), not a finished, exposed dish. Per guidelines, raw/preparation stages and ingredients alone are not acceptable. The phone thumbnail shows scattered, tiny subjects that cannot be identified as a composed dish. While the photograph itself is sharp and naturally coloured, the subject matter fails the fundamental requirement of representing a finished, plated, or otherwise complete food item ready for consumption or service.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1897,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 444,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

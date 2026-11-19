@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDA1BTwwbCoKmc6jwPBu",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Phone thumbnail shows a mass of small red bottles with labels, indistinct and severely reduced\",\n    \"Individual bottles are not clearly resolved; essential details are unreadable\",\n    \"Subject is tiny relative to frame; labels and distinguishing features are obliterated by compression\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title/description is incomplete ('This is an image of food from' — truncated; no dish name provided)\",\n    \"Metadata filename 'Piri piri sauce in Mozambique.jpg' is untrusted per instructions\",\n    \"Image shows bottled sauces/condiments as a collection, not a finished prepared dish\",\n    \"No specific canonical dish name can be extracted from the incomplete source description\"\n  ],\n  \"reason\": \"Rejection: (1) Source description is truncated and does not provide a complete dish name or identity; (2) The photograph depicts a retail/market display of multiple bottled condiments, not a finished, exposed, prepared food dish suitable for a food photography intake; (3) Phone thumbnail fails acceptance criteria — subject is tiny, labels are unreadable, and essential details cannot be discerned in the 124×96 centre-cover view; (4) Cannot establish canonical_name without a complete, non-truncated source title or description. This is a product/retail scene, not food service or home-cooking documentation.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1867,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 456,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
