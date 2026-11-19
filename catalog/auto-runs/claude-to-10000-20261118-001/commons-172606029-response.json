@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChD4AWDNa3BrJttRgnoin",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Translucent rice paper wrapping visible on rolled items\",\n    \"Bamboo skewers protruding from rolls\",\n    \"Lettuce leaves as bed/wrapper\",\n    \"Cooked protein items with browning and seasoning\",\n    \"Blue and white decorative ceramic plate\",\n    \"Natural daylight, sharp focus on main components\"\n  ],\n  \"phone_observations\": [\n    \"Plate, rolls and skewers clearly visible in thumbnail\",\n    \"Rice paper wrapping readable\",\n    \"Bamboo skewers prominent\",\n    \"Cooked protein elements distinguishable\",\n    \"Overall composition and subject size adequate\"\n  ],\n  \"protein_evidence\": {\n    \"chicken\": \"chicken\"\n  },\n  \"uncertainties\": [\n    \"Title claims 'Summer rolls, chicken, etc' but visual inspection shows lettuce wrapping, not rice paper wrapping typical of summer rolls\",\n    \"Description says rolls are 'on salad' but lettuce appears to be wrapper material, not a bed of salad\",\n    \"The 'etc' in title is unspecified; additional protein components visible (pale item, darker item) cannot be identified with certainty from appearance alone\",\n    \"No explicit source quote identifies the pale and darker cooked components beyond 'chicken'\",\n    \"The form does not match canonical summer roll structure; appears to be lettuce-wrapped items with skewers, possibly lettuce wraps or a different preparation\"\n  ],\n  \"reason\": \"Source title–image mismatch. Title states 'Summer rolls' but photograph shows lettuce-wrapped items on bamboo skewers, not rice paper summer rolls. The description claims items are 'on salad' but lettuce serves as wrapper. The 'etc' qualifier and visual presence of multiple protein colors (brown, pale, darker) cannot be verified as specific named ingredients without explicit source identification. Identity check fails: the dish form contradicts the title. Hold would be appropriate for clarification, but systematic ambiguity about core components and preparation method (the essential identity of the dish) warrants rejection.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 2054,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 605,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
