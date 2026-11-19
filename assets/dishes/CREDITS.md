@@ -9591,3 +9591,8 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 
 - **Haydari (Turkish meze)** — E4024. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Haydari_(Turkish_meze).jpg). Local asset: `reviewed-commons-46648323.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Un helvası** — E4024. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Un_helva.jpg). Local asset: `reviewed-commons-40227362.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Haydari in a square plate** — E4024. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Haydari_in_a_square_plate.jpg). Local asset: `reviewed-commons-68079799.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Haydari** — E4024. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Haydari_meze.jpg). Local asset: `reviewed-commons-47165566.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
