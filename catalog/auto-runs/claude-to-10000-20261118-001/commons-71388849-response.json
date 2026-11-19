@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBexbJx4ooCvY7VDA6FA",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 2,\n    \"composition\": 1,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows banana leaves or similar green wrapping material arranged on a dark surface\",\n    \"No finished, cooked dish is visible or identifiable\",\n    \"Only raw wrapping material and preparation stage elements are shown\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source metadata lists 'Tilapia, Tortang giniling na baboy, Nilagang baboy, Sweet and sour meat balls' but the photograph shows only banana leaves/wrapping, not these finished dishes\",\n    \"No actual cooked food is visible in either the full image or thumbnail\",\n    \"Image appears to be a preparation or ingredient display, not a finished plated dish\"\n  ],\n  \"reason\": \"Rejection: The photograph shows only banana leaves or similar wrapping material arranged on a surface, with no visible finished, cooked, or plated dish. This is a preparation/ingredient stage image, not a photographic dish. The source metadata lists multiple dishes but none are visibly present or identifiable in the image. Quality scores fail (sharpness 2, lighting 2, composition 1, appeal 1). The phone thumbnail shows identical material with no distinguishable food. Identity cannot be established between the described dishes and the actual visual content. The image does not meet the requirement for 'a finished, exposed, likely photographic dish, sharply detailed, naturally coloured, appetising, prominent'.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1822,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 456,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBewfThrGZnNtvVk4A1W",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Cooked rice on decorative white plate\",\n    \"Two dark brown elongated meat pieces (tocino)\",\n    \"Bright red cubed meat pieces (longganisa)\",\n    \"Fresh tomato and cucumber slices\",\n    \"Fried egg visible on right side\"\n  ],\n  \"phone_observations\": [\n    \"Red and brown meat components prominent in thumbnail\",\n    \"Rice visible in background\",\n    \"Plate decoration clear\",\n    \"Essential components readable\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title contains 'Long-Tocilog' but description lists 'tocino #longganisa' – inconsistent spelling and unclear which form is authoritative\",\n    \"Species of meat(s) not explicitly named in title or description – 'tocino' and 'longganisa' are preparation types/dish names, not species identifiers; traditional recipes may use pork but this is not stated in source\",\n    \"Ambiguity whether 'longganisa' (red cubes) and 'tocino' (brown slices) are both present or single meat preparation with two visual states\"\n  ],\n  \"reason\": \"Source title/description does not explicitly name meat species. While 'tocino' and 'longganisa' are Filipino meat preparations traditionally made from pork, the source provides no explicit species declaration. Per protocol, unknown or unspecified meat species require hold. Additionally, inconsistency between 'Long-Tocilog' (title) and 'tocino #longganisa' (description) creates ambiguity about the exact dish identity and component composition that cannot be resolved from the photograph alone.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1411,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 512,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
