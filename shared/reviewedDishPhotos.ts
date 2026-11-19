@@ -131090,5 +131090,78 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-152120740",
+    "title": "File:CALDO POLLO CRIOLLO.jpg",
+    "author": "Madelyn Villarroel",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:CALDO_POLLO_CRIOLLO.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/45/CALDO_POLLO_CRIOLLO.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "23ac196452f134b29b48b54d7eb866ce318528ab",
+    "name": "caldo de pollo",
+    "aliases": [],
+    "proteins": [
+      "chicken"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-152120740.jpg",
+    "assetSha256": "a19424090e24ef4d61be01811a1ca27c36a593df400e26e575620cfdc082ef86",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 718,
+    "height": 960,
+    "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-162969759",
+    "title": "File:Caldo de pollo con huevo.jpg",
+    "author": "Wotancito",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Caldo_de_pollo_con_huevo.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/51/Caldo_de_pollo_con_huevo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "525867adafbe17310a0708d0f57d0507f37e3831",
+    "name": "Caldo de pollo con huevo",
+    "aliases": [],
+    "proteins": [
+      "chicken"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-162969759.jpg",
+    "assetSha256": "5264bdc360ef26c9ef87a175186b5a2bce187c0f513c4e62aa100139e10e5be7",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 723,
+    "height": 960,
+    "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-91124883",
+    "title": "File:Fonda la Hermanita - Caldo de Pollo con Chochoyotes (49245806337).jpg",
+    "author": "miheco  from California, USA",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fonda_la_Hermanita_-_Caldo_de_Pollo_con_Chochoyotes_(49245806337).jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/49/Fonda_la_Hermanita_-_Caldo_de_Pollo_con_Chochoyotes_%2849245806337%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "2d53232d43deeaf19d53c7c06cde6fdb94abc976",
+    "name": "Caldo de Pollo con Chochoyotes",
+    "aliases": [],
+    "proteins": [
+      "chicken"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-91124883.jpg",
+    "assetSha256": "75e826b4a290396e16aa4d3e3223c8ecdc9c6bcb884a91e2a65b0c7bfe221b9b",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 720,
+    "height": 960,
+    "requiresExactMenuName": true,
+    "authorUrl": "https://www.flickr.com/people/88164721@N00"
   }
 ];
