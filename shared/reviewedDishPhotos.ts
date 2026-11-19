@@ -109076,5 +109076,77 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-103397956",
+    "title": "File:Fish Paturi - Tero Parban - Kolkata - FILE 0002.jpg",
+    "author": "Goutamroykol",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fish_Paturi_-_Tero_Parban_-_Kolkata_-_FILE_0002.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Fish_Paturi_-_Tero_Parban_-_Kolkata_-_FILE_0002.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "19d39758ade715e626ad1978ff0e750879ded8b4",
+    "name": "Fish Paturi",
+    "aliases": [],
+    "proteins": [
+      "seafood"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-103397956.jpg",
+    "assetSha256": "d102f4d337689ab93b02fef9cf224a1a75effee99d70780e33236fa7e6677695",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 485,
+    "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-40872888",
+    "title": "File:Ilish Machher Paturi (Doi Ilish).jpg",
+    "author": "Sharnab neogi",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ilish_Machher_Paturi_(Doi_Ilish).jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Ilish_Machher_Paturi_%28Doi_Ilish%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "434d34d91ec248bdb73778bf67f22d313b238fcb",
+    "name": "Ilish Machher Paturi (Doi Ilish)",
+    "aliases": [],
+    "proteins": [
+      "seafood"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-40872888.jpg",
+    "assetSha256": "1fde336c44bd210436f65f4264aabf6a29cd14ae554611013251bbfb879ecce6",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-145198713",
+    "title": "File:Koi Fish Paturi.jpg",
+    "author": "Evening42",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Koi_Fish_Paturi.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/36/Koi_Fish_Paturi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "f5965e79ca45315cb187be1558e8d1e86883e252",
+    "name": "Koi Fish Paturi",
+    "aliases": [],
+    "proteins": [
+      "seafood"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-145198713.jpg",
+    "assetSha256": "730bed4b59d0afd3bc24c17de8c52c8d06552593dddeae395db3b752439929f8",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 658,
+    "requiresExactMenuName": true
   }
 ];
