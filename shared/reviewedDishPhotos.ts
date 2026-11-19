@@ -126620,5 +126620,53 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 894,
     "height": 960,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-3880256",
+    "title": "File:Balchão de porco.jpg",
+    "author": "Adriao",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Balch%C3%A3o_de_porco.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Balch%C3%A3o_de_porco.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "a148134254cd3cb68fda5c28113eae8a5ee1f4dc",
+    "name": "Balchão de porco",
+    "aliases": [],
+    "proteins": [
+      "pork"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-3880256.jpg",
+    "assetSha256": "03bd7fd34ea858df0df885cf67f60c8b9ad128719940e467ec7469177ca9b287",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 800,
+    "height": 600,
+    "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-16113874",
+    "title": "File:Panela de balchão de porco.JPG",
+    "author": "Adriao",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Panela_de_balch%C3%A3o_de_porco.JPG",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Panela_de_balch%C3%A3o_de_porco.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "66b52c93a4d4bfc8a2ed971d1da09e063d200862",
+    "name": "Pork balchão",
+    "aliases": [],
+    "proteins": [
+      "pork"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-16113874.jpg",
+    "assetSha256": "97cbc606782ea737e0cc1636e14233cdbf8d08e21f22de1124dcd93d7d1d4bbd",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];

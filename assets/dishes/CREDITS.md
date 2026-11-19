@@ -9771,3 +9771,8 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 
 - **Shrimp and grits from Boudro's in San Antonio** — Gatorfan252525. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Shrimp_and_grits_from_Boudro%27s_in_San_Antonio.jpg). Local asset: `reviewed-commons-163413717.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Pimento cheese sandwiches** — Palmetto Cheese. [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Pimento_cheese_sandwiches.jpg). Local asset: `reviewed-commons-203332723.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Balchão de porco** — Adriao. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Balch%C3%A3o_de_porco.jpg). Local asset: `reviewed-commons-3880256.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Pork balchão** — Adriao. [CC BY 3.0](https://creativecommons.org/licenses/by/3.0); [source](https://commons.wikimedia.org/wiki/File:Panela_de_balch%C3%A3o_de_porco.JPG). Local asset: `reviewed-commons-16113874.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
