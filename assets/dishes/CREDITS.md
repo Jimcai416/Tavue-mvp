@@ -9686,3 +9686,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 - **Paneer Tikka Seek** — HARIOM.AWASTHI. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Paneer_Tikka_Seek.JPG). Local asset: `reviewed-commons-40781941.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Paneer tikka cooked on a skewer** — PallaviKhale. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Paneer_Tikka_Shashlik_PK012.jpg). Local asset: `reviewed-commons-102893651.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Paneer tikka with onion and capsicum** — Shafana jasmine. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Paneer_tikka_with_onion_and_capsicum.jpg). Local asset: `reviewed-commons-103643414.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Finnish Christmas rice porridge** — JIP. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Christmas_rice_porridge_in_Loviisa.jpg). Local asset: `reviewed-commons-186246382.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.

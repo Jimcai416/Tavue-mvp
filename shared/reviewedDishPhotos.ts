@@ -125783,5 +125783,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 548,
     "height": 960,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-186246382",
+    "title": "File:Christmas rice porridge in Loviisa.jpg",
+    "author": "JIP",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Christmas_rice_porridge_in_Loviisa.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Christmas_rice_porridge_in_Loviisa.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "2375f9612fc951c12af49d1471ebb07d4db26e85",
+    "name": "Finnish Christmas rice porridge",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-186246382.jpg",
+    "assetSha256": "68d15ff3676f4997341b552f6f047dffed38654421f31f1168e457a81d7e0182",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];
