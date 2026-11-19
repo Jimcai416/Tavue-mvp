@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCsdiS4RaZUSom1cHxty",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 3,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Wine bottle with Carignan label visible\",\n    \"Plated food on white dish in foreground\",\n    \"Warm ambient lighting with decorative lights and wine barrels in background\",\n    \"Glass of water beside plate\"\n  ],\n  \"phone_observations\": [\n    \"Dish severely underexposed and unreadable in thumbnail\",\n    \"Essential food components clipped and obscured\",\n    \"Only wine bottle, candle, decorative pig figurine, and water glass are identifiable\",\n    \"Cannot verify dish identity, components, or presentation from phone thumbnail\"\n  ],\n  \"protein_evidence\": {\n    \"bacon\": \"Bacon Panzanella BLT\"\n  },\n  \"uncertainties\": [\n    \"Phone thumbnail fails to show readable dish detail—cannot confirm BLT/panzanella components, proportions, or finishing\",\n    \"Severe underexposure of plated food makes visual verification impossible\",\n    \"Full image shows recognizable plated dish but phone thumbnail obscures essential food elements entirely\"\n  ],\n  \"reason\": \"Rejection: phone thumbnail fails acceptance criterion. The 124x96 centre-cover thumbnail is severely underexposed and crops/obscures the plated dish to unreadability. Essential food components are not visible or identifiable in the phone view. Although the full source photograph shows a finished plated dish with lighting and composition scoring ≥4, the phone thumbnail does not meet the requirement for 'sharp detail, naturally coloured, appetising, prominent, with readable essential components.' The dish cannot be verified from the phone thumbnail alone, which is mandatory for intake.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1828,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 498,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
