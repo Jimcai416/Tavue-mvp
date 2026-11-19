@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBvnsoiVYKihiC3e4Jfv",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 5,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows raw/preparation stage: raw duck breast and spice bowls, not a finished dish\",\n    \"Ingredients displayed separately, not integrated into a cooked soup or plated meal\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title describes this as 'Ingredients for Mulligatawny soup' — a preparation/mise-en-place photograph, not a finished, exposed, cooked dish\",\n    \"Duck is mentioned in source description but image shows raw duck breast, not cooked poultry in a finished dish\",\n    \"Photograph is explicitly ingredient documentation, not a served or plated food item\"\n  ],\n  \"reason\": \"Rejection: This is a raw ingredient and spice preparation photograph, not a finished, exposed, appetising dish. The source explicitly identifies this as 'Ingredients for Mulligatawny soup according to recipes… with roasted duck as fowl'. The image shows uncooked duck breast, whole onions, and separated spices in bowls—classic mise-en-place photography. Tavue accepts finished dishes only. Raw/preparation stages are explicitly rejected. The photograph fails the core identity check: it documents ingredients, not a completed, plated, or served food item.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1813,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 423,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

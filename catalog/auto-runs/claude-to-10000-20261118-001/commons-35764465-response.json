@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBvmQvRd4wAN7N4giwts",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 2,\n    \"composition\": 2,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Bowl contains pale yellow broth with translucent onion rings\",\n    \"No visible vegetable sausages or peas detectable in thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'Onion soup' but description lists 'Baked frozen vegetable sausages and peas' — these are contradictory; sausages and peas are not visible in either full image or thumbnail\",\n    \"If sausages are present, their species is undeclared and unidentifiable from the image\",\n    \"Severe softness, haze and low lighting compromise quality assessment\",\n    \"Essential claimed components (sausages, peas) are either absent or completely obscured\"\n  ],\n  \"reason\": \"Reject: source title–description mismatch (onion soup vs. vegetable sausages and peas). Neither sausages nor peas are visible in the full photograph or thumbnail, only pale broth and onions. Sausage species would be unspecified even if visible. Image quality is severely compromised by softness, haze and poor lighting (sharpness=2, lighting=2). The dish identity cannot be verified against the contradictory source claims. Hold would be appropriate only if identity were resolvable; this represents a fundamental source conflict with no visual resolution.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1772,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 444,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

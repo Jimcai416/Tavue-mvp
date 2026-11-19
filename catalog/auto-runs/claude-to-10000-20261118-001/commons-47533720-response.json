@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBvnRTSP3mk2kzMuJXC7",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Finished dish in white bowl with spoon present\",\n    \"Yellow/golden broth visible\",\n    \"Fresh green parsley garnish throughout\",\n    \"Cooked protein pieces suspended in liquid\",\n    \"Natural daylight, sharp detail in thumbnail and full image\"\n  ],\n  \"phone_observations\": [\n    \"Yellow liquid base clearly visible\",\n    \"Protein chunks and garnish readable\",\n    \"Spoon edge visible\",\n    \"Dish composition unmistakable as soup/stew\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'Geflügel-Mulligatawny-Suppe' (poultry mulligatawny) but description says 'pan-fried poultry', contradicting soup preparation\",\n    \"Poultry is imprecise; exact species (chicken/duck) not specified in source text\",\n    \"Visual appearance shows cooked meat pieces but species cannot be determined from appearance alone\",\n    \"Description 'pan-fried poultry' conflicts with broth-based presentation visible in photograph\"\n  ],\n  \"reason\": \"Source identity conflict: title claims mulligatawny soup but description specifies 'pan-fried poultry', a contradictory preparation method. Protein species (chicken vs. duck vs. other poultry) is not explicitly named in source, only the generic term 'poultry' and 'Geflügel' (German for poultry). Image quality and composition are strong (all scores ≥4), and photograph/phone details are clear and consistent, but the source-declared identity is ambiguous and internally contradictory. Cannot assign canonical name without resolving dish type and protein identity from source.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1848,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 533,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
