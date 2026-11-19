@@ -7262,3 +7262,10 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Vegetable Momos** — ANKAN. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Vegetable_Momos_in_Shillong.jpg). Local asset: `reviewed-commons-85530657.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Thalassery biryani** — Sheetal. [CC BY 2.5](https://creativecommons.org/licenses/by/2.5); [source](https://commons.wikimedia.org/wiki/File:Thalassery_biryani_-1.jpg). Local asset: `reviewed-commons-27570690.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Sindhi Biryani** — Miansari66. [Public domain](https://creativecommons.org/publicdomain/mark/1.0/); [source](https://commons.wikimedia.org/wiki/File:Sindhi_Biryani.JPG). Local asset: `reviewed-commons-12648746.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Nigerian dinner, Semovita and Egusi stew** — Masssly. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Nigerian_dinner,_Semovita_and_Egusi_stew.jpg). Local asset: `reviewed-commons-137915296.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Khorkhog** — Brücke-Osteuropa. [Public domain](https://creativecommons.org/publicdomain/mark/1.0/); [source](https://commons.wikimedia.org/wiki/File:Khorkhog_1.JPG). Local asset: `reviewed-commons-7632049.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
