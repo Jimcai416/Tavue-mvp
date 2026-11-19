@@ -101451,5 +101451,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-146785941",
+    "title": "File:Crispy Bagnet, Mar 2024.jpg",
+    "author": "Ralff Nestor Nacor",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Crispy_Bagnet,_Mar_2024.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Crispy_Bagnet%2C_Mar_2024.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "1712496704e4fb83a3674951bddb40211f16c15d",
+    "name": "Crispy Bagnet",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-146785941.jpg",
+    "assetSha256": "06a93c2a82ed1e5b2c835915fb16e9ee0c836190956b31de2a45b99fa567982e",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 723,
+    "requiresExactMenuName": true
   }
 ];
