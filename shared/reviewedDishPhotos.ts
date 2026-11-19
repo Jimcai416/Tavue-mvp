@@ -126209,5 +126209,29 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "height": 960,
     "requiresExactMenuName": true,
     "authorUrl": "http://georgiaabout.com"
+  },
+  {
+    "id": "commons-90157086",
+    "title": "File:Arepa-reina-pepiada-arepasdelgringo.jpg",
+    "author": "Mitdralla",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Arepa-reina-pepiada-arepasdelgringo.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Arepa-reina-pepiada-arepasdelgringo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "2053970a158f0b548625dc4f11767c8bc3125f32",
+    "name": "Arepa Reina Pepiada (chicken and avocado)",
+    "aliases": [],
+    "proteins": [
+      "chicken"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-90157086.jpg",
+    "assetSha256": "bdf4c998981e2f9cd43d640ae1784941408a41338ce2cabe321318a9b509c4b4",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 640,
+    "requiresExactMenuName": true
   }
 ];
