@@ -10528,3 +10528,8 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 
 - **Beef brisket sandwich filled with cheese** — Vincent60030. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:DoughnDolce_Beef_Sandwich.jpg). Local asset: `reviewed-commons-94980206.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Focaccia farcita con il formaggio** — Alessio Sbarbaro  User_talk:Yoggysot. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Focaccia_col_formaggio_03.jpg). Local asset: `reviewed-commons-44238779.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **French Fries with Ketchup** — Kritzolina. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:French_Fries_with_Ketchup_01.jpg). Local asset: `reviewed-commons-119779475.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Course -6 Foie Gras - Terrine with Black Truffle and Asparagus** — [City Foodsters](https://www.flickr.com/people/89060048@N03). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Course_-6_Foie_Gras_-_Terrine_with_Black_Truffle_and_Asparagus_(9246970452).jpg). Local asset: `reviewed-commons-67348482.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
