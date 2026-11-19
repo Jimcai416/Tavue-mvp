@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBrViwU8E66eJBYRsSts",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Finished, cooked dish with fried egg yolk, melted cheese, tomato sauce, fresh green onion garnish\",\n    \"Served over white rice on white plate\",\n    \"Naturally coloured, appetising presentation\",\n    \"Sharp detail in phone thumbnail showing all essential components\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows egg yolk, cheese, tomato sauce, and garnish\",\n    \"Central composition with readable components\",\n    \"No clipping of essential food elements\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title describes 'meatball patties' but no explicit animal species (beef/pork/chicken/lamb/duck/seafood) is named in title or description\",\n    \"Generic term 'meatball' does not constitute species evidence per protocol\",\n    \"Dish identity as 'Italian' Loco Moco is a creative mashup/fusion variant with uncertain canonical status and no standard reference\"\n  ],\n  \"reason\": \"Cannot accept without explicit species identification for the meat component. Title states 'meatball patties' but does not name chicken, beef, pork, duck, lamb or seafood. The source calls this a '#mashup' and fusion variant of Hawaiian loco moco with Italian elements; this creative hybrid lacks sufficient canonical definition. Protein evidence must derive from exact source quote naming a supported species, not from inference or generic meat terminology. All quality and photographic checks pass, but identity check fails due to unnamed protein species and uncertain dish category.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1405,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 486,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

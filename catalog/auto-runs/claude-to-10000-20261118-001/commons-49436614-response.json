@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBrX53UXCcgajMHoVHqk",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Fried patty on white rice\",\n    \"Brown gravy with visible chunks\",\n    \"Egg component visible\",\n    \"Black ceramic plate\",\n    \"Home kitchen setting\"\n  ],\n  \"phone_observations\": [\n    \"Fried protein and gravy clearly visible\",\n    \"Rice base readable\",\n    \"Egg component present\",\n    \"Dish structure recognizable at thumbnail size\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title contains 'File:' prefix and filename extension, violating canonical extraction rules\",\n    \"Description states 'mushroom gravy' but no mushrooms visibly identifiable in the photograph\",\n    \"Meat species in the fried patty is not explicitly named in source (beef/pork/chicken unspecified)\",\n    \"Loco moco traditionally uses beef but source provides no explicit protein declaration\",\n    \"Description ends with 'Recipe' (incomplete/metadata fragment)\"\n  ],\n  \"reason\": \"Cannot extract clean canonical_name due to 'File:' prefix and extension in source title. Meat species undefined: the fried patty is not explicitly identified as beef, pork, or chicken in the source, only implied by tradition. Description claims 'mushroom gravy' but visual inspection reveals only a brown curry-like sauce with no visible mushroom pieces, creating a source–image contradiction. Hold pending clarification of meat type and gravy composition.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1524,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 461,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
