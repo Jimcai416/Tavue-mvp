@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCgv79TeAQ11ZD8bh1Z8",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [\n    \"Cooked noodle dish with golden-brown colour visible in full image\",\n    \"Boiled egg half as garnish\",\n    \"Toast, cucumber slices, tomato, carrot sticks, and what appears to be sausage or meat\",\n    \"Bowl of murky soup or sauce on the right side\",\n    \"Plastic serving utensils\",\n    \"Home setting with decorative background cloth\"\n  ],\n  \"phone_observations\": [\n    \"Central noodle dish clearly visible but colour and detail reduced in thumbnail\",\n    \"Accompaniments (vegetables, toast, egg) recognizable but small\",\n    \"Soup/sauce bowl visible on right\",\n    \"Overall composition readable at reduced size\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title states 'American chopsueey' but no meat species is explicitly named in the title or description; meat/sausage visible in photo but species cannot be confirmed from source text alone\",\n    \"Exact dish name unclear: 'American chopsueey' (possible typo for 'chop suey') is not a standard canonical dish name and lacks clarification of preparation style or regional variant\",\n    \"Identity mismatch: visible components (toast, boiled egg, raw vegetables, side soup/sauce) do not align with typical American chop suey preparation, which is normally a stir-fried noodle dish served as a complete preparation without substantial side plates\"\n  ],\n  \"reason\": \"Reject: Identity check fails. The source title 'Homemade American chopsuey' does not match the visible dish composition. The photo shows a noodle preparation with an extensive accompaniment board (toast, raw vegetables, boiled egg, apparent sausage, soup bowl), which is atypical of American chop suey as a finished dish. No protein species is explicitly named in the supplied title/description, violating protein documentation requirements. The title appears to contain a typographical error ('chopsuey' vs. 'chop suey'), and the actual dish form is ambiguous. Uncertainties regarding identity and protein evidence prevent acceptance.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1730,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 615,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

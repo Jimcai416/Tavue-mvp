@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCguPYAdxvjQM6CwhY44",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Golden-fried tofu cubes on black sizzling plate\",\n    \"Green scallion slices garnish\",\n    \"Glossy sauce coating\",\n    \"Natural lighting, appetising presentation\"\n  ],\n  \"phone_observations\": [\n    \"Tofu cubes and sauce clearly visible\",\n    \"Garnish visible in thumbnail\",\n    \"Dish identity readable\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title 'Sizzling tofu' is not a specific dish name—it describes preparation method only, not identity\",\n    \"No regional variant, dish type, sauce type, or preparation style specified\",\n    \"Insufficient information to establish canonical dish identity\",\n    \"Cannot determine if this is a named regional dish or generic preparation\"\n  ],\n  \"reason\": \"Rejection: The source title 'Sizzling tofu' provides only a cooking method, not a specific dish identity. A canonical name requires a precise dish phrase from the source (copied exactly), but the metadata supplies only a generic descriptor. Regional variants, sauce identifications, and preparation styles are absent. The photograph itself is high-quality and appetising, but identity cannot be established from an unspecific source title. Tofu is not a protein category in the allowed set (chicken/beef/pork/duck/lamb/seafood), so no protein evidence is claimed. Hold would be appropriate if identity could be reasonably inferred from context; rejection is warranted because the source provides no actionable dish name.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1618,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 477,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
