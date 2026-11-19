@@ -122240,5 +122240,51 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-16342878",
+    "title": "File:Chelo Kabab.JPG",
+    "author": "Miansari66",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chelo_Kabab.JPG",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Chelo_Kabab.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "40a62ebf7b8d853f1acc530283bf082c03d4354c",
+    "name": "Chelo Kabab",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-16342878.jpg",
+    "assetSha256": "412b685c699bfa15afbb573a7a3520224b5cdb09680c1cb8e799edb9abd8e697",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-63290927",
+    "title": "File:Chelo Kabab Soltani Berlin Kourosh.jpg",
+    "author": "Benreis",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chelo_Kabab_Soltani_Berlin_Kourosh.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/30/Chelo_Kabab_Soltani_Berlin_Kourosh.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "890bfa87cbe2cf7ef20b16316566d9ae5fbca4a6",
+    "name": "Chelo Kabab Soltani",
+    "aliases": [],
+    "proteins": [
+      "lamb"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-63290927.jpg",
+    "assetSha256": "4706f45f1b7115f42038d7ac2abe050ac322cfe4695967a96111ad4f3fdbe61b",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];
