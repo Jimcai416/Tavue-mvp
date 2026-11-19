@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBqyotJ3wCXbfJjEEJHo",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Two sandwiches on toasted bread with reddish-brown cured meat visible\",\n    \"Side plate with pickles (whole and sliced)\",\n    \"White ceramic plates on brown tray\",\n    \"Casual deli presentation\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows two sandwiches with visible meat\",\n    \"Pickle plate legible in phone view\",\n    \"Composition and subject prominence adequate for phone review\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'Pastrami and Corned Beef' but photograph does not visually distinguish which sandwich is which\",\n    \"Both sandwiches appear identical in colouring and presentation; no visual differentiation between the two stated proteins\",\n    \"Ambiguous species identity: pastrami and corned beef are both cured beef preparations, but the description claims two different proteins without visual evidence to support the distinction\"\n  ],\n  \"reason\": \"Identity check fails. While the title claims two distinct proteins (Pastrami and Corned Beef), the actual photograph shows two sandwiches that are visually indistinguishable from one another. Both appear to contain the same reddish-brown cured meat with identical presentation, making it impossible to verify that two different beef preparations are actually present. The source description contradicts what is visible in the image. Without visual proof of the claimed variant distinction, identity cannot be confirmed and the dish cannot be accepted.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1776,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 468,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBqybRT2NYi2KFy8Vbq9",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 5,\n    \"composition\": 5,\n    \"appeal\": 5\n  },\n  \"visible_support\": [\n    \"Toasted rye bread base visible\",\n    \"Sliced cured red meat (pastrami) clearly visible\",\n    \"Melted cheese layer present\",\n    \"Crispy fried onion strings on top\",\n    \"Fresh parsley garnish\",\n    \"Toasted bread slice in background\",\n    \"Natural colour, sharp detail, appetising presentation\"\n  ],\n  \"phone_observations\": [\n    \"Sandwich clearly visible in thumbnail centre\",\n    \"Cheese, meat and fried onions readable\",\n    \"Adequate detail for identification\",\n    \"Toast and toppings prominent\"\n  ],\n  \"protein_evidence\": {\n    \"beef\": \"pastrami\"\n  },\n  \"uncertainties\": [\n    \"Source title states 'Swiss cheese' but no Swiss cheese is visually identifiable—the cheese appears to be a mild melted variety, possibly American or cheddar\",\n    \"Pastrami is a beef product but source uses non-specific 'pastrami' rather than 'beef pastrami'\"\n  ],\n  \"reason\": \"Reject: Identity check fails. Source title claims 'Swiss cheese' but the melted cheese visible in both full and thumbnail images does not match Swiss cheese characteristics (Swiss cheese has distinctive holes; this is a smooth, homogeneous melt typical of American or mild cheddar). The title–visible form contradiction on a named ingredient violates identity agreement requirements. Photograph and phone quality are excellent (all scores 5), but the material discrepancy between stated and visible cheese type requires hold pending clarification rather than acceptance.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1623,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 494,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
