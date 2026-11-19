@@ -7374,3 +7374,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 
 - **Kifli, a traditional Hungarian pastry** — Hu Totya. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Kifli.jpg). Local asset: `reviewed-commons-3159678.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Kürbis-Käse-Knödel auf Rahmwirsing** — Simon Legner ( User:simon04 ). [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:K%C3%BCrbis-K%C3%A4se-Kn%C3%B6del_auf_Rahmwirsing_(IMG_20251105_115313).jpg). Local asset: `reviewed-commons-192885273.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Kifli With Seeds** — szbszig. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Kifli_With_Seeds.jpg). Local asset: `reviewed-commons-27895346.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.

@@ -99487,5 +99487,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-27895346",
+    "title": "File:Kifli With Seeds.jpg",
+    "author": "szbszig",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kifli_With_Seeds.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/05/Kifli_With_Seeds.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "10b2e710af1092d2dc62c45ed2984364dec96d92",
+    "name": "Kifli With Seeds",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-27895346.jpg",
+    "assetSha256": "6dbcbaaff76e814fb78e942636dda00da9d1d53df7c1d3d08f1a83290665c202",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];
