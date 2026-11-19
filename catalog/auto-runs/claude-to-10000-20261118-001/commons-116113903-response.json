@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBhsWsW35DF2NAuNxE39",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Three round nests of fried yellow noodles with pink/ham toppings visible in phone thumbnail\",\n    \"Dish appears to be in preparation/mid-cooking stage on dark metal surface\",\n    \"Raw or partially cooked state evident in phone view\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Description claims 'Shrimp Okoy' but no visible shrimp are identifiable in either image—pink material appears to be ham or pork, not seafood\",\n    \"Dish appears to be in preparation or raw stage, not finished and exposed for consumption\",\n    \"Title-description mismatch: metadata says 'Shrimp' but visual evidence contradicts this\"\n  ],\n  \"reason\": \"Reject: Identity check fails. The source description claims 'Shrimp Okoy' but the visible pink ingredients appear to be cured pork/ham, not shrimp. No seafood is visually identifiable. Additionally, the image captures the dish in a preparation or raw state on a cooking surface with scattered debris, not a finished, plated dish ready for service. The phone thumbnail confirms an unfinished cooking stage. Per instructions, raw/preparation stages must be rejected. The protein species claimed in metadata cannot be visually verified, triggering an identity hold that cannot be overridden by visual contradiction.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1729,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 447,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

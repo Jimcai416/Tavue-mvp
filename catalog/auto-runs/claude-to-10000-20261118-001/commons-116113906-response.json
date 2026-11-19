@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBhsEy2yoo7oafCEp31o",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows a golden-brown, oily fried cake or fritter in a metal pan\",\n    \"Pink shrimp pieces and pale onion slices are visible on the surface\",\n    \"The dish appears mid-cooking or freshly cooked in oil\"\n  ],\n  \"protein_evidence\": {\n    \"seafood\": \"Shrimp Okoy\"\n  },\n  \"uncertainties\": [\n    \"Source title metadata lists 'Shrimp Okoy' but the filename suggests preparation/cooking stage rather than a finished plated dish\",\n    \"Image appears to show the dish still in the cooking pan during preparation, not a finished served state\",\n    \"Okoy is traditionally a finished, crisped fritter but this photograph captures an intermediate cooking stage\"\n  ],\n  \"reason\": \"Reject: The photograph documents a dish in active preparation (frying in a metal wok/pan) rather than a finished, exposed, plated dish ready for service. The shrimp and ingredients are visible but the subject is captured mid-cooking in its cooking vessel, not as a completed food presentation. While the protein identification (shrimp/seafood) is supported by the source title 'Shrimp Okoy', the image does not meet the finished-dish requirement for acceptance. This is a preparation-stage photograph, not a dish photograph.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1729,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 445,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
