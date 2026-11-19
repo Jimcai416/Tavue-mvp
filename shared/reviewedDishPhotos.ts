@@ -116337,5 +116337,28 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "height": 640,
     "requiresExactMenuName": true,
     "authorUrl": "http://www.khamtran.com/"
+  },
+  {
+    "id": "commons-40530190",
+    "title": "File:Chocolate Haupia soft serve (16134372370).jpg",
+    "author": "Arnold Gatilao  from Oakland, CA, USA",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chocolate_Haupia_soft_serve_(16134372370).jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/78/Chocolate_Haupia_soft_serve_%2816134372370%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "e8d0c52dd1f2f43b7d0bc631eb76629bc499654e",
+    "name": "Chocolate Haupia soft serve",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-40530190.jpg",
+    "assetSha256": "f43e9ca687d3f374d8bd8d85b97373632925ba8cebe38121ecde306c70926d25",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 640,
+    "height": 640,
+    "requiresExactMenuName": true,
+    "authorUrl": "https://www.flickr.com/people/58819758@N00"
   }
 ];
