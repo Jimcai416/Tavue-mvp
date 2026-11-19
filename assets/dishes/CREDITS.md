@@ -7455,3 +7455,12 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Hungarian Lecsó** — zeevveez. [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Warm_Colors-_my_Mom%27s_Hungarian_Lecs%C3%B3.jpg). Local asset: `reviewed-commons-91964798.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Papanasi (Romanian dessert)** — Stuhrchacz. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Papanasi,_Hoghiz_-_Jul_2024.jpg). Local asset: `reviewed-commons-150436298.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Papanași with sour cherries and sugar powder** — Nicubunu. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Papanasi_cu_cirese.jpg). Local asset: `reviewed-commons-16273190.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Papanasi with jam and sour cream** — Lauren Stephan. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Papanasi_with_jam_and_sour_cream.jpg). Local asset: `reviewed-commons-203109626.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Papanași** — Josep Renalias  Lohen11. [CC BY 4.0](https://creativecommons.org/licenses/by/4.0); [source](https://commons.wikimedia.org/wiki/File:Papana%C8%99i.jpg). Local asset: `reviewed-commons-153309379.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Papanași cu smântână și dulceață de afine** — AncaMosoiu. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Papana%C8%99i_cu_sm%C3%A2nt%C3%A2n%C4%83_%C8%99i_dulcea%C8%9B%C4%83_de_afine.jpg). Local asset: `reviewed-commons-203105303.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Romanian Papanasi** — Lauren Stephan. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Romanian_Papanasi.jpg). Local asset: `reviewed-commons-203109602.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
