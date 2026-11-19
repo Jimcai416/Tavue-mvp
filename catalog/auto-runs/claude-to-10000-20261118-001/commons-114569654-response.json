@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBXt6qkQyNQC1sN5tCav",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Finished, cooked dish in ceramic bowl with decorative border\",\n    \"Fresh cilantro garnish visible\",\n    \"Rich brown sauce/merqa shown in side dish\",\n    \"Appetising presentation on traditional textile\"\n  ],\n  \"phone_observations\": [\n    \"Dish clearly visible in thumbnail\",\n    \"Sauce and meat components readable\",\n    \"Cilantro garnish distinguishable\",\n    \"Bowl decoration visible\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title states 'Chakhchoukha Biskria served with meat and merqa' but does not specify meat species or animal type\",\n    \"Visual appearance suggests lamb or similar meat, but species cannot be confirmed from source description alone\",\n    \"No explicit animal identifier (chicken/beef/pork/duck/lamb/seafood) provided in title or description\"\n  ],\n  \"reason\": \"Image quality, photography, and phone thumbnail all meet acceptance criteria. However, the source description includes 'meat' without specifying the animal species. Per rules, ambiguous or unspecified meat species (including those requiring inference from appearance or tradition) must be held. The exact dish name 'Chakhchoukha Biskria' is identifiable, but protein_evidence cannot be populated without an explicit source quote naming a specific animal.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1631,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 440,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

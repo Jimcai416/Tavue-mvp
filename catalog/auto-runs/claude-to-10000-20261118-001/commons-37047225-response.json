@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBXsydugJJCzpobY8LTH",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Stewed meat dish with rich brown sauce in woven basket-lined plate\",\n    \"Accompanying blue bowl with fresh salad (tomato, cucumber visible)\",\n    \"Golden-brown, glossy meat pieces in spiced sauce\",\n    \"Moroccan presentation style evident\"\n  ],\n  \"phone_observations\": [\n    \"Meat dish clearly visible in centre, brown/caramelised appearance\",\n    \"Accompanying salad visible in background left\",\n    \"Dish identity readable as stewed meat preparation\",\n    \"Adequate detail for recognition at thumbnail scale\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title 'Ary-merroziya' does not match standard 'Mrouzia' spelling in description; unclear which is authoritative\",\n    \"Meat species in Mrouzia not explicitly named in source title or description—Moroccan tradition suggests lamb or beef, but cannot be visually confirmed and no source quote names the animal\",\n    \"Description says 'Mrouzia' but title uses 'Ary-merroziya'—identity contradiction between title and description\"\n  ],\n  \"reason\": \"Image quality, photograph authenticity, phone thumbnail visibility, and composition are all acceptable. However, the source title and description do not agree on the dish name ('Ary-merroziya' vs. 'Mrouzia'), creating identity ambiguity. More critically, no protein species is explicitly named in either title or description—the meat type cannot be verified from the source metadata, only inferred from Moroccan culinary tradition. Per protocol, unknown or unquoted meat species requires hold pending clarification of exact dish name and explicit protein identification.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1635,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 518,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

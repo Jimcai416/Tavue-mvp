@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBXtcCrB4hVAPpc1yoSF",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": \"Chakhchoukha, Marqa just cooked\",\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Red-brown braised stew in black cooking vessel\",\n    \"Abundant chickpeas throughout\",\n    \"Tender meat pieces visible\",\n    \"Green pepper or vegetable visible in upper portion\",\n    \"Rich glossy sauce indicating slow cooking\",\n    \"Prominent dish in full-image and thumbnail\"\n  ],\n  \"phone_observations\": [\n    \"Stew clearly visible in phone thumbnail\",\n    \"Chickpeas and sauce texture readable\",\n    \"Dish remains prominent with no essential clipping\",\n    \"Natural colour and appetising appearance maintained\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title lists two dish names ('Chakhchoukha' and 'Marqa') without clarification of their relationship or whether they are identical, regional variants, or distinct preparations\",\n    \"Meat species cannot be determined from visual appearance alone; source provides no explicit animal identification\",\n    \"Unclear whether 'Marqa' is a variant name, preparation stage descriptor, or separate dish entirely\",\n    \"No source quote unambiguously specifies the meat protein used\"\n  ],\n  \"reason\": \"Identity check fails due to ambiguous source title listing two dish names without explanation of their exact relationship. Although photograph quality, sharpness, composition and phone thumbnail are all excellent (all scores ≥4), and the dish is clearly a finished, appetising stew with visible components, the dual naming creates uncertainty about canonical identity. Additionally, no explicit protein species is named in the source description despite visible meat pieces. Per protocol, source contradictions or ambiguities regarding dish identity require hold pending clarification of whether 'Chakhchoukha' and 'Marqa' are synonymous, regional variants with distinct preparation, or other relationship, and explicit animal identification for the meat component.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1777,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 556,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
