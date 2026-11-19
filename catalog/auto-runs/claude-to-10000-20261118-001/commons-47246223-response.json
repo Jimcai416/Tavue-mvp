@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCod8mY1aG2Af7rxpZb3",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": \"Pâté de Cul noir limousin\",\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 3,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [\n    \"Brown, cooked paste in white bowl with spoon\",\n    \"Finished, exposed dish in home/casual setting\",\n    \"Prominent subject centered in frame\",\n    \"Phone thumbnail shows readable essential components\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows brown pâté in white bowl\",\n    \"Spoon visible crossing the dish\",\n    \"Subject remains prominent and identifiable at reduced size\",\n    \"Lighting and composition preserved in thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Pâté de Cul noir limousin refers to a pâté from black pigs of the Limousin region, but the source title does not explicitly name the animal species (pork/pigs)\",\n    \"Visual appearance cannot distinguish pork pâté from other meat pâtés (beef, poultry, etc.)\",\n    \"Source description is insufficient to confirm protein category by explicit naming\"\n  ],\n  \"reason\": \"While the photograph is of acceptable quality and shows a finished, plated pâté dish clearly visible in both full image and thumbnail, the source title 'Pâté de Cul noir limousin' does not explicitly name the protein animal. Although 'Cul noir' refers to a Limousin black pig breed, the metadata does not contain an explicit statement naming pork/pig as the protein. Per protocol, ambiguous meat species—including those inferrable from tradition or breed name but not explicitly stated in the source title or description—must be held. The protein_evidence cannot be populated without direct explicit naming in the source.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1739,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 512,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

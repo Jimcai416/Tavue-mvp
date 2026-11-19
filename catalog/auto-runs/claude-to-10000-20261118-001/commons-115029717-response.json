@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCod8i4pgrRKJEJHnquf",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Brown/tan whole-grain bread base clearly visible\",\n    \"Bright yellow-green pickled asparagus spears distributed across top\",\n    \"Cream/tan coloured chopped pieces consistent with hard-boiled egg\",\n    \"Orange granular specks visible (possibly mustard seeds)\",\n    \"Black pepper specks present\",\n    \"Chocolate-brown fragments visible beneath toppings\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows composed open-faced sandwich\",\n    \"Pickled asparagus distinctly visible as yellow-green elements\",\n    \"Bread base readable as hearty whole grain\",\n    \"Chopped toppings and garnish clearly discernible at phone size\"\n  ],\n  \"protein_evidence\": {\n    \"pork\": \"Pork liver confit\"\n  },\n  \"uncertainties\": [\n    \"Pork liver confit is not in the allowed proteins list (chicken/beef/pork/duck/lamb/seafood). Liver is an organ meat, not a standard meat category. The source explicitly names 'pork liver confit' but pork itself cannot be visually distinguished in the composed dish—the brown elements could represent liver, mustard, or other components. 'Liver' as a standalone protein category is not permitted.\",\n    \"Tea egg presence claimed but cannot be independently confirmed as visually distinct from general chopped hard-boiled egg garnish in the photograph\",\n    \"Identity mismatch: source describes an open-faced sandwich composition; the dish is a complete, finished food item, but the protein foundation cannot be authenticated through allowed categories due to the organ-meat qualifier\"\n  ],\n  \"reason\": \"Hold: Although the photograph is sharp, well-lit, appetising and the phone thumbnail clearly shows a composed open-faced sandwich with identifiable toppings (pickled asparagus, chopped egg, bread, seasonings), the primary protein is declared as 'pork liver confit.' Liver is an organ meat not in the allowed protein categories (chicken/beef/pork/duck/lamb/seafood). While 'pork' appears in the source, the actual protein component is liver, which cannot be visually confirmed and does not match canonical protein qualifiers. The source identity is clear, but protein evidence cannot be established within the allowed framework. This requires hold pending clarification of whether the dish qualifies under a standard meat category or whether the organ-meat variant must be declined.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1641,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 683,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
