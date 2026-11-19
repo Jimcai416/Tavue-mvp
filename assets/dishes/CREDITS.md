@@ -9613,3 +9613,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Cooked beef laab** — Sbrooks36. [CC BY 4.0](https://creativecommons.org/licenses/by/4.0); [source](https://commons.wikimedia.org/wiki/File:Golden_Cuisine_cooked_beef_laab.jpg). Local asset: `reviewed-commons-165711905.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Teh Talua** — Abdul Hanif Arromy. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Griyo_Dahar_Mbak_Rahma_-_Teh_Talua_090404.jpg). Local asset: `reviewed-commons-201534975.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
