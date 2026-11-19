@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChD7Ue7j9HAimnDEFJPiT",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Golden-brown fried cylinders stacked in white plate with green rim\",\n    \"Subjects are clearly visible and appetising in thumbnail\",\n    \"Adequate detail for recognition of fried form\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title claims 'Fried Chicken Spring Roll with Cheese' but photograph shows no visible cheese filling, no visible spring roll wrapper characteristics, and no recognisable chicken\",\n    \"Subjects appear to be homogeneous fried dough cylinders or possibly fried cheese-filled cylinders, not identifiably chicken spring rolls\",\n    \"Visible contents do not support both 'chicken' and 'cheese' as named ingredients—neither is visually proven\",\n    \"Identity contradiction between title (chicken spring roll with cheese) and actual visible form (plain fried cylindrical objects with no visible internal or surface evidence of either ingredient)\"\n  ],\n  \"reason\": \"Source title describes 'Fried Chicken Spring Roll with Cheese', but the photograph shows plain fried cylindrical objects with no visible evidence of chicken, cheese filling, or spring roll wrapper structure. The visible form does not match the declared identity. Per rules, identity must agree with exact source title/description and visible form; source contradictions require hold. However, the more serious issue is that no meaningful component of the declared dish is visually proven—neither chicken nor cheese is evident, and the object structure does not resemble a spring roll. This constitutes a material identity failure that cannot be reconciled by visual inspection alone. Rejection on identity mismatch.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1738,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 492,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

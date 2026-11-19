@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChD7W1dZawzojvpJZGkkR",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 5,\n    \"composition\": 5,\n    \"appeal\": 5\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows a component plated dish in a woven basket with spring rolls, cucumber, and dipping sauce—recognisably the central finished dish\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title metadata declares 'Spring roll ingredients' but the image is an infographic illustration labelled with Armenian text, not a photograph of a finished dish\",\n    \"The central plated presentation is a stylised illustration, not a natural photograph\",\n    \"File metadata shows 'created on the basis of free images' and licensed as CC BY-SA 4.0—this is a composite graphic, not an original food photograph\",\n    \"No finished dish is exposed for review; this is an educational ingredient diagram with an illustrated plated example\"\n  ],\n  \"reason\": \"Reject: This is an illustrated ingredient infographic with Armenian labels, not an unmodified resized photograph of a finished food dish. The metadata explicitly states it was 'created on the basis of free images' and is licensed as an illustration. While the central plated component shows spring rolls, cucumber and sauce, the overall image is a composite illustration designed to teach ingredient identification, not a natural food photograph. Tavue's protocol requires a finished, exposed, photographic dish from an actual meal, not an illustration, diagram, or educational graphic.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1832,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 433,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
