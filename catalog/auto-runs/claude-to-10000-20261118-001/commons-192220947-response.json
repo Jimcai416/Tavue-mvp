@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCT1ty2Qt8qmEDjQdJ2c",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Two distinct fried meat skewers visible on left plate with wooden skewer\",\n    \"Cluster of irregular fried fritters on right plate with floral decoration and small white dipping bowl\",\n    \"Natural golden-brown colour, crispy exterior, herb garnish visible\",\n    \"Phone thumbnail shows both items clearly\"\n  ],\n  \"phone_observations\": [\n    \"Skewer clearly visible on left\",\n    \"Fritter cluster recognizable on right plate\",\n    \"Dipping sauce bowl visible in thumbnail\"\n  ],\n  \"protein_evidence\": {\n    \"chicken\": \"Chicken skewer\"\n  },\n  \"uncertainties\": [\n    \"Title claims 'Chicken skewer and jungle fritters' but fritter composition and ingredients are not visually identifiable—'jungle fritters' is a regional variant name requiring source confirmation of actual ingredients\",\n    \"Fritter components (whether vegetable, seafood, mixed protein, or other) cannot be determined from appearance alone\",\n    \"No explicit source quote defines what constitutes 'jungle fritters' at this establishment\"\n  ],\n  \"reason\": \"Chicken skewer identity is supported by explicit source title. However, the second component—'jungle fritters'—lacks visual or source-documented ingredient specificity. The term is a regional variant name, but the actual composition of the fritters (vegetables, seafood, protein type, etc.) cannot be verified from the photograph. The source title alone does not constitute proof of the fritter ingredients. Under the protocol to hold when identity cannot be confirmed or components are ambiguous, this item cannot be accepted without documented ingredient clarity for the 'jungle fritters' component.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1764,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 505,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
