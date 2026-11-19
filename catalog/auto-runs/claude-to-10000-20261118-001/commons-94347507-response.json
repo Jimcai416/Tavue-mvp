@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCAh6iop29BmPRi1ZkYS",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Shredded, stir-fried protein with green beans\",\n    \"Red onion slices and what appear to be potato/ginger slices as garnish\",\n    \"Natural daylight, food on white plate\",\n    \"Characteristic home-cooked appearance\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows stir-fried dish with visible green beans and protein\",\n    \"Garnish elements (onion, pale slices) distinguishable\",\n    \"Overall composition readable at reduced size\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title contains 'Alamang' (shredded coconut) but no visible coconut observed in either image\",\n    \"Shredded protein species cannot be visually determined with certainty (could be chicken, beef, or pork; appears cooked/shredded but species not unambiguous)\",\n    \"Title mentions 'Ginisang Bataw at Alamang' and 'Ginisang Gulay' - unclear which dish or combination is actually plated\",\n    \"No explicit animal name in source description to match against visible form\",\n    \"Metadata contains extensive COVID-19 and geographic/administrative information unrelated to dish identity\"\n  ],\n  \"reason\": \"Identity check fails: source title is ambiguous (mentions two or three possible dishes: 'Ginisang Bataw at Alamang', 'Ginisang Gulay', and 'Ginisang Bataw' separately), and no unambiguous protein species can be confirmed from either photograph or matched to an explicit source quote. The shredded protein is not identifiable to a specific animal. While photograph and phone quality are acceptable and all technical scores meet threshold, the fundamental requirement that identity must agree with exact source title/description and visible form cannot be satisfied due to source ambiguity and unidentifiable protein species. Hold pending clarification of exact dish name and protein.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 2175,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 579,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

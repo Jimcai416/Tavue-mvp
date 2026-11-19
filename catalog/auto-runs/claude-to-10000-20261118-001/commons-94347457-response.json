@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCAgKNnCzMu1gqRB577P",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 3,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Stir-fried rice dish with visible diced vegetables (orange carrot, yellow onion/squash pieces, white items)\",\n    \"Thumbnail shows finished cooking in wok/pan, appropriate scale\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title lists 'Ginisang Bataw at Alamang' and 'Ginisang Gulay' as separate dishes; metadata is contradictory and unreliable\",\n    \"Visible meat component (pale shredded/minced substance) cannot be reliably identified as a supported species from appearance alone\",\n    \"No explicit protein identification in source description—shredded meat species unconfirmed\",\n    \"Unclear which of multiple named dishes this photograph represents\",\n    \"Source metadata contains extensive COVID-19 context and administrative information unrelated to dish identity\"\n  ],\n  \"reason\": \"Identity check fails due to contradictory and ambiguous source description listing multiple dish names without clear correspondence to the photograph. Visible shredded meat component cannot be reliably identified to a supported category (chicken/beef/pork/duck/lamb/seafood) from appearance. No explicit source quote naming the meat species. The metadata is primarily documentary/administrative text about Philippine pandemic response, not reliable dish information. Source contradictions and unspecified protein identity mandate hold per protocol.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 2175,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 446,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
