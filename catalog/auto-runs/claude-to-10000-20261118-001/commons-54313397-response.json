@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBT9a6g6jgd2GAqPCJvN",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Cooked pasta visible\",\n    \"Multiple clams/shellfish visible\",\n    \"Red tomato pieces present\",\n    \"Fresh herb garnish (parsley)\",\n    \"Professional plating on white dish\",\n    \"Restaurant setting\"\n  ],\n  \"phone_observations\": [\n    \"Pasta and shellfish clearly visible in thumbnail\",\n    \"Dish composition recognizable at small scale\",\n    \"Colors well-represented\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title states 'Trofie Vongole e Zucchine' but no zucchini is visible in either photograph—only pasta, clams, tomato, and herbs\",\n    \"Clams (vongole) are present but clams are not an allowed protein category (only chicken/beef/pork/duck/lamb/seafood accepted, and clams fall under molluscs, not the seafood subset defined)\",\n    \"Dish identity cannot be verified as matching title due to missing zucchini and unclear seafood category eligibility\"\n  ],\n  \"reason\": \"Source title claims 'Trofie Vongole e Zucchine' but no zucchini is visible in the full image or thumbnail—only pasta, clams, tomato, and parsley garnish. Identity check fails due to this significant discrepancy. Additionally, clams (vongole) are molluscs and do not map to the allowed seafood protein category as defined. The photograph is well-exposed and appetising, but the identity mismatch and unverifiable protein species prevent acceptance.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1554,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 501,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
