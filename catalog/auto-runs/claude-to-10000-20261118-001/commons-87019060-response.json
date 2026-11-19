@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChChcvgZFdTqBVBwb2E5C",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Three rounded, tan-coloured objects visible on white surface\",\n    \"Uniform texture consistent with full image\",\n    \"Essential form clearly discernible in thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title contains filename metadata (File:Peda.jpg) rather than a clean dish description\",\n    \"Description claims 'Famous peda from Barmajiya, Nepal' but peda is a traditional Indian sweet, not a savoury dish; Barmajiya is not a recognized peda-producing region\",\n    \"Visual appearance is consistent with an Indian peda (a dense, fudge-like milk solid sweet), but the geographic and regional attribution appears unreliable or invented\",\n    \"No explicit ingredient or preparation details provided to verify authentic identity\"\n  ],\n  \"reason\": \"Rejection due to source metadata defect (filename included in title field) and unverifiable regional attribution. The description 'Famous peda from Barmajiya, Nepal' contradicts established peda tradition (Indian origin, not Nepali) and Barmajiya is not a recognized peda centre. The image shows what appears to be Indian peda visually, but the source identity claim is unreliable. Per instructions, source contradictions and doubtful credits mandate hold/reject. The filename metadata in the title field further violates canonical_name extraction requirements.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1732,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 455,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
