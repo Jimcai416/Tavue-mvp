@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDBvsvNk9G4cyP4i5Vnm",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 3,\n    \"lighting\": 3,\n    \"composition\": 2,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows skewered meat items in containers, consistent with satay\",\n    \"Yellow/golden paste visible (bumbu bacem sauce)\",\n    \"Multiple preparation containers in display\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title references 'Aneka Sate' (mixed/variety satay) but no specific meat species is named in title or description\",\n    \"Description states 'bumbu bacem manis-gurih' (sweet-savory bacem spice) but does not specify animal protein\",\n    \"Visual identification of meat species on skewers is not reliable from photograph angle and lighting\",\n    \"This is a food service/display photograph, not a finished plated dish suitable for Tavue review\"\n  ],\n  \"reason\": \"Rejection on two grounds: (1) Identity/protein evidence failure — the source title 'Aneka Sate Angkringan Yogyakarta' and description name no specific meat animal (chicken/beef/pork/duck/lamb/seafood), only generic 'sate' and 'bumbu bacem'; protein_evidence cannot be populated without an explicit source quote naming the animal. (2) Photograph type — this is a food service display/preparation station photograph showing multiple containers and service setup, not a finished, plated, exposed dish in appetising presentation form suitable for Tavue intake. The image documents street food preparation infrastructure rather than a consumer-ready dish.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1560,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 473,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDBwuMVFNcQRYhdz512M",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Cooked rice dish in traditional metal pot\",\n    \"Golden/orange-coloured cooked components visible on rice surface\",\n    \"Outdoor village setting consistent with regional preparation\",\n    \"Natural daylight, well-exposed\",\n    \"Dish prominent and legible in both source and thumbnail\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail shows rice dish clearly in metal pot\",\n    \"Golden tones and cooked ingredients readable\",\n    \"Pot and food occupy centre-cover area appropriately\",\n    \"No clipping of essential food elements\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title states 'ikan mas Masak kuning' (golden-prepared carp) but the description language is mixed Indonesian/unclear phrasing ('Masak kuning' may mean 'cooked golden' rather than a confirmed preparation name)\",\n    \"While carp is visually plausible in the dish, 'ikan mas' (carp) is not an explicitly named allowed protein category (chicken/beef/pork/duck/lamb/seafood) and cannot be verified as matching the visual components\",\n    \"The source description contains informal phrasing and grammar inconsistencies that create ambiguity about the exact dish identity and confirmed ingredients\",\n    \"Nasi Liwet Jolem is a named regional variant, but the protein component cannot be definitively matched to an allowed category from the visible evidence or source quote\"\n  ],\n  \"reason\": \"Image quality, photograph authenticity, composition and phone thumbnail all pass. However, identity cannot be confirmed because the source description names 'ikan mas' (carp) as the protein, which is not within the allowed protein categories (chicken/beef/pork/duck/lamb/seafood). The source phrasing is also ambiguous and contains grammatical inconsistencies that prevent reliable extraction of a definitive dish identity and protein confirmation. Hold pending clarification of the exact protein ingredient within allowed categories.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1687,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 581,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
