@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCL8XiDkJX1YjoVUw35Y",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Cold ramen noodles visibly present\",\n    \"Shrimp/prawn clearly visible and identifiable\",\n    \"Pink/coral crab meat visible\",\n    \"Brown sliced meat consistent with char siu\",\n    \"Green onion garnish visible\",\n    \"Lemon wedge present\",\n    \"Natural colours, finished dish\",\n    \"Sharp focus on centre elements\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows composed dish with multiple proteins\",\n    \"Noodles, shrimp, meat and crab identifiable at small scale\",\n    \"Appetising presentation evident\",\n    \"No clipping of essential components\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title specifies 'char siu' (pork), 'shrimp', and 'crab' but source description lacks explicit animal-naming quotes for validation. Title metadata states 'topped with char siu, shrimp, and crab' — char siu is traditional pork but source does not use word 'pork'; shrimp species unspecified; crab species unspecified\",\n    \"Source description is ambiguous: does not explicitly name 'pork', 'seafood', or specific species in prose form required by protocol\",\n    \"Canonical name should be exact substring from title or description; metadata filename is excluded; only description available is the topline phrase which does not form a complete dish name\"\n  ],\n  \"reason\": \"Image quality, photograph authenticity, phone thumbnail clarity and composition are all strong (scores ≥4). Hiyashi chūka identity is visually supported by cold noodles, multiple toppings, and lemon. However, the source description does not provide explicit animal-naming quotes required by protocol to validate protein categories. Title metadata states 'char siu, shrimp, and crab' but: (1) 'char siu' does not contain the word 'pork'; (2) shrimp and crab species are unnamed; (3) the description field lacks the required explicit naming. Per protocol, proteins may include named animals only with exact source quotes explicitly naming each animal species—never inferred from tradition or appearance. The source does not meet this threshold. Canonical name cannot be established from an exact title/description substring that forms a complete, meaningful dish identifier. Hold pending clarification of full source title or explicit animal-naming in description.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1534,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 684,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
