@@ -9506,3 +9506,8 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 - **Tsuivan - Mongolian traditional food: noodle with beef and vegetables** — Photo:  Marcin Konsek  /  Wikimedia Commons. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Cujwan.JPG). Local asset: `reviewed-commons-32287132.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Cotriade bretonne** — Arnaud 25. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Cotriade.jpg). Local asset: `reviewed-commons-116155131.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Tsuivan** — Mizu_Basyo. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Tsuivan.jpg). Local asset: `reviewed-commons-13881256.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Puri, Aloo Dum and Moya** — Agamani Saha. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Puri,_Aloo_Dum_and_Moya.jpg). Local asset: `reviewed-commons-101738774.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Fried Pooris with Aaloo ki Sabji** — Saumendra. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Puri-aloo_matter_-_cuttack-_odisha.jpg). Local asset: `reviewed-commons-101985198.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
