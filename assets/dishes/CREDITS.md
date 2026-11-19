@@ -8663,3 +8663,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 
 - **Linguine alle vongole** — Missvain. [CC BY 4.0](https://creativecommons.org/licenses/by/4.0); [source](https://commons.wikimedia.org/wiki/File:Capri_Italian_Restaurant_-_June_2022_-_Sarah_Stierch_11.jpg). Local asset: `reviewed-commons-118904271.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Tour of Italy (Lasagna Classico, Fettuccine Alfredo, and Eggplant Parmigiana)** — Famartin. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:2019-05-11_20_41_32_%22Tour_of_Italy%22_(Lasagna_Classico,_Fettuccine_Alfredo,_and_Eggplant_Parmigiana_(substituted_for_the_usual_Chicken_Parmigiana))_at_the_Olive_Garden_in_Fair_Lakes,_Fairfax_County,_Virginia.jpg). Local asset: `reviewed-commons-78894870.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Fettuccine Alfredo** — Famartin. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:2020-03-14_21_40_07_Fettuccine_Alfredo_at_the_Olive_Garden_in_Fair_Lakes,_Fairfax_County,_Virginia.jpg). Local asset: `reviewed-commons-88121941.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
