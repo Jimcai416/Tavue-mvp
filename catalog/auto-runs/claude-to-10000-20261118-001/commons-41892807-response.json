@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCriNhgRZJREiz31WWVU",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Cataplana vessel visible and identifiable\",\n    \"Shellfish (clams/prawns) present in dish\",\n    \"Red and green peppers visible\",\n    \"Tomatoes visible\",\n    \"Onions visible\",\n    \"Cooked preparation stage evident\"\n  ],\n  \"phone_observations\": [\n    \"Dish clearly visible in thumbnail\",\n    \"Cataplana vessel recognizable\",\n    \"Mixed seafood and vegetable components discernible\",\n    \"Adequate resolution for component identification\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title references 'clams cataplana (Amêijoas na cataplana)' but clams are not an allowed protein category (seafood category exists but clams are excluded)\",\n    \"Prawns mentioned in description but not explicitly visible as distinct items in photograph to confirm species\",\n    \"Pork mentioned in description but not visually distinguishable as cubed pork in the cooked dish\",\n    \"Chouriço sausage mentioned but cannot be visually confirmed; sausage is not an allowed protein key\",\n    \"Source description lists multiple proteins but only seafood is a valid allowed category, and clams specifically are excluded from acceptable protein evidence\",\n    \"Cannot provide protein_evidence with valid allowed category keys that have explicit source support\"\n  ],\n  \"reason\": \"Hold: Source identifies clams as primary protein, but clams are explicitly excluded from allowed protein categories. Prawns (seafood) are mentioned but not visually distinguishable in the photograph. Pork and chouriço sausage are mentioned but cannot be confirmed visually, and sausage is not an allowed protein key. The dish meets photographic quality standards (all scores ≥4), is a finished cooked dish in the traditional cataplana vessel, and is well-composed and appetizing. However, protein_evidence cannot be populated with valid allowed category keys backed by exact source quotes, creating an unresolvable identity conflict. The absence of a supported protein category prevents acceptance.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 2098,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 600,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

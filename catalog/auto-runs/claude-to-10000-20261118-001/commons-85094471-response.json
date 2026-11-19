@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCrgxaZsTff5ehmSfqUC",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": \"A cataplana dish of cubed pork, clams, prawns, chouriço sausage, red and yellow peppers, onion, tomatoes, cooked in olive oil, garlic, tarragon, parsley, white wine\",\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Cooked seafood visible in cataplana pan: clams with shells open, prawns\",\n    \"Yellow and red peppers sliced and distributed throughout\",\n    \"Red/pink onion visible\",\n    \"Glossy cooked sauce indicating wine and oil base\",\n    \"Fresh herbs visible (tarragon/parsley garnish)\",\n    \"Traditional perforated cataplana steaming vessel clearly shown\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows finished cooked cataplana dish\",\n    \"Seafood, peppers, and sausage visible and identifiable\",\n    \"Natural warm lighting on food\",\n    \"Dish prominently featured in frame\"\n  ],\n  \"protein_evidence\": {\n    \"pork\": \"cubed pork\",\n    \"seafood\": \"clams, prawns\"\n  },\n  \"uncertainties\": [\n    \"Source title references 'File:-2019-12-20 Pork and clams Cataplana, Trimingham (2).JPG' but metadata lists 'chouriço sausage' in description—sausage species cannot be confirmed from visual inspection alone and is not an allowed protein category key\",\n    \"Clams are present but not an allowed protein category (only chicken/beef/pork/duck/lamb/seafood allowed, and 'clams' as specific bivalve may fall outside general 'seafood' scope depending on strict interpretation)\"\n  ],\n  \"reason\": \"Cannot accept: The source description includes 'clams' and 'chouriço sausage' as key components. Clams are a specific shellfish, not covered by general 'seafood' category guidelines. Chouriço is an identifiable sausage but its animal species cannot be verified visually, violating the rule that sausage species must not be guessed. The dish identity depends on these uncertain protein elements. Hold pending clarification of whether clams qualify as 'seafood' and sausage species confirmation from source.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 2104,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 651,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

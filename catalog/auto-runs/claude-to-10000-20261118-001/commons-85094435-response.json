@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCrgxboooCRuCxu4eHw5",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Steamed cataplana dish in traditional metal steamer visible\",\n    \"Clams with shells open, clearly identifiable\",\n    \"Pink prawns/shrimp throughout\",\n    \"Red and yellow pepper pieces visible\",\n    \"Purple onion slices visible\",\n    \"Green herbs (parsley/tarragon) visible\",\n    \"Broth/cooking liquid present\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail shows finished seafood dish in white steamer bowl\",\n    \"Clams and prawns clearly visible and prominent\",\n    \"Colorful peppers and onions visible in thumbnail\",\n    \"Dish appears appetizing and well-composed\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title lists 'pork and clams cataplana' but the actual visible protein composition is dominated by clams and prawns/shrimp with no visually identifiable pork pieces\",\n    \"Chouriço sausage mentioned in description but not distinctly visible or identifiable in photograph\",\n    \"Pork is listed as primary ingredient in title but cannot be visually confirmed in the dish; no cubed pork pieces are clearly distinguishable\",\n    \"Ambiguity between what source declares (pork primary) and what is visually prominent (seafood primary)\"\n  ],\n  \"reason\": \"Reject: Source title/description declares 'Pork and clams Cataplana' with pork as primary ingredient and lists chouriço sausage, but the visible dish is predominantly seafood (clams and prawns). No distinctly identifiable pork cubes or sausage pieces are visible in the photograph. The source-declared identity conflicts with visual evidence. Per protocol, source contradictions regarding meat species/identity require hold, but this represents a fundamental compositional mismatch (pork-primary vs. seafood-dominant) that cannot be reconciled. Pork cannot be supported by exact source quote matching visible form. Reject due to identity check failure.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 2104,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 595,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

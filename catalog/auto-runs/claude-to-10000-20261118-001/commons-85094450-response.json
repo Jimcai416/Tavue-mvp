@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCrhNFs6ty8HHQZjsvUV",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": \"A cataplana dish of cubed pork, clams, prawns, chouriço sausage, red and yellow peppers, onion, tomatoes, cooked in olive oil, garlic, tarragon, parsley, white wine\",\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Cooked seafood and meat mixture in traditional metal cataplana vessel\",\n    \"Yellow and red pepper strips clearly visible\",\n    \"Pink/translucent prawns identifiable\",\n    \"Clam shells visible throughout dish\",\n    \"Browned meat pieces consistent with pork\",\n    \"Kitchen setting, home-cooked appearance\",\n    \"Steam holes in cataplana vessel visible\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail shows full cooked dish prominently\",\n    \"Peppers, seafood and meat components readable\",\n    \"Natural colour, appetising appearance\",\n    \"Dish fills centre-cover area adequately\"\n  ],\n  \"protein_evidence\": {\n    \"pork\": \"cubed pork\",\n    \"seafood\": \"clams, prawns\"\n  },\n  \"uncertainties\": [\n    \"Source title contains 'clams' but instructions exclude clams as a valid protein_evidence key\",\n    \"Chouriço sausage present but sausage species cannot be confirmed from appearance or source text\",\n    \"Instruction conflict: source explicitly names clams and prawns as proteins, but clams are not in allowed category list and sausage species is unspecified\"\n  ],\n  \"reason\": \"High-quality photograph of an authentic finished cataplana dish with sharp detail, natural colours, and appetising presentation. Full and phone thumbnails both strong. However, source description includes clams (not an allowed protein category) and chouriço sausage (species unspecified, cannot be inferred). The protein_evidence cannot be completed to match instruction requirements: clams cannot be used as a key, prawns should map to 'seafood', pork is valid, but sausage requires explicit species identification which is absent. Identity cannot be fully preserved due to these protein category constraints. Hold pending resolution of protein category validity and sausage species clarification.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 2104,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 621,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
