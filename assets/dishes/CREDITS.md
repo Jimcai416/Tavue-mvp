@@ -8007,3 +8007,9 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 
 - **Alfajores bolivianos** — MiguelAlanCS. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Alfajores_bolivianos.jpg). Local asset: `reviewed-commons-81561111.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Churros** — [Jeremy Keith  from Brighton & Hove, United Kingdom](https://www.flickr.com/people/74105777@N00). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Churros_(7516878436).jpg). Local asset: `reviewed-commons-146160519.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Pastel tres leches de durazno** — Eduardo Francisco Vazquez Murillo. [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:PASTEL_TRES_LECHES,_CON_CUBIERTA_DE_DURAZNO.jpg). Local asset: `reviewed-commons-109119099.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Variedad de alfajores (galletas rellenas de dulce de leche)** — ElGuruCesar. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Alfajores_en_blanco_y_negro_de_una_alfajoreria_en_Rosario.jpg). Local asset: `reviewed-commons-110842518.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Tapenade et ses toasts** — Marianne Casamance. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Le_Cercle_R%C3%A9publicain_Jonqui%C3%A8res_Tapenade_et_ses_toasts.JPG). Local asset: `reviewed-commons-47904966.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
