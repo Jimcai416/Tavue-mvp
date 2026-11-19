@@ -7186,3 +7186,8 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 - **Chicken gizzard curry** — Midori. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/); [source](https://commons.wikimedia.org/wiki/File:Gulai_ampela.JPG). Local asset: `reviewed-commons-4470534.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Pecel Solo** — Gunawan Kartapranata. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Pecel_Solo.JPG). Local asset: `reviewed-commons-18484165.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Gulai babat** — Midori. [CC BY 3.0](https://creativecommons.org/licenses/by/3.0); [source](https://commons.wikimedia.org/wiki/File:Gulai_babat.JPG). Local asset: `reviewed-commons-13300153.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Pecel ndeso khas Solo** — Risanprasetyo /Febri Ady Prasetyo. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Pecel_ndeso_Solo.jpg). Local asset: `reviewed-commons-166025286.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Gulai kerapu** — D.W. Fisher-Freberg. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Gulai_kerapu.JPG). Local asset: `reviewed-commons-28043086.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.

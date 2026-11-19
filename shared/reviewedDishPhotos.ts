@@ -96946,5 +96946,51 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 623,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-166025286",
+    "title": "File:Pecel ndeso Solo.jpg",
+    "author": "Risanprasetyo /Febri Ady Prasetyo",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pecel_ndeso_Solo.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/79/Pecel_ndeso_Solo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "89be9b7889b11ed42f6d3b336cd8a318291fb7e9",
+    "name": "Pecel ndeso khas Solo",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-166025286.jpg",
+    "assetSha256": "6fd8db69db73d68720183c2747185c80ed2ca8a31439d6a552a187124be77dcc",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 865,
+    "height": 960,
+    "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-28043086",
+    "title": "File:Gulai kerapu.JPG",
+    "author": "D.W. Fisher-Freberg",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gulai_kerapu.JPG",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/42/Gulai_kerapu.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "b8e499adad3b9fcb3a2c8b9337dbe9e4aad63bbd",
+    "name": "Gulai kerapu",
+    "aliases": [],
+    "proteins": [
+      "seafood"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-28043086.jpg",
+    "assetSha256": "49bec3c46a4ca05481f4c60f6d67f5a3dc27ddf75e275b66bab79bd9cea2e0a5",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 640,
+    "requiresExactMenuName": true
   }
 ];
