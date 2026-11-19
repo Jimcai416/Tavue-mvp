@@ -8282,3 +8282,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 - **Fideuà, gastronomía de les Cases d'Alcanar** — Juan Emilio Prades Bel. [CC BY 4.0](https://creativecommons.org/licenses/by/4.0); [source](https://commons.wikimedia.org/wiki/File:Fideu%C3%A0_rossej%C3%A0,_gastronom%C3%ADa_de_les_Cases_d%27Alcanar.jpg). Local asset: `reviewed-commons-164241985.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Fideuá de montaña** — Juan Emilio Prades Bel. [CC BY 4.0](https://creativecommons.org/licenses/by/4.0); [source](https://commons.wikimedia.org/wiki/File:Fideu%C3%A1_de_monta%C3%B1a.jpg). Local asset: `reviewed-commons-143442338.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Plato de Fideuà, Costa de Castellón** — Juan Emilio Prades Bel. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Plato_de_Fideu%C3%A0,_Costa_de_Castell%C3%B3n.jpg). Local asset: `reviewed-commons-115212809.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Chicken döner** — К.Артём.1. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Chicken_d%C3%B6ner_(mini).jpg). Local asset: `reviewed-commons-40682359.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
