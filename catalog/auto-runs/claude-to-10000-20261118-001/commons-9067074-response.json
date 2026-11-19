@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBj95qfdvz9NUe9jA6CH",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [\n    \"Aspic-topped terrine with visible pâté interior\",\n    \"Finished, exposed product in display setting\",\n    \"Distinct layering visible in cross-section\",\n    \"Sharp detail of meat and gelatin components\"\n  ],\n  \"phone_observations\": [\n    \"Centre thumbnail clearly shows the finished terrine with aspic topping\",\n    \"Pâté interior patterns readable and prominent\",\n    \"Subject occupies adequate frame space\",\n    \"No essential components clipped\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title 'French pastry' is generic marketing language, not a specific dish name\",\n    \"Description states 'Pate en Croute' but title does not; source contains contradiction\",\n    \"Meat species in pâté composition not explicitly declared in source (pâtés are complex, often multiple animals)\",\n    \"No exact case-sensitive quote matches a canonical dish phrase in the metadata supplied\"\n  ],\n  \"reason\": \"Identity check fails: source title 'French pastry' does not match the description 'Pate en Croute in a French shop', creating ambiguity about the actual dish. Canonical name cannot be established from an exact source quote because the title is generic marketing language. Protein evidence cannot be supported: while pâté en croûte typically contains multiple meat species, none are explicitly named in the supplied metadata. Holding for verified, contradiction-free source identity and explicit animal declarations.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1616,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 470,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

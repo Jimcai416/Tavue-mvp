@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBj91Uje2HTT6er4CqLd",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": \"Sausage rolls, pork pie and pickled red cabbage\",\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Golden, flaky pastry-wrapped rolls visible on left\",\n    \"Pork pie with golden pastry top and pale forcemeat interior center\",\n    \"Bright purple pickled red cabbage on right side\",\n    \"Plate clearly shows finished, cooked components\",\n    \"Phone thumbnail confirms all three elements visible and readable\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows sausage rolls, pork pie, and pickled red cabbage\",\n    \"All three components prominent and identifiable\",\n    \"Golden pastry and purple cabbage provide strong visual distinction\",\n    \"No clipping of essential food elements\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title lists 'Sausage rolls' but sausage species (pork/beef/other) is not explicitly named in title or description\",\n    \"Pork pie is identifiable but sausage rolls contain unspecified meat species\",\n    \"Protocol requires explicit source quote naming each animal for protein category inclusion; 'sausage' alone is ambiguous and cannot be categorized\"\n  ],\n  \"reason\": \"Image is sharp, well-lit, appetising and properly composed. Phone thumbnail is clear and readable. All three finished components are visible and identifiable. However, the source title contains 'Sausage rolls' without explicit identification of the meat species. Per protocol, unspecified sausage species cannot be accepted as protein evidence—the animal must be explicitly named in source title or description. 'Sausage' is a preparation form, not a species. 'Pork pie' names pork as the meat but only for the pie component. Without explicit species declaration for the sausage rolls, protein identity is incomplete and the dish cannot be canonically named with full accuracy. Hold for clarification of sausage meat species.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 2137,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 568,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
