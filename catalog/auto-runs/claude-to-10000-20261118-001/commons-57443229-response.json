@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChD19WwQgVu4uCzm18znM",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Sliced meat strips visible in wok\",\n    \"Yellow/golden peppers and orange/red peppers present\",\n    \"Dark cooking vessel with handles\",\n    \"Fork and plate visible in background\",\n    \"Natural daylight illumination\"\n  ],\n  \"phone_observations\": [\n    \"Wok contents clearly visible at thumbnail scale\",\n    \"Meat and peppers distinguish dish identity\",\n    \"Cooking-stage appearance dominates thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title 'Wok Fajitas' contradicts visible form: fajitas are a finished plated Tex-Mex dish (typically tortillas with grilled meat/peppers/onions served sizzling). This image shows mid-cooking or in-wok stage, not a plated fajita presentation.\",\n    \"Meat species cannot be identified with certainty from appearance alone; no explicit source text names the animal.\",\n    \"Title suggests Tex-Mex fajita preparation but no tortillas, serving dishes, or finished plating visible—inconsistent with canonical fajita service format.\"\n  ],\n  \"reason\": \"Identity check fails: source title 'Wok Fajitas' describes a finished Tex-Mex dish typically served on a plate with tortillas, but the photograph shows ingredients mid-cooking in a wok—a preparation stage, not a finished, exposed, plated dish. Fajitas are defined by their sizzling table presentation with warm tortillas. Protein species is not explicitly named in source metadata and cannot be reliably inferred from visual appearance. All quality and photograph checks pass, but the fundamental identity contradiction between title claim (finished fajita dish) and actual content (in-progress wok cooking) prevents acceptance.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1624,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 540,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

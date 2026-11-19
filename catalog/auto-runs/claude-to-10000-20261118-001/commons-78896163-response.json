@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChD19WxtRSnBvb73FSNvc",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Sizzling cast-iron skillet with grilled strips\",\n    \"Red bell peppers and onions visible\",\n    \"Browned meat pieces characteristic of fajitas\",\n    \"Hot plate presentation\",\n    \"Accompaniments (tortillas, sauces) in background\"\n  ],\n  \"phone_observations\": [\n    \"Central dish clearly visible in thumbnail\",\n    \"Cast-iron skillet and meat composition readable\",\n    \"Adequate detail for dish type recognition\",\n    \"Coloring natural and appetising\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'Steak and chicken fajitas' but photograph shows only mixed cooked strips; individual steak and chicken components cannot be visually distinguished or separately confirmed in the dish itself\",\n    \"Metadata declares dual proteins but visible form does not permit confirmation of both species in the final plated dish\"\n  ],\n  \"reason\": \"Identity mismatch. The source title declares 'Steak and chicken fajitas', but the visible photograph shows a homogeneous mixture of cooked meat strips on a sizzling skillet without clear visual differentiation between steak and chicken species. Per protocol, ambiguous or unconfirmed meat species—including when multiple proteins are claimed but not visually separable—require a hold. The title metadata cannot serve as visual proof of distinct proteins in the finished dish. Quality, composition, and photograph integrity are acceptable, but identity certainty cannot be established from the image alone.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1754,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 473,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
