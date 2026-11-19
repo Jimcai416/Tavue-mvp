@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDB1FWAQ4H2LY44826Rb",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 3,\n    \"lighting\": 2,\n    \"composition\": 2,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Jar with packaged sausages, human hand visible\",\n    \"Branding/label text barely legible at 124x96\",\n    \"Insufficient visual detail of finished dish\",\n    \"Packaging is the dominant subject, not prepared food\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Subject is a commercial jar of preserved sausages, not a finished prepared dish\",\n    \"Source metadata describes ingredients (turkey, chicken) but provides no exact quote matching finished dish identity\",\n    \"Photograph shows packaged product with label, not an exposed, finished, plated or served food item\",\n    \"Phone thumbnail does not resolve essential components of a dish—only jar and hand visible\"\n  ],\n  \"reason\": \"Reject: This is a photograph of packaged sausages in a jar, not a finished, exposed, prepared dish. The image shows commercial packaging and branding as the primary subject. The source description contains unattributed health/nutritional claims and ingredient inference ('made of mostly turkey and chicken') without exact canonical dish identity. The phone thumbnail fails to show appetising, detailed food components—only jarred product and a human hand are visible. Essential identity criteria require a specific dish name from the source title/description; none is provided beyond the generic 'Frankfurter wurst' filename. This fails the requirement for a finished, exposed, likely photographic dish with readable essential components in the thumbnail.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1698,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 460,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

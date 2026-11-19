@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDB1VMMPfMBCdMUSwKG9",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Cooked frankfurter sausage with caramelised/charred exterior in yellow cardboard serving box\",\n    \"Hand-held in outdoor venue setting\",\n    \"Natural daylight, sharp focus on sausage\"\n  ],\n  \"phone_observations\": [\n    \"Sausage clearly visible with caramel glaze\",\n    \"Yellow container readable\",\n    \"Hand and outdoor context present\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title contains 'Frankfurter Würstchen' but metadata states location as Hong Kong Observation Wheel & AIA Vitality Park with Chinese description, creating geographic/identity contradiction\",\n    \"Sausage species unspecified in title—'Frankfurter' is a style descriptor, not a named animal protein\",\n    \"Cannot verify if contents are pork, beef, chicken, or mixed from appearance alone\"\n  ],\n  \"reason\": \"Identity check fails due to source metadata contradiction: title references a Hong Kong venue but dish name is German 'Frankfurter Würstchen' without explicit animal protein declaration. Protein category 'sausage' is not an allowed key; unknown meat species cannot be inferred from style name alone. All quality and photograph checks pass, but identity uncertainty and missing explicit protein source quote prevent acceptance.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1759,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 435,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

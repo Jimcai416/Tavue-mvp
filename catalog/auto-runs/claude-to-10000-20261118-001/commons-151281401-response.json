@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDB1ud6R9kSHST6UEUCT",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows golden-fried potato strips\",\n    \"Individual fries sharply visible and well-exposed\",\n    \"Appetising colour and texture retained in phone view\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source metadata contains only generic title 'French fries 🍟' with emoji—no specific dish identity, preparation method, regional variant, or authentic descriptor\",\n    \"No source-supplied canonical name beyond colloquial emoji reference\",\n    \"Metadata indicates file origin rather than curated dish documentation\"\n  ],\n  \"reason\": \"Reject: source title is non-specific metadata ('French fries 🍟') with emoji, not a meaningful culinary descriptor. Tavue requires exact canonical_name copied from source title or description; a generic colloquialism with emoji does not constitute reliable dish identity or variant preservation. While the photograph is sharp, well-lit, and appetising, and the subject is a finished, exposed cooked dish, the absence of a proper source-supplied dish name makes canonical assignment impossible. Home cooking and street food are welcome, but identity must be documented in source metadata.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 2043,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 396,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDB1xu43twTrjmA9x8Er",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Central dish in black skillet shows meat, sausage, and sliced potatoes\",\n    \"Potato salad bowl visible upper left\",\n    \"Cucumber slices visible in upper right\",\n    \"Composition readable but lighting and color cast reduce clarity\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Kasseler identity unverifiable: source claims 'smoked pork chop' but the reddish-brown seared item in the skillet does not visually confirm this specific preparation or meat species\",\n    \"Sausage type unidentifiable: source lists 'Frankfurter' (pork) or 'Wiener' (pork and beef) as options, but actual sausage species cannot be determined from appearance alone\",\n    \"Meat species ambiguity: visible meat item cannot be confirmed as pork or as Kasseler specifically from visual inspection\"\n  ],\n  \"reason\": \"Source title describes 'Kasseler mit Kartoffelsalat und Würstchen' with sausages identified only as 'Frankfurter' or 'Wiener' (generic options, not a specific choice). The source provides only possible sausage types without declaring which one is actually present. Kasseler is claimed to be 'smoked pork chop' but the seared meat visible in the skillet does not visually confirm the specific preparation, smoke history, or unambiguous pork identity. No exact species declaration for the Frankfurter/Wiener is confirmed in the source as the actual contents of this specific dish. Per rules, unknown or ambiguous meat species and source contradictions/optionality trigger hold. Protein evidence cannot be populated because no exact animal name is explicitly confirmed for the sausage component. Identity check fails due to unverifiable Kasseler form and unresolved sausage type ambiguity.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1733,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 565,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
