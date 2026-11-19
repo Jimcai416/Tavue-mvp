@@ -10139,3 +10139,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 - **Facturas argentinas con dulce de membrillo, crema pastelera y coco rallado** — Horacio Cambeiro. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Facturas_argentinas_con_dulce_de_membrillo,_crema_pastelera_y_coco_rallado_hechas_en_Capiov%C3%AD,_Misiones.jpg). Local asset: `reviewed-commons-195447991.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Encebollado** — Montielec98. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Encebollado_mixtoo.jpg). Local asset: `reviewed-commons-112661539.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Facturas** — Mushii. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Facturas_en_plato_(cropped).jpg). Local asset: `reviewed-commons-19343606.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Leshan-style Shaomai** — N509FZ. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Leshan-style_Shaomai_at_Huayanjie,_Lize_(20211119171902).jpg). Local asset: `reviewed-commons-112643208.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.

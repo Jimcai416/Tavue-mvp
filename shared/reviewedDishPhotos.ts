@@ -130439,5 +130439,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 594,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-112643208",
+    "title": "File:Leshan-style Shaomai at Huayanjie, Lize (20211119171902).jpg",
+    "author": "N509FZ",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Leshan-style_Shaomai_at_Huayanjie,_Lize_(20211119171902).jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Leshan-style_Shaomai_at_Huayanjie%2C_Lize_%2820211119171902%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "d61555d32f4b76f31727b4dee2b76235baaafd05",
+    "name": "Leshan-style Shaomai",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-112643208.jpg",
+    "assetSha256": "640abfb95885192f813944a3081f4ab33e30d44ac78d8248d43b31e41ae36d58",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 640,
+    "requiresExactMenuName": true
   }
 ];
