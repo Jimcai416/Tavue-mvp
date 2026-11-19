@@ -6425,3 +6425,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 
 - **Chicken Satay, Banjarmasin** — Midori. [CC BY 3.0](https://creativecommons.org/licenses/by/3.0); [source](https://commons.wikimedia.org/wiki/File:Sate_ayam_merah_Banjarmasin.JPG). Local asset: `reviewed-commons-26060497.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Ramyon in Republic of Korea** — SungMinSeung. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Ramyeon_in_Republic_of_Korea.jpg). Local asset: `reviewed-commons-70202946.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Tortellini** — [John Freeman](https://www.flickr.com/people/63743776@N00). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Tortellini_(38218923796).jpg). Local asset: `reviewed-commons-102922849.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.

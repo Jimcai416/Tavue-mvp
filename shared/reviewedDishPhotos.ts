@@ -87626,5 +87626,28 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 720,
     "height": 960,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-102922849",
+    "title": "File:Tortellini (38218923796).jpg",
+    "author": "John Freeman",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tortellini_(38218923796).jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Tortellini_%2838218923796%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "b473f8a81d7478eeabab73dcab9db6525747c12c",
+    "name": "Tortellini",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-102922849.jpg",
+    "assetSha256": "a2993d5865e52af17ff78aad5d2f04cd1925430c06b9467719009ef8beea1637",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 638,
+    "requiresExactMenuName": true,
+    "authorUrl": "https://www.flickr.com/people/63743776@N00"
   }
 ];
