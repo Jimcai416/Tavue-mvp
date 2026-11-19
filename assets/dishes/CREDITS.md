@@ -9295,3 +9295,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 
 - **Donair** — [Morgan  from Montreal, Quebec, Canada](https://www.flickr.com/people/12549501@N06). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Donair_(4307999410).jpg). Local asset: `reviewed-commons-83405601.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Small donair platter** — [Geoff Peters  from Vancouver, BC, Canada](https://www.flickr.com/people/54359128@N00). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Donair_platter_(3004509264).jpg). Local asset: `reviewed-commons-80211825.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Pane Carasau** — Luigi Chiesa. [CC BY 3.0](https://creativecommons.org/licenses/by/3.0); [source](https://commons.wikimedia.org/wiki/File:Pane_carasau.jpg). Local asset: `reviewed-commons-1803032.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.

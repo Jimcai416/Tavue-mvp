@@ -121377,5 +121377,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "height": 960,
     "requiresExactMenuName": true,
     "authorUrl": "https://www.flickr.com/people/54359128@N00"
+  },
+  {
+    "id": "commons-1803032",
+    "title": "File:Pane carasau.jpg",
+    "author": "Luigi Chiesa",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pane_carasau.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Pane_carasau.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "8b8f96989f8fbc519f69cf1d7bb813960b81813a",
+    "name": "Pane Carasau",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-1803032.jpg",
+    "assetSha256": "a32a27566b370164b838436a642a032f64b5264d39656cb5613ba8390a7aeae2",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 480,
+    "requiresExactMenuName": true
   }
 ];
