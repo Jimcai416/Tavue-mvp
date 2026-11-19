@@ -105266,5 +105266,53 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 543,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-2750855",
+    "title": "File:Jamon Iberico de Bellota served.jpg",
+    "author": "austinevan (Evan Bench)  from Paris, France",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jamon_Iberico_de_Bellota_served.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Jamon_Iberico_de_Bellota_served.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "83fb5296dc15938e110a8b0e15b563f7bcd29a1a",
+    "name": "Jamón Ibérico de Bellota",
+    "aliases": [],
+    "proteins": [
+      "pork"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-2750855.jpg",
+    "assetSha256": "0985fda76231708d99c1f8ae1a6b0d21670764451f9e3e961bf52ffcad58a360",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 952,
+    "height": 751,
+    "requiresExactMenuName": true,
+    "authorUrl": "https://www.flickr.com/photos/austinevan/"
+  },
+  {
+    "id": "commons-45589870",
+    "title": "File:Sobrasada 1 (6211125763).jpg",
+    "author": "Jonathan Pincas  from Leon, Spain",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sobrasada_1_(6211125763).jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Sobrasada_1_%286211125763%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "ec605142bcdc7ca4d437ad8b095c6abc75b5f010",
+    "name": "Sobrasada",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-45589870.jpg",
+    "assetSha256": "6365e4d8ab02f01c4ff4ceb67e7060b4e0dca767105b5393300f20d435cd1baf",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 761,
+    "height": 960,
+    "requiresExactMenuName": true,
+    "authorUrl": "https://www.flickr.com/people/43243154@N07"
   }
 ];
