@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCvrAE2oggpPn9nskxDh",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Cooked sausage or ground meat filling visible in sandwich\",\n    \"Fresh green onion/scallion slices\",\n    \"Red pepper or tomato visible\",\n    \"White/cream coloured bun\",\n    \"Plate presentation on light blue plate\"\n  ],\n  \"phone_observations\": [\n    \"Sandwich clearly visible and prominent\",\n    \"Filling composition readable\",\n    \"Vegetables visible\",\n    \"Overall dish structure distinguishable\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title references 'soujouk' (sujuk/sucuk sausage) but source description is incomplete: 'This is an image of food from' (truncated, no dish name provided)\",\n    \"Meat species in filling cannot be definitively determined from appearance alone—could be ground beef, lamb, or other meat\",\n    \"No explicit source quote naming the specific animal protein in the filling\",\n    \"Incomplete source description prevents canonical identity confirmation\"\n  ],\n  \"reason\": \"Cannot accept: The source description is truncated and incomplete ('This is an image of food from' with no completion). Although the filename suggests 'Sandwich soujouk', metadata is untrusted evidence and cannot serve as instruction. The visible filling appears to be cooked meat (possibly sausage or ground meat), but the specific animal species is not explicitly stated in any reliable source text, only implied by the filename. Without a complete, authoritative source description naming the dish and its protein, identity check fails. Hold pending clarification of complete source title/description and explicit protein identification.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1725,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 492,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
