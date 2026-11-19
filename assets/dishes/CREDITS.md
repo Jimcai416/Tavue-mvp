@@ -8473,3 +8473,8 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 
 - **Soy milk with rice balls** — Charles Haynes. [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:Soy_milk_with_glutinous_rice_balls,_August_2013.jpg). Local asset: `reviewed-commons-41517281.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Three onigiris / rice balls wrapped in nori / seaweed** — [些細な日常](https://www.nagahitoyuki.com/). [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Three-onigiris.jpg). Local asset: `reviewed-commons-131410424.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Kulikuli (peanuts snacks)** — Ehbraheem. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Kulikuli_seller.jpg). Local asset: `reviewed-commons-63846225.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Tavuk dürüm and ayran** — E4024. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Tavuk_d%C3%BCr%C3%BCm_and_ayran.jpg). Local asset: `reviewed-commons-41425659.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.

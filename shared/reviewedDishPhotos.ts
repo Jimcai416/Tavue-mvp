@@ -111963,5 +111963,51 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "height": 640,
     "requiresExactMenuName": true,
     "authorUrl": "https://www.nagahitoyuki.com/"
+  },
+  {
+    "id": "commons-63846225",
+    "title": "File:Kulikuli seller.jpg",
+    "author": "Ehbraheem",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kulikuli_seller.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Kulikuli_seller.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "f547353fee06f139e1756384d40920c44a58a351",
+    "name": "Kulikuli (peanuts snacks)",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-63846225.jpg",
+    "assetSha256": "cfad1cc3f303f1fff50212d273a24718d65002a5ac214b7e6a0a1dd4e60b3a07",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-41425659",
+    "title": "File:Tavuk dürüm and ayran.jpg",
+    "author": "E4024",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tavuk_d%C3%BCr%C3%BCm_and_ayran.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Tavuk_d%C3%BCr%C3%BCm_and_ayran.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "e0ffa13e01679458dd7dc8b80215892cebb9af80",
+    "name": "Tavuk dürüm and ayran",
+    "aliases": [],
+    "proteins": [
+      "chicken"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-41425659.jpg",
+    "assetSha256": "b67e36f3ec4c2618e8f06e1e57bf2eaff2223cb1cc46105e12b5ceeed632b1bb",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];
