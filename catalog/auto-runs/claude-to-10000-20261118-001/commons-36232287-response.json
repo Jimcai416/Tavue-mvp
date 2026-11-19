@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBye3qoYsUz57C4cMAer",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": true,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 2,\n    \"composition\": 2,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail is severely underexposed and muddy\",\n    \"Green and white components barely distinguishable\",\n    \"No readable detail of dish structure or components\",\n    \"Essential food detail clipped or obscured by poor contrast\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title contains only local language name 'ofe araga' with no English translation or standard dish identifier\",\n    \"No protein species named in source metadata\",\n    \"Image quality too poor to identify protein visually\",\n    \"Severe softness and low contrast prevent confident dish identification\"\n  ],\n  \"reason\": \"Rejection on multiple grounds: (1) Phone thumbnail fails readability—severe underexposure and muddy contrast prevent identification of essential components; (2) Source title provides only untranslated local language designation 'ofe araga' without English equivalent or regional variant clarification, creating identity uncertainty; (3) No protein species declared in source; (4) Full image softness and lighting cast reduce confidence in visual protein identification; (5) Composition and appeal scores fall below acceptance threshold (2/5). Cannot establish canonical identity or verify dish authenticity.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1524,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 403,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChByf1B6nLqhAzzDTGdqr",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Okra visible as green vegetable base\",\n    \"Fish clearly identifiable as cooked protein\",\n    \"Finished, exposed dish in serving vessel\",\n    \"Natural colour and appetising appearance\",\n    \"Sharp detail in both source and thumbnail\"\n  ],\n  \"phone_observations\": [\n    \"Central composition shows fish and okra clearly\",\n    \"Green okra and seasonings readable\",\n    \"Fish form distinct in thumbnail\",\n    \"Adequate detail for dish identification\"\n  ],\n  \"protein_evidence\": {\n    \"seafood\": \"Fish\"\n  },\n  \"uncertainties\": [\n    \"Source title declares both 'Fish and Snail' but snail is not a supported protein category and cannot be visually confirmed as a distinct component in the photograph\",\n    \"Exact regional name and preparation style not specified in source description\",\n    \"No explicit canonical dish name provided in title or description to confirm regional variant\"\n  ],\n  \"reason\": \"Photograph quality, sharpness, composition and phone visibility all meet criteria. Fish is confirmed as a supported protein. However, the source title includes 'Snail' which is not an allowed protein category and cannot be visually isolated as a meaningful component in the dish. The source provides only a generic English description ('Okra Soup with Fish and Snail') without a specific regional canonical name. Per rules, ambiguous or unsupported protein declarations and absence of exact source-quoted canonical dish name require hold. The dish is legitimate home/regional cooking, but identity confirmation cannot be completed without resolving the snail declaration or obtaining a specific named variant from source.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1454,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 494,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChByekK93Dq16eXarYYQR",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 3,\n    \"lighting\": 3,\n    \"composition\": 2,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Hand holding leafed vegetable above bowl obscures most of dish content\",\n    \"Green bowl containing dark liquid visible but primary subject is preparation action, not finished dish\",\n    \"Thumbnail shows active preparation stage rather than plated/served result\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Image shows mid-preparation stage with hand holding okra leaf over pot, not a finished exposed dish\",\n    \"No plated or served presentation visible; appears to be cooking/ingredient handling\",\n    \"Essential dish components obscured by preparation action\",\n    \"Unclear if any protein is present or what type; no visible animal products identified\"\n  ],\n  \"reason\": \"Reject: This is a preparation/cooking stage photograph, not a finished, exposed dish. The dominant compositional element is a hand holding an okra leaf over a pot of soup, which is an active preparation action rather than a served dish presentation. The actual food (the soup and its components) is secondary and partially obscured by the preparation action. No proteins are identifiable. The image fails the core requirement of showing 'a finished, exposed, likely photographic dish' with 'readable essential components in the phone thumbnail.' Quality and composition scores reflect the obstruction of the actual dish by preparation-stage activity.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1391,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 424,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

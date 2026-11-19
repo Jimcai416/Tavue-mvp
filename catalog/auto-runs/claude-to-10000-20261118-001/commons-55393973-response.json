@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChByejDeibzmnk5hyX7Ef",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows open-faced sandwich or canapé bases with coloured toppings\",\n    \"Red/dark garnish visible on left and centre\",\n    \"Green herb garnish on right portion\",\n    \"White plate background\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title 'Relish-Sandwiches' is a filename, not an authoritative dish description\",\n    \"Description 'Two sandwiches with different relishes' is generic and does not identify the actual dish\",\n    \"Photograph shows what appear to be canapés or toasts with seafood (likely cured fish/caviar based on appearance), not standard relish sandwiches\",\n    \"Critical mismatch between source title/description and actual visible dish\",\n    \"No explicit protein identification in source metadata\",\n    \"Cannot determine if fish, caviar, or other seafood species from appearance alone\"\n  ],\n  \"reason\": \"Identity check fails. The source title and description refer to 'Relish-Sandwiches' but the photograph shows an elegant plated arrangement of canapés or open-faced toasts with what appear to be cured fish, cavities, beets, and herb garnishes—a finished appetizer dish bearing no relation to relish sandwiches. The filename and generic description do not constitute legitimate authoritative source documentation. No explicit protein identification is provided in the source metadata. The visual subject contradicts the supplied title and description, triggering a hold-equivalent rejection for unresolved identity conflict.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1728,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 486,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
