@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCFrhB4pUPDke3ZLETMx",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Creamy white soup visible in phone thumbnail\",\n    \"Black pepper specks clearly visible across surface\",\n    \"Bowl rim visible\",\n    \"No clams or seafood fragments identifiable in thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Clam chowder identity cannot be visually verified; no clams or seafood are visible in either the full photograph or the phone thumbnail\",\n    \"Only a creamy soup with pepper seasoning is shown; the essential protein component (clams/seafood) required to verify the dish identity is absent or completely hidden\",\n    \"Source title claims clam chowder but the visible content is a plain cream soup without any visible shellfish evidence\"\n  ],\n  \"reason\": \"Rejection: Although the photograph quality, sharpness, lighting and composition are acceptable (all ≥4), and the phone thumbnail clearly shows the dish, the identity cannot be verified. Clam chowder requires visible clam or seafood evidence. The image shows only a smooth creamy white soup with black pepper; no clams, clam pieces, or other seafood components are visible in either the full photograph or phone thumbnail. The source title contradicts the visible content. Per protocol, when essential protein identity cannot be visually supported by the actual image content, the submission must be held pending clarification. The absence of the defining ingredient (clams/seafood) means the dish identity is unverifiable from the photograph alone, regardless of the source title.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 2048,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 473,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

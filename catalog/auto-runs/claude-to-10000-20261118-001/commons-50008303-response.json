@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCFscKejUWEB2k9sZzB7",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 5,\n    \"appeal\": 5\n  },\n  \"visible_support\": [\n    \"Toasted sandwich with melted cheese visible on white plate\",\n    \"Bowl of cream-coloured soup with spice garnish on same plate\",\n    \"Natural outdoor lighting, sharp focus on food\",\n    \"Professional presentation at restaurant setting\"\n  ],\n  \"phone_observations\": [\n    \"Soup bowl clearly visible with creamy contents\",\n    \"Toasted sandwich with orange/golden crust prominent\",\n    \"Both items identifiable in thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title claims 'tuna melt' but no tuna is visually identifiable in the sandwich—only cheese, bread and what appears to be butter or oil\",\n    \"Source title claims 'clam chowder' but soup contains no visible clam pieces; identity cannot be confirmed from appearance alone\",\n    \"No explicit animal-sourced protein visible that matches source protein claims\"\n  ],\n  \"reason\": \"Identity check fails. The source title asserts specific proteins (tuna in the melt, clams in the chowder) that cannot be visually confirmed from the photograph. The visible sandwich shows melted cheese on toasted bread with no identifiable tuna; the soup is a cream-based preparation with no visible clam pieces. Per rules, hidden flavours may be source-declared but are never visually proven, and source contradictions with visible form trigger a hold. The photograph quality and presentation are excellent, but the protein identity cannot be verified.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1647,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 466,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

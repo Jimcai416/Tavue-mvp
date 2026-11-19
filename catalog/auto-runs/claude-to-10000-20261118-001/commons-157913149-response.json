@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCFsQB9isw5LeYe9wk4P",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Creamy soup with visible chunks and black pepper seasoning\",\n    \"Served in white cup on grey plate with spoon\",\n    \"Natural daylight, warm wooden table background\"\n  ],\n  \"phone_observations\": [\n    \"Cup and soup clearly visible in thumbnail\",\n    \"Creamy texture and seasoning readable\",\n    \"Adequate detail for recognition\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title contains 'clam chowder' but clams are not an allowed protein category\",\n    \"Visual composition shows a creamy soup but no visible clam shells or identifiable seafood pieces that would confirm shellfish content\",\n    \"Cannot verify clam presence visually; source metadata declares clams but they are not an approved protein category for this system\"\n  ],\n  \"reason\": \"Rejection: The source description identifies this as 'clam chowder', but clams are not an approved protein category in the allowed set (chicken/beef/pork/duck/lamb/seafood). Although the dish is visually a finished, appetising, well-photographed soup meeting all quality and photographic standards, the protein content cannot be accepted because clams do not map to any canonical allowed protein. Per protocol, unknown or non-approved seafood species must be held or rejected. The metadata declares clams but they cannot be visually verified as a supported protein type.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1741,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 449,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

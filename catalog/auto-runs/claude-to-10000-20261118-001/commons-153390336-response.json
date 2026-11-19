@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCFrhF3AXDPQB9xcxFDG",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [\n    \"Cream-coloured soup in white bowl with blue decorative rim\",\n    \"Green herb garnish (appears to be parsley or chives)\",\n    \"Black soup spoon\",\n    \"Saltine cracker packets visible on plate\",\n    \"Casual restaurant plating on rectangular white plate\"\n  ],\n  \"phone_observations\": [\n    \"Soup bowl clearly visible in centre\",\n    \"Spoon and cracker packets visible\",\n    \"Overall composition readable in thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'clam chowder' but no visual evidence of clams, clam meat, or shellfish visible in the soup\",\n    \"Creamy white soup colour is consistent with New England clam chowder description, but clams themselves are not visible or identifiable\",\n    \"Cannot visually confirm seafood/clam protein from photograph alone\"\n  ],\n  \"reason\": \"While the photograph is sharp, well-lit, and properly composed, the identity check fails. The source title declares 'clam chowder' but no clams or identifiable shellfish are visible in the soup itself. Per protocol, hidden flavours may be source-declared but cannot be visually proven. However, the absence of any visible clam meat in a soup that is defined by clams as its core ingredient creates an identity mismatch that cannot be resolved by metadata alone. The protein cannot be confirmed visually, and clam chowder without visible clams is too uncertain to accept. Reject due to identity/protein mismatch.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1738,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 490,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
