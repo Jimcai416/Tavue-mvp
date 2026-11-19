@@ -10560,3 +10560,9 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Soto Mie Bogor** — Happywu. [CC BY 4.0](https://creativecommons.org/licenses/by/4.0); [source](https://commons.wikimedia.org/wiki/File:Soto_Mi_Bogor.jpg). Local asset: `reviewed-commons-191608114.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Flamiche picarde** — Claude Humbert. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:02._Flamiche_picarde_(4).jpg). Local asset: `reviewed-commons-176126378.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Mole rojo poblano con pollo** — Fer.goiba. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Feria_Gastronomica_de_la_Enchilada_51.jpg). Local asset: `reviewed-commons-35705753.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Flamiche aux poireaux** — Marianne Casamance. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Bellegarde_Flamiche_aux_poireaux.JPG). Local asset: `reviewed-commons-46934082.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
