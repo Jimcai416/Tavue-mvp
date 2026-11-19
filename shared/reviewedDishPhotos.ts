@@ -99509,5 +99509,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-51139096",
+    "title": "File:Pozsonyi kifli.jpg",
+    "author": "Bratislavská župa",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pozsonyi_kifli.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Pozsonyi_kifli.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "645b0956a9b1796ec5f123179af6da7558273f3c",
+    "name": "Pozsonyi kifli",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-51139096.jpg",
+    "assetSha256": "5fbd8104b22b86ca1379787cd00326681c0133ccf4588e5b05e12b2f6a0c38c3",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 641,
+    "requiresExactMenuName": true
   }
 ];

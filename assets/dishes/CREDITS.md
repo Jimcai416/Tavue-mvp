@@ -7378,3 +7378,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Kifli With Seeds** — szbszig. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Kifli_With_Seeds.jpg). Local asset: `reviewed-commons-27895346.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Pozsonyi kifli** — Bratislavská župa. [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Pozsonyi_kifli.jpg). Local asset: `reviewed-commons-51139096.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
