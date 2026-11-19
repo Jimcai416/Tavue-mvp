@@ -108475,5 +108475,51 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 638,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-191341530",
+    "title": "File:Yen Ta Fo Wat Kaek (original).jpg",
+    "author": "Phoebus 28",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Yen_Ta_Fo_Wat_Kaek_(original).jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Yen_Ta_Fo_Wat_Kaek_%28original%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "77de460ac7e86542de1b8aec992c1470eeeb41ed",
+    "name": "Original Wat Kaek Yentafo Noodles",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-191341530.jpg",
+    "assetSha256": "964884e65e7440f96b994db7cc6d3cc70b0bfa1754d3362035b0a4e08c2f369a",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-40681825",
+    "title": "File:Chicken satay sticks.jpg",
+    "author": "Rashmiwalia85",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chicken_satay_sticks.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/09/Chicken_satay_sticks.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "7438ab55ed32207efa183910bf72a723e6fc5bee",
+    "name": "Chicken satay sticks",
+    "aliases": [],
+    "proteins": [
+      "chicken"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-40681825.jpg",
+    "assetSha256": "7f4de30d36b404795f10d3830b3e1f1d2925b0ce6e93cf7826f8d457956fc9db",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 540,
+    "requiresExactMenuName": true
   }
 ];

@@ -8176,3 +8176,8 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Tandoori fish** — User: (WT-shared) Jpatokal at  wts wikivoyage. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:TandooriFish.JPG). Local asset: `reviewed-commons-22923706.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Original Wat Kaek Yentafo Noodles** — Phoebus 28. [CC BY 4.0](https://creativecommons.org/licenses/by/4.0); [source](https://commons.wikimedia.org/wiki/File:Yen_Ta_Fo_Wat_Kaek_(original).jpg). Local asset: `reviewed-commons-191341530.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Chicken satay sticks** — Rashmiwalia85. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Chicken_satay_sticks.jpg). Local asset: `reviewed-commons-40681825.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
