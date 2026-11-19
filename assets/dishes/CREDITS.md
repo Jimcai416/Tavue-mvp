@@ -7289,3 +7289,10 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 
 - **Bajra Roti and Urad Dal** — Jay87.mehta. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Bajra_Roti_and_Dal.JPG). Local asset: `reviewed-commons-40954463.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Iraqi Guṣ Tashrib** — Abdulsalam Al Dabbagh. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Iraqi_Tashrib_Gu%E1%B9%A3_01.jpg). Local asset: `reviewed-commons-157583892.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Bánh căn (Vietnamese mini pancake)** — VinhNguyen.1257. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:B%C3%A1nh_c%C4%83n_(Vietnamese_mini_pancake)_clay_cooking_pots.jpg). Local asset: `reviewed-commons-132074704.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Giò thủ** — Viethavvh. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Gi%C3%B2_th%E1%BB%A7.jpg). Local asset: `reviewed-commons-46195599.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Ayam Percik** — Dr.Francostein1975. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Ayam_Bakar_Percik.jpg). Local asset: `reviewed-commons-106186080.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Bakso aci, Risol mayo & Pisang coklat** — Cendy00. [CC BY 4.0](https://creativecommons.org/licenses/by/4.0); [source](https://commons.wikimedia.org/wiki/File:Bakso_aci,_Risol_mayo_%26_Pisang_coklat.jpg). Local asset: `reviewed-commons-163578067.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
