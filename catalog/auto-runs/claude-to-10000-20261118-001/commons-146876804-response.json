@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBv5i4BYdiPp15qfJvDK",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Plated meat dish with vegetables clearly visible in thumbnail\",\n    \"Boiled potatoes, carrots, and leafy vegetables identifiable\",\n    \"Main protein component present and prominent\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Species identity cannot be visually confirmed: 'Tête de veau' (calf's head) is not a standard allowed protein category. Only chicken/beef/pork/duck/lamb/seafood are permitted.\",\n    \"While 'veau' means veal (young beef), the source uses a traditional French charcuterie/offal term. The exact anatomical part (head) and its classification as 'beef' subset is ambiguous for categorical purposes.\",\n    \"No explicit source statement matching canonical allowed protein names.\"\n  ],\n  \"reason\": \"Reject: The source title identifies this as 'Tête de veau' (calf's head), which names an offal/organ preparation rather than a standard protein category. The allowed categories (chicken/beef/pork/duck/lamb/seafood) do not include veal offal or calf's head as an explicit match. Although veal derives from young cattle, 'tête de veau' is a specific traditional French dish using the head, and no exact source quote states 'beef' or provides the protein in an unambiguous allowed category form. Photography and phone thumbnail quality are acceptable, but identity requirement fails due to protein classification uncertainty.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1752,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 471,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
