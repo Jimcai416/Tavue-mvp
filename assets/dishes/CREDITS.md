@@ -10343,3 +10343,8 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Bánh gối** — Binh Giang. [Public domain](https://creativecommons.org/publicdomain/mark/1.0/); [source](https://commons.wikimedia.org/wiki/File:Banh_goi_01.JPG). Local asset: `reviewed-commons-3136503.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Fried funchi slices** — Donald Trung. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Fried_funchi_slices_01.jpg). Local asset: `reviewed-commons-64981045.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Chanakhi** — Miansari66. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Chanakhi_1.JPG). Local asset: `reviewed-commons-18512384.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
