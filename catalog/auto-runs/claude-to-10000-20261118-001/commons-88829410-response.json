@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBRgY3XNnW8tfDVUur4i",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Noodles visible in full image and thumbnail\",\n    \"Fried egg visible on top\",\n    \"Cooked meat visible beneath noodles\",\n    \"Red peppers visible\",\n    \"Green vegetables visible\"\n  ],\n  \"phone_observations\": [\n    \"Noodle-based dish clearly visible\",\n    \"Fried egg prominent and readable\",\n    \"Meat and vegetables visible beneath noodles\",\n    \"Composed and appetising in thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title states 'Pork shoulder pilaf' but the visible dish is noodle-based, not pilaf (which is typically rice-based)\",\n    \"Visual composition and noodle structure suggest Asian noodle dish, not traditional pilaf preparation\",\n    \"Exact dish identity cannot be reliably determined from visual form alone due to source/visual contradiction\"\n  ],\n  \"reason\": \"Identity mismatch: source title describes a 'pork shoulder pilaf' (rice-based dish), but the photograph clearly shows a noodle-based dish with fried egg, cooked meat, and vegetables. The visual form contradicts the source description fundamentally. While photograph and thumbnail quality are acceptable, the identity check fails due to this source-to-visible contradiction. Cannot establish canonical name with confidence.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1613,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 441,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
