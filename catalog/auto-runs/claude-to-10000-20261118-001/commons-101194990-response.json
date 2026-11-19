@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBoASB2v3yr5iUkD9BUy",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Glossy glazed burger bun with visible patty and melted cheese\",\n    \"French fries in paper wrapper\",\n    \"Small white ramekin of sauce (mayonnaise)\",\n    \"Dark cola beverage in glass with ice\",\n    \"Natural daylight, well-lit plate on black tray\"\n  ],\n  \"phone_observations\": [\n    \"Burger, fries, sauce and drink all readable in thumbnail\",\n    \"Burger prominence sufficient for identification\",\n    \"Colour and composition align with full source\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Nduja is a sausage product of unspecified animal species; sausage species cannot be inferred from appearance or tradition and no explicit animal name is given in source description\",\n    \"Beef patty is named, but presence of Nduja (unspecified sausage) in composition prevents full protein category support\"\n  ],\n  \"reason\": \"Image quality, sharpness, lighting and composition are all acceptable (scores ≥4), and both full and phone thumbnails show a finished, appetising, sharply detailed burger dish with readable components. However, the source description lists 'Nduja sausage' as a topping without specifying the animal species. Per rules, sausage species cannot be inferred from tradition, appearance or generic meat designation, and 'Nduja' alone does not explicitly name an animal. Beef patty is explicitly named and would normally qualify, but the unspecified sausage ingredient creates ambiguity in the full protein composition. This triggers an uncertainty that prevents acceptance. Hold pending clarification of Nduja animal species or removal of sausage from canonical identity.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1797,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 519,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
