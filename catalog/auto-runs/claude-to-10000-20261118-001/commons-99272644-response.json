@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBbJKhvWbun1BcAXEg9A",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Two seared meat patties (mici) with grill marks, center-left\",\n    \"Creamed bean purée (fasole bătută) with fried onions, left\",\n    \"Grilled meat slices (likely beef or pork), right\",\n    \"Sliced white onion, top right\",\n    \"Black olives and red pepper, top left garnish\",\n    \"White plate, natural/studio lighting\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail shows mici and fasole bătută clearly\",\n    \"Grilled meat components visible but compressed\",\n    \"Garnish elements not prominent in thumbnail\",\n    \"Dish identity readable from core components\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title metadata format is non-standard (File: prefix with .png extension)\",\n    \"Exact canonical dish name unclear: metadata shows 'Grătar mixt cu mici și fasole bătută' (Romanian) vs German translation 'Mixed Grill mit Mititei und Fasole bătută'\",\n    \"Specific grilled meat species (beef vs pork vs mixed) not explicitly named in source description\",\n    \"Mici ingredient/meat type not declared in source; species inference from appearance prohibited\",\n    \"No explicit animal identification for the seared patties or sliced grilled meat\"\n  ],\n  \"reason\": \"While the photograph is sharp, well-lit, appetising and shows a finished dish with readable components in the phone thumbnail, the source metadata does not provide a clear canonical title without filename/format artifacts, and critically, no animal species are explicitly named. The dish appears to contain mici (sausage-type patties of unspecified meat) and unspecified grilled meat. Per protocol, unspecified or ambiguous meat species—and sausage-type products whose animal source is not explicitly stated—cannot be accepted. The source description lacks explicit quotes naming chicken/beef/pork/duck/lamb/seafood for the protein components, only implying them through traditional dish knowledge. Hold required pending explicit protein identification.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1882,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 617,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

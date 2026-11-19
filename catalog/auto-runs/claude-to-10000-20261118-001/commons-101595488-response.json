@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBbJdcSS4wpioGxZVv7d",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Finished, cooked dish in takeout container\",\n    \"Crispy fried potato base with golden-brown exterior\",\n    \"Green sauce (appears cilantro-based) drizzled across\",\n    \"White crema or sour cream stripes\",\n    \"Browned/charred meat topping visible underneath sauce\",\n    \"Street food presentation consistent with taqueria style\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows plated dish with green sauce and white drizzle\",\n    \"Fries and meat components visible and prominent\",\n    \"Appetising appearance maintained at reduced size\",\n    \"Essential components readable: protein, sauce, garnish\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title states 'Carnitas fries' but carnitas are specifically slow-cooked pork. Source metadata does not explicitly confirm pork is the meat used in this particular dish—only the dish name is given.\",\n    \"The browned meat under the sauce is not clearly identifiable to species from visual inspection alone\",\n    \"Description provides location and venue only; does not confirm the specific protein preparation or species\"\n  ],\n  \"reason\": \"Image quality, sharpness, lighting, composition and phone thumbnail all meet standards. Dish is clearly a finished, appetising street food with prominent components. However, the protein cannot be verified: the title 'Carnitas fries' is a traditional reference to pork, but the source description does not explicitly state that pork is used in this instance. The meat visible under the sauce is not distinctly identifiable from the photograph alone. Per protocol, ambiguous meat species or unconfirmed protein identity requires hold. Accept only if source provides an explicit quote naming the animal protein.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1729,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 531,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
