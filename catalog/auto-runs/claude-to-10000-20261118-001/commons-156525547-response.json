@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChD2dz1UhtLgzFAEeNW4m",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Full source: tiered seafood platter with langoustines, crabs, mussels, oysters, shrimp, lemon, bread basket\",\n    \"Outdoor café setting, fresh shellfish arranged on ice\",\n    \"Natural daylight, well-exposed\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail shows only bread basket and table setting, no seafood visible\",\n    \"Essential dish components (shellfish, seafood) completely clipped from centre-cover thumbnail\",\n    \"Prominent subject of full image is absent in phone view\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [],\n  \"reason\": \"REJECT: Phone thumbnail centre-cover crop eliminates all visible seafood and core dish components, showing only bread and table setting. The essential food subject is clipped out of the actual 124x96 centre-cover thumbnail provided, violating the requirement that readable essential components remain prominent and visible in the phone view. Source title describes 'Seafood platter' but no seafood is discernible in the thumbnail itself. Full image quality is acceptable, but thumbnail acceptability is mandatory and fails here.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1751,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 391,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
