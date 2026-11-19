@@ -8089,3 +8089,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 - **Ground shrimp on sugar cane in Vietnamese style** — [Charles Haynes](https://www.flickr.com/people/87232391@N00). [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:Chao_tom.jpg). Local asset: `reviewed-commons-10748838.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Chạo tôm** — [SauceSupreme](https://www.flickr.com/photos/91372089@N00). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Ch%E1%BA%A1o_t%C3%B4m.jpg). Local asset: `reviewed-commons-6099449.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Flaki** — Aw58. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Flaki_-_2024.10.30.jpg). Local asset: `reviewed-commons-154669983.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Lontong Kuah Lodeh** — IzamJ. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Lontong_Kuah_Lodeh.jpg). Local asset: `reviewed-commons-105800184.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
