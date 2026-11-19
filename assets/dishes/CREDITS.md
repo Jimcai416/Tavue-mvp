@@ -9216,3 +9216,8 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Pork Estofado** — Ralff Nestor Nacor. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Pork_Estofado,_Mar_2024.jpg). Local asset: `reviewed-commons-146310153.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Street yam woon sen** — [eric molina  from New York City, United States](https://www.flickr.com/people/88774309@N00). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Street_yam_woon_sen,_although_curiously_served_atop_a_bed_of_rice_(4283636854).jpg). Local asset: `reviewed-commons-125167304.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Yam woon sen boran (ancient style spicy and sour glass noodle salad)** — Chainwit.. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:%E0%B8%A2%E0%B8%B3%E0%B8%A7%E0%B8%B8%E0%B9%89%E0%B8%99%E0%B9%80%E0%B8%AA%E0%B9%89%E0%B8%99%E0%B9%82%E0%B8%9A%E0%B8%A3%E0%B8%B2%E0%B8%93_%E0%B8%9A%E0%B9%89%E0%B8%B2%E0%B8%99%E0%B8%A2%E0%B8%B2%E0%B8%AB%E0%B8%AD%E0%B8%A1.jpg). Local asset: `reviewed-commons-114601547.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
