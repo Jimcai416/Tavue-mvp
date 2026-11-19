@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCYG7CgxMiW8wiv9254z",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Two distinct sausage types visible: dark reddish-brown slices (negra/black botifarra) and pale tan/white slices (blanca/white botifarra)\",\n    \"Sliced presentation on white plate, cooked and finished state\",\n    \"Natural lighting, appetising arrangement\"\n  ],\n  \"phone_observations\": [\n    \"Both sausage types clearly distinguishable in thumbnail\",\n    \"Adequate detail and colour fidelity retained\",\n    \"Prominent subject, readable essential components\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title references 'botifarra' but canonical name must derive from exact title/description; metadata title is 'File:Butifarra blanca y negra.jpg' which contains filename prefix violating canonical extraction rules\",\n    \"Description 'Black & white botifarra' is marketing-simplified and does not preserve the full dual-sausage identity with regional qualifier\",\n    \"Botifarra species (pork/other meat) is not explicitly stated in title or description; sausage type alone does not meet protein_evidence requirements\",\n    \"No exact dish phrase suitable for canonical_name extraction without violating filename/metadata removal rules or inventing a generic alias\"\n  ],\n  \"reason\": \"Photograph and phone thumbnail are sharp, well-lit, appetising, and clearly show a finished plated dish of two distinct sausage varieties. However, the source title/description metadata are insufficient for canonical_name extraction: the title contains 'File:' and filename extension (violating rules), the description lacks specificity and contains no exact sausage name phrase matching regional convention, and the meat species is not explicitly named. Botifarra is a sausage category, not a species declaration. All checks cannot be confirmed true without either inventing a canonical name or accepting insufficiently sourced identity. Hold pending source clarification with exact dish name and explicit meat species.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1724,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 571,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

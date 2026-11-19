@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCYFxvrr5vFumoh4cfNE",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 2\n  },\n  \"visible_support\": [\n    \"Cross-section of dark cured sausage with visible fat deposits\",\n    \"Natural dark red-brown colour typical of blood sausage\",\n    \"Wrapped in plastic as a retail product\"\n  ],\n  \"phone_observations\": [\n    \"Subject clearly visible in thumbnail as sliced cured sausage\",\n    \"Dark colour and fat distribution readable\",\n    \"Product form identifiable\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title references 'blood botifarra' but source metadata does not explicitly name the animal species (pork is not stated, only Catalan regional names provided)\",\n    \"Description uses only regional variant names without explicit species declaration\",\n    \"Butifarra is a traditional pork sausage but source title/description does not contain the word 'pork' or explicit animal reference\"\n  ],\n  \"reason\": \"Although the photograph is sharp, well-composed, and shows a finished cured sausage product clearly in both full and thumbnail views, the source title and description do not explicitly name an allowed protein category (chicken/beef/pork/duck/lamb/seafood). The description references Catalan regional names ('bull negre', 'paltruc negre', 'donegal negre', 'bisbe negre') and identifies it as a blood botifarra, but does not contain an exact substring stating 'pork' or any other allowed species. Per guidelines, species cannot be inferred from tradition or appearance alone. Hold pending explicit protein declaration in source material.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1642,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 480,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

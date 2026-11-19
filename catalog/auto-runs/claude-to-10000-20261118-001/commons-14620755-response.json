@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCYGhyUjgh4nAHZJqauz",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 5,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Coiled sausage with glossy browned surface\",\n    \"Orange plate with reddish liquid/sauce\",\n    \"Fresh, recently cooked appearance\",\n    \"Sharp detail in both full image and thumbnail\"\n  ],\n  \"phone_observations\": [\n    \"Spiral sausage clearly visible and identifiable\",\n    \"Orange plate and sauce visible\",\n    \"Essential subject fully in frame and readable\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title 'Butifarra fresca' refers to a sausage, but animal species is not explicitly named in title or description\",\n    \"Botifarra/butifarra may traditionally be pork, but this is not stated in the provided source text\",\n    \"No explicit protein category (chicken/beef/pork/duck/lamb/seafood) is declared in the metadata\",\n    \"Sausage identity cannot be used as a protein key per rules; animal species must be explicitly named\"\n  ],\n  \"reason\": \"The photograph shows a fresh, well-cooked spiral sausage (butifarra fresca) with excellent sharpness, lighting, composition and appeal. Both full image and phone thumbnail are clear and appetising. However, the source title and description do not explicitly name the animal species contained in the sausage. While butifarra is traditionally pork, the supplied metadata does not state this. Per protocol, unknown or unconfirmed meat species requires a hold. The protein_evidence object cannot be populated without an explicit source quote naming the animal.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1623,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 484,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

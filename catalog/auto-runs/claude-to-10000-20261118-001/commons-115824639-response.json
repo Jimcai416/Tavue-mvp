@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCYGnyN3HqKyyNPpgiAM",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Golden-brown bread roll, split and toasted\",\n    \"Pink pickled onions, clearly visible and prominent\",\n    \"Leafy greens (lettuce)\",\n    \"Yellow/orange patty visible beneath onions\",\n    \"White plate, home/casual restaurant setting\"\n  ],\n  \"phone_observations\": [\n    \"Sandwich structure clearly readable\",\n    \"Toasted bread, pickled onions and filling layers visible\",\n    \"Central composition preserves essential components\",\n    \"Appetising colour and form\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title 'Butifarra peruana' names a specific Peruvian sausage, but the yellow/orange patty visible in the sandwich is not definitively identifiable as butifarra (pork sausage) from appearance alone—could be other prepared meat or plant-based patty\",\n    \"No explicit animal identification in source description ('Comida típica peruana' = typical Peruvian food) beyond the filename\",\n    \"Butifarra traditionally contains pork, but this is not stated in the supplied description and cannot be confirmed visually\"\n  ],\n  \"reason\": \"Image quality, sharpness, lighting, composition and phone thumbnail all meet standards. Dish is a finished, appetising sandwich with pickled onions and identifiable components. However, the source title names 'Butifarra peruana' (a pork sausage sandwich) but the supplied description does not explicitly name any animal protein. Per rules, protein categories require an exact source quote explicitly naming the animal; tradition or appearance alone is insufficient. The description 'Comida típica peruana' provides no protein evidence. Without explicit animal identification in the actual source title or description provided, protein_evidence cannot be populated, and the identity check fails. Held pending clarification of protein content from source.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1522,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 557,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
