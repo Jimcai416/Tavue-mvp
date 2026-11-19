@@ -128552,5 +128552,28 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 683,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-1182714",
+    "title": "File:Melanzane alla Parmigiana.jpg",
+    "author": "Flickr.com user \"Blue Lotus\"",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Melanzane_alla_Parmigiana.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Melanzane_alla_Parmigiana.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "0e47282475c4074b7c3f89cc1206b65b5cedc774",
+    "name": "Melanzane alla Parmigiana",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-1182714.jpg",
+    "assetSha256": "2347889908c55d326adfa774566a824dd71469b69e0c6c0673c61da4cd78cef6",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true,
+    "authorUrl": "https://www.flickr.com/people/bluelotus/"
   }
 ];
