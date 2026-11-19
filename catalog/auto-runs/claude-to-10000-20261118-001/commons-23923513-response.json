@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBVcMyu4n1Tm62sCuTk1",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": true,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 2,\n    \"composition\": 2,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Extreme softness and blur in thumbnail; essential detail unreadable\",\n    \"Creamy white base barely distinguishable from serving vessel\",\n    \"Spoon visible but dish structure obscured\",\n    \"No appetising visual clarity; components indecipherable at phone size\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title 'Raita' contradicts photograph content; image shows a creamy yogurt-based condiment/side dish, not a finished plated dish\",\n    \"Severe softness and low contrast prevent confident identification of components\",\n    \"No readable essential elements in either full or thumbnail image\"\n  ],\n  \"reason\": \"Rejection: (1) PHOTOGRAPH QUALITY FAIL – severe softness, blur, and inadequate contrast throughout full source image; sharpness score 2/5. (2) PHONE FAIL – 124x96 thumbnail is unreadably soft and featureless; phone_observations confirm essential detail completely obscured; phone score failure. (3) IDENTITY MISMATCH – source title 'Raita' correctly names a yogurt-based condiment/side, but Tavue accepts finished, exposed, prominent dishes. Raita is a small accompaniment or topping base, not a primary plated dish. (4) COMPOSITION FAIL – subject appears to be unfinished condiment in a container with plastic wrap and serving spoon, not an appetising, finished food photograph. (5) All quality scores ≤2; no scores meet ≥4 threshold. No acceptable evidence for dish identity, appeal, or suitability as a representative food photograph.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1720,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 514,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
