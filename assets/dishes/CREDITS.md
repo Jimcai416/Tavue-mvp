@@ -9073,3 +9073,11 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Moroccan briouats for Ramadan** — Samira hiba. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:%D8%A8%D8%B1%D9%8A%D9%88%D8%A9_%D9%85%D8%BA%D8%B1%D8%A8%D9%8A%D8%A9_%D9%84%D8%B1%D9%85%D8%B6%D8%A7%D9%86.jpg). Local asset: `reviewed-commons-185022266.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Fresh mandazi** — Orrling. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Andazi.jpg). Local asset: `reviewed-commons-21441739.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Mahamri/mandazi (Swahili doughnuts) served with roasted groundnuts (peanuts), tubers, white bread, chai in Kisumu, Kenya** — Roxanne.heston. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Kenyan_breakfast.jpg). Local asset: `reviewed-commons-161508354.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Mandazi** — Rebeccananonof. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:MANDAZI_UGANDAN_BREAKFAST_SNACK.jpg). Local asset: `reviewed-commons-150129783.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Rwanda Mandazi** — Schlawgclart. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Rwanda_Mandazi.jpg). Local asset: `reviewed-commons-176074022.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **tea and mandazi** — Kengee8. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Tea_and_mandazi.jpg). Local asset: `reviewed-commons-55167128.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
