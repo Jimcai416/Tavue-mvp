@@ -120550,5 +120550,29 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 765,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-146310153",
+    "title": "File:Pork Estofado, Mar 2024.jpg",
+    "author": "Ralff Nestor Nacor",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pork_Estofado,_Mar_2024.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/95/Pork_Estofado%2C_Mar_2024.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "b66b1c5568c3187405260241cb2c0998a1747497",
+    "name": "Pork Estofado",
+    "aliases": [],
+    "proteins": [
+      "pork"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-146310153.jpg",
+    "assetSha256": "fcdd68dc48fd549e9077f0a1fa18ea312e39c2d58ec04aded4720b0b8efc3c3c",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 723,
+    "requiresExactMenuName": true
   }
 ];

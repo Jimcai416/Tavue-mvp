@@ -9212,3 +9212,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Machaca con huevo** — Courtesy of Public Market of Chiapa de Corzo. [Public domain](https://creativecommons.org/publicdomain/mark/1.0/); [source](https://commons.wikimedia.org/wiki/File:Machaca_con_huevo.JPG). Local asset: `reviewed-commons-34993834.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Pork Estofado** — Ralff Nestor Nacor. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Pork_Estofado,_Mar_2024.jpg). Local asset: `reviewed-commons-146310153.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
