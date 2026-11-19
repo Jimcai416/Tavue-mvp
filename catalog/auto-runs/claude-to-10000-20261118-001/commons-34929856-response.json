@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBTYBHsprTrrqu98fiM8",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Stacked cured meat slices with visible fat marbling\",\n    \"Golden-brown spice crust coating\",\n    \"Clear layered structure of meat and fat\",\n    \"Red plate presentation\"\n  ],\n  \"phone_observations\": [\n    \"Subject clearly visible and prominent in thumbnail\",\n    \"Spiced crust and layering readable\",\n    \"Red plate provides strong colour contrast\",\n    \"No clipping of essential components\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title 'Litauische-Speck' (German: 'Lithuanian bacon') describes a cured meat product, but the source metadata does not explicitly name the animal species\",\n    \"Visual inspection shows processed cured meat with fat marbling consistent with pork, but this is inference from appearance, not explicit source declaration\",\n    \"Speck is a regional cured meat category but does not constitute an explicit species naming in the provided source text\"\n  ],\n  \"reason\": \"The photograph is sharp, well-lit, appetising and properly composed. The phone thumbnail is clear and readable. However, the source title and description do not explicitly name an animal species. 'Litauische-Speck' identifies a regional cured meat product category (German for 'Lithuanian bacon') but does not state 'pork', 'beef', or any other allowed protein category by name in the source text. Per instructions, protein evidence requires an exact source quote explicitly naming the animal; appearance-based inference is not permitted. Unknown or unspecified meat species requires hold. This image must be held pending explicit species confirmation in source metadata.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 2050,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 499,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

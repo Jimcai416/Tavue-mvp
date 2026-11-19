@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBTYscXX2aEfGSDv6PA7",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Penne pasta visible\",\n    \"Tomato-based sauce evident\",\n    \"Grated cheese topping\",\n    \"Professional plating on white dish\"\n  ],\n  \"phone_observations\": [\n    \"Pasta and sauce clearly visible\",\n    \"Dish composition readable in thumbnail\",\n    \"Adequate detail for recognition\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title declares 'Penne Amatriciana' but traditional amatriciana contains guanciale (cured pork jowl). No guanciale or any meat is visibly identifiable in the photograph. The dish appears to be a simple tomato pasta without visible meat.\",\n    \"Source metadata may reference a prepared dish, but no protein component can be visually confirmed to match the expected composition of authentic amatriciana.\",\n    \"Identity mismatch between declared dish name and visible contents.\"\n  ],\n  \"reason\": \"Reject: Source title declares 'Penne Amatriciana', but the photograph shows only penne in a tomato sauce with cheese—no guanciale or any meat is visibly present. Traditional amatriciana requires guanciale as a defining component. The visible dish does not match the named identity, creating an identity contradiction. While photograph and phone quality are acceptable, the core identity check fails due to absence of the expected protein component that defines amatriciana.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1753,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 453,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
