@@ -9690,3 +9690,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Finnish Christmas rice porridge** — JIP. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Christmas_rice_porridge_in_Loviisa.jpg). Local asset: `reviewed-commons-186246382.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Finnish rice porridge** — JIP. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Rice_porridge_on_Boxing_Day.jpg). Local asset: `reviewed-commons-139963895.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.

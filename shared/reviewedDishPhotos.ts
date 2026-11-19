@@ -125805,5 +125805,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-139963895",
+    "title": "File:Rice porridge on Boxing Day.jpg",
+    "author": "JIP",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rice_porridge_on_Boxing_Day.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Rice_porridge_on_Boxing_Day.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "f3280726eee62a7839b83b4961c2a3fc1ba13475",
+    "name": "Finnish rice porridge",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-139963895.jpg",
+    "assetSha256": "ae743618202f2b9d0194a6eea830c3a5b43360208f848e4faba2dcb60be35eea",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];
