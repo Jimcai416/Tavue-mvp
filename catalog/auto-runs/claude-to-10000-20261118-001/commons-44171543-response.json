@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBQg8an4hacHHJoeGyvB",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows white mashed potato base with bright green broccoli florets and red pepper strips\",\n    \"Dish is fully visible and identifiable in both source and thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title describes 'Boerenkool stamppot' (mashed kale and potatoes) but photograph clearly shows broccoli, not kale. The visible vegetables do not match the dish identity.\",\n    \"Source states 'turkey ham' as protein accompaniment, but turkey is not an allowed category (only chicken/beef/pork/duck/lamb/seafood permitted). Turkey ham cannot be verified as pork product from source text alone.\",\n    \"Visible red pieces appear to be red pepper, not meat protein.\"\n  ],\n  \"reason\": \"Identity mismatch: source title claims Boerenkool stamppot (kale dish) but photograph displays broccoli. Additionally, the declared protein is turkey ham, which is not an allowed category and cannot be verified as a pork product from the source description. The visible protein component cannot be confirmed. Reject due to identity contradiction and unverifiable protein category.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1773,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 405,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
