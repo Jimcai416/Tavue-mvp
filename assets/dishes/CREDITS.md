@@ -10311,3 +10311,9 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Plateau de fruits de mer** — Charlottea. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Plateau_de_fruits_de_mer.jpg). Local asset: `reviewed-commons-16945523.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Pan-bagnat** — Arnaud 25. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Pan-bagnat002.jpg). Local asset: `reviewed-commons-56986648.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Torrijas** — El Nuevo Doge. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Torrijas,_Mazatl%C3%A1n,_19_de_abril_de_2023.jpg). Local asset: `reviewed-commons-130898603.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Torrijas endulzadas con azúcar y canela molida** — Juan Emilio Prades Bel. [CC BY 4.0](https://creativecommons.org/licenses/by/4.0); [source](https://commons.wikimedia.org/wiki/File:Torrijas,_gastronom%C3%ADa_de_Semana_Santa_(Espa%C3%B1a).jpg). Local asset: `reviewed-commons-147000386.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
