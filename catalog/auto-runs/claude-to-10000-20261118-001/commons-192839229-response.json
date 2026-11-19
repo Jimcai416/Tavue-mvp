@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCueBrJWb1BStyzqMTDn",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Two brown patties clearly visible on white plate\",\n    \"Texture and form consistent with full image\",\n    \"Appetizing appearance in thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title 'Kotlety mielone' (ground meat patties/cutlets) does not specify which animal protein was used\",\n    \"Visual appearance alone cannot reliably determine meat species (beef, pork, chicken, lamb, or mixed)\",\n    \"No explicit protein identification in source metadata\"\n  ],\n  \"reason\": \"Identity check fails. The source title 'Kotlety mielone' is a generic dish name for ground meat patties without specification of the meat species used. Protocol requires exact source quote explicitly naming each animal protein; species cannot be inferred from appearance or tradition. The photograph shows finished, sharp, well-lit patties with good appeal, but without explicit protein identification in the source, identity cannot be verified. Hold required.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1871,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 360,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCudvqRP714b7fzhQG4p",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows cashews and reddish-brown pieces distributed across the surface\",\n    \"Characteristic curved cashew shapes are visible and identifiable\",\n    \"Golden-yellow and deep amber colouration matches source photograph\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title describes 'Sohan Asali with cashew, an Iranian pastry made from honey' but cashews are not animal proteins and cannot be categorized under the allowed protein_evidence keys (chicken/beef/pork/duck/lamb/seafood)\",\n    \"The dish appears to be a brittle or candy confection (honey-based pastry), not a savoury prepared dish with identifiable protein components\",\n    \"No animal protein is explicitly named or visibly identifiable in the dish itself\"\n  ],\n  \"reason\": \"While the photograph and thumbnail are sharp, well-lit, and appetisingly composed, and the identity clearly matches the source description 'Sohan Asali with cashew, an Iranian pastry made from honey', this is a confectionery/candy item without any animal protein component. The submission criteria require protein_evidence to be drawn from allowed categories (chicken/beef/pork/duck/lamb/seafood with explicit source quotes). Cashews are tree nuts, not allowable proteins. The dish does not meet the requirement for a protein-containing finished food dish suitable for Tavue's food photography intake.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1664,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 462,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
