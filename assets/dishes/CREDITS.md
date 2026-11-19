@@ -10054,3 +10054,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 
 - **Bánh khúc** — Thu trag9x (Lê Thu Trang). [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:B%C3%A1nh_kh%C3%BAc.JPG). Local asset: `reviewed-commons-32045742.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Kuih ketayap** — Adbhdlila. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Ketayap_mama.jpg). Local asset: `reviewed-commons-106109567.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Pici with pistachio's pesto and meatballs** — [Luca Nebuloni](https://www.flickr.com/people/7897906@N06). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Pici_with_pistachio%27s_pesto_and_meatballs_(33547055151).jpg). Local asset: `reviewed-commons-57440886.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.

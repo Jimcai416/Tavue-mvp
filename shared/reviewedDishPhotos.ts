@@ -129541,5 +129541,28 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 720,
     "height": 960,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-57440886",
+    "title": "File:Pici with pistachio's pesto and meatballs (33547055151).jpg",
+    "author": "Luca Nebuloni",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pici_with_pistachio%27s_pesto_and_meatballs_(33547055151).jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Pici_with_pistachio%27s_pesto_and_meatballs_%2833547055151%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "3ecd8e79df8ce8ed498758f9aef84593028e4eac",
+    "name": "Pici with pistachio's pesto and meatballs",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-57440886.jpg",
+    "assetSha256": "9d22aa8a7b86c9a689c6648e642e18015dca437147fd6a3c7fafea578bffa34f",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 640,
+    "requiresExactMenuName": true,
+    "authorUrl": "https://www.flickr.com/people/7897906@N06"
   }
 ];
