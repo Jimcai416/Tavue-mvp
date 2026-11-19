@@ -124537,5 +124537,51 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-43590765",
+    "title": "File:Making Tahchin.jpg",
+    "author": "Roozitaa",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Making_Tahchin.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Making_Tahchin.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "699ecf664f70d8f5631e9991b37e0d1d9e7778df",
+    "name": "Tahchin",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-43590765.jpg",
+    "assetSha256": "4a5c767beb055dddb19f03628f89ba4e09c37ed54ab5a8860006d61388d61e09",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 640,
+    "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-40621861",
+    "title": "File:Machha Besara ( ମାଛ ବେସର ).jpg",
+    "author": "Kumarnihar",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Machha_Besara_(_%E0%AC%AE%E0%AC%BE%E0%AC%9B_%E0%AC%AC%E0%AD%87%E0%AC%B8%E0%AC%B0_).jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Machha_Besara_%28_%E0%AC%AE%E0%AC%BE%E0%AC%9B_%E0%AC%AC%E0%AD%87%E0%AC%B8%E0%AC%B0_%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "662e97b1f6284529dd294166111d9dc485e68f66",
+    "name": "Machha Besara",
+    "aliases": [],
+    "proteins": [
+      "seafood"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-40621861.jpg",
+    "assetSha256": "f6e1742be396b83139263e8fc4ec8f508d09828a3a61b50c1c213caa8c2bb457",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];
