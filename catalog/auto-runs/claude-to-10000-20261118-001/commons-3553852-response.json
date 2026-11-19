@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChD61fwzQxHAHN2G4EPgQ",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 3,\n    \"composition\": 2,\n    \"appeal\": 0\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows fishing boats moored in water with mangrove shoreline\",\n    \"No food subject visible in phone thumbnail\",\n    \"Landscape/documentary scene only\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title 'bahia' and description 'bahia' refer to a bay/water location, not a dish\",\n    \"No food preparation, cooked dish, or plated meal visible in either image\",\n    \"Subject is a seascape with fishing boats, not a finished, exposed, photographic dish\"\n  ],\n  \"reason\": \"Image is a documentary landscape photograph of a bay with fishing boats and water scenery. It contains no finished, exposed, photographic dish; no cooked food; no plated meal; and no food subject whatsoever. The source metadata indicates a geographic location ('bahia'=bay), not a food identity. This fails the fundamental requirement of being a representative food photograph. Reject.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1722,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 359,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

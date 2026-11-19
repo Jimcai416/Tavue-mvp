@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChD628Ytj73xUCNWGEPfU",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 3,\n    \"lighting\": 3,\n    \"composition\": 2,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows a waterfront/harbour scene with moored boats\",\n    \"No food subject visible in phone thumbnail\",\n    \"Maritime/landscape composition only\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title/description contains only 'bahia' (a geographical term, not a dish name)\",\n    \"No food dish present in either full photograph or thumbnail\",\n    \"Image appears to be a landscape/documentary photograph of a bay/waterfront, not a food photograph\"\n  ],\n  \"reason\": \"This is not a food photograph. The full source and thumbnail show a waterfront scene with boats moored in a bay. The source metadata provides no dish name (only the geographical term 'bahia'), and no finished food dish is visible, prominent, or identifiable in either the full image or the phone thumbnail. The image fails identity verification as it contains no food subject whatsoever, and therefore cannot meet Tavue's food photography acceptance criteria.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1722,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 359,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
