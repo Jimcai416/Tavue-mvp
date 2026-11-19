@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBhErBL3T22SdoaZKpgQ",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Noodles in golden broth visible in both source and thumbnail\",\n    \"Meatballs or meat pieces clearly present\",\n    \"Vegetables including green onion/scallion and yellow/orange ingredients\",\n    \"White bowl with black rim and chopsticks\",\n    \"Home-cooked or restaurant presentation, finished and exposed\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows noodle soup with meat and vegetables\",\n    \"Bowl contents sharp and identifiable at reduced scale\",\n    \"Golden broth colour consistent with curry variant\",\n    \"Essential dish components readable and prominent\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title contains 'Num Banh Chok Somlor Kari Morn' but metadata states 'Khmer Cuisine restaurant' location only—the exact dish name from the title is ambiguous and not explicitly confirmed by visible form alone\",\n    \"Meat species cannot be definitively determined from appearance; the title does not provide explicit animal identification (chicken/beef/pork/duck/lamb/seafood)\",\n    \"Variant qualifiers in title ('Somlor Kari Morn') cannot be visually verified as preparation-specific or ingredient-specific without source documentation\"\n  ],\n  \"reason\": \"The photograph shows a finished, appetizing noodle soup with visible meatballs, vegetables, and golden curry broth, sharply detailed and naturally coloured in both full and thumbnail views. All quality and photograph checks pass with scores ≥4. However, the source title does not explicitly name the protein species (chicken/beef/pork/duck/lamb/seafood), only the dish variant 'Num Banh Chok Somlor Kari Morn'. Without an explicit source quote naming the animal type, protein_evidence must remain empty. The exact canonical phrase from the title is present but lacks species qualification required for acceptance. This violates the rule that proteins may only be included with an exact source quote explicitly naming each animal. Hold pending clarification of meat species from source or additional metadata.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1758,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 610,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

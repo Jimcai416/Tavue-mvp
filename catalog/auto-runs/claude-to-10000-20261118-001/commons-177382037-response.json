@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBhEMXeLezcPWoPtB77g",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Two distinct finished dishes plated separately\",\n    \"Left dish: noodle-based with visible red peppers, green onion slices, and spice garnish\",\n    \"Right dish: golden-brown fried items (tempe/tofu cakes) in pink plate\",\n    \"Home cooking context with casual presentation\"\n  ],\n  \"phone_observations\": [\n    \"Both dishes visible and identifiable in thumbnail\",\n    \"Noodle dish clearly shows vegetable components\",\n    \"Fried items distinctly golden and separated\",\n    \"Colour and detail preserved at reduced size\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'Ayam sambal matah' (chicken with sambal matah sauce) but no visible chicken identified in either dish\",\n    \"Left dish appears to be noodles with vegetables only; no poultry visible\",\n    \"Right dish is clearly tempe goreng (fried tempe/tofu), confirming that component\",\n    \"Chicken component either absent, hidden within noodles indistinguishably, or misattributed in source title\",\n    \"Source title–content mismatch creates unresolvable identity uncertainty\"\n  ],\n  \"reason\": \"Source title explicitly names 'Ayam sambal matah' (chicken with sambal matah) but no chicken is visually identifiable in the photograph. The left dish shows noodles with vegetables and chilli garnish; the right shows fried tempe cakes. The 'lauk rumahan' (home-cooked side dishes) description is generic. Without visible chicken or explicit source text confirming its presence, identity cannot be verified against the title. This is a source–image contradiction, not a defect in photograph quality. Hold pending clarification of actual dish content.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1735,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 546,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

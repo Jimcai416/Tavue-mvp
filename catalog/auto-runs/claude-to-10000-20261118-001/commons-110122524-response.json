@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBhDVgWppEhdRQuCWuRf",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"White rice mound visible\",\n    \"Dark wrapped item consistent with lau-lau description\",\n    \"Red/orange diced mixture in cup (lomi-lomi salmon candidate)\",\n    \"Brown stringy mixture in cup (kalua pork candidate)\",\n    \"Pale noodles visible at base\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows partitioned plate lunch layout\",\n    \"Rice, wrapped item, two cups of prepared components, and noodles all recognizable\",\n    \"Components adequately prominent for verification\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title lists 'lau-lau, Kalua pork, lomi-lomi salmon' but lau-lau is a taro-leaf wrapped dish; the dark wrapped item is visually consistent with lau-lau wrapping but the meat species inside (pork vs other) cannot be visually confirmed\",\n    \"Kalua pork claim cannot be visually confirmed—the brown stringy mixture could be kalua pork, but no visual evidence definitively establishes it as pork or its kalua preparation\",\n    \"Lomi-lomi salmon claim cannot be visually confirmed—the red/diced mixture is consistent with salmon and tomato preparation, but salmon species and lomi-lomi preparation cannot be confirmed from appearance alone\",\n    \"Pork and seafood are named in source title but no explicit, unambiguous visual or textual evidence within the image itself establishes these proteins with certainty\"\n  ],\n  \"reason\": \"The photograph shows a Hawaiian plate lunch with correct layout and identifiable components. However, the title's protein claims (Kalua pork, lomi-lomi salmon) rely on appearance inference and source declaration alone. The pork cannot be confirmed as pork by visual inspection, and the salmon cannot be confirmed as salmon by visual inspection. Per protocol, visual ambiguity about meat species and hidden preparation methods require source-explicit confirmation. Since the visible forms do not unambiguously establish the specific animals or their source-claimed preparations, and the protocol requires exact source-quoted evidence for protein_evidence keys, the identity check fails. Hold pending clarification or acceptance of a source title that does not assert specific unverifiable proteins.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1345,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 644,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
