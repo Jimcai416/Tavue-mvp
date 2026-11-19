@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBsyYAE5DUBJY43UKXp3",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows children at a table with a plate of mixed fried and stir-fried components\",\n    \"Composition and setting match full source image\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title fragment 'firfir' is incomplete and truncated in metadata\",\n    \"Description states only 'This is an image of food from' with no completion\",\n    \"No authoritative source title or description provided to match canonical name against\",\n    \"Dish identity cannot be verified from incomplete/corrupted metadata\"\n  ],\n  \"reason\": \"Rejection: Source metadata is incomplete and corrupted. The title 'File:Person enjoying firfir..JPG' is truncated (filename format), and the description 'This is an image of food from' is unfinished. Without a complete, authoritative source title or description, identity cannot be verified and canonical_name cannot be extracted per protocol. The photograph itself is of good quality and shows what appears to be a finished, cooked dish, but the absence of trustworthy identity evidence prevents acceptance.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1726,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 384,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
