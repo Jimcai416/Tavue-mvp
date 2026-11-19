@@ -7884,3 +7884,9 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Bindaetteok (ground mung bean pancakes)** — Pfc. Bo Park, 2ID PAO, US Army. [Public domain](https://creativecommons.org/publicdomain/mark/1.0/); [source](https://commons.wikimedia.org/wiki/File:Korean_mung_bean_pancake_and_rice_wine-Bindaetteok_and_makgeolli.jpg). Local asset: `reviewed-commons-7350410.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Brochettes de poulet mariné en fin de cuisson au barbecue** — [Benoît Prieur](https://www.wikidata.org/wiki/Q42790984). [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Brochettes_de_poulet_marin%C3%A9_en_fin_de_cuisson_au_barbecue_(avril_2020).jpg). Local asset: `reviewed-commons-89108485.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Farsala style halva** — Catlemur. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Farsala_Style_Halva_AB.jpg). Local asset: `reviewed-commons-115824827.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **gingelly halva** — Aathavan jaffna. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Gingelly_halva_in_a_plate_(%E0%AE%8E%E0%AE%B3%E0%AF%8D%E0%AE%B3%E0%AF%81%E0%AE%B0%E0%AF%81%E0%AE%A3%E0%AF%8D%E0%AE%9F%E0%AF%88).JPG). Local asset: `reviewed-commons-39858029.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
