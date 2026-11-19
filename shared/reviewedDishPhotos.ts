@@ -93281,5 +93281,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "height": 605,
     "requiresExactMenuName": true,
     "authorUrl": "https://www.wikidata.org/wiki/Q42790984"
+  },
+  {
+    "id": "commons-50082743",
+    "title": "File:Wikimania 2016 Deryck day 2 - 12 piadina.jpg",
+    "author": "Deryck Chan",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Wikimania_2016_Deryck_day_2_-_12_piadina.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Wikimania_2016_Deryck_day_2_-_12_piadina.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "8b9537c2658e7c95d550358aefe1f03fbb4f6b44",
+    "name": "Piadina",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-50082743.jpg",
+    "assetSha256": "41efddf0b0252784af7d2364c542893f912f9ff2ff5388d00cf3892de5731183",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];
