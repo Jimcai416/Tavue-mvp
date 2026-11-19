@@ -8290,3 +8290,12 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Naryn at Khadra cafe, Tashkent, Uzbekistan** — Екатерина Борисова. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:%D0%A2%D0%B0%D1%88%D0%BA%D0%B5%D0%BD%D1%82._%D0%9D%D0%B0%D1%80%D1%8B%D0%BD_%D0%B2_%D0%A5%D0%B0%D0%B4%D1%80%D0%B5.jpg). Local asset: `reviewed-commons-158998887.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Trdelník** — paddy  (Patrick-Emil Zörner). [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Praha_2009-12-26-15.jpg). Local asset: `reviewed-commons-8838717.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Svíčková** — V0lkanic. [CC BY 4.0](https://creativecommons.org/licenses/by/4.0); [source](https://commons.wikimedia.org/wiki/File:Sv%C3%AD%C4%8Dkov%C3%A1_2026.jpg). Local asset: `reviewed-commons-202102104.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Gołąbki** — Aw58. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Go%C5%82%C4%85bki_-_(2023.07.25.).jpg). Local asset: `reviewed-commons-141274920.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Adai Dosai with Chutney** — Sudhan Ram. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Adai_Dosai_with_Chutney_01.jpg). Local asset: `reviewed-commons-40914387.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Skalicky trdelnik** — Zlerman. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:SkalickyTrdelnik.JPG). Local asset: `reviewed-commons-7631616.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Svíčková na smetaně s brusinkovým terčem** — JOtruba. [CC BY 3.0](https://creativecommons.org/licenses/by/3.0); [source](https://commons.wikimedia.org/wiki/File:Sv%C3%AD%C4%8Dkov%C3%A1_na_smetan%C4%9B_s_brusinkov%C3%BDm_ter%C4%8Dem.jpg). Local asset: `reviewed-commons-10735544.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
