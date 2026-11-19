@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCPPWChS9hstcWfgNwMx",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 3,\n    \"appeal\": 2\n  },\n  \"visible_support\": [\n    \"Breaded, deep-fried bite-sized pieces visible on white plate\",\n    \"Golden-brown coating consistent with fried liver preparation\",\n    \"Plated presentation on dining table with fork and napkin\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail shows fried pieces and white plate clearly\",\n    \"Portions visible but individual ingredient identity not distinctly resolvable at thumbnail scale\",\n    \"Lighting adequate for recognition as cooked/fried dish\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Species of liver cannot be visually confirmed from photograph; source states 'liver' generically without animal species qualifier\",\n    \"Only generic 'liver' name in description, not specific animal (beef, chicken, pork, lamb, duck, or seafood)\",\n    \"Cannot classify as allowed protein category without explicit species identification in source\"\n  ],\n  \"reason\": \"Liver is not an allowed protein category per instructions (only chicken/beef/pork/duck/lamb/seafood allowed, and only when explicitly named in source). The source description provides only generic 'liver' without specifying the animal species. Visual appearance cannot disambiguate liver origin. Identity check fails because the source protein name does not match any allowed category. Hold criteria met: ambiguous animal species in protein declaration.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1642,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 433,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

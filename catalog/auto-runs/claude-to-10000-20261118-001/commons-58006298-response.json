@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCPPqzppAGityeodwkH8",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Golden-brown fried liver pieces on white plate\",\n    \"Bread slices visible alongside\",\n    \"Fresh onions in separate plate\",\n    \"Dipping sauce in small bowl\",\n    \"Restaurant table setting with beverages\"\n  ],\n  \"phone_observations\": [\n    \"Central dish clearly visible in thumbnail\",\n    \"Fried meat pieces prominent and appetising\",\n    \"Essential components readable\",\n    \"Plate and accompaniments visible\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title 'Edirne Ciğer Tava' contains Turkish 'Ciğer' (liver), but 'liver' is not an allowed protein category (chicken/beef/pork/duck/lamb/seafood only)\",\n    \"No explicit animal species qualifier provided in source metadata for the liver\",\n    \"Liver cannot be verified as chicken/beef/pork/duck/lamb/seafood without source specification\"\n  ],\n  \"reason\": \"While the photograph is sharp, well-lit, compositionally sound, and shows an appetising finished dish clearly in both full image and phone thumbnail, the source title references 'Ciğer' (liver) which does not map to any allowed protein category. Liver is not among the permitted protein categories (chicken/beef/pork/duck/lamb/seafood), and the source provides no explicit animal species qualifier. Without explicit source-declared species identification and without liver being an approved protein category, identity cannot be established. Hold pending clarification of animal species.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1574,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 482,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

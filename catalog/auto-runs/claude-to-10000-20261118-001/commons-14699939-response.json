@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCPNzdCh46HmBiPrb4pd",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 3,\n    \"lighting\": 2,\n    \"composition\": 1,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows raw preparation stage: uncooked beef rolls, raw potatoes, raw onion, fresh tomato\",\n    \"No finished dish visible in phone thumbnail\",\n    \"Ingredients laid out on counter, not a plated or cooked food photograph\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [],\n  \"reason\": \"Image documents ingredient preparation, not a finished dish. Source description labels this as 'Ingredients used in preparing', not the cooked result. The beef rolls are raw/uncooked paupiettes. No finished, exposed, cooked dish is visible in either the full photograph or phone thumbnail. The composition shows kitchen preparation stage with packaging, raw ingredients, cookware and utensils—not food ready for consumption. Fails photograph and phone quality checks for a food submission.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1634,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 322,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
