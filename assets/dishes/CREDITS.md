@@ -8305,3 +8305,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 - **Pancit Canton** — Ralff Nestor Nacor. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Pancit_Canton,_Feb_2024.jpg). Local asset: `reviewed-commons-145551924.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Dosa with sambhar and chutney** — Hit2cupid. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Dosa_with_sambhar_and_chutney.jpg). Local asset: `reviewed-commons-102331132.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Pancit canton guisado** — ShmilyDigital. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Pancit_Canton_Guisado_1.jpg). Local asset: `reviewed-commons-156200558.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Pyaaz ke pakode with green chutney** — Ravindernav. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Pyaaz_ke_pakode_with_green_chutney.jpg). Local asset: `reviewed-commons-40889817.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.

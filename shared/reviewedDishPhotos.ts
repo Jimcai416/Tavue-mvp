@@ -110044,5 +110044,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 640,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-40889817",
+    "title": "File:Pyaaz ke pakode with green chutney.jpg",
+    "author": "Ravindernav",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pyaaz_ke_pakode_with_green_chutney.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Pyaaz_ke_pakode_with_green_chutney.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "3c2e6562002465f479204f1466f15257f9a9c52b",
+    "name": "Pyaaz ke pakode with green chutney",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-40889817.jpg",
+    "assetSha256": "97b13c8879be27f97fe9ef9d3b017fd047b87faa64ab3fa9e5cedd17cb1da9cc",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 720,
+    "height": 960,
+    "requiresExactMenuName": true
   }
 ];
