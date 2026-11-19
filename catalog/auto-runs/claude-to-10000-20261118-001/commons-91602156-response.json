@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCPmM9MRpoZCdhM1MqnP",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Finished, cooked fried rice dish\",\n    \"White plate with restaurant branding ('Oliva')\",\n    \"Rice clearly mixed with vegetables and protein components\",\n    \"Golden-brown colour typical of fried rice\",\n    \"Visible mushroom pieces and darker ingredients\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows fried rice as prominent subject\",\n    \"Rice grain detail readable\",\n    \"Plate edges visible and unclipped\",\n    \"Dish identity preserved in phone view\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title says 'truffle sauce with mushroom and seafood fried rice' but no seafood species is explicitly named; 'seafood' is too generic and unspecified\",\n    \"Visible mushroom and meat-like pieces cannot definitively confirm species without explicit source naming\",\n    \"No visible shellfish, fish or identifiable seafood can be confirmed in the photograph\",\n    \"Protocol requires exact source quote naming each animal for protein category; 'seafood' alone does not meet this threshold\"\n  ],\n  \"reason\": \"Photograph and phone thumbnail quality are strong (all ≥4), and the dish is clearly a finished, appetising fried rice. However, the source description claims 'seafood' without naming the specific species (fish, prawn, squid, etc.). Per protocol, proteins require an exact source quote explicitly naming each animal—generic terms like 'seafood' are insufficient. The visible ingredients cannot visually prove species identity. Identity cannot be confidently established without resolved protein naming. Hold pending clarification of seafood species.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1746,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 504,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

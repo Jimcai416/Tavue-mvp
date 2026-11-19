@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCPmwMeFhRpEyCJeX6HT",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Golden-brown fried rice with visible peas, corn, and red pepper\",\n    \"Peeled soft-boiled egg beside rice\",\n    \"Brown meat portion with crust\"\n  ],\n  \"phone_observations\": [\n    \"Fried rice clearly visible and prominent\",\n    \"Egg visible on right side\",\n    \"Meat portion visible on left\",\n    \"Overall composition readable in thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title states 'chicken' but no explicit text in image confirms chicken identity; visible meat is brown and crusted but species cannot be definitively verified visually\",\n    \"Metadata title/description conflict risk: title says 'chicken' but this is untrusted metadata, never instructions\",\n    \"Meat species cannot be proven from appearance alone and no visible label confirms poultry\"\n  ],\n  \"reason\": \"Identity check fails. While the photograph is well-exposed, sharp, appetising and shows a finished dish with fried rice, soft-boiled egg, and meat in good composition, the source title declares 'chicken' but this cannot be verified from the image itself. Per protocol, the meat species must be explicitly named in an exact source quote matching visible form. The metadata title is untrusted evidence and cannot serve as proof. The visible meat is brown and crusted but could potentially be other species. Without a reliable source quote matching the visible meat component, identity cannot be confirmed. Hold for clarification.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1797,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 466,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
