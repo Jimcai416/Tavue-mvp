@@ -119372,5 +119372,53 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 640,
     "height": 960,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-52223059",
+    "title": "File:Kuzu kapama (Turkish lamb dish).jpg",
+    "author": "E4024",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kuzu_kapama_(Turkish_lamb_dish).jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Kuzu_kapama_%28Turkish_lamb_dish%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "e28680d9ec5907bbcf237648981a0ad876046cf1",
+    "name": "Kuzu kapama",
+    "aliases": [],
+    "proteins": [
+      "lamb"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-52223059.jpg",
+    "assetSha256": "7da19a29f1dd57633932c06e96999601462b85cb6795f48a89d4917ac1c4e617",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-52234719",
+    "title": "File:Kuzu kapama (with lamb shanks).jpg",
+    "author": "E4024",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kuzu_kapama_(with_lamb_shanks).jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Kuzu_kapama_%28with_lamb_shanks%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "b103bdd1f5931cbdd9d97c82a808fad8164cc0f5",
+    "name": "Kuzu kapama (with lamb shanks)",
+    "aliases": [],
+    "proteins": [
+      "lamb"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-52234719.jpg",
+    "assetSha256": "0bb0dd0302d3786dbc40dff51c51456d93e1015e8ecb59ef08bd2ebc9adccef5",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];

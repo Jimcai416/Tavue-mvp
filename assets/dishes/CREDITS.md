@@ -9112,3 +9112,8 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 - **Pita gyro** — Erud. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Pita_gyro.JPG). Local asset: `reviewed-commons-19920207.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Greek Kourabiedes** — Christin568. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Greek_Kourabiedes.jpg). Local asset: `reviewed-commons-202876945.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Traditional Greek kourabiedes dusted with powdered sugar** — Christin568. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Kourabiedes_with_Powdered_Sugar.jpg). Local asset: `reviewed-commons-202876950.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Kuzu kapama** — E4024. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Kuzu_kapama_(Turkish_lamb_dish).jpg). Local asset: `reviewed-commons-52223059.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Kuzu kapama (with lamb shanks)** — E4024. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Kuzu_kapama_(with_lamb_shanks).jpg). Local asset: `reviewed-commons-52234719.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
