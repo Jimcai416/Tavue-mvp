@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBfrniymeJt8yEsEsRnD",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Phone thumbnail shows a shop display with stacked containers, curing vessels, and packaged goods\",\n    \"No single finished, prominent dish is visible in the thumbnail\",\n    \"The central subject is a retail storefront/spice shop, not a prepared food item\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title describes 'Khli/Khlea' (preserved dried meat) but the photograph is an entire shop display, not a finished dish presentation\",\n    \"The central cone-shaped object (sesame-covered item) is unclear and may not be the named dish\",\n    \"No clear, isolated finished dish of khli is visibly presented for review\",\n    \"Description states 'especially beef' but no source quote explicitly names beef as the only or primary protein\"\n  ],\n  \"reason\": \"Rejection: This is a shop/storefront photograph of a Moroccan medina food vendor, not a finished, exposed, prominent dish suitable for menu documentation. The image shows retail storage, containers, dried goods, and packaged items in bulk display format. While khli (preserved meat) may be present among the shop contents, no single finished dish is clearly visible, sharply detailed, and presented as an appetising food item in either the full photograph or phone thumbnail. The composition is a retail scene, not a plated or presented dish. Additionally, the protein identity is ambiguous (description states 'especially beef' but does not explicitly name it as the sole ingredient). This fails the core requirement of representing a specific finished, identifiable dish.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1978,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 487,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
