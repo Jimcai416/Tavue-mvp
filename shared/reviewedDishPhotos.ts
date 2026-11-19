@@ -92293,5 +92293,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 763,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-157494463",
+    "title": "File:Kotlet schabowy z ziemniakami i kiszonymi ogórkami - 2025.01.02.jpg",
+    "author": "Aw58",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kotlet_schabowy_z_ziemniakami_i_kiszonymi_og%C3%B3rkami_-_2025.01.02.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Kotlet_schabowy_z_ziemniakami_i_kiszonymi_og%C3%B3rkami_-_2025.01.02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "9f4c14b16e265d06079cf91ef44a595d69b90019",
+    "name": "Kotlet schabowy z ziemniakami i kiszonymi ogórkami",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-157494463.jpg",
+    "assetSha256": "62e29b5d87a474dd0055bcd4a9dc71bd5e24aadb5bfa10d7dced7ca1aa0509ef",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 745,
+    "requiresExactMenuName": true
   }
 ];

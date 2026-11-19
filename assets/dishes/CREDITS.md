@@ -6792,3 +6792,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 - **Chole Aloo Kulcha** — Ishasinhal. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Chole_Aloo_Kulcha_-_HomeMade_Resturant,_Neemuch_-_Madhya_Pradesh_by_Isha_Agarwal.jpg). Local asset: `reviewed-commons-102489543.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Kotlet schabowy z ziemniakami** — Aw58. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Kotlet_schabowy_z_ziemniakami_-_2023.06.06.jpg). Local asset: `reviewed-commons-134548076.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Kulcha** — Charles Haynes. [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:Kulcha.jpg). Local asset: `reviewed-commons-3112685.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Kotlet schabowy z ziemniakami i kiszonymi ogórkami** — Aw58. [CC BY 4.0](https://creativecommons.org/licenses/by/4.0); [source](https://commons.wikimedia.org/wiki/File:Kotlet_schabowy_z_ziemniakami_i_kiszonymi_og%C3%B3rkami_-_2025.01.02.jpg). Local asset: `reviewed-commons-157494463.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
