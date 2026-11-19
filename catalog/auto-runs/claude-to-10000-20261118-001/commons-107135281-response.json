@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDAiTDspUPJfKhRBx24p",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 3,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Burst frankfurter sausages visible in thumbnail\",\n    \"Cooked meat exposed and separated\",\n    \"Bun present but composition compromised\",\n    \"Subject matter matches full image\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title describes a failed cooking mistake ('Broken Frankfurter dreams') rather than an intentional finished dish\",\n    \"Image documents an error state, not an appetising completed dish\",\n    \"Frankfurter species unspecified in metadata; sausage species cannot be inferred\"\n  ],\n  \"reason\": \"Reject: The source title and description explicitly present this as a cooking failure—sausages that burst due to inattention while editing Wikipedia. The image documents an unintended mishap, not a finished, presented dish. While the photograph is technically sound and the subject visible in the thumbnail, the deliberate documentation of a culinary error contradicts the requirement for 'a finished, exposed, likely photographic dish' presented as food. Additionally, the protein cannot be identified from metadata alone (sausage species is unspecified and cannot be inferred). The appeal score reflects an unappetising presentation of a failed dish.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1842,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 411,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
