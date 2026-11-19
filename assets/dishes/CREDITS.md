@@ -7154,3 +7154,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 - **Samosa Usal** — Faisal Shaikh. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Samosa_Usal.jpg). Local asset: `reviewed-commons-40695707.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Tomato-flavored crispy chakli (Indian farsan)** — SwatiGupta1986. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Chakli_(Indian_snack).jpg). Local asset: `reviewed-commons-40990320.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Dalma** — Sibani. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Dalma(dish).jpg). Local asset: `reviewed-commons-87644870.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Chakli** — अरुणा केळकर.. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Chakli_bhajanichi.jpg). Local asset: `reviewed-commons-125932644.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
