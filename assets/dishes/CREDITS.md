@@ -10004,3 +10004,8 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Seafood Cataplana** — Satdeep Gill. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Seafood_Cataplana_at_World_Heritage_Cuisine_Summit_%26_Food_Festival_2018_(Day_2)_-_20.jpg). Local asset: `reviewed-commons-73584006.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Golden Vegetable Spring Rolls Served with Dipping Sauce** — Srujanabotcha. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Golden_Vegetable_Spring_Rolls_Served_with_Dipping_Sauce.jpg). Local asset: `reviewed-commons-157014746.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **kuey teow goreng cina** — Llling. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Kuey_teow_goreng_cina.jpg). Local asset: `reviewed-commons-106289356.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
