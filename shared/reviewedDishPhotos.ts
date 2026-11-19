@@ -118529,5 +118529,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-106262163",
+    "title": "File:Kuih talam.png",
+    "author": "1percenteffort",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kuih_talam.png",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Kuih_talam.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "affefd30a6fa18b3e879156c4a20ad359912d77f",
+    "name": "Kuih talam",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-106262163.jpg",
+    "assetSha256": "319ece93437757686c74dc8d1ac6b629974a25de99fee0ad5a063813799e9761",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 720,
+    "height": 960,
+    "requiresExactMenuName": true
   }
 ];

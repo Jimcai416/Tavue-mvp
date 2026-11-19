@@ -9023,3 +9023,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 
 - **Hiyashi chuka** — Ocdp. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Hiyashi_chuka_001.jpg). Local asset: `reviewed-commons-93296178.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **冷やし中華** — ノボホショコロトソ. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Hiyashi_chuka_01.jpg). Local asset: `reviewed-commons-153874749.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Kuih talam** — 1percenteffort. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Kuih_talam.png). Local asset: `reviewed-commons-106262163.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
