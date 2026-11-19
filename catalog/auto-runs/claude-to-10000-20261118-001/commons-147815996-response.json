@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBS9aTPBAz4kcgPUwNyZ",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Cooked noodles in cast iron skillet\",\n    \"Mixed vegetables visible (carrots, broccoli, green onions)\",\n    \"Glossy sauce coating\",\n    \"Golden-brown noodle colour\",\n    \"Steam visible indicating hot preparation\"\n  ],\n  \"phone_observations\": [\n    \"Noodles and vegetables clearly visible in thumbnail\",\n    \"Cast iron skillet distinctly recognizable\",\n    \"Dish composition prominent and readable\",\n    \"Natural colour reproduction in phone thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title is 'Lo mein 01.jpg' — a generic filename, not a dish description\",\n    \"Description states only 'Made in a cast iron skillet' — no dish name or protein identification provided\",\n    \"No meat, protein species, or specific dish variant named in metadata\",\n    \"Lo mein is a broad category; without named proteins or specific variant qualifiers in source, identity cannot be confirmed\"\n  ],\n  \"reason\": \"While the photograph is sharp, well-lit, appetising and shows a finished cooked noodle dish in a cast iron skillet with vegetables, the source metadata provides insufficient identity evidence. The title is a generic filename ('Lo mein 01.jpg') and the description contains no dish name, protein identification, or variant qualifiers—only cooking method. The canonical name must be copied exactly from source title or description; a filename extension and ordinal do not constitute a specific dish phrase. No proteins are named. Without explicit source text identifying the dish variant and any proteins, identity check fails. Hold for source clarification.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1722,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 501,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

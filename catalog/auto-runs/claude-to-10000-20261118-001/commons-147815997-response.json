@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBS9yjcnWtxcYhQvqdJk",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Noodles in glossy brown sauce, coiled presentation\",\n    \"Green vegetable garnish visible\",\n    \"Cast iron skillet cooking method evident\",\n    \"Natural lighting, appetising appearance\"\n  ],\n  \"phone_observations\": [\n    \"Noodle strands clearly visible in thumbnail\",\n    \"Brown sauce coating evident\",\n    \"Green garnish distinguishable\",\n    \"Dish prominence and detail acceptable\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title 'Lo mein 03.jpg' is a filename, not a descriptive title or canonical dish name\",\n    \"Description 'Made in a cast iron skillet' specifies cooking method only, not dish identity or ingredients\",\n    \"No explicit protein identification in source metadata\",\n    \"No specific variant qualifiers (e.g. with chicken, beef, vegetable) provided in source\",\n    \"Insufficient source documentation to establish canonical identity\"\n  ],\n  \"reason\": \"While the photograph shows a finished, appetising noodle dish with glossy sauce and green garnish, clearly exposed with good sharpness and composition in both full and thumbnail views, the source metadata fails the identity requirement. The title is a generic filename ('Lo mein 03.jpg') and the description contains only cooking method, not dish specification. No protein is explicitly named, and no variant qualifiers are documented. Per protocol, canonical_name must be copied exactly from source title or description; a filename extension and generic method statement do not constitute sufficient evidence for a specific dish identity. Hold pending proper source documentation.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1722,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 490,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

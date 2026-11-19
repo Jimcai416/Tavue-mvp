@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBS94Ei8zii83maAtf5n",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Crispy fried noodles clearly visible in main plate\",\n    \"Green garnish (spring onion) visible on noodles\",\n    \"Clear soup/broth in white bowl with spoon\",\n    \"Restaurant plating on white porcelain\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail shows noodle dish with green garnish, recognisable\",\n    \"Soup bowl visible in background right\",\n    \"Main subject prominent and sharp in thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'Lo Mein' but photograph shows crispy fried noodles (chow mein texture), not soft lo mein noodles\",\n    \"Title lists '(V)' vegetarian marker but no protein is declared; however, appearance cannot confirm vegetarian status—could contain hidden meat stock or animal products\",\n    \"Ginger flavour claimed in title but cannot be visually verified\",\n    \"No explicit protein (chicken/beef/pork/duck/lamb/seafood) named in title or visible in composition\"\n  ],\n  \"reason\": \"Identity contradiction: source title declares 'Lo Mein' but the photograph clearly depicts crispy fried noodles (chow mein preparation), not the soft oil-coated noodles characteristic of lo mein. The '(V)' vegetarian designation in title conflicts with inability to verify dish content—no protein is explicitly named in source, and the appearance alone cannot prove vegetarian status (broth may contain meat stock). Variant preparation type is not preserved. Hold required.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1749,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 497,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

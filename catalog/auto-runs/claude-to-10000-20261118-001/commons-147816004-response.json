@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBSAammX6susso9ptJUE",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Cast iron skillet cooking vessel visible\",\n    \"Noodles with mixed vegetables present\",\n    \"Golden-brown colour and char on noodles\",\n    \"Seasoned, cooked appearance\"\n  ],\n  \"phone_observations\": [\n    \"Noodles and vegetable mixture visible in thumbnail\",\n    \"Characteristic oval skillet shape recognizable\",\n    \"Colour and texture consistent with full image\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title 'Lo mein' is a generic dish category, not a specific canonical name with meaningful regional or preparation variant qualifiers\",\n    \"No animal protein explicitly named in source title or description\",\n    \"Protein species cannot be visually confirmed from the photograph alone\",\n    \"Description states only 'Made in a cast iron skillet' without identifying specific ingredients or preparation\"\n  ],\n  \"reason\": \"Reject: The source provides only a generic dish category ('Lo mein') without a specific canonical name, meaningful variant qualifiers, or any explicit protein identification. Title/description do not name any animal protein (chicken/beef/pork/duck/lamb/seafood), and visual inspection alone cannot confirm protein species. Per guidelines, unknown or unspecified protein species and category-only sourcing require hold/reject. The image quality and photograph are acceptable, but identity check fails due to insufficient source specificity.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1722,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 447,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
