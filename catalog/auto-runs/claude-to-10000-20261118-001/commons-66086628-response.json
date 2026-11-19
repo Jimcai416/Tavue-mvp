@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBLQFb3PqsCJTug9GLss",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Instant ramen noodles in orange/red broth, served in a cream-coloured ceramic bowl\",\n    \"Visible toppings: sliced mushroom, green onion/scallion, yellow egg, red chilli slices\",\n    \"Side plate with kimchi, recognisable by its orange-red fermented appearance\",\n    \"Natural daylight, sharp focus on main bowl\",\n    \"Served on dark wooden surface with slatted presentation board\"\n  ],\n  \"phone_observations\": [\n    \"Bowl of ramen with broth and noodles clearly visible\",\n    \"Toppings distinguishable in thumbnail\",\n    \"Kimchi side dish visible on small plate\",\n    \"Adequate sharpness and colour representation in 124x96 crop\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title describes 'Instant noodles and kimchi' but photograph shows a prepared hot soup bowl (ramyeon), not raw/packaged instant noodles\",\n    \"No protein ingredient explicitly named in source title or description; egg and possible meat/seafood are visually present but not source-declared\",\n    \"Exact dish name/variant not provided in source; 'ramyeon' vs 'ramen' distinction and specific regional variant unclear\",\n    \"Broth type and any meat-based stock composition not stated in metadata\"\n  ],\n  \"reason\": \"Identity mismatch: source describes 'Instant noodles and kimchi' (suggesting uncooked/packaged products) but photograph shows finished, cooked ramyeon soup with toppings. No explicit protein naming in source metadata. No canonical dish name provided to match against visible form. Photograph and phone quality both acceptable, but uncertainties prevent acceptance without source clarification of exact dish identity and any protein components.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1625,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 552,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
