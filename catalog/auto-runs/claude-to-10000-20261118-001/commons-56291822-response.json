@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBZjPpgeGQxDPXM4GYT5",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Two round, golden-brown, granular-textured kebabs on a metal plate\",\n    \"Orange garnish (citrus peel and diced ingredient) visible in lower left\",\n    \"Food appears cooked and plated, not in preparation\"\n  ],\n  \"phone_observations\": [\n    \"Two kebabs clearly visible and prominent in phone thumbnail\",\n    \"Golden-brown colour and texture readable at thumbnail size\",\n    \"Metal plate background visible\",\n    \"Garnish visible but small in thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title references only filename 'Galawati Kebab Oudh 1590.jpg' with no description field provided\",\n    \"No explicit protein declaration in supplied metadata (title/description fields)\",\n    \"Galawati kebab traditionally contains meat, but source does not name the specific animal (chicken/beef/lamb)\",\n    \"Cannot confirm meat species from visual appearance alone\"\n  ],\n  \"reason\": \"Identity check fails: the source metadata provides only a filename as title and an empty description field. The filename references 'Galawati Kebab' but no description field exists to supply explicit dish identity or protein declaration. Galawati kebab traditionally contains meat, but the exact species (chicken, beef, or lamb) is not explicitly named in the supplied title or description. Without a canonical source description and without explicit protein naming, identity and protein evidence cannot be established per instructions. The photograph itself is sharp, well-lit, and appetising, but source documentation is insufficient for acceptance.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1513,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 486,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

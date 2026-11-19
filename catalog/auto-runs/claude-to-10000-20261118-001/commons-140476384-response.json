@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBZkGuzDeLU4HtQUoHhb",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Cooked rice grains clearly visible\",\n    \"Diced vegetables (orange, green) distributed throughout\",\n    \"Metal bowl with spoon\",\n    \"Natural indoor lighting\"\n  ],\n  \"phone_observations\": [\n    \"Rice dish clearly visible in center\",\n    \"Vegetable pieces distinguishable\",\n    \"Bowl edges defined in thumbnail\",\n    \"Subject occupies adequate frame proportion\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'Kerala vegetable fried rice' but source metadata are untrusted; the exact canonical name from a trusted description is not provided\",\n    \"No explicit confirmation that this is a finished, served dish versus a preparation or sample stage\",\n    \"Regional variant 'Kerala' cannot be verified from visual evidence alone\"\n  ],\n  \"reason\": \"Identity check failed. The title metadata ('Kerala vegetable fried rice 2.jpg') is untrusted per instructions. No explicit, trusted source description or title was provided that confirms the exact dish name, regional origin, or that this represents a finished, served dish ready for review. The photograph shows a competently shot vegetable fried rice with good sharpness, lighting, and composition, but without authoritative source text matching the visual form, identity cannot be established. Metadata filenames and URLs are not valid evidence.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1730,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 434,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

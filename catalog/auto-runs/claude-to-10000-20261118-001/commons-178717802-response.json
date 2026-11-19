@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBZjPohBNcyDtZHTSmT3",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 3,\n    \"lighting\": 2,\n    \"composition\": 2,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Hand and arm dominate the frame centre, obscuring the dish itself\",\n    \"Crumbly dough-like substance barely visible beneath the hand\",\n    \"No finished, plated, or exposed food visible at consumer-ready stage\",\n    \"Thumbnail shows only hand contact and preparation-stage dough\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title describes 'Makki Roti Stuffed with Himalayan Nettle Leaves' but image shows only raw/preparation-stage dough being kneaded\",\n    \"Stuffing (nettle leaves) is not visible in either photograph\",\n    \"No finished, cooked, or plated dish is present\",\n    \"Hand obscures the subject entirely in both images\"\n  ],\n  \"reason\": \"Image shows a preparation/kneading stage, not a finished dish. The hand dominates both the full image and phone thumbnail, obscuring the food. The source describes a stuffed roti, but no cooked roti or visible stuffing is evident—only raw dough being worked. This violates the requirement for 'finished, exposed, likely photographic dish' with the dish 'prominent' and identifiable in the thumbnail. Quality scores are low (sharpness 3, lighting 2, composition 2, appeal 1). Preparation stages are explicitly rejected.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 2070,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 450,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
