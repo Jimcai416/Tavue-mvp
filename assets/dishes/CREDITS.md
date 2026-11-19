@@ -10380,3 +10380,9 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Danish open sandwiches (smørrebrød)** — Anneli Salo. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Sm%C3%B8rrebr%C3%B8d_at_Kastrup_IMG_8275_C.JPG). Local asset: `reviewed-commons-8109061.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Smørrebrød in Copenhagen - one with Avocado and one with potatoes** — Kritzolina. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Sm%C3%B8rrebr%C3%B8d_in_Copenhagen_01.jpg). Local asset: `reviewed-commons-122416675.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Palt from Northern Sweden** — [show and tell](https://www.flickr.com/people/20752091@N00). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Palt_(188123582).jpg). Local asset: `reviewed-commons-37848921.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Fläskpalt** — [Mrs. Gemstone  on Flickr](https://www.flickr.com/people/gemstone/). [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:Palt_interior.jpg). Local asset: `reviewed-commons-18334017.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
