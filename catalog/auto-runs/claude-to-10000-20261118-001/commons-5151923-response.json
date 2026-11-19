@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBQW38Ksjfa85NhZyRc8",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Rich brown stew with visible meat pieces\",\n    \"Creamy mashed potato bed underneath\",\n    \"Glossy, reduced sauce characteristic of braised meat dish\",\n    \"Warm, appetising home-cooked presentation\",\n    \"Both full image and thumbnail show the dish clearly\"\n  ],\n  \"phone_observations\": [\n    \"Stew and potatoes both clearly visible in thumbnail\",\n    \"Brown meat and sauce dominant\",\n    \"Potato portion visible at base\",\n    \"Overall composition readable at small scale\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title says 'Hachee' but description adds '(Dutch stew and unions)' – unclear if this is the canonical name or a parenthetical clarification\",\n    \"Meat species not explicitly named in title or description – only 'stew' is mentioned\",\n    \"No protein animal explicitly stated in source metadata\"\n  ],\n  \"reason\": \"The photograph shows a finished, well-presented Dutch braised meat stew with mashed potatoes – sharp, well-lit, appetising and prominent in both full and thumbnail views. However, the source metadata does not explicitly name the meat species (chicken/beef/pork/duck/lamb/seafood). The title 'Hachee' is a traditional Dutch dish name, but without an explicit source statement identifying which animal protein is used, this cannot be accepted. The description '(Dutch stew and unions)' appears to be a parenthetical clarification rather than the canonical dish name. Under the protocol, unknown meat species requires a hold. An explicit protein identification in the source is needed to proceed.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1635,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 506,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

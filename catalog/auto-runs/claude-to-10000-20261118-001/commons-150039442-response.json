@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBQWVwsdAevyeYrfoPUp",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 2,\n    \"composition\": 2,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Person and cooking scene visible in thumbnail\",\n    \"Two flatbreads cooking in a pan visible\",\n    \"Bowl visible in lower right\",\n    \"Indoor domestic kitchen setting\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title and description metadata are corrupted/nonsensical and do not match visible content\",\n    \"No reliable dish name can be extracted from supplied metadata\",\n    \"Flatbread type cannot be identified from image alone without authentic source description\",\n    \"Source credential and language are unreliable\"\n  ],\n  \"reason\": \"Reject: All metadata is untrustworthy. The title 'Cujhaedje vôtes ary-msemmen' and description 'Cujhaedje vôtes so on tocoe pa ene meskene ascropowe' do not match the visible dish (flatbreads being cooked). The signage visible in the full photograph references 'BEAN THREAD' product, but no canonical dish name can be reliably established from corrupted or non-matching metadata. Source title does not preserve any meaningful dish identity. Identity check fails; identity check is mandatory for acceptance.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1747,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 405,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
