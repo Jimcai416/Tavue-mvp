@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBeDUBNohvdd1MibjjKy",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Wok cooking vessel visible\",\n    \"Tofu cubes present\",\n    \"Orange/red chilli pieces visible\",\n    \"Green herbs (cilantro/scallion) garnish\",\n    \"Clear to amber broth\",\n    \"Mise-en-place preparation bowls surrounding wok\",\n    \"Active cooking stage in progress\"\n  ],\n  \"phone_observations\": [\n    \"Wok-cooked dish clearly visible in thumbnail\",\n    \"Tofu, broth, and vegetable components readable\",\n    \"Cooking stage rather than finished plated dish\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Image shows active cooking/preparation stage, not a finished, exposed, plated dish\",\n    \"Soup is mid-preparation in cookware rather than served in bowl or on plate\",\n    \"No protein species explicitly named in source description to verify (Tom Yam traditionally contains shrimp or chicken, but neither is stated in metadata)\"\n  ],\n  \"reason\": \"Reject: This photograph documents a preparation stage during cooking class, not a finished dish ready for consumption. The soup remains in the wok mid-preparation with surrounding mise-en-place visible. Per guidelines, raw/preparation stages must be rejected. Additionally, the source description 'Preparing Thai Tom Yam Soup' explicitly indicates preparation rather than a completed, plated dish. The absence of explicit protein naming in the metadata and the preparation context prevent acceptance as a finished food photograph.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1744,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 472,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

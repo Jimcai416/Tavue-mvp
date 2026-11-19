@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBeCxCZhWzGi4ak5FgTV",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows multiple brown fritters/patties with granular sugar coating\",\n    \"Visible on decorative plate with coloured rim pattern\",\n    \"Approximately 10–12 pieces visible\",\n    \"Even browning and appetising appearance preserved in thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title contains only 'Claclo (galette de banane pilée)' but description field is incomplete: 'This is an image of food from' – truncated, no dish identity confirmation provided\",\n    \"Title indicates banana-based fritter but no protein animal explicitly named in supplied metadata\",\n    \"Cannot verify if this is a sweet banana dessert, savoury preparation, or contains any animal protein without complete source description\"\n  ],\n  \"reason\": \"Reject: source description is incomplete and truncated ('This is an image of food from' ends abruptly). Although the title 'Claclo (galette de banane pilée)' suggests a banana fritter dish and the photograph shows appetising, well-cooked golden-brown pieces, the incomplete metadata fails to establish a canonical identity with confidence. No protein species is explicitly named in the supplied title or description. All photograph quality checks pass, but identity verification cannot be completed with the truncated description field. Hold or resubmit with complete source metadata.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1733,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 446,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
