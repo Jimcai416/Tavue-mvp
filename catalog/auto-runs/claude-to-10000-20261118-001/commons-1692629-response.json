@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBpu3jyZRNt3BiEKiEyL",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [\n    \"White cheese slices on wooden board\",\n    \"Green herb garnish (parsley or mint leaves)\",\n    \"Wooden serving board with handle\",\n    \"Clear, well-lit presentation\"\n  ],\n  \"phone_observations\": [\n    \"Cheese slices and green herb clearly visible in thumbnail\",\n    \"Board and proportions match full image\",\n    \"Subject adequately prominent in 124x96 crop\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title/description identifies dish as 'Fresh sliced Halloumi cheese' but describes herb as 'whole leaves of mint', while full photograph shows sliced/shredded green herb that appears visually consistent with parsley, not intact mint leaves. Visual evidence contradicts stated mint identification.\",\n    \"Image is a food preparation stage (sliced cheese on a board with garnish) rather than a finished, plated, or composed dish. No cooking, assembly, or service context is evident.\"\n  ],\n  \"reason\": \"Rejection on two grounds: (1) This is a food preparation/raw ingredient stage, not a finished dish—sliced cheese with herb garnish on a bare cutting board does not constitute a completed, cooked, or plated food item suitable for Tavue review; (2) Source metadata contradiction—the description claims 'whole leaves of mint' but the visible herb appears finely shredded or minced (consistent with parsley preparation), creating unresolved uncertainty about identity. Halloumi cheese slices alone are not a dish. Home cooking acceptance does not extend to ingredient prep stages.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1724,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 491,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

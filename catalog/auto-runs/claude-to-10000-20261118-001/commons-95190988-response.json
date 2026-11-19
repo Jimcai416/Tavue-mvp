@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBptyeB2FMpY4iXaSrR2",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 5,\n    \"composition\": 5,\n    \"appeal\": 5\n  },\n  \"visible_support\": [\n    \"Golden-brown burger bun, well-toasted\",\n    \"Dark reddish-brown patty consistent with fried halloumi cheese\",\n    \"Bright red tomato slice\",\n    \"Fresh purple onion rings\",\n    \"Green salad leaves and rocket\",\n    \"Golden hand-cut chips/fries\",\n    \"Natural restaurant setting with beverage in background\"\n  ],\n  \"phone_observations\": [\n    \"Burger composition clearly visible in thumbnail\",\n    \"Halloumi patty colour and texture evident\",\n    \"Tomato and onion layers distinct\",\n    \"Chips clearly visible to right of burger\",\n    \"All essential components readable at phone size\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'Halloumi burger' but halloumi is cheese, not a protein category listed in allowed proteins (chicken/beef/pork/duck/lamb/seafood)\",\n    \"No explicit source declaration of an allowed animal protein\",\n    \"The patty appears to be fried halloumi cheese rather than meat\"\n  ],\n  \"reason\": \"While this is a sharp, well-composed, appetising photograph of a finished dish clearly visible in both full and thumbnail views, the identity cannot be accepted because halloumi is cheese, not an allowed protein category. The source title declares 'Halloumi burger' but provides no explicit quote naming an allowed animal protein (chicken/beef/pork/duck/lamb/seafood). Without documented evidence of a supported protein component, identity verification fails. Halloumi cheese alone does not meet the protein_evidence requirements.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1740,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 502,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
