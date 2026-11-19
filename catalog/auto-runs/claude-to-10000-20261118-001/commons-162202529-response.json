@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCUqFgt2BwqobFtfdWPC",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Golden-brown chickpea soup in yellow ceramic bowl with black interior\",\n    \"Abundant cooked chickpeas suspended in rich broth\",\n    \"Served on checkered tablecloth, home-style presentation\"\n  ],\n  \"phone_observations\": [\n    \"Chickpea soup clearly visible in thumbnail\",\n    \"Bowl detail readable at reduced resolution\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title 'zuppa di ceci' is Italian for 'chickpea soup', a legume-based dish with no animal protein named\",\n    \"Filename 'Pastaececisenzaglutinespot.jpg' translates to 'pasta chickpea without gluten spot' but source description is 'zuppa di ceci' (soup), creating contradiction in food form\",\n    \"No explicit protein category (chicken/beef/pork/duck/lamb/seafood) is identifiable or declared in source metadata\"\n  ],\n  \"reason\": \"Source metadata identity contradiction: filename suggests pasta-based dish while description specifies 'zuppa di ceci' (chickpea soup). Photograph shows only legume-based soup with no nameable animal protein. No exact protein quote from source matches allowed categories. Hold required due to source inconsistency and absence of supported protein evidence.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 2007,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 439,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
