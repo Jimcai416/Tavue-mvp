@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCKqLQr2kgaQSSuuD5bw",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 5,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Full source shows ingredients laid out on clay plate and wooden spoons: Penyedap Rasa, Gula, Garam, Bawang Merah, Cabai Rawit, Kunci, Bawang Putih, Bawang Daun, Tepung Tapioka, Tepung Terigu\",\n    \"Colour and arrangement natural, well-lit\",\n    \"Sharp detail on individual ingredients\"\n  ],\n  \"phone_observations\": [\n    \"Central clay plate with ingredients visible\",\n    \"Phone thumbnail shows ingredient display, not a finished, cooked dish\",\n    \"No prepared/finished food visible in thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Image shows raw ingredient preparation stage, not a finished exposed dish ready to eat\",\n    \"Title is 'Bumbu Bakwan Jagung' (Corn Fritter Spice Mix/Recipe) – this is a recipe/ingredient reference image, not a photograph of the prepared final dish\"\n  ],\n  \"reason\": \"Rejection: This is a recipe ingredient layout photograph, not a finished, exposed, prepared dish. The source title 'BUMBU BAKWAN JAGUNG' with accompanying metadata ('RESEP BUMBU BAKWAN JAGUNG') and the visible content—raw garlic, shallots, chilies, spices, and flour in separate bowls and spoons—confirm this is an ingredient preparation/educational image, not a cooked fritter dish. Tavue requires finished, exposed food photographs. Raw preparation stages are explicitly excluded. The phone thumbnail reinforces this: ingredient display, no finished food visible.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1944,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 515,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCKqmi7Cq9kKZZqHSpib",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 1,\n    \"lighting\": 1,\n    \"composition\": 2,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail extremely dark and severely underexposed\",\n    \"Essential food components not discernible in phone view\",\n    \"No readable detail of cooked dish possible from thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title indicates duck (vịt) but full image quality too poor to confirm species or finished dish state\",\n    \"Severe motion blur and low lighting obscure cooking method and food presentation\",\n    \"Image appears to show food preparation/cooking in progress rather than finished plated dish\"\n  ],\n  \"reason\": \"Reject: source photograph shows severe motion blur, extreme underexposure, and poor lighting that render the dish indistinct and unappealing. Sharpness score 1 and lighting score 1 fail minimum thresholds. Phone thumbnail is dark and uninformative. The image appears to capture an active cooking/preparation moment rather than a finished, exposed, appetising dish. Essential food components are not sharply detailed or naturally coloured. Quality and photograph checks fail.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1758,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 374,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
