@@ -7495,3 +7495,8 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 
 - **Homemade apple galette** — [Geoff Peters  from Vancouver, BC, Canada](https://www.flickr.com/people/54359128@N00). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Homemade_apple_galette_(5171649664).jpg). Local asset: `reviewed-commons-80213756.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Delicata squash galette** — Missvain. [CC BY 4.0](https://creativecommons.org/licenses/by/4.0); [source](https://commons.wikimedia.org/wiki/File:Mendocino_County_Foodies_Potluck_and_Cookbook_Exchange_-_March_2024_-_Sarah_Stierch_02.jpg). Local asset: `reviewed-commons-146263583.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Nectarine galette** — [Karen and Brad Emerson](https://www.flickr.com/people/10293577@N03). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Nectarine_galette_(4945176103).jpg). Local asset: `reviewed-commons-103534171.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **strawberry galette** — OlgaMille14. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Strawberry_galette.jpg). Local asset: `reviewed-commons-152176207.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
