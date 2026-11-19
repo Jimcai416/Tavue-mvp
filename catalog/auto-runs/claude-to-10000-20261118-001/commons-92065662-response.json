@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChD5CKoEDxrzeifHcxqS7",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Finished, cooked dish in serving bowl\",\n    \"Pink/magenta ceramic plate on wooden surface\",\n    \"Visible whole poultry leg/drumstick in gravy\",\n    \"Round pale legumes resembling chickpeas or hominy\",\n    \"Broth with herbs and red spice visible\",\n    \"Natural daylight, appetising presentation\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows stew/soup with leg meat and round legumes\",\n    \"Pink bowl and broth visible at this resolution\",\n    \"Dish identity and main components readable in phone view\",\n    \"No clipping of essential food elements\"\n  ],\n  \"protein_evidence\": {\n    \"chicken\": \"chicken\"\n  },\n  \"uncertainties\": [\n    \"Source title says 'File:Vorí vorí paraguay.jpg' but submission metadata contains filename/file prefix; canonical name extraction ambiguous\",\n    \"Description states 'corn flour, cheese, chicken and so' — 'and so' is vague and unverifiable from visual alone\",\n    \"Exact dish name in source is unclear: metadata key is 'File:...' not a clean title phrase\",\n    \"Whether visible round items are hominy, chickpeas, or another legume cannot be definitively confirmed visually\"\n  ],\n  \"reason\": \"Image quality, photograph composition, and phone thumbnail all pass. Chicken is explicitly named in description. However, the source title is embedded in a 'File:' metadata field rather than provided as a clean dish description string. The description adds 'and so' (vague completion) and does not cleanly isolate a canonical dish name phrase. Per rules, canonical_name must be copied exactly from source title or description without file prefixes; the metadata structure here creates ambiguity about what constitutes the actual authoritative dish name. Without a clear, non-ambiguous source phrase, identity check fails. Hold pending clarification of exact canonical dish title.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1809,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 580,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

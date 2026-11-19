@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChD5BytQKhhLJuYMveaJj",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 3,\n    \"lighting\": 3,\n    \"composition\": 3,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Fried starch slices visible in phone thumbnail\",\n    \"Golden-brown colour consistent with full image\",\n    \"Minimal detail resolution in 124x96 format\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Funchi is a cornmeal-based dish, not a finished protein-containing dish suitable for Tavue food photography guidelines\",\n    \"Source describes it as 'made from corn' — a starch/grain preparation without identifiable protein component\",\n    \"Image shows fried starch slices only; no meat, seafood, or protein-rich component visible or declared\"\n  ],\n  \"reason\": \"Funchi is a cornmeal starch dish without an identifiable protein component. Tavue accepts finished dishes with readable essential components; a pure starch preparation does not meet the implicit requirement for protein-based or complete protein-containing dishes. The identity check fails because the dish type (starch-only preparation) does not align with Tavue's food review scope.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1535,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 372,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChD5Byqw7HYzX4is6fBis",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": \"Chanakhi dish from Armenia, Georgia and Afghanistan\",\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Stewed meat with visible chunks\",\n    \"Potatoes and eggplant pieces\",\n    \"Red peppers\",\n    \"Fresh herbs (parsley/cilantro)\",\n    \"Natural braised appearance\",\n    \"Appetising colour and presentation\"\n  ],\n  \"phone_observations\": [\n    \"Dish centre clearly visible in thumbnail\",\n    \"Stew components readable\",\n    \"Bowl and plating evident\",\n    \"Natural colours preserved\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title contains 'File:Chanakhi..JPG' prefix which violates canonical naming rules\",\n    \"Meat species not explicitly named in description—'Chanakhi' traditionally contains beef or lamb, but source does not specify\",\n    \"Ambiguity whether this is authentic Chanakhi or a regional variant; no qualifier distinguishes Armenian, Georgian or Afghan preparation\",\n    \"Without explicit species declaration in source text, protein cannot be recorded\"\n  ],\n  \"reason\": \"Photograph and phone thumbnail are sharp, well-lit, naturally coloured and appetising. Dish is finished, exposed and prominent. However, identity check fails: the source title includes 'File:' prefix and lacks explicit protein species naming. The description 'Chanakhi dish from Armenia, Georgia and Afghanistan' names the dish but does not specify whether the meat is beef, lamb or another animal. Per rules, ambiguous or undeclared meat species and source contradictions (three countries without variant clarification) require hold. Canonical name cannot be derived without removing the File prefix and resolving the protein identity.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1726,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 511,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
