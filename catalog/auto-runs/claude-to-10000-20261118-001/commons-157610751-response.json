@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCmAZhVwkd6WyKfLUBef",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Carnival dancer in elaborate green and yellow costume with feathered headdress\",\n    \"Festival parade setting with crowds\",\n    \"No food dish visible in phone thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title references a food festival and dish (dinengdeng) but the photograph shows only a costumed performer at a parade\",\n    \"No finished, exposed dish is present in either full image or thumbnail\",\n    \"The image documents festival entertainment, not a prepared food item\"\n  ],\n  \"reason\": \"Identity check fails. The photograph depicts a carnival/festival performer in costume at a parade, not the dinengdeng dish described in the source metadata. Although the source title references the Dinengdeng Festival and an Ilocano dish, the actual photograph contains no food subject whatsoever—only a costumed dancer and crowd. This is a festival documentation photograph, not a food photograph. Rejection is required: no finished, exposed, appetising dish is present for review.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1643,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 371,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
