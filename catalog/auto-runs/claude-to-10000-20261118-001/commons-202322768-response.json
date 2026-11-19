@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCDeMrfQVrEUQbodBjLL",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 5,\n    \"appeal\": 5\n  },\n  \"visible_support\": [\n    \"Finished, cooked dish in black bowl\",\n    \"Red-orange curry/stew component on left\",\n    \"White rice component on right\",\n    \"Fresh green herb garnish (parsley) throughout\",\n    \"Prominent, clearly defined food elements\",\n    \"Natural colour, appetising presentation\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows two-component dish layout\",\n    \"Red-orange sauce component and white rice are distinct and readable\",\n    \"Garnish visible in phone thumbnail\",\n    \"Food elements well-represented in reduced size\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'Rougail Saucisses' (sausage dish), but no sausages are visibly identifiable in the photograph. The red-orange component appears to be a curry/stew with cubed/chunked meat or protein, not sausage pieces.\",\n    \"Protein species cannot be determined from visual appearance alone. Source title does not explicitly name which animal the sausages contain.\",\n    \"Identity mismatch: visual form does not clearly match the declared dish name.\"\n  ],\n  \"reason\": \"Identity check fails. The source title declares 'Rougail Saucisses' (a traditional Réunion dish of sausages in tomato sauce), but no recognisable sausage form is visible in either the full image or thumbnail. The red-orange component appears to be diced/cubed meat in sauce or a meat curry, not the typical presentation of whole or half sausages. Additionally, the protein species in the declared sausages is not explicitly named in the source metadata. Per rules, unknown meat species and source-visual contradictions warrant hold status. Quality scores, photograph sharpness, and composition are all excellent, but the identity uncertainty must be resolved before acceptance.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1801,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 555,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

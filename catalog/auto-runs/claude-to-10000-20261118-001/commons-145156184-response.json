@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCDeMkhYh384KaDDqw2g",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Finished, cooked dish with reddish-brown protein pieces\",\n    \"White rice base clearly visible\",\n    \"Fresh arugula/rocket salad on the side\",\n    \"Green scallion garnish visible on protein\",\n    \"Natural colour and appetising presentation\"\n  ],\n  \"phone_observations\": [\n    \"Protein, rice and salad all clearly distinguishable in thumbnail\",\n    \"Dish components readable at small scale\",\n    \"No clipping of essential elements\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title declares 'Rougail saucisses' but no sausage species is explicitly named\",\n    \"Visual appearance shows what could be sausage or other cooked meat pieces, but species cannot be determined from image alone\",\n    \"Sausage is not an allowed protein category key; the actual animal (pork/beef/chicken) is not stated in the source description\"\n  ],\n  \"reason\": \"The photograph shows a finished, well-presented dish with sharp detail, natural colours and good composition. However, the source title declares 'saucisses' (sausages) without specifying the animal species. Sausage cannot be used as a protein_evidence key, and no explicit animal species is named in the title or description. Protocol requires exact source quotes naming specific animals (chicken/beef/pork/duck/lamb/seafood) and forbids inferring species from appearance or tradition. Without explicit species identification in the source metadata, identity cannot be confirmed.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1954,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 483,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
