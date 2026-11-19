@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBnZaYbtiEjJhFnujwJe",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": \"Hotteok made from gluten free flour mix\",\n  \"checks\": {\n    \"identity\": true,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Two round, golden-brown fried flatbreads with crispy exterior\",\n    \"Natural browning and speckling visible\",\n    \"Served on white plate on wooden table\",\n    \"Finished, exposed dish in appetising presentation\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows two hotteok with distinctive golden-brown colour\",\n    \"Surface texture and fried appearance are readable\",\n    \"Essential subject is prominent and not clipped\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title references 'gluten free flour mix' which is a dietary/allergen claim, not a dish variant. The canonical name cannot preserve this dietary descriptor per instructions (no health or allergen claims allowed in canonical_name).\"\n  ],\n  \"reason\": \"The image shows a finished, sharply detailed hotteok with natural colouring and appetising presentation. All quality and photograph checks pass with scores ≥4. However, the source description explicitly labels this as 'gluten free hotteok'—a dietary/allergen claim. Per instructions, canonical_name must exclude health and allergen claims. The dish identity is 'Hotteok' but the source-provided variant qualifier is a dietary specification that cannot be preserved in canonical_name. This creates a conflict: accepting would require either inventing a generic alias or including prohibited dietary language. Hold for clarification of the actual dish name without dietary qualifiers.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1519,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 470,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
