@@ -7910,3 +7910,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 - **Chicken Ghee Roast on Banana Leaf** — Alok Saldanha. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Chicken_Ghee_Roast_on_Banana_Leaf.jpg). Local asset: `reviewed-commons-149473419.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Banga Soup** — Aderiqueza. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Banga_Soup_(Freshly_Cooked).jpg). Local asset: `reviewed-commons-117986907.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Kerala style ghee roast** — Hasna e. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Chicken_ghee_roast.jpg). Local asset: `reviewed-commons-40796127.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Ghee Roast from Kerala** — Ganesh Mohan T. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Ghee_Roast_01.jpg). Local asset: `reviewed-commons-142351850.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.

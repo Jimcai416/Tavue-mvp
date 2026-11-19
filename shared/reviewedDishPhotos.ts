@@ -105452,5 +105452,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 539,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-142351850",
+    "title": "File:Ghee Roast 01.jpg",
+    "author": "Ganesh Mohan T",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ghee_Roast_01.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Ghee_Roast_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "3e5bffbac95716c97b2f59ecf5097bec6d3fe950",
+    "name": "Ghee Roast from Kerala",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-142351850.jpg",
+    "assetSha256": "0e6d86efab519d3943f34b73a14f88ffbfc4708b8b294e7a83e7efeb36a44e2b",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 720,
+    "height": 960,
+    "requiresExactMenuName": true
   }
 ];
