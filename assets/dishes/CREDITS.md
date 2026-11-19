@@ -9547,3 +9547,8 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 - **All i pebre** — [Kent Wang  from London, United Kingdom](https://www.flickr.com/people/27454212@N00). [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:All_i_pebre_(49415912781).jpg). Local asset: `reviewed-commons-95568493.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Schlutzkrapfen** — Steinsplitter. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Schlutzkrapfen_1.JPG). Local asset: `reviewed-commons-40393469.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Frikadelle** — VANOCE2022. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Frikadelle_20250803_114604.jpg). Local asset: `reviewed-commons-171459421.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Arroz a banda** — Tamorlan. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Arroz_a_banda_(2015).JPG). Local asset: `reviewed-commons-45059396.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Arròs a banda** — StellarD. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Casa_Salvador_Arros_a_Banda.jpg). Local asset: `reviewed-commons-50390847.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
