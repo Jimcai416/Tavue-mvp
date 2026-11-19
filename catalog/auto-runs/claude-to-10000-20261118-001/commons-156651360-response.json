@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBnxnancQ5zpjrhLAJkd",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Pizza in delivery box\",\n    \"Red meat toppings visible\",\n    \"Yellow cheese base\",\n    \"Spiced/seasoned surface\",\n    \"Finished, exposed dish\"\n  ],\n  \"phone_observations\": [\n    \"Pizza clearly visible at centre\",\n    \"Toppings readable as red circular meat pieces\",\n    \"Adequate detail for identification\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title describes 'nduja sausage' and 'salami' but nduja is an unspecified sausage type (species unknown)\",\n    \"Salami identity unconfirmed by species (could be pork, beef, or mixed)\",\n    \"Calabrian chili powder and honey are non-protein additions, not core protein identity\",\n    \"No exact source quote explicitly names which animal species the sausage or salami contain\",\n    \"Visual appearance cannot definitively distinguish sausage species from photograph alone\"\n  ],\n  \"reason\": \"Source description lists 'nduja sausage' and 'salami' as toppings, but sausage is an unspecified species category and salami lacks explicit animal species declaration in the source text. Protein_evidence keys require exact case-sensitive substrings from title/description that explicitly name the animal (chicken/beef/pork/duck/lamb/seafood). The description does not contain these explicit animal names for the meat toppings, only generic sausage and cured meat terms. Identity check fails because the canonical name cannot be reliably extracted without species confirmation. Hold pending clarification of which animals are in the nduja and salami.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1753,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 509,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

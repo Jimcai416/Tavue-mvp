@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBny8oxdxK5Z84vmchi6",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Wooden box labeled 'Montd'or' visible in source photo\",\n    \"Soft cheese inside box consistent with Mont d'Or\",\n    \"Boiled potatoes prominently displayed\",\n    \"Fresh salad greens present\",\n    \"Sliced cured meat product visible\"\n  ],\n  \"phone_observations\": [\n    \"Cheese box, potatoes, and meat components clearly visible in thumbnail\",\n    \"Overall composition readable at reduced size\",\n    \"Subject matter identifiable despite scale reduction\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Saucisse de Morteau is a named sausage product, but the exact animal species cannot be confirmed from visual inspection alone—Morteau sausages are traditionally pork-based, but this is culinary tradition, not visible evidence\",\n    \"The source description names 'saucisse de Morteau' but no protein category key can be used for sausage products per protocol\",\n    \"Canonical name would require exact source phrase, but 'saucisse' (sausage) cannot be mapped to an allowed protein category without explicit animal identification beyond tradition\"\n  ],\n  \"reason\": \"The photograph shows a finished, well-composed, appetizing dish featuring Mont d'Or cheese in its wooden box with accompaniments. Quality, sharpness, lighting and composition all meet standards; phone thumbnail is adequate. However, the source description names 'saucisse de Morteau' as a component. Protocol forbids using 'sausage' as a protein key and requires explicit animal identification. While Morteau sausages are traditionally pork, this is culinary tradition rather than visual or textual proof of species within the image metadata. The source description does not explicitly state 'pork sausage.' Without species-explicit sourcing, the protein component cannot be properly recorded, and the canonical name cannot be constructed according to requirements. Hold for clarification or explicit species declaration.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1735,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 572,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

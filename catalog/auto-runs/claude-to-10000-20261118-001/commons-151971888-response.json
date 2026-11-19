@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBnyjkenqg5Ff1jrid5r",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": \"mozzarella, tomato, nduja, fresh Burrata\",\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 5,\n    \"appeal\": 5\n  },\n  \"visible_support\": [\n    \"Wood-fired pizza with leopard-spotted charred crust\",\n    \"Fresh basil and white creamy dollop (burrata) visible at centre\",\n    \"Tomato sauce and melted cheese throughout\",\n    \"Finished, exposed, ready-to-eat pizza dish\"\n  ],\n  \"phone_observations\": [\n    \"Pizza clearly visible and prominent in thumbnail\",\n    \"Basil garnish and burrata centre readable\",\n    \"Natural colours, no clipping of essential components\",\n    \"Sharp detail of charred crust and toppings\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Nduja is a spreadable cured pork sausage product, not a named meat category in the allowed list (chicken/beef/pork/duck/lamb/seafood). The source names 'nduja' but this does not map to an allowed protein key.\",\n    \"While nduja contains pork, the source does not explicitly state 'pork' as a descriptor; it uses only the product name 'nduja'. Inferring species from ingredient tradition violates the rule against inferring from appearance or generic terms.\",\n    \"No explicit source statement confirms pork as a named protein.\"\n  ],\n  \"reason\": \"The pizza is photographically excellent, finished, appetising, and properly detailed in both full and phone thumbnails. However, the dish cannot be accepted because the source lists 'nduja' as a topping. Nduja is a cured sausage product containing pork, but the source does not explicitly name 'pork' as a protein descriptor. The rules forbid inferring species from product tradition or appearance and prohibit using 'sausage' as a protein key. Without an explicit source statement that 'pork' is an ingredient, no valid protein category can be mapped. This creates an unresolved uncertainty that blocks acceptance.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1745,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 574,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

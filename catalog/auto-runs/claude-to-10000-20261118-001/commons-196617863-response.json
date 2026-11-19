@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBnyEPKUpzLrwF6LnLxM",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Cooked pizza slices with melted cheese\",\n    \"Red/orange toppings consistent with salami and spiced meat\",\n    \"Golden-brown crust with charred spots\",\n    \"Presentation on decorative plate with fork\",\n    \"Natural lighting, appetising appearance\"\n  ],\n  \"phone_observations\": [\n    \"Pizza slices clearly visible and prominent\",\n    \"Toppings readable in thumbnail\",\n    \"Adequate sharpness and colour rendition\",\n    \"No clipping of essential food elements\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source metadata lists 'salami' and ''nduja' (a Calabrian spiced pork paste) but neither term appears in the filename or as a standard title phrase\",\n    \"Description contains metadata labels (salami, 'nduja, chili pepper, honey) that are not formally part of a canonical dish name\",\n    \"No explicit dish name equivalent to 'Diavola pizza' is provided in a structured title field separate from the description prose\",\n    \"'nduja is a regional Italian ingredient but source does not use it as a formal qualifier in a canonical dish name\"\n  ],\n  \"reason\": \"Reject: Although the photograph is sharp, well-lit, appetising and the thumbnail is clear, the source provides only a filename and prose description without a formal canonical dish title. The description identifies toppings (salami, 'nduja, chili pepper, honey) but does not present them as part of a standard dish name. 'nduja is an unrecognised protein category per the allowed list (chicken/beef/pork/duck/lamb/seafood only); while it is pork-based, the source does not explicitly state 'pork' as the protein qualifier, only the ingredient name. The identity check fails because there is no structured title matching the canonical_name requirement. Protocol requires a specific dish phrase copied exactly from source title or description; metadata tags and prose descriptions alone do not constitute sufficient evidence for identity and protein categorisation.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1761,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 594,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
