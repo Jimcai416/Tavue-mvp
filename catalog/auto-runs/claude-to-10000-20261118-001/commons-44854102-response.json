@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCsuXC5rzdDjn9PC7dzJ",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Golden-brown breaded cutlet, prominent and well-exposed\",\n    \"Potato chips with red pepper strips visible\",\n    \"Sliced tomato and onion garnish at base\",\n    \"Served on oval metal plate\",\n    \"Natural home/restaurant photography\"\n  ],\n  \"phone_observations\": [\n    \"Breaded cutlet clearly visible in thumbnail\",\n    \"Potato and pepper components readable\",\n    \"Tomato and onion base distinguishable\",\n    \"Overall composition preserved in reduction\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Cachopo is traditionally a Asturian dish consisting of two thin slices of meat (typically veal or beef) filled with cheese and ham, then breaded and fried. The source title identifies this as 'Cachopo' from Rincón de Gascona in Oviedo (Spain), but the visible form shows a single thick breaded cutlet without clear evidence of the characteristic cheese-and-ham filling that defines a cachopo. The meat species is not explicitly named in the source description, only inferred from the dish name and regional tradition.\",\n    \"No explicit animal species declaration in source description—only the dish name 'Cachopo'\",\n    \"Single-layer cutlet form contradicts traditional cachopo construction (two thin slices with filling)\"\n  ],\n  \"reason\": \"While the photograph is sharp, well-lit, and appetising, and the dish is identifiable as a breaded meat cutlet served with potatoes, tomato and onion, the source description does not explicitly name the meat species. The cachopo tradition involves veal, beef, or pork with a cheese-and-ham filling, but the visible form (a single thick cutlet) is ambiguous about construction and filling. The source metadata provides only 'Cachopo' without an explicit protein declaration, and the meat species cannot be inferred from appearance alone or validated against a direct quote. This triggers the hold rule: 'unknown meat species (including mutton that might mean goat), source contradictions, or doubtful credits => hold.'\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1748,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 610,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
