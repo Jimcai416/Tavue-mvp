@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBhhayHf4AV39AgRGyfj",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Rice vermicelli noodles clearly visible as base\",\n    \"Crispy fried meat pieces stacked prominently on top\",\n    \"Green onions and white onion pieces scattered throughout\",\n    \"Glossy caramelized sauce coating\",\n    \"Served on decorative plate with brown rim\",\n    \"Natural daylight, well-exposed\",\n    \"Sharp detail of noodles and meat components\",\n    \"Phone thumbnail captures essential dish structure\"\n  ],\n  \"phone_observations\": [\n    \"Noodle base clearly identifiable in thumbnail\",\n    \"Crispy meat topping visible and prominent\",\n    \"Garnish visible despite size reduction\",\n    \"Dish composition unmistakable at small scale\",\n    \"No essential food clipped from thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title states 'Pansit Bihon with lechon kawali' but file name and description show only 'Pansit Bihon or Pancit Bihon'\",\n    \"Protein species ambiguous: 'lechon kawali' traditionally means fried pork belly, but source metadata does not explicitly name 'pork'\",\n    \"Title/description mismatch creates uncertainty about which protein component is intended\",\n    \"Cannot visually distinguish between pork and other possible meats in the fried pieces\"\n  ],\n  \"reason\": \"Dish identity conflicts between title ('Pansit Bihon with lechon kawali') and description ('Pansit Bihon or Pancit Bihon'). Although lechon kawali conventionally means fried pork belly, the source does not explicitly state 'pork' as a protein qualifier, only the dish name. Per protocol, protein species must be explicitly named in source text, never inferred from tradition or appearance. Source contradiction and absent explicit protein naming prevent acceptance. Quality and photograph standards met; hold pending clarification of actual protein component and primary dish intent.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1740,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 595,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBhhwYnMGsHNN9D8wsz9",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Golden-brown fritter with visible shredded vegetable binder and green herb specks\",\n    \"Crispy exterior texture, translucent oil sheen\",\n    \"Two distinct patty portions on foil wrapper\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail shows two golden-brown fritter cakes clearly\",\n    \"Vegetable composition and colour readable at small size\",\n    \"Essential subject entirely visible and prominent\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title lists 'Kare-kare and Okoy' as paired dishes but photograph shows only fritters\",\n    \"Okoy is a shrimp-vegetable fritter; source does not explicitly name shrimp in title\",\n    \"Cannot visually confirm shrimp presence in fritter from appearance alone\",\n    \"Identity contradiction: title references two separate dishes (kare-kare stew and okoy fritter) but only fritter is visible\"\n  ],\n  \"reason\": \"Source title lists two dishes ('Kare-kare and Okoy') but photograph displays only the okoy fritter; kare-kare stew is absent. The source does not explicitly name 'shrimp' in the title or description to satisfy protein documentation rules, only the generic term 'Fritter'. Although okoy traditionally contains shrimp, the instructions prohibit inferring species from tradition or appearance. The title/description mismatch to visible content and absent explicit protein naming trigger a hold for identity verification.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1915,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 482,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
