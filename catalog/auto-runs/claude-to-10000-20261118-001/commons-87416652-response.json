@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChD4jAbbAXxe7MrV1asUb",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Finished, cooked dry curry dish with crispy texture\",\n    \"Shredded meat prominently displayed\",\n    \"White garnish (ginger or onion strips) visible in both images\",\n    \"Natural reddish-brown colour consistent with spiced preparation\",\n    \"Served on plain bowl on wooden surface\"\n  ],\n  \"phone_observations\": [\n    \"Dish remains clearly visible and identifiable at thumbnail size\",\n    \"Garnish and core components readable\",\n    \"Colour and texture convey appetising spiced preparation\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title states 'Buffalo Meat' but metadata key 'Buffalo' is not in the allowed protein category list (chicken/beef/pork/duck/lamb/seafood)\",\n    \"Buffalo is a distinct species from allowed categories and cannot be accepted as an inferred or aliased protein\",\n    \"No exact source quote naming an allowed protein category is present\"\n  ],\n  \"reason\": \"Photograph and phone thumbnail both show excellent technical quality, sharp detail, natural colour, and an appetising finished dish with identifiable components. However, the source explicitly names 'Buffalo Meat' as the protein, which falls outside the permitted categories (chicken/beef/pork/duck/lamb/seafood). Buffalo is a specific, distinct species that cannot be inferred, aliased, or accepted under any allowed category. The identity check fails because no allowed protein is visibly or textually supported. Hold pending clarification or source correction to an allowed protein category.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1760,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 484,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
