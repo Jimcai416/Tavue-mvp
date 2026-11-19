@@ -9477,3 +9477,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 - **Hainanese Chicken with Pounded Ginger** — Ceeseven. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Hainanese_Chicken_with_Pounded_Ginger.JPG). Local asset: `reviewed-commons-47090058.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Putian-style Lor Mee** — N509FZ. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Putian-style_Lor_Mee_at_Shuangqiao_(20191001125418).jpg). Local asset: `reviewed-commons-90990209.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Thai-style Hainanese Chicken Rice** — Ceeseven. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Thai-style_Hainanese_Chicken_Rice.JPG). Local asset: `reviewed-commons-44865684.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Kashk-o Bademjan** — Rka11111. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Kashk-o_Bademjan.jpg). Local asset: `reviewed-commons-17831223.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.

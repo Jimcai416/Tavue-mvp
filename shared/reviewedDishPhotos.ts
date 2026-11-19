@@ -123591,5 +123591,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 540,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-17831223",
+    "title": "File:Kashk-o Bademjan.jpg",
+    "author": "Rka11111",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kashk-o_Bademjan.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/93/Kashk-o_Bademjan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "ad7367ff52d85b3b22a2e47aca634c1a9441ea28",
+    "name": "Kashk-o Bademjan",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-17831223.jpg",
+    "assetSha256": "c338022fdcd0601d28498c4e3941adb0fe179b8a32f2378c9a9351a29b1e7969",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 521,
+    "requiresExactMenuName": true
   }
 ];
