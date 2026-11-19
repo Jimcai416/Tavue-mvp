@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCNd9tLqZwQrc56RJfUe",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Raw or cured meat block in display case\",\n    \"No finished dish presentation\",\n    \"Butcher counter context, not plated food\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Head cheese is a prepared meat product but shown here as raw/uncooked block in butcher display\",\n    \"Not a finished, exposed, cooked dish suitable for food photography review\",\n    \"Appears to be ingredient or retail display, not a prepared meal\"\n  ],\n  \"reason\": \"Rejection: The photograph shows a raw or uncooked meat block (head cheese) displayed in a butcher case, not a finished, cooked, plated or served dish. This is a preparation stage or retail ingredient display, not an appetizing finished food photograph. While head cheese can be a legitimate culinary product, the image shows it in its raw form before cooking/final preparation, which violates the requirement for 'finished, exposed, likely photographic dish.' The appeal score is low due to unappetizing raw meat presentation.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1609,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 375,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

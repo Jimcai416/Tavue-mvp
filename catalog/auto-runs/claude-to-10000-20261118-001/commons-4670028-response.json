@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCNcCKAYNCU8f47CP5Lh",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": \"Dančí ragů, bramborové halušky\",\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 3,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [\n    \"Stewed meat dish with gravy in white bowl\",\n    \"Potato dumplings or gnocchi-like side visible\",\n    \"Home-cooked plated meal presentation\",\n    \"Fork and knife present, dining setting\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows brown stewed meat component\",\n    \"White/cream coloured starch side is identifiable\",\n    \"Plate and dish structure preserved in phone view\",\n    \"Overall composition readable at reduced resolution\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title contains 'Dančí ragů' (Czech: 'venison ragú/stew') but no explicit animal species confirmation in source description\",\n    \"Common interpretation of 'dančí' refers to venison/game, but source metadata does not explicitly state this\",\n    \"Meat species cannot be reliably determined from appearance alone; species must be explicitly named in source\",\n    \"Cannot confirm whether this is venison, mutton, or another game meat from visual evidence\"\n  ],\n  \"reason\": \"Image quality and composition are acceptable, and phone thumbnail is readable. However, identity check fails because the source title 'Dančí ragů' refers to game/venison stew, but the source description does not explicitly name the animal species. Per protocol, ambiguous meat species (including game meats not explicitly named) must be held. The Czech term 'dančí' traditionally refers to venison, but this is tradition-based inference, not explicit source evidence. 'Ragů' alone is a generic stew category. Without explicit species declaration in the source text (e.g., 'venison ragú' or 'deer ragú'), the identity cannot be confirmed. Protein_evidence remains empty. All other checks pass.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1732,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 558,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
