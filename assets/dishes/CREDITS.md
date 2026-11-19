@@ -6669,3 +6669,8 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Poffertjes** — Illustratedjc. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Poffertjes-Melkhuis.jpg). Local asset: `reviewed-commons-41340882.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Oliebollen with raisins** — Michelle_Boon. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Oliebollen_2.jpg). Local asset: `reviewed-commons-65980240.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Ensalada de papas** — Horacio Cambeiro. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Ensalada_de_papas_(raciones).jpg). Local asset: `reviewed-commons-165103681.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
