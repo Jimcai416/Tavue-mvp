@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBvV113kfQKpxhH5yhsM",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Finished, cooked dish in white serving bowl\",\n    \"Rich reddish-brown sauce with visible spice coating\",\n    \"Prominent meat pieces (brown, cooked sausages or chunks)\",\n    \"Garnish: lemon slices and black olives\",\n    \"Yellow chickpeas or similar legumes visible throughout\",\n    \"Naturally coloured, appetising presentation\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows the finished dish\",\n    \"White bowl, red sauce, brown meat, and garnish legible\",\n    \"No clipping of essential components\",\n    \"Adequate resolution for dish identification\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title states 'Merguez' (a sausage), but identity of the meat species in the dish is not explicitly named—merguez typically contains multiple meats (beef, lamb, pork vary by region) and the source does not specify which animal(s) are present\",\n    \"Protein category cannot be assigned without explicit species confirmation in source metadata\"\n  ],\n  \"reason\": \"Image quality, sharpness, lighting and composition all meet standards. The photograph shows a finished, appetising Tunisian tajine with visible meat, sauce, legumes and garnish, clearly legible in the phone thumbnail. However, the source title 'Tajine Merguez' names merguez (a type of sausage) but does not explicitly declare which animal species the sausage contains. Merguez composition varies by region and may include beef, lamb, pork, or mixtures thereof. Per protocol, unknown or unspecified meat species cannot be claimed as protein evidence, and species cannot be inferred from tradition or generic sausage names. The identity check fails because the exact protein cannot be matched to an allowed category with an explicit source quote naming the animal. The dish must be held pending clarification of the meat species in the source metadata.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1771,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 576,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
