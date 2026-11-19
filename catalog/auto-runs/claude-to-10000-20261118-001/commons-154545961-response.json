@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCnp6kBvLspDFiSbzNW6",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 5,\n    \"appeal\": 5\n  },\n  \"visible_support\": [\n    \"Golden-brown breaded cutlet with herb garnish, clearly seared\",\n    \"Crispy golden fries in substantial portion\",\n    \"Fresh salad with red onion, tomato, and leafy greens\",\n    \"White sauce bowl (consistent with Cordon Bleu preparation)\",\n    \"Professional plating on dark slate plate\",\n    \"Natural daylight, well-exposed\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows breaded protein as dominant subject\",\n    \"Fries and salad components visible and readable\",\n    \"Sauce bowl visible in background\",\n    \"Composed and appetising presentation maintained in reduction\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title declares 'pork cutlet filled with cheese and ham' but photograph alone does not visually prove cheese and ham interior—these are hidden components\",\n    \"Visible form shows only the seared exterior; filling cannot be verified from image\",\n    \"Schnitzel Cordon Bleu is a named preparation, but identity requires explicit visual proof of the filled interior or source-verified cross-section\"\n  ],\n  \"reason\": \"Reject: Although the photograph is sharp, well-lit, appetising and professionally composed, and the phone thumbnail is excellent, the identity check fails. The source description claims this is a 'Schnitzel Cordon Bleu (a breaded pork cutlet filled with cheese and ham)'. However, the visual form shows only a seared, breaded cutlet. The defining characteristics of Cordon Bleu—the cheese and ham filling—are hidden inside and cannot be verified from the photograph alone. Per instructions, hidden flavours may be source-declared but are never visually proven. Identity must agree with visible form. A breaded pork cutlet with herb seasoning and searing is what is photographed; the filled preparation cannot be confirmed without evidence of the interior. The photograph documents a finished, exposed dish, but it does not establish the specific identity 'Schnitzel Cordon Bleu' with certainty.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1783,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 605,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
