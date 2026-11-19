@@ -7956,3 +7956,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 
 - **Beef filled patties** — Lilpisomojado. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Homemade_Jamaican_patties.jpg). Local asset: `reviewed-commons-117506200.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Cocheals (spiced bun)** — PeddleAnt. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Cocheals_(spiced_bun).jpg). Local asset: `reviewed-commons-87498822.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Moamba de galinha** — Rui Gabriel Correia. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Moamba_traditional_dish_in_Luanda.JPG). Local asset: `reviewed-commons-27439548.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.

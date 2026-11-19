@@ -105887,5 +105887,29 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 720,
     "height": 960,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-27439548",
+    "title": "File:Moamba traditional dish in Luanda.JPG",
+    "author": "Rui Gabriel Correia",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Moamba_traditional_dish_in_Luanda.JPG",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Moamba_traditional_dish_in_Luanda.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "5c9782bd71ff6a8a27e0feabc62f47e4b03cc84b",
+    "name": "Moamba de galinha",
+    "aliases": [],
+    "proteins": [
+      "chicken"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-27439548.jpg",
+    "assetSha256": "6ff71218899691b794c48a7c13549cc195d88fa2eef2ddabafcbfc126c272a05",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];
