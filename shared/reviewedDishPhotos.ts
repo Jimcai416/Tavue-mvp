@@ -119170,5 +119170,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-5259820",
+    "title": "File:HaluskyzoZiaru.JPG",
+    "author": "Foxburg  alias Pavel Liska",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:HaluskyzoZiaru.JPG",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b9/HaluskyzoZiaru.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "4ec05f73ade616135544bf7d82e5f8ad52dafe25",
+    "name": "Halusky",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-5259820.jpg",
+    "assetSha256": "987b2b8f8701a9bd3b94a18c9205899ac042138a51452f3e71f6f8cc37cd4016",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 850,
+    "requiresExactMenuName": true
   }
 ];

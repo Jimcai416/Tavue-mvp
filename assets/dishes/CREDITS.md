@@ -9091,3 +9091,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 - **halušky, kapustnica and a dark zlatý bažant beer** — Stefan Krasowski. [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Halusky_kapustnica.jpg). Local asset: `reviewed-commons-36115760.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Halušky s bryndzou** — Honza Groh  (  Jagro  ). [CC BY 3.0](https://creativecommons.org/licenses/by/3.0); [source](https://commons.wikimedia.org/wiki/File:Halusky_s_bryndzou.jpg). Local asset: `reviewed-commons-5499152.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Hamantaschen** — Dr. Bernd Gross. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Hamantaschen_Purim_Dresden_(1).JPG). Local asset: `reviewed-commons-47742516.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Halusky** — Foxburg  alias Pavel Liska. [Public domain](https://creativecommons.org/publicdomain/mark/1.0/); [source](https://commons.wikimedia.org/wiki/File:HaluskyzoZiaru.JPG). Local asset: `reviewed-commons-5259820.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
