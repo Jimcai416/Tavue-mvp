@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCrveZFEyeLeaDPDa9NM",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 5,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Toasted bread slices arranged around plate perimeter\",\n    \"White cheese wedges with herb garnish (coriander/basil visible as green flecks)\",\n    \"Small white bowl containing dark red condiment (tomato jam)\",\n    \"Small white bowl containing golden-green liquid (olive oil)\",\n    \"Outdoor setting with natural daylight and shadows\",\n    \"Appetising presentation on white plate\"\n  ],\n  \"phone_observations\": [\n    \"Plate clearly visible with central dips and surrounding bread/cheese\",\n    \"Essential components readable: bread slices, cheese, two bowls with condiments\",\n    \"Natural lighting and shadows cast across plate\",\n    \"Composition and subject prominence adequate for thumbnail review\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title describes 'local cheese' but does not specify cheese type, origin designation, or specific name—only declares it is 'local' to Finca la Carrodilla, Valle de Guadalupe, Baja California\",\n    \"Bread appears to be toasted but source does not name it; identity and ingredients remain undeclared\",\n    \"Source lists 'coriander, basil, tomato jam, olive oil' as components but does not explicitly state which are visible toppings vs. the full dish composition—visual confirmation of coriander and basil as garnish on cheese is present, but exact preparation and assembly method is not declared in source\",\n    \"No protein category can be assigned: cheese is a dairy product, not in the allowed protein categories (chicken/beef/pork/duck/lamb/seafood)\",\n    \"Exact dish name or canonical title is not provided in source metadata; only ingredient list and location are given\"\n  ],\n  \"reason\": \"Image quality, photograph authenticity, and phone thumbnail legibility all pass. However, identity check fails because the source provides no canonical dish name—only ingredient list ('Local cheese with coriander, basil, tomato jam, olive oil') and location. This is insufficient to establish a specific, named dish. The main component is cheese, which is a dairy product falling outside the allowed protein categories. Without a declared specific dish name, exact cheese variety, or any assignable protein category, the submission cannot be accepted. Hold pending source clarification of the precise dish name and cheese specification.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1750,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 657,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

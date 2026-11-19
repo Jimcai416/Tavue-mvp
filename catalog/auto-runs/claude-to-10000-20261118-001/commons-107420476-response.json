@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCrvP94NiNx4wJqDEcAS",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 5,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Cooked instant ramen noodles in tight nest formation on white rectangular plate\",\n    \"Ingredient components displayed: vegetable/meat mixture in left bowl, spice powder in right bowl\",\n    \"Natural warm indoor lighting on wooden surface\",\n    \"Sharp detail of noodle texture and ingredient components\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail shows ramen nest clearly centered\",\n    \"Component bowls visible but small\",\n    \"Adequate visual recognition of instant noodle dish type\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title describes 'Jumbo Noodles (Paldo)' which is a branded instant ramen product, not a prepared dish with named identity\",\n    \"No finished dish name provided in source—only product brand name\",\n    \"Ingredient bowl contents are ambiguous: vegetable composition and meat species (if present) cannot be reliably identified from image alone\",\n    \"Spice powder composition unknown\",\n    \"No explicit protein declaration in source metadata\"\n  ],\n  \"reason\": \"Identity check fails. The source provides only the instant ramen brand name 'Paldo' and generic descriptor 'Jumbo Noodles', not a specific prepared dish name. The image shows ingredients in component bowls that cannot be positively identified to establish a canonical dish identity. No protein species are declared in source text. While photograph and phone thumbnail quality are acceptable, identity is insufficient for acceptance under strict canonical naming requirements.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1880,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 472,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
