@@ -7000,3 +7000,8 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 
 - **Cucumber and Tomato Raita** — Kskhh. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Cucumber_and_Tomato_Raita_(cropped).jpg). Local asset: `reviewed-commons-178398514.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Lamb korma med gulerødder, raita og ris** — [cyclonebill  from Copenhagen, Denmark](https://www.flickr.com/people/23178876@N03). [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:Lamb_korma_med_guler%C3%B8dder,_raita_og_ris_(5631638020).jpg). Local asset: `reviewed-commons-26890205.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Raita** — Be Hungry Cooking. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Raita_by_be_hungry.jpg). Local asset: `reviewed-commons-140268695.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Raita with onion** — Be Hungry Cooking. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Raita_with_onion_by_be_hungry.jpg). Local asset: `reviewed-commons-140268770.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
