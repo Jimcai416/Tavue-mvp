@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBhM485krY4rZgVV27pm",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Pita bread sandwich visible\",\n    \"White creamy sauce (likely tzatziki)\",\n    \"Red tomato slices\",\n    \"Green lettuce\",\n    \"Meat filling present but species unidentifiable\"\n  ],\n  \"phone_observations\": [\n    \"Sandwich clearly visible in thumbnail\",\n    \"Wrapped in branded paper (Greek text/logos visible)\",\n    \"Pita envelope structure evident\",\n    \"Components readable at phone size\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title 'Gyros' is generic and does not specify meat species (lamb, beef, chicken, pork, or mixed)\",\n    \"Meat filling is not sharply visible enough to determine animal species with certainty\",\n    \"No explicit protein declaration in source metadata\",\n    \"Gyros traditionally may contain multiple species, but no source text names any specific animal\"\n  ],\n  \"reason\": \"While the photograph is sharp, well-lit, appetizing and properly composed, with good phone visibility, the source material fails identity verification. The title 'Gyros' alone does not name a specific meat species. The filling is not visually distinct enough to infer the animal with confidence. Per rules, ambiguous meat species and missing explicit source protein naming require a hold. The generic category term without species declaration violates the requirement that identity must agree with exact source title/description AND preserve all meaningful qualifiers including meat species. No exact substring from source names chicken, beef, pork, duck, lamb, or seafood.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1718,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 480,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

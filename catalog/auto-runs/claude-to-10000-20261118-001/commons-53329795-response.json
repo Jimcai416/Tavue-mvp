@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBhM44NPogKUxESYjF9z",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Pita bread in sandwich form\",\n    \"White cheese (feta visible)\",\n    \"Fresh lettuce\",\n    \"Red tomato slices\",\n    \"Greek plated presentation (blue plate, Greek key pattern)\",\n    \"Wrapped paper shows Greek branding/text\"\n  ],\n  \"phone_observations\": [\n    \"Sandwich clearly visible in phone thumbnail\",\n    \"Blue plate and Greek styling evident\",\n    \"Filled pita readable in centre-cover crop\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title states 'Gyros' but no visible meat component is identifiable in the photograph. The filling appears to be primarily white cheese (feta) with vegetables (lettuce, tomato).\",\n    \"The wrapped paper suggests this may be from a Greek restaurant/vendor, but the actual protein species in the sandwich cannot be determined visually.\",\n    \"No explicit source description of the protein filling provided beyond the generic title 'Gyros'.\"\n  ],\n  \"reason\": \"Identity check fails. The source title 'Gyros' indicates a meat-filled sandwich (traditionally lamb, beef, or pork), but the visible filling in the photograph shows only white cheese and vegetables with no visible or identifiable meat component. The title does not match the apparent composition. Without explicit source text naming the protein species, and with the visual evidence contradicting the titled dish type, this cannot be accepted. Per rules: 'Identity must agree with the exact source title/description and visible form' and protein category requires 'an exact source quote explicitly naming each animal; never infer species from tradition.'\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1718,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 498,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

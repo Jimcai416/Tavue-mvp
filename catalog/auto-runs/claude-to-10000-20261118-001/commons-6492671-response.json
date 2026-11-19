@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBhM4675WkeK6efFPykc",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Cooked, sliced meat with visible browning and texture\",\n    \"Fresh tomato pieces visible\",\n    \"Onion and cucumber visible on pita base\",\n    \"White sauce (tzatziki) visible\",\n    \"Pita bread base present\",\n    \"Natural colours, appetising presentation\"\n  ],\n  \"phone_observations\": [\n    \"Meat slices clearly visible in thumbnail\",\n    \"Brown colouration consistent with full image\",\n    \"Sufficient detail to identify as cooked meat dish\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source metadata states 'Lamb meat' but metadata is explicitly untrusted per instructions\",\n    \"Visible meat colour and texture are consistent with lamb, beef, or other species—no visual certainty of species identity\",\n    \"No explicit species confirmation found in the unmodified photograph itself\"\n  ],\n  \"reason\": \"Reject: The source description claims 'Lamb meat', but all metadata is untrusted evidence and cannot be used as instruction. The photograph alone does not contain text or other visual evidence that definitively identifies the meat species. While the dish matches gyro/doner characteristics and appearance is appetising, identity verification requires exact visual proof (text in image, regional variant markers, or other inherent visual cues), not reliance on filename metadata. The protein_evidence map cannot be populated without an explicit, visually-supported species claim within the photograph itself. This fails the identity check.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1817,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 468,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
