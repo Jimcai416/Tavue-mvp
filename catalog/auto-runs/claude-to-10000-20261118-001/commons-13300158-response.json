@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBYo5E11P4XYmgAqzTWx",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Plate marked with restaurant logo\",\n    \"Brown-fried legume pods with reddish sambal coating\",\n    \"Yellow root vegetable side dish visible left\",\n    \"Natural daylight, sharp detail of dish components\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail shows fried legume pieces on white plate\",\n    \"Golden-brown exterior with red sambal visible\",\n    \"Adequate size and prominence in frame\",\n    \"Essential dish characteristics legible\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source metadata lists 'Archidendron pauciflorum in sambal' but this is a legume/seed pod, not a protein category (chicken/beef/pork/duck/lamb/seafood)\",\n    \"Common name 'jengkol' refers to the plant species itself, not an animal protein\",\n    \"Dish appears to be a vegetable preparation, not a protein dish\"\n  ],\n  \"reason\": \"Rejection: The source description identifies this as Archidendron pauciflorum (jengkol), a legume/seed pod, prepared in sambal. No animal protein is present or named in the source. The Tavue protocol requires dishes to include at least one protein category (chicken/beef/pork/duck/lamb/seafood) with explicit source evidence. This is a vegetable-only dish and falls outside the accepted food category scope.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1588,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 463,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

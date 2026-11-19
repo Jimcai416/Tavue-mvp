@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBYoUJKPotxiCBQjeFxh",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": \"Mutton Curry, Padang Cuisine\",\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Cooked meat pieces in rich brown curry sauce\",\n    \"Glossy surface indicating proper braising\",\n    \"Garnished white plate with floral decoration\",\n    \"Golden-brown colour consistent with spiced curry\",\n    \"Dish prominently displayed, well-exposed\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows curry dish with meat pieces\",\n    \"Brown sauce visible and appetizing\",\n    \"Floral plate pattern readable\",\n    \"Subject appropriately sized and sharp in thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Species ambiguity: 'Mutton' in source description may refer to sheep or goat; exact animal not visually distinguishable from photograph alone\",\n    \"Source uses 'Mutton' which is ambiguous and cannot be verified as only 'lamb' is an accepted category\"\n  ],\n  \"reason\": \"Photograph and thumbnail quality are excellent and all visual checks pass. However, the source description identifies the meat as 'Mutton Curry', and 'mutton' is an ambiguous species descriptor that in various culinary traditions may refer to either sheep or goat. The instruction requires that proteins use only exact source quotes naming each animal explicitly, and that unknown/ambiguous meat species must result in a hold. Since 'mutton' is not a species-specific term and cannot be mapped to the allowed category 'lamb', identity check fails. Hold pending clarification of exact animal species.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1728,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 482,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
