@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBmBmyhd5FKuNXFRdnJt",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Finished, exposed crêpe-like flatbread (neer dosa) clearly visible\",\n    \"Golden-brown spiced chicken curry in red bowl with appetising colour\",\n    \"Fried vegetable chips (plantain or potato) on plate\",\n    \"Sharp detail across full image and phone thumbnail\",\n    \"Natural lighting, no glare or severe casts\",\n    \"Home-style plating consistent with regional cuisine\"\n  ],\n  \"phone_observations\": [\n    \"All components readable in thumbnail: white crepe, golden curry bowl, fried chips\",\n    \"Adequate prominence and contrast for menu identification\",\n    \"No essential food clipped or obscured\"\n  ],\n  \"protein_evidence\": {\n    \"chicken\": \"Chicken Curry\"\n  },\n  \"uncertainties\": [\n    \"Source title references 'Neer Dosa & Chicken Curry' but provides no explicit confirmation in title or description that the golden curry shown contains chicken—the description identifies only neer dosa preparation and regional context\",\n    \"Description does not explicitly state 'chicken' in the dish name or curry identification; 'Chicken Curry' appears only in filename metadata, which is classified as untrusted evidence\"\n  ],\n  \"reason\": \"Identity check fails: the source description does not explicitly name 'chicken' in the canonical dish title or description text. Although the filename contains 'Chicken Curry', all metadata is untrusted evidence and cannot be used to establish protein identity. The description addresses only neer dosa preparation and Tulu Nadu regional context. The photograph quality, sharpness, lighting, composition and appeal are all strong (scores 4+), and both full and phone images show a finished, appetising dish with sharp detail. However, without an explicit, case-sensitive protein reference in the trusted title or description field, protein_evidence cannot be validated and the identity check cannot pass. Hold pending clarified source documentation that names the curry protein in the title or description.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1783,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 576,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
