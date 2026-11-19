@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCKdKLWtEBrwwGvDmkH5",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 3,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Plant foliage and tendrils only, no food subject\",\n    \"Green leaves with curled vines characteristic of climbing plant\",\n    \"No prepared dish, no cooked food, no plated elements\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [],\n  \"reason\": \"Image is a botanical photograph of plant leaves and tendrils (Passiflora edulis vine parts, based on metadata). This is not a finished, exposed, photographic dish. It shows raw plant material in growing state, not food preparation or a prepared meal. Source title 'Zarcillos de Mburucuyá' refers to the plant's vine tendrils, not a food item. Fails identity check (not a dish), fails quality check (not appetising food), fails photograph check (botanical subject, not culinary), fails phone check (no recognizable food subject in thumbnail). Rejects per requirement: 'raw/preparation stages' and requirement for 'finished, exposed, likely photographic dish'.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1733,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 370,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
