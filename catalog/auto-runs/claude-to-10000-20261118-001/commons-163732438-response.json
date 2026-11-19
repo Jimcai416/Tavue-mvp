@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCyBKAooNsZ98YzvZLps",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 5,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Finished, plated dish in ceramic bowl\",\n    \"Central component: golden spheroid topped with dark caviar\",\n    \"Bright green perilla oil visible in bowl\",\n    \"Fine dining presentation\",\n    \"Sharp focus on main subject\",\n    \"Natural colours, appetising appearance\"\n  ],\n  \"phone_observations\": [\n    \"Central dark-topped golden sphere clearly visible\",\n    \"Green liquid surrounding component readable\",\n    \"Prominent, sharp in thumbnail\",\n    \"Essential components not clipped\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title lists three components (spotted shrimp, geoduck, house made perilla oil) but only one or two are visually identifiable as distinct elements in the dish\",\n    \"Geoduck and spotted shrimp are ambiguous species—geoduck is a mollusk and spotted shrimp is shellfish/crustacean, neither matching the allowed protein categories (chicken/beef/pork/duck/lamb/seafood)\",\n    \"The golden sphere could be geoduck preparation, but geoduck is not in the allowed protein_evidence categories\",\n    \"Perilla oil is a condiment/flavouring, not a protein component that qualifies under the category system\",\n    \"Cannot visually confirm all three named components or definitively map them to allowed protein categories\"\n  ],\n  \"reason\": \"While this is a high-quality, beautifully plated fine dining photograph with excellent sharpness, lighting, and composition, the identity check fails because the source title lists geoduck and spotted shrimp—neither of which are covered by the allowed protein categories (chicken/beef/pork/duck/lamb/seafood). Geoduck is a mollusk and spotted shrimp is a crustacean/shellfish species. The title also cannot be matched to the allowed protein_evidence keys. Without a source title that explicitly names allowed proteins, or without evidence that contradicts the source naming, this must be held rather than accepted or rejected based on the visual content alone.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1774,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 589,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
