@@ -125941,5 +125941,29 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "height": 720,
     "requiresExactMenuName": true,
     "authorUrl": "https://www.wikidata.org/wiki/Q56173187"
+  },
+  {
+    "id": "commons-19660110",
+    "title": "File:Semur Daging Kentang.JPG",
+    "author": "Gunawan Kartapranata",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Semur_Daging_Kentang.JPG",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/40/Semur_Daging_Kentang.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "f9c6c1c32fd0a74f81110bcf772abf1a50d4dc1e",
+    "name": "Semur Daging Kentang",
+    "aliases": [],
+    "proteins": [
+      "beef"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-19660110.jpg",
+    "assetSha256": "5c6930f07552d9ab13c0aa71e5829003ada5be55e3fa78d9e2b277837c72e282",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 814,
+    "requiresExactMenuName": true
   }
 ];
