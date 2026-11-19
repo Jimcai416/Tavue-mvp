@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBq39SVoJaEFMC5TDyDN",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [\n    \"Clear broth-based soup in white bowl\",\n    \"Visible fish head/meat component with pale flesh\",\n    \"Green herb garnish (appears to be scallion/spring onion)\",\n    \"Light, translucent broth consistent with fish soup\"\n  ],\n  \"phone_observations\": [\n    \"Soup bowl clearly visible in thumbnail\",\n    \"Fish component readable but flesh detail limited at this resolution\",\n    \"Broth and green garnish distinguishable\",\n    \"Overall dish identity suggested but species confirmation difficult\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Species identity unconfirmed: source names 'ikan mayong' (mayong fish), which is not a standard English fish name and cannot be verified as a specific species\",\n    \"Protein category cannot be assigned without confirmed seafood species identification\",\n    \"Title metadata in non-English; fish species claim requires explicit English verification or widely recognized common name\"\n  ],\n  \"reason\": \"Image shows a finished fish head soup with appropriate lighting, sharpness and composition (all checks pass, scores ≥3). However, the protein evidence check fails: the source title references 'ikan mayong', a fish species name in Indonesian that lacks standard English verification or species confirmation. Per protocol, unknown or unverified species must be held rather than assumed or translated. The dish identity itself cannot be confirmed without clarity on the specific fish involved. Accept only if source provides an explicit, verifiable English species name or widely recognized regional fish variant.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1438,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 476,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

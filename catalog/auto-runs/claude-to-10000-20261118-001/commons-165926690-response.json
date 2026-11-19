@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBq39DMkcXTx6yPWedKv",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Orange/golden curry broth visible in both full and thumbnail images\",\n    \"Meat pieces submerged and floating in sauce\",\n    \"Decorative bowl with blue patterned rim and red/coral base\",\n    \"Finished, exposed dish presentation\",\n    \"Natural colour cast, appetising appearance\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows bowl of orange curry with meat chunks\",\n    \"Essential components readable: broth, meat, decorative tableware\",\n    \"No clipping of core subject matter\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title states 'Gulai kambing' (kambing = goat in Indonesian), but goat is not an allowed protein category. Beef, lamb, and mutton are permitted, but goat is ambiguous and potentially a different species.\",\n    \"Visible meat pieces do not permit reliable visual species identification\",\n    \"Source description 'khas Betawi' (Betawi-style) is a regional qualifier, not a species confirmation\",\n    \"No explicit English-language source statement naming the meat animal (beef/lamb/mutton/etc.)\"\n  ],\n  \"reason\": \"Image quality, composition, and photograph authenticity all pass. However, the source title contains 'kambing' (goat in Indonesian), which is not an accepted protein category and creates ambiguity about the actual meat species. The photograph alone cannot reliably distinguish the meat type visually. Without an explicit source statement in the description naming an allowed protein category (chicken, beef, pork, duck, lamb, or seafood), and given the regional dish name does not resolve the species uncertainty, identity cannot be confirmed. Hold pending clarification of the actual meat species in an allowed category.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1623,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 530,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBq3amFbec3wSuJ3TH3W",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [\n    \"Cooked leafy greens (likely mustard or similar)\",\n    \"Visible meat pieces in broth\",\n    \"Served in white bowl\",\n    \"Natural daylight overhead\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows bowl with greens and meat\",\n    \"Visible protein and vegetable components readable at small scale\",\n    \"Broth-based dish evident\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title lists multiple unrelated dishes ('Ginisang monggo Pork bistek Tokwa't baboy Fried bangus Tokwat baboy Sinampalukang manok Puto Lumpiang prito Inihaw na Tilapia') with no clear correspondence to the shown dish\",\n    \"Cannot definitively identify which single dish from the list is actually photographed\",\n    \"Meat species cannot be confirmed from appearance alone\",\n    \"No explicit dish name matches the visible content of leafy greens with meat in broth\"\n  ],\n  \"reason\": \"The source title/description lists seven different Philippine dishes separated by spaces, with no metadata indicating which one is shown in this photograph. While the image shows a finished, cooked broth-based dish with leafy greens and meat pieces that is appetising and sharp enough, the fundamental requirement that canonical_name must be copied exactly from the source title or description cannot be met because no single dish name in the metadata can be reliably matched to the visible photograph. The ambiguity prevents confident identity verification. Protein species cannot be extracted from an exact source quote naming the animal. Hold pending clarification of which dish is actually pictured.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1850,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 512,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
