@@ -92451,5 +92451,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 960,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-164119988",
+    "title": "File:Sadza and salted peanuts.jpg",
+    "author": "Shark2025",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sadza_and_salted_peanuts.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Sadza_and_salted_peanuts.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "16eaca9152bf58c169b74521d0a4b69a5bb63442",
+    "name": "Sadza and salted peanuts",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-164119988.jpg",
+    "assetSha256": "a4c50b22eb34295376be9a48a2954bb8bdeb1233c6538779f80df0ac0b319833",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 857,
+    "height": 960,
+    "requiresExactMenuName": true
   }
 ];
