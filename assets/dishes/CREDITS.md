@@ -9858,3 +9858,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Mangalorean country chicken curry (Kori sukka)** — Yakshitha. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Mangalorean_country_chicken_curry_(_Kori_sukka).jpg). Local asset: `reviewed-commons-148400380.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Labra tarkari** — Rajeeb Dutta. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Labra_tarkari-MA17.jpg). Local asset: `reviewed-commons-94902064.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.

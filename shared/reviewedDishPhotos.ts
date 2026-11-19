@@ -127643,5 +127643,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 431,
     "height": 960,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-94902064",
+    "title": "File:Labra tarkari-MA17.jpg",
+    "author": "Rajeeb Dutta",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Labra_tarkari-MA17.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Labra_tarkari-MA17.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "c3ff474eba2ac03fba0b546fa169e57e074e15ee",
+    "name": "Labra tarkari",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-94902064.jpg",
+    "assetSha256": "4a9dd7100ed5d7950b30a536d2f7776736cce81289199959b12b9dd42f169200",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];
