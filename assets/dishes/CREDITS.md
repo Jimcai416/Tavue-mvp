@@ -8337,3 +8337,8 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Nabeyaki udon of Matsuyama** — ノボホショコロトソ. [CC BY 4.0](https://creativecommons.org/licenses/by/4.0); [source](https://commons.wikimedia.org/wiki/File:Nabeyaki_udon_of_Matsuyama_02.jpg). Local asset: `reviewed-commons-189314180.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Mee Grob crispy rice noodles and shrimp** — [Jazz Guy  from New Jersey, United States](https://www.flickr.com/people/9341577@N08). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Columbus_Day_in_New_York_City_2009_(4015498462).jpg). Local asset: `reviewed-commons-69146193.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Sai krok Isan** — Takeaway. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Sai_krok_isan.jpg). Local asset: `reviewed-commons-17053866.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
