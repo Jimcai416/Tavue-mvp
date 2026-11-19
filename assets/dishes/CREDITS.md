@@ -10069,3 +10069,10 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 
 - **Handu gulha** — Xavier Romero-Frias. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Maldivian_gulha33.JPG). Local asset: `reviewed-commons-25183117.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Dholl puri** — Yoann74. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Dholl_puri.jpg). Local asset: `reviewed-commons-106000154.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Awadhi Vegetable Biryani** — Vis M. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Awadhi_Vegetable_Biryani.jpg). Local asset: `reviewed-commons-131420332.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **paratha stuffed with cauliflower** — Nithyasrm. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Picture_of_tasty_Gobi_paratha.JPG). Local asset: `reviewed-commons-40916530.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Ragda puri** — Sahil tiwarie. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Ragda_puri.jpg). Local asset: `reviewed-commons-40848195.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Vegetable Biryani** — Miansari66. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Vegetable_Biryani.JPG). Local asset: `reviewed-commons-29951842.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
