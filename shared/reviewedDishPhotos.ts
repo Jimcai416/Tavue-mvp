@@ -105314,5 +105314,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "height": 960,
     "requiresExactMenuName": true,
     "authorUrl": "https://www.flickr.com/people/43243154@N07"
+  },
+  {
+    "id": "commons-35261252",
+    "title": "File:Nduja mit Brot.jpg",
+    "author": "© Alice Wiegand / CC-BY-SA 4.0 (via Wikimedia Commons)",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nduja_mit_Brot.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/df/Nduja_mit_Brot.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "f5a2f8575662305c686e1cac90cc24c9432f0a4a",
+    "name": "Nduja mit Brot",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-35261252.jpg",
+    "assetSha256": "054d0dc2320098944e91f66d19d7bab9aef77186ac5e4853cabcb483a2abc248",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 715,
+    "requiresExactMenuName": true
   }
 ];

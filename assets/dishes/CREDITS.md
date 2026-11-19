@@ -7895,3 +7895,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 
 - **Jamón Ibérico de Bellota** — [austinevan (Evan Bench)  from Paris, France](https://www.flickr.com/photos/austinevan/). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Jamon_Iberico_de_Bellota_served.jpg). Local asset: `reviewed-commons-2750855.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Sobrasada** — [Jonathan Pincas  from Leon, Spain](https://www.flickr.com/people/43243154@N07). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Sobrasada_1_(6211125763).jpg). Local asset: `reviewed-commons-45589870.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Nduja mit Brot** — © Alice Wiegand / CC-BY-SA 4.0 (via Wikimedia Commons). [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Nduja_mit_Brot.jpg). Local asset: `reviewed-commons-35261252.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
