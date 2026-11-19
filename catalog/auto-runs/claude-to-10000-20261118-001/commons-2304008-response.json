@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBNUaximDRXs9kUfrtSa",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Yellow turmeric-coloured rice base, fully cooked\",\n    \"Ground meat topping, finely minced, brown colour\",\n    \"Red pickled ginger garnish visible\",\n    \"White ceramic bowl, home/casual restaurant setting\",\n    \"Side dish with cucumber and white ingredient visible\",\n    \"Natural daylight, well-exposed\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows yellow rice with brown ground meat topping\",\n    \"Red ginger garnish visible and readable\",\n    \"Dish proportions and essential components readable at 124x96\",\n    \"Colour balance consistent with source photograph\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'Tori-soboro-don,seasoned-chicken-powder,japan' but source metadata contains 'otori' prefix in description which contradicts standard romanisation\",\n    \"No explicit 'chicken' or poultry term visible in actual visible form—ground meat species cannot be confirmed from appearance alone\",\n    \"Metadata title/description inconsistency: 'File:Tori-soboro-don' vs 'otori-soboro-don' creates ambiguity in canonical identity\",\n    \"Source provides 'seasoned-chicken-powder' as descriptor but this is marketing/preparation claim, not a visible ingredient confirmation\"\n  ],\n  \"reason\": \"Image quality, photograph authenticity, and phone thumbnail all pass. However, identity check fails: the source title contains a filename prefix ('File:') and an internal metadata contradiction ('Tori-' vs 'otori-'), preventing reliable extraction of canonical name. More critically, no explicit animal protein is named in a form that unambiguously matches the visible ground meat. 'Seasoned-chicken-powder' in metadata is a preparation descriptor, not a verifiable ingredient statement. The instructions require exact source quote matching and explicit protein naming; metadata alone cannot confirm the meat species from appearance. Hold pending clarification of authoritative source title and explicit protein declaration.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1740,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 593,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

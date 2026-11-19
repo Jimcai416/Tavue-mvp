@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBNV8SJP1pLduxyuA5Xy",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": \"Baby lamb cooked with basmati rice with hint if Kashmir Saffron\",\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Basmati rice visible, golden and separated\",\n    \"Meat pieces prominent in centre-cover thumbnail\",\n    \"Mint garnish visible on top\",\n    \"Cooked/finished dish in serving vessel\",\n    \"Natural warm lighting\"\n  ],\n  \"phone_observations\": [\n    \"Meat and rice both clearly visible in thumbnail\",\n    \"Appetising golden-brown colour\",\n    \"Essential components readable at small scale\"\n  ],\n  \"protein_evidence\": {\n    \"lamb\": \"Baby lamb cooked with basmati rice\"\n  },\n  \"uncertainties\": [\n    \"Source title states 'Lamb Biryani' but description says 'Baby lamb' — ambiguity in age qualifier matches title without full alignment\",\n    \"Visual inspection cannot confirm saffron presence claimed in description ('hint if Kashmir Saffron' — note source typo 'if' not 'of')\",\n    \"Meat species 'lamb' is explicitly named in source, but age qualifier 'Baby' is atypical for canonical biryani naming and creates minor identity tension\"\n  ],\n  \"reason\": \"Identity check fails due to qualifier mismatch between title ('Lamb Biryani') and description ('Baby lamb'). Although lamb is explicitly named in the evidence quote and protein is supported, the canonical name cannot be constructed with full confidence because the source itself contains inconsistency ('Baby lamb' vs standard 'Lamb Biryani' nomenclature) and a source typo ('hint if' instead of 'hint of'). The photograph and thumbnail quality, sharpness, composition and appeal all meet criteria (scores ≥4), and the dish is visibly finished and appetising. However, the identity uncertainty prevents acceptance without clarification of whether this is 'Baby Lamb Biryani' or 'Lamb Biryani' and confirmation of the saffron claim via visual evidence (not possible). Holding pending source clarification.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1737,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 594,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

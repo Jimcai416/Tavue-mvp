@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBNV1gkRW3htKLYuWRAx",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Finished, cooked dish in white bowls with rich brown/orange sauce\",\n    \"Chunky, diced pale ingredients consistent with tripe\",\n    \"Red peppers visible in sauce\",\n    \"Golden, translucent sauce with oil gleam\",\n    \"Served with bread and dining context\",\n    \"Phone thumbnail shows clear central dish with sauce and components\"\n  ],\n  \"phone_observations\": [\n    \"Dish prominently centred in thumbnail\",\n    \"Sauce and chunked ingredients clearly visible\",\n    \"No clipping of essential food components\",\n    \"Adequate detail to identify stewed/braised preparation\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title 'Callos a la Madrileña' names tripe as the primary ingredient, but no explicit animal species (beef/pork) is stated in the title or description\",\n    \"Callos traditionally refers to beef or pork tripe, but the source metadata does not explicitly declare which animal\",\n    \"Protocol requires exact source quote naming the animal; species cannot be inferred from regional tradition or appearance alone\"\n  ],\n  \"reason\": \"Image quality, composition, and phone representation are all acceptable (all scores ≥4). The dish is a finished, exposed, sharply detailed stewed preparation with appetising appearance. However, the identity check fails: the source title 'Callos a la Madrileña' does not explicitly name the animal species (beef/pork) from which the tripe is derived. Protocol forbids inferring species from tradition or appearance. No exact quote in title or description specifies the meat category. Hold for clarification of animal species in source metadata.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1731,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 518,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
