@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBdCHUnpBGVNxcMeCnbf",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Golden-brown crumble topping visible in both full image and thumbnail\",\n    \"White ceramic baking dish clearly shown\",\n    \"Crumb texture and colour consistent with rhubarb crumble preparation\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail shows baked crumble in rectangular white dish\",\n    \"Golden-brown topping clearly visible at this scale\",\n    \"Crumble texture readable and appetizing\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title is 'Crumble à la rhubarbe' (French for rhubarb crumble) but this is a dessert/sweet preparation, not a savoury dish with identifiable protein components\",\n    \"No protein category applies to this sweet baked crumble\",\n    \"The pink/reddish layer visible beneath the topping is rhubarb fruit filling, not a protein food\"\n  ],\n  \"reason\": \"Rejection: This is a dessert (rhubarb crumble) rather than a finished food dish suitable for Tavue's food photography intake. The source explicitly identifies it as 'Crumble à la rhubarbe' (rhubarb crumble), a sweet baked good with no protein component. While the photograph quality, sharpness, lighting and composition all meet standards (all scores ≥4), and the image is clearly a finished, exposed, baked dish, it falls outside the scope of food dishes that Tavue reviews. No protein_evidence applies. Rejection is based on dish category, not photograph quality.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1624,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 499,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
