@@ -9552,3 +9552,8 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 
 - **Arroz a banda** — Tamorlan. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Arroz_a_banda_(2015).JPG). Local asset: `reviewed-commons-45059396.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Arròs a banda** — StellarD. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Casa_Salvador_Arros_a_Banda.jpg). Local asset: `reviewed-commons-50390847.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Medhu Vada** — Wasiul Bahar. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Medhu_Vada_at_Breakfast_of_WCI_2023_Day-1_at_Hyatt_Hyderabad_Gachibowli.jpg). Local asset: `reviewed-commons-132105447.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Eel, feuille de brick, creme fraiche, lime** — City Foodsters. [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Course_-4-_Eel,_feuille_de_brick,_creme_fraiche,_lime.jpg). Local asset: `reviewed-commons-156484329.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.

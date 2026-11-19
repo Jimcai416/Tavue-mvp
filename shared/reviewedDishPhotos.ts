@@ -124400,5 +124400,51 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 739,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-132105447",
+    "title": "File:Medhu Vada at Breakfast of WCI 2023 Day-1 at Hyatt Hyderabad Gachibowli.jpg",
+    "author": "Wasiul Bahar",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Medhu_Vada_at_Breakfast_of_WCI_2023_Day-1_at_Hyatt_Hyderabad_Gachibowli.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Medhu_Vada_at_Breakfast_of_WCI_2023_Day-1_at_Hyatt_Hyderabad_Gachibowli.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "72fdc628b1f501382d72495477f32712b7ff5643",
+    "name": "Medhu Vada",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-132105447.jpg",
+    "assetSha256": "e21d618aa40c03701b687730966bb427b01a88738d1057b06ece57ac466638fb",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 640,
+    "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-156484329",
+    "title": "File:Course -4- Eel, feuille de brick, creme fraiche, lime.jpg",
+    "author": "City Foodsters",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Course_-4-_Eel,_feuille_de_brick,_creme_fraiche,_lime.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Course_-4-_Eel%2C_feuille_de_brick%2C_creme_fraiche%2C_lime.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "4aa4fabed56e9fd9966ab2a75aaec033adc4e5a2",
+    "name": "Eel, feuille de brick, creme fraiche, lime",
+    "aliases": [],
+    "proteins": [
+      "seafood"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-156484329.jpg",
+    "assetSha256": "7def34491944f2c2832bbc4bb6854cb91a7bd9d13e8f8fe6b47812b0b758d243",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 640,
+    "requiresExactMenuName": true
   }
 ];
