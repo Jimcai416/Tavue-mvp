@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCxiMde1wXVQQL4SsRMp",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Dark braised meat pieces with glossy surface\",\n    \"Black olives integrated into stew\",\n    \"Fresh rosemary garnish\",\n    \"Rustic terracotta serving plate\",\n    \"Rice pilaf side dish\",\n    \"Vegetable garnish visible in background\",\n    \"Professional plating and presentation\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows dark braised meat as primary component\",\n    \"Olives and herbs visible and identifiable\",\n    \"Rice side dish prominent in upper right\",\n    \"Overall composition and subject matter clear at small size\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'Gardiane de taureau' (bull stew), but source metadata does not explicitly state 'bull' or any animal species in title or description—only the filename reference contains this term\",\n    \"Metadata title field shows only 'Gardiane de taureau' with no descriptive expansion confirming the meat species in the description field itself\",\n    \"Bull/taureau is not an allowed protein category (only chicken/beef/pork/duck/lamb/seafood permitted); 'beef' cannot be assumed from 'taureau' without explicit source confirmation in title/description\"\n  ],\n  \"reason\": \"Image quality, photograph authenticity, and phone thumbnail are all acceptable. Dish is finished, exposed, sharply detailed, naturally coloured, appetising and prominently displayed with readable components. However, the source title 'Gardiane de taureau' refers to bull meat (taureau), which is not an allowed protein category. The description field does not independently confirm any animal species. Per rules, ambiguous or unspecified meat species (and species outside the allowed set) require a hold. The canonical name cannot be accepted without an explicit source quote confirming an allowed protein, or without accepting the dish as-is with no protein declaration.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1728,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 570,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
