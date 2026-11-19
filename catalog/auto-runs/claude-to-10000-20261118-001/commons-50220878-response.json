@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBPvbPr8UF9Xggv3yfCa",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Lontong (compressed rice cake visible as pale blocks)\",\n    \"Sayur lodeh (green beans and vegetables in sauce)\",\n    \"Orange egg component (sambal telur visible)\",\n    \"Brown crumbled component (rendang visible)\",\n    \"Clear plastic container, takeout presentation\"\n  ],\n  \"phone_observations\": [\n    \"Composite dish clearly visible in thumbnail\",\n    \"Multiple distinct components readable at small size\",\n    \"Adequate colour differentiation between lontong, beans, egg, and rendang\",\n    \"Overall composition recognizable as assembled Indonesian plate\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Description lists 'sambal tempeh' and 'sambal goreng boontjes' as separate components, but tempeh (plant protein) cannot be assigned to protein category; beans (boontjes) are vegetables, not protein categories\",\n    \"Source title is 'Lontong Sayur' but description adds multiple specific components (sambal telur, rendang, sambal tempeh, sambal goreng boontjes) that are not reflected in the canonical title\",\n    \"Rendang may contain meat (beef/chicken/duck/pork), but no explicit animal identification appears in the source text; 'rendang' alone is insufficient\",\n    \"No explicit protein animal names appear in title or description\"\n  ],\n  \"reason\": \"Image quality, composition, sharpness and phone thumbnail all meet acceptance criteria. However, the source presents an identity conflict: the title is simply 'Lontong Sayur' but the description lists multiple additional prepared components (sambal telur, rendang, sambal tempeh, sambal goreng boontjes) as being included in the dish. The rendang component is visible and may contain meat, but no explicit animal species is named in the source. The description also includes tempeh (plant-based, not a protein category) and beans (vegetables). Without explicit confirmation of animal proteins in the source text and given the mismatch between title scope and description content, identity cannot be fully verified as matching the exact source title.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1885,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 608,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

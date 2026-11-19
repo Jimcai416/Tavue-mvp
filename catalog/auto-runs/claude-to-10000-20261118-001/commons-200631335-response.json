@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBPwwpxSmCha24FchyV5",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 3,\n    \"appeal\": 3\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Pot with broth visible in phone thumbnail\",\n    \"Noodle dish in foreground clearly shown\",\n    \"Multiple side dishes present but not all identifiable in thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title states 'lontong sayur' (vegetable lontong/rice cake soup) but the full image shows prominent yellow noodles in a bowl, not lontong\",\n    \"Identity mismatch: photograph displays noodle soup as primary dish, not lontong sayur\",\n    \"No visible protein animals explicitly named in source description\",\n    \"Actual dish composition contradicts declared title\"\n  ],\n  \"reason\": \"Reject due to identity mismatch. Source title declares 'Masakan lontong sayur' (vegetable lontong dish) but the photograph clearly shows yellow noodles in a bowl as the prominent dish, with lontong (rice cakes) not visible or not the primary component. The actual photographed dish does not match the stated identity. Additionally, no protein species is explicitly named in the source description. All checks cannot be satisfied when identity verification fails.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1519,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 403,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
