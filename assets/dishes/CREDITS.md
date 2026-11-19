@@ -9270,3 +9270,9 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
       
  
    This work   was made by   Masum-al-Hasan Rocky   and released under the license(s) stated below. Please feel free to use it for any purpose as long as you credit  Masum-al-Hasan Rocky  as author and follow the terms of the chosen license. If you use this work  outside  of the Wikimedia projects, I would very much like to get   a note   from you. Thanks!. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Thai_Soup_and_Wonton.jpg). Local asset: `reviewed-commons-152959504.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Gathiya** — Vivekdoshi11. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Gathiya.jpg). Local asset: `reviewed-commons-40988618.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **masala dosa and vada with chutneys** — Sugeesh. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Masala_Dosa_Vada.jpg). Local asset: `reviewed-commons-84589642.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Pav Gathiya** — Aniket. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Pav_gathiya_dish.jpg). Local asset: `reviewed-commons-108526237.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
