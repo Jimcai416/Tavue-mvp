@@ -112173,5 +112173,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 641,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-37060104",
+    "title": "File:Ceebu Jen, Senegalese dish.jpg",
+    "author": "Alweaver2",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ceebu_Jen,_Senegalese_dish.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/52/Ceebu_Jen%2C_Senegalese_dish.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "6f7f5d8d48eb2782b479dc824178d9b2eb4b530b",
+    "name": "Ceebu Jen, Senegalese dish",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-37060104.jpg",
+    "assetSha256": "9ea69dc580db20ea08d39eac795041ab9ada081a8d076c3ba3b05724634a7385",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 720,
+    "height": 960,
+    "requiresExactMenuName": true
   }
 ];
