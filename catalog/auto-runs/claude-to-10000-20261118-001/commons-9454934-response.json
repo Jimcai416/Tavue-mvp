@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBtYnw9tQC1iwFoAoooP",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 3,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows a cooked, textured golden-yellow mass with visible crumbles and gaps\",\n    \"Subject is small and fills only partial frame; essential food structure unclear at phone scale\",\n    \"Colour and texture consistent with corn-based filling, but components not distinctly readable\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source metadata declares 'Cooked filling of a humita' — this is a preparation stage or component (filling only), not a finished plated dish\",\n    \"No protein species declared in source title or description\",\n    \"Image shows only the interior filling of humita (corn paste), not the complete, finished assembled dish in its served form\"\n  ],\n  \"reason\": \"Reject: source explicitly identifies this as a filling (preparation stage/component) rather than a finished, exposed, plated dish ready to eat. A humita filling alone does not meet the standard for a complete, presented food photograph. No protein evidence provided in source metadata. The image lacks identity as a finished dish with readable essential components in both full and thumbnail views.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1728,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 384,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
