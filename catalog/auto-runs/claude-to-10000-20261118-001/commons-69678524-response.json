@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCWpTQXk35jYnhzAfR8h",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Layered sandwich with meat and cheese visible\",\n    \"White bread, pink ham/pork product, darker red cured meat\",\n    \"Cross-section showing internal structure clearly\",\n    \"Natural lighting, food-focused composition\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail shows clear sandwich cross-section\",\n    \"Meat layers and bread visible in miniature\",\n    \"Adequate detail preserved at reduced size\",\n    \"Essential components readable\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'Muffuletta New Orleans' but visible meat composition is inconsistent with authentic muffuletta, which features olive salad mix and typically different meat arrangement\",\n    \"Pink ham/pork layer and cured red meat visible, but exact species and preparation cannot be confirmed from appearance alone\",\n    \"No explicit mention of specific meats (chicken/beef/pork/duck/lamb/seafood) in the source title or description to satisfy protein naming requirements\",\n    \"Source metadata (title/description) insufficient to verify canonical identity against visible food\"\n  ],\n  \"reason\": \"While photograph and thumbnail quality are strong (sharpness, lighting, composition, appeal all ≥4), identity verification fails. The source title 'Muffuletta!' lacks sufficient specificity and does not explicitly name any proteins required by protocol. Visible meat layers cannot be definitively identified to species without explicit source confirmation. The discrepancy between claimed identity (Muffuletta) and visible preparation suggests metadata unreliability. Protocol requires exact source quote naming proteins and confirmation that identity matches visible form; neither condition is satisfied.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1338,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 504,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
