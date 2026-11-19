@@ -110525,5 +110525,51 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 720,
     "height": 960,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-199006903",
+    "title": "File:Varenyky with Potatoes - 2026 -01.jpg",
+    "author": "DemieK07",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Varenyky_with_Potatoes_-_2026_-01.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/78/Varenyky_with_Potatoes_-_2026_-01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "92822f7a04e44725c31f7ab9f1d09d45da64709c",
+    "name": "Varenyky with Potatoes and smetana",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-199006903.jpg",
+    "assetSha256": "733bf8ce52d91885ea49f073c4f0d995a4bdd4df6e34e0dd2dc7f3912821fffb",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 640,
+    "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-123328500",
+    "title": "File:Ciorbă de miel 2.jpg",
+    "author": "Mngck",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ciorb%C4%83_de_miel_2.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Ciorb%C4%83_de_miel_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "6b67a229e1ff439e782a0d538686d1796bc0c63d",
+    "name": "Romanian sour lamb soup",
+    "aliases": [],
+    "proteins": [
+      "lamb"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-123328500.jpg",
+    "assetSha256": "0a3f31b5963debdb8a3be01522fc0406823c450f862a3adc8e3a389d8e97a19d",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];
