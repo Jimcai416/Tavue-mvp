@@ -9566,3 +9566,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Shirako gunkan maki** — Schellack  at  English Wikipedia. [CC BY 3.0](https://creativecommons.org/licenses/by/3.0); [source](https://commons.wikimedia.org/wiki/File:Shirako_gunkanmaki.jpg). Local asset: `reviewed-commons-60938659.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Bun Bo Nam Bo** — fabulousfabs. [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Bun_Bo_Nam_Bo.jpg). Local asset: `reviewed-commons-25463804.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
