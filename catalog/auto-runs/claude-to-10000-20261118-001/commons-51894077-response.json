@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCaGWbrBYdWesctAarv1",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [\n    \"Bottles of yellow liquid labeled 'Rompope' (eggnog)\",\n    \"Jars of brown caramel product labeled for 'Cajeta'\",\n    \"Retail display setting with price tags and decorative flowers\",\n    \"Clear glass bottles with black caps\",\n    \"Shop display environment\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail shows bottled products clearly, recognizable as beverages/spreads\",\n    \"Yellow liquid prominent in center of thumbnail\",\n    \"Jars visible on right side\",\n    \"Shop setting context preserved\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title and description reference two distinct products: 'Rompope y cajeta' (eggnog AND caramel), but the image is a retail display of multiple product bottles, not a single finished dish\",\n    \"Rompope is a beverage; cajeta is a spread/condiment—neither is a served food dish\",\n    \"Image shows packaged/bottled commercial products for sale, not a prepared or plated dish\"\n  ],\n  \"reason\": \"Rejection: The source describes commercial packaged products (eggnog bottles and caramel jars) on retail display, not a finished, exposed, served food dish. Rompope is a bottled beverage and cajeta is a jarred spread/condiment. This is a product photograph of packaged goods in a shop, not a photographed dish suitable for food review. Tavue accepts finished, exposed, likely photographic dishes—not retail product displays or unserved ingredients/beverages.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1901,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 501,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
