@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCov5iDTEXzu2rrPq7kr",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Creamy coconut-based curry in white dish with red handles\",\n    \"Green herbs (cilantro) scattered across surface\",\n    \"Reddish-orange coloured protein pieces visible in sauce\",\n    \"Steamed white rice on plate (top left)\",\n    \"White wine glass (Chardonnay type, golden liquid visible)\",\n    \"Accompaniments: mango pickle (red), nuts in glass, pappad visible\",\n    \"Phone thumbnail shows curry dish clearly, rice plate, wine\"\n  ],\n  \"phone_observations\": [\n    \"Curry bowl prominent and well-exposed in centre\",\n    \"Green herb garnish clearly visible\",\n    \"Rice plate recognizable top-left\",\n    \"Supporting items (wine, accompaniments) visible around main dish\",\n    \"Adequate sharpness and natural colour rendering\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title states 'Prawn curry' but prawns are crustaceans (seafood), not in the allowed protein categories (chicken/beef/pork/duck/lamb/seafood). The category 'seafood' is not an allowed key name per instructions—only specific animals are permitted: chicken/beef/pork/duck/lamb/seafood. Prawn is a specific seafood animal and must be verified as an allowed key.\",\n    \"Visual inspection shows reddish-orange protein pieces consistent with cooked prawns/shrimp, but source title explicitly names 'Prawn' not a generic term\",\n    \"Although 'seafood' appears in the allowed list, the instructions state proteins may include 'seafood' as a category, but require exact source quote naming each animal. The title says 'Prawn' (a specific crustacean). Ambiguity whether 'prawn' maps to 'seafood' category or is rejected as unspecified species.\"\n  ],\n  \"reason\": \"While the photograph is well-composed, sharply detailed, naturally coloured and appetising with clear visibility in both full image and phone thumbnail, the protein identification fails critical requirements. The source title explicitly names 'Prawn' as the protein. Per instructions, proteins may include 'seafood' but require an exact source quote explicitly naming the animal. 'Prawn' is a specific crustacean; it is unclear whether this qualifies under the 'seafood' category or constitutes an unspecified/ambiguous species (since prawns are not chicken/beef/pork/duck/lamb). The instruction to 'never infer species from tradition, appearance or generic meat/sausage' and the prohibition on 'ambiguous meat species' creates uncertainty. Without explicit confirmation that 'prawn' maps to an allowed 'seafood' category, this must be held rather than accepted. The dish identity and variant are otherwise preserved correctly from the source.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1771,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 779,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

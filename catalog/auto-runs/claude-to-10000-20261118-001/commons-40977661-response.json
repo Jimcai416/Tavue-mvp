@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCouFwLq6mMLfMQGHdbF",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Glossy, cooked curry sauce visible in both images\",\n    \"Prominent cashew pieces throughout dish\",\n    \"Golden-brown spice colouring consistent with turmeric/curry powder\",\n    \"Black speckles suggesting ground pepper or spices\",\n    \"Dish appears fully cooked and plated\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows cashew pieces and curry sauce\",\n    \"Legible as a finished curry dish at phone scale\",\n    \"Golden colour and texture preserved in reduction\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title states 'Cashew Curry' but provides no explicit protein animal declaration\",\n    \"Cashew is a nut, not a protein category from the allowed list (chicken/beef/pork/duck/lamb/seafood)\",\n    \"No visible meat pieces in either image; appears to be vegetarian/vegan cashew preparation\",\n    \"Source describes it as 'an accompaniment for Chapati' rather than a standalone dish with named protein\"\n  ],\n  \"reason\": \"Rejection: The dish contains no visible or declared animal protein. The allowed protein_evidence keys require explicit source quotes naming chicken, beef, pork, duck, lamb, or seafood. 'Cashew Curry' is a vegetarian/vegan nut-based curry with no identifiable meat components. While photograph quality and composition are acceptable, the absence of any qualifying protein means this does not meet the intake criteria for Tavue food review. Cashew alone is not a valid protein category.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1731,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 495,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

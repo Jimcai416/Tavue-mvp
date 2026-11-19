@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCouHwP8kYccG4NmPoyg",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Stew in metal pot with glossy brown broth\",\n    \"Orange/yellow vegetable chunks (kontomire leaves visible)\",\n    \"Dark charred spice coating on surface\",\n    \"Bone/cartilage visible (pale yellowish piece centre)\",\n    \"Rich, finished cooking evident\"\n  ],\n  \"phone_observations\": [\n    \"Stew interior clearly visible in thumbnail\",\n    \"Broth, vegetables and meat components readable\",\n    \"Spice coating and bone visible\",\n    \"Appetising finish apparent\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title specifies 'cattle leg and wele' but no explicit source text quote confirms 'beef'. 'Cattle leg' may imply beef but requires exact protein category match to source wording.\",\n    \"'Wele' species unidentified and not in allowed protein categories (chicken/beef/pork/duck/lamb/seafood).\",\n    \"Source metadata lists title as 'File:Kontomire stew.jpg' — canonical name must extract from description field, which is 'Kontomire stew with cattle leg and wele'. Ambiguity whether 'cattle' maps to 'beef' without explicit source use of 'beef'.\",\n    \"No exact case-sensitive substring in source matches allowed protein category keys.\"\n  ],\n  \"reason\": \"Identity check fails: source description names 'cattle leg' (not explicit 'beef') and 'wele' (unidentified species, not in allowed categories). Protein evidence cannot be populated with exact source quotes matching required keys. Hold pending clarification of species and source protein naming.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 2009,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 514,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

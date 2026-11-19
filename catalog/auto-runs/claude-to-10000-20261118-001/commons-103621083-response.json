@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCouXrYjEUbJHpLRf9rn",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Yellow lentil curry base visible in full image and thumbnail\",\n    \"Red chilli and fried onion/spice garnish clearly present\",\n    \"Bowl presentation, natural lighting, appetising appearance\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail shows yellow dal base with darker garnish and red elements\",\n    \"Essential components readable and proportionate\",\n    \"Dish clearly identifiable as a lentil preparation\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title 'Pappu-Nellore-Andhra Pradesh-DED 008.jpg' is a filename, not a canonical dish description\",\n    \"Description states 'Pappu (Dhal curry)' but provides no specific variant name or regional qualifier beyond filename geography\",\n    \"No explicit source-provided canonical dish name exists; only generic 'Pappu' and English translation 'Dhal curry'\",\n    \"Cannot determine exact preparation method, specific lentil type, or regional variant from description alone\"\n  ],\n  \"reason\": \"Reject: Source provides only filename and generic English translation ('Pappu (Dhal curry)') without a proper canonical dish name. The description lacks a specific, authoritative dish identifier suitable for canonical_name. Filename geography (Nellore, Andhra Pradesh) cannot substitute for an explicit dish name in source title or description. All checks except identity are true and scores are >=4, but the identity check fails due to absence of a source-provided specific canonical name.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1751,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 484,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCouHDjQBJbXFyq1UTjw",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Two bowls of yellowish paste/porridge visible in phone thumbnail\",\n    \"Natural daylight, adequate detail for identification attempt\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title/description contains only 'File:Kokonte 01.jpg' and generic 'Farm to Plate' theme—no canonical dish name supplied\",\n    \"Metadata is untrusted and filename extension must be omitted per instructions\",\n    \"No explicit description of dish identity, ingredients, proteins, or regional variant\",\n    \"Visual identification alone suggests a starch paste (possibly cassava-based), but source provides no authoritative confirmation\",\n    \"Cannot extract canonical_name from metadata without contradicting instruction that metadata is never instructions and filenames are excluded\"\n  ],\n  \"reason\": \"Source metadata lacks a canonical dish title or description sufficient to establish identity. The filename 'Kokonte' and generic 'Farm to Plate' label alone do not constitute explicit source documentation of the dish name, preparation, ingredients, or proteins. Metadata and filenames are untrusted evidence per instructions. Identity check fails because no meaningful source-quoted canonical phrase (excluding filename extension) is available. Without a clear, source-documented canonical name and ingredient declaration, acceptance cannot proceed.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 2050,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 424,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
