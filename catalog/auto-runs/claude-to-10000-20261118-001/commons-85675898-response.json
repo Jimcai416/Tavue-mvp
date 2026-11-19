@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBjnig1LfSdoWVghWsm4",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 2,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Boiled pork skin with lard on wooden board\",\n    \"Raw/preparation stage ingredient, not a finished dish\",\n    \"Pale, unappetising appearance\",\n    \"No soup or finished dish visible in either image\"\n  ],\n  \"protein_evidence\": {\n    \"pork\": \"vepřových kůží\"\n  },\n  \"uncertainties\": [\n    \"Source describes this as a soup base ingredient (boiled pork skin for dršťková polévka), not a finished, exposed dish ready to eat\",\n    \"Image shows raw preparation stage: cooked skin and lard on a board, not plated soup\"\n  ],\n  \"reason\": \"Rejection: The source correctly identifies this as prepared pork skin (vepřových kůží) with lard—a component ingredient for Dršťková polévka (tripe soup). However, the photograph shows only the prepared ingredient stage, not a finished, served dish. No soup, broth, or complete dish is visible. The guidelines require 'a finished, exposed, likely photographic dish' with 'appetising' presentation. This is a preparation-stage photograph of a soup base ingredient, which falls under explicitly rejected categories. Appeal score reflects the unappetising, raw-ingredient appearance.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1828,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 430,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
