@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDCFgeW6DZR6z5Y5Cf8U",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows raw pastry with uncooked filling visible through translucent dough\",\n    \"No browning or finished surface; pale raw appearance dominates\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title declares 'avant cuisson' (before cooking), but acceptance criteria require finished, exposed, cooked dish\",\n    \"Image shows raw preparation stage, not a finished plated dish\"\n  ],\n  \"reason\": \"Rejection: The source metadata explicitly states 'avant cuisson' (before cooking). The photograph shows raw, uncooked pastry with visible uncooked filling—a preparation stage, not a finished dish. The acceptance criteria require 'a finished, exposed, likely photographic dish' and explicitly reject 'raw/preparation stages'. Both the full image and thumbnail confirm the dough is pale and uncooked. This is fundamentally a preparation photograph, not a food photograph of a completed dish.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1943,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 353,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
