@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCp7WWWug53uKkE97HNn",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 2,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows a hand holding a black sieve/strainer above a beige/tan substance in a plate\",\n    \"Food subject is a preparation stage, not a finished dish\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title is 'File:Kokonte 06.jpg' (filename, not a dish description)\",\n    \"No meaningful description provided—only generic 'Farm to Plate' theme\",\n    \"Image shows a preparation/straining process, not a plated finished dish\",\n    \"Beige substance identity unclear—appears to be ground ingredient or batter being sifted\",\n    \"No readable essential components or finished state visible\"\n  ],\n  \"reason\": \"Rejected: This is a preparation-stage photograph showing a straining/sieving process, not a finished, exposed dish. The source metadata lacks a canonical dish name (only filename provided), and the image shows work-in-progress food handling rather than a completed appetising plated item. The composition and appeal scores reflect the instructional/process nature rather than finished food presentation. Phone thumbnail confirms the subject is mid-preparation, not ready-to-eat.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 2050,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 404,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
