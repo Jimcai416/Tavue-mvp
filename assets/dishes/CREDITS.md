@@ -6853,3 +6853,9 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Orecchiette con cima di rapa** — Bonniebartilomo. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Orecchiette_con_cima_di_rapa.jpg). Local asset: `reviewed-commons-87391740.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Cavatelli-Braised Lamb, Chanterelle, Chestnut** — [Lou Stejskal](https://www.flickr.com/people/63311602@N08). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Green_City_Market_Cavatelli-Braised_Lamb,_Chanterelle,_Chestnut_($17_28)_(15608851511).jpg). Local asset: `reviewed-commons-128909548.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Cavatelli con la mollica** — Alessandra Garaguso. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:I_cavatelli_con_la_mollica.jpg). Local asset: `reviewed-commons-97263046.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Cavatelli pomodoro ricotta salata** — Guillaume Flambeau Von Uslar. [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Noto,_Cavatelli_pomodoro_ricotta_salata_(cropped).jpg). Local asset: `reviewed-commons-68556490.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
