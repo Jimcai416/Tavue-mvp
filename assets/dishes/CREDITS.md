@@ -7577,3 +7577,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 - **Simit** — E4024. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Simit_(rectangular).jpg). Local asset: `reviewed-commons-49269931.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Ankara simidi** — E4024. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Simit_of_Ankara.jpg). Local asset: `reviewed-commons-50080395.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Simit ve poğaça** — E4024. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Simit_ve_po%C4%9Fa%C3%A7a.jpg). Local asset: `reviewed-commons-58359116.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Russian home-fried pirozhki** — Рыцарь поля. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Homemade_pirozhki.JPG). Local asset: `reviewed-commons-19556940.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
