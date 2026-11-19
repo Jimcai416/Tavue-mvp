@@ -6491,3 +6491,12 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Kilishi** — Abubakar M. Ahmad. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:%22Kilishi%22.JPG). Local asset: `reviewed-commons-23940448.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Midday meals with rasam, pappad, plantain fry and cooked rice** — V.S.Pooja. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:3.Midday_meals_with_rasam,pappad,plantain_fry_and_cooked_rice.JPG). Local asset: `reviewed-commons-40884808.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Radidh rasam, potato poryal** — [Daiju Azuma  from KOBE, Japan](https://www.flickr.com/people/97624390@N00). [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:Lunchbox-20101109_Radidh_rasam,_potato_poryal_(5158863719).jpg). Local asset: `reviewed-commons-48405131.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Pineapple rasam** — Divya Kudua. [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Pineapple_Rasam_India.jpg). Local asset: `reviewed-commons-29695132.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Rasam** — Miansari66. [Public domain](https://creativecommons.org/publicdomain/mark/1.0/); [source](https://commons.wikimedia.org/wiki/File:Rasam.JPG). Local asset: `reviewed-commons-12561156.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Hot Rasam soup** — Miansari66. [Public domain](https://creativecommons.org/publicdomain/mark/1.0/); [source](https://commons.wikimedia.org/wiki/File:Rasam_Hot.JPG). Local asset: `reviewed-commons-12561340.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Rasam and Idli** — VinPrasad. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Rasam_and_Idli.jpg). Local asset: `reviewed-commons-102333115.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
