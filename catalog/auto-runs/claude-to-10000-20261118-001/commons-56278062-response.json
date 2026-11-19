@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBqmkN8kyWsSDsDgbMkJ",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows food preparation in progress with vendor working at counter\",\n    \"Cooked items visible but in mid-preparation context\",\n    \"Street market setting evident\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title/description states 'Women making quesadillas' (preparation stage), not a finished, exposed dish\",\n    \"Full image shows active food preparation with vendor cooking, not a completed plated or presented dish\",\n    \"No finished, served quesadilla visible prominently as a complete food item ready to eat\",\n    \"Image documents the cooking process rather than the final dish itself\"\n  ],\n  \"reason\": \"Reject: Identity check fails. The source explicitly describes a preparation/making scene ('Women making quesadillas'), not a finished, exposed, served dish. The full image and thumbnail both show active cooking and preparation stages with the vendor working at the counter, not a completed quesadilla ready for consumption. Tavue accepts finished dishes, not preparation documentation or in-process cooking scenes.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1647,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 375,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

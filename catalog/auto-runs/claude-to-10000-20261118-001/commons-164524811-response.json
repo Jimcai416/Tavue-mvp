@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBqmzbe587PDNjh3WLyJ",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [\n    \"Sliced foie gras with yellow/egg layer visible on black plate\",\n    \"Toasted bread triangles accompany the dish\",\n    \"Sea salt scattered on plate\",\n    \"Dark meat/confit element present\",\n    \"Professional plating on restaurant dishware\"\n  ],\n  \"phone_observations\": [\n    \"Foie gras slices and toast visible in thumbnail\",\n    \"Dish identity readable at phone size\",\n    \"Plate and components prominent\"\n  ],\n  \"protein_evidence\": {\n    \"duck\": \"duck foie gras\"\n  },\n  \"uncertainties\": [\n    \"Source title references 'Homemade duck foie gras' but photograph shows what appears to be seared/cooked slices with an egg or custard layer, inconsistent with typical foie gras presentation or home preparation context\",\n    \"Yellow layer on foie gras slices is unusual and unexplained—may indicate egg coating, sauce, or other preparation not standard for foie gras service\",\n    \"Dark element described as 'cider confit' cannot be visually verified or distinguished from other components\",\n    \"Home preparation claim conflicts with professional plating and what appears to be a restaurant setting\",\n    \"Pommeau infusion stated in title but not visually detectable or verifiable\"\n  ],\n  \"reason\": \"Identity check fails. The source title claims 'Homemade duck foie gras' but the visual presentation (seared slices with an atypical yellow layer, formal restaurant plating, and unverified preparation details) does not align with either typical foie gras service or credible home preparation. The yellow layer is anomalous and unexplained. While photograph and phone quality are acceptable and duck protein is stated, the fundamental identity between source description and visible dish form is contradictory. The 'homemade' claim paired with professional restaurant presentation and the unusual slice preparation raise concerns about whether the source accurately describes what is shown. Hold pending clarification would be appropriate, but the identity conflict is sufficiently severe to recommend rejection.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1776,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 601,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBqmUVtRTTuExSBAKQSW",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Plated foie gras terrine slices with fresh figs and jam\",\n    \"Golden-brown bread toasts arranged on white plate\",\n    \"Fresh parsley garnish, fig halves, red jam in small dish\",\n    \"Crisp texture visible on foie gras surface\"\n  ],\n  \"phone_observations\": [\n    \"Central plate with foie gras and accompaniments clearly visible\",\n    \"Toast shapes and jam visible in thumbnail\",\n    \"Dish identity readable at phone size\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title and description claim 'Foie gras ingredients' but the metadata explicitly states this is an illustration: 'The visual was created on the basis of free images' — not a photograph of an actual finished dish\",\n    \"File metadata identifies this as 'File:Foie gras ingredients.png' — a wiki educational illustration, not food photography\",\n    \"Despite photorealistic rendering, the image is tagged as a created/composed visual, not documentation of a prepared dish\"\n  ],\n  \"reason\": \"Reject: Source metadata explicitly identifies this as an illustration ('The visual was created on the basis of free images'), not an actual photograph of a finished, prepared dish. While the image is photorealistic and shows appetising plated foie gras with garnishes and accompaniments that photograph well, the metadata disqualifies it as documentary food photography. Tavue accepts food photographs only, not created visuals or illustrations, regardless of rendering quality.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1803,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 477,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
