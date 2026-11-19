@@ -111579,5 +111579,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 960,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-49064271",
+    "title": "File:Medfouna or Berber Pizza at a local restaurant near Merzouga, Errachidia, Morocco.jpg",
+    "author": "Karima El Youbi",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Medfouna_or_Berber_Pizza_at_a_local_restaurant_near_Merzouga,_Errachidia,_Morocco.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Medfouna_or_Berber_Pizza_at_a_local_restaurant_near_Merzouga%2C_Errachidia%2C_Morocco.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "27fd7813eee290860c7e1969f726245d226d0dac",
+    "name": "Medfouna or Berber Pizza",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-49064271.jpg",
+    "assetSha256": "6ae3af6b5db299c10e95f1655bff74da41b4189892adcba98e657bc642341fdf",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 578,
+    "requiresExactMenuName": true
   }
 ];
