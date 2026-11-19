@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBtMVcoSdEy1c8vSQsJY",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 3,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Large metal vessel dominates thumbnail\",\n    \"Liquid being poured into vessel\",\n    \"Preparation/process stage, not finished dish\",\n    \"No plated or served food visible in phone thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Image shows lassi-making process, not a finished served lassi dish\",\n    \"No complete, exposed, appetising finished product presented in either full or thumbnail image\",\n    \"Subject is preparation stage with ingredients and equipment, not final plated food\"\n  ],\n  \"reason\": \"Reject: This is a preparation/process photograph showing lassi being made in a large metal vessel, not a finished, exposed, plated dish. The photograph documents the making process with ingredients visible and liquid being poured, but does not show a completed served lassi ready for consumption. Per guidelines, raw/preparation stages must be rejected. Identity check fails because the visual form does not match the requirement for 'a finished, exposed, likely photographic dish.' The phone thumbnail confirms the subject is process-stage equipment, not an appetising finished food product.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1642,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 387,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

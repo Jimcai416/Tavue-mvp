@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBtM9ezoLamc9YCTfdfC",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Finished curry dish with reddish-brown gravy\",\n    \"Fresh mint garnish prominently visible\",\n    \"Tender meat pieces visible in sauce\",\n    \"White plate presentation\",\n    \"Natural lighting, well-exposed\"\n  ],\n  \"phone_observations\": [\n    \"Curry and mint garnish clearly visible in thumbnail\",\n    \"Dish identity readable at reduced size\",\n    \"Appetising colour and composition preserved\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title references 'mutton' but also lists 'lamb curry' as alternate name—these are distinct species. Mutton specifically means mature sheep meat; lamb means young sheep. The description conflates them without clarity on which animal is actually in this dish.\",\n    \"Visual appearance (meat texture and colour in gravy) cannot reliably distinguish mutton from lamb or from goat (which is sometimes marketed as mutton in South Asia)\",\n    \"Source description lists both 'mutton curry' and 'lamb curry' as names for the same dish category, creating ambiguity about the exact protein used in this specific photograph\"\n  ],\n  \"reason\": \"Image quality and photograph composition are strong (all scores ≥4), and the dish is identifiable as a finished curry. However, the source metadata creates unresolved protein ambiguity. The title says 'Mutton Curry' but the description also refers to it as 'lamb curry' without distinguishing which animal is actually present. Since mutton and lamb are different species (mature vs. young sheep), and the visual evidence cannot determine which one this is, identity cannot be confirmed as exact. The source itself contradicts whether this is mutton or lamb, making a canonical_name selection impossible without guess-work. Hold pending source clarification of which species is actually used.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1857,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 541,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
