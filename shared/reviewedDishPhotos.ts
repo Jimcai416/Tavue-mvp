@@ -119192,5 +119192,29 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 850,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-104585299",
+    "title": "File:Helzel2.jpg",
+    "author": "Wizard85  (original file) ;  Off-shell  (cropped and reprocessed version)",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Helzel2.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Helzel2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "8a8ae1291550794e501ebdf1da801a5e3790d908",
+    "name": "Helzel (stuffed chicken neck skin)",
+    "aliases": [],
+    "proteins": [
+      "chicken"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-104585299.jpg",
+    "assetSha256": "5b9eb5cd10445f9dfa913e5aa79349484a4b54bbda5ce1db5bcc8a067f315836",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 815,
+    "requiresExactMenuName": true
   }
 ];

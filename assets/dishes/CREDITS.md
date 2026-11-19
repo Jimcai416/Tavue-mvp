@@ -9095,3 +9095,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Halusky** — Foxburg  alias Pavel Liska. [Public domain](https://creativecommons.org/publicdomain/mark/1.0/); [source](https://commons.wikimedia.org/wiki/File:HaluskyzoZiaru.JPG). Local asset: `reviewed-commons-5259820.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Helzel (stuffed chicken neck skin)** — Wizard85  (original file) ;  Off-shell  (cropped and reprocessed version). [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Helzel2.jpg). Local asset: `reviewed-commons-104585299.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
