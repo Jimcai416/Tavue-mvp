@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChD5ayDcnBBb2YLDRoY5b",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Stacked yellow butter portions clearly visible on white plate\",\n    \"Plate and table setting visible in phone thumbnail\",\n    \"Bright yellow colour prominent and sharp in thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Subject is butter (ingredient/condiment), not a finished dish\",\n    \"Title describes this as 'a butter stack for butter to use on palt'—a component for another dish, not the complete dish itself\",\n    \"No finished, exposed, cooked food product present\"\n  ],\n  \"reason\": \"Rejection: This photograph shows a prepared butter condiment (butter stack) presented on a plate, but it is an ingredient or component intended for use with another dish (palt), not a finished, exposed, complete dish. Tavue reviews finished food dishes. While the photograph quality is acceptable and the subject is sharp and well-lit, the identity criterion fails because butter portions are a condiment/ingredient, not a dish. The source description confirms this is 'butter to use on palt,' explicitly identifying it as a component, not a standalone dish to review.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1733,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 389,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

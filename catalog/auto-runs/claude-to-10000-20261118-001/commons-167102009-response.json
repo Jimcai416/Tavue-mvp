@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChD5aWjAvbbLRM8w3wDs8",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": \"minced beef patty with bacon mayonnaise. Right: breaded plaice with remoulade sauce.\",\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 5,\n    \"composition\": 5,\n    \"appeal\": 5\n  },\n  \"visible_support\": [\n    \"Two distinct open-faced sandwich components on dark bread visible in full image\",\n    \"Left component: seared minced meat patty with pink/red topping (bacon mayonnaise)\",\n    \"Right component: breaded, golden-fried fish with microgreens and yellow garnish\",\n    \"Fresh microgreens and rocket salad throughout\",\n    \"Lemon wedge garnish visible\",\n    \"Plate presentation is polished and appetising\",\n    \"Carlsberg beer and dining setting confirm restaurant context\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows two distinct sandwich components\",\n    \"Left patty and right fish fillet are both sharp and identifiable\",\n    \"Golden breading on right component is crisp and visible\",\n    \"Garnish detail readable at thumbnail size\",\n    \"Overall composition is prominent and well-framed\"\n  ],\n  \"protein_evidence\": {\n    \"beef\": \"minced beef patty with bacon mayonnaise\",\n    \"seafood\": \"breaded plaice with remoulade sauce\"\n  },\n  \"uncertainties\": [\n    \"Title field shows 'Smörrenröd' but description specifies 'Smørrebrød' (Danish spelling with ø). Title appears corrupted or misspelled.\",\n    \"Source provides two separate sandwich components with different proteins and preparations. Standard identity naming convention requires single canonical dish name, but this is a plated pair.\",\n    \"Ambiguity over whether this should be treated as one composite dish or two distinct dishes.\"\n  ],\n  \"reason\": \"Image quality, sharpness, lighting, composition and appeal are all excellent (scores 5/5). Phone thumbnail is sharp and shows both components clearly. However, identity check fails: the title 'Smörrenröd' does not match the description's 'Smørrebrød' (standard Danish open-faced sandwich). The source metadata contains an apparent spelling error or corruption in the filename-derived title field. Additionally, this plate presents two distinct smørrebrød components (beef patty and plaice fillet) as a paired serving, creating ambiguity about single-dish canonicalisation. Protein evidence is explicitly supported (beef and seafood both named in description). Hold pending clarification of correct dish identity and title standardisation.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1767,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 675,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
