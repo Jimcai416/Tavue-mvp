@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCi5XkBZNcpGyo8xUH3N",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": \"Fritanga de cerdo\",\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 5,\n    \"appeal\": 5\n  },\n  \"visible_support\": [\n    \"Red-sauced meat pieces on white plate\",\n    \"Yellow cubed potatoes with herb garnish\",\n    \"Boiled potato halves\",\n    \"Finished, exposed, well-plated dish\",\n    \"Sharp detail across full image and thumbnail\",\n    \"Natural colours, appetising presentation\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows red meat component, yellow potatoes, white plate\",\n    \"All essential food elements visible and readable\",\n    \"No clipping of critical components\",\n    \"Colour fidelity preserved at reduced size\"\n  ],\n  \"protein_evidence\": {\n    \"pork\": \"cerdo\"\n  },\n  \"uncertainties\": [\n    \"Title contains 'File:' prefix and filename extension (.jpg) which should be stripped; canonical form unclear\",\n    \"Description identifies dish as 'Plato Boliviano tradicional' but source title is 'Fritanga de cerdo' — exact canonical phrase cannot be reliably extracted without ambiguity about regional variant name\"\n  ],\n  \"reason\": \"Image quality, sharpness, lighting, composition and phone thumbnail are all excellent; pork is explicitly named in source. However, the source title format includes 'File:' prefix and '.jpg' extension (metadata artifacts), creating ambiguity about the correct canonical_name string. The description provides regional context (Chuquisaca, Sucre, Bolivia) but the relationship between the file title and the proper dish name is unclear. Hold pending clarification of exact canonical phrasing for 'Fritanga de cerdo' without file/metadata decoration.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1745,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 506,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
