@@ -7945,3 +7945,9 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 
 - **Farofa de cebola** — Melsj. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Farofa_de_cebola.jpg). Local asset: `reviewed-commons-86976710.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Farofa de ovo** — Melsj. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Farofa_de_ovo.jpg). Local asset: `reviewed-commons-87517369.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Qottab** — No machine-readable author provided.  Roozitaa  assumed (based on copyright claims).. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Qottab-2.jpg). Local asset: `reviewed-commons-31649410.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Tah-Chin** — Darafsh. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Tah-Chin.jpeg). Local asset: `reviewed-commons-155828254.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Ezogelin çorbası** — Basak. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:20230430_Ezogelin_%C3%A7orbas%C4%B1.jpg). Local asset: `reviewed-commons-131352977.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
