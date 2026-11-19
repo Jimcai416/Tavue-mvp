@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChC3GXjSuBwFV2YbVnNXs",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"White rice visible on plate\",\n    \"Golden-brown fried sliced items consistent with fish\",\n    \"Brown curry sauce in separate bowl\",\n    \"Home-style presentation\"\n  ],\n  \"phone_observations\": [\n    \"Plate with white rice and golden fried items clearly visible\",\n    \"Bowl with brown curry sauce visible in background\",\n    \"Overall composition readable and appetising\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title states 'Sheela Meen Kuzhambu' but description specifies 'barracuda fish curry'; 'meen' means fish in Tamil but the exact species qualifier 'sheela' is not independently verifiable from visual inspection alone\",\n    \"Visual appearance shows fried fish slices in curry but cannot confirm barracuda species or verify 'sheela' as a recognized fish variant name without external knowledge\",\n    \"Metadata lists 'barracuda' in description but this is not visible confirmation—only a declared species in untrusted metadata\"\n  ],\n  \"reason\": \"Identity cannot be confirmed. The source title 'Sheela Meen Kuzhambu' contains 'sheela' as a fish variant qualifier, but the actual species 'barracuda' appears only in the description metadata, not in the canonical title. The visual evidence shows fried fish slices in curry, but the specific species and the validity of 'sheela' as a named variant are not independently verifiable from the photograph alone. Protocol requires exact source quote match and explicit protein naming; 'sheela' is not a recognized English fish species category and cannot be mapped to the allowed protein list (chicken/beef/pork/duck/lamb/seafood). Without a clear, verifiable species name in the source title matching an allowed category, identity check fails and the submission must be held.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1746,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 550,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
