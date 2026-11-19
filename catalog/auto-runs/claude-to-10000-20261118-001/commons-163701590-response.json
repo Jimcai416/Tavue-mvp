@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCBLwF6wBDgGKqgm1GPH",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 5,\n    \"appeal\": 5\n  },\n  \"visible_support\": [\n    \"Cooked crustacean with visible shell and legs, brown/orange colouration\",\n    \"Green herb paste in wooden bowl, finely ground texture\",\n    \"Yellow root vegetable (plantain) in banana leaf wrapper\",\n    \"Plated on banana leaves and wooden board, natural presentation\",\n    \"Sharp detail of seafood and components in full image\",\n    \"Phone thumbnail clearly shows crustacean, herb paste and plantain\"\n  ],\n  \"phone_observations\": [\n    \"Crustacean clearly visible with distinctive shell and legs\",\n    \"Green paste visible in bowl centre\",\n    \"Yellow wrapped item visible left\",\n    \"All essential components readable in 124x96 thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title indicates 'crabe' (crab) but source metadata is untrusted; crustacean species not explicitly confirmed in body text\",\n    \"Exact dish name not provided in description; 'Ndolè royal sawa au crabe' appears only in filename (File:), which is excluded per protocol\",\n    \"Description is generic ('Farm to Plate' theme) and does not confirm canonical dish identity or regional variant\"\n  ],\n  \"reason\": \"Image quality, photograph authenticity, phone thumbnail legibility, and composition all pass. However, identity check fails: the filename contains 'Ndolè royal sawa au crabe' but per protocol, filenames (File: prefix) are excluded from canonical extraction. The provided description is insufficient and does not supply an authoritative source-title or dish confirmation. Crustacean species is visually apparent but not explicitly named in trusted text. Without a valid source title or description confirming the exact canonical name and seafood identity, identity and variant_preserved checks cannot be satisfied. Hold for clarification of authoritative dish name and explicit protein declaration.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1631,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 555,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
