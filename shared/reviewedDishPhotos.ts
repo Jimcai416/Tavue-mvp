@@ -127071,5 +127071,51 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 720,
     "height": 960,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-40987430",
+    "title": "File:Paneer Tikka masala.JPG",
+    "author": "Srivalli Vijayakumar",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Paneer_Tikka_masala.JPG",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/72/Paneer_Tikka_masala.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "399d5d81401c95f4331c145bee1658cbc31d45e2",
+    "name": "Paneer Tikka masala",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-40987430.jpg",
+    "assetSha256": "fde6ba54bb1d0f4b918e3b72795ff6d2c4c41454d762a9ecabb900f48f4826cd",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-86478284",
+    "title": "File:Chashushuli at restaurant Rioni.jpg",
+    "author": "JIP",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chashushuli_at_restaurant_Rioni.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Chashushuli_at_restaurant_Rioni.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "35bb6d562968c840d27335d730a62ab3950cedb0",
+    "name": "Chashushuli (Georgian spicy beef stew)",
+    "aliases": [],
+    "proteins": [
+      "beef"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-86478284.jpg",
+    "assetSha256": "36b3c99608cf651a992526693ffd967fd9afea667422f12c29345cc6abde9f48",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];
