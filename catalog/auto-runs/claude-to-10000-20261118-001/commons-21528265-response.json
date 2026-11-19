@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCxK5B3FxNEAG39bMkGU",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 3,\n    \"lighting\": 2,\n    \"composition\": 2,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Phone thumbnail shows only raw, uncooked chopped/diced pasta or dough pieces in a metal bowl\",\n    \"No finished dish visible in thumbnail\",\n    \"Raw ingredient stage, not a prepared food photograph\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title describes 'Aash Joush Para' (Iranian traditional food) but the image shows raw pasta/dough pieces, not a finished aash dish\",\n    \"Aash is traditionally a thick soup or stew; this appears to be a preparation/ingredient photograph, not the finished cooked dish\"\n  ],\n  \"reason\": \"Rejection: Image shows raw, uncooked pasta or dough pieces in preparation stage, not a finished, cooked dish. The phone thumbnail confirms the subject is chopped raw ingredients only. The source description claims 'Iranian traditional food' but no finished aash (soup/stew) is visible. Essential food components (the cooked, finished dish) are absent. This is a preparation/ingredient photograph, not a completed photographic dish suitable for Tavue review.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1731,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 387,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
