@@ -127877,5 +127877,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 540,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-25468211",
+    "title": "File:Pozole verde estilo Guerrero.JPG",
+    "author": "Slevinr",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pozole_verde_estilo_Guerrero.JPG",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/92/Pozole_verde_estilo_Guerrero.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "27c3833c32ea18ac5bf3499e7e373d3a5a5715ed",
+    "name": "Green Pozole stew, cooked in traditional Guerrero State style",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-25468211.jpg",
+    "assetSha256": "7e4d5c8b82c947fb8482b37fc4ceb0785c7fba81f13003215e710756b86222d4",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];
