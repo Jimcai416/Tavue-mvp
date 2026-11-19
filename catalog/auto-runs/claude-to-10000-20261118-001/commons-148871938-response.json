@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBm729r8PhRqAMNANZpB",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Thin, pale crepes consistent with neer dosa\",\n    \"Red curry/stew with visible chunks in accompanying bowl\",\n    \"Natural plating on steel plate\",\n    \"Sharp detail across both full image and thumbnail\"\n  ],\n  \"phone_observations\": [\n    \"Dosa and curry clearly visible and identifiable\",\n    \"Curry colour and texture readable\",\n    \"Adequate prominence and composition\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title contains non-dish metadata: 'File:Need Dosa and Thunder Mashroom Song.jpg' – 'Need' appears to be a filename corruption or OCR error; canonical dish name unclear\",\n    \"Description states 'Thunder Mashroom Song' but 'Song' is not a recognized dish term; likely misspelling or transliteration error\",\n    \"Description claims 'wild mushrooms' but photograph shows no visible mushroom pieces in curry, only uniform orange chunks (possibly potatoes or other root vegetables)\",\n    \"No visible fungal material or distinctive mushroom texture confirmed in the red curry accompanying the dosa\",\n    \"Ingredient contradiction: description does not match observable curry composition\"\n  ],\n  \"reason\": \"Photograph quality and presentation are acceptable, but the source title/description is corrupted or contains significant errors ('Need' as prefix, 'Thunder Mashroom Song' as dish variant, missing mushrooms in visual curry). The canonical dish name cannot be reliably extracted from the malformed source metadata. Description claims do not align with visible curry contents. Hold pending source clarification.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1775,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 491,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

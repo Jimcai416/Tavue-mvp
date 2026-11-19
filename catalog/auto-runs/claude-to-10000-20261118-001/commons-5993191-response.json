@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBm7N2vfTpjcm5ESLMvi",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Stewed protein pieces in golden oily broth visible in thumbnail\",\n    \"Green leafy vegetables prominently visible\",\n    \"White starchy side visible\",\n    \"Thumbnail shows finished dish clearly\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title contains 'File:' prefix and filename extension (.jpg) which must be excluded per canonical_name rules\",\n    \"Species identity unconfirmed: description states 'Fish calulu' but specific fish species is not named in source\",\n    \"Cannot extract species-specific protein evidence from generic 'Fish' designation\"\n  ],\n  \"reason\": \"Reject: Source metadata contains filename artifacts ('File:' prefix, '.jpg' extension) that violate canonical_name extraction rules. More critically, the source description identifies this as 'Fish calulu' but does not name the specific fish species. Per protocol, unknown or unspecified fish species cannot be accepted as protein evidence. The dish itself is clearly photographic and well-prepared, but the identity requirement fails due to ambiguous species naming in the source.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1694,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 385,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

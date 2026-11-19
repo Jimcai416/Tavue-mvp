@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBm6JN9Qt6Wt6VKtxXTo",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Thin crepe-like flatbread (dosa) visible on plate\",\n    \"Red/orange sambar or similar curry in small bowl with spoon\",\n    \"Coconut chutney (white) visible on plate\",\n    \"Fresh red chilli pieces on plate\",\n    \"Lime wedge visible on plate\",\n    \"Metal plate presentation typical of South Indian service\",\n    \"Phone thumbnail clearly shows same plate composition\"\n  ],\n  \"phone_observations\": [\n    \"Dosa, curry bowl, and accompaniments all clearly visible in thumbnail\",\n    \"Thumbnail contrast adequate to identify dish components\",\n    \"Plate edges and overall composition legible\",\n    \"Red curry and white components distinguish-able\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'Chicken Neer Dosa' but no chicken is visibly identifiable in either photograph; the dosa appears plain and no meat is evident on the plate or within the visible flatbread\",\n    \"Source title declares chicken but visual evidence does not support this claim; no poultry is apparent in composition\",\n    \"Cannot verify protein identity from appearance alone; hidden ingredients in dosa or curry are not visually demonstrable\"\n  ],\n  \"reason\": \"Identity check fails. The source title explicitly names 'Chicken Neer Dosa' but no chicken or other poultry is visible in either the full photograph or the phone thumbnail. The dish shows a plain dosa, sambar/curry, coconut chutney, and fresh accompaniments, but no visible chicken. Per protocol, protein claims must be supported by explicit source quotation AND meaningful visual evidence. The photograph quality, lighting, sharpness, and phone legibility are all acceptable, and the dish is a finished, appetising South Indian preparation. However, the undeclared protein (or absence of declared protein) creates an identity contradiction that cannot be resolved visually. Hold pending source clarification.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1351,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 572,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
