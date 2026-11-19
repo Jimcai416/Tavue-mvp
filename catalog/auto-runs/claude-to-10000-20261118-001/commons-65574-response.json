@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBRkHHtNhv5auDCheVhy",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 3,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Sliced morcilla clearly visible in thumbnail\",\n    \"Cross-section shows dark filling with visible fat and meat particles\",\n    \"Cooked state evident from colour and texture\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Morcilla is blood sausage (sausage category); animal species (pork/beef/other) not explicitly named in source title/description\",\n    \"Source metadata contains only 'Morcilla de Burgos, cocida' without declaring the specific protein animal\"\n  ],\n  \"reason\": \"Morcilla is a sausage product whose specific animal ingredient is not explicitly named in the supplied title or description ('Morcilla de Burgos, cocida'). Although morcilla is traditionally pork-based, the instructions prohibit inferring species from tradition or appearance. Sausage cannot be used as a protein_evidence key. No exact source quote names the animal. Hold criteria violated; cannot accept without explicit animal declaration.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1815,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 369,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
