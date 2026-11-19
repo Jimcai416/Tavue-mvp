@@ -7005,3 +7005,9 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 
 - **Raita** — Be Hungry Cooking. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Raita_by_be_hungry.jpg). Local asset: `reviewed-commons-140268695.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Raita with onion** — Be Hungry Cooking. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Raita_with_onion_by_be_hungry.jpg). Local asset: `reviewed-commons-140268770.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Nasi kebuli dalam porsi besar dengan berbagai variasi masak dan rempah-rempah** — Bajinra. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Kebuli_Rice_in_Big_Plate_2.jpg). Local asset: `reviewed-commons-141518887.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Masala dosa and chutney Vada** — Manukrishnan80. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Masala_dosa_and_chutney_Vada.jpg). Local asset: `reviewed-commons-178934958.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Nasi Kebuli** — Fhikri Latifi. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Nasi_Kebuli.jpg). Local asset: `reviewed-commons-160558429.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
