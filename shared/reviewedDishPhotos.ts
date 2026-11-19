@@ -133998,5 +133998,102 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "height": 960,
     "requiresExactMenuName": true,
     "authorUrl": "https://www.flickr.com/people/41942551@N02"
+  },
+  {
+    "id": "commons-114113355",
+    "title": "File:Pork chops served with rice.jpg",
+    "author": "Dora Tran",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pork_chops_served_with_rice.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/74/Pork_chops_served_with_rice.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "214bf16f342d119851a3687b42536ff8461edeaf",
+    "name": "Pork chops served with rice",
+    "aliases": [],
+    "proteins": [
+      "pork"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-114113355.jpg",
+    "assetSha256": "a12079c081d73a83949a2376049e70fcdfba74f3d3199bfacacd5b6c17deeeb4",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 700,
+    "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-197215272",
+    "title": "File:Three grilled pork chops.jpg",
+    "author": "Shixart1985",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Three_grilled_pork_chops.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Three_grilled_pork_chops.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "fd8fae5fbf1fbcab6f3f526bef48e35179df5c97",
+    "name": "Three grilled pork chops",
+    "aliases": [],
+    "proteins": [
+      "pork"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-197215272.jpg",
+    "assetSha256": "a66c4a2d73518bd9442486e1b0cdf653db70d37ebae631fb636bd4b24bf3b489",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 641,
+    "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-179164709",
+    "title": "File:Пилешки крилца и свински кременадли на скара.jpg",
+    "author": "Sentimentalna",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%D0%9F%D0%B8%D0%BB%D0%B5%D1%88%D0%BA%D0%B8_%D0%BA%D1%80%D0%B8%D0%BB%D1%86%D0%B0_%D0%B8_%D1%81%D0%B2%D0%B8%D0%BD%D1%81%D0%BA%D0%B8_%D0%BA%D1%80%D0%B5%D0%BC%D0%B5%D0%BD%D0%B0%D0%B4%D0%BB%D0%B8_%D0%BD%D0%B0_%D1%81%D0%BA%D0%B0%D1%80%D0%B0.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fb/%D0%9F%D0%B8%D0%BB%D0%B5%D1%88%D0%BA%D0%B8_%D0%BA%D1%80%D0%B8%D0%BB%D1%86%D0%B0_%D0%B8_%D1%81%D0%B2%D0%B8%D0%BD%D1%81%D0%BA%D0%B8_%D0%BA%D1%80%D0%B5%D0%BC%D0%B5%D0%BD%D0%B0%D0%B4%D0%BB%D0%B8_%D0%BD%D0%B0_%D1%81%D0%BA%D0%B0%D1%80%D0%B0.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "af51a4e12093e3e02e504bd9286c5f0ae8533e1c",
+    "name": "Chicken wings and grilled pork chops",
+    "aliases": [],
+    "proteins": [
+      "chicken",
+      "pork"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-179164709.jpg",
+    "assetSha256": "169d4ce95f1b1e9a655c28fe8589ace1c39565c6efafd7d31404c648477298ab",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-179164707",
+    "title": "File:Свински кременадли на скара.jpg",
+    "author": "Sentimentalna",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%D0%A1%D0%B2%D0%B8%D0%BD%D1%81%D0%BA%D0%B8_%D0%BA%D1%80%D0%B5%D0%BC%D0%B5%D0%BD%D0%B0%D0%B4%D0%BB%D0%B8_%D0%BD%D0%B0_%D1%81%D0%BA%D0%B0%D1%80%D0%B0.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/96/%D0%A1%D0%B2%D0%B8%D0%BD%D1%81%D0%BA%D0%B8_%D0%BA%D1%80%D0%B5%D0%BC%D0%B5%D0%BD%D0%B0%D0%B4%D0%BB%D0%B8_%D0%BD%D0%B0_%D1%81%D0%BA%D0%B0%D1%80%D0%B0.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "a4523c00fd01c73bf235ad482f2928d5424911e4",
+    "name": "Grilled pork chops",
+    "aliases": [],
+    "proteins": [
+      "pork"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-179164707.jpg",
+    "assetSha256": "e7b13fd6123fac32601c01a8d3688c86b222a45d8b94c21a97e778a49d4d46b4",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];
