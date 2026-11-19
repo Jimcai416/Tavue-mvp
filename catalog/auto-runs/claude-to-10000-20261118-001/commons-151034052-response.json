@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBqT1s1YTTfC24ngBrud",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Two folded flatbread items on a plate\",\n    \"Cream/white cheese base visible\",\n    \"Red hot sauce dots distributed across surface\",\n    \"Fork on left side\",\n    \"Clear plate, good contrast\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows two triangular folded quesadillas\",\n    \"Red sauce dots visible and recognizable\",\n    \"Cheese filling evident\",\n    \"Fork visible in frame\",\n    \"Overall composition matches full image well\"\n  ],\n  \"protein_evidence\": {\n    \"chicken\": \"chicken and cheese ones\"\n  },\n  \"uncertainties\": [\n    \"Source title references 'File:Quesadillas' (filename structure), but canonical name must come from title/description text only\",\n    \"Description states 'chicken and cheese ones' but does not specify which individual quesadilla contains chicken or if both do\",\n    \"Visual appearance shows only cheese and sauce; chicken presence cannot be confirmed from photograph alone\"\n  ],\n  \"reason\": \"Identity check fails: source description 'A couple of chicken and cheese ones, with hot sauce polka dots' is insufficient as canonical_name source because it lacks a specific dish title phrase and contains only descriptive prose. The filename 'Quesadillas' cannot be used as canonical_name (per rules: 'without File:, date, photographer or filename extension'). While the photograph quality is strong and protein 'chicken' is explicitly named in the description, the absence of a formal canonical dish title and the inability to visually confirm chicken content in both quesadillas creates unresolved uncertainty. Hold pending clarification of exact dish designation.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 2024,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 509,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

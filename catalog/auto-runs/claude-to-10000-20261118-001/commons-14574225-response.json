@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBqSeBXSiuraobZwZLcM",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Sliced pale-coloured terrine/pâté visible in thumbnail\",\n    \"Raw/preparation stage evident: unfinished cuts on white surface\",\n    \"Knife and preparation context visible in full image\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title describes a preparation/cutting stage, not a finished dish service\",\n    \"Image documents the preparation process (cutting foie gras torchon) rather than a plated, finished dish ready for consumption\",\n    \"No finished dish presentation visible; this is raw ingredient/preparation documentation\"\n  ],\n  \"reason\": \"Reject: This is a preparation/cooking stage photograph, not a finished, exposed, plated dish. The source description 'Cutting the torchon' and the visible context (knife, work surface, sliced but unfinished presentation) confirm this documents food preparation rather than a completed dish suitable for menu photography. The thumbnail shows the stage nature clearly. Tavue accepts finished dishes only.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1646,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 365,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
