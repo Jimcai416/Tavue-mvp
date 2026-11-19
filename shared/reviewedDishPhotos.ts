@@ -131797,5 +131797,28 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "height": 720,
     "requiresExactMenuName": true,
     "authorUrl": "https://www.flickr.com/people/elisart/"
+  },
+  {
+    "id": "commons-35685653",
+    "title": "File:Vegetable Fajitas (4188499456).jpg",
+    "author": "Jennifer  from Vancouver, Canada",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Vegetable_Fajitas_(4188499456).jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/55/Vegetable_Fajitas_%284188499456%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "4cd11a7ced853c04aac90b938d9c9d4cf30d6894",
+    "name": "Vegetable Fajitas",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-35685653.jpg",
+    "assetSha256": "f31390571523dbf83ed423f6cc2c087039002bcd1db1723a46edca69e56c3447",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 637,
+    "requiresExactMenuName": true,
+    "authorUrl": "https://www.flickr.com/people/40650893@N04"
   }
 ];
