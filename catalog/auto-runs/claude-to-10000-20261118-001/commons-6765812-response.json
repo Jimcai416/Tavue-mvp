@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBg9fh37Y6NhmcjVikk1",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Tender meat cubes in rich brown sauce\",\n    \"White rice bed\",\n    \"Green parsley garnish\",\n    \"Glossy, creamy sauce coating\",\n    \"Plated presentation on white dish\"\n  ],\n  \"phone_observations\": [\n    \"Meat and sauce clearly visible in thumbnail\",\n    \"Rice accompaniment evident\",\n    \"Overall composition recognisable at small scale\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title states 'Beef Stroganoff' but visible meat species cannot be definitively confirmed as beef from photograph alone\",\n    \"Beef stroganoff traditionally contains beef, but the actual animal cannot be visually proven from colour, texture, or cut alone\",\n    \"No explicit source quote identifying the meat as 'beef' in the description field—only in the filename\"\n  ],\n  \"reason\": \"Identity check fails. The source title 'Beef Stroganoff' names beef as the protein, but the filename is metadata and cannot be treated as authoritative source description. The description field supplied states only 'Beef Stroganoff' without an explicit quote separating the meat declaration. While the dish appearance is consistent with beef stroganoff (cubed meat in creamy sauce with rice), visual inspection alone cannot confirm beef species, and no independent evidence quote from a reliable description field confirms 'beef' as the named protein. Per protocol, ambiguous meat species or source contradictions require a hold. The title itself, while conventional, is insufficient without explicit descriptive confirmation.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1620,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 481,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

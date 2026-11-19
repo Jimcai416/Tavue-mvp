@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBg9LQvRft5V9qjHUHys",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": \"Georgian stew Chakapuli\",\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Cooked meat pieces visible in stew\",\n    \"Green herb garnish (appears to be dill or tarragon on plate rim)\",\n    \"Broth/cooking liquid present\",\n    \"Finished dish plated on decorative white plate\",\n    \"Natural lighting, appetizing appearance\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows stewed meat with herbs\",\n    \"Prominent green vegetation mixed through dish\",\n    \"Creamy broth visible\",\n    \"Dish remains recognizable and appetizing at small scale\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title 'Chakapuli stew' does not specify meat species; Georgian chakapuli traditionally uses lamb or mutton, but neither is explicitly named in the provided title/description\",\n    \"Visible meat cannot be reliably identified to exact species from appearance alone\",\n    \"No explicit protein naming in source metadata\"\n  ],\n  \"reason\": \"Image quality, photography, and phone thumbnail all meet standards. However, identity check fails: the source description does not explicitly name the meat species. Chakapuli is traditionally made with lamb or mutton, but the title 'Georgian stew Chakapuli' does not contain an explicit species declaration. Per protocol, ambiguous or unspecified meat species (including mutton that might mean goat) requires hold. Cannot proceed without exact source-quoted protein identification.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1722,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 464,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
