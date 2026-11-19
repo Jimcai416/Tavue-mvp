@@ -9362,3 +9362,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Beef carpaccio** — Missvain. [CC BY 4.0](https://creativecommons.org/licenses/by/4.0); [source](https://commons.wikimedia.org/wiki/File:Beef_carpaccio_at_Sonoma_Grille_-_Sarah_Stierch.jpg). Local asset: `reviewed-commons-46824627.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Carpaccio de bœuf** — [Benoît Prieur](https://www.wikidata.org/wiki/Q42790984). [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Carpaccio_de_b%C5%93uf,_restaurant_Danieli_(Vienne,_Autriche).jpg). Local asset: `reviewed-commons-81265851.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.

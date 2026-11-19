@@ -122143,5 +122143,30 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 960,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-81265851",
+    "title": "File:Carpaccio de bœuf, restaurant Danieli (Vienne, Autriche).jpg",
+    "author": "Benoît Prieur",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Carpaccio_de_b%C5%93uf,_restaurant_Danieli_(Vienne,_Autriche).jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Carpaccio_de_b%C5%93uf%2C_restaurant_Danieli_%28Vienne%2C_Autriche%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "c40d8359f30234aa0309c1b18ec469bd573e4463",
+    "name": "Carpaccio de bœuf",
+    "aliases": [],
+    "proteins": [
+      "beef"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-81265851.jpg",
+    "assetSha256": "6b732516b0367c1be3353ea5e5d020f8a5ee7719b0972c462fd28da6e18e9a46",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 763,
+    "requiresExactMenuName": true,
+    "authorUrl": "https://www.wikidata.org/wiki/Q42790984"
   }
 ];
