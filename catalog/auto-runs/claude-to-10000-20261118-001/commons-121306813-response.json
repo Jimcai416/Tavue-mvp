@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCujzkjWb8Uu6zGRUASR",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows triangular fried items in a metal bowl with visible spice specks\",\n    \"Items are golden-brown and identifiable as samosa-shaped\",\n    \"Bowl setting consistent with full image\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title/description explicitly states 'vegetarian' but does not declare any protein category\",\n    \"No animal protein is named in the source metadata\",\n    \"Samosa filling is not visually identifiable from exterior appearance alone\",\n    \"Canonical identity cannot be precisely extracted: metadata supplies only generic 'small samosas (vegetarian)' without a finished dish title\"\n  ],\n  \"reason\": \"Rejection: source description declares 'vegetarian' with no named protein. Tavue protocol requires exact source quote for protein_evidence keys; none can be supplied. Source metadata is a file description, not a dish title suitable for canonical_name extraction. No finished dish identity is provided in a form matching Tavue's requirement for a specific dish phrase from title or description. While the photograph itself is sharp, well-lit and appetising, identity verification fails due to absence of a named protein and lack of canonical dish information in the source.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1730,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 412,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

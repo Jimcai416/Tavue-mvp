@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCujVETt3Fd627YyFnwo",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Spiced rice base with visible meat pieces\",\n    \"Fresh lime wedges and green herb garnish\",\n    \"White and brown condiment bowls\",\n    \"Traditional presentation on decorative platter\"\n  ],\n  \"phone_observations\": [\n    \"Meat pieces clearly visible on rice\",\n    \"Condiment bowls readable in thumbnail\",\n    \"Colour and composition match full image\",\n    \"Subject prominent and well-framed\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title identifies dish as 'Hyderabadi biryani' but description claims 'mandi'—these are distinct regional dishes (biryani is South Indian, mandi is Arabian/Middle Eastern). Source metadata contradiction.\",\n    \"Meat species not explicitly named in title or description—visible dark-cooked pieces cannot be reliably identified as a specific animal without text confirmation.\",\n    \"No exact protein declaration in provided source text.\"\n  ],\n  \"reason\": \"Source metadata contains an irreconcilable contradiction: filename title 'Hyderabadi biryani' versus description text 'mandi'. These are different regional dishes with different preparation methods and origins. Canonical identity cannot be established from conflicting source claims. Additionally, meat species is not explicitly named in either the title or description, so protein category cannot be supported by exact source quote. Image quality and photograph are acceptable, but identity uncertainty and missing protein evidence prevent acceptance.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1732,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 459,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

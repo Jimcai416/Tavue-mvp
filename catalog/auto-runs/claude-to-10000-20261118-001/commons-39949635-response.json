@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCujVETWrnTspL5Dhjik",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [\n    \"Golden-brown fried dumplings in hot oil in a wok\",\n    \"Multiple samosa shapes visible\",\n    \"Active frying preparation stage\",\n    \"Clear metal wok with handles\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail shows fried pastries in wok with oil\",\n    \"Samosa shapes recognizable at reduced resolution\",\n    \"Composition matches full image\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Image shows samosas in active preparation/frying stage, not a finished, plated dish\",\n    \"No filling is visible or identifiable\",\n    \"Cooking process photograph rather than final food presentation\"\n  ],\n  \"reason\": \"Reject: This is a preparation/cooking process photograph showing samosas being fried in oil, not a finished, exposed, plated dish. The subject is in an intermediate cooking stage within cookware rather than a completed, served food photograph. Per guidelines, raw/preparation stages must be rejected. The thumbnail confirms this is an in-progress cooking scene, not appetising finished food suitable for Tavue's representative food photographs.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1618,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 390,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
