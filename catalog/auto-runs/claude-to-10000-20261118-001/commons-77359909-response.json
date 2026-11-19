@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChC42gqcetaougvfXYzAs",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 0,\n    \"lighting\": 0,\n    \"composition\": 0,\n    \"appeal\": 0\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows hands playing mancala/bao board game, not food\",\n    \"Board game pieces visible in circular wells\",\n    \"No food subject present in phone thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title references 'BAO' and Tanzania but image shows bao the board game, not bao the food (steamed buns)\",\n    \"Metadata description in Igbo language does not match image content or geography\",\n    \"Critical mismatch between claimed food subject and actual photograph content\"\n  ],\n  \"reason\": \"Image is not a photograph of food. The full source and thumbnail both depict the bao board game (mancala variant) being played by two people on a wooden deck with ocean background. Despite the filename and title containing 'BAO', no finished dish, ingredient, or food preparation is visible. This is a recreation/game activity, not a food photograph. The metadata description is in Igbo (Nigerian language), creating further source contradiction with Tanzania attribution. Reject: not a food image.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1657,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 381,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
