@@ -8102,3 +8102,11 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Bebinca, a traditional dessert from Goa, served with ice cream** — [Warren Noronha](https://www.flickr.com/photos/70096206@N00). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Bebinca_com_gelado.jpg). Local asset: `reviewed-commons-3849493.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Mie Aceh** — AIP2000. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:A_plate_of_mie_aceh_and_a_glass_of_gayo_coffee.jpg). Local asset: `reviewed-commons-163762650.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Poori & Aloo Sabji** — Monali.mishra. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Poori_%26_Aloo_Sabji.jpg). Local asset: `reviewed-commons-40886253.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Mie Aceh Sabang** — Eunike25. [CC BY 4.0](https://creativecommons.org/licenses/by/4.0); [source](https://commons.wikimedia.org/wiki/File:Mie_Aceh_Sabang.jpg). Local asset: `reviewed-commons-157871614.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Mie Aceh with beef** — [Yasmina Haryono](https://www.flickr.com/photos/65748856@N00). [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:Mie_Aceh_with_beef.jpg). Local asset: `reviewed-commons-11060971.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Mie Aceh with crab** — [Yasmina Haryono](https://www.flickr.com/photos/65748856@N00). [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:Mie_Aceh_with_crab.jpg). Local asset: `reviewed-commons-11060960.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
