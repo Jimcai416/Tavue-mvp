@@ -112520,5 +112520,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-165430823",
+    "title": "File:Canh Nghêu nấu rau muống.jpg",
+    "author": "Lê Huỳnh Bộ",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Canh_Ngh%C3%AAu_n%E1%BA%A5u_rau_mu%E1%BB%91ng.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/56/Canh_Ngh%C3%AAu_n%E1%BA%A5u_rau_mu%E1%BB%91ng.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "f2d447f4ce27cdc074da10b3d604376fa432eb2e",
+    "name": "Canh Nghêu nấu rau muống",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-165430823.jpg",
+    "assetSha256": "9e316a17d9873e4c5bad9ddc4f647e3a9d779bc9d547871bae94f96fd335dd6a",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 720,
+    "height": 960,
+    "requiresExactMenuName": true
   }
 ];
