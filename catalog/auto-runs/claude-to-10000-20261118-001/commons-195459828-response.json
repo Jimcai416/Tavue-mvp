@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCCoYMpWteifwXp45bNC",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": true,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 2,\n    \"composition\": 1,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Subject occupies minimal portion of thumbnail centre-cover area\",\n    \"Raw legumes in transparent bag clipped at edges\",\n    \"Insufficient visual prominence for a finished dish photo\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source describes rajma (kidney beans) as a legume ingredient or raw commodity for sale, not a finished, cooked, plated dish\",\n    \"Image shows dried/raw beans in packaging, not an exposed cooked preparation\",\n    \"Photograph documents market merchandise, not a served food item\"\n  ],\n  \"reason\": \"Rejection: This is a commodity photograph of raw dried rajma beans in market packaging, not a finished, exposed, cooked dish suitable for food photography review. The source explicitly identifies it as beans 'for sale at Kargil Market'—a legume product, not a prepared meal. The thumbnail shows raw legumes clipped within minimal space, failing phone prominence and finished-dish identity checks. All quality scores fall below acceptance threshold. No cooked preparation, plating, or appetising presentation is visible.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1784,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 383,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

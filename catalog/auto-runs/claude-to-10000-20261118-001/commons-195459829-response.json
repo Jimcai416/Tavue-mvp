@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCCoWyEQLFtsmQrMxD1V",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 3,\n    \"lighting\": 2,\n    \"composition\": 1,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Hand holding raw legumes dominates the thumbnail\",\n    \"No finished dish visible\",\n    \"Minimal context, fabric and packaging surrounding subject\",\n    \"Subject is uncooked raw ingredient, not a prepared food\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source claims 'rajma for sale' but photograph shows raw, uncooked beans in hand during market display—not a finished, exposed, appetising dish\",\n    \"Identity mismatch: title suggests prepared rajma (a cooked kidney bean curry), but only raw legumes are visible\"\n  ],\n  \"reason\": \"Rejection: This is a raw ingredient display photograph, not a finished dish. The source title claims 'rajma for sale' (implying a prepared curry), but the actual image shows uncooked dried beans held in a person's hand during a market transaction. The photograph fails multiple acceptance criteria: (1) no finished, exposed, cooked dish is present; (2) the subject is at a raw/preparation stage, not plated or ready to consume; (3) appeal is minimal—a handful of legumes in poor lighting with no culinary presentation; (4) the phone thumbnail confirms only raw ingredients and surrounding fabric/packaging, with no food identity visible; (5) identity contradiction between title (prepared rajma) and content (raw legumes). Home-cooked food is welcome, but only when finished and photographed as a prepared dish.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1784,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 462,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

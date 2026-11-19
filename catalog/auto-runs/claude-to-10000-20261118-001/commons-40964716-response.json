@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCCoK7bbK2dT6G7Zn8KX",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 2,\n    \"composition\": 3,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Phone thumbnail shows similar components but with heavy purple/pink colour cast\",\n    \"Thumbnail clarity is poor; subject detail is degraded\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title is a filename ('File:Rajma and Boondi Raita.JPG'), not a dish description\",\n    \"Generic metadata description 'Reminds you of home, doesn't it?' provides no identity confirmation\",\n    \"Exact dish name and variant qualifiers cannot be verified from supplied evidence\"\n  ],\n  \"reason\": \"Rejection due to multiple critical failures: (1) Source identity is a filename, not a canonical dish title or description—no verifiable dish name provided; (2) The generic description does not confirm identity, components, regional variant, or preparation details; (3) Image exhibits severe colour cast (purple/pink tint throughout), unnatural lighting, and soft focus—visible in both full and thumbnail; (4) Overall visual appeal and sharpness are significantly degraded (all quality scores <4); (5) No exact source quote matches a recognisable dish phrase; (6) Protein species cannot be verified from the supplied evidence. The image fails photograph quality standards and lacks sufficient source documentation to establish identity with certainty.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1462,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 423,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

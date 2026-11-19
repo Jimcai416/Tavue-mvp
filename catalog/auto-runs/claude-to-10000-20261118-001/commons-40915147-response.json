@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCCnEUm5huoDujwstQXg",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Cooked diced vegetables visible in white bowl\",\n    \"Browned/golden fried texture consistent with stir fry\",\n    \"Green leafy garnish visible on surface\",\n    \"Red and brown vegetable pieces identifiable\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail shows same white bowl with mixed cooked vegetables\",\n    \"Diced component structure clearly visible at this resolution\",\n    \"Colour and composition readable and matching source\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Brinjal (eggplant) identity cannot be visually confirmed from diced mixed state alone\",\n    \"Rajma (kidney beans) cannot be reliably distinguished from other red/brown diced components in the cooked mixture\",\n    \"Source title claims two specific ingredients but visual differentiation between them is not conclusive in a stir-fry of small diced pieces\"\n  ],\n  \"reason\": \"While photograph and thumbnail quality are acceptable and the dish is finished and exposed, the identity check fails. The source title 'Brinjal rajma masala' specifies two distinct ingredient categories (eggplant and kidney beans), but the cooking method (small diced stir fry) renders reliable visual confirmation of these specific components impossible from the photograph alone. The diced, uniformly cooked mixture does not permit clear visual separation or identification of brinjal versus rajma versus other possible vegetables. This ambiguity of identity—where essential named components cannot be visually distinguished—requires hold per guidelines, but since the uncertainty is fundamental to accepting the specific declared dish, rejection is appropriate.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1632,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 498,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
