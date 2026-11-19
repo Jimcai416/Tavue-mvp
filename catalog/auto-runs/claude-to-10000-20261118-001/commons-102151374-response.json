@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCXUovdaBRzjhXrfaira",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Cooked poultry breast with golden-brown glaze\",\n    \"White steamed rice\",\n    \"Golden-fried potato/vegetable pieces\",\n    \"Yellow curry or turmeric-based sauce in container\",\n    \"Stainless steel thali compartment tray\",\n    \"Natural daylight photography\",\n    \"Full dish clearly visible in both source and thumbnail\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail shows protein, rice, fried components and sauce clearly\",\n    \"Yellow curry sauce prominent in upper left\",\n    \"Golden-glazed poultry dominates right side\",\n    \"Essential food elements remain readable and unclipped\",\n    \"Adequate detail for dish recognition\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title/description does not name the specific dish—only generic 'Indian food' and location provided\",\n    \"Thali presentation confirms meal type but not individual dish identity\",\n    \"Poultry species not explicitly stated in metadata (assumed chicken but not confirmed by source)\",\n    \"Sauce composition and curry type not named\",\n    \"No regional variant or specific dish name supplied to match against canonical form\"\n  ],\n  \"reason\": \"Photograph quality, sharpness, lighting, composition and appeal are all strong (scores ≥4). Image is a finished, exposed, naturally coloured dish with appetising appearance and sharp detail in both full and thumbnail views. However, the source metadata provides only generic 'Indian food' and location tags without naming the specific dish. The title/description lacks a canonical dish name, regional variant, or enough explicit detail (e.g., curry type, protein species confirmation) to establish a verifiable identity. Poultry is visually evident but species is not explicitly stated in the source. Without a specific, named dish phrase from the source title or description to copy as canonical_name, identity check fails. Holding for explicit dish identification from source.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1645,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 574,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

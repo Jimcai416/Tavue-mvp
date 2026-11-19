@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCXVHZHRhd92qbq1dS9i",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": \"Thali with aloo dum, dal and omlette from a restaurant in Uttarakhand, India.\",\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Omelette visible and clearly cooked\",\n    \"White rice prominent in both images\",\n    \"Two small bowls of accompaniments (gravy and darker paste/curry)\",\n    \"Thali plate presentation authentic\",\n    \"Natural lighting, home/restaurant setting\"\n  ],\n  \"phone_observations\": [\n    \"Omelette, rice and two sauce bowls clearly readable\",\n    \"Essential components visible in thumbnail\",\n    \"Thali composition recognizable at 124x96\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Omelette protein source not explicitly named in source (eggs assumed but not stated)\",\n    \"Aloo dum is potato-based, no animal protein named\",\n    \"Dal is legume-based, no animal protein named\",\n    \"Source describes contents but does not explicitly name any animal protein\"\n  ],\n  \"reason\": \"Image quality, photograph composition, and phone thumbnail are all strong (all scores ≥4). Identity and variant preservation fail: source title/description names 'aloo dum' (potato), 'dal' (legume), and 'omlette', but no animal protein is explicitly named in the source metadata. Per protocol, proteins may include only chicken/beef/pork/duck/lamb/seafood with an exact source quote explicitly naming each animal—eggs and omelette protein source are not explicitly stated. Ambiguous/undeclared protein species requires hold. Canonical_name cannot be assigned without explicit protein naming in source or omission of the ambiguous component.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1741,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 512,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
