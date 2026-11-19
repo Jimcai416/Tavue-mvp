@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCyPTThiANqjuU9nVTqo",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Finished, cooked dish with sauce\",\n    \"Prominent presentation on white plate\",\n    \"Fresh garnish (green herbs visible)\",\n    \"Creamy sauce base visible\",\n    \"Mixed protein components\"\n  ],\n  \"phone_observations\": [\n    \"Dish clearly visible in thumbnail\",\n    \"Sauce and components distinguishable\",\n    \"Garnish visible\",\n    \"Appropriate centre-cover framing\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title 'Bourride à la sétoise' indicates a fish stew, but no specific fish species are named in the metadata or visibly identifiable with certainty in the photograph\",\n    \"Multiple protein components visible (appears to include seafood and possibly other proteins) but species cannot be definitively determined from visual inspection alone\",\n    \"Bourride traditionally contains specific fish (typically Mediterranean varieties), but the exact species are not stated in the source description\",\n    \"No explicit protein naming in the provided source description to quote\"\n  ],\n  \"reason\": \"While the photograph shows a finished, well-presented, appetizing dish with appropriate lighting, sharpness and composition (all checks except identity are true with scores ≥4), the identity cannot be fully verified. The source title 'Bourride à la sétoise' names a traditional French fish stew, but the source description does not explicitly name the fish species used. Bourride typically contains specific Mediterranean fish varieties, but without an exact source quote naming the protein(s), and given the visual ambiguity of multiple components, protein_evidence cannot be populated. Per instructions, unknown or unquoted protein species requires hold status. The canonical_name cannot be assigned without confirmed protein identity from explicit source text.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1617,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 525,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

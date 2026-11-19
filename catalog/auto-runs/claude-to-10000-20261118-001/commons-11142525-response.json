@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCyPC5zLcxP4cXQqgXJY",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Golden-brown broth visible in full image\",\n    \"Orange carrot ribbons prominently layered on top\",\n    \"Creamy, cooked components beneath garnish\",\n    \"Served in shallow bowl on branded plate\",\n    \"Natural restaurant setting\"\n  ],\n  \"phone_observations\": [\n    \"Dish is clearly identifiable at thumbnail scale\",\n    \"Golden broth and orange carrot garnish visible\",\n    \"Subject adequately prominent and readable\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'Bourride de fruits de mer' (seafood bourride) but photograph shows no visible seafood, fish, shellfish, mollusc or identifiable crustacean components\",\n    \"Only creamy paste/ground meat visible beneath carrot garnish—species unidentifiable and not explicitly named in source\",\n    \"No source text explicitly names any allowed protein category (chicken/beef/pork/duck/lamb/seafood)\",\n    \"Visual appearance contradicts source title: bourride traditionally contains fish and/or shellfish, neither visibly present here\"\n  ],\n  \"reason\": \"Identity check fails. Source title 'Bourride de fruits de mer' (seafood bourride) cannot be visually verified—no seafood, fish or shellfish are identifiable in the photograph. The visible component is a creamy, ground or paste-like protein whose species cannot be determined from appearance alone and is not explicitly named in the source description. No allowed protein category can be supported by exact source quote. Contradiction between title and visual content, combined with absent protein evidence, requires hold on identity grounds.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1732,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 503,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

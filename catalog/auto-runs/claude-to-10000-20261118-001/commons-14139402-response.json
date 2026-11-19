@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCyPC6EhAYvhETkjYtqC",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Finished, cooked dish in white bowl\",\n    \"Golden-yellow broth with layered seafood and meat\",\n    \"Bacon-wrapped items visible on top\",\n    \"Green herb garnish (parsley or chives)\",\n    \"Natural lighting, warm tones\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows composed plated dish\",\n    \"Golden broth and wrapped protein prominent\",\n    \"Garnish visible despite small size\",\n    \"No clipping of essential components\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title 'Bourride' is a traditional Provençal fish stew, but the visible proteins cannot be definitively identified from appearance alone\",\n    \"Bacon-wrapped items appear present but species cannot be confirmed from visuals—could be scallops, fish, or other seafood wrapped in bacon\",\n    \"Title 'Bourride' traditionally implies fish and seafood, but no explicit protein identification appears in the minimal source description\",\n    \"Yellow component appears to be potato or possibly sea urchin roe—cannot be visually confirmed\",\n    \"No explicit protein naming in source metadata to match against allowed categories\"\n  ],\n  \"reason\": \"While the photograph shows a well-composed, appetising finished dish with sharp detail and professional plating, the source metadata provides only a generic dish title ('Bourride') with no explicit protein identification. The rule requires that 'proteins may include only chicken/beef/pork/duck/lamb/seafood, with an exact source quote explicitly naming each animal.' The source does not provide this explicit naming. Although bacon may be present and traditional Bourride contains fish/seafood, visual appearance alone cannot confirm specific protein identity, and the minimal source description does not supply the required explicit quote. Hold pending clarification of protein composition from source.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1614,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 550,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

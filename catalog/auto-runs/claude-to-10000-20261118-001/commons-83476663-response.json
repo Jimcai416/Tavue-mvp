@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCyPcwU8nZx9E2i1tamr",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Cream-based broth with herb specks and black pepper\",\n    \"White fish (appears poached or steamed)\",\n    \"Diced roasted vegetables (orange/red peppers, golden potatoes or root vegetables)\",\n    \"Leek garnish with yellow florets visible\",\n    \"Plated on shallow white dish\",\n    \"Professional presentation consistent with Bourride\"\n  ],\n  \"phone_observations\": [\n    \"Cream sauce clearly visible with herb flecks\",\n    \"Poached fish and vegetable garnish readable at thumbnail scale\",\n    \"Natural colours, no severe distortion\",\n    \"Finished dish presentation evident\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title states 'Bourride à la sétoise' but no fish species is explicitly named in the source description\",\n    \"Bourride is traditionally a Mediterranean fish stew, typically made with specific fish types (often rouget, lotte, or similar), but source does not specify which fish is present\",\n    \"Without explicit protein identification in title or description, fish species cannot be confirmed as source-quoted\"\n  ],\n  \"reason\": \"Photograph quality, sharpness, lighting, composition and appeal are excellent; the dish is finished, appetising, and identifiable at phone scale. However, the source description 'Bourride à la sétoise' does not explicitly name the fish species used. Protocol requires exact source quotes for protein_evidence keys. 'Fish' alone is not an allowed category key (only chicken/beef/pork/duck/lamb/seafood are permitted, and 'seafood' requires species-level detail per the rules). The source contradicts the requirement to provide explicit animal naming. Hold pending clarification of the exact fish type from the source.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1795,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 538,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

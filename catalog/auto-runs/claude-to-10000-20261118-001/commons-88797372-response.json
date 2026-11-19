@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCyPC6EMqFaXbNarsK8j",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 3,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [\n    \"Cream/aioli-based sauce visible in both images\",\n    \"White fish pieces identifiable in full source\",\n    \"Red pepper or tomato garnish visible\",\n    \"Finished plated dish in serving bowl\"\n  ],\n  \"phone_observations\": [\n    \"Creamy pale yellow sauce dominant\",\n    \"Irregular white protein chunks embedded in sauce\",\n    \"Red vegetable garnish visible\",\n    \"Overall composition legible but soft detail\",\n    \"Dish identity readable as a cream-based fish preparation\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title 'Bourride sétoise' is a regional French fish stew, but no specific fish species is named in the title or visible description\",\n    \"Metadata indicates Occitan/French origin (Sète) but provides no explicit ingredient list\",\n    \"Fish pieces are visibly present but exact species cannot be determined from appearance alone\",\n    \"No source-supplied ingredient or protein descriptor beyond the dish name itself\"\n  ],\n  \"reason\": \"Identity check fails: 'Bourride sétoise' is a known Occitan fish stew, but the source title/description does not explicitly name the fish species used. The protocol requires exact source-quoted protein names; dish tradition and visual identification of white fish are not sufficient. Protein_evidence remains empty because no canonical phrase naming a specific fish (e.g., 'cod', 'monkfish', 'sea bream') appears in the supplied title or description. Quality, photograph, and phone checks pass; sharpness and lighting are adequate but soft. Hold pending explicit fish species declaration in source metadata.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1724,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 509,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
