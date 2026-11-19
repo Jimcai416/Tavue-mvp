@@ -9056,3 +9056,10 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 
 - **Pansit Canton** — Elmer Centeno Guevarra. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:HOMEMADE_SPECIAL_PANSIT_CANTON_FROM_PANGASINAN.jpg). Local asset: `reviewed-commons-142904809.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Orak-arik tempe** — Midori. [CC BY 3.0](https://creativecommons.org/licenses/by/3.0); [source](https://commons.wikimedia.org/wiki/File:Orak-arik_tempe.JPG). Local asset: `reviewed-commons-16433479.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Thattu Vadai** — Thamizhpparithi Maari. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:%22Thattu_Vadai%22.jpg). Local asset: `reviewed-commons-39590687.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **vadai made with mint leaves** — Nithyasrm. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Mint_vadai_picture.JPG). Local asset: `reviewed-commons-40916717.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Sambar Vadai** — Andy Li. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Sambar_Vadai_-_Vel_South_Indian_Kitchen_%2B_Bar_2023-07-09.jpg). Local asset: `reviewed-commons-134289697.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Vadai** — Gaurav Dhwaj Khadka. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Vadai_1.jpg). Local asset: `reviewed-commons-142566829.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
