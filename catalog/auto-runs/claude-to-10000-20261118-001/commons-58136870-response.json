@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChC15hQpWrZH5ow43517K",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": \"Cuisine of Bulacan potatoes omellete spam chicken sisig vegetables\",\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Cooked rice base visible\",\n    \"Halved soft-boiled eggs with runny yolks arranged on plate\",\n    \"Browned/fried meat component consistent with sisig preparation\",\n    \"Mayonnaise drizzle\",\n    \"Green onion garnish\",\n    \"White plate, KFC branding visible on rim\"\n  ],\n  \"phone_observations\": [\n    \"Plate clearly visible at centre-cover\",\n    \"Eggs, rice, and cooked meat components readable\",\n    \"Garnish visible\",\n    \"Composition and appeal intact in thumbnail\"\n  ],\n  \"protein_evidence\": {\n    \"chicken\": \"chicken sisig\",\n    \"pork\": null\n  },\n  \"uncertainties\": [\n    \"Title lists 'spam' as separate component but spam is pork product—unclear if spam is distinct ingredient or sisig includes spam; sisig traditionally minced pork but source does not explicitly name pork as primary animal\",\n    \"Source description is contradictory and partially incoherent ('omellete' vs. soft-boiled eggs visible; unclear dish structure)\",\n    \"Spam species ambiguity: spam is pork but not explicitly named as such in source\",\n    \"'potatoes' mentioned in title but not clearly visible in final plated dish\",\n    \"No explicit confirmation whether this is a named regional variant or a fusion/home preparation\"\n  ],\n  \"reason\": \"Source title contains ambiguous and partially contradictory component list. While 'chicken sisig' is explicitly named and visible, 'spam' is listed separately but spam is a pork product not explicitly named. The description conflates 'omellete' with what are clearly soft-boiled eggs. The mentioned 'potatoes' are not distinctly visible in the plated dish. The source description is poorly structured and contains non-standard English. Identity cannot be confidently matched to a specific canonical dish name due to these contradictions and the unclear relationship between listed components and plated result. Protein evidence for chicken is explicit, but pork/spam ambiguity and dish identity uncertainty require hold.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1829,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 627,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
