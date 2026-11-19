@@ -106,6 +106,23 @@ class AutomaticReviewTests(unittest.TestCase):
     p.review()
    self.assertEqual([d['id'] for d in p.decisions],['c1','c2'])
    self.assertEqual(p.ledger['status'],'completed');paid.assert_not_called()
+ def test_review_reuses_released_reservation_until_next_photo_cannot_fit(self):
+  with tempfile.TemporaryDirectory() as t:
+   p=self.pipeline(t,budget=.009)
+   p.records=[{'id':key,'commonsSha1':key} for key in ('c1','c2','c3')]
+   body={'model':a.MODEL,'system':'test','messages':[],'max_tokens':1100}
+   for record in p.records:
+    (p.work/(record['id']+'.jpg')).write_bytes(b'preview')
+   def paid(key, request):
+    self.assertLessEqual(p.accounted(),p.config['budgetUSD'])
+    return key,{'id':key,'stop_reason':'end_turn','usage':{'input_tokens':1000,'output_tokens':100},
+                'content':[{'type':'text','text':'{"verdict":"reject"}'}]},None
+   with patch.object(p,'prepare',side_effect=lambda record:(record,body,None)),patch.object(p,'api',return_value={'input_tokens':1000}),patch.object(p,'persist'),patch.object(p,'integrate'),patch.object(p,'paid',side_effect=paid) as submitted:
+    p.review()
+   self.assertEqual([call.args[0] for call in submitted.call_args_list],['c1','c2'])
+   self.assertAlmostEqual(p.accounted(),.003)
+   self.assertEqual(p.ledger['status'],'budget_limit')
+   self.assertEqual([record['id'] for record in p.pending_records()],['c3'])
  def test_last_source_retry_still_preserves_shared_cooldown(self):
   import urllib.error
   with tempfile.TemporaryDirectory() as t:

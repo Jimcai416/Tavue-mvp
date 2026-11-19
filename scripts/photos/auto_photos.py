@@ -308,6 +308,30 @@ class Pipeline:
   completed={r['id'] for r in self.decisions}
   return [r for r in self.records if r['id'] not in completed and r['id'] not in self.ledger['requests']]
  def filter_wave(self,wave):return wave
+ def settle_review_wave(self,pool,jobs,sources):
+  self.persist('Reserve parallel Claude photo reviews before paid calls')
+  passing=[]
+  for key,message,error in pool.map(lambda job:self.paid(*job),jobs):
+   self.settle(key,message,error)
+   record=sources[key]
+   decision={'id':key,'sourceSha1':record['commonsSha1'],
+             'previewSha256':digest((self.work/(key+'.jpg')).read_bytes()),
+             'phonePreview':{'width':124,'height':96,'fit':'centre-cover'},
+             'verdict':'held','reviewedBy':'claude-api:'+MODEL,'reviewedAt':now(),
+             'reason':error or 'invalid_model_response'}
+   if not error:
+    try:
+     value=parse_message(message)
+     decision['modelOutput']=value
+     yes,decision['reason']=evaluate(value,record)
+     if yes:passing.append((record,value,decision))
+    except (KeyError,TypeError,ValueError):decision['reason']='invalid_or_truncated_model_response'
+   self.decisions.append(decision)
+  # Commit receipts first, then publish them with the tested intake before any new paid call.
+  self.persist('Checkpoint paid Claude responses before source revalidation and intake',publish=False)
+  self.integrate(passing)
+  self.ledger['held']=sum(d['verdict']!='approved' for d in self.decisions)
+  self.persist('Integrate tested Claude-approved photographs and checkpoint decisions')
  def review(self):
   pending=self.pending_records()
   self.ledger['status']='reviewing'
@@ -326,32 +350,27 @@ class Pipeline:
      try:return r,body,None,self.api('messages/count_tokens',{k:body[k] for k in ['model','system','messages']})['input_tokens']
      except Exception as e:return r,body,'token_count_'+type(e).__name__,None
     counted=list(pool.map(count,prepared))
-    jobs=[];sources={};stopped_budget=False
-    for r,body,error,tokens in counted:
-     if error:self.decisions.append({'id':r['id'],'sourceSha1':r['commonsSha1'],'verdict':'held','reason':'preview_'+error,'reviewedAt':now()});continue
-     if not self.reserve(r['id'],body,counted=tokens):stopped_budget=True;break
-     jobs.append((r['id'],body));sources[r['id']]=r
-    if not jobs:
-     if stopped_budget:break
-     self.ledger['held']=sum(d['verdict']!='approved' for d in self.decisions)
-     self.persist('Checkpoint unavailable source previews and continue the remaining queue')
-     continue
-    self.persist('Reserve parallel Claude photo reviews before paid calls')
-    passing=[]
-    for key,message,error in pool.map(lambda x:self.paid(*x),jobs):
-     self.settle(key,message,error);r=sources[key];d={'id':key,'sourceSha1':r['commonsSha1'],'previewSha256':digest((self.work/(key+'.jpg')).read_bytes()),'phonePreview':{'width':124,'height':96,'fit':'centre-cover'},'verdict':'held','reviewedBy':'claude-api:'+MODEL,'reviewedAt':now(),'reason':error or 'invalid_model_response'}
-     if not error:
-      try:
-       v=parse_message(message);d['modelOutput']=v;yes,why=evaluate(v,r);d['reason']=why
-       if yes:passing.append((r,v,d))
-      except (KeyError,TypeError,ValueError):d['reason']='invalid_or_truncated_model_response'
-     self.decisions.append(d)
-    # Save/commit responses immediately; publish with intake as one idempotent
-    # write. Before the next paid wave, every prior response is remote-durable.
-    self.persist('Checkpoint paid Claude responses before source revalidation and intake',publish=False)
-    self.integrate(passing);self.ledger['held']=sum(d['verdict']!='approved' for d in self.decisions)
-    self.persist('Integrate tested Claude-approved photographs and checkpoint decisions')
-    if stopped_budget:break
+    while counted and not self.expired():
+     jobs,sources,deferred=[],{},[]
+     new_holds=False
+     for record,body,error,tokens in counted:
+      key=record['id']
+      if error:
+       self.decisions.append({'id':key,'sourceSha1':record['commonsSha1'],'verdict':'held','reason':'preview_'+error,'reviewedAt':now()})
+       new_holds=True
+      elif self.reserve(key,body,counted=tokens):
+       jobs.append((key,body))
+       sources[key]=record
+      else:
+       deferred.append((record,body,error,tokens))
+     if not jobs:
+      if new_holds:
+       self.ledger['held']=sum(d['verdict']!='approved' for d in self.decisions)
+       self.persist('Checkpoint unavailable source previews and continue the remaining queue')
+      break
+     self.settle_review_wave(pool,jobs,sources)
+     # Actual usage can release enough of the reservation for additional reviews.
+     counted=deferred
   self.ledger['status']='completed' if len(self.decisions)==len(self.records) else ('budget_limit' if not self.expired() else 'time_limit')
   self.ledger['unreviewed']=len(self.records)-len(self.decisions)
   self.persist('Save automatic photo pipeline completion or bounded checkpoint')

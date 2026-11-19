@@ -448,7 +448,7 @@ Production is not deployed by this campaign.
                 if self.pending_records():
                     self.review()
                     if self.ledger['status'] == 'budget_limit':
-                        raise CampaignStop('budget_limit', 'Cumulative reservation limit reached; target remains incomplete')
+                        raise CampaignStop('budget_limit', 'Remaining cumulative balance could not reserve another eligible queued review')
                     continue
                 if active:
                     active.update(status='completed', finishedAt=a.now())
