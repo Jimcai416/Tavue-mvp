@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCGZvdqiZGMYvpHcbk9j",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Crusty golden baguette, split and toasted\",\n    \"Sliced seared meat, brown-crusted exterior, pale interior\",\n    \"Sliced onions, lightly caramelised\",\n    \"Green scallion/chives visible\",\n    \"Orange/red small dice visible (carrot or chilli)\",\n    \"Finished, exposed sandwich on light background\",\n    \"Sharp detail in both source and thumbnail\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows sandwich cross-section with layered meat and toppings\",\n    \"Golden bread crust prominent and appetising\",\n    \"Meat, onions, greens all legible at reduced size\",\n    \"Colour and composition consistent with full source\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title is 'Bánh mì' (generic Vietnamese sandwich); description field also states only 'Bánh mì' without specific variant or meat qualifier\",\n    \"Visible meat appears to be seared/sliced, consistent with chả cá (fish cake) or similar, but filename suggests 'chả cá' – this is NOT confirmed in the supplied title or description fields\",\n    \"Exact meat species cannot be visually confirmed from appearance alone and is not explicitly named in source title or description\",\n    \"No protein species declared in the authoritative source metadata (title/description)\"\n  ],\n  \"reason\": \"Image quality, sharpness, lighting, composition and appeal all meet standards; photograph and phone thumbnail are clear and consistent. However, the source title and description field both state only generic 'Bánh mì' without naming a specific protein, meat species, or variant qualifier. The filename contains 'chả cá' but filenames are untrusted metadata. Without an explicit protein declaration in the title or description, identity cannot be confirmed and the dish variant cannot be preserved. Holding pending clarification of exact dish name and protein species from a trusted source field.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1772,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 586,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

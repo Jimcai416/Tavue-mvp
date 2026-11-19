@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCGaK3iexSbFjp7kiBbC",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Crusty golden baguette, split lengthwise\",\n    \"Cooked fish cake (chả cá) pieces, visibly golden-brown and cubed\",\n    \"Fresh cucumber slices, bright green\",\n    \"Cilantro/herbs visible\",\n    \"White plate presentation\",\n    \"Sharp detail of filling components\"\n  ],\n  \"phone_observations\": [\n    \"Sandwich clearly visible in thumbnail\",\n    \"Golden baguette and filling legible\",\n    \"Cucumber and protein elements distinguishable\",\n    \"Finished, exposed dish confirmed\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title contains filename elements ('File:', date '24 tháng 12 năm 2018', photographer attribution) that must be stripped to identify canonical name\",\n    \"Cleaned title would be 'Bánh mì chả cá Ánh Hồng' but 'Ánh Hồng' appears to be a restaurant/vendor name, not a standard variant descriptor\",\n    \"Exact canonical phrase extraction ambiguous: whether to include vendor name or use standard 'Bánh mì chả cá'\"\n  ],\n  \"reason\": \"Image quality, sharpness, lighting, composition and phone thumbnail legibility all meet acceptance thresholds. Dish is visibly finished, appetising, and clearly a bánh mì chả cá (Vietnamese fish cake sandwich) with fresh components. However, the source metadata format with embedded filename, date and photographer attribution prevents confident extraction of a canonical name that meets specification requirements. The presence of what appears to be a vendor/restaurant name ('Ánh Hồng') in the title creates ambiguity about whether this is a meaningful variant qualifier or marketing attribution. Hold pending clarification of proper canonical name extraction from source title.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1752,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 548,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

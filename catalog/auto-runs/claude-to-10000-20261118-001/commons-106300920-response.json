@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCGaFH1gANiqABwP28rD",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Steamed rice cakes (ketupat) in bamboo basket\",\n    \"Dipping sauce in white bowl with wooden spoon\",\n    \"Natural daylight, well-exposed\",\n    \"Appetizing presentation\"\n  ],\n  \"phone_observations\": [\n    \"Ketupat and dipping sauce clearly visible\",\n    \"Sauce colour and texture legible\",\n    \"Composition readable at thumbnail scale\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Sauce identity cannot be visually confirmed as 'sambal ikan bilis' (anchovy sambal). The dark brown sauce is consistent with many Southeast Asian condiments but ikan bilis (anchovies) are not visible and cannot be identified from appearance alone.\",\n    \"Source title explicitly names 'ikan bilis' (anchovies) but this is a hidden flavour not visually proven in the photograph.\"\n  ],\n  \"reason\": \"Rejection: The source description claims 'sambal ikan bilis' (anchovy sambal), but anchovies are not visible in the sauce and cannot be identified from visual inspection alone. Per instructions, hidden flavours may be source-declared but cannot be visually proven. The sauce could be any dark condiment. Identity cannot be verified against the exact source claim. All quality and photograph checks pass, but the identity check fails due to unverifiable protein component.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1770,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 450,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
