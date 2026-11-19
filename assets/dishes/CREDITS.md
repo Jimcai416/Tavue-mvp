@@ -8364,3 +8364,8 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 - **Kalakand sweet made of milk** — VikasHegde. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Kalakand01.JPG). Local asset: `reviewed-commons-37988182.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Kalakand sweet** — Pradeep717. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Kalakand1.JPG). Local asset: `reviewed-commons-27563583.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Kalakand of Salem** — Thamizhpparithi Maari. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Kalakand_of_Salem.jpg). Local asset: `reviewed-commons-40619602.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Bhajia and Tea** — Mrudit161187. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Bhajia_and_Tea.jpg). Local asset: `reviewed-commons-40992432.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Moong Dal Bhajia** — Mdsmds0. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Moong_Dal_Bhajia.jpg). Local asset: `reviewed-commons-40921286.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
