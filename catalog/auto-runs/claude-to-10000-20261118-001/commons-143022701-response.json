@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCfwdgeqeYUKcRwxyBM1",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Finished, cooked dish with golden-brown charred topping\",\n    \"Served on a ceramic plate with paper wrapper bearing M&S branding\",\n    \"Sharp detail and natural colour in both full image and phone thumbnail\",\n    \"Appetising appearance with visible melted cheese and chutney\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows the finished cheese rarebit crumpet\",\n    \"Golden topping with dark chutney spots visible\",\n    \"Plate and wrapper readable in centre-cover frame\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title describes 'Giant cheese rarebit crumpet' but metadata format includes 'File:' prefix and date stamp, which are explicitly untrusted\",\n    \"Rarebit traditionally contains cheese sauce but no specific protein animal explicitly named in source title or description\",\n    \"Menu description mentions only 'festive chutney' without protein specification\",\n    \"Cannot verify 'rarebit' as a finished photographic dish category without explicit animal protein declaration in source text\"\n  ],\n  \"reason\": \"While the photograph is of high quality, sharp, well-lit and appetising, the source title and description do not contain an explicit protein declaration. 'Cheese rarebit' is a traditional dish name but the source metadata does not name the specific animal protein (typically cheddar or other cheese, historically sometimes with beer or ale, but no animal protein explicitly stated). The title format includes rejected metadata elements (File: prefix, date). Identity cannot be confirmed as matching a specific source description without an unambiguous, explicitly-named protein component or confirmed regional variant. Hold for source clarification on the exact dish identity and any animal protein content.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1761,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 525,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
