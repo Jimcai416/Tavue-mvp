@@ -9121,3 +9121,9 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Kuzu kapama with lamb shank** — E4024. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Kuzu_kapama_with_lamb_shank.jpg). Local asset: `reviewed-commons-49297128.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Fried Rice with Fried Chicken** — BobbySire. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Fried_Rice_with_Fried_Chicken.jpg). Local asset: `reviewed-commons-87201168.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Fried rice with chicken** — [Vee Satayamas  from Bangkok, Thailand](https://www.flickr.com/people/93002434@N00). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Fried_rice_with_chicken_(17234644521).jpg). Local asset: `reviewed-commons-83172312.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Fried rice with potatoes** — Gaurav Dhwaj Khadka. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Fried_rice_with_potatoes.jpg). Local asset: `reviewed-commons-78260803.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
