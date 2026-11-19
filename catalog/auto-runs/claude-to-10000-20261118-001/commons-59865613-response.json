@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBrhRkhkT52Pyme9aNW5",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Brown glossy sauce over protein\",\n    \"White rice base\",\n    \"Green onion garnish visible\",\n    \"Plate service, appears freshly plated\"\n  ],\n  \"phone_observations\": [\n    \"Sauce-covered protein clearly visible\",\n    \"Rice base readable\",\n    \"Garnish visible\",\n    \"Overall composition legible at thumbnail size\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Protein species cannot be determined from visible form alone—the meat is fully coated in sauce and no raw edge, texture or anatomical feature confirms whether it is beef patty, chicken, pork or other species\",\n    \"Source title 'Loco moco' is a Hawaiian dish traditionally made with beef patty, but visual appearance does not definitively prove beef rather than another protein\",\n    \"No explicit source quote names the specific animal protein\"\n  ],\n  \"reason\": \"Although the photograph is sharp, well-lit, appetising and the phone thumbnail is clear and readable, the protein identity cannot be visually verified. The meat is entirely covered by brown gravy, making species determination impossible from appearance alone. The source title 'Loco moco' implies a traditional beef preparation, but no explicit source quote states 'beef' or names any other animal protein. Under the strict rule that proteins may include only named animals with an exact source quote explicitly naming each animal—and that ambiguous meat species or appearance-based inference is not permitted—protein_evidence cannot be populated. This creates an uncertainty that blocks acceptance. Identity check fails because the protein cannot be confirmed as matching the dish intent.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1516,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 494,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

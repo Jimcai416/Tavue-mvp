@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBrhRmC5BvM28rhFa97j",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Raw/preparation-stage seafood (uncooked salmon pieces visible)\",\n    \"No finished plated dish evident\",\n    \"Components arranged but not prepared as a cohesive served dish\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail shows raw salmon cubes and ingredient components\",\n    \"Plating arrangement is visible but dish appears incomplete/raw\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title claims 'Poke bowl' but image shows raw ingredient assembly, not a finished poke bowl dish\",\n    \"Salmon appears uncooked/raw rather than marinated and finished\",\n    \"Identity contradiction: title describes a finished dish type, but photograph shows preparation stage\"\n  ],\n  \"reason\": \"Rejection: This image shows raw, uncooked seafood in a preparation or ingredient assembly stage, not a finished, exposed, cooked or properly prepared poke bowl dish. The raw salmon pieces are plainly visible and unmarinaded. The source title claims 'Poke bowl' but the photograph contradicts this—a poke bowl should show finished, seasoned, marinated fish as a cohesive prepared dish. This fails the requirement for a 'finished, exposed, likely photographic dish' and meets the rejection criterion 'raw/preparation stages'. All checks do not pass, particularly identity (source description does not match photograph content).\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 2042,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 447,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
