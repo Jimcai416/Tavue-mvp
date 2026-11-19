@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBe8G6CijVjBKTumfYtC",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": \"carne de cordero mechada, rabanitos, hierbabuena y salsa\",\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 5,\n    \"appeal\": 5\n  },\n  \"visible_support\": [\n    \"Brown crusty bread roll, split and filled\",\n    \"Shredded meat (tan/brown, consistent with shredded lamb)\",\n    \"Radish slices (pink/white, visible and fresh)\",\n    \"Fresh mint leaves (green, identifiable)\",\n    \"Creamy sauce or cheese component visible\",\n    \"Professional plating on patterned paper\"\n  ],\n  \"phone_observations\": [\n    \"Sandwich clearly visible and prominent in thumbnail\",\n    \"Filled bread readable with internal components distinguishable\",\n    \"Radish slices and herbs visible even at small size\",\n    \"Natural colours preserved in reduction\",\n    \"Sharp enough to identify key ingredient features\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source metadata lists 'cordero' (lamb/mutton) but metadata is untrusted evidence; visual appearance is consistent with shredded meat but species cannot be definitively confirmed from photograph alone\",\n    \"Exact dish name 'Bocadillo de El Paquito' is a named regional variant with uncertain wider recognition; source title contains filename artifact 'File:' prefix\",\n    \"Sauce type is visible but not specifically identifiable from image alone\"\n  ],\n  \"reason\": \"Image quality, sharpness, composition and phone thumbnail all excellent. However, protein_evidence cannot be populated: although source description explicitly names 'cordero' (lamb/mutton), the metadata is untrusted and the visual appearance of shredded meat alone cannot definitively confirm species. The ambiguity between lamb and mutton in source terminology creates doubt. The source title contains 'File:' prefix (filename artifact) and the specific establishment name 'El Paquito' makes this a unique credited dish variant. Holding pending clarification of protein identity or acceptance of the source-declared cordero with explicit acknowledgement of the mutton/lamb ambiguity that cannot be visually resolved.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 2008,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 589,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
