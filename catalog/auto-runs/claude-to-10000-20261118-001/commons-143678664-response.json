@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChD8BS8o6smAj7iJbKufv",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 3,\n    \"lighting\": 3,\n    \"composition\": 2,\n    \"appeal\": 3\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Grilled meat visible but insufficient detail in thumbnail to confirm finished dish identity\",\n    \"Subject is prominent in thumbnail frame\",\n    \"Meat appears cooked with charring\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'pork chops' (plural) but source description uses singular 'pork chop' — inconsistent identity\",\n    \"Photograph shows multiple meat pieces on grill grate; unclear if these are distinct chops or a single preparation\",\n    \"Severe motion blur and out-of-focus background in full image compromises sharpness assessment\",\n    \"Subject matter appears to be in-process cooking on grill rather than a finished, plated dish\",\n    \"No clear evidence of a finished, exposed dish ready for service — meat remains on cooking grate\",\n    \"Lighting creates uneven exposure across meat pieces; some areas muddy and underexposed\"\n  ],\n  \"reason\": \"Rejection due to multiple critical failures: (1) The photograph appears to show meat actively cooking on a grill grate rather than a finished, exposed dish; (2) Sharpness score 3 — significant blur and focus issues throughout the full image fail the ≥4 minimum; (3) Composition score 2 — no coherent plating or dish presentation; (4) The source metadata is internally contradictory (singular vs. plural 'chop/chops'); (5) Identity cannot be confirmed as matching a specific finished dish. The image presents a preparation stage or in-progress cooking rather than appetising finished food suitable for menu documentation.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1429,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 502,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
