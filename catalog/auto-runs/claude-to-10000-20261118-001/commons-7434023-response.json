@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBJdLWqTwx7QAfxcUJXz",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 3,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Sliced potatoes visible and prominent\",\n    \"Golden-brown cooked surface with seasoning\",\n    \"Onion pieces visible among potatoes\",\n    \"Liquid/sauce present in dish\",\n    \"Cooked in a pot or cooking vessel\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows potato slices dominating the dish\",\n    \"Golden colour and cooked appearance readable\",\n    \"Seasoning visible on potato surfaces\",\n    \"Essential components visible at thumbnail scale\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source description states 'Baked lamb or mutton' but no meat is visibly identifiable in the photograph—potatoes and onions are the only clearly distinguishable components\",\n    \"The ambiguity between lamb and mutton in the source description cannot be resolved by visual inspection alone\",\n    \"No visible meat pieces, bones, or protein-containing elements that would confirm either lamb or mutton is present in this dish\"\n  ],\n  \"reason\": \"Hold: The source description claims 'Baked lamb or mutton with potatoes and onions', but the photograph shows only potatoes, onions, and sauce—no visible meat. The required protein cannot be visually confirmed in either the full photograph or thumbnail. The source contains both an ambiguous meat species declaration (lamb or mutton) and a visual-to-text contradiction. Per rules, unknown meat species and source contradictions require hold. The photograph alone depicts a potato and onion dish; the lamb/mutton claim is undeclared by visual evidence.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1518,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 492,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
