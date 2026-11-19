@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChD6AH36H1FrBewtpNG45",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": \"Sombe sauce with meat and ovacado in it. Sombe is made using pounded cassava leaves and prepared with palm oil and any type of meat of fish.\",\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Dark green pounded cassava leaves visible as primary component\",\n    \"Yellow/pale items consistent with avocado slices\",\n    \"Oil-based sauce coating the leaves\",\n    \"Blue-rimmed ceramic plate, home cooking context\",\n    \"Both full image and phone thumbnail show consistent composition\"\n  ],\n  \"phone_observations\": [\n    \"Plate fills most of frame at appropriate scale\",\n    \"Green leafy mass and yellow avocado pieces clearly distinguishable\",\n    \"Essentials (sombe and avocado) readable at thumbnail size\",\n    \"No clipping of key components\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source metadata states 'any type of meat of fish' but photograph shows no visually identifiable meat or fish; no discrete protein component is distinguishable in either image\",\n    \"Avocado present but described as 'ovacado' (possible typo) in source\",\n    \"No specific meat/fish species named in source description—only generic 'any type' qualifier\"\n  ],\n  \"reason\": \"Cannot accept without explicit protein identification. Source description includes meat/fish as optional ingredients ('any type of meat of fish') but no meat or fish is visually identifiable in the photograph—only sombe (pounded cassava leaves with palm oil) and what appears to be avocado are visible. Per rules, proteins may only be included with an exact source quote explicitly naming each animal; generic references and unconfirmed presence do not qualify. The contradiction between source claim of meat presence and visual evidence of its absence, combined with lack of specific species naming, requires hold pending clarification.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1784,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 542,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

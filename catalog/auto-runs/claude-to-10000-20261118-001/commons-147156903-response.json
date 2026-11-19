@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChD6A5vMzPMPe8je2A6V9",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": \"Sombe sauce with meat and ovacado in it. Sombe is made using pounded cassava leaves and prepared with palm oil and any type of meat of fish.\",\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [\n    \"Two ceramic plates with blue decoration on tiled surface\",\n    \"Left plate: dark green sauce with oil layer and what appears to be avocado pieces\",\n    \"Right plate: rounded grey-brown mound of kalo (cassava/pounded cassava product)\",\n    \"Natural home cooking presentation\",\n    \"Phone thumbnail clearly shows both components\"\n  ],\n  \"phone_observations\": [\n    \"Both dishes sharply visible in thumbnail\",\n    \"Sauce and kalo distinctly recognizable\",\n    \"Colour and form match full image\",\n    \"Composition aids identification\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source states 'any type of meat of fish' but no specific animal is visibly identifiable or named in title/description\",\n    \"Avocado presence asserted in description ('ovacado') but not clearly distinguished in sauce visual\",\n    \"Cannot determine if meat/fish is actually present in the visible sauce or confirm species\"\n  ],\n  \"reason\": \"Identity check fails: source description declares 'any type of meat of fish' without naming a specific animal. Protein rules require an exact case-sensitive source quote explicitly naming each animal; generic terms and unspecified species require hold. Visual inspection cannot confirm meat presence or species in the dark sauce. Avocado visibility is ambiguous. All quality and photograph scores meet threshold, but protein_evidence cannot be populated with a specific allowed category (chicken/beef/pork/duck/lamb/seafood), and meaningful uncertainties remain. Hold pending clarification of specific protein identity in authoritative source metadata.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1784,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 528,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
