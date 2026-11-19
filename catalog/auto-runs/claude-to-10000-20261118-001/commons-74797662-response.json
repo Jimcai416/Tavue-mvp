@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBwjfPdCDpZxTGo44ahK",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [\n    \"Cooked instant noodles (ramen-style curly pasta) on white plate\",\n    \"Soft-boiled egg halves visible at top rear\",\n    \"Citrus slice (lime or calamansi) garnish on egg\",\n    \"Fork resting on noodles\",\n    \"Visible green onion and red seasoning scattered throughout\",\n    \"Plate against black background\"\n  ],\n  \"phone_observations\": [\n    \"Noodle mass dominates thumbnail\",\n    \"Egg and garnish visible but small\",\n    \"Overall composition recognisable as instant noodle dish\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title describes 'Lucky Me instant pancit canton noodles' – a branded instant packet product, not a finished cooked dish prepared from fresh ingredients\",\n    \"Instant pancit canton is a commercial dry noodle product category, not a named dish in the sense of home cooking or street food\",\n    \"Identity conflict: file metadata and description refer to a branded instant noodle brand/product line rather than a specific identifiable dish name\",\n    \"While the photograph shows a finished, cooked dish, the source identity resolves to a mass-produced instant packet rather than a canonical named dish\",\n    \"The dish itself (cooked instant noodles with egg) is appetising and well-photographed, but the source framing as a branded product contradicts dish-level identity\"\n  ],\n  \"reason\": \"Reject: Source identity is 'Lucky Me instant pancit canton noodles (Philippines)' – a branded instant packet product category, not a canonical named dish. Although the photograph shows a finished, well-cooked noodle plate with soft-boiled egg and calamansi garnish (appetising, sharp, well-lit), Tavue's collection preserves named dishes, not commercial instant noodle brands. The canonical_name must be a specific dish phrase from source title/description; here the source resolves to product packaging branding rather than dish identity. Instant pancit canton prepared at home may qualify if framed as 'pancit canton' (the dish), but this submission's source metadata anchors to the branded product itself, creating identity conflict. Home cooking and street food are welcome; branded instant packets are not.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1746,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 654,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
