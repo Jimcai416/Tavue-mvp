@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCoUbHUVVDop9PPfmxPW",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 2,\n    \"composition\": 1,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows an indistinct pink/red wet mass with unclear component separation\",\n    \"Chopped ingredients are not discretely visible or readable in phone view\",\n    \"No appetising presentation; subject appears as undifferentiated pulp\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Image shows a preparation stage or macro close-up of chopped salad components in dressing, not a finished, plated dish\",\n    \"Extreme macro photography obscures dish identity and makes components unrecognisable\",\n    \"Subject is fundamentally a raw/preparation state covered in liquid, not a finished exposed dish\"\n  ],\n  \"reason\": \"Reject: This is a macro/close-up photograph of chopped salad ingredients mid-preparation or in their component state, not a finished plated dish. The image shows raw vegetable pieces (cucumber, tomato, pepper) in vinaigrette dressing at extreme magnification. Essential checks fail: (1) not a finished, exposed dish—it is a preparation stage; (2) sharpness, lighting and composition scores all ≤2, well below the required ≥4 threshold; (3) phone thumbnail shows undifferentiated wet mass with no readable essential components; (4) appeal is nil. While the source description is accurate, the photograph itself does not meet Tavue's standards for a finished food photograph.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1748,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 454,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
