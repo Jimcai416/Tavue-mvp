@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBZEzAcjfuQSsCQa1QCh",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 2,\n    \"composition\": 1,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows interior kitchen/prep area, not a finished dish\",\n    \"Kitchen counter, appliances, and workspace visible\",\n    \"No food subject identifiable in phone thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title claims 'Sucuk döner' but no finished döner dish is visible in either image\",\n    \"Full photograph shows an empty commercial kitchen with no plated food\",\n    \"Mismatch between declared dish identity and actual photograph content\"\n  ],\n  \"reason\": \"Rejection: The photograph is a kitchen interior/workspace image, not a finished food photograph. Despite the source title declaring 'Sucuk döner', no cooked or plated dish is visible in the full image or phone thumbnail. The subject is entirely absent—only kitchen infrastructure, counters, appliances, and refrigeration are shown. This fails identity verification, photograph type requirement (kitchen prep area, not finished dish), phone thumbnail requirement (no food subject), and quality standards. A dish photograph must show the actual food item, not just the venue.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1375,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 382,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

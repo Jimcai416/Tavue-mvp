@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBZEkowR8YpFJG5F2QDW",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Red-brown cured sausages (sucuk) clearly visible in upper display\",\n    \"Sliced cured meat (kavurma) layered below in rolls\",\n    \"Professional deli/market presentation\",\n    \"Sharp detail and natural colour in both full image and phone thumbnail\"\n  ],\n  \"phone_observations\": [\n    \"Sucuk rounds and kavurma slices clearly distinguishable\",\n    \"Prominent display with good colour rendition\",\n    \"Essential components visible and identifiable\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Species of meat in sucuk and kavurma not explicitly named in source description—both are cured meat products whose animal origin is not stated\",\n    \"Source title lists two distinct items (sucuk and kavurma) but does not name the protein animals\",\n    \"Sucuk traditionally contains beef and/or lamb; kavurma traditionally contains lamb or mutton—none confirmed by explicit source text\"\n  ],\n  \"reason\": \"Reject: Although the photograph is sharp, well-lit, appetising and professionally presented, and the identity as Turkish sucuk and kavurma from Kayseri is clear, the source title/description does not explicitly name the animal protein(s) in either product. The rules require an exact source quote naming each animal in the protein category. Inferring beef, lamb or mutton from tradition or appearance is not permitted. The identity check fails due to missing protein specification in source metadata, triggering a hold condition.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1734,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 474,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
