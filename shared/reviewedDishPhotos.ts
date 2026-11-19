@@ -100404,5 +100404,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 640,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-91964798",
+    "title": "File:Warm Colors- my Mom's Hungarian Lecsó.jpg",
+    "author": "zeevveez",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Warm_Colors-_my_Mom%27s_Hungarian_Lecs%C3%B3.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/19/Warm_Colors-_my_Mom%27s_Hungarian_Lecs%C3%B3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "79f7d620821ce75ec496136724b8e50efd76edf8",
+    "name": "Hungarian Lecsó",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-91964798.jpg",
+    "assetSha256": "0b6b0162dca1ce481ebce684f69cae48de53ac5c23f3cca171e4baaefcd41675",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 640,
+    "requiresExactMenuName": true
   }
 ];

@@ -7451,3 +7451,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 
 - **Albanian corn porridge with ricotta** — Rrezjaediellit. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:F%C3%ABrges%C3%AB_me_miell_misri_dhe_gjiz%C3%AB.jpg). Local asset: `reviewed-commons-163397173.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Tavë dheu, perime** — Berishasinan. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Tav%C3%AB_dheu,_perime.jpg). Local asset: `reviewed-commons-191948594.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Hungarian Lecsó** — zeevveez. [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Warm_Colors-_my_Mom%27s_Hungarian_Lecs%C3%B3.jpg). Local asset: `reviewed-commons-91964798.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
