@@ -122119,5 +122119,29 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "height": 540,
     "requiresExactMenuName": true,
     "authorUrl": "https://www.wikidata.org/wiki/Q99741741"
+  },
+  {
+    "id": "commons-46824627",
+    "title": "File:Beef carpaccio at Sonoma Grille - Sarah Stierch.jpg",
+    "author": "Missvain",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Beef_carpaccio_at_Sonoma_Grille_-_Sarah_Stierch.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Beef_carpaccio_at_Sonoma_Grille_-_Sarah_Stierch.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "3105268afde31c35acfc1560413aa56474e468a2",
+    "name": "Beef carpaccio",
+    "aliases": [],
+    "proteins": [
+      "beef"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-46824627.jpg",
+    "assetSha256": "5d7b92a10d5aeda8332d4f450424c582e2f27d42fd7aff6e2a05c0150d688e1b",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 960,
+    "requiresExactMenuName": true
   }
 ];
