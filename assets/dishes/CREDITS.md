@@ -7369,3 +7369,8 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Bjelajski kiseli kupus** — Zavičajac. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Bjelajski_kiseli_kupus_2.jpg). Local asset: `reviewed-commons-184501102.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Kifli, a traditional Hungarian pastry** — Hu Totya. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Kifli.jpg). Local asset: `reviewed-commons-3159678.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Kürbis-Käse-Knödel auf Rahmwirsing** — Simon Legner ( User:simon04 ). [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:K%C3%BCrbis-K%C3%A4se-Kn%C3%B6del_auf_Rahmwirsing_(IMG_20251105_115313).jpg). Local asset: `reviewed-commons-192885273.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
