@@ -103950,5 +103950,29 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 731,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-18411856",
+    "title": "File:Ojakhuri.JPG",
+    "author": "Hippietrail",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ojakhuri.JPG",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Ojakhuri.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "58903fda01fd1f5d83141f0e2de5ddf919868f49",
+    "name": "Ojakhuri",
+    "aliases": [],
+    "proteins": [
+      "pork"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-18411856.jpg",
+    "assetSha256": "3f9e47f2b3da93f7b4d1fdbb22ba67aa13aca817cf23812594da3ba670ca5123",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];

@@ -7766,3 +7766,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 - **POON CHOI** — Dinkun Chen. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:POON_CHOI_(5).jpg). Local asset: `reviewed-commons-184246904.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **焼きうどん** — [Adonis Chen  from  Taiwan  台北市 萬華區貴陽街二段 三味食堂](https://www.flickr.com/photos/hcc/). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Yaki_udon_by_Adonis_Chen_in_Taipei.jpg). Local asset: `reviewed-commons-3879121.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Wonton noodles from Wok It** — PaulGorduiz106. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Wonton_noodles_from_Wok_It_(11-20-2022).jpg). Local asset: `reviewed-commons-125738786.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Ojakhuri** — Hippietrail. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Ojakhuri.JPG). Local asset: `reviewed-commons-18411856.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
