@@ -10467,3 +10467,8 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Fiori di zucca in pastella, fritti** — fugzu. [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Fiori_di_zucca_in_pastella,_fritti.jpg). Local asset: `reviewed-commons-31606442.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Dublin Coddle and Guinness** — Anke Klitzing. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Coddle_and_Guinness.jpg). Local asset: `reviewed-commons-128498826.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Coddle and Irish Soda bread** — [Kari Haley  from Eugene, OR, USA](https://www.flickr.com/photos/93836384@N00). [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:Coddle_and_Irish_Soda_bread.jpg). Local asset: `reviewed-commons-11041138.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
