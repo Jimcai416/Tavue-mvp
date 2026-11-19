@@ -10049,3 +10049,8 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 - **Tequeños** — Rodolfo pimentel. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Los_mas_esperados_en_las_fiestas_Teque%C3%B1os.jpg). Local asset: `reviewed-commons-100534505.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Bistecca alla Fiorentina** — Lucarelli. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/); [source](https://commons.wikimedia.org/wiki/File:Bistecca_alla_Fiorentina.jpg). Local asset: `reviewed-commons-982985.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Cachopo Tierra Astur** — Chicoasturias. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Cachopo_Tierra_Astur1.JPG). Local asset: `reviewed-commons-4952945.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Bánh khúc** — Thu trag9x (Lê Thu Trang). [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:B%C3%A1nh_kh%C3%BAc.JPG). Local asset: `reviewed-commons-32045742.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Kuih ketayap** — Adbhdlila. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Ketayap_mama.jpg). Local asset: `reviewed-commons-106109567.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
