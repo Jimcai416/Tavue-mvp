@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBWxBV3WsFNeV5FCXTqZ",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Shredded, cooked meat component visible throughout\",\n    \"Green peppers (long chiles) clearly present\",\n    \"Red/orange peppers visible\",\n    \"Onions visible in the mixture\",\n    \"Brown, adobo-style gravy evident\",\n    \"Finished dish plating on white ceramic plate\",\n    \"Natural daylight photography\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows the full plated dish\",\n    \"Shredded meat texture readable\",\n    \"Vegetable components (green peppers) visible\",\n    \"Sauce/gravy visible in reduction\",\n    \"No clipping of essential components\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'Adobong Puso ng Saging' (Banana Blossom Adobo), but the visible dish appears to be shredded meat with vegetables in adobo sauce—not banana blossoms\",\n    \"No banana blossom (puso ng saging) is visually evident; the texture and appearance strongly suggest shredded meat (possibly pork or chicken), not the pale, fibrous texture of cooked banana blossoms\",\n    \"Source title/visible form mismatch: metadata describes a banana blossom dish, but photograph shows what appears to be a meat-based adobo\",\n    \"No explicit protein identification in source title; cannot safely assign chicken/beef/pork/duck/lamb/seafood without clear visual or textual evidence\"\n  ],\n  \"reason\": \"Source-identity mismatch. The title 'Adobong Puso ng Saging' refers to a banana blossom adobo, but the photograph displays shredded meat with peppers and onions in adobo gravy—distinctly different dishes. Banana blossoms have a characteristic pale, fibrous appearance when cooked; this image shows what appears to be shredded meat. Without explicit protein species named in the source description and with a clear contradiction between title and visible form, identity cannot be confirmed. Hold required per protocol.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1876,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 613,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
