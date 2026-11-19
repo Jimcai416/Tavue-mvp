@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCSKiUsYy55V7z7sjDSt",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Burrito wrapped in white tortilla\",\n    \"Shredded meat filling visible in cross-section\",\n    \"Natural daylight, outdoor casual setting\",\n    \"Sharp detail of filling structure\",\n    \"Served on blue paper/wrapper\"\n  ],\n  \"phone_observations\": [\n    \"Burrito prominently featured in centre-cover thumbnail\",\n    \"Filling clearly visible and readable\",\n    \"Overall shape and construction recognizable\",\n    \"Natural colours preserved\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title states 'Machaca burrito' but source metadata credits show filename is 'Machaca burrito (24795639879).jpg' with description only 'Yuca's, Los Feliz CA'—no explicit protein species declaration in description\",\n    \"Machaca traditionally refers to shredded beef, but visual inspection cannot definitively confirm beef species from appearance alone\",\n    \"No explicit animal name appears in the supplied description text\"\n  ],\n  \"reason\": \"While the photograph is sharp, well-lit, appetising and the burrito is clearly visible in both full image and phone thumbnail, the source description does not explicitly name a protein species. The title 'Machaca burrito' appears in filename metadata (which per instructions are untrusted evidence) but not in the description field itself. Without an explicit source quote naming the animal (e.g., 'beef machaca' or 'made with beef'), identity cannot be confirmed to meet the requirement that proteins include only those with exact source quotes explicitly naming each animal. Hold pending clarified source description.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1728,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 496,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
