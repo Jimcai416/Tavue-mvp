@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBjTPtsWqfAAZXhhdz1m",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [\n    \"Seafood components (crustacean claws, molluscs) clearly visible\",\n    \"Layered arrangement visible in full image\",\n    \"Plastic wrapping indicates retail/frozen product\",\n    \"Label visible with metadata\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail shows raw/frozen state with visible wrapping\",\n    \"No cooked or finished dish appearance\",\n    \"Product packaging dominates thumbnail view\",\n    \"Insufficient detail of prepared dish quality\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title references 'Frozen Poon Choi' but this is a raw/frozen product still in plastic wrapping, not a finished, exposed dish\",\n    \"Identity cannot be confirmed as a prepared food dish—appears to be uncooked frozen seafood platter still in retail packaging\",\n    \"No evidence of cooking, preparation completion, or service presentation\"\n  ],\n  \"reason\": \"Rejection: This is a frozen, uncooked seafood product still wrapped in plastic wrapping and in retail packaging, not a finished, exposed, prepared dish. The guidelines require acceptance of a 'finished, exposed, likely photographic dish'—this explicitly shows raw/frozen ingredients in their original packaging state. The phone thumbnail reinforces this as a product shot rather than a finished food photograph. Poon Choi is a traditional dish, but this image documents the retail frozen product, not the prepared result.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1640,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 461,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
