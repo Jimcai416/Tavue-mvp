@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCqEeAxYD1RmqhnhdMhp",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 3,\n    \"composition\": 2,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows only architectural exterior at night with illuminated storefront and water reflection\",\n    \"No food subject visible in phone thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title references 'Pastis & Water' but no finished dish visible\",\n    \"Image is a restaurant storefront photograph, not a food photograph\",\n    \"No menu item, prepared food, or plated dish present\"\n  ],\n  \"reason\": \"Source title 'Pastis & Water' refers to a beverage pairing or restaurant name, but the supplied photograph is an exterior architectural shot of a Pastis restaurant in NYC at night. No food dish is visible in either the full source image or the phone thumbnail. This is not a food photograph suitable for Tavue review—it is a location/storefront photograph. All quality, photograph, phone, and identity checks fail because there is no finished, exposed, appetising dish present.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1630,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 352,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
