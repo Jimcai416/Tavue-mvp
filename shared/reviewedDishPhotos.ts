@@ -116225,5 +116225,28 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 640,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-75421293",
+    "title": "File:Sourdough Bread Bowl + Clam Chowder Soup (5838235665).jpg",
+    "author": "Prayitno / Thank you for (12 millions +) view  from Los Angeles, USA",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sourdough_Bread_Bowl_%2B_Clam_Chowder_Soup_(5838235665).jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Sourdough_Bread_Bowl_%2B_Clam_Chowder_Soup_%285838235665%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "a63b784bc90b0baf21340e2f0f400fdacc15e9b6",
+    "name": "Sourdough Bread Bowl + Clam Chowder Soup",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-75421293.jpg",
+    "assetSha256": "bd0aa035fedd65816cd0fde588479a68b89d8cf56d17dfcb8f8f557e19437216",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 686,
+    "requiresExactMenuName": true,
+    "authorUrl": "https://www.flickr.com/people/34128007@N04"
   }
 ];
