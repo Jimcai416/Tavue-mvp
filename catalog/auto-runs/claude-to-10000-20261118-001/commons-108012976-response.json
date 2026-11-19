@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBagZUQh28rU5cXzyerH",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 5,\n    \"composition\": 5,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Ingredient spice layout visible in thumbnail\",\n    \"Individual spices and aromatics clearly distinguished\",\n    \"No finished dish visible in phone frame\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title/description refers to 'Rawon' (a beef soup dish) but the photograph shows only raw, uncooked ingredients and spices in preparation stage, not a finished exposed dish\",\n    \"No finished, cooked dish visible in either full source or phone thumbnail\",\n    \"Image is a mise en place/ingredient display, not a plated or served food photograph\"\n  ],\n  \"reason\": \"Rejection: This is a preparation-stage ingredient photograph, not a finished dish. The source description identifies 'Rawon' as a traditional beef soup from Surabaya, but the image shows only raw spices, herbs, and aromatics (sugar, garlic, shallots, keluak, candlenut, coriander, pepper, lemongrass, ginger, kencur, galangal, lime leaves, bay leaves) arranged for display. No cooked, plated, or exposed finished dish is visible in the full source or phone thumbnail. The photograph fails the core requirement of presenting a finished, exposed, likely photographic dish. Ingredient styling does not substitute for a completed food photograph.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1713,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 440,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
