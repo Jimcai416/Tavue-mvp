@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCBp6BsfDpXqNu1p43FF",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Three distinct plated components visible: pasta, breaded/cheese-topped items, and sauce\",\n    \"Fettuccine noodles clearly identifiable in centre\",\n    \"Two breaded, cheese-topped items with red sauce visible on left and right\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail shows plated dish with three components\",\n    \"Pasta and two breaded items recognizable\",\n    \"Overall composition matches full source\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title states 'Eggplant Parmigiana (substituted for the usual Chicken Parmigiana)' – the substitution creates ambiguity about the actual dish identity. The title acknowledges eggplant as a substitution rather than the standard preparation.\",\n    \"While eggplant parmigiana is a vegetarian dish and the source explicitly names eggplant, the parenthetical reference to Chicken Parmigiana as the 'usual' version introduces confusion about the canonical identity of this specific plate.\",\n    \"The source description prioritizes the substitution fact rather than establishing eggplant parmigiana as a primary, unqualified dish variant.\"\n  ],\n  \"reason\": \"Reject: Source metadata explicitly frames the eggplant parmigiana as a substitution (\\\"substituted for the usual Chicken Parmigiana\\\"), which creates meaningful ambiguity about the dish's identity rather than establishing it as a confident, standard variant. This departure from canonical preparation contradicts the requirement for clear identity agreement. The substitution emphasis in the source description makes it unsuitable for confident dish classification.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1850,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 510,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
