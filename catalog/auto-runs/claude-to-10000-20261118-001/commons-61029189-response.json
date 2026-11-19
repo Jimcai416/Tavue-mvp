@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBscEdgrTTye5ZcdbLMJ",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Orange/reddish broth characteristic of pindang\",\n    \"White ceramic bowl\",\n    \"Green herb garnish (likely cilantro/scallion)\",\n    \"Yellow potato visible\",\n    \"Light-coloured protein in broth\"\n  ],\n  \"phone_observations\": [\n    \"Broth and components clearly visible in thumbnail\",\n    \"Bowl shape and garnish recognizable\",\n    \"Dish identity readable from thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title states 'Pindang ikan patin (Pangasius fish)' but Pangasius is not an allowed protein category\",\n    \"Seafood category exists but source names a specific fish species (patin/Pangasius) not in the allowed list (chicken/beef/pork/duck/lamb/seafood require exact species match to permitted categories)\",\n    \"Cannot match 'Pangasius' or 'patin' to canonical seafood entry without explicit source confirmation of a permitted species designation\"\n  ],\n  \"reason\": \"Source metadata names 'Pangasius fish' (patin), a freshwater catfish species. The allowed seafood category requires explicit source naming of a standard fish type; Pangasius/patin does not appear in typical culinary allowlists and cannot be verified as equivalent to common permitted seafood. Identity cannot be confirmed without source clarification of the fish species in permitted terms. Reject due to unresolved protein species identity.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1578,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 476,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
