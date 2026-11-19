@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBd7qjPTTEFeVWeoKKi2",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [\n    \"Translucent sliced raw fish arranged on blue and white porcelain plate\",\n    \"Garnish of fresh green onion, red roe/ikura, and minced protein\",\n    \"Dipping sauce bowls with dark brown liquid (likely soy or ponzu)\",\n    \"Traditional Japanese table service setup\",\n    \"Fugu pufferfish distinctive translucent appearance visible in slices\"\n  ],\n  \"phone_observations\": [\n    \"Central plated dish clearly visible with arranged raw fish slices\",\n    \"Blue and white porcelain pattern recognizable\",\n    \"Garnishes and sauce dishes visible in thumbnail\",\n    \"Dish identity readable from phone view\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title is 'File:Fugu dish served.jpg' (filename, not canonical description)\",\n    \"Description states 'Including the liver, which can be very poisonous!' but this is a health/safety claim and editorial comment, not a formal dish name or confirmed visual identification of liver in the photograph\",\n    \"Fugu is a known hazardous food requiring specialist preparation; no source documentation of licensure or safe handling authority visible\",\n    \"Cannot visually confirm whether the fish shown is definitively fugu (Takifugu rubripes) versus other pufferfish or white fish, or confirm any liver component is actually present on the plate\",\n    \"Source metadata lacks explicit dish name beyond filename\"\n  ],\n  \"reason\": \"Hold. While the photograph shows a finished, well-plated raw fish dish with sharp focus, good lighting, and readable components in the phone thumbnail, the source title is a filename (not a canonical description), and the description is a health warning rather than a dish identifier. The identification as 'fugu' rests on filename metadata marked as untrusted evidence. Visual appearance is consistent with fugu presentation, but cannot definitively confirm species or verify the presence/absence of liver. The description's emphasis on toxicity is a health claim, not a dish specification. Source title/description do not provide a formal, unambiguous canonical dish name. Accept only if explicit, non-filename source documentation names the dish.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1723,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 625,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBd79qnC1KDTAV9Hk8zy",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows uniform pale granular/grainy texture consistent with source full image\",\n    \"No recognizable finished dish structure, plating or appetite appeal\",\n    \"Appears to be raw or uncooked ingredient in bulk\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source claims 'Escamoles (ant eggs)' but this is an uncooked ingredient in a raw/preparation stage, not a finished exposed dish\",\n    \"No evidence of cooking, seasoning, plating or culinary preparation visible in either image\",\n    \"Presentation is bulk ingredient display, not a served food photograph\"\n  ],\n  \"reason\": \"Rejection: The image shows raw ant eggs (escamoles) in a bulk, uncooked state on a tray—a preparation ingredient, not a finished, exposed, cooked dish. The source description explicitly identifies this as an ingredient found at a fair, not a prepared meal. Both full image and phone thumbnail confirm the subject lacks cooking signs, plating, seasoning evidence, or any appetising finished-dish characteristics required for Tavue. This violates the core criterion: 'Accept only a finished, exposed, likely photographic dish'. Reject raw/preparation stages.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1560,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 416,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

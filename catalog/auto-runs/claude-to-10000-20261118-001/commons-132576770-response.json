@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBd7cfKudYRgWRb7ULhJ",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 3,\n    \"composition\": 2,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows only crumble topping in baking dish; no apple filling visible at any layer\",\n    \"Golden-brown streusel occupies entire frame; no finished plated dish evident\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"No cooked apple filling visible in full image or thumbnail—only raw or preparation-stage crumble topping in baking dish\",\n    \"Essential component (apple filling) is either absent or clipped/hidden in both images\"\n  ],\n  \"reason\": \"Rejects on two grounds: (1) This is a preparation/raw stage image showing only the uncooked streusel topping in a baking dish, not a finished, exposed, cooked dish. The apple filling is not visible in either the full source or thumbnail, making it impossible to verify the complete dish. (2) Essential food component is either absent or clipped from view in the phone thumbnail. The instructions explicitly reject raw/preparation stages and cases where essential food is clipped in the thumbnail. A finished apple crumble requires visible cooked apple filling beneath or alongside the streusel; this image shows neither.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1761,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 397,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
