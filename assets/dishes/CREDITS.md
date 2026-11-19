@@ -8958,3 +8958,8 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 
 - **Pho, beef brisket, tendon, tripe** — [T.Tseng](https://www.flickr.com/people/68147320@N02). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Pho,_beef_brisket,_tendon,_tripe_(30025527004).jpg). Local asset: `reviewed-commons-101595383.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Vietnamese phở beef noodles** — Kham Tran. [CC BY 3.0](https://creativecommons.org/licenses/by/3.0); [source](https://commons.wikimedia.org/wiki/File:Vietnamese_Pho_Beef_Noodles_2007.jpg). Local asset: `reviewed-commons-2292865.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Motsunabe (もつ鍋)** — Nesnad. [CC BY 4.0](https://creativecommons.org/licenses/by/4.0); [source](https://commons.wikimedia.org/wiki/File:Motsunabe_Aug_13_2021_Ikebukuro-_two_views.jpeg). Local asset: `reviewed-commons-108432109.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Oden** — RuinDig/Yuki Uchida. [CC BY 4.0](https://creativecommons.org/licenses/by/4.0); [source](https://commons.wikimedia.org/wiki/File:Japanese-Oden-Dish-2023-11-01.jpg). Local asset: `reviewed-commons-140656110.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
