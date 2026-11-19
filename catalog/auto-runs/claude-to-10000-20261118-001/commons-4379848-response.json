@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChD5kzRpL4JzwWZzRvd9c",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": \"Danish open sandwich (smørrebrød) on dark rye bread (completely covered) with rullepølse (lit. rolled sausage, a spiced meat roll), salad, cucumber, meat jelly, onion rings, garden cress, and tomato.\",\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Pink-hued sliced meat roll visible and prominent\",\n    \"Cucumber slices stacked\",\n    \"Onion rings clearly visible\",\n    \"Garden cress/micro herbs visible\",\n    \"Tomato segment visible\",\n    \"White plate with red Danish flag pattern\",\n    \"Dark bread base (rye) completely obscured by toppings as described\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows the sandwich composition\",\n    \"Pink meat roll and toppings are recognizable at reduced size\",\n    \"Plate decoration remains visible\",\n    \"Essential components present and readable\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"rullepølse is described as 'rolled sausage' but sausage species is unspecified and cannot be used as a protein_evidence key per guidelines\",\n    \"The source claims dark rye bread is 'completely covered' but bread is not visible in either image, creating potential identity conflict\"\n  ],\n  \"reason\": \"Cannot accept: rullepølse (rolled sausage) contains unspecified meat species. Guidelines prohibit 'sausage' as a protein key and require exact animal identification from source; 'spiced meat roll' is insufficient. The source description states bread is 'completely covered' yet no bread is visible—this internal contradiction regarding the dish's essential component (open sandwich on stated bread) prevents confirmation of identity match. Hold pending clarification of animal species in the meat roll and verification of bread presence.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1778,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 536,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

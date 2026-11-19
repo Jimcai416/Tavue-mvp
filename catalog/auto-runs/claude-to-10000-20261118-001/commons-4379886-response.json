@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChD5m9n9YyiAEmdiJpAVg",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Open-faced sandwich on dark rye bread visible in full source image\",\n    \"Sliced cured meat (appears to be ham or similar) covering most of the bread\",\n    \"Fresh tomato slice with white spread (likely cream/horseradish-based)\",\n    \"Cucumber slices arranged on top\",\n    \"Garden cress/microgreens garnish\",\n    \"White plate with red Danish flag pattern border\",\n    \"Natural wood table surface background\"\n  ],\n  \"phone_observations\": [\n    \"Sandwich core clearly visible in thumbnail\",\n    \"Red and white striped border plate distinctive and readable\",\n    \"Meat, vegetables and garnish all distinguishable\",\n    \"Overall composition preserved in crop\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source metadata contains 'xxx meat' placeholder – specific meat species not explicitly named\",\n    \"Cured meat appears visually consistent with ham or similar pork product but cannot be visually confirmed\",\n    \"Dark rye bread completely covered by toppings – visible only at edges but confirms substrate\",\n    \"No explicit animal identification in the corrupted/placeholder title text\"\n  ],\n  \"reason\": \"Image quality, composition and phone thumbnail all pass. However, the source description critically states 'xxx meat' – a placeholder or corrupted field – rather than explicitly naming the meat species. The rules require an exact source quote explicitly naming each animal protein. Visual appearance suggests cured pork/ham, but this cannot substitute for explicit source declaration. Identity check fails due to unspecified protein in metadata. Hold pending clarification of actual meat type.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1771,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 500,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

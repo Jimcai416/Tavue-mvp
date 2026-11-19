@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChD5mqruba8TmLLCnz8YS",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Open-faced rye crisp base visible in both images\",\n    \"White cheese crumbles visible throughout\",\n    \"Green pickled elements (peppers, garlic) prominent\",\n    \"Capers and small round pickled items visible\",\n    \"Black pepper seasoning distributed across surface\",\n    \"Oil and vinegar sheen on vegetables\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows composed open-faced sandwich\",\n    \"Rye base, cheese, and pickled vegetables all readable\",\n    \"Colors match full image: white, yellow-green, brown tones\",\n    \"No clipping of essential components\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title lists 'anchovies' but no fish are visually identifiable in either image\",\n    \"Anchovy presence cannot be confirmed from photograph; they would be thin fillets potentially hidden under cheese and toppings\",\n    \"Species identification for small items beneath surface toppings is not possible from visual evidence alone\"\n  ],\n  \"reason\": \"While photograph and phone thumbnail quality are acceptable and the dish composition is clear, the protein_evidence cannot be populated because anchovies—the only animal-sourced protein listed in the source description—are not visibly confirmed in the photograph. Per instructions, proteins may include only chicken/beef/pork/duck/lamb/seafood with explicit source-quoted naming AND visual confirmation where possible. Anchovies, if present, would be concealed under the cheese and vegetable toppings and are not identifiable in the image. This creates a gap between source description and visible support that requires hold status per the protocol for unverified source claims.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1566,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 516,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChD5mfQrypqmTTpmXb8PC",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": \"Smørrebrød homage 01 - anchovies, chorizo, cornichons, onion, pepper, on German rye\",\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Dark rye bread base clearly visible\",\n    \"White onion slices prominent and identifiable\",\n    \"Green cornichons/pickles distributed across surface\",\n    \"Red pepper pieces visible\",\n    \"Black pepper seasoning evident\",\n    \"Open-faced sandwich format consistent with smørrebrød\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows composed open-faced sandwich\",\n    \"Onion, cornichons, and pepper components readable at reduced size\",\n    \"Dark bread base distinguishable\",\n    \"Overall composition and toppings identifiable in phone format\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Anchovies declared in source but not visually confirmed in photograph—white curved elements appear to be onion, not anchovies\",\n    \"Chorizo declared in source but no sausage pieces visibly identified in the photograph\",\n    \"Mismatch between source protein claims and visual evidence creates identity doubt\"\n  ],\n  \"reason\": \"Identity check fails due to unresolved contradiction between source description (anchovies, chorizo) and visible photograph contents. The white curved elements appear to be onion slices rather than anchovies; no chorizo sausage is visually identifiable. All other quality, photograph, and phone checks pass with strong scores (≥4). However, without confirmed visual protein evidence matching the stated identity, and with explicit source contradictions present, hold is required per protocol.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1569,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 500,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

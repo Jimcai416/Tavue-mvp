@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChD5kboHZWFUWF8F5K657",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"White rice base visible in full image and thumbnail\",\n    \"Diced meat pieces with sauce visible\",\n    \"Green peas clearly present\",\n    \"Orange carrot pieces visible\",\n    \"Shrimp/prawn visible in upper portion of full image\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows finished plated dish\",\n    \"Rice, meat, peas and orange vegetable visible in thumbnail\",\n    \"Dish appears complete and appetising in phone view\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title describes 'Hühnerfleisch' (chicken) but no chicken is visibly identifiable in the dish; visible meat appears to be diced in a white/grey color inconsistent with cooked chicken\",\n    \"Dish described as 'Berliner Frikassee' but includes visible shrimp/prawns (Krebsschwänzen), which is atypical and creates ambiguity about the primary protein identity\",\n    \"Visible meat species cannot be definitively determined from appearance alone\",\n    \"Source description mentions 'Krebsschwänzen' (crawfish/crayfish tails) but these are not among the allowed protein categories (chicken/beef/pork/duck/lamb/seafood with explicit naming)\"\n  ],\n  \"reason\": \"Rejection due to identity mismatch and unresolvable protein ambiguity. The source describes this as 'Berliner Frikassee aus Hühnerfleisch' (Berlin Fricassee made with chicken), but no clearly identifiable chicken is visible in the dish. The visible diced meat does not match typical cooked chicken appearance. Additionally, the inclusion of Krebsschwänzen (crayfish tails) as a component creates further ambiguity. The crawfish/crayfish tails cannot be mapped to allowed seafood protein categories without explicit contemporary source confirmation. The source metadata is untrusted and contradicts what is visibly apparent. Hold rules require exact identity match and certain protein evidence; these cannot be established here.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1662,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 609,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
