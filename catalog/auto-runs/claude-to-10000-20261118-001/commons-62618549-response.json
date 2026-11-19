@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBo7TTLdh5oAPxCR42Kc",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [\n    \"Single sausage in simmering broth with vegetables\",\n    \"Black cast-iron pot on stovetop\",\n    \"Pink heating element visible\",\n    \"Clear broth, diced vegetables (carrots, leeks, onions visible)\",\n    \"Sausage appears cooked and glistening\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows pot on stove with sausage and broth\",\n    \"Sausage is prominent and identifiable\",\n    \"Dish in mid-cooking stage, not finished plated presentation\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Image shows a sausage in cooking process, not a finished, plated dish\",\n    \"Source title describes 'en cuisson' (in cooking/being cooked), indicating preparation stage, not finished food presentation\",\n    \"The photograph documents the cooking process itself rather than a completed, exposed, served dish\"\n  ],\n  \"reason\": \"Reject: This photograph documents a sausage (Saucisse de Morteau) during the cooking process ('en cuisson'), not a finished, exposed, plated dish. The guidelines require acceptance of a 'finished, exposed, likely photographic dish.' While the image is sharp, well-lit, and the thumbnail shows clear detail, it depicts a mid-preparation state in a pot on the stovetop rather than a completed food presentation. Home cooking in progress does not meet the 'finished' requirement. Additionally, the specific protein cannot be confirmed from visual appearance alone—sausage species identification requires source naming, and the metadata title/description should not be treated as instructions per guidelines, but the 'en cuisson' designation indicates preparation stage rather than finished dish status.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1304,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 526,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

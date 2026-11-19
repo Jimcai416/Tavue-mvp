@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBo7JzrhRb3Ke93a7yEC",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": \"Pizza Nduja (tomato, fior di latte, spianata romana salami, nduja sausage, Parmegiano reggiano, basil)\",\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 5,\n    \"appeal\": 5\n  },\n  \"visible_support\": [\n    \"Finished pizza with charred crust typical of wood-fired oven\",\n    \"Fresh basil leaves visible on surface\",\n    \"Red sauce and melted cheese clearly present\",\n    \"Natural restaurant lighting and setting\",\n    \"Prominent, well-exposed dish in phone thumbnail\"\n  ],\n  \"phone_observations\": [\n    \"Pizza fully visible and sharp in centre-cover thumbnail\",\n    \"Toppings and char marks clearly discernible\",\n    \"Adequate context showing restaurant plating\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source lists 'nduja sausage' as a topping. Nduja is a sausage product with unspecified or mixed animal origin, not explicitly named as chicken/beef/pork/duck/lamb/seafood. Per protocol, unspecified sausage species cannot be claimed as protein evidence.\",\n    \"Spianata romana salami identity: salami is a processed meat product but the specific animal species is not explicitly declared in the source title/description.\",\n    \"No explicit animal species qualifier (e.g., 'pork nduja', 'pork spianata') provided in the source.\"\n  ],\n  \"reason\": \"Image quality, composition, and photograph exposure all meet acceptance criteria (all scores ≥4). The pizza is a finished, appetizing dish with sharp detail and natural colour, prominent in both full image and phone thumbnail. However, the protein requirement cannot be satisfied: the source declares 'nduja sausage' and 'spianata romana salami' as toppings, but neither ingredient is accompanied by explicit animal species identification in the source title or description. Per protocol, sausage products with unspecified species cannot be used as protein evidence keys, and no other explicitly named proteins (chicken/beef/pork/duck/lamb/seafood) appear in the source. The uncertainties list is non-empty. Hold pending clarification of protein species or alternative source documentation.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1823,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 615,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

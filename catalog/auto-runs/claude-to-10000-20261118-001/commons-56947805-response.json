@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBo7YZvS9nsqMbyhvqxB",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Pizza base with charred, crispy crust visible in full image and thumbnail\",\n    \"White creamy component (stracchino) clearly visible as dollops across surface\",\n    \"Red/crimson spiced meat component ('Nduja) visible as scattered pieces\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows pizza with white creamy topping and red meat pieces\",\n    \"Central pizza portion well-framed and recognizable\",\n    \"Natural colours and composition retained in thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"'Nduja is a spiced pork paste/spread from Calabria, but source description does not explicitly state it contains pork—only names the product\",\n    \"Stracchino is a creamy fresh cheese, not a protein category per instructions\",\n    \"No explicit animal protein declaration in source title/description; product names alone are insufficient\"\n  ],\n  \"reason\": \"Image quality, photograph authenticity, phone thumbnail representation and visual composition all pass. However, the source title names 'Nduja without explicitly stating its animal origin (pork). Per instructions, protein_evidence keys require exact case-sensitive substrings from the supplied title/description that explicitly name the animal. 'Nduja is a known pork product, but this is culinary tradition/inference, not explicit source declaration. Identity cannot be fully confirmed without source-explicit protein naming. Hold for clarification or source quote confirming animal origin.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1735,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 469,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
