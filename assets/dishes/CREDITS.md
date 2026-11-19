@@ -7505,3 +7505,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 
 - **1/2 PERi-PERi Chicken + Reg Chips + Drink** — Bahnfrend. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:1-2_PERi-PERi_Chicken_%2B_Reg_Chips_%2B_Drink,_Nando%27s_Carousel_Westfield,_2025_(01).jpg). Local asset: `reviewed-commons-180430666.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Peri-peri chicken, chips, and garlic bread** — Ser_Amantio_di_Nicolao. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Chicken,_french_fries,_and_bread_for_lunch,_Nando%27s_restaurant,_Rosslyn,_Arlington,_Virginia.jpg). Local asset: `reviewed-commons-76414558.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Peri-Peri Chicken** — CNEcija12345. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Peri-Peri_Chicken_dish.jpg). Local asset: `reviewed-commons-164742942.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.

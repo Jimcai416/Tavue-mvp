@@ -101015,5 +101015,29 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-164742942",
+    "title": "File:Peri-Peri Chicken dish.jpg",
+    "author": "CNEcija12345",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Peri-Peri_Chicken_dish.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Peri-Peri_Chicken_dish.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "220f4139b190bb77d5f0f074e6c8c6dc3b764081",
+    "name": "Peri-Peri Chicken",
+    "aliases": [],
+    "proteins": [
+      "chicken"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-164742942.jpg",
+    "assetSha256": "6fd38049888a7f79f94967342d28ab98c52a088aa9aec8dc8a3d35c0931fe31f",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 958,
+    "requiresExactMenuName": true
   }
 ];
