@@ -8115,3 +8115,9 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 
 - **Pindang Patin Pindang Sekawan** — Losstreak. [CC BY 4.0](https://creativecommons.org/licenses/by/4.0); [source](https://commons.wikimedia.org/wiki/File:Pindang_Patin_Pindang_Sekawan.jpg). Local asset: `reviewed-commons-160191387.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Telur Pindang Johor** — Mdsheth1986. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Telur_Pindang_Johor.jpg). Local asset: `reviewed-commons-105360569.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Apple Pachadi** — [GoDakshin  from Bangalore, India](https://www.flickr.com/people/22391360@N00). [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:Apple_Pachadi_Gojju_Chutney_(3117296225).jpg). Local asset: `reviewed-commons-91717447.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Poori with spicy tomato and onion gravy** — Manjushree396. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Poori_Tomato_gojju.jpg). Local asset: `reviewed-commons-40979858.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Lechon manok cooked with tanglad lemon grass** — Elmer Centeno Guevarra. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:LECHON_MANOK_COOKED_WITH_TANGLAD_LEMON_GRASS_PANGASINAN.jpg). Local asset: `reviewed-commons-143235738.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
