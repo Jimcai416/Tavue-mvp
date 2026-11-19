@@ -8642,3 +8642,12 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 
 - **Ndolé accompagné du riz et des bananes** — Jimerveille. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Ndol%C3%A9.jpg). Local asset: `reviewed-commons-141933681.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Ndolè au poulet** — Mbiappa William. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Plat_de_ndol%C3%A8_au_poulet_dans_un_restaurant_camerounais.jpg). Local asset: `reviewed-commons-175686034.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Trenette al pesto** — Ettorre (gregorio). [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Trenette_al_pesto.jpg). Local asset: `reviewed-commons-72469499.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **pizzoccheri** — Cassinam. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Esno4Wkmana_jul_2014_Cassnam_059.jpg). Local asset: `reviewed-commons-34132720.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Trenette with pesto, potatoes and green beans** — LazyBaby. [CC BY 3.0](https://creativecommons.org/licenses/by/3.0); [source](https://commons.wikimedia.org/wiki/File:Trenette_al_pesto_con_patate_e_fagiolini.jpg). Local asset: `reviewed-commons-166932123.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Bollito misto mit Salsa verde** — [Bollito_misto-01.jpg :  choctaw_ridge  
+ derivative work:  Hic et nunc](https://www.flickr.com/photos/choctaw_ridge/). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Bollito_misto-01-2.jpg). Local asset: `reviewed-commons-19356182.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Esino Lario - pizzoccheri** — Cassinam. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Esno4Wkmana_jul_2014_Cassnam_065.jpg). Local asset: `reviewed-commons-34132732.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
