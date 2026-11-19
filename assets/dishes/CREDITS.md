@@ -9069,3 +9069,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 - **Miyeok Guk** — Jaydub666. [CC BY 4.0](https://creativecommons.org/licenses/by/4.0); [source](https://commons.wikimedia.org/wiki/File:Miyeok_Guk.jpg). Local asset: `reviewed-commons-198895296.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Pyogo-miyeok-guk** — chomjong. [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Pyogo-miyeok-guk.jpg). Local asset: `reviewed-commons-88742349.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **So-gogi-miyeok-guk (beef seaweed soup)** — 대경라이프. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:So-gogi-miyeok-guk.jpg). Local asset: `reviewed-commons-99768057.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Moroccan briouats for Ramadan** — Samira hiba. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:%D8%A8%D8%B1%D9%8A%D9%88%D8%A9_%D9%85%D8%BA%D8%B1%D8%A8%D9%8A%D8%A9_%D9%84%D8%B1%D9%85%D8%B6%D8%A7%D9%86.jpg). Local asset: `reviewed-commons-185022266.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.

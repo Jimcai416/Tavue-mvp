@@ -118950,5 +118950,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 945,
     "height": 629,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-185022266",
+    "title": "File:بريوة مغربية لرمضان.jpg",
+    "author": "Samira hiba",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%D8%A8%D8%B1%D9%8A%D9%88%D8%A9_%D9%85%D8%BA%D8%B1%D8%A8%D9%8A%D8%A9_%D9%84%D8%B1%D9%85%D8%B6%D8%A7%D9%86.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/39/%D8%A8%D8%B1%D9%8A%D9%88%D8%A9_%D9%85%D8%BA%D8%B1%D8%A8%D9%8A%D8%A9_%D9%84%D8%B1%D9%85%D8%B6%D8%A7%D9%86.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "2d20f093ffa9e6ed59b3de8e07d941ac40d0423c",
+    "name": "Moroccan briouats for Ramadan",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-185022266.jpg",
+    "assetSha256": "2b4b14a9d22ff5ab6593db88068343060916670d2fedca0e78ba0d67d4472e5a",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 540,
+    "height": 960,
+    "requiresExactMenuName": true
   }
 ];
