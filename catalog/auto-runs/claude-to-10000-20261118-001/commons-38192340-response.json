@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCEPHuEPoQJWZS1uCLjA",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Golden-brown glazed poultry with glossy caramelised surface\",\n    \"Fresh cilantro garnish scattered across dish\",\n    \"Pale cream-coloured sauce visible beneath the meat\",\n    \"Rich reddish-brown glaze characteristic of reduced sauce\",\n    \"Dish presented on dark plate\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows glazed meat with green cilantro\",\n    \"Sauce and meat components visible and distinct\",\n    \"Adequate detail for identification of finished dish\"\n  ],\n  \"protein_evidence\": {\n    \"chicken\": \"Chicken with garlic spices and hazelnuts\"\n  },\n  \"uncertainties\": [\n    \"Title claims 'Chicken with garlic spices and hazelnuts' but description specifies 'Chicken tabaka with hazelnut sauce (Georgian recipe)' — these are different dishes with different preparation methods\",\n    \"Chicken tabaka is traditionally a flattened, pan-fried spatchcock preparation; visible form shows whole pieces in sauce, inconsistent with classic tabaka presentation\",\n    \"Hazelnut presence is undeclared in title and not visually verifiable in the photograph; hazelnuts would typically be visible as garnish or texture elements\",\n    \"Source metadata contradiction: title does not match description dish name and regional attribution\"\n  ],\n  \"reason\": \"Source identity conflict: title and description name different dishes (generic 'Chicken with garlic spices and hazelnuts' vs. 'Chicken tabaka with hazelnut sauce'). Chicken tabaka is a specific Georgian preparation (flattened spatchcock, pan-fried) but the visible form shows whole pieces in sauce, inconsistent with canonical tabaka method. Hazelnut sauce is not visually supported — no hazelnuts are evident in the photograph. The contradiction between title and description, combined with visible form inconsistent with stated dish type, prevents reliable canonical naming and variant preservation. Hold pending clarification of actual dish identity.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1736,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 586,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCEQNwcTajZaxcNjRN2a",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Cooked fish pieces in glossy red-orange sauce on white plate\",\n    \"Natural lighting, home-style presentation\",\n    \"Prominent, finished dish clearly visible in both images\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows red-sauced fish pieces\",\n    \"Plate and decoration visible\",\n    \"Subject sharp and well-framed\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title 'Kite fish ambot-tik' conflicts with description 'Verna disco': 'kite fish' and 'verna' are distinct species; cannot determine which animal is actually present\",\n    \"Description metadata format is unclear and appears corrupted ('Vagullem ambott-tik' vs 'ambot-tik')\",\n    \"Exact canonical dish name cannot be established due to species contradiction in source\"\n  ],\n  \"reason\": \"Source metadata contains contradictory fish species identification. Title references 'Kite fish' while description mentions 'Verna disco' (a different species). The dish appears to be a Goan fish curry variant, but the specific protein species cannot be reliably determined from conflicting source statements. Per protocol, ambiguous or contradictory meat/species claims require hold. All quality and photograph checks pass, but identity check fails due to source inconsistency.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1746,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 448,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

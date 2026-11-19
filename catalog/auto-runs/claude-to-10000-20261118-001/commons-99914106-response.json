@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCEQBYX6aPStspDGzJN4",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Red curry or stew with chunked protein in translucent sauce\",\n    \"Glossy, cooked appearance with appetising colour and texture\",\n    \"Glass bowl presentation on patterned table cloth\",\n    \"Black spoon indicates active serving/consumption\",\n    \"Phone thumbnail clearly shows dish structure and sauce prominence\"\n  ],\n  \"phone_observations\": [\n    \"Red sauce-based dish legible and identifiable\",\n    \"Protein chunks visible at appropriate prominence\",\n    \"Dish centre-covered with no essential clipping\",\n    \"Natural colour and appetite appeal preserved in reduction\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title contains 'Kite fish' (a local name, possibly ray or skate) but metadata also references 'Verna disco' (a different fish species). Source contradiction on actual protein identity.\",\n    \"Transliteration 'Vagullem ambott-tik' or 'Kite fish ambot-tik' - unclear if these describe the same dish or variant preparation.\",\n    \"No explicit English species confirmation; 'kite fish' is a colloquial name without scientific clarity in this context.\",\n    \"Price tag and author watermark present in metadata but do not invalidate image quality.\",\n    \"Exact regional dish name and spelling require source consistency before canonical acceptance.\"\n  ],\n  \"reason\": \"Image quality, sharpness, lighting, composition and phone legibility all meet acceptance thresholds. Dish is visibly finished, cooked, natural-coloured and appetising. However, the source title/description contains contradictory or ambiguous protein identification (both 'Kite fish' and 'Verna disco' referenced without clarity on which is correct, and no unambiguous fish species confirmation). Per protocol, unknown or contradictory meat/fish identity requires hold pending source clarification. Canonical name cannot be assigned without resolving identity conflict in the supplied metadata.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1752,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 574,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

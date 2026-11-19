@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCEPn2AULakGHcLMkv79",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 5,\n    \"appeal\": 5\n  },\n  \"visible_support\": [\n    \"Finished, cooked thali presentation on metal serving tray\",\n    \"Prominent white rice in central bowl, sharply detailed\",\n    \"Fried fish (golden-brown, crusted patty) clearly visible\",\n    \"Multiple gravy bowls with curries in warm orange/brown tones\",\n    \"Vegetable side dish (yellow/orange, appears turmeric-spiced)\",\n    \"Pickle/condiment bowl visible\",\n    \"Natural daylight, warm colour cast, appetising presentation\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail shows rice-dominant composition with fried protein on curved plate\",\n    \"Central white rice is prominent and sharp\",\n    \"Golden-brown fried element readable as main protein\",\n    \"Plate edges and tray visible, confirms finished plated dish\",\n    \"Adequate detail for identification, no clipping of essential components\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'Fish curry rice thali' but metadata description lists multiple proteins: 'prawns curry, ambot tik curry, kingish visonn fry, tisrio' (mixing curry/fry preparations and unconfirmed species)\",\n    \"Species 'kingish visonn' is not a standard English fish name; exact animal cannot be verified\",\n    \"'tisrio' and 'kismure' are not clearly identifiable protein dishes from description alone\",\n    \"Source metadata contains contradictory/unclear protein declarations without canonical spelling\",\n    \"Title says 'fish' but description emphasises prawns, curries, and multiple ambiguous items; no single species can be supported by explicit source quote\"\n  ],\n  \"reason\": \"Image quality, photograph composition, phone thumbnail clarity and overall appeal are excellent (all scores ≥4). However, identity check fails: the source title/description conflict regarding protein type and species. Title claims 'Fish curry rice thali' but description lists 'prawns curry' and 'kingish visonn fry' (non-standard/unverified species name). No single protein can be supported by an exact, unambiguous source quote naming a known animal. 'Kingish visonn' does not correspond to any canonical fish species. Per rules, ambiguous or unverified meat species requires hold. Cannot create protein_evidence map with confidence.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1845,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 666,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
