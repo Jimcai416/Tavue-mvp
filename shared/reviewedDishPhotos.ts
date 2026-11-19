@@ -94535,5 +94535,52 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "height": 638,
     "requiresExactMenuName": true,
     "authorUrl": "https://www.flickr.com/people/23178876@N03"
+  },
+  {
+    "id": "commons-178398514",
+    "title": "File:Cucumber and Tomato Raita (cropped).jpg",
+    "author": "Kskhh",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cucumber_and_Tomato_Raita_(cropped).jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Cucumber_and_Tomato_Raita_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "5f54a2504b62155b72a38083da39209daf4f4c1f",
+    "name": "Cucumber and Tomato Raita",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-178398514.jpg",
+    "assetSha256": "530dec190c122192fc9e6556a096412b3bde6dca6d0613b096fa919dd027b7d3",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 815,
+    "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-26890205",
+    "title": "File:Lamb korma med gulerødder, raita og ris (5631638020).jpg",
+    "author": "cyclonebill  from Copenhagen, Denmark",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lamb_korma_med_guler%C3%B8dder,_raita_og_ris_(5631638020).jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/01/Lamb_korma_med_guler%C3%B8dder%2C_raita_og_ris_%285631638020%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "6b6ee3d5c0105b37b5580442b19f9ea5bb5c2ba6",
+    "name": "Lamb korma med gulerødder, raita og ris",
+    "aliases": [],
+    "proteins": [
+      "lamb"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-26890205.jpg",
+    "assetSha256": "9468b38be18d3affd3e9e30ddb040b8f36430b27100cf050bf649cd3556c3f98",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 638,
+    "requiresExactMenuName": true,
+    "authorUrl": "https://www.flickr.com/people/23178876@N03"
   }
 ];
