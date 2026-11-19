@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCj1zCQ2m5nysz3B6BAV",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 3,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Person actively cooking/preparing food in outdoor setting\",\n    \"Multiple pots/pans visible\",\n    \"Cooking process in progress, not finished dish\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Image shows food preparation/cooking stage, not a finished, exposed, plated dish\",\n    \"Subject is mid-preparation (grinding, kneading, frying process) rather than a completed food item ready for consumption\",\n    \"No finished taamia visible as an appetizing, clearly defined dish\",\n    \"Raw/preparation stage of cooking process\"\n  ],\n  \"reason\": \"Reject: This image documents the food preparation and cooking process rather than a finished, exposed, plated dish. The photograph captures an active cooking stage with multiple pots and work surfaces, which falls under the exclusion criteria for 'raw/preparation stages'. While the photograph itself is sharp and well-lit, it does not show a completed, appetizing dish suitable for Tavue's food photography database. Taamia is a valid dish, but this image is a preparation documentation, not a finished food photograph.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1659,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 390,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
