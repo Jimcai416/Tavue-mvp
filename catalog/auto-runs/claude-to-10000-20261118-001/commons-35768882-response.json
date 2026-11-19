@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChD5WMzCVgJjsTqbP9kEH",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Golden-brown barley flatbread with crispy edges visible in full image\",\n    \"Yellow butter and egg spread topping clearly visible\",\n    \"White plate with decorative leaf pattern matches description\",\n    \"Phone thumbnail shows complete dish with readable components\"\n  ],\n  \"phone_observations\": [\n    \"Rieska flatbread clearly visible with golden-brown colour\",\n    \"Munavoi topping prominent and identifiable\",\n    \"Full dish composition readable at thumbnail size\",\n    \"No clipping of essential components\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title field contains 'File:' prefix and filename extension (Ohrarieska.JPG), violating canonical_name extraction rules\",\n    \"Dish is primarily a starch-based flatbread with an egg-butter spread, not a protein-primary dish suitable for Tavue's food photography database\"\n  ],\n  \"reason\": \"Rejection based on two grounds: (1) The source title includes non-canonical metadata ('File:' prefix and '.JPG' extension) that must be excluded per instructions, making proper canonical_name extraction impossible; (2) The dish is a Finnish barley flatbread (rieska) with an egg-butter spread (munavoi) topping—a starch-based bread item with condiment, not a finished prepared dish with identifiable protein components. While photograph quality is excellent, the subject falls outside the scope of a food photography intake system designed for dishes with meaningful protein or prepared-dish identity. The description explicitly identifies this as a bread with a butter-egg spread, not a primary dish category that Tavue's review criteria target.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1685,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 510,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

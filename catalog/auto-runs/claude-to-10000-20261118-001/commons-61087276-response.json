@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChD5WNRFEYchXk33wSxZn",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"White plate with rice base\",\n    \"Yellow-toned protein and vegetable mixture on top\",\n    \"Peas, carrots, and diced light-coloured protein visible\",\n    \"Creamy sauce coating the mixture\",\n    \"Natural lighting, no glare\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows finished dish with rice and topping\",\n    \"Protein and vegetable components readable\",\n    \"Creamy coating evident\",\n    \"Adequate sharpness for recognition\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title 'Berliner Frikassee' but no specific protein species named in title or description\",\n    \"Visible protein appears diced and light-coloured, consistent with veal or chicken, but species cannot be confirmed from image alone\",\n    \"Traditional Berliner Frikassee typically uses veal, but source metadata does not explicitly state this\",\n    \"Metadata provides only 'Berliner Frikassee' without ingredient specification\"\n  ],\n  \"reason\": \"Image quality and presentation are strong (all scores ≥4), and the photograph shows a finished, appetising dish clearly visible in both full and thumbnail views. However, the source title 'Berliner Frikassee' does not explicitly name the protein species. While the visible protein appears consistent with veal or chicken, the instructions require an exact source quote explicitly naming the animal species before recording protein_evidence. The metadata provides only the dish name without ingredient detail. Per protocol, unknown or unspecified animal species requires a hold. The dish identity matches the source title structurally, but protein cannot be accepted without explicit source declaration.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1622,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 520,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
