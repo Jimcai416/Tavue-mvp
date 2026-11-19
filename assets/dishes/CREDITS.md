@@ -8309,3 +8309,8 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Pyaaz ke pakode with green chutney** — Ravindernav. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Pyaaz_ke_pakode_with_green_chutney.jpg). Local asset: `reviewed-commons-40889817.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Uzhunnu vada with chutney and sambhar** — Reshma A Pai. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Uzhunnuvada_with_chutney_and_sambhar.JPG). Local asset: `reviewed-commons-40990735.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Vada with chutney and sambar** — Allajagat. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Vada_with_chutney_and_sambar.jpg). Local asset: `reviewed-commons-40925115.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
