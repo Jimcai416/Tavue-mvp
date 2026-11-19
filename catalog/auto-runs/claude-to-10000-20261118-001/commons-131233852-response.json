@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChD1tzxaNUboQjyBkaSAe",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 2,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Centre dish is visible but surrounded by ingredient labels and isolated component photographs\",\n    \"Ingredient display layout dominates the composition\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title 'Stoemp ingredients' refers to an ingredient diagram, not a finished dish photograph\",\n    \"The image is an educational/instructional visual with labeled components, not food photography documentation\",\n    \"Central dish appears to be stoemp (a Belgian mashed potato dish) but presentation is an ingredient infographic, not a plated dish in a dining context\"\n  ],\n  \"reason\": \"Rejection: This is an ingredient diagram or recipe infographic rather than a finished dish photograph. The source metadata explicitly identifies it as 'Stoemp ingredients' and states 'The visual was created on the basis of free images' — indicating composite/illustrative purpose. While the central object is identifiable as a finished mashed potato dish, the overall composition is a labeled ingredient layout designed for instructional purposes, with individual ingredient photographs surrounding the dish. This violates the requirement for a finished, exposed, likely photographic dish without educational overlays or watermark-equivalent labeling. The structure and intent are documentary/educational rather than representative food photography.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1801,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 414,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

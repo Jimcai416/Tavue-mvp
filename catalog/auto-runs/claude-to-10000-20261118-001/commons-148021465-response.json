@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChD1srZn9kp8J2xCii3rS",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Multiple fried pastry items displayed on white trays with black price labels\",\n    \"Golden-brown, appetising appearance throughout\",\n    \"Clear market/street food setting with professional presentation\",\n    \"Sharp detail and natural daylight lighting in full image\",\n    \"Phone thumbnail shows prominent central fried pastry subjects\"\n  ],\n  \"phone_observations\": [\n    \"Central fried pastry items clearly visible and appetising\",\n    \"Orange-brown colour consistent across thumbnail\",\n    \"Labels readable but source identity ambiguous from thumbnail alone\",\n    \"No clipping of essential food components\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title 'Rissole (rissol)' is a generic category name, not a specific dish\",\n    \"Multiple distinct items visible in photograph: Calamares (Kalmary), Pastel de Bacalhau (z dorsem), Rissol z Wołowina, Rissol z Kurczakiem, Rissol z Alheira—each a different dish requiring separate identification\",\n    \"Photograph shows a market stall or street food vendor with multiple products, not a single finished dish\",\n    \"File title lacks specificity; description is uninformative without selecting one item\",\n    \"No single canonical dish can be clearly isolated as 'the' subject of review\"\n  ],\n  \"reason\": \"Source identity fails. The photograph displays a multi-item market stall or vendor display showing several distinct fried pastry dishes (calamares, bacalhau pastry, beef rissoles, chicken rissoles, alheira rissoles) with different Polish and Portuguese labels. The source title 'Rissole (rissol)' is a generic category, and the description is uninformative. This is a composite display, not a single finished dish suitable for representative food review. Each item would require separate, specific source documentation. The File: metadata and generic description do not constitute sufficient identity evidence for any one dish. Per protocol: identity check false → reject.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1627,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 599,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

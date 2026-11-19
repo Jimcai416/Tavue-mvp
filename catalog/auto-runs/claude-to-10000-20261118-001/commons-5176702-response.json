@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChD1tGUDBGoiFGCLrd3Gf",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Two filled baguettes with chips and toppings\",\n    \"Golden-brown bread and fried potatoes\",\n    \"Top sandwich has pink/red topping (possibly cured meat)\",\n    \"Bottom sandwich has orange/brown sauce (possibly ketchup or pepper sauce)\",\n    \"Served in blue tray on checkered tablecloth\"\n  ],\n  \"phone_observations\": [\n    \"Both sandwiches clearly visible in thumbnail\",\n    \"Distinct toppings differentiate the two items\",\n    \"Sandwich composition readable at small size\",\n    \"Adequate detail of fill and bread structure\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Top sandwich topping identity unclear: appears to be cured meat (ham, salami, or similar) but species unspecified by source\",\n    \"Bottom sandwich protein component not visually identifiable—appears to be sauce-based\",\n    \"Source title provides dish name and location but no explicit protein declarations\",\n    \"Mitraillette construction typically includes multiple meats/proteins, but specific animals not named in source\"\n  ],\n  \"reason\": \"Reject: Identity check fails. Source title 'Mitraillettes' and description 'Two mitraillettes from \\\"Friterie Du Perron.\\\" Liege, Belgium' provide dish name and location, but contain no explicit protein identification. The photograph shows filled baguettes with identifiable toppings (pink/cured meat on top sandwich; orange sauce on bottom sandwich), but the exact animal species of any meat component is not stated in the source metadata. Per protocol, proteins may be included only with explicit source naming of each animal; species cannot be inferred from appearance or tradition. No protein_evidence keys can be supported from the source quote. All other checks pass with adequate scores (≥4), but the incomplete identity verification (specifically unspecified meat species in a dish known to contain multiple proteins) requires hold-level uncertainty. This does not meet the acceptance threshold.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1737,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 581,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
