@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBaLsATzpjAu7CKFfa8R",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 3,\n    \"appeal\": 3\n  },\n  \"visible_support\": [\n    \"Yellow-golden minced or grated vegetable base consistent with cabbage\",\n    \"Dark specks visible throughout suggesting mustard seeds and curry leaves\",\n    \"Served in a wok or cooking vessel with utensil visible\",\n    \"Cooked, finished dish appearance\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail shows the same grated vegetable preparation with dark specks\",\n    \"Orange cooking utensil clearly visible in both full and thumbnail images\",\n    \"Golden colour and texture readable in phone view\",\n    \"Dish is prominent and not clipped\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title states 'Cabbage Thoran curry' but the dish visible is a dry stir-fried preparation (thoran/thorane/thoran), not a curry in the saucy sense. 'Curry' in the title appears to be descriptive rather than indicating a gravy-based dish. This is a naming inconsistency between source description and dish form.\",\n    \"No protein (meat, seafood, legume) is visibly identifiable in the dish. Source provides no explicit protein declaration.\",\n    \"The term 'curry' in source title contradicts the dry sauté form. While regional nomenclature varies, this represents a source-to-visible mismatch that creates ambiguity about intended dish category.\"\n  ],\n  \"reason\": \"Reject: The source title describes 'Cabbage Thoran curry, Kerala style' but the visible dish is a dry vegetable thoran (grated cabbage stir-fry), not a curry with sauce or gravy. This source description–to–visible form contradiction creates unresolvable identity ambiguity. While the photograph itself is sharp, well-lit, finished, and appetising, and the thumbnail clearly shows the dish, the naming inconsistency in the source material prevents confident acceptance. No protein is visible or explicitly named in the source. The image quality and composition are acceptable, but identity verification fails due to source description inconsistency.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1531,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 597,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

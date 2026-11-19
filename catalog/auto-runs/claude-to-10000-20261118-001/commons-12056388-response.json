@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBaLrajdk6N9uAsiV3E7",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 2\n  },\n  \"visible_support\": [\n    \"Raw green beans (cowpeas/yard-long beans) in chopped state, uncooked\",\n    \"Orange ceramic bowl with metal spoon\",\n    \"Preparation stage, not finished dish\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail shows raw chopped green beans in bowl\",\n    \"No cooked finish visible; appears to be prep stage\",\n    \"Spoon resting in raw ingredient\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title 'Making Of Payar Thoran' explicitly indicates this is a preparation/process photograph, not a finished dish\",\n    \"Beans appear raw and uncooked, inconsistent with served thoran\"\n  ],\n  \"reason\": \"Reject: This is a preparation-stage photograph, not a finished, exposed, served dish. The source title explicitly states 'Making Of' and the visible raw, chopped beans in an empty bowl confirm this is mid-preparation content. Tavue accepts only finished, plated, cooked dishes. The appeal score reflects the unfinished state.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1986,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 382,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBaLrbiy7mnoZLHebmzP",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Cooked chopped vegetables in wok with wooden spoon\",\n    \"Yellow-golden rice with visible mustard seeds, diced onion, and green pepper pieces\",\n    \"Dish actively being stirred during cooking\"\n  ],\n  \"phone_observations\": [\n    \"Wooden spoon and partial cooking vessel visible\",\n    \"Vegetable mix clearly shows component texture and colour\",\n    \"Mustard seeds and diced aromatics prominent in thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title references 'Thoran(cabbage,onion,grated coconut,mustard)' but image shows rice-based stir-fry, not cabbage thoran\",\n    \"Visible component is predominantly rice with vegetable garnish, inconsistent with named cabbage thoran preparation\",\n    \"Grated coconut claimed in description is not distinctly visible; appearance suggests spiced rice dish\"\n  ],\n  \"reason\": \"Identity mismatch. Source description names 'Thoran(cabbage,onion,grated coconut,mustard)' but the photograph shows an active-cooking rice stir-fry with mustard seeds, diced onion, and peppers—not a cabbage-based thoran. The base ingredient and dish form contradict the declared identity. Without source clarification of the actual dish name, acceptance cannot proceed. Metadata contradiction with visible form is grounds for hold pending correction.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1762,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 464,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
