@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChC1BJMfTinfU2z8c5TL6",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 3,\n    \"appeal\": 2\n  },\n  \"visible_support\": [\n    \"Loose, dry, crumbly brown legume snack in bulk container\",\n    \"Market street food context visible\",\n    \"Natural daylight outdoor setting\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows brown peanut/legume chips in ceramic bowl\",\n    \"Loose texture and form match full image\",\n    \"Subject prominent and recognizable\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Kulikuli is a legume-based snack (typically peanut); no animal protein is a component of the dish itself\",\n    \"Source title describes the product category but provides no explicit protein ingredient declaration\",\n    \"Cannot visually confirm specific legume type or whether peanuts are present without ingredient statement\"\n  ],\n  \"reason\": \"Kulikuli is a plant-based legume snack with no animal protein component. The protocol requires protein_evidence keys to come only from the allowed category (chicken/beef/pork/duck/lamb/seafood), none of which apply to this vegetarian/vegan snack. While the photograph shows a finished, exposed market food product that is sharp, naturally coloured, and appetising in both full image and thumbnail, the dish contains no animal proteins to declare. Without any supported protein evidence from the allowed categories, identity cannot be verified as a dish requiring protein documentation for Tavue's purposes.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1649,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 446,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

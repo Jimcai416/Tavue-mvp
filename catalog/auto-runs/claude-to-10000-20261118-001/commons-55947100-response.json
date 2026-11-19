@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChC1BDFaHGwwxMUcs2Z3X",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Four rolled flatbread wraps on wooden surface\",\n    \"Filled wraps with visible dark meat interior\",\n    \"Pickled vegetables bowl in background (yellow olives, radish-topped items)\",\n    \"Restaurant setting with white plate and napkins\"\n  ],\n  \"phone_observations\": [\n    \"Four wrapped rolls clearly visible and identifiable\",\n    \"Filling colour and texture discernible in thumbnail\",\n    \"Pickled vegetables visible in upper portion\",\n    \"Overall composition matches full source\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title states 'Dürüm döner' (döner kebab) but no animal species is explicitly named in title or description\",\n    \"Generic term 'döner' does not specify which meat (chicken/beef/lamb/etc.); tradition suggests lamb but visual appearance does not confirm species\",\n    \"Description provides only dish name and context, not explicit protein identification\",\n    \"Meat species cannot be reliably determined from photograph alone\"\n  ],\n  \"reason\": \"Image quality, photography, composition and phone thumbnail are all strong (all checks except identity and variant pass, all scores ≥4). However, the source title 'Dürüm döner' and description do not explicitly name any animal species. While döner kebab traditionally contains lamb or beef, the instructions require an exact source quote explicitly naming each animal. The generic term 'döner' is insufficient without species declaration. Holding pending clarification of protein identity from reliable source text.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1769,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 481,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
