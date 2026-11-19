@@ -10333,3 +10333,9 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 
 - **Thekua** — Janak Bhatta. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Thekua.jpg). Local asset: `reviewed-commons-83942181.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Bikaneri bhujia** — Billjones94. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Bikaneri_bhujia_in_West_Bengal,_India,_photographed_by_Yogabrata_Chakraborty,_on_March_11,_2023.jpg). Local asset: `reviewed-commons-129502137.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Healthy Summer Rolls** — FitTasteTic. [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:Healthy_Summer_Rolls.jpg). Local asset: `reviewed-commons-96891807.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **chapatti with masala aloo and with a tinge of lemon and cucumber** — tanmay. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Chappati_with_spicy_aloo_masala_with_cucumber.JPG). Local asset: `reviewed-commons-40902934.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Summer rolls on pok pok salad with shrimp, plus shrimp chips and sunflower satay sauce** — Daderot. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Summer_rolls_on_pok_pok_salad_with_shrimp,_plus_shrimp_chips_and_sunflower_satay_sauce_-_Cambridge,_MA.jpg). Local asset: `reviewed-commons-170528152.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
