@@ -8736,3 +8736,9 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Turkish tea and poğaça** — E4024. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Turkish_tea_and_po%C4%9Fa%C3%A7a.jpg). Local asset: `reviewed-commons-52200913.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Muhamarra, walnut, red pepper, pomegranate molasses** — T.Tseng. [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Muhamarra,_walnut,_red_pepper,_pomegranate_molasses.jpg). Local asset: `reviewed-commons-95623892.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Alloco (frites de bananes)** — Chado07. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Alloco_(frites_de_bananes).jpg). Local asset: `reviewed-commons-163899103.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **banane mure grillé aux feuilles vertes** — Jacquitoz. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Alloco_feuille_verte.JPG). Local asset: `reviewed-commons-37051553.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
