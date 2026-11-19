@@ -9802,3 +9802,10 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Dinengdéng nga papaya** — Imbo.Namnama. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Dinengdeng_Inabraw_1.jpg). Local asset: `reviewed-commons-182176752.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Bánh nếp nướng** — Thaothicu21. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Banh-nep-nuong.jpg). Local asset: `reviewed-commons-163512942.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Bánh nếp mặn nhân đậu xanh miền Bắc** — Huaying1988. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:B%C3%A1nh_n%E1%BA%BFp_m%E1%BA%B7n_nh%C3%A2n_%C4%91%E1%BA%ADu_xanh.jpg). Local asset: `reviewed-commons-87739510.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **shrimp khao soy** — 木樛. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Shrimp_Khaosoy.JPG). Local asset: `reviewed-commons-31244207.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Mujaddara** — HaJunkiyada. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Liat_Portal_for_Foodie_Disorder_-_Mujaddara.jpg). Local asset: `reviewed-commons-180107233.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
