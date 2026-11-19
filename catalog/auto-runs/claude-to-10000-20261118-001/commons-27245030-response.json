@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBT49J2j47cQWnKovta4",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 5,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Finished, cooked thick paste/porridge texture visible\",\n    \"Appetising golden-brown colour with red chilli flakes and green garnish\",\n    \"Prominent plated presentation on decorative bowl against red fabric\",\n    \"Sharp detail in both source and phone thumbnail\",\n    \"Natural colour and lighting throughout\"\n  ],\n  \"phone_observations\": [\n    \"Dish centre clearly visible in thumbnail\",\n    \"Essential components (paste, garnish, lime cross, chilli) readable\",\n    \"No clipping of significant food elements\",\n    \"Plate decoration visible but food remains dominant\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title lists 'Hareesa' but provides no explicit protein declaration (meat species not named in title or description)\",\n    \"Hareesa traditionally contains meat, but source gives no specific animal qualifier (chicken/beef/pork/lamb/duck not stated)\",\n    \"Visual appearance cannot confirm hidden meat content in a paste-based dish\",\n    \"Description incomplete: mentions popularity but omits key preparation details and protein identity\"\n  ],\n  \"reason\": \"Image quality, photograph and phone checks pass. However, identity check fails because the source provides no explicit protein declaration. While 'Hareesa' is a known meat-containing dish from the region, the protocol requires exact source quotation naming the specific animal (chicken/beef/pork/lamb/duck/seafood). The title and description contain no such qualifier. Protein cannot be inferred from tradition, appearance, or generic meat references. Hold pending source clarification of meat species.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1744,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 495,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
