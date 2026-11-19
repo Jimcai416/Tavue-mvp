@@ -7940,3 +7940,8 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Chicken phaal** — Joey. [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Chicken_phaal.jpg). Local asset: `reviewed-commons-114143863.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Farofa de cebola** — Melsj. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Farofa_de_cebola.jpg). Local asset: `reviewed-commons-86976710.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Farofa de ovo** — Melsj. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Farofa_de_ovo.jpg). Local asset: `reviewed-commons-87517369.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
