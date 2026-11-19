@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChD8FPe61D6NdkgwihFF9",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 3,\n    \"appeal\": 2\n  },\n  \"visible_support\": [\n    \"Bowl of chicken noodle soup with visible noodles and broth\",\n    \"Campbell's soup can clearly visible in full frame\",\n    \"Finished, exposed dish in natural setting\"\n  ],\n  \"phone_observations\": [\n    \"Soup bowl visible and identifiable in thumbnail\",\n    \"Campbell's can present but small\",\n    \"Adequate sharpness for soup recognition\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title claims 'Campbell's Chicken Noodle Soup with Chayote and Potatoes' but photograph shows only a Campbell's canned soup poured into a bowl—no visible chayote or potatoes are distinguishable in the dish itself\",\n    \"The soup appears to be a simple reheated canned product, not a prepared dish with added ingredients as title suggests\",\n    \"Cannot visually confirm the presence of chayote and potatoes claimed in the source description\"\n  ],\n  \"reason\": \"Reject: source identity contradiction. The title claims 'Campbell's Chicken Noodle Soup with Chayote and Potatoes', but the photograph shows only a Campbell's canned soup poured into a bowl with no visually identifiable chayote or potatoes present. The dish appears to be a plain canned soup without the named added ingredients. This contradicts the specific variant qualifiers in the source title. The photograph does not support the full claimed identity, making identity check false and creating material uncertainty about what dish is actually depicted.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 2196,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 476,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChD8F2c46Qdx8YrfQhDx6",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Bowl of noodle soup with orange broth, wavy noodles, and diced vegetables visible in phone thumbnail\",\n    \"White bowl against grey surface, thumbnail centre-cover adequate\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title declares 'Campbell's Chicken Noodle Soup' but no visible chicken pieces or protein are identifiable in either photograph\",\n    \"Diced orange/tan items visible appear to be chayote and potatoes as named, but no chicken meat can be visually confirmed\",\n    \"Dish may be a canned/commercial product preparation rather than a finished restaurant or home-cooked dish\"\n  ],\n  \"reason\": \"Reject: Identity check fails. The source title 'Campbell's Chicken Noodle Soup with Chayote and Potatoes' explicitly names chicken as a protein component. However, no chicken meat is visible in the full photograph or phone thumbnail. Only noodles, broth, diced vegetables (chayote/potatoes), and onion are identifiable. The dish appears to be a canned commercial soup product, and without visible protein support matching the source declaration, the identity cannot be confirmed. Protein_evidence cannot be populated because no visual evidence of chicken exists, despite the source title claim. Per protocol, hidden flavours may be source-declared but cannot be claimed as visually proven; conversely, a named protein must have explicit visual or source-explicit evidence when the photograph is examined.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 2200,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 474,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
