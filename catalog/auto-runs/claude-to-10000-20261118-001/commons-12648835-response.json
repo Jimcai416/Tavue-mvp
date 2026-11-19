@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDA7217EFwHur53c27o7",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows raw/preparation-stage minced mixture in pale bowl\",\n    \"Texture is distinctly granular and uncooked\",\n    \"No visible browning, frying, or finishing typical of cooked shami kabab\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title indicates 'Grinded Meat and Dal For Shami Kabab' – this is a raw ingredient stage, not a finished dish\",\n    \"No meat species explicitly named in source\",\n    \"Image shows preparation material, not cooked/exposed shami kabab\"\n  ],\n  \"reason\": \"Rejection: The source metadata explicitly identifies this as 'Grinded material for Shami Kabab' – a raw preparation stage, not a finished, exposed dish. The photograph shows an uncooked minced mixture lacking the characteristic browning, texture and appetising appearance of a cooked kabab. The instructions require 'a finished, exposed, likely photographic dish' and explicitly reject 'raw/preparation stages'. No protein species is explicitly named in the source. This fails identity, variant preservation, and core acceptance criteria.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1733,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 398,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
