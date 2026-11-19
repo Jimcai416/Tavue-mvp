@@ -101931,5 +101931,51 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-47589899",
+    "title": "File:Stroganoff vyborg.jpg",
+    "author": "Tatu Kosonen",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Stroganoff_vyborg.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/54/Stroganoff_vyborg.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "08d227f8c62c13437ea31f95995bb403b388acbd",
+    "name": "Stroganoff at Vyborg",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-47589899.jpg",
+    "assetSha256": "9e71f93cb281c08d1c8f708ab0f01feae3f155132996ed91edfa3e224c8b4d74",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 593,
+    "height": 960,
+    "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-129887208",
+    "title": "File:俄式牛仔柳意大利粉.jpg",
+    "author": "Andy Li",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E4%BF%84%E5%BC%8F%E7%89%9B%E4%BB%94%E6%9F%B3%E6%84%8F%E5%A4%A7%E5%88%A9%E7%B2%89.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3c/%E4%BF%84%E5%BC%8F%E7%89%9B%E4%BB%94%E6%9F%B3%E6%84%8F%E5%A4%A7%E5%88%A9%E7%B2%89.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "ce0e37cd54c5b99f40986bdc9142bd708a190cdc",
+    "name": "Beef Stroganoff Spaghetti",
+    "aliases": [],
+    "proteins": [
+      "beef"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-129887208.jpg",
+    "assetSha256": "9136738ec3df40354b0c0d6d47432eb811a431de6cc2a619118a55e9279eb2f8",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 720,
+    "height": 960,
+    "requiresExactMenuName": true
   }
 ];

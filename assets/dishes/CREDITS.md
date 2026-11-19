@@ -7602,3 +7602,8 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 
 - **Beef Stroganoff on Pasta** — [jgodsey](https://www.flickr.com/photos/jgodsey/). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Beef_Stroganoff_on_Pasta.jpg). Local asset: `reviewed-commons-5779011.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Sun Face Blini Maslenitsa** — EgorovaSvetlana. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Sun_Face_Blini_Maslenitsa_Slavic_Folk_Carnival_Newton_Massachusetts.jpg). Local asset: `reviewed-commons-145930917.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Stroganoff at Vyborg** — Tatu Kosonen. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Stroganoff_vyborg.jpg). Local asset: `reviewed-commons-47589899.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Beef Stroganoff Spaghetti** — Andy Li. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:%E4%BF%84%E5%BC%8F%E7%89%9B%E4%BB%94%E6%9F%B3%E6%84%8F%E5%A4%A7%E5%88%A9%E7%B2%89.jpg). Local asset: `reviewed-commons-129887208.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
