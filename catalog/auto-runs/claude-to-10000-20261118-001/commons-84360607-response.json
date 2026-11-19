@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCPDhfEgfj6tkN2qVhfX",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Cooked meat piece, brown and glistening, prominent on plate\",\n    \"Golden shredded base (hash browns or potato)\",\n    \"Fresh sliced green chilli garnish\",\n    \"White plate, restaurant plating\",\n    \"Full dish visible in both source and thumbnail\"\n  ],\n  \"phone_observations\": [\n    \"Meat and base clearly visible in thumbnail\",\n    \"Green chilli garnish readable\",\n    \"Composition matches source photograph\",\n    \"Essential components not clipped\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title contains Turkish diacritics ('Çökertme kebabı') but no explicit protein species declaration in title or description\",\n    \"Meat species cannot be determined from visual appearance alone (could be lamb, beef, or other red meat)\",\n    \"Description states 'meat dish' generically without naming the specific animal\",\n    \"Turkish kebab tradition suggests lamb or beef, but this is inference, not explicit source declaration\"\n  ],\n  \"reason\": \"The photograph is sharp, well-lit, appetising, and properly composed with readable components in the thumbnail. However, the source description does not explicitly name the meat species. The title 'Çökertme kebabı' and generic description 'a meat dish from the Bodrum area of Turkey' do not constitute explicit protein identification. Per protocol, ambiguous meat species without exact source quotation naming the animal requires a hold. A source-explicit animal identifier (e.g., 'lamb kebab' or 'beef kebab') would be needed for acceptance.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1534,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 495,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
