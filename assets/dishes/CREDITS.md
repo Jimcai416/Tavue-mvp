@@ -9798,3 +9798,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 - **Pebre** — [Fermentación Guachaca  from Chile](https://www.flickr.com/people/38470581@N02). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:IV_Campeonato_Mundial_del_Pebre_Guachacas_-_Vega_Central_(15018200457).jpg). Local asset: `reviewed-commons-42651916.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Soupless dandan noodles (mild)** — 毒島みるく. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Soupless_dandan_noodles_(mild)_of_175do_DENO_Tantanmen.jpg). Local asset: `reviewed-commons-95726923.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **担担面 Dandan noodles** — Sharon Ang. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:%E6%8B%85%E6%8B%85%E9%9D%A2_Dandan_noodles.jpg). Local asset: `reviewed-commons-114745938.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Dinengdéng nga papaya** — Imbo.Namnama. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Dinengdeng_Inabraw_1.jpg). Local asset: `reviewed-commons-182176752.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
