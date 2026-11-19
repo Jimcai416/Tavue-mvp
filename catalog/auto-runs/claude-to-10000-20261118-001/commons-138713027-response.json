@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChD4t2nYG4v16Cz7w9NfA",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 2,\n    \"composition\": 1,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Phone thumbnail is dominated by upper half showing raw/live seafood (crustaceans) on blue background—not a finished dish\",\n    \"Lower half shows bowl with some garnish and chopsticks, heavily obscured by upper raw ingredient display\",\n    \"Thumbnail composition fails to show a coherent, finished dish as primary subject\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'Seafood and Chinese tripe shabu-shabu' but primary visual content is raw live crustaceans, not a cooked shabu-shabu preparation\",\n    \"Chinese tripe species and exact seafood species unconfirmed visually\",\n    \"Image appears to be a composite or collection photo rather than a single finished dish photograph\",\n    \"Bowl contents in lower portion are too obscured and small relative to raw ingredient display above\"\n  ],\n  \"reason\": \"Rejection: Image fails multiple critical acceptance criteria. (1) Primary photograph is dominated by raw/live seafood display on blue background, not a finished, cooked dish. (2) Phone thumbnail is incoherent—upper half shows raw ingredients, lower half shows partially visible bowl; no clear finished dish presentation. (3) Composition and sharpness are poor; subject matter contradicts finished dish requirement. (4) Title-to-visible-form mismatch: 'shabu-shabu' implies a hot-pot preparation, but image shows raw ingredient assembly. (5) Species ambiguity on 'Chinese tripe' and undefined seafood prevents protein evidence support. This is a preparation/ingredient stage photo, not an exposed finished dish suitable for Tavue review.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1387,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 511,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
