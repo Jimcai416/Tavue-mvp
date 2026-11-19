@@ -9034,3 +9034,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 - **Tempe Goreng** — Fido Cahya. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Tempe_Goreng.jpg). Local asset: `reviewed-commons-98901734.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Tempe goreng pendamping wedang cor Jember** — Astari28. [CC BY 4.0](https://creativecommons.org/licenses/by/4.0); [source](https://commons.wikimedia.org/wiki/File:Tempe_goreng_dan_bumbu_petis.jpg). Local asset: `reviewed-commons-190773303.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Tempe goreng dengan petis** — Astari28. [CC BY 4.0](https://creativecommons.org/licenses/by/4.0); [source](https://commons.wikimedia.org/wiki/File:Tempe_goreng_dengan_petis.jpg). Local asset: `reviewed-commons-190773304.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Escargots à la bourguignonne** — Marianne Casamance. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Escargots_2.jpg). Local asset: `reviewed-commons-23617508.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
