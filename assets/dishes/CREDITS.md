@@ -9316,3 +9316,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 
 - **Patra (Gujarati snack)** — BhargavVora. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Patra_(Gujarati_snack).jpg). Local asset: `reviewed-commons-40962369.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Chicken étouffée** — Missvain. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:World_Famous_Hotboys_-_February_2025_-_Sarah_Stierch_11.jpg). Local asset: `reviewed-commons-159899376.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Chicken Handi** — Miansari66. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Punjabi_Chicken_Handi_1.JPG). Local asset: `reviewed-commons-17427480.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.

@@ -121579,5 +121579,29 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-17427480",
+    "title": "File:Punjabi Chicken Handi 1.JPG",
+    "author": "Miansari66",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Punjabi_Chicken_Handi_1.JPG",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/86/Punjabi_Chicken_Handi_1.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "78b69e4191b392e47e5521b118ebacf0b318900c",
+    "name": "Chicken Handi",
+    "aliases": [],
+    "proteins": [
+      "chicken"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-17427480.jpg",
+    "assetSha256": "92fe6c0a96806aed90a0c1248ce644b63a2fd6cc824c1eec1d0eacc7351c3b55",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];
