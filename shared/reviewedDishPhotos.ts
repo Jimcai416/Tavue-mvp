@@ -125918,5 +125918,28 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 723,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-102118648",
+    "title": "File:Homemade American chopsuey 03.jpg",
+    "author": "Indrajit Das",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Homemade_American_chopsuey_03.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Homemade_American_chopsuey_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "7317bb1b694f83a361029f8ffe37e92c9b4f3511",
+    "name": "Homemade American chopsuey",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-102118648.jpg",
+    "assetSha256": "92e0b38f6279ffd1a7ad0c9c11580f8d9064a53e9ec9c9568026383e0ad1a005",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true,
+    "authorUrl": "https://www.wikidata.org/wiki/Q56173187"
   }
 ];
