@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBuBuECeH8duZoz6JdnY",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": true,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 2,\n    \"composition\": 2,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows active campfire/flames dominating centre, skewers barely visible at edge\",\n    \"Fire obscures food detail entirely; no readable food components in phone view\",\n    \"Subject is preparation stage or cooking process, not finished plated/exposed dish\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Skewered meat species not identifiable from image; source title claims 'jujeh Kebab' but photograph shows active cooking with flames obscuring the food\"\n  ],\n  \"reason\": \"Reject: image captures cooking-in-progress over an open fire rather than a finished, exposed dish. The food is obscured by active flames and ash in both full source and phone thumbnail. Phone thumbnail fails: fire dominates centre-cover, skewers unreadable, essential food clipped/hidden. Quality scores all <4 due to severe glare, unclear composition, and food being at preparation/cooking stage rather than finished and plated. Does not meet requirement for 'finished, exposed, likely photographic dish, sharply detailed' with 'readable essential components in phone thumbnail.'\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1524,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 392,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
