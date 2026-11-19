@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBnJE95yyN3H7iXC6XMT",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 2,\n    \"composition\": 1,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Phone thumbnail shows only table setting elements: bottles, glass, utensils, condiment containers\",\n    \"No finished dish visible in phone thumbnail\",\n    \"Thumbnail is dominated by table décor and beverages, not food\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title claims 'Pho Tai' but no pho bowl is visible in either full image or phone thumbnail\",\n    \"Full photograph shows an empty table setting with no prepared dish present\",\n    \"The image appears to be a table setup/place setting, not a finished, served dish\"\n  ],\n  \"reason\": \"Rejection: The source claims 'Pho Tai @ Paris' but neither the full photograph nor the phone thumbnail displays a finished pho dish. The full image shows only table setting, bottles, glasses, utensils, and condiment containers with no bowl of pho visible. The phone thumbnail is entirely dominated by table décor and contains no recognizable food subject. Identity cannot be confirmed—no finished, exposed, served dish is present in either image. The photograph fails all acceptance criteria: it is not a food photograph but a table environment photograph, with no prominent, sharply detailed dish visible.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1633,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 411,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
