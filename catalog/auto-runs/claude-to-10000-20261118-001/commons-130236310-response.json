@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBKFSaDipmcVoytVW31R",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Golden-brown crispy flatbread bun, split horizontally\",\n    \"Dark braised meat filling, prominent and well-cooked\",\n    \"Fresh green leafy herbs (basil or similar) garnish\",\n    \"White plate with partial restaurant branding visible\",\n    \"Natural lighting, appetising presentation\"\n  ],\n  \"phone_observations\": [\n    \"Sandwich clearly visible in centre-cover thumbnail\",\n    \"Filled flatbread structure readable at phone size\",\n    \"Green herbs and meat filling distinguishable\",\n    \"Overall composition and subject prominence adequate for phone review\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title 'King Baos Roujiamo' mixes branded restaurant name with dish name—canonical form unclear\",\n    \"Roujiamo is a Chinese meat sandwich, but no specific animal protein explicitly named in provided metadata\",\n    \"Visible dark braised meat cannot be verified as pork, beef, lamb or other allowed category from title/description alone\",\n    \"Description is restaurant location only; no dish-specific qualifiers or protein declaration supplied\"\n  ],\n  \"reason\": \"Image quality, sharpness, lighting and phone visibility are all strong (scores ≥4). The photograph and thumbnail both clearly show a finished, appetising filled flatbread sandwich with visible meat and fresh garnish. However, the identity check fails: the source metadata does not provide a clear canonical dish name separate from the restaurant brand, and critically, no specific protein animal is explicitly named in the title or description. 'Roujiamo' traditionally contains pork, but tradition and appearance alone do not satisfy the requirement for an exact source quote naming the animal. Without explicit protein evidence from the supplied title/description, the dish cannot be accepted. Hold pending clarification of the specific meat used.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1734,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 544,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

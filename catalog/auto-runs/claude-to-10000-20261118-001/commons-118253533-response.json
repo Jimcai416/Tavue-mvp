@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBKEvm6s6kn3826UfRF2",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Two pearlescent, translucent dumplings in a bamboo steamer\",\n    \"Pleated, sealed tops characteristic of har gow\",\n    \"Paper liner visible in steamer\",\n    \"Natural, appetising appearance\"\n  ],\n  \"phone_observations\": [\n    \"Two prominent dumplings clearly visible in thumbnail\",\n    \"Steamer basket and paper liner evident\",\n    \"Adequate detail and contrast in phone view\",\n    \"Subject not clipped\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title text in metadata contains non-Latin script and file naming conventions (File: prefix, date references) which are untrusted metadata\",\n    \"No explicit confirmation of 'shrimp' or 'prawn' protein visible in the photograph itself—only translucent, cooked dumplings are visible\",\n    \"Source title includes Chinese characters and mixed metadata; canonical identity cannot be reliably extracted as a clean, unadorned dish phrase\",\n    \"Although the visual form matches har gow/shrimp dumpling conventions, protein cannot be claimed visually proven\"\n  ],\n  \"reason\": \"While the photograph shows well-executed, appetising dim sum dumplings with sharp detail, correct lighting, and good composition—and the phone thumbnail is clear—the source metadata is contaminated with file naming, dates, locations, and non-Latin script. No exact, clean English-language dish phrase can be reliably extracted. Most critically, shrimp/prawn cannot be visually confirmed in the cooked dumplings; the protein identity is assumed from filename and context, not from readable evidence in the image itself. Per protocol, hidden flavours are never claimed as visually proven, and ambiguous or unconfirmed protein species must be held.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1876,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 533,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

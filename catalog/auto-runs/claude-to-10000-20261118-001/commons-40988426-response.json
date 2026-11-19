@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBKFQ9dN2LFGBXPAAvAz",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Two triangular fried pastry pieces visible in yellow bowl\",\n    \"Golden-brown exterior with dark spice specks\",\n    \"Sharp detail preserved in thumbnail\",\n    \"Adequate composition and colour\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'POTATO PASANDA' but the visual form shows two fried triangular pastries resembling samosa or empanada, not a wet curry dish typical of pasanda preparation\",\n    \"Pasanda is typically a creamy, sauce-based curry; these appear to be baked or fried pastries without visible sauce or cream\",\n    \"No visible potato filling, cream sauce, or spice blend characteristic of pasanda dishes\",\n    \"Metadata description 'IT'S GOOD FOR HEALTH' is marketing language unrelated to dish identity\",\n    \"No protein species declared in source title or description\",\n    \"Visual form contradicts named dish category\"\n  ],\n  \"reason\": \"Reject: Identity check fails. The source title claims 'POTATO PASANDA' but the photograph shows two fried triangular pastries (resembling samosa or similar fried items), not a pasanda—which is characteristically a creamy, wet curry sauce dish. The visual form, preparation method (deep-fried pastry triangles), and presentation (dry, golden pastries on a plate without sauce or cream) are inconsistent with pasanda identity. Source metadata is marketing language ('GOOD FOR HEALTH') without authentic dish description. No protein category can be supported from the source. The contradiction between claimed dish name and visible form cannot be resolved.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1726,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 504,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

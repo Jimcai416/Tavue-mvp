@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBKGRjuEKhKD9c8xWUWh",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 5,\n    \"appeal\": 5\n  },\n  \"visible_support\": [\n    \"Three translucent, pale dumplings with golden-brown tops in a bamboo steamer\",\n    \"Green vegetable visible beneath the dumplings\",\n    \"Ceramic plate with decorative motif in white dish\",\n    \"Natural, well-exposed lighting showing dumpling detail and gloss\",\n    \"Prominent composition centred in phone thumbnail\"\n  ],\n  \"phone_observations\": [\n    \"Bamboo steamer basket clearly visible\",\n    \"Three dumplings with glossy, golden crowns readable\",\n    \"Green filling component visible\",\n    \"Full dish exposure in thumbnail frame\",\n    \"Composition and detail preserved in reduction\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'Jade Seafood Shumai' but no seafood protein species is explicitly named in source description\",\n    \"Visual appearance shows vegetable (jade) wrapper and green filling but seafood type (prawn/scallop/squid) is not stated in metadata\",\n    \"Shumai typically contains seafood, but source does not explicitly declare which animal protein is present\"\n  ],\n  \"reason\": \"Image quality, composition, sharpness and phone thumbnail all pass acceptance criteria. However, the source title claims 'Jade Seafood Shumai' but the description does not explicitly name a specific seafood protein (prawn, scallop, squid, etc.). Per protocol, ambiguous or undeclared protein species must be held—'seafood' is not a named protein category and visual appearance alone cannot confirm species. The canonical name cannot be confirmed without explicit protein identification in source text.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1766,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 504,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

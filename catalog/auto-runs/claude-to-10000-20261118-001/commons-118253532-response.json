@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBKFgEWKoMZizFyY7JyZ",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Two translucent, pale dumplings with characteristic pleated tops, consistent with har gow (shrimp dumplings)\",\n    \"Served on parchment paper in a bamboo steamer\",\n    \"Natural, well-lit presentation typical of dim sum service\",\n    \"Sharp detail and appetising appearance\"\n  ],\n  \"phone_observations\": [\n    \"Both dumplings clearly visible in thumbnail\",\n    \"Pleated details readable\",\n    \"Steamer and setting evident\",\n    \"Colour and form match full image\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title references 'Shrimp dumplings 蝦餃 Har gow' but metadata contains file name, date, photographer, location and restaurant name—all prohibited source elements per instructions\",\n    \"Source title is a filename with structured metadata, not a canonical dish description\",\n    \"Cannot extract a clean canonical_name from metadata-contaminated source without violating the prohibition on File:, date, photographer, and filename extensions\"\n  ],\n  \"reason\": \"While the photograph and thumbnail show a finished, sharp, appetising dim sum dish clearly identifiable as har gow (shrimp dumplings), the source title is a Wikimedia filename incorporating file prefix, date (May 2022), photographer (Halkam Luia), location metadata, restaurant name, and other prohibited elements. Per instructions, canonical_name must be copied exactly from source title/description without File:, date, photographer or filename extension. The supplied source contains no clean, metadata-free dish description suitable for extraction. Identity cannot be confirmed because the title is a filename structure rather than a dish-specific canonical phrase. Hold pending a source title that presents the dish name alone.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1876,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 530,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

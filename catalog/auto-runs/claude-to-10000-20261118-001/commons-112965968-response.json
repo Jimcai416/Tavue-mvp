@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBKFrpzb14a2Jfjog1D1",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Roasted pork visible with crispy skin\",\n    \"Rice bed present\",\n    \"Sliced meat presentation\",\n    \"White plate, overhead composition\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail shows roasted meat slices prominently\",\n    \"Rice visible beneath meat\",\n    \"Crispy exterior of pork clearly visible\",\n    \"Scale and detail adequate in phone view\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title references 'siu mai siu yuk' (roast pork) but metadata is untrusted and contains filename/location data\",\n    \"No explicit source-provided dish name or description supplied by user—only file metadata which is explicitly untrusted per instructions\",\n    \"Without a user-provided title or description distinct from metadata, identity cannot be verified against source\"\n  ],\n  \"reason\": \"Rejection: Although the photograph shows a finished, sharply detailed roasted pork dish with appetising appearance, crispy skin, and proper plating on rice, the instructions require canonical_name to be copied 'exactly from source title or description' provided by the user. Only untrusted file metadata (filename, location tag, photographer name) was supplied; no explicit source title or description was provided by the user to verify identity. Identity check fails without an authoritative user-supplied source description distinct from metadata. All other checks pass and quality scores are adequate.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1769,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 455,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
