@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCye9wfuiBcarGGvmvPU",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Three whole smoked fish, golden-brown, clearly cooked/exposed\",\n    \"Natural colour and appetising appearance\",\n    \"Sharp detail visible in both full source and phone thumbnail\",\n    \"Prominent subject in white container\"\n  ],\n  \"phone_observations\": [\n    \"Fish clearly visible and identifiable in thumbnail\",\n    \"Golden-brown colouring preserved\",\n    \"Whole fish forms legible in centre-cover crop\",\n    \"No essential food clipped\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title/description lists multiple possible fish species (makrela, kapr, cejn, úhoř, tolstolobik, sumec, maréna) without specifying which species are shown in this photograph\",\n    \"Visible form does not confirm exact species—fish morphology alone cannot reliably distinguish between the listed freshwater and saltwater options\",\n    \"Czech description indicates 'uzená ryba' (smoked fish) but does not explicitly name the specific fish species pictured\",\n    \"Only 'makrela' (mackerel) explicitly names a single species, but it is listed as 'nejčastěji prodávána' (most commonly sold) rather than confirmed as the subject\",\n    \"Without explicit source confirmation of which species are in this photograph, species cannot be verified\"\n  ],\n  \"reason\": \"Identity check fails. The source description lists multiple possible fish species (mackerel, carp, tench, eel, tolstolobik, catfish, vendace) but does not explicitly state which species are shown in this specific photograph. Visual morphology alone cannot reliably distinguish between these options. All other quality, photograph and phone checks pass with scores >=4, but the ambiguous species identification violates the requirement that identity must agree with exact source title/description and visible form. No specific, unambiguous canonical name can be assigned. Hold pending clarification of exact fish species depicted.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1834,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 576,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

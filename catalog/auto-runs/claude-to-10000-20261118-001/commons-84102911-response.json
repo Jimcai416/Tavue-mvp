@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCydUoxSy7dNTJAsi8bp",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [\n    \"Sliced smoked meat (pale pink interior, brown cured exterior) on white plate\",\n    \"Lentil dish with visible individual legumes in olive/brown broth\",\n    \"Home-style plating on checkered tablecloth\"\n  ],\n  \"phone_observations\": [\n    \"Meat and lentil components clearly visible in thumbnail\",\n    \"Adequate detail of both dish elements\",\n    \"Colour rendering consistent with full image\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Species of smoked meat not specified in source description—'uzené maso' (smoked meat) is generic and does not name the animal\",\n    \"Pork is traditional for Czech smoked chops but cannot be visually confirmed and is not explicitly stated in metadata\",\n    \"Cannot confirm if lentils are sour/pickled or merely appearance-based\"\n  ],\n  \"reason\": \"Source description 'Uzené maso a čočka na kyselo' (Smoked meat and sour lentils) does not name the meat species. The generic term 'uzené maso' (smoked meat) does not meet the requirement for explicit species identification in source material. Although the sliced meat appears consistent with pork (Czech tradition), visual appearance and regional custom cannot substitute for explicit naming. Protein_evidence remains empty. All other checks pass, but identity check fails due to ambiguous meat species without source quotation naming the animal.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1751,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 467,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

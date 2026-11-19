@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCydsELtWrTfv7gfNW9p",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 3,\n    \"lighting\": 2,\n    \"composition\": 3,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows raw/partially cooked meat pieces in a dark pot\",\n    \"Meat color ranges from deep red to light pink, indicating uneven cooking or raw state\",\n    \"No finished plating evident; appears to be mid-preparation\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title 'Uzená krkovice v remosce' describes smoked neck meat braise, but photograph shows what appears to be raw or severely undercooked meat\",\n    \"Meat species cannot be reliably determined from appearance alone; 'krkovice' typically refers to pork neck but visual confirmation is absent\",\n    \"Severe discrepancy between title (finished braise) and visual state (raw/preparation stage)\"\n  ],\n  \"reason\": \"Reject: image shows raw or severely undercooked meat in a pot during preparation stage, not a finished, exposed, appetising dish. The visual state contradicts the source description of a finished braise. Quality scores fail minimum threshold (sharpness 3, lighting 2, appeal 2 all <4). The photograph lacks sharp detail, exhibits poor lighting with heavy shadows, and presents an unappetising raw meat appearance unsuitable for food review. Essential identity mismatch between title and visual evidence requires hold status, but the preparation-stage nature is disqualifying regardless.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1756,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 443,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

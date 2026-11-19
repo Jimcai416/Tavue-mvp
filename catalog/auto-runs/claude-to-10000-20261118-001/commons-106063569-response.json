@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCye1sVWKKFHFEF6VeVX",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 3,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Raw or partially cooked meat pieces in black pot\",\n    \"No visible sauce, glaze or finishing\",\n    \"Pot dominates; dish appearance unclear\",\n    \"Insufficient colour development for finished state\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Uzená krkovice translates to 'smoked neck' but species (pork/beef/other) not explicitly stated in source\",\n    \"Dušená-pečená indicates braised/roasted preparation, but image shows raw or early-stage meat with minimal browning\",\n    \"Unclear if this is a finished, exposed dish or a preparation stage\"\n  ],\n  \"reason\": \"Rejects on multiple grounds: (1) Identity check fails—source title contains Czech term 'krkovice' (neck) with unspecified meat species; no explicit protein name matching allowed category found in source. (2) Quality/photograph check fails—image appears to show raw or early-stage preparation (pale, unglazed meat chunks in bare pot), not a finished, appetising, exposed dish. (3) Phone thumbnail reinforces appearance of unfinished state: meat lacks colour depth, sauce, or cooking completion markers expected in a finished braised dish. (4) Appeal score too low (2). No visible finishing, seasoning evidence, or dish identity clarity sufficient for acceptance.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1756,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 448,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
