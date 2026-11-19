@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCjhK2aCFYmd3xSRzF8N",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 2,\n    \"composition\": 1,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows interior restaurant/warung venue with people seated at tables\",\n    \"No finished dish is visible in the phone thumbnail\",\n    \"Scene is dominated by the dining space and customers, not food\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"No actual food dish is visible in either the full source or the phone thumbnail\",\n    \"The image is a venue photograph, not a food photograph\"\n  ],\n  \"reason\": \"Rejection: This is a venue/restaurant interior photograph, not a food dish photograph. The full source shows the warung storefront and dining area with customers and motorcycles parked outside. The phone thumbnail confirms no finished dish is prominent or identifiable. While the source metadata lists dishes offered (ayam goreng, lele goreng, mie goreng), none are visually present in the image. A photograph of the dining venue does not meet the requirement for 'a finished, exposed, likely photographic dish, sharply detailed, naturally coloured, appetising, prominent, with readable essential components in the phone thumbnail.' Photography quality is also poor with low lighting and soft focus unsuitable for food assessment.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1801,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 395,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
