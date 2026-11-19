@@ -7880,3 +7880,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 - **Hotteok** — [Korea.net  / Korean Culture and Information Service (Photographer name)](http://www.korea.net). [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:Hotteok.jpg). Local asset: `reviewed-commons-31705644.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **hotteok (pancake with sweet fillings)** — Sandra Vallaure. [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Hotteok_2.jpg). Local asset: `reviewed-commons-59724072.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Hotteok (sweet pancakes)** — Charles Haynes. [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:Hotteok_3.jpg). Local asset: `reviewed-commons-88495982.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Bindaetteok (ground mung bean pancakes)** — Pfc. Bo Park, 2ID PAO, US Army. [Public domain](https://creativecommons.org/publicdomain/mark/1.0/); [source](https://commons.wikimedia.org/wiki/File:Korean_mung_bean_pancake_and_rice_wine-Bindaetteok_and_makgeolli.jpg). Local asset: `reviewed-commons-7350410.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.

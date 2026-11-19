@@ -105175,5 +105175,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 640,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-7350410",
+    "title": "File:Korean mung bean pancake and rice wine-Bindaetteok and makgeolli.jpg",
+    "author": "Pfc. Bo Park, 2ID PAO, US Army",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Korean_mung_bean_pancake_and_rice_wine-Bindaetteok_and_makgeolli.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/24/Korean_mung_bean_pancake_and_rice_wine-Bindaetteok_and_makgeolli.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "4a77ff9be8f37385168f1fbe1f05ff079f4891b2",
+    "name": "Bindaetteok (ground mung bean pancakes)",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-7350410.jpg",
+    "assetSha256": "d8066b0accecec6c53857ed739e496d3f029a6e4924d05301a920108bc6877ad",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 638,
+    "requiresExactMenuName": true
   }
 ];
