@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCm7KfZa33DZjUuEWzFa",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Performers in colourful festival costumes with hats, ribbons and decorative elements\",\n    \"No finished food dish visible in phone thumbnail\",\n    \"Cultural event/parade setting with crowds in background\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [],\n  \"reason\": \"Image is a festival cultural performance photograph, not a finished, exposed food dish. The source description mentions dinengdeng as an Ilocano dish, but no actual prepared food is visible in either the full photograph or the phone thumbnail. The image shows costumed performers at a festival event honouring the dish, not the dish itself. This fails the core requirement of accepting only finished, exposed, likely photographic dishes that are prominent and sharply detailed in the phone thumbnail.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1787,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 311,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
