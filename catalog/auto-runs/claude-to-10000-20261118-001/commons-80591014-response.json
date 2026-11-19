@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBXx3q3TcxWdJVQrahwV",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Finished, cooked dish on white plate\",\n    \"Natural colours, appetising presentation\",\n    \"Sharp detail visible in both full and thumbnail images\",\n    \"Prominent subject, readable components in phone view\"\n  ],\n  \"phone_observations\": [\n    \"Circular arrangement clearly visible at 124x96 size\",\n    \"Toppings (egg halves, anchovy strips, olives) legible\",\n    \"Overall composition and proportions preserved\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'Mechouia salad' but image shows a cooked tunisian dish with eggs, anchovy strips, olives and tomato base arranged on a plate—this is not the traditional fresh raw vegetable salad (Mechouia) which is made from grilled peppers, tomatoes, onions and garlic. The presentation and components do not match the standard definition of Mechouia salad.\",\n    \"No visible raw vegetables characteristic of Mechouia (grilled peppers, tomatoes, onions, garlic)\",\n    \"The dish appears to be a different Tunisian preparation (possibly Salata Mechouia variant or misattributed), but source description contradicts visible form\"\n  ],\n  \"reason\": \"Critical identity mismatch. The source title 'Mechouia salad' does not match the visible dish. Mechouia is a traditional raw or grilled vegetable salad; this image shows a cooked tomato-based mixture with hard-boiled eggs, anchovy strips, and olives arranged on a plate. The visible form contradicts the declared identity, triggering a hold under the rule that 'Identity must agree with the exact source title/description and visible form.' Source contradiction requires hold.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1619,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 536,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
