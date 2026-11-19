@@ -116405,5 +116405,28 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-82215030",
+    "title": "File:Ube Haupia Pie with Macadamia Shortbread Crust (933851403).jpg",
+    "author": "Arnold Gatilao  from Oakland, CA, USA",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ube_Haupia_Pie_with_Macadamia_Shortbread_Crust_(933851403).jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Ube_Haupia_Pie_with_Macadamia_Shortbread_Crust_%28933851403%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "5c87a4e02822d2f38e40238fb840dd0cd4e0458d",
+    "name": "Ube Haupia Pie with Macadamia Shortbread Crust",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-82215030.jpg",
+    "assetSha256": "b228738bb7ad3be5ff977a6542f8e6b6393a2670a565b3b92364cab3dc715474",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 615,
+    "requiresExactMenuName": true,
+    "authorUrl": "https://www.flickr.com/people/58819758@N00"
   }
 ];

@@ -8854,3 +8854,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 
 - **Haupia dessert on ti leaf with red hibiscus** — [Hawai‘i Volcanoes NPS](https://www.flickr.com/people/144356245@N06/). [Public domain](https://creativecommons.org/publicdomain/mark/1.0/); [source](https://commons.wikimedia.org/wiki/File:Haupia_dessert_on_ti_leaf_with_red_hibiscus_(44082471160).jpg). Local asset: `reviewed-commons-163308644.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Homemade Chocolate Haupia Pie** — Pacamah. [CC BY 4.0](https://creativecommons.org/licenses/by/4.0); [source](https://commons.wikimedia.org/wiki/File:Homemade_Chocolate_Haupia_Pie.jpg). Local asset: `reviewed-commons-169030808.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Ube Haupia Pie with Macadamia Shortbread Crust** — [Arnold Gatilao  from Oakland, CA, USA](https://www.flickr.com/people/58819758@N00). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Ube_Haupia_Pie_with_Macadamia_Shortbread_Crust_(933851403).jpg). Local asset: `reviewed-commons-82215030.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
