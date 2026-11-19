@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCpAiKksQozLXnmwKxj5",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 3,\n    \"lighting\": 2,\n    \"composition\": 3,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Pot of pale starchy paste/porridge visible in thumbnail\",\n    \"Cooking vessel on heat source prominent\",\n    \"Preparation/intermediate stage evident\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title references 'Kokonte' (Ghanaian starch dish) but description is generic placeholder text with no substantive dish information\",\n    \"Image shows raw or mid-preparation stage starch in cooking pot, not a finished plated dish\",\n    \"No finished, exposed, appetising dish presentation visible\",\n    \"Metadata title/description conflict: filename suggests kokonte but description adds no meaningful detail\"\n  ],\n  \"reason\": \"Reject: image depicts a starch preparation in an active cooking pot, not a finished, plated, exposed dish suitable for food photography review. The subject is in mid-preparation stage. Lighting is poor with strong shadows. Appeal is low for a finished food photograph. Source description is generic placeholder text that does not confirm the dish identity beyond the ambiguous filename. No finished presentation, inadequate lighting, and preparation-stage content violate acceptance criteria.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 2052,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 390,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
