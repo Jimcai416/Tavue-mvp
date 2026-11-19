@@ -8983,3 +8983,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 - **Chicken Inasal & Pork Barbeque Meal Bilao** — Ralff Nestor Nacor. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Chicken_Inasal_%26_Pork_Barbeque_Meal_Bilao,_Sep_2025.jpg). Local asset: `reviewed-commons-175653392.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Chicken Inasal + Rice** — Ralff Nestor Nacor. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Chicken_Inasal_%2B_Rice,_Jun_2024.jpg). Local asset: `reviewed-commons-149504032.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Chicken Inasal Meal** — Ralff Nestor Nacor. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Chicken_Inasal_Meal,_Jun_2025.jpg). Local asset: `reviewed-commons-167076687.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Couscous lamb berber** — [TheGirlsNY](https://www.flickr.com/photos/55768440@N00). [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:Moroccan_cuisine-Couscous_lamb_berber.jpg). Local asset: `reviewed-commons-6214147.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.

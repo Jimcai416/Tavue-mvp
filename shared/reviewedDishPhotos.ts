@@ -118103,5 +118103,30 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 723,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-6214147",
+    "title": "File:Moroccan cuisine-Couscous lamb berber.jpg",
+    "author": "TheGirlsNY",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Moroccan_cuisine-Couscous_lamb_berber.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Moroccan_cuisine-Couscous_lamb_berber.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "ef9b6210762959f519f73c26553dcc5fa44b8857",
+    "name": "Couscous lamb berber",
+    "aliases": [],
+    "proteins": [
+      "lamb"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-6214147.jpg",
+    "assetSha256": "9a9a9cfdc33e622ec2a9e2ea67df2a3a50e0ba6bea475b99376a02742ba1373b",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true,
+    "authorUrl": "https://www.flickr.com/photos/55768440@N00"
   }
 ];
