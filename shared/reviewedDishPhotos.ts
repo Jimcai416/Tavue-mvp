@@ -101495,5 +101495,30 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-75244928",
+    "title": "File:Ginataang kalabasa at hipon (shrimp, calabaza, green beans, and eggplant in coconut milk) - Philippines.jpg",
+    "author": "Yvette Tan",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ginataang_kalabasa_at_hipon_(shrimp,_calabaza,_green_beans,_and_eggplant_in_coconut_milk)_-_Philippines.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Ginataang_kalabasa_at_hipon_%28shrimp%2C_calabaza%2C_green_beans%2C_and_eggplant_in_coconut_milk%29_-_Philippines.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "14b9d725f2c9a70499dba24277b7b296eb6ac7e6",
+    "name": "Ginataang kalabasa at hipon (shrimp, calabaza, green beans, and eggplant in coconut milk)",
+    "aliases": [],
+    "proteins": [
+      "seafood"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-75244928.jpg",
+    "assetSha256": "6330af5525f20d49183db5b23ac02d645d78212e5b2de836019610858e8d9f8d",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 960,
+    "requiresExactMenuName": true,
+    "authorUrl": "https://www.flickr.com/photos/glossmania/"
   }
 ];

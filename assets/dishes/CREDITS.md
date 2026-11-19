@@ -7556,3 +7556,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Tortang Giniling** — Judgefloro. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:8233Cuisine_of_Bulacan_05.jpg). Local asset: `reviewed-commons-81505757.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Ginataang kalabasa at hipon (shrimp, calabaza, green beans, and eggplant in coconut milk)** — [Yvette Tan](https://www.flickr.com/photos/glossmania/). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Ginataang_kalabasa_at_hipon_(shrimp,_calabaza,_green_beans,_and_eggplant_in_coconut_milk)_-_Philippines.jpg). Local asset: `reviewed-commons-75244928.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
