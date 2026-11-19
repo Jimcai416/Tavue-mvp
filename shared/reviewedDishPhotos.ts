@@ -111826,5 +111826,51 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 945,
     "height": 740,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-69764424",
+    "title": "File:Couple of dürüm.jpg",
+    "author": "E4024",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Couple_of_d%C3%BCr%C3%BCm.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/74/Couple_of_d%C3%BCr%C3%BCm.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "4b8f0a212a08418a0dc17199f4f523553c487390",
+    "name": "Couple of dürüm, with chicken meat",
+    "aliases": [],
+    "proteins": [
+      "chicken"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-69764424.jpg",
+    "assetSha256": "a2579590ba0d673c350bd894f77b4daaf7306e28d72102734a1da74624143791",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-11456348",
+    "title": "File:Glutinous rice balls in syrup.jpg",
+    "author": "BYTE RIDER",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Glutinous_rice_balls_in_syrup.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/99/Glutinous_rice_balls_in_syrup.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "d10f93859da04063c61cd8c71f3f6788ca9b66a5",
+    "name": "Glutinous rice balls in syrup",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-11456348.jpg",
+    "assetSha256": "56d7f3af3707de6f153a41d7590ad675bcab7c9ae96fc2b49179db7f68143039",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];
