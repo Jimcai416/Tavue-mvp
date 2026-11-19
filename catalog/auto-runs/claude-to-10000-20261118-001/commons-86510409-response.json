@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCo1QRcanijkUfzdVhLh",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 2,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Person holding bread is prominent in phone thumbnail\",\n    \"Bread is barely visible as a small golden object in upper portion of phone frame\",\n    \"Essential food subject is severely diminished and obscured by person's body and clothing\",\n    \"Bread detail is insufficient to assess finished dish characteristics\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [],\n  \"reason\": \"REJECT: Phone thumbnail fails acceptance criteria. While the source title identifies 'Sangak bread', the actual phone centre-cover thumbnail shows a person in winter clothing as the dominant subject with the bread relegated to a tiny, partially clipped object in the background. The essential food component is not prominent in the phone thumbnail and lacks readable detail necessary to verify it as a finished, exposed, appetising dish. The composition prioritizes the person over the food, violating the requirement that the dish itself must be the clear focal point with sharp, appetising detail in the phone view. Full image quality is acceptable but phone thumbnail rendering makes this unsuitable for Tavue's food-focused gallery.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1618,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 371,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

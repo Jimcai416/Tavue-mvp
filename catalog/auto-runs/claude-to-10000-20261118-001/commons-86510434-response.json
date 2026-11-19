@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCo2AL4up5Dq9bAcRLt6",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Full-size image shows multiple sheets of flatbread with characteristic pockmarked surface\",\n    \"Bread displays golden-brown colour with natural fire-blister pattern\",\n    \"Hands handling bread indicate scale and finished state\",\n    \"Texture and appearance consistent with Persian sangak bread\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail shows only partial bread sheets clipped at edges\",\n    \"Essential food (complete bread form) is not fully visible in phone centre-cover frame\",\n    \"Clipping prevents clear identification of complete dish in thumbnail view\",\n    \"Phone thumbnail fails readability requirement for distinct dish confirmation\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [],\n  \"reason\": \"REJECT: Phone thumbnail centre-cover crop critically clips essential bread sheets at all edges, violating the requirement that 'essential food [not be] clipped in the thumbnail.' While the full-size source photograph is sharp, well-lit, and clearly shows finished sangak bread with natural colour and appetising appearance (all checks pass for the main image), the phone thumbnail does not meet the readability standard for a finished, prominent dish. The thumbnail shows only partial bread fragments without clear boundaries or complete form, making it unacceptable as a representative phone view. Tavue's intake system requires both full image AND phone thumbnail to pass all criteria.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1618,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 435,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
