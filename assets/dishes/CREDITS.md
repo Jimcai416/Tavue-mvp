@@ -9727,3 +9727,8 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 - **Kaju ka peda** — Vashisthapathak2015  (original image) ; reprocessed by  Off-shell. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Peda_(bright).JPG). Local asset: `reviewed-commons-42583635.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Peda Nepal** — Ritesh Man Tamrakar. [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Peda_Nepal.jpg). Local asset: `reviewed-commons-29631969.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Peda of Kerala** — Vis M. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Peda_of_Kerala_02.jpg). Local asset: `reviewed-commons-144189074.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Mchadi** — [Georgia About](http://georgiaabout.com). [CC BY 3.0](https://creativecommons.org/licenses/by/3.0); [source](https://commons.wikimedia.org/wiki/File:Mchadi_2.jpg). Local asset: `reviewed-commons-38140498.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Mchadi and Imeretian cheese** — [Georgia About](http://georgiaabout.com). [CC BY 3.0](https://creativecommons.org/licenses/by/3.0); [source](https://commons.wikimedia.org/wiki/File:Mchadi_and_Imeretian_cheese.jpg). Local asset: `reviewed-commons-38140484.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
