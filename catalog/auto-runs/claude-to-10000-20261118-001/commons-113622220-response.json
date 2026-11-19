@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCTFHGKHPRP4aDgnX37D",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": \"Omelet with ham, turkey, and cheese, plus guacamole and refried beans with cheese\",\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Cooked omelet with yellow egg visible\",\n    \"Sliced meat pieces (ham and turkey claimed)\",\n    \"Melted cheese on omelet\",\n    \"Green guacamole visible on plate\",\n    \"Tan/brown refried beans with cheese visible\",\n    \"Natural plating on white dish with blue rim\"\n  ],\n  \"phone_observations\": [\n    \"Omelet and meat components clearly visible at centre\",\n    \"Guacamole and beans sections identifiable in thumbnail\",\n    \"Dish detail sufficient for phone recognition\"\n  ],\n  \"protein_evidence\": {\n    \"ham\": \"ham\",\n    \"turkey\": \"turkey\"\n  },\n  \"uncertainties\": [\n    \"Ambiguous meat species: 'turkey' is not an allowed protein category (chicken/beef/pork/duck/lamb/seafood only); cannot be visually confirmed as a standard category protein\",\n    \"Ham species unclear: 'ham' is a preparation form, not a species—source does not specify if from pork, beef, or other animal\"\n  ],\n  \"reason\": \"Source title claims 'ham' and 'turkey'. Turkey is not an allowed protein category (only chicken, beef, pork, duck, lamb, seafood permitted). Ham's animal source is not explicitly stated in the source description. Ambiguous protein species and unsupported category qualifiers prevent acceptance. Photograph and phone quality are strong, but identity check fails due to protein specification rules.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 2074,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 492,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

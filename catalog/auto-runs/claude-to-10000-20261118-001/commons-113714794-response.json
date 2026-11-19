@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCTFVayqhGGAu3L7bM6h",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [\n    \"Red refried bean base visible in full image and thumbnail\",\n    \"Green guacamole prominently displayed across centre\",\n    \"White creamy component (cheddar cheese or sour cream) visible\",\n    \"Red salsa flecks visible in guacamole\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows composed dish with red base and central green topping\",\n    \"Essential components readable and proportionally represented\",\n    \"Nothing clipped; full dish visible in phone view\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title references 'textured vegetable protein' (TVP) — a meat substitute, not an allowed protein category (chicken/beef/pork/duck/lamb/seafood)\",\n    \"No animal protein explicitly named in source description\",\n    \"Dish is vegetarian/vegan based on stated ingredients\"\n  ],\n  \"reason\": \"The source explicitly identifies the protein component as 'textured vegetable protein', which is a plant-based meat substitute and does not fall within the allowed protein categories (chicken, beef, pork, duck, lamb, or seafood). No animal protein is claimed or visible. The image quality, composition, and phone thumbnail are all acceptable, but the protein requirement cannot be met. Hold criteria satisfied due to absence of qualifying protein evidence.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 2078,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 437,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

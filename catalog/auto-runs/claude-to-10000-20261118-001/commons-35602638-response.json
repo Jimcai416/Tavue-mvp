@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCTFzFuQnDgaWsSK1kCz",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Cooked tacos with shredded white protein topping\",\n    \"Red bell pepper slices visible\",\n    \"Fresh cilantro garnish\",\n    \"Lime wedge accompaniment\",\n    \"Bowl of red sauce (refried beans) in background\",\n    \"Natural daylight, appetising presentation\"\n  ],\n  \"phone_observations\": [\n    \"Tacos clearly visible in thumbnail\",\n    \"Red pepper and cilantro distinguishable\",\n    \"Sauce bowl visible in background\",\n    \"Adequate detail for recognition\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Seitan is a plant-based wheat gluten product, not an allowed protein category (chicken/beef/pork/duck/lamb/seafood)\",\n    \"Source title explicitly names 'Seitan' as the protein—a vegan/vegetarian substitute outside permitted scope\"\n  ],\n  \"reason\": \"Source declares seitan (wheat gluten, plant-based) as the primary protein. Tavue accepts only animal proteins: chicken, beef, pork, duck, lamb, or seafood. No animal protein is present or claimed. Identity cannot be confirmed within permitted categories. Reject.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1933,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 410,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
