@@ -108451,5 +108451,29 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-22923706",
+    "title": "File:TandooriFish.JPG",
+    "author": "User: (WT-shared) Jpatokal at  wts wikivoyage",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:TandooriFish.JPG",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5c/TandooriFish.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "dd6d1a791d50706a5c36fc231e76b77fd7bd2b91",
+    "name": "Tandoori fish",
+    "aliases": [],
+    "proteins": [
+      "seafood"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-22923706.jpg",
+    "assetSha256": "7b47bebf4003f3e36118878645f251cbd697ac7dec82f48558f4c30e3fae26d6",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 638,
+    "requiresExactMenuName": true
   }
 ];
