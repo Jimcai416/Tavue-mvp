@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBMjGn8LtKzw1Pbew2ah",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 3,\n    \"lighting\": 3,\n    \"composition\": 2,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows a glass held in hand containing a beverage with ice and red/orange liquid, not a finished food dish\",\n    \"No food visible in phone thumbnail; only a drink\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title references 'Hassy's Kilishi stand' but the photograph shows only a beverage, not kilishi (a dried meat product)\",\n    \"No finished, exposed food dish visible—only a drink in a glass\",\n    \"Severe mismatch between source identity (meat stand) and photographed subject (beverage)\"\n  ],\n  \"reason\": \"Rejection: The photograph does not depict a finished food dish. It shows a beverage (drink with ice in a glass) held by a person at what appears to be a food stand. Although the source title references 'Hassy's Kilishi stand', the actual photograph captures only a drink, not kilishi or any finished food. The phone thumbnail confirms no food is visible. The image fails the core requirement of presenting a finished, exposed, appetising food dish with readable essential components in the thumbnail.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1649,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 392,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

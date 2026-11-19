@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBMixqdQviEBY5k2EKZu",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 3,\n    \"composition\": 2,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows packaged meat products stacked on table, not a finished dish\",\n    \"Golden foil wrappers visible but product itself not in plated/served form\",\n    \"Retail/vendor display context, not a food photograph for consumption review\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Kilishi is dried/cured meat but source does not specify animal species (beef/lamb/goat)\",\n    \"Image shows packaged retail products at a market stall, not a finished prepared dish\"\n  ],\n  \"reason\": \"Rejection: This is a vendor display photograph of packaged meat products at a market stall, not a finished, exposed, plated dish. The subject is wrapped/packaged merchandise in a commercial context, not food prepared for consumption review. The thumbnail is illegible for dish assessment. Kilishi source description does not declare the specific protein animal, preventing canonical identity validation. The photograph fails the core requirement of showing a finished, appetising, plated food subject suitable for Tavue intake.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1649,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 376,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

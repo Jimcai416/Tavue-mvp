@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBMjRgerHcdHDa58evzc",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 2,\n    \"composition\": 1,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Hand holding a container with turquoise/blue lid dominates frame\",\n    \"Actual food content not visible in phone thumbnail—only the closed lid and hand\",\n    \"No readable essential food components in thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Food dish itself is completely hidden inside closed container—cannot verify finished, exposed dish\",\n    \"No visual confirmation of kilishi (or any meat product) in either source or thumbnail\",\n    \"Title references a stand location, not a verifiable photograph of the food itself\"\n  ],\n  \"reason\": \"Rejection: The photograph shows a closed container being held, not an exposed, finished dish. The actual food content is completely hidden by the turquoise lid. The phone thumbnail contains no readable essential food components—only the hand, container exterior, and lid. This violates the core requirement for a 'finished, exposed, likely photographic dish, sharply detailed, naturally coloured, appetising, prominent, with readable essential components in the phone thumbnail.' The image is too soft, underlit, and the subject (the actual food) is entirely obscured. No visual evidence supports the titled dish.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1649,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 400,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
