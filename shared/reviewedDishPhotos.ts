@@ -122168,5 +122168,77 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "height": 763,
     "requiresExactMenuName": true,
     "authorUrl": "https://www.wikidata.org/wiki/Q42790984"
+  },
+  {
+    "id": "commons-201575557",
+    "title": "File:Wagyu Beef Carpaccio and Taglierini at Lupo.jpg",
+    "author": "StoppedTime",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Wagyu_Beef_Carpaccio_and_Taglierini_at_Lupo.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Wagyu_Beef_Carpaccio_and_Taglierini_at_Lupo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "92ad46f10f852ccf7cb331dff4ffedf7b28608e8",
+    "name": "Wagyu Beef Carpaccio and Taglierini",
+    "aliases": [],
+    "proteins": [
+      "beef"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-201575557.jpg",
+    "assetSha256": "35435c7b3b8aabef70a819e3f7ec3a32cac3027524c83e1c5fa812b6cee61e35",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 540,
+    "height": 960,
+    "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-76299002",
+    "title": "File:Pier 33 restaurant Crudo White Fish, Mooloolaba Queensland.jpg",
+    "author": "Kgbo",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pier_33_restaurant_Crudo_White_Fish,_Mooloolaba_Queensland.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Pier_33_restaurant_Crudo_White_Fish%2C_Mooloolaba_Queensland.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "654036b6bcadb1b404671d10497a98eb9d13204a",
+    "name": "Crudo White Fish",
+    "aliases": [],
+    "proteins": [
+      "seafood"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-76299002.jpg",
+    "assetSha256": "2a05b9989aab96539ebb7241378855a85ff5a4950204bd94fdee885a60ac2ab5",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-87067358",
+    "title": "File:Yellow fin tuna crudo at Mosconi Restaurant, Fortiude Valley, Queensland.jpg",
+    "author": "Kgbo",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Yellow_fin_tuna_crudo_at_Mosconi_Restaurant,_Fortiude_Valley,_Queensland.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/43/Yellow_fin_tuna_crudo_at_Mosconi_Restaurant%2C_Fortiude_Valley%2C_Queensland.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "7b9d34f2414ff88fa14b0cb0e5f1db7b046cf253",
+    "name": "Yellow fin tuna crudo",
+    "aliases": [],
+    "proteins": [
+      "seafood"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-87067358.jpg",
+    "assetSha256": "9e44a6b5f581f13d7f3f5177f73b8e019c3133198e10e7d71cf9a11b86217633",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];

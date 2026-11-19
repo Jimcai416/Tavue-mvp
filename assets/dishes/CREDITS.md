@@ -9366,3 +9366,9 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Carpaccio de bœuf** — [Benoît Prieur](https://www.wikidata.org/wiki/Q42790984). [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Carpaccio_de_b%C5%93uf,_restaurant_Danieli_(Vienne,_Autriche).jpg). Local asset: `reviewed-commons-81265851.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Wagyu Beef Carpaccio and Taglierini** — StoppedTime. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Wagyu_Beef_Carpaccio_and_Taglierini_at_Lupo.jpg). Local asset: `reviewed-commons-201575557.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Crudo White Fish** — Kgbo. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Pier_33_restaurant_Crudo_White_Fish,_Mooloolaba_Queensland.jpg). Local asset: `reviewed-commons-76299002.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Yellow fin tuna crudo** — Kgbo. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Yellow_fin_tuna_crudo_at_Mosconi_Restaurant,_Fortiude_Valley,_Queensland.jpg). Local asset: `reviewed-commons-87067358.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
