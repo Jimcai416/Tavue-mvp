@@ -9169,3 +9169,8 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 
 - **Porción de sorrentinos argentinos** — Horacio Cambeiro. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Porci%C3%B3n_de_sorrentinos_argentinos.jpg). Local asset: `reviewed-commons-176917350.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Sorrentinos (plato argentino)** — Horacio Cambeiro. [CC BY 3.0](https://creativecommons.org/licenses/by/3.0); [source](https://commons.wikimedia.org/wiki/File:Sorrentinos_(plato_argentino).jpg). Local asset: `reviewed-commons-170761824.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Sorrentinos artesanales rellenos de maíz con salsa boloñesa y queso rallado** — Horacio Cambeiro. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Sorrentinos_artesanales_rellenos_de_ma%C3%ADz_con_salsa_bolo%C3%B1esa_y_queso_rallado.jpg). Local asset: `reviewed-commons-192870237.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Sorrentinos de ricota** — Horacio Cambeiro. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Sorrentinos_de_ricota.jpg). Local asset: `reviewed-commons-170813053.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
