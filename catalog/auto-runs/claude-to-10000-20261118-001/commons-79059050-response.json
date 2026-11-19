@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBSJtjjSzyF85ciCxubs",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Cooked protein with browning and glaze\",\n    \"Fine dining plating on white square plate\",\n    \"Dill garnish\",\n    \"Red sauce/reduction drizzle\",\n    \"Professional table setting with utensils\"\n  ],\n  \"phone_observations\": [\n    \"Glazed cooked protein clearly visible\",\n    \"Plate and plating recognisable\",\n    \"Dill garnish visible in thumbnail\",\n    \"Overall composition legible\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Skate is a cartilaginous fish (elasmobranch), not an allowed protein category (chicken/beef/pork/duck/lamb/seafood). Seafood category is restricted to common finfish and crustaceans; skate does not qualify as standard seafood under this schema.\",\n    \"Source title explicitly names 'skate wing', but skate does not map to any approved protein key in the allowed list.\"\n  ],\n  \"reason\": \"Identity check fails: skate is not an allowed protein category. The source explicitly identifies this as 'Roasted skate wing Zakynthos island', but skate (a cartilaginous fish/ray) falls outside the permitted protein categories (chicken/beef/pork/duck/lamb/seafood interpreted as standard finfish/crustaceans). Although the photograph is sharp, well-lit, appetising and properly plated, the protein cannot be accepted. Hold criteria are met: source naming contradicts allowed schema.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1630,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 482,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
