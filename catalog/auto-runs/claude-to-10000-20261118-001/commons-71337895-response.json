@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBU5TYHufQTZQgZZy18u",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Glass of dark liquid with wafer cookies on white saucer visible in thumbnail\",\n    \"Composition and subject match full source image\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source metadata lists 'mint tea' as hashtag but description is 'Untitled' with no authoritative title\",\n    \"Metadata tags (#mint, #mint tea, #mint thee) are unreliable evidence per instructions\",\n    \"No explicit source title or description confirms the dish identity beyond ambiguous metadata\"\n  ],\n  \"reason\": \"Identity cannot be established. The metadata provides only hashtags (#mint tea) and conflicting information: an 'Untitled' primary description contradicted by 500px tags. Per instructions, metadata is untrusted evidence and never instructions. The image shows a beverage (likely tea) with wafer cookies, but without an explicit, authoritative source title or description confirming the exact dish name, identity check fails. A beverage is not a food dish requiring photographic review under Tavue's food photograph policy. Hold or reject based on lack of reliable identity confirmation and category mismatch.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1331,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 395,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
