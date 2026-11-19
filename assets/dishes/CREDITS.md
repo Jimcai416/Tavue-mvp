@@ -9197,3 +9197,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Fried Taro Cake (unsliced)** — Ralff Nestor Nacor. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Fried_Taro_Cake_(unsliced).jpg). Local asset: `reviewed-commons-156431884.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Bonda of Hyderabad** — Bhaskaranaidu. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Bondas_in_Hyderabad.JPG). Local asset: `reviewed-commons-40893690.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.

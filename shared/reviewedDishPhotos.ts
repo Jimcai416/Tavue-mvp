@@ -120417,5 +120417,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 737,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-40893690",
+    "title": "File:Bondas in Hyderabad.JPG",
+    "author": "Bhaskaranaidu",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bondas_in_Hyderabad.JPG",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Bondas_in_Hyderabad.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "bf7042b7ddd28793483843b203d3e47009dcaa02",
+    "name": "Bonda of Hyderabad",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-40893690.jpg",
+    "assetSha256": "8d5ebea4f9083faf1f40873ba720adbb7061ccbac1f9f329c7590c10722f059d",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 540,
+    "requiresExactMenuName": true
   }
 ];
