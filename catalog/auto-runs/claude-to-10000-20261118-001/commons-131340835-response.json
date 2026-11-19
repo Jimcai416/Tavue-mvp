@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBKAkv9jmT8KsAMUqXPP",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 5,\n    \"appeal\": 5\n  },\n  \"visible_support\": [\n    \"Two filled steamed buns with shredded meat filling\",\n    \"Meat appears cooked and seasoned\",\n    \"Natural daylight, sharp detail\",\n    \"Paper wrapper visible\",\n    \"Decorative porcelain condiment vessel in background\"\n  ],\n  \"phone_observations\": [\n    \"Prominent filled bun in foreground clearly visible\",\n    \"Meat filling readable and appetising\",\n    \"Second bun visible in background\",\n    \"Thumbnail composition strong and representative\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title 'ROujia' is incomplete and does not match standard romanisation 'roujiamo'\",\n    \"Meat species cannot be confirmed from appearance alone; roujiamo traditionally uses pork but this is not explicitly stated in the incomplete source description\",\n    \"No explicit animal identifier present in supplied metadata\"\n  ],\n  \"reason\": \"Image quality, sharpness, lighting and composition all excellent; dish is finished, exposed, appetising and prominent in both full and phone views. However, identity check fails: the source title 'ROujia' is truncated/malformed and does not constitute a complete, reliable canonical identifier. The description does not explicitly name the meat species. While the dish appears to be Chinese roujiamo (pork-filled steamed buns based on visual form and context), no explicit protein declaration is present in the supplied source text. Without a complete, authoritative title and explicit meat species confirmation, identity cannot be verified against source. Hold pending corrected metadata.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1720,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 485,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

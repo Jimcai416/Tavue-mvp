@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBKAh5DtQoWgmTeV7mdE",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Grilled chicken pieces with char marks visible\",\n    \"Cream/tan coloured coating consistent with cashew nut sauce\",\n    \"Multiple breaded/coated supremes arranged on white plate\",\n    \"Side dishes visible (appears to be rice/grain accompaniment)\"\n  ],\n  \"phone_observations\": [\n    \"Chicken pieces clearly visible and prominent in thumbnail\",\n    \"Golden-tan colour and texture well-represented\",\n    \"Adequate detail of grilled surface and coating\",\n    \"Plate and composition readable at phone size\"\n  ],\n  \"protein_evidence\": {\n    \"chicken\": \"Chicken Shahi Pasanda\"\n  },\n  \"uncertainties\": [\n    \"Source title references 'File:Chicken Shahi Pasanda at Cook.jpg' – the filename prefix and restaurant name 'Cook' appear to be metadata/location identifiers rather than part of the canonical dish name, making the exact canonical phrase ambiguous\",\n    \"Description states 'grilled supremes' and 'roulades' but visible form shows what appears to be whole or large pieces with coating, not clearly distinct roulade structure\",\n    \"The description promises 'dry fruit and nuts roulades' and 'cashew nut and poppy seed sauce' but these components cannot be visually confirmed in the photograph – only a creamy tan coating is visible\"\n  ],\n  \"reason\": \"Identity check fails due to ambiguity in the source title format. The filename 'File:Chicken Shahi Pasanda at Cook.jpg' mixes metadata (File: prefix, restaurant identifier 'Cook') with the dish name, violating the requirement for a canonical name extracted from the actual title/description without filename elements. The description contains unverifiable claims about hidden components (poppy seed sauce, dry fruits, nuts inside roulades) that are not visually apparent. While the photograph quality is acceptable and the chicken is clearly identifiable, the source metadata is sufficiently unclear and contradictory with visible form to warrant hold pending clarification of the exact canonical name and confirmation of the dish structure.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1766,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 602,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
