@@ -8468,3 +8468,8 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 
 - **Lotus peanut soup** — BAOSHUNLIN Hua 38383. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:SZ_%E6%B7%B1%E5%9C%B3_Shenzhen_%E7%A6%8F%E7%94%B0_Futian_%E6%B0%B4%E5%9C%8D_Shuiweicun_%E5%91%B3%E7%90%AA%E9%A4%90%E5%BB%B3_Wei_Qi_Restaurant_food_%E8%93%AE%E8%97%95_%E8%8A%B1%E7%94%9F%E6%B9%AF_Lotus_peanut_soup_August_2023_Px3_01.jpg). Local asset: `reviewed-commons-136827331.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Chicken Sisig** — Ralff Nestor Nacor. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Chicken_Sisig,_Mar_2024.jpg). Local asset: `reviewed-commons-145994592.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Soy milk with rice balls** — Charles Haynes. [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:Soy_milk_with_glutinous_rice_balls,_August_2013.jpg). Local asset: `reviewed-commons-41517281.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Three onigiris / rice balls wrapped in nori / seaweed** — [些細な日常](https://www.nagahitoyuki.com/). [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Three-onigiris.jpg). Local asset: `reviewed-commons-131410424.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
