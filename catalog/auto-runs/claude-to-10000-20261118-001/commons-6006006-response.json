@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBTqWnMzu7yLhMBwn26J",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 5,\n    \"appeal\": 4\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Single slice of cured pork product clearly visible\",\n    \"Marbling and colour pattern consistent with full image\",\n    \"Essential subject fully within phone thumbnail frame\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title describes 'Bacon from Großraming' but image shows a whole, unsliced, intact cured pork product—not bacon in culinary form. Bacon typically refers to sliced, finished, cooked or ready-to-cook product. This appears to be raw or cured pork belly (speck/pancetta form), not a prepared dish.\",\n    \"Identity mismatch: metadata claims 'bacon' but visual form is a raw/cured pork slab, not a finished, cooked, or plated dish ready to eat.\",\n    \"No protein key can be assigned because the source does not explicitly name the animal. 'Bacon' and 'Speck' are processed product names; the animal (pig) is not stated in title or description.\"\n  ],\n  \"reason\": \"Reject: source identity–description mismatch. The title claims 'Bacon from Großraming,' but the photograph shows a raw or cured pork slab (speck/pancetta form)—a preparation stage or ingredient, not a finished, exposed, cooked dish. Bacon in culinary contexts denotes sliced, cured/smoked, and typically cooked product; this is a whole cured slab. Additionally, no explicit animal name appears in the source title or description, so protein_evidence cannot be populated. The image is sharp and well-composed, but it does not represent a finished, appetising dish suitable for food review intake.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1726,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 524,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

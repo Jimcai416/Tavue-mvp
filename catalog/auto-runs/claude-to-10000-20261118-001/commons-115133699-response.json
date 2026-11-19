@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBTqgEtVD5Noq6mJ7f6Y",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 5,\n    \"composition\": 5,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Cross-section shows layered cured meat and fat\",\n    \"Pepper-crusted exterior visible\",\n    \"Natural colour and texture consistent with cured pork product\",\n    \"Sharp detail and professional studio lighting\"\n  ],\n  \"phone_observations\": [\n    \"Subject clearly visible in thumbnail\",\n    \"Layered structure of meat and fat distinguishable\",\n    \"Pepper coating visible on surface\",\n    \"Adequate size and prominence in phone view\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title contains 'File:' prefix and filename convention, not a dish name\",\n    \"Description states 'lard from pork cheek' but guanciale is a cured charcuterie product, not raw lard; identity is ambiguous between ingredient and finished dish\",\n    \"No explicit 'pork' or 'guanciale' substring in a canonical dish title format\"\n  ],\n  \"reason\": \"Rejection: The source metadata does not provide a proper canonical dish title. The 'title' field is a filename (File:Guanciale closeup (cropped).jpg), not a dish name. The description refers to guanciale as 'lard from pork cheek' rather than identifying it as a finished cured charcuterie product with a clear canonical name. While the photograph itself is sharp, well-lit, and appetising, and the subject is identifiable as a cured pork product, Tavue's protocol requires a specific source title or description that explicitly names the dish in canonical form. The filename convention and ambiguous ingredient-vs-product framing do not meet the standard for identity verification. Hold pending a proper source title.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1455,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 518,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

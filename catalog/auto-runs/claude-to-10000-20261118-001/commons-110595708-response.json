@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBTqKh7NZQNCtZ7dt3D5",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Piadina flatbread clearly visible with characteristic char marks\",\n    \"Red filling visible between bread layers (consistent with salame)\",\n    \"Cream/yellow cheese layer visible (consistent with Edam)\",\n    \"Wrapped in white paper on pink tray\"\n  ],\n  \"phone_observations\": [\n    \"Piadina flatbread distinctly visible at centre\",\n    \"Red filling (salame) identifiable\",\n    \"Yellow/cream cheese (Edam) visible between layers\",\n    \"Adequate sharpness and composition for thumbnail review\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Description lists 'salame' but no explicit genus/species confirmation (salame is a category of cured meat, not a specific animal identifier)\",\n    \"Edam is cheese, not a protein category matching the allowed list (chicken/beef/pork/duck/lamb/seafood)\",\n    \"Visual identification of salame type/animal origin cannot override the requirement for explicit species naming in source text\",\n    \"Source metadata (title/description) does not explicitly state which animal the salame derives from\"\n  ],\n  \"reason\": \"Image quality, sharpness, lighting, composition and phone thumbnail all meet standards. Piadina romagnola form and toppings are visually clear and appetising. However, the protein_evidence check fails: 'salame' is a cured meat product category without explicit animal species identification in the source description. The rules require exact source quotes explicitly naming each animal (chicken/beef/pork/duck/lamb/seafood), never inference from appearance or tradition. 'Salame ed Edam' does not meet this standard—salame alone does not name the animal. Edam is cheese and does not map to allowed protein categories. Hold pending clarification of salame animal origin in source metadata.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1734,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 554,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
