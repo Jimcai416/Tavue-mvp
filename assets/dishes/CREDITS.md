@@ -8768,3 +8768,9 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Chicken tabaka** — Kazakhpopulation. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Georgian-Crispy-Chicken-Tabaka3.jpg). Local asset: `reviewed-commons-136997093.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Forchettata di Puttanesca** — Schellenberg. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Puttanesca_forchettata.jpg). Local asset: `reviewed-commons-137957688.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Cholent with egg** — Newmila. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Cholent_with_egg.jpg). Local asset: `reviewed-commons-126732367.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Spaghetti alla Puttanesca** — Kaifredriksen. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Spaghetti_alla_Puttanesca_-_detail.JPG). Local asset: `reviewed-commons-25477971.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
