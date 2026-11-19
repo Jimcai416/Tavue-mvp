@@ -9736,3 +9736,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Arepa Reina Pepiada (chicken and avocado)** — Mitdralla. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Arepa-reina-pepiada-arepasdelgringo.jpg). Local asset: `reviewed-commons-90157086.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Soupe de pâtes tunisienne (makrouna jaria)** — Souad Anane Lesina. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/); [source](https://commons.wikimedia.org/wiki/File:Makrouna_Jaria.JPG). Local asset: `reviewed-commons-7787032.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
