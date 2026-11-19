@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBWa3MH8F3u4trNrzCfd",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 3,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [\n    \"Dark bowl containing cooked meat pieces in a spiced sauce\",\n    \"Meat appears cooked and broken into chunks\",\n    \"Greenish-brown spice coating visible throughout\",\n    \"Natural home-cooking presentation\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows cooked meat curry in dark vessel\",\n    \"Spiced coating and sauce visible at this scale\",\n    \"Dish identity readable as a prepared meat curry\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title contains non-Latin script (Sylheti Nagari) that cannot be verified as matching the actual dish identity\",\n    \"Metadata claims 'beef and Naga pepper sauce' but no visible confirmation of beef vs. other meat species\",\n    \"Cannot confirm the specific regional variant 'Sylheti Phal curry' from visual inspection alone\",\n    \"No explicit English-language source title provided to match canonical_name requirement\"\n  ],\n  \"reason\": \"Identity check fails: source title is in Sylheti script without corresponding romanized or English equivalent provided. Protein cannot be verified—metadata claims beef, but visual appearance does not reliably distinguish beef from mutton or other dark meats. Regional variant 'Sylheti Phal curry' cannot be confirmed from appearance. Canonical_name requires exact match to source title/description in readable form. Per rules, ambiguous meat species and source contradictions require hold. Quality and photograph checks pass (sharpness slightly soft but acceptable for home cooking; lighting and composition adequate). Phone thumbnail is clear and readable.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1951,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 493,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
