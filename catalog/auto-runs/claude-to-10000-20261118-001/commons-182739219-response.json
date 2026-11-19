@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCQhUvRvTAVYAFjTtVKo",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 3,\n    \"appeal\": 3\n  },\n  \"visible_support\": [\n    \"Sealed transparent package visible\",\n    \"Blue Salteña brand label clearly readable\",\n    \"Multiple pale, crimped half-moon shaped parcels consistent with sorrentinos\"\n  ],\n  \"phone_observations\": [\n    \"Package and contents visible but severely reduced\",\n    \"Food parcels too small and compressed in thumbnail to assess essential detail\",\n    \"Brand label illegible at thumbnail scale\",\n    \"Insufficient visual prominence of finished dish in phone view\"\n  ],\n  \"protein_evidence\": {\n    \"pork\": \"jamón\",\n    \"seafood\": null\n  },\n  \"uncertainties\": [\n    \"Package is unopened product still in retail wrapper with Salteña brand label—this is printed food on packaging, not a finished exposed dish\",\n    \"Image shows store-bought frozen/packaged food, not a prepared meal\"\n  ],\n  \"reason\": \"Rejection: The source image shows a sealed retail package of Sorrentinos de jamón y quesos with the Salteña brand label prominently visible. This is printed food on packaging, not a finished, exposed, prepared dish. Policy excludes printed food on packaging. Additionally, the phone thumbnail shows the parcels at insufficient visual prominence and detail to assess the dish itself. While metadata identity matches the description and the product visible confirms the variant qualifiers (jamón, provolone, mozzarella), the fundamental requirement for a finished, exposed, likely photographic dish is not met.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1759,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 461,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
