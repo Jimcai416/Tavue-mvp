@@ -7846,3 +7846,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 - **Chicken karaage** — Ocdp. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Chicken_karaage_001.jpg). Local asset: `reviewed-commons-91951454.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **thakkali kulambu** — Dr.Simon Peter J. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Drsimon_079.jpg). Local asset: `reviewed-commons-40940037.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **すたみな唐揚げ定食鬼盛り** — Ocdp. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Chicken_karaage_002.jpg). Local asset: `reviewed-commons-91951453.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Nethili Meen Kulambu** — Giftsonfelix. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:NETHILI_MEEN_KULAMBU_(NETHILI_FISH_CURRY).jpg). Local asset: `reviewed-commons-40696921.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.

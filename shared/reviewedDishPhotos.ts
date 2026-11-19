@@ -104806,5 +104806,29 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 638,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-40696921",
+    "title": "File:NETHILI MEEN KULAMBU (NETHILI FISH CURRY).jpg",
+    "author": "Giftsonfelix",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:NETHILI_MEEN_KULAMBU_(NETHILI_FISH_CURRY).jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a9/NETHILI_MEEN_KULAMBU_%28NETHILI_FISH_CURRY%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "b99feaddcdca8c16c5d1861ac405508752ff67c1",
+    "name": "Nethili Meen Kulambu",
+    "aliases": [],
+    "proteins": [
+      "seafood"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-40696921.jpg",
+    "assetSha256": "934c3431b4ad3808d901bebaf9aeb75efa984dd9a2fcfc2b892dc18b458121f3",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 576,
+    "requiresExactMenuName": true
   }
 ];
