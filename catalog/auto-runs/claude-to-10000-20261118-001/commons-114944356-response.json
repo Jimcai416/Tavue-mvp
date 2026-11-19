@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBfLAaGja1DStkAddrD7",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Cooked sausages with spice coating visible in foreground\",\n    \"Larger meat cuts (ribs/chops) in background with charred exterior\",\n    \"Natural daylight, street food setting\",\n    \"Sharp detail of meat texture and browning\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail shows sausages prominently in lower portion\",\n    \"Colouration consistent with full image\",\n    \"Readable essential components present\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title states 'Longaniza y costilla' but provides no explicit animal species for either component\",\n    \"Longaniza is a Philippine sausage whose meat species (pork/chicken/beef) is not stated in source\",\n    \"Costilla (rib/chop) animal species cannot be determined visually from browning alone\",\n    \"Title and description do not contain exact species names required for protein_evidence keys\",\n    \"Sausage identity cannot be used as a protein category key per rules\"\n  ],\n  \"reason\": \"Image is well-exposed, sharp, appetising street food photograph with good composition and natural colours. Phone thumbnail clearly shows the dish. However, the source title 'Longaniza y costilla' does not explicitly name the animal species for either component. While longaniza and costilla are traditional Philippine dishes typically made with pork, the source metadata does not contain explicit species declarations (e.g. 'pork longaniza' or 'pork costilla'). Per rules, species must never be inferred from tradition, appearance, or generic meat terms alone. Sausage cannot be used as a protein category key. Without exact source quotes naming the animals, protein_evidence cannot be populated and identity check fails. Hold for explicit species confirmation in source.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1727,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 548,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
