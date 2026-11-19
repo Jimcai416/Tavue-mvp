@@ -7899,3 +7899,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Nduja mit Brot** — © Alice Wiegand / CC-BY-SA 4.0 (via Wikimedia Commons). [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Nduja_mit_Brot.jpg). Local asset: `reviewed-commons-35261252.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Gujrati snack khakhra** — Jay87.mehta. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Khakhra.JPG). Local asset: `reviewed-commons-40958126.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.

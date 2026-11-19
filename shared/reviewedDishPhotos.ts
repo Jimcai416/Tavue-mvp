@@ -105336,5 +105336,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 715,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-40958126",
+    "title": "File:Khakhra.JPG",
+    "author": "Jay87.mehta",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Khakhra.JPG",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Khakhra.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "d4f0b50dfa236776b918588221a3fb37cbe6af62",
+    "name": "Gujrati snack khakhra",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-40958126.jpg",
+    "assetSha256": "14123eb46d5c9b99269e68c70313b6f3088b1abd9cef0e8a6ea83252e06b7d4d",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 640,
+    "requiresExactMenuName": true
   }
 ];
