@@ -6844,3 +6844,8 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 
 - **Orecchiette al Pomodoro** — [https://www.flickr.com/people/turos/ , Retouched by  AM](https://www.flickr.com/people/turos/). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Orecchiette_al_Pomodoro.jpg). Local asset: `reviewed-commons-3761318.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Trofie with genovese paste** — [pelican  from Tokyo, Japan](https://www.flickr.com/people/85936780@N00). [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:Trofie_with_genovese_paste_(10118687533).jpg). Local asset: `reviewed-commons-77827802.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Cavatelli con peperoni cruschi e ceci** — [Kars Alfrink](https://www.flickr.com/photos/kaeru/). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Cavatelli_con_peperoni_cruschi_e_ceci.jpg). Local asset: `reviewed-commons-93176275.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Trofie with pesto** — [pelican  from Tokyo, Japan](https://www.flickr.com/people/85936780@N00). [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:Trofie_with_pesto_(9828569174).jpg). Local asset: `reviewed-commons-77827791.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
