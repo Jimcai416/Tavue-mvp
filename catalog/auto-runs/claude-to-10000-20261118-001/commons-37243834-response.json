@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBZAc2jy96B6mmRMi1nr",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 1,\n    \"lighting\": 2,\n    \"composition\": 2,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows multiple varieties of raw/uncooked sausage strings in display boxes at a market counter\",\n    \"Colours range from deep red to yellow to brown, typical of cured sausage varieties\",\n    \"Packaging and retail environment dominate; no finished dish visible\",\n    \"Essential food components (the prepared sausages) are present but in raw/packaged form, not as a finished, exposed, cooked dish\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title references 'Cevizli sucuk' (walnut sausage) but the photograph shows a market display of multiple unidentified sausage varieties, not a single identifiable prepared dish\",\n    \"Sucuk is traditionally a cured raw sausage; no cooking or plating evidence\",\n    \"Species of meat in sausages cannot be determined from appearance alone and is not explicitly stated in source metadata\"\n  ],\n  \"reason\": \"Rejection: Image is a market/retail display photograph of packaged raw sausages, not a finished, exposed, plated or served dish. The source description is vague ('Cevizli sucuk from Turkey' paired with a Spanish name 'Churchkhela de Turquia'), and multiple unmarked sausage varieties are shown rather than a single identifiable prepared food item. Quality is severely compromised by poor lighting, blur, and retail clutter. No specific protein species is declared in the source. This fails the core requirement for 'a finished, exposed, likely photographic dish' and does not meet minimum sharpness, lighting, or composition thresholds.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1738,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 507,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

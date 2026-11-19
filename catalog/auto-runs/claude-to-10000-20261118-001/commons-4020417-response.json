@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBZB2k2g5e7XnaVd6km2",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 3,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Subject occupies minimal area in thumbnail\",\n    \"Coiled sausage appears as narrow dark ring\",\n    \"Twine binding visible but essential food detail not prominent\",\n    \"Insufficient visual detail for category confirmation in phone view\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title contains 'beef and lambmeat' but metadata is untrusted evidence; source description cannot substitute for visual identification of species\",\n    \"Sausage/casing category explicitly excluded from protein_evidence keys per instructions\",\n    \"Handmade preparation stage may disqualify as finished exposed dish suitable for food review\"\n  ],\n  \"reason\": \"Reject: This is a raw or uncooked sausage (sucuk) in preparation or storage form, not a finished, exposed, cooked dish ready for consumption. The subject is a cased product tied with twine, which represents a culinary ingredient or intermediate stage rather than a plated or prepared dish. The phone thumbnail shows the subject too small and insufficiently detailed. Protein evidence cannot be populated because sausage is an explicitly excluded category key, and the meat species claimed in untrusted metadata ('beef and lambmeat') cannot be visually confirmed and do not override the primary defect: this is not an appropriate finished food photograph for Tavue review.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1837,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 438,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
