@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCuCYKt9geqUQS6rHJ1Q",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"White rice base visible\",\n    \"Red and yellow bell peppers scattered throughout\",\n    \"Green herbs/spices visible\",\n    \"Served in dark cooking pan/wok\",\n    \"In-progress or plated dish appearance\"\n  ],\n  \"phone_observations\": [\n    \"Rice and vegetable components clearly visible in thumbnail\",\n    \"Red pepper strips prominent\",\n    \"Pan cooking context retained\",\n    \"Adequate detail for dish recognition\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title metadata indicates 'vegetable biryani' but no explicit dish name provided in description field beyond 'vegetable biryani 03'\",\n    \"Canonical name extraction unclear: file name and description differ from required exact source quote format\",\n    \"Vegetable composition not fully specified in source metadata\"\n  ],\n  \"reason\": \"Rejection due to identity check failure. The source metadata provides only 'vegetable biryani 03' as description, but the required canonical_name extraction protocol demands an exact copied phrase from source title or description without file naming conventions (File:, date, photographer, extension). The metadata structure does not contain a formal dish title distinct from filename formatting. Additionally, the description lacks explicit confirmation of which vegetables comprise this biryani, failing the specificity requirement for variant preservation. While the photograph itself is well-exposed, sharp, and appetising, the source documentation does not meet the canonical naming and identification standards required for acceptance.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1730,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 464,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

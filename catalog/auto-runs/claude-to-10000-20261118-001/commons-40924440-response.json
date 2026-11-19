@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCuC6rwF1svaWKKQ3Jsw",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Yellow and white rice base visible\",\n    \"Sliced vegetables (eggplant/aubergine rounds, onion whites) clearly present\",\n    \"What appears to be bacon or meat strips scattered across the dish\",\n    \"Sharp detail in both full image and thumbnail\",\n    \"Natural colours, no severe casts\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail shows rice, vegetable slices and meat pieces clearly\",\n    \"Composition and components readable at small scale\",\n    \"Prominent dish presentation maintained\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'Vegetable Biryani' but meat strips are visibly present throughout the dish—contradicts vegetarian descriptor\",\n    \"Meat species cannot be identified with certainty from appearance alone; strips resemble bacon but could be other cured or cooked preparations\",\n    \"No explicit protein naming in source description to support any meat category\"\n  ],\n  \"reason\": \"Source title 'Vegetable Biryani' contradicts the visible presence of prominent meat strips throughout the dish. This is a material identity conflict: a vegetable biryani should contain no meat. The meat component is unidentified (species not declared in source text and cannot be reliably inferred from visual appearance). Per protocol, source contradictions and undeclared/unspecified meat species trigger a hold, but the fundamental identity mismatch (vegetable dish + visible meat) is a rejection criterion.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1630,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 469,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCuBAd8TWTfk9ds5nt1w",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Four whole squid bodies arranged on a white plate\",\n    \"Golden-brown seared exterior with charring\",\n    \"Fresh green chives scattered as garnish\",\n    \"Light tan/brown sauce or jus surrounding the squid\",\n    \"Natural appetising appearance, well-finished dish\"\n  ],\n  \"phone_observations\": [\n    \"Four stuffed squid clearly visible in thumbnail\",\n    \"Golden colour and plating fully legible\",\n    \"Central positioning and sharp detail preserved\",\n    \"Dish identity unambiguous in phone view\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title states 'Calamares rellenos' (stuffed squid) but squid/cephalopod is not an allowed protein category\",\n    \"No chicken, beef, pork, duck, lamb or seafood fish explicitly named in source\",\n    \"Squid cannot be verified as an accepted protein type under the constraints\"\n  ],\n  \"reason\": \"Reject: Identity mismatch. The photograph clearly shows calamares rellenos (stuffed squid), which is a finished, well-executed dish with excellent photo quality and phone legibility. However, squid/cephalopod is not within the approved protein_evidence categories (chicken, beef, pork, duck, lamb, seafood). The source title and visible form are unambiguous, but the protein cannot be mapped to any allowed category key. All quality and photograph checks pass (scores ≥4), but identity check fails due to unsupported protein type.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1731,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 487,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

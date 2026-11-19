@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCuCWaTe67N6xAhRnHES",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 3,\n    \"appeal\": 3\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows incomplete plating with component bowls/containers visible rather than finished plated dish\",\n    \"Golden-brown rice visible but appears to be raw ingredient presentation\",\n    \"Cream-coloured component (likely raita or yogurt) in separate bowl indicates preparation/service stage, not finished composed dish\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title states 'Vegetable aloo biryani' but full image shows component bowls in preparation/service stage rather than a finished, composed biryani dish\",\n    \"No finished plated biryani is visible; image appears to document ingredients or intermediate preparation stages\",\n    \"Aloo biryani should be a unified composed rice dish; this shows separated components\"\n  ],\n  \"reason\": \"Reject: Identity check fails. The source claims 'Vegetable aloo biryani' but the photograph shows component bowls (raw/cooked rice, raita, onions, spice garnish) in preparation or service configuration, not a finished, exposed, composed biryani dish. This is a preparation/ingredient documentation stage, not a photographic record of a finished appetising dish. The phone thumbnail confirms component separation rather than a unified plated dish. Requires a finished, plated biryani with integrated components clearly visible.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1520,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 437,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

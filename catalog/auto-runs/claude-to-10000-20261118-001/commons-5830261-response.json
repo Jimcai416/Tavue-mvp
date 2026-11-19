@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCuBAe8MshfS4LJCap3i",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Cooked shrimp with orange-red caramelized exterior visible\",\n    \"Rice base beneath the shrimp layer\",\n    \"Glossy, oil-based sauce coating\",\n    \"Natural colour, properly exposed\",\n    \"Sharp detail in phone thumbnail showing shrimp and rice\"\n  ],\n  \"phone_observations\": [\n    \"Shrimp and rice clearly visible in centre-cover thumbnail\",\n    \"Prominent finished dish, appetising appearance\",\n    \"No essential components clipped\",\n    \"Readable as a prepared dish\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'Camarones al mojo de ajo' (shrimp in garlic sauce), but the dominant visible component is a substantial bed of orange-tinted rice that is not typical of the classic preparation\",\n    \"The rice appears to be cooked in a tomato or achiote-based seasoning, suggesting possible paella, arroz con camarones, or a hybrid preparation rather than straightforward camarones al mojo de ajo\",\n    \"Source metadata contains filename and restaurant attribution (non-canonical elements) in the title field\",\n    \"Seafood category 'seafood' is not listed as an allowed protein key in the specification; only chicken/beef/pork/duck/lamb/seafood are permitted, but shrimp/camarones do not align with that list\",\n    \"Cannot confirm the dish identity matches the title without explicit source-quoted evidence of the preparation method or regional variant\"\n  ],\n  \"reason\": \"While the photograph is sharp, well-lit, and appetising, with good composition and clear visibility in the phone thumbnail, the identity check fails. The title 'Camarones al mojo de ajo' typically refers to shrimp in a garlic oil sauce without a prominent rice component. The visible dish here shows a substantial rice base with orange-tinted seasoning and shrimp on top, which is visually inconsistent with the named preparation. The source metadata also embeds filename elements. Additionally, shrimp/camarones cannot be verified against the allowed protein categories (chicken/beef/pork/duck/lamb/seafood), creating a mismatch in species classification. The identity uncertainty and protein category misalignment together require a hold, but given the significant visual discrepancy from the stated dish name, rejection is more appropriate.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1747,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 673,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
