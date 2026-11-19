@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBUKbNDiZoeRJid9ure3",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Shredded potato mixture visible in black pan\",\n    \"Uniform yellow colour consistent with raw grated potatoes\",\n    \"No browning, crisping or cooking visible\",\n    \"Preparation stage, not finished dish\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title describes 'Geriebene Kartoffeln für Rösti in der Pfanne' (grated potatoes for rösti in the pan) — this is explicitly a preparation stage, not a finished, cooked rösti dish\"\n  ],\n  \"reason\": \"Rejection: The image and thumbnail show raw or minimally cooked shredded potatoes in a preparation stage for rösti, not a finished, exposed, cooked dish. The instructions explicitly reject raw/preparation stages. Although the photograph quality and composition are acceptable, the subject fails the identity check: a finished rösti would be golden-brown, crispy, and cooked into a cohesive patty or hash. This is visibly uncooked grated potato awaiting cooking. The source title itself confirms this is a preparation step ('für Rösti' = 'for rösti'), not the completed dish.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1751,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 408,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
