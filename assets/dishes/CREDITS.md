@@ -7639,3 +7639,8 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 - **Dwaeji-yangnyeom-galbi-gui (grilled marinated pork ribs)** — myllissa. [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:Dwaeji-yangnyeom-galbi-gui.jpg). Local asset: `reviewed-commons-88702446.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Fried egg and beef galbi** — ノボホショコロトソ. [CC BY 4.0](https://creativecommons.org/licenses/by/4.0); [source](https://commons.wikimedia.org/wiki/File:Fried_egg_and_beef_galbi_of_Nakau_01.jpg). Local asset: `reviewed-commons-193846148.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Fried egg and beef galbi of Nakau** — ノボホショコロトソ. [CC BY 4.0](https://creativecommons.org/licenses/by/4.0); [source](https://commons.wikimedia.org/wiki/File:Fried_egg_and_beef_galbi_of_Nakau_02.jpg). Local asset: `reviewed-commons-193846150.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **KHIR KADAM** — Satadaldas1966. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:SWEET_KHIR_KADAM.JPG). Local asset: `reviewed-commons-40975723.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Galbi (grilled beef ribs)** — donchili. [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:Galbi_1.jpg). Local asset: `reviewed-commons-89601275.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.

@@ -102427,5 +102427,51 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-40975723",
+    "title": "File:SWEET KHIR KADAM.JPG",
+    "author": "Satadaldas1966",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:SWEET_KHIR_KADAM.JPG",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cd/SWEET_KHIR_KADAM.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "72920685b6c9018326c24a2fcf8dfef8c0bc96ee",
+    "name": "KHIR KADAM",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-40975723.jpg",
+    "assetSha256": "efe775d7edb54b046ecc22d6d02239a07c11119433f8467ddd7538f201989344",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-89601275",
+    "title": "File:Galbi 1.jpg",
+    "author": "donchili",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Galbi_1.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Galbi_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "1bc5d38bc057c4c8f53bf42ce965d247619df735",
+    "name": "Galbi (grilled beef ribs)",
+    "aliases": [],
+    "proteins": [
+      "beef"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-89601275.jpg",
+    "assetSha256": "7713b28d518d4f86c5c7a24e462ca043e58583ec878fea4d6f813242afe6f87b",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 640,
+    "requiresExactMenuName": true
   }
 ];
