@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChC1bwvo2Uqz78gMpgy1y",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 2,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Plastic takeout container with partial meal visibility\",\n    \"Essential components (rice, chicken, eggs) are present but severely compromised\",\n    \"Price label and receipt text occupy significant thumbnail space\",\n    \"Food elements are fragmented and not coherently presented as a finished dish\"\n  ],\n  \"protein_evidence\": {\n    \"chicken\": \"ayam berempah\"\n  },\n  \"uncertainties\": [],\n  \"reason\": \"Rejection: Photograph shows food in a commercial takeout plastic container with price label, receipt, and packaging elements prominently displayed. This is packaging with food inside, not an exposed finished dish. The phone thumbnail is dominated by container edges, promotional sticker, and label text rather than the dish itself. The presentation fails the requirement for 'a finished, exposed, likely photographic dish' and contains watermark-like packaging text. Essential food components are present but the image is primarily documentary of a retail meal—not suitable food photography per Tavue standards. Quality scores do not meet the ≥4 threshold for all criteria.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1762,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 373,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
