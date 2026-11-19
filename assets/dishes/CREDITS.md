@@ -6619,3 +6619,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 - **Burek in Sarajevo** — Hibasi. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Burek_in_Sarajevo.jpg). Local asset: `reviewed-commons-118454043.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Lontong Sayur** — [suhakri_hsu](https://www.flickr.com/people/24115349@N05). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Lontong_Sayur_emping.jpg). Local asset: `reviewed-commons-9682234.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Spinach burek** — Arianit. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Spinach_burek_in_Kruja.jpg). Local asset: `reviewed-commons-148043862.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Burek** — [Coralie Ferreira](https://www.flickr.com/people/13953807@N08). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Trip_to_Croatia-Day_1-Zagreb-Burek_(2239932259).jpg). Local asset: `reviewed-commons-38511594.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.

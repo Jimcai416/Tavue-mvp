@@ -90035,5 +90035,28 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 721,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-38511594",
+    "title": "File:Trip to Croatia-Day 1-Zagreb-Burek (2239932259).jpg",
+    "author": "Coralie Ferreira",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Trip_to_Croatia-Day_1-Zagreb-Burek_(2239932259).jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Trip_to_Croatia-Day_1-Zagreb-Burek_%282239932259%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "bf3773cdaa3ba074bd1d1e136cf85fd56c85e029",
+    "name": "Burek",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-38511594.jpg",
+    "assetSha256": "d466bdbf6f4fc8ae28c6ace954eb704fc18200de01d61ee94a623d0f524322ad",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true,
+    "authorUrl": "https://www.flickr.com/people/13953807@N08"
   }
 ];
