@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChC4BdQjdvNUrL9qStQpe",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 2,\n    \"composition\": 1,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows a street vendor stall interior, not a finished dish\",\n    \"Food products visible but too small and distant to identify as a distinct plated/served item\",\n    \"Vendor, counter, and equipment dominate the frame; no prominent finished food subject\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title declares 'Nougat vendor' but no finished nougat dish is photographed as a food item ready for consumption\",\n    \"Full image shows a commercial vendor setup with wrapped products and preparation surfaces, not a food photograph\"\n  ],\n  \"reason\": \"Rejection: This is a vendor/stall photograph, not a food photograph. The full source image shows a street market counter with equipment, vendor staff, and wrapped products in a commercial setting. No finished, exposed, sharply detailed, appetising dish is prominent in either the full image or the phone thumbnail. The subject is the business operation, not a plated or served food item. Essential food (if identifiable as nougat) is either wrapped, in bulk bins, or too distant and small to meet acceptance criteria. The phone thumbnail shows only a stall interior with no discernible finished dish. This fails identity, quality, composition, and phone checks.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1750,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 420,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
