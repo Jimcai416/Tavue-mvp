@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChC1j1PawzEcw8rwz919b",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 5,\n    \"appeal\": 5\n  },\n  \"visible_support\": [\n    \"Finished, cooked rice dish with visible meat pieces and vegetables\",\n    \"Sharp detail of rice grains, vegetables (green herbs, orange/carrot pieces), and meat components\",\n    \"Natural colour rendering with appetising warm golden tones\",\n    \"Prominent plated presentation on white bowl with accompaniments (sauce, lemon, spices)\",\n    \"Phone thumbnail clearly shows the rice dish as central subject\"\n  ],\n  \"phone_observations\": [\n    \"Fried rice or biryani clearly visible and prominent\",\n    \"Rice texture and mixed ingredients readable in thumbnail\",\n    \"Accompaniments (white sauce, garnish) visible at edges\",\n    \"No clipping of essential food components\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'Hyderabadi Dum Biryani' but no explicit animal protein is named in the source description; meat species cannot be visually confirmed with certainty from appearance alone\",\n    \"While meat pieces are visually present in the rice, the source metadata does not explicitly state which animal protein is used (chicken, lamb, goat, beef, etc.)\"\n  ],\n  \"reason\": \"Image quality, composition, photography and phone thumbnail are all excellent. The dish is finished, sharply detailed, naturally coloured and appetising. However, the identity check fails because the source title/description does not explicitly name the protein species present in the biryani. Although meat is clearly visible in the dish itself, the metadata provides no quote confirming the animal type (e.g. 'chicken biryani', 'lamb biryani'). Per rules, protein evidence requires an exact source quote explicitly naming the animal; visual inference alone is insufficient. Hold pending clarification of the protein species in the source description.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1644,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 533,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

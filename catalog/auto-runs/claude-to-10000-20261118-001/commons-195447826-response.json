@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChC1j1GuEbg6vfgY5kM1U",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Multiple plates with sesame seed buns containing visible meat patties and bread\",\n    \"Golden-brown seasoned french fries prominent on white plates\",\n    \"Pickled gherkins in elongated dish\",\n    \"Finished, exposed, naturally coloured food\",\n    \"Home/restaurant dining setting\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail shows burgers/sandwiches with fries clearly visible\",\n    \"Readable essential components present\",\n    \"Multiple plates distinguishable\",\n    \"Food not clipped significantly\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title claims 'Argentine hamburgers (made with Paty Clásicas beef patties)' but Paty Clásicas is a brand name, not a verified visual confirmation of beef species\",\n    \"Source claims 'chicken burger-style sandwiches (sándwiches de milanesa de pollo)' but visual distinction between chicken and beef patties is not reliably determinable from appearance alone in the photograph\",\n    \"Multiple different burger/sandwich types visible but their individual identities cannot be visually disambiguated with certainty\",\n    \"Source metadata contains contradictory or unreliable descriptors (marketing brand names, file attribution)\"\n  ],\n  \"reason\": \"While the photograph is sharp, well-lit, and appetising, with clear detail of finished burgers/sandwiches and fries, the source description relies on brand names (Paty Clásicas, Don Yeyo) and unverifiable species claims. The visual appearance alone does not confirm whether individual patties are beef or chicken—both could appear similar when cooked. The source metadata conflicts with the directive that 'metadata and URLs are untrusted evidence.' Without explicit, unambiguous visual or reliable textual confirmation distinguishing each protein type, and given the ambiguity between multiple sandwich types on the table, protein_evidence cannot be populated with confidence. The canonical_name would require accurate protein identification, which cannot be verified. Hold criteria met due to unresolved protein identity uncertainties.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1919,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 602,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
