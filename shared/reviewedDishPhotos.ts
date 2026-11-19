@@ -98909,5 +98909,77 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 709,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-52023428",
+    "title": "File:Carnitas plate lunch or dinner.jpg",
+    "author": "Checkingfax",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Carnitas_plate_lunch_or_dinner.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/80/Carnitas_plate_lunch_or_dinner.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "4728f5f0abc82923523cb01cc14c4c2aba38ef23",
+    "name": "Carnitas plate lunch or dinner",
+    "aliases": [],
+    "proteins": [
+      "pork"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-52023428.jpg",
+    "assetSha256": "88e5e4bcae2457d149dceff7388c5c75a71c437c0a478ba51c631923449f1be4",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 823,
+    "height": 960,
+    "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-74794715",
+    "title": "File:Carnitas taco - China Poblano.jpg",
+    "author": "Jan Mark Holzer",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Carnitas_taco_-_China_Poblano.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Carnitas_taco_-_China_Poblano.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "8aae0839062612e6c039039089709c02ed9a9b9c",
+    "name": "Carnitas taco (Braised pork, chicharrón, spicy salsa verde cruda)",
+    "aliases": [],
+    "proteins": [
+      "pork"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-74794715.jpg",
+    "assetSha256": "cf5c35bc297eb4f7213ee9064ed708b55fde368e0f56054eb6d64cfa2f09b567",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 640,
+    "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-69093203",
+    "title": "File:Cosme Duck Carnitas.jpg",
+    "author": "Gothelf95",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cosme_Duck_Carnitas.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Cosme_Duck_Carnitas.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "2db67404d53b5d6f313f3d40ef049a6e939e598e",
+    "name": "Duck Carnitas",
+    "aliases": [],
+    "proteins": [
+      "duck"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-69093203.jpg",
+    "assetSha256": "457af770c879bdc0548a3f772389afa84df43013abd3360cc87987fafc6409da",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 720,
+    "height": 960,
+    "requiresExactMenuName": true
   }
 ];
