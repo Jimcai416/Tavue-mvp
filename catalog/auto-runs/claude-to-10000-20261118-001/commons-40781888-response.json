@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCKL9Sjtk4gVwr56K5W5",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Flatbread with visible char marks consistent with tandoor cooking\",\n    \"Green herbs (cilantro/coriander) scattered across surface\",\n    \"Golden-yellow crumb visible in cross-section\",\n    \"Served with accompanying yellow curry/dhal and darker bread in background\"\n  ],\n  \"phone_observations\": [\n    \"Herb-studded flatbread clearly visible in thumbnail\",\n    \"Char marks and texture readable\",\n    \"Proper prominence and sharp detail in phone crop\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title states 'Adraki Naan (Garlic Naan)' but metadata describes 'garlic and added spices' without naming garlic as a visible ingredient—ginger (adraki) is not clearly visible\",\n    \"The description contradicts the title: 'Adraki' refers to ginger, but only garlic is confirmed in the description; visual confirmation of ginger or garlic specificity is not possible from appearance alone\",\n    \"Metadata is acknowledged as untrusted but the core identity contradiction between title (ginger naan) and description (garlic naan) cannot be resolved by photograph alone\"\n  ],\n  \"reason\": \"Source title–description contradiction: 'Adraki Naan (Garlic Naan)' in filename pairs ginger (adraki) with garlic, but description names only 'garlic and added spices'. The photograph shows an herb-studded tandoor-cooked flatbread but cannot visually confirm whether ginger or garlic dominates, or both. This unresolved identity conflict and ambiguous variant naming requires hold. All quality and photographic checks pass, but the meaningful variant qualifier cannot be verified against the specific source quote.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1755,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 541,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
