@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBmkwUNaZqfUh2GoszBo",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 2,\n    \"composition\": 2,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Raw, uncooked whole fish heads and partial bodies visible in phone thumbnail\",\n    \"No finished, exposed dish appearance\",\n    \"Essential food components clipped or obscured\",\n    \"Wet, raw preparation stage evident\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'Tulyahan fillets Paksiw' but image shows raw whole fish, not fillets or a finished paksiw dish\",\n    \"Severe contradiction between stated dish name (paksiw = braised/stewed preparation) and raw, uncooked appearance\",\n    \"Fish species 'Tulyahan' is rare, undocumented, and unverifiable; metadata describes it as 'rare fish found in nearby sea and fresh waters' with no standard culinary reference\"\n  ],\n  \"reason\": \"Rejection: Image shows raw, whole uncooked fish in an early preparation stage, not a finished, exposed, appetising dish. The source title claims 'fillets' and 'paksiw' (a braised preparation), but the photograph contradicts this—displaying intact fish heads and raw flesh. The species 'Tulyahan' is undocumented and unverifiable in culinary context. Phone thumbnail confirms raw preparation stage with clipped, obscured components. Quality scores all fall below acceptance threshold (sharpness 2, lighting 2, composition 2, appeal 1). Title–image mismatch, lack of finished-dish appearance, and unverifiable fish identity prevent acceptance.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 2279,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 484,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

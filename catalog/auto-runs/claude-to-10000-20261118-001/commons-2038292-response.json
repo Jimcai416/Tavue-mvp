@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBmkQiwE2nVxsxsEWP6E",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Plated dish with fried items\",\n    \"Fresh salad greens and purple cabbage\",\n    \"Garnish with broccoli and herbs\",\n    \"Decorative skewers\",\n    \"Natural lighting\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows plated composition\",\n    \"Fried proteins and salad components visible\",\n    \"Overall dish structure preserved in reduction\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title describes 'kara-age of angler' but angler fish (anglerfish) is not an allowed protein category\",\n    \"Visible fried items on plate cannot be definitively identified as anglerfish from appearance alone\",\n    \"Anglerfish is a fish species not in the allowed protein list (chicken/beef/pork/duck/lamb/seafood with explicit naming)\"\n  ],\n  \"reason\": \"Reject: The source description names 'angler' (anglerfish) as the protein. Anglerfish is a specific fish species, not covered by the generic 'seafood' category without explicit sourced identification of individual components as seafood. The ambiguous species designation and lack of explicit 'seafood' declaration in the source title prevent identity confirmation. Additionally, the allowed protein categories require exact source quotes naming the animal; 'angler' alone is insufficient to establish 'seafood' as a provable category.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1751,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 460,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

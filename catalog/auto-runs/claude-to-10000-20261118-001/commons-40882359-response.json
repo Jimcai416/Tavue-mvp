@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBmmShXokVDomo8NC1ee",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [\n    \"Orange-brown lentil-based broth visible in both images\",\n    \"Metal bowl and spoon consistent with home preparation\",\n    \"Pumpkin/squash pieces identifiable in the gravy\",\n    \"Natural lighting and genuine food preparation evident\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail shows finished dish in serving bowl with ladle\",\n    \"Broth texture and colour clearly visible at 124x96 resolution\",\n    \"Vegetable pieces distinguishable in centre-cover crop\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title states 'Garlic Kuzhambu' but description says 'Kulambu made with garlic' — inconsistent spelling (Kuzhambu vs Kulambu)\",\n    \"No protein species explicitly named in source metadata\",\n    \"Pumpkin/squash visible but source contains no vegetable inventory\",\n    \"Cannot confirm whether this is a vegetarian kulambu or contains unnamed meat/seafood\"\n  ],\n  \"reason\": \"Source metadata contains contradictory dish names (Kuzhambu in title, Kulambu in description) and no explicit protein declaration. The image shows a finished, appetising lentil-based dish with pumpkin pieces, but identity verification cannot be completed due to source inconsistency. Hold for clarification of canonical dish name and ingredient confirmation before acceptance.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1904,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 456,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
