@@ -101834,5 +101834,55 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 960,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-44292874",
+    "title": "File:Blini with beef cut.jpg",
+    "author": "insatiablemunch  ; cropped by  Off-shell",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Blini_with_beef_cut.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Blini_with_beef_cut.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "b44bd77124edfd8f85328bf753710cfac5df3811",
+    "name": "Blini with beef filling",
+    "aliases": [],
+    "proteins": [
+      "beef"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-44292874.jpg",
+    "assetSha256": "7f2224cf91ac259a9a21a2d2b625212ef2d3b851c356fe2734be4325afc77a9d",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 800,
+    "height": 864,
+    "requiresExactMenuName": true,
+    "authorUrl": "https://www.flickr.com/photos/insatiablemunchies/"
+  },
+  {
+    "id": "commons-41649848",
+    "title": "File:Blini with salmon roe.jpg",
+    "author": "tOrange.biz",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Blini_with_salmon_roe.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Blini_with_salmon_roe.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "fad23feccc21bbc9b8e06dd8f48d1909f37a7382",
+    "name": "Blini with salmon roe",
+    "aliases": [],
+    "proteins": [
+      "seafood"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-41649848.jpg",
+    "assetSha256": "0fb6013db1d468fae6ae2bb7492cabfc0bef4e50c84ba8475945bed68cb4f475",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 694,
+    "requiresExactMenuName": true,
+    "authorUrl": "http://tOrange.biz"
   }
 ];
