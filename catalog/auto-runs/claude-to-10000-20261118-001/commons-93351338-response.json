@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCqWMVo7HiwmgFtzbnF5",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": true,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 3,\n    \"lighting\": 2,\n    \"composition\": 3,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows an aerial/overhead architectural scene with trees and pavement\",\n    \"No food subject visible in phone centre-cover thumbnail\",\n    \"Monochromatic rendering obscures detail\",\n    \"Composition is landscape/urban, not food\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title references 'Patio de los Naranjos' (orange tree courtyard), not a food dish\",\n    \"Source metadata describes location (Sevilla, Spain) not a culinary subject\",\n    \"No prepared or finished dish visible in either image\"\n  ],\n  \"reason\": \"Reject: This is an architectural/aerial photograph of a courtyard with orange trees and people, not a food photograph. The title and description refer to a location (Patio de los Naranjos in Seville), not a dish. No finished, exposed, appetising food subject is present in the full image or phone thumbnail. The image fails identity, quality, and phone checks—it is not a photograph of a prepared dish suitable for food review.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 2050,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 382,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
