@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBQ7Prd33XGaoeEhsTUL",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Crusty golden baguette, split and filled\",\n    \"Dark cooked meat visible (pâté and/or sliced meat)\",\n    \"White onion slices visible\",\n    \"Green herbs/cilantro visible\",\n    \"Finished, plated sandwich held in hand\",\n    \"Natural daylight, appetising presentation\"\n  ],\n  \"phone_observations\": [\n    \"Sandwich clearly visible in centre of thumbnail\",\n    \"Golden baguette and dark filling prominent\",\n    \"Essential components readable: meat, bread, garnish\",\n    \"Adequate sharpness and contrast for identification\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title states 'Bánh my Pate Tháp Cám' but description in Japanese identifies the dish as 'バンミー（バインミー）・ミックス' (Bánh mì Mix), not explicitly 'Bánh my Pate Tháp Cám'\",\n    \"Exact meat species not specified in source metadata: pâté is visible and inferred from title, but no explicit quote names the animal source of the pâté or the sliced meat\",\n    \"Title uses 'Bánh my' (romanization variant) while description uses 'バインミー' (katakana for bánh mì); canonical spelling and exact dish name unclear\"\n  ],\n  \"reason\": \"Identity mismatch between title ('Bánh my Pate Tháp Cám') and description ('バンミー（バインミー）・ミックス' / Bánh mì Mix). No explicit protein source quoted: pâté type and sliced meat species are not named in source metadata. Title does not exactly match description. Hold pending source clarification of canonical dish name and confirmation of meat identities.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1575,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 559,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

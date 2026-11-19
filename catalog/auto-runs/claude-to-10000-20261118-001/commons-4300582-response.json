@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBQ8W4D8RfPHr614F6SG",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Grilled meat skewers with charred exterior on bamboo sticks\",\n    \"Green rice (cơm lam) with herbs visible in white bowl\",\n    \"White onion slices on left side of plate\",\n    \"Charred scallion/vegetable garnish on top of rice\",\n    \"Natural outdoor lighting on wooden surface\"\n  ],\n  \"phone_observations\": [\n    \"Meat skewers clearly visible with charring\",\n    \"Green rice mound recognizable\",\n    \"White bowl containing rice and components\",\n    \"Wooden table/mat in background\",\n    \"Essential dish components visible and readable\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title lists 'heo xiên' (pork skewers) but metadata calls this 'Cơm lam Tây Nguyên' (bamboo rice from Tây Nguyên highlands) without explicit meat species in canonical description\",\n    \"Exact dish name contradicts between title component ('heo xiên') and file description ('Cơm lam Tây Nguyên') – unclear which is authoritative\",\n    \"Description 'muối xả kèm heo xiên' (salt and lemongrass with pork skewers) conflicts with primary file name focusing on rice dish\",\n    \"No exact substring from source explicitly naming the protein in a canonical dish phrase\"\n  ],\n  \"reason\": \"Source metadata contains conflicting identity information: the file is titled 'Cơm lam Tây Nguyên' (bamboo rice from Tây Nguyên) but the description adds 'muối xả kèm heo xiên' (with salt, lemongrass, and pork skewers). The meat component ('heo xiên'/pork) appears only in the description, not in the canonical file title. This contradiction between file name and description makes the authoritative dish identity ambiguous. While the photograph is of high quality and shows a finished, appetising dish with clear components, the source does not provide a single, unambiguous canonical dish name that preserves all meaningful qualifiers. Hold pending clarification of which name is authoritative.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1750,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 640,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
