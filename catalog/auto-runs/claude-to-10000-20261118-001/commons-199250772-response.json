@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCesvsHzvud3F5fW5bm2",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Sushi roll with nori wrapping visible in both images\",\n    \"Rice and green vegetable components clearly visible\",\n    \"Sesame seeds present on exterior\",\n    \"Hand-held presentation typical of street food service\",\n    \"Phone thumbnail shows prominent roll cross-section\"\n  ],\n  \"phone_observations\": [\n    \"Roll cross-section clearly visible in thumbnail\",\n    \"Nori wrapping and rice distinctly shown\",\n    \"Green filling component visible\",\n    \"Sesame seed coating evident\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title references 'Caliprawnia Sushi Roll' but source description lists 'prawn' with asterisk—asterisk notation typically indicates allergen/disclosure flag, not confirmation of ingredient presence\",\n    \"Visible green component appears to be avocado or cucumber, but cannot visually distinguish between prawn, shrimp or other seafood species from appearance alone\",\n    \"File title 'Caliprawnia' is a marketing/branding name, not a canonical dish identifier\",\n    \"Description contradicts title: title suggests 'California Roll' variant with prawn branding, but traditional California Roll contains imitation crab, not prawn\",\n    \"No explicit visual evidence of seafood species; green and rice components are identifiable but protein identity cannot be established from appearance\"\n  ],\n  \"reason\": \"Source title and description are contradictory and lack explicit confirmation of seafood species. The file title 'Caliprawnia Sushi Roll' is a branded variant name, while the description lists 'prawn*' with an asterisk (typically an allergen disclosure marker, not a confirmed ingredient list). California Roll tradition uses imitation crab, not prawn. The visible components (rice, nori, sesame, green vegetable) are clear, but no seafood can be definitively identified visually. Protein identity remains ambiguous despite menu description. Per protocol, unverified protein claims and source contradictions require hold status; this falls to rejection due to unresolvable identity conflict between branded title and stated ingredients.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1755,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 609,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
