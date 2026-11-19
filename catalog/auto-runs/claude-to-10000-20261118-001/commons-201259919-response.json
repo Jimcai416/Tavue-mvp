@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBYBYrQZ7HAEooJ4Fgcz",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Red and white bean stew with visible dark legumes in thick broth\",\n    \"White rice mound on plate\",\n    \"Red tablecloth, formal place setting\",\n    \"Familiar Argentine home-cooking presentation\"\n  ],\n  \"phone_observations\": [\n    \"Plate clearly visible at centre with bean stew and rice\",\n    \"Individual components readable\",\n    \"Appetising presentation preserved in thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title declares 'chorizo' but no visible meat pieces can be confidently identified in the photograph as distinct from beans\",\n    \"Chorizo is an unspecified sausage type—species cannot be determined from appearance or generic name alone\",\n    \"Description states 'trozos de chorizo' (pieces of chorizo) but visual confirmation is impossible given bean similarity and lack of explicit meat identification in image\"\n  ],\n  \"reason\": \"Image quality and composition are strong. However, the source declares chorizo as a protein component, but chorizo is a sausage of unspecified animal species. Per protocol, sausages cannot be used as protein keys, and species cannot be inferred from appearance or tradition. The photograph does not provide explicit visual proof of a named animal protein (chicken/beef/pork/duck/lamb/seafood). Without a source quote explicitly naming the animal species within chorizo, protein_evidence cannot be populated. Hold pending clarification of chorizo's specific meat composition.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1831,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 467,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

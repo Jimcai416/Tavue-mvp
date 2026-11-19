@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBYC4nDrbNjgy7oHUXBU",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Red beans visible in the stew\",\n    \"White rice clearly present as side\",\n    \"Boiled cassava root visible in background plate\",\n    \"Gravy/sauce evident on the main dish\",\n    \"Natural home cooking presentation\"\n  ],\n  \"phone_observations\": [\n    \"Stew with red beans and meat is prominently visible in thumbnail\",\n    \"White rice accompaniment is clear\",\n    \"Dish detail is sharp and identifiable at phone size\",\n    \"Appetising home-cooked appearance maintained in thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title mentions 'chorizo' but the meat species in chorizo is not explicitly named in the description—chorizo type/animal is ambiguous and cannot be confirmed from visual inspection alone\",\n    \"Description states 'guiso de porotos rojos con chorizo y vegetales' but does not explicitly declare which animal the chorizo contains; chorizo can be pork, beef, or mixed species\"\n  ],\n  \"reason\": \"Image quality, photography and phone thumbnail are all strong (all checks pass except identity/variant). However, the source description includes 'chorizo' as a protein component, but provides no explicit statement of the animal species it contains. Per rules, 'sausage' (including chorizo) cannot be used as a protein key without exact source declaration of the animal. The description does not say 'pork chorizo' or 'beef chorizo'—it only says 'chorizo'. This ambiguity of meat species must be held pending source clarification. The canonical name cannot be confirmed without resolving the protein uncertainty.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1757,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 507,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

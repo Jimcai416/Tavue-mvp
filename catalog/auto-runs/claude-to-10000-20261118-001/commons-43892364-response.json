@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBYBZLBawUJSUfEje3Cm",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Grape leaves visibly rolled and stacked in earthenware serving bowl\",\n    \"Yellow-green colour consistent with cooked vine leaves\",\n    \"Finished, exposed dish presented on white plate\",\n    \"Restaurant setting with patterned tablecloth\",\n    \"Phone thumbnail shows prominent wrapped rolls clearly\"\n  ],\n  \"phone_observations\": [\n    \"Rolled cylinders clearly visible and identifiable as sarma\",\n    \"Adequate detail of leaf texture in thumbnail\",\n    \"Dish centrally framed in cover area\",\n    \"No essential components clipped\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title states 'with meat (\\\"etli\\\")' but no meat is visually identifiable within or on the visible sarma\",\n    \"The description claims meat filling but the photograph shows only grape leaves; meat species and presence cannot be confirmed from the image alone\",\n    \"Ambiguity between claimed filling and visual evidence: interior contents are not visible or confirmable\"\n  ],\n  \"reason\": \"Source metadata declares this as 'yaprak sarma, with meat (etli)' but no meat species is explicitly named and no animal protein is visually evident or confirmable from the photograph. The visible form is correct (rolled grape leaves, finished dish, good quality), but the protein claim cannot be supported by visual inspection, and the unspecified generic 'meat' reference creates ambiguity about species. Per protocol, hidden flavours may be source-declared but cannot be claimed as visually proven, and unspecified meat species requires a hold. Identity check fails due to unresolved protein uncertainty despite accurate dish form recognition.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1746,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 506,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

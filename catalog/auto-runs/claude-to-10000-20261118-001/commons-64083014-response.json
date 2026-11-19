@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBYAqQYLV5P9CiUQ7s9N",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Grape leaves or similar wrapping leaves clearly visible\",\n    \"Multiple rolled parcels arranged on white plate\",\n    \"White yogurt sauce in bowl in background\",\n    \"Natural restaurant plating with checkered tablecloth\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows rolled leaf parcels\",\n    \"Adequate detail of wrapping and filling visible\",\n    \"Yogurt accompaniment visible in background\",\n    \"Composition readable at phone size\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title states 'Etli yaprak sarma' (meaning 'meat-filled leaf rolls') but no specific meat animal is explicitly named in source title or description\",\n    \"Generic term 'etli' (meat) without species qualifier: could be beef, lamb, or other meat\",\n    \"Filling is not visually exposed or identifiable to species level\",\n    \"Source does not provide explicit animal declaration required for protein_evidence\"\n  ],\n  \"reason\": \"Image quality, photograph authenticity, and phone thumbnail all pass. However, identity check fails because the source title 'Etli yaprak sarma' contains only the generic Turkish term 'etli' (meat) without explicit naming of the specific animal protein. Per protocol, ambiguous or unspecified meat species—including generic 'meat' declarations—must be held. The filling is wrapped and not visibly exposed for species verification. An explicit source quote naming the animal (beef/lamb/pork/chicken/duck/seafood) is required for acceptance.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1737,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 487,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
