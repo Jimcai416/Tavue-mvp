@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBYPUjwQnoVP1PmAQLr3",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 5,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"White rice dish with cilantro (Pulao)\",\n    \"Deep red beetroot or beet preparation (visible on black plate)\",\n    \"Orange curry/gravy in white bowl (Dalma)\",\n    \"Orange/red curry with vegetables in second white bowl (Paneer lababdar candidate)\",\n    \"White yogurt/curd with spice powder in red bowl\",\n    \"Fresh cilantro bunches\",\n    \"Professional plating on black plate and black background\"\n  ],\n  \"phone_observations\": [\n    \"Central black plate clearly visible with rice mound and red preparation\",\n    \"Three white bowls with curries readable in thumbnail\",\n    \"Red-rimmed white bowl (curd) visible\",\n    \"Overall composition and dish arrangement recognizable\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title lists 'Paneer lababdar' but paneer (cottage cheese) is not an allowed protein category and appears only as decorative garnish/ingredient—no explicit vegetarian/paneer-only declaration in title\",\n    \"Dalma identity confirmed as vegetarian lentil preparation but source does not explicitly state paneer lababdar contains no meat protein; traditional variants may include meat\",\n    \"Second orange curry bowl identity ambiguous—could be paneer lababdar or a meat-based curry; source ordering and visual match unclear\",\n    \"No explicit statement that entire platter is vegetarian despite apparent composition\",\n    \"Protein composition of 'Paneer lababdar' cannot be verified from source; paneer is not an allowed protein category\"\n  ],\n  \"reason\": \"Image quality, sharpness, lighting, composition, and phone thumbnail are all excellent and meet acceptance thresholds. However, identity cannot be fully verified because the source description lists 'Paneer lababdar' as a component dish, and paneer (cottage cheese) is not an allowed protein category in the protein_evidence schema. The source does not explicitly declare this as a vegetarian dish, and paneer lababdar can be prepared with meat proteins in some regional variants. Additionally, the second curry bowl's specific identity and ingredients cannot be unambiguously matched to the source description. All checks cannot be marked true due to unresolvable protein identity uncertainty and lack of explicit vegetarian confirmation. Hold pending source clarification of all dish ingredients and meat/non-meat status.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1929,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 668,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

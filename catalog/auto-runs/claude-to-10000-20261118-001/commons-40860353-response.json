@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBYNq1JxwVH51Vk9Tth7",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Finished, cooked dish clearly plated\",\n    \"Golden-brown fried legume base visible\",\n    \"White and pink diced onions prominently scattered on top\",\n    \"Lime wedge garnish present\",\n    \"Pav (puffed white bread rolls) alongside\",\n    \"Spoon visible on plate\",\n    \"Appetising, natural colours\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows cooked legume dish with toppings\",\n    \"Onions and garnish readable at 124x96 size\",\n    \"Bread rolls visible in corner\",\n    \"Overall composition and subject prominence adequate for phone review\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title describes 'moong curry with spicy fried chick pea power bits' — a contradiction: moong (mung bean) and chick pea (different legume species) cannot both be the primary base. Visual inspection shows fried legume granules but cannot definitively distinguish moong from chick pea or confirm both are present.\",\n    \"Description mentions 'curry' but dish appears to be a dry, fried legume preparation (usal/ussal-style), not a wet curry. Terminology mismatch with visual form.\",\n    \"No animal protein is visible or explicitly named in source description.\"\n  ],\n  \"reason\": \"Source title–description contradiction: 'moong curry with spicy fried chick pea power bits' mixes two different legume species and incorrectly labels a dry fried legume dish as 'curry'. Identity is ambiguous and unresolvable from the image alone. The dish is well-photographed, finished, and appetising, but the internal inconsistency in the source metadata and lack of a coherent canonical identity prevents acceptance. No protein category can be supported (no animal protein declared). Hold uncertainty due to unresolved source contradiction.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1687,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 574,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
