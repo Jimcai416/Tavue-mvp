@@ -104969,5 +104969,53 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "height": 720,
     "requiresExactMenuName": true,
     "authorUrl": "https://www.flickr.com/people/47592968@N00"
+  },
+  {
+    "id": "commons-127615314",
+    "title": "File:Nilagang Baka 2.jpg",
+    "author": "MarvinBikolano",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nilagang_Baka_2.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Nilagang_Baka_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "ae500caf88dd35c4ccb7312f6cdff95bc5385e96",
+    "name": "Nilagang Baka",
+    "aliases": [],
+    "proteins": [
+      "beef"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-127615314.jpg",
+    "assetSha256": "da01fb360794e89f665e7cf7a59f4cb4b8d0139ab0328e243dd0728b21ec48e8",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 540,
+    "height": 960,
+    "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-127615315",
+    "title": "File:Nilagang Baka na may Mais.jpg",
+    "author": "MarvinBikolano",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nilagang_Baka_na_may_Mais.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Nilagang_Baka_na_may_Mais.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "270d888d2ae7d00a0aa81881e249a0a5d33165fa",
+    "name": "Nilagang Baka na may Mais",
+    "aliases": [],
+    "proteins": [
+      "beef"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-127615315.jpg",
+    "assetSha256": "59ec4eba09647e23c5f2ea1a342d5a0058716299605d4659884c4f3dcb8ce466",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 540,
+    "height": 960,
+    "requiresExactMenuName": true
   }
 ];
