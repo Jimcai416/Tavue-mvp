@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBKRYKYEeUsWWUUFtFkR",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 3,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Noodle soup in broth\",\n    \"Fresh green onion/scallion garnish\",\n    \"Cooked meat pieces visible\",\n    \"White bowl presentation\",\n    \"Natural lighting\"\n  ],\n  \"phone_observations\": [\n    \"Meat and noodles readable in thumbnail\",\n    \"Broth colour and garnish visible\",\n    \"Dish identity partially discernible at small size\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title 'Lamian de costella' suggests lamb shoulder/rib (costella), but metadata title contains 'File:' prefix and filename extension (non-canonical format)\",\n    \"Description 'Sibisi' does not match title 'Lamian de costella' – source identity contradiction\",\n    \"Meat species cannot be confirmed visually; 'costella' (rib/shoulder cut) does not specify animal\",\n    \"No explicit protein animal name in description; 'Lamian' is a noodle dish category, not a protein identifier\",\n    \"Ambiguous regional variant: 'Lamian de costella' is not a standard canonical phrase in major culinary references\"\n  ],\n  \"reason\": \"Source metadata contains contradictions: title references 'Lamian de costella' (a dish with rib/shoulder meat) but description is only 'Sibisi', and title includes filename syntax (File: prefix). Meat species is not explicitly named in either title or description, preventing confident protein classification. While the photograph shows a finished noodle soup with cooked meat and fresh garnish, the identity mismatch between title and description, combined with absence of an explicit animal protein declaration, requires hold pending source clarification.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1727,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 528,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

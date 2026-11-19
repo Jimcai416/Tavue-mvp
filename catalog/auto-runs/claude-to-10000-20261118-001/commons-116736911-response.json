@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBKRqJFCU4nwjrRHnxyp",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 5,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Cooked udon noodles present in white bowl\",\n    \"Glossy coating consistent with teriyaki preparation\",\n    \"Green vegetable garnish visible (likely scallion)\"\n  ],\n  \"phone_observations\": [\n    \"Noodles clearly visible and prominent in thumbnail\",\n    \"White bowl framing clear\",\n    \"Dish identity readable from phone view\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title describes 'Nong shim <Udon noodles - Teriyaki>' but Nong Shim is a branded instant noodle manufacturer. The angle brackets and format suggest metadata ambiguity rather than a clear dish name.\",\n    \"No explicit protein ingredient stated in source title or description—only the cooking method (teriyaki) is named.\",\n    \"Identity conflict: source credits Nong Shim brand but provides generic preparation descriptor. Unclear if this is a branded product presentation or a home-cooked teriyaki udon.\"\n  ],\n  \"reason\": \"Source title/description is ambiguous and does not provide a clear, specific canonical dish name. 'Nong shim <Udon noodles - Teriyaki>' mixes brand name with generic preparation method, violating the requirement that canonical_name be copied exactly from source and represent a specific identifiable dish. No protein is explicitly named in the source metadata. While the photograph itself is sharp, well-lit, and appetising, and the noodles are clearly identifiable, the identity check fails because the source does not supply a coherent, unambiguous dish identity that can be preserved exactly. Hold required.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 2033,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 508,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
