@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBTdbHQCZQasUUmJS6oQ",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Cured meat product visible in thumbnail with dark pepper coating\",\n    \"Elongated form consistent with cured pork\",\n    \"Surface detail legible at reduced resolution\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title references 'guanciale' (pork jowl curing), but this is a sausage/processed meat product category not in allowed protein keys\",\n    \"Protein category 'sausage' is explicitly forbidden as a key per instructions\",\n    \"Species (pork) is inferable but sausage/cured processed products cannot be mapped to canonical chicken/beef/pork/duck/lamb/seafood categories without explicit dish protein declaration\",\n    \"No exact matching protein phrase found that maps to allowed category structure\"\n  ],\n  \"reason\": \"Reject: Source describes 'Guanciale al Pepo' as cured/air-dried pork product (sausage-like cured meat). Although the photograph is sharp, well-lit, and appetising, the protein evidence cannot be validated because (1) 'sausage' is an explicitly forbidden protein key, (2) the source does not contain an exact phrase naming 'pork' as a discrete protein, and (3) cured processed meat products do not map to the canonical protein categories (chicken/beef/pork/duck/lamb/seafood) without explicit discrete protein naming in source text. Per protocol, unknown or unmappable meat species/categories require a hold, not acceptance. This product cannot be classified within the allowed framework.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1551,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 494,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
