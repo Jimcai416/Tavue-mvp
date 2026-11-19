@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBebQ2THrEDjms1y42ow",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": \"ghana light soup made from chicken stock, it is eaten with fufu\",\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Brown broth in white bowl\",\n    \"Two pieces of cooked poultry with visible skin texture\",\n    \"Light-coloured starch (fufu) partially submerged\",\n    \"Green bowl with starch visible in background\",\n    \"Natural daylight, overhead view\"\n  ],\n  \"phone_observations\": [\n    \"Soup and protein clearly visible in thumbnail\",\n    \"Broth colour and meat texture readable\",\n    \"Composition maintains dish identity\",\n    \"No clipping of essential components\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Description states 'chicken stock' but does not explicitly name chicken as a visible protein component in the dish itself\",\n    \"Poultry visible in photograph but species confirmation from source text is 'chicken stock' (cooking medium), not explicit identification of the cooked meat as chicken\",\n    \"Exact dish identity requires confirmation: is this 'Ghana light soup' as a canonical name, or is the meat species ambiguous without explicit source statement?\"\n  ],\n  \"reason\": \"Image quality, sharpness, lighting, composition and phone thumbnail all meet standards. Dish is visibly a finished soup with cooked poultry and fufu (starch). However, the source description identifies only 'chicken stock' (ingredient) rather than explicitly naming the visible cooked protein as chicken. The description does not provide a complete canonical dish name independent of the filename. Under strict rules, visible poultry species cannot be inferred from appearance alone, and the source text does not contain an explicit statement that the visible meat is chicken—only that chicken stock is used in the broth. This creates uncertainty about protein identity and canonical naming. Hold pending clarification of explicit protein identification.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1735,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 535,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

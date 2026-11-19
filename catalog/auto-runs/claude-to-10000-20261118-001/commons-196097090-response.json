@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBebjmqoHoge5dVmLj5t",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 3,\n    \"composition\": 1,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Phone thumbnail shows only hands and a partial view of what appears to be raw ingredients (diced vegetables) in a pot during preparation—no finished dish visible\",\n    \"Essential food subject is clipped and incomplete in thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title 'Light soup ingreedient' [sic] is vague and misspelled; no finished dish identity can be confirmed\",\n    \"Description 'SRC week vibes 2026' provides no culinary information and is non-standard metadata\",\n    \"Image captures a mid-preparation stage with raw diced vegetables, not a finished, exposed, plated dish\"\n  ],\n  \"reason\": \"Rejection: Image shows food preparation in progress (raw diced vegetables being added to a pot), not a finished, cooked, plated dish. The full photograph and phone thumbnail both depict an intermediate cooking stage. Source title is vague and contains a spelling error; description provides no dish identity. Essential food is clipped in the thumbnail. No finished dish detail, natural colour, or appetising presentation is evident. This is a preparation-stage image, which fails core acceptance criteria.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1374,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 403,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

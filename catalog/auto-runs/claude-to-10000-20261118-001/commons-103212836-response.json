@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBebAuv8cVQFzttpc2eD",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Golden-brown fufu portions visible\",\n    \"Orange/red broth with visible oil sheen\",\n    \"Meat pieces (brownish, possibly multiple types) around edges\",\n    \"Cylindrical and carved fufu shapes\",\n    \"Black cooking pot with wet rim\"\n  ],\n  \"phone_observations\": [\n    \"Central broth and meat components readable\",\n    \"Fufu shapes recognizable\",\n    \"No critical clipping of essential components\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title says 'chicken' but source metadata is unreliable per instructions\",\n    \"Visible meat pieces are ambiguous in species—brownish fragments do not definitively confirm chicken, and other meat types cannot be ruled out\",\n    \"No exact source title/description provided in trusted form; only filename and unreliable metadata tags\"\n  ],\n  \"reason\": \"Identity check fails. The metadata title 'File:Fufu with light soup and chicken.jpg' and description are explicitly marked as untrusted per protocol. The visible meat in the photograph (brown fragments and pieces around the periphery) cannot reliably confirm species from appearance alone. No exact case-sensitive source quote matching a canonical dish name has been supplied in a trusted format. Per rules, ambiguous meat species and source contradictions require a hold, but absence of authoritative source documentation merits rejection. The photograph quality and presentation are acceptable, but identity cannot be verified against a specific, trusted source description.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1985,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 466,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

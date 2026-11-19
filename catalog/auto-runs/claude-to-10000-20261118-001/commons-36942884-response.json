@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBebvjupw9ZzckWyTrAW",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Red/orange broth-based soup in dark metal pot\",\n    \"Visible tubers (potato-like rounds, oblong pieces)\",\n    \"Green vegetable pieces (possibly okra or pepper)\",\n    \"Protein item (shredded/pulled, tan-coloured, upper right)\",\n    \"Natural lighting, well-exposed, appetising presentation\"\n  ],\n  \"phone_observations\": [\n    \"Soup and components clearly visible in thumbnail\",\n    \"Red broth, tuber pieces, and protein distinguishable\",\n    \"Composition matches full image, nothing essential clipped\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'Light soup with fufu' but no fufu (pounded starch ball) is visible in either image; visible instead are tuber chunks in broth with shredded protein\",\n    \"Protein species unidentified—shredded tan item could be chicken, beef, or other; no explicit source animal name provided\",\n    \"Description incomplete ('This is an image of food from' — truncated, no region/dish name given)\",\n    \"Identity contradiction: title/description does not match visible form\"\n  ],\n  \"reason\": \"Source title and description do not match the visible dish. 'Fufu' typically denotes a pounded starch dumpling, absent here; the image shows tuber pieces in red broth with unidentified shredded protein. Protein species not explicitly named in source metadata. Incomplete/truncated description prevents identity confirmation. All quality and photo checks pass, but identity check fails due to source-visible mismatch and missing explicit animal naming.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1618,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 506,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
