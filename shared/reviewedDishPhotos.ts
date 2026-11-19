@@ -115078,5 +115078,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "height": 720,
     "requiresExactMenuName": true,
     "authorUrl": "https://www.flickr.com/people/basak/"
+  },
+  {
+    "id": "commons-52200913",
+    "title": "File:Turkish tea and poğaça.jpg",
+    "author": "E4024",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Turkish_tea_and_po%C4%9Fa%C3%A7a.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Turkish_tea_and_po%C4%9Fa%C3%A7a.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "50e815e383207e96db5a8a0a4e8ef4540a3a8ecf",
+    "name": "Turkish tea and poğaça",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-52200913.jpg",
+    "assetSha256": "a01b174cadb94823977a21129970a50248898d50bababb59469ed1586249728d",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];

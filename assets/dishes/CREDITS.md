@@ -8732,3 +8732,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 
 - **Çörek (left) and poğaça (right)** — E4024. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Po%C4%9Fa%C3%A7a_and_%C3%A7%C3%B6rek_of_Turkey.jpg). Local asset: `reviewed-commons-46486049.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Poğaça bread** — [Başak](https://www.flickr.com/people/basak/). [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:Po%C4%9Fa%C3%A7a_bread.jpg). Local asset: `reviewed-commons-1581590.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Turkish tea and poğaça** — E4024. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Turkish_tea_and_po%C4%9Fa%C3%A7a.jpg). Local asset: `reviewed-commons-52200913.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
