@@ -9609,3 +9609,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 - **Xuixo** — Cangur. [Public domain](https://creativecommons.org/publicdomain/mark/1.0/); [source](https://commons.wikimedia.org/wiki/File:Xuixo.jpg). Local asset: `reviewed-commons-3651751.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **xuixo de Girona** — Toniher. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Xuixo_amb_forquilla_i_ganivet.jpg). Local asset: `reviewed-commons-76338917.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Xuixo from Pastisseria Costa, Ripoll** — Kippelboy. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Xuixo_de_la_Pastisseria_Costa_de_Ripoll.jpg). Local asset: `reviewed-commons-196917472.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Cooked beef laab** — Sbrooks36. [CC BY 4.0](https://creativecommons.org/licenses/by/4.0); [source](https://commons.wikimedia.org/wiki/File:Golden_Cuisine_cooked_beef_laab.jpg). Local asset: `reviewed-commons-165711905.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.

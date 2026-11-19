@@ -124938,5 +124938,29 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-165711905",
+    "title": "File:Golden Cuisine cooked beef laab.jpg",
+    "author": "Sbrooks36",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Golden_Cuisine_cooked_beef_laab.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Golden_Cuisine_cooked_beef_laab.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "917a7fa6f19b897f36c9b97b74b7da36c55fabb3",
+    "name": "Cooked beef laab",
+    "aliases": [],
+    "proteins": [
+      "beef"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-165711905.jpg",
+    "assetSha256": "4f143b3bda15c44fce6f9e0427c95b7d0effbcd18201150ef000a4dd8106f590",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];
