@@ -7867,3 +7867,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 
 - **Nilagang Baka** — MarvinBikolano. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Nilagang_Baka_2.jpg). Local asset: `reviewed-commons-127615314.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Nilagang Baka na may Mais** — MarvinBikolano. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Nilagang_Baka_na_may_Mais.jpg). Local asset: `reviewed-commons-127615315.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Vegetable Tagine** — Turajski. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Vegetable_Tagine.jpg). Local asset: `reviewed-commons-36238629.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
