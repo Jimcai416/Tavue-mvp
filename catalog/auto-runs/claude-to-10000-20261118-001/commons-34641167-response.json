@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChD3CSM9iKxNHLKgc7aoq",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 3,\n    \"lighting\": 2,\n    \"composition\": 2,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows raw/preparation-stage minced or shredded meat in stainless steel bowl with spoon\",\n    \"No finished dish visible; ingredient stage only\",\n    \"Bowl dominates frame; no plating or presentation\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title describes this as an ingredient (bagoong mixed with salted shrimps and pork) for Kare-kare, not a finished dish\",\n    \"Pork mentioned in description but photograph shows only uncooked minced/shredded meat—species cannot be visually confirmed\",\n    \"Image captures preparation/mixing stage, not a served, exposed, finished dish\"\n  ],\n  \"reason\": \"Rejection: photograph shows raw meat preparation in a mixing bowl, not a finished, plated, or exposed dish. Source description explicitly frames this as an ingredient component for Kare-kare, not the dish itself. The image is a preparation stage, violating the requirement for 'a finished, exposed, likely photographic dish.' Phone thumbnail reinforces preparation context. Sharpness and appeal scores fall below threshold. No finished dish identity can be established from visual evidence.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1743,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 408,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
