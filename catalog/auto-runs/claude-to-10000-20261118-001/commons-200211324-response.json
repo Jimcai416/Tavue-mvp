@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCJzcsgHZUeNkSYfdo38",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Grilled chicken pieces with charred skin visible\",\n    \"Golden-brown and dark char marks consistent with grilling\",\n    \"Multiple chicken portions in metal tray\",\n    \"Natural colours and appetising appearance\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows grilled chicken pieces\",\n    \"Charring and colour variation readable at reduced size\",\n    \"Metal tray visible, composition preserved in thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title states 'Pre-cooked' which contradicts finished grilled dish appearance and suggests preparation stage rather than final plated dish\"\n  ],\n  \"reason\": \"Rejection based on identity mismatch: metadata describes this as 'Pre-cooked' preparation stage, which contradicts the visual evidence of a finished, grilled chicken dish. The title explicitly qualifies the state as preparatory ('Pre-cooked'), placing this outside the scope of finished, exposed, likely photographic dishes ready for consumption. No protein_evidence recorded because 'chicken' in title is not an exact substring of the canonical source description field (only 'Chicken Inasal (Pre-cooked)' appears as full phrase), and the pre-cooked designation creates ambiguity about final state.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1758,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 422,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCJzAzwEW2BMx6BstkXH",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 3,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Butter naan bread with charred spots, clearly visible\",\n    \"Green pepper and julienned vegetables on top of dark curry\",\n    \"White plate, restaurant plating\"\n  ],\n  \"phone_observations\": [\n    \"Naan bread and curry components visible in thumbnail\",\n    \"Overall dish recognisable at reduced resolution\",\n    \"No essential food clipped\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title states 'Butter Naan with Lamb chettinadu' but the dark curry component is not visually identifiable as lamb or any specific meat\",\n    \"The curry appears to contain dark components (possibly vegetables or eggplant) but no meat is distinctly visible in either the full image or thumbnail\",\n    \"Lamb cannot be visually confirmed from the photograph alone; reliance on source title alone violates the requirement that proteins must have explicit visual or clear explicit source evidence\"\n  ],\n  \"reason\": \"While the butter naan is clearly visible and the dish is a finished, appetising restaurant photograph with good composition, the protein claim cannot be verified. The source title declares 'lamb chettinadu' but the dark curry component does not show visibly identifiable lamb meat. The rule requires exact source quote evidence for protein claims, and while 'Lamb chettinadu' appears in the title, the visual evidence does not support lamb as the visible protein. The dark component appears to be a vegetable curry (possibly eggplant-based). Without clear visual confirmation of lamb meat or an independent explicit source description beyond the filename, the protein cannot be accepted. Identity therefore fails because the essential protein component cannot be visually substantiated.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1568,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 510,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

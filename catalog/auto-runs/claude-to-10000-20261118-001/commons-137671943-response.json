@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCJzYDPig4SeCabBhJnj",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Butter naan visible in wicker basket, flattened, spotted surface\",\n    \"Three curry dishes in bowls with spoons, meat and vegetable components visible\",\n    \"Plated presentation with salt/pepper shakers and empty plate\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail shows three curry bowls clearly\",\n    \"Curries appear to contain meat and sauce\",\n    \"Naan partially visible at top of phone frame\",\n    \"Essential curry and bread components readable\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source metadata lists 'Chicken Curry' but chicken is not explicitly visible or unambiguously identifiable in the photograph itself\",\n    \"Source describes 'Kadai Paneer' but paneer cheese is not clearly distinguishable from other ingredients in the visible curry bowls\",\n    \"Cannot visually confirm which of the three bowls corresponds to which named curry (Mix Veggies, Kadai Paneer, Chicken Curry)\",\n    \"Meat species in the third curry dish cannot be verified from appearance alone\",\n    \"Source description does not match photograph visual evidence with sufficient clarity\"\n  ],\n  \"reason\": \"Photograph shows a finished, well-plated Indian meal with butter naan and three curries that is sharp, well-composed and appetising. However, identity verification fails because the source description claims specific curries (Chicken Curry, Kadai Paneer) that cannot be visually confirmed in the actual photograph. Chicken is claimed but not explicitly stated in a way that allows visual verification, and paneer in one curry is not visually distinguishable. Without ability to match visible curry components to named dishes, protein evidence cannot be established from the photograph alone. Metadata-only assertions do not satisfy the visual evidence requirement.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1544,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 543,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
