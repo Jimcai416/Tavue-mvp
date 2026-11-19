@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBXUWB2mL1xMSGWdC176",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Golden-brown broth visible in full image and thumbnail\",\n    \"White ceramic bowl, formal plated presentation\",\n    \"Discrete reddish-brown chunks identifiable as likely meat\",\n    \"Green onion garnish visible\",\n    \"Professional dining setting with formal cutlery\"\n  ],\n  \"phone_observations\": [\n    \"Soup/broth dish clearly visible and prominent\",\n    \"Golden colour and meat pieces readable\",\n    \"Proper dish exposure and composition for thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Species of meat not explicitly identified in source metadata despite Fabada asturiana traditionally containing pork/chorizo/morcilla—no source quote names animal\",\n    \"Source title lacks explicit meat qualifier naming; only tradition and appearance suggest pork/chorizo\",\n    \"Cannot confirm specific sausage type (chorizo vs. morcilla) from visual inspection alone\"\n  ],\n  \"reason\": \"Photograph quality, composition and phone thumbnail all pass. Identity matches 'Fabada asturiana' from title, and visible form (golden broth, meat chunks, garnish) is consistent with this regional dish. However, the source metadata does not explicitly name the animal species or sausage types in the title or description—only the dish name is given. Per protocol, hidden flavours and species must be source-declared, not inferred from tradition or appearance. Without an explicit quote naming the protein (e.g. 'pork', 'chorizo', 'morcilla'), the protein_evidence map must remain empty and protein_evidence cannot support acceptance. Hold for source clarification of meat components.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1756,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 506,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
