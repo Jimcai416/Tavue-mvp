@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCxbkapfdFZV1VP5oqj5",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Braised meat in rich brown sauce\",\n    \"White rice base\",\n    \"Served on decorative grey plate\",\n    \"Fork and wine glasses present\",\n    \"Home/casual dining setting\",\n    \"Dark olives visible in sauce\"\n  ],\n  \"phone_observations\": [\n    \"Meat and rice clearly visible in thumbnail\",\n    \"Plate shape distinguishable\",\n    \"Sauce colour and texture apparent\",\n    \"Composition readable at phone size\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'Gardiane de Taureau' (bull stew, Camargue region), but source metadata lists this as a filename/title only—not a confirmed dish description\",\n    \"Animal species 'Taureau' (bull) is not in the allowed proteins list (chicken/beef/pork/duck/lamb/seafood). Bull/taureau is a specific mature male bovine, distinct from generic 'beef'\",\n    \"No explicit source quote in the description field confirms the protein identity beyond the filename\",\n    \"Metadata title format ('File:Gardiane de Taureau.JPG') is excluded per instructions as filename/metadata\"\n  ],\n  \"reason\": \"The photograph itself is well-exposed, sharp, appetising and shows a finished braised meat dish with rice on a decorative plate—all quality marks met. However, the source identity cannot be confirmed: the only reference to 'Gardiane de Taureau' appears in the filename ('File:Gardiane de Taureau.JPG'), which is explicitly excluded as metadata/filename per instructions. The description field states only 'Gardiane de Taureau, plat camarguais' but does not provide an independent source quote. More critically, 'taureau' (bull) is not an allowed protein category; only beef/chicken/pork/duck/lamb/seafood are permitted, and bull is a distinct animal type that would require explicit source clarification. The visible meat cannot be verified as 'beef' by appearance alone, nor can the species be confirmed from the description without an exact source quote using an allowed category name. Hold pending source clarification and explicit protein naming.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1943,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 638,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
