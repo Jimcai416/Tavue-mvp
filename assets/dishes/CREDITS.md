@@ -9665,3 +9665,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 - **nem rán** — Phương Huy. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:M%C3%B3n_%C4%83n_c%C3%BAng_%C4%91%C6%B0a,_T%E1%BA%BFt_2022_(nem_r%C3%A1n)_(2).jpg). Local asset: `reviewed-commons-127845344.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Chả giò** — Phó Nháy. [Public domain](https://creativecommons.org/publicdomain/mark/1.0/); [source](https://commons.wikimedia.org/wiki/File:Nem_ran_cat.jpg). Local asset: `reviewed-commons-14862762.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Mul naengmyeon** — [Kuruman](https://www.flickr.com/photos/kuruman/). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Mul_naengmyeon_by_Kuruman_in_Seoul.jpg). Local asset: `reviewed-commons-5008052.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Samlor machu kroeung** — Saphabodi. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Samlor_machu_kroeung_served_at_Neary_Khmer,_2018-01-02.jpg). Local asset: `reviewed-commons-70059552.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.

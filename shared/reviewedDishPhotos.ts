@@ -125519,5 +125519,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "height": 720,
     "requiresExactMenuName": true,
     "authorUrl": "https://www.flickr.com/photos/kuruman/"
+  },
+  {
+    "id": "commons-70059552",
+    "title": "File:Samlor machu kroeung served at Neary Khmer, 2018-01-02.jpg",
+    "author": "Saphabodi",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Samlor_machu_kroeung_served_at_Neary_Khmer,_2018-01-02.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/15/Samlor_machu_kroeung_served_at_Neary_Khmer%2C_2018-01-02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "8ac52cc4e80a87413983050c3433d0169b5c1233",
+    "name": "Samlor machu kroeung",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-70059552.jpg",
+    "assetSha256": "3e62c6c681cde1828983389b8dba24d2f96e43ca2c17dbb072673e2b1b588553",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 720,
+    "height": 960,
+    "requiresExactMenuName": true
   }
 ];
