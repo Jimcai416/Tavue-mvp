@@ -6925,3 +6925,8 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 - **Rösti** — Dr. Bernd Gross. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Klosterst%C3%BCbel_St._Marienstern_-_R%C3%B6sti_1.JPG). Local asset: `reviewed-commons-42785910.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Syrian Fatteh** — Oystercard. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Syrian_Fatteh_sold_in_Mardin,_Turkey.jpg). Local asset: `reviewed-commons-128079709.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Cheese Fondue with breads and mushroom** — Peachyeung316. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Cheese_Fondue_with_bread_and_white_mushroom.jpg). Local asset: `reviewed-commons-113386319.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Schweizer Käsefondue mit Brotstückchen** — [Cheese_fondue-01.jpg :  the_junes  
+ derivative work:  Zitronenpresse](https://www.flickr.com/photos/the_junes/with/3338754620/). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Cheese_fondue-01-a.jpg). Local asset: `reviewed-commons-19657831.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.

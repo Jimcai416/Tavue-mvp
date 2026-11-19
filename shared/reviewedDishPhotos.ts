@@ -93724,5 +93724,28 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-19657831",
+    "title": "File:Cheese fondue-01-a.jpg",
+    "author": "Cheese_fondue-01.jpg :  the_junes  \n derivative work:  Zitronenpresse",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cheese_fondue-01-a.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/32/Cheese_fondue-01-a.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "6be7a02af3d92fea8c1b43a301f633bdb4f5d6fb",
+    "name": "Schweizer Käsefondue mit Brotstückchen",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-19657831.jpg",
+    "assetSha256": "b19b9a034d3fabb8c5a74ae39470ac3ef17604eface0ebe30b7d0ec7e81a0b94",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 900,
+    "requiresExactMenuName": true,
+    "authorUrl": "https://www.flickr.com/photos/the_junes/with/3338754620/"
   }
 ];
