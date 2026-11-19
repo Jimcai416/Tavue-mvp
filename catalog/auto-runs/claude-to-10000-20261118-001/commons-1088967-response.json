@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBPAY1y8i2w24k2AHAFj",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [\n    \"Two bread slices clearly visible on white plate\",\n    \"Left slice: pale bread with spread\",\n    \"Right slice: dark rye bread with spread\",\n    \"Spreads appear creamy and uniform\",\n    \"Natural daylight photography\"\n  ],\n  \"phone_observations\": [\n    \"Both bread slices identifiable in thumbnail\",\n    \"Colour contrast (pale vs. dark bread) preserved\",\n    \"Spreads visible but texture detail reduced\",\n    \"Plate and composition recognisable at small size\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Species of liver not explicitly named in source description ('liver paté' alone is insufficient; could be pork, beef, calf, goose, duck or other poultry)\",\n    \"Source title is a generic File: reference; exact canonical dish name not provided\",\n    \"No explicit statement confirming both breads carry the same paté or different preparations\",\n    \"Metadata describes bread types and presence of paté but does not name the finished dish as a formal menu item\"\n  ],\n  \"reason\": \"Image quality, photography and phone thumbnail are acceptable. However, the protein cannot be accepted: 'liver paté' alone does not name the animal species, and the source description does not provide an explicit quote naming which specific liver (pork, beef, calf, poultry, etc.). Per guidelines, ambiguous or unspecified meat species must be held. Additionally, no canonical_name can be extracted from the metadata—only a generic File: reference and descriptive text. A formal source title or description naming the specific dish and liver animal is required for acceptance.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1649,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 504,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBPB8VQJ43ypcdwB46nd",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 3,\n    \"lighting\": 2,\n    \"composition\": 1,\n    \"appeal\": 0\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Subject is a person's face and upper body, not a finished dish\",\n    \"Object in hand is too small and obscured to identify as food\",\n    \"No recognizable culinary presentation visible in thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title references 'Tim Tam biscuit' but photograph shows a person holding an object too small and distant to verify the food item\",\n    \"The claimed subject cannot be meaningfully assessed for food photography acceptance\"\n  ],\n  \"reason\": \"This is a portrait photograph of a person, not a food photograph. Although the source description mentions a Tim Tam biscuit, the subject of the image is fundamentally a person's face and body. The tiny object in hand is too obscured and distant to serve as identifiable food photography. The image fails all acceptance criteria: it is not a finished, exposed, prominent dish; it contains no readable essential food components; and it cannot function as representative food photography for Tavue. Food must be the clear subject of the photograph.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1745,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 374,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBPANvnPS7gQT9m4Wwe1",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Golden-brown fried spherical pastry visible in hand\",\n    \"Green herb garnish on top of pastry\",\n    \"Natural outdoor café/restaurant setting\",\n    \"Sharp detail of pastry texture and filling\"\n  ],\n  \"phone_observations\": [\n    \"Pastry sphere clearly visible in thumbnail\",\n    \"Golden-brown colour preserved\",\n    \"Hand and subject properly framed\",\n    \"Essential food components readable\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title references 'Crickets' as ingredient—a non-standard protein category not in allowed list (chicken/beef/pork/duck/lamb/seafood)\",\n    \"Crickets cannot be verified visually or supported by allowed protein categories\",\n    \"Source title is a filename, not a reliable dish description\",\n    \"Æbleskiver identity cannot be confirmed without explicit source description of filling and toppings beyond metadata\"\n  ],\n  \"reason\": \"Reject: The source title includes 'Crickets' as a declared ingredient, which is not an allowed protein category (only chicken, beef, pork, duck, lamb, seafood are permitted). No explicit source description confirms the dish identity, filling composition, or toppings beyond the filename metadata. The image shows a fried pastry sphere with green herbs, consistent with æbleskiver, but the insect protein claim cannot be accommodated within the protocol's protein_evidence schema, and the lack of a proper source description of the finished dish creates unresolved identity uncertainty.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1657,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 479,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
