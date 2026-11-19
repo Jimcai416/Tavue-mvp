@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBkqZ1YHEXrKfDefFRDX",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Chef actively cooking with spatula over wok with visible flame and oil/smoke\",\n    \"Yellow-orange ingredients visible in wok, consistent with egg/omelette preparation\",\n    \"Kitchen environment and professional cooking setup visible\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title references two dishes ('crab omelette and drunken noodles pad kee mao') but photograph shows only active cooking stage, not a finished plated dish\",\n    \"Cannot definitively identify which specific dish is being prepared in this action shot\",\n    \"Cannot visually confirm crab ingredient or any protein species in the cooking process\",\n    \"Image shows preparation/cooking stage, not a finished, exposed dish ready for consumption\"\n  ],\n  \"reason\": \"Reject: This photograph captures a chef mid-preparation, actively cooking with wok and flame. It is a cooking-process image rather than a finished, exposed, plated dish. The source title lists two possible dishes but does not clearly identify which one is depicted, and the cooking stage does not allow visual confirmation of the final dish identity, components, or protein species. Tavue's protocol requires finished dishes with readable essential components in the phone thumbnail. This fails the identity and dish-completion criteria.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1691,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 421,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

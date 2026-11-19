@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBkric2QVypy6LTPqec3",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Yellow rice base consistent with fried rice\",\n    \"Black olives distributed throughout\",\n    \"Red and green vegetable pieces visible\",\n    \"Brown protein fragments visible\",\n    \"White plate on green background\",\n    \"Finished dish appearance\"\n  ],\n  \"phone_observations\": [\n    \"Yellow rice prominent in thumbnail\",\n    \"Black olives clearly visible\",\n    \"Vegetable garnish discernible\",\n    \"Dish legible at reduced size\",\n    \"Overall composition maintains appeal\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source claims 'ikan teri' (anchovies) but brown fragments in image are ambiguous and not definitively identifiable as teri rather than other cooked protein or caramelized elements\",\n    \"Leunca (Solanum nigrum) identity cannot be visually confirmed—black items are present but could be olives or other black garnish\",\n    \"Species of protein cannot be reliably established from photograph alone\",\n    \"Source title references 'File:' prefix and filename which are metadata/contextual, not canonical dish description\"\n  ],\n  \"reason\": \"While the photograph shows a finished, appetising fried rice dish with good sharpness, lighting and composition (all scores ≥4), the identity check fails because the declared protein (ikan teri/anchovies) cannot be visually confirmed in the image—the brown fragments are ambiguous. Additionally, the leunca ingredient claimed in the description cannot be reliably distinguished from black olives in the visible dish. The protein_evidence map is empty because no exact source quote explicitly names an animal species. Source metadata (File: prefix, filename) are present but not authoritative. Without visual confirmation or explicit animal naming in the core description, identity cannot be established with certainty. Hold pending clarification of protein identity.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1545,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 551,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
