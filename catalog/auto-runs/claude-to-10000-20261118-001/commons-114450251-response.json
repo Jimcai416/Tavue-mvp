@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBzpwLK3DBx9N23KtXjM",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Creamy peanut-based sauce visible in pot\",\n    \"Green herbs/leafy garnish scattered throughout\",\n    \"Red enamelled Dutch oven, home cooking context\",\n    \"Natural lighting, in-progress or finished dish appearance\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail shows creamy soup/stew in pot\",\n    \"Peanut-coloured broth clearly visible\",\n    \"Green herb garnish readable in thumbnail\",\n    \"Pot rim and portion of dish visible and legible\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title references 'African Peanut Soup' but provides only recipe URL, not an actual dish name from source description\",\n    \"No explicit protein (chicken, beef, pork, lamb, seafood, duck) identified in title or description\",\n    \"Source metadata (URL, filename, author) is untrusted; actual dish identity unconfirmed\",\n    \"Cannot verify which regional African peanut soup variant this is or its actual served identity\"\n  ],\n  \"reason\": \"Reject: Identity check fails. The source title is a filename/metadata entry without a canonical dish name in the description field. The external recipe URL is untrusted metadata and does not constitute an authoritative source quote. No protein is explicitly named in the supplied title or description, and visual inspection alone cannot prove species. The dish appears well-photographed and appetising, but without a verified, specific canonical name matching the source description and an explicit protein claim from that source, acceptance criteria are not met. Hold or re-submit with a verified dish name and protein information from the actual source description.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1748,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 509,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

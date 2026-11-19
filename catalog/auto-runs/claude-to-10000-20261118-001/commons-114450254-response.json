@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBzqgd4W5FJ7mVa2Eo1x",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"In-pot stew with leafy greens and meat visible in creamy/peanut sauce\",\n    \"Red enamelled Dutch oven cooking vessel\",\n    \"Finished, exposed dish with natural colour\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail shows same pot and stew composition\",\n    \"Greens and sauce clearly visible in phone view\",\n    \"Dish is prominent and readable\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title is a filename (File:African Peanut Soup - 50910178616.jpg), not a dish description\",\n    \"Visible meat pieces cannot be identified to species (chicken/beef/pork/lamb/duck/seafood) from appearance alone\",\n    \"No explicit protein naming in source metadata\",\n    \"Description references external URL recipe but provides no canonical dish name or protein specification\"\n  ],\n  \"reason\": \"Identity check fails. The source provides only a filename and external URL reference, not a canonical dish title or description. While the photograph shows a finished, well-composed stew with visible meat and leafy greens in a creamy sauce consistent with peanut soup, the meat species cannot be determined visually and is not explicitly named in any supplied source text. No exact dish name phrase is available to match against visible form. Hold required pending explicit source description with protein identification.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1748,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 446,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
