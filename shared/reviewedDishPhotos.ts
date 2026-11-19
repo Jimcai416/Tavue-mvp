@@ -88842,5 +88842,53 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 908,
     "height": 960,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-83134711",
+    "title": "File:Lamb Biryani with Okra and Chickpea curries - Copper Chimney Jom Makan (489731432).jpg",
+    "author": "Alpha  from Melbourne, Australia",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lamb_Biryani_with_Okra_and_Chickpea_curries_-_Copper_Chimney_Jom_Makan_(489731432).jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Lamb_Biryani_with_Okra_and_Chickpea_curries_-_Copper_Chimney_Jom_Makan_%28489731432%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "6b675dfa1b10a204975e328cfcdb97a208090792",
+    "name": "Lamb Biryani with Okra and Chickpea curries",
+    "aliases": [],
+    "proteins": [
+      "lamb"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-83134711.jpg",
+    "assetSha256": "923c4049883e70f1d646b46ed225f3fd2ec52ae604c21f3d59a14511909bf27d",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 800,
+    "height": 600,
+    "requiresExactMenuName": true,
+    "authorUrl": "https://www.flickr.com/people/10559879@N00"
+  },
+  {
+    "id": "commons-10314356",
+    "title": "File:Pulpo a la gallega - jlastras.jpg",
+    "author": "Javier Lastras  from España/Spain",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pulpo_a_la_gallega_-_jlastras.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/40/Pulpo_a_la_gallega_-_jlastras.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "7551c34fba037fc98479bde9598400016bbe9e7e",
+    "name": "Pulpo a la gallega",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-10314356.jpg",
+    "assetSha256": "cd99a3c12ee6e3667075576aaac69b85e776bc3db8771fd9c92fbd700ea18bc2",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 640,
+    "requiresExactMenuName": true,
+    "authorUrl": "https://www.flickr.com/people/22662305@N04"
   }
 ];
