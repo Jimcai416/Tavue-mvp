@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCY68SprcVfoHehNPBtc",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [\n    \"Cooked meat slices on white plate\",\n    \"Natural browning and texture consistent with rotisserie preparation\",\n    \"Appetising colour and portion size\"\n  ],\n  \"phone_observations\": [\n    \"Meat slices clearly visible at centre\",\n    \"Plate edge defined\",\n    \"Subject composition readable in thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Species identity unconfirmed: 'tongue' is not an allowed protein category\",\n    \"Source describes 'rotisserie tongue' but tongue is not chicken/beef/pork/duck/lamb/seafood\",\n    \"Cannot visually distinguish tongue from other organ meats or processed cuts without explicit source confirmation of a standard protein species\"\n  ],\n  \"reason\": \"Source describes the dish as 'rotisserie tongue' (söğüş dil), which is a specific organ meat preparation. The allowed protein categories are chicken, beef, pork, duck, lamb, and seafood only. Tongue does not map to any of these categories and cannot be accepted as a named protein. Although the photograph quality, sharpness, lighting and composition are acceptable, and the dish is finished and exposed, the protein species cannot be supported by the allowed taxonomy. Hold.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1742,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 419,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
