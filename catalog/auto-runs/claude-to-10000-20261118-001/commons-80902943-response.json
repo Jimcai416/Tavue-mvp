@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBmTen4egp7Le7PziDte",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 5,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Golden-brown toasted roll\",\n    \"Layered shredded meat with visible texture\",\n    \"Generous melted cheese (appearing to be mozzarella or similar)\",\n    \"Clear sandwich assembly on white paper wrapping\",\n    \"Street food presentation consistent with Italian street vending\"\n  ],\n  \"phone_observations\": [\n    \"Sandwich clearly visible and prominent in thumbnail\",\n    \"Cheese and meat layers readable\",\n    \"No clipping of essential components\",\n    \"Appetising appearance maintained at reduced size\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title describes 'Lampredotto Sandwich' (fourth stomach of a cow), but lampredotto is tripe (slow-cooked stomach lining), not a named protein category in the allowed set (chicken/beef/pork/duck/lamb/seafood). The description explicitly names 'cow' and 'abomasum' (fourth stomach), but abomasum is an organ, not a standard protein classification.\",\n    \"While the source credits a cow as the animal source, 'beef' typically refers to muscle meat. The abomasum is a visceral organ. This creates ambiguity about whether the visible shredded meat is true lampredotto (stomach lining) or another beef product.\",\n    \"The photograph shows what appears to be finely shredded meat with cheese, consistent with lampredotto preparation, but the exact nature of the organ meat and whether it qualifies under standard protein naming conventions is uncertain.\"\n  ],\n  \"reason\": \"The photograph is sharp, well-lit, appetising, and the phone thumbnail clearly displays the finished sandwich without clipping. However, the identity cannot be verified as acceptable under the protein rules. Lampredotto is made from the abomasum (fourth stomach), which is an organ/visceral component. The source explicitly names 'cow' as the animal, but 'beef' in the protein_evidence categories refers to muscle meat cuts, not organ meats. The source description does not use a standard protein category term (beef/pork/chicken/lamb/duck/seafood). Without explicit source language matching one of the allowed protein categories, and given the ambiguity between organ meat terminology and standard beef muscle meat, identity cannot be confirmed. The dish requires source clarification or an exact quote matching an allowed protein term before acceptance.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1830,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 664,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
