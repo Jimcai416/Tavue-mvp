@@ -9740,3 +9740,9 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Soupe de pâtes tunisienne (makrouna jaria)** — Souad Anane Lesina. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/); [source](https://commons.wikimedia.org/wiki/File:Makrouna_Jaria.JPG). Local asset: `reviewed-commons-7787032.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Lei cha** — Encik Tekateki. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Lei_Cha_in_Vegeterian_Restaurant.jpg). Local asset: `reviewed-commons-89176093.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Lemon posset** — jules. [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Lemon_posset-3.jpg). Local asset: `reviewed-commons-144374455.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Lemon Rice** — Sanjay Kar (Shaazsrk). [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Lemon_Rice.JPG). Local asset: `reviewed-commons-40688666.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
