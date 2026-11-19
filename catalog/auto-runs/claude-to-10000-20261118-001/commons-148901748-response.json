@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBqXoFcaxXwcuAeWpGiw",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 3,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows preparation stage: cheese slices and flatbread on work surface with cooking griddle visible\",\n    \"No finished, cooked dish visible in phone thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title references 'quesadillas con queso regional' but image shows only raw/preparation stage, not a finished cooked quesadilla\",\n    \"Cheese variety and type unnamed in source description\",\n    \"Image depicts active preparation with ingredients laid out, not a plated or served dish\"\n  ],\n  \"reason\": \"Reject: This is a preparation/assembly stage photograph, not a finished exposed dish. The full image and thumbnail both show cheese slices, flatbread, and cooking equipment before cooking is complete. The title claims quesadillas but the visible evidence shows only raw ingredients and setup on a griddle, violating the requirement for a finished, exposed, likely photographic dish. No completed quesadilla is visible or cooked.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1729,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 365,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
