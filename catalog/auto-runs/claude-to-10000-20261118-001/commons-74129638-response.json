@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChC3s46kzgSBbtWGCyuno",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Shredded white fish base visible\",\n    \"Red tomato pieces distributed across surface\",\n    \"Black olives prominently placed\",\n    \"Green pepper strips visible\",\n    \"Glossy, wet appearance consistent with raw fish preparation\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows tomato, olives, and white shredded base\",\n    \"Colour palette matches full image\",\n    \"Components readable at reduced scale\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title 'Esqueixada' names a Catalan salt cod dish, but no explicit mention of 'cod' or 'fish' appears in the supplied title/description\",\n    \"While the dish traditionally contains salt cod and the visual appearance is consistent with shredded white fish, the exact species and preparation (salt-cured, raw, cooked) cannot be verified from the metadata alone\",\n    \"Protein identity cannot be confirmed by explicit source quote naming the fish species\"\n  ],\n  \"reason\": \"Image quality, photograph authenticity, and phone thumbnail all pass. However, the identity check fails: the source provides only 'Esqueixada' as the title without explicit mention of 'cod' or any fish species in the supplied description text. Although this is a canonical Catalan salt cod dish and the visual appearance is consistent with shredded salt cod, the protocol requires an exact source quote explicitly naming the protein. No such quote is present in the title or description provided. Hold pending source clarification.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1965,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 479,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

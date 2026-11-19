@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChC3sQPQag8Gieqq5sPXL",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Rich reddish-brown stew with glossy sauce\",\n    \"Visible tripe/offal pieces and diced potatoes\",\n    \"Served in traditional earthenware pot with wooden spoon\",\n    \"Natural restaurant lighting, well-exposed\",\n    \"Phone thumbnail clearly shows same dish composition\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail matches full image content\",\n    \"Stew components legible at reduced size\",\n    \"Colour and composition preserved in thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title 'Callos' is insufficient to establish complete dish identity; callos typically refers to tripe but source metadata does not explicitly name the animal species (beef/pork/lamb) or confirm tripe composition\",\n    \"Visible components appear to be offal and potatoes in a spiced sauce, consistent with callos, but the exact species of origin cannot be confirmed from title alone\",\n    \"Spanish regional variant rules require explicit source description of protein species; generic common name without species qualifier does not meet evidence standard\"\n  ],\n  \"reason\": \"The photograph is sharp, well-lit, appetising, and clearly shows a stew in its finished, exposed form. The phone thumbnail is adequate. However, the source title 'Callos' is a generic dish name that does not specify the animal species (beef, pork, or lamb tripe). Per protocol, ambiguous meat species—including unnamed offal—cannot be accepted without explicit source declaration of the animal. The title/description must state the specific protein (e.g. 'Callos de Beef' or equivalent) to preserve the meaningful variant. Hold for clarification or reject due to unresolved species identity.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1727,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 525,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
