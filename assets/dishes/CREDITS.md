@@ -7597,3 +7597,8 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 
 - **Blini with beef filling** — [insatiablemunch  ; cropped by  Off-shell](https://www.flickr.com/photos/insatiablemunchies/). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Blini_with_beef_cut.jpg). Local asset: `reviewed-commons-44292874.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Blini with salmon roe** — [tOrange.biz](http://tOrange.biz). [CC BY 4.0](https://creativecommons.org/licenses/by/4.0); [source](https://commons.wikimedia.org/wiki/File:Blini_with_salmon_roe.jpg). Local asset: `reviewed-commons-41649848.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Beef Stroganoff on Pasta** — [jgodsey](https://www.flickr.com/photos/jgodsey/). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Beef_Stroganoff_on_Pasta.jpg). Local asset: `reviewed-commons-5779011.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Sun Face Blini Maslenitsa** — EgorovaSvetlana. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Sun_Face_Blini_Maslenitsa_Slavic_Folk_Carnival_Newton_Massachusetts.jpg). Local asset: `reviewed-commons-145930917.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.

@@ -101884,5 +101884,52 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "height": 694,
     "requiresExactMenuName": true,
     "authorUrl": "http://tOrange.biz"
+  },
+  {
+    "id": "commons-5779011",
+    "title": "File:Beef Stroganoff on Pasta.jpg",
+    "author": "jgodsey",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Beef_Stroganoff_on_Pasta.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/64/Beef_Stroganoff_on_Pasta.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "6b345a6038896ae8233921c777c84558c70f50c7",
+    "name": "Beef Stroganoff on Pasta",
+    "aliases": [],
+    "proteins": [
+      "beef"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-5779011.jpg",
+    "assetSha256": "783352caa9520f7beda8d0676e8f116db1381ed02dcee7c39a68bc273203006b",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 762,
+    "requiresExactMenuName": true,
+    "authorUrl": "https://www.flickr.com/photos/jgodsey/"
+  },
+  {
+    "id": "commons-145930917",
+    "title": "File:Sun Face Blini Maslenitsa Slavic Folk Carnival Newton Massachusetts.jpg",
+    "author": "EgorovaSvetlana",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sun_Face_Blini_Maslenitsa_Slavic_Folk_Carnival_Newton_Massachusetts.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/50/Sun_Face_Blini_Maslenitsa_Slavic_Folk_Carnival_Newton_Massachusetts.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "3d59d9d6361a3aebe4ef234476717617c6b887a2",
+    "name": "Sun Face Blini Maslenitsa",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-145930917.jpg",
+    "assetSha256": "eb142e08405ab12eb47d18997998ae8633576825c8cb1f1b23a8bd2fce1c4121",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];
