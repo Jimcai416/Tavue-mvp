@@ -8873,3 +8873,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 - **Liangpi Noodles in Spicy Sauce** — [Guilhem Vellut  from Paris, France](https://www.flickr.com/people/22539273@N00). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Liangpi_noodles_in_spicy_sauce,_La_Taverne_de_Zhao,_Paris_17_September_2016_001.jpg). Local asset: `reviewed-commons-51724261.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Risol dengan tepung panir yang crispy** — Nela Fatimatun. [CC BY 4.0](https://creativecommons.org/licenses/by/4.0); [source](https://commons.wikimedia.org/wiki/File:Risol_Jajanan_Pasar_7.jpg). Local asset: `reviewed-commons-191990892.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Majiang liangpi** — Kent Wang. [CC BY 4.0](https://creativecommons.org/licenses/by/4.0); [source](https://commons.wikimedia.org/wiki/File:Majiang_liangpi.jpg). Local asset: `reviewed-commons-155956574.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Shanxi Liangpi** — ウィキ太郎 ( Wiki Taro ). [Public domain](https://creativecommons.org/publicdomain/mark/1.0/); [source](https://commons.wikimedia.org/wiki/File:Shanxi_Liangpi_%E9%99%95%E8%A5%BF_%E5%87%89%E7%9A%AE.jpg). Local asset: `reviewed-commons-73908208.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.

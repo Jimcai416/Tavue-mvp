@@ -116631,5 +116631,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-73908208",
+    "title": "File:Shanxi Liangpi 陕西 凉皮.jpg",
+    "author": "ウィキ太郎 ( Wiki Taro )",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Shanxi_Liangpi_%E9%99%95%E8%A5%BF_%E5%87%89%E7%9A%AE.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/87/Shanxi_Liangpi_%E9%99%95%E8%A5%BF_%E5%87%89%E7%9A%AE.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "67d7d8cee4badb869f193a1692cfa83125e1fdbc",
+    "name": "Shanxi Liangpi",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-73908208.jpg",
+    "assetSha256": "b6633af5fbf3bd3417f9617422163226b9ee8742de91be7f573310fdd0276335",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 960,
+    "requiresExactMenuName": true
   }
 ];
