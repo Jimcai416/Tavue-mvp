@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCEJFAsqdkYfRiBzCcKm",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Golden-brown breaded fried items with visible crumb coating\",\n    \"5 pieces arranged on white plate\",\n    \"Natural daylight, warm tones\",\n    \"Clear detail of texture and form in both source and thumbnail\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows 5 fried breaded items on plate\",\n    \"Coating detail visible at phone resolution\",\n    \"Composition matches full image\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title states 'Chonnk fry' but description lists 'Mori Ambot-tik' — these are contradictory dish names\",\n    \"No explicit protein identification in source metadata (not 'chicken fry', 'fish fry', etc.)\",\n    \"Description appears to be incomplete or corrupted ('Mori Ambot-tik' is unclear; region 'Arossim Cansaulim' is Goan but dish identity remains ambiguous)\",\n    \"Metadata inconsistency: filename title does not match description content\"\n  ],\n  \"reason\": \"Source title and description contradict each other ('Chonnk fry' vs 'Mori Ambot-tik'). The actual dish identity cannot be reliably established from conflicting source metadata. No explicit protein species is named in the supplied text. While the photograph is sharp, well-lit, and appetising, the identity check fails due to irreconcilable source contradiction. Hold required.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1769,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 480,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

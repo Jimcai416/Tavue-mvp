@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCEHtGHFjpRiCFWrnzgh",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Spiral pasta (casarecce) in tomato-based sauce\",\n    \"Red olives visible throughout\",\n    \"Green herbs (parsley) garnish\",\n    \"Cooked in black pan on stovetop\",\n    \"Glossy, appetising appearance\"\n  ],\n  \"phone_observations\": [\n    \"Pasta and sauce clearly visible in thumbnail\",\n    \"Red sauce and olives identifiable\",\n    \"Dish proportions and composition readable\",\n    \"Adequate detail for recognition\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'Chickpea casarecce puttanesca' but no chickpeas are visibly identifiable in the photograph—only pasta, tomato sauce, and olives are evident\",\n    \"Metadata language ('Ciecierzyca') appears to be Polish for 'chickpea,' contradicting typical puttanesca preparation which does not contain chickpeas\",\n    \"Source title does not match visible dish composition\"\n  ],\n  \"reason\": \"Identity check fails. The source title explicitly names 'Chickpea casarecce puttanesca,' but the photograph shows only pasta in tomato-olive sauce with no visible chickpeas. The dish presented appears to be standard casarecce puttanesca (without chickpeas). This is a source-to-image mismatch: either the wrong image was supplied for this title, or the title is incorrect for this dish. Cannot accept when canonical identity cannot be verified against visible form.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1803,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 485,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

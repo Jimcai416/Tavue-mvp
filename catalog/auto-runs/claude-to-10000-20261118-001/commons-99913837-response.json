@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCEJge5FbAdvtYWaGZb6",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"White boiled rice base clearly visible\",\n    \"Red curry sauce on rice\",\n    \"Golden-fried items with spice coating on plate perimeter\",\n    \"Yellow-green fried items (lepo/okra or similar vegetable)\",\n    \"Multiple fried seafood components\",\n    \"Plate composition matches Goan fish curry rice tradition\"\n  ],\n  \"phone_observations\": [\n    \"Plate clearly visible at centre of thumbnail\",\n    \"Rice, curry, and fried items all readable\",\n    \"Colours and structure preserved in reduction\",\n    \"No clipping of essential components\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'Shark Ambot-tik, Kite Ambot-tik, Fried Prawns, Fried Lepo and Lepo curry' but metadata is untrusted and species cannot be verified visually from photograph alone\",\n    \"Golden fried items appear to be seafood but exact species (shark, kite, prawns) cannot be distinguished from visual inspection\",\n    \"Yellow-green fried items described as 'Lepo' but species/identity unconfirmed\",\n    \"Source description contradicts standard file metadata structure and lacks canonical dish name clarity\",\n    \"No explicit canonical dish name provided in title or description\"\n  ],\n  \"reason\": \"Image quality, composition, and phone thumbnail are acceptable. However, identity cannot be verified: the source metadata lists multiple named fish/seafood species (Shark, Kite, Prawns) but metadata is untrusted evidence and species cannot be reliably distinguished in the photograph. The description lacks a canonical dish title and contains unverified component names. Per protocol, ambiguous meat species and source contradictions require hold. No visible support can confirm specific animals named in the description.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1814,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 550,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

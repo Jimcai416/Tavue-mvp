@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCEHtK1dA9fmtmdX5Gwk",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Multiple small white bowls arranged on table\",\n    \"Orange-coloured grated vegetable (carrot)\",\n    \"Red/beet salad\",\n    \"Green olives\",\n    \"White creamy dips (hummus-like)\",\n    \"Spiced/herbed dips in orange-brown tones\",\n    \"Basket of bread/pita visible top right\",\n    \"Restaurant setting with glasses and place settings\"\n  ],\n  \"phone_observations\": [\n    \"Phone thumbnail shows similar spread of small bowls\",\n    \"Central focus on cream and orange-toned dips\",\n    \"Multiple bowls clearly visible and distinguishable\",\n    \"Bread visible in background\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source metadata labels this as 'Israeli spread' and 'mezze meal' but provides no specific canonical dish name—only a category description\",\n    \"Individual component dishes cannot be reliably identified from appearance alone (hummus, tahini, baba ganoush, Israeli salad variants are visually ambiguous without explicit labelling)\",\n    \"No single finished dish is prominent; this is a table arrangement of multiple small components\",\n    \"Source description uses generic terms ('an assortment', 'and more') rather than named dishes\",\n    \"No explicit protein declarations in source; no meat, fish, or poultry appears visible or is named\"\n  ],\n  \"reason\": \"Source metadata provides only a generic category ('Israeli spread', 'mezze meal', 'salatim') and ingredient hints ('hummus, and more'), not a specific canonical dish name. Individual components cannot be reliably identified by appearance alone, and no single finished, named dish is prominent in the frame. This is a table presentation of multiple small components rather than a finished, identifiable dish. Identity check fails due to absence of a specific, verifiable dish title matching the source. Acceptance requires a named, specific dish phrase from source; generic category descriptions and component lists do not satisfy the canonical_name requirement.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1545,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 591,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
