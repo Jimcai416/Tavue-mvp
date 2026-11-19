@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBLwknqEa4VrnnnME2N3",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Red bowl containing noodles and toppings\",\n    \"Yellow-cooked egg visible on noodles\",\n    \"Green onion/scallion garnish\",\n    \"White diced onion or similar garnish\",\n    \"Cooked meat pieces visible in the dish\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows bowl with noodles\",\n    \"Yellow cooked egg layer visible\",\n    \"Green and white garnishes readable\",\n    \"Dish components prominent and identifiable\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title states 'Oyako Don Special' but the photograph shows a noodle soup/bowl dish, not a traditional donburi rice bowl. Oyako don should feature rice, egg, and chicken on top, not noodles.\",\n    \"Meat species cannot be definitively identified from the visible meat pieces—could be chicken, pork, or another species\",\n    \"The dish appears to be an Asian noodle preparation (possibly ramen or similar) rather than the oyako don format described in the title\"\n  ],\n  \"reason\": \"Identity mismatch: source title declares 'Oyako Don Special' but the photograph shows a noodle-based bowl dish rather than a traditional oyako donburi (rice bowl with egg and chicken). Protein species is not explicitly named in the source description and cannot be reliably identified from appearance alone. The visible form contradicts the declared identity, making acceptance impossible.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1741,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 477,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
