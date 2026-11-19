@@ -8563,3 +8563,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 - **Poriyal** — VinPrasad. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Poriyal.jpg). Local asset: `reviewed-commons-123090656.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Puri with Sundal** — Lohith Aswa M. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Puri_with_Sundal-_Krishnagiri-_Tamil_Nadu.jpg). Local asset: `reviewed-commons-101680863.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Poriyal with coconut garnish** — VinPrasad. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Poriyal_with_coconut_garnish.jpg). Local asset: `reviewed-commons-123091030.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Cornish pasty** — Mutney. [CC BY 4.0](https://creativecommons.org/licenses/by/4.0); [source](https://commons.wikimedia.org/wiki/File:An_entry_for_the_Cornish_pasty_section_of_the_domestic_produce_competition,_Camborne_Show,_Cornwall_-_July_2026_(1).jpg). Local asset: `reviewed-commons-195947916.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.

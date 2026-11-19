@@ -113060,5 +113060,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 824,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-195947916",
+    "title": "File:An entry for the Cornish pasty section of the domestic produce competition, Camborne Show, Cornwall - July 2026 (1).jpg",
+    "author": "Mutney",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:An_entry_for_the_Cornish_pasty_section_of_the_domestic_produce_competition,_Camborne_Show,_Cornwall_-_July_2026_(1).jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/74/An_entry_for_the_Cornish_pasty_section_of_the_domestic_produce_competition%2C_Camborne_Show%2C_Cornwall_-_July_2026_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "4bda3739e1e0f6897bf2ab10c5166a506669faa9",
+    "name": "Cornish pasty",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-195947916.jpg",
+    "assetSha256": "48b663d33d02f060defc51b838b3011fbf9393e1111e197b6075277a4ea45490",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 940,
+    "requiresExactMenuName": true
   }
 ];
