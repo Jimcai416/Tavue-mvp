@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBxRCQ2WFD1mqESDJJAF",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 5,\n    \"appeal\": 5\n  },\n  \"visible_support\": [\n    \"Two grilled sausages on wooden skewers, glossy caramelised exterior\",\n    \"Fresh vegetables: lettuce bed, sliced cucumber, chillies, boiled potatoes\",\n    \"Plate decorated with red crab illustrations and green leaf motifs\",\n    \"Appetising presentation typical of Thai street food\"\n  ],\n  \"phone_observations\": [\n    \"Sausages remain sharp and prominent in thumbnail\",\n    \"Essential components clearly visible: grilled sausages, vegetables, plate\",\n    \"Adequate detail for recognition despite small size\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title describes 'grilled fermented pork and sticky rice sausage' but sticky rice is not a protein category and pork is not explicitly named in the canonical title 'Sai krok Isan yai'\",\n    \"Sausage species ambiguous: source states composition but canonical dish name does not explicitly name pork\",\n    \"No visible sticky rice component distinguishable in photograph to match source description\"\n  ],\n  \"reason\": \"Identity check fails: source description claims 'grilled fermented pork and sticky rice sausage' but the canonical dish title 'Sai krok Isan yai' does not explicitly name pork or confirm sticky rice visibly. Protein evidence cannot be populated because pork is not an exact substring of the supplied canonical title. Source composition statement contradicts what the canonical name alone conveys. Hold pending clarification of whether the dish title or the descriptive statement is authoritative, and whether pork should be inferred or explicitly stated in the canonical form.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 2111,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 507,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
