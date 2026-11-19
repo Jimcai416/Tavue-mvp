@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBrHZDFY6ZtuugkZdiEC",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Cooked eggplant/brinjal pieces visible in full image\",\n    \"Yellow-green peppers or similar vegetables interspersed\",\n    \"Red spice coating and browning present\",\n    \"Appetising glaze and char marks\"\n  ],\n  \"phone_observations\": [\n    \"Subject remains prominent and identifiable at 124x96\",\n    \"Colour and texture preserved in thumbnail\",\n    \"Essential dish components visible\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title is filename metadata (File:Brinjal Fry.JPG), not a formal source description\",\n    \"Description field repeats filename without additional detail\",\n    \"No explicit canonical dish name provided in source\",\n    \"Exact preparation method, spice blend, and regional variant not specified in metadata\"\n  ],\n  \"reason\": \"Rejection: source metadata is insufficient. The title is a bare filename (File:Brinjal Fry.JPG) and description is merely a filename repeat (Brinjal_Fry), with no formal dish title, preparation style qualifier, or regional variant information. Canonical name cannot be reliably extracted from filename metadata alone. While the photograph shows a finished, appetising brinjal/eggplant preparation with good sharpness, lighting, and composition, and the phone thumbnail is acceptable, the absence of a proper source title or description prevents canonical_name assignment. A formal source description (e.g. \\\"Chettinadu Brinjal Fry\\\" or \\\"Andhra Brinjal Fry with specific preparation detail\\\") is required.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1729,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 503,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
