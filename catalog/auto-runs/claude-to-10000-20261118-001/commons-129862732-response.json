@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCBcUuHAUFRaUyM9BSXV",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [\n    \"Jarred preserved vegetable mixture visible in both full and thumbnail images\",\n    \"Diced eggplant, peppers (red and yellow), olives, and what appear to be capers or small white elements\",\n    \"Naturally coloured, well-lit still life of preserved food\"\n  ],\n  \"phone_observations\": [\n    \"Jar contents clearly visible at 124x96 resolution\",\n    \"Distinctive mix of vegetables and preserved components recognizable\",\n    \"No critical clipping of essential food elements\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title is 'Caponata' but description in Portuguese describes it as 'conserva de berinjela com pimentão, azeitonas, alho e uvas-passa' (eggplant preserve with peppers, olives, garlic and raisins)\",\n    \"Caponata is a Sicilian dish typically containing eggplant, tomatoes, olives and capers, often served as a finished dish, not as a preserved jarred condiment\",\n    \"Description emphasizes this is 'conserva' (a preserve/conserve) presented as a jarred ingredient rather than a plated finished dish\",\n    \"Raisins mentioned in description are not distinctly verifiable in the image\",\n    \"This appears to be a preserved ingredient or condiment jar rather than a finished, plated dish ready for consumption\"\n  ],\n  \"reason\": \"While the photograph is sharp, well-lit and shows preserved vegetables clearly, this is a jarred preserve or condiment (conserva) rather than a finished, exposed, plated dish suitable for Tavue food photography review. The source description explicitly frames this as a homemade preserve/conserve, not as a finished eggplant caponata dish. Additionally, there is a material discrepancy between the title ('Caponata') and the description (which describes it as a raisin-containing eggplant preserve conserve), creating identity uncertainty. Tavue accepts finished, exposed dishes; a jarred preserve does not meet the finished-dish criterion.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1766,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 613,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
