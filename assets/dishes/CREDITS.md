@@ -7741,3 +7741,8 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 
 - **Jjamppong-flavoured sujebi** — 대경라이프. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Jjamppong-sujebi_2.jpg). Local asset: `reviewed-commons-99709219.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Jjamppong (Korean Chines seafood noodle soup)** — [Jungyeon](https://pixabay.com/ko/users/Jungyeon-1055977/). [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Jjamppong_(Korean_Chines_seafood_noodle_soup).jpg). Local asset: `reviewed-commons-54768083.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Pâté en croûte** — Romainbehar. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Lyon_6e_-_Restaurant_Bernachon_Passion,_p%C3%A2t%C3%A9_en_cro%C3%BBte.jpg). Local asset: `reviewed-commons-77489600.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Pâté en croûte fait maison** — Romainbehar. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Lyon_7e_-_Place_du_Prado_-_Restaurant_Sipr%C3%A8s_-_P%C3%A2t%C3%A9_en_cro%C3%BBte_fait_maison.jpg). Local asset: `reviewed-commons-172645130.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
