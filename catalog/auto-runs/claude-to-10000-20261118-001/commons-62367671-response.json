@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBqbF7whqQAY2VijRekr",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Cheese slices (pale, semi-hard appearance, consistent with tomme)\",\n    \"Sliced cured meat (red, marbled, consistent with saucisson)\",\n    \"Jar of dark paste (tapenade, olive-based)\"\n  ],\n  \"phone_observations\": [\n    \"Central jar of tapenade clearly visible\",\n    \"Cheese and meat components present but small in phone thumbnail\",\n    \"Assembled charcuterie plate, not a finished prepared dish\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Saucisson is a generic term for cured sausage with unspecified animal species; source does not declare whether pork, beef, duck or other\",\n    \"No explicit source quote names the meat animal\",\n    \"Charcuterie board/platter is a composed assembly, not a finished cooked dish\"\n  ],\n  \"reason\": \"Identity check fails: saucisson is an unspecified sausage with unknown species, violating the requirement that proteins be explicitly named. The source title does not declare the animal. Additionally, this is a composed charcuterie platter (cheese, cured meat, condiment) rather than a finished, prepared, or cooked food dish. Per guidelines, sausage without named species cannot be accepted, and an assembled board of raw/cured components does not meet the 'finished, exposed, likely photographic dish' standard.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1623,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 459,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

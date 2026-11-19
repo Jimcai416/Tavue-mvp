@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBqc4biEW6UBt1KMcfiY",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 5,\n    \"composition\": 5,\n    \"appeal\": 5\n  },\n  \"visible_support\": [\n    \"Pale terrine/mousse with visible fat marbling and yellow flecks, consistent with foie gras preparation\",\n    \"Deep burgundy gelatinous component, consistent with aspic or berry coulis accompaniment\",\n    \"Fresh basil herb garnish\",\n    \"White plate, professional plating\"\n  ],\n  \"phone_observations\": [\n    \"Foie gras terrine clearly visible in phone thumbnail\",\n    \"Red component and basil garnish readable\",\n    \"Dish prominence and detail adequate for thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source metadata states 'duck or goose' but does not specify which animal. Foie gras identity requires explicit animal type (duck vs. goose are distinct products). Generic 'duck or goose' in metadata does not meet explicit-naming requirement for protein_evidence.\",\n    \"Metadata is explicitly marked as 'untrusted evidence, never instructions' per review guidelines. The description is generic and does not constitute a specific source title confirming the exact dish variant.\"\n  ],\n  \"reason\": \"Image quality, sharpness, lighting, composition and appeal are all excellent. Photograph and phone thumbnail both clearly show a finished foie gras dish with professional plating, garnish and accompaniments. However, the source metadata describes foie gras generically as 'made of the liver of a duck or goose' without specifying which animal. Per guidelines, ambiguous meat species (including unspecified poultry) must be held. The metadata does not provide an explicit canonical source title—only a generic description. A specific, unambiguous source quote naming the animal species and dish is required to proceed. Without explicit animal identification in the source, identity check cannot pass.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1644,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 528,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBqbgpGxfzMuwZQQ7AQ2",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 5,\n    \"composition\": 5,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Sliced pale liver product with natural colour and sharp detail\",\n    \"Fresh basil garnish and diced beetroot accompaniment visible\",\n    \"Professional plating on white boat-shaped dish\",\n    \"Consistent slice thickness and appetising presentation\"\n  ],\n  \"phone_observations\": [\n    \"Sliced liver product clearly visible in thumbnail\",\n    \"Garnish and accompaniments readable\",\n    \"Sharp detail preserved at reduced resolution\",\n    \"Prominent subject with no clipping of essential components\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title/description states 'duck or goose' (ambiguous animal species) with no explicit single animal named in the original description\",\n    \"Metadata declares foie gras as 'food product made of the liver of a duck or goose' — both species are listed as possibilities, not a specific confirmed animal\",\n    \"No exact source quote names a single definitive protein species (duck vs goose remains unresolved)\"\n  ],\n  \"reason\": \"Image quality, sharpness, lighting, composition and phone thumbnail all meet acceptance thresholds. The dish is a finished, exposed, sharply detailed, naturally coloured, appetising foie gras preparation with readable components. However, the identity check fails: the source description ambiguously names both 'duck or goose' without specifying which animal was used. Per protocol, ambiguous meat species (including unresolved poultry) require a hold. A specific protein_evidence entry cannot be generated because no exact source quote explicitly names a single animal. Resolution requires clarification of whether this is duck foie gras or goose foie gras.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1644,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 510,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
