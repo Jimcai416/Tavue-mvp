@@ -127619,5 +127619,29 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "height": 640,
     "requiresExactMenuName": true,
     "authorUrl": "https://www.mehrnews.com"
+  },
+  {
+    "id": "commons-148400380",
+    "title": "File:Mangalorean country chicken curry ( Kori sukka).jpg",
+    "author": "Yakshitha",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mangalorean_country_chicken_curry_(_Kori_sukka).jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/16/Mangalorean_country_chicken_curry_%28_Kori_sukka%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "1808c7a00af0be35ced7e6bb33cd85094955fb07",
+    "name": "Mangalorean country chicken curry (Kori sukka)",
+    "aliases": [],
+    "proteins": [
+      "chicken"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-148400380.jpg",
+    "assetSha256": "755a9c335fb139c89fb8d872a19c6ad24f09fe5fb2582b67dc5827d06c4ef712",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 431,
+    "height": 960,
+    "requiresExactMenuName": true
   }
 ];

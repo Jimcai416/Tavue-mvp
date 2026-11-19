@@ -9854,3 +9854,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 
 - **Sangak bread** — [Mehr News Agency](https://www.mehrnews.com). [CC BY 4.0](https://creativecommons.org/licenses/by/4.0); [source](https://commons.wikimedia.org/wiki/File:Sangak_05.jpg). Local asset: `reviewed-commons-86510413.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **نان سنگک** — [Mehr News Agency](https://www.mehrnews.com). [CC BY 4.0](https://creativecommons.org/licenses/by/4.0); [source](https://commons.wikimedia.org/wiki/File:Sangak_Bread_04.jpg). Local asset: `reviewed-commons-80126359.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Mangalorean country chicken curry (Kori sukka)** — Yakshitha. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Mangalorean_country_chicken_curry_(_Kori_sukka).jpg). Local asset: `reviewed-commons-148400380.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
