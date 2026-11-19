@@ -7050,3 +7050,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 - **Green Curry** — [Guilhem Vellut  from Paris, France](https://www.flickr.com/people/22539273@N00). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Green_Curry,_Siam_House,_Paris_002.jpg). Local asset: `reviewed-commons-51724894.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Miso soup (Tofu and seaweed)** — Ocdp. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Miso_Soup_001.jpg). Local asset: `reviewed-commons-109900976.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Japanese Miso Soup** — Brücke-Osteuropa. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Miso_Soup_1.JPG). Local asset: `reviewed-commons-14939799.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Miso Soup** — Brücke-Osteuropa. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Miso_Soup_2.jpg). Local asset: `reviewed-commons-14939811.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.

@@ -95234,5 +95234,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 819,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-14939811",
+    "title": "File:Miso Soup 2.jpg",
+    "author": "Brücke-Osteuropa",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Miso_Soup_2.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Miso_Soup_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "70ea54ecd5f48d0560f6f2bb227d54a5f119ffb4",
+    "name": "Miso Soup",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-14939811.jpg",
+    "assetSha256": "14add9c058a1d9a0d2eb61e7b2116109c27bea18bbec9720ff7ec71bf322f120",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 816,
+    "requiresExactMenuName": true
   }
 ];
