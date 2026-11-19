@@ -9694,3 +9694,10 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Finnish rice porridge** — JIP. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Rice_porridge_on_Boxing_Day.jpg). Local asset: `reviewed-commons-139963895.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Max's Sizzling Tofu Sisig** — ShmilyDigital. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Max%27s_Sizzling_Tofu_Sisig.jpg). Local asset: `reviewed-commons-156204165.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Nilasing na hipon (Cooked Drunken Shrimp)** — [Yvette Tan](https://www.flickr.com/photos/glossmania/). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Nilasing_na_hipon_(Cooked_Drunken_Shrimp)_-_Philippines.jpg). Local asset: `reviewed-commons-75244991.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Chopsuey from the Philippines** — Ralff Nestor Nacor. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Chopsuey_from_the_Philippines.jpg). Local asset: `reviewed-commons-146817101.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Chopsuey with Red Rice** — Ralff Nestor Nacor. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Chopsuey_with_Red_Rice_in_Ceayan%27s_Delight_Restaurant,_Banangan,_Sablan,_Benguet,_Nov_2026.jpg). Local asset: `reviewed-commons-202956632.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
