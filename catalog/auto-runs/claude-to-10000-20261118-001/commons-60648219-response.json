@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBoYqNA9WALZP5cCs7wr",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 3,\n    \"lighting\": 2,\n    \"composition\": 2,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Ground meat mixture in cooking pot with ladle\",\n    \"Preparation stage, not finished dish\",\n    \"In-process cooking, not plated or served\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title lists many dishes generically without naming the specific one shown\",\n    \"Metadata does not identify which dish from the list is depicted\",\n    \"Image shows raw/preparation stage, not a finished exposed dish\"\n  ],\n  \"reason\": \"Rejection: This is a preparation/cooking stage photograph, not a finished, plated, or served dish. The image shows ground meat being cooked in a pot with a ladle—characteristic of mise en place or cooking in progress. The source metadata lists multiple Philippine dishes generically without identifying which specific dish this represents. Identity cannot be established from the ambiguous source description. The photograph fails the fundamental requirement of depicting a finished, exposed, appetising dish suitable for food intake review. Composition and lighting are poor for food review purposes.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1933,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 364,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
