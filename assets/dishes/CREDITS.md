@@ -10151,3 +10151,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 - **Kaipen with spicy jaew bong Sauce** — [by joaquinuy](https://www.flickr.com/photos/wakxy/). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Kaipen_with_Spicy_Jaew_Bong_Sauce-02.jpg). Local asset: `reviewed-commons-7896889.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Pangsit goreng** — Serenity. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/); [source](https://commons.wikimedia.org/wiki/File:Pangsit_goreng.jpg). Local asset: `reviewed-commons-2181258.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **kor moo yang jing jaew** — JIP. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Kor_moo_yang_jing_jaew.jpg). Local asset: `reviewed-commons-88097230.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Piti** — Tərxan Paşazadə. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Piti_24.11.2013-01.jpg). Local asset: `reviewed-commons-29988403.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
