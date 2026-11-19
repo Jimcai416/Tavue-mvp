@@ -7509,3 +7509,9 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Peri-Peri Chicken** — CNEcija12345. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Peri-Peri_Chicken_dish.jpg). Local asset: `reviewed-commons-164742942.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Moroccan Lamb Tagine with Honey and Apricots** — [Kimberly Vardeman](https://www.flickr.com/photos/87542849@N00). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:African_Dinner.jpg). Local asset: `reviewed-commons-6217669.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Berber lamb tagine** — Darmansour. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Dar_Mansour_-_Morocco%27s_Kitchen_berber%27s_tajine,_Koh_Phangan,_Thailand.jpg). Local asset: `reviewed-commons-195791399.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Kushari and Hawawshi** — Ashashyou. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Kushari_and_Hawawshi.jpg). Local asset: `reviewed-commons-67402135.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
