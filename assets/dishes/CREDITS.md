@@ -10370,3 +10370,9 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Rye and Potato rieska** — Hellahulla ( Hellahulla ). [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Rye_and_Potato_rieska_-_1.JPG). Local asset: `reviewed-commons-3139694.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Kaalilaatikko with lingonberries** — Kotivalo. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Kaalilaatikko_with_lingonberries.jpg). Local asset: `reviewed-commons-62439439.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Svele** — Kjetil Ree. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Svele_Aug_2014.jpg). Local asset: `reviewed-commons-35213074.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Kladdkaka with cream** — ulfveronica0 (Veronika Olsson). [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Kladdkaka_with_cream.jpg). Local asset: `reviewed-commons-67154145.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
