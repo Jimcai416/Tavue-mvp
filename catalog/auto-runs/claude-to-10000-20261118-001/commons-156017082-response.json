@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCwhjoErNkk2DYdriJk6",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Finished, cooked broth dish with visible meat, offal, and noodles\",\n    \"Rice dish with meat, fried shallots, and green onions clearly visible\",\n    \"Natural daylight, appetising presentation on red wooden table\",\n    \"Both bowls sharply detailed with readable components in phone thumbnail\"\n  ],\n  \"phone_observations\": [\n    \"Upper bowl: dark broth with meat pieces and egg clearly identifiable\",\n    \"Lower bowl: white rice base with meat, fried shallots and garnish prominently featured\",\n    \"Phone thumbnail captures both dishes distinctly with good colour and legibility\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'beef pares' but beef is not explicitly stated in the description field\",\n    \"Visible meat components in broth appear to include offal (tripe, liver evident) but specific animal not named in description\",\n    \"Pares is a Filipino stew traditionally made with beef organ meats; identity relies on title alone\",\n    \"Description says 'Special beef pares' in title but source description field only states location, not the meat qualifier\"\n  ],\n  \"reason\": \"Source title contains 'beef' but the description field does not explicitly name beef as a protein. Per rules, proteins may include only named animals with exact source quote explicitly naming each; metadata title is not sufficient independent evidence when description field omits the qualifier. The beef pares identity cannot be confirmed by description text alone. The dish is photographically excellent and finished, but protein evidence cannot be established from the description field that was provided.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1552,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 496,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
