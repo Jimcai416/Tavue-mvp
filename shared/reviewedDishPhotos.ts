@@ -95843,5 +95843,28 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 640,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-38304402",
+    "title": "File:Fabada asturiana2.jpg",
+    "author": "Javier Lastras  from España/Spain",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fabada_asturiana2.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Fabada_asturiana2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "7da7eef6a73ab9592048d2a4d4ab784c52c34d60",
+    "name": "Fabada asturiana",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-38304402.jpg",
+    "assetSha256": "b5040736d9248039b08491394b932e5394938f4097ac4ef28df167f2bf00fce4",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true,
+    "authorUrl": "https://www.flickr.com/people/22662305@N04"
   }
 ];
