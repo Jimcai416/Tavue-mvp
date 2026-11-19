@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBeMwSRt84tN5sAkYHhV",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Red/orange broth with visible spice coating\",\n    \"White round items (likely seafood)\",\n    \"Dark visible ingredient (likely shrimp)\",\n    \"Rice accompaniment on separate plate\",\n    \"Casual street/home food setting\",\n    \"Spoon visible in bowl\"\n  ],\n  \"phone_observations\": [\n    \"Soup bowl clearly visible and prominent in thumbnail\",\n    \"Red broth and white components readable\",\n    \"Rice side dish visible at edge\",\n    \"Overall composition recognizable as soup dish\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Filename states 'Tom yam soup' but description only says 'Thai food' – source metadata contradicts itself\",\n    \"White round items appear to be seafood but species cannot be determined from appearance (could be shrimp, scallop, or squid)\",\n    \"Dark ingredient visible but specific species unclear\",\n    \"No explicit animal protein named in provided description; filename is metadata, not authoritative source description\",\n    \"Tom yam traditionally includes shrimp but visual confirmation of species is unreliable\"\n  ],\n  \"reason\": \"Source title/description conflict: filename suggests 'Tom yam soup' but the provided description field only states 'Thai food' without naming the dish or any proteins. No protein species are explicitly named in the authoritative description. While the photograph shows finished soup with identifiable broth and components, the identity cannot be confirmed from the source description alone, and no animal protein can be supported without an explicit source quote naming the species. Hold pending clarification of canonical dish name and protein composition from reliable source description.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1717,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 503,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

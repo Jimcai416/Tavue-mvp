@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBeN3fjTej3yhLtNJZ52",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [\n    \"Clay pot with terracotta handles visible\",\n    \"Clear broth with golden-yellow colour\",\n    \"White/pale segmented items consistent with chicken feet\",\n    \"Green and red chilli/vegetable pieces\",\n    \"Natural indoor lighting, well-exposed\"\n  ],\n  \"phone_observations\": [\n    \"Chicken feet clearly visible in centre\",\n    \"Broth and aromatics readable\",\n    \"Soup dish recognizable and prominent\",\n    \"Adequate detail for identification\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title contains no explicit chicken/poultry declaration—only descriptive parenthetical comment and explanation\",\n    \"Filename and metadata are explicitly untrusted per instructions\",\n    \"Title reads 'Tom yam suppoe' with no protein species named in the actual canonical title/description field\",\n    \"Description mentions 'chicken feet' only in explanatory/editorial text ('Why \\\"super\\\" for chicken feet? No one knows.'), not as a source-declared ingredient\",\n    \"No exact case-sensitive substring from title or formal description field names poultry\"\n  ],\n  \"reason\": \"Although the photograph clearly shows chicken feet in tom yam soup and both image quality and phone thumbnail are strong, the source title 'Tom yam suppoe' contains no explicit protein declaration. The description text does reference chicken feet, but only parenthetically and in an editorial question, not as a formal ingredient declaration. Per protocol, proteins may be included only with an exact source quote explicitly naming each animal. The untrusted metadata/filename cannot substitute for a formal title or description field that names the protein. This ambiguity requires hold pending clarification of the canonical source title or description.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1668,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 521,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

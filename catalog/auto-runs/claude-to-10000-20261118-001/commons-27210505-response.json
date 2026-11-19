@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBeMYEBK8Q2LYLbJomTk",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Crusty baguette with crisp exterior\",\n    \"Pink sliced meat (described as turkey fillet)\",\n    \"Translucent ham or bacon strips\",\n    \"Dark green pickled pepper\",\n    \"Creamy white sauce layer\",\n    \"Finished, exposed sandwich\"\n  ],\n  \"phone_observations\": [\n    \"Sandwich cross-section clearly visible\",\n    \"Meat and pepper layers readable\",\n    \"Sauce visible between layers\",\n    \"Subject prominent and well-composed\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Description claims 'turkey fillet' but source title is 'Bocadillo tumbadito' — visual verification of turkey species cannot be confirmed from appearance alone; pink colour and texture are consistent with many poultry types\",\n    \"Description lists 'bacon' but visible meat layers appear to include both ham-like and bacon-like components; exact species and preparation of pink meats are not visually distinguishable\",\n    \"No explicit source quotation confirms turkey or bacon as named ingredients in the canonical title itself; description metadata is unreliable per instructions\"\n  ],\n  \"reason\": \"Image quality, sharpness, composition and phone thumbnail all pass. However, identity check fails because the source title 'Bocadillo tumbadito' does not explicitly name turkey, bacon, or any animal species. The description claims 'turkey fillet' and 'bacon', but per protocol, proteins may only be claimed when the exact source title or description explicitly names each animal. The description is unreliable metadata. The title alone does not provide explicit protein evidence. Without a source quote confirming the animals in the canonical dish name itself, protein identity cannot be verified, and the check fails. Hold pending clarification of authoritative source naming.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1673,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 538,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
