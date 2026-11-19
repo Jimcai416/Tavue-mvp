@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCq6GKqJnx3z7C3tiZ4T",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Red chorizos clearly visible in centre-back of full image and thumbnail\",\n    \"Golden-brown fried potato croquettes (papas rellenas) visible left side\",\n    \"Round brown fried ball shapes consistent with buñuelos de fríjol on right side\",\n    \"Green plantain patacones visible as flat fried pieces left-centre\",\n    \"Natural outdoor lighting, sharp focus on food items\",\n    \"Bright turquoise plastic serving tray\",\n    \"Home/street food context with casual presentation\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows chorizos, fried potato items, and round fried balls\",\n    \"All major dish components visible and identifiable in 124x96 view\",\n    \"Appetising appearance maintained in thumbnail crop\",\n    \"No essential food clipped or obscured\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title lists 'Chorizo' but does not explicitly state meat species (pork is traditional but not declared in title/description)\",\n    \"Chorizo is a sausage product and cannot be confirmed as specific allowed protein category without explicit species declaration\",\n    \"Description does not contain exact phrase matching any canonical dish name\",\n    \"Multiple distinct dishes presented as a platter combination rather than a single named dish\"\n  ],\n  \"reason\": \"Photograph and phone quality are excellent with strong sharpness, lighting, composition and appeal (all ≥4). Identity cannot be confirmed because: (1) the source description lists four separate components (chorizos, papas rellenas, buñuelos de fríjol, patacones rellenos) without a unifying canonical dish name, (2) 'Chorizo' in the title does not explicitly declare the meat species (pork/beef/etc.) required for protein_evidence, and sausage products cannot be accepted without explicit animal species qualification. The title/description structure appears to be a list of ingredients rather than a specific dish name. Hold for source clarification on overall dish identity and explicit chorizo species declaration.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1758,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 609,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
