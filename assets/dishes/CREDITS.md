@@ -9186,3 +9186,10 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 
 - **Butter tarts** — [Kaarina Dillabough](https://www.flickr.com/people/100497095@N02). [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:Butter_tarts_it%27s_a_Canadian_thing._(47104703864).jpg). Local asset: `reviewed-commons-80870761.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Çöp şiş with lamb meat** — E4024. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:%C3%87%C3%B6p_%C5%9Fi%C5%9F_(lamb).jpg). Local asset: `reviewed-commons-41019912.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Lobster bisque** — Missvain. [CC BY 4.0](https://creativecommons.org/licenses/by/4.0); [source](https://commons.wikimedia.org/wiki/File:BL_Brasserie_-_2021-05-11_-_Sarah_Stierch_08.jpg). Local asset: `reviewed-commons-108100528.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Srikhand** — Ayushiwak. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Srikhand.JPG). Local asset: `reviewed-commons-40956886.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Fried Taro Cake (sliced)** — Ralff Nestor Nacor. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Fried_Taro_Cake_(sliced).jpg). Local asset: `reviewed-commons-156431876.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Lumpiang Sariwa** — Ralff Nestor Nacor. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Lumpiang_Sariwa,_Oct_2025.jpg). Local asset: `reviewed-commons-176496299.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
