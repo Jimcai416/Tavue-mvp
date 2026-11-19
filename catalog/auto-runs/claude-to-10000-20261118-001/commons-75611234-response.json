@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBvDKTd4Pte7ef4q3VsS",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Phone thumbnail shows four golden-brown fried patties arranged in a line, surrounded by component bowls\",\n    \"Central subject (the patties) is sharp and prominent in thumbnail\",\n    \"Accompaniments visible but secondary in phone view\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title is 'Ragda Patties Items.HEIC.jpg' — this describes preparation components/mise en place, not a finished plated dish\",\n    \"The full photograph shows ingredient components (sauces, condiments, vegetables, raw paste) arranged around unplated patties on a plate\",\n    \"This is a preparation/intake stage photograph, not a finished, exposed, served dish\",\n    \"No finished plated dish with integrated components is visible — only individual ingredients and the patties isolated on a white plate\"\n  ],\n  \"reason\": \"Reject: This photograph documents ingredient mise en place and preparation stages, not a finished, exposed, plated dish ready for consumption. The patties are present and well-photographed, but the image's purpose is to show component ingredients (various sauces, condiments, diced vegetables, pastes) in separate bowls. The source filename 'Ragda Patties Items.HEIC.jpg' and visual composition confirm this is a preparation/documentation photo. Tavue accepts finished dishes; this is a raw preparation stage.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1730,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 456,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

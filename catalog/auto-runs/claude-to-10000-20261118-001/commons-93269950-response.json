@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBvDim5cfjHfSD23rQ9v",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Seven patties in various stages of cooking on a black griddle/tawa\",\n    \"Four patties with golden-brown crusts on top surface\",\n    \"Three patties showing pale, uncooked or less-cooked surfaces\",\n    \"Fresh green herb garnish visible on some patties and on the griddle\",\n    \"Natural cooking photograph, in-process staging\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows the griddle with multiple patties in mixed cooking states\",\n    \"Golden-brown crusts are visible on several patties in the compressed view\",\n    \"Griddle and cooking context remain readable\",\n    \"Subject is prominent and not clipped\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title references 'Ragda Patties' but source metadata states 'Food prepared by Ujwala Raju Kasambe' without explicit dish confirmation in description\",\n    \"Image shows patties in mid-cooking stage with inconsistent browning—some appear raw or underdone on visible surfaces\",\n    \"No explicit ingredient list or protein declaration in source description\",\n    \"Ragda Patties traditionally may contain potato/pea components, but no visible confirmation of filling or final plated form\",\n    \"Photograph captures preparation/cooking stage rather than finished, plated dish\"\n  ],\n  \"reason\": \"Identity mismatch between filename suggestion ('Ragda Patties') and source description ('Food prepared by Ujwala Raju Kasambe') creates uncertainty. More critically, the image shows patties mid-cooking on a griddle in an inconsistent state of doneness, not a finished, exposed, plated dish. Some patties are golden-brown while others remain pale, suggesting this is a preparation or cooking documentation rather than a finished food photograph ready for intake. Quality scores meet threshold, but the identity check fails due to source description lacking explicit dish confirmation, and the photograph fails to present a clearly finished state. Hold pending source clarification.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1767,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 587,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

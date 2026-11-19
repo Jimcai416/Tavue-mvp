@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBvCrVPbBJvoGJKZtBPL",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Pan-fried patties with golden-brown spice crust visible in full source\",\n    \"Patties show interior crumb and herb/spice speckling consistent with potato-based fritters\",\n    \"Phone thumbnail confirms multiple patties in skillet at cooking stage\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail shows cooking in progress: patties in active pan with oil\",\n    \"Golden-brown colour on surfaces visible\",\n    \"Multiple patties arranged in skillet\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title states 'Ragda Patties' but image shows only patties being cooked in a pan—ragda (white pea curry) is not visible and is a required component of the dish\",\n    \"Photograph depicts preparation/cooking stage, not a finished plated dish ready for consumption\",\n    \"Cannot confirm identity without visible ragda component\"\n  ],\n  \"reason\": \"Rejection criteria met: (1) Image shows cooking in progress, not a finished exposed dish—patties are actively frying in a pan rather than plated and ready. (2) Essential component missing: Ragda Patties requires visible ragda (spiced white pea curry) served with or alongside the patties; this image shows only the patties cooking in isolation. Without the ragda visible, the dish identity cannot be confirmed as 'Ragda Patties'—it appears to be only potato patties/fritters. (3) Preparation stage content is explicitly excluded. Source metadata confirms 'Ragda Patties' but visual evidence contradicts full dish identity.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1759,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 501,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
