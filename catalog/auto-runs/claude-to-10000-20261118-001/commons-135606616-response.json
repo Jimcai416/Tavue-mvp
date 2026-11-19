@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBuSgDnUBupERcWBkD2B",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 3,\n    \"lighting\": 2,\n    \"composition\": 2,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows active charcoal grill with red meat patties mid-cooking\",\n    \"Grill grate dominates frame; ash and embers visible\",\n    \"Food is mid-preparation stage, not finished\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title mentions 'thịt viên bẹt' (flattened meat patties) but no species explicitly stated in title or description\",\n    \"Generic 'Grilled food of Vietnam' provides no specific dish identity\",\n    \"Food is actively cooking, not a finished exposed dish\"\n  ],\n  \"reason\": \"Reject: This is a preparation/cooking stage photograph, not a finished dish. The meat patties are mid-cook on active charcoal with visible ash and embers dominating the composition. The source title 'Thịt nướng than (thịt viên bẹt)' translates to 'charcoal-grilled meat (flattened meat balls)' but does not explicitly name the meat species (beef/pork/chicken/etc.). The generic description 'Grilled food of Vietnam' offers no specific dish identity. Lighting is poor with severe charcoal/ash glare obscuring the subject. The photograph fails the finished-dish requirement and contains no readable essential components beyond charcoal and grill. All quality and identity checks fail.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 2063,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 456,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
