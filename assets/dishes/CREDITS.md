@@ -10220,3 +10220,11 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Cơm nắm served with sesame salt** — MinWuHwang. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:C%C6%A1m_n%E1%BA%AFm_mu%E1%BB%91i_v%E1%BB%ABng_01.jpg). Local asset: `reviewed-commons-163181615.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Antep tepsi kebab** — E4024. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Antep_tepsi.jpg). Local asset: `reviewed-commons-62201305.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **imambayildi** — E4024. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Bir_tepsi_imambayildi.jpg). Local asset: `reviewed-commons-70261142.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Ispanaklı tepsi böreği** — Satirdan kahraman. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Ispanakl%C4%B1_tepsi_b%C3%B6re%C4%9Fi.jpg). Local asset: `reviewed-commons-161147527.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Tepsi böreği** — E4024. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Tepsi_b%C3%B6re%C4%9Fi.jpg). Local asset: `reviewed-commons-43894911.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Tepsi kebabı** — E4024. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Tepsi_kebap.jpg). Local asset: `reviewed-commons-55305869.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
