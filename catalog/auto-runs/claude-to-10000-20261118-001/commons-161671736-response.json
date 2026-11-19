@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCp3wZnphHhmR3Vsun5H",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 2,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Plate with golden-yellow dish visible in thumbnail\",\n    \"Hand holding plate present\",\n    \"Bottle and utensil visible in background\",\n    \"Dish itself is identifiable but setting distracts\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title metadata only contains 'File:Kokonte 03.jpg' with no canonical dish name or description provided\",\n    \"Description placeholder text 'Farm to Plate' is generic marketing language, not a dish identifier\",\n    \"Kokonte is implied by filename only, not explicitly stated in supplied title/description fields\",\n    \"No ingredients, proteins, or preparation details provided in source metadata\",\n    \"Cannot verify dish identity, composition or regional variant from metadata alone\"\n  ],\n  \"reason\": \"Rejection: Source metadata does not supply a canonical dish name in title or description field—only a filename 'Kokonte 03.jpg' and generic theme placeholder. Per rules, identity must agree with exact source title/description; filename and inferred names do not meet this standard. Description is marketing text without dish detail. No protein, ingredient or preparation evidence in supplied source fields. Without explicit canonical identification and descriptive support in the actual title/description, identity cannot be confirmed and uncertainties preclude acceptance.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 2050,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 429,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
