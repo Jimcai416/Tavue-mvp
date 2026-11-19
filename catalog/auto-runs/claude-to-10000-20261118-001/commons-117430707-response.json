@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBwes9vLZDHaAi4JaMLV",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 3,\n    \"lighting\": 2,\n    \"composition\": 2,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows only a terracotta pot with dark liquid interior and a wooden stirring rod\",\n    \"Essential food content (the chutney itself) is not visible in the thumbnail\",\n    \"No finished, exposed dish is identifiable in phone view\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title claims 'aamchur chutney' but the photograph shows only an empty or nearly empty preparation vessel with no actual chutney visible\",\n    \"Cannot verify finished, exposed dish appearance from either full image or thumbnail\",\n    \"No appetising food subject is prominent or sharply detailed\"\n  ],\n  \"reason\": \"Reject: This is a preparation/cooking stage image, not a finished dish photograph. The source shows only a terracotta pot with dark liquid (likely mango paste in preparation) and a wooden stirrer. No finished chutney is exposed or prominently displayed. The phone thumbnail reveals essential food content is clipped or absent—only the vessel is visible. The image fails photograph quality, identity verification, and phone thumbnail acceptability. Preparation stages are explicitly excluded.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1738,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 390,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
