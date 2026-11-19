@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChD6C5zsmfSgqpVGfVrfW",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": \"Sombe sauce with meat and ovacado in it. Sombe is made using pounded cassava leaves and prepared with palm oil and any type of meat of fish.\",\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [\n    \"Dark green pounded cassava leaf base visible\",\n    \"Yellow sliced plantain or avocado pieces present\",\n    \"Traditional blue and white decorated ceramic bowl\",\n    \"Home cooking presentation consistent with source description\"\n  ],\n  \"phone_observations\": [\n    \"Central dish clearly visible in thumbnail\",\n    \"Green leaf component and yellow accompaniment both readable\",\n    \"Bowl design distinctive and identifiable\",\n    \"Lighting adequate for phone thumbnail review\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source states 'any type of meat of fish' — no specific protein species explicitly named in description\",\n    \"Yellow component described as 'ovacado' (likely typo for avocado) but cannot visually confirm whether it is avocado or plantain\",\n    \"Meat presence claimed but no visible meat particle can be definitively identified in the dark green sauce\",\n    \"Species ambiguity: 'any type of meat' is too generic; exact animal not declared\"\n  ],\n  \"reason\": \"Identity check fails because the source description does not specify a particular meat or fish species—it uses only the generic phrase 'any type of meat of fish.' Per protocol, unspecified or ambiguous meat species require a hold. The yellow accompaniment cannot be visually confirmed as the stated 'ovacado' (or avocado). No protein_evidence key can be populated with a specific source quote naming the animal. All other image and phone checks pass with adequate scores, but the protein ambiguity prevents acceptance.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1784,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 516,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
