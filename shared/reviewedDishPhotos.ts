@@ -113556,5 +113556,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-34928656",
+    "title": "File:Umngqusho.jpg",
+    "author": "Jon Mountjoy",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Umngqusho.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Umngqusho.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "ea6bf5c43dea71dc85707182f930a0837488e4e7",
+    "name": "Umngqusho",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-34928656.jpg",
+    "assetSha256": "9ec036492a5162a69f9faf92e3769d32a5dd775940cbc3e9c421688dd212501b",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 717,
+    "requiresExactMenuName": true
   }
 ];
