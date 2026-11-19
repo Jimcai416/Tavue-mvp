@@ -9713,3 +9713,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Wakye with shito and sliced vegetables** — DromoTetteh. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Wakye_with_shito_and_sliced_vegetables.jpg). Local asset: `reviewed-commons-37071333.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Empanadas de queso** — E4024. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Empanadas_de_queso.jpg). Local asset: `reviewed-commons-60101327.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
