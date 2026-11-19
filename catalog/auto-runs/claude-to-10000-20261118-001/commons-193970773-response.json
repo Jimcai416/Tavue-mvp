@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBs4nopPpZTCTXLFRau3",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Two distinct spring rolls on pale ceramic plate\",\n    \"Rice paper wrapper with visible herbs and ingredients\",\n    \"Left roll shows orange/carrot filling and green herbs\",\n    \"Right roll shows reddish/meat filling with herbs\",\n    \"Natural, well-exposed lighting with appetising appearance\"\n  ],\n  \"phone_observations\": [\n    \"Both rolls clearly visible and identifiable in thumbnail\",\n    \"Colour variation between rolls preserved\",\n    \"Plate and plating recognisable\",\n    \"Scale and composition readable\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title lists two distinct dishes: 'Nem nuong cuon' (grilled pork spring roll) and 'chao tom cuon' (shrimp paste spring roll). The photograph shows two rolls but does not visually distinguish which is which.\",\n    \"Protein species cannot be determined from visual inspection alone. Left roll appears to contain carrot/orange vegetable and herbs; right roll appears to contain a reddish/pink protein, but species is not explicitly named in source or visually confirmed.\",\n    \"Source description mentions 'fried chive inside the roll' as hidden flavour—not visually provable.\",\n    \"Ambiguity over whether this is a single composite dish or two separate dishes plated together.\"\n  ],\n  \"reason\": \"Image quality, sharpness, lighting, and composition all meet standards. Phone thumbnail is clear and readable. However, the source metadata lists two distinct named dishes ('Nem nuong cuon' and 'chao tom cuon') but provides no explicit protein names (pork for nem nuong; shrimp for chao tom are traditional, not source-declared). The photograph does not visually disambiguate which roll is which, and no exact protein species are named in the supplied title or description. Without explicit source naming of proteins and clear identity confirmation, identity check cannot pass. Hold pending clarification or source-explicit protein identification.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1765,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 576,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

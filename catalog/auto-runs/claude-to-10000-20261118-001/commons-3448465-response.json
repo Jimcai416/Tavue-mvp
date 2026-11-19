@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBs5pcjbKqjxQjQ8hVFL",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Cooked tripe visible in pale, tender strips\",\n    \"Red diced vegetables (carrots or peppers) scattered throughout\",\n    \"Dark seasoning specks (pepper, spices)\",\n    \"Glossy oil/broth coating\",\n    \"Finished, exposed dish suitable for consumption\"\n  ],\n  \"phone_observations\": [\n    \"Tripe strips clearly visible at thumbnail resolution\",\n    \"Vegetable dice distinguishable\",\n    \"Overall composition readable and appetizing\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title 'Flaki' is a Polish tripe dish name, but metadata alone is untrusted instruction. The visible form strongly suggests tripe, but no explicit protein declaration appears in the description field.\",\n    \"Cannot definitively confirm species of protein from appearance alone without explicit source text.\",\n    \"Description field contains only the word 'Flaki' with no elaboration of ingredients or preparation.\"\n  ],\n  \"reason\": \"While the photograph is sharp, well-lit, appetizing and clearly shows a finished tripe-based dish with vegetables, the source description provides only the generic title 'Flaki' without explicit protein identification. No exact quote naming the meat species (e.g., 'beef tripe', 'pork tripe') appears in the supplied title or description field. Under strict protocol, protein_evidence cannot be populated without an explicit source quote naming the animal. The visual evidence strongly suggests tripe, but identity confirmation requires an explicit textual source declaration that is absent here.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1730,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 482,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
