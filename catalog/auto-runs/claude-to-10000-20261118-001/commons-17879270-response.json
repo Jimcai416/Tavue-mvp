@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBbaFqwhfQxihsLZutjF",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Cooked meat curry with visible onion pieces\",\n    \"Red chilli visible in dish\",\n    \"Brown spiced sauce\",\n    \"White plate with decorative rim\",\n    \"Glossy sauce coating suggesting braised preparation\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail shows brown curry dish clearly\",\n    \"White plate rim visible and readable\",\n    \"Dish components discernible at small scale\",\n    \"Colour and texture convey finished, cooked state\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title 'Dopiaza' (or 'Do Piaza') is a known curry style but source description does not explicitly name the meat species (chicken, lamb, beef, pork, duck or seafood)\",\n    \"Visible meat pieces are cooked and cannot be definitively identified to species from appearance alone\",\n    \"No protein species named in the supplied title or description\"\n  ],\n  \"reason\": \"The photograph is a finished, appetising curry dish with sharp detail, good lighting, and natural colour. Phone thumbnail is clear and readable. However, the identity check fails: the source title 'Dopiaza' names only the curry style, not the meat protein. The description provides no explicit statement of which animal protein is used (chicken/beef/pork/lamb/duck/seafood). Do Piaza is traditionally made with lamb or chicken, but tradition alone is not sufficient evidence per protocol. Without an exact source quote naming the protein species, identity cannot be confirmed and the dish cannot be assigned to a specific canonical name. Hold pending source clarification of meat type.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1719,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 500,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
