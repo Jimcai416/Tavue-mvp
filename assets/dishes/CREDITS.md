@@ -8487,3 +8487,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 - **Bánh bèo chén** — [Nguyen Thi Quynh Tram](https://www.blogger.com/profile/08726553116792073475). [CC BY 3.0](https://creativecommons.org/licenses/by/3.0); [source](https://commons.wikimedia.org/wiki/File:Banh_beo_3copy.jpg). Local asset: `reviewed-commons-163077758.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Tallarin al pesto con milanesa de pollo** — Jorge Armando Zuñiga Aguilar. [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:GOPR03_milanesa.jpg). Local asset: `reviewed-commons-93102730.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Hyderabadi Dum Biryani** — Greeshma856. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:HyderabadiDumBiryani.jpg). Local asset: `reviewed-commons-165753126.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Nawabi Chicken Dum Biryani** — Ravichouhan208. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Nawabi_Chicken_Dum_Biryani.jpg). Local asset: `reviewed-commons-40708678.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.

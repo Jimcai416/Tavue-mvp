@@ -112149,5 +112149,29 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 722,
     "height": 960,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-40708678",
+    "title": "File:Nawabi Chicken Dum Biryani.jpg",
+    "author": "Ravichouhan208",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nawabi_Chicken_Dum_Biryani.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/14/Nawabi_Chicken_Dum_Biryani.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "ecfd30a0d608147c6ad9716d5c8229d7b75dcf9b",
+    "name": "Nawabi Chicken Dum Biryani",
+    "aliases": [],
+    "proteins": [
+      "chicken"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-40708678.jpg",
+    "assetSha256": "25ac8a856e1a284ebaf9bce9876e6a5526ede77debe14930d63a1a24c7842326",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 641,
+    "requiresExactMenuName": true
   }
 ];
