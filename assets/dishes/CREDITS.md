@@ -6805,3 +6805,9 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 
 - **Tarator soup** — Kritzolina. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Bulgarian_dish_01.jpg). Local asset: `reviewed-commons-74985118.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Chicken Luwombo** — Ssemmanda will. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Chicken_Luwombo_prepared_in_Uganda.jpg). Local asset: `reviewed-commons-164140265.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Fava mit Kapern, Zwiebelringen und Krithama** — Waldviertler. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Fava_Schinoussa.jpg). Local asset: `reviewed-commons-81718047.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Kaçimak** — Tizilohja25. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Ka%C3%A7imak,_Kelmend,_Mal%C3%ABsi_e_Madhe,_Shqip%C3%ABri.jpg). Local asset: `reviewed-commons-147338962.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Chicken breast, roasted with garlic olive oil and black pepper, on fried rice and peas with soy sauce** — Daderot. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Chicken_breast,_roasted_with_garlic_olive_oil_and_black_pepper,_on_fried_rice_and_peas_with_soy_sauce_-_Massachusetts.jpg). Local asset: `reviewed-commons-130152531.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
