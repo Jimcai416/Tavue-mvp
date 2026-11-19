@@ -125965,5 +125965,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 814,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-37071333",
+    "title": "File:Wakye with shito and sliced vegetables.jpg",
+    "author": "DromoTetteh",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Wakye_with_shito_and_sliced_vegetables.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/34/Wakye_with_shito_and_sliced_vegetables.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "4383f23cb10e975b43a56fa88711b53d9a76defe",
+    "name": "Wakye with shito and sliced vegetables",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-37071333.jpg",
+    "assetSha256": "8df261cdef634a0c1c4f49e04a715fa5dfba79549d486131bcb5841eb1010476",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 640,
+    "requiresExactMenuName": true
   }
 ];
