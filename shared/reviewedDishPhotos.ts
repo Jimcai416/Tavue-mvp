@@ -86930,5 +86930,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "height": 720,
     "requiresExactMenuName": true,
     "authorUrl": "https://www.flickr.com/photos/ayustety/"
+  },
+  {
+    "id": "commons-88466078",
+    "title": "File:Szechuan Mapo doufu bowl of FamilyMart.jpg",
+    "author": "毒島みるく",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Szechuan_Mapo_doufu_bowl_of_FamilyMart.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Szechuan_Mapo_doufu_bowl_of_FamilyMart.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "53699938d5df67189c1cb352dd85c371009b5898",
+    "name": "Szechuan Mapo doufu bowl",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-88466078.jpg",
+    "assetSha256": "297f86f52df84c84aedb343d0a77b9fd5952fad4d7109121a5c1e74db029e28a",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 783,
+    "requiresExactMenuName": true
   }
 ];
