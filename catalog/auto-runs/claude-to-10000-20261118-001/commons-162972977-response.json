@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBVvZH4RAWBnC5T3KvZH",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Bowl of rice topped with cubed protein in brown sauce\",\n    \"Garnished with green onion and chilli\",\n    \"Accompanying miso soup in red bowl\",\n    \"Corn and vegetable side dish\",\n    \"Restaurant setting with receipt visible\"\n  ],\n  \"phone_observations\": [\n    \"Main bowl dish clearly visible in thumbnail\",\n    \"Protein and rice components readable\",\n    \"Side dishes visible but subordinate\",\n    \"Appetising presentation preserved\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'Mapo tofu Gyudon' but visible protein appears to be cubed meat (beef), not tofu\",\n    \"Mapo tofu is characteristically a soft tofu dish in spiced sauce; the firm, golden-brown cubes shown are inconsistent with tofu presentation and appearance\",\n    \"Source description contradicts visible form—no tofu texture or characteristic mapo tofu visual signature evident\",\n    \"Ambiguous whether this is actual mapo tofu gyudon or a meat gyudon mislabeled in source metadata\"\n  ],\n  \"reason\": \"Reject: source title–dish mismatch. The title claims 'Mapo tofu Gyudon,' but the photograph shows cubed protein that appears to be beef, not the soft, characteristic texture and appearance of mapo tofu. Mapo tofu is a distinctive sauce-based tofu dish; the firm, golden-brown cubes visible here are inconsistent with that form. This is a source contradiction that creates material uncertainty about the dish's true identity. Per rules, identity must agree with the exact source title and visible form; when these conflict and the visible form contradicts the named dish type, the entry must be held.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1764,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 535,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
