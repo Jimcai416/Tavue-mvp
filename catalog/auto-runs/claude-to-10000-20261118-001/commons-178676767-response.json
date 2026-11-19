@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBnp399SMNdzYcDz9ygR",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Two sandwich halves on white plate: one with yellow egg filling, one with red spread\",\n    \"Tomato and cheese garnish visible on separate white plate in background\",\n    \"Natural daylight, sharp detail of textures\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows two-toned sandwich halves\",\n    \"Yellow egg and red spread components prominent\",\n    \"Readable as finished dish in mobile view\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Sobrasada is a cured meat product from Spain (Balearic Islands), not an allowed category protein (chicken/beef/pork/duck/lamb/seafood). Source names 'sobrasada' but does not specify the underlying animal.\",\n    \"Tortilla francesa is egg-based, not a protein category in the allowed list.\"\n  ],\n  \"reason\": \"The source description identifies this as 'Bocadillo de tortilla francesa con sobrasada'. While the dish is photographed clearly and appetisingly, the protein evidence cannot be verified against allowed categories: sobrasada is a named cured meat product without explicit animal species declaration in the source, and tortilla francesa (Spanish omelette) is egg-based, which is not in the allowed protein categories (chicken/beef/pork/duck/lamb/seafood). The instructions require exact source-quoted animal names for each protein; sobrasada's underlying species is not explicitly named. Hold rule applies.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1763,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 467,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
