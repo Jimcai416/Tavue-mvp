@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCqzQQgy4tdJQTaoUCpF",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Golden-brown deep-fried pieces with crispy texture\",\n    \"Irregular, clustered nodular shapes consistent with fried organ meat\",\n    \"Multiple trays of finished, cooked food on display\",\n    \"Street food presentation in natural daylight\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows fried, golden-brown pieces\",\n    \"Subject prominent and well-defined in centre-cover framing\",\n    \"Adequate sharpness and colour saturation for recognition\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title states 'Fried Intestines' but provides alternative name 'Chicharon Bulaklak'. The description conflates two distinct dishes: chicharon bulaklak (deep-fried pork mesentery, literally 'flower chicharon') and fried intestines (chicharon bituka). These are different pork organ preparations. The 'flower-like shape' descriptor applies specifically to chicharon bulaklak, not general intestines.\",\n    \"No explicit statement that the protein is pork, though chicharon bulaklak is traditionally pork. Intestines origin species is not stated.\",\n    \"Source metadata contradiction: title vs. description variant names suggest ambiguous or conflated dish identity.\"\n  ],\n  \"reason\": \"Image quality, sharpness, lighting, composition and appeal all meet thresholds (scores ≥4). The photograph and phone thumbnail are both clear, natural, and show an appetizing finished fried dish prominently displayed. However, identity check fails due to source ambiguity. The title 'Fried Intestines' and description 'Chicharon Bulaklak' are conflated. Chicharon bulaklak and fried intestines (chicharon bituka) are distinct preparations of different pork organs with different traditional shapes and preparation methods. The description's reference to 'flower-like shape' specifically characterizes chicharon bulaklak, not generic fried intestines. No explicit source statement confirms the protein species (pork vs. other animal), and no exact canonical name can be extracted without resolving this contradiction. Hold pending source clarification of which specific dish this is.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1634,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 640,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

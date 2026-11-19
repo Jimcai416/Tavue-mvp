@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCqywnJz21beJBSAaEHu",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Ear-shaped filled dumplings clearly visible\",\n    \"Golden-brown cooked surface consistent with pierogi\",\n    \"Multiple specimens showing uniform preparation\",\n    \"Natural lighting, appetizing appearance\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows ear-shaped pierogi forms\",\n    \"Golden colour and cooked finish readable\",\n    \"Multiple dumplings visible and identifiable\",\n    \"Adequate detail for recognition\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title contains 'File:' prefix and filename extension (.JPG) which must be removed per canonical_name rules\",\n    \"Description states fillings 'm.in. grzybowym, mięsnym, lub innym' (mushroom, meat, or other) but does not specify which filling is present in THIS photograph\",\n    \"Meat filling is mentioned as one of three options (mushroom, meat, or other) but no specific animal protein is visually identifiable or explicitly named for this instance\",\n    \"Cannot determine actual filling contents from exterior appearance alone\"\n  ],\n  \"reason\": \"Source metadata contains filename and prefix that must be excluded from canonical_name. More critically, the description presents three optional fillings (mushroom, meat, or other) without specifying which filling(s) are in this particular dish. The meat option is unspecified as to animal species. While the photograph quality and composition are strong and the identity as uszka is visually supported, the ambiguous and conditional filling description ('m.in.' = 'including') prevents confirmation of exact composition. No explicit protein species quote can be extracted that definitively matches visible contents. Hold pending clarification of actual fillings in this specific photograph.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1479,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 523,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
