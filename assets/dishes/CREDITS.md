@@ -10186,3 +10186,8 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 
 - **Chocolate ganache tart** — stu_spivack. [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:Chocolate_ganache_tart.jpg). Local asset: `reviewed-commons-160699838.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Genoise and Chantilly** — [Roxanna Salceda](https://www.flickr.com/people/9633002@N05). [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:Genoise_and_Chantilly_01.jpg). Local asset: `reviewed-commons-10253431.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Gâteau Génoise Chocolat** — [Matthieu Blanco](https://500px.com/matthieublanco). [CC BY 3.0](https://creativecommons.org/licenses/by/3.0); [source](https://commons.wikimedia.org/wiki/File:G%C3%A2teau_G%C3%A9noise_Chocolat_(31315343).jpeg). Local asset: `reviewed-commons-71315637.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Ganache au piment d'Espelette** — Marianne Casamance. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Ganache_au_piment_d%27Espelette.JPG). Local asset: `reviewed-commons-48380695.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
