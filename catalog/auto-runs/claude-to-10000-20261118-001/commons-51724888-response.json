@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBWP7QZMdmB2P6r8mHnz",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": \"Green Curry @ Siam House @ Montparnasse @ Paris\",\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Pale green coconut-cream sauce visible across plate\",\n    \"Chicken pieces recognizable in curry\",\n    \"Red chilli strip garnish on top\",\n    \"Long beans (yard-long beans) visible\",\n    \"Orange carrot pieces\",\n    \"Fresh green basil leaves\",\n    \"Rice bowl in background\",\n    \"Plated, finished dish in formal dining setting\"\n  ],\n  \"phone_observations\": [\n    \"Cream-coloured plate clearly visible at centre\",\n    \"Green sauce with protein pieces readable\",\n    \"Red chilli garnish distinguishable\",\n    \"Vegetable mix visible but small\",\n    \"Adequate detail for identity confirmation\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Protein species not explicitly named in source title/description—visual appearance suggests chicken but source provides no direct quote confirming animal type\",\n    \"Source metadata format (filename, location tags) does not constitute canonical title/description suitable for exact quotation of dish name with protein qualifier\"\n  ],\n  \"reason\": \"Image quality, sharpness, lighting, composition and appeal are all strong (scores ≥4). Dish is a finished, exposed, naturally coloured green curry with prominent ingredients readable in both full image and phone thumbnail. However, the source title contains no explicit protein declaration (e.g., 'Chicken Green Curry'). The description 'Green Curry @ Siam House...' names location and venue but not the protein species. Per rules, protein evidence requires an exact source quote explicitly naming the animal. Visual appearance alone cannot infer species. Without a source-declared protein qualifier in the title/description, the canonical_name cannot be completed with certainty, triggering a hold. Accept only if source is revised to include explicit protein naming (e.g., 'Chicken Green Curry') or if original authoritative dish name with protein is provided.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1533,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 577,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

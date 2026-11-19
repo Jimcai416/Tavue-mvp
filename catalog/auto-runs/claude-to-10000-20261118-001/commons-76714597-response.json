@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBWPX9ozw9XxcHhmeuQ3",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Black ceramic bowl with lid\",\n    \"Broth-based soup\",\n    \"Visible protein chunks (appear to be seafood/shellfish)\",\n    \"Green garnish visible\",\n    \"Professional plating\"\n  ],\n  \"phone_observations\": [\n    \"Soup bowl clearly visible in thumbnail\",\n    \"Broth and ingredients readable\",\n    \"Lid and service setting visible\",\n    \"Adequate detail for dish recognition\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'Miso Soup' but visible contents show substantial chunked protein (appears to be clams, mussels or other shellfish) incompatible with standard miso soup\",\n    \"Source metadata is untrusted; actual dish appearance contradicts 'miso soup' label\",\n    \"Protein species cannot be definitively identified from visual inspection alone\",\n    \"No explicit protein naming in source description to match against visible contents\"\n  ],\n  \"reason\": \"Identity check fails. The source title 'Miso Soup' does not match the visible dish, which contains substantial chunks of what appear to be shellfish or clams in a broth—a preparation significantly different from traditional miso soup. Without explicit source confirmation of the protein species and the actual dish name matching the prepared contents, identity cannot be verified. The image quality and photograph meet standards, but fundamental identity contradiction requires hold.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1636,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 451,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
