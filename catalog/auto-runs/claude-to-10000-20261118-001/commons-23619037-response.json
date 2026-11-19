@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBUUg2GVc8vxe9tCjZoV",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Red enamel fondue pot with melted cheese visible\",\n    \"Bread cubes on white plate for dipping\",\n    \"Fresh greens in white bowl\",\n    \"Fondue setup with burner stand\",\n    \"Natural daylight, warm tones\"\n  ],\n  \"phone_observations\": [\n    \"Fondue pot with melted cheese clearly visible\",\n    \"Bread pieces recognizable\",\n    \"Dish identity legible in thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'Fondue jurassienne aux morilles' (with morels) but morels are not visibly identifiable in either photograph; they may be hidden in the cheese or absent\",\n    \"Description states 'Fondue jurassienne au comté et aux morilles' — morels are a hidden or unverified ingredient not supported by visual evidence\",\n    \"Source metadata shows File: prefix and filename extension, requiring extraction of canonical name from description field only\"\n  ],\n  \"reason\": \"Photograph shows a well-composed, sharp fondue setup with appetising appearance and readable components in both full and phone thumbnails. However, the source title claims morels (aux morilles) as a key ingredient, which cannot be visually verified. Per protocol, hidden flavours must be source-declared (✓) but this creates uncertainty: morels may be incorporated into the melted cheese, omitted, or misattributed. The essential dish identity (Fondue jurassienne au comté) is clear, but the promised morel variant cannot be confirmed visually. Hold pending clarification of whether morels are actually present in the dish or whether the title is inaccurate.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1735,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 519,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
