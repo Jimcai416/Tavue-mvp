@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChC327NqhWjMT2LXpZTvw",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Raw seafood (shrimp/prawns) visible in centre of white plate\",\n    \"Red sauce/liquid base consistent with aguachile\",\n    \"Green herb garnish (cilantro or similar) on top\",\n    \"Fine dining plating on white plate with negative space\",\n    \"Professional restaurant setting\"\n  ],\n  \"phone_observations\": [\n    \"Dish centre clearly visible in thumbnail\",\n    \"Red sauce and seafood component readable\",\n    \"White plate provides contrast\",\n    \"Overall composition maintains recognisability at reduced size\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Seafood species not explicitly named in source description ('Contemporary Aguachile' provides no animal qualifier)\",\n    \"Source title uses 'File:' prefix and date format which must be stripped; core dish name is ambiguous between 'Aguachile' and 'Contemporary Aguachile'\",\n    \"Visual identification of shrimp/prawn is not authorised without explicit source statement of species\"\n  ],\n  \"reason\": \"Source description 'Contemporary Aguachile' does not explicitly name the seafood species. While the visual appearance strongly suggests shrimp or prawn, protein evidence requires an exact case-sensitive substring from the source title or description naming the animal. 'Seafood' or 'fish' alone is insufficient. The metadata format (File: prefix, date, photographer, license) must be excluded from canonical_name, leaving only 'Contemporary Aguachile', which lacks the required protein qualifier. Hold pending clarification of seafood species in source documentation.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1550,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 495,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
