@@ -132581,5 +132581,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 637,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-129641520",
+    "title": "File:Bazeen Sfax.jpg",
+    "author": "MedaliKaouaja",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bazeen_Sfax.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Bazeen_Sfax.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "3dca4268a84a453f7be9c11d957b6d85ecdd0162",
+    "name": "Bazeen Sfax",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-129641520.jpg",
+    "assetSha256": "9a14c85e1316c9906a1fdcf4f40290646657c1e76e23445fbc4a3de6d07adba7",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 640,
+    "requiresExactMenuName": true
   }
 ];
