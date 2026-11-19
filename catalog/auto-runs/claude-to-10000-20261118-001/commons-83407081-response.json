@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCURccogSP1RKby33NoX",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Pizza base with charred crust\",\n    \"White cheese (likely mozzarella)\",\n    \"Diced red tomato\",\n    \"Diced white onion\",\n    \"Brown crumbled meat topping\",\n    \"Browned/caramelized surface\"\n  ],\n  \"phone_observations\": [\n    \"Pizza slice clearly visible in thumbnail\",\n    \"Toppings readable: meat, cheese, tomato, onion\",\n    \"Adequate sharpness and colour saturation\",\n    \"Natural appetising appearance\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'donair pizza' but provides only a generic description mentioning donair meat and pineapple comparison. No explicit source title or canonical dish name provided in metadata—only a filename and author attribution.\",\n    \"Donair meat species is unspecified in the source description. Donair traditionally refers to a prepared meat product (Turkish döner origin) but the exact animal species is not declared in the supplied text.\",\n    \"Description is commentary ('Funny thing about donair pizza is that since donair meat is sweet, it's a bit like pineapple') rather than a formal dish identifier.\",\n    \"No authoritative canonical dish phrase matching the exact source title/description requirement.\"\n  ],\n  \"reason\": \"Hold: While the photograph is sharp, well-lit, properly composed and appetising, with clear identity as a finished pizza and excellent phone thumbnail readability, the source metadata does not provide a canonical dish name. The filename 'Donair Pizza (46965762405).jpg' is not a suitable source title (contains file reference). The description is commentary, not a formal identification. Most critically, 'donair meat' is a prepared product whose base animal species is not explicitly declared in any supplied text, violating the protein evidence requirement. A source-explicit canonical name and species declaration are required before acceptance.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1745,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 566,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
