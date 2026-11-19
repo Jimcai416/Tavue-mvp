@@ -8838,3 +8838,10 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Sourdough Bread Bowl + Clam Chowder Soup** — [Prayitno / Thank you for (12 millions +) view  from Los Angeles, USA](https://www.flickr.com/people/34128007@N04). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Sourdough_Bread_Bowl_%2B_Clam_Chowder_Soup_(5838235665).jpg). Local asset: `reviewed-commons-75421293.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Hasselback potatoes** — Aurus Sy. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Hasselback_Potatoes.jpg). Local asset: `reviewed-commons-55891248.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Chocolate haupia pie** — Arnold Gatilao. [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Chocolate_Haupia_Pie.jpg). Local asset: `reviewed-commons-153735335.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Mountain herb dumplings on braised tomatoes** — Benreis. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Bergkr%C3%A4uterkn%C3%B6del_geschmorte_Tomaten.jpg). Local asset: `reviewed-commons-93998295.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Garlic and herb bread** — [Kham Tran  -  www.khamtran.com](http://www.khamtran.com/). [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Garlic-Herb-Bread-2010.jpg). Local asset: `reviewed-commons-12066021.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
