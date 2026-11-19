@@ -169,7 +169,8 @@ class CampaignTests(unittest.TestCase):
 
     def test_campaign_config_rejects_budget_increase_and_implicit_old_cost(self):
         c.validate_config(self.config)
-        for change in ({'budgetUSD': 101}, {'priorRunIds': []}, {'priorRunIds': ['prior', 'prior']}, {'priorRunIds': [{}]}, {'targetPhotos': 9999}):
+        c.validate_config({**self.config, 'budgetUSD': 300})
+        for change in ({'budgetUSD': 301}, {'priorRunIds': []}, {'priorRunIds': ['prior', 'prior']}, {'priorRunIds': [{}]}, {'targetPhotos': 9999}):
             with self.assertRaises(ValueError): c.validate_config({**self.config, **change})
 
     def test_new_policy_preserves_reviewed_bytes_and_real_phone_thumbnail(self):

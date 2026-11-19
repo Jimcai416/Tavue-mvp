@@ -490,7 +490,7 @@ def validate_config(config):
         raise ValueError('Unexpected continuous campaign identity/policy/model')
     if config.get('continuousDiscovery') is not True or config.get('compressedState') is not True or config.get('reviewVersion') != REVIEW_VERSION:
         raise ValueError('Continuous campaign storage/review configuration missing')
-    if not 0 < config['budgetUSD'] <= 100 or config.get('targetPhotos') != 10000 or not 1 <= config['concurrency'] <= 6:
+    if not 0 < config['budgetUSD'] <= 300 or config.get('targetPhotos') != 10000 or not 1 <= config['concurrency'] <= 6:
         raise ValueError('Authorized total budget/target/concurrency exceeded')
     if not 1 <= config['maxQueries'] <= 180 or not 1 <= config['resultsPerQuery'] <= 50 or not 1 <= config['maxCandidates'] <= 100000 or not 1 <= config['maxRounds'] <= 200 or not 1 <= config['maxEmptyRounds'] <= 3 or not 60 <= config['seconds'] <= 17400:
         raise ValueError('Campaign discovery/runtime bounds exceeded')
