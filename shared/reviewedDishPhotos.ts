@@ -132715,5 +132715,29 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 960,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-3136503",
+    "title": "File:Banh goi 01.JPG",
+    "author": "Binh Giang",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Banh_goi_01.JPG",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/99/Banh_goi_01.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "5ea8058d2b32f22962513585f4dee3c612aa13f8",
+    "name": "Bánh gối",
+    "aliases": [],
+    "proteins": [
+      "pork"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-3136503.jpg",
+    "assetSha256": "198db9105b14b8d88b5abed3233759bb7b845a1702b878aecf837ba8f94efa05",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 723,
+    "requiresExactMenuName": true
   }
 ];
