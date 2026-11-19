@@ -8525,3 +8525,11 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Canh Nghêu nấu rau muống** — Lê Huỳnh Bộ. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Canh_Ngh%C3%AAu_n%E1%BA%A5u_rau_mu%E1%BB%91ng.jpg). Local asset: `reviewed-commons-165430823.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Polish pierogi and sorrel soup** — MOs810. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Pierogi_and_sorrel_soup.jpg). Local asset: `reviewed-commons-18106230.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Khubz** — Gaurav Dhwaj Khadka. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Khubz.jpg). Local asset: `reviewed-commons-142446970.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Sorrel soup with egg** — Michał Sulik. [CC BY 3.0](https://creativecommons.org/licenses/by/3.0); [source](https://commons.wikimedia.org/wiki/File:Sorrel_soup_with_egg_(Zupa_szczawiowa_z_jajkiem).jpg). Local asset: `reviewed-commons-5767668.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Sorrel soup with egg and croutons** — Michał Sulik. [CC BY 3.0](https://creativecommons.org/licenses/by/3.0); [source](https://commons.wikimedia.org/wiki/File:Sorrel_soup_with_egg_and_croutons_(Zupa_szczawiowa_z_jajkiem_i_grzankami).jpg). Local asset: `reviewed-commons-5769547.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Polish sorrel soup with egg, fried bacon and cream** — Mariusz Zuberski. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Zupa_szczawiowa_(sorrel_soup).jpg). Local asset: `reviewed-commons-51286370.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
