@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBzupg7DGXkYjg7dTVXs",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": true,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 3,\n    \"composition\": 2,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Subject too distant and small in thumbnail\",\n    \"Food detail not legible in 124x96 centre-cover\",\n    \"Street vendor preparation scene dominates; finished dish not prominent\",\n    \"Actual dish components unreadable at phone resolution\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title claims 'Balık Dürüm' but image shows active preparation/cooking stage, not a finished, exposed dish\",\n    \"Essential food components (wrap, fish filling) are not sharply detailed or prominently visible in either full or phone image\",\n    \"Dish identity cannot be visually verified from the photograph—preparation equipment and vendor activity obscure the finished product\"\n  ],\n  \"reason\": \"Reject: This is a preparation-stage street food photograph, not a finished, exposed dish image. The subject is too small and distant in both full and phone views; essential dish components are not legible in the thumbnail and lack sharp detail in the full frame. The scene prioritizes vendor activity and cooking equipment over a clear, appetising presentation of the completed food. Identity cannot be visually verified.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1750,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 394,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
