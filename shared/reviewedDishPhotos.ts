@@ -133390,5 +133390,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-162864337",
+    "title": "File:Sou beurek - la cuisine arménienne de Pierrette.jpg",
+    "author": "TDP34",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sou_beurek_-_la_cuisine_arm%C3%A9nienne_de_Pierrette.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Sou_beurek_-_la_cuisine_arm%C3%A9nienne_de_Pierrette.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "8fe5eeaad905961e0becab375f7616f831c1c1e0",
+    "name": "Su borek",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-162864337.jpg",
+    "assetSha256": "43409fa78ac4fb6ed0870fd815dfb0d435b0a4c32f7c9315f3b85a05d747c182",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 902,
+    "height": 960,
+    "requiresExactMenuName": true
   }
 ];

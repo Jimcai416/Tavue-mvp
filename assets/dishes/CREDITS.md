@@ -10405,3 +10405,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 
 - **Ayam Geprek** — Irhanz. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Ayam_geprek.jpg). Local asset: `reviewed-commons-99378586.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Ayam geprek pedas** — Wiwik P. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Ayam_geprek_pedas.jpg). Local asset: `reviewed-commons-95449246.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Su borek** — TDP34. [CC BY 4.0](https://creativecommons.org/licenses/by/4.0); [source](https://commons.wikimedia.org/wiki/File:Sou_beurek_-_la_cuisine_arm%C3%A9nienne_de_Pierrette.jpg). Local asset: `reviewed-commons-162864337.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
