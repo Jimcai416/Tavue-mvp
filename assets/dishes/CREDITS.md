@@ -7914,3 +7914,10 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Ghee Roast from Kerala** — Ganesh Mohan T. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Ghee_Roast_01.jpg). Local asset: `reviewed-commons-142351850.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Ghee Roast Dosa** — Soooji. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Ghee_Roast_Dosa.jpg). Local asset: `reviewed-commons-40836663.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Bubur Ayam (chicken rice congee)** — Gunawan Kartapranata. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Bubur_Ayam_Savoy_Homann_Hotel_Bandung.JPG). Local asset: `reviewed-commons-19776374.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Bubur ayam (chicken congee) Sukabumi style** — Afrogindahood. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Bubur_Ayam_Sukabumi.jpg). Local asset: `reviewed-commons-101425857.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Ghee roast** — Thamizhpparithi Maari. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Ghee_roast.jpg). Local asset: `reviewed-commons-40619585.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
