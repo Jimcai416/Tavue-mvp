@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCTVGAEVYMtSVggtVtui",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [\n    \"Soup/stew in white bowl with visible meat pieces\",\n    \"Broth-based preparation with tan/brown liquid\",\n    \"Raw or early-stage cooking evident from meat appearance\",\n    \"Preparation-stage dish, not finished plated service\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail shows soup bowl from above\",\n    \"Meat pieces visible but undercooked or at preparation stage\",\n    \"Broth-heavy presentation\",\n    \"Not a finished, exposed, appetising dish suitable for food review\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'Fufu and light soup' but image shows only soup/stew with meat – no fufu (pounded starch) visible\",\n    \"Meat species cannot be reliably identified from appearance alone\",\n    \"Dish appears to be at preparation or cooking stage, not finished service\",\n    \"Source description is incomplete ('This is an image of food from' – truncated, no dish name provided)\"\n  ],\n  \"reason\": \"Reject: Identity mismatch (title references fufu which is not visible), and the photograph captures a dish at preparation/cooking stage rather than a finished, exposed, plated food item ready for service. The meat is not cooked to finished appearance, and no fufu component is evident despite being named in the title. Source description is also truncated and uninformative. Does not meet standard for finished, appetising food photography suitable for review intake.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1725,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 472,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
