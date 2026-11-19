@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCWGYm6v55VEwaRWSrsg",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 3,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Phone thumbnail shows dried green ingredient in bowl at street market\",\n    \"Ingredient is granular, uncooked, in bulk storage containers\",\n    \"No finished dish visible in thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source metadata states 'Gombo séché' (dried okra) but provides no dish name or finished food description\",\n    \"Image shows raw ingredient in preparation/storage stage, not a finished dish\",\n    \"Title contains only filename and metadata, no canonical dish identity\"\n  ],\n  \"reason\": \"Rejection: Image depicts dried okra or similar vegetable ingredient in bulk storage at a market stall, not a finished, cooked, or prepared dish. The subject is a raw ingredient in the preparation stage. While the photograph itself is sharp and naturally lit, it fails the core requirement of showing 'a finished, exposed, likely photographic dish.' The source metadata provides no dish name, only a filename reference ('Gombo séché 09.jpg'), leaving identity unverifiable. The phone thumbnail confirms this is ingredient-stage content, not a plated or served food item suitable for Tavue's food review standard.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1736,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 403,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
