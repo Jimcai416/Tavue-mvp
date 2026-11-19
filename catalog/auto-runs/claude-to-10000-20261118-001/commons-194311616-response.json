@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBQNLMweNVv3x4iuerq8",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Raw/cured fish visible (red sliced pieces consistent with tiradito)\",\n    \"Creamy yellow base component\",\n    \"Crispy brown topping\",\n    \"Artful plating in dark textured bowl\",\n    \"Fine dining presentation\"\n  ],\n  \"phone_observations\": [\n    \"Dish clearly visible and identifiable in thumbnail\",\n    \"Bowl shape and plating style preserved\",\n    \"Essential components (fish, base, topping) readable\",\n    \"No clipping of critical elements\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title states 'nikkei interpretation of tiradito' but does not explicitly name the protein species (fish type unknown)\",\n    \"Source describes it as a 'nikkei interpretation' rather than a standard tiradito, introducing ambiguity about the exact dish identity and whether regional variant qualifiers are properly preserved\",\n    \"The creamy component and crispy topping are visible but their composition is not declared in source metadata\",\n    \"No explicit confirmation of which fish species is used (tiradito traditionally uses raw fish, but species not stated)\"\n  ],\n  \"reason\": \"While the photograph is sharp, well-lit, compositionally sound, and appetising, the source description does not explicitly name the fish protein species. The title describes this as a 'nikkei interpretation' of tiradito, which introduces ambiguity about whether this is a named variant or a creative reinterpretation. The canonical name cannot be reliably extracted without an explicit species declaration. Per protocol, unknown or unspecified protein species (including fish type) requires hold pending clarification.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1523,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 505,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

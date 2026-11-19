@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBQMUcWFjV1LgiLZvMkn",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 5,\n    \"appeal\": 5\n  },\n  \"visible_support\": [\n    \"Raw sliced seafood on wooden board\",\n    \"Yellow citrus (likely lemon or lime) wedges\",\n    \"White translucent fish slices\",\n    \"Orange/red seafood (likely shrimp/prawn)\",\n    \"Green herb garnish (cilantro)\",\n    \"Marinated/cured appearance consistent with tiradito\"\n  ],\n  \"phone_observations\": [\n    \"Wooden board clearly visible\",\n    \"Multiple seafood components identifiable\",\n    \"Yellow citrus elements prominent\",\n    \"White fish and orange shrimp distinct\",\n    \"Appetising presentation intact in thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title 'Tiradito' is singular; photograph shows 'Dos tiraditos' (two tiraditos) but source description does not explicitly confirm 'dos/two'\",\n    \"Specific seafood species (fish type, shrimp/prawn distinction) not named in source metadata\",\n    \"Exact preparation variant and regional origin unclear from minimal source description\"\n  ],\n  \"reason\": \"Identity mismatch: source file title is 'Dos tiraditos.jpg' but description provided is only 'Tiradito' (singular). The photograph clearly depicts two distinct tiradito preparations ('dos tiraditos'), but source metadata does not explicitly confirm the plural form or specific variant details. Per protocol, source contradictions and ambiguous identity require hold. Protein species are visually identifiable (fish, prawns) but source description does not explicitly name them, so protein_evidence remains empty. All quality, sharpness, lighting and composition checks pass with high scores; image is sharp, well-lit, appetising and clearly shows finished, exposed seafood dish. Phone thumbnail adequately represents the dish. However, the identity uncertainty between singular and plural forms and lack of explicit species naming in source text prevents acceptance.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1540,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 566,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
