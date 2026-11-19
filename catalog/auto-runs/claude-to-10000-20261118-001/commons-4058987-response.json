@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChByZu7LFH5LCePhEAo2S",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Yellow plate with cooked dish\",\n    \"Scrambled egg-like preparation in foreground\",\n    \"Shredded vegetable slaw in background\",\n    \"Red tomato slices as garnish\",\n    \"Natural daylight, restaurant setting\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows yellow plate\",\n    \"Main component (ackee preparation) visible and prominent\",\n    \"Slaw and tomato garnish readable\",\n    \"No clipping of essential food\",\n    \"Adequate detail for dish identification\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'ackee and saltfish' but no visible saltfish protein is identifiable in either full image or thumbnail\",\n    \"Source description does not explicitly name saltfish as a visible component\",\n    \"Only the ackee fruit preparation is visually confirmed; saltfish (if present) is not distinctly visible or cannot be confirmed as a separate ingredient\"\n  ],\n  \"reason\": \"The source title claims 'ackee and saltfish' as the Jamaican national dish, but saltfish (a protein) is not visibly identifiable in the photograph or thumbnail. The rule requires that proteins be supported by an exact source quote explicitly naming each animal, and that visible form must agree with the title/description. The photograph shows ackee and coleslaw with tomato garnish, but the saltfish component—a defining element of the authentic dish—cannot be visually confirmed. This creates a source-identity mismatch. The image quality, sharpness, lighting, and composition are all acceptable, but the absence of verifiable protein evidence matching the title requires a hold on identity grounds.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1762,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 518,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
