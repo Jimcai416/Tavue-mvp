@@ -111331,5 +111331,52 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-23106986",
+    "title": "File:Hot dogs with relish and mustard.jpg",
+    "author": "jeffreyw",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hot_dogs_with_relish_and_mustard.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/29/Hot_dogs_with_relish_and_mustard.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "aa6141cc7d75c9ee74c556eadf13a532bc31187b",
+    "name": "Hot dogs with relish and mustard",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-23106986.jpg",
+    "assetSha256": "548ad071c8454f317f972866de35ccdc4534e7799f7e15ff0e06153329c107ca",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 638,
+    "requiresExactMenuName": true,
+    "authorUrl": "https://www.flickr.com/people/7927684@N03"
+  },
+  {
+    "id": "commons-40709140",
+    "title": "File:Nshima and Beef Relish from Proteas Hotel, Chingola, Zambia.jpg",
+    "author": "Kiranrad",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nshima_and_Beef_Relish_from_Proteas_Hotel,_Chingola,_Zambia.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Nshima_and_Beef_Relish_from_Proteas_Hotel%2C_Chingola%2C_Zambia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "aa7ce3a01abb0eca2e0916e43842cbeba9ff7c96",
+    "name": "Nshima and Beef Relish",
+    "aliases": [],
+    "proteins": [
+      "beef"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-40709140.jpg",
+    "assetSha256": "b288beaa218a37427e7812a519ff0072ee0641927081e2364f4d4b7c1d396c23",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 640,
+    "requiresExactMenuName": true
   }
 ];
