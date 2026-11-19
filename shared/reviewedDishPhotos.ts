@@ -86266,5 +86266,28 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "height": 540,
     "requiresExactMenuName": true,
     "authorUrl": "https://www.flickr.com/people/30486689@N08"
+  },
+  {
+    "id": "commons-26341752",
+    "title": "File:Mantu in a steamer.jpg",
+    "author": "Spc. Amber Leach",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mantu_in_a_steamer.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/57/Mantu_in_a_steamer.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "f16ff95799a2201ce492d01d76199a460c372c70",
+    "name": "Mantu in a steamer",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-26341752.jpg",
+    "assetSha256": "5d8268ad27f0521ae3910fb1ace81c3356d8fd9f9d71d8c71402e38fd0a2ad97",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 640,
+    "requiresExactMenuName": true,
+    "authorUrl": "http://www.dvidshub.net/portfolio/1131231/amber-leach"
   }
 ];
