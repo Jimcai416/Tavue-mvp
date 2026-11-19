@@ -7527,3 +7527,9 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 
 - **pastillas de leche** — [Yvette Tan](https://www.flickr.com/photos/glossmania/page55). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Cagayan_-_Milk_Candy_-_pastillas_de_leche.jpg). Local asset: `reviewed-commons-75245993.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Ginataang kalabasa, patatas at kamote** — Judgefloro. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:8638Home_cooking_of_ginataang_kalabasa,_patatas_at_kamote_01.jpg). Local asset: `reviewed-commons-88820605.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Pork tocino with eggs, rice, and atchara** — Obsidian Soul. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Pork_tocino_with_eggs,_rice,_and_atchara_(typical_Filipino_breakfast).jpg). Local asset: `reviewed-commons-56265792.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Bagnet from Ilocos Norte** — Lady01v. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Bagnet_from_Ilocos_Norte.jpg). Local asset: `reviewed-commons-156201111.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Tocino de cielo casero** — Venta Aurelio. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Tocino-de-cielo-casero-restaurante-chipiona-venta-aurelio.JPG). Local asset: `reviewed-commons-20624645.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
