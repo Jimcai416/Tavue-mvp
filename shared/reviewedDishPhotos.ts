@@ -116111,5 +116111,51 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 869,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-76252452",
+    "title": "File:Acme Oyster House French Quarter New Orleans March 2010 05.jpg",
+    "author": "Alvin Wong",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Acme_Oyster_House_French_Quarter_New_Orleans_March_2010_05.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Acme_Oyster_House_French_Quarter_New_Orleans_March_2010_05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "9dab825fd6c3e32f21de3beca75accdd9cd787b6",
+    "name": "shrimp Étouffée",
+    "aliases": [],
+    "proteins": [
+      "seafood"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-76252452.jpg",
+    "assetSha256": "b537eb5d206e7460731a032c7c3622d8e79db0e66240abe1d70eeab8dc3c68b2",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-97506282",
+    "title": "File:Stovies2.jpg",
+    "author": "AmadeusShiftwood",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Stovies2.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/43/Stovies2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "0b02d26381a20a7f0c5320615b5849ab8e3293f4",
+    "name": "Home stovies, cooked with optional peas",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-97506282.jpg",
+    "assetSha256": "3a38d3aed4f2e92788a2e1fdd95f3e39fb8f63904e5951dec6ae98398a9ad2b9",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 718,
+    "requiresExactMenuName": true
   }
 ];

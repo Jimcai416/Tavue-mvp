@@ -8823,3 +8823,8 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Michirones** — Avicentegil. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Michirones.JPG). Local asset: `reviewed-commons-6603288.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **shrimp Étouffée** — Alvin Wong. [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Acme_Oyster_House_French_Quarter_New_Orleans_March_2010_05.jpg). Local asset: `reviewed-commons-76252452.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Home stovies, cooked with optional peas** — AmadeusShiftwood. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Stovies2.jpg). Local asset: `reviewed-commons-97506282.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
