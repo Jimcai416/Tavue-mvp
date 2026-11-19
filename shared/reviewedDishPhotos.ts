@@ -103698,5 +103698,101 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-5639683",
+    "title": "File:2009-01-04 PORK PIE 1.JPG",
+    "author": "john",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:2009-01-04_PORK_PIE_1.JPG",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b1/2009-01-04_PORK_PIE_1.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "d6fb7e8bee2029649badf80e937f581fb9321e37",
+    "name": "Homemade traditional English pork pie",
+    "aliases": [],
+    "proteins": [
+      "pork"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-5639683.jpg",
+    "assetSha256": "d48cab4ea736faf8063a57202043fe8edd034c9447bbb7703de71af4dcb62d68",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 807,
+    "height": 622,
+    "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-155994970",
+    "title": "File:Large British Pork Pie (cropped).jpg",
+    "author": "TudorTulok",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Large_British_Pork_Pie_(cropped).jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Large_British_Pork_Pie_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "51fdfc88a92c5f6ba954cb3e712fe17c0c594627",
+    "name": "Large British Pork Pie",
+    "aliases": [],
+    "proteins": [
+      "pork"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-155994970.jpg",
+    "assetSha256": "2ce31e1db42c36eeb8332ab9b21197d8770b9e6232edb12f84a63a45c9a09109",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 880,
+    "height": 960,
+    "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-91343386",
+    "title": "File:Large pork pie cut in half on a cutting bord made of wood.jpg",
+    "author": "TudorTulok",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Large_pork_pie_cut_in_half_on_a_cutting_bord_made_of_wood.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Large_pork_pie_cut_in_half_on_a_cutting_bord_made_of_wood.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "228e1afe1a29ba75136b861ff0f956cfa1d14581",
+    "name": "Large pork pie cut in half",
+    "aliases": [],
+    "proteins": [
+      "pork"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-91343386.jpg",
+    "assetSha256": "78ae46814156017680446573a5d83f801897df2b747d650ade6ec0569878f480",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-5957216",
+    "title": "File:Pork pie.jpg",
+    "author": "Richard W.M. Jones  at  English Wikipedia",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pork_pie.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Pork_pie.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "da81319923545181de09471e05c43880817f1f5c",
+    "name": "Pork pie",
+    "aliases": [],
+    "proteins": [
+      "pork"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-5957216.jpg",
+    "assetSha256": "ff38777ba5e0a2c924db2d8e34a54770237bcc853ec9ec6eeac962f38b9e9a7e",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 768,
+    "height": 949,
+    "requiresExactMenuName": true
   }
 ];
