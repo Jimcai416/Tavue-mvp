@@ -8910,3 +8910,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 - **Dahi Vada (Dahi Bhalla)** — BhargavVora. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Dahi_Vada_(Dahi_Bhalla).jpg). Local asset: `reviewed-commons-40961843.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Dahi Vada Bihari Style** — PaletteOfZaaiqa. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Dahi_Vada_Bihari_Style.jpg). Local asset: `reviewed-commons-102284382.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Dahi vada with chili powder, chaat masala, and coriander leaves** — Dforest  at  English Wikipedia. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Dahi_vada.jpg). Local asset: `reviewed-commons-3574369.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Methi ki bhaakri aur sengdane ki chutney** — Rahul Patil. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Methi_ki_bhaakri_aur_sengdane_ki_chutney.JPG). Local asset: `reviewed-commons-40872917.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.

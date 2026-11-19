@@ -117067,5 +117067,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 875,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-40872917",
+    "title": "File:Methi ki bhaakri aur sengdane ki chutney.JPG",
+    "author": "Rahul Patil",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Methi_ki_bhaakri_aur_sengdane_ki_chutney.JPG",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Methi_ki_bhaakri_aur_sengdane_ki_chutney.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "1f4feda2ef8a4018f7d5b389d0cf202068184b44",
+    "name": "Methi ki bhaakri aur sengdane ki chutney",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-40872917.jpg",
+    "assetSha256": "c4125dae6a27e10e960dd9ccc72ce9a6ecb5f1fa3620d624193574579d3db3c1",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 640,
+    "requiresExactMenuName": true
   }
 ];
