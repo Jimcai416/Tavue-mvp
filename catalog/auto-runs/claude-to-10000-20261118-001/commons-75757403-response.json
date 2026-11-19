@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCYMChjLzvnj7jYSe5nx",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Street food vendor context visible\",\n    \"Finished cooked roasted meat product clearly displayed\",\n    \"Potatoes and salad garnish visible\",\n    \"Sandwich/serving preparation in progress\"\n  ],\n  \"phone_observations\": [\n    \"Roasted meat product prominent in thumbnail\",\n    \"Potatoes and green garnish readable\",\n    \"Subject well-framed and not clipped\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Butifarra is a sausage product of unspecified animal species\",\n    \"Source title names 'butifarra sandwich' but no explicit animal species declaration in title or description\",\n    \"Sausage category cannot be used as a protein key per protocol\"\n  ],\n  \"reason\": \"Source describes a butifarra sandwich. Butifarra is a sausage of unknown species composition—the source provides no explicit declaration of which animal (pork, beef, etc.) it contains. Per protocol, sausage cannot be used as a protein key, and unknown meat species requires holding. The image quality and photograph standards are met, but the protein identity cannot be established from the source title/description with sufficient specificity.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1612,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 406,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
