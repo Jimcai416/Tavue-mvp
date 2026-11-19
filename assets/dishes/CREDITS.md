@@ -7544,3 +7544,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 
 - **Tocino de cielo** — juantiagues. [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:Tocino_de_cielo.jpg). Local asset: `reviewed-commons-121126060.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Corned beef hash** — Judgefloro. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:9215Corned_beef_hash_01.jpg). Local asset: `reviewed-commons-69978356.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Home cooking of ginataang kalabasa, patatas at kamote** — Judgefloro. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:8638Home_cooking_of_ginataang_kalabasa,_patatas_at_kamote_08.jpg). Local asset: `reviewed-commons-88820620.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.

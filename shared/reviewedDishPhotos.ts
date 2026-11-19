@@ -101429,5 +101429,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-88820620",
+    "title": "File:8638Home cooking of ginataang kalabasa, patatas at kamote 08.jpg",
+    "author": "Judgefloro",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:8638Home_cooking_of_ginataang_kalabasa,_patatas_at_kamote_08.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/38/8638Home_cooking_of_ginataang_kalabasa%2C_patatas_at_kamote_08.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "e4dd6b7ecce74cd19cc68f2b651d162ff5a0c702",
+    "name": "Home cooking of ginataang kalabasa, patatas at kamote",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-88820620.jpg",
+    "assetSha256": "215b8c677ac815298e630da7af9d702cda84d556023276a452aba84449fcd045",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];
