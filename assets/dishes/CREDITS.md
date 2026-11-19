@@ -7158,3 +7158,13 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Chakli** — अरुणा केळकर.. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Chakli_bhajanichi.jpg). Local asset: `reviewed-commons-125932644.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Kol böreği** — Vikiçizer. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Bureks.JPG). Local asset: `reviewed-commons-37950326.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Nasi Pecel Khas Blitar** — Supardisahabu. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Nasi_Pecel_Khas_Blitar.jpg). Local asset: `reviewed-commons-98641475.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Pukis** — Danangtrihartanto. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:34._Pukis_1.jpg). Local asset: `reviewed-commons-78984493.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Kue Lumpur with chocolate chip** — Lyonerov. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Kue_Lumpur.jpg). Local asset: `reviewed-commons-99623572.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Rempeyek cabe rawit** — Hayati Mayang Arum. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Peyek_Cabe_Rawit_2.jpg). Local asset: `reviewed-commons-126549340.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Nasi pecel** — Bajinra. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Indonesian_Pecel_Menu.jpg). Local asset: `reviewed-commons-141518907.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Kue Lumpur Kentang** — Andika Faris. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Kue_Lumpur_Kentang.jpg). Local asset: `reviewed-commons-132868846.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
