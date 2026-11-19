@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBr3FtZdE6Jn1ksm8GWQ",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 5,\n    \"composition\": 5,\n    \"appeal\": 4\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Four sliced pieces of cured meat arranged on white plate\",\n    \"Reddish-pink colour with visible marbling and spice crust\",\n    \"Sharp detail and good contrast in thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title 'Pastrami' names a prepared meat dish, but no explicit animal species is stated in title or description\",\n    \"Pastrami is traditionally beef, but tradition alone does not constitute visual proof or explicit source declaration of species\",\n    \"Metadata (File:, author, license) are untrusted; no species-naming evidence found in description field\"\n  ],\n  \"reason\": \"Reject: Although the photograph is sharp, well-lit, appetising and shows a finished, exposed dish clearly on a plate, the source title 'Pastrami' does not explicitly name the animal species. The instructions require an exact source quote explicitly naming the protein animal (chicken/beef/pork/duck/lamb/seafood). Without explicit species declaration in the source title or description, identity cannot be verified and protein_evidence cannot be populated. Hold rules apply: ambiguous species designation requires hold status, not acceptance.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1720,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 408,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
