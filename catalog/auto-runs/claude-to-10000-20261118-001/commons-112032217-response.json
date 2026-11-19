@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChD8KTc5PfRHvTv4oMipJ",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Clear broth, golden-yellow colour\",\n    \"White bowl against dark background\",\n    \"Spoon with visible contents in foreground\",\n    \"Orange and white solids (carrot pieces, white protein chunks)\",\n    \"Phone thumbnail shows soup with spoon and identifiable components\"\n  ],\n  \"phone_observations\": [\n    \"Soup broth clearly visible and appetising\",\n    \"Spoon with components in sharp focus\",\n    \"Essential dish identity readable in thumbnail\",\n    \"Colour and composition consistent with full image\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'chicken noodle soup' but no noodles are visibly apparent in either full image or thumbnail; only broth, carrot pieces, and white protein chunks (possibly chicken, possibly seafood, possibly other white meat) are evident\",\n    \"White solids on spoon are ambiguous—could be chicken, scallop, squid, or other white protein; no source quote explicitly names the protein species\",\n    \"Absence of noodles contradicts title descriptor 'noodle soup'\"\n  ],\n  \"reason\": \"Identity check fails. The source title claims 'Chicken noodle soup' but no noodles are visibly present in the photograph—only broth, carrot, and white protein chunks appear. No explicit source quote names 'chicken' or confirms the protein species. The visible form does not match the declared identity. The photograph quality, sharpness, lighting, and phone thumbnail are all acceptable, but the fundamental identity mismatch and unspecified protein species prevent acceptance.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 2044,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 499,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

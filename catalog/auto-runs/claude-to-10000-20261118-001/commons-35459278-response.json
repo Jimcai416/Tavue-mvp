@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChD8KQHPojZ67zwP6bp1b",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Pot of noodles in creamy sauce visible in phone thumbnail\",\n    \"Noodles and ham/meat pieces discernible but composition differs from full image\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title describes 'chicken noodle soup' but photograph shows a creamy pasta/noodle dish in a cooking pot, not soup (no visible broth)\",\n    \"Visible meat pieces appear to be ham or bacon (pale pink/white) rather than recognizable chicken\",\n    \"No explicit source quote identifying chicken as an ingredient; metadata title is unverified and contradicted by visual evidence\",\n    \"Dish appears to be a preparation stage or home cooking in progress (pot, not plated), borderline for finished dish criterion\"\n  ],\n  \"reason\": \"Identity check fails. Source title claims 'chicken noodle soup' but the photograph shows a creamy noodle dish with ham or bacon pieces, no visible broth, and no identifiable chicken. The visible meat does not match a chicken identification. Metadata alone cannot override visual contradiction. No explicit source quote confirms chicken as a named ingredient in the actual dish description. The image quality and composition are acceptable, but the fundamental mismatch between title and visible content, combined with absence of verifiable chicken evidence, requires hold on identity grounds.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1629,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 439,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

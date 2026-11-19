@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChD8K149J8yYASRyL4qeW",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Finished, cooked noodle soup in white bowl\",\n    \"Cream-coloured ribbon noodles in greenish broth\",\n    \"Orange carrot pieces and green peas visible\",\n    \"Brown meat fragments present in bowl\",\n    \"Bowl with handle, natural kitchen lighting\",\n    \"Phone thumbnail shows complete dish with same composition\"\n  ],\n  \"phone_observations\": [\n    \"Noodle soup clearly visible and prominent\",\n    \"Essential components (noodles, broth, vegetables, meat) readable\",\n    \"Appetising colour and presentation maintained in thumbnail\",\n    \"No clipping of significant food elements\",\n    \"Bowl and handle visible\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'Chicken Noodle Soup' but source metadata is unverified/untrusted\",\n    \"Brown meat fragments visible in photograph cannot be definitively identified as chicken\",\n    \"Exact dish name from reliable source title/description not provided in metadata\",\n    \"No explicit source quote confirming chicken as the protein\"\n  ],\n  \"reason\": \"Photograph and phone thumbnail are of high quality and show a finished, appetising noodle soup with visible components. However, identity check fails: the metadata title 'Chicken Noodle Soup' is from untrusted metadata and not a canonical source description. The brown meat pieces in the image cannot be visually confirmed as chicken. No explicit, trusted source quote naming chicken as the protein is available. All variant_preserved and identity requirements cannot be satisfied without verified source confirmation of both the dish name and protein identity.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1824,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 500,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

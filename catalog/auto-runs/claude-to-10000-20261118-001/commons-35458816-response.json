@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChD8KLyDfG5x91xPaFL8X",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows a pot of soup in mid-preparation or serving stage\",\n    \"Noodles, broth, diced carrots and other vegetables visible\",\n    \"Pot is on stovetop with active cooking evident\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title states 'Chicken noodle soup' but no chicken is visibly identifiable in either the full source photograph or thumbnail\",\n    \"The dish appears to be in a preparation or cooking stage rather than a finished plated dish\",\n    \"While the metadata title claims chicken, there is no explicit visual or textual evidence of chicken visible in the image itself\"\n  ],\n  \"reason\": \"Rejection due to identity mismatch: the source title declares 'Chicken noodle soup' but chicken cannot be visually confirmed in the photograph. No chicken pieces, shreds, or identifiable poultry elements are apparent in the broth and vegetable mixture shown. Per guidelines, protein identity must be supported by explicit source quote matching visible form. Additionally, the image shows an in-progress pot of soup rather than a finished, plated dish ready for consumption. The photograph documents a cooking stage, not a completed dish suitable for food review intake.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1743,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 418,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
