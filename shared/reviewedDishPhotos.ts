@@ -118728,5 +118728,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 540,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-31751567",
+    "title": "File:Tantuni and Salgam.jpg",
+    "author": "EbenezerScrooge",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tantuni_and_Salgam.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Tantuni_and_Salgam.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "152c8995eced9f4e6b190f09c992c1a3f013a733",
+    "name": "Tantuni in Dürüm",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-31751567.jpg",
+    "assetSha256": "51124ccc42366b503af2fcf11f0cab31914c8b10599d0f2cd488fb0c65bba104",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 540,
+    "height": 960,
+    "requiresExactMenuName": true
   }
 ];
