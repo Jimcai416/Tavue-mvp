@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChD16KrpZgFnzwvaWCFZW",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Shredded beef visible in full image\",\n    \"Jalapeño peppers clearly present on both images\",\n    \"Shredded cheese topping visible\",\n    \"Flour tortillas as base\",\n    \"Plated presentation with accompaniments\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail shows assembled fajitas with beef, peppers and cheese\",\n    \"Dish is prominent and readable at thumbnail size\",\n    \"Components clearly distinguishable in phone view\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title describes 'Fajitas' but metadata labels them as preparation stage ('prior to being rolled up'), contradicting finished-dish requirement\",\n    \"Description explicitly states fajitas are 'prior to being rolled up', indicating pre-assembly/unfinished state rather than completed dish\"\n  ],\n  \"reason\": \"Source metadata explicitly describes this as fajitas 'prior to being rolled up', categorizing them as a preparation or component stage rather than a finished, plated dish. The Tavue specification requires acceptance of finished, exposed, likely photographic dishes. While the photograph shows good quality, sharp detail, natural colour and appetising presentation, the source's own characterisation places this in pre-service preparation territory. The unrolled tortillas with separate components alongside represent the intermediate stage of fajita assembly, not the final served dish form. Identity check fails due to this source-declared preparation status.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1778,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 463,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChD17BnAVER1ugd5o6LVV",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Cooked meat strips visible on dark plate\",\n    \"Sautéed onions and peppers present\",\n    \"Natural sizzle plate presentation\",\n    \"Appetising browning and char\"\n  ],\n  \"phone_observations\": [\n    \"Fajita components clearly visible in thumbnail\",\n    \"Meat, vegetables and onions readable at small size\",\n    \"Adequate detail for dish recognition\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title states 'Chicken and steak fajitas' but visual distinction between chicken and steak portions is impossible to verify from the photograph alone\",\n    \"No explicit, unambiguous visual segregation or labelling of which meat is chicken vs. steak\",\n    \"Species ambiguity: steak typically implies beef, but this is not explicitly stated in the source title\"\n  ],\n  \"reason\": \"Rejection: The source metadata lists two animal proteins ('chicken and steak') but provides no explicit quote naming 'beef' by that word. The title says 'steak' (a cut form) rather than 'beef' (the species). Per protocol, ambiguous meat species or source contradictions must be held, and species cannot be inferred from appearance or tradition. The photograph does not visually disambiguate the two claimed proteins, making canonical identity and protein evidence unreliable. Hold rather than accept under uncertainty.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1752,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 452,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

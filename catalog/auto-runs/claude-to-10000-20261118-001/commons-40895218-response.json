@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChD178uY3oqnYTygKpRsw",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Flour tortillas with melted cheese\",\n    \"Cooked dark beans visible in filling\",\n    \"Diced orange peppers\",\n    \"Fresh arugula and mixed greens on side\",\n    \"White sour cream or crema in bowl\",\n    \"Fresh herb garnish (parsley or cilantro)\",\n    \"Natural plated presentation\"\n  ],\n  \"phone_observations\": [\n    \"Cheese-topped tortilla clearly visible\",\n    \"Bean and pepper filling distinguishable\",\n    \"Side salad visible\",\n    \"Overall composition legible at thumbnail scale\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'Kidney bean Fajitas' but source description states 'popular vegetarian mexican dish'\",\n    \"Visual inspection shows dark cooked beans (likely kidney beans based on title), but cannot definitively confirm species from appearance alone\",\n    \"No explicit protein animal declared in title or description that meets category requirements (chicken/beef/pork/duck/lamb/seafood)\",\n    \"Fajitas traditionally contain meat; vegetarian variant contradicts standard definition\",\n    \"Metadata title vs. description conflict creates ambiguity about actual dish identity\"\n  ],\n  \"reason\": \"Identity check fails due to contradiction between filename ('Kidney bean Fajitas') and explicit source description ('popular vegetarian mexican dish'). While the photograph shows a well-prepared flour tortilla dish with beans, cheese, and vegetables, the source metadata is internally inconsistent. The title suggests a bean-based filling but does not name any meat protein. The description explicitly declares this vegetarian, which conflicts with traditional fajita preparation. Protein_evidence is empty because no animal protein is explicitly named in source text that can be verified visually. Per protocol, source contradictions require hold, but the metadata conflict is fundamental to identity verification, warranting rejection until clarified.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1725,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 560,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
