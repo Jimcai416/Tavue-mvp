@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChD8ZMtv1xrmyQ4Un4Cy1",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 3,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows two distinct baked layers with different textures and colouration\",\n    \"Upper layer appears darker and more textured (milk + egg variant)\",\n    \"Lower layer appears lighter and smoother (milk only variant)\",\n    \"Baking tray visible at top edge\",\n    \"Subject is prominently displayed and sharp\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Calentita is a chickpea flour-based dish, not a finished plated food suitable for Tavue's food photography database\",\n    \"Image shows a preparation/baking stage rather than a finished, plated, ready-to-eat dish\",\n    \"The subject is still in baking tray, unplated and unfinished in presentation\",\n    \"Despite sharp photography and good lighting, the dish form does not meet acceptance criteria for a finished, exposed, plated food photograph\"\n  ],\n  \"reason\": \"Reject: While the photograph is sharp, well-lit, and the thumbnail clearly shows the subject, Calentita in this image is captured at the baking stage still in its tray, not as a finished plated dish. Tavue accepts finished, exposed, likely photographic dishes. This is a preparation/cooking stage image rather than a finished food presentation. The source description confirms two variants (with/without egg) but the form does not meet the finished dish requirement.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1641,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 454,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

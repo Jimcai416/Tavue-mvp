@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChD8ZmyX2hYDk2nC7qE3M",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Finished, cooked dish on white plate\",\n    \"Prominent protein component visible\",\n    \"Mung bean rice/grain base clearly visible\",\n    \"Green onion garnish and radish slices\",\n    \"Natural outdoor lighting\",\n    \"Appetising presentation in hand\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows finished dish\",\n    \"Grain/bean base and protein visible\",\n    \"Legible composition maintained\",\n    \"No clipping of essential components\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title lists 'Rabbit stew' (Kuneho Sinigang) but metadata category 'rabbit' is not an allowed protein key; species classification cannot be verified against approval list\",\n    \"Visible meat component cannot be definitively identified as rabbit from appearance alone\",\n    \"Description contains multiple dishes (mung bean soup and rabbit stew) with unclear separation—unclear which dish is photographed or if both are present\",\n    \"Source metadata format (File: prefix, photographer name) suggests Wikimedia Commons; reliability of dish identification unconfirmed\"\n  ],\n  \"reason\": \"Image quality, composition and phone thumbnail are acceptable. However, the dish identity cannot be confirmed: 'rabbit' is not an approved protein category for canonical_name construction, and while a meat component is visible, it cannot be visually verified as rabbit. The source description conflates multiple dishes (mung bean soup and rabbit stew) without clear distinction of which is depicted. Identity check fails due to unspecified/unapproved animal species. Holding pending clarification of exact dish name and confirmation that the protein can be matched to an approved category.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1793,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 519,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

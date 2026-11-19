@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChD8aGLawm9dPYdfrd6CB",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Finished, cooked dish on white plate\",\n    \"Golden-brown sinigang broth with visible rice\",\n    \"Green onion/chives garnish and pink onion slices\",\n    \"Red tomato piece and lime wedge visible\",\n    \"Street food presentation in hand\"\n  ],\n  \"phone_observations\": [\n    \"Plate clearly visible at 124x96 resolution\",\n    \"Broth, rice, and garnishes distinguishable\",\n    \"Adequate sharpness for thumbnail review\",\n    \"No clipping of essential components\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title lists both 'Mung bean soup' and 'Rabbit stew' – the photograph appears to show sinigang (a braised rice dish with broth), but rabbit (kuneho) is not a supported protein category and cannot be verified visually\",\n    \"The dish identity is ambiguous: the visible components (rice, broth, tomato, onion, lime) are consistent with sinigang, but the source credits 'rabbit stew' as a component\",\n    \"Cannot confirm meat species from appearance alone; rabbit is not in the allowed protein list (chicken/beef/pork/duck/lamb/seafood)\",\n    \"Mismatch between source description (which emphasizes rabbit and mung bean soup) and visible form (which appears to be a single sinigang dish)\"\n  ],\n  \"reason\": \"Hold: The source description claims 'Rabbit stew' (kuneho sinigang), but rabbit is not a supported protein category. The photograph appears to show sinigang with an unidentifiable meat component that cannot be verified visually as a named allowed species. The source lists both 'Mung bean soup and rabbit stew' but the visible dish appears singular. Identity cannot be reliably established against the exact source title without clarification of the actual meat species and primary dish identity. Protein evidence cannot be populated because rabbit is not an allowed key, and no other named protein is explicitly claimed in the source description.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1793,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 602,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
