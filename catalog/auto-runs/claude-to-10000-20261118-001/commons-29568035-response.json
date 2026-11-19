@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCaBVcB2g8M7di3qEvE1",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Cooked meat components: sliced reddish-brown roasted meat, pale terrine or forcemeat loaf with herb flecks, sausage slices with visible fat\",\n    \"Sautéed dark leafy green (spinach), yellow purée or mash beneath it\",\n    \"Red sauce or glaze pooled on plate\",\n    \"White ceramic plate, natural daylight, home/restaurant plating\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows three distinct cooked meat components, greens, and yellow base\",\n    \"Red sauce visible in top left corner of thumbnail\",\n    \"Essential dish elements fully present and legible at phone size\",\n    \"Composition and colour fidelity retained in reduction\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title 'Arrosto - polpetta - spincaci' translates to 'roast - meatball - spinach' but exact dish identity and meat species are ambiguous\",\n    \"Visible meats include sliced roast (species unspecified), what appears to be a terrine or forcemeat loaf (species unspecified), and sausage slices (animal species unknown—cannot assume pork from appearance or Italian tradition alone)\",\n    \"Red component could be sauce, glaze, or coating; no source description clarifies\",\n    \"Source title is a filename-style list of components, not a canonical dish name\",\n    \"No source text explicitly names the animal(s) in any meat component; species cannot be inferred from appearance or regional convention\",\n    \"No evidence of chicken, beef, pork, duck, lamb, or seafood in explicit source description\"\n  ],\n  \"reason\": \"Photograph and phone thumbnail are sharp, well-lit, naturally coloured, appetising and show a finished cooked dish with prominent, legible components. However, the source identity check fails: the title is a filename-style component list ('Arrosto - polpetta - spincaci'), not a canonical dish name, and the description 'Secondi' (Italian second courses) is a category only. Most critically, no meat species are explicitly named in any source text. The visible meats (sliced roast, terrine/forcemeat, sausage slices) cannot be matched to chicken/beef/pork/duck/lamb/seafood without an explicit source quote naming the animal. Inferring species from appearance, tradition, or the Italian context violates the protocol. Without source-declared protein identity and a proper canonical dish name, identity and protein checks fail. Hold for clarification of exact dish name and meat species.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1723,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 729,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

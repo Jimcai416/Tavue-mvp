@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCaCBSopA7NmJ4xQvD8G",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [\n    \"Whole fish in clear broth\",\n    \"Herb garnish visible on fish\",\n    \"White bowl, wooden surface\",\n    \"Golden-yellow broth\",\n    \"Fish clearly cooked and exposed\"\n  ],\n  \"phone_observations\": [\n    \"Whole fish prominent in centre\",\n    \"Yellow broth clearly visible\",\n    \"Herb garnish readable\",\n    \"Bowl edges visible\",\n    \"Dish identity clear at thumbnail scale\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Species 'carachi' is not an explicitly recognized allowed category (chicken/beef/pork/duck/lamb/seafood). The title names a specific regional fish variety, but the exact species is ambiguous and not explicitly declared as one of the canonical protein types.\",\n    \"Source title contains metadata prefix 'File:' and filename extension which should be stripped, leaving only 'Caldo de carachi', but the fish species is still undefined in allowed terms.\",\n    \"No explicit confirmation that 'carachi' maps to 'seafood' in source documentation; regional name alone is insufficient without species clarity.\"\n  ],\n  \"reason\": \"Reject: Identity check fails. The source title references 'carachi', a regional Bolivian fish whose exact species is not explicitly declared and does not match a standard allowed protein category. While the photograph shows a finished, well-exposed fish broth dish with sharp detail, natural colours, and good appeal, the protein cannot be confirmed under the strict requirement that species must be explicitly named in source text and mapped only to allowed categories (chicken/beef/pork/duck/lamb/seafood). Unknown or ambiguous fish species requires holding pending clarification. The dish is photographically sound but taxonomically unconfirmed.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 2054,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 529,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
