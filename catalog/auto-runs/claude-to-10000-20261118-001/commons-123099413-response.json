@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCnb83xG7eexX16F7uFK",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 3,\n    \"lighting\": 2,\n    \"composition\": 2,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows packaged noodles in clear plastic wrapper with red/yellow branding label\",\n    \"No prepared/cooked dish visible in either image\",\n    \"Product packaging dominates both full source and thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title claims 'Pancit miki from the Philippines' but image shows unopened commercial pasta package, not a finished dish\",\n    \"Severe contradiction between claimed finished dish and actual packaged product content\"\n  ],\n  \"reason\": \"Rejection: Image shows raw packaged noodles (unopened product still in plastic wrapping with manufacturer label), not a finished, exposed, cooked dish. The source title 'Pancit miki from the Philippines' describes a prepared noodle dish, but the photograph only displays uncooked dried noodles in retail packaging on a wooden surface. This fails the core requirement of a finished, exposed, photographic dish. Neither full image nor phone thumbnail shows prepared food suitable for Tavue intake. The composition, lighting, and appeal scores are severely compromised by packaging and product context rather than food presentation.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1728,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 394,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
