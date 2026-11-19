@@ -125340,5 +125340,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-189062707",
+    "title": "File:Arroz Doce.jpg",
+    "author": "Luís Tinoco Azevedo",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Arroz_Doce.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Arroz_Doce.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "59b1a22baf8ed7d7cd9836f1ba99133108c6e03a",
+    "name": "Arroz Doce",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-189062707.jpg",
+    "assetSha256": "bf137df647078e0bbfb512fe54d423152d3b5f1f910c74543d4fa23a7bb9f7de",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 444,
+    "requiresExactMenuName": true
   }
 ];
