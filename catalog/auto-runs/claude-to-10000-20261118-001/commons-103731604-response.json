@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBYaAbLnbfhrnEtxxSVs",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Dish visible in phone thumbnail with similar plating\",\n    \"Central ingredients discernible but fine detail lost at this resolution\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title references 'Daging Salai' (cured/smoked meat) but species is not explicitly named in title or description\",\n    \"Description mentions santan, rebung, lengkuas, limau purut but does not identify the meat animal\",\n    \"Visible dark protein elements in photograph are consistent with cured meat but animal species cannot be visually determined with certainty\",\n    \"Metadata indicates this is a prepared dish with sauce/coconut milk, not raw preparation\"\n  ],\n  \"reason\": \"Reject: The source description does not explicitly name the animal species for 'Daging Salai'. Although the photograph shows a finished, well-composed dish with good quality and appropriate plating, the protein cannot be matched to an allowed category (chicken/beef/pork/duck/lamb/seafood) because the source provides only the generic Malay term 'Daging' (meat) without specifying which animal. Per instructions, unknown meat species requires a hold/reject decision. The ambiguity of the meat species prevents acceptance.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1686,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 424,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
