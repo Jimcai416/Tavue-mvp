@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBubXk3r3r7hhCzs37qX",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 3,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Partial view of two flatbreads in a dark pan\",\n    \"Speckled/textured surface visible\",\n    \"One piece partially cropped at edge of thumbnail\",\n    \"Limited detail of filling or topping discernible\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title 'Qutab pişəndən sonra' is in Azerbaijani; metadata provides no English translation or dish specification\",\n    \"No readable English description supplied to establish canonical identity\",\n    \"Filling type, meat species (if any), and flavour variants are not visible or declared\",\n    \"Image shows mid-cooking or plated stage but identity cannot be confirmed from metadata alone\",\n    \"Qutab is a filled pastry with regional variants; specific type and ingredients unknown\"\n  ],\n  \"reason\": \"Reject: Identity check fails. Source metadata is in Azerbaijani without English translation or specification of filling/variant. No readable essential components (filling, meat, topping) are discernible in either full image or phone thumbnail to confirm the dish identity. Without a clear English title or description naming specific ingredients or regional variant, canonical_name cannot be established. Quality and photograph checks pass, but identity uncertainty is disqualifying.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1524,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 426,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
