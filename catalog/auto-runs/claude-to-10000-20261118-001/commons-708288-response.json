@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCX5SEG6GnoKBSCZyYbB",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 2,\n    \"composition\": 2,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Phone thumbnail shows a dark bowl with mixed ingredients, but severe softness and lack of detail prevent clear assessment of finished dish characteristics\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title references 돌솟 비빔밥 (dolsot bibimbap) but photograph shows a standard dark bowl, not the characteristic stone pot (dolsot) vessel\",\n    \"Image quality is too poor to verify this is a finished, exposed, properly photographed dish rather than a mid-preparation stage\",\n    \"Severe softness, poor lighting, and low contrast throughout both full image and thumbnail prevent confident assessment of dish completion and food appeal\",\n    \"No visible proteins can be clearly identified due to image quality limitations\"\n  ],\n  \"reason\": \"Reject: image fails photograph quality checks. Severe softness, poor lighting, low contrast, and overall blurriness across both full source and thumbnail prevent confident assessment of a finished, appetising dish. Sharpness score (2/5) and lighting score (2/5) fall well below the required minimum of 4. The source title claims dolsot bibimbap but the vessel appears to be a standard dark bowl rather than a stone pot. Food identity cannot be reliably verified in this image quality.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1737,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 425,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
