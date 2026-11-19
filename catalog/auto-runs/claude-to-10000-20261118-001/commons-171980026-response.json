@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChD7qB9bcKN1sMs7Ptvi6",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Cooked noodles visible in full image\",\n    \"Broth present in white bowl\",\n    \"Seafood (scallop/shell) prominently displayed\",\n    \"Fresh vegetables (green onion, mushroom, leafy greens)\",\n    \"Seared protein element bottom-left\"\n  ],\n  \"phone_observations\": [\n    \"Phone thumbnail shows cooked noodles, shell with orange roe/topping, greens, and seared protein\",\n    \"Thumbnail composition is clear and recognizable\",\n    \"Essential components visible at phone scale\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title states 'Tonkotsu ramen' but visible dish contains prominent raw/cooked seafood (scallop with roe) as a major component, not typical of tonkotsu ramen\",\n    \"Seared protein element (bottom-left) is ambiguous—appears to be seared fish or meat but species cannot be reliably identified from photograph alone\",\n    \"Source title does not explicitly name any animal protein; 'tonkotsu' refers to broth type (pork bone) but no pork is visibly identified in the dish\",\n    \"Dish appears to be a fusion or premium variant ramen with seafood topping, not standard tonkotsu composition\"\n  ],\n  \"reason\": \"Identity check fails. Source title 'Tonkotsu ramen' is contradicted by visible form: the dish prominently features cooked scallop/shell with orange roe as a major garnish, which is not characteristic of authentic tonkotsu ramen. The seared protein (bottom-left) cannot be reliably identified to species. No protein category can be supported with explicit source naming. The visible dish does not match the declared identity with sufficient confidence. Hold rules require source-declared tonkotsu to show pork-based identity or explicit protein naming; neither is present here.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 2067,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 576,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
