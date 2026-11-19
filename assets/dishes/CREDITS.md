@@ -9575,3 +9575,8 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 
 - **Tahchin** — Roozitaa. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Making_Tahchin.jpg). Local asset: `reviewed-commons-43590765.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Machha Besara** — Kumarnihar. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Machha_Besara_(_%E0%AC%AE%E0%AC%BE%E0%AC%9B_%E0%AC%AC%E0%AD%87%E0%AC%B8%E0%AC%B0_).jpg). Local asset: `reviewed-commons-40621861.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Hasanpaşa köfte and pilav** — E4024. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Hasanpa%C5%9Fa_kofte.jpg). Local asset: `reviewed-commons-49359274.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Havij polo** — Topsy turvy. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Havij_polo.jpg). Local asset: `reviewed-commons-15439300.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
