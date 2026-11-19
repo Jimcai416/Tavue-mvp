@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChD5qh5SQpWBwzjXu5N8k",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 5,\n    \"appeal\": 5\n  },\n  \"visible_support\": [\n    \"Toasted rye bread base visible\",\n    \"Red tomato slices clearly present\",\n    \"Yellow tomato slices visible\",\n    \"Green herbs/lettuce visible\",\n    \"Black pepper seasoning evident\",\n    \"Oil sheen on surface\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows open-faced toast composition\",\n    \"Colourful tomato toppings readable at small size\",\n    \"Toasted bread base distinct\",\n    \"Overall dish composition preserved in phone view\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title describes 'anchovies' but no fish/seafood is visibly identifiable in either the full source photograph or the phone thumbnail. The dark elements in the image appear to be charred toast edges, not anchovy fillets.\",\n    \"Anchovy presence cannot be visually confirmed from the photograph despite being the primary protein claimed in the metadata description.\"\n  ],\n  \"reason\": \"Identity check fails. The source description explicitly names 'anchovies' as the primary protein component, but no anchovy fillets are visually apparent in either the full photograph or thumbnail. The dark linear elements visible are charred toast edges and herb stems, not fish. Without visual confirmation of a named protein component that cannot be inferred from appearance alone, and given the source-metadata contradiction between description and visible form, this cannot be accepted. The photograph shows a high-quality open-faced rye toast with tomatoes, herbs, and seasonings, but identity cannot be verified against the source claim.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 2116,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 486,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChD5rbf2wXeM84c312iFh",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Multiple plates with open sandwiches on rye bread\",\n    \"Red-and-white checkered paper-lined plates\",\n    \"Fresh garnishes: cucumber, dill, tomato, lettuce\",\n    \"Cooked meats visible including what appears to be beef and ham\",\n    \"Mushrooms and pickles as accompaniments\"\n  ],\n  \"phone_observations\": [\n    \"Central cluster of 3–4 plated open sandwiches clearly visible\",\n    \"Red-and-white checkered plate design confirmed\",\n    \"Layered components (bread, meat, vegetables) readable at thumbnail scale\",\n    \"Finished, plated presentation evident\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'smørrebrød' but source description does not name specific smørrebrød variants (e.g. 'leverpostej smørrebrød', 'roastbeef smørrebrød')\",\n    \"Multiple distinct sandwiches visible; cannot match a single canonical variant name without explicit source identification of each\",\n    \"Meat species ambiguous in photograph: beef, ham, and possibly pâté are visible, but exact animal sources for each sandwich are not declared in metadata\",\n    \"Upper plates show sliced cured meats (likely ham or bresaola) but species not explicitly named in source\",\n    \"No source quote isolates a specific named dish; metadata only provides generic category 'Danish open sandwiches'\"\n  ],\n  \"reason\": \"Source metadata provides only the generic category 'Danish open sandwiches (smørrebrød)' without naming a specific, singular smørrebrød variant dish. The photograph shows multiple different preparations; identity cannot be confirmed to a single canonical dish name. Protein sources are visually suggested (beef, ham, possibly liver pâté) but not explicitly named in the supplied title or description. Per protocol, ambiguous meat species and absence of an exact source quote naming the specific dish require a hold. The photograph itself is sharp, well-lit, and appetising, but the identity check fails due to lack of specific canonical variant naming in source metadata.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1731,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 618,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
