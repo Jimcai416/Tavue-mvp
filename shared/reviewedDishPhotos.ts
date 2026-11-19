@@ -92900,5 +92900,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "height": 640,
     "requiresExactMenuName": true,
     "authorUrl": "https://www.flickr.com/people/85936780@N00"
+  },
+  {
+    "id": "commons-87391740",
+    "title": "File:Orecchiette con cima di rapa.jpg",
+    "author": "Bonniebartilomo",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Orecchiette_con_cima_di_rapa.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/01/Orecchiette_con_cima_di_rapa.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "e85f9e23a99a9b4f6fdb7320759116ba3b8b1148",
+    "name": "Orecchiette con cima di rapa",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-87391740.jpg",
+    "assetSha256": "175bc873c44730dc9f6e2641a4a4667d9bd1edcadc49f25259eca24ed75e6ff8",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];
