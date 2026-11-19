@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBSd4kzYxXGhef8tJNDx",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Couscous or similar grain base visible\",\n    \"Cubed meat pieces browned and caramelised\",\n    \"Appetising presentation on white plate\",\n    \"Warm lighting and natural colours\",\n    \"Readable components in phone thumbnail\"\n  ],\n  \"phone_observations\": [\n    \"Grain base and meat cubes clearly visible in thumbnail\",\n    \"Dish identity and components discernible\",\n    \"Adequate resolution for food recognition\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title describes 'Pork and stuffing' but no pork is explicitly named in the metadata title field\",\n    \"Exact dish name not provided in source—description says 'Typical Alentejo food' but does not name the specific dish\",\n    \"Visual appearance suggests migas or similar Iberian grain-based dish, but cannot confirm specific regional variant without explicit dish name in source\",\n    \"No exact quoted dish name matches source title or description\",\n    \"Protein species (pork) stated in description but not in a canonical dish name context\"\n  ],\n  \"reason\": \"Source metadata provides description ('Pork and stuffing') but no explicit canonical dish name. The title field contains only the filename. Alentejo food identity cannot be confirmed without an exact source dish name. Although the photograph shows a finished, appetising grain-based dish with meat and meets quality/composition standards, the absence of a specific source-quoted dish name and the vague protein reference in description alone ('Pork and stuffing') without an authoritative dish label prevents identity verification. Hold pending source clarification of exact dish name.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1731,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 506,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

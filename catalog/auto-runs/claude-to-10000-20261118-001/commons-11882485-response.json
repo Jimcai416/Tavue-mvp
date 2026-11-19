@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBSeLJeresa9jncknaoF",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 5,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Whole flat fish with distinctive wing-like fins in orange/red broth\",\n    \"Boiled potatoes as side\",\n    \"White plate, natural daylight\",\n    \"Fish clearly identifiable as a ray species\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows the flattened ray body, fins, and orange sauce\",\n    \"Boiled potatoes visible\",\n    \"Subject prominent and identifiable\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title/description identifies dish as 'caldeirada de raia' but the protein 'raia' (ray) is not in the allowed category list (chicken/beef/pork/duck/lamb/seafood)\",\n    \"Raia is a cartilaginous fish (elasmobranch), not typical seafood category or finfish\",\n    \"Species ambiguity: raia may refer to multiple ray species; exact animal not definitively determinable from visual alone\"\n  ],\n  \"reason\": \"The photograph shows a finished, properly exposed, well-composed dish with sharp detail and natural colour. Identity is visually confirmed as a ray-based stew. However, the protein 'raia' (ray/skate) cannot be mapped to the restricted protein categories (chicken/beef/pork/duck/lamb/seafood). Ray is a cartilaginous fish and falls outside standard seafood finfish classification in the allowed taxonomy. Without an explicit source quote naming an allowed protein category, and with raia representing an unsupported species, the dish must be held.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1738,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 493,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

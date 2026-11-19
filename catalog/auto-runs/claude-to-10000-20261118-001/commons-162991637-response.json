@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBSdHmpxZrQDTBWd34jV",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Banana leaves wrapped around food parcel, characteristic of luwombo preparation\",\n    \"White plate presentation\",\n    \"Finished, cooked appearance with golden-brown leaf wrapping\",\n    \"Sharp detail and natural colour in full image\"\n  ],\n  \"phone_observations\": [\n    \"Wrapped banana leaf parcel clearly visible\",\n    \"Plate and food recognisable in thumbnail\",\n    \"Adequate detail for identification\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title contains only filename 'Am ready for luwombo.jpg' – not a formal dish name or description\",\n    \"Description is generic template text ('Farm to Plate theme') with no actual dish details\",\n    \"Luwombo is a Ugandan steamed preparation, but contents are entirely hidden by banana leaf wrapping – no visible protein, vegetables, or other ingredients can be confirmed\",\n    \"No source-supplied ingredient or protein list provided to verify identity\",\n    \"Wrapped presentation prevents visual confirmation of what is inside\"\n  ],\n  \"reason\": \"Identity check fails: source metadata provides only a filename as title and generic template description with no actual dish information. The wrapped banana leaf parcel conceals all contents, so visible form cannot confirm the specific luwombo variant, protein species, or ingredients. Without explicit source description of contents (which proteins, vegetables, seasoning), the dish identity cannot be verified against visible evidence. Hold for source clarification with proper dish description naming specific ingredients.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1631,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 470,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBSeCLvCkuFHTGceLBjC",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Banana leaf wrapping visible and characteristic\",\n    \"Dark cooked meat filling visible in centre\",\n    \"Finished, exposed dish state\",\n    \"Naturally coloured banana leaves and meat\",\n    \"Phone thumbnail clearly shows wrapped dish with meat filling\"\n  ],\n  \"phone_observations\": [\n    \"Wrapped banana leaf parcel clearly visible\",\n    \"Dark meat filling prominent in thumbnail\",\n    \"Adequate detail for recognition of finished dish\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title is 'File:Close-up view of luwombo.jpg' — a filename, not a canonical dish description\",\n    \"Description text is incomplete and uninformative ('This is an image with the theme \\\" Farm to Plate \\\" from:')\",\n    \"Meat species cannot be determined from visual appearance alone\",\n    \"No explicit protein identification in source metadata\",\n    \"No authoritative dish description or ingredient list provided in source\"\n  ],\n  \"reason\": \"Dish identity cannot be verified. Although the photograph shows a finished, well-presented banana-leaf wrapped dish with dark meat filling (consistent with luwombo, a Ugandan steamed meat dish), the source provides only a filename and incomplete description. No explicit canonical dish name or protein identification is supplied in title or description. Without a proper source dish statement naming the specific meat and dish variant, identity verification fails and protein_evidence remains empty. Hold pending authoritative source metadata.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1633,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 464,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
