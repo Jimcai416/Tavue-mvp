@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCWVUGr7TLT2FtmGiPbJ",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Finished, cooked meat dish on white plate\",\n    \"Grilled meat strips with charred exterior\",\n    \"Saffron and plain rice base\",\n    \"Grilled green peppers and onion\",\n    \"Fresh cilantro garnish\",\n    \"Roasted red pepper\",\n    \"Home-cooked presentation\"\n  ],\n  \"phone_observations\": [\n    \"Meat, rice and vegetables clearly visible\",\n    \"Yellow and white rice sections prominent\",\n    \"Charred grilled meat prominent in thumbnail\",\n    \"Green vegetables visible\",\n    \"Green herb garnish visible at bottom\",\n    \"Composition readable and appetising\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title contains 'File:' prefix and filename extension (non-canonical metadata)\",\n    \"Meat species not explicitly named in source description—visual appearance suggests lamb or beef but cannot be confirmed from text\",\n    \"Source describes location (Ras Tanura Saudi Arabia) and authorship; identity claim relies on 'Chelo Kabab' in filename only, not on description text\",\n    \"Generic 'Kabab' term without explicit animal species declaration\"\n  ],\n  \"reason\": \"Image quality, photograph authenticity, composition and phone thumbnail all pass. However, identity cannot be accepted: the source title is embedded in filename metadata (rejected per instructions), and the description 'Chelo Kabab made at home in Ras Tanura Saudi Arabia' does not explicitly name the meat species. Visible form is consistent with chelo kabab (saffron rice, grilled meat, vegetables, herbs), but explicit protein naming is required and absent from source text. Meat species cannot be inferred from appearance alone. Hold pending source clarification of exact meat type.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1736,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 542,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
