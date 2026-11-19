@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBgkXNDJaYdqLEWXxqxC",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 3,\n    \"composition\": 1,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows multiple plastic containers with specimens, not a finished food dish\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title references 'Bubur sumsum hijau' (a sweet rice flour pudding), but the full photograph displays live crustaceans (crabs or similar arthropods) in plastic containers with green liquid—a stark contradiction\",\n    \"No finished, cooked, or appetising food dish is visible in either source or thumbnail\",\n    \"The image appears to be documentation of specimens or live animals, not a food photograph\"\n  ],\n  \"reason\": \"Critical identity mismatch: source title describes Bubur sumsum hijau (Indonesian sweet rice pudding), but both photographs show live crustaceans in plastic containers submerged in green liquid. The image is not a photograph of a finished, exposed, cooked food dish. It lacks all criteria for food acceptance: no recognisable cuisine preparation, no appetising presentation, no readable essential food components, and severe contradiction with declared identity. The composition and subject matter indicate specimen documentation or animal husbandry, not cuisine photography. Reject.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 2070,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 395,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

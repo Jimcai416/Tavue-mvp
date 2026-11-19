@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBgkLW7LkwgbgupZznnW",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [\n    \"Finished, cooked dish wrapped in banana leaves\",\n    \"Yellow-green paste visible (likely turmeric-based spice mixture)\",\n    \"Fish form discernible within wrapping\",\n    \"Natural lighting, no glare or severe casts\",\n    \"Prominent subject, readable in phone thumbnail\"\n  ],\n  \"phone_observations\": [\n    \"Banana-leaf-wrapped preparation clearly visible at 124x96 resolution\",\n    \"Yellow spice coating visible on exposed fish portion\",\n    \"Layered leaf wrapping readable\",\n    \"Subject size adequate for identification\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title contains only 'File:' and filename—no actual dish name or description provided in source title field\",\n    \"Description reads only 'Batavian Traditional Cuisine'—no specific dish name, recipe, preparation method, or ingredient list\",\n    \"Fish species not identified in any source text\",\n    \"Exact dish name cannot be extracted from metadata\",\n    \"Cannot verify if this is pepes ikan or another banana-leaf-wrapped fish dish without explicit canonical source name\"\n  ],\n  \"reason\": \"Identity check fails. The source title is a filename only ('File:Pèpès Ikan 1.jpg'), and the description provides only a broad category ('Batavian Traditional Cuisine') with no specific dish name, ingredient list, or preparation details. Fish species is not named anywhere in the supplied metadata. Although the photograph itself shows a finished, appetizing banana-leaf-wrapped preparation with visible turmeric-based spices and good technical quality, without an explicit, detailed source description or title naming the specific dish and its components, canonical identity cannot be established. Per rules, hold when source contradictions or ambiguity exist.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1624,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 538,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
