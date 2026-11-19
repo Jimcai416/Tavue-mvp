@@ -10080,3 +10080,11 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Karniyarik eggplant stuffed with minced lamb** — [Alpha](https://www.flickr.com/photos/10559879@N00). [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:Karniyarik_Eggplant_stufed_with_Minced_Lamb_-_degustation_-_Ottoman_Cuisine.jpg). Local asset: `reviewed-commons-7979696.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Chicken Hyderabadi Biryani** — Dheerajk88. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Chicken_Hyderabadi_Biryani.JPG). Local asset: `reviewed-commons-40990265.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **HOME-MADE HYDERABADI BIRYANI** — Moumita das21. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:HOME-MADE_HYDERABADI_BIRYANI_SILIGURI,WEST_BENGAL.jpg). Local asset: `reviewed-commons-102705509.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Kotlety mielone** — Aw58. [CC BY 4.0](https://creativecommons.org/licenses/by/4.0); [source](https://commons.wikimedia.org/wiki/File:Kotlety_mielone_-_14.03.2026.jpg). Local asset: `reviewed-commons-186225912.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Green peas samosa** — Dharmadhyaksha. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Green_peas_samosa.JPG). Local asset: `reviewed-commons-40965189.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Hyderabadi Biryani with Raita, Mirchi Ka Salan and Salad** — Sumit Surai. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Hyderabadi_Biryani_with_Raita,_Mirchi_Ka_Salan_and_Salad.JPG). Local asset: `reviewed-commons-39875216.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
