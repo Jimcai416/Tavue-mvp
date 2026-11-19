@@ -125318,5 +125318,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 448,
     "height": 960,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-16433810",
+    "title": "File:Soto Kudus nasi.JPG",
+    "author": "Midori",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Soto_Kudus_nasi.JPG",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/11/Soto_Kudus_nasi.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "bd479c2bc743079be36275c0b8e780fe8288b022",
+    "name": "Soto Kudus dan nasi",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-16433810.jpg",
+    "assetSha256": "a7081ec01b0a97dc9f8a01f7e3091b515f4a973aee7e8dcb4fb763f9aee65389",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];
