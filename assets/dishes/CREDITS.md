@@ -7871,3 +7871,12 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Vegetable Tagine** — Turajski. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Vegetable_Tagine.jpg). Local asset: `reviewed-commons-36238629.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Hotteok being made in Busan, South Korea** — Ka23 13. [CC BY 4.0](https://creativecommons.org/licenses/by/4.0); [source](https://commons.wikimedia.org/wiki/File:Busan_20241221_131804.jpg). Local asset: `reviewed-commons-193356286.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Keropok lekor** — Unilokman25. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Keropok_Lekor.jpg). Local asset: `reviewed-commons-103759790.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Keropok lekor with sauce** — [avlxyz](https://www.flickr.com/people/avlxyz/). [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:Keropok_Lekor_MYR1_for_3_each_-_Kuantan_Mini_Zoo.jpg). Local asset: `reviewed-commons-23253822.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Hotteok** — [Korea.net  / Korean Culture and Information Service (Photographer name)](http://www.korea.net). [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:Hotteok.jpg). Local asset: `reviewed-commons-31705644.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **hotteok (pancake with sweet fillings)** — Sandra Vallaure. [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Hotteok_2.jpg). Local asset: `reviewed-commons-59724072.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Hotteok (sweet pancakes)** — Charles Haynes. [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:Hotteok_3.jpg). Local asset: `reviewed-commons-88495982.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
