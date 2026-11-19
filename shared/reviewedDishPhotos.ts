@@ -90735,5 +90735,28 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-4099339",
+    "title": "File:Spring pea soup with crème fraîche and bread.jpg",
+    "author": "Sara Goldsmith",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Spring_pea_soup_with_cr%C3%A8me_fra%C3%AEche_and_bread.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Spring_pea_soup_with_cr%C3%A8me_fra%C3%AEche_and_bread.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "ef0818454ae0adafde56fe4ad6bfe9df2fe3855e",
+    "name": "Spring pea soup with crème fraîche and bread",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-4099339.jpg",
+    "assetSha256": "bcb1e6a07e5d41ea14546a67c664d91c8faa08bf8078a71a7229605e75795f73",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true,
+    "authorUrl": "https://www.flickr.com/people/40098061@N00"
   }
 ];
