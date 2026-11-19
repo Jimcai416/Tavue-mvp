@@ -8764,3 +8764,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 
 - **Pasta alla puttanesca** — Popo le Chien. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Pasta_Puttanesca.jpg). Local asset: `reviewed-commons-52276555.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Acquacotta** — [Giorgio Minguzzi  from Italy](https://www.flickr.com/people/22666220@N00). [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:Acquacotta_at_Il_Rifugio_in_Caprese_Michelangelo.jpg). Local asset: `reviewed-commons-51321748.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Chicken tabaka** — Kazakhpopulation. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Georgian-Crispy-Chicken-Tabaka3.jpg). Local asset: `reviewed-commons-136997093.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.

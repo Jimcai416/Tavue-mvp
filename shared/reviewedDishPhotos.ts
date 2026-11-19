@@ -115460,5 +115460,29 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "height": 638,
     "requiresExactMenuName": true,
     "authorUrl": "https://www.flickr.com/people/22666220@N00"
+  },
+  {
+    "id": "commons-136997093",
+    "title": "File:Georgian-Crispy-Chicken-Tabaka3.jpg",
+    "author": "Kazakhpopulation",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Georgian-Crispy-Chicken-Tabaka3.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/16/Georgian-Crispy-Chicken-Tabaka3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "e14f75079cc2b5ad6519c9f80ec5e3c14e29a25b",
+    "name": "Chicken tabaka",
+    "aliases": [],
+    "proteins": [
+      "chicken"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-136997093.jpg",
+    "assetSha256": "ffacb6594995d0d3e5a0b9bf780f7e04b33afec0fea0885bd0b39e2ea740996d",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 640,
+    "height": 960,
+    "requiresExactMenuName": true
   }
 ];
