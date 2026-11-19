@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChD8esiC9ZxLjFfRNtfaH",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Two white oval bowls on grey concrete surface\",\n    \"Left bowl: whole cooked animal with head intact, brown braise, shredded meat component visible\",\n    \"Right bowl: cooked animal with intact head, brown braise, diced orange/tomato pieces, green onion, pink onion slices\",\n    \"Visible garnish: green onion, fresh onion slices, diced tomato\",\n    \"Broth-based presentation consistent with sinigang style\"\n  ],\n  \"phone_observations\": [\n    \"Both dishes clearly visible in thumbnail as paired bowls\",\n    \"Whole animals with distinctive head features distinguishable\",\n    \"Brown braised meat and broth visible\",\n    \"Garnishes (onion, tomato) readable\",\n    \"Adequate detail to confirm distinct finished dishes\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title lists 'Rabbit stew / Kuneho Sinigang' but rabbit is not an approved protein category (only chicken/beef/pork/duck/lamb/seafood allowed)\",\n    \"Description contains two separate dishes ('Mung bean soup and rabbit stew') but source metadata and presentation unclear which dish is which or if both are shown\",\n    \"Species ambiguity: 'kuneho' (Tagalog for rabbit) is not supported as a protein category\",\n    \"Cannot extract exact matching protein quote from approved categories\"\n  ],\n  \"reason\": \"Hold: The photograph shows finished, well-composed braised dishes with intact animals and visible garnishes in natural daylight. Quality and photograph scores are strong. However, the protein category cannot be approved. The source explicitly names 'rabbit' (kuneho), which is not in the allowed protein categories (chicken/beef/pork/duck/lamb/seafood). Without an exact source quote naming an approved protein, identity cannot be verified. The ambiguity regarding which bowl represents which dish, combined with unsupported protein species, requires hold.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1793,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 588,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

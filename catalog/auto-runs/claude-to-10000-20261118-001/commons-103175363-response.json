@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChD8fBSnUdJY4x9eyUoUs",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Shredded meat visible, consistent with stewed preparation\",\n    \"Green leaf-wrapped items visible (possibly wrapped in banana leaf or similar)\",\n    \"Orange and tan vegetable pieces visible\",\n    \"Red onion slices visible on rim\",\n    \"White plate, outdoor setting with foliage\",\n    \"Broth or sauce coating visible on meat and vegetables\"\n  ],\n  \"phone_observations\": [\n    \"Plate clearly visible with shredded meat as prominent central component\",\n    \"Vegetables and wrapped items distinguishable\",\n    \"Overall dish composition readable in thumbnail\"\n  ],\n  \"protein_evidence\": {\n    \"rabbit\": \"Kuneho Sinigang sa Kamias Mung bean soup and rabbit stew\"\n  },\n  \"uncertainties\": [\n    \"Source title contains two dish names separated by description text: 'Kuneho sinigang' (rabbit stew) and 'Ginisang monggo' (mung bean soup). Image shows a single mixed dish, not clearly two separate components.\",\n    \"Ambiguity whether the visible plate is the rabbit stew alone, the mung bean soup alone, or a combined preparation. The 'mung bean soup and rabbit stew' phrasing is unclear—are they mixed or distinct layers?\",\n    \"Source description lists ingredients (bilimbi, tomatoes, lemongrass) but visual confirmation of bilimbi or lemongrass is not definitive from the photograph.\",\n    \"No legible text or clear harvest documentation confirming this is a finished dish versus a home preparation stage.\"\n  ],\n  \"reason\": \"Identity check fails due to ambiguous source title listing two separate dishes ('Kuneho sinigang' and 'Ginisang monggo') with unclear relationship to the single mixed plate shown. The description 'Mung bean soup and rabbit stew in bilimbi, tomatoes and lemon grass' does not unambiguously specify whether these are layered, mixed, or whether this image shows only one component. Protein is sourced (rabbit), and photograph quality is acceptable, but the canonical_name cannot be reliably extracted without resolving whether this is 'Kuneho Sinigang', 'Ginisang Monggo', or a combined dish. Hold for clarification of exact dish identity.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1793,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 659,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

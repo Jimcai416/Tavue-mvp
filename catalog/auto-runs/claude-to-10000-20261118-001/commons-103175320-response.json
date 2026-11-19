@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChD8ej7GNQJxfZFjpGaaQ",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Cooked meat pieces in gravy\",\n    \"Tomatoes (orange/red pieces)\",\n    \"Leafy greens (possibly kangkong or similar)\",\n    \"Green onion/scallion\",\n    \"Purple onion slices\",\n    \"Lime wedge\",\n    \"White plate\",\n    \"Broth-based dish\"\n  ],\n  \"phone_observations\": [\n    \"Finished, cooked dish clearly visible\",\n    \"Meat and vegetables prominent in thumbnail\",\n    \"Gravy/broth evident\",\n    \"Garnishes readable\",\n    \"No clipping of essential components\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title lists both 'Mung bean soup' and 'rabbit stew' (Kuneho Sinigang) but metadata structure is ambiguous—unclear if this is a single combined dish or two separate dishes photographed together\",\n    \"Species identity: 'Kuneho' refers to rabbit, but rabbit is not an allowed protein category per instructions (allowed: chicken/beef/pork/duck/lamb/seafood only)\",\n    \"No explicit source quote unambiguously identifying this single photograph as 'Kuneho Sinigang' or confirming rabbit as the sole/primary protein\",\n    \"Visible meat cannot be reliably confirmed as rabbit by appearance alone\"\n  ],\n  \"reason\": \"Source metadata declares 'rabbit stew' (Kuneho Sinigang), but rabbit is not an allowed protein category. The description is also structurally ambiguous (listing 'Mung bean soup and rabbit stew' with multiple recipes), making it unclear whether this photograph represents a single identifiable dish or a composite. No exact canonical name can be assigned that matches the dish shown, and no valid protein_evidence can be extracted. Photo quality, sharpness, lighting and composition are all acceptable, but identity verification fails.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1793,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 574,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

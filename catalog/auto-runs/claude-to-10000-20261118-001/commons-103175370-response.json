@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChD8fQv9n4CwEyqjHsD1q",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": \"Kuneho Sinigang sa Kamias Mung bean soup and rabbit stew in bilimbi, tomatoes and lemon grass\",\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Shredded meat visible on plate, consistent with stewed preparation\",\n    \"Green leaf-wrapped items recognizable as banana leaves or similar wrapping\",\n    \"Pink/purple onion slices scattered throughout\",\n    \"Orange vegetable pieces (carrot or similar) present\",\n    \"Mung bean paste or similar grain component visible in centre\",\n    \"Natural outdoor lighting, finished plated dish\",\n    \"Phone thumbnail shows complete dish with key components readable\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows finished plated dish\",\n    \"Shredded meat component prominent and identifiable\",\n    \"Wrapped items (likely banana leaves) visible\",\n    \"Vegetable garnishes readable\",\n    \"No clipping of essential food elements\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title lists 'Rabbit stew' (Kuneho Sinigang) but rabbit is not an allowed protein category per instructions (only chicken/beef/pork/duck/lamb/seafood permitted)\",\n    \"Description mentions both 'Mung bean soup' and 'rabbit stew' as separate components, creating ambiguity about whether this is a single unified dish or multiple preparations\",\n    \"Exact species identification of shredded meat in photograph cannot be confirmed visually; source claims rabbit but this species cannot be accepted\"\n  ],\n  \"reason\": \"Hold: Source identifies protein as rabbit (Kuneho), which is not an allowed category per protocol instructions (only chicken/beef/pork/duck/lamb/seafood). Although photograph quality is good and all checks except identity pass, the protein cannot be validated against allowed categories. The description also creates ambiguity by listing both 'Mung bean soup' and 'rabbit stew' as potentially separate components. Cannot proceed without source clarification of an allowed protein or confirmation that this is primarily a vegetable/legume dish without the rabbit component.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1793,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 605,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
