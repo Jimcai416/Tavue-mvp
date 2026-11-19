@@ -10064,3 +10064,8 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 - **Chumbeque, turron originario del norte peruano** — Chasking. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Chumbeque,_dulce_piurano..JPG). Local asset: `reviewed-commons-18479522.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Flan de Turrón** — [Javier Lastras  from España/Spain](https://www.flickr.com/people/22662305@N04). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Flan_de_turron.jpg). Local asset: `reviewed-commons-10298086.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Turrón de Jijona o turrón blando** — Juan Emilio Prades Bel. [CC BY 4.0](https://creativecommons.org/licenses/by/4.0); [source](https://commons.wikimedia.org/wiki/File:Turr%C3%B3n.jpg). Local asset: `reviewed-commons-156861214.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Handu gulha** — Xavier Romero-Frias. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Maldivian_gulha33.JPG). Local asset: `reviewed-commons-25183117.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Dholl puri** — Yoann74. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Dholl_puri.jpg). Local asset: `reviewed-commons-106000154.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
