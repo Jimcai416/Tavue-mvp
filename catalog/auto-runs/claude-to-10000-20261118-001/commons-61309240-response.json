@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCGjP8YZcqSRs2WyucAK",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 3,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Plastic-wrapped packaged noodles in transparent bag\",\n    \"White plastic utensil fork visible\",\n    \"Price label and barcode visible on packaging\",\n    \"Subject is uncooked/raw packaged product, not finished dish\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title references both '炒麵' (stir-fried noodles) and '涼皮' (cold skin noodles)—contradictory dish identities\",\n    \"Package contents cannot be verified as actually matching either declared dish\",\n    \"No finished, exposed, cooked dish visible—only sealed packaging\"\n  ],\n  \"reason\": \"Reject: This is a packaged, uncooked/unopened food product in transparent plastic wrapping, not a finished, exposed, photographic dish. The image shows merchandise in a retail setting. The title contains conflicting dish identifiers (炒麵 vs 涼皮) creating ambiguity about actual identity. Packaged raw or preparation-stage food does not meet acceptance criteria. Phone thumbnail confirms the subject is a sealed package, not an appetising finished dish with visible components.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1834,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 406,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
