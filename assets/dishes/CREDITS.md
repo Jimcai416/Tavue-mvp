@@ -9486,3 +9486,8 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 
 - **Babycorn Manchurian Gravy** — Nandhinikandhasamy. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Babycorn_Manchurian_Gravy_01.jpg). Local asset: `reviewed-commons-40029890.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Mandioca hervida como guarnición** — Horacio Cambeiro. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Mandioca_hervida_como_guarnici%C3%B3n_(side_dish).jpg). Local asset: `reviewed-commons-184397723.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Zapallo hervido como guarnición** — Horacio Cambeiro. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Zapallo_hervido_como_guarnici%C3%B3n_(side_dish).jpg). Local asset: `reviewed-commons-184398107.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Guacamole** — [Javier Lastras  from España/Spain](https://www.flickr.com/people/22662305@N04). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Guacamole_-_AC.jpg). Local asset: `reviewed-commons-6899166.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
