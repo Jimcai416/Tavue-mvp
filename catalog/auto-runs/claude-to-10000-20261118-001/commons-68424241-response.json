@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChC11TEvkombEpC4oHQ2s",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Golden-brown wrap with layered exterior visible\",\n    \"Prominent portion on white plate with clear plating\",\n    \"Crispy fries arranged on left side\",\n    \"White dipping sauce in small container\",\n    \"Natural daylight, well-exposed full image\"\n  ],\n  \"phone_observations\": [\n    \"Wrap, fries and sauce clearly visible in thumbnail\",\n    \"Main subject prominent and readable\",\n    \"No clipping of essential components\",\n    \"Adequate detail to identify dish category\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title states 'Dana dürüm (veal wrap)' but 'dana' in Turkish typically means beef, not veal. Veal (young beef/calf meat) is not a standard interpretation of 'dana' in Turkish cuisine.\",\n    \"The source description contains a contradiction: the title says 'veal wrap' but 'dana' (the Turkish word) refers to beef, not veal. These are different animals/cuts.\",\n    \"No explicit visual confirmation of the specific meat species is possible from the photograph alone.\"\n  ],\n  \"reason\": \"Source identity contradiction: 'dana' (Turkish for beef) conflicts with the English translation 'veal wrap' (which would be calf meat). The source itself presents conflicting evidence about which animal protein is used. This ambiguity about meat species requires hold pending clarification. All photograph and phone checks pass with strong scores (≥4), but the protein identification uncertainty prevents acceptance.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1748,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 482,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

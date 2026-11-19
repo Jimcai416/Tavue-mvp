@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBzzdUZLVNQuQquf3cvL",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Cream-coloured rolled wrap with visible filling\",\n    \"Green herb garnish border on plate\",\n    \"Serving spoon present\",\n    \"Natural daylight illumination\"\n  ],\n  \"phone_observations\": [\n    \"Rolled wrap prominently visible in thumbnail\",\n    \"Cream filling visible\",\n    \"Green garnish visible at plate edge\",\n    \"Dish clearly identifiable\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'Steak and vegetable omelet dürüm' but photograph shows no visible steak (beef) throughout the wrap interior or exterior\",\n    \"No meat species explicitly identified in source description to quote\",\n    \"Visible interior appears to be only vegetables and egg; steak presence cannot be visually confirmed\",\n    \"Source title–image mismatch: claimed steak ingredient not evident in photographic evidence\"\n  ],\n  \"reason\": \"Reject: Identity check fails. Source title claims 'Steak and vegetable omelet dürüm' but the photograph shows no visible steak or other identifiable meat throughout the rolled wrap. The interior visible in the cross-section and exterior show only vegetables and egg-based filling. No protein species can be quoted exactly from the description to match visual evidence. The claimed meat ingredient contradicts what is photographically observable, triggering a hold-to-reject boundary that cannot be overridden by photograph quality alone.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 2011,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 458,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
