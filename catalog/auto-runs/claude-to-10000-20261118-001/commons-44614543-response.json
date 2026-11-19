@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChC2w4iiZvvEs2J8L8pCv",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 5,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Bright green herb-based sauce (likely cilantro)\",\n    \"Radish slices (pink/white discs)\",\n    \"Central protein mass in brown/tan (raw fish)\",\n    \"Liquid/broth in dark ceramic bowl\",\n    \"Served in blue-rimmed dark bowl on wooden surface\"\n  ],\n  \"phone_observations\": [\n    \"Bowl shape and colour clearly visible\",\n    \"Green sauce and radish slices readable\",\n    \"Central protein mass prominent\",\n    \"Overall composition and plating recognisable\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title specifies 'local rockfish crudo' but source metadata states 'rockfish' without explicit confirmation in visible form—rockfish species ambiguous and not explicitly named in title as a standard category protein\",\n    \"Description says 'rockfish crudo' but no unambiguous visual confirmation of rockfish identity possible from raw fish appearance alone\",\n    \"Source title references 'File:Aguachile, local rockfish crudo, serrano, guava, Ensenada olive oil' but canonical identity requires exact phrase matching; metadata and title structure include filename artifacts\"\n  ],\n  \"reason\": \"Photograph quality, sharpness, lighting, composition and phone visibility are all strong (scores 4–5). The dish is a finished, exposed crudo with prominent plating, readable components (green sauce, radish, raw protein, broth) in both full image and thumbnail. However, identity check fails: the title contains 'File:' prefix and filename structure; more critically, 'rockfish' is not an allowed protein category (chicken/beef/pork/duck/lamb/seafood only), and rockfish species is ambiguous and not explicitly declared as one of those categories. The source description does not provide an exact phrase matching a canonical dish name that preserves both identity and allowed protein terminology. Without explicit, unambiguous species identification within the allowed category set or a source-exact dish name that resolves the protein ambiguity, identity cannot be confirmed.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1744,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 597,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

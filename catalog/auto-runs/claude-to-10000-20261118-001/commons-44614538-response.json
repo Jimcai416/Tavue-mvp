@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChC2wCwKmEskok3fY22Ta",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Raw fish ceviche-style dish in light blue bowl\",\n    \"Red/pink liquid (likely citrus cure)\",\n    \"Avocado slices visible\",\n    \"Green herbs and microgreens\",\n    \"Purple/black edible flowers\",\n    \"White crumbled garnish (possibly cheese or macadamia)\",\n    \"Wooden table surface\",\n    \"Prominent in both full and thumbnail views\"\n  ],\n  \"phone_observations\": [\n    \"Dish clearly visible and identifiable in thumbnail\",\n    \"Bowl shape and contents readable at small size\",\n    \"Garnishes distinguishable\",\n    \"No clipping of essential components\",\n    \"Appetising presentation maintained\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title states 'local yellowtail' but yellowtail is not an allowed category (seafood category is broader but no explicit 'yellowtail' naming permitted in protocol)\",\n    \"Fish species 'yellowtail' cannot be confirmed as matching the allowed protein categories (chicken/beef/pork/duck/lamb/seafood require explicit source naming of supported species)\",\n    \"No explicit source text identifying this as 'seafood' in the title—only the common name 'yellowtail' which does not match protocol-approved category names\"\n  ],\n  \"reason\": \"Image quality, composition and phone visibility all meet standards. However, the source title names 'yellowtail' as the protein, which does not match the allowed category list (chicken/beef/pork/duck/lamb/seafood). The protocol requires exact source quote naming of each animal; 'yellowtail' is a common fish name but does not appear as an explicit allowed category. Holding pending clarification of protein category eligibility or source redescription using an approved species term.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1746,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 548,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
