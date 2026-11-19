@@ -6674,3 +6674,9 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 
 - **Oliebollen with raisins** — Michelle_Boon. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Oliebollen_2.jpg). Local asset: `reviewed-commons-65980240.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Ensalada de papas** — Horacio Cambeiro. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Ensalada_de_papas_(raciones).jpg). Local asset: `reviewed-commons-165103681.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Oliebollen** — Rob Mieremet / Anefo. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Oliebollen_eten,_brandweerlieden_eten_oliebollen,_Bestanddeelnr_926-9076.jpg). Local asset: `reviewed-commons-65839152.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Pea soup in Loviisa** — JIP. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Pea_soup_in_Loviisa.jpg). Local asset: `reviewed-commons-136780517.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Tortas fritas de Argentina con mate cocido** — Horacio Cambeiro. [CC BY 3.0](https://creativecommons.org/licenses/by/3.0); [source](https://commons.wikimedia.org/wiki/File:Tortas_fritas_de_Argentina_con_mate_cocido_acompa%C3%B1adas_de_raciones_de_az%C3%BAcar,_queso_crema_y_manteca.jpg). Local asset: `reviewed-commons-180592942.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
