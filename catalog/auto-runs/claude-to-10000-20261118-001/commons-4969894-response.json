@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCdkbxwe46Gxew1M9BMB",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 3,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Seeded rye bread visible\",\n    \"Prominent red cured meat spread\",\n    \"Finished sandwich form\",\n    \"Casual dining setting\"\n  ],\n  \"phone_observations\": [\n    \"Sandwich clearly visible in thumbnail\",\n    \"Red meat filling prominent\",\n    \"Bread structure readable\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'Corned Beef' but source title/description metadata is untrustworthy per instructions\",\n    \"Red spread appearance is consistent with corned beef but cannot be visually confirmed as corned beef specifically vs. other cured beef preparations, beet purée, or similar red condiment\",\n    \"No explicit visual confirmation of corned beef identity in the photograph itself\",\n    \"Species 'beef' is not explicitly stated in a trustworthy source description; metadata title is explicitly untrusted\"\n  ],\n  \"reason\": \"Reject: Identity check fails. The source title in metadata ('Corned Beef Sandwich Reuben') is explicitly untrusted per instructions. The photograph shows a finished sandwich with red meat filling on seeded rye, but visual appearance alone cannot confirm the specific identity as 'corned beef' vs. other red-meat or condiment preparations. No trustworthy explicit source description of the protein is provided. The check for 'identity must agree with exact source title/description and visible form' cannot be satisfied when the title is untrustworthy and visual evidence alone is insufficient to prove species and preparation. Hold would be appropriate if identity were ambiguous; reject is applied due to untrustworthy metadata and lack of alternative authoritative description.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1724,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 509,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

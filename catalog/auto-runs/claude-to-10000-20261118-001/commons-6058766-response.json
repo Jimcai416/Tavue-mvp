@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCdkmccnpS8RtHQoQx8S",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Toasted bread exterior visible\",\n    \"Layered meat (reddish, clearly sliced)\",\n    \"Cheese layer present\",\n    \"Classic sandwich form\"\n  ],\n  \"phone_observations\": [\n    \"Sandwich halves clearly visible in thumbnail\",\n    \"Layered structure readable\",\n    \"Meat and cheese components discernible\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title 'ReubenSandwichHalves.jpg' is a filename, not an authoritative dish name or description\",\n    \"Description states location ('Civic Center in San Francisco') but provides no explicit dish qualification or variant identifier\",\n    \"Meat species not explicitly named in source metadata; reddish colour suggests corned beef by tradition, but this is inference, not stated fact\",\n    \"No authoritative source title or description field containing canonical dish name with explicit protein declaration\"\n  ],\n  \"reason\": \"Rejection: The source metadata provides only a filename and generic location description, not a proper title or description field. No explicit protein declaration (e.g., 'Reuben with corned beef') appears in the supplied metadata. While the sandwich is visually recognizable as a Reuben by appearance and tradition, identity cannot be confirmed from an exact source quote with named protein. The filename alone does not constitute sufficient authoritative evidence for canonical naming. Protein_evidence remains empty because no source text explicitly names the meat species.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1718,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 465,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
