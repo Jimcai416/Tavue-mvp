@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCB4feoPkvZKXp9snkXq",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 3,\n    \"lighting\": 2,\n    \"composition\": 2,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Raw, uncooked dough pieces in plastic wrap on white plate\",\n    \"No finished, exposed dish visible\",\n    \"Preparation stage, not a plated meal\",\n    \"Minimal detail readable in thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title references 'Akamu paste' but image shows raw dough balls, not paste\",\n    \"Unclear if this is an ingredient display or incomplete preparation\",\n    \"No cooked or finished dish evident\"\n  ],\n  \"reason\": \"Image shows raw dough pieces in plastic wrap at a preparation or market stage, not a finished, exposed, photographic dish. The thumbnail confirms only uncooked components. Title-image mismatch: 'Akamu paste' should be a finished product, not raw dough. Fails photograph quality check (preparation stage), phone check (raw materials only), and identity check (contradicts 'paste' description). Scores insufficient across sharpness (3), lighting (2), composition (2), and appeal (1).\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1748,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 379,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
