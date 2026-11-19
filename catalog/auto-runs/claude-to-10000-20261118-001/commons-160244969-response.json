@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDBYsSF4WaUnRfQysbBC",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Raw, uncooked beans in a container—not a finished, exposed, cooked dish\",\n    \"Essential food component is present and readable in thumbnail\",\n    \"No preparation, seasoning, or cooking visible\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title describes 'One of the beans varieties grown in Uganda' but provides no specific dish name, preparation method, or finished-food state\",\n    \"Image shows raw legumes in a serving bowl, not a prepared culinary dish\"\n  ],\n  \"reason\": \"Rejection: This is raw, uncooked beans in a container—a raw/preparation stage, not a finished, exposed, appetising culinary dish. The source provides only a generic agricultural description ('beans varieties grown in Uganda') with no specific dish identity, recipe, preparation, or cooked state. Home cooking and street food are welcome, but this image documents an ingredient or intermediate stage of food preparation, not a finished dish suitable for a food photograph review database. Quality of photograph and phone visibility are acceptable, but identity and dish completion requirements fail.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1938,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 382,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
