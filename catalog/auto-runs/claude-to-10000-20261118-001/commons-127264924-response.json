@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBXQg2zyeJ3XYhfh5dsZ",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 2\n  },\n  \"visible_support\": [\n    \"Dark, cooked sausage slices in cardboard box with white paper\",\n    \"Cross-sections show grain/filling characteristic of morcilla\",\n    \"Natural lighting, food clearly exposed and finished\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail shows multiple dark sausage slices stacked in box\",\n    \"Essential components visible but appeal limited by raw presentation in transit\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Morcilla is a blood sausage (Spanish black pudding); blood is not an allowed protein category (chicken/beef/pork/duck/lamb/seafood only)\",\n    \"While morcilla may contain pork as a base ingredient, the defining and primary component is porcine blood, which falls outside the specified protein taxonomy\",\n    \"No explicit source quote names an allowed protein species\"\n  ],\n  \"reason\": \"Morcilla de Burgos is a blood sausage whose primary and defining ingredient is blood. Although it may contain pork as a secondary ingredient, blood is not among the allowed protein categories (chicken/beef/pork/duck/lamb/seafood). The source does not explicitly name an allowed protein species as the primary component. Additionally, the image shows finished sausage slices in a distribution box—a transit/catering stage rather than a plated or served dish, which limits appetite appeal. Reject due to unclassifiable primary protein and ambiguous serving context.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1686,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 464,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

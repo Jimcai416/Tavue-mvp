@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBXRZcaJo5NsjSe3mr9k",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Stew in dark pot with reddish-brown broth\",\n    \"Large sliced sausage (pale interior, cured skin)\",\n    \"Diced orange/yellow root vegetables (carrot, possibly potato)\",\n    \"Golden legumes consistent with beans\",\n    \"Dark morcilla/blood sausage visible\",\n    \"Glossy, appetising finish suggesting cooked dish\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows finished stew in pot\",\n    \"Sausage, beans, and vegetables prominently visible\",\n    \"Orange-brown broth and ingredients legible\",\n    \"Composition and colours match source photograph\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title states 'Fabada Asturiana' but metadata fields (author, license) indicate this may be a wiki/file entry rather than verified dish identification by user\",\n    \"Sausage species visible (pale sliced sausage + dark morcilla) cannot be confirmed as the specific chorizo and morcilla traditional to Fabada without explicit source quote naming these proteins\",\n    \"Source description is minimal ('Fabada Asturiana' only); no detailed ingredient list provided to verify protein composition\",\n    \"Fabada Asturiana traditionally contains specific pork products (chorizo, morcilla, panceta), but source does not explicitly name these animals\"\n  ],\n  \"reason\": \"Photograph quality, sharpness, lighting, and composition all meet criteria (scores ≥4). Dish appears to be a finished, appetising bean stew with sausage and vegetables, sharply detailed and naturally coloured in both full image and phone thumbnail. However, identity check fails: source title 'Fabada Asturiana' alone is insufficient to confirm the canonical identity without explicit protein naming in the description. Fabada Asturiana traditionally includes pork products (chorizo, morcilla, panceta), but the source metadata provides no explicit statement naming these animals. While the visible sausages are consistent with the dish, protein_evidence cannot be populated from an exact source quote, as none is provided. The sparse description and file metadata format create uncertainty about whether this is a verified user submission or a wiki extract. Per protocol, protein species must be explicitly named in source text; tradition and appearance alone do not suffice. Hold pending clarification of canonical identity and explicit protein naming.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1726,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 677,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
