@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCM7ucw2WU5howYMr32W",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": \"Buff Open Momo steamed\",\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 5,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Steamed pleated dumplings arranged in circle on white plate\",\n    \"Red/tomato dipping sauce in central white bowl\",\n    \"Finished, exposed dish with natural golden-tan dumpling wrappers\",\n    \"Sharp detail visible in phone thumbnail\",\n    \"Professional plating with proper place settings\"\n  ],\n  \"phone_observations\": [\n    \"Central circular arrangement of dumplings clearly visible\",\n    \"Red dipping sauce bowl prominent in centre\",\n    \"White plate and table setting readable\",\n    \"Dumplings and sauce are essential and unclipped\",\n    \"Composition and dish identity preserved in thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title states 'Buff Open Momo' but 'buff' is ambiguous—it may refer to buffalo/water buffalo meat, but this is not an explicitly allowed protein category (only chicken/beef/pork/duck/lamb/seafood permitted). The exact animal species is not unambiguously declared in the source text.\",\n    \"The dish identity depends on the protein qualifier 'Buff', which cannot be verified or accepted without explicit species confirmation matching one of the canonical categories.\"\n  ],\n  \"reason\": \"The photograph is of professional quality, properly exposed, sharply detailed, and shows a finished steamed dumpling dish with appetizing presentation and readable components in both full and thumbnail views. However, the source title includes the protein qualifier 'Buff', which refers to buffalo/water buffalo meat—a species not in the allowed protein category list (chicken/beef/pork/duck/lamb/seafood). Without explicit confirmation that 'buff' maps to one of the canonical categories, the identity cannot be confirmed with certainty. The dish cannot be accepted because the protein-qualified identity cannot be validated against the permitted protein set, making it impossible to generate a canonical name that preserves the source identity accurately.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1742,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 568,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
