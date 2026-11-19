@@ -10551,3 +10551,8 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Desayuno Ranchero** — Zenia Núñez. [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:Desayuno_Ranchero.jpg). Local asset: `reviewed-commons-147288080.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Nasi Liwet** — Atkhun08. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Nasi_Liwet.jpg). Local asset: `reviewed-commons-114844454.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Bubur injin** — Gunawan Kartapranata. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Bubuh_Injin_Bali_2.jpg). Local asset: `reviewed-commons-58139148.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
