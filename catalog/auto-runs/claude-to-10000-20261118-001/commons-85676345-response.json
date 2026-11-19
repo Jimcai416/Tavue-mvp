@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCyjFUwY34FK1ic5GayU",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Raw or partially cooked pork meat in pan on stovetop\",\n    \"Pale pink/grey surface indicative of curing/smoking preparation stage\",\n    \"Meat is sliced but unfinished, in active cooking vessel\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Image shows raw/preparation stage meat, not a finished dish\",\n    \"Uzená vepřová krkovice translates to smoked pork neck; the photograph captures the meat in preparation or early cooking, not as a plated, finished dish\",\n    \"Source metadata indicates maso se ohřívá (meat is heated) or used холодно (cold) with condiments, but neither state is visibly achieved here\"\n  ],\n  \"reason\": \"Reject: This is a preparation/cooking-in-progress image, not a finished, exposed, plated dish. The pork neck meat is sliced and placed in a cooking pan on an active stovetop, showing raw or partially cooked surface. The guidelines explicitly exclude raw/preparation stages. While the source title and metadata are clear (uzená vepřová krkovice = smoked pork neck), the photograph does not show the dish in a finished, appetizing state suitable for a food review database. A finished plated version or cold service with traditional accompaniments would be required.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1855,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 444,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

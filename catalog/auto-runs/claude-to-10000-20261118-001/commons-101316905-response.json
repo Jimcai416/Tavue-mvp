@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCyjdqrLsBDrVidBCSUu",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Cooked pasta with visible pink/ham-coloured cubes mixed throughout\",\n    \"Natural lighting, home-cooked appearance\",\n    \"Dish served in dark cooking vessel, clearly prepared and finished\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows pasta and pink meat pieces\",\n    \"Components remain identifiable at reduced resolution\",\n    \"Adequate detail for recognition of dish type\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title translates to 'Smoked pork neck and pasta' with 'ham slices baked - smoked meat', but source uses generic 'uzené maso' (smoked meat) without explicit species confirmation\",\n    \"Visible meat appears to be ham or pork product, but exact species cannot be visually confirmed from appearance alone\",\n    \"Description contains 'Šunkové flíčky' (ham pieces) but primary title refers to 'vepřová krkovice' (pork neck) – unclear which is the actual primary ingredient or if both are present\",\n    \"Czech dish name and English description do not align clearly; source metadata inconsistency\"\n  ],\n  \"reason\": \"Identity check fails due to source contradiction: title names 'pork neck' (vepřová krkovice) but description states 'ham slices baked' (Šunkové flíčky). Generic 'uzené maso' (smoked meat) without explicit species confirmation prevents confident protein categorization. The dish is visually a finished, appetising pasta with smoked meat cubes, sharply detailed with good lighting and composition, but cannot be accepted without resolution of the naming conflict and explicit species declaration in the source. Hold pending clarification of actual dish identity and meat type.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1758,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 533,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCyj5YPvEDupXu2zWr99",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": true,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 3,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Subject too small and unclear in 124x96 thumbnail\",\n    \"Critical detail loss: individual cuts not distinctly readable\",\n    \"Plastic wrapping visible on some pieces obscures food form\",\n    \"Insufficient visual confirmation of finished, exposed dish state\"\n  ],\n  \"protein_evidence\": {\n    \"pork\": \"Uzená vepřová kotleta\"\n  },\n  \"uncertainties\": [\n    \"Photograph shows raw or uncooked meat in plastic wrapping, not a finished, exposed, cooked dish\",\n    \"Some cuts retain vacuum-seal packaging, indicating preparation/raw stage rather than plated final product\",\n    \"Severe thumbnail size and clarity loss prevents verification of appetising finished state\"\n  ],\n  \"reason\": \"Reject: image depicts raw or uncooked pork cutlets in plastic wrapping at preparation stage, not a finished exposed dish. The phone thumbnail fails to clearly resolve individual food components and confirms packaging visibility. Despite acceptable source naming and protein clarity (vepřová = pork), the photograph does not meet the core requirement of showing a finished, exposed, likely photographic dish. Metadata describes suggested side dishes only, confirming this is ingredient documentation rather than a plated meal ready for consumption.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1841,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 419,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

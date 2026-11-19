@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCyj8htpJKeVWYXHVVyU",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Sliced cured meat product on wooden board with partial wrapper visible\",\n    \"Pink-grey colour typical of cooked/cured pork\",\n    \"Thin slices stacked, characteristic of deli or prepared cold meat\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title 'Uzená vepřová kotleta' (smoked pork cutlet) describes a prepared dish, but photograph shows pre-sliced cold cuts or deli meat on a board, not a finished plated kotleta (cutlet) in its served form\",\n    \"Mismatch between claimed dish (a cutlet requiring cooking and plating) and visible form (sliced cured meat product, appears to be packaged deli meat)\",\n    \"No evidence of kotleta preparation, breading, or typical cutlet presentation\",\n    \"Ambiguous whether this is the actual finished dish or a component/raw ingredient stage\"\n  ],\n  \"reason\": \"Identity mismatch. Source claims 'Uzená vepřová kotleta' (smoked pork cutlet), a cooked dish with specific Czech side-dish accompaniments listed. Photograph shows sliced cured/smoked meat product on a board in what appears to be a packaging or preparation context, not a finished, plated kotleta ready to serve. The form contradicts the stated identity: a kotleta is a cutlet requiring cooking and proper plating presentation, not pre-sliced cold cuts. This appears to be either an ingredient stage, deli product, or misidentified source description. Insufficient evidence that the finished dish matches the declared name.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1841,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 512,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

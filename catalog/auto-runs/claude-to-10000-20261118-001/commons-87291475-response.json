@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCyint3DT5uZ9nQznEtM",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 3,\n    \"appeal\": 2\n  },\n  \"visible_support\": [\n    \"Packaged cured pork fat (slanina) with Purland brand label\",\n    \"Czech product labelling visible\",\n    \"Package shows vacuum-sealed meat product\"\n  ],\n  \"phone_observations\": [\n    \"Phone thumbnail shows only packaging label and barcode\",\n    \"No finished dish visible in thumbnail\",\n    \"Essential food content is clipped or obscured by label overlay\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source describes this as a raw/preparation-stage ingredient (uzená slanina – smoked lard/fat for cooking), not a finished plated dish\",\n    \"Image shows packaged product with label overlay, not an exposed cooked dish\",\n    \"Phone thumbnail displays only packaging metadata, not food\",\n    \"No visible prepared/cooked form of a recognizable dish in either image\"\n  ],\n  \"reason\": \"Rejection: This is a packaged ingredient (smoked pork fat/lard) photographed in its retail packaging, not a finished, plated, or prepared food dish. The source description explicitly identifies it as a preparatory ingredient ('Slanina k uzení se připravujeme…' – lard prepared for use in cooking). The phone thumbnail shows only the product label and barcode, with no visible finished food. The full photograph displays primarily packaging with label overlay, not an appetising, distinctly exposed prepared dish suitable for a food photography collection. Home cooking and street food are welcome, but this crosses into raw ingredient/packaging photography.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1886,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 476,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

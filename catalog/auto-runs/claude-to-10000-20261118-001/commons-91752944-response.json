@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCyiXWpejFYMS4Ntn27q",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Three whole smoked fish filets with golden-brown skin\",\n    \"Cooked, exposed finish with visible scales and char\",\n    \"Natural colour and appetising appearance\",\n    \"Sharp detail in both source and thumbnail\",\n    \"Prominent subject on white plate\"\n  ],\n  \"phone_observations\": [\n    \"Three fish filets clearly visible in thumbnail\",\n    \"Golden-brown colouring preserved\",\n    \"Readable as finished smoked fish dish\",\n    \"Essential components not clipped\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title 'Uzená ryba' (Czech: 'Smoked fish') is generic and does not specify exact fish species\",\n    \"Description lists multiple possible freshwater species (carp, tench, eel, tolstolobik, catfish, vendace) and mentions 'most often sold sea smoked fish (smoked mackerel)' but provides no definitive identification of which species is actually shown\",\n    \"Visual appearance alone cannot definitively distinguish between mackerel, carp, catfish or other listed species\",\n    \"No specific dish name or variant qualifier beyond generic 'smoked fish'\"\n  ],\n  \"reason\": \"Reject: Identity check fails. The source description is non-specific ('Uzená ryba' = generic 'Smoked fish') and lists multiple possible species (mackerel, carp, tench, eel, tolstolobik, catfish, vendace) without confirming which is depicted. Visual appearance cannot reliably distinguish between these species. Per instructions, ambiguous meat species and source contradictions require hold/reject. The image quality, photography, and phone thumbnail are all acceptable, but the unresolved species identification prevents acceptance. A canonical name cannot be assigned without knowing the specific fish type.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1829,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 546,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

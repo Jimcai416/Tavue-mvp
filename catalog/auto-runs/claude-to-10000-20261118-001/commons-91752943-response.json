@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCyiYJwViKFKM5nWM6ge",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 2\n  },\n  \"visible_support\": [\n    \"Two whole smoked fish with skin intact, golden-brown lacquered surface\",\n    \"Fish appear to be wrapped or glazed, possibly in aspic or gelatinous coating\",\n    \"Blue plate, home/casual presentation\",\n    \"Sharp detail of fish anatomy visible in full image and thumbnail\"\n  ],\n  \"phone_observations\": [\n    \"Both fish clearly visible and identifiable in thumbnail\",\n    \"Golden-brown colour and form preserved at reduced size\",\n    \"Adequate visual prominence for a smoked fish dish\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Species identity ambiguous: description lists 'mořská uzená ryba (uzená makrela)' as most common (smoked mackerel), but also names freshwater alternatives (carp, bream, eel, grass carp, catfish, cisco). Source does not confirm which species is present in THIS image.\",\n    \"Exact dish name unclear: source provides generic category 'Uzená ryba' (smoked fish) with multiple possible preparations and species. No specific identity match between title/description and visible form.\",\n    \"Preparation method uncertain: photo shows glazed/lacquered finish; description mentions 'nasolené nebo naložené v laku se zeleninou' (salted or preserved in aspic with vegetables), but visible vegetables not clearly identifiable.\"\n  ],\n  \"reason\": \"Reject: Identity check fails. The source description is a generic category covering multiple fish species (mackerel, carp, bream, eel, grass carp, catfish, cisco) and does not specify which is pictured. Species cannot be inferred from appearance alone. Canonical name cannot be established with certainty, and the ambiguity of which fish this is constitutes a material identity contradiction. Photograph quality and phone visibility are adequate, but identity rule requires exact source quote matching a specific dish; a generic category with unresolved alternatives does not satisfy this requirement.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1829,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 576,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCyiiVNKAjuv7PSNotYk",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Cooked/smoked fish fillets with glossy amber-brown skin\",\n    \"Natural colour and finish consistent with hot-smoked fish\",\n    \"Sharp detail in muscle striations visible in full image\",\n    \"Prominent subject on plain blue plate\",\n    \"Phone thumbnail clearly shows cooked fish structure\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail shows two cooked fish pieces with characteristic amber-brown colour\",\n    \"Striations and muscle detail visible at reduced size\",\n    \"Subject occupies adequate portion of thumbnail\",\n    \"No clipping of essential components\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title/description lists multiple possible species (mackerel, carp, tench, eel, tolstolobik, catfish, vendace) without specifying which is present in this photograph\",\n    \"No single explicit species identification matches the visible form\",\n    \"Czech description is example/category text, not a specific dish identification for this image\",\n    \"Ambiguous whether freshwater or marine species shown\"\n  ],\n  \"reason\": \"Image quality, sharpness, lighting and composition all meet standards. Photograph shows a finished, exposed, naturally cooked smoked fish fillet with appetising appearance and sharp detail. However, identity check fails: the source description lists multiple possible fish species (mackerel, carp, tench, eel, tolstolobik, catfish, vendace) as examples of what 'uzená ryba' (smoked fish) might be, without specifying which species is actually depicted. No exact species can be reliably matched to the visible form from the ambiguous source text. This violates the requirement that identity must agree with the exact source title/description and visible form. Unknown fish species means hold.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1829,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 540,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
