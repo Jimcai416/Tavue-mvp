@@ -7821,3 +7821,8 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 - **Berenjenas rebozadas con salmorejo** — Tamorlan. [CC BY 3.0](https://creativecommons.org/licenses/by/3.0); [source](https://commons.wikimedia.org/wiki/File:Berenjenas_rebozadas_con_salmorejo.jpg). Local asset: `reviewed-commons-10224891.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Mangalorean Neer Dosa** — DreamyFlutura11. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Mangalorean_Neer_Dosa.jpg). Local asset: `reviewed-commons-40882951.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Cocido madrileño** — jlastras. [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Cocido_en_sus_componentes.jpg). Local asset: `reviewed-commons-8709428.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **neer dosa** — Hebbar.sudarshan. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Neer-dosa-.jpg). Local asset: `reviewed-commons-48209127.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Salmorejo** — Tamorlan. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Salmorejo_-_Barajas.JPG). Local asset: `reviewed-commons-19028043.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
