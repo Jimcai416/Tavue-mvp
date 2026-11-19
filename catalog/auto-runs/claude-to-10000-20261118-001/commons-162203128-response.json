@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBTmXQTNrNDx1L71ui9L",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Cured meat slices on wooden board\",\n    \"Translucent, thinly-sliced cured pork\",\n    \"Natural colour and texture consistent with speck or prosciutto\"\n  ],\n  \"phone_observations\": [\n    \"Sliced cured meat visible on board\",\n    \"Adequate detail for identification of prepared dish\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title states 'Speck' but source description provides no explicit confirmation of speck identity, only location (Cambridge, MA)\",\n    \"Species not explicitly named in title or description—speck is traditionally pork, but cannot be confirmed from metadata alone\",\n    \"No exact dish name or species confirmation found in supplied source description\"\n  ],\n  \"reason\": \"Although the photograph shows a finished, well-exposed, sharply detailed cured meat dish with appetizing appearance and readable components in both full and phone views, the identity check fails. The title 'Speck - Cambridge, MA' is a filename convention, not a confirmed source description. The actual description provided—'Speck - Cambridge, Massachusetts, USA'—names only the location and product type, with no explicit confirmation of species. Per protocol, identity must agree with source title/description and species must be explicitly named; ambiguity about the animal (speck is traditionally pork, but this is not stated in metadata) requires a hold. Additionally, no exact case-sensitive species quote matching the allowed protein categories can be extracted from the supplied description.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1515,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 474,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

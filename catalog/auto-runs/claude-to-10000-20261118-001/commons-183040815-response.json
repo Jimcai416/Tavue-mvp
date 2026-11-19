@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBTn7gUDELodZ2oanxcu",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [\n    \"Sliced cured meat product with marbled fat and lean sections\",\n    \"Characteristic pink-white coloration consistent with cured pork\",\n    \"Layered presentation showing multiple slices\",\n    \"Natural product appearance with no visible cooking or plating\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows stacked slices of cured meat\",\n    \"Pink and white colour contrast visible at 124x96 resolution\",\n    \"Subject prominent and identifiable in phone view\",\n    \"No clipping of essential components\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'guanciale' (cured pork jowl), but this is an ingredient/raw cured product, not a finished dish\",\n    \"No cooked preparation visible—this is sliced cured meat at rest\",\n    \"Photograph shows a charcuterie ingredient or component, not a finished plated or composed dish\"\n  ],\n  \"reason\": \"Although the photograph is sharp, well-lit, naturally coloured, and the metadata names guanciale (which would qualify as pork if this were a finished dish), the image shows raw/cured sliced meat at preparation or service stage, not a finished, exposed, cooked or composed dish. Guanciale is a cured ingredient, not a dish; it appears here as component presentation only. Tavue accepts finished dishes, not ingredient display. The check for identity fails because a cured meat slice stack is not a dish, regardless of metadata claims.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1547,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 483,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
