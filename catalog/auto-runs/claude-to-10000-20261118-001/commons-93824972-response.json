@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBmrMztqaeJFGRPygemM",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 3,\n    \"appeal\": 2\n  },\n  \"visible_support\": [\n    \"Whole raw fish with head and eye intact\",\n    \"Green chili pepper\",\n    \"Raw onion pieces\",\n    \"What appears to be ginger or garlic\",\n    \"Fried item (possibly fish skin or accompaniment)\",\n    \"White plate with green leaf garnish\"\n  ],\n  \"phone_observations\": [\n    \"Raw whole fish dominates the thumbnail\",\n    \"Preparation-stage ingredients visible\",\n    \"Not a finished cooked dish\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Dish identity unclear—source metadata describes 'Tulyahan fillets Paksiw' but image shows raw whole fish, not fillets\",\n    \"Tulyahan is described as a rare Philippine fish species; identity cannot be verified from appearance alone\",\n    \"The title says 'fillets' but the photograph displays an intact whole fish with head, eye, and scales\",\n    \"No clear evidence of paksiw (a Philippine braised/stewed preparation)—ingredients appear raw or in preparation stages\",\n    \"Source metadata is Wikipedia-style with unverified provenance and mixed content (pandemic data, coordinates) suggesting poor reliability\",\n    \"Cooked status ambiguous; some browning visible on one item, but dominant subject is raw whole fish\"\n  ],\n  \"reason\": \"Reject: image shows raw/preparation-stage ingredients (whole raw fish, raw vegetables, raw onion) rather than a finished, exposed, cooked dish. Source title claims 'fillets Paksiw' but the photograph displays an intact whole fish with head and scales, contradicting the stated form. No clear visual evidence of paksiw preparation (braise/stew method). Identity mismatch between metadata and visible content, combined with preparation-stage appearance, fails acceptance criteria. Tulyahan species identity cannot be verified from appearance. Source metadata reliability is questionable.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 2279,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 560,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

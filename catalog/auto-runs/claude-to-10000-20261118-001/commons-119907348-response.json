@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBmqFCLU9RmzqYmxfTni",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Brown curry with visible spice and gravy texture\",\n    \"White rice base\",\n    \"Served on green banana leaf\",\n    \"Natural outdoor lighting\"\n  ],\n  \"phone_observations\": [\n    \"Curry and rice clearly visible in thumbnail\",\n    \"Brown sauce prominent\",\n    \"Rice portions distinguishable\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'fish curry' but no fish is visually identifiable in the photograph—only an opaque brown curry mass\",\n    \"Species of fish cannot be determined from appearance alone\",\n    \"Source metadata describes 'South Indian special fish curry' but provides no explicit animal name in source description text\"\n  ],\n  \"reason\": \"Identity check fails. The source title references 'Meen kulambu' (a fish curry), and the description states 'South Indian special fish curry', but the actual protein cannot be visually confirmed from the opaque brown curry shown. The word 'fish' appears only in the metadata description, not as an explicit species quote in the title. Per protocol, fish is not an allowed protein category (only chicken/beef/pork/duck/lamb/seafood are permitted, and 'seafood' requires species-level identification, not generic 'fish'). Unknown or unverifiable meat species = hold/reject. The photograph quality and composition are acceptable, but identity cannot be established with certainty.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1516,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 454,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
