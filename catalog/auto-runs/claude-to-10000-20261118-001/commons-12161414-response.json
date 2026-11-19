@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCk16cDFSkHnRSXPtZAB",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Full image shows two plated dishes in a restaurant setting\",\n    \"Upper plate contains what appears to be a meat-based dish with sauce and vegetables\",\n    \"Lower plate shows a reddish sauce with white rice component\",\n    \"Phone thumbnail captures the upper dish with hands reaching toward it\"\n  ],\n  \"phone_observations\": [\n    \"Phone thumbnail shows a plated dish with sauce and food components\",\n    \"Hands of diner are prominent in frame\",\n    \"Dish details are visible but partially obscured by composition\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title lists two dishes ('Crawfish pie' and 'gumbo and crawfish etouffle') but does not specify which dish belongs to which diner or which is the subject of review\",\n    \"Upper plate visible in full image is not explicitly identified in source description\",\n    \"Cannot definitively match the specific dish being eaten (upper plate) to the named dishes in source description\",\n    \"Crawfish is not an allowed protein category (seafood category exists but requires explicit source naming of fish type, not crustacean)\"\n  ],\n  \"reason\": \"Source description lists multiple dishes ('Crawfish pie for Jo, gumbo and crawfish etouffle for me') without clear correspondence to which dish appears in which location or which is the primary subject. The upper plate visible in full image and featured in phone thumbnail cannot be definitively matched to a specific named dish. Additionally, crawfish is a crustacean, not within the allowed protein categories (chicken/beef/pork/duck/lamb/seafood with explicit fish type). Identity cannot be confirmed and protein_evidence cannot be populated with allowed categories.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1741,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 515,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

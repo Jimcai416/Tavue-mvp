@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCjyhcaH8ACi9aVg6d16",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Golden-brown glazed protein mound prominent in full image and thumbnail\",\n    \"Fresh green lettuce garnish visible in both frames\",\n    \"Glossy sauce coating visible in full detail\",\n    \"Naturally coloured, appetising presentation\",\n    \"White plate, home-style plating\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail shows finished cooked dish clearly\",\n    \"Protein mass is prominent and readable\",\n    \"Green lettuce garnish visible\",\n    \"Dish identity preserved in phone frame\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'crawfish pie' but photograph shows no pastry crust, pie shell, or baked enclosed filling—visually this is a whole cooked protein in sauce/gravy, not a pie\",\n    \"The golden-brown protein form does not match typical crawfish tail anatomy or size; silhouette and browning pattern more consistent with a larger whole animal joint\",\n    \"Crawfish pie is a known Cajun dish with pastry enclosure; this image contradicts that definition entirely\",\n    \"Source metadata title/description mismatch with visible form is irreconcilable\"\n  ],\n  \"reason\": \"Identity check fails. Title declares 'Crawfish pie' but the photograph shows a finished, glazed whole protein mound in gravy on a plate with no visible pastry, crust, or pie structure. The visual form is inconsistent with the stated dish category. The protein mass appears larger and differently shaped than typical crawfish. This is a critical identity contradiction that cannot be reconciled by visual evidence alone. Hold or reject required.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1868,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 507,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

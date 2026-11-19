@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCjzW4a5Crws18V49q8s",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [\n    \"Two fried items on a cream/yellow base in a foam takeout container\",\n    \"Golden-brown crispy exterior on both items\",\n    \"Cooked, exposed finished dish\",\n    \"Identifiable as a takeout meal\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows two fried items\",\n    \"Visible golden-brown coating\",\n    \"Adequate detail for recognition at reduced size\"\n  ],\n  \"protein_evidence\": {\n    \"seafood\": \"Crawfish pie\"\n  },\n  \"uncertainties\": [\n    \"Visual identification of crawfish meat impossible from exterior; item appears as generic fried pastry/pie\",\n    \"Cannot distinguish crawfish from chicken, shrimp or other protein visually\",\n    \"Yellow base could be sauce, custard or other component—not visually confirmed\",\n    \"Source metadata (title/description) names crawfish, but no visual evidence supports this claim; crawfish meat interior is not exposed or distinguishable\"\n  ],\n  \"reason\": \"While the photograph shows a finished, cooked dish in an appetising takeout presentation with acceptable sharpness and composition, the identity check fails. The source claims 'Crawfish pie' but the exterior reveals only a generic fried pastry shell. Crawfish (a specific crustacean) cannot be visually confirmed from the golden-brown fried surface alone—the protein species is hidden inside the filling. Per instructions, hidden flavours may be source-declared but never claimed as visually proven. The visible form matches 'fried pie' generically, not the specific identity 'crawfish pie.' This ambiguity regarding protein species (seafood vs. poultry vs. other) requires a hold per the directive on doubtful credits and unconfirmed protein identity. Reject due to identity mismatch between source title and visible appearance.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1741,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 555,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

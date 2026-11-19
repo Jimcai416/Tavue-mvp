@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCjyhZbfQjHuVqWykFez",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 3,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Three round crackers visible in upper portion\",\n    \"Cheese spread visible at bottom\",\n    \"Minimal detail at phone resolution\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title describes 'Cheese and cracker sandwiches' but image shows only crackers and cheese spread on a plate, not assembled sandwiches\",\n    \"No visible meat protein despite 'pimento cheese' being described as filling for sandwiches\",\n    \"Presentation does not match typical finished dish format - appears to be ingredients or components rather than a completed plated dish\",\n    \"Crackers appear to be component parts rather than a finished prepared dish\"\n  ],\n  \"reason\": \"Reject: The image shows crackers and pimento cheese as separate components on a plate, not a finished, assembled 'cheese and cracker sandwich' as titled. The presentation appears to be a preparation or component stage rather than an exposed, finished dish. The subject lacks cohesion as a recognisable finished food item and does not meet the standard of a complete, plated dish ready for consumption. Identity check fails due to mismatch between title claim (sandwiches) and visible presentation (scattered components).\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1730,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 411,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
