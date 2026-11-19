@@ -9617,3 +9617,9 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Teh Talua** — Abdul Hanif Arromy. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Griyo_Dahar_Mbak_Rahma_-_Teh_Talua_090404.jpg). Local asset: `reviewed-commons-201534975.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Sirnica** — BiHVolim. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Bosnian_pita.JPG). Local asset: `reviewed-commons-42910903.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Bosnian pita and burek** — BiHVolim. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Pita_burek.JPG). Local asset: `reviewed-commons-42910853.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Bosnian pita Zeljanica and Sirnica** — BiHVolim. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Pita_zeljanica_sirnica.JPG). Local asset: `reviewed-commons-42910854.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
