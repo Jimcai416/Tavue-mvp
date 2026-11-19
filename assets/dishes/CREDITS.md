@@ -8214,3 +8214,12 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Vietnamese bowl of grilled pork, bun thit nuong** — HungryHuy. [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Vietnamese_bowl_of_grilled_pork,_bun_thit_nuong.jpg). Local asset: `reviewed-commons-87521851.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **(Phat) phak boong fai daeng** — Takeaway. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Pak_boong_fai_daeng.jpg). Local asset: `reviewed-commons-8051504.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Yukgaejang, Korean beef soup** — [by avlxyz](https://www.flickr.com/photos/avlxyz/). [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:Korean.cuisine-Yukgaejang-02.jpg). Local asset: `reviewed-commons-3403957.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Kubaneh bread** — Davidbena. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Kubaneh_bread.jpg). Local asset: `reviewed-commons-89984871.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Yukgaejang** — [by yearofeats](https://www.flickr.com/photos/yearofeats/). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Korean.soup-Yukgaejang-01.jpg). Local asset: `reviewed-commons-3215919.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Yemenite Kubaneh** — Davidbena. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Yemenite_Kubaneh.jpg). Local asset: `reviewed-commons-89984872.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Nongshim Yukgaejang Cup Noodles, prepared** — Kimhs5400(누리위키). [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Nongshimcupnoodle.jpg). Local asset: `reviewed-commons-130318290.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
