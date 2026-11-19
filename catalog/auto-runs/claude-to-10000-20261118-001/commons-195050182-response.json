@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCdFXUWf1hPm5G5jeXdr",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 5,\n    \"composition\": 5,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows a wide grain field landscape with golden-green crop and sky\",\n    \"No finished, exposed, or plated food dish visible\",\n    \"Raw agricultural subject, not a prepared food photograph\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title 'helali' is ambiguous—may refer to a dish, but the photograph is unambiguously a raw cereal crop field, not food\",\n    \"No finished dish, plating, or food preparation visible in either full image or thumbnail\"\n  ],\n  \"reason\": \"Rejection: This is a landscape photograph of a raw grain field (barley or wheat), not a finished, exposed, plated food dish. Despite high photographic quality and sharp detail, it fails the fundamental requirement of showing a prepared food subject. The source description 'helali' does not match the visible content (raw crop, not cooked food). This is a raw/preparation stage agricultural image, explicitly excluded by review criteria.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1724,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 363,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCdF88ZN7kqrMDRMCp2f",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Two round, golden-brown seared meatballs with caramelized surface and pan sauce\",\n    \"White rice pilaf with visible toasted almond slivers\",\n    \"Plated presentation on white dish\",\n    \"Natural home/restaurant cooking appearance\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows two seared meatballs and rice portion\",\n    \"Meatballs and rice both legible and prominent\",\n    \"Composition matches full image\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'Hasanpaşa köfte' but source metadata (title, description, filename) is untrusted evidence per instructions\",\n    \"Köfte composition (beef/lamb/pork) cannot be determined visually from appearance alone\",\n    \"No explicit animal species named in the supplied title/description that can be verified as a direct quote\",\n    \"Meatball ingredients not visually distinguishable\"\n  ],\n  \"reason\": \"While the photograph shows finished, appetising, sharply detailed plated food with readable components in the phone thumbnail (two seared meatballs and almond rice), identity cannot be confirmed. The source title 'Hasanpaşa köfte and Turkish pilav' is metadata (untrusted per protocol). No explicit protein animal species is named in a verifiable quote from the description. The meatball composition cannot be determined visually. Per protocol, unknown meat composition and source metadata contradictions require hold. All quality/photograph/phone checks pass, but identity and protein documentation fail.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1742,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 496,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCdFmJhVBejcJEDDLsBi",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Green beans, cooked or blanched, glistening with moisture\",\n    \"Prominent pile on white plate, natural lighting\",\n    \"Sharp detail of individual bean components in full image and thumbnail\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows green beans tangled in a dense pile\",\n    \"Colour and form consistent with full image\",\n    \"Subject is prominent and readable\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title metadata reads 'File:Haricot vert.jpg' — filename only, not a dish description\",\n    \"Provided description field is generic theme label ('Farm to Plate'), not a canonical dish name\",\n    \"No explicit source-supplied canonical dish name or variant qualifier present\",\n    \"Ambiguity whether beans are raw, blanched, cooked, or dressed — preparation stage unclear from image alone\"\n  ],\n  \"reason\": \"Reject: The source metadata contains only a filename ('Haricot vert.jpg') and a generic theme label, not an explicit canonical dish title or description. No authoritative source phrase exists to match against the visible food. While the photograph itself shows finished green beans in appetising, sharp detail on a plate, the absence of a verifiable source-supplied dish name or preparation descriptor means identity cannot be confirmed. Per protocol, a filename is not a valid source title.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 2044,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 447,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
