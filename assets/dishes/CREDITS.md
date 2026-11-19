@@ -8963,3 +8963,11 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 
 - **Motsunabe (もつ鍋)** — Nesnad. [CC BY 4.0](https://creativecommons.org/licenses/by/4.0); [source](https://commons.wikimedia.org/wiki/File:Motsunabe_Aug_13_2021_Ikebukuro-_two_views.jpeg). Local asset: `reviewed-commons-108432109.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Oden** — RuinDig/Yuki Uchida. [CC BY 4.0](https://creativecommons.org/licenses/by/4.0); [source](https://commons.wikimedia.org/wiki/File:Japanese-Oden-Dish-2023-11-01.jpg). Local asset: `reviewed-commons-140656110.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Suji Halwa** — Er.vishalmehta83. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Dry_Fruit_Suji_Halwa.JPG). Local asset: `reviewed-commons-40955229.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **frozen Saffron Basundi** — Billjones94. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:A_matka_full_of_frozen_Saffron_Basundi.jpg). Local asset: `reviewed-commons-107701474.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Aloo Methi Bhaji** — Fatimahope. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Aloo_Methi_Bhaji.jpg). Local asset: `reviewed-commons-40935452.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Jilebi and Basundi** — Wind Hashira. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Food_item_02.jpg). Local asset: `reviewed-commons-115281956.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Sitafal Basundi** — Zeel Patel. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Sitafal_Basundi.JPG). Local asset: `reviewed-commons-40978139.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
