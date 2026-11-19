@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBuoSAmvd6MVXPfzuD9U",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Yellow-green curry sauce consistent with mustard paste\",\n    \"Multiple fish pieces in gravy\",\n    \"Finished, exposed dish in serving container\",\n    \"Natural lighting, appetising presentation\",\n    \"Phone thumbnail clearly shows fish in yellowish sauce\"\n  ],\n  \"phone_observations\": [\n    \"Fish pieces and curry sauce visible and legible at 124x96\",\n    \"Yellow-green colour preserved in thumbnail\",\n    \"Dish composition recognisable at reduced size\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title 'Ilish Paturi' refers to hilsa fish (ilish), but metadata title/description field does not explicitly name the fish species in natural language—only the dish name 'Ilish Paturi' contains it as part of a proper noun\",\n    \"Source description states 'Bengali Delicacy' (category alone) without an explicit statement like 'made with hilsa' or 'made with fish'\",\n    \"Protocol requires exact source quote naming the animal; dish name alone does not constitute explicit naming in the description field\"\n  ],\n  \"reason\": \"Photograph and phone thumbnail are of high quality, sharp, well-lit, and show a finished, appetising fish curry dish. Identity is *visually* consistent with Ilish Paturi (yellow mustard paste, fish pieces, Bengali preparation style). However, the source title and description fields do not contain an explicit, case-sensitive statement naming the fish species (e.g., 'hilsa', 'ilish fish', or 'with fish'). The word 'Ilish' appears only within the proper dish name 'Ilish Paturi', not as an explicit ingredient declaration in the description. Per protocol, proteins require exact source quote explicitly naming each animal, not inference from dish name alone. Hold pending clarification of protein identity from explicit source text.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1935,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 560,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
