@@ -89786,5 +89786,51 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-4779522",
+    "title": "File:Kogt skinke brunede kartofler grønlangkål.jpg",
+    "author": "Nillerdk",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kogt_skinke_brunede_kartofler_gr%C3%B8nlangk%C3%A5l.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/72/Kogt_skinke_brunede_kartofler_gr%C3%B8nlangk%C3%A5l.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "285d7eef3a8d9796927eeac74ad12bd5c7dafd24",
+    "name": "Kogt skinke brunede kartofler grønlangkål",
+    "aliases": [],
+    "proteins": [
+      "pork"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-4779522.jpg",
+    "assetSha256": "a383fb598b155bd3420f4a116c3d02a704381b7f5dcb200fcc8ccfb5c76c7c65",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 768,
+    "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-172754920",
+    "title": "File:Skyr & Blackberries 20250816 143350.jpg",
+    "author": "IMG 4512",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Skyr_%26_Blackberries_20250816_143350.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Skyr_%26_Blackberries_20250816_143350.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "077accc712fc8e5595626c84e55a4c4014f0ea93",
+    "name": "Skyr s vanilkovou příchutí a s ostružinami",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-172754920.jpg",
+    "assetSha256": "41df38497587d1f578668e18ef11ab6d3132a1978726f9c6208f8300d767a1f1",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];

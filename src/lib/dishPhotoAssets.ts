@@ -4009,4 +4009,6 @@ export const dishPhotoAssets: Record<string, ImageSourcePropType> = {
   'commons-150373124': require('../../assets/dishes/reviewed-commons-150373124.jpg'),
   'commons-95876123': require('../../assets/dishes/reviewed-commons-95876123.jpg'),
   'commons-79743289': require('../../assets/dishes/reviewed-commons-79743289.jpg'),
+  'commons-4779522': require('../../assets/dishes/reviewed-commons-4779522.jpg'),
+  'commons-172754920': require('../../assets/dishes/reviewed-commons-172754920.jpg'),
 };
