@@ -9669,3 +9669,8 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Samlor machu kroeung** — Saphabodi. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Samlor_machu_kroeung_served_at_Neary_Khmer,_2018-01-02.jpg). Local asset: `reviewed-commons-70059552.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Cheese enchilada platter** — StellarD. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Cheese_enchilada_platter.jpg). Local asset: `reviewed-commons-79595827.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Enchiladas divorciadas con mole verde y rojo, huevos estrellados, ensalada y arroz a la mexicana** — Fer.goiba. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Feria_Gastronomica_de_la_Enchilada_49.jpg). Local asset: `reviewed-commons-35705751.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
