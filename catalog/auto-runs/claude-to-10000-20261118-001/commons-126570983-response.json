@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCSdYX6gMpCJgPrbuGCz",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 3,\n    \"lighting\": 3,\n    \"composition\": 2,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Person in Santa hat visible in thumbnail\",\n    \"Cooking equipment visible but no finished food dish prominent\",\n    \"No plated or served food visible in phone thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"This is a preparation/process photograph, not a finished dish photograph\",\n    \"No completed, exposed, served food dish visible\",\n    \"Person preparing a beverage is the primary subject, not the food\"\n  ],\n  \"reason\": \"Rejection: This is a preparation-stage photograph of Feuerzangenbowle (a German flaming punch preparation), not a finished, exposed, plated dish suitable for food photograph review. The image shows a person in the process of preparing a beverage with cooking equipment, not a finished food item ready for consumption. The phone thumbnail contains no visible finished dish. This falls under the exclusion category of 'preparation stages' and fails the core requirement of being a 'finished, exposed, likely photographic dish.' No food subject is prominent enough for review as a completed dish.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1652,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 375,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
