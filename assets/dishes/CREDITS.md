@@ -6891,3 +6891,9 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Piadina** — Deryck Chan. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Wikimania_2016_Deryck_day_2_-_12_piadina.jpg). Local asset: `reviewed-commons-50082743.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Makroudh** — Sami Mlouhi. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Makroudh_-_%D9%85%D9%82%D8%B1%D9%88%D8%B6_-_Makroud_photo1.jpg). Local asset: `reviewed-commons-65995703.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Bol de Lablabi** — [Habib M'henni](https://www.wikidata.org/wiki/Q105725266). [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Bol_de_Lablabi,_Tunisie,_d%C3%A9cembre_2017.jpg). Local asset: `reviewed-commons-64710090.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Lablabi** — Drmaik  at  en.wikipedia. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Lablabi.jpg). Local asset: `reviewed-commons-2874662.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
