@@ -8902,3 +8902,11 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Umm Ali** — Miansari66. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Umm_Ali.JPG). Local asset: `reviewed-commons-30058142.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **gatte ki sabzi served with aamras and garlic chutney** — Kanikatwl. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Gatte_ki_sabzi_served_with_aamras_and_garlic_chutney.jpg). Local asset: `reviewed-commons-40979784.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Dahi vada** — Nehasmhetre. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:DAHI_VADA.jpg). Local asset: `reviewed-commons-40694275.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Dahi Vada (Dahi Bhalla)** — BhargavVora. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Dahi_Vada_(Dahi_Bhalla).jpg). Local asset: `reviewed-commons-40961843.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Dahi Vada Bihari Style** — PaletteOfZaaiqa. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Dahi_Vada_Bihari_Style.jpg). Local asset: `reviewed-commons-102284382.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Dahi vada with chili powder, chaat masala, and coriander leaves** — Dforest  at  English Wikipedia. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Dahi_vada.jpg). Local asset: `reviewed-commons-3574369.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
