@@ -8858,3 +8858,10 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Ube Haupia Pie with Macadamia Shortbread Crust** — [Arnold Gatilao  from Oakland, CA, USA](https://www.flickr.com/people/58819758@N00). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Ube_Haupia_Pie_with_Macadamia_Shortbread_Crust_(933851403).jpg). Local asset: `reviewed-commons-82215030.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **馄饨和小笼** — Original uploader was  Hamham  at  zh.wikipedia. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/); [source](https://commons.wikimedia.org/wiki/File:Huntun_Xiaolong.JPG). Local asset: `reviewed-commons-11363689.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Shandong huntun** — Cartonfox. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Shandong_huntun_2026.jpg). Local asset: `reviewed-commons-202407486.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Sup Konro** — [Veriyanta Kusuma](https://picasaweb.google.com/veriyanta). [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Sop_Konro.JPG). Local asset: `reviewed-commons-14023338.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Ketupat** — Meutia Chaerani. [CC BY 2.5](https://creativecommons.org/licenses/by/2.5); [source](https://commons.wikimedia.org/wiki/File:Ketupat2.jpg). Local asset: `reviewed-commons-778209.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
