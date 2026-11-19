@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCWkVSDaYdXFyFVuPfKb",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Cream-coloured soup in white bowl with black pepper garnish\",\n    \"Oyster crackers package visible on plate beneath bowl\",\n    \"Spoon in bowl\",\n    \"White plate and saucer\",\n    \"Glass of water and beverage bottle in background\"\n  ],\n  \"phone_observations\": [\n    \"Cream soup bowl prominent and readable in thumbnail\",\n    \"Black pepper garnish visible on surface\",\n    \"White dishware clearly shown\",\n    \"Oyster crackers package legible on plate\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title describes 'oyster stew' but does not explicitly state it in the filename or metadata title field\",\n    \"Declared contents (oysters, clams, shrimp, scallops, lobster) are not visually verifiable in the opaque cream soup; no shells, meat pieces, or other components are visible\",\n    \"Photograph shows only the finished soup; seafood species cannot be identified from appearance alone\",\n    \"Source description is a user caption (untrusted evidence per instructions) rather than a canonical dish name\",\n    \"No explicit dish name in the structured title field\"\n  ],\n  \"reason\": \"Reject: Although the photograph shows a finished, sharply detailed, well-composed cream soup with appetising appearance and readable oyster crackers on the plate, the source provides no canonical dish name in the title or structured description. The user's caption describes multiple seafood species but these cannot be visually verified in an opaque soup. Per instructions, hidden flavours may be source-declared but are never visually proven, and captions are untrusted evidence. The oyster crackers suggest oyster stew tradition, but without an explicit, authoritative source title matching the dish name and without visual verification of the protein components, identity cannot be confirmed. Hold or formal documentation of the exact dish name would be required for acceptance.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1714,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 566,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

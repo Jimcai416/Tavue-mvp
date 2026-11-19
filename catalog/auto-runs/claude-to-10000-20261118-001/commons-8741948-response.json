@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCWm1DbyLpURSXsiU7MD",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Cooked meat patties with seared surfaces on toasted bun\",\n    \"Golden-brown French fries\",\n    \"Visible grapes in background\",\n    \"Natural daylight photography\"\n  ],\n  \"phone_observations\": [\n    \"Meat patties and fries clearly visible in thumbnail\",\n    \"Adequate detail of cooked burger components\",\n    \"Natural colours preserved in centre-cover crop\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title describes 'hamburger patty stuffed with cheese and a cooked bacon strip' but the photograph displays TWO distinct meat patties stacked without visible cheese filling between them\",\n    \"No cheese is visibly identifiable in either the full image or thumbnail\",\n    \"The structure contradicts the stated 'stuffed burger' preparation—the patties appear to be separate seared pieces rather than a single patty with internal filling\",\n    \"Bacon presence unconfirmed visually; the reddish layer could be cooked meat surface or bacon but cannot be definitively distinguished\",\n    \"Title specifies singular 'hamburger patty' but image shows two patties\",\n    \"Identity mismatch between description and actual visible form\"\n  ],\n  \"reason\": \"Reject: Identity check fails. The source description claims a single hamburger patty stuffed with cheese and bacon, but the photograph clearly shows two separate seared meat patties without visible cheese filling between them. No cheese is identifiable in the image. The visual form does not match the stated dish identity. This discrepancy between canonical description and actual contents prevents acceptance despite good photograph and phone thumbnail quality.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1668,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 504,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
