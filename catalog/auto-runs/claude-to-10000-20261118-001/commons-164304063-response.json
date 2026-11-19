@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChD65qDTdUEQxvFvmmnsa",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": true,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 3,\n    \"lighting\": 3,\n    \"composition\": 2,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows a hand harvesting raw cassava leaves from a plant in a field\",\n    \"No finished dish visible in phone thumbnail\",\n    \"Raw ingredient at preparation/harvesting stage, not a cooked meal\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title references 'Picking Cassava leaves' — a harvesting activity, not a prepared dish\",\n    \"No finished, exposed, or plated food visible in either full image or thumbnail\",\n    \"Image shows raw ingredient collection, not a served dish ready for consumption\"\n  ],\n  \"reason\": \"Rejection: This is a documentary photograph of cassava leaf harvesting, not a finished dish photograph. The source explicitly describes 'Picking Cassava leaves' — a preparation/harvesting stage. Neither the full image nor the phone thumbnail shows a finished, cooked, plated dish with appetising presentation. The subject is a raw ingredient being collected from a field. While 'Ssombe' (cassava leaf sauce) is mentioned in the description, no cooked sauce is visible in the photograph. The image fails the core requirement of showing a finished, exposed, likely photographic dish ready for consumption.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1629,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 407,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
