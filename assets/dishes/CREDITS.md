@@ -6967,3 +6967,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Serbian Gibanica** — [Matus Ferko  from Bratislava, Slovakia](https://www.flickr.com/people/64899312@N00). [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:Serbian_Gibanica_(8939893319).jpg). Local asset: `reviewed-commons-39803992.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Smoked fish sampler: Smoked trout, herbed gravlax, kippered salmon, oil cured sardine, salt cured anchovies** — [T.Tseng](https://www.flickr.com/people/68147320@N02). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Smoked_fish_sampler_Smoked_trout,_herbed_gravlax,_kippered_salmon,_oil_cured_sardine,_salt_cured_anchovies_(26906947094).jpg). Local asset: `reviewed-commons-101595689.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.

@@ -94239,5 +94239,30 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "height": 612,
     "requiresExactMenuName": true,
     "authorUrl": "https://www.flickr.com/people/64899312@N00"
+  },
+  {
+    "id": "commons-101595689",
+    "title": "File:Smoked fish sampler Smoked trout, herbed gravlax, kippered salmon, oil cured sardine, salt cured anchovies (26906947094).jpg",
+    "author": "T.Tseng",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Smoked_fish_sampler_Smoked_trout,_herbed_gravlax,_kippered_salmon,_oil_cured_sardine,_salt_cured_anchovies_(26906947094).jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/74/Smoked_fish_sampler_Smoked_trout%2C_herbed_gravlax%2C_kippered_salmon%2C_oil_cured_sardine%2C_salt_cured_anchovies_%2826906947094%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "6c2524128d5dc9ef47d11f73ed7c81ded55622f3",
+    "name": "Smoked fish sampler: Smoked trout, herbed gravlax, kippered salmon, oil cured sardine, salt cured anchovies",
+    "aliases": [],
+    "proteins": [
+      "seafood"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-101595689.jpg",
+    "assetSha256": "e1d9f99f2865eef8cd6a15a3cfb757952633b35159c1f7884addd8ac579db0c2",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true,
+    "authorUrl": "https://www.flickr.com/people/68147320@N02"
   }
 ];
