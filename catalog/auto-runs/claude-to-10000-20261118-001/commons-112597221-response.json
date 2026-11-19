@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCCKT7mpFHbvESngXRZw",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 5,\n    \"appeal\": 5\n  },\n  \"visible_support\": [\n    \"Finished, cooked sausages in soft white bread rolls\",\n    \"Golden-brown caramelised sausage exteriors\",\n    \"Caramelised onions visible beneath sausages\",\n    \"Sharp detail across full image and thumbnail\",\n    \"Natural warm lighting\",\n    \"Display-ready presentation in commercial setting\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail shows multiple sausage sandwiches clearly\",\n    \"Essential components (sausage, bread, onions) all visible\",\n    \"No clipping of critical elements\",\n    \"Maintains appetising appearance at reduced size\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title states 'Chorizo' but no explicit species naming visible or confirmed in source metadata\",\n    \"Chorizo is a sausage category of unspecified animal origin in this source—cannot confirm beef/pork/duck/lamb/chicken/seafood from title or visible form\",\n    \"Sausage identity cannot be used as a protein key per instructions\"\n  ],\n  \"reason\": \"Image quality, composition and phone presentation are all excellent, but protein_evidence cannot be populated. The source title 'Chorizo' names only a sausage type without an explicit animal species declaration. Per instructions, sausage cannot be used as a protein category key, and the animal source cannot be inferred from appearance or tradition. No exact substring from source naming a supported protein (chicken/beef/pork/duck/lamb/seafood) is available. Hold criteria are met due to ambiguous meat species.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1445,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 496,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
