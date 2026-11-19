@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBNLJV41rmACxuqhCDaV",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 3,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows rolled dough-like structure with dark filling/gravy\",\n    \"Plated presentation visible\",\n    \"Central subject legible in phone view\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title contains Chinese characters '猪肠粉' (zhū cháng fěn, literally 'pork intestine powder'), but this is a traditional name for the rice noodle roll dish itself, not a true protein ingredient\",\n    \"No explicit English-language source statement confirms actual pork content in this specific serving\",\n    \"Chee cheong fun is traditionally made with rice flour wrapper and typically filled with shrimp, pork, or other proteins, but the metadata does not explicitly name which protein(s) are present in this dish\",\n    \"Image quality is notably soft/low-resolution with poor sharpness and warm colour cast\"\n  ],\n  \"reason\": \"Rejection: Protein identification fails. The title '猪肠粉' is a traditional/historical name for the dish category itself (rice noodle rolls), not an explicit statement that pork is a present ingredient in this serving. No English-language source text explicitly confirms any protein species. The name refers to the cooking vessel/wrapper tradition, not necessarily current content. Additionally, sharpness score of 3 and notable colour cast/softness approach quality thresholds. Uncertain protein identity requires hold per protocol; combined with suboptimal image sharpness, rejection is appropriate.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1772,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 478,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
