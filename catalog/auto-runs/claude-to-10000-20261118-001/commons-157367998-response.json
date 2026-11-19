@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCBzEtXMVSqpdK7U8aA4",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 3,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Uncooked pasta nests visible with raw diced ham/bacon pieces scattered across surface\",\n    \"No sauce visible; pasta appears completely dry\",\n    \"Raw/preparation stage evident in phone thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Dish identity contradicts source title: image shows uncooked carbonara ingredients in preparation stage, not a finished exposed dish\",\n    \"No protein species explicitly named in source description to confirm\",\n    \"Diced meat colour suggests ham or bacon but cannot verify species from appearance alone\"\n  ],\n  \"reason\": \"Rejection: image shows raw/preparation stage (uncooked pasta nests with scattered unincorporated ingredients in a storage container), not a finished, exposed, cooked dish. Carbonara requires cooked pasta with emulsified sauce, eggs, and meat integrated into the dish. This is an ingredient assembly photo. Phone thumbnail confirms preparation stage appearance. Source title contradicts visible content. No protein species explicitly named in metadata. Does not meet 'finished, exposed, likely photographic dish' requirement.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1623,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 382,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCBzcGAETLFJL7aXMiEN",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 2,\n    \"composition\": 2,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Phone thumbnail shows wok/stir-fry stage and bowl with raw egg mixture – two preparation stages, not a finished dish\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title claims 'Carbonara con asparagi' but photograph shows raw preparation stages (sautéed vegetables with unidentified pink meat in wok; raw eggs and flour in bowl), not finished pasta carbonara\",\n    \"Pink meat cubes in wok are unidentified species – source metadata mentions 'guanciale' (cured pork jowl) but visual confirmation of species is impossible from raw/diced form\",\n    \"Photograph captures mid-cooking stages, not a plated, exposed finished dish\",\n    \"No pasta visible; no finished carbonara dish present\"\n  ],\n  \"reason\": \"Reject: photograph shows raw preparation stages (vegetables and unidentified diced meat cooking in wok; raw egg and flour mixture in bowl), not a finished, exposed, plated dish. The source description claims Carbonara con asparagi, but no finished pasta dish is visible. The pink meat cannot be visually confirmed as the declared species (guanciale). Both full image and phone thumbnail show preparation workflow rather than a completed appetising dish suitable for food review. Sharpness is adequate but lighting is poor, composition is unfocused on a finished product, and appeal is minimal for a preparation-stage image. All quality and presentation checks fail.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1796,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 468,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

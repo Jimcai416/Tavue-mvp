@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCBzgdq32tTJY6dUK2hU",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Penne pasta visible and identifiable\",\n    \"Fresh red tomatoes prominently displayed\",\n    \"Red pepper segments visible\",\n    \"Fresh green herbs (rosemary and parsley) garnish present\",\n    \"Finished, cooked dish in white serving bowl\",\n    \"Home-style presentation on patterned tablecloth\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail shows pasta and red tomatoes clearly\",\n    \"Herbs visible as green garnish\",\n    \"Dish details readable at thumbnail size\",\n    \"Appetising appearance preserved in reduced view\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title lists 'ciboulette' (chives) but rosemary is visually prominent—herb identity mismatch\",\n    \"Description states 'pepper' but visual form appears to be red bell pepper segments, not black pepper\",\n    \"Title specifies 'ciboulette et persil frais' (chives and fresh parsley) but dominant visible herb resembles rosemary, contradicting source declaration\"\n  ],\n  \"reason\": \"Reject: Identity check fails. Source title declares 'ciboulette et persil frais' (chives and fresh parsley) but the visible garnish is predominantly rosemary, a herb not mentioned in the source. This is a material contradiction between source declaration and visible form. The dish is otherwise well-photographed, appetising, and finished, but the named herb variants cannot be confirmed from the image and contradict what is visibly present. Per protocol, source contradictions regarding specific ingredients require hold/reject.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1743,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 502,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
