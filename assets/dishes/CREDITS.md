@@ -6800,3 +6800,8 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Typical kotlet schabowy from cafeteria** — Marycha80. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Typical_kotlet_schabowy_from_cafeteria.JPG). Local asset: `reviewed-commons-38100626.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Tarator soup** — Kritzolina. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Bulgarian_dish_01.jpg). Local asset: `reviewed-commons-74985118.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Chicken Luwombo** — Ssemmanda will. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Chicken_Luwombo_prepared_in_Uganda.jpg). Local asset: `reviewed-commons-164140265.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.

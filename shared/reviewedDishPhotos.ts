@@ -92337,5 +92337,51 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-74985118",
+    "title": "File:Bulgarian dish 01.jpg",
+    "author": "Kritzolina",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bulgarian_dish_01.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Bulgarian_dish_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "7261ec33d5e3b44e180b233112e442d2a16eae4e",
+    "name": "Tarator soup",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-74985118.jpg",
+    "assetSha256": "144a8edba0bdd9962a39299e413f3ec0ea6630b59d4684e34d961f14830accdc",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 640,
+    "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-164140265",
+    "title": "File:Chicken Luwombo prepared in Uganda.jpg",
+    "author": "Ssemmanda will",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chicken_Luwombo_prepared_in_Uganda.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Chicken_Luwombo_prepared_in_Uganda.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "4571022cd99f9f6d1d33a335b3e2adec57bf2202",
+    "name": "Chicken Luwombo",
+    "aliases": [],
+    "proteins": [
+      "chicken"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-164140265.jpg",
+    "assetSha256": "fee4a1ecce08b743b5330b3ba4f126f53ed1dc1fd90192081a0242336f137c24",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 769,
+    "requiresExactMenuName": true
   }
 ];
