@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBLfk1FdmWvfr4JzurMZ",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 3,\n    \"composition\": 2,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Jar of red liquid visible but contents indistinct\",\n    \"No plated dish visible\",\n    \"No finished food presentation\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title references 'ragù di carne' (meat ragù) and 'salsa di pomodoro' (tomato sauce) but only an unopened jar of red liquid is shown\",\n    \"Image shows raw/prepared ingredient storage, not a finished plated dish\",\n    \"Cannot visually confirm meat content, preparation method, or finished dish form\",\n    \"Subject is packaging/ingredient jar, not exposed food\"\n  ],\n  \"reason\": \"Rejection: This is a photograph of a sealed jar containing tomato sauce or ragù base, not a finished, exposed, plated dish. The image shows food storage/preparation stage, not a completed appetising presentation. The thumbnail shows only a jar with no discernible dish detail. Tavue accepts only finished, exposed, likely photographic dishes with readable essential components. Raw/preparation stages are explicitly rejected. The source metadata references both meat ragù and tomato sauce, but neither can be visually verified in the jar's opaque contents. No photograph-quality, composition, or phone-thumbnail criteria are met.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1742,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 424,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
