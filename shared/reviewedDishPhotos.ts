@@ -135040,5 +135040,28 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-44721135",
+    "title": "File:Curanto en Hoyo (Isla Mechuque - Chiloé) - Flickr - madhseason (1).jpg",
+    "author": "madhseason  from Santiago, CHILE",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Curanto_en_Hoyo_(Isla_Mechuque_-_Chilo%C3%A9)_-_Flickr_-_madhseason_(1).jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Curanto_en_Hoyo_%28Isla_Mechuque_-_Chilo%C3%A9%29_-_Flickr_-_madhseason_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "c32d01c6cf6d0f743dbe1c2b7b6a216ad3056a00",
+    "name": "Curanto en Hoyo",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-44721135.jpg",
+    "assetSha256": "5f4e210f5f748a6a63986dfd0b5304f711314955e656bd93811880d18c9aed62",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 646,
+    "requiresExactMenuName": true,
+    "authorUrl": "https://www.flickr.com/people/33896009@N00"
   }
 ];
