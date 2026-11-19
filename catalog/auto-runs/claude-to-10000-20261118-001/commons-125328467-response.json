@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCJi43nvLD8wez4ZWrnA",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 5,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Cooked fish pieces with visible bone structure and skin browning\",\n    \"Golden-brown vegetable chunks consistent with aubergine and pumpkin\",\n    \"Glossy curry sauce with visible mustard oil sheen\",\n    \"Green chillies as garnish and in the dish\",\n    \"Rice and accompaniments visible in flat-lay composition\",\n    \"Natural, appetising presentation in earthenware bowl\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows stewed fish with vegetables in sauce\",\n    \"Fish form is prominently visible and identifiable\",\n    \"Golden vegetables and curry are sharp and well-defined\",\n    \"Bowl and presentation are legible at thumbnail size\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source metadata lists 'Hilsa fish' but Hilsa is a specific fish species (Tenualosa ilisha). The instructions require exact source quote naming the animal for protein_evidence. The description says 'Hilsa fish curry' but 'Hilsa' is a regional/species name, not a standard category (chicken/beef/pork/duck/lamb/seafood). The metadata states it is a 'light Hilsa fish curry' but the allowed protein categories do not include 'hilsa' or regional fish variants—only the generic category 'seafood' is permitted. Without an explicit statement like 'seafood curry' in the source title/description using the canonical category term, the exact species cannot be mapped to the allowed categories.\"\n  ],\n  \"reason\": \"Although the photograph is sharp, well-lit, appetising and shows a finished dish with clear identity as a fish curry with vegetables, the source metadata identifies the fish as 'Hilsa' (a specific regional species). The instructions require protein_evidence to include only chicken/beef/pork/duck/lamb/seafood, and require each value to be an exact case-sensitive substring of the supplied title/description. The source says 'Hilsa fish' but does not explicitly use the generic category term 'seafood' in the title or description. 'Hilsa' is a named regional variant and specific species (Tenualosa ilisha), not one of the five allowed categories. This creates an ambiguity: the visual evidence clearly shows a fish dish, but the source-declared species name does not map to the permitted protein categories without explicit 'seafood' labelling in the source metadata. Per instructions, unknown or non-standard species declarations require a hold. Additionally, the exact canonical title cannot be verified as matching a standard fish curry variant without the seafood category being explicitly stated in the source. Hold is appropriate pending clarification of the protein category.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1834,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 733,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
