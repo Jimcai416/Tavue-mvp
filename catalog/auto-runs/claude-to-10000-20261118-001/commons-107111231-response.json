@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChD5LEuWexRszMTqLYrUJ",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Bowl contains raw/uncooked ingredient components: green fruit, brown spheres (likely mushrooms or tubers), almonds, and dried fruit pieces\",\n    \"No finished, cooked dish visible in either source or thumbnail\",\n    \"Ingredients laid out on plate in preparation stage\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'Punugulu 03' (a steamed Andhra Pradesh snack), but photograph shows raw ingredients in a bowl, not a finished punugulu dish\",\n    \"Brown spheres appear to be mushrooms or tubers, not cooked punugulu (which are savory steamed cakes)\",\n    \"Green sphere, nuts, and dried fruit do not resemble any recognized regional variant of punugulu\",\n    \"Complete mismatch between metadata title and actual photographed content\"\n  ],\n  \"reason\": \"Reject: This is a raw ingredient preparation photograph, not a finished food dish. The title claims 'Punugulu' (an Andhra Pradesh steamed snack), but the image shows uncooked components—a green fruit, mushrooms or tubers, almonds, and dried fruit—arranged on a plate. No cooked or finished dish is visible. The metadata identity contradicts the actual photograph. Appeal score low due to lack of appetising, finished food presentation. Fails identity check (preparation stage, not finished dish) and quality check (no cooked/finished state).\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1737,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 469,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
