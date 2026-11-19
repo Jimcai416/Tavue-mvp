@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCFnt6HcfUWjCcvbRpp7",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Red cooked crustaceans dominate the composition\",\n    \"Yellow lemon wedges prominently scattered\",\n    \"White onion or garlic pieces visible\",\n    \"Green herb garnish (parsley) visible\",\n    \"Wet surface indicating freshly boiled preparation\",\n    \"Natural colours consistent with crawfish boil\"\n  ],\n  \"phone_observations\": [\n    \"Red crustaceans and yellow lemon wedges clearly visible in thumbnail\",\n    \"Adequate detail and contrast for identification\",\n    \"Essential components (crawfish, lemon, seasoning vegetables) readable\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title states 'Crawfish Boil' but the visible crustaceans appear morphologically consistent with crayfish/crawfish (freshwater). However, the source metadata alone cannot confirm species identity from visual inspection alone, and crawfish identity is not explicitly named in the source description text as a protein ingredient—only the dish name references it.\",\n    \"No explicit text in the source description lists crawfish or any seafood protein as an ingredient or component.\",\n    \"Metadata title is 'Louisiana Crawfish Boil party, May 2025'—a date and event context, not a canonical dish description\"\n  ],\n  \"reason\": \"Identity check fails. The source provides only a filename-style title and event date ('Louisiana Crawfish Boil party, May 2025'), not a canonical dish description from which to extract an exact quoted name. Although the visual content strongly suggests a crawfish boil with lemon and vegetables, the source metadata does not contain an explicit, copyable dish description or ingredient list. Protocol requires canonical_name to be copied exactly from source title or description; a filename and event date do not constitute sufficient source documentation. The protein_evidence cannot reference 'crawfish' or 'seafood' because no explicit source text names these as ingredients—only the filename implies it. Hold for proper source documentation.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1733,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 577,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
