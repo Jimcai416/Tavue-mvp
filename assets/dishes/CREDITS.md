@@ -9081,3 +9081,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 - **Mandazi** — Rebeccananonof. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:MANDAZI_UGANDAN_BREAKFAST_SNACK.jpg). Local asset: `reviewed-commons-150129783.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Rwanda Mandazi** — Schlawgclart. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Rwanda_Mandazi.jpg). Local asset: `reviewed-commons-176074022.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **tea and mandazi** — Kengee8. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Tea_and_mandazi.jpg). Local asset: `reviewed-commons-55167128.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Waakye** — Eberhard Cornelius. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Waakye_in_Accra,_Ghana.jpg). Local asset: `reviewed-commons-149672514.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
