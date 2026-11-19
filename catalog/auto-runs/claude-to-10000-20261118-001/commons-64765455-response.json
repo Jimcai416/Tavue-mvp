@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChD9wytbVEfwXmMqHec4K",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows raw red fruits/peppers in a colander, not a finished dish\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source metadata describes dried piri-piri peppers during drying process, but image shows fresh raw peppers in water/colander\",\n    \"Visible round red fruits are not characteristic of piri-piri chili peppers (which are small, narrow, pointed)\",\n    \"Appearance is consistent with fresh red currants or similar berries, not chili peppers\",\n    \"Image contradicts source description significantly\"\n  ],\n  \"reason\": \"Rejection on identity mismatch and raw preparation stage. The source metadata claims dried piri-piri peppers in a drying process, but the photograph shows fresh, wet raw produce (likely currants or similar berries based on morphology) in a colander. The round, smooth fruits are inconsistent with piri-piri chili pepper appearance. This is a raw/preparation stage image, not a finished food dish suitable for Tavue. Additionally, metadata contradiction between claimed subject and visible content creates unresolvable uncertainty.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 2029,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 397,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
