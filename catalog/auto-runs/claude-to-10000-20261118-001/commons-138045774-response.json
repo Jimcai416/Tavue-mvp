@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBita6827KdMGpemvCxp",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Bowl of red-brown broth with visible red pepper pieces and green chive garnish\",\n    \"Two bánh ướt (steamed rice cakes) on plate above, with white filling and brown sauce drizzle\",\n    \"Dipping sauce appears to be nước chấm variant with oil sheen\",\n    \"Natural home/street food setting on yellow surface\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows bowl of red broth with garnish\",\n    \"Dipping sauce and bread visible but secondary in frame\",\n    \"Essential dish (the soup/sauce bowl) prominent and readable\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Filename suggests 'Bánh ướt Phương Lang' but source title field only states generic 'Cuisine of Vietnam'—no explicit canonical dish name provided in structured metadata\",\n    \"Red broth composition and primary protein/meat content not visually determinable—could be vegetarian broth, beef, pork, or other base\",\n    \"Nước chấm variants are typically fish sauce-based condiments; no animal protein explicitly named in source description\",\n    \"Without explicit source title matching a specific named dish, identity cannot be confirmed\"\n  ],\n  \"reason\": \"Image quality, photography, and phone thumbnail all meet standards. Visible dish is a Vietnamese bánh ướt with dipping sauce. However, the source metadata provides only generic 'Cuisine of Vietnam' in the title field rather than a specific canonical dish name. The filename suggests 'Bánh ướt Phương Lang' but filenames are untrusted and cannot serve as canonical identity. No protein is explicitly named in the source description. Identity check fails due to lack of explicit source title confirming the exact dish name. Hold pending clarification of authoritative canonical name and any explicit protein declarations.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1755,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 555,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
