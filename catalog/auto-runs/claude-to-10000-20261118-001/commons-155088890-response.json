@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDAsKsMo4ZVoUUcQsinw",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [\n    \"Two sausages visible on plate\",\n    \"Roll/bread visible on plate\",\n    \"Cup with beverage (hot chocolate) visible right\",\n    \"Outdoor wooden surface setting\"\n  ],\n  \"phone_observations\": [\n    \"Sausages, roll and cup all visible in thumbnail\",\n    \"Composition matches full image proportions\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Species of sausage unknown—description says 'Frankfurter saucage' but Frankfurter sausages may contain pork, beef, or mixed meats; no explicit animal species named in source\",\n    \"Metadata describes 'sausage' (generic) without naming the specific animal protein\"\n  ],\n  \"reason\": \"Reject: The source description identifies 'Frankfurter saucage' (sausage), but does not explicitly name the animal species (pork/beef/chicken/lamb/duck/seafood). Frankfurter sausages are traditionally pork or beef blends, but the source metadata does not state this explicitly. Per protocol, ambiguous meat species or unspecified sausage composition cannot be accepted. The protein_evidence map cannot be populated without an exact case-sensitive substring from the source naming a supported animal category. Hold would be appropriate, but reject is applied because the dish is fundamentally defined by the sausage component, and that component's species cannot be verified from the source title/description alone.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1762,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 466,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
