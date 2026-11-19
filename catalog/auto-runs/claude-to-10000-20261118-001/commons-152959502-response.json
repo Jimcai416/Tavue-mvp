@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCTiuWu3mP9HvS323ta1",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Golden-brown fried tubular pastries with ruffled edges\",\n    \"Crispy exterior with visible texture and bubbling\",\n    \"Served on white paper towel over woven basket plate\",\n    \"Fried chips/crisps visible at base of arrangement\",\n    \"Natural daylight, well-exposed full image\"\n  ],\n  \"phone_observations\": [\n    \"Four stacked fried tubular items clearly visible\",\n    \"Ruffled/crimped edges characteristic of wontons\",\n    \"Golden-brown colour preserved in thumbnail\",\n    \"Fried accompaniment visible below main items\",\n    \"Readable as finished fried dish\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'Wonton' but visual morphology is inconsistent with typical wonton structure. Standard wontons are small, pleated pouches. These appear to be elongated tubular rolls or spring roll variants with ruffled end closures, not characteristic wonton geometry.\",\n    \"The ruffled edges and cylindrical form suggest spring rolls, egg rolls, or similar fried pastry tubes rather than wontons.\",\n    \"Source metadata (title, description, author, license) is explicitly untrusted per instructions; visible form does not match canonical wonton appearance.\",\n    \"No protein ingredient explicitly named in source description.\",\n    \"Bangladeshi Chinese cuisine context does not resolve the morphological discrepancy.\"\n  ],\n  \"reason\": \"Reject: Identity check fails. The source title 'Wonton' contradicts the visible form. The photograph shows elongated fried tubular pastries with ruffled end closures arranged vertically—characteristic of spring rolls, egg rolls, or similar fried rolls, not wontons. Standard wontons are small, pleated, purse-shaped dumplings. This morphological mismatch between claimed identity and visible evidence creates unresolvable uncertainty. Per instructions, identity must agree with the exact source title and visible form; they do not. Photography and phone thumbnail quality are acceptable, but the fundamental identity contradiction prevents acceptance.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1725,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 602,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

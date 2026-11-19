@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCTiVfCKQTVs1AeBy6fQ",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Clear broth with visible green herbs (cilantro/scallion)\",\n    \"White wontons visible in bowl\",\n    \"Natural colour, finished dish\",\n    \"Sharp detail in both full and thumbnail views\"\n  ],\n  \"phone_observations\": [\n    \"Wonton soup clearly identifiable in thumbnail\",\n    \"Green herbs and wontons visible at thumbnail resolution\",\n    \"Appropriate prominence and composition for phone view\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title metadata (filename 'FOOD Wonton Soup.jpg') is treated as untrusted per instructions; no authoritative source description provided beyond filename\",\n    \"No explicit statement of wonton filling composition (pork, shrimp, or other protein) in supplied description\",\n    \"Cannot verify actual protein content from visual inspection alone\"\n  ],\n  \"reason\": \"Image quality, photography, and phone thumbnail all meet acceptance criteria. Dish is clearly a finished wonton soup with visible wontons, broth, and fresh herbs in natural colours. However, identity check fails because the only source-provided description is 'Wonton soup, Hamburg, Germany' (from metadata), which is insufficient for establishing exact dish identity and variant qualifiers per protocol. The filename 'FOOD Wonton Soup.jpg' is explicitly untrusted as evidence per instructions. No protein species can be supported without an explicit source statement naming the filling ingredient. Hold pending clarification of authoritative source title/description and wonton filling composition.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1726,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 473,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

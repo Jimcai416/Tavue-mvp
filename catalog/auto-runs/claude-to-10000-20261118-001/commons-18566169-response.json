@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCTinvmVpgtF9tbjZuek",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Golden-brown fried dumplings in clear glass baking dish\",\n    \"Characteristic wonton shape with crimped edges visible\",\n    \"Finished, exposed, cooked state\",\n    \"Natural colour and appetising appearance\",\n    \"Sharp detail in both full image and phone thumbnail\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows fried wonton shapes\",\n    \"Golden colour and form identifiable at small scale\",\n    \"Essential food components visible and not clipped\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title 'Wonton.JPG' and description 'Wonton is an Asian dish' lack specific variant identification\",\n    \"No filling visible or declared (shrimp, pork, vegetable variants not specified)\",\n    \"Generic description does not match required specificity for canonical naming\",\n    \"No explicit wonton type, regional preparation method, or filling declared in source\",\n    \"Metadata provides only generic category, not a complete dish name\"\n  ],\n  \"reason\": \"Photograph quality is excellent and subject is clearly a finished, cooked wonton dish suitable for acceptance. However, the source metadata is insufficiently specific: the title is merely a filename, and the description is a generic category statement. Identity check fails because no specific wonton variant, filling type, or preparation detail is provided. Per rules, 'Category/query alone is not evidence' and canonical_name must be 'a specific dish phrase copied exactly from source title or description'. The generic statement 'Wonton is an Asian dish' does not constitute a usable source reference. Hold pending a source-provided specific dish description (e.g. 'Shrimp Wonton', 'Pan-fried Wonton with Pork', or equivalent variant details).\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1723,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 543,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
