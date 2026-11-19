@@ -121533,5 +121533,51 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "height": 638,
     "requiresExactMenuName": true,
     "authorUrl": "https://www.flickr.com/people/63743776@N00"
+  },
+  {
+    "id": "commons-40962369",
+    "title": "File:Patra (Gujarati snack).jpg",
+    "author": "BhargavVora",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Patra_(Gujarati_snack).jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Patra_%28Gujarati_snack%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "c1d7eda6ee357712022fc9485d73e3e5cb78e584",
+    "name": "Patra (Gujarati snack)",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-40962369.jpg",
+    "assetSha256": "9145debb101eababc60931b894c21393a43c80636c4aade6aaeb9753fd9aa860",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-159899376",
+    "title": "File:World Famous Hotboys - February 2025 - Sarah Stierch 11.jpg",
+    "author": "Missvain",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:World_Famous_Hotboys_-_February_2025_-_Sarah_Stierch_11.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/05/World_Famous_Hotboys_-_February_2025_-_Sarah_Stierch_11.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "f6d6923519d3a6d82a7e52f669f41fea3d889adf",
+    "name": "Chicken étouffée",
+    "aliases": [],
+    "proteins": [
+      "chicken"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-159899376.jpg",
+    "assetSha256": "027150cd60e17e187c9bdcaea9d07a7acfa49b4b73abac1296863743410aab31",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];
