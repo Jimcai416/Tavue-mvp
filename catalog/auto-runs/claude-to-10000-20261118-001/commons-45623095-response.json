@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCPcnExqoQFejonjTUX2",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": \"kuzu kapama with mushrooms and fries\",\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 3,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Golden-brown fried potato wedges, clearly visible\",\n    \"Central meat component in sauce with vegetables\",\n    \"Green peas with carrot pieces on left side\",\n    \"White/cream-coloured onions or pearl onions\",\n    \"Red and orange vegetable pieces (tomato/pepper)\",\n    \"Clear broth/sauce\",\n    \"White plate, home-style presentation\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail shows recognisable composed dish with fried potatoes prominent\",\n    \"Meat and vegetables visible but detail limited at 124x96 resolution\",\n    \"Overall dish identity maintained in phone thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title describes 'kuzu kapama' but 'kuzu' means goat in Turkish; meat species cannot be visually confirmed and species is ambiguous\",\n    \"Description phrases 'sort of a modern day' and 'with mushrooms' suggest modification from canonical dish, but no mushrooms clearly identifiable in photograph—visible items appear to be onions and legumes\",\n    \"Meat species (lamb vs. goat vs. other) not explicitly named in source and cannot be reliably determined from appearance alone\"\n  ],\n  \"reason\": \"Hold: The source title contains 'kuzu', which refers to goat meat in Turkish cuisine, but goat is not in the allowed protein category list (chicken/beef/pork/duck/lamb/seafood). The source does not explicitly state the meat species in English-language terms. Additionally, the description claims 'mushrooms' but the visible items appear to be onions and chickpeas/legumes rather than mushrooms, creating a discrepancy between description and photograph. Without explicit source confirmation of an allowed protein species, identity cannot be verified as matching.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1738,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 555,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
