@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBxEDgrjfkBFQGqUJewy",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Bowl of clear broth with visible noodles\",\n    \"Meat pieces (liver visible in filename reference)\",\n    \"Fresh green onion/scallion garnish\",\n    \"Light, golden-brown broth\",\n    \"White ceramic bowl with dark rim\",\n    \"Cooked proteins partially submerged\",\n    \"Vietnamese street food context\"\n  ],\n  \"phone_observations\": [\n    \"Dish clearly visible and identifiable in thumbnail\",\n    \"Broth, noodles, and toppings all readable\",\n    \"Garnish detail preserved\",\n    \"Appetising appearance maintained at reduced size\",\n    \"No essential components clipped\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title contains 'File:' prefix and date stamps—metadata format unverified for canonical name extraction\",\n    \"Description 'Cuisine of Vietnam' is category-only, not a specific dish name\",\n    \"Filename reference 'chén gan thêm' (additional liver) suggests liver as a protein, but no explicit protein declaration in title or formal description field\",\n    \"Exact dish identity unclear: could be hủ tiếu Mỹ Tho variant, but source title structure does not provide a clean, unambiguous canonical phrase\",\n    \"Ambiguous meat species: liver type not specified (pork/beef/chicken)\"\n  ],\n  \"reason\": \"Identity check fails. The source provides only a filename (which may contain metadata) and a generic category description. No formal title or description field states a specific, verifiable dish name or confirms protein species. While the photograph shows a finished, appetising Vietnamese soup with clear broth, noodles, garnish and meat components, and both full and phone images meet quality and composition standards, the source identity cannot be reliably matched to a canonical dish name. The filename reference to 'gan' (liver) is not formally confirmed in the title or description, leaving protein species ambiguous. Hold pending a clear, non-metadata source title and explicit protein identification.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1751,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 597,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

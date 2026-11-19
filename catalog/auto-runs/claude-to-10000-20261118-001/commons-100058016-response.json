@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBxERmeAQmHCNQ5biwQf",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 5,\n    \"composition\": 5,\n    \"appeal\": 5\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Landscape photograph of tea plantations\",\n    \"No food dish visible in phone thumbnail\",\n    \"Mountain, terraced fields, bare tree in foreground\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title 'Moc Chau' is a geographic location (Vietnamese tea-growing region), not a food dish\",\n    \"Image is a landscape/nature photograph, not a finished food photograph\",\n    \"No prepared food is visible in either source or thumbnail\"\n  ],\n  \"reason\": \"Rejection: This is a landscape photograph of tea plantations in Moc Chau, Vietnam. It contains no finished, prepared food dish. The image shows agricultural fields, mountains, and scenery—not a plated or served food item suitable for Tavue food review. Identity check fails because the source title refers to a geographic location, not a dish. No food identity, proteins, or culinary content are present.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1629,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 353,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
