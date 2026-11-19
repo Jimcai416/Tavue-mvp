@@ -10155,3 +10155,9 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Piti** — Tərxan Paşazadə. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Piti_24.11.2013-01.jpg). Local asset: `reviewed-commons-29988403.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **corne de gazelle tunisienne** — Dar El Mahchi. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Cornes_de_gazelle_tataouine.jpg). Local asset: `reviewed-commons-118414599.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Schnelle Gemüsesuppe mit Brot** — [Katrin Gilger](https://www.flickr.com/people/26242865@N04). [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:Vegetable_Soup_(4421671079).jpg). Local asset: `reviewed-commons-89958510.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Croissant suprême stuffed with whipped ruby chocolate ganache and raspberry jam** — Dwxn. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:20231022_101836_Croissant_supr%C3%AAme.jpg). Local asset: `reviewed-commons-139407300.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
