@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCbf28qSzUyL2pze8AdC",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 5\n  },\n  \"visible_support\": [\n    \"Glazed grilled meat with deep caramelization and char\",\n    \"White rice base with scattered green onion\",\n    \"Fresh lime wedge and white garnish (possibly sour cream or similar)\",\n    \"Crispy fried shallots or similar crispy elements\",\n    \"Plate presentation consistent with street food service\"\n  ],\n  \"phone_observations\": [\n    \"Central glazed meat portion clearly visible and prominent\",\n    \"Rice base visible beneath meat\",\n    \"Sharp detail of caramelized surface and char marks\",\n    \"Adequate visual representation of finished dish\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title specifies 'Cơm tấm' (broken rice) but description adds 'cơm sườn, miếng sườn nướng mật ong' (rice with pork ribs, grilled rib pieces with honey glaze) — source metadata contains contradictory identifiers\",\n    \"Meat species not explicitly named in core title; filename description uses generic Vietnamese term 'sườn' (rib) without explicit 'pork' confirmation in provided title/description field\",\n    \"File metadata suggests expanded variant description in filename but primary description field contains only generic category 'Cơm tấm'\"\n  ],\n  \"reason\": \"Source title/description conflict: primary description is 'Cơm tấm' (generic broken rice dish) but filename indicates honey-glazed pork ribs variant. The main description field does not explicitly state the protein species or the honey glaze preparation variant. Per protocol, source contradictions and unconfirmed meat species (despite visual and contextual likelihood of pork) require hold pending clarified canonical source title with explicit protein naming.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1763,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 537,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
