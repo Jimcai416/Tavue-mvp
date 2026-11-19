@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBSjEmfJJBvJjAgeYc5K",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 3,\n    \"lighting\": 2,\n    \"composition\": 3,\n    \"appeal\": 2\n  },\n  \"visible_support\": [\n    \"Cooked banana leaves or similar wrapping material visible\",\n    \"Dark steamed/boiled preparation style evident\",\n    \"Served on white plate with green base\",\n    \"Finished dish, not raw preparation\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail shows wrapped/enclosed dish structure\",\n    \"Green and white serving plate visible\",\n    \"Dark colouration consistent with steaming/boiling\",\n    \"Limited detail of internal components in thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title contains only Luganda text ('Olumu kumpombo zebinyebwa nga luteleedwa ku lujulillo') without English translation or explicit dish name\",\n    \"Protein content cannot be determined from visible wrapped structure alone\",\n    \"File metadata title 'Luwombo served.jpg' suggests this may be luwombo, but the description does not explicitly confirm this in source title or description\",\n    \"Internal filling is completely obscured by banana leaf wrapping; composition cannot be visually verified\",\n    \"No readable label or caption in photograph itself\"\n  ],\n  \"reason\": \"Identity check fails: source description is in Luganda only without English confirmation of dish name. The filename suggests 'Luwombo' but filenames are untrusted metadata. The wrapped structure and cooking method are evident, but the specific dish identity and protein content cannot be verified from the source description alone. Protein evidence cannot be established from the wrapped, enclosed presentation. Hold pending explicit English-language source confirmation of dish identity and composition.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1738,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 491,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

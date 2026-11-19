@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBSiiaDgyZ5jcvY6a7cJ",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Golden-orange broth in dark ceramic pot\",\n    \"Visible shellfish and seafood pieces\",\n    \"Rustic presentation on table with garnish bowl\",\n    \"Natural daylight, appetising colour\"\n  ],\n  \"phone_observations\": [\n    \"Stew in dark pot clearly visible\",\n    \"Golden broth and seafood components identifiable\",\n    \"Thumbnail composition preserves dish prominence\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title lists 'congrio' (conger eel) — not an allowed protein category (chicken/beef/pork/duck/lamb/seafood)\",\n    \"Specific seafood species named in description (polvo=octopus, lula=squid, mexilhões=mussels, camarão=shrimp, congrio=conger) are not individually extractable as 'seafood' without ambiguity of which are present in visible form\",\n    \"Title contains 'Caldeirada de frutos do mar' but protein_evidence requires explicit protein category support; mixed shellfish/cephalopod/fish stew does not map cleanly to singular 'seafood' key without loss of meaningful qualification\"\n  ],\n  \"reason\": \"Although the photograph is sharp, well-lit, appetising and clearly shows a finished seafood stew in a ceramic pot, the source description lists 'congrio' (conger eel) as a primary ingredient. Conger eel is not an allowed protein category. The remaining named species (octopus, squid, mussels, shrimp) are shellfish and cephalopods, not 'seafood' as a single extractable category. The source does not provide an exact quoted dish name that maps to allowed proteins with explicit, unambiguous species attribution. The identity cannot be accepted without a supported protein category from the allowed list.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1797,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 562,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
