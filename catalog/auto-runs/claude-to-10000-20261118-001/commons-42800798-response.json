@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCJ1Y8qGGKJKjPLPb9vs",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Finished, cooked meat stew in rich brown sauce\",\n    \"Yellow/golden cubed vegetables visible (potato or similar)\",\n    \"Prominent presentation in white bowl on brown background\",\n    \"Natural colour, appetising appearance\",\n    \"Sharp focus and readable components in phone thumbnail\"\n  ],\n  \"phone_observations\": [\n    \"Stew clearly visible and identifiable at thumbnail scale\",\n    \"Essential components (meat, sauce, vegetables) discernible\",\n    \"No clipping of food elements\",\n    \"Adequate detail for recognition\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title states 'Iranian veal stew' but metadata key is 'Tas kebabi' (Turkish spelling/tradition). Veal identification contradicts common preparation—tas kebab traditionally uses beef or lamb, not veal\",\n    \"No explicit protein species confirmation in source description beyond unverified 'veal' claim\",\n    \"Exact dish name identity unclear: source metadata inconsistency between 'Tas kebabi' (file name) and descriptive claim\"\n  ],\n  \"reason\": \"Identity check failed due to source contradiction: the file name suggests Turkish 'Tas kebabi' but description claims Iranian preparation with veal. The stated protein (veal) is not an allowed category (chicken/beef/pork/duck/lamb/seafood). Without explicit source confirmation of an allowed protein species and resolution of regional/name identity ambiguity, acceptance cannot proceed. Photograph and phone thumbnail quality are strong, but protein evidence and source identity must align with strict requirements.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1727,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 494,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

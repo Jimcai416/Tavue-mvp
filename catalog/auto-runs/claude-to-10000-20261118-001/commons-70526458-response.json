@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCJ2UgkQKnjGRiX9vc1d",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Cooked chopped flatbread mixed with meat and vegetables\",\n    \"Golden, brown and reddish tones throughout\",\n    \"Diced onions, peppers and herbs visible\",\n    \"Served on white plate with spoon\",\n    \"Finished, exposed dish in home/street food setting\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows the chopped meat-and-bread mixture\",\n    \"Visible variety of colour and texture supporting the composition\",\n    \"Subject prominent and legible in 124x96 frame\",\n    \"No clipping of essential components\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Species ambiguity: 'Mutton' in source may refer to sheep or goat; exact animal cannot be visually confirmed and term is regionally ambiguous\",\n    \"Title spelling inconsistency: 'kothi' vs canonical 'kothu'—uncertain which is authoritative in source description\"\n  ],\n  \"reason\": \"Photograph quality, composition and phone visibility are acceptable. However, the protein cannot be safely accepted: the source metadata term 'mutton' is ambiguous between sheep and goat meat and does not meet the requirement for an explicit, unambiguous species name. Additionally, the title field shows 'File:Mutton kothu parotta.jpg' while the description field states 'Mutton kothi parotta'—a spelling inconsistency that creates uncertainty about the canonical form. Per instructions, ambiguous meat species and source contradictions require a hold. Identity verification is blocked until these issues are resolved.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1517,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 498,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
