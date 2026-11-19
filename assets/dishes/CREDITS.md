@@ -10115,3 +10115,8 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 
 - **Älplermagronen** — Uwe Häntsch. [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:Alp_Tschigla_-_Leckere_%C3%84lplermagronen.jpg). Local asset: `reviewed-commons-144262522.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Älplermagronen mit Apfelkompott als Beilage** — [Katrin Gilger](https://www.flickr.com/photos/diekatrin/). [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:%C3%84lplermagronen,_2010.jpg). Local asset: `reviewed-commons-58437723.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Yam with Palava Sauce** — Jaward. [CC BY 4.0](https://creativecommons.org/licenses/by/4.0); [source](https://commons.wikimedia.org/wiki/File:Yam_with_Palava_Sauce_.jpg). Local asset: `reviewed-commons-78384690.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Boiled yam with Palaver Sauce** — Umuhiera. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Yam_with_palava_sauce.jpg). Local asset: `reviewed-commons-175900718.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
