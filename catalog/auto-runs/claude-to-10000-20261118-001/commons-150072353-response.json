@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBuNArpdEA7pbVFYLKTG",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 5\n  },\n  \"visible_support\": [\n    \"Grilled meat strips, well-browned with charred edges\",\n    \"Reddish-orange colour consistent with spiced grilled meat\",\n    \"Served on decorative plate with floral pattern\",\n    \"Sharp detail and natural colour in both full image and phone thumbnail\",\n    \"Prominent subject, clearly visible food\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail shows grilled meat strips clearly\",\n    \"Colour and texture match full image\",\n    \"Subject well-framed and readable at small size\",\n    \"No clipping of essential components\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title references 'thịt nướng' (grilled meat) and 'thịt nướng than khói' (charcoal-grilled meat) but does not explicitly name the meat species\",\n    \"Visual appearance suggests pork (common in Vietnamese grilled meat), but species cannot be confirmed from image alone and is not stated in source title/description\",\n    \"Full source title is a filename with metadata and location reference ('Bún thịt nướng cảng Cát Lái, ng10th5n2022') rather than a clean dish name\"\n  ],\n  \"reason\": \"Image quality, sharpness, lighting and composition are excellent; the photograph is appetising and well-presented. However, the source title does not explicitly name the meat species. 'Thịt nướng' (grilled meat) is generic; while visual cues and regional tradition suggest pork, the protein cannot be confirmed from the source description alone. Per protocol, unknown or unspecified meat species require a hold. The title also contains filename elements (date, location code) that should be stripped for a canonical_name, but without explicit species confirmation, acceptance cannot proceed.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1755,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 549,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
