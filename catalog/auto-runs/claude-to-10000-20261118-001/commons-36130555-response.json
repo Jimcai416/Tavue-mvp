@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBeX9DrjRuDma5SvTbQ9",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Orange ceramic bowl\",\n    \"Brown/burgundy broth\",\n    \"Visible meat pieces and bone fragments\",\n    \"What appear to be fried plantain or potato cubes\",\n    \"Natural outdoor lighting\",\n    \"Finished dish presentation\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail shows orange bowl with dark broth clearly\",\n    \"Meat and starch components visible and readable\",\n    \"Colour and composition match full image\",\n    \"Dish prominence adequate for phone view\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'goat meat' but goat is not an allowed protein category (only chicken/beef/pork/duck/lamb/seafood permitted)\",\n    \"Ambiguous meat species: source says 'goat' which may be regional variant of lamb or distinct species—cannot verify visually\",\n    \"No explicit source quote naming an allowed protein category\",\n    \"Fufu component not clearly visible or identifiable in photograph\"\n  ],\n  \"reason\": \"Source title names 'goat meat', which does not match the allowed protein categories (chicken/beef/pork/duck/lamb/seafood). Goat is an ambiguous or unspecified species under the review criteria. The photograph shows a finished, well-lit dish in an orange bowl with broth, meat, and starch components, but identity cannot be confirmed because the protein species named in the source ('goat') falls outside the permitted taxonomy and cannot be visually verified. Hold pending source clarification or protein reclassification.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1728,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 491,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
