@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBodk8XauRrbFBUJViBb",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": \"Bopis is made from ground pig's lungs and liver with water spinach, carrots, and spices.\",\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Ground meat mixture visibly prominent in full-size image\",\n    \"Orange carrot pieces clearly visible throughout\",\n    \"Green herb garnish (consistent with water spinach) present on top\",\n    \"Served in glass dish with clear presentation\",\n    \"Phone thumbnail shows readable dish structure and components\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows composed minced meat dish\",\n    \"Orange vegetable pieces distinct in centre-cover crop\",\n    \"Green garnish visible\",\n    \"Dish proportions and presentation maintained in thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source metadata lists 'pig's lungs and liver' but neither organ qualifies under allowed protein categories (chicken/beef/pork/duck/lamb/seafood)\",\n    \"Lungs and liver are offal/organ meats, not in the canonical protein set\",\n    \"While the meat component is visible and the source names the animal (pig), the specific organs fall outside the protein_evidence taxonomy\"\n  ],\n  \"reason\": \"Image quality, composition and phone thumbnail all pass. Identity is visually consistent with the source description of Bopis—a Philippine ground meat dish with carrots, greens and spices. However, the source explicitly names pig's lungs and liver as the protein components. The allowed protein categories are chicken/beef/pork/duck/lamb/seafood. Lungs and liver are organ meats (offal) that do not map to the 'pork' category, as the instruction requires exact source quotes naming only the allowed category names, and prohibits inferring species. Because no allowed protein category can be supported with an exact source quote, the identity check cannot be fully validated and the dish must be held pending clarification of whether organ meats are permissible under the pork category or if an alternative protein source is present.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1534,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 576,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

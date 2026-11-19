@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBoddrzkEEvUuZ5aPshB",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Crumbled red/orange textured keema in clay bowl\",\n    \"Julienned orange and red vegetable garnish on top\",\n    \"Mini parathas with red speckles stacked behind\",\n    \"Natural warm lighting\",\n    \"Home-style plating\"\n  ],\n  \"phone_observations\": [\n    \"Keema and parathas clearly visible in thumbnail\",\n    \"Red-orange colour prominent\",\n    \"Garnish visible but small\",\n    \"Adequate detail for recognition\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title declares 'Soya Keema' (plant-based meat substitute) but canonical review protocol requires explicit animal protein naming for acceptance in protein-dependent categories\",\n    \"Description states 'vegetarian' but source metadata cannot override requirement for visible or explicitly-named animal protein evidence\",\n    \"Dish is finished, appetising and well-photographed, but identity conflict prevents acceptance\"\n  ],\n  \"reason\": \"Source declares this a vegetarian dish (Soya Keema = soy-based substitute). The canonical name must preserve the exact source title phrase 'Ghee Roast Soya Keema with Mini Parathas', which explicitly identifies the protein as soya/plant-based, not an animal protein. Protocol protein_evidence keys are restricted to {chicken, beef, pork, duck, lamb, seafood} with exact source quotes. Soya is neither animal protein nor a supported key. The image quality, composition, lighting and phone visibility are all strong, but identity verification fails: the dish identity itself contradicts the protocol requirement to document animal proteins only. Reject on identity check failure.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1775,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 518,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBod4BxZFGStCKSrjSKC",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Ground meat mixture with diced vegetables (carrots, onions visible) in a metal service tray\",\n    \"Thumbnail shows complete dish overview in serving container\",\n    \"Adequate resolution to discern components\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title lists multiple dish names (Bitsu-Bitsu, Giniling Menudo, Paksiw, Gising-gising, Lechon kawali, Kaldereta, Bopis) with no clear indication which applies to the photographed dish\",\n    \"No explicit meat species declared in source title or description\",\n    \"Ambiguous identity: ground meat composition not specified in metadata\",\n    \"Cannot definitively match the visual ground meat preparation to any single named dish in the conflicting list\"\n  ],\n  \"reason\": \"Rejection: source metadata provides a list of multiple Philippine dishes without indicating which one is actually photographed. The title contains at least 7 different dish names (Bitsu-Bitsu, Giniling Menudo, Paksiw, Gising-gising, Lechon kawali, Kaldereta, Bopis) with no clear matching to the visible ground meat and vegetable mixture. No explicit protein species is named. While the photograph itself is well-exposed and the food is recognizable as a cooked ground meat dish with vegetables, the identity cannot be established with certainty from the source description. Per guidelines, source contradictions and ambiguous identity require hold/rejection. The conflicting title list prevents confident canonical naming.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1930,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 492,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBodbQfAxtCrm69UhVAh",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": \"Bopis is made from ground pig's lungs and liver with water spinach, carrots, and spices.\",\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Cooked ground meat mixture\",\n    \"Orange/red vegetable pieces (carrots visible)\",\n    \"Green herb garnish (cilantro)\",\n    \"Natural colour, appetising presentation\",\n    \"Prominent dish on decorative plate\",\n    \"Phone thumbnail clearly shows composition\"\n  ],\n  \"phone_observations\": [\n    \"Meat and vegetable mixture legible\",\n    \"Green herb garnish visible\",\n    \"Plate shape and colour evident\",\n    \"Adequate detail for identification\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title metadata labels dish as 'Bopis' but canonical_name instruction requires exact phrase from title or description field. Filename 'Bopis 2.jpg' is explicitly excluded per instructions. Only the description text is reliable source material.\",\n    \"Description states 'pig's lungs and liver' but canonical phrase would require exact copy from reliable source text. The description alone does not provide a complete canonical dish name suitable for preservation.\",\n    \"Organ meats (lungs, liver) fall outside the allowed protein category list (chicken/beef/pork/duck/lamb/seafood). Pork organ meats cannot be encoded under the 'pork' key without an explicit source quote naming 'pork' as the qualifier.\",\n    \"Visual identification cannot confirm organ meat composition—ground meat appearance is non-distinctive.\",\n    \"Source description provides cultural/ingredient context but no canonical dish phrase suitable for exact extraction.\"\n  ],\n  \"reason\": \"Image quality, sharpness, lighting and composition are strong (all ≥4). Photograph and phone thumbnail both meet technical acceptance criteria. However, identity check fails: the source provides a description of bopis ingredients but no canonical dish name phrase suitable for exact extraction per protocol. Protein evidence cannot be populated because organ meats (lungs, liver) do not fall within the allowed protein categories (chicken/beef/pork/duck/lamb/seafood), and 'pork' cannot be inferred from organ meat type alone without explicit source naming. The filename 'Bopis 2.jpg' is excluded per instructions. Hold pending a source title or description that provides an exact canonical phrase and resolves the organ meat classification issue.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1533,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 659,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
