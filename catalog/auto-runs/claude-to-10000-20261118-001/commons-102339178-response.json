@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBRW7qDH8khETRdjngg6",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Two curry bowls with brown/golden gravies, one containing visible fish\",\n    \"Flat bread (bhakri) on patterned plate\",\n    \"White rice on blue plate\",\n    \"Cooked meat/fish on blue plate\",\n    \"Onion and green vegetable garnish\",\n    \"Home cooking presentation on decorative tableware\"\n  ],\n  \"phone_observations\": [\n    \"Curries and flat bread clearly visible in thumbnail\",\n    \"Fish curry bowl prominent\",\n    \"Blue plate with rice and cooked protein visible\",\n    \"Overall composition readable and appetising\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'sardine fish curry prawn rice bhakri' but only ONE fish curry visible in bowls; presence of prawn is not visually confirmed in either image\",\n    \"The cooked meat on blue plate cannot be definitively identified as fish or prawn from appearance alone\",\n    \"Second curry bowl appearance and contents unclear—may be vegetable or second fish curry type\",\n    \"Source title lists three distinct proteins (sardine, prawn, and rice as carb) but visual evidence supports only fish curry; prawn presence unconfirmed\",\n    \"No exact case-sensitive substrings can be extracted for protein_evidence keys without visual certainty\"\n  ],\n  \"reason\": \"Identity check fails: source title claims 'sardine fish curry prawn rice bhakri' but prawn presence is not visually proven. Only fish curry is clearly visible. The cooked protein on the blue plate cannot be confirmed as prawn or identified as a separate protein category. All quality and photograph checks pass (sharpness, lighting, composition, appeal all ≥4; sharp detail; natural colour; appetising; prominent dish; phone thumbnail adequate). However, the contradiction between source title and visual evidence—specifically the unverified claim of prawn—triggers an identity hold. Per protocol, hidden flavours may be source-declared but not visually proven here, and source contradictions require hold.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1651,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 594,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
