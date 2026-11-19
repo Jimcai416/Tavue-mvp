@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBzYSmQPjkxugS4hL7JZ",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 2,\n    \"composition\": 1,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Plastic-wrapped, uncooked dough portions in cardboard box\",\n    \"No finished, cooked dish visible\",\n    \"Items appear to be raw preparation stage or bulk ingredient\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title claims 'Two-color steamed buns' but image shows only pale/white wrapped dough with no visible colour contrast or cooked appearance\",\n    \"No evidence of steaming, cooking or finishing\",\n    \"Plastic wrapping, cardboard storage box and preparation-stage presentation contradict finished dish requirement\"\n  ],\n  \"reason\": \"Image shows raw dough portions wrapped in plastic, stored in a cardboard box—a preparation/bulk storage stage, not a finished, exposed, photographic dish. The source title claims 'two-color steamed buns' but no two colours, steaming, cooking or appetising finished presentation is visible. Quality, composition and appeal scores are critically low. Phone thumbnail confirms uncooked dough wrapped in plastic. Fails photograph, identity, quality and phone checks. Does not meet acceptance criteria for a finished food dish.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1730,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 392,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
