@@ -9902,3 +9902,8 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Tuwo miyar taushe** — Halima Waziri. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Tuwo_miyar_taushe.jpg). Local asset: `reviewed-commons-164443706.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Tuwo with vegetable soup and beef** — Halima Waziri. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Tuwo_with_vegetable_soup_and_beef.jpg). Local asset: `reviewed-commons-164450012.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Tuwo shinkafa and Okro Soup** — Bukky658. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Tuwo_shinkafa_and_Okro_Soup_01.jpg). Local asset: `reviewed-commons-103651952.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.

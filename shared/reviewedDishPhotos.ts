@@ -128103,5 +128103,51 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 540,
     "height": 960,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-164450012",
+    "title": "File:Tuwo with vegetable soup and beef.jpg",
+    "author": "Halima Waziri",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tuwo_with_vegetable_soup_and_beef.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Tuwo_with_vegetable_soup_and_beef.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "3e1e1bb9101252d5f1513b6f2bd3b3fa38d10dbc",
+    "name": "Tuwo with vegetable soup and beef",
+    "aliases": [],
+    "proteins": [
+      "beef"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-164450012.jpg",
+    "assetSha256": "f11f82118f34cd7b292204e8401aefc428dd5eabbada5c776a1971c917b4ca2d",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 540,
+    "height": 960,
+    "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-103651952",
+    "title": "File:Tuwo shinkafa and Okro Soup 01.jpg",
+    "author": "Bukky658",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tuwo_shinkafa_and_Okro_Soup_01.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/22/Tuwo_shinkafa_and_Okro_Soup_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "404049913356d8ca39c8795f85c5404d02fa1c88",
+    "name": "Tuwo shinkafa and Okro Soup",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-103651952.jpg",
+    "assetSha256": "94fc0badfb3ad8217d2f3dab16371519b12998e09ed91299915b8da5a4f6403b",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 720,
+    "height": 960,
+    "requiresExactMenuName": true
   }
 ];
