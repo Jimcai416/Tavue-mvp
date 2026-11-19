@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCFQeeJUD69fRAe34ESr",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Two golden-brown fried cakes with visible speckling and browning\",\n    \"Creamy pale sauce with speckled seasoning draped across cakes\",\n    \"Plate with coloured rim band (red, green, blue stripes)\",\n    \"Natural lighting, dish clearly exposed and finished\"\n  ],\n  \"phone_observations\": [\n    \"Fried cakes visible and prominent in thumbnail\",\n    \"Sauce covering visible\",\n    \"Coloured plate rim recognisable\",\n    \"Subject adequately sized and sharp in phone view\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'Fish cakes' but no fish or seafood is explicitly declared in source text; species cannot be visually confirmed\",\n    \"No authoritative source description beyond generic filename; cannot verify actual ingredients or regional variant\",\n    \"Sauce composition and name unknown; cannot confirm sauce type or dish tradition\"\n  ],\n  \"reason\": \"Identity check fails. The source title 'Fish cakes food dinner' names fish/seafood as protein, but the source metadata provides no explicit quote naming a fish species or seafood type. Per rules, ambiguous or unspecified species (including when visual appearance alone would suggest species identity) must be held. The generic filename and public-domain attribution provide no authoritative dish description. Quality, photograph and phone checks pass, but identity cannot be confirmed without an explicit species name in source documentation.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1769,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 458,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
