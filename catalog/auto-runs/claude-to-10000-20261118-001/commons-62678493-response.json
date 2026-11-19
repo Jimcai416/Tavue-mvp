@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBkSeQb3krAqsMtpkcef",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": \"チキンライス （市販の冷凍食品を電子レンジで調理）\",\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Orange-tinted rice with green peas and what appears to be diced chicken\",\n    \"Served in a white bowl\",\n    \"Natural, appetising colour and presentation\",\n    \"Sharp detail of individual rice grains\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows orange fried rice with green peas\",\n    \"Central dish is prominent and readable\",\n    \"Colour and texture align with full image\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title states 'Chicken rice' (チキンライス) but no visible chicken pieces are definitively identifiable in the photograph—only small pale fragments that could be chicken, carrot, or other ingredients\",\n    \"Description indicates frozen convenience food (市販の冷凍食品), which may affect authenticity assessment\",\n    \"Without explicit, clearly visible chicken confirmation in the image, protein identity cannot be visually supported despite source declaration\"\n  ],\n  \"reason\": \"Hold: Although the photograph shows sharp, well-lit, appetising fried rice with good composition and thumbnail clarity, the source title declares 'chicken' but no chicken is visually proven in the image. Visible fragments are ambiguous. Per protocol, hidden flavours may be source-declared but cannot be claimed as visually proven. Without visible confirmation of the named protein, identity check fails despite quality being acceptable.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1746,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 472,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
