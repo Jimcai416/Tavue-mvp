@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBuzMS4Y4MFM6Zr8LHTi",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [\n    \"Ash-coated cheese (camembert variant) with black rind visible in wrapper\",\n    \"Pink/tan pâté or terrine slice (likely head cheese or terrine de campagne)\",\n    \"Cured meat pieces (bacon or pancetta)\",\n    \"Three condiment bowls with brown, yellow, and red sauces\",\n    \"Professional plating on white rectangular dish\"\n  ],\n  \"phone_observations\": [\n    \"All components clearly visible and legible at thumbnail scale\",\n    \"Central pâté and meat are sharp and prominent\",\n    \"Cheese, condiments and plating visible\",\n    \"No clipping of essential food elements\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title lists three separate items (ash camembert, head cheese, terrine de campagne) but does not identify this as a single composed dish with a canonical name\",\n    \"Unclear which component is 'head cheese' vs 'terrine de campagne' — both are charcuterie/pâté items and appear visually similar\",\n    \"Cured meat species (bacon/pancetta) not identified in source description\",\n    \"No explicit animal protein names in title for any component; 'head cheese' and 'terrine de campagne' are preparation types, not species declarations\",\n    \"Cheese is qualified as 'ash camembert' (variant), but source does not name the specific animal (cow milk implied but not stated)\"\n  ],\n  \"reason\": \"Source title is a comma-separated list of three charcuterie/cheese items without a unified dish name or canonical identity. This is a charcuterie board or plated selection, not a named, finished dish. No animal proteins are explicitly named in the source (head cheese and terrine de campagne do not specify species; ash camembert does not state cow milk). Without an exact source-quoted canonical name for the composed plate and without explicit protein species declarations, identity cannot be verified. The image is a high-quality photograph of appetizing charcuterie, but it fails the identity check.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1534,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 607,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBuziNtsnxqknFRaVQVR",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Bowl of spiced meat curry with green herb garnish\",\n    \"Flatbread with charred spots and powdered surface\",\n    \"Served on white plates with decorative tablecloth\"\n  ],\n  \"phone_observations\": [\n    \"Curry and bread clearly visible in thumbnail\",\n    \"Relative proportions and colours match full image\",\n    \"Dish components readable at phone size\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title states 'Afghan Qurma' but 'Qurma' spelling is non-standard; Afghan curry is typically 'Korma' or 'Qorma'\",\n    \"No explicit protein species identified in title or description\",\n    \"Meat species in curry cannot be reliably determined from appearance alone\",\n    \"Exact bread variety not specified (appears to be naan or similar, but source does not name it)\"\n  ],\n  \"reason\": \"Image quality, composition and appeal are strong; both full and thumbnail photographs show a finished, appetising dish with sharp detail and natural colouring. However, the source title contains a non-standard spelling variant ('Qurma' vs canonical 'Korma'/'Qorma'), and critically, no protein species is explicitly named in the supplied title or description. The curry contains meat but its species cannot be visually confirmed without source declaration. The bread type is also unspecified. Per guidelines, ambiguous meat species and source contradictions/uncertainties mandate a hold pending clarification of the exact dish name and protein identification.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1620,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 485,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
