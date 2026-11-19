@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCCXqwnkG4C8ammRayMA",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": \"Tafelspitz of veal, Vienna\",\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Two crispy-crusted meat portions with browned exterior in full image\",\n    \"Rich brown sauce/broth with vegetables (red pepper, yellow pepper, mushroom visible)\",\n    \"Plated on white porcelain with blue decorative text reading 'ZUM WEISSEN RAUCHFANGOKEHRER'\",\n    \"German restaurant context consistent with Vienna claim\",\n    \"Finished, exposed dish prominently displayed\",\n    \"Phone thumbnail shows crusted meat portions with coloured vegetables and sauce\"\n  ],\n  \"phone_observations\": [\n    \"Crusted meat portions clearly visible and readable in thumbnail\",\n    \"Sauce and vegetable components distinguishable\",\n    \"Adequate sharpness and colour rendering for identity\",\n    \"No essential food clipped from thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title states 'veal' but Tafelspitz is traditionally Austrian boiled beef (Rinderfleisch). The crusted preparation and brown sauce visible in photograph do not match canonical Tafelspitz presentation (boiled, sliced, served with broth and horseradish). The appearance suggests Wiener Schnitzel or a breaded veal cutlet rather than Tafelspitz.\",\n    \"Visible meat species cannot be visually confirmed as veal rather than other species from photograph alone\",\n    \"Contradiction between source title ('Tafelspitz') and visual preparation method (breaded/crusted, not boiled)\",\n    \"No explicit protein species confirmation in source description beyond 'veal' label\"\n  ],\n  \"reason\": \"Identity check fails: source title claims 'Tafelspitz of veal' but the visible dish shows breaded/crusted meat portions in a rich sauce, inconsistent with canonical Tafelspitz (which is boiled, thinly sliced beef served with horseradish). The preparation and presentation contradict the stated identity. The source-declared protein 'veal' lacks explicit naming sufficient for protein_evidence extraction. The contradiction between source description and visual form prevents confident dish identification and acceptance.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1732,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 622,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

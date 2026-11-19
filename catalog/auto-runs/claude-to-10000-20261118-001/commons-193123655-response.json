@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCCXr2kVuMsPUpHzxjvK",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [\n    \"Chickpeas clearly visible and abundant\",\n    \"Broth-based stew in large cooking pot\",\n    \"Meat pieces visible in the dish\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail shows pot with chickpeas and broth\",\n    \"Meat pieces visible but species identification difficult at this resolution\",\n    \"Ingredient composition readable\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Meat species cannot be reliably identified from photograph alone. Visible pieces appear reddish-brown and irregular, consistent with either chorizo or other sausage/meat, but exact species is ambiguous. Chorizo is a sausage product and cannot be used as a protein_evidence key per guidelines.\",\n    \"Source title claims 'chorizo' but chorizo is a prepared sausage product whose underlying animal species is not visually determinable from the photograph. No explicit animal species naming (chicken/beef/pork/duck/lamb/seafood) appears in the source title.\"\n  ],\n  \"reason\": \"While the photograph shows a well-executed chickpea stew in a pot with visible meat pieces and clear broth, the source title 'Guiso de garbanzos con chorizo' names chorizo as the protein. Chorizo is a sausage product and cannot serve as a valid protein_evidence key. The title does not explicitly name an allowed category (chicken/beef/pork/duck/lamb/seafood), and the visual appearance of the meat pieces alone cannot reliably determine the underlying animal species. Per guidelines, unknown or ambiguous meat species requires hold, and sausage cannot be used as a protein category key. The photograph itself is of high quality and appetizing, but protein evidence cannot be established from the source materials provided.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1738,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 535,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

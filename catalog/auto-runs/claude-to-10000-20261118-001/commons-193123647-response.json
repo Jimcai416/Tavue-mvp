@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCCXr2kF2SaB5iBxk47B",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 3,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows raw/preparation stage: uncooked meatballs on cutting board and pot of cooking chickpeas\",\n    \"Essential dish components not yet combined or finished\",\n    \"No finished, exposed, plated or served dish visible\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title declares 'chorizo' but metadata does not explicitly name the meat species in the sausage\",\n    \"Image shows preparation stage, not finished dish\"\n  ],\n  \"reason\": \"Reject: This is a preparation/cooking-in-progress photograph, not a finished, exposed dish. The thumbnail and full image show raw meatballs on a cutting board and chickpeas still cooking in a pot—no finished food suitable for intake. The source title references 'chorizo' (a sausage), but the meat species within chorizo is not explicitly named in the metadata, and the sausage is not visible in the photograph (only raw meatballs). Home cooking is welcome, but only finished dishes. This fails the core requirement of being a finished, exposed, likely photographic dish. Appeal score reflects preparation stage appearance.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1878,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 398,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
