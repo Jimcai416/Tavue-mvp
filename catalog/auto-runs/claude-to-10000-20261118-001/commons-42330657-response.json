@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBcFoKd53rsibW9E49LK",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 2,\n    \"composition\": 2,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows a bowl with pale semi-liquid/gelatinous contents and spoon\",\n    \"Bowl appears shallow, subject is centrally framed but poorly resolved\",\n    \"Lighting and colour are muddy; detail insufficient to confirm finished dish appearance\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title references 'Oats kissel 5.jpg' (a filename, not a canonical dish name)\",\n    \"Description is in Russian and discusses the historical and modern forms of kissel, but does not provide a clear, specific English dish name\",\n    \"Image appears to show a preparation or intermediate stage rather than a finished, plated, appetising dish\",\n    \"Severe softness, poor lighting, and lack of sharpness make it impossible to verify finished appearance or appetising presentation\",\n    \"The pale, undifferentiated appearance in both full image and thumbnail is consistent with an unfinished or understated preparation\"\n  ],\n  \"reason\": \"Rejection: (1) Source title is a filename with no canonical dish name provided; description in Russian does not supply a usable English canonical name. (2) Image quality fails: sharpness 2/5, lighting 2/5, composition 2/5, appeal 1/5—all well below the minimum threshold of 4. (3) The photograph does not present a finished, exposed, appetising dish; it appears soft, muddy, and poorly lit, with a pale, undifferentiated gelatinous mass that does not meet the standard for a food photograph. (4) Phone thumbnail is too low-resolution and poorly lit to verify identity or quality. (5) No meaningful support for acceptance of this image as a representative food photograph.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1668,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 528,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
