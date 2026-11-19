@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCNNFtLPAj1sHo3Q1weC",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 3,\n    \"lighting\": 3,\n    \"composition\": 2,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows raw fish in white containers at a market stall\",\n    \"Fish are whole, uncooked, and displayed for sale\",\n    \"No finished dish visible in phone view\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title describes a fish market (souq), not a prepared food dish\",\n    \"Image shows raw ingredient display, not a finished, exposed, cooked dish\",\n    \"No prepared food subject present\"\n  ],\n  \"reason\": \"Rejection: This is documentation of a fish market stall displaying raw, whole fish for sale—a raw/preparation stage, not a finished, cooked, appetising dish. The identity (Tarout fish market) contradicts the requirement for a completed photographic food dish. The subject is ingredient display and market commerce, not a recognisable prepared meal. Sharpness, lighting, and composition scores are below the required threshold of 4.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1633,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 352,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
