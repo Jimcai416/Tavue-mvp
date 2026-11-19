@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBb6DTYp23VSxmyAK2LE",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": \"Bún ốc  (snail vermicelli soup)\",\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Bowl of broth-based noodle soup\",\n    \"Thin vermicelli noodles visible\",\n    \"Dark leafy greens (appears to be water spinach or similar)\",\n    \"Single prominent piece of protein with crispy/caramelized exterior\",\n    \"Ceramic bowl with spoon and chopsticks\",\n    \"Clear broth with herbs\",\n    \"Natural lighting, home or street food setting\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows bowl composition\",\n    \"Leafy greens and noodles distinguishable\",\n    \"Central protein element visible\",\n    \"Broth and utensils readable\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title declares 'snail' but the prominent protein piece appears to be duck skin or possibly pork with crispy exterior—shape, colour, and texture are inconsistent with prepared snail which would typically appear as smaller pieces or whole coiled shell\",\n    \"Snail species unspecified even if snail were present\",\n    \"Cannot definitively confirm snail identity from visual examination alone; the visible protein piece does not match typical prepared snail presentation in Vietnamese cuisine\"\n  ],\n  \"reason\": \"Identity check fails. The source description claims 'Bún ốc (snail vermicelli soup)', but the prominent protein element visible in both full and thumbnail images does not resemble prepared snail. The piece shown has a crispy, caramelized exterior consistent with duck skin, pork, or possibly liver—not the texture or form of cooked snail. While the noodles, broth, and leafy greens match bún ốc components, the core protein identification contradicts the visible evidence. Additionally, 'snail' as a category requires species identification per protein_evidence rules, which is not provided in source text. The image quality and composition are strong (all checks except identity and variant_preserved are true), but the fundamental identity mismatch necessitates hold pending clarification of the actual protein presented.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1627,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 610,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
