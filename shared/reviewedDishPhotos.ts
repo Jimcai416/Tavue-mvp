@@ -106362,5 +106362,28 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "height": 643,
     "requiresExactMenuName": true,
     "authorUrl": "https://www.flickr.com/people/10559879@N00"
+  },
+  {
+    "id": "commons-83131221",
+    "title": "File:Nyonya Curry Laksa with 5-Spice Loh Bak - whole bowl visible (371506882).jpg",
+    "author": "Alpha  from Melbourne, Australia",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nyonya_Curry_Laksa_with_5-Spice_Loh_Bak_-_whole_bowl_visible_(371506882).jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/37/Nyonya_Curry_Laksa_with_5-Spice_Loh_Bak_-_whole_bowl_visible_%28371506882%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "6aa3aa292c3e0894d44e02ff923484fb3ff1f641",
+    "name": "Nyonya Curry Laksa with 5-Spice Loh Bak",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-83131221.jpg",
+    "assetSha256": "444f12c97bfcb70966db83d286374cbb0bb23922c8e24b4611acc6045c2b4814",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 800,
+    "height": 600,
+    "requiresExactMenuName": true,
+    "authorUrl": "https://www.flickr.com/people/10559879@N00"
   }
 ];
