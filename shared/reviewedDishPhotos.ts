@@ -132337,5 +132337,51 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-103824729",
+    "title": "File:Doi fuchka in kurigram.jpg",
+    "author": "Dr. Asif Md. Rezaur Rahman",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Doi_fuchka_in_kurigram.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Doi_fuchka_in_kurigram.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "606fcd173615593abe18820f029c2098503ef2ad",
+    "name": "doi fuchka",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-103824729.jpg",
+    "assetSha256": "2b4ccf9a77d72e39af5c096097e29b04848d021d1c8d1675d9c809873d358bdc",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 720,
+    "height": 960,
+    "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-156525548",
+    "title": "File:Assiette de fruits de mer Marché des Capucins Bordeaux (2).jpg",
+    "author": "Benreis",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Assiette_de_fruits_de_mer_March%C3%A9_des_Capucins_Bordeaux_(2).jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Assiette_de_fruits_de_mer_March%C3%A9_des_Capucins_Bordeaux_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "55437b937816dcce003cd98a82afa8135446f8eb",
+    "name": "Seafood platter at the Marché des Capucins in Bordeaux",
+    "aliases": [],
+    "proteins": [
+      "seafood"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-156525548.jpg",
+    "assetSha256": "fa3b0abe5683a12bd4520af8ab7d67614d1d2cd8594c1b0a80f5d65faac83b65",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];
