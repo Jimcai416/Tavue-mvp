@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBQkTVBoX6uCBuunksQ1",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Golden-brown pastry exterior with visible char marks\",\n    \"Cooked meat filling visible where pastry is broken open\",\n    \"Served in disposable paper boat container\",\n    \"Finished, exposed dish on wooden surface\"\n  ],\n  \"phone_observations\": [\n    \"Subject prominent and clearly visible in thumbnail\",\n    \"Golden pastry and filling visible\",\n    \"No clipping of essential food components\",\n    \"Adequate detail for identification\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title contains 'File:' prefix and filename extension (.jpg) which should be stripped per instructions, leaving 'Rissoles de Coucy 3'\",\n    \"French regional dish 'Rissoles de Coucy' is not a standard Tavue category and filling composition cannot be visually verified\",\n    \"Specific meat species in filling is not explicitly named in source description, only implied by traditional recipe\",\n    \"No explicit protein declaration in title or description—inference from appearance or tradition is not permitted\"\n  ],\n  \"reason\": \"Photograph quality and composition are strong, and the dish is clearly finished and appetising. However, identity cannot be confirmed because: (1) the canonical_name would require stripping 'File:' and '.jpg' from the metadata, which appears to be filename artifact rather than true source title; (2) the source description 'Rissoles de Coucy' does not explicitly name any meat species (chicken/beef/pork/duck/lamb/seafood), making protein_evidence empty; (3) without an explicit source quote naming the animal protein, identity cannot be preserved per protocol rules. Hold pending clarification of the actual source title without filename elements and explicit protein declaration.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1747,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 528,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
