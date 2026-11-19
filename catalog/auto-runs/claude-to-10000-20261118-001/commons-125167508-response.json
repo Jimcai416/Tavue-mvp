@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChC1vGrprwUjW9HymzPcf",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Earthenware bowl containing a brown/reddish peanut-based soup\",\n    \"Visible meat pieces submerged in gravy\",\n    \"Lemongrass or similar aromatic herb visible\",\n    \"Rich, appetising appearance consistent with West African stew\"\n  ],\n  \"phone_observations\": [\n    \"Soup and meat components clearly visible in thumbnail\",\n    \"Earthenware vessel recognisable\",\n    \"Colour and texture consistent with full image\",\n    \"Dish identity preserved in phone view\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title and description conflict: title says 'Fufuo and peanut butter soup' but description says 'Fufu and peanut butter soup' (spelling inconsistency)\",\n    \"Visible meat species cannot be identified from appearance alone; no explicit animal name in source metadata\",\n    \"Fufuo vs. Fufu naming variant unclear—metadata inconsistent\",\n    \"Peanut butter soup is confirmed visually, but meat component identity unspecified in source\"\n  ],\n  \"reason\": \"Source metadata contains internal contradiction (title 'Fufuo' vs. description 'Fufu') and no explicit protein species identification. Meat is clearly visible in the dish but the source does not name the animal. Protein evidence cannot be populated without an exact case-sensitive substring from source declaring a specific meat type. Spelling/naming ambiguity in source must be resolved before canonical name can be fixed. Photograph and phone thumbnail are sharp, well-lit, and appetising, but identity criteria cannot be met due to source inconsistency and absent protein declaration.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1521,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 515,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
