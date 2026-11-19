@@ -6606,3 +6606,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 
 - **Pizza med kartofler, gedeost og trøffelolie** — [cyclonebill  from Copenhagen, Denmark](https://www.flickr.com/people/23178876@N03). [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:Pizza_med_kartofler,_gedeost_og_tr%C3%B8ffelolie_(7580906898).jpg). Local asset: `reviewed-commons-26755538.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Chips of potatoes, sweet potatoes with saffron and seaweed** — [cyclonebill  from Copenhagen, Denmark](https://www.flickr.com/people/23178876@N03). [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:Restaurant_Llu%C3%A7an%C3%A8s_Cava_og_chips_af_kartofler,_s%C3%B8de_kartofler_med_safran_og_tang_(4254742142).jpg). Local asset: `reviewed-commons-26890767.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Schnitzel med stegte kartofler og salat** — [cyclonebill  from Copenhagen, Denmark](https://www.flickr.com/people/23178876@N03). [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:Schnitzel_med_stegte_kartofler_og_salat_(8338558525).jpg). Local asset: `reviewed-commons-26755345.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
