@@ -103996,5 +103996,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 661,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-40944647",
+    "title": "File:Peechu Mithai (Telugu).JPG",
+    "author": "Tukda",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Peechu_Mithai_(Telugu).JPG",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/09/Peechu_Mithai_%28Telugu%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "9078e1634ee77203c5a0ea12c7f6f587cebb7e25",
+    "name": "Peechu Mithai (Telugu)",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-40944647.jpg",
+    "assetSha256": "c53ae1f5d6e4a447dea8f8d94feebf580f51b1ed04e6f99b303166f68824338e",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 636,
+    "requiresExactMenuName": true
   }
 ];
