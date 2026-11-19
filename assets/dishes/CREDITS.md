@@ -10425,3 +10425,8 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 
 - **Deep Fried Spring Roll** — Hiroooooo. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Deep_Fried_Spring_Roll.jpg). Local asset: `reviewed-commons-89352625.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Spring roll** — Ocdp. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Spring_roll_001.jpg). Local asset: `reviewed-commons-111199747.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Sellou with Moroccan tea** — مصطفى ملو. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Sellou_with_Moroccan_tea.jpg). Local asset: `reviewed-commons-161419358.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Sellou** — Najwa210. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Selou.jpg). Local asset: `reviewed-commons-105818002.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
