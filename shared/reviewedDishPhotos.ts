@@ -103974,5 +103974,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-78403186",
+    "title": "File:Brookie-homemade.jpg",
+    "author": "Anitalillie",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Brookie-homemade.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Brookie-homemade.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "7838d914d5f63eec7b2f029e1049eb8541267cd4",
+    "name": "Homemade brookie",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-78403186.jpg",
+    "assetSha256": "213d5d64612b1d2d232c88f692b16c617dcf33fda9bf0fdad9dfaf76ed729496",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 661,
+    "requiresExactMenuName": true
   }
 ];
