@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCMpAxnTYr8Yz6MBSqEe",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Two plated servings of curried meat dish with rice and vegetable sides\",\n    \"White plated presentation on wooden table\",\n    \"Fresh pickled ginger, shredded vegetables, greens visible as accompaniments\",\n    \"Rice mound on upper plate\",\n    \"Brown sauce-based protein component prominent on lower plate\"\n  ],\n  \"phone_observations\": [\n    \"Lower plate clearly shows brown curried meat with rice and pickled vegetables\",\n    \"Upper plate visible with white rice mound and side components\",\n    \"Essential dish elements readable in thumbnail\"\n  ],\n  \"protein_evidence\": {\n    \"chicken\": \"Chicken\"\n  },\n  \"uncertainties\": [\n    \"Title claims 'Chicken Biriani and Boneless Chicken' but image shows two similar plated curries, not a traditional biryani (layered rice dish)\",\n    \"Description states 'Boneless chicken in vegetables served with white rice' but does not match title's mention of 'Biriani'\",\n    \"Visual appearance suggests curry preparation (possibly tikka masala or similar) rather than biryani\",\n    \"Source title/description contradiction: 'Biriani' vs actual plated curry presentation creates ambiguity about intended dish identity\"\n  ],\n  \"reason\": \"Source title and description contradict each other (Biriani vs. boneless chicken curry description), and the visual form does not match traditional biryani preparation (no layered rice-meat composition). While the photograph shows well-prepared curry dishes with identifiable chicken and appealing presentation, the identity uncertainty prevents acceptance. The exact canonical name cannot be reliably extracted from conflicting metadata.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1734,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 507,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
