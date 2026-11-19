@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBTGNzt9CHMwj3atefDG",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows diced onions in a dark pan, clearly a preparation stage\",\n    \"No finished dish visible in phone view\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'Preparing orecchiette' but image shows only diced onions in a pan—no pasta visible\",\n    \"This is a raw/preparation stage, not a finished exposed dish\",\n    \"No finished food dish is present to review\"\n  ],\n  \"reason\": \"Rejection: Image shows diced onions being cooked in a pan—a preparation/intermediate cooking stage, not a finished dish. The title references orecchiette pasta, but no pasta or completed dish is visible. The guidelines explicitly reject raw/preparation stages. Identity check fails because the visible content (onions mid-cook) does not match the declared subject. This is not an acceptable finished, exposed, prominent dish for food photography review.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1794,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 349,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
