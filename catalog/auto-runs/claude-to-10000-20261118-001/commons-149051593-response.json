@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCzTxJGXf8jJrNebpv2z",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 2,\n    \"composition\": 1,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail is entirely text-based recipe content\",\n    \"No finished dish visible in phone thumbnail\",\n    \"Illegible recipe ingredients and instructions dominate\",\n    \"No food subject recognizable at phone resolution\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title/description refers to 'El Museo de Frida Khalo' (museum), contradicting 'Mole Poblano' recipe text in image\",\n    \"Full image is a printed recipe card, not a photograph of prepared food\",\n    \"Turkey mentioned in recipe instructions but no cooked dish shown\"\n  ],\n  \"reason\": \"Rejection: This is a printed recipe card or document page, not a photograph of a finished, prepared mole poblano dish. The source metadata references a museum (El Museo de Frida Khalo), which contradicts the visible recipe text. The phone thumbnail contains only unreadable recipe text with no finished food visible. The full image shows recipe ingredients and instructions printed on paper, not an appetizing, exposed, naturally-coloured prepared dish. Essential food subject is absent and clipped. No photograph of an actual mole poblano exists in either the full or thumbnail image.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1733,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 412,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

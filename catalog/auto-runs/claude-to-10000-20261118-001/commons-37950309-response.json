@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCzTLXDfXHzvVjskmb1b",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Phone thumbnail shows baked börek in a metal tray with golden-brown surface and visible cut sections\",\n    \"Thumbnail captures the full dish clearly with appetizing colour and texture\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title 'Börek tepsi' (börek tray) is a generic category descriptor, not a specific dish name\",\n    \"Description 'çeşitli böreklerden görüntüler' means 'images of various börek' — this is a collection/category image, not a single identifiable finished dish\",\n    \"Visible layers and filling composition cannot be definitively identified from appearance alone\",\n    \"No specific börek variant (spinach, cheese, meat, potato) can be reliably determined from visual inspection\",\n    \"Proteins cannot be declared without explicit source naming\"\n  ],\n  \"reason\": \"Rejection: The source metadata describes this as a generic category image of various börek types ('images of various börek'), not a specific, named finished dish. The canonical_name requirement demands an exact specific dish phrase from the source title or description. 'Börek tepsi' (börek tray) is a generic category label, not a dish identity. Without source declaration of the specific börek variant (spinach/cheese/meat/potato) and any proteins, identity cannot be established. This is a tray photograph used as a category illustration, not documentation of a single identifiable dish suitable for the Tavue database.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1732,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 477,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

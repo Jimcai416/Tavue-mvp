@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCzUC8ioJ1QCobXLm6sf",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Cooked meat pieces in rich red-brown sauce\",\n    \"Green vegetable pieces (onion/leek strips) scattered throughout\",\n    \"Traditional ceramic/stone cookware vessel\",\n    \"Finished, exposed dish in appetising condition\",\n    \"Sharp detail and natural colours in both images\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows meat and sauce composition\",\n    \"Essential food elements fully visible and readable\",\n    \"Dish proportions and vessel form clearly communicated\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source description states 'made with real lamb (not mutton or veal)' but this disclaimer suggests ambiguity about the actual animal. The parenthetical contradiction about what it is NOT, combined with the emphasis on 'real', creates source-level uncertainty about species identity.\",\n    \"Lamb vs. mutton distinction cannot be visually confirmed from photograph alone\",\n    \"The source's explicit negation of 'mutton or veal' options indicates the submitter anticipated ambiguity, violating the requirement for clear, unambiguous protein identity\"\n  ],\n  \"reason\": \"While the photograph is sharp, well-lit, appetising and authentically presented in a traditional vessel, and both full and thumbnail images are clear, the source description itself contains a contradictory statement about protein identity. The phrase 'made with real lamb (not mutton or veal)' introduces uncertainty by explicitly negating alternatives, suggesting the dish's true composition may be ambiguous. Per rules, ambiguous meat species and source contradictions require a hold. The canonical name cannot be established with certainty due to this identity uncertainty regarding the core ingredient.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1783,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 512,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
