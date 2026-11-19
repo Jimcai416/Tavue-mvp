@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBZ2VDVNjnueBPZhTnmb",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": \"Roti Cane served with Mutton Curry\",\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 5,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Golden-brown layered flatbread (roti cane) with crispy exterior and flaking texture\",\n    \"Deep red-brown curry sauce in white bowl with visible meat pieces and translucent onions\",\n    \"Green banana leaf underlayment visible beneath roti\",\n    \"Natural restaurant lighting without severe casts or glare\",\n    \"Finished, exposed dish prominently displayed with knife for scale\"\n  ],\n  \"phone_observations\": [\n    \"Roti cane clearly visible with characteristic golden-brown colour and layered structure\",\n    \"Curry bowl prominent in phone thumbnail with red sauce and meat pieces readable\",\n    \"Green leaf visible between components\",\n    \"Sharp, natural colours in thumbnail; no clipping of essential elements\",\n    \"Composition and components identifiable at phone size\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Species ambiguity: 'Mutton' in title but visual meat form cannot confirm goat versus sheep; mutton species uncertain\",\n    \"Source metadata labels this as 'Mutton Curry' but taxonomic precision required by protein_evidence rules cannot be established from appearance alone\"\n  ],\n  \"reason\": \"High-quality photograph with sharp detail, natural colour, appetising presentation, and clear phone thumbnail legibility. All technical checks pass with scores ≥4. However, identity check fails: the source title contains 'Mutton' (ambiguous species—may refer to goat or sheep), and protein_evidence rules explicitly prohibit inference of species from appearance or tradition and require exact source quote matching only when species is unambiguous. 'Mutton' does not meet the precision standard (chicken/beef/pork/duck/lamb/seafood with no ambiguity). No unambiguous protein can be encoded. Hold pending source clarification of meat species.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1653,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 560,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
