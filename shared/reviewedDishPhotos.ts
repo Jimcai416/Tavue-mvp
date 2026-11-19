@@ -134095,5 +134095,77 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-149149606",
+    "title": "File:Yellow braised chicken.jpg",
+    "author": "Fumikas Sagisavas",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Yellow_braised_chicken.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/42/Yellow_braised_chicken.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "cf4ef452cd0f5c310c26d6d80757e53da723d8a0",
+    "name": "Yellow braised chicken",
+    "aliases": [],
+    "proteins": [
+      "chicken"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-149149606.jpg",
+    "assetSha256": "7757f80c03e186e1e7516496812ba8345c49e1a1be67e744d17e5dfa62f582d9",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 960,
+    "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-91154251",
+    "title": "File:Chicken noodle soup in yuen long.jpg",
+    "author": "Peachyeung316",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chicken_noodle_soup_in_yuen_long.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Chicken_noodle_soup_in_yuen_long.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "9ae8141e47b29a7c211d3d5141502ff7de500d12",
+    "name": "Chicken noodle soup",
+    "aliases": [],
+    "proteins": [
+      "chicken"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-91154251.jpg",
+    "assetSha256": "d9cd74b7d4ad608e0615ff8574793b39a075839ac873d01bde22e9dad9c135e4",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-116660383",
+    "title": "File:Chicken noodle soup with a little carrot and black pepper - Massachusetts.jpg",
+    "author": "Daderot",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chicken_noodle_soup_with_a_little_carrot_and_black_pepper_-_Massachusetts.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Chicken_noodle_soup_with_a_little_carrot_and_black_pepper_-_Massachusetts.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "405a2015de87fb9826f066c199fb86b080a571f0",
+    "name": "Chicken noodle soup with a little carrot and black pepper",
+    "aliases": [],
+    "proteins": [
+      "chicken"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-116660383.jpg",
+    "assetSha256": "ee7f857664acf6fd1da0277c790d0399420da4d80173b326d99ad16c8993dbb4",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 960,
+    "requiresExactMenuName": true
   }
 ];
