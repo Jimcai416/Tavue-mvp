@@ -120258,5 +120258,52 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 678,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-80870761",
+    "title": "File:Butter tarts it's a Canadian thing. (47104703864).jpg",
+    "author": "Kaarina Dillabough",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Butter_tarts_it%27s_a_Canadian_thing._(47104703864).jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/17/Butter_tarts_it%27s_a_Canadian_thing._%2847104703864%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "14fa5ae749c20d2a41161c54e75953db8395ed5b",
+    "name": "Butter tarts",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-80870761.jpg",
+    "assetSha256": "75f591578b4bccae3a070f677cf93263b8721e193dbc0c57982d4526a17798f4",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true,
+    "authorUrl": "https://www.flickr.com/people/100497095@N02"
+  },
+  {
+    "id": "commons-41019912",
+    "title": "File:Çöp şiş (lamb).jpg",
+    "author": "E4024",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%C3%87%C3%B6p_%C5%9Fi%C5%9F_(lamb).jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/85/%C3%87%C3%B6p_%C5%9Fi%C5%9F_%28lamb%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "4c522f16c9b38fb1e1d07d9fc2f3ad8caa9f604c",
+    "name": "Çöp şiş with lamb meat",
+    "aliases": [],
+    "proteins": [
+      "lamb"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-41019912.jpg",
+    "assetSha256": "9321f647cecc3d37a9e72d4120ca1d0d8dca31d46ad574e7ce67d8e189479bcc",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];
