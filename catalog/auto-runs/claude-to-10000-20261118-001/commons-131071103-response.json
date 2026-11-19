@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCW1Ws5kzRqMkz1MpLXQ",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 2,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows stacked flatbreads with char marks\",\n    \"Ingredient illustrations visible at bottom of phone view\",\n    \"Essential dish component (tortillas) present but composition dominated by ingredient callouts\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Image is explicitly labelled as an illustration/instructional diagram ('created on the basis of free images'), not a photograph of a finished dish\",\n    \"Metadata states 'File:Tortilla ingredients.png' – a PNG diagram, not a food photograph\",\n    \"Contains annotated ingredient illustrations (jar, salt shaker, dried peppers) overlaid on the dish\",\n    \"Title text in Armenian and ingredient labels are non-photographic editorial elements\",\n    \"No specific dish identity provided; only ingredient list shown\",\n    \"Composition is educational/recipe diagram, not a finished plated food photograph\"\n  ],\n  \"reason\": \"Reject: This is an instructional illustration or recipe diagram, explicitly created as a composite from free images, not an authentic food photograph. The source metadata identifies it as 'File:Tortilla ingredients.png' with ingredients labelled as separate vector/graphic elements. Watermarks, ingredient callouts, and educational layout disqualify it. The phone thumbnail confirms the composition is diagram-focused rather than appetising finished-dish photography. No specific canonical dish name can be extracted from ingredient labels alone.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1799,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 453,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
