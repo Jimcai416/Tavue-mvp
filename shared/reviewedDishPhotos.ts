@@ -101383,5 +101383,51 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 663,
     "height": 960,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-121126060",
+    "title": "File:Tocino de cielo.jpg",
+    "author": "juantiagues",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tocino_de_cielo.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Tocino_de_cielo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "85c3bdd4d4a4e4ba3afd3b91eb4f495122cf3406",
+    "name": "Tocino de cielo",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-121126060.jpg",
+    "assetSha256": "0d65f874f4e963235a18c3a6e01d6791470ad0956d9f564a196d89bee0da88ec",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-69978356",
+    "title": "File:9215Corned beef hash 01.jpg",
+    "author": "Judgefloro",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:9215Corned_beef_hash_01.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/da/9215Corned_beef_hash_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "b0924b7d2d0a19634e17ec61bf5d57aef4e87847",
+    "name": "Corned beef hash",
+    "aliases": [],
+    "proteins": [
+      "beef"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-69978356.jpg",
+    "assetSha256": "378eb10a9638a33ad82545219dd7412d2ad66a5fc25af204b217b7a5bea8c424",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];

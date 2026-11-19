@@ -7539,3 +7539,8 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 - **Tocino de cielo con nata** — PSW Web & Gráfico. [Public domain](https://creativecommons.org/publicdomain/mark/1.0/); [source](https://commons.wikimedia.org/wiki/File:Tocino-venta-aurelio.jpg). Local asset: `reviewed-commons-3096187.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Piaya** — Kguirnela. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Piaya.jpg). Local asset: `reviewed-commons-34492266.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Bagnet of Ilocos** — CNEcija12345. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Bagnet_of_Ilocos_CNE_01.jpg). Local asset: `reviewed-commons-163465930.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Tocino de cielo** — juantiagues. [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:Tocino_de_cielo.jpg). Local asset: `reviewed-commons-121126060.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Corned beef hash** — Judgefloro. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:9215Corned_beef_hash_01.jpg). Local asset: `reviewed-commons-69978356.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
