@@ -120162,5 +120162,101 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 443,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-151818204",
+    "title": "File:Freshippo lemon and black pepper chicken drumsticks.jpg",
+    "author": "Fumikas Sagisavas",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Freshippo_lemon_and_black_pepper_chicken_drumsticks.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Freshippo_lemon_and_black_pepper_chicken_drumsticks.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "54f9651e487a96c6eff6f02d70b1c3a2bf007e72",
+    "name": "lemon and black pepper chicken drumsticks",
+    "aliases": [],
+    "proteins": [
+      "chicken"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-151818204.jpg",
+    "assetSha256": "c49d1dd92cd29453418518b58fe454e28cbeb34b28a8251a0b5e2fe21bfee78f",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 960,
+    "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-151792226",
+    "title": "File:Freshippo lemon black pepper chicken drumsticks.jpg",
+    "author": "Fumikas Sagisavas",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Freshippo_lemon_black_pepper_chicken_drumsticks.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Freshippo_lemon_black_pepper_chicken_drumsticks.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "e9c86f7bfbae48535040dbe86f2c5b1d0eb3efb9",
+    "name": "lemon black pepper chicken drumsticks",
+    "aliases": [],
+    "proteins": [
+      "chicken"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-151792226.jpg",
+    "assetSha256": "9809acd3a2e2b9d6f09840ee08b9e09faa8742fefdedf9ae3d5cec7cb1caf6fc",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 960,
+    "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-133198909",
+    "title": "File:Lemon Pepper Chicken Wings.jpg",
+    "author": "Elsie Hui",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lemon_Pepper_Chicken_Wings.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Lemon_Pepper_Chicken_Wings.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "ae4812c50ebf5284c2ed62b0f55634454428d7a5",
+    "name": "Lemon Pepper chicken wings",
+    "aliases": [],
+    "proteins": [
+      "chicken"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-133198909.jpg",
+    "assetSha256": "987ff0e0b9e1d0c470f47a9a5ff2d48ef52593f45cb4a3747744c84beaa16b55",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 640,
+    "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-151144457",
+    "title": "File:Pepper chicken 2.jpg",
+    "author": "Vis M",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pepper_chicken_2.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/03/Pepper_chicken_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "7598dd539d265f163f6e87f9036dd84fcf8a2140",
+    "name": "Pepper chicken",
+    "aliases": [],
+    "proteins": [
+      "chicken"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-151144457.jpg",
+    "assetSha256": "292d71b551076ae2873e87b5b1cba48c006650fada0134dc09f4e83569c8b19f",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 678,
+    "requiresExactMenuName": true
   }
 ];
