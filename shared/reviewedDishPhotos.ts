@@ -113757,5 +113757,28 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-163078963",
+    "title": "File:Canh ca chua trung.png",
+    "author": "Nguyen Thi Quynh Tram",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Canh_ca_chua_trung.png",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Canh_ca_chua_trung.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "d195526a598d380c0805fbbdffe69bab11178ce7",
+    "name": "Canh cà chua trứng",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-163078963.jpg",
+    "assetSha256": "5d576f8d3d8b8bd6610f641e3a3b46b3b87c4d7e2045cc244119a1dbc82a73bd",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 739,
+    "requiresExactMenuName": true,
+    "authorUrl": "https://www.blogger.com/profile/08726553116792073475"
   }
 ];
