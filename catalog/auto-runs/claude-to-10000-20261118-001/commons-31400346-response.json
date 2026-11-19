@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCvBpwLw8cCCwjZcT78p",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 2,\n    \"composition\": 2,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Street vendor stall with crude metal cooking drums/vessels\",\n    \"No finished, exposed dish visible in thumbnail\",\n    \"Cooking infrastructure only, preparation stage evident\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"No finished, plated or exposed dish is visible in either the full source or thumbnail\",\n    \"Image shows a meat vendor stall and cooking setup, not a prepared food item\",\n    \"Cannot identify specific dish type, meat species, or final product\",\n    \"Source describes vendors and location, not an actual food photograph for review\"\n  ],\n  \"reason\": \"Rejection: This is a documentary photograph of a street food stall/vendor location, not a photograph of a finished, exposed, prepared dish. The image shows cooking infrastructure, vendors at work, and preparation stages only. No completed, identifiable food item is visible in either the full source or the phone thumbnail. The source metadata describes 'Meat vendors' and a location, not a specific dish. Without a visible, finished dish prominently featured and sharply detailed in both images, with identifiable components, this fails the core requirement of being a 'finished, exposed, likely photographic dish' and falls into the rejected category of 'raw/preparation stages.'\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1634,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 419,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

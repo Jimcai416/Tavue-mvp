@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCvAzyKfYomCYYxh3yfh",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Raw meat visible in phone thumbnail\",\n    \"Garnish and lemon slice present\",\n    \"Foil-wrapped item in background\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title 'Braai Preparations' indicates this is a preparation stage, not a finished dish\",\n    \"Raw or undercooked meat presentation consistent with pre-cooking stage\",\n    \"No finished, cooked dish visible\",\n    \"Description truncated: 'This is an image of food from' – incomplete identity confirmation\"\n  ],\n  \"reason\": \"Reject: This is a preparation/raw stage image, not a finished exposed dish. The title 'Braai Preparations' and the visible raw meat state confirm this is pre-cooking stage documentation, not a completed photographic dish suitable for Tavue review. The source description is also incomplete and does not establish identity. All checks cannot be satisfied.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1725,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 350,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

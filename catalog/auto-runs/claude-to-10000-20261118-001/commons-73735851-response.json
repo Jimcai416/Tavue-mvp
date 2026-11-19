@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCvB113nWyea4xkkeuqx",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 5,\n    \"composition\": 5,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Whole fish on grill grate with charred exterior and visible scales\",\n    \"Active wood coals and ash in firebox below\",\n    \"Outdoor braai setup with clear detail\",\n    \"Natural daylight, sharp focus throughout\"\n  ],\n  \"phone_observations\": [\n    \"Grill with whole fish clearly visible in thumbnail\",\n    \"Cooking equipment prominent and identifiable\",\n    \"Food subject visible but specific identity ambiguous at phone scale\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title 'South African braai' describes the cooking method/event, not a finished dish name\",\n    \"Fish species cannot be determined from visual inspection alone\",\n    \"No explicit dish name provided in source metadata\",\n    \"Subject appears to be a preparation-stage or in-progress cooking photograph rather than a finished, plated dish\"\n  ],\n  \"reason\": \"Rejection: The source metadata provides only a cooking method ('braai') and regional context, not a specific finished dish identity. While the photograph shows a whole grilled fish of excellent technical quality with sharp focus and natural lighting, it represents the cooking stage rather than a completed, presented dish ready for consumption. The fish species is unidentified and cannot be inferred from appearance alone. Without a canonical dish name from the source or explicit protein identification in the title/description, identity cannot be verified. For Tavue intake, a specific dish name and finished presentation are required.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1754,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 459,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

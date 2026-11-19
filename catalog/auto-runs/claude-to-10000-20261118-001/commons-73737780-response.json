@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCvBQJXEwdU1n2Jusp8e",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 3,\n    \"appeal\": 3\n  },\n  \"visible_support\": [\n    \"Precooked pork loin rib visible on packaging label\",\n    \"Glazed, caramelised surface with char marks\",\n    \"Meat rests on branded packaging on concrete ground\"\n  ],\n  \"phone_observations\": [\n    \"Meat and packaging visible but central subject ambiguous\",\n    \"Packaging text readable but setting is non-food environment\",\n    \"Ribs identifiable but framing emphasises external props\"\n  ],\n  \"protein_evidence\": {\n    \"pork\": \"PORK LOIN RIB\"\n  },\n  \"uncertainties\": [\n    \"Subject is packaged raw/precooked ribs resting on retail packaging, not a finished plated or served dish\",\n    \"Image appears to document the product and braai tongs as objects, not presentation of cooked food ready to eat\",\n    \"Concrete ground and tool placement suggest preparation/documentation context, not consumption or service context\"\n  ],\n  \"reason\": \"Reject: Identity check fails. The source shows precooked pork ribs still in retail packaging resting on concrete ground with braai tongs—this is a preparation or product documentation image, not a finished, exposed, served dish. The ribs are visible and identifiable, but the overall composition, setting and framing do not present a cooked dish in a food-service or consumption context. This is packaging/product photography, not food photography meeting Tavue's standard of a finished, appetising dish ready to eat.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1564,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 471,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

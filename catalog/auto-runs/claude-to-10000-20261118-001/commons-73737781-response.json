@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCvBjyhk68cMz9eXQR8A",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Raw/preparation stage: meat is uncooked on grill grates, not a finished exposed dish\",\n    \"Multiple meat cuts visible but species identification ambiguous from appearance alone\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail shows raw meat on black grill grates\",\n    \"Meat pieces are recognizable but in pre-cooking state\",\n    \"No finished plated or cooked presentation visible\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source claims 'beef, mutton and chicken' but mutton may mean goat in regional usage—ambiguous species\",\n    \"Image shows raw meat on active grill, not a finished cooked dish\",\n    \"Cannot visually distinguish beef from mutton from chicken in raw state with certainty\",\n    \"No explicit quote in title/description confirms which specific animals are present with unambiguous modern English species names\"\n  ],\n  \"reason\": \"Rejection criteria met: (1) Image depicts raw/preparation stage (meat uncooked on grill grates), not a finished exposed dish. Tavue accepts only finished, exposed, likely photographic dishes. (2) Source-declared 'mutton' is ambiguous—may refer to goat or sheep, requiring hold per protocol. (3) While photograph quality, sharpness and phone thumbnail clarity are acceptable (all ≥4), the fundamental state of the food (raw, pre-cooking) violates acceptance criteria. This is a braai setup/preparation photograph, not a finished dish review.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1558,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 478,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

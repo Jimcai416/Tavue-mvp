@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCvCE2QciWbxyP2FRjwd",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 3,\n    \"appeal\": 3\n  },\n  \"visible_support\": [\n    \"Grilled/braai meat with charred exterior visible on right plate\",\n    \"Fresh cucumber and tomato slices with onion rings\",\n    \"White starch component on left plate\",\n    \"Natural home-kitchen setting\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail shows two plates: white starch on left, grilled protein with vegetable salad on right\",\n    \"Meat colour and char consistent with braai preparation\",\n    \"Salad components clearly visible in thumbnail\",\n    \"Overall composition readable at small size\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title references 'braai' (South African grilled meat) but does not specify meat species\",\n    \"Meat animal type cannot be determined from appearance alone—could be beef, lamb, pork, or other species\",\n    \"Source title is a file name containing thematic description, not a canonical dish name\",\n    \"No explicit species declaration in title or description\"\n  ],\n  \"reason\": \"Rejection due to identity failure. The source provides only a file name ('White sadza, braai and salads.jpg') and vague thematic description ('Farm to Plate'), not a proper dish identification. The meat species is not explicitly named in any supplied metadata—'braai' refers only to the cooking method, not the animal. Without a source-declared meat type (beef/pork/lamb/chicken/duck/seafood), the dish cannot be canonically named. The photograph itself is acceptable in quality and composition, but the absence of specific, verifiable dish identification prevents acceptance.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1737,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 494,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
