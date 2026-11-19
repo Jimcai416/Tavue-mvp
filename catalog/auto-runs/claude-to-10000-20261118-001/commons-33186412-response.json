@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCoZAQQNitHypJvviCXF",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 2\n  },\n  \"visible_support\": [\n    \"Glass jar containing pale, textured spread on wooden surface\",\n    \"Cinnamon sticks arranged around jar\",\n    \"Coarse granular mousse-like paste with visible speckling\",\n    \"Natural daylight, sharp focus on jar contents\"\n  ],\n  \"phone_observations\": [\n    \"Jar and cinnamon visible in thumbnail\",\n    \"Paste texture readable at reduced resolution\",\n    \"Overall composition preserved in thumbnail\"\n  ],\n  \"protein_evidence\": {\n    \"pork\": \"pork liver\"\n  },\n  \"uncertainties\": [\n    \"Description claims 'Made in France' but title is Polish ('Confit mus z watroby wieprzowej' = pork liver mousse in Polish). Regional origin contradiction creates ambiguity about authentic identity.\",\n    \"Image shows a spread/paste but source metadata does not explicitly state this is a finished, plated dish ready for consumption—it appears to be a prepared preserve or terrine in storage/display format rather than a served dish.\"\n  ],\n  \"reason\": \"While the photograph is sharp, well-lit, and the protein is documented (pork liver), the submission fails identity verification. The title is in Polish ('Confit mus z watroby wieprzowej') but the description claims French origin—this contradiction contradicts the requirement that identity must agree with exact source title/description. Additionally, the image depicts what appears to be a stored spread or preserved mousse in a jar rather than a finished, exposed, plated dish ready for service. The appeal score reflects the unfinished presentation. Source metadata contradictions and ambiguous finished-dish status trigger a hold, but the lack of clear finished-dish evidence elevates this to rejection.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1664,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 518,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

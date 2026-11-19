@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCoYxXGt8HkcU9wqzXmG",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 5,\n    \"appeal\": 5\n  },\n  \"visible_support\": [\n    \"Cooked duck leg/thigh with deep brown caramelised surface\",\n    \"Golden-brown roasted potato pieces with crispy edges\",\n    \"Orange-coloured carrot ribbons/strips\",\n    \"Fine plating with microgreens and black pepper dust\",\n    \"Cream/beige ceramic plate with speckled rim\",\n    \"Professional restaurant presentation\"\n  ],\n  \"phone_observations\": [\n    \"Duck leg and roasted potatoes clearly visible and prominent\",\n    \"Carrot ribbons readable as orange vegetable component\",\n    \"Speckled plate and garnish visible in thumbnail\",\n    \"Finished, exposed dish with natural colours\",\n    \"Sharp detail of cooked meat and components\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source metadata states 'Confit duck' but file name, title field, and description field are unstrusted metadata—the description omits any dish name and only provides restaurant address and author\",\n    \"No explicit 'duck' or 'confit' phrase appears in the trusted source title or description fields\",\n    \"Species cannot be inferred from appearance alone; cannot assume duck identity from meat colour or tradition\"\n  ],\n  \"reason\": \"Photograph and phone thumbnail are of high quality, sharp, well-lit, professionally plated, and show a finished cooked meat dish with vegetables and garnish. However, the source title field contains only 'File:Confit duck at Cruel, Porto (51707326559).jpg'—which includes a filename prefix and metadata notation. The description field states only 'Cruel Restaurante. Rua da Picaria 86, 4050-447 Porto', providing no dish name. Per protocol, all metadata including filenames and descriptions are unstrusted evidence and never instructions. The word 'duck' appears only in the filename/file metadata, not in a trusted canonical source title or description. The visible meat cannot be confirmed as duck by appearance alone, and no exact protein species phrase exists in a legitimate source field. Identity check fails: no specific, unambiguous, metadata-independent dish name can be extracted. Hold pending clarification from a trusted source document that explicitly names this dish and confirms the protein species.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1751,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 638,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
