@@ -134167,5 +134167,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 960,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-31606442",
+    "title": "File:Fiori di zucca in pastella, fritti.jpg",
+    "author": "fugzu",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fiori_di_zucca_in_pastella,_fritti.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Fiori_di_zucca_in_pastella%2C_fritti.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "8c139a00914b697af9b7529208104019fee1a04a",
+    "name": "Fiori di zucca in pastella, fritti",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-31606442.jpg",
+    "assetSha256": "b5120cfb6737303d8e43180a83dfe0f4fc69f81b1a8851d5c6a2f8111a518962",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 887,
+    "requiresExactMenuName": true
   }
 ];

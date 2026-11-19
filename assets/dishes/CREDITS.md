@@ -10463,3 +10463,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 - **Yellow braised chicken** — Fumikas Sagisavas. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Yellow_braised_chicken.jpg). Local asset: `reviewed-commons-149149606.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Chicken noodle soup** — Peachyeung316. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Chicken_noodle_soup_in_yuen_long.jpg). Local asset: `reviewed-commons-91154251.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Chicken noodle soup with a little carrot and black pepper** — Daderot. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Chicken_noodle_soup_with_a_little_carrot_and_black_pepper_-_Massachusetts.jpg). Local asset: `reviewed-commons-116660383.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Fiori di zucca in pastella, fritti** — fugzu. [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Fiori_di_zucca_in_pastella,_fritti.jpg). Local asset: `reviewed-commons-31606442.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
