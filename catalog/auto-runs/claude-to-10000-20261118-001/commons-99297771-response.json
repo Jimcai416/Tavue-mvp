@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBR2ABL38UQ7ctgLAUiK",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Soup visible in bowl with spoon\",\n    \"Creamy yellow-beige colour consistent with pea soup\",\n    \"Bowl and tableware clearly visible\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title describes 'typical Finnish pea soup' but no protein ingredient is explicitly named or visually identifiable in the photograph\",\n    \"Pea soup may contain ham, pork, or other meat as a traditional component, but this cannot be confirmed from visual inspection alone\",\n    \"No meat species is stated in the supplied title or description\"\n  ],\n  \"reason\": \"Rejection: The image shows a soup that matches the title's identity claim (Finnish pea soup), and photograph quality is acceptable with good sharpness, lighting, and composition. However, the appeal score is low (2/5) because the dish is a homogeneous liquid with no visible distinct components, garnish, or textural elements that make it visually appetising in the phone thumbnail. More critically, the source description names no protein ingredient explicitly ('typical Finnish pea soup' is a category descriptor, not a named-protein dish statement). Traditional Finnish pea soup often contains pork or ham, but the instructions prohibit inferring species from tradition or generic references. Without an explicit protein quote in the title/description, protein_evidence cannot be populated, and all checks cannot be true. The appeal deficiency alone would warrant rejection.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1738,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 457,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
