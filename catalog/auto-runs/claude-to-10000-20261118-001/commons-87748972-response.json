@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChChURh5FSxwki5c98SjL",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows granular, crumbled texture consistent with the full image\",\n    \"Green garnish and bean/protein pieces visible at thumbnail scale\",\n    \"Colour and composition align with full photograph\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title and description explicitly declare 'vegan feijão tropeiro' made with 'textured vegetable protein'—no animal protein present\",\n    \"Dish contains no chicken, beef, pork, duck, lamb, or seafood as required by taxonomy\",\n    \"Visual appearance resembles meat-based versions but source metadata definitively excludes animal proteins\"\n  ],\n  \"reason\": \"Rejection: source explicitly identifies this as a vegan dish made with textured vegetable protein, not animal protein. The taxonomy requires at least one of chicken/beef/pork/duck/lamb/seafood with an exact source quote naming the animal. The description contains no such quote. No protein_evidence can be populated. Identity check fails because the declared composition contradicts the required protein category. This dish, while well-photographed and appetizing, does not meet the protein eligibility criterion.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1532,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 399,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
