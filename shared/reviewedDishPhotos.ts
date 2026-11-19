@@ -109822,5 +109822,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 542,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-158998887",
+    "title": "File:Ташкент. Нарын в Хадре.jpg",
+    "author": "Екатерина Борисова",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%D0%A2%D0%B0%D1%88%D0%BA%D0%B5%D0%BD%D1%82._%D0%9D%D0%B0%D1%80%D1%8B%D0%BD_%D0%B2_%D0%A5%D0%B0%D0%B4%D1%80%D0%B5.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/75/%D0%A2%D0%B0%D1%88%D0%BA%D0%B5%D0%BD%D1%82._%D0%9D%D0%B0%D1%80%D1%8B%D0%BD_%D0%B2_%D0%A5%D0%B0%D0%B4%D1%80%D0%B5.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "94398f846d63c3b66fb8b1f645683bf0e9abdaa6",
+    "name": "Naryn at Khadra cafe, Tashkent, Uzbekistan",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-158998887.jpg",
+    "assetSha256": "2448e4ef6dba21d498ed19c7c2775c049c8fba7107cc98f525c637a23d07a75a",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];

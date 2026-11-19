@@ -8286,3 +8286,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Chicken döner** — К.Артём.1. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Chicken_d%C3%B6ner_(mini).jpg). Local asset: `reviewed-commons-40682359.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Naryn at Khadra cafe, Tashkent, Uzbekistan** — Екатерина Борисова. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:%D0%A2%D0%B0%D1%88%D0%BA%D0%B5%D0%BD%D1%82._%D0%9D%D0%B0%D1%80%D1%8B%D0%BD_%D0%B2_%D0%A5%D0%B0%D0%B4%D1%80%D0%B5.jpg). Local asset: `reviewed-commons-158998887.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
