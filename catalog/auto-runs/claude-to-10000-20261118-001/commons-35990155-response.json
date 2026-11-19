@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCBH5CyszYdEnqyZ6Gx8",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Whole fried fish, golden-brown, clearly visible\",\n    \"Yellow/orange fried rice mounded prominently\",\n    \"Fresh parsley garnish on rice\",\n    \"Sautéed mixed vegetables (red peppers, yellow peppers, orange peppers)\",\n    \"Natural warm lighting, appetising colours\",\n    \"Professional plating on white dish\"\n  ],\n  \"phone_observations\": [\n    \"Fried fish and rice clearly identifiable in thumbnail\",\n    \"Golden-brown tones preserved in reduction\",\n    \"Essential dish components visible and readable\",\n    \"Adequate detail for recognition at small scale\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title references 'Bar aux légumes et son riz gras' (sea bass with vegetables and fat rice), but no source title/description provided in metadata to confirm exact canonical form\",\n    \"Fish species not explicitly named in supplied metadata; 'Bar' in French typically means sea bass, but this requires inference from title fragment only\",\n    \"Description field incomplete: 'This is an image of food from' – truncated, no dish name provided\",\n    \"File metadata alone insufficient for identity verification per protocol; exact source title/description needed\"\n  ],\n  \"reason\": \"Photograph quality, sharpness, lighting, composition and appeal all meet standards (all ≥4). Phone thumbnail clearly shows finished, appetising fried fish with rice and vegetables. However, identity check fails: the metadata provides only a filename fragment ('Bar aux légumes et son riz gras') rather than a complete, authoritative source title or description. The description field is truncated ('This is an image of food from'). Per protocol, canonical_name must be copied exactly from source title or description; without a complete, verified source statement, identity cannot be confirmed. Fish species inference from French 'Bar' alone violates the requirement that protein evidence come only from explicit source quotes. Hold pending provision of complete source title and description.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1728,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 579,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

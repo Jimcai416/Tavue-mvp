@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCBJARHacbf1wDviCSeH",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [\n    \"Orange plate with blue-rimmed well\",\n    \"Three ripe yellow plantain segments\",\n    \"Dark green leafy mass in groundnut paste\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows orange plate, yellow plantains, and dark vegetable mass\",\n    \"Essential components readable and prominent\",\n    \"Natural colour rendering consistent with full source\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title states 'Ndole and Ripe Plantains' but description mentions 'crayfish is used for seasoning' — crayfish is not an allowed protein category and cannot be verified visually in the dark mass\",\n    \"Protein species (crayfish) mentioned in description but not confirmable from visual inspection of the prepared dish\"\n  ],\n  \"reason\": \"Image quality, sharpness, lighting and composition are strong; phone thumbnail is clear and appetising. However, the source description introduces 'crayfish' as a seasoning ingredient, which is not in the allowed protein categories (chicken/beef/pork/duck/lamb/seafood). Crayfish does not map to any canonical protein key. The title itself ('Ndole and Ripe Plantains') contains no protein qualifier, and crayfish cannot be visually confirmed in the cooked mass. This creates a source contradiction: the title does not declare a protein, but the description names one outside allowed categories. Per rules, source contradictions => hold.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1753,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 468,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
