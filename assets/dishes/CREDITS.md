@@ -6665,3 +6665,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 - **hete bliksem** — Hortensja Bukietowa. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Hete_bliksem_1.jpg). Local asset: `reviewed-commons-168031414.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Tostones** — [Arnold Gatilao  from Fremont, CA, USA](https://www.flickr.com/photos/58819758@N00). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Tostones_-_Arnold_Gatilao.jpg). Local asset: `reviewed-commons-11626365.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Krotenzootje, bietenstamppot, stamppot met rode bieten** — JopkeB. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Krotenzootje_2025.jpg). Local asset: `reviewed-commons-163587466.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Poffertjes** — Illustratedjc. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Poffertjes-Melkhuis.jpg). Local asset: `reviewed-commons-41340882.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
