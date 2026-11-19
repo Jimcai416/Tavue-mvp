@@ -125138,5 +125138,30 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 949,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-10260899",
+    "title": "File:Sushi with Salmon Roe.jpg",
+    "author": "Kirti Poddar",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sushi_with_Salmon_Roe.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/73/Sushi_with_Salmon_Roe.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "2e837ab88d03c3e0d442c92043666a7304bde5d4",
+    "name": "Sushi with Salmon Roe",
+    "aliases": [],
+    "proteins": [
+      "seafood"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-10260899.jpg",
+    "assetSha256": "d9e34168ee4230963753d878cfec137b418292a5ea0b4e249c9fb073bc870cc4",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 720,
+    "height": 960,
+    "requiresExactMenuName": true,
+    "authorUrl": "https://flickr.com/people/22598380@N07"
   }
 ];

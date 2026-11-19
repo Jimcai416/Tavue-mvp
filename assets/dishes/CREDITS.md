@@ -9630,3 +9630,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 - **Ful Pitha (type C)** — Mmrsafy. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Ful_Pitha_(type_C)_02.jpg). Local asset: `reviewed-commons-54845596.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Ful pitha (type B)** — Mmrsafy. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Ful_pitha_(type_B)_02.jpg). Local asset: `reviewed-commons-54845533.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Ful pitha** — Mmrsafy. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Ful_pitha_03.jpg). Local asset: `reviewed-commons-54845475.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Sushi with Salmon Roe** — [Kirti Poddar](https://flickr.com/people/22598380@N07). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Sushi_with_Salmon_Roe.jpg). Local asset: `reviewed-commons-10260899.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
