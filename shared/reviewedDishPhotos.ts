@@ -126346,5 +126346,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "height": 720,
     "requiresExactMenuName": true,
     "authorUrl": "https://www.flickr.com/people/85567416@N03"
+  },
+  {
+    "id": "commons-102639388",
+    "title": "File:Daal makhani with Naan and Jeera rice.jpg",
+    "author": "Katugoswami21",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Daal_makhani_with_Naan_and_Jeera_rice.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Daal_makhani_with_Naan_and_Jeera_rice.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "1e2ec2ee00cf9cf59bf25f67c8242cba6cf1c313",
+    "name": "Daal makhani with Naan and Jeera rice",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-102639388.jpg",
+    "assetSha256": "eaf362251d0e670b65f0b504a04bdb61764854539d63f17e8544172b7245f390",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 440,
+    "requiresExactMenuName": true
   }
 ];

@@ -9750,3 +9750,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Lemon Chicken** — [Willis Lam](https://www.flickr.com/people/85567416@N03). [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:Tenglong_Chinese_Restaurant_Lemon_Chicken_(37577556406).jpg). Local asset: `reviewed-commons-78706673.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Daal makhani with Naan and Jeera rice** — Katugoswami21. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Daal_makhani_with_Naan_and_Jeera_rice.jpg). Local asset: `reviewed-commons-102639388.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
