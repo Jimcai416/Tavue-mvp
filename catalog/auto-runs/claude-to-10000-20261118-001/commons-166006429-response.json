@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCGATK9Q9NLxpuVzNL2w",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Mixed salad greens (yellow and red leaves) visible and prominent\",\n    \"Orange bell pepper strips clearly visible across the dish\",\n    \"Golden-yellow protein component in centre\",\n    \"Black pepper speckling visible on protein\",\n    \"Cooked, finished plated dish\"\n  ],\n  \"phone_observations\": [\n    \"Salad greens and pepper strips remain legible in thumbnail\",\n    \"Central protein component clearly visible\",\n    \"Plate and composition recognizable at reduced size\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title describes 'Herring salad' but the visible protein appears to be a seared or pan-fried fish fillet or cutlet with a golden crust, not shredded or chopped herring typical of herring salad preparations\",\n    \"The form, texture, and presentation of the protein do not visually match the stated identity of a herring salad\",\n    \"No clear evidence of herring (chopped, shredded, or flaked) visible in the photograph\"\n  ],\n  \"reason\": \"Identity mismatch. The source title declares 'Herring salad with mustard dressing, carrots, and black pepper' but the photograph shows a golden, seared fish fillet or cutlet on mixed greens with orange pepper strips and black pepper—a plated fish dish, not a recognizable herring salad. Herring salads typically feature chopped or shredded herring mixed throughout, not a whole seared fillet. The visual form contradicts the stated identity. While photograph quality, lighting, composition, and phone legibility are acceptable (all scores ≥4), the fundamental identity check fails. Per instructions, source contradictions require a hold, but the visible preparation form is too divergent from the declared dish type to accept as the stated identity.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 2064,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 551,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
