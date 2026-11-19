@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBw9iaukegmHxsJDxTn1",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 3,\n    \"composition\": 1,\n    \"appeal\": 0\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows urban landscape with hillside buildings, street, vehicles, and statue\",\n    \"No food subject visible in phone thumbnail\",\n    \"Composition is primarily architectural/cityscape, not a dish\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title references 'Harissa, Lebanon' but image is a cityscape photograph, not a food photograph\",\n    \"No dish, prepared food, or edible subject is visible in either full source or thumbnail\",\n    \"Metadata location reference does not match photograph content\"\n  ],\n  \"reason\": \"Image is a cityscape/street scene photograph of Harissa, Lebanon, not a food photograph. No finished dish, prepared food, or identifiable food subject is present in the full source or phone thumbnail. The composition is dominated by urban landscape elements (buildings, street, vehicles, statue, flowers). This fails all identity and photograph checks. Food photograph review cannot proceed.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1511,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 352,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

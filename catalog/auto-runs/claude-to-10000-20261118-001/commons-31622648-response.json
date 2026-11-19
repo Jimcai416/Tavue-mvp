@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBw9xpvEpoYP1jdfqiNJ",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 2,\n    \"composition\": 1,\n    \"appeal\": 0\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows landscape/garden scene with tree, vegetation and distant cityscape\",\n    \"No food subject visible in phone thumbnail\",\n    \"No finished dish, plating or food preparation evident\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title references 'Harissa, Lebanon' but image is a landscape photograph, not a food photograph\",\n    \"No finished, exposed dish visible in either full image or thumbnail\",\n    \"Image appears to be a scenic/travel photograph of a location, not food documentation\"\n  ],\n  \"reason\": \"Rejection: The source image is a landscape photograph showing a tree, garden, and cityscape view—not a food photograph. The title 'Harissa, Lebanon' refers to the location, not the dish content. No finished food dish, plating, preparation stage, or any food subject is visible in either the full source photograph or the phone thumbnail. This fails the fundamental requirement of being a photographic dish image. The metadata location reference does not constitute visual evidence of the named food item.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1511,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 375,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBw9uDPXdNkvjAPxBCth",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 5,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Wide hand-pulled noodles present and prominent\",\n    \"Diced meat visible in sauce\",\n    \"Diced vegetables (orange carrot, yellow corn, green onion) clearly visible\",\n    \"Blue-and-white porcelain bowl typical of Chinese service\",\n    \"Broth-based preparation\",\n    \"Spoon present for consumption\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows noodle dish with visible meat and vegetables\",\n    \"Bowl shape and decoration readable at phone size\",\n    \"Essential components (noodles, meat, vegetables, broth) discernible\",\n    \"No clipping of critical food elements\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title states 'Naryn noodles' but description explicitly notes 'can be made from horse meat or mutton'—neither animal is visually distinguishable in the photograph\",\n    \"Horse meat is not an allowed category; mutton species (sheep vs. goat) cannot be determined from appearance alone\",\n    \"No explicit source quote names the actual meat used in this specific dish\",\n    \"Ambiguous meat species prevents protein categorization\"\n  ],\n  \"reason\": \"Image quality, composition, and phone thumbnail are all excellent and meet acceptance criteria. However, the source description introduces unresolved ambiguity: naryn 'can be made from horse meat or mutton', but neither animal is visually proven, and horse meat is outside allowed categories. Mutton itself is ambiguous (sheep vs. goat). No explicit quote from the source states which meat was actually used in this instance. Per protocol, ambiguous meat species and source contradictions require a hold. Identity cannot be confirmed without resolving the protein uncertainty.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1644,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 532,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
