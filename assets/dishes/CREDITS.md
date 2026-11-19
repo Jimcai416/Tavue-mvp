@@ -9652,3 +9652,9 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Arroz Doce** — Luís Tinoco Azevedo. [CC BY 4.0](https://creativecommons.org/licenses/by/4.0); [source](https://commons.wikimedia.org/wiki/File:Arroz_Doce.jpg). Local asset: `reviewed-commons-189062707.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Naengmyeon, a Korean cold noodle soup** — [by 南宮博士](https://www.flickr.com/photos/gameimp/). [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:Korean.cuisine-Mul.naengmyeon-02.jpg). Local asset: `reviewed-commons-3535734.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Tahu telur di Banyuwangi** — Gunarta. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Tahu_telur_in_Banyuwangi.jpg). Local asset: `reviewed-commons-74977318.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Món nem rán** — Phương Huy  ( thảo luận ). [Public domain](https://creativecommons.org/publicdomain/mark/1.0/); [source](https://commons.wikimedia.org/wiki/File:M%C3%B3n_nem_r%C3%A1n_2012_(1).JPG). Local asset: `reviewed-commons-89846827.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
