@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCVs7XAktbrAApX2xHjP",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": \"Un piatto di agnolotti pavesi freschi prima della cottura\",\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Yellow pasta squares with crimped edges characteristic of agnolotti\",\n    \"Green spherical filling visible in each pasta pocket\",\n    \"Uncooked state: pasta appears raw, not cooked or plated for service\",\n    \"White plate with scattered arrangement\",\n    \"Home preparation setting\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail shows clear view of multiple uncooked agnolotti\",\n    \"Pasta squares and green filling are legible\",\n    \"Composition is centered and prominent\",\n    \"Natural lighting preserved\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source metadata states 'freschi prima della cottura' (fresh before cooking) — this is an uncooked preparation stage, not a finished, exposed, cooked dish\",\n    \"Agnolotti filling composition not declared in source; green color suggests possible herb or vegetable filling but cannot be visually confirmed as specific protein\",\n    \"No explicit protein identification in title or description\"\n  ],\n  \"reason\": \"Rejection criteria: image shows uncooked pasta at preparation stage, not a finished, exposed, cooked dish ready for consumption. Source metadata explicitly states 'before cooking' (prima della cottura). While photograph quality, sharpness, composition and phone thumbnail legibility are acceptable (all ≥4), the identity check fails because the dish violates the core requirement of being a finished, exposed food item. Home cooking is welcome, but only when the dish is complete and cooked.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1735,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 486,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
