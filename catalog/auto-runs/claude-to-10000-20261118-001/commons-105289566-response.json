@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCv2fbGegUwmpNJ7oJhT",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"White rice dish plated on white plate\",\n    \"Red/brown curry or sambal topping with green sliced peppers\",\n    \"Cucumber slices as garnish and side plate\",\n    \"Fried shallots visible on rice\",\n    \"Egg visible in composition\"\n  ],\n  \"phone_observations\": [\n    \"Plate clearly visible with rice and red curry/sambal topping\",\n    \"Green pepper slices prominent on curry\",\n    \"Plate composition readable and appetising\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'sambal petai' but petai (stink beans) are not visibly identifiable in the photograph; only green pepper slices are visible\",\n    \"Source title/description mismatch: 'petai' typically refers to Parkia speciosa (stink beans), not green chilli peppers shown here\",\n    \"No explicit protein (chicken/beef/pork/duck/lamb/seafood) identified in source text or visibly confirmed as a distinct component\"\n  ],\n  \"reason\": \"Identity check fails due to variant preservation issue: the source title specifies 'sambal petai' (stink bean sambal), but the photograph shows green chilli peppers, not petai beans. This is a material contradiction between declared identity and visible content. No protein species is explicitly named in the source description, and no discrete meat component is identifiable in the photograph. The dish is otherwise well-photographed and appears appetising, but cannot be accepted without resolution of the petai/pepper discrepancy and protein clarification.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1416,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 499,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
