@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBPEisCN9GU6ewJs1Mu3",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": \"Lapskaus is a North German specialty... basically a hash of corned beef, potatoes, and onion, and sometimes herring. It is traditionally served with fried egg, spear pickles, and red cabbage.\",\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 5,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Finished, cooked dish with fried egg prominently placed on corned beef hash\",\n    \"Spear pickles (green, two visible) flanking the main component\",\n    \"Brown hash base consistent with corned beef, potatoes and onion\",\n    \"Natural daylight, warm wood table setting\",\n    \"Sharp detail in both full image and phone thumbnail\"\n  ],\n  \"phone_observations\": [\n    \"Fried egg clearly visible in centre thumbnail\",\n    \"Hash base legible\",\n    \"Pickles visible as green elements\",\n    \"Dish identity readable at phone size\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title is 'Lapskaus1.jpg' (filename), not a dish name. Description states 'Lapskaus is a North German specialty' but does not provide a canonical title phrase for the dish.\",\n    \"Description mentions 'corned beef' as the primary meat component, but also notes 'sometimes herring' as optional. The visible hash cannot distinguish between corned beef and herring inclusion from appearance alone.\",\n    \"No explicit, verbatim source-provided canonical name exists matching the required format (<=200 characters, copied from title or description without filename/date/extension).\",\n    \"The description is explanatory rather than a formal dish title suitable as canonical_name.\"\n  ],\n  \"reason\": \"Image quality, composition, and phone legibility all meet standards. The dish is finished, appetising and well-photographed. However, the source provides no formal canonical dish name—only the filename 'Lapskaus1.jpg' and an explanatory description. The description does not state 'corned beef' or 'herring' in a way that permits unambiguous protein assignment ('sometimes herring' introduces optional ambiguity). Rule requires canonical_name from exact source title or description phrase (<=200 chars), and protein_evidence values must be exact case-sensitive substrings from the supplied title/description. The description 'basically a hash of corned beef, potatoes, and onion, and sometimes herring' does not support extraction of a single, definitive protein_evidence entry. Hold pending a source-supplied formal dish title or clearer protein specification.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1784,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 687,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

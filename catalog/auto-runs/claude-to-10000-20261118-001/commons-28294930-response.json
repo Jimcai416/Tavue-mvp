@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBPF1wMoZ54jpy6sLu3L",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Cured salmon visible on white plate with greens and lemon\",\n    \"Almond tart with custard filling on separate plate\",\n    \"Beverage with ice in glass\",\n    \"Restaurant setting with napkin dispenser\",\n    \"Receipt/menu card visible on tray\"\n  ],\n  \"phone_observations\": [\n    \"Salmon dish clearly visible in phone thumbnail\",\n    \"Almond tart visible on right side\",\n    \"Beverage present but partially clipped\",\n    \"Phone thumbnail preserves essential dish components\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title describes 'Gravad Lax' (cured salmon) but uses generic term 'lax' rather than specifying salmon explicitly in a formal dish name\",\n    \"Protein category 'seafood' would require explicit animal species naming in source description; 'lax' is Swedish for salmon but source does not use English species term\",\n    \"Description is casual photo caption ('Yummy') rather than formal dish title or menu description\",\n    \"Ambiguity whether this is a named dish or a casual meal photograph with inferred components\"\n  ],\n  \"reason\": \"Source description 'Gravad Lax, lingonberry juice and almond tort' is a casual photo caption without formal dish naming or explicit English species identification (e.g., 'salmon'). The protocol requires protein_evidence keys to be supported by exact case-sensitive source substrings naming allowed categories explicitly. 'Lax' is Swedish for salmon but the source does not use the English species term required for the 'seafood' category. The image quality and photograph standards are met, but identity cannot be confirmed without explicit species naming in the source title/description per protocol rules. This is a vacation/casual dining photo caption rather than a formal dish identification.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1742,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 553,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
