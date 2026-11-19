@@ -98015,5 +98015,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 960,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-85530657",
+    "title": "File:Vegetable Momos in Shillong.jpg",
+    "author": "ANKAN",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Vegetable_Momos_in_Shillong.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Vegetable_Momos_in_Shillong.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "7cac26113c9f279a6f365dab5cd6f9482333fe94",
+    "name": "Vegetable Momos",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-85530657.jpg",
+    "assetSha256": "de97b8b345ebda696ba68476370c55c51b016c81116a40d82f56ec4197915653",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 882,
+    "height": 960,
+    "requiresExactMenuName": true
   }
 ];

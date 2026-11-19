@@ -7258,3 +7258,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 - **Momos with Sauce** — Gaurav Dhwaj Khadka. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Momos_with_Sauce.jpg). Local asset: `reviewed-commons-126095203.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Makki ki Roti Stuffed with Himalayan Nettle Leaves** — Rigourfigure. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Bichu_Buti_-_Makki_Roti_11.jpg). Local asset: `reviewed-commons-178717807.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Veg Momos from Himachal** — Ganesh Mohan T. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Veg_Momos_2.jpg). Local asset: `reviewed-commons-149084043.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Vegetable Momos** — ANKAN. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Vegetable_Momos_in_Shillong.jpg). Local asset: `reviewed-commons-85530657.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
