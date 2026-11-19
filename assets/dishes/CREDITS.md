@@ -9249,3 +9249,11 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Ofada rice** — Yemi festus. [CC BY 4.0](https://creativecommons.org/licenses/by/4.0); [source](https://commons.wikimedia.org/wiki/File:Ofada_rice.jpg). Local asset: `reviewed-commons-163674477.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Balsamic Chicken Breast and Cornbread Dressing with Diced Apple** — Infrogmation of New Orleans. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Balsamic_Chicken_and_Cornbread_Dressing.jpg). Local asset: `reviewed-commons-84396028.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Cornbread** — Missvain. [CC BY 4.0](https://creativecommons.org/licenses/by/4.0); [source](https://commons.wikimedia.org/wiki/File:Cajun_Kitchen_Cafe_-_2021-09-27_-_Sarah_Stierch_05.jpg). Local asset: `reviewed-commons-110693875.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Pupusa LaRocca** — Infrogmation of New Orleans. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Central_City_New_Orleans_June_2017_Pupusa_LaRocca.jpg). Local asset: `reviewed-commons-60789765.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Fried shrimp with buffalo chips (french fries), cornbread, hushpuppies and cocktail sauce** — Missvain. [CC BY 4.0](https://creativecommons.org/licenses/by/4.0); [source](https://commons.wikimedia.org/wiki/File:Caplinger%27s_Fresh_Catch_-_November_2023_-_Sarah_Stierch_05.jpg). Local asset: `reviewed-commons-140353989.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Pupusa** — Valerie Hinojosa. [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:Plato_de_pupusa.jpg). Local asset: `reviewed-commons-101578662.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
