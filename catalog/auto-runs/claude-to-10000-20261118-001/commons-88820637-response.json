@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBfSqfRTeT4FEAVLvq5n",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 3,\n    \"lighting\": 2,\n    \"composition\": 2,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Empty white bowl on ground surrounded by green foliage\",\n    \"No food visible in bowl or on plate\",\n    \"Bowl appears clean/unused\",\n    \"Dark lighting conditions\",\n    \"Cannot identify any dish components\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'ginataang kalabasa, patatas at kamote' but no finished dish is visible\",\n    \"Bowl is empty—photograph does not show a prepared/cooked dish\",\n    \"Cannot verify any visual components matching the named dish\"\n  ],\n  \"reason\": \"The photograph shows an empty white bowl on the ground surrounded by plants. No finished, exposed food dish is present—the bowl appears unused or cleaned. The source title describes a coconut-based vegetable stew (ginataang kalabasa, patatas at kamote), but zero visual evidence of a prepared dish exists in either the full image or phone thumbnail. This is a preparation stage or empty vessel, not a photographic dish. All quality checks fail; sharpness, lighting, and appeal scores fall below the required minimum of 4.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1998,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 390,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

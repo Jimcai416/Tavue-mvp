@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBfTBwpQzfEbkwWk8xmv",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [\n    \"Three spherical brown meatballs with glossy surface on white disposable plate\",\n    \"Orange-red sauce pooled beneath meatballs\",\n    \"Finished, cooked appearance with appetising glaze\",\n    \"Readable components in phone thumbnail\"\n  ],\n  \"phone_observations\": [\n    \"Meatballs and sauce clearly visible in thumbnail\",\n    \"Adequate detail for identification\",\n    \"Subject not clipped, fully within frame\"\n  ],\n  \"protein_evidence\": {\n    \"pork\": \"Nilagang baboy, Tortang giniling na baboy\"\n  },\n  \"uncertainties\": [\n    \"Source title lists four distinct dishes (Tilapia, Tortang giniling na baboy, Nilagang baboy, Sweet and sour meat balls) but only one is visible in photograph\",\n    \"Photograph shows only 'Sweet and sour meat balls' — identity of which dish is being submitted is ambiguous\",\n    \"Meatball composition (pork vs. beef vs. mixed) cannot be visually confirmed; source does not explicitly state which animal the meatballs contain\",\n    \"No exact match between visible dish and any single canonical source title phrase\"\n  ],\n  \"reason\": \"Source description lists four separate dishes but photograph shows only one: spherical glazed meatballs in sweet-and-sour sauce. While the meatball dish is visually finished, appetising and sharply detailed with adequate phone thumbnail representation, the identity check fails because (1) the source does not unambiguously assign 'Sweet and sour meat balls' to a specific protein animal, (2) the multi-dish list creates ambiguity about which dish is being submitted, and (3) a canonical_name cannot be extracted that both matches the photograph and preserves verified protein identity. Pork is named only for other dishes (Nilagang baboy, Tortang giniling na baboy), not explicitly for the meatballs. Hold pending clarification of dish identity and protein source.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1822,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 594,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
