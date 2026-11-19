@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBrbn9NAoxbwsJuEysJe",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Bowl contains visible fried protein cubes with sesame seeds\",\n    \"Edamame, pickled yellow radish, cucumber, greens, avocado present\",\n    \"Red sauce in side container\",\n    \"Natural lighting, appetising presentation\"\n  ],\n  \"phone_observations\": [\n    \"Bowl centre clearly visible in thumbnail\",\n    \"Fried protein and toppings readable\",\n    \"Sauce cup visible in bottom right\",\n    \"Composition matches full image\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'Fried Tofu Poke Bowl' but photograph shows no visible tofu—the fried cubes with sesame seeds and darker browning appear inconsistent with tofu texture and colour\",\n    \"Source title/description does not explicitly state 'tofu' in a way that matches visible protein form\",\n    \"Cannot confirm tofu identity from visual evidence alone; appearance suggests fried meat or alternative protein\"\n  ],\n  \"reason\": \"Identity check fails. The source title claims 'Fried Tofu Poke Bowl' but the visible protein—golden-brown fried cubes with sesame seeds—does not visually match typical tofu appearance or texture. The darker colouration and crispy exterior suggest meat or another protein. Since tofu is not explicitly confirmed in the visible form and appears contradicted by the photograph, identity cannot be verified. All other quality and photograph checks pass, but identity failure alone requires rejection.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1751,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 472,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

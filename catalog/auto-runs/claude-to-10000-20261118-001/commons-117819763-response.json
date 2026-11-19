@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBrbhybeyUdx4s3j1PM7",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Divided cooking vessel with broth\",\n    \"Visible meat and vegetables in both chambers\",\n    \"Green onion/scallion garnish visible\",\n    \"Rounded pot shape consistent with full image\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title 'hot pot dinner' is a cooking method/category, not a specific dish name\",\n    \"No specific dish identity provided (e.g., 'sukiyaki', 'shabu-shabu', 'momo nabe')\",\n    \"Meat species cannot be reliably determined from appearance alone\",\n    \"Description claims 'Japanese restaurant' but hot pot is pan-Asian; specific regional variant unknown\",\n    \"Exact protein animals not explicitly named in source metadata\"\n  ],\n  \"reason\": \"Rejection: Source provides only cooking method ('hot pot dinner') and restaurant location claim, not a specific finished dish identity. No explicit protein species declaration in title or description. While the photograph shows a finished, cooked hot pot with visible ingredients (broth, meat, vegetables, garnishes) in natural colour with acceptable sharpness and composition, identity cannot be established. 'Hot pot' is a cooking category covering dozens of named regional variants (sukiyaki, shabu-shabu, momo nabe, etc.), each with distinct characteristics. Without a specific dish name and explicit protein identification, canonical_name cannot be reliably constructed from source. Metadata alone cannot substitute for explicit dish declaration.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1724,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 472,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

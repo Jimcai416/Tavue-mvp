@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBrbJavyGxTUCEkMduyU",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows raw/cooking-stage ingredients in broth\",\n    \"Raw meat slices, raw vegetables, uncooked noodles visible\",\n    \"Active cooking/preparation evident, not finished dish\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title 'hot pot' is a category/cooking method, not a specific dish name\",\n    \"Photograph shows in-progress cooking, not a finished exposed dish\",\n    \"Raw protein species unidentifiable in preparation stage\",\n    \"No specific regional variant, broth type, or named dish formula provided\"\n  ],\n  \"reason\": \"Rejected: Image shows an active hot pot cooking setup with raw/uncooked ingredients still in preparation stage (raw meat slices, uncooked noodles, vegetables in broth). This is a preparation/cooking stage, not a finished, exposed, served dish. The source metadata supplies only a generic category term ('hot pot') and location ('USA restaurant'), without a specific dish identity, regional variant, or preparation descriptor. Hot pot as a category alone is insufficient; a canonical dish name requires explicit source documentation of the specific preparation, broth type, and ingredients served. The photograph does not meet the finished-dish criterion.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1722,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 416,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
