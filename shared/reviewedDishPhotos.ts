@@ -111444,5 +111444,52 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 719,
     "height": 960,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-201124258",
+    "title": "File:Chicken & Salmon Pepper Rice from Pepper Lunch at SM City Cebu (2026-10-04).jpg",
+    "author": "Wide Awake!",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chicken_%26_Salmon_Pepper_Rice_from_Pepper_Lunch_at_SM_City_Cebu_(2026-10-04).jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Chicken_%26_Salmon_Pepper_Rice_from_Pepper_Lunch_at_SM_City_Cebu_%282026-10-04%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "76bab2c6f5229de1cfebfe9df676ba255564703a",
+    "name": "Chicken & Salmon Pepper Rice",
+    "aliases": [],
+    "proteins": [
+      "chicken",
+      "seafood"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-201124258.jpg",
+    "assetSha256": "404f493ec2df4fbafb359b8eb84813f0d7fb35c39248f19ca9844ce948fddb5a",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 723,
+    "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-164011547",
+    "title": "File:Nkwobi 03.jpg",
+    "author": "Joan Onanyo",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nkwobi_03.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Nkwobi_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "54cfa069d6ac7c119e359ecc89421681be2ebcdb",
+    "name": "Nkwobi",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-164011547.jpg",
+    "assetSha256": "5275dc857a7b5e17db7300d9903e015e2ce0466a704e4031a71cddc18387e76a",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 720,
+    "height": 960,
+    "requiresExactMenuName": true
   }
 ];
