@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCpQ6dogJeqsiKa2myDJ",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 3,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Street scene with person carrying containers\",\n    \"No finished food dish visible\",\n    \"No prominent, exposed, appetizing food\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title references 'Taho' but image shows street vendor with metal buckets, not a prepared dish\",\n    \"No finished food visible in either full image or thumbnail\",\n    \"Cannot identify any food subject as a complete, exposed, appetizing dish\"\n  ],\n  \"reason\": \"Image is a street scene photograph of a vendor carrying containers, not a finished, exposed food dish. The source title 'Taho.JPG' may refer to a Philippine tofu dessert, but no such food is visible or prominently featured in the photograph. The image does not meet the requirement for a finished, sharply detailed, naturally coloured, appetising dish with readable essential components. The phone thumbnail confirms no food dish is visible. All quality and identity checks fail.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1628,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 356,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
