@@ -9969,3 +9969,34 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Le Lakh** — Babacar Dioum. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Le_Lakh.jpg). Local asset: `reviewed-commons-114864861.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **tlacoyo with green sauce, onion and blanco cheese** — ProtoplasmaKid. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Mercado_de_Xochimilco_-_Tlacoyo_close_up.jpg). Local asset: `reviewed-commons-34102672.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **tlacoyo** — LMikhailovich. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Tlacoyo.jpg). Local asset: `reviewed-commons-12199019.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Cod, clams, peas and Samphire cataplana** — Kolforn   ( Kolforn )  
+ I'd appreciate if you could mail me  (Kolforn@gmail.com)  if you want to use this picture out of the Wikimedia project scope. 
+ 
+    
+        
+              This file is licensed under the  Creative Commons   Attribution-Share Alike 4.0 International  license.  
+  You are free:
+   to share  – to copy, distribute and transmit the work 
+  to remix  – to adapt the work   
+ Under the following conditions:
+   attribution  – You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use. 
+  share alike  – If you remix, transform, or build upon the material, you must distribute your contributions under the  same or compatible license  as the original.      https://creativecommons.org/licenses/by-sa/4.0  CC BY-SA 4.0   Creative Commons Attribution-Share Alike 4.0   true  true. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:20-09-2017_Cod,_clams,_peas_and_Samphire_cataplana_(1).JPG). Local asset: `reviewed-commons-62619446.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Galinha Cerejada** — Kolforn   ( Kolforn )  
+ I'd appreciate if you could mail me  (Kolforn@gmail.com)  if you want to use this picture out of the Wikimedia project scope. 
+ 
+    
+        
+              This file is licensed under the  Creative Commons   Attribution-Share Alike 4.0 International  license.  
+  You are free:
+   to share  – to copy, distribute and transmit the work 
+  to remix  – to adapt the work   
+ Under the following conditions:
+   attribution  – You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use. 
+  share alike  – If you remix, transform, or build upon the material, you must distribute your contributions under the  same or compatible license  as the original.      https://creativecommons.org/licenses/by-sa/4.0  CC BY-SA 4.0   Creative Commons Attribution-Share Alike 4.0   true  true. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:28-05-2017_Galinha_Cerejada_in_a_cataplana_(1).JPG). Local asset: `reviewed-commons-59379648.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Tlacoyo con nopales** — Koffermejia. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Tlacoyo_con_nopales.jpg). Local asset: `reviewed-commons-64726802.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Tlacoyo de frijol con nopales y aguacate** — Wotancito. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Tlacoyo_de_frijol_con_nopales_01.jpg). Local asset: `reviewed-commons-95896995.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
