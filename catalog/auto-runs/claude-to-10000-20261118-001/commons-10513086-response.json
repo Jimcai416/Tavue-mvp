@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBNgxEES8C3VUbkR8boC",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Golden-brown crispy flatbread with visible texture and specks\",\n    \"Reddish-brown chutney in metal bowl, appears chunky and cooked\",\n    \"Natural daylight, appetising presentation on white plate\"\n  ],\n  \"phone_observations\": [\n    \"Both components clearly visible in thumbnail\",\n    \"Flatbread dominates lower frame, chutney in bowl upper frame\",\n    \"Texture and colour readable at phone size\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title describes 'Pesarattu and Ginger chutney' but metadata location is listed as 'Pakistan, 2007', while pesarattu is an Andhra Pradesh (India) dish; major geographical contradiction with no origin clarification in title\",\n    \"No protein species explicitly named in source title or description; chutney appears to be condiment only; flatbread (pesarattu) is lentil-based, not a protein category match\"\n  ],\n  \"reason\": \"Reject: Source metadata contains unresolved geographical contradiction (Andhra Pradesh dish attributed to Pakistan). No explicit protein declaration in source title/description to support any protein_evidence entry. While photograph and phone thumbnail quality are acceptable and dish components are visible, the identity conflict between source title and location metadata violates the requirement that identity must agree with exact source description and cannot be reconciled by visual inspection alone. This creates an unresolvable uncertainty regarding the actual dish presented.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1630,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 472,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

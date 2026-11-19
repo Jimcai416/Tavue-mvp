@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBNgV84erchHfeLLJNXm",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Finished, cooked meat dish in white bowl\",\n    \"Prominent fresh mint garnish\",\n    \"Golden oil/ghee pooling visible\",\n    \"Browning and caramelization on meatballs\",\n    \"Sharp detail in phone thumbnail\"\n  ],\n  \"phone_observations\": [\n    \"Meatballs clearly visible and prominent\",\n    \"Mint garnish readable and distinctive\",\n    \"Oil/sauce visible in thumbnail\",\n    \"No clipping of essential components\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title provides only file name 'Goshtaba.jpg' without explicit protein species declaration\",\n    \"Description is atmospheric ('The dish of Kings', from the land of Kashmir) but contains no protein specification\",\n    \"Goshtaba is a Kashmiri dish traditionally made with lamb or goat, but neither species is explicitly named in the source title or description\",\n    \"No metadata or exact dish name quote confirms the protein species\"\n  ],\n  \"reason\": \"Image quality, sharpness, composition and phone presentation are excellent. The dish is identifiable as Goshtaba by visual form and watermark text. However, the source title is a filename only, and the description provides cultural context without naming the meat species. Protocol requires explicit source quotation naming the animal protein (chicken/beef/pork/duck/lamb/seafood). Although Goshtaba is traditionally lamb, the source does not state this explicitly, only describes it as a Kashmiri royal dish. Without a direct quote from title or description confirming the protein species, identity check fails. Hold for source clarification of protein composition.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1902,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 509,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
