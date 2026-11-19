@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBpWRAvjvaTCqA6gMewW",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Clear plastic container with diced raw seafood mixture\",\n    \"Visible diced tomato, onion, citrus-cured protein pieces in pink/white\",\n    \"Plastic spoon in foreground dish\",\n    \"Fried items in background container on white plate\",\n    \"Outdoor casual dining setting with coloured chairs\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows two dishes: foreground seafood salad in container and background fried items\",\n    \"Diced mixed ingredients readable in phone view\",\n    \"Spoon clearly visible for scale and serving context\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title/description identifies 'conch' but conch is not an allowed protein category (chicken/beef/pork/duck/lamb/seafood only)\",\n    \"Conch is a marine gastropod mollusk; protein category 'seafood' is too generic without explicit animal confirmation in source text\",\n    \"Visual appearance (pink/white diced texture, citrus cure) is consistent with conch ceviche but species confirmation from source metadata alone is insufficient\",\n    \"No exact phrase in title/description maps to an allowed protein_evidence key\"\n  ],\n  \"reason\": \"Image quality and photograph composition are strong (all scores ≥4), and the dish is clearly a prepared, exposed, appetising seafood salad with readable components in both full and thumbnail views. However, the source identifies the protein as 'conch', which is not among the allowed categories (chicken/beef/pork/duck/lamb/seafood). While 'seafood' is allowed, the source does not use the word 'seafood' explicitly—it names only 'conch', a specific mollusk species outside the permitted list. Without an exact source quote matching an allowed category, identity check fails and protein_evidence cannot be populated. Holding for clarification or source revision that explicitly names the protein using permitted terminology.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1631,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 578,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
