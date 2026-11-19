@@ -10094,3 +10094,8 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 - **Kotlety mielone Poznan** — MOs810. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Kotlety_mielone_Poznan.JPG). Local asset: `reviewed-commons-17432862.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Chatpata Samosa** — Pratik1203. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Yummy_Samosa%27s.JPG). Local asset: `reviewed-commons-40954115.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Kotlety mielone z ziemniakami** — Aw58. [CC BY 4.0](https://creativecommons.org/licenses/by/4.0); [source](https://commons.wikimedia.org/wiki/File:Kotlety_mielone_z_ziemniakami_-_09.03.2026.jpg). Local asset: `reviewed-commons-185859512.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Kotlety mielone z ziemniakami i mizerią** — Aw58. [CC BY 4.0](https://creativecommons.org/licenses/by/4.0); [source](https://commons.wikimedia.org/wiki/File:Kotlety_mielone_z_ziemniakami_i_mizeri%C4%85_-_2025.06.26.jpg). Local asset: `reviewed-commons-173933921.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Kotlety schabowe** — Aw58. [CC BY 4.0](https://creativecommons.org/licenses/by/4.0); [source](https://commons.wikimedia.org/wiki/File:Kotlety_schabowe_-_05.07.2025.jpg). Local asset: `reviewed-commons-169811199.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
