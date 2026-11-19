@@ -7034,3 +7034,9 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Sabich** — switch_1010. [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Sabich1.jpg). Local asset: `reviewed-commons-2273395.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Chicken briyani** — THE GOKUL. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Chicken_briyani_lover.jpg). Local asset: `reviewed-commons-141151722.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **home made chicken briyani with egg** — Habib 06. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Home_made_chicken_briyani_with_egg552426.jpg). Local asset: `reviewed-commons-101952075.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Vegetable Briyani** — Click.azad. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Vegetable_Briyani.jpg). Local asset: `reviewed-commons-101664408.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
