@@ -8774,3 +8774,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 - **Forchettata di Puttanesca** — Schellenberg. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Puttanesca_forchettata.jpg). Local asset: `reviewed-commons-137957688.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Cholent with egg** — Newmila. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Cholent_with_egg.jpg). Local asset: `reviewed-commons-126732367.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Spaghetti alla Puttanesca** — Kaifredriksen. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Spaghetti_alla_Puttanesca_-_detail.JPG). Local asset: `reviewed-commons-25477971.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **linguini puttanesca** — [hans peter meyer  from Courtenay, CANADA](https://www.flickr.com/people/9522129@N03). [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:Yesterday%27s_linguini_puttanesca_at_@RISOfoodInc_(9693908241).jpg). Local asset: `reviewed-commons-180336061.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.

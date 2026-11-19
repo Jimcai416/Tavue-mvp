@@ -115552,5 +115552,28 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 540,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-180336061",
+    "title": "File:Yesterday's linguini puttanesca at @RISOfoodInc (9693908241).jpg",
+    "author": "hans peter meyer  from Courtenay, CANADA",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Yesterday%27s_linguini_puttanesca_at_@RISOfoodInc_(9693908241).jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/36/Yesterday%27s_linguini_puttanesca_at_%40RISOfoodInc_%289693908241%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "ec1233011d1b06b896ae1503ecad41de29a4800f",
+    "name": "linguini puttanesca",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-180336061.jpg",
+    "assetSha256": "fef799e9d62929ed7ef4fd7067c1acd086ce110f7612ae3ebf744e4eb6508b5d",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 960,
+    "requiresExactMenuName": true,
+    "authorUrl": "https://www.flickr.com/people/9522129@N03"
   }
 ];
