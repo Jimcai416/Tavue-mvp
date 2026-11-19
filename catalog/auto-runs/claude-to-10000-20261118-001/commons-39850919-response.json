@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBmcJCYmjPJgrPY3P5Jp",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Finished, cooked dish on white plate\",\n    \"Brown fried meatballs clearly visible\",\n    \"Orange/golden fried potato wedges\",\n    \"Red pepper strips present\",\n    \"Natural colours, appetising appearance\",\n    \"Home-style plating\",\n    \"Phone thumbnail preserves dish composition and colours\"\n  ],\n  \"phone_observations\": [\n    \"Meatballs and potatoes clearly visible at reduced size\",\n    \"Colour fidelity maintained\",\n    \"Essential components readable in thumbnail\",\n    \"Dish identity preserved in phone view\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title states 'İzmir köfte' (Turkish meatballs from Izmir) but does not explicitly name the meat species (beef, lamb, pork, chicken, duck, or seafood)\",\n    \"Meatball composition cannot be visually confirmed as a specific protein category\",\n    \"No exact protein declaration in source description\"\n  ],\n  \"reason\": \"Image quality, composition, and photograph properties are strong (all checks pass except identity). The dish is finished, appetising, and well-presented. However, the source description 'İzmir köfte' provides no explicit statement naming which animal protein is used. Turkish köfte traditionally uses beef or lamb, but tradition alone is not visual or textual proof. The source does not declare a specific protein category supported by this system (chicken/beef/pork/duck/lamb/seafood). Without an explicit source quote naming the meat species, identity cannot be confirmed and protein_evidence cannot be populated. Hold pending source clarification of the protein.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1732,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 506,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

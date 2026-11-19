@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBmdRtw9DyrXWHwb5VVx",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 3,\n    \"lighting\": 3,\n    \"composition\": 2,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows skewers on grill and thin flatbread, but essential food subject (kebap/meat) is severely underrepresented and blurred\",\n    \"Flatbread dominates the small frame; grilled meat skewers are small and obscured by smoke and angle\",\n    \"Lighting and smoke obscure key food details needed for appetising presentation in phone view\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title references 'Adana-Kebap' but the finished dish identity cannot be visually confirmed from either image—only preparation stage with skewers on coals and flatbread\",\n    \"Source title is a filename description of a food stand, not a specific finished dish title\",\n    \"Meat species on skewers is not explicitly named in source metadata and cannot be reliably identified from the charred, smoky appearance\"\n  ],\n  \"reason\": \"Rejection: Image shows grilling preparation in progress, not a finished, plated dish. The phone thumbnail fails the essential requirement: the primary food subject (kebap meat) is too small, obscured by smoke and grill angle, and lacks sharp detail or appetising presentation. Severe smoke, backlighting glare, and outdoor campfire conditions compromise lighting and clarity. The source title is a file description of a food stand event, not a canonical dish name. Meat species is not explicitly stated in source metadata and cannot be visually proven from the charred, smoky surface. This is a preparation/cooking-stage photograph, not a finished-dish submission suitable for Tavue food review.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1767,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 498,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

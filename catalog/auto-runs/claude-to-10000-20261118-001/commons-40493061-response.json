@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBmcwtwfD3w1wTR3mFVh",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 3,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Two sausage-like items with reddish-brown colour visible in white bowl\",\n    \"Golden/amber potatoes or root vegetables in tomato-based sauce\",\n    \"White bowl on orange surface\",\n    \"Companion bowl containing pale cream/yogurt-based sauce with green herb garnish (consistent with cacık)\"\n  ],\n  \"phone_observations\": [\n    \"Main dish clearly visible as sausage with potatoes in sauce\",\n    \"Companion cacık bowl visible in background\",\n    \"Essential components readable in thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Species of sausage/köfte meat unspecified in source title or description\",\n    \"Source metadata labels dish as 'Izmir köfte' but does not explicitly name the animal protein (beef, lamb, pork, etc.)\",\n    \"Sausage identity cannot be inferred from appearance alone\",\n    \"No explicit protein quote available in title/description\"\n  ],\n  \"reason\": \"Source title and description do not explicitly name the animal species in the sausage/köfte. The instruction requires an exact source quote explicitly naming each animal for protein categories (chicken/beef/pork/duck/lamb/seafood). 'Köfte' is a generic sausage term that may contain multiple possible meats, and no species is stated in the metadata. Image quality and presentation are acceptable, but the protein species ambiguity requires a hold pending clarification from the source.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1735,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 471,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
