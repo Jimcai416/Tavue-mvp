@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCeSFFNTQDaqdeS8HNDs",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Two bowls of brown broth or gravy\",\n    \"Toasted bread slices on white plate\",\n    \"Hard-boiled eggs halved on white plate\",\n    \"Home/casual dining setting\"\n  ],\n  \"phone_observations\": [\n    \"Central bowl of broth clearly visible\",\n    \"Bread and eggs present but secondary in thumbnail\",\n    \"Natural daylight, adequate contrast\",\n    \"Dish identity readable from full image but metadata title unclear\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title contains non-Latin script (Tifinagh) and transliteration variants (amlo/amlu/am'lou) with unclear standardisation\",\n    \"Description mentions argane oil and almonds but bowls appear to show broth/soup, not a paste\",\n    \"Visual composition shows multiple components (broth, bread, eggs) but source description focuses on a single ingredient (amlo)\",\n    \"Exact dish identity and English/standard name cannot be reliably matched to visible content\",\n    \"No explicit animal protein named in source description; eggs visible but not explicitly credited\"\n  ],\n  \"reason\": \"Identity check fails due to source metadata ambiguity. The description in Tifinagh and French transliteration (ⴰⵡⵍⵓ, amlo/amlu) refers to an argan-almond preparation, but the photograph shows multiple components including broth, toast, and eggs arranged on separate plates. The visual composition and the described single-ingredient focus do not reliably align. Transliteration variants and lack of standardised English naming prevent canonical_name derivation. No explicit animal protein is named in the source. Hold pending clarification of exact dish identity and source-verified composition.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1690,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 533,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

@@ -1,11 +1,11 @@
 # Continuous Claude photo campaign
 
-Status: **reviewing**. Updated: 2026-11-19T17:01:42.381704+00:00.
+Status: **reviewing**. Updated: 2026-11-19T17:02:05.311409+00:00.
 
 - Bundled approved photographs: **5,569 / 10,000**.
 - Newly integrated in this campaign: 3,507.
-- Candidates: 27,471; processed: 27,447; pending: 24.
-- Cumulative accounted/reserved API cost: **$122.742315 / $300.00**.
+- Candidates: 27,471; processed: 27,471; pending: 0.
+- Cumulative accounted/reserved API cost: **$122.639138 / $300.00**.
 - This includes $9.440475 of verified prior usage; the allowance is not reset by rounds or restarts.
 - Search rounds started: 468.
 
