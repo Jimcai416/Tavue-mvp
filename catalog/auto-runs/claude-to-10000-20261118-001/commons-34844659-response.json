@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCJWXhMYyxAoU9mHhGyM",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 3,\n    \"lighting\": 3,\n    \"composition\": 3,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows wok on active gas burner with flame visible\",\n    \"Green scallions/leeks prominently visible at top of wok\",\n    \"Cooking utensil and burner apparatus occupy significant frame\",\n    \"Dish is mid-preparation, actively cooking\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Image shows preparation/cooking stage, not a finished exposed dish\",\n    \"Motsunabe is intestine-based stew; intestine is not an allowed protein category (chicken/beef/pork/duck/lamb/seafood)\",\n    \"Essential food components obscured by cooking utensil and active flame\",\n    \"Soft focus and active cooking lighting diminish visibility of finished dish quality\"\n  ],\n  \"reason\": \"Reject: This is a preparation/cooking stage photograph, not a finished, exposed, appetising dish. The wok is actively on a gas burner mid-cook. Motsunabe is a Japanese offal stew made primarily from motsu (intestines), which cannot be mapped to the allowed protein categories (chicken/beef/pork/duck/lamb/seafood). The essential food components are partially obscured by cooking apparatus and active flame. The image does not meet the requirement of showing a finished, prominent, naturally-coloured, appetising dish with readable essential components.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1744,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 443,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

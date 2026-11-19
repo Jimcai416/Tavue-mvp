@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCJVn8F81AAPKjvBocxQ",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Steaming broth-based pot dish\",\n    \"Green onions/scallions with red garnish on top\",\n    \"Creamy/pale ingredients in broth\",\n    \"Glass of beer visible in background\",\n    \"Bowl presentation on dining table\"\n  ],\n  \"phone_observations\": [\n    \"Pot rim and central ingredients clearly visible\",\n    \"Green vegetable garnish prominent\",\n    \"Creamy broth/ingredients readable\",\n    \"Appetising warm presentation\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title 'もつ鍋' (motsunabe) refers to offal/tripe pot, but no offal is visually identifiable in the photograph—the pale items in broth are ambiguous and could be tofu, mushrooms, seafood, or other ingredients\",\n    \"Species of any meat/offal component cannot be confirmed from visual inspection\",\n    \"English description field is empty; title is in Japanese only\",\n    \"Visible ingredients do not unambiguously match the named dish type\"\n  ],\n  \"reason\": \"Source title is in Japanese (もつ鍋 = motsunabe, a tripe/offal hot pot). However, visual inspection of the full photo and phone thumbnail shows only creamy pale ingredients in broth and green onion garnish—no recognisable offal, tripe or identifiable meat species is visible. The pale ingredients are ambiguous and could be many things. Without visual confirmation of the specific protein identity or explicit English source text naming a protein category, identity cannot be verified. Per rules, ambiguous or unconfirmed meat species and source-title-to-appearance contradictions require hold. All quality and photograph checks pass, but identity check fails due to inability to visually support the claimed dish type or confirm any named protein.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1689,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 551,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

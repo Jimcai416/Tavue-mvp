@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCJVZFbZeVEJE36jrpEg",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Glossy, golden-brown roasted poultry leg/thigh, prominently displayed\",\n    \"Fresh cucumber slices and leafy greens as garnish\",\n    \"Red chilli peppers on separate white plate\",\n    \"Small bowl of amber dipping sauce\",\n    \"Yellow beverage in background\",\n    \"Restaurant table setting\",\n    \"Characteristic Southeast Asian presentation\"\n  ],\n  \"phone_observations\": [\n    \"Roasted poultry leg dominates centre-cover thumbnail\",\n    \"Golden-brown skin clearly visible and appetising\",\n    \"White plate and green garnish visible\",\n    \"Thumbnail composition supports main image identity\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Filename contains 'Đùi gà nướng' (roasted chicken thigh) but source title field states only 'Cơm gà sườn nướng'—these are contradictory dish names with different Vietnamese terms\",\n    \"Title refers to 'cơm gà sườn' (rice with grilled chicken breast/ribs), but the visible protein is clearly a roasted leg/thigh, not breast or rib\",\n    \"Source metadata inconsistency: title vs. filename describe different poultry cuts\",\n    \"No explicit 'chicken' term in the title field itself, only in filename metadata (untrusted per instructions)\"\n  ],\n  \"reason\": \"Source identity contradiction: the title field ('Cơm gà sườn nướng') does not match the visible roasted leg/thigh, nor does it match the filename qualifier ('Đùi gà nướng'). The photograph shows a glossy, golden roasted poultry thigh with fresh garnish—high quality and appetising—but the source-supplied title refers to breast/rib cuts ('sườn'), creating irreconcilable ambiguity. Without a trusted, unambiguous source name that matches the visible cut and explicitly names the protein species, identity cannot be confirmed. All other checks pass, but identity failure requires hold.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1749,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 608,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
