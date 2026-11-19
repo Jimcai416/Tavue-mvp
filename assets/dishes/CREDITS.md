@@ -7105,3 +7105,9 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Fabada asturiana** — [Javier Lastras  from España/Spain](https://www.flickr.com/people/22662305@N04). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Fabada_asturiana2.jpg). Local asset: `reviewed-commons-38304402.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Perkedel** — Abdul Hanif Arromy. [CC BY 4.0](https://creativecommons.org/licenses/by/4.0); [source](https://commons.wikimedia.org/wiki/File:Perkedel_101141.jpg). Local asset: `reviewed-commons-193392931.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Perkedel Jagung** — Gunawan Kartapranata. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Perkedel_Jagung_Jakarta.jpg). Local asset: `reviewed-commons-58079306.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Sate Madura** — Alfiyah Rizzy Afdiquni. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Sate_Madura_3.jpg). Local asset: `reviewed-commons-174976291.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
