@@ -87465,5 +87465,28 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-1654270",
+    "title": "File:Korean.food-Dubujjim-02.jpg",
+    "author": "stuart_spivack  (a flickr user)",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Korean.food-Dubujjim-02.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Korean.food-Dubujjim-02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "26f0c263807073a2de6220e55a601ee3792b76c7",
+    "name": "Dubu jjim",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-1654270.jpg",
+    "assetSha256": "1d1d181e6ae44d57cc2cd8921fbe1177f6d631a20013fd356611f59f6aae6eba",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 768,
+    "height": 678,
+    "requiresExactMenuName": true,
+    "authorUrl": "https://www.flickr.com/photos/stuart_spivack/"
   }
 ];
