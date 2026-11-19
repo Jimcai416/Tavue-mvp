@@ -7728,3 +7728,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 - **Kapampangan Pork Sisig** — Markadan. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Kapampangan_Pork_Sisig.jpg). Local asset: `reviewed-commons-186197263.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Katsuo no tataki** — ノボホショコロトソ. [CC BY 4.0](https://creativecommons.org/licenses/by/4.0); [source](https://commons.wikimedia.org/wiki/File:Katsuo_no_tataki_at_Kochi_City.jpg). Local asset: `reviewed-commons-157742425.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Pork Sisig** — Ralff Nestor Nacor. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Pork_Sisig,_Apr_2026.jpg). Local asset: `reviewed-commons-188888727.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Bánh ướt Phương Lang, tô nước chấm** — Phương Huy. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:M%C3%B3n_%C4%83n_nh%C3%A0_m%C3%ACnh_T%E1%BA%BFt_2022_(B%C3%A1nh_%C6%B0%E1%BB%9Bt_Ph%C6%B0%C6%A1ng_Lang,_t%C3%B4_n%C6%B0%E1%BB%9Bc_ch%E1%BA%A5m)_(4).jpg). Local asset: `reviewed-commons-138045780.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.

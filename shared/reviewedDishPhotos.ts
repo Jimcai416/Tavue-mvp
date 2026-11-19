@@ -103563,5 +103563,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 723,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-138045780",
+    "title": "File:Món ăn nhà mình Tết 2022 (Bánh ướt Phương Lang, tô nước chấm) (4).jpg",
+    "author": "Phương Huy",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:M%C3%B3n_%C4%83n_nh%C3%A0_m%C3%ACnh_T%E1%BA%BFt_2022_(B%C3%A1nh_%C6%B0%E1%BB%9Bt_Ph%C6%B0%C6%A1ng_Lang,_t%C3%B4_n%C6%B0%E1%BB%9Bc_ch%E1%BA%A5m)_(4).jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0f/M%C3%B3n_%C4%83n_nh%C3%A0_m%C3%ACnh_T%E1%BA%BFt_2022_%28B%C3%A1nh_%C6%B0%E1%BB%9Bt_Ph%C6%B0%C6%A1ng_Lang%2C_t%C3%B4_n%C6%B0%E1%BB%9Bc_ch%E1%BA%A5m%29_%284%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "b28ba5ba17527f787e113f31a1c46051b639b203",
+    "name": "Bánh ướt Phương Lang, tô nước chấm",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-138045780.jpg",
+    "assetSha256": "e62ba99b2d5b69509c0628b34c4d6359643cf4cb6fec736d2efccc95e5959762",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 720,
+    "height": 960,
+    "requiresExactMenuName": true
   }
 ];
