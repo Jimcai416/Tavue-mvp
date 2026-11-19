@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCUFjMKmXXm763WobCQg",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 3,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows outdoor winter scene with people and bare trees\",\n    \"No food dish visible in phone thumbnail\",\n    \"Cannot identify any prepared food subject\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title references 'Cabane à Sucre La Sucrerie Blouin' (a maple syrup cabin), but no food dish is visible in either the full photograph or thumbnail\",\n    \"Image shows an outdoor event venue/gathering with crowds in a wooded snowy area, not a finished dish\"\n  ],\n  \"reason\": \"Rejection: The source is a documentary photograph of a maple syrup cabin venue and crowd gathering, not a finished, exposed dish photograph. No prepared food is visible in the full image or phone thumbnail. This is an architectural/event venue scene, not food photography suitable for Tavue review. Identity check fails: the visible subject does not match the expectation of a food dish despite the cabane à sucre context. This is not a food photograph.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1673,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 366,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

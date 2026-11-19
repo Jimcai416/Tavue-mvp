@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCUGg8dyN9Z943R1jFCV",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 1,\n    \"lighting\": 2,\n    \"composition\": 1,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Rotisserie equipment with wrapped meat during cooking process\",\n    \"Meat wrapped in foil on vertical spit with heating element\",\n    \"In-progress preparation stage, not finished dish\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Species of meat not visually identifiable—cannot confirm chicken, beef, lamb, pork, or duck\",\n    \"Source title claims 'pizza and donair' but image shows only rotisserie meat preparation\",\n    \"Contradiction between source description 'meat almost finished on spit' and claimed dish identity\"\n  ],\n  \"reason\": \"Reject: This is a preparation/cooking stage image, not a finished, exposed, plated dish. The meat remains wrapped in foil on an active rotisserie, with no finished food visible or appetising presentation. The source title references 'Cosmos pizza and donair' but neither pizza nor a finished donair sandwich is shown—only raw/cooking-stage protein. Severe contradiction between claimed identity and actual visual content. Sharpness is poor, lighting is harsh institutional, and the subject is equipment-focused, not food-focused. Phone thumbnail confirms this is in-progress cookery, not a finished dish suitable for food review. Species of meat cannot be determined from visual inspection alone.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1727,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 429,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
