@@ -9027,3 +9027,10 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Kuih talam** — 1percenteffort. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Kuih_talam.png). Local asset: `reviewed-commons-106262163.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Tempe goreng tepung** — Bajinra. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Fried_Tempeh_Tempe_in_Indonesia_Restaurant.jpg). Local asset: `reviewed-commons-141518877.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Tempe Goreng** — Fido Cahya. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Tempe_Goreng.jpg). Local asset: `reviewed-commons-98901734.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Tempe goreng pendamping wedang cor Jember** — Astari28. [CC BY 4.0](https://creativecommons.org/licenses/by/4.0); [source](https://commons.wikimedia.org/wiki/File:Tempe_goreng_dan_bumbu_petis.jpg). Local asset: `reviewed-commons-190773303.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Tempe goreng dengan petis** — Astari28. [CC BY 4.0](https://creativecommons.org/licenses/by/4.0); [source](https://commons.wikimedia.org/wiki/File:Tempe_goreng_dengan_petis.jpg). Local asset: `reviewed-commons-190773304.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
