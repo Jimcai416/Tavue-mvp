@@ -10103,3 +10103,10 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Kotlety ziemniaczane z serem feta** — Magalia. [CC BY 3.0](https://creativecommons.org/licenses/by/3.0); [source](https://commons.wikimedia.org/wiki/File:Kotlety_ziemniaczane.jpg). Local asset: `reviewed-commons-11421851.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Tom kha kai, Thai coconut soup** — ©  Vyacheslav Argenberg. [CC BY 4.0](https://creativecommons.org/licenses/by/4.0); [source](https://commons.wikimedia.org/wiki/File:Chiang_Mai,_Thailand,_Tom_Kha,_Thai_coconut_soup.jpg). Local asset: `reviewed-commons-110682108.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Curry Mee** — JB Macatulad. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Curry_Mee_at_Sister_Curry_Mee_in_Penang.jpg). Local asset: `reviewed-commons-51196146.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Nasi Lemak Sambal Bilis** — Ahmsweet. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Nasi_Lemak_Sambal_Bilis.jpg). Local asset: `reviewed-commons-103551073.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Curry Mee in Malaysia** — [Charles Haynes  from Hobart, Australia](https://www.flickr.com/people/87232391@N00). [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:Curry_Mee_in_Malaysia.jpg). Local asset: `reviewed-commons-37211514.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
