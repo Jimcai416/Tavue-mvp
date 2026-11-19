@@ -6901,3 +6901,8 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Moroccan Mint Tea** — Sarkar Sayantan. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Moroccan_Mint_Tea_-_2.jpg). Local asset: `reviewed-commons-125328490.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Maqluba** — Basel15  at the  English Wikipedia. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/); [source](https://commons.wikimedia.org/wiki/File:Maqluba.jpg). Local asset: `reviewed-commons-24583716.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Modern Iraqi maqluba with two different rice colors** — Ghazwan Mattoka. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Modern_Iraqi_maqluba_with_two_different_rice_colors.jpg). Local asset: `reviewed-commons-105211203.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
