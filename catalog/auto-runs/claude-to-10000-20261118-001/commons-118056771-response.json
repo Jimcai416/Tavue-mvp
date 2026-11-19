@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBPiqM9eBseDiHVvYHRW",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Ingredient flatlay composition visible in phone thumbnail\",\n    \"Multiple plates and components arranged on patterned tablecloth\",\n    \"Central wooden board with condiments, cured meat, and prepared items\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title claims 'Fermented Fish (Herring) Swedish Style' but no finished herring dish is visible in photograph\",\n    \"Image shows ingredient preparation and mise en place, not a completed plated dish\",\n    \"Red candles, decorative tablecloth, and ingredient bowls indicate a table setting, not food photography of a finished dish\",\n    \"Cured/preserved meat visible on plate but species not explicitly named in source\",\n    \"No fermented fish or herring is identifiably present or plated as a finished dish\"\n  ],\n  \"reason\": \"Rejection: This is a photograph of ingredients and mise en place arranged for cooking, not a finished, exposed dish. The source title describes 'Fermented Fish (Herring) Swedish Style' but no completed herring dish, preparation, or identifiable fermented fish is visible. The image shows raw/prep stages (ingredient bowls, cured meat components, flatbreads, condiments) arranged decoratively on a tablecloth with candles. This violates the core requirement for a finished, exposed, likely photographic dish. The identity check fails because the visual content does not match the stated subject matter of a fermented fish dish.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1527,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 472,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

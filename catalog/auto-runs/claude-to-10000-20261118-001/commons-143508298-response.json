@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBPiTZyE1jLtpg7Uh2av",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": true,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 2,\n    \"composition\": 1,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Subject is a live fish underwater, not a finished dish\",\n    \"Murky aquatic environment visible\",\n    \"No food preparation, plating or service context\",\n    \"Essential food context entirely missing from thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [],\n  \"reason\": \"Image is a wildlife/aquarium photograph of a live barramundi fish, not a finished, exposed, cooked culinary dish. The source metadata identifies it as a specimen photograph from Jourama Falls National Park taken in 1986. This is a living animal in natural/aquatic setting, not food prepared for consumption. Fails identity check (not a dish), quality checks (severe softness, murky lighting, composition unsuitable for food review), and phone thumbnail requirements (live aquatic subject, no plating or appetising presentation). Rejected as outside scope of Tavue food photography review.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1647,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 340,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
