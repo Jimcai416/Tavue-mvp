@@ -6883,3 +6883,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Piadina integrale in padella farcita, preparata da Dina Benedetto** — DinaBenedettoFerrandina. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Piadina_integrale_in_padella_farcita,_preparata_da_Dina_Benedetto.jpg). Local asset: `reviewed-commons-199722271.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Gratin de cappelletti** — [Benoît Prieur](https://www.wikidata.org/wiki/Q42790984). [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Pizzeria_Bella_Italia_(Cr%C3%A9pieux-la-Pape)_-_Gratin_de_cappelletti.jpg). Local asset: `reviewed-commons-87129738.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.

@@ -93258,5 +93258,28 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-87129738",
+    "title": "File:Pizzeria Bella Italia (Crépieux-la-Pape) - Gratin de cappelletti.jpg",
+    "author": "Benoît Prieur",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pizzeria_Bella_Italia_(Cr%C3%A9pieux-la-Pape)_-_Gratin_de_cappelletti.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Pizzeria_Bella_Italia_%28Cr%C3%A9pieux-la-Pape%29_-_Gratin_de_cappelletti.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "d3f5e308d8120cddd649839cc344f46e057251c6",
+    "name": "Gratin de cappelletti",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-87129738.jpg",
+    "assetSha256": "6037375894276cbae16dbbd082091299709c5fe4feb95b94c6d64e1eae30d0bb",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 605,
+    "requiresExactMenuName": true,
+    "authorUrl": "https://www.wikidata.org/wiki/Q42790984"
   }
 ];
