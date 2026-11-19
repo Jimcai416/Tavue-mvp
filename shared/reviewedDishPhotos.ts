@@ -105615,5 +105615,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-102468350",
+    "title": "File:Pindi Chole with Poori or Chole Poori 01.jpg",
+    "author": "Best Ever Cooking Show SudShi",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pindi_Chole_with_Poori_or_Chole_Poori_01.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Pindi_Chole_with_Poori_or_Chole_Poori_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "806ef28c1f20ed4787c98686d79b918f2fed2d60",
+    "name": "Punjabi Chole Poori",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-102468350.jpg",
+    "assetSha256": "caed800905aadcf5bd1bade27ae70d4f5496ae7f99f9322d64465c7c996cc006",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 776,
+    "requiresExactMenuName": true
   }
 ];

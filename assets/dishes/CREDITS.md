@@ -7926,3 +7926,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 
 - **Chicken Porridge in Bali** — [mokeneco  from Osaka, Japan](https://www.flickr.com/people/34179554@N05). [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:Bubur_ayam_Bali.jpg). Local asset: `reviewed-commons-8784788.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Bubur ayam chicken porridge** — Sakurai Midori. [CC BY 3.0](https://creativecommons.org/licenses/by/3.0); [source](https://commons.wikimedia.org/wiki/File:Bubur_ayam_chicken_porridge.JPG). Local asset: `reviewed-commons-7361247.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Punjabi Chole Poori** — Best Ever Cooking Show SudShi. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Pindi_Chole_with_Poori_or_Chole_Poori_01.jpg). Local asset: `reviewed-commons-102468350.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
