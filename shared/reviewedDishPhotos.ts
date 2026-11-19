@@ -105841,5 +105841,51 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 960,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-117506200",
+    "title": "File:Homemade Jamaican patties.jpg",
+    "author": "Lilpisomojado",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Homemade_Jamaican_patties.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/37/Homemade_Jamaican_patties.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "e46f749de48768ba0ad52f4029ca3d8f2b3e7ac4",
+    "name": "Beef filled patties",
+    "aliases": [],
+    "proteins": [
+      "beef"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-117506200.jpg",
+    "assetSha256": "b719fb002dbc26281c7f1b5e8080f01e65eecc322e66732b54f207c0b5528175",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 812,
+    "height": 960,
+    "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-87498822",
+    "title": "File:Cocheals (spiced bun).jpg",
+    "author": "PeddleAnt",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cocheals_(spiced_bun).jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Cocheals_%28spiced_bun%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "e0fac1de00835cc492e4303405bfb64900c73194",
+    "name": "Cocheals (spiced bun)",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-87498822.jpg",
+    "assetSha256": "792ed4673038dbed4a29ce47f3300c2623d19e619673535ab14f0163f56b6807",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 720,
+    "height": 960,
+    "requiresExactMenuName": true
   }
 ];

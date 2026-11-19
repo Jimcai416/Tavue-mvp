@@ -7951,3 +7951,8 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 - **Qottab** — No machine-readable author provided.  Roozitaa  assumed (based on copyright claims).. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Qottab-2.jpg). Local asset: `reviewed-commons-31649410.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Tah-Chin** — Darafsh. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Tah-Chin.jpeg). Local asset: `reviewed-commons-155828254.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Ezogelin çorbası** — Basak. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:20230430_Ezogelin_%C3%A7orbas%C4%B1.jpg). Local asset: `reviewed-commons-131352977.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Beef filled patties** — Lilpisomojado. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Homemade_Jamaican_patties.jpg). Local asset: `reviewed-commons-117506200.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Cocheals (spiced bun)** — PeddleAnt. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Cocheals_(spiced_bun).jpg). Local asset: `reviewed-commons-87498822.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
