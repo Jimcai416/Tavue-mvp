@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBR98Ktuwt1karDPifgc",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": true,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 2,\n    \"composition\": 1,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail is severely out of focus and blurred\",\n    \"Essential food detail is not discernible in phone view\",\n    \"Vessel shape barely recognizable; contents invisible at thumbnail resolution\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title references 'Tangia' but photograph does not show a finished, exposed, appetising dish\",\n    \"Image appears to be a preparation/cooking stage rather than final plated food\",\n    \"Person's hand and cooking vessel dominate; actual food is obscured or not presented as a finished dish\",\n    \"Severe motion blur and shallow depth of field render the food unidentifiable and unappealing\"\n  ],\n  \"reason\": \"Reject: This is a behind-the-scenes preparation photograph, not a finished dish presentation. The tangia vessel is shown being handled during cooking rather than exposed and plated. Essential food components are obscured or clipped. Sharpness is critically poor (motion blur, shallow DOF). Phone thumbnail fails to show readable food detail—composition, sharpness and appeal scores all fall below the minimum threshold of 4. Identity cannot be confirmed visually from the photograph alone.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1631,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 406,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
