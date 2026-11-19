@@ -8567,3 +8567,10 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Cornish pasty** — Mutney. [CC BY 4.0](https://creativecommons.org/licenses/by/4.0); [source](https://commons.wikimedia.org/wiki/File:An_entry_for_the_Cornish_pasty_section_of_the_domestic_produce_competition,_Camborne_Show,_Cornwall_-_July_2026_(1).jpg). Local asset: `reviewed-commons-195947916.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Kefta Kebab** — [Arnold Gatilao  from Oakland, CA, USA](https://www.flickr.com/people/58819758@N00). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Kefta_Kebab_(17018016718).jpg). Local asset: `reviewed-commons-40530074.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Parmuda - uzbek samsa** — Shuhrataxmedov. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:%27Parmuda%27-uzbek_samsa-02.jpg). Local asset: `reviewed-commons-19901792.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Samarkand Samsa (Sambusa)** — Akhemen. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Samarkand_Samsa_(Sambusa).jpg). Local asset: `reviewed-commons-80226178.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Ketoprak, Indonesian salad dishes with tofu, rice vermicelli, krupuk and peanut dressings** — Taman Renyah. [CC BY 3.0](https://creativecommons.org/licenses/by/3.0); [source](https://commons.wikimedia.org/wiki/File:Ketoprak-On_our_way_back_home.jpg). Local asset: `reviewed-commons-14917362.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
