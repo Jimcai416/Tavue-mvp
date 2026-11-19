@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBsXrJuszQ5Btumiz2xS",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Multiple bowls of braised fish/seafood in dark brown broth\",\n    \"Fresh green herb garnish (appears to be basil or cilantro)\",\n    \"Bright orange serving bowls\",\n    \"Central white bowl with similar preparation\",\n    \"Visible protein with charred/caramelised surface\",\n    \"Rich, dark sauce consistent across servings\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows orange bowls with broth-based dish\",\n    \"Dark sauce and protein visible and prominent\",\n    \"Green garnish readable in phone view\",\n    \"Multiple servings visible, confirming food subject\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title references 'pindang sekawan' but provides only generic category description ('Jenis pindang yang ada di menu pindang sekawan' = 'Types of pindang available on the pindang sekawan menu')\",\n    \"No specific dish name or variant identifier supplied beyond the restaurant/menu name\",\n    \"Species of fish/seafood not explicitly named in title or description\",\n    \"Pindang preparation exists in multiple regional variants with different proteins; specific dish identity cannot be determined from metadata alone\",\n    \"Title appears to be a file name rather than a canonical dish description\"\n  ],\n  \"reason\": \"Image quality, sharpness, lighting and composition are all strong (scores ≥4), and the photograph shows finished, appetising braised seafood/fish with fresh garnish, clearly visible in both full image and phone thumbnail. However, the source metadata fails to provide a specific canonical dish name or identity. The description is merely categorical ('types of pindang on the menu') rather than a named dish. Protein species is not explicitly stated in the source, and while a braised fish/seafood preparation is visually evident, the species cannot be confirmed from text. Without a specific source-provided canonical name or explicit protein identification, identity check cannot pass. Hold pending clarification of exact dish name and protein species.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1523,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 593,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

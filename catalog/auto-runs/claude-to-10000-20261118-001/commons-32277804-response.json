@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBsXLo9BxhaBvsktuP32",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Steamed vegetables (cabbage, long beans) visible\",\n    \"Fresh cilantro and crispy fried shallots as garnish\",\n    \"Served on banana leaf\",\n    \"Jakarta restaurant setting confirmed\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows composed salad dish\",\n    \"Vegetable components and fried elements visible at reduced size\",\n    \"Plating recognizable on banana leaf\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title metadata states 'Gado-gado Jakarta' but the image appears to show components inconsistent with traditional gado-gado: crispy fried items (possibly tempeh or tofu), steamed vegetables, fresh herbs, and what appear to be fried shallots—a composition more consistent with gado-gado. However, the visible protein components (fried items) cannot be definitively identified as a specific animal protein from appearance alone.\",\n    \"No explicit protein ingredient declaration in source description\",\n    \"Fried components visible but species/type unconfirmed by source text\"\n  ],\n  \"reason\": \"While the photograph is sharp, well-lit, and appetising, and the phone thumbnail is clear and recognisable, the identity check fails because no animal protein can be confirmed from the source title or description. The source provides only a generic dish name ('gado-gado salad') without declaring specific protein ingredients. The visible fried items in the dish cannot be reliably identified as a named animal protein category (chicken/beef/pork/duck/lamb/seafood) from visual inspection alone. Per protocol, protein_evidence remains empty, and without explicit source naming of a protein category, the identity cannot be established with sufficient certainty. Hold criteria require all checks true; identity is false.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1630,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 540,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

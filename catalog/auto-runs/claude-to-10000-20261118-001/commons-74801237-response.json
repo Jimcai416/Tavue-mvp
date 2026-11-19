@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBsXqmfb3b8aWhKqQK6h",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Noodle dish in brown gravy visible in full image (right plate)\",\n    \"Shellfish/crustacean pieces visible in full image (left plate, golden-brown fragments)\",\n    \"Accompaniments: lime, fresh prawn, diced potato, drinks\",\n    \"Phone thumbnail shows both cooked noodle dish and prepared proteins\"\n  ],\n  \"phone_observations\": [\n    \"Right dish: cooked noodles in dark brown gravy, clearly visible\",\n    \"Left dish: seafood/shellfish pieces and fried accompaniments legible\",\n    \"Both dishes prominent and sharp in thumbnail\",\n    \"Drinks and lime garnish visible in background\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'Mie Aceh Kepiting' (Aceh noodles with crab), but no intact crab or crab meat visually identifiable in full photograph—visible fragments appear to be generic shellfish/crustacean pieces; species cannot be confirmed as crab specifically\",\n    \"Source title includes 'Kepiting' (crab) but visual evidence does not unambiguously match; could be other crustacean species\",\n    \"No explicit protein naming in source description sufficient to anchor identity\"\n  ],\n  \"reason\": \"Source title claims 'Mie Aceh Kepiting' (crab), but the visible shellfish/crustacean pieces in the photograph do not conclusively demonstrate crab species. The title–image mismatch on protein identity, combined with inability to confirm the specific animal from appearance alone, triggers hold per protocol: unknown meat species (ambiguous crustacean) requires source certainty. Quality, sharpness, lighting, and composition are strong; both full and phone images are clear and appetising. Hold pending explicit visual or textual confirmation of crab as the intended shellfish.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1734,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 562,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

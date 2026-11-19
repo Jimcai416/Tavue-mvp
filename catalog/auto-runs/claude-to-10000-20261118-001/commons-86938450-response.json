@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBsXLqcvLbhqoM1Rnzw2",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Creamy yellowish-brown broth in white bowl\",\n    \"Green herb pieces (likely basil or similar leaf) scattered throughout\",\n    \"Pink/tan powder garnish dusted on top (possibly ground spice)\",\n    \"Cooked vegetables visible in liquid\",\n    \"Natural, home-style presentation\"\n  ],\n  \"phone_observations\": [\n    \"Soup/curry clearly visible in thumbnail\",\n    \"Creamy broth colour preserved\",\n    \"Green herbs legible\",\n    \"Garnish visible\",\n    \"Prominent and readable\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source metadata explicitly states 'vegetarian version' and 'Vegan' – no animal proteins are claimed to be present in this dish\",\n    \"Samlor Korko Khmer is traditionally a meat-based soup, but this version contains no visible or declared meat\",\n    \"No explicit protein source (chicken, beef, pork, lamb, seafood, or duck) is named in the title or description\"\n  ],\n  \"reason\": \"The source description unambiguously declares this a vegetarian/vegan version of Samlor Korko Khmer with no animal protein. Tavue's protocol requires acceptance only of dishes with identifiable proteins from the allowed category (chicken/beef/pork/duck/lamb/seafood), supported by exact source quotes naming the animal. The description explicitly excludes all animal products. Although the photograph and thumbnail are of high technical quality and show an appetizing finished dish, the absence of any protein evidence in the source material and the declared vegan status place this outside Tavue's scope. Hold would be more appropriate than reject if uncertainty existed about ingredients, but the source metadata is explicit and unambiguous.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1775,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 535,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
