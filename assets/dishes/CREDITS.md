@@ -9038,3 +9038,8 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Escargots à la bourguignonne** — Marianne Casamance. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Escargots_2.jpg). Local asset: `reviewed-commons-23617508.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Ikan Acar Kuning** — [Alpha  from Melbourne, Australia](https://www.flickr.com/people/10559879@N00). [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:Ikan_Acar_Kuning_-_Blok_M_Express_(2833861989).jpg). Local asset: `reviewed-commons-83152024.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Soto Madura** — DARMAS BS 9. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Pedagang_Soto_Madura.jpg). Local asset: `reviewed-commons-120854232.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
