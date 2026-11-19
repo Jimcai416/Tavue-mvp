@@ -6487,3 +6487,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 - **Kolak Ubi Kolang Kaling** — Indonesiagood. [CC BY 4.0](https://creativecommons.org/licenses/by/4.0); [source](https://commons.wikimedia.org/wiki/File:Kolak_Ubi_Kolang_Kaling.jpg). Local asset: `reviewed-commons-150311458.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Kolak biji salak** — Gunawan Kartapranata. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Kolak_biji_salak.jpg). Local asset: `reviewed-commons-16455505.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Kolak pisang dan ubi** — Sakurai Midori. [CC BY 3.0](https://creativecommons.org/licenses/by/3.0); [source](https://commons.wikimedia.org/wiki/File:Kolak_pisang_dan_ubi.JPG). Local asset: `reviewed-commons-8792243.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Kilishi** — Abubakar M. Ahmad. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:%22Kilishi%22.JPG). Local asset: `reviewed-commons-23940448.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.

@@ -88349,5 +88349,29 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-23940448",
+    "title": "File:\"Kilishi\".JPG",
+    "author": "Abubakar M. Ahmad",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%22Kilishi%22.JPG",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/91/%22Kilishi%22.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "4ce42663f01ee3e30a72ec69d5728f4d5051bfc7",
+    "name": "Kilishi",
+    "aliases": [],
+    "proteins": [
+      "beef"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-23940448.jpg",
+    "assetSha256": "b213a787ab9bbcb494770b98952814cb6c330fbfc21f75f998d7fd0f1bbdc9e6",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];
