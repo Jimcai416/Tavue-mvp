@@ -10366,3 +10366,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 - **Risalamande, a Danish Christmas dessert** — Lorie Shaull. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Risalamande,_a_Danish_Christmas_dessert.jpg). Local asset: `reviewed-commons-127858903.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Semlor** — [Per Ola Wiberg](https://www.flickr.com/photos/43446613@N00). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:SemlorTonight.jpg). Local asset: `reviewed-commons-2957266.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Cabbage casserole - Kaalilaatikko** — Anneli Salo. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Cabbage_casserole_-_Kaalilaatikko_2_C_IMG_4598.jpg). Local asset: `reviewed-commons-58114843.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Rye and Potato rieska** — Hellahulla ( Hellahulla ). [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Rye_and_Potato_rieska_-_1.JPG). Local asset: `reviewed-commons-3139694.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.

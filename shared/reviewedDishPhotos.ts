@@ -133048,5 +133048,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 640,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-3139694",
+    "title": "File:Rye and Potato rieska - 1.JPG",
+    "author": "Hellahulla ( Hellahulla )",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rye_and_Potato_rieska_-_1.JPG",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Rye_and_Potato_rieska_-_1.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "8ed5bbddad979c5f76288fe661de3ed0d0d3611e",
+    "name": "Rye and Potato rieska",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-3139694.jpg",
+    "assetSha256": "7d11e590d84d47cb56f2a6aaea9817e5d905bb04d24f2381084ba7fd1a8f1470",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];
