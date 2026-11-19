@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCeFPHk8T7bpPCm8jujL",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 3,\n    \"composition\": 2,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows distant cityscape and waterfront, no food visible\",\n    \"Urban/architectural landscape composition\",\n    \"No dish, ingredients, or prepared food present\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source metadata references 'Sudjuk 2011 Oct.jpg' and 'Sudjuk island' (a geographic location), not a food dish\",\n    \"No food photograph present in either full image or thumbnail\"\n  ],\n  \"reason\": \"This is a landscape/cityscape photograph of Sudjuk island and Novorossiysk waterfront, not a food photograph. Despite the filename containing 'Sudjuk' (which is also a type of sausage), the image shows only urban architecture, buildings, water, and coastline. No prepared dish, food components, or culinary subject matter is visible in either the full source or the phone thumbnail. Identity check fails: source describes a geographic location, not food. Quality and appeal scores reflect absence of food content. Reject.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1635,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 375,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
