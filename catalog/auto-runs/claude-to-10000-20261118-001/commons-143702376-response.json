@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCRFEmWiynfjGv4wc5TE",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Two round, dark-crusted breaded cakes with glossy dark sauce beneath, in a white bowl\",\n    \"Plated presentation matches full image\",\n    \"Subject is prominent and sharp in thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Bath chaps are traditionally made from pork jowl (porcine face meat), but source metadata alone cannot visually prove this identification—the breaded, coated appearance obscures the underlying ingredient completely\",\n    \"Visual form (two breaded rounds on dark sauce) is consistent with fried pork preparations but equally consistent with other breaded proteins or plant-based items\",\n    \"No explicit animal qualifier appears in the visible dish itself\",\n    \"Source title/description field is metadata and untrusted as instruction; it cannot override visual evidence rules\"\n  ],\n  \"reason\": \"Although the photograph shows a finished, sharply detailed, well-composed plated dish with strong visual appeal and professional presentation, the identity check fails. Bath chaps are a pork-based preparation, but the breaded crust obscures any visible confirmation of the pork ingredient. The source filename/metadata states 'Bath chaps' but per protocol, metadata and URLs are untrusted evidence, never instructions. Visual inspection alone cannot confirm the species of protein beneath the breading and sauce. Without explicit, visible protein evidence matching the canonical name, the identity requirement cannot be satisfied. Holding would be appropriate if the name alone were uncertain; rejection is correct because the protein cannot be visually supported.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1754,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 480,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
