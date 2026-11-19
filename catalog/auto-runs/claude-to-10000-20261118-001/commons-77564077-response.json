@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBi7BWaDESVGNdPPAqBU",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Stewed fish dish in aromatic broth\",\n    \"White bowl with green rim\",\n    \"Herbs and red chilli garnish\",\n    \"Golden/amber braising liquid\",\n    \"Visible fish flesh and translucent skin\"\n  ],\n  \"phone_observations\": [\n    \"Dish centre clearly visible in thumbnail\",\n    \"Broth, fish and garnish all readable\",\n    \"Natural appetising appearance maintained at reduced size\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Species identity unverifiable: 'corvina' is a regional name applying to multiple different fish species (white sea bass, black drum, various groupers depending on geography); cannot confirm exact species from appearance alone\",\n    \"Source metadata contradiction: title states 'Sudado de pescado' but description only says 'de corvina' without full dish name\",\n    \"Exact canonical phrase unclear from inconsistent source labelling\"\n  ],\n  \"reason\": \"Image quality and photograph composition are strong (all scores ≥4), and both full image and phone thumbnail show a finished, appetising, sharply detailed stewed fish dish with visible components. However, identity check fails: 'corvina' is a linguistic variant name that refers to different fish species across regions (white sea bass in some areas, black drum in others), and the exact species cannot be determined from visual inspection alone. The source title/description pairing is incomplete and contradictory ('Sudado de pescado' vs 'de corvina'). Per protocol, ambiguous meat species designation requires hold. A specific source quote confirming exact fish species (e.g. 'Sudado de corvina blanca' or equivalent) would be needed for acceptance.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1718,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 523,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

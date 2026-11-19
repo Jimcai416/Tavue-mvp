@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBi7ptcjZN4JtEiVFtnJ",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Finished, cooked dish with sauce\",\n    \"White rice mould as side\",\n    \"Orange/tomato-based broth with peas and diced red pepper garnish\",\n    \"Protein appears to be fish fillets in the sauce\",\n    \"Natural plating on white dish\",\n    \"Sharp detail in both full image and thumbnail\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows composed dish: rice mould, protein in sauce, sauce visible\",\n    \"Orange broth colour distinguishable\",\n    \"Pea and pepper garnish visible in thumbnail\",\n    \"No clipping of essential components\",\n    \"Appetising presentation maintained in reduction\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title says 'Sudado de pescado Madrid' but source description says 'comida peruana' (Peruvian food) — Madrid is Spain, sudado is Peruvian; major geographic/origin contradiction\",\n    \"Fish species not identified in source title or description\",\n    \"Unclear which animal 'pescado' refers to in terms of allowed category (seafood is not a valid protein_evidence key; species must be explicit)\"\n  ],\n  \"reason\": \"Source metadata contains unresolved contradiction: title references Madrid (Spain) but description explicitly states 'comida peruana' (Peruvian food). Sudado de pescado is a Peruvian dish, not a Madrid dish. The protein is identified only as 'pescado' (generic fish) with no species detail. 'Seafood' cannot be used as a protein_evidence key; only chicken/beef/pork/duck/lamb/seafood categories with exact species are permitted, and no specific fish type is named. Geographic and origin conflict combined with insufficient protein specificity requires hold pending source clarification.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1730,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 552,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
