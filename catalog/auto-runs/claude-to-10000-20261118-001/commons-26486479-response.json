@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCEUXqGWY6RQZod7BxgT",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Linguine pasta visible in full image\",\n    \"Red sauce coating pasta\",\n    \"Dark round objects consistent with olives\",\n    \"White plate presentation\"\n  ],\n  \"phone_observations\": [\n    \"Pasta and red sauce clearly visible in thumbnail\",\n    \"Dish identity readable at phone size\",\n    \"Natural appetising appearance maintained\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title states 'Olive e Capperi' (olives and capers) but visible dark round objects in image are ambiguous—capers are tiny buds, not round balls; visible objects appear to be olives or similar larger items\",\n    \"Discrepancy between claimed ingredient variant and visible composition raises identity doubt\",\n    \"Cannot visually confirm capers are present; cannot confirm olive identity with certainty\"\n  ],\n  \"reason\": \"Identity check fails due to contradiction between source title claim ('Olive e Capperi'—olives and capers) and visible image composition. The prominent dark round objects appear inconsistent with capers (which are tiny unopened flower buds) and their presence or identity cannot be reliably confirmed from the photograph. The variant qualifier cannot be preserved with confidence when visual evidence contradicts the declared variant. Hold required pending clarification of actual ingredients.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1628,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 426,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCEUzpzKtp2vHY2nbMD4",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Red curry/gravy dish in clear glass bowl\",\n    \"Distinct cooked meat pieces throughout sauce\",\n    \"Natural lighting, appetising colour\",\n    \"Sharp detail in both source and thumbnail\"\n  ],\n  \"phone_observations\": [\n    \"Red curry in transparent bowl clearly visible\",\n    \"Meat pieces prominent and distinguishable\",\n    \"No clipping of essential components\",\n    \"Thumbnail composition matches full image\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Species identification: 'Shark' claimed in description but cannot be visually confirmed from meat appearance alone\",\n    \"Source title references 'Mori ambot-tik' (Konkani preparation) but description labels 'Shark Ambott-tik' and also mentions 'Verna disco' (a fish species) – contradictory identity\",\n    \"Shark is not in the allowed protein category list (chicken/beef/pork/duck/lamb/seafood generic); specific visual confirmation of shark meat is not achievable\",\n    \"Description metadata contains price/filename elements that are untrusted\",\n    \"Ambiguity between claimed shark, implied Verna (a fish), and actual dish identity\"\n  ],\n  \"reason\": \"Source title–description mismatch and species ambiguity prevent acceptance. The description claims 'Shark Ambott-tik' but also references 'Verna disco' (a fish species), creating contradictory identity evidence. Shark as a protein cannot be visually distinguished from other fish in the cooked curry state and is not an explicitly listed allowed category. The meat pieces are cooked and submerged in sauce, preventing reliable species identification. Without a consistent, unambiguous source statement naming an allowed protein, and given the contradictions between title and description metadata, identity cannot be established. Photograph quality is acceptable but identity uncertainty forces a hold.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1751,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 562,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCEVSAEGZti4eWQ2P7dc",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 3,\n    \"lighting\": 2,\n    \"composition\": 3,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows a pot of mixed ingredients during preparation/cooking\",\n    \"Individual components (beans, meat pieces, spices) are visibly separate and unintegrated\",\n    \"No finished, integrated dish appearance visible at thumbnail resolution\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Image shows mid-cooking stage with unmixed/unintegrated components, not a finished plated dish\",\n    \"Meat species cannot be reliably identified from raw/cooking appearance\",\n    \"No clear finished dish presentation in either full source or thumbnail\"\n  ],\n  \"reason\": \"Reject: This is a preparation/cooking-stage photograph, not a finished, exposed dish. The source photograph shows ingredients in a pot during cooking (raw meat pieces, beans, spices unmixed), failing the requirement for a finished, exposed, likely photographic dish. The phone thumbnail reinforces this—components remain visibly separate and unintegrated. While the photograph quality itself is acceptable, identity fails because the subject is preparation, not a completed dish. Additionally, meat species cannot be verified from appearance alone, and no source description provides explicit animal identification.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1619,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 391,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
