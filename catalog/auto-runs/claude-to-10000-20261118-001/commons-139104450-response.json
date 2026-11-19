@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBST2xoyxnaL4EJNszSP",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Golden-brown breaded cutlet, visibly fried\",\n    \"Creamed mashed potatoes with paprika seasoning\",\n    \"Shredded carrot and cabbage slaw component\",\n    \"Home-cooked plated presentation on white dish\",\n    \"Finished, exposed dish in natural lighting\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows breaded cutlet and mashed potato\",\n    \"Slaw component visible but compressed in phone view\",\n    \"Sufficient detail for recognition of main components\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title states 'Kotlet schabowy' (Polish pork cutlet) but provides no explicit meat species declaration in the description text itself—only the Polish dish name\",\n    \"Species inference from traditional preparation alone does not meet the requirement for explicit source quotation naming the animal\",\n    \"No text in the supplied title or description explicitly states 'pork', 'beef', or any other protein\"\n  ],\n  \"reason\": \"While the photograph is sharp, well-lit, appetizing and shows a finished dish with clear identity as a breaded cutlet with mashed potatoes and slaw, the source metadata fails the protein requirement. The title 'Kotlet schabowy' is a traditional Polish pork dish name, but the description 'Kotlet schabowy z ziemniakami i surówką' does not contain an explicit, case-sensitive quote naming the meat species. Per protocol, protein species must be supported by exact source text, not inferred from dish tradition or appearance. No acceptable protein_evidence can be populated. Hold for clarification of explicit meat declaration.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 2029,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 516,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
