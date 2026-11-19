@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChD7LkCcwLdXk5MaGrmeX",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Golden-yellow saffron-coloured rice base\",\n    \"Cooked meat pieces (brownish, unspecified species)\",\n    \"Red pepper pieces\",\n    \"Black olives or caramelised onion visible\",\n    \"Chickpeas or other legumes visible\",\n    \"Finished, exposed dish on white plate\",\n    \"Natural lighting, appetising appearance\"\n  ],\n  \"phone_observations\": [\n    \"Yellow rice with ingredients clearly visible\",\n    \"Meat pieces readable but species unidentifiable at thumbnail scale\",\n    \"Red pepper and dark garnish visible\",\n    \"Prominent subject, adequate detail for phone format\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Meat species cannot be identified from visual appearance alone—appears cooked and diced but could be beef, pork, lamb, or poultry; source title does not specify animal type\",\n    \"Title claims 'Arroz al horno' (Spanish baked rice) but metadata lacks explicit animal identity in English or Spanish description\",\n    \"Legume type (chickpeas vs. other pulses) not definitively identifiable visually\"\n  ],\n  \"reason\": \"Photograph quality, sharpness, lighting, composition and phone thumbnail all meet acceptance standards. However, identity check fails: the source title 'Arroz al horno' is a generic Spanish baked rice category and does not specify the meat species or exact regional variant. The meat pieces are cooked and unidentifiable by appearance alone. No explicit animal name appears in the title or description to satisfy the protein_evidence requirement. Per protocol, unknown meat species and source contradictions/ambiguities require hold. A specific source quote naming the animal species is required before acceptance.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1742,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 528,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
