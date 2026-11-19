@@ -6796,3 +6796,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Kotlet schabowy z ziemniakami i kiszonymi ogórkami** — Aw58. [CC BY 4.0](https://creativecommons.org/licenses/by/4.0); [source](https://commons.wikimedia.org/wiki/File:Kotlet_schabowy_z_ziemniakami_i_kiszonymi_og%C3%B3rkami_-_2025.01.02.jpg). Local asset: `reviewed-commons-157494463.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Typical kotlet schabowy from cafeteria** — Marycha80. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Typical_kotlet_schabowy_from_cafeteria.JPG). Local asset: `reviewed-commons-38100626.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.

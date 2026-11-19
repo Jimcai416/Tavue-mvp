@@ -92315,5 +92315,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 745,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-38100626",
+    "title": "File:Typical kotlet schabowy from cafeteria.JPG",
+    "author": "Marycha80",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Typical_kotlet_schabowy_from_cafeteria.JPG",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Typical_kotlet_schabowy_from_cafeteria.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "e5c963c7b2e6bdb8a1cbe095e5883aae1a326910",
+    "name": "Typical kotlet schabowy from cafeteria",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-38100626.jpg",
+    "assetSha256": "e5389aae360c32b0e98de05559324265ed510256577104d2bcc0a69aabcefe9d",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];
