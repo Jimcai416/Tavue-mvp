@@ -9464,3 +9464,8 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Paneer Do-Pyaza** — Prads2189. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Paneer_Do-Pyaza.jpg). Local asset: `reviewed-commons-40717817.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Hamam mahshi** — medea_material. [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Hamam_mahshi.jpg). Local asset: `reviewed-commons-162094456.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Coca salada de creïlla** — Coentor. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Coca_de_cre%C3%AFlla_-_1.jpeg). Local asset: `reviewed-commons-35884043.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
