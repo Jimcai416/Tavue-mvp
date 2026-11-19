@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBKwMDsxmRnAbzYR1vPm",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Multiple curry bowls with meat pieces in brown gravy\",\n    \"Roti/bread on left side\",\n    \"White and red accompaniments (yogurt, raw onion)\",\n    \"Green herb garnish on curries\",\n    \"Restaurant table setting with organized plated service\"\n  ],\n  \"phone_observations\": [\n    \"Central curry bowls clearly visible with meat\",\n    \"Brown gravy sauces prominent\",\n    \"Pink onion slices visible at base\",\n    \"Overall thali composition readable at thumbnail scale\",\n    \"Multiple dish components distinguishable\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'Mutton Thali' and lists 'Mutton chop curry, Boneless Mutton curry, Mutton Kheema' but mutton is ambiguous species (sheep vs. goat) and no explicit animal qualification provided\",\n    \"Description also lists 'Children's Chicken Thali' components and 'Surmai Rawa Fry (fish)' but source does not clarify which proteins are actually present in the photographed dish vs. menu variants\",\n    \"Species of 'mutton' and 'chicken' present but mutton lacks explicit source confirmation of sheep vs. goat\",\n    \"Multiple thali variant names and mixed descriptions create ambiguity about which exact dish is photographed\"\n  ],\n  \"reason\": \"Image quality, sharpness, composition and phone readability all meet thresholds. However, identity check fails: source title/description contains ambiguous protein terminology ('mutton' without species confirmation) and conflicting dish descriptions ('Mutton Thali' vs. 'Children's Chicken Thali' vs. 'Surmai fry') that do not clearly match a single identifiable dish in the photograph. Per protocol, ambiguous meat species (mutton that might mean goat or sheep without explicit source qualification) and source contradictions require hold pending clarification of exact dish identity and confirmed protein sourcing.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1832,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 593,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

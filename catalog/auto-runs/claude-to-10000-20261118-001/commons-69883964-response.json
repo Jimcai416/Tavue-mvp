@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBKwGKSgryZw9id7DzT7",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 2,\n    \"composition\": 1,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows preparation/ingredient stage with covered containers, raw vegetables, and onions\",\n    \"No finished, exposed dish visible in phone thumbnail\",\n    \"Containers obscure any plated or prepared food\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title claims 'Jhal-Muri' but photograph shows only raw ingredients and preparation setup, not a finished dish\",\n    \"No cooked or plated jhal-muri is visible in either full or thumbnail image\"\n  ],\n  \"reason\": \"Reject: This is a food preparation and ingredient display photograph, not a finished dish. The image shows raw ingredients (onions, cucumbers, greens), covered containers, and street vendor setup. The source title claims 'Jhal-Muri' but no actual finished, exposed, cooked jhal-muri dish is visible or identifiable in the photograph. The phone thumbnail confirms only ingredient containers and raw vegetables are prominent. Essential criteria require a finished, exposed, photographic dish; this is a preparation stage image. Additionally, the full image lacks adequate sharpness and composition quality (scores 2/5 and 1/5), failing minimum quality thresholds.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1738,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 413,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBKvU1sorRE6rQu5d2Wx",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Two oval-shaped, golden-brown breaded patties on white plate\",\n    \"Fine breadcrumb coating with even crust\",\n    \"Vegetable garnish visible (tomato, onion, pepper)\",\n    \"Fork and knife present, suggesting finished dish\",\n    \"Home or casual restaurant plating\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail shows breaded patties clearly\",\n    \"Golden-brown colour preserved\",\n    \"Portion visible and identifiable\",\n    \"Plate edges visible in frame\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title states 'Kingfish Fry' but description states 'Surmai Fry' – conflicting species identification. Kingfish and surmai are different fish; surmai is specifically Indian blackspot kingfish (Scomberomorus commerson), not generic kingfish.\",\n    \"Visual appearance suggests breaded fish patties or croquettes, but exact fish species cannot be confirmed from appearance alone.\",\n    \"No explicit source text confirms which fish species this actually is – metadata conflict between title and description.\"\n  ],\n  \"reason\": \"Identity check fails due to contradiction between title ('Kingfish Fry') and description ('Surmai Fry'). While surmai is a named regional variant of Indian blackspot kingfish, the title uses a different common name. The image shows finished, appetising breaded fish patties with good sharpness, lighting and composition, and the phone thumbnail clearly displays the dish. However, the source-declared species contradiction creates ambiguity that must be resolved. Per guidelines, source contradictions require hold. Exact protein identity cannot be determined from visual inspection alone, and the metadata conflict prevents confident canonical naming.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1721,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 526,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
