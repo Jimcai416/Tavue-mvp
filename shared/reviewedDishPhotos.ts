@@ -87580,5 +87580,51 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 638,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-26060497",
+    "title": "File:Sate ayam merah Banjarmasin.JPG",
+    "author": "Midori",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sate_ayam_merah_Banjarmasin.JPG",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/57/Sate_ayam_merah_Banjarmasin.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "054d54d753f8b64895c8b3d6ba50d7a6275e1559",
+    "name": "Chicken Satay, Banjarmasin",
+    "aliases": [],
+    "proteins": [
+      "chicken"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-26060497.jpg",
+    "assetSha256": "119a1e6e6a1cc198cd81fc4279cc1e62704eed23f0d247917a437e4d9a044a9e",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 586,
+    "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-70202946",
+    "title": "File:Ramyeon in Republic of Korea.jpg",
+    "author": "SungMinSeung",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ramyeon_in_Republic_of_Korea.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/16/Ramyeon_in_Republic_of_Korea.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "ccb5e0d56e9b90ce8cace85236a751b9c1b30864",
+    "name": "Ramyon in Republic of Korea",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-70202946.jpg",
+    "assetSha256": "fdf81b82907035f8a3d1ad18af3fee807e989b512c63917d84281db2a926395a",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 720,
+    "height": 960,
+    "requiresExactMenuName": true
   }
 ];
