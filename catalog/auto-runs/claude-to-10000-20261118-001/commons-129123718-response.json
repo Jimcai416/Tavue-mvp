@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBdSBU3JFnfgvw5i4DJ6",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Cooked meat pieces in a black clay/earthenware dish\",\n    \"Visible potato chunks\",\n    \"Seared/browned meat surface\",\n    \"White pita or bread visible at top\",\n    \"Red pepper visible under bread\",\n    \"Onion pieces present\"\n  ],\n  \"phone_observations\": [\n    \"Meat dish clearly visible in phone thumbnail\",\n    \"Black serving vessel recognizable\",\n    \"White plate rim visible\",\n    \"Prominent cooked meat pieces\",\n    \"Essential components readable at reduced scale\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title/description is in Albanian; 'Mishi i qingjit' translates to 'young goat meat' or 'kid goat meat', but the ambiguity between young goat and lamb cannot be resolved from visual inspection alone\",\n    \"Exact English canonical name cannot be reliably extracted from non-English source text without risking mistranslation\",\n    \"No explicit English-language title provided to match against\"\n  ],\n  \"reason\": \"Image quality, composition, and phone thumbnail representation all pass technical standards. However, identity check fails: the source description is in Albanian, and 'Mishi i qingjit' refers to young goat or kid goat meat—a species ambiguity (goat vs. lamb distinction) that cannot be visually confirmed and contradicts the requirement for exact source identity in canonical form. Without a clear English-language source title or unambiguous species declaration acceptable under the protein_evidence rules, the dish identity cannot be canonically established. Hold pending clarified English-language source documentation.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1660,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 510,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

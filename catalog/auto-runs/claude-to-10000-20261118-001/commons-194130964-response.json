@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBdRU6sXKmuiD9Xv7RLg",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 1,\n    \"composition\": 1,\n    \"appeal\": 0\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows only a vertical strip of dark, textured surface\",\n    \"No food subject visible\",\n    \"Severe darkness and lack of detail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Metadata references 'steel dheu tin wall' – not food\",\n    \"Image shows industrial material, not a dish\"\n  ],\n  \"reason\": \"This is a photograph of an industrial steel surface (ship hull or similar structure), not food. The source metadata explicitly describes 'light shadow on wave steel dheu tin wall', which is not a food subject. No dish, finished food, or edible components are visible in either the full image or phone thumbnail. This fails all acceptance criteria for Tavue food photography review.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1381,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 310,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
