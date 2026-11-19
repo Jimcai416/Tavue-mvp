@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBa3raGx4hrc2CeXCowE",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 2,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Raw, uncooked flour-based strand product on tray\",\n    \"No finished cooking evident\",\n    \"No colour development or caramelization\",\n    \"Preparation stage, not served dish\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title contains non-Latin script metadata (حلالم) unsuitable for canonical verification\",\n    \"Description states 'à base de farine' (flour-based) with no protein declaration\",\n    \"Image shows raw preparation material, not a finished dish\"\n  ],\n  \"reason\": \"Rejection: Image depicts raw, uncooked flour strands (likely pasta dough or similar preparation stage material) in a wooden tray, not a finished, exposed, cooked dish. The thumbnail confirms no cooking has occurred—no browning, caramelization, or appetising finish is visible. This is a preparation-stage photograph. Additionally, the source metadata contains non-Latin script identifiers and no explicit protein evidence is provided. Finished food photography with natural colour and appetising presentation is required.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1542,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 381,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

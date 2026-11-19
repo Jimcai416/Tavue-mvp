@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBa4VhwTFAbXujN9Au85",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Cooked meat piece, brown and glistening, top-right of plate\",\n    \"Boiled potatoes with herbs, golden, left side\",\n    \"White rice with herb garnish, centre-right\",\n    \"Shredded vegetable slaw (green/yellow), centre-left\",\n    \"Red pepper strips, bottom-centre\",\n    \"White ceramic plate, natural indoor lighting\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows composed plate with distinct components\",\n    \"Meat, rice, potatoes, slaw and peppers all visible and readable\",\n    \"Central subject prominent and well-exposed\",\n    \"No clipping of essential elements\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title 'Khorkhog' implies a Mongolian dish traditionally made with mutton, but source does not explicitly name the meat species in title or description\",\n    \"Meat appearance is consistent with lamb or mutton but visual identification alone cannot confirm species\",\n    \"No explicit protein declaration in supplied metadata\"\n  ],\n  \"reason\": \"Image quality, composition and phone thumbnail all meet standards. However, the source title 'Khorkhog' alone is insufficient to establish protein identity. Khorkhog traditionally uses mutton or lamb, but the metadata does not explicitly state which animal is present. Per instructions, ambiguous meat species (including mutton that might mean goat) or source contradictions require hold. The meat is visually present but species cannot be confirmed from the photograph or explicit source text, only inferred from the dish name. Protein evidence cannot be populated without an exact case-sensitive substring from source title/description explicitly naming the animal.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1514,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 518,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

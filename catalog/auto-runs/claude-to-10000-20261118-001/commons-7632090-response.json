@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBa4NnDTHHo9CF36vJYV",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Cooked meat piece with crispy exterior and reddish garnish visible\",\n    \"Boiled potato\",\n    \"Pickled vegetable (appears to be pepper or similar)\"\n  ],\n  \"phone_observations\": [\n    \"All three components clearly visible at reduced size\",\n    \"Meat prominence preserved in thumbnail\",\n    \"Colour and shape distinctions maintained\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title 'Khorkhog' is a Mongolian meat dish traditionally made with lamb or mutton, but the exact meat species is not explicitly stated in the title or description\",\n    \"Meat appearance suggests lamb or mutton but cannot be definitively confirmed from visual inspection alone\",\n    \"No explicit protein naming in source metadata to satisfy exact quote requirement\"\n  ],\n  \"reason\": \"Image quality, composition and phone thumbnail are acceptable, but identity cannot be confirmed. The source title 'Khorkhog' refers to a traditional Mongolian dish, and while the meat is typically lamb or mutton, the source metadata does not explicitly name the animal. Per protocol, ambiguous meat species (including mutton/lamb distinction and potential goat) without explicit source declaration require a hold. The title alone without an explicit species quote in description does not meet the evidence standard for protein_evidence.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1619,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 433,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
