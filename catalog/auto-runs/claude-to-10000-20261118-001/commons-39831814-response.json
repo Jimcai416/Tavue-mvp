@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBxqk9fBFK7dLR3tDjFc",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 3,\n    \"appeal\": 3\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Fried items on newspaper visible at 124x96 thumbnail\",\n    \"Golden-brown colour consistent across both images\",\n    \"Multiple small fried pieces scattered on paper surface\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'bhajia' but metadata spells it inconsistently ('bhajiaˈbɑːdʒɪә'); source description contains non-standard phonetic notation\",\n    \"Description states it is 'famous gujarati dish' but then introduces 'Pakora' as 'another verity'—these are distinct preparations; ambiguity over which dish is actually shown\",\n    \"Bhajia typically contains vegetables (potato, onion) with gram flour batter; Pakora is a broader category with varied fillings; no visible ingredient detail allows confident attribution to either\",\n    \"Metadata and title formatting inconsistencies suggest low-confidence source documentation\",\n    \"No explicit protein ingredients listed in source; vegetables alone are plausible but cannot be verified from photograph\"\n  ],\n  \"reason\": \"Source identity is unreliable. The title and description are contradictory and poorly formatted: 'bhajia' is introduced as a Gujarati dish but immediately conflated with 'Pakora' as 'another verity [sic]'. These are distinct preparations with different methods and ingredient profiles. The photograph shows fried items on newspaper but cannot definitively resolve whether the dish is bhajia (typically potato/onion fritters) or pakora (broader category). The source metadata contains non-standard notation and lacks clarity. Without a canonical, unambiguous source name and clear identity, acceptance cannot proceed. The photograph quality is acceptable but identity uncertainty—compounded by source contradictions—requires hold pending clarification of the actual dish name and preparation type.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1758,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 549,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
