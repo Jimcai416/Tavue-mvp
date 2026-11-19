@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCQbMsMGHqYDmPvwH1mn",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 3,\n    \"lighting\": 3,\n    \"composition\": 2,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Phone thumbnail shows only raw green tomatillos in a cooking pan during preparation stage\",\n    \"No finished, cooked dish visible in either source or thumbnail\",\n    \"Green spheres are uncooked ingredient, not an exposed finished food\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title describes a preparation session for 'chilaquiles verdes con huevo' but the photograph shows only raw tomatillos being cooked in a pan—a preparation stage, not the finished dish\",\n    \"Egg is mentioned in source description but not visible in the photograph\"\n  ],\n  \"reason\": \"Rejection: This is a preparation/cooking stage photograph, not a finished dish. The image shows raw green tomatillos in a cooking pan with active preparation (hand visible, gas flame lit). The source description promises 'chilaquiles verdes con huevo' but the actual photograph displays only the intermediate stage of ingredient preparation. No finished, exposed, appetising dish is visible in either the full source photograph or the phone thumbnail. Home cooking is acceptable, but only when the finished dish is shown with natural colour, sharp detail and appetising presentation. This fails the core requirement of showing a finished food product.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1826,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 412,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

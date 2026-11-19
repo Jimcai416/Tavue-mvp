@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCQaTJ1ApjovWYEAABZt",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Two filled pasta parcels with glossy caramel/brown sauce\",\n    \"White plate, natural restaurant setting\",\n    \"Sauce appears rich and reduced\",\n    \"Pasta appears cooked and exposed\"\n  ],\n  \"phone_observations\": [\n    \"Dish clearly visible and identifiable in thumbnail\",\n    \"Sauce and pasta texture readable\",\n    \"Adequate detail for recognition\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title claims 'Sorrentinos' filled with 'white cheese and ham', but photograph shows meat pieces visibly distributed throughout the sauce—not contained within sealed pasta parcels as described. The meat appears loose in the gravy rather than enclosed, contradicting the sorrentino identity.\",\n    \"Ambiguous meat species: source says 'ham' but visible meat chunks do not clearly confirm ham vs. another pork product or species.\",\n    \"Visible presentation suggests braised meat stew over pasta or ravioli-like objects, not the typical closed dumpling structure claimed for sorrentinos.\"\n  ],\n  \"reason\": \"Source-identity contradiction: the photograph shows meat pieces visible in sauce separate from sealed pasta, inconsistent with sorrentinos as described (filled parcels with ham enclosed). The meat species ('ham') is not explicitly named with sufficient certainty given the visual ambiguity. Without a source title/description that precisely matches the visible form and verifiable protein content, identity cannot be confirmed. Hold for clarification of actual dish name and meat species.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1606,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 473,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

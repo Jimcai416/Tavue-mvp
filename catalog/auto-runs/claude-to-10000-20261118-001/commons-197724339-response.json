@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCQavZLUA32McbNpUt1a",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Green peppers in black pan, partially visible\",\n    \"White onion segment visible in pan\",\n    \"Cooking preparation stage, not finished dish\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title describes 'chilaquiles verdes con huevo' but image shows raw/preparation-stage green peppers and onion in a pan, not a finished, cooked chilaquiles dish\",\n    \"No visible tortilla chips, sauce, or cooked egg components that would constitute a finished chilaquiles dish\",\n    \"Image appears to document ingredient preparation, not the final plated dish\"\n  ],\n  \"reason\": \"Reject: identity check fails. The source description claims 'chilaquiles verdes con huevo' (green chilaquiles with egg), but the photograph shows only raw green peppers and an onion segment in a cooking pan during preparation. This is a raw/preparation stage, not a finished, exposed, appetising dish suitable for intake. The canonical dish is not visible in its cooked, completed form. Essential components (tortilla, sauce, cooked egg) are absent or not visible. This violates the requirement for 'a finished, exposed, likely photographic dish' and the explicit rejection rule for 'raw/preparation stages'.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1826,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 428,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
