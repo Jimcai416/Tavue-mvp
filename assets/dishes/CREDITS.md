@@ -9257,3 +9257,16 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 - **Pupusa LaRocca** — Infrogmation of New Orleans. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Central_City_New_Orleans_June_2017_Pupusa_LaRocca.jpg). Local asset: `reviewed-commons-60789765.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Fried shrimp with buffalo chips (french fries), cornbread, hushpuppies and cocktail sauce** — Missvain. [CC BY 4.0](https://creativecommons.org/licenses/by/4.0); [source](https://commons.wikimedia.org/wiki/File:Caplinger%27s_Fresh_Catch_-_November_2023_-_Sarah_Stierch_05.jpg). Local asset: `reviewed-commons-140353989.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Pupusa** — Valerie Hinojosa. [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:Plato_de_pupusa.jpg). Local asset: `reviewed-commons-101578662.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Smoked salmon sourdough flatbread melt** — Andy Li. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Smoked_salmon_sourdough_flatbread_melt_-_Taylors_2025-05-04.jpg). Local asset: `reviewed-commons-164775371.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Shuijiao (Wonton) of Wuhan** — Zheng Zhou. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Shuijiao_(Wonton)_of_Wuhan.jpg). Local asset: `reviewed-commons-155252525.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Thai Soup and Wonton** — Rocky Masum  
+ 
+ 
+
+  
+      
+ 
+   This work   was made by   Masum-al-Hasan Rocky   and released under the license(s) stated below. Please feel free to use it for any purpose as long as you credit  Masum-al-Hasan Rocky  as author and follow the terms of the chosen license. If you use this work  outside  of the Wikimedia projects, I would very much like to get   a note   from you. Thanks!. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Thai_Soup_and_Wonton.jpg). Local asset: `reviewed-commons-152959504.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
