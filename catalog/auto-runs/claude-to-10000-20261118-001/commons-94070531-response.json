@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBmyeRZLS4QxfAVynrVC",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Cooked fish clearly visible, flaked and plated\",\n    \"Green pepper garnish prominent\",\n    \"Light blue/turquoise plate with decorative pattern\",\n    \"Green leafy background (parsley or similar garnish)\",\n    \"Natural outdoor daylight\",\n    \"Home-style or street-food presentation\"\n  ],\n  \"phone_observations\": [\n    \"Fish components readable in thumbnail\",\n    \"Plate colour and structure visible\",\n    \"Pepper garnish distinguishable\",\n    \"Finished, exposed dish evident\",\n    \"Appetising appearance maintained at reduced resolution\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title contains 'Tinola' and 'Paksiw Isda' but image shows what appears to be paksiw (braised fish) preparation only; tinola is a soup-based dish and no broth/soup visible\",\n    \"Fish species identification ambiguous: title mentions both 'Yellow tail fusilier' and 'Dalagang Bukid' (which itself means 'wild/field fish' in Tagalog, not a species). Visual inspection cannot confirm exact species\",\n    \"Metadata contains extensive unrelated COVID-19 pandemic timeline and administrative text unrelated to dish identity, suggesting corrupted or misattributed file metadata\",\n    \"No explicit protein category match: 'seafood' is allowed but specific fish species cannot be visually or textually verified as exact match\"\n  ],\n  \"reason\": \"Image quality, composition, and phone thumbnail are strong (all checks pass for photograph, phone, quality). However, identity check fails due to critical uncertainties: (1) the dish name conflates 'Tinola' (a soup) with 'Paksiw Isda' (braised fish), and only paksiw appears visible; (2) fish species is ambiguous—'Dalagang Bukid' is not a taxonomic species name but a Tagalog term meaning 'wild fish', and 'Yellow tail fusilier' cannot be confirmed visually; (3) metadata is corrupted with unrelated pandemic text. Without a clear, verifiable species name from the source that matches visible fish, and without clarity on whether this is tinola or paksiw, identity cannot be established. Hold for source clarification and species verification.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 2114,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 663,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
