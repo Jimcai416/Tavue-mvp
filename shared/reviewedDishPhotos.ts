@@ -98326,5 +98326,51 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 859,
     "height": 686,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-40954463",
+    "title": "File:Bajra Roti and Dal.JPG",
+    "author": "Jay87.mehta",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bajra_Roti_and_Dal.JPG",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Bajra_Roti_and_Dal.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "4293d00efc4b089dba52e3e8dadbd4332ce2a700",
+    "name": "Bajra Roti and Urad Dal",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-40954463.jpg",
+    "assetSha256": "aa4adfcf3f2515b95788aa1be5a0188c5df1d4e06e19125f59155ad771a03807",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 640,
+    "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-157583892",
+    "title": "File:Iraqi Tashrib Guṣ 01.jpg",
+    "author": "Abdulsalam Al Dabbagh",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Iraqi_Tashrib_Gu%E1%B9%A3_01.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Iraqi_Tashrib_Gu%E1%B9%A3_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "d7a41dadac072895605316bee9d0effd1c5a9b41",
+    "name": "Iraqi Guṣ Tashrib",
+    "aliases": [],
+    "proteins": [
+      "beef"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-157583892.jpg",
+    "assetSha256": "1705de0c42dbc902cd1507039c3198ea8a81e3ea2cfa69487a956821b90dc721",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 938,
+    "requiresExactMenuName": true
   }
 ];
