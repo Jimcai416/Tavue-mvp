@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCTmUdmoFYKfLfDmzHDh",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Finished, cooked dumplings with pleated wrapper folded closed\",\n    \"Glossy, translucent skin indicating steaming\",\n    \"Pink/reddish filling visible through wrapper on left dumpling\",\n    \"Presented on white plate with clear sauce/broth\",\n    \"Chive garnish and professional plating\",\n    \"Sharp detail of wrapper texture and filling\"\n  ],\n  \"phone_observations\": [\n    \"Dumplings clearly visible in thumbnail with wrapped form distinct\",\n    \"Sauce and plating visible\",\n    \"Filling colour readable as pinkish/reddish meat\",\n    \"Overall composition prominent and appetising\"\n  ],\n  \"protein_evidence\": {\n    \"pork\": \"pork\",\n    \"seafood\": \"crab\"\n  },\n  \"uncertainties\": [\n    \"Title states 'Wonton pork-crab' but source description says 'Dumplings filled with crab and pork' – wonton vs. generic dumplings creates ambiguity about regional identity and exact dish name\",\n    \"Visual appearance suggests pleated steamed dumplings (shumai-style) rather than typical wonton folding pattern\",\n    \"Exact canonical dish name cannot be definitively extracted from conflicting metadata (File: prefix, 'Wonton' vs 'Dumplings')\",\n    \"Source title format includes 'File:' prefix which per instructions should be omitted, but underlying canonical phrase remains unclear\"\n  ],\n  \"reason\": \"Identity check fails due to contradiction between 'Wonton pork-crab' (title) and 'Dumplings filled with crab and pork' (description), plus visual form appearing more like shumai than wonton. Cannot extract a single unambiguous canonical_name that preserves the exact regional variant without resolving whether this is specifically a wonton dish or a generic dumpling. Quality, photograph, phone, and variant checks would pass if identity were clear. Hold pending source clarification of exact dish name and regional type.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1592,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 600,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
