@@ -9580,3 +9580,9 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 
 - **Hasanpaşa köfte and pilav** — E4024. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Hasanpa%C5%9Fa_kofte.jpg). Local asset: `reviewed-commons-49359274.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Havij polo** — Topsy turvy. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Havij_polo.jpg). Local asset: `reviewed-commons-15439300.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Fırın helva ve dondurma** — E4024. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:F%C4%B1r%C4%B1n_helva_ve_dondurma.jpg). Local asset: `reviewed-commons-52071980.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Ezme and Haydari** — E4024. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Ezme_and_Haydari.jpg). Local asset: `reviewed-commons-52394524.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Dondurmalı irmik helvası** — E4024. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Helva_and_dondurma.jpg). Local asset: `reviewed-commons-41738957.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
