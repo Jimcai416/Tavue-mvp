@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBP5ctmykC5dRFjZyWHQ",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Left image shows raw/unfinished dough with cut-out pattern, pale uncooked state\",\n    \"Right image shows finished fried product with golden-brown colour\",\n    \"Composite before/after instructional photograph, not a finished dish presentation\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [],\n  \"reason\": \"Image is a instructional before-and-after composite showing raw dough preparation (left) and finished product (right). The raw/preparation stage on the left violates acceptance criteria. Although the right half shows a finished, fried, appetising laufabrauð with good colour and detail, the full source image includes the uncooked preparation stage prominently, making it a process/educational photograph rather than a finished dish photograph. The phone thumbnail equally emphasises both stages. This falls under rejection criteria: 'raw/preparation stages' and composite instructional images are not suitable for food intake review.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1426,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 349,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

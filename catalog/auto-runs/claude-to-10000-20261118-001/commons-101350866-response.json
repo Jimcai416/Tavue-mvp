@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBP597S6RdNCPvEtPXgW",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Large paella-style pan with golden-brown potato and meat mixture\",\n    \"Street food preparation at Copenhagen Cooking festival\",\n    \"Social kitchen context with community gathering\"\n  ],\n  \"phone_observations\": [\n    \"Dish clearly visible in large pan at centre-left of thumbnail\",\n    \"Golden-brown colour and texture readable\",\n    \"Event/street context apparent\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Exact protein composition not visually determinable from photograph alone\",\n    \"Source describes 'biksemad (pyttipanna)' but does not explicitly name specific meat species in English title or main description\",\n    \"Danish traditional dish identity requires source protein declaration; source mentions 'rester fra ugens andre cateringjob' (leftovers from catering jobs) without specifying animal type\"\n  ],\n  \"reason\": \"While the photograph is sharp, well-lit, and shows a finished, appetising street food dish in both full and thumbnail views, the source metadata does not provide an explicit English title or unambiguous protein declaration. The description references 'biksemad (pyttipanna)' and states the dish is made from catering leftovers, but does not name specific meat species (chicken, beef, pork, lamb, duck, or seafood) in a form that can be quoted directly. Per protocol, unknown or unspecified meat species—including ambiguous 'leftovers'—must be held pending explicit protein evidence. The Danish title alone is insufficient without canonical English identity and verifiable protein sources.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 2187,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 489,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
