@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBaHbw6jbc3Dp7ETM6id",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [\n    \"Golden-yellow crumbly cooked vegetable preparation\",\n    \"Fine granular texture consistent with shredded/grated banana stem\",\n    \"Uniform colour and size distribution\",\n    \"Natural daylight against white background\"\n  ],\n  \"phone_observations\": [\n    \"Subject is prominent and sharp in thumbnail\",\n    \"Colour and texture clearly visible\",\n    \"Food appears cooked and finished\",\n    \"No essential components clipped\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Banana stem is not a protein category and this appears to be a vegetable side dish, not a primary dish with protein\",\n    \"Source identifies this as a vegetable preparation (thoran) with no animal protein visible or declared\"\n  ],\n  \"reason\": \"Rejection: This is a vegetable-only dish (banana stem thoran). The submission guidelines require identification of dishes likely to be in a food photograph database with nutritional/protein relevance. While the photograph is of high quality and correctly represents the titled dish, banana stem thoran is a vegetable side preparation with no protein component. The image quality, sharpness, lighting, and composition are all strong (scores 4+), and the phone thumbnail is excellent. However, the dish itself does not meet the apparent scope of Tavue's food review system, which appears focused on finished dishes with identifiable protein components. The identity check fails because this is vegetable-only, and no protein_evidence can be populated from either the title, description, or visible components.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1632,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 475,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

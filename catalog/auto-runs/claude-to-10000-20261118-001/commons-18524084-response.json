@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBaJAwTUY1sHJ3HSJfjT",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 3,\n    \"lighting\": 2,\n    \"composition\": 3,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Preparation stage visible: raw chopped leafy vegetables in colander\",\n    \"Ingredient assembly, not finished dish\",\n    \"Essential food components not cooked or plated\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title references 'Cheera Thoran' but image shows only raw, chopped leafy greens in a colander with no seasoning, cooking or finishing visible\",\n    \"Metadata indicates this is stage 2 of preparation (adding chopped greens), not a finished, exposed dish\"\n  ],\n  \"reason\": \"Reject: image shows a raw preparation stage (chopped greens in a colander during assembly), not a finished, cooked, plated dish. Metadata explicitly labels this as 'Stage2' and describes adding chopped leaves. The dish is not exposed, appetising or ready for service. Quality and composition scores reflect the preparation context rather than a finished food photograph suitable for review.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1767,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 359,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

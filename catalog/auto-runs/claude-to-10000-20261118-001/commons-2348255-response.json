@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBaHDUUmFJdhvENHRSMK",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Red stew with visible meat chunks in white pot\",\n    \"Home cooking presentation on table with water glasses\",\n    \"Spoon with orange/brown residue visible\",\n    \"Striped cloth napkin beneath pot\"\n  ],\n  \"phone_observations\": [\n    \"Pot of red stew clearly visible at centre\",\n    \"Meat pieces readable at thumbnail scale\",\n    \"Adequate contrast and sharpness for recognition\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title references 'Rougail Saucisse' but no sausage species is explicitly named in source description\",\n    \"Saucisse is a generic meat preparation; exact animal species cannot be determined from title alone and is not explicitly stated in metadata\",\n    \"Photograph shows cooked red stew but individual sausage form is not clearly distinct in the cooked state\",\n    \"Source metadata does not provide explicit animal identification required by protocol\"\n  ],\n  \"reason\": \"Image quality, photograph properties, and phone thumbnail are all acceptable. However, identity cannot be confirmed because the source title 'Rougail Saucisse' contains 'saucisse' (sausage), and protocol explicitly prohibits sausage as a protein_evidence key and forbids guessing which animal sausage contains. The source description does not provide an explicit quote naming a specific animal (chicken/beef/pork/duck/lamb/seafood). Without exact species naming in the title or description, protein_evidence remains empty and identity check fails. Hold pending clarification of the sausage species from source.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1743,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 494,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
