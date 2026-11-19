@@ -7736,3 +7736,8 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Gołąbki, a polish dish (stuffed cabbage)** — Jacaldinho1. [Public domain](https://creativecommons.org/publicdomain/mark/1.0/); [source](https://commons.wikimedia.org/wiki/File:Golabki_jacek.jpg). Local asset: `reviewed-commons-3502110.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Jjamppong-flavoured sujebi** — 대경라이프. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Jjamppong-sujebi_2.jpg). Local asset: `reviewed-commons-99709219.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Jjamppong (Korean Chines seafood noodle soup)** — [Jungyeon](https://pixabay.com/ko/users/Jungyeon-1055977/). [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Jjamppong_(Korean_Chines_seafood_noodle_soup).jpg). Local asset: `reviewed-commons-54768083.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.

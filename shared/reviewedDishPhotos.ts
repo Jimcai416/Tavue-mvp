@@ -103607,5 +103607,52 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-99709219",
+    "title": "File:Jjamppong-sujebi 2.jpg",
+    "author": "대경라이프",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jjamppong-sujebi_2.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/42/Jjamppong-sujebi_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "f6d22415aad1c1c532f7726c8d0ae4b4f85b0864",
+    "name": "Jjamppong-flavoured sujebi",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-99709219.jpg",
+    "assetSha256": "0dfcadccf00efba9845fb4b931841d7f6dbfb177205c8f7da6496c69f91143a6",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 945,
+    "height": 629,
+    "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-54768083",
+    "title": "File:Jjamppong (Korean Chines seafood noodle soup).jpg",
+    "author": "Jungyeon",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jjamppong_(Korean_Chines_seafood_noodle_soup).jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Jjamppong_%28Korean_Chines_seafood_noodle_soup%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "67b32a97b4688ff090f164bbc3d49e44bd92b18f",
+    "name": "Jjamppong (Korean Chines seafood noodle soup)",
+    "aliases": [],
+    "proteins": [
+      "seafood"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-54768083.jpg",
+    "assetSha256": "58d86b432b6de92fa8b830dd3ecd136206345d81617619cc368c774da333506a",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 960,
+    "requiresExactMenuName": true,
+    "authorUrl": "https://pixabay.com/ko/users/Jungyeon-1055977/"
   }
 ];
