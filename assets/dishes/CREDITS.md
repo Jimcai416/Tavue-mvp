@@ -10120,3 +10120,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 
 - **Yam with Palava Sauce** — Jaward. [CC BY 4.0](https://creativecommons.org/licenses/by/4.0); [source](https://commons.wikimedia.org/wiki/File:Yam_with_Palava_Sauce_.jpg). Local asset: `reviewed-commons-78384690.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Boiled yam with Palaver Sauce** — Umuhiera. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Yam_with_palava_sauce.jpg). Local asset: `reviewed-commons-175900718.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Bánh mật** — EAT&ART TARO. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:B%C3%A1nh_m%E1%BA%ADt01.jpg). Local asset: `reviewed-commons-105890948.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
