@@ -9193,3 +9193,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 - **Srikhand** — Ayushiwak. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Srikhand.JPG). Local asset: `reviewed-commons-40956886.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Fried Taro Cake (sliced)** — Ralff Nestor Nacor. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Fried_Taro_Cake_(sliced).jpg). Local asset: `reviewed-commons-156431876.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Lumpiang Sariwa** — Ralff Nestor Nacor. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Lumpiang_Sariwa,_Oct_2025.jpg). Local asset: `reviewed-commons-176496299.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Fried Taro Cake (unsliced)** — Ralff Nestor Nacor. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Fried_Taro_Cake_(unsliced).jpg). Local asset: `reviewed-commons-156431884.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
