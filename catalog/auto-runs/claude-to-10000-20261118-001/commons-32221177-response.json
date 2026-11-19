@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBnSRF4LyvPq8qHDkXv7",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": \"Gatsby sandwich filled with calamari and chips\",\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 5,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Golden-fried calamari rings clearly visible inside sandwich\",\n    \"Thick-cut chips/fries prominently stacked in filling\",\n    \"Fresh lettuce and tomato slices visible\",\n    \"Soft white/cream-coloured bun\",\n    \"Plate presentation on white dish\"\n  ],\n  \"phone_observations\": [\n    \"Sandwich clearly visible with fried calamari and chips identifiable\",\n    \"Essential components prominent in thumbnail\",\n    \"Natural colour rendering of golden fried elements\",\n    \"Satisfactory detail for calamari and chip structure\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Calamari is cephalopod (squid), not in the allowed protein categories (chicken/beef/pork/duck/lamb/seafood). Seafood category exists but calamari is not an explicitly named allowed species within seafood.\",\n    \"Source metadata describes 'calamari' but this species cannot be mapped to the constrained protein_evidence keys which accept only: chicken, beef, pork, duck, lamb, or seafood with explicit source quote naming a supported species.\"\n  ],\n  \"reason\": \"While the photograph is sharp, well-lit, compositionally strong and appetising, with clear visibility of a Gatsby sandwich filled with fried calamari and chips in both full and thumbnail images, the dish cannot be accepted. Calamari (squid) is not a supported protein category. The instructions permit only chicken/beef/pork/duck/lamb/seafood, with an explicit source quote naming the animal. 'Calamari' and 'squid' are not synonymous with any of the five meat categories, and while 'seafood' is broader, the source must explicitly name a supported species. The source title names 'calamari' specifically, which is a cephalopod and falls outside the constrained protein scope. Hold pending clarification or a source that names only supported animals.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1720,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 589,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

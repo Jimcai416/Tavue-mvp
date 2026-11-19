@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBnSREKP3jwnASYnLQHC",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": \"Gatsby sandwich filled with calamari and chips for sale at The Fish Stop stall at Root44 Market, Stellenbosch, South Africa\",\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Sandwich on basket with golden chips visible\",\n    \"Lettuce and components identifiable\",\n    \"Sign reads 'Gatsby 45'\",\n    \"Professional food presentation\"\n  ],\n  \"phone_observations\": [\n    \"Sandwich clearly visible in centre-cover\",\n    \"Chips component prominent\",\n    \"Sign readable\",\n    \"Subject well-framed for thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title declares 'calamari' but calamari is not in the allowed protein categories (chicken/beef/pork/duck/lamb/seafood). Calamari is a cephalopod (squid), not standard seafood in this system.\",\n    \"Protein species cannot be verified from visual appearance alone and is not in the authorized protein key list.\"\n  ],\n  \"reason\": \"Identity check fails because the source description names calamari as the protein filling, but calamari (squid/cephalopod) is not an allowed protein category. The instructions restrict proteins to chicken/beef/pork/duck/lamb/seafood, with explicit source quote evidence required. While calamari might colloquially be called 'seafood', it is a cephalopod and the source does not use the word 'seafood'. Without ability to map the declared protein to an allowed category via exact source quote, the identity cannot be confirmed. All other checks pass, but identity failure requires hold status.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1647,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 496,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
