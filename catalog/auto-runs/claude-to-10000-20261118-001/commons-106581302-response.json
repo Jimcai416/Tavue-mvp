@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBuiAQbZTRBGjphYWxAv",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 5,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Orange ceramic plate displaying raw ingredients arranged by component\",\n    \"Visible ingredients: red chilli, shallots, garlic, ginger, galangal, lemongrass, turmeric, coriander seeds, kemiri nuts\",\n    \"Three wooden spoons on left showing ground spices (turmeric powder, salt, sugar)\",\n    \"Bowl of coconut milk on right\",\n    \"Dark background with ingredient labels in Indonesian\"\n  ],\n  \"phone_observations\": [\n    \"Ingredient display prominent in thumbnail centre\",\n    \"Raw/uncooked ingredients clearly visible\",\n    \"Plate and components identifiable at small scale\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Image shows ingredients and spice paste components, not a finished cooked dish\",\n    \"Title references 'BUMBU GULAI IKAN' (fish curry spice paste) but no prepared curry or cooked fish is present\",\n    \"Source description is a recipe ingredient list, not a finished food photograph\"\n  ],\n  \"reason\": \"Rejection: This is an ingredient/mise en place photograph showing raw components and spice pastes laid out for curry preparation, not a finished, exposed, cooked dish. The title 'BUMBU GULAI IKAN' refers to the spice paste/ingredients for fish curry, but no prepared curry or cooked fish is visible. The source description is explicitly a recipe ingredient list ('RESEP BUMBU GULAI IKAN'), confirming this documents preparation stage, not a plated finished dish. Identity does not match: a photograph of ingredients is not 'Fish Curry' or any finished dish. This violates the core acceptance criterion requiring 'a finished, exposed, likely photographic dish' and explicitly rejects 'raw/preparation stages'.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 2002,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 542,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
