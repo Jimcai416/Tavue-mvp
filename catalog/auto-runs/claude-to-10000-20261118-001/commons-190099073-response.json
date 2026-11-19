@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChD4WYsRSSuGbCUMjTFND",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 2,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows a landscape scene with sky, distant horizon, and green field\",\n    \"No food subject is present or visible in the thumbnail\",\n    \"Image is a countryside/agricultural landscape photograph\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title/description contains only 'Gapado 13.jpg' and Korean metadata '가파도 2026' (Gapado 2026) with no dish identification\",\n    \"No food dish is identifiable in either the full source image or thumbnail\"\n  ],\n  \"reason\": \"Rejection: This is a landscape/agricultural field photograph, not a finished food dish. The full source image shows a wide rural field with green crops, sky, and distant buildings—no plated or prepared food subject is present. The phone thumbnail confirms the absence of any food dish. The source metadata provides no dish name or food identification. This fails the fundamental requirement of being a finished, exposed, appetising dish photograph. The composition score reflects that food photography standards are not applicable to landscape imagery.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1725,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 376,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
