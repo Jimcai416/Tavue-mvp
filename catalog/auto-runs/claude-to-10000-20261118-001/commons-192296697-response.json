@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCVKtQmroi4Z4v8ANEM6",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 5,\n    \"composition\": 5,\n    \"appeal\": 0\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows architectural/landscape scene with buildings, pathway, and vegetation\",\n    \"No food dish visible in thumbnail\",\n    \"Subject is a public facility courtyard or plaza\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title and description reference 'Morioka Handi-Works Square' (盛岡手づくり村), a crafts venue, not a food dish\",\n    \"No finished, exposed food dish present in either full image or thumbnail\"\n  ],\n  \"reason\": \"Image is an architectural/landscape photograph of a public facility courtyard, not a food dish. The source title identifies it as Morioka Handi-Works Square, a handmade crafts venue in Japan. Neither the full photograph nor the phone thumbnail contains a finished, exposed, appetizing dish suitable for food photography review. This is a venue photograph, not food content. Rejection is mandatory—identity check fails fundamentally.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1630,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 357,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
