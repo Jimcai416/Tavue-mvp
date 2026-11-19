@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBRSLbpLaXyDPuFwcftv",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [\n    \"Brown flatbread (nachni/raagi bhakri) prominent in lower portion\",\n    \"Green vegetable curry (gholachi bhaji) visible in upper bowl\",\n    \"Sliced onions and purple onion visible\",\n    \"Cucumber slices visible\",\n    \"Dark sauce/chutney in small bowl (right)\",\n    \"Green paste/chutney visible (upper left)\",\n    \"Home-cooked plated meal on dark plate\"\n  ],\n  \"phone_observations\": [\n    \"Flatbread clearly visible and recognisable\",\n    \"Curry bowl detail visible\",\n    \"Onion slicing visible\",\n    \"Essential components represented in thumbnail\",\n    \"Overall composition readable at small scale\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Description lists multiple items (Gholachi bhaji, lentil, garlic leaves chutney, green chilly thecha, salad, water) but does not specify which are primary dish components versus condiments/sides\",\n    \"Source title 'Ghol bhaji nachni bhakri' does not match description order or component clarity\",\n    \"Lentil mentioned in description but no distinct lentil preparation visually separable from curry\",\n    \"Garlic leaves chutney and green chilly thecha both present but not distinctly labelled or visually differentiated in image\",\n    \"Salad component unclear—could refer to onion+cucumber or additional preparation\",\n    \"No protein animal explicitly named in source metadata\"\n  ],\n  \"reason\": \"Source title–description mismatch and ambiguous component identity. The title lists 'Ghol bhaji nachni bhakri' but the description adds 'with lentil' and lists separate condiments (garlic leaves chutney, green chilly thecha) and salad without clarifying which constitute the dish versus accompaniments. Visual identification of lentils, garlic chutney and thecha as distinct preparations is not possible. No protein is named. The dish identity cannot be resolved to a single, unambiguous canonical name that preserves all source-declared meaningful qualifiers. Hold pending source clarification.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1792,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 628,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
