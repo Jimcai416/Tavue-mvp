@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBTi5tx7rkDSf74anAHu",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Wood-fired pizza with leopard spotting visible\",\n    \"Creamy pale sauce base consistent with carbonara\",\n    \"Yellow/golden visible protein pieces\",\n    \"Green herbs (parsley) scattered across surface\",\n    \"Charred crust typical of Neapolitan-style pizza\",\n    \"Side dish of red peppers with golden fried croutons/bread\"\n  ],\n  \"phone_observations\": [\n    \"Pizza clearly visible with charred crust\",\n    \"Sauce and toppings distinguishable\",\n    \"Red pepper salad visible in white bowl\",\n    \"Composition shows both dishes prominently\"\n  ],\n  \"protein_evidence\": {\n    \"pork\": \"Guanciale Carbonara Pizza\"\n  },\n  \"uncertainties\": [\n    \"Guanciale (cured pork jowl) cannot be visually confirmed from photograph; source-declared ingredient but not definitively identifiable in image\",\n    \"Yellow/golden pieces visible could be guanciale, cheese, or eggs—ambiguous from appearance alone\",\n    \"Carbonara typically includes eggs and cheese; eggs not explicitly named in source but eggs and cheese both appear likely present but unconfirmed by source title\",\n    \"Source title references two dishes but photograph context (restaurant setting, shared table) suggests both are single-order components; identity of which is 'the' subject unclear\"\n  ],\n  \"reason\": \"Source title explicitly names 'Guanciale Carbonara Pizza' and pork protein is stated in title. However, guanciale—a specific Italian cured pork product—cannot be visually confirmed from the photograph alone. The yellow/golden pieces visible could represent guanciale, but could equally be rendered fat, cheese, or egg. While the source declaration supports acceptance of the protein category, the visual ambiguity of the actual guanciale pieces combined with uncertainty about whether this is a single-dish submission or a multi-dish plating means identity cannot be confirmed with full confidence. The image quality, lighting, composition and phone thumbnail are all excellent, but the protein identification rule requiring visual or explicit source naming creates uncertainty when a highly specific cured meat product is involved but not visually distinguishable.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1766,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 629,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

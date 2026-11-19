@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBTiM3HRhd2QoKTRufh5",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Cooked, charred flatbread or pizza base with visible char marks\",\n    \"Red tomato sauce or similar spread\",\n    \"White cheese (burrata or mozzarella) visible in streaks\",\n    \"Red diced toppings consistent with diced tomato or similar\",\n    \"Green seeds/herbs visible on surface\",\n    \"Served on disposable plate at outdoor/street food setting\",\n    \"Natural daylight, sharp detail of finished dish\"\n  ],\n  \"phone_observations\": [\n    \"Plate clearly visible in thumbnail\",\n    \"Charred flatbread/pizza portion prominent\",\n    \"Red and white toppings distinguishable\",\n    \"Adequate size and composition readability\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'Guanciale, burrata, olives' but guanciale (cured pork jowl) is not visually identifiable in the dish—visible protein appears to be fresh burrata cheese, not cured pork\",\n    \"No olives are clearly visible on the flatbread surface\",\n    \"Dish appears to be a flatbread/pizza preparation rather than a traditional guanciale platter or composed appetizer\",\n    \"Severe mismatch between source title (which describes three specific ingredients in isolation) and the visible form (a cooked flatbread with cheese and toppings)\",\n    \"Cannot confirm if guanciale is present but hidden under sauce or if the description refers to intended ingredients not actually plated\"\n  ],\n  \"reason\": \"Identity check fails. The source title 'Guanciale, burrata, olives' does not match the visible form, which is a finished, charred flatbread or pizza with cheese and toppings. Guanciale (cured pork jowl) is not visibly identifiable—only fresh burrata is apparent. Olives are not clearly visible on the flatbread. The title appears to describe ingredients in a different preparation or context than what is photographed. Quality, photograph, and phone checks pass; all scores meet minimum threshold. However, the fundamental identity mismatch and inability to verify the stated proteins visually (only burrata is clearly present, guanciale is not identifiable) prevents acceptance. Hold pending clarification of the actual dish identity.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1727,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 659,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

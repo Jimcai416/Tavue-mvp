@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBThjLCWMer4B8Jg1yKn",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Pizza base is well-cooked with golden-brown crust\",\n    \"Red/orange tomato sauce clearly visible\",\n    \"Yellow melted cheese (mozzarella) prominent\",\n    \"Red meat pieces consistent with bacon/salami\",\n    \"Brown meat pieces consistent with sausage\",\n    \"Sharp detail in phone thumbnail shows pizza toppings clearly\",\n    \"Natural appetising appearance with good colour saturation\"\n  ],\n  \"phone_observations\": [\n    \"Pizza is prominent and fills most of frame\",\n    \"Toppings clearly visible and readable: meat pieces, cheese, tomato\",\n    \"Sharp focus on pizza surface\",\n    \"No essential food clipped by thumbnail boundaries\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title lists 'Bacon, Salame, Fennel Sausage, Guanciale' but sausage species and fennel sausage source cannot be visually confirmed—cannot distinguish fennel sausage from generic sausage visually\",\n    \"Guanciale claimed in title but cannot be visually distinguished from other cured pork on the pizza\",\n    \"Exact species identity of 'Salame' unknown (could be pork, beef, or mixed)\",\n    \"File title format (File:...jpg) is metadata, not a canonical dish name\",\n    \"No explicit dish name provided in source—only ingredient list and location\"\n  ],\n  \"reason\": \"High-quality, appetising, finished pizza photograph with sharp detail in both full image and phone thumbnail. However, identity check fails because: (1) the source provides only an ingredient list and location, not a canonical dish name; (2) critical protein uncertainties exist—'Salame' species is unspecified, 'Fennel Sausage' and 'Guanciale' cannot be visually confirmed and sausage species identity is ambiguous; (3) unnamed meat species cannot be accepted per protocol. These uncertainties prevent acceptance despite excellent photograph quality.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1752,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 592,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

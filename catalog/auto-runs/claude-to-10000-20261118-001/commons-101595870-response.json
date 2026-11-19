@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBThSoGhPT8M5PXyrzAj",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Charred, wood-fired pizza crust with leopard spotting\",\n    \"Multiple cured meat toppings visible: darker salami/guanciale pieces and lighter cured ham\",\n    \"White cheese (mozzarella) visible in patches\",\n    \"Red tomato base visible beneath toppings\",\n    \"Natural colour, finished, exposed dish\"\n  ],\n  \"phone_observations\": [\n    \"Pizza clearly visible and prominent in thumbnail\",\n    \"Toppings distinguishable: cured meats and cheese\",\n    \"Crust charring evident\",\n    \"Subject sharp and well-framed\"\n  ],\n  \"protein_evidence\": {\n    \"pork\": \"Bacon, Salame, Fennel Sausage, Guanciale\"\n  },\n  \"uncertainties\": [\n    \"Title lists 'Fennel Sausage' without explicit species confirmation; pork is inferred from context and traditional preparation but source does not state 'pork sausage'\",\n    \"Multiple meat components (bacon, salame, fennel sausage, guanciale) cannot be visually distinguished individually in the photograph to verify each is present as claimed\"\n  ],\n  \"reason\": \"Hold: The title lists 'Fennel Sausage' without explicit species declaration. Although pork is traditional and contextually likely, the source does not state 'pork sausage' by name. Per rules, unspecified species in source description must trigger a hold. The photograph itself is sharp, well-lit, appetising, and shows a finished pizza with visible meat and cheese toppings, but the species ambiguity in the title prevents acceptance. A source correction specifying 'pork fennel sausage' would allow acceptance.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1752,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 536,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
