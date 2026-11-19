@@ -9862,3 +9862,9 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Labra tarkari** — Rajeeb Dutta. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Labra_tarkari-MA17.jpg). Local asset: `reviewed-commons-94902064.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Chicken salad sandwich with Israeli salad** — HaJunkiyada. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Liat_Portal_for_Foodie_Disorder_-_Chicken_salad_sandwich_with_Israeli_salad.jpg). Local asset: `reviewed-commons-181448381.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Galantine boneless pork shank** — Fumikas Sagisavas. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Galantine_boneless_pork_shank.jpg). Local asset: `reviewed-commons-156620950.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **confit byaldi** — Stef48. [Public domain](https://creativecommons.org/publicdomain/mark/1.0/); [source](https://commons.wikimedia.org/wiki/File:Confit_byaldi_2.jpg). Local asset: `reviewed-commons-3501998.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
