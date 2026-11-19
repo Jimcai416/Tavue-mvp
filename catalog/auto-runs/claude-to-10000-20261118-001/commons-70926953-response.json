@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCaNiKxpbgyPL4beVwcZ",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": \"Namibian droëwors, made from oryx meat\",\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Coiled dried meat product with natural deep red-brown coloration\",\n    \"Visible salt crystals and curing on surface\",\n    \"Multiple strands clearly arranged on white plate\",\n    \"Finished, exposed food state appropriate for review\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows dried meat coils with distinctive texture\",\n    \"Subject adequately prominent and identifiable\",\n    \"No essential components clipped\",\n    \"Readable as a cured meat preparation\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Species 'oryx' is not an allowed protein category (only chicken/beef/pork/duck/lamb/seafood permitted)\",\n    \"Source declares oryx meat but cannot be mapped to canonical allowed species\",\n    \"Oryx is a wild game animal not covered by the allowed protein set\"\n  ],\n  \"reason\": \"Image quality, composition, and photographic standards all meet acceptance criteria. Phone thumbnail is clear and adequate. However, the source explicitly names 'oryx meat' as the protein, which is a wild game species not in the allowed protein categories (chicken/beef/pork/duck/lamb/seafood). Per protocol, unknown or non-canonical meat species require a hold. The dish identity cannot be fully established with allowed protein evidence.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1730,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 445,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
