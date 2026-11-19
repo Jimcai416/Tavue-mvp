@@ -107530,5 +107530,28 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 641,
     "height": 960,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-3849493",
+    "title": "File:Bebinca com gelado.jpg",
+    "author": "Warren Noronha",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bebinca_com_gelado.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/31/Bebinca_com_gelado.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "0603693203b9553ff62e387f7e6d251d28ae909a",
+    "name": "Bebinca, a traditional dessert from Goa, served with ice cream",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-3849493.jpg",
+    "assetSha256": "13f5b1fdc84b4dd03c38c39d15fc8bffe6fe16e3da53a014e7dcde5a887d1900",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true,
+    "authorUrl": "https://www.flickr.com/photos/70096206@N00"
   }
 ];

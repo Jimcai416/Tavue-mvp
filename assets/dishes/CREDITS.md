@@ -8098,3 +8098,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 
 - **Bebinca, a delicacy and sweet from Goa** — Fredericknoronha. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Bebinca,_a_delicacy_and_sweet_from_Goa.jpg). Local asset: `reviewed-commons-104742747.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Dal Dumpukht Quresi** — Maccess Corporation. [CC BY 2.5](https://creativecommons.org/licenses/by/2.5); [source](https://commons.wikimedia.org/wiki/File:DalDumpukhtQureshi.JPG). Local asset: `reviewed-commons-6365652.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Bebinca, a traditional dessert from Goa, served with ice cream** — [Warren Noronha](https://www.flickr.com/photos/70096206@N00). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Bebinca_com_gelado.jpg). Local asset: `reviewed-commons-3849493.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
