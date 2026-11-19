@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChD5gNzFXad6uuF8Ndckn",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"White/pale rice base\",\n    \"Cooked meat pieces in sauce with green peas and orange carrot\",\n    \"Shrimp/prawns visible in upper portion\",\n    \"Glossy, bound sauce coating\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows finished dish with rice\",\n    \"Meat, seafood, peas and carrot prominently visible\",\n    \"Dish proportions and components readable at small size\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title 'Frikassee ganz nah' (Fricassee close up) is generic German descriptor, not a specific dish name\",\n    \"Description provides no English title or specific dish identity\",\n    \"Meat species in sauce cannot be definitively identified—appears to include mixed meats but exact animals unspecified in source\",\n    \"Shrimp/prawns are visible but source does not explicitly name seafood\",\n    \"No source quote confirms whether this is a traditional Fricassee variant, a home preparation, or a named regional dish\",\n    \"Protein composition (which meats, which seafood) is undeclared in source\"\n  ],\n  \"reason\": \"Image quality, sharpness, composition and phone thumbnail all pass. However, the source metadata provides only a generic German dish type ('Frikassee') without a specific canonical name, regional variant, or explicit protein declarations. While mixed meats and seafood are visually present, the exact species cannot be sourced from the provided title or description. The image itself does not resolve the ambiguity about which animals are included. Identity check fails because no specific, authoritative dish name or protein roster is supplied in the source. Hold pending a source title/description that names the dish precisely and declares all protein components explicitly.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1625,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 544,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

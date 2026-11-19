@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChD5gWr2tfwiUBMP6DYn4",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Pancakes with butter and jam visible on plate\",\n    \"Cup of syrup/sauce in background\",\n    \"Diamond recipe card format readable in thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title 'Svelerezept' is a recipe card/instruction label, not a finished dish name\",\n    \"Description is in German ('Svele-Rezept der Fährgesellschaft Fjord1' = 'Svele recipe of ferry company Fjord1')\",\n    \"Image shows a printed recipe card (cooking instruction material) with branding, not a standalone dish photograph\",\n    \"Svele is a Norwegian treat but the submitted item is explicitly a branded recipe guide/instruction card, not a photograph of a finished dish in service\"\n  ],\n  \"reason\": \"Rejection: The source is a branded recipe instruction card (Fjord1 ferry company) rather than a photograph of a finished, served dish. The image displays cooking instructions printed on a diamond-shaped card with ingredients listed (4 egg, 1 l buttermilk, 1.5 kopp sugar, etc.) and decorative plating. While svele (Norwegian pancakes) are a legitimate food item and the photograph quality is adequate, the primary subject is the instructional/marketing card itself, not an autonomously recognizable finished dish. This is recipe documentation material, not a dish-focused food photograph suitable for Tavue's representative gallery. Metadata confirms German description of recipe content rather than dish identity.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1308,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 485,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
