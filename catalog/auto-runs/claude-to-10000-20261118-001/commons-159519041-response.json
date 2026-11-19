@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCXxpKyLBkzTyL6gDXsZ",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Golden-brown fried patties on cooling rack visible in thumbnail\",\n    \"Appropriate detail and colour preserved in phone crop\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source metadata labels this 'Tray of latkes' but latkes are potato pancakes (a starch-based preparation, not a protein dish)\",\n    \"No animal protein is identifiable in the visible form or declared in the source title/description\",\n    \"Latkes are categorised as a vegetable/starch side or appetiser, not a finished protein-forward dish suitable for Tavue food intake\"\n  ],\n  \"reason\": \"Reject: Identity check fails. Latkes are potato-based fried pancakes without declared protein content. The source title and visible form show a starch preparation, not a finished dish with identifiable protein components. Tavue representative food intake requires a prominent finished dish with readable essential protein components. Latkes alone do not meet this criterion.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1725,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 363,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
