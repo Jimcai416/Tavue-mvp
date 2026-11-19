@@ -10124,3 +10124,11 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Bánh mật** — EAT&ART TARO. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:B%C3%A1nh_m%E1%BA%ADt01.jpg). Local asset: `reviewed-commons-105890948.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **A Bowl of Mami Pares** — Ralff Nestor Nacor. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:A_Bowl_of_Mami_Pares.jpg). Local asset: `reviewed-commons-144421584.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Tapsilog** — Ralff Nestor Nacor. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Tapsilog,_Mar_2026.jpg). Local asset: `reviewed-commons-186830788.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Encebollado guayaquileño** — Paulakindsvater. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Encebollado.jpg). Local asset: `reviewed-commons-66666931.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Chicken galantina** — FBenjr123. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Chicken_galantina_30.jpg). Local asset: `reviewed-commons-115802860.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Beef pares mami (Philippines)** — Obsidian Soul. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Beef_pares_mami_(Philippines).jpg). Local asset: `reviewed-commons-104244644.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
