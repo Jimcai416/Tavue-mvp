@@ -6433,3 +6433,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Tagliatelle Funghi e Prosciutto** — Andy Li. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Tagliatelle_Funghi_e_Prosciutto_-_Donatello_2023-09-12.jpg). Local asset: `reviewed-commons-137513841.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Troccoli with ragù** — fugzu. [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Troccoli_al_rag%C3%B9.jpg). Local asset: `reviewed-commons-166932981.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.

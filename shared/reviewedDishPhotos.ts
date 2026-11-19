@@ -87673,5 +87673,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 720,
     "height": 960,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-166932981",
+    "title": "File:Troccoli al ragù.jpg",
+    "author": "fugzu",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Troccoli_al_rag%C3%B9.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Troccoli_al_rag%C3%B9.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "05912e2f687097dbe634833061aa2b47f0db635f",
+    "name": "Troccoli with ragù",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-166932981.jpg",
+    "assetSha256": "28f7fccc9d6dbe120940f7ba1afe7e37fe5dabf59db2a794cb94bd0642fc9f0c",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];
