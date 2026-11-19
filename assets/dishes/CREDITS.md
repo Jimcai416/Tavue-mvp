@@ -9117,3 +9117,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 
 - **Kuzu kapama** — E4024. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Kuzu_kapama_(Turkish_lamb_dish).jpg). Local asset: `reviewed-commons-52223059.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Kuzu kapama (with lamb shanks)** — E4024. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Kuzu_kapama_(with_lamb_shanks).jpg). Local asset: `reviewed-commons-52234719.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Kuzu kapama with lamb shank** — E4024. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Kuzu_kapama_with_lamb_shank.jpg). Local asset: `reviewed-commons-49297128.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.

@@ -119420,5 +119420,29 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-49297128",
+    "title": "File:Kuzu kapama with lamb shank.jpg",
+    "author": "E4024",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kuzu_kapama_with_lamb_shank.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/85/Kuzu_kapama_with_lamb_shank.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "218f14b53b3115ee43d40dbb1592eea66cdb1070",
+    "name": "Kuzu kapama with lamb shank",
+    "aliases": [],
+    "proteins": [
+      "lamb"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-49297128.jpg",
+    "assetSha256": "29acb6cc0c403813ac096b371316ff9ad9982fe7246abc4e6af4984710d03758",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];
