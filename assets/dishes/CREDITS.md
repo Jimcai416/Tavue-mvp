@@ -8080,3 +8080,12 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Tuwo with miyan kuka and fried fish** — Suleiman213. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Tuwo_with_miyan_kuka_and_fried_fish.jpg). Local asset: `reviewed-commons-36176026.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Sopa de mondongo** — Jdvillalobos. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Sopamondongo.jpg). Local asset: `reviewed-commons-140690247.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **pierogi ruskie** — MOs810. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Food_in_Lichen_Stary_(pierogi_ruskie,_dumplings).jpg). Local asset: `reviewed-commons-81337134.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Oborniki (pierogi ruskie)** — MOs810. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Oborniki_(pierogi_ruskie).jpg). Local asset: `reviewed-commons-95221532.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Ground shrimp on sugar cane in Vietnamese style** — [Charles Haynes](https://www.flickr.com/people/87232391@N00). [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:Chao_tom.jpg). Local asset: `reviewed-commons-10748838.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Chạo tôm** — [SauceSupreme](https://www.flickr.com/photos/91372089@N00). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Ch%E1%BA%A1o_t%C3%B4m.jpg). Local asset: `reviewed-commons-6099449.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Flaki** — Aw58. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Flaki_-_2024.10.30.jpg). Local asset: `reviewed-commons-154669983.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
