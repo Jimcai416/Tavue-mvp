@@ -6413,3 +6413,10 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Dubu jjim** — [stuart_spivack  (a flickr user)](https://www.flickr.com/photos/stuart_spivack/). [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:Korean.food-Dubujjim-02.jpg). Local asset: `reviewed-commons-1654270.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Korean food-Tasty ramyeon** — [Timber Tank](https://www.flickr.com/photos/96262218@N00). [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:Korean_food-Tasty_ramyeon-03.jpg). Local asset: `reviewed-commons-4249284.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Chicken sate** — Lord Mountbatten. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Sate_ayam-Jakarta.JPG). Local asset: `reviewed-commons-39417489.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Mandu-ramyeon (instant noodles with dumplings)** — [Jude Lee](https://www.flickr.com/photos/ichstyle/). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Mandu-ramyeon_and_gimbap.jpg). Local asset: `reviewed-commons-87867424.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Ramyeon (instant noodles)** — stu_spivack. [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:Ramyeon_1.jpg). Local asset: `reviewed-commons-88701382.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
