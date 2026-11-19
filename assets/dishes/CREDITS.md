@@ -9491,3 +9491,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 
 - **Zapallo hervido como guarnición** — Horacio Cambeiro. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Zapallo_hervido_como_guarnici%C3%B3n_(side_dish).jpg). Local asset: `reviewed-commons-184398107.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Guacamole** — [Javier Lastras  from España/Spain](https://www.flickr.com/people/22662305@N04). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Guacamole_-_AC.jpg). Local asset: `reviewed-commons-6899166.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Roast lamb served with roast potatoes and gravy** — RegionVisitor90. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Roast_Lamb_@_Willaston_Hotel_20250925-124625.jpg). Local asset: `reviewed-commons-175597677.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.

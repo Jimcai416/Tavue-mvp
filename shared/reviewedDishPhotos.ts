@@ -123702,5 +123702,29 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "height": 720,
     "requiresExactMenuName": true,
     "authorUrl": "https://www.flickr.com/people/22662305@N04"
+  },
+  {
+    "id": "commons-175597677",
+    "title": "File:Roast Lamb @ Willaston Hotel 20250925-124625.jpg",
+    "author": "RegionVisitor90",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Roast_Lamb_@_Willaston_Hotel_20250925-124625.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Roast_Lamb_%40_Willaston_Hotel_20250925-124625.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "6b85556611961c1896495dc276a10549aba7d137",
+    "name": "Roast lamb served with roast potatoes and gravy",
+    "aliases": [],
+    "proteins": [
+      "lamb"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-175597677.jpg",
+    "assetSha256": "bb8d819059c99036eefc9a196f49e69afb8545c2cfcbaed61938b5f1dfde597a",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 720,
+    "height": 960,
+    "requiresExactMenuName": true
   }
 ];
