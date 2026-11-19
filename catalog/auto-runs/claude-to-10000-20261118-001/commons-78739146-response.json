@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBmW5jHvdWDfyFqTWJtQ",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Yellow cornmeal bread (polenta) exterior visible\",\n    \"Shredded meat filling prominent\",\n    \"White onion or pale vegetable topping visible\",\n    \"Spiced/seasoned appearance consistent with stated preparation\",\n    \"Finished sandwich, not raw or preparation stage\"\n  ],\n  \"phone_observations\": [\n    \"Sandwich clearly visible in thumbnail\",\n    \"Filled meat component readable\",\n    \"Bread structure apparent\",\n    \"Overall composition matches full source\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title describes 'beef interiors' but lampredotto is sea lamprey, not beef. This is a source factual contradiction.\",\n    \"The description 'boiled, then spiced, beef interiors' conflicts with the established identity of lampredotto as a Florentine tripe/offal sandwich made from lamprey or cow offal, never 'beef interiors'.\",\n    \"Species ambiguity: lampredotto traditionally refers to lamprey (sea lamprey, Petromyzon marinus), which is not in the allowed protein categories (chicken/beef/pork/duck/lamb/seafood). Lamprey does not fall under 'seafood' as conventionally used for culinary purposes.\",\n    \"The source's attempt to rebrand this as 'beef interiors' contradicts both the visual evidence (this is clearly a traditional Florentine lampredotto) and actual dish identity.\"\n  ],\n  \"reason\": \"Reject: source identity contradiction and unsupported protein species. The source title claims 'Panino al Lampredotto' but the description mischaracterizes it as 'boiled, then spiced, beef interiors,' which is factually incorrect. Lampredotto is a traditional Florentine sandwich made from sea lamprey or cow offal, not beef muscle tissue. Lamprey is not an allowed protein category and cannot be verified from the visual appearance alone. The source metadata contradicts itself, making identity verification impossible. Hold rule applies: source contradictions require escalation.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1744,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 603,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
