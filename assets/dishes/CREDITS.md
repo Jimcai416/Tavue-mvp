@@ -7996,3 +7996,9 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Nyonya Curry Laksa with 5-Spice Loh Bak** — [Alpha  from Melbourne, Australia](https://www.flickr.com/people/10559879@N00). [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:Nyonya_Curry_Laksa_with_5-Spice_Loh_Bak_-_whole_bowl_visible_(371506882).jpg). Local asset: `reviewed-commons-83131221.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Tlayudas** — Clau NG. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Tlayudas.jpg). Local asset: `reviewed-commons-47532430.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Pisto Manchego met een op Spaanse wijze gebakken ei en rijst** — Coralma*. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Pisto_Manchego_1.jpg). Local asset: `reviewed-commons-108026523.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Soupe à l'oignon** — Ludovic Péron. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Soupe_%C3%A0_l%27oignon.jpg). Local asset: `reviewed-commons-30767618.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
