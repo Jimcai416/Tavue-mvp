@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBhoQC4hHPE8LwKdWj54",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Golden-brown, crispy exterior visible in full image and thumbnail\",\n    \"Spherical/round fried items clearly visible\",\n    \"Caramelized onions or similar garnish on surface\",\n    \"Well-exposed, natural colour cast\",\n    \"Sharply detailed texture\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail shows multiple brown fried spheres with crispy coating\",\n    \"Prominent, readable as a finished fried dish\",\n    \"Appetising appearance with visible caramelization\",\n    \"Essential components not clipped\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title states 'Okoy' but source description is simply 'Okoy' with no additional qualifier or protein specification\",\n    \"Visual inspection shows fried spheres with crispy exterior and what appear to be onions, but no explicit protein species confirmation in source metadata\",\n    \"Okoy is a Filipino dish that traditionally contains shrimp, but metadata does not explicitly name 'shrimp' or 'seafood'\",\n    \"Without explicit protein declaration in source title or description, protein species cannot be confirmed\"\n  ],\n  \"reason\": \"Image quality, sharpness, lighting, composition and appeal all meet standards. The photograph is a finished, exposed, sharply detailed fried dish with natural colour and appetising appearance. However, the source metadata is insufficient for identity verification. The title 'Okoy' and description 'Okoy' lack explicit protein specification. While okoy is traditionally a shrimp fritter, the source does not explicitly name the protein (no 'shrimp', 'seafood', or other species declaration). Per protocol, hidden flavours or traditional preparations cannot be assumed from visual appearance alone or from category name. The protein_evidence object cannot be populated without an exact case-sensitive substring from title/description explicitly naming the animal. Identity check fails due to ambiguous/absent protein specification in source metadata.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1721,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 577,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
