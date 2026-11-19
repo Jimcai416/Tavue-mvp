@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBkxru1pEegYL6igHEqE",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Raw/uncooked sliced cured meat in retail display\",\n    \"Arranged in packaging trays\",\n    \"Red signage visible\",\n    \"Market or delicatessen counter setting\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail shows sliced cured meat in trays\",\n    \"Clearly identifiable as retail packaged product\",\n    \"Red signage partially visible\",\n    \"Composition consistent with full image\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title 'Pastırma' refers to a cured meat product, but the image shows raw/uncooked sliced meat in retail packaging, not a finished prepared dish\",\n    \"No species explicitly named in source description\",\n    \"No finished, cooked, or plated dish evident\"\n  ],\n  \"reason\": \"Rejection: This is a retail display of raw cured meat slices in packaging, not a finished, exposed, prepared dish suitable for Tavue. Pastırma is traditionally served as part of a meal or composed dish, but this image shows only the ingredient in its retail state. The source description provides no explicit animal species and lacks the characteristics of a finished food photograph. Home cooking and street food are welcome, but raw/preparation stages are explicitly excluded per guidelines.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1733,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 429,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
