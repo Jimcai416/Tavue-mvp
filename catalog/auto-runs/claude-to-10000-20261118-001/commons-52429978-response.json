@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCcGpnUK6sVm9x2Xbiib",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [\n    \"Cooked pudding with textured filling visible in cross-section\",\n    \"Natural casing with glossy surface\",\n    \"Green salad accompaniment\",\n    \"Hand-held presentation typical of food service\"\n  ],\n  \"phone_observations\": [\n    \"Dish remains identifiable at thumbnail size\",\n    \"Cross-section clearly visible\",\n    \"Salad visible at edges\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source metadata describes sheep organs (heart, liver, lungs, suet) but the instructions prohibit protein categories outside the allowed list (chicken/beef/pork/duck/lamb/seafood)\",\n    \"Sheep pluck is organ meat from sheep, not matching any approved protein category\",\n    \"Species 'sheep' does not align with allowed category 'lamb' (which refers to meat from young sheep, distinct from sheep organs)\"\n  ],\n  \"reason\": \"Rejection: The source description explicitly names sheep's pluck (heart, liver, lungs) and suet as the primary proteins. While the dish is photographically sound and identifiable, sheep organs do not match any approved protein category (chicken/beef/pork/duck/lamb/seafood). Although lamb is an approved category, it refers to meat from young sheep as a whole, not to sheep organ offal. The source contains a protein that cannot be categorized within the allowed list, triggering a mandatory hold per protocol. Per rules, unknown meat species or incompatible protein qualifiers require rejection rather than acceptance with an empty protein_evidence map when the source explicitly names unsupported constituents.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1780,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 495,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

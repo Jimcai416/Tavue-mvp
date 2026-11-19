@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCcFsk2u9cYhFjHyyuhq",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 2,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Subject is clearly a live animal on reddish soil\",\n    \"Dark, smooth-skinned creature with visible head and body\",\n    \"No food dish visible in phone thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Metadata describes 'Haggis in the hippo house' — this is a live animal (likely a hippopotamus, given context), not a prepared food dish\",\n    \"No finished, cooked, or plated food is present\"\n  ],\n  \"reason\": \"This is a photograph of a live animal in a zoo or wildlife setting, not a finished dish. Despite the metadata title referencing 'Haggis', the image shows a living creature on bare ground. Haggis (the Scottish food) is a prepared meat dish, not an animal. This submission is either a misidentified photograph or an attempt to use the metadata title inappropriately. No finished, exposed, cooked food is visible in either the full image or thumbnail. Reject on identity grounds — this is not a photograph of food.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1837,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 380,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
