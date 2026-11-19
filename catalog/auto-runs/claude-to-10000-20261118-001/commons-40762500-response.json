@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCajsSysryamPHqZc1xS",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 2,\n    \"composition\": 2,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows a pale, amorphous mound on foil with no clear dish definition\",\n    \"Essential components unreadable; subject appears incomplete or unplated\",\n    \"Severe lack of visual clarity; cannot distinguish finished dish structure\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Full image shows raw or mid-preparation noodles/strands piled on foil with no cooked dish finish\",\n    \"Severe underexposure and glare on foil wrapper obscure all identifiable food components\",\n    \"Dish does not appear finished or plated; looks like preparation stage\",\n    \"Source title 'Aaloo Puri' describes a fried bread with potato filling; visible content does not match this description—appears to be noodles or strands, not puri\",\n    \"No visual evidence of potato curry or puri bread structure visible\"\n  ],\n  \"reason\": \"Reject: image fails multiple criteria. The full photograph shows what appears to be raw or undercooked noodles/strands in a preparation state, not a finished, exposed dish. Severe underexposure, glare on foil wrapper, and lack of definition render essential components unreadable in both full and thumbnail images. The visible content (pale shredded strands) does not match the titled dish (Aaloo Puri—potato-filled fried bread). The photograph lacks sharpness (2/5), appropriate lighting (2/5), composition (2/5), and appeal (1/5). Identity check fails: no visual match between source description and photographed content.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1755,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 503,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
