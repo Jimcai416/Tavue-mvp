@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBUzKrAC8nCU9HT4Vjsg",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Three salmon preparations on white rectangular plates\",\n    \"Gold-plated forks positioned with each dish\",\n    \"Natural colour, finished presentations\",\n    \"Distinct garnish and preparation styles across plates\"\n  ],\n  \"phone_observations\": [\n    \"Salmon preparations clearly visible in thumbnail\",\n    \"Three distinct plated dishes discernible\",\n    \"Gold utensils visible\",\n    \"Essential components readable\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title is a filename (File:Laxrätter.jpg), not a canonical dish name\",\n    \"Description lists three separate dishes but provides no single unified canonical name for the composed photograph\",\n    \"Individual dish identities (cold smoked, gravlax, hot smoked) are described but the source does not declare a single canonical dish name for this multi-dish composition\",\n    \"Protein 'salmon' is stated in description but no exact substring from a formal dish title confirms identity\"\n  ],\n  \"reason\": \"Source metadata provides only a filename and a descriptive listing of three separate salmon preparations, not a canonical dish name. The description does not supply a single formal dish title that would serve as canonical_name. The image shows multiple distinct preparations rather than one finished dish, and the source does not establish a unified identity for the composition as a single Tavue entry. Identity check fails due to absence of a proper source-derived canonical dish name.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1612,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 456,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
