@@ -135063,5 +135063,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "height": 646,
     "requiresExactMenuName": true,
     "authorUrl": "https://www.flickr.com/people/33896009@N00"
+  },
+  {
+    "id": "commons-106472743",
+    "title": "File:Mealie bread01.jpg",
+    "author": "EAT&ART TARO",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mealie_bread01.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Mealie_bread01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "cdb6548160c274b8b7b2732e3345ccbb1564acc3",
+    "name": "Mealie bread",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-106472743.jpg",
+    "assetSha256": "ee839267855b11085bf222703f95637ac2306523fb36fccfcbb657ffbd5c6c85",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 720,
+    "height": 960,
+    "requiresExactMenuName": true
   }
 ];
