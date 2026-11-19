@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChD8UNbSycrjrUr668DN3",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Golden-brown baked surface with caramelised spots\",\n    \"Creamy pale interior visible at edge\",\n    \"Rectangular baked slab form consistent with calentita\",\n    \"Natural indoor lighting, wooden surface\",\n    \"Sharp detail of texture and crust\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows baked rectangular slab\",\n    \"Golden-brown top with dark caramelised patches\",\n    \"Creamy interior visible at cut edge\",\n    \"Sufficient detail to identify finished baked dish\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title states 'Calentita cooked in Gibraltar with milk and egg instead of water' but canonical preparation uses chickpea flour + water (sometimes broth). The title describes a substantial variant using milk and egg as primary liquid instead of water, which creates ambiguity about whether this is a true calentita or a modified chickpea cake. No explicit confirmation that chickpea flour is the base ingredient, though visual appearance is consistent.\",\n    \"No protein category applies: milk and egg are not among the allowed protein keys (chicken/beef/pork/duck/lamb/seafood). The source describes these as ingredients but they fall outside the classification scope.\"\n  ],\n  \"reason\": \"Hold: The source describes a substantial variant of calentita using milk and egg instead of water as primary liquids. While the photograph shows a finished, well-executed baked slab with excellent technical quality, the variant description creates meaningful ambiguity about the dish identity and ingredient base. The variant qualifier 'with milk and egg instead of water' contradicts the canonical preparation method and should be preserved exactly if accepted, but the fundamental identity as calentita (a chickpea flour dish) is not visually verifiable in the photograph alone. Milk and egg are not supported protein categories. The source metadata is explicit but contradicts standard calentita preparation in a way that requires clarification before canonical acceptance.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1666,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 579,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChD8Ub24LTWJSVaDKVwiH",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Stewed meat with leafy greens (banana flower or similar)\",\n    \"Orange/yellow root vegetables (possibly kamias or turmeric-coloured tubers)\",\n    \"Pink onion slices\",\n    \"Green vegetable (possibly chayote or melon)\",\n    \"Brown/tan broth\",\n    \"Garnish of green onion/scallion\"\n  ],\n  \"phone_observations\": [\n    \"Dish is clearly visible and prominent in thumbnail\",\n    \"Stew components readable: meat, greens, vegetables, broth\",\n    \"White bowl clearly shown\",\n    \"No essential food clipped\",\n    \"Natural colour and appetising appearance\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title lists both 'Mung bean soup' and 'rabbit stew' as separate dishes, but photograph appears to show a single stewed dish—unclear which dish this is or whether both are present\",\n    \"Rabbit is not an allowed protein category (chicken/beef/pork/duck/lamb/seafood only)\",\n    \"Source description contains multiple dish names and ingredients that do not clearly map to the single plated dish shown\",\n    \"Cannot confirm species identity visually; meat appears stewed/shredded but species is ambiguous\"\n  ],\n  \"reason\": \"Identity check fails. Source title/description references 'rabbit stew' (Kuneho Sinigang), but rabbit is not an allowed protein category. The description lists multiple dishes (mung bean soup, rabbit stew, ginisang monggo) but the photograph shows a single plated stew. No exact canonical phrase can be matched that preserves a valid protein qualifier. Visual appearance is sharp and appetising, but the core identity requirement cannot be satisfied due to unspecified/disallowed meat species and ambiguous source structure. Hold pending clarification.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1793,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 559,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChD8UujCdihpvccf1UWTw",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Whole animal (rabbit/lapin) prominently displayed in broth\",\n    \"Orange vegetables and green vegetables visible\",\n    \"Clear broth with identifiable components\",\n    \"Garnish of red onion and green herbs\",\n    \"Bilimbi fruit visible at right edge\"\n  ],\n  \"phone_observations\": [\n    \"Whole animal and broth clearly readable in thumbnail\",\n    \"Orange and green vegetables distinguishable\",\n    \"White plate and green background maintain contrast\",\n    \"Composition includes essential dish components\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title contains both 'Mung bean soup' and 'rabbit stew' as separate dishes—unclear which single dish is photographed or whether this is a composite\",\n    \"Description lists 'Kuneho Sinigang sa Kamias' (rabbit stew in bilimbi) but also 'Mung bean soup and rabbit stew' suggesting two separate dishes\",\n    \"Rabbit is not an allowed protein category per instructions (only chicken/beef/pork/duck/lamb/seafood permitted)\",\n    \"Source metadata conflicts: title emphasizes 'Mung bean soup', description emphasizes both dishes equally\"\n  ],\n  \"reason\": \"Hold: The source material is internally contradictory—it describes both a mung bean soup and a rabbit stew as if they are present, but rabbit is not an allowed protein category. The photograph clearly shows a whole rabbit in broth, which cannot be recorded without an allowed protein match. The title and description do not agree on the single primary dish identity. Resolution of the dish name and protein eligibility is required before acceptance.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1793,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 514,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
