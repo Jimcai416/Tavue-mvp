@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCRiqHApR9wAZtrEBtRv",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 3,\n    \"lighting\": 2,\n    \"composition\": 1,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows raw onion preparation stage, not finished dish\",\n    \"Peeled onion layers scattered on wooden surface\",\n    \"Kitchen utensils and cookbook visible\",\n    \"No cooked food, noodles, or assembled dish present\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [],\n  \"reason\": \"Image documents preparation stage (peeling onions), not a finished, exposed, cooked dish. Source title explicitly states 'Starting work on Khow suey', confirming this is raw ingredient preparation, not the completed noodle dish itself. Fails photograph quality requirement: composition is scattered prep work, lighting is harsh with shadows, appeal is minimal (raw vegetables on work surface). Both full image and thumbnail show only the beginning of cooking process, not a finished dish suitable for food photography review. Essential food (the actual khow suey) is entirely absent.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1750,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 339,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCRinU13vVTc5Rj5P2fr",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Rice-based mixed dish with visible protein pieces\",\n    \"Cooked rice grains clearly visible\",\n    \"Brown meat/protein pieces distributed throughout\",\n    \"Natural colour, home-cooked appearance\",\n    \"Subject prominent and well-exposed\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows rice and meat mixture\",\n    \"Essential components visible at phone scale\",\n    \"Adequate detail for recognition of dish category\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title 'Tehari' lacks explicit protein species declaration—meat type not visibly certain from photograph alone and no source quote names the animal\",\n    \"Tehari traditionally may use beef, mutton or goat; ambiguity over which animal species is present cannot be resolved from image or source metadata\",\n    \"No direct quote from title or description explicitly identifies the protein by species\"\n  ],\n  \"reason\": \"Photograph quality, sharpness, lighting, composition and appeal are all acceptable (scores ≥4). The dish is recognisable as a finished, cooked rice dish with meat pieces, appropriate for home cooking, and the phone thumbnail adequately captures essential components. However, identity check fails: the source title 'Tehari' does not include an explicit protein species declaration. While Tehari is a known Bangladeshi rice dish, the meat species (beef, mutton, or goat) cannot be determined from the visual appearance alone, and the metadata provides no exact quote naming the animal. Protein_evidence remains empty. Protein identity cannot be supported by an exact source quote as required. Hold pending clarification of the specific meat species used.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 2038,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 506,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
