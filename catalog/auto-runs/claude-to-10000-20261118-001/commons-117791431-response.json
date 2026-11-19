@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBvwJ8RB83UwQdzVmCs7",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Finished, cooked noodle dish with visible protein and toppings\",\n    \"Golden-brown fideo noodles clearly visible\",\n    \"White beans/legumes distributed across surface\",\n    \"Pink/reddish meat pieces throughout\",\n    \"Caramelized edges and browning consistent with paella-style cooking\",\n    \"Garnish visible in full image\",\n    \"Phone thumbnail shows complete dish with recognizable components\"\n  ],\n  \"phone_observations\": [\n    \"Central composition clearly visible\",\n    \"Noodles, beans, and meat toppings distinguishable\",\n    \"Natural colour palette preserved\",\n    \"Adequate detail for dish identification\",\n    \"No clipping of essential components\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'foie i pato' (foie gras and duck), but source metadata is untrusted per instructions\",\n    \"Visible pink/reddish meat cannot be definitively identified as duck without explicit source confirmation in title/description field\",\n    \"Foie gras presence cannot be visually confirmed and is not an allowed protein category\",\n    \"No explicit, case-sensitive protein confirmation in provided source description ('A Cullera')\"\n  ],\n  \"reason\": \"Photograph quality is excellent (all scores ≥4), sharpness and composition are strong, and phone thumbnail clearly shows a finished fideuà dish. However, the identity check fails because the source description provided ('A Cullera', a location) does not contain the full canonical dish name with explicit protein qualifiers. Metadata title 'Fideuà de foie i pato' is marked untrusted per protocol. The visible pink meat cannot be confirmed as duck, and foie gras is neither visually provable nor an allowed protein category. Without a trusted source statement explicitly naming the dish and its protein components in the description field itself, the identity cannot be reliably established. Hold for clarification of the exact, official dish name from trusted metadata.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1725,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 590,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
