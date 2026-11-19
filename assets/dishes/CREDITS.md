@@ -8333,3 +8333,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 - **Nabeyaki udon** — [VeryBadLady  from Japanese restaurant  Dojima Ann  (堂島庵) in O'Farrell Street, San Francisco](https://www.flickr.com/photos/bulknews/). [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:Nabe_yaki_udon_by_miyagawa_in_San_Francisco.jpg). Local asset: `reviewed-commons-3111680.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Nabeyaki Udon with shrimp tempura** — Daderot. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Nabeyaki_Udon_with_shrimp_tempura_-_Massachusetts.jpg). Local asset: `reviewed-commons-145984938.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Nabeyaki ramen** — ノボホショコロトソ. [CC BY 4.0](https://creativecommons.org/licenses/by/4.0); [source](https://commons.wikimedia.org/wiki/File:Nabeyaki_ramen_02.jpg). Local asset: `reviewed-commons-154776075.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Nabeyaki udon of Matsuyama** — ノボホショコロトソ. [CC BY 4.0](https://creativecommons.org/licenses/by/4.0); [source](https://commons.wikimedia.org/wiki/File:Nabeyaki_udon_of_Matsuyama_02.jpg). Local asset: `reviewed-commons-189314180.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
