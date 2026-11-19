@@ -6500,3 +6500,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 - **Rasam** — Miansari66. [Public domain](https://creativecommons.org/publicdomain/mark/1.0/); [source](https://commons.wikimedia.org/wiki/File:Rasam.JPG). Local asset: `reviewed-commons-12561156.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Hot Rasam soup** — Miansari66. [Public domain](https://creativecommons.org/publicdomain/mark/1.0/); [source](https://commons.wikimedia.org/wiki/File:Rasam_Hot.JPG). Local asset: `reviewed-commons-12561340.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Rasam and Idli** — VinPrasad. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Rasam_and_Idli.jpg). Local asset: `reviewed-commons-102333115.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Chorba frik de Tébessa** — Waran18. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Chorba_frik_de_T%C3%A9bessa.jpg). Local asset: `reviewed-commons-116678760.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.

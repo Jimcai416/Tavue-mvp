@@ -88506,5 +88506,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 960,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-116678760",
+    "title": "File:Chorba frik de Tébessa.jpg",
+    "author": "Waran18",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chorba_frik_de_T%C3%A9bessa.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/57/Chorba_frik_de_T%C3%A9bessa.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "387ad15eec0e56028d425f4f55323eb2955d2843",
+    "name": "Chorba frik de Tébessa",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-116678760.jpg",
+    "assetSha256": "595e60df6e0829144eba7f94fc9a3157449bdf7b6054df067633687205189926",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 694,
+    "height": 624,
+    "requiresExactMenuName": true
   }
 ];
