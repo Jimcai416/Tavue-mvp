@@ -7441,3 +7441,8 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 
 - **Tavče gravče traditionally served with long hot peppers** — Cuklev. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:%D0%A2%D0%B0%D0%B2%D1%87%D0%B5_%D0%93%D1%80%D0%B0%D0%B2%D1%87%D0%B5.jpg). Local asset: `reviewed-commons-74521977.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Byrek me lek** — Blerina.gica. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Byrek_me_lek.jpg). Local asset: `reviewed-commons-129646541.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Byrek me oriz dhe mish pule** — Esmeralda Ko. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Byrek_me_oriz_dhe_mish_pule.jpg). Local asset: `reviewed-commons-147428511.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Byrek me patate** — Visar Kola. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Byrek_me_patate.JPG). Local asset: `reviewed-commons-38614585.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.

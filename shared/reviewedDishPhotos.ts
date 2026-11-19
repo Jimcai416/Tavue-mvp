@@ -100314,5 +100314,51 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 720,
     "height": 960,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-147428511",
+    "title": "File:Byrek me oriz dhe mish pule.jpg",
+    "author": "Esmeralda Ko",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Byrek_me_oriz_dhe_mish_pule.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Byrek_me_oriz_dhe_mish_pule.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "059a1de6bec1e93a6f38f3e5f462771e5bb30bee",
+    "name": "Byrek me oriz dhe mish pule",
+    "aliases": [],
+    "proteins": [
+      "chicken"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-147428511.jpg",
+    "assetSha256": "92735774d58d1fb278192d9129c8fde405af7ae17d74162179201c88859e4ae4",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 540,
+    "height": 960,
+    "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-38614585",
+    "title": "File:Byrek me patate.JPG",
+    "author": "Visar Kola",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Byrek_me_patate.JPG",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Byrek_me_patate.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "c4ccd69254e73fb34f0a6dc729c5d964b20d58de",
+    "name": "Byrek me patate",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-38614585.jpg",
+    "assetSha256": "85b27292e2fc00a73cc248175c006a85527a71a16773c10fabd63e544e51ff39",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 640,
+    "requiresExactMenuName": true
   }
 ];
