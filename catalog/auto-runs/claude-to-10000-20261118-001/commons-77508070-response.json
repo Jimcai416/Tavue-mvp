@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCFhZi7Ez7FC3oGUY7Tz",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Breaded cutlet with cream gravy visible in full image\",\n    \"Fried okra spheres clearly identifiable\",\n    \"Mashed potatoes present\",\n    \"Dinner roll visible\",\n    \"White plate, natural daylight\"\n  ],\n  \"phone_observations\": [\n    \"All components readable in thumbnail\",\n    \"Cream gravy legible on main protein\",\n    \"Fried okra distinct in upper centre\",\n    \"Roll and potatoes clearly visible\",\n    \"Composition preserved in reduction\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Species of breaded cutlet not explicitly stated in source description—only 'Chicken fried steak' (a cooking method), not proof of chicken as the protein. 'Chicken fried' is a breading/frying technique applied traditionally to beef steak, not a species identifier.\",\n    \"Title phrase 'Chicken Fried Steak' does not contain an explicit animal name matching the allowed category proteins (chicken/beef/pork/duck/lamb/seafood). The cutlet is visually indistinguishable from beef steak under breading.\",\n    \"Source description does not name the specific animal; metadata title uses 'Chicken Fried' as a culinary method, not as species evidence.\"\n  ],\n  \"reason\": \"Although the photograph is sharp, well-lit, appetising and properly composed, with all components clearly visible in both full and thumbnail versions, the protein identity cannot be established from the source title or description. 'Chicken fried steak' is a cooking technique (breaded and fried like fried chicken) traditionally applied to beef steak. The source provides no explicit animal name. The cutlet's appearance under gravy is consistent with beef, pork or other meats. Without a direct source statement naming the animal (e.g. 'beef steak' or 'chicken breast'), the identity check fails. The dish cannot be accepted without resolving this ambiguity via source evidence.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1750,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 591,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

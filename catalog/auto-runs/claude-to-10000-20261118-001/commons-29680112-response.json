@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCFhFgeRERHDDj6KRhNj",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 3,\n    \"lighting\": 3,\n    \"composition\": 2,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Phone thumbnail shows a crowd event scene with server and guests\",\n    \"Red colander and large serving vessel visible but dish itself is not prominently featured\",\n    \"Food subject is obscured by the event context and serving apparatus\",\n    \"Essential food components are not clearly readable in thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"This is an event/serving scene photograph, not a finished dish photograph\",\n    \"Crawfish is not an allowed protein category (seafood category requires explicit animal naming in allowed set: chicken/beef/pork/duck/lamb/seafood)\",\n    \"The subject is a food service moment, not a plated or presented finished dish\"\n  ],\n  \"reason\": \"Rejection: This is a candid event photograph showing a crawfish boil service scene rather than a finished, exposed, appetising dish photograph. The primary subject is the crowd, server, and serving apparatus, not the food itself. The dish is not prominently featured or sharply detailed in either the full source or phone thumbnail. The composition prioritises event documentation over food presentation. Additionally, crawfish cannot be verified against the allowed protein categories (chicken/beef/pork/duck/lamb/seafood require explicit naming), and the image does not meet photographic dish review criteria—it is essentially an event photo where food serves as background context.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1663,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 440,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

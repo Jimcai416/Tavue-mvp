@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCFgi8MJr53m3iqBK69H",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Red crawfish visible in serving bowl\",\n    \"Red crawfish visible in bulk container\",\n    \"Yellow corn visible as garnish\",\n    \"Outdoor event setting with people and tables\",\n    \"Finished, cooked crustaceans prominently displayed\"\n  ],\n  \"phone_observations\": [\n    \"Crawfish boil dish clearly visible in phone thumbnail\",\n    \"Red-orange cooked crawfish prominent\",\n    \"Bowl with corn garnish readable\",\n    \"Serving context visible\",\n    \"Thumbnail composition adequate for dish recognition\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title/description refers to 'crawfish boil' but no explicit canonical name phrase provided in the metadata beyond the filename\",\n    \"Crawfish is a crustacean, not in the allowed protein categories (chicken/beef/pork/duck/lamb/seafood)\",\n    \"Cannot match canonical_name to exact source title or description text—only filename and event description provided\"\n  ],\n  \"reason\": \"Reject: Crawfish is a freshwater crustacean, not in the permitted protein categories (chicken, beef, pork, duck, lamb, seafood). Although the photograph itself is sharp, well-lit, appetising and clearly shows a finished cooked dish prominently displayed with corn garnish in both full and thumbnail images, the dish cannot be accepted because the primary protein cannot be mapped to an allowed category. The source metadata does not provide an explicit canonical_name phrase to extract, only a filename and event description.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1628,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 483,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

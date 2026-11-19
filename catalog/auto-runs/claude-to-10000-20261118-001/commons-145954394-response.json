@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCFi46fHoWzRvLppZLYU",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Cream-coloured soup in white bowl, centre-cover visible\",\n    \"Specks of herbs/particles present\",\n    \"No clams, shellfish, or distinct solid components visible in thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Clam chowder requires clams as essential identifiable component; no clams, clam meat, or shells visibly prominent in either full or thumbnail image\",\n    \"Dish appears to be cream soup with flecks but lacks readable essential clam component required for identity verification\",\n    \"Source title names 'Clam Chowder' but visual evidence does not support clam presence\"\n  ],\n  \"reason\": \"Reject: Identity check fails. The source title claims 'Clam Chowder', but neither the full photograph nor the phone thumbnail shows visibly prominent, readable clam meat or clam shells as essential components. The dish appears as a smooth, undifferentiated cream soup with herb specks. Clams are the defining protein identity of clam chowder; their absence from visible components contradicts the source title. All scores meet threshold, but identity mismatch (source-declared protein not visually evident) triggers mandatory hold-to-reject per protocol.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1932,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 426,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCFheCybeBioVFE3EdKg",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 5,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Crispy, golden-brown bread bowl with sesame-seed crust\",\n    \"Creamy white soup visible inside with green herb garnish\",\n    \"Bowl served on white plate in restaurant setting\",\n    \"Professional plating and presentation\"\n  ],\n  \"phone_observations\": [\n    \"Bread bowl clearly visible in thumbnail\",\n    \"White soup/chowder filling evident\",\n    \"Recognizable as soup in bread bowl format\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title contains 'clam' but clams are not an allowed protein category\",\n    \"Description references 'Clam Chowder Soup' which cannot be verified as an allowed protein type\",\n    \"No explicitly named allowed protein (chicken/beef/pork/duck/lamb/seafood with explicit species) present in source\"\n  ],\n  \"reason\": \"Identity check fails. The source explicitly names 'Clam Chowder' but clams are not permitted protein categories per the system rules (only chicken/beef/pork/duck/lamb/seafood with explicit species allowed). The soup's primary ingredient—clams—cannot be accepted. No other allowed protein is named in the source title or visible in the dish. The image quality and presentation are excellent, but the dish identity cannot be validated against allowed specifications.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1821,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 439,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

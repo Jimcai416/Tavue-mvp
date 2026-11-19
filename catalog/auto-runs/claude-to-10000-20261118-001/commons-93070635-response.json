@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCFh7PKzE78bj8YnR1wg",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Noodles in pale cream sauce visible on plate\",\n    \"Braised/sautéed meat pieces in dark brown sauce on left side\",\n    \"Natural home-cooked presentation on decorative white plate with floral rim\",\n    \"Fork and placemat visible, indicating table setting\"\n  ],\n  \"phone_observations\": [\n    \"Cream-sauce noodles clearly visible in thumbnail\",\n    \"Darker meat component prominent on left\",\n    \"Plate decoration and setting context preserved\",\n    \"Overall composition readable despite size reduction\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title references 'higado saltado criollo' (liver sautéed Creole-style), but liver is not an allowed protein category (only chicken/beef/pork/duck/lamb/seafood accepted)\",\n    \"Meat species cannot be visually confirmed as beef, pork, lamb, duck, chicken or seafood from appearance alone\",\n    \"Description claims specific preparation and meat type not supported by allowed categories\"\n  ],\n  \"reason\": \"Source description identifies the meat component as 'higado saltado criollo' (liver). Liver does not belong to the allowed protein categories (chicken/beef/pork/duck/lamb/seafood). Without explicit source confirmation that the meat is one of the allowed species, identity cannot be verified. The dish quality, photography, and phone thumbnail are all acceptable, but the protein identity constraint cannot be satisfied. Hold pending clarification of actual protein source or alternative description.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1752,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 482,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
