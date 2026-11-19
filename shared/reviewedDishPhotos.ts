@@ -127250,5 +127250,53 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 540,
     "height": 960,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-109741020",
+    "title": "File:Shrimp tacos at Casa Del Sol - 2021-08-24 - Sarah Stierch.jpg",
+    "author": "Missvain",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Shrimp_tacos_at_Casa_Del_Sol_-_2021-08-24_-_Sarah_Stierch.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Shrimp_tacos_at_Casa_Del_Sol_-_2021-08-24_-_Sarah_Stierch.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "25c970344d17c2fb848b8bbc7527da95b3e02a55",
+    "name": "Breaded shrimp flour tortilla tacos, cabbage, chipotle aioli and mango salsa",
+    "aliases": [],
+    "proteins": [
+      "seafood"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-109741020.jpg",
+    "assetSha256": "1b1ef2bb27db1d6140d53732611d91c477ec297730363dea3dadfe53b0706a83",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-122614388",
+    "title": "File:Shrimp tacos at El Dorado Kitchen - July 2022 - Sarah Stierch.jpg",
+    "author": "Missvain",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Shrimp_tacos_at_El_Dorado_Kitchen_-_July_2022_-_Sarah_Stierch.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Shrimp_tacos_at_El_Dorado_Kitchen_-_July_2022_-_Sarah_Stierch.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "797bf200181192b149d325c871e9be79c6cbd94a",
+    "name": "Shrimp tacos",
+    "aliases": [],
+    "proteins": [
+      "seafood"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-122614388.jpg",
+    "assetSha256": "5a94ceb885a54ed769ad7b156c26d0735631b26065ebb1bd5e38cc56c67f47e2",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];
