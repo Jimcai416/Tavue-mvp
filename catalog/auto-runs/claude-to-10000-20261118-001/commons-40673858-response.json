@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBu4WqrpSEVKQKx5FgGr",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Finished, cooked papad visible in basket\",\n    \"Natural colours, sharp detail in phone thumbnail\",\n    \"Prominent subject with clear components\",\n    \"Home-style presentation in woven basket\"\n  ],\n  \"phone_observations\": [\n    \"Papad clearly visible as central cooked item\",\n    \"Bowl of urad seeds identifiable on left\",\n    \"Fresh garnishes (tomato, cilantro, peppers) readable\",\n    \"Composition matches full image\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title/description identifies this as 'Indian homemade papad' but the dish shown contains not only papad but also tacos/filled items with vegetables, meat or other fillings. The title does not match the actual visible content of the photograph.\",\n    \"The photograph displays a composite food presentation (papad + taco-like items + urad seeds + garnishes) but the source title only references 'papad', creating a material identity mismatch.\",\n    \"No protein species can be confirmed from the source title or visible form of any filled items.\"\n  ],\n  \"reason\": \"Reject: Identity check fails. The source title describes 'Indian homemade papad' but the photograph shows a multi-component presentation including papad, what appear to be filled taco-like items, and accompaniments. The title does not accurately reflect the visible dish content. Additionally, any protein in the filled items cannot be identified from either the source description or visual evidence. Title/description must match actual visible form.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1726,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 485,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
