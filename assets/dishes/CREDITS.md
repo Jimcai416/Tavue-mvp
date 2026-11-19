@@ -7850,3 +7850,9 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Nethili Meen Kulambu** — Giftsonfelix. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:NETHILI_MEEN_KULAMBU_(NETHILI_FISH_CURRY).jpg). Local asset: `reviewed-commons-40696921.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Gobo karaage** — [ayustety  from Tomioka, Koto,  Tokyo](https://www.flickr.com/photos/ayustety/). [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:Gobo_karaage_by_ayustety_in_Tomioka,_Tokyo.jpg). Local asset: `reviewed-commons-2000750.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Karaagé** — Missvain. [CC BY 4.0](https://creativecommons.org/licenses/by/4.0); [source](https://commons.wikimedia.org/wiki/File:Hana_Japanese_Restaurant_-_Stierch_01.jpg). Local asset: `reviewed-commons-102502860.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Taku chicken karaage** — Wikiwanglers. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Karaage_2.jpg). Local asset: `reviewed-commons-107532939.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
