@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBP1RP7g5FZAEEdSnpC9",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 3,\n    \"lighting\": 2,\n    \"composition\": 2,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Package dominates the thumbnail; sausages barely visible beneath label\",\n    \"Label text and branding occupy >50% of phone frame\",\n    \"Essential food (the sausages) severely clipped and obscured\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Subject is packaged raw/uncooked sausages in retail wrapping, not a finished dish\",\n    \"Image shows grocery product packaging, not a prepared food photograph\"\n  ],\n  \"reason\": \"Rejection: This is a photograph of packaged raw sausages in retail wrapping, not a finished, exposed, prepared dish. The package label dominates both the full image and the phone thumbnail, with the actual food severely clipped and obscured by packaging. The sausages are uncooked and in their commercial packaging stage, violating the requirement for a finished, exposed, appetising dish with the essential food prominent and readable in the thumbnail. This is a product/packaging shot, not food photography.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1488,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 364,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

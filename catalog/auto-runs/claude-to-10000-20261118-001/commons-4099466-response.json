@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBP1CF6JaAQaGdpXG6Nz",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Central platter shows sliced raw fish arranged on a cream-coloured plate\",\n    \"Pink/translucent flesh visible, consistent with cured/raw preparation\",\n    \"Green condiment bowl and accompaniments visible on table setting\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'Rakfisk' (Norwegian fermented fish dish), but photograph shows what appears to be raw or lightly cured sliced fish, not the characteristic opaque, fermented appearance of authentic rakfisk\",\n    \"Fish species not identified in source metadata\",\n    \"The translucent raw appearance contradicts the fermented/cured identity of rakfisk, which should show opaque flesh and darker coloration from fermentation\",\n    \"No explicit animal identification in source title or description\"\n  ],\n  \"reason\": \"Identity mismatch: source title claims 'Rakfisk' (fermented fish), but the photograph shows raw or minimally processed sliced fish with translucent, pink flesh inconsistent with fermented rakfisk's characteristic opaque, darker fermented appearance. Fish species unspecified in metadata. The preparation stage and visual contradiction between claimed identity and apparent preparation make identity verification impossible. Reject until source provides explicit species identification and resolves preparation-identity discrepancy.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1728,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 433,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
