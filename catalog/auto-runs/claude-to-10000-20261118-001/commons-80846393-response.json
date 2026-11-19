@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCLofEzJn1vUcPnRFiCW",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [\n    \"Cooked snails in shells on slate plate\",\n    \"Escargot tongs and fork visible\",\n    \"Garlic and herb garnish\",\n    \"White plate in background\"\n  ],\n  \"phone_observations\": [\n    \"Snails in shells clearly visible\",\n    \"Utensils present in thumbnail\",\n    \"Cooked state readable\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title references 'How to eat escargots' (instruction/technique demonstration) rather than a named dish\",\n    \"Metadata is in Japanese and explicitly untrusted per instructions\",\n    \"No canonical dish name provided in source—only a how-to format\",\n    \"Snails (escargots) are not in the allowed protein category list (chicken/beef/pork/duck/lamb/seafood only)\"\n  ],\n  \"reason\": \"Rejection: Snails are not an allowed protein category. Additionally, the source title describes a technique/instructional format ('How to eat escargots') rather than a finished dish identity. No specific dish name matching the required format is present in trusted source text.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1648,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 397,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
