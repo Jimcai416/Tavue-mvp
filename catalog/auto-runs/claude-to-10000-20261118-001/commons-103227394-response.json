@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBRYUn74sSjeXDdfWkox",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 3,\n    \"lighting\": 2,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [\n    \"Metal thali presentation with multiple dishes\",\n    \"Two flatbreads (baati) with char marks visible on right\",\n    \"Red lentil-based sauce (dal) in left bowl\",\n    \"Cream/white curry in center bowl\",\n    \"Fresh tomato and onion garnish\",\n    \"Appeared straw or vegetable on plate\"\n  ],\n  \"phone_observations\": [\n    \"Red sauce bowl prominent and identifiable\",\n    \"Flatbreads visible on right side\",\n    \"Cream-coloured dish in centre\",\n    \"Fresh produce garnish visible\",\n    \"Overall composition legible at thumbnail scale\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source metadata lists 'Kadi chawal rayta food' alongside dal baati churma, creating contradiction: image shows no evident rice (chawal), no yogurt-based kadhi consistency in the cream bowl, and no raita. The cream bowl appears to be a milk-based sweet or lassi-type accompaniment, not traditional raita or kadhi.\",\n    \"Title states 'dal baati churma' but no churma (crumbled sweet wheat preparation) is visually evident on the plate or in the composition.\",\n    \"Lighting is severely deficient with strong green colour cast from overhead ambient light, reducing colour fidelity and making exact identification of curry components uncertain.\",\n    \"No protein source explicitly named in source description; tradition would suggest ghee-fried baati but no animal product is declared.\"\n  ],\n  \"reason\": \"Source metadata contains internal contradictions (title 'dal baati churma' versus description 'Kadi chawal rayta food') that cannot be reconciled with visible content. Image does not show evident rice, traditional raita consistency, or churma component. Poor lighting with green cast undermines colour reliability. No protein explicitly declared in source. Despite acceptable photograph quality and composition, identity contradiction and missing source-declared elements require hold pending clarification.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1755,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 581,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
