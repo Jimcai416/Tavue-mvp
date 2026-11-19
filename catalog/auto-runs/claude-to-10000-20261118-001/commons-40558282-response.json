@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCgN5KBp6tWY5FLAx6D4",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 3,\n    \"appeal\": 3\n  },\n  \"visible_support\": [\n    \"Skewered cubes visible on metal skewers\",\n    \"Active open flame and wood fire\",\n    \"Charred/grilled surface on food pieces\",\n    \"Metal cooking vessel/wok visible at top\"\n  ],\n  \"phone_observations\": [\n    \"Flame dominates thumbnail, obscuring food detail\",\n    \"Food items appear as small, heavily backlit silhouettes\",\n    \"Insufficient clarity to confirm paneer vs. other white cheese or tofu\",\n    \"No readable essential components of the finished dish in thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title claims 'Paneer Tikka' but paneer (fresh cheese) cannot be visually distinguished from tofu, halloumi, or other white cheese/protein in this cooking stage\",\n    \"Heavy flame and backlighting prevent confident identification of the cooked food material\",\n    \"Skewered pieces appear partially cooked or mid-preparation rather than finished plated dish\",\n    \"No clear evidence of paneer's characteristic texture or appearance in either full or thumbnail image\"\n  ],\n  \"reason\": \"Rejection based on two critical failures: (1) Identity check fails—the source claims 'Paneer Tikka' but paneer cannot be visually confirmed; white cheese species are indistinguishable in this fire-lit, partially cooked state, and no explicit protein quote can be extracted. (2) Phone thumbnail check fails—the food is severely obscured by active flame and backlighting, reducing essential components to unidentifiable silhouettes. The image captures cooking-in-progress over an open fire rather than a finished, clearly identifiable dish suitable for a food gallery.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1626,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 520,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

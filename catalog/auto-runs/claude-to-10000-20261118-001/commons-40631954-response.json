@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCgN3xakeZKnGqhU91HM",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Golden-brown charred skewered pieces prominent in foreground\",\n    \"Fresh red chilli flower garnish visible\",\n    \"Green sauce (likely coriander/mint) in white bowl\",\n    \"Colourful vegetable salad garnish in background\",\n    \"Natural lighting, well-exposed dish\"\n  ],\n  \"phone_observations\": [\n    \"Skewered golden pieces clearly visible in thumbnail\",\n    \"Green sauce bowl recognizable\",\n    \"Red chilli garnish evident\",\n    \"Dish components readable at phone size\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'Paneer Tikka Masala' but image shows tikka skewers with green sauce, not masala curry\",\n    \"Description states 'Marinated Cottage Cheese pieces' but does not explicitly name paneer\",\n    \"Source title/description mismatch: no masala (creamy tomato-based sauce) visible; this appears to be paneer tikka served with accompaniments\",\n    \"Cannot confirm paneer identity from visual appearance alone without explicit protein source quote\"\n  ],\n  \"reason\": \"Source title 'Paneer Tikka Masala' contradicts visible dish form (tikka skewers with green sauce, not masala preparation). Description only references 'Cottage Cheese pieces' without explicit 'paneer' naming. Identity check fails due to source/photograph mismatch. No explicit protein evidence quote supporting paneer or cottage cheese claim. Hold required.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1659,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 483,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

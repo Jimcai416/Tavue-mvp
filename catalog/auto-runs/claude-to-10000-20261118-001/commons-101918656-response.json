@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCgP4g2AhMZTbPShobN9",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Skewered protein pieces with charred surfaces on blue plate\",\n    \"Fried rice on red plate\",\n    \"Sauce in small bowl\",\n    \"Lemon wedge garnish\",\n    \"Fresh herb garnish visible on skewers\"\n  ],\n  \"phone_observations\": [\n    \"Skewered meat/protein pieces clearly visible\",\n    \"Red plate with fried rice recognizable\",\n    \"Blue plate with grilled items prominent\",\n    \"Sauce bowl visible in thumbnail\",\n    \"Overall composition readable\"\n  ],\n  \"protein_evidence\": {\n    \"paneer\": \"paneer tikka\"\n  },\n  \"uncertainties\": [\n    \"Source title states 'paneer tikka' but photograph shows charred meat skewers with opaque, browning exterior typical of marinated animal protein (likely chicken or lamb), not paneer which would display white/cream interior when cut or broken. Paneer does not char to this dark mahogany colour or achieve this surface texture.\",\n    \"Visual form contradicts source identity claim\"\n  ],\n  \"reason\": \"Identity check fails. The source declares 'paneer tikka' but the photograph displays meat skewers with deep caramelization, charring, and translucent browning inconsistent with paneer cheese. Paneer remains pale/white internally and does not produce this degree of surface darkening or the visible meat-like fibre structure evident in the cooked pieces. This is a material contradiction between title and visible form. Hold pending clarification of actual protein species and dish identity.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1778,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 488,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

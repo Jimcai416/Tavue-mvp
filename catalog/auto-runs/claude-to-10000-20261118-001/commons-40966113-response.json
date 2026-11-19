@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCgMeAMQKtfxN9T78UpJ",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Golden-brown charred cubes on white plate\",\n    \"Purple and white onion slices as garnish\",\n    \"Herb/spice coating visible on surface\",\n    \"Appetising glaze and char marks\",\n    \"Sharp detail in both full and thumbnail views\"\n  ],\n  \"phone_observations\": [\n    \"Central dish clearly visible in 124x96 thumbnail\",\n    \"Charred cubes and onion garnish readable\",\n    \"Golden colour and texture preserved\",\n    \"Adequate prominence and composition\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'Angara Paneer Tikka' but paneer (cheese) is not a supported protein category\",\n    \"No animal protein visible or named in source description\",\n    \"Source title cannot be used as canonical_name due to File: prefix and lack of explicit protein match to allowed categories\"\n  ],\n  \"reason\": \"Reject: The dish is paneer tikka (Indian cheese preparation), but paneer is not a supported protein category. The source title 'File:Angara Paneer Tikka.jpg' contains a filename prefix and refers to a vegetarian/cheese-based dish. No chicken, beef, pork, duck, lamb, or seafood protein is evident or claimed. While photograph and phone thumbnail quality are acceptable, identity cannot be confirmed within the allowed protein scope. The canonical_name cannot be derived from a source reference that includes unsupported ingredients and filename artifacts.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1725,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 474,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
