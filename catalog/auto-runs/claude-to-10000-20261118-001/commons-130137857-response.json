@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCTAz8KhMBbf61AmoZDn",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Red-coated meat skewers on sticks in street market setting\",\n    \"Multiple skewers prominently displayed\",\n    \"Natural daylight, outdoor urban background\",\n    \"Food appears cooked and ready to serve\"\n  ],\n  \"phone_observations\": [\n    \"Skewers clearly visible in thumbnail\",\n    \"Red coating/spice prominent\",\n    \"Adequate composition for street food identification\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title 'Khebab' contradicts description 'Ghana' — khebab/kebab is not a traditional Ghanaian dish name; regional authenticity unclear\",\n    \"Meat species cannot be determined from visual appearance alone\",\n    \"Red coating obscures underlying protein identity\",\n    \"No explicit meat species named in source title or description\"\n  ],\n  \"reason\": \"Identity mismatch: the source claims both 'Khebab' (a Middle Eastern/North African preparation) and 'Ghana' (West African country) simultaneously, which is contradictory and raises provenance doubt. More critically, no meat species is explicitly named in the title or description, only 'Khebab' — which is a cooking method/preparation, not a species. Protein cannot be inferred from appearance or tradition. The image quality and photograph technical merit are acceptable, but the identity contradiction and missing explicit protein specification prevent acceptance.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1623,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 454,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

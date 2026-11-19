@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCTAZaTgLPC91tazzLJc",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Skewered golden-brown parcels with spice coating visible on 124x96 thumbnail\",\n    \"Multiple items on wooden skewers clearly identifiable\",\n    \"Consistent colour and texture across phone view\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'Soyabean khebab' but no animal protein is visible or declared in source metadata\",\n    \"Visual appearance shows what appears to be a meat or protein-based kebab (spiced exterior, characteristic wrapping consistent with meat preparation), contradicting 'soyabean' designation\",\n    \"Soyabean is a plant protein, not in the allowed protein category list (chicken/beef/pork/duck/lamb/seafood)\",\n    \"Source title–visual form mismatch: the dish does not visually resemble soyabean preparation\"\n  ],\n  \"reason\": \"Reject: source identity contradiction. Title declares 'Soyabean khebab' but no animal protein species is explicitly named in source metadata, and soyabean is plant-based (not an allowed protein category). Visual form suggests a meat-based kebab inconsistent with the soyabean claim. Without explicit animal protein naming in the source title/description and with internal source contradictions, identity cannot be verified. Protein category cannot be established.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 2042,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 446,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

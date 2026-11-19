@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCTAzZ8Jt99L2KWJ92VS",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 5,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Golden-brown puff paratha, crisp and well-cooked\",\n    \"Orange-red curry in blue and white decorated bowl\",\n    \"Smaller portion of similar curry in separate vessel\",\n    \"Green herbs visible in smaller dish\",\n    \"Natural daylight, sharp detail throughout\"\n  ],\n  \"phone_observations\": [\n    \"Paratha clearly visible and prominent\",\n    \"Large curry bowl dominates thumbnail\",\n    \"Small side curry dish visible\",\n    \"Composition readable and identifiable\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'five-bean chili' but no legible beans are visible in the orange-red curry; curry texture and colour suggest meat-based Indian preparation rather than bean chili\",\n    \"Title claims 'refried beans' but the smaller dish does not resemble refried beans in appearance or colour\",\n    \"Source describes 'Indian pickled limes' but these are not visible in the photograph\",\n    \"Fundamental mismatch between stated dish identity (American five-bean chili and refried beans) and visible appearance (Indian meat curry with paratha)\",\n    \"No protein species declared in source title or description\"\n  ],\n  \"reason\": \"Identity check fails: source description claims 'five-bean chili and refried beans' but the photograph shows what appears to be an Indian meat-based curry served with paratha bread. The orange-red curry does not display visible beans or the texture of bean chili or refried beans. The 'Indian pickled limes' mentioned in the source are not visible. This is a fundamental contradiction between the stated dish and visible form. Additionally, no protein species is explicitly named in the source, so protein_evidence remains empty. The photograph quality and composition are excellent, but identity contradiction and undeclared protein prevent acceptance.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 2072,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 546,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

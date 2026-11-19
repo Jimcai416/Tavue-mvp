@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCTA7VZ2oFtioYFriYmK",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Yellow-green sliced avocado halves visible in full image\",\n    \"Golden-brown fried sausage pieces throughout dish\",\n    \"Orange-brown refried bean base layer\",\n    \"Black pepper seasoning distributed across surface\",\n    \"White ceramic bowl\",\n    \"Home cooking presentation\"\n  ],\n  \"phone_observations\": [\n    \"Avocado slices clearly visible in thumbnail\",\n    \"Fried sausage pieces prominent and recognisable\",\n    \"Bean base distinguishable\",\n    \"Seasoning visible\",\n    \"Full dish composition readable\"\n  ],\n  \"protein_evidence\": {\n    \"chicken\": \"fried chicken sausage\"\n  },\n  \"uncertainties\": [\n    \"Source metadata states 'chicken sausage' but photograph shows whole sausage pieces and what appear to be distinct round cross-sections typical of cooked sausage links, not minced or textured chicken sausage meat. Identity of sausage casing/form visually inconsistent with typical chicken sausage appearance.\",\n    \"No avocado is visible on or under the sausage pieces in either image—only clean avocado slices and sausage pieces are present. Source description 'avocado and fried chicken sausage' is ambiguous about arrangement; visual arrangement shows them separately, not 'on' beans together.\",\n    \"Species ambiguity: 'chicken sausage' is a declared protein category (chicken explicitly named), but visual form of the sausage pieces raises doubt about whether the dish actually contains chicken or whether the source metadata is accurate.\"\n  ],\n  \"reason\": \"Source metadata declares 'chicken sausage' and both identity and photograph quality meet standards (sharpness, lighting, composition, and appeal all ≥4). However, uncertainties are non-empty: the visual appearance of the sausage—whole links with distinct casings and cross-sections—is atypical of chicken sausage products, raising credibility concerns about species accuracy. The arrangement also shows avocado and sausage as visually separate components rather than 'on' beans in an integrated manner. Under strict protocol, any species ambiguity or source contradiction regarding protein identity requires hold status. Reject is chosen because the visual form significantly contradicts the declared protein type rather than merely requiring clarification.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 2068,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 658,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
