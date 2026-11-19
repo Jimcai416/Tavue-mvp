@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChD4as9PCp4baBbbN2pT5",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 3,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows landscape scene with people on gravel path\",\n    \"No finished food dish visible\",\n    \"Coastal/rural environment with flowers and sea in background\",\n    \"Subject matter is scenic location, not cuisine\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title/description refers to 'Gapado' (가파도 2026), which is a geographic location (Gapado Island), not a food dish\",\n    \"No finished, exposed, photographic dish present in either source image or thumbnail\",\n    \"Image appears to be travel/landscape photography, not food photography\"\n  ],\n  \"reason\": \"Rejection: This is a landscape photograph of Gapado Island, not a food dish. The source title and description identify a geographic location, not cuisine. No finished food dish is visible or prominent in either the full photograph or the phone thumbnail. The image shows a scenic outdoor environment with people visiting a landmark, completely outside the scope of food photography review. Identity check fails; photograph is not of food.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1725,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 377,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
