@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCmVUunvHbu2UQZVSKXe",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Medium-rare beef steak with seared exterior\",\n    \"Lemon wedges as garnish\",\n    \"Dark sausage (merguez style)\",\n    \"Herb garnish (parsley)\",\n    \"White plate presentation\",\n    \"Sauce reduction with spice scatter\"\n  ],\n  \"phone_observations\": [\n    \"Sliced beef clearly visible and sharp\",\n    \"Seared crust prominent\",\n    \"Medium-rare interior readable\",\n    \"Sausage visible on right side\",\n    \"Lemon and garnish distinguishable\",\n    \"Overall composition fits thumbnail well\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title describes 'Fondue de jeune bovin' (young beef fondue) but the dish depicted is a seared steak portion with sausage—this is NOT fondue (melted cheese or cooking in liquid). The title-to-image mismatch is fundamental and unexplained.\",\n    \"Merguez is a sausage of uncertain species composition (traditionally lamb/beef blend but not explicitly stated in source). Cannot confirm species without explicit source naming.\",\n    \"The beige/tan substance visible in upper right appears to be a condiment or sauce bowl, not part of the main dish.\"\n  ],\n  \"reason\": \"Reject due to identity mismatch: source title claims 'Fondue de jeune bovin et merguez' (a cheese or broth fondue with young beef and merguez), but the photograph shows a seared steak portion with sausage on a plate—a completely different dish category. This is not a fondue. Merguez species cannot be confirmed from source description alone (sausage species ambiguous). The photograph is sharp, well-lit, appetising, and the food is prominent and finished, but the title–image contradiction prevents acceptance.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1754,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 562,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

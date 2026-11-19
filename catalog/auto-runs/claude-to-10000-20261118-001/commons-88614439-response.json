@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCmVyL5gGK45o3LZPG9L",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 5,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Grilled sausages on barbecue grate\",\n    \"Multiple cooked sausages with caramelized exterior\",\n    \"Clear grill marks and browning\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail shows stacked grilled sausages clearly\",\n    \"Colouring and detail visible at reduced scale\",\n    \"Subject appropriately prominent in phone view\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title specifies 'merguez' (8) and 'saucisses' (3) but animal species of saucisses is not declared\",\n    \"Saucisses is a generic French term for sausage; underlying meat species cannot be determined from appearance or generic name alone\",\n    \"Merguez typically contains lamb/beef but source does not explicitly name the animal\",\n    \"Cannot visually distinguish which sausages are merguez and which are unspecified saucisses\"\n  ],\n  \"reason\": \"Reject: saucisses animal species is unspecified. Source title declares 'trois saucisses' (three sausages) but does not name the meat species. Generic sausage terms without explicit animal identification cannot be accepted. Merguez species also not explicitly stated in source, only implied by regional name. Identity check fails due to unspecified protein sources.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1788,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 450,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

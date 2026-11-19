@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCmWNcny4eF1tML6cjdV",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": true,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 3,\n    \"appeal\": 0\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows racing cars on a track, not food\",\n    \"Multiple sports vehicles visible in both full and thumbnail image\",\n    \"Track barriers and racing circuit infrastructure prominent\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title metadata references 'Merguez' (a sausage dish) but the photograph is entirely automotive—race cars on a circuit track\",\n    \"Severe mismatch between metadata title and actual image content\",\n    \"No food dish visible in either full photograph or phone thumbnail\"\n  ],\n  \"reason\": \"Rejection: This is a racing circuit photograph with multiple sports cars, not a food dish. The source metadata title mentions 'Merguez' but the actual photograph contains zero food content. Identity check fails completely—the photograph does not depict the dish described in the title. The phone thumbnail confirms the full image is automotive content on a racetrack, making this unsuitable for food review intake.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1628,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 356,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

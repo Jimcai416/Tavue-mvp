@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCmWc3gVTDLJupwjrP1w",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Sausages visible in pan during cooking\",\n    \"Raw/preparation stage evident\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Merguez is a sausage of unspecified meat species; source does not explicitly name the animal(s) contained\",\n    \"Image shows preparation/cooking stage, not a finished exposed dish\"\n  ],\n  \"reason\": \"Rejection on two grounds: (1) The source title identifies the dish as 'Merguez', which is a sausage of unspecified species. The source description 'Merguez in Bratpfanne gebraten' does not explicitly name which animal(s) the sausage contains—merguez traditionally may contain lamb, beef, or other meats, but no species is declared in the metadata. Per rules, unknown meat species and unspecified sausage composition require a hold or rejection. (2) The photograph shows sausages actively cooking in a pan with liquid, which is a preparation/cooking stage rather than a finished, exposed, plated dish. Tavue accepts finished dishes; raw and preparation stages are excluded. The image does not meet acceptance criteria.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1741,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 406,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

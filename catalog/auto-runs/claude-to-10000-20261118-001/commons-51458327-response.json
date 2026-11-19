@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCmW1BSqNsRRY23tvgGK",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 3,\n    \"lighting\": 3,\n    \"composition\": 2,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows raw/uncooked sausages in preparation/drying stage, not a finished plated dish\",\n    \"Sausages are strung on lines in outdoor drying/curing process\",\n    \"No prepared food service context evident\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Sausage species unspecified (merguez contains lamb/beef/pork but source does not explicitly name animal)\",\n    \"Image documents raw meat processing, not a finished, served dish\"\n  ],\n  \"reason\": \"Rejection: This is a raw/preparation stage image of sausages drying on a line, not a finished, exposed, served dish. The subject is meat in curing/drying process, lacking the photographic finish, plating, and appetising presentation required for acceptance. Additionally, while the source metadata mentions 'merguez', the sausage species cannot be confirmed from explicit text as the source does not state which animal(s) comprise these sausages. Home cooking and street food are welcome, but only when presented as finished dishes ready to consume.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1534,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 391,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

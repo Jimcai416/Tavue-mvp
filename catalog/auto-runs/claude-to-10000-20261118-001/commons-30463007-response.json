@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCmWbTUUZVrjmBzamy4D",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Five cooked sausages with deep brown/red caramelised exterior and visible char marks\",\n    \"Round bread roll (bun) in background\",\n    \"Orange condiment (likely harissa) visible on plate\",\n    \"Fresh green grass/outdoor garden setting\",\n    \"Natural daylight, well-exposed\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows five dark sausages arranged in fan pattern\",\n    \"Bread roll and condiment visible in phone view\",\n    \"Sausage identity and cooking evident in reduced size\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title states 'Merguez Wurst vom Grill' (Merguez sausage from grill in German), but metadata describes it as 'Merguez Wurst' — the German term 'Wurst' is a generic sausage category, not an animal species. Merguez is a North African spiced sausage traditionally made from lamb or beef, but the source metadata does not explicitly name the meat animal.\",\n    \"No explicit animal species declaration in source title or description — only the sausage type name 'Merguez' and the generic German word 'Wurst'\",\n    \"Species cannot be inferred from tradition or appearance alone per guidelines\"\n  ],\n  \"reason\": \"Reject: Although the photograph is sharp, well-lit, appetising and clearly shows a finished grilled sausage dish with condiments and bread, the source metadata fails to explicitly name the meat animal. The title 'Merguez Wurst vom Grill' and description 'Merguez Wurst' contain only the sausage type and German generic sausage term, not an explicit species declaration. Per protocol, unknown or unspecified meat species in sausages must be held, never inferred from tradition or appearance. The protein_evidence map remains empty and uncertainties are populated, triggering mandatory rejection.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1742,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 585,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

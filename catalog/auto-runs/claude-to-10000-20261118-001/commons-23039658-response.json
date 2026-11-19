@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCmWiY7ctNmN6AbijdeC",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 3,\n    \"lighting\": 3,\n    \"composition\": 2,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Street vendor scene dominates both images\",\n    \"Food subject is peripheral and severely underexposed in full image\",\n    \"Bowl contents not distinctly visible in either view\",\n    \"Vendor and customers are primary focus, not the dish\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title indicates 'merguez sandwich' but no sandwich is visibly present in either image\",\n    \"Bowl contents are too dark and obscured to verify identity as merguez or any specific dish\",\n    \"Food subject is minimal, clipped, and not prominently featured\"\n  ],\n  \"reason\": \"Rejection: The source title claims 'Sandwich merguez' but the full photograph shows a street vendor scene where the actual food is minimal, severely underexposed, and peripheral to the composition. The bowl visible in the image is too dark to discern contents. The phone thumbnail confirms the dish is not prominent or clearly identifiable. Essential food components are inadequately visible to verify the claimed identity. This is fundamentally a street scene photograph, not a food photograph meeting intake standards for a finished, prominent, sharply detailed dish.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1632,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 395,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
