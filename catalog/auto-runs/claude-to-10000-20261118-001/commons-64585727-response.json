@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChD1wUXL2uKjnY4TJ5opW",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 2,\n    \"composition\": 1,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Phone thumbnail shows only wrapped food packaging inside a cardboard box\",\n    \"No exposed, finished dish visible\",\n    \"Wrapping obscures all food content and components\",\n    \"No readable essential food elements in thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'French fries' but image shows wrapped items in packaging, not finished plated dish\",\n    \"Description-title mismatch: description says 'French fries' but photo is entirely of wrapped food in takeaway box\",\n    \"Cannot verify if contents are falafel mitraillette or fries due to complete wrapping\"\n  ],\n  \"reason\": \"Reject: Image shows wrapped food in delivery packaging and cardboard box, not an exposed, finished, photographed dish. The phone thumbnail displays only white wrapping paper with branding—no visible food, no readable components, no appetizing detail. Title-description contradiction (title references 'mitraillette falafel' but description claims 'French fries') and complete obscuring of actual dish content prevent identity verification. This is packaging/preparation stage, not a finished food photograph suitable for Tavue review.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1744,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 405,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChD1wUVqJYh2bfzAHSGmM",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Seeded burger bun with golden-brown exterior\",\n    \"Bright yellow fries\",\n    \"White paper wrapping marked 'DE FRIETKETEL'\",\n    \"Outdoor daytime setting\"\n  ],\n  \"phone_observations\": [\n    \"Burger and fries clearly visible in thumbnail\",\n    \"Golden colour of bun and fries preserved\",\n    \"Composition readable at small scale\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'Mitraillette falafel' but source shows a meat burger with no visible falafel, chickpeas or plant-based filling\",\n    \"Description says 'French fries' but does not name the actual sandwich dish\",\n    \"No meat species explicitly identified in source title or description\",\n    \"Critical contradiction between claimed falafel identity and visible meat burger form\"\n  ],\n  \"reason\": \"Reject: source title–image mismatch. The title declares 'Mitraillette falafel' but the photograph shows a meat burger (species unspecified) with no visible falafel or plant-based components. The description identifies only 'French fries' and does not resolve the dish identity. No explicit protein naming appears in source metadata. The identity check fails due to irreconcilable contradiction between source title and visible content.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1745,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 442,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
