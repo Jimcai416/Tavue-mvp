@@ -8672,3 +8672,9 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 
 - **Pasta Carbonara** — Francesc Fort. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:La_vita_%C3%A9_Bella_-_Pasta_Carbonara.jpg). Local asset: `reviewed-commons-173224558.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Rigatoni Alla Carbonara** — Andy Li. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Rigatoni_Alla_Carbonara_-_Pinocchio_2023-07-04.jpg). Local asset: `reviewed-commons-133956225.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Flødeboller** — [cyclonebill](https://www.flickr.com/people/23178876@N03). [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:Flickr_-_cyclonebill_-_Fl%C3%B8deboller.jpg). Local asset: `reviewed-commons-8815316.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Zabaglione** — Michael Wittwer. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Zabaglione_2021.jpg). Local asset: `reviewed-commons-113296643.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Flødeboller med hindbærskum** — [cyclonebill](https://www.flickr.com/people/23178876@N03). [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:Flickr_-_cyclonebill_-_Fl%C3%B8deboller_med_hindb%C3%A6rskum.jpg). Local asset: `reviewed-commons-8814705.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
