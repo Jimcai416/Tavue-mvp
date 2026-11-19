@@ -8414,3 +8414,9 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 
 - **Hot dogs with relish and mustard** — [jeffreyw](https://www.flickr.com/people/7927684@N03). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Hot_dogs_with_relish_and_mustard.jpg). Local asset: `reviewed-commons-23106986.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Nshima and Beef Relish** — Kiranrad. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Nshima_and_Beef_Relish_from_Proteas_Hotel,_Chingola,_Zambia.jpg). Local asset: `reviewed-commons-40709140.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Bitter Leaf Soup (Ofe Onugbu)** — Aderiqueza. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Bitter_leaf_Soup_(Ofe_Onugbu).jpg). Local asset: `reviewed-commons-118020511.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Bitter leaf soup** — Edriiic. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Bitter_leaf_soup_(Ofe_Onugbu).jpg). Local asset: `reviewed-commons-117884284.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Igbo bitter leaf soup** — Khodijah 157. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Igbo_bitter_leaf_soup_in_a_food_cooler.jpg). Local asset: `reviewed-commons-197157902.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
