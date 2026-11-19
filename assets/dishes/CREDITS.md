@@ -8793,3 +8793,8 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 - **Porra antequerana** — Xemenendura. [CC BY 3.0](https://creativecommons.org/licenses/by/3.0); [source](https://commons.wikimedia.org/wiki/File:Porra_antequerana_1.jpg). Local asset: `reviewed-commons-69484178.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Coca de recapte** — Ramon Flix Pere. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:CASTELLDANS_-_menjar_t%C3%ADpic_-_Coca_de_recapte.jpg). Local asset: `reviewed-commons-131971186.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Pa amb tomàquet** — [Mover el Bigote](https://www.flickr.com/people/62467140@N02). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Espinelves_-_Pa_amb_tom%C3%A0quet.jpg). Local asset: `reviewed-commons-58151997.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Xató de Calafell** — Van Reubejn. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:El_Xat%C3%B3_de_Calafell.jpg). Local asset: `reviewed-commons-84384358.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Panellets d'ametlla** — Judesba. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:03_Panellets.jpg). Local asset: `reviewed-commons-124712971.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
