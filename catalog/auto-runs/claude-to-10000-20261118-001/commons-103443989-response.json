@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBtGpUUAEkU2cVwPPQHH",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Golden-brown roasted whole chicken pieces on metal grill over charcoal\",\n    \"Natural colour, finished exposure, appetising appearance\",\n    \"Sharp detail in both source and thumbnail\",\n    \"Prominent subject, readable in phone thumbnail\",\n    \"Street/home cooking context evident\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows roasted poultry on grill\",\n    \"Golden browning visible and identifiable\",\n    \"Grill and charcoal context preserved\",\n    \"Sufficient detail to confirm finished dish\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'Bhatti murgh musallam' but metadata is unreliable (filename, author credit, personal comment are untrusted). Visible form is roasted whole chicken pieces on charcoal grill, but regional dish identity and spelling variant cannot be verified from photography alone.\",\n    \"No source description explicitly names the protein species in the actual title/description text—only filename and casual comment provided\",\n    \"Murgh/murgh traditionally means chicken, but explicit source quote required\"\n  ],\n  \"reason\": \"Image quality and photograph form are excellent—finished roasted poultry, sharp, well-lit, appetising, prominent in both full and thumbnail views. However, the identity check fails: the filename 'Bhatti murgh musallam' is metadata (untrusted), and the actual description ('Grandfather cooking for grandkids...') contains no dish name or protein declaration. Without a reliable source title or explicit protein naming in the description, the dish identity cannot be confirmed. Regional variant spelling and dish authenticity cannot be established from visual appearance alone. Hold pending a clean, explicit source title or description that names both the dish and protein.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1529,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 531,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

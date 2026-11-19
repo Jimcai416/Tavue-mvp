@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBtHF83h9iibud4ucEEw",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Finished, cooked meat dish in dark spiced gravy\",\n    \"Prominent presentation on white plate with glossy sauce\",\n    \"Sharp detail of meat texture and sauce coating\",\n    \"Warm, appetising colour palette\",\n    \"Phone thumbnail preserves dish identity clearly\"\n  ],\n  \"phone_observations\": [\n    \"Meat and gravy remain recognisable at thumbnail scale\",\n    \"Central composition maintains dish prominence\",\n    \"No clipping of essential components\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source description states 'mutton (goat meat)' but these are ambiguous species designators in English. 'Mutton' traditionally refers to sheep; parenthetical 'goat meat' contradicts or clarifies the intent. No explicit single animal name is unambiguous.\",\n    \"Dish identity is 'Kosha Mangsho' (Bengali), but protein species cannot be reliably extracted from the description due to the mutton/goat ambiguity.\"\n  ],\n  \"reason\": \"Image quality, sharpness, lighting, composition and appeal all meet thresholds (scores ≥4). Photograph and phone thumbnail are authentic, well-exposed, and show a finished, appetising meat curry dish. However, the source description contains a material ambiguity: 'mutton (goat meat)' presents two different animals without clarity on which is correct. Bengali tradition typically uses mutton (sheep), but the parenthetical suggests goat. This unresolved species designation prevents confident protein_evidence extraction and violates the rule that 'Unknown meat species... means hold.' The canonical_name cannot be safely assigned without resolving this contradiction. Hold pending clarification of the actual animal used.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1746,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 527,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

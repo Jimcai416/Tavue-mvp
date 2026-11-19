@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBtJ46oQRsRYD3JkKPsb",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Whole fowl visible, prominent in frame\",\n    \"Rich brown/golden gravy coating\",\n    \"Sliced almonds and herbs garnish\",\n    \"Served on decorative blue and white plate\",\n    \"Natural lighting, well-exposed\"\n  ],\n  \"phone_observations\": [\n    \"Whole bird form clearly identifiable at thumbnail scale\",\n    \"Gravy and garnish details visible\",\n    \"Plate decoration readable\",\n    \"Subject size and prominence adequate for phone review\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title states 'minced meat' but does not specify the animal species of the stuffing\",\n    \"Description mentions 'fowl' (chicken implied) for the whole bird, but stuffing meat species is unspecified\",\n    \"Ambiguity regarding which proteins should be formally extracted: only the whole bird (fowl/chicken) is explicitly named; the minced meat filling animal is not identified\"\n  ],\n  \"reason\": \"Image quality and photograph composition meet acceptance criteria. However, the source description contains a protein ambiguity: while 'fowl' (chicken) is identifiable as the whole bird, the 'minced meat' used for stuffing has no explicit animal species attribution in the title or description. Per protocol, unspecified meat species require a hold. The canonical name cannot be finalized without clarity on stuffing composition, and protein_evidence cannot include the minced meat without an explicit source-named species.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1833,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 473,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
