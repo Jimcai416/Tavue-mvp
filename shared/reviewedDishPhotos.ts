@@ -108914,5 +108914,29 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 660,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-87521851",
+    "title": "File:Vietnamese bowl of grilled pork, bun thit nuong.jpg",
+    "author": "HungryHuy",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Vietnamese_bowl_of_grilled_pork,_bun_thit_nuong.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/36/Vietnamese_bowl_of_grilled_pork%2C_bun_thit_nuong.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "8aff61faeb0b333f52505c5029caacf9e29759ca",
+    "name": "Vietnamese bowl of grilled pork, bun thit nuong",
+    "aliases": [],
+    "proteins": [
+      "pork"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-87521851.jpg",
+    "assetSha256": "ccb32328f4bce0450b1c8745209109b4ee0a32ce524649fe6975663d86ce9b25",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 600,
+    "height": 906,
+    "requiresExactMenuName": true
   }
 ];
