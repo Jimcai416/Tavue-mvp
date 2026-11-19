@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCmg2gXMaRuVqXKeh93h",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Golden-brown fried paneer cubes with charring visible\",\n    \"Fresh cilantro garnish on top\",\n    \"Creamy white sauce in small bowl (likely yogurt-based)\",\n    \"Black serving platter\",\n    \"Natural outdoor daylight\"\n  ],\n  \"phone_observations\": [\n    \"Paneer tikka pieces clearly visible and sharp\",\n    \"Dip/sauce bowl visible on left\",\n    \"Golden colour and garnish readable\",\n    \"Appetising presentation\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'Paneer Tikka Masala' but photograph shows only paneer tikka (fried paneer with sauce/dip), not the gravy-based curry dish characteristic of paneer tikka masala\",\n    \"No tomato-based masala sauce visible; only a small side dip bowl\",\n    \"Paneer is a dairy product, not in the allowed protein categories (chicken/beef/pork/duck/lamb/seafood)\"\n  ],\n  \"reason\": \"Identity mismatch: the photograph depicts paneer tikka (grilled/fried paneer with dip) rather than paneer tikka masala (a creamy tomato-based curry). Additionally, paneer is a cheese/dairy product and falls outside the allowed protein categories (chicken, beef, pork, duck, lamb, seafood). The source title cannot be accepted as matching the visible dish, and no qualifying protein is present.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1747,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 477,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
