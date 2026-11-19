@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCb3PaRvMstcXPbwFHsM",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Triangular fried chips visible\",\n    \"Corn kernels present in topping\",\n    \"Cilantro garnish visible\",\n    \"Red/tomato component visible\",\n    \"White rectangular serving plate\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail shows triangular chips and corn mixture clearly\",\n    \"Topping composition visible at reduced resolution\",\n    \"Adequate detail preserved in phone view\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title says 'papdi chaat' but description says 'papdis seved with corn mixure' (spelling inconsistency and vague)\",\n    \"No protein explicitly named in source metadata\",\n    \"Exact canonical dish name unclear: is this 'Corn Papdi Chaat' (title) or something else?\",\n    \"Description contains typo ('seved', 'mixure') suggesting metadata unreliability\",\n    \"Chaat typically includes yogurt/tamarind/spices but these are not visually confirmed\"\n  ],\n  \"reason\": \"Source metadata identity is unreliable. The title 'Corn papdi chaat' lacks consistency with the vague, misspelled description ('papdis seved with corn mixure'). No protein is explicitly named in the source. While the photograph itself shows sharp, well-lit, appetising fried chips with corn topping, the identity cannot be confidently matched to a specific canonical dish name due to source contradictions and unclear naming. Hold required pending clarification of exact dish identity and confirmation of any protein component.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1520,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 495,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
