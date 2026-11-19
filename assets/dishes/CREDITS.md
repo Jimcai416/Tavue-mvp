@@ -9241,3 +9241,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 - **Strudel from Stara Pazova** — 792a347b454. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Strudel-pazovsk%C3%A9_rete%C5%A1%C3%ADka.jpg). Local asset: `reviewed-commons-101286144.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Refried beans** — Drywontonmee  at  English Wikipedia. [CC BY 2.5](https://creativecommons.org/licenses/by/2.5); [source](https://commons.wikimedia.org/wiki/File:Refried_beans-frijoles_refritos.jpg). Local asset: `reviewed-commons-25286695.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Strudel classico** — Ramagliolo9  at  Italian Wikipedia. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Strudel_2.jpg). Local asset: `reviewed-commons-85040028.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Strudel with Sauerkraut** — Christian Humborg. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Strudel_with_Sauerkraut.jpg). Local asset: `reviewed-commons-133008981.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.

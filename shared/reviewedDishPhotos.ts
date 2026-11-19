@@ -120862,5 +120862,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 640,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-133008981",
+    "title": "File:Strudel with Sauerkraut.jpg",
+    "author": "Christian Humborg",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Strudel_with_Sauerkraut.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/61/Strudel_with_Sauerkraut.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "f621809a1e8534247e52710e33a7f7c14f885ee0",
+    "name": "Strudel with Sauerkraut",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-133008981.jpg",
+    "assetSha256": "863cc9299410b983bdba420e40bfc2e59ae216456716f84ef6da3ef99f248cc9",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 541,
+    "height": 960,
+    "requiresExactMenuName": true
   }
 ];
