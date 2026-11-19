@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBVH8ewXgjYgqyrfCvWB",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": true,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 2,\n    \"composition\": 1,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Phone thumbnail shows a street food stall and queue of customers from a distant, wide-angle perspective\",\n    \"No finished dish is visible or recognizable in the phone thumbnail\",\n    \"The subject (food/bakso) is not prominently featured or visually detailed enough to assess\",\n    \"Essential food components are absent from the centre-cover thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Although the description claims this is 'bakso' (meatball soup), no finished dish is visible in either the full source or phone thumbnail\",\n    \"The full photograph shows only the stall structure, lighting, and a customer queue—not a plated or served dish\",\n    \"No meat species is identifiable visually or confirmed by explicit quote in a dish name\"\n  ],\n  \"reason\": \"Rejection: This is a documentary/environmental photograph of a street food stall and customer queue, not a photograph of a finished, exposed, appetising dish. No bakso bowl, components, or prepared food are visible or prominent in either image. The phone thumbnail shows only the stall and crowd at distance, with no readable essential food components. The description identifies the subject as a stall scene, not a food photograph meeting Tavue's acceptance criteria. Scores fall below minimum thresholds across appeal, composition, and photograph type.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1772,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 440,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
