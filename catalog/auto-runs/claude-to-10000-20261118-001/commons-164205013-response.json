@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCVkq43q8Jbixxu2ByPe",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Tortilla wrap with visible lettuce, tomato slices, avocado slices, and what appears to be cooked meat\",\n    \"Sharp detail of fresh vegetables and seasoning visible on wrap\",\n    \"Natural daylight, appetising presentation on dark plate\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows wrapped sandwich/tortilla with lettuce and vegetables prominent\",\n    \"Readable as finished food item at phone resolution\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'Beef' but no visual evidence definitively identifies beef; meat is obscured by wrapping, lettuce, and other components\",\n    \"Species cannot be confirmed from appearance alone—the cooked meat colour and texture are ambiguous\",\n    \"Source metadata is untrusted; title alone does not constitute visual proof of beef\"\n  ],\n  \"reason\": \"Reject: Identity check fails. The source title claims 'Beef' but the visible meat is obscured by wrapping, lettuce, and vegetables. No explicit visual evidence confirms the protein species. Per instructions, ambiguous meat species and source contradictions between title and visible form require hold/reject. The photograph quality, sharpness, and phone thumbnail are acceptable, but identity cannot be verified visually.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1807,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 424,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
