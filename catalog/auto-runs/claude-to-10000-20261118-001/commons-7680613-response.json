@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCE5s4mGrhpSgVrXvK56",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Diced/chopped meat cubes with visible browning and sear\",\n    \"Translucent onion or garlic pieces interspersed throughout\",\n    \"Green pepper pieces visible\",\n    \"Natural oil/sauce coating visible on meat surface\",\n    \"Cooked, exposed finished dish appearance\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows diced meat composition\",\n    \"Essential components (meat, vegetables, sauce) prominent and readable\",\n    \"No clipping of critical elements\",\n    \"Appetising appearance maintained at reduced size\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title 'Sisig' is a Filipino dish traditionally made with pork, but the photograph alone does not visually prove meat species—only that it is cooked diced meat with vegetables and sauce\",\n    \"No explicit meat qualifier ('pork', 'beef', 'chicken') appears in the source title or description\",\n    \"Common sisig ingredients (pork jowl, liver) are not visually distinguishable in the photograph to confirm traditional preparation\"\n  ],\n  \"reason\": \"While the photograph is sharp, well-lit, and appetising, and clearly shows a finished cooked dish of diced meat with vegetables and sauce consistent with sisig, the source metadata provides only the generic name 'Sisig' without explicit meat species declaration. The guidelines require an exact source quote explicitly naming the animal protein; sisig's traditional pork preparation cannot be visually proven from the photograph alone, nor is 'pork' stated in the title or description. The identity check therefore fails. Hold pending source clarification of meat species.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1721,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 511,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
