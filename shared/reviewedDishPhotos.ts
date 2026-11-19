@@ -127735,5 +127735,55 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 719,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-101322562",
+    "title": "File:Duck Heart, Confit, Endive (9026314266).jpg",
+    "author": "Charles Haynes",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Duck_Heart,_Confit,_Endive_(9026314266).jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Duck_Heart%2C_Confit%2C_Endive_%289026314266%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "fdf9a82b8d9ada1e3690c8e2696cf522840196bc",
+    "name": "Grilled duck heart, duck confit, roasted endive on aioli",
+    "aliases": [],
+    "proteins": [
+      "duck"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-101322562.jpg",
+    "assetSha256": "fe7a868eedb386d933d3c0e66c49a6b681c67df9cb62293aa817a349d597845d",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 640,
+    "requiresExactMenuName": true,
+    "authorUrl": "https://www.flickr.com/people/87232391@N00"
+  },
+  {
+    "id": "commons-22820299",
+    "title": "File:Duck confit crepes with Cumberland sauce.jpg",
+    "author": "Daniel Sexton",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Duck_confit_crepes_with_Cumberland_sauce.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Duck_confit_crepes_with_Cumberland_sauce.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "312e4dff1e824d970053abdf7f442869b2ad71bd",
+    "name": "Duck confit crepes with Cumberland sauce and fresh basil",
+    "aliases": [],
+    "proteins": [
+      "duck"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-22820299.jpg",
+    "assetSha256": "5fe9241f74980525330b6cc167c6284770836374dcd0a7b4b02310092d00b2b6",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true,
+    "authorUrl": "https://www.flickr.com/people/58834342@N02"
   }
 ];
