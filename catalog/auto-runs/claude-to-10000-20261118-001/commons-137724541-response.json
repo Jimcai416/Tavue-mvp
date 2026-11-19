@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBipUGXFV1sV8tHubEzp",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Red condiment/sauce in white bowl with visible chilli flakes and seeds\",\n    \"Sharp focus on the dish itself\",\n    \"Natural daylight, warm wooden surface background\",\n    \"Phone thumbnail clearly shows the finished dish\"\n  ],\n  \"phone_observations\": [\n    \"Sauce is prominent and readable in thumbnail\",\n    \"White bowl clearly visible\",\n    \"Red colour and texture (chilli flakes) are distinct\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title is a filename with Vietnamese text and location reference, not a dish name\",\n    \"Description states 'Cuisine of Vietnam' but provides no specific dish identity\",\n    \"Cannot determine exact sauce/condiment name from visual alone—appears to be a chilli-based dipping sauce but specific Vietnamese variant (nước chấm chua, nước chấm ngọt, etc.) cannot be visually confirmed\",\n    \"No explicit canonical dish name provided in source metadata\"\n  ],\n  \"reason\": \"The photograph shows a finished, sharp, well-lit condiment/dipping sauce in a white bowl with clear visual detail in both full image and phone thumbnail. However, the source metadata provides only a filename and generic 'Cuisine of Vietnam' description, not a specific canonical dish name. Without an explicit, authoritative dish identification from the source title or description, identity cannot be confirmed. The sauce appears to be a Vietnamese chilli-based condiment (nước chấm variant) but the exact preparation and name cannot be visually proven or extracted from source text.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1857,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 485,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

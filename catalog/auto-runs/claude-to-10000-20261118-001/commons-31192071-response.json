@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBipa8Vv6kafboYziwN9",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 2,\n    \"composition\": 2,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows dark meat pieces on white plate with scattered crumbs\",\n    \"Very low resolution makes detail assessment impossible\",\n    \"Meat species cannot be reliably identified from either image\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title declares 'cavallo' (horse meat), which is not an allowed protein category (only chicken/beef/pork/duck/lamb/seafood accepted)\",\n    \"Image sharpness too poor to visually confirm any meat species\",\n    \"Severe motion blur and low resolution throughout both full image and thumbnail\",\n    \"Natural colour and detail cannot be assessed due to image quality\"\n  ],\n  \"reason\": \"Rejection on multiple grounds: (1) Protein species (horse/cavallo) is outside the allowed category list (chicken/beef/pork/duck/lamb/seafood only); (2) Image quality fails acceptance threshold—sharpness score 2/5 due to severe blur and low resolution in both full photograph and thumbnail; (3) Lighting score 2/5—poor, flat, inadequate to assess appetising presentation; (4) Cannot verify dish identity visually due to quality defects; (5) Composition score 2/5—scattered, unprofessional plating; (6) Appeal score 1/5—the poor image quality, sparse presentation, and crumb scatter make assessment of appetising appearance impossible. All quality-related checks fail.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1724,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 466,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

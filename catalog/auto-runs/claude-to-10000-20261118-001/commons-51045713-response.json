@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBiow1Kzqui6yGjrdxk2",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Cooked dark meat pieces with fresh herbs and green onion\",\n    \"Long green beans/vegetables on plate\",\n    \"Orange-red dipping sauce in small white bowl with visible chilli seeds\",\n    \"White plate with decorative rim\",\n    \"Toasted/fried item (top right, possibly bánh mì component)\"\n  ],\n  \"phone_observations\": [\n    \"Sauce bowl and meat components clearly visible in thumbnail\",\n    \"Green vegetables prominent\",\n    \"Dipping sauce colour and texture readable\",\n    \"Adequate detail for dish recognition\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title says 'Bún trộn' but description labels this as 'Nuoc Cham sauce @ Bo Bun' — these are different Vietnamese dishes (mixed noodles vs. beef noodle soup)\",\n    \"Title references 'James Bun' (restaurant/file context), not the dish name\",\n    \"Meat species cannot be determined visually from cooked appearance alone; 'Bo Bun' would suggest beef, but no explicit animal identifier in cleaned source description\",\n    \"No clear noodle base visible; composition inconsistent with typical bún trộn presentation\",\n    \"Exact canonical dish name unclear due to source title/description mismatch\"\n  ],\n  \"reason\": \"Source metadata contains contradictory dish identifiers: file title 'Bún trộn' versus description 'Bo Bun'. The image shows a plate with cooked meat, dipping sauce, and vegetables, but the visual composition (no visible noodle base, sauce-forward plating) does not clearly match either declared dish. Protein species cannot be visually confirmed and is not explicitly named in the sanitised source description. The identity check fails due to source contradiction and ambiguous meat species. Hold pending clarification of actual dish and explicit protein identification.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1658,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 567,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

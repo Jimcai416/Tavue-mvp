@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBiow6HKTxZYS9e9ah5X",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": \"Spezzatino di vitella speziato preparato in tajine\",\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Cooked meat cubes in red/brown sauce in traditional clay tajine dish\",\n    \"Red-brown spiced sauce visible throughout\",\n    \"Multiple meat pieces evenly distributed\",\n    \"Natural cooking photograph, not illustration or packaging\"\n  ],\n  \"phone_observations\": [\n    \"Meat cubes and sauce clearly visible in thumbnail\",\n    \"Dish and contents prominent and readable\",\n    \"Adequate detail for recognition of finished dish\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Species ambiguity: 'vitella' (veal/calf) is not an allowed category. Source names veal specifically, but only chicken/beef/pork/duck/lamb/seafood are supported proteins.\",\n    \"Cannot verify visually whether meat is veal or another species from appearance alone\"\n  ],\n  \"reason\": \"The photograph shows a finished, well-presented spezzatino (meat stew) in a traditional tajine. Quality, composition and phone thumbnail details are strong (all checks true; all scores ≥4). However, the source explicitly names 'vitella' (veal/calf meat), which falls outside the permitted protein categories (chicken/beef/pork/duck/lamb/seafood). Since the identity depends on a protein species that cannot be mapped to an allowed category, and cannot be reliably inferred from visual appearance alone, the dish must be held pending clarification or recategorization.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1743,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 476,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

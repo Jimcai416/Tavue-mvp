@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBipA9MvkVTT7PmbY8io",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Phone thumbnail shows two small containers of condiments/sauces on a wooden table\",\n    \"Red liquid (likely fish sauce or chilli dipping sauce) in left container\",\n    \"Dark preserved items in right container with blue lid\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title 'Cam Lộ th5n2023 (món ăn địa phương, nước chấm)' translates to a local dish with dipping sauce, but the photograph shows only condiments and beverages, not a finished dish\",\n    \"No identifiable finished food dish is prominently featured—only sauces, drinks, and table setting visible\",\n    \"Cannot determine specific dish identity from condiments alone\",\n    \"No readable essential food components constitute a finished, exposed dish\"\n  ],\n  \"reason\": \"Image shows only condiments (dipping sauces) and beverages arranged on a table, not a finished food dish. The title references 'nước chấm' (dipping sauce) which matches what is visible, but Tavue requires review of a finished, exposed, prominent dish with readable essential components. Condiments alone do not meet the dish criteria. Identity check fails because the visible content is sauce containers and drinks, not the described local dish itself.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1744,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 436,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
