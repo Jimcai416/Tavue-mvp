@@ -134883,5 +134883,51 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "height": 720,
     "requiresExactMenuName": true,
     "authorUrl": "https://flickr.com/people/46723181@N02"
+  },
+  {
+    "id": "commons-94980206",
+    "title": "File:DoughnDolce Beef Sandwich.jpg",
+    "author": "Vincent60030",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:DoughnDolce_Beef_Sandwich.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/99/DoughnDolce_Beef_Sandwich.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "6af8da53116fe283b954bfcd317e5c88ddac35c6",
+    "name": "Beef brisket sandwich filled with cheese",
+    "aliases": [],
+    "proteins": [
+      "beef"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-94980206.jpg",
+    "assetSha256": "3af059c4220ae7544d7d5907c330736284413dffe36521c5e698d0c6cc50c1af",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-44238779",
+    "title": "File:Focaccia col formaggio 03.jpg",
+    "author": "Alessio Sbarbaro  User_talk:Yoggysot",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Focaccia_col_formaggio_03.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Focaccia_col_formaggio_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "e7fd2503ae4e2f3aeac69037cd2bf94cea056306",
+    "name": "Focaccia farcita con il formaggio",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-44238779.jpg",
+    "assetSha256": "ef9a9d60279e3ee0bdc2a3cd35f632dc04aeb13de3f4eb2ae45ebd1e4c364cc0",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];
