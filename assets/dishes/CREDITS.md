@@ -7054,3 +7054,11 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Miso Soup** — Brücke-Osteuropa. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Miso_Soup_2.jpg). Local asset: `reviewed-commons-14939811.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Pholourie with curry dip** — Attribution not necessary on any *.wikipedia.org or *.wikimedia.org pages. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:MISC_Pholourie_with_Curry_Dip.jpg). Local asset: `reviewed-commons-30725939.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Arroz con leche** — Juan Emilio Prades Bel. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Arroz_con_leche,_postre.jpg). Local asset: `reviewed-commons-129949806.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Trinidad iftar plate date, pholourie, channa** — 999real. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Trinidad_iftar_plate_date,_pholourie,_channa.jpg). Local asset: `reviewed-commons-161231650.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Arroz con leche espolvoreado con canela molida** — Juan Emilio Prades Bel. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Arroz_con_leche_espolvoreado_con_canela_molida.jpg). Local asset: `reviewed-commons-139851101.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Arroz con leche venezolano** — Raghlin. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Arroz_con_leche_venezolano.jpg). Local asset: `reviewed-commons-32640639.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
