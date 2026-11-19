@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBnu4bLugYU39hTs6zr7",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Cooked sausages in natural wood presentation vessel with straw\",\n    \"Market display setting with handwritten price label\",\n    \"Multiple smoked/cured sausages with mottled brown surface\",\n    \"Sharp detail of sausage casings and texture in full image\",\n    \"Phone thumbnail shows prominent sausages in wooden bowl\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly displays cooked sausages\",\n    \"Wooden presentation vessel visible\",\n    \"Golden-brown colour and segmentation readable\",\n    \"Central composition captures main subject\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'Jesus de Morteau (saucisse de Morteau)' but saucisse/sausage category is not permitted in protein_evidence keys\",\n    \"Source metadata describes sausage but specific animal species (pork/beef/other) is not explicitly named in title or description\",\n    \"Sausage products cannot be verified to a named allowed protein category without explicit species declaration in source text\",\n    \"Generic 'saucisse' designation does not constitute explicit animal identification per protocol\"\n  ],\n  \"reason\": \"Reject: The source describes this as 'saucisse de Morteau' (a sausage product), but the protocol explicitly forbids using 'sausage' as a protein_evidence key and requires explicit animal species naming. The title/description does not state which animal the sausage contains. Although the photograph is well-exposed, sharp, appetising and market-appropriate, identity cannot be confirmed because the protein species cannot be extracted from source text as an exact quote naming a specific allowed animal (chicken/beef/pork/duck/lamb/seafood). Per protocol: 'do not guess which animal sausage contains' and 'Unknown meat species still means hold.' This falls under uncertainty requiring hold/reject.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1731,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 563,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

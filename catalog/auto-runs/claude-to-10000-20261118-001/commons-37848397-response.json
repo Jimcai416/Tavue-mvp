@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBnthd2K6BQf5rWg5Kii",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Spaghetti alla Chitarra visible with tomato-based sauce\",\n    \"Cheese (white powder) and black pepper/oregano topping clearly visible\",\n    \"Red tomato sauce coating pasta strands\",\n    \"Finished, exposed dish on white plate\"\n  ],\n  \"phone_observations\": [\n    \"Pasta and sauce clearly recognizable in thumbnail\",\n    \"Toppings visible but small\",\n    \"Dish composition readable at phone size\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"'Nduja is a spiced pork spread from Calabria, but the source description names it without explicit animal qualifier in the title/description field provided\",\n    \"No visible meat pieces or chunks distinctly identifiable in the photograph to confirm 'nduja presence visually\",\n    \"Source metadata (title field in JSON) contains 'Spaghetti alla Chitarra with 'Nduja & tomato sauce' but 'nduja itself is not explicitly named as 'pork' in the source text—only the product name appears\"\n  ],\n  \"reason\": \"The photograph is sharp, well-lit, properly composed, and appetising. The dish is finished and exposed. However, the source description provides only the product name 'Nduja without an explicit animal qualifier (e.g., 'pork 'nduja'). Per protocol, proteins may only be included when the source explicitly names the animal. While 'nduja is traditionally pork, tradition alone is insufficient; the source must state it. No visible meat pieces in the photograph confirm the ingredient. The identity cannot be fully verified without explicit protein naming in the source. Hold for clarification or rejection if animal qualifier is not available in authorised source.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1979,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 529,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
