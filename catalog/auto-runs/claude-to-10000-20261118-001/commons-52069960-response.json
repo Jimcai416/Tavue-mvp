@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBp3dWahn5wWU7ZjDCn3",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 5,\n    \"appeal\": 5\n  },\n  \"visible_support\": [\n    \"White bowl with reddish-orange broth\",\n    \"Noodles visible in liquid\",\n    \"Ground/minced reddish meat topping (prominent)\",\n    \"Fresh green herbs garnish\",\n    \"White chopsticks and spoon\",\n    \"Accompanying plate of fresh vegetables (okra, lime, herbs)\",\n    \"Yellow condiment container visible\",\n    \"Street food setting on wooden table\"\n  ],\n  \"phone_observations\": [\n    \"Bowl clearly visible with orange broth\",\n    \"Noodles and reddish meat topping readable\",\n    \"Herb garnish visible\",\n    \"Accompanying vegetables partially visible\",\n    \"Dish is prominent and well-composed in thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title states 'Khao soi' (Lao-style) but visual evidence shows a noodle soup with ground meat topping and orange/red broth, more consistent with Lao-style Nam kao soi or a variant khao poon-style preparation; standard khao soi typically features egg noodles in yellow curry with chicken or beef, not prominently minced/ground meat with reddish broth\",\n    \"Meat species not explicitly named in source description ('from a street vendor'); minced/ground meat topping visible but cannot confirm animal source (could be pork, beef, or chicken) from appearance alone\",\n    \"Exact dish identity ambiguous between khao soi variants, khao poon, or regional noodle soup; source metadata insufficient to verify canonical name\"\n  ],\n  \"reason\": \"Identity check fails. Source title 'Khao soi, Lao-style' contradicts visual evidence: the dish shows a reddish/orange broth noodle soup with prominently minced meat topping, inconsistent with standard khao soi preparation (typically egg noodles in yellow curry). Meat species is not explicitly declared in the description. Without a source document that precisely names both the exact dish variant and the specific protein, and given the visual-to-title mismatch, identity cannot be confirmed. All quality and photograph checks pass (sharp, well-lit, appetizing, prominent in phone thumbnail), but protein_evidence is empty due to lack of explicit animal naming in metadata. Hold pending clarification of exact dish type and protein source from vendor or reliable documentation.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1755,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 674,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
