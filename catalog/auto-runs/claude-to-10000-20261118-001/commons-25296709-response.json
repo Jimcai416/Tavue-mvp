@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBr6UHmXYv3Pihi4cJcn",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Pizza slice visible with cured meat topping and yellow cheese\",\n    \"Cardboard surface clearly visible in both images\",\n    \"Cooked pizza with browned crust\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title states 'Pastrami pizza' but the red/burgundy cured meat visible in the photograph is visually indistinguishable from pepperoni or salami; pastrami is a spiced, steamed-then-grilled brisket product not typically appearing as thin slices on pizza\",\n    \"Source description claims mustard inclusion but no mustard is visually evident in either the full image or thumbnail\",\n    \"The meat's appearance (thin slices, cured, burgundy colour) contradicts typical pastrami form and preparation method\"\n  ],\n  \"reason\": \"Source title and description are contradicted by visual evidence. The dish is presented as 'Pastrami pizza...Includes pastrami and mustard', but the meat topping appears as typical pizza cured meat slices (pepperoni/salami character) and no mustard is visible. Pastrami's distinctive spiced, coarse-textured steamed product form is not supported by the smooth, thin-sliced appearance shown. The identity claim cannot be verified against the photograph, violating the requirement that identity must agree with visible form. All quality and photographic checks pass, but the fundamental identity check fails.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1759,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 468,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
