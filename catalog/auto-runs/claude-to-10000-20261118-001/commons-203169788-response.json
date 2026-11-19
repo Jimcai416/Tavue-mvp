@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCVAh2ACx34AHEdkfGp6",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [\n    \"Hormel Chili can label clearly visible\",\n    \"Pasta/macaroni base visible in bowl\",\n    \"Chili topping with beans visible\",\n    \"Finished plated dish presented\"\n  ],\n  \"phone_observations\": [\n    \"Dish identifiable at thumbnail size\",\n    \"Chili and pasta components readable\",\n    \"No essential food clipped\",\n    \"Overall composition clear\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Hormel Chili ingredient list not visible; meat species in canned chili product cannot be verified from image alone\",\n    \"Source title 'Chili Mac' is a generic descriptor, not a specific dish name with identifiable regional or preparation variant\",\n    \"Protein composition of the canned chili product is not declared in visible metadata\",\n    \"No explicit statement of which animal protein(s) the chili contains\"\n  ],\n  \"reason\": \"Rejection based on identity and protein uncertainty. The source provides only a generic descriptor 'Chili Mac' without a specific canonical dish name or meaningful variant qualifier. More critically, the protein evidence cannot be established: the canned Hormel Chili product's meat species is not stated in the visible title or description. Per guidelines, unspecified or ambiguous meat species in prepared foods must be held or rejected. The photograph itself is acceptable in quality and presentation, but the source documentation does not meet the requirement for exact, specific identity with verifiable protein declarations.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1726,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 472,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
