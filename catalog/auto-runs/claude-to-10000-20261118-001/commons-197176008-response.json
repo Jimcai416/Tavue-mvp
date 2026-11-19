@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCsQWenGqDYR6EUQBzMT",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Finished, baked bread visible in full source photo\",\n    \"Golden-brown crust with black seeds (cumin) and rosemary sprigs\",\n    \"Cross-section clearly shows crumb structure\",\n    \"Served on wooden board with checkered cloth background\",\n    \"Phone thumbnail captures bread form and texture adequately\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail shows sliced bread with visible crumb and dark seeds\",\n    \"Rosemary sprigs visible in both thumbnail and full image\",\n    \"Bread form prominent and recognizable in phone view\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title is 'File:2026-08-09 Rosmarin-Brot 1450702.JPG' (filename with date), not a canonical dish name\",\n    \"Description contains 'Rosemary bread with ras el hanout and black cumin' but the filename-based title lacks this specificity\",\n    \"Source metadata describes origin context but provides no vetted canonical dish name matching the description\",\n    \"Cannot extract a clean, standard dish name from the metadata supplied\"\n  ],\n  \"reason\": \"Identity check fails. The source title is a filename (File:2026-08-09 Rosmarin-Brot 1450702.JPG) rather than a canonical dish description. The description contains rich detail ('Rosemary bread with ras el hanout and black cumin, based on a family recipe from Bukhara'), but the instructions require canonical_name to be copied exactly from source title or description without file information. The filename does not constitute usable identity evidence. The photograph itself is sharp, well-lit, appetizing, and finished, but without a proper, extracted canonical name from non-filename source text, the identity check cannot pass. Hold would be more appropriate than reject if a resubmission with a clean title is possible.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1793,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 571,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
