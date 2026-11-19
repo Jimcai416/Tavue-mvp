@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBLGvd5yJX4mdEoFofEx",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 5,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Golden-brown burger bun with visible sesame or similar coating\",\n    \"Layered dark meat patty (appears beef-coloured rather than lamb-red)\",\n    \"Fresh leafy greens visible between bun and patty\",\n    \"Golden hand-cut fries in wire basket with professional presentation\",\n    \"Creamy pale aioli/sauce in small ramekin\",\n    \"White plate with blue rim, bistro-style plating\"\n  ],\n  \"phone_observations\": [\n    \"Burger, fries and aioli all clearly visible in thumbnail\",\n    \"Golden-brown bun prominent and sharp\",\n    \"Meat patty colour appears darker/browner than typical raw or cooked lamb\",\n    \"Fries texture and colour consistent with deep-fried potatoes\",\n    \"Sauce bowl visible at left of composition\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Meat species contradiction: source claims 'Lamb Burger' but visible patty colour and apparent texture are consistent with beef rather than lamb. Cooked lamb typically shows pink or red tones; this patty appears brown/beef-coloured.\",\n    \"No explicit visual evidence of lamb in the finished dish. The seaweed-fed qualifier cannot be visually verified and does not resolve species ambiguity.\",\n    \"Ambiguous meat species identification makes canonical name unreliable.\"\n  ],\n  \"reason\": \"Source title claims 'Lamb Burger' but the visible cooked patty displays colour and appearance inconsistent with lamb—darker brown tone typical of beef rather than the pink or red tones expected from lamb. While photograph quality, composition, plating and phone thumbnail are all excellent (all checks pass except identity), the fundamental protein species cannot be visually confirmed to match the source claim. Per protocol, ambiguous meat species or source contradictions require hold. The seaweed-fed qualifier is not visually demonstrable and does not resolve the core identification uncertainty.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1656,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 577,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
