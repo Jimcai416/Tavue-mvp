@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBfGSpy1k4g6St4PFRNT",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 3,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Plate visible with cooked food on white disposable plate\",\n    \"Golden-brown irregular pieces visible\",\n    \"Green grass background visible in thumbnail\",\n    \"Subject legible but context minimal\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title lists four dishes (Tilapia, Tortang giniling na baboy, Nilagang baboy, Sweet and sour meat balls) but photograph shows only one plated dish; identity cannot be determined\",\n    \"Visible form is a golden-brown cooked item with what appears to be a vegetable side, but source lists both seafood (tilapia) and multiple pork preparations; cannot match photograph to any specific named dish\",\n    \"No explicit protein naming in source that matches the visible golden-brown cooked item on plate\"\n  ],\n  \"reason\": \"Source title is a list of four distinct dishes without clear correspondence to the single plated dish photographed. The photograph shows a golden-brown cooked item with vegetables on a white disposable plate on grass, but source ambiguity prevents confident identity match. The 'Tortang giniling na baboy' and 'Nilagang baboy' are pork dishes mentioned in source, but neither description definitively matches visible appearance. Without clear identity agreement between source title and visible form, and with unresolved source contradictions preventing canonical_name assignment, hold criteria are met. Identity check fails.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1822,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 461,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

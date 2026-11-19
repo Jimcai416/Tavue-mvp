@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBfHGE1nY5FKFz6mBjaw",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows cooked, browned sausage pieces in bulk display\",\n    \"Consistent red-brown colour visible at 124x96 resolution\",\n    \"Food appears finished and exposed\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'Longaniza en tacos chema' but photograph shows raw sausage links and bulk cooked sausage pieces displayed in a shop window, not tacos or a plated dish\",\n    \"No tacos visible—only loose sausage links and bulk cooked portions in display case\",\n    \"Dish form does not match title: title specifies 'en tacos' (in tacos) but image shows preparation/retail display stage, not a finished plated taco dish\",\n    \"Source metadata describes this as retail sausage display rather than a finished, served dish\"\n  ],\n  \"reason\": \"Identity mismatch: title claims 'Longaniza en tacos chema' (longaniza in tacos), but the photograph shows raw sausage links and bulk cooked sausage pieces in a retail display case, not tacos or a plated finished dish. The image documents a preparation/retail stage rather than a finished, exposed, served food item. While the sausage itself is finished and cooked, the dish form contradicts the stated identity. Reject per requirement that identity must agree with visible form.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1731,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 460,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
