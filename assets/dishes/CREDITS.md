@@ -10307,3 +10307,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Frutta martorana** — Auregann. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Frutta_martorana_1.jpg). Local asset: `reviewed-commons-153904829.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Plateau de fruits de mer** — Charlottea. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Plateau_de_fruits_de_mer.jpg). Local asset: `reviewed-commons-16945523.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
