@@ -94216,5 +94216,28 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-39803992",
+    "title": "File:Serbian Gibanica (8939893319).jpg",
+    "author": "Matus Ferko  from Bratislava, Slovakia",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Serbian_Gibanica_(8939893319).jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Serbian_Gibanica_%288939893319%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "17289e628f5f14903b867c29bfe00711c74bb172",
+    "name": "Serbian Gibanica",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-39803992.jpg",
+    "assetSha256": "0d091b625a78cdeaccfe7d24bf915925507cad5f52b701a0a03d33216a5ea176",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 612,
+    "height": 612,
+    "requiresExactMenuName": true,
+    "authorUrl": "https://www.flickr.com/people/64899312@N00"
   }
 ];
