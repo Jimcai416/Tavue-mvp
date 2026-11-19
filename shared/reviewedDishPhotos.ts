@@ -89604,5 +89604,53 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 563,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-140330093",
+    "title": "File:Fish soup, Ibiza.jpg",
+    "author": "Gerda Arendt",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fish_soup,_Ibiza.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Fish_soup%2C_Ibiza.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "248a27bcb844b14f612bdbde602a77f731db52f9",
+    "name": "Fish soup",
+    "aliases": [],
+    "proteins": [
+      "seafood"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-140330093.jpg",
+    "assetSha256": "eb05d232165ea148a4d598e61885b6fff9e12ba643a81542298985b77916b670",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-107567899",
+    "title": "File:Easter breakfast in Serbia (close-up).jpg",
+    "author": "Petar Milošević",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Easter_breakfast_in_Serbia_(close-up).jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Easter_breakfast_in_Serbia_%28close-up%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "00c3dc00aeda61bd20f213f2b143618d81d5a71e",
+    "name": "Easter breakfast in Serbia",
+    "aliases": [],
+    "proteins": [
+      "pork"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-107567899.jpg",
+    "assetSha256": "d8148cbbbf0f45b200a375a5642cecf61b9528aa730d17845cd088f822cd21f3",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];
