@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBgpFEiUeKnDLohkADCD",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Crispy rice cakes (cơm cháy) clearly visible in foreground bowl\",\n    \"Green leafy vegetable side dish (top right)\",\n    \"Clear broth/soup with herbs (top centre)\",\n    \"Small condiment bowls with what appears to be sauce and paste\",\n    \"Chopsticks and dining setup visible\",\n    \"Natural daylight, well-exposed\"\n  ],\n  \"phone_observations\": [\n    \"Central dish clearly shows pale, crispy rice cakes\",\n    \"Green vegetables and soup bowls visible in thumbnail\",\n    \"Adequate detail for identification of main component\",\n    \"Dish composition recognizable at phone size\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title declares 'thịt dê' (goat meat) but no goat meat is visibly identifiable in the photograph. The crispy rice cakes are the prominent finished dish; any meat component is not clearly visible or distinguishable in either full or thumbnail image.\",\n    \"Species ambiguity: 'dê' may refer to goat or could be confused with similar animals in Vietnamese; without visible meat evidence this cannot be verified.\",\n    \"The broth may contain meat but species and presence cannot be confirmed from visual inspection alone.\"\n  ],\n  \"reason\": \"Source title declares 'Cơm cháy thịt dê' (crispy rice with goat meat), but the photograph shows primarily crispy rice cakes as the finished dish. No goat meat or any clearly identifiable meat is visibly prominent or distinguishable in the full image or phone thumbnail. The stated protein cannot be visually confirmed. Additionally, 'dê' (goat/mutton ambiguity) combined with lack of visible evidence triggers the hold rule: 'ambiguous meat species (including mutton that might mean goat)...=> hold.' While the photographic quality and composition are strong, the protein identity mismatch between source declaration and visible content prevents acceptance.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1758,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 585,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

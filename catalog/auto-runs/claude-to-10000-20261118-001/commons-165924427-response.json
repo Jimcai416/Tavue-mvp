@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBgp179X9X8EkGMkcH4F",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [\n    \"Steamed or wrapped fish preparation in banana leaves\",\n    \"Yellow spice paste visible on fish surface\",\n    \"Natural lighting and clear detail of cooked dish\"\n  ],\n  \"phone_observations\": [\n    \"Wrapped fish and spice coating visible in thumbnail\",\n    \"Subject is prominent and not clipped\",\n    \"Detail adequate for identification of wrapped preparation\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title 'Pèpès ikan 3.jpg' is a filename, not a canonical dish name\",\n    \"Description 'Makanan terdisionil Betawi' is Indonesian but does not provide the specific dish name\",\n    \"Fish species not identified in source metadata\",\n    \"No explicit English or standardized dish title provided to confirm identity\"\n  ],\n  \"reason\": \"Rejection: source metadata contains only a filename and vague description ('traditional Betawi food') without a proper canonical dish name or identity confirmation. The photograph clearly shows a finished, cooked fish preparation wrapped in banana leaves with spice paste, but absence of an explicit, authoritative dish title or species identification fails the identity check. A proper source title or description is required to confirm this is a named dish and to establish the fish species.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1735,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 419,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
