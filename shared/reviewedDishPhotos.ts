@@ -117687,5 +117687,54 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-101595383",
+    "title": "File:Pho, beef brisket, tendon, tripe (30025527004).jpg",
+    "author": "T.Tseng",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pho,_beef_brisket,_tendon,_tripe_(30025527004).jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Pho%2C_beef_brisket%2C_tendon%2C_tripe_%2830025527004%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "2f75ba14126b9ba86be592ba4253289d3670740b",
+    "name": "Pho, beef brisket, tendon, tripe",
+    "aliases": [],
+    "proteins": [
+      "beef"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-101595383.jpg",
+    "assetSha256": "e618303124c920568460f051bc335a1c77cf7de7967dee16d80d03957bdf75de",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true,
+    "authorUrl": "https://www.flickr.com/people/68147320@N02"
+  },
+  {
+    "id": "commons-2292865",
+    "title": "File:Vietnamese Pho Beef Noodles 2007.jpg",
+    "author": "Kham Tran",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Vietnamese_Pho_Beef_Noodles_2007.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Vietnamese_Pho_Beef_Noodles_2007.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "bbfa6edcbf334ce74f21c3d3d6ee6d65b5724e0b",
+    "name": "Vietnamese phở beef noodles",
+    "aliases": [],
+    "proteins": [
+      "beef"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-2292865.jpg",
+    "assetSha256": "1d5e7d1e8833f90f5e7f947ef54525f84430ac8f8a9381784ddb4fd640a3f656",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];
