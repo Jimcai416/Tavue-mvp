@@ -98304,5 +98304,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "height": 640,
     "requiresExactMenuName": true,
     "authorUrl": "https://flickr.com/people/39107352@N08"
+  },
+  {
+    "id": "commons-10608050",
+    "title": "File:Travancore Cheera Thoran.JPG",
+    "author": "Xufanc",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Travancore_Cheera_Thoran.JPG",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/22/Travancore_Cheera_Thoran.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "104627d33cc0927e8a4df2a998c1814b6a86a3f8",
+    "name": "Travancore Cheera Thoran",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-10608050.jpg",
+    "assetSha256": "cb09a9a1f48baf9d3b63091b0a1df1fdf9ec5882031740f2f061d55dfcfa8bc1",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 859,
+    "height": 686,
+    "requiresExactMenuName": true
   }
 ];

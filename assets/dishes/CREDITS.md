@@ -7280,3 +7280,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 - **Chicken shallot thoran - kerala style** — REVATHY. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Chicken_shallot_thoran_-_kerala_style.jpg). Local asset: `reviewed-commons-40969164.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Idichakka thoran** — Neethumohanv. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Idichakka_thoran.jpg). Local asset: `reviewed-commons-102146401.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Kerala Beans thoran curry** — [Ramesh NG](https://flickr.com/people/39107352@N08). [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:Kerala_Beans_thoran_curry.jpg). Local asset: `reviewed-commons-12014224.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Travancore Cheera Thoran** — Xufanc. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Travancore_Cheera_Thoran.JPG). Local asset: `reviewed-commons-10608050.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
