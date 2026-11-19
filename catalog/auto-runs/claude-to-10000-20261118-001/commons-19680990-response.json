@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDC1v2mgZigiv5M1Ebv5",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 3,\n    \"lighting\": 3,\n    \"composition\": 2,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Phone thumbnail shows a street cart vendor preparing food\",\n    \"No finished, plated dish visible in thumbnail\",\n    \"Cart interior and preparation stage dominates frame\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"No finished dish visible—only a preparation/service scene at a street cart\",\n    \"Source title describes ingredients (noodle, vermicelli, cabbage, tomato, cow's leg, tripes, risoles) but no cooked Soto Mie bowl is shown in full source or thumbnail\",\n    \"The image captures the vendor and cart setup, not an exposed, plated, finished food subject\"\n  ],\n  \"reason\": \"Rejection: This is a street food preparation/service scene, not a photograph of a finished dish. The full source shows a vendor at a Soto Mie Bogor cart in the act of preparing/serving food, with ingredients visible in the cart window and salt being added to a bowl in the vendor's hand—but no complete, plated, appetising finished dish is prominently displayed or sharply detailed. The phone thumbnail shows only the cart and vendor setup. Per instructions, raw/preparation stages and scenes without a finished, exposed, prominent dish are rejected. The composition and subject treatment prioritise the street-food context and vendor action over the food itself.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 2041,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 437,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

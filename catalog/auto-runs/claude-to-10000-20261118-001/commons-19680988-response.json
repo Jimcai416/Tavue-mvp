@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDC1sYCR8a7MitwS26a2",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Yellow noodles clearly visible\",\n    \"Broth-based soup evident\",\n    \"Cooked meat pieces present\",\n    \"Potato chunks visible\",\n    \"Red tomato pieces visible\",\n    \"Bowl presentation appropriate\"\n  ],\n  \"phone_observations\": [\n    \"Noodles readable in thumbnail\",\n    \"Broth and meat components clear\",\n    \"Overall composition recognizable\",\n    \"Appetising appearance maintained at reduced size\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source metadata lists 'cow's leg (tendons and cartilage) and tripes' but photograph does not visually distinguish cartilage/tendon/tripe from generic cooked meat pieces\",\n    \"Risoles spring rolls mentioned in source but not clearly identifiable in photograph\",\n    \"Exact meat species cannot be reliably confirmed from visual appearance alone; 'cow's leg' is not among approved protein categories (chicken/beef/pork/duck/lamb/seafood)\",\n    \"Red pieces appear to be tomato rather than meat; source credit for animal parts relies on metadata only\"\n  ],\n  \"reason\": \"Reject: source description lists 'cow's leg (tendons and cartilage) and tripes' as protein components, but neither 'beef' nor any approved protein category is explicitly stated in the source title/description using standard culinary terminology. The anatomical parts (tendon, cartilage, tripe) are not visually distinguishable in the photograph, and the metadata protein claims cannot be verified from visual inspection. Additionally, the dish identity 'Soto Mie Bogor' is not a specific canonical dish name but a category/location reference. Protein evidence cannot be established with the required exact source quote matching an approved category.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1845,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 539,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
