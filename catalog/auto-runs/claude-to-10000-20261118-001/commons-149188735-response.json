@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBTNWjdPu9VwcfZmnvU5",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Finished, cooked pasta dish with glossy cavatelli\",\n    \"Brown meat pieces visible throughout\",\n    \"Fresh green herb garnish (chives/parsley)\",\n    \"Natural lighting, appetising appearance\",\n    \"Sharp detail in both full and thumbnail views\"\n  ],\n  \"phone_observations\": [\n    \"Cavatelli pasta clearly visible and prominent\",\n    \"Brown meat pieces discernible at thumbnail scale\",\n    \"Herb garnish visible\",\n    \"Essential components readable in 124x96 crop\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title states 'Sausage' but species is unspecified—cannot confirm whether pork, beef, or other animal\",\n    \"Brown meat pieces visible but animal species cannot be reliably determined from appearance alone\",\n    \"No explicit animal identifier in source description beyond generic 'Sausage'\"\n  ],\n  \"reason\": \"The photograph is of high quality, well-lit, sharp and appetising, with the dish clearly identifiable as cavatelli pasta with brown butter and meat. However, the source title refers only to 'Sausage' without specifying the animal species (pork, beef, or other). Per protocol, sausage is not an allowed protein category key, and the species cannot be inferred from appearance or tradition. Without an explicit source quote naming the animal (e.g. 'pork sausage', 'beef sausage'), the protein cannot be supported. This creates an identity mismatch: the visible form cannot be mapped to the source description's protein claims. Hold pending clarification of sausage species.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1732,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 507,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
