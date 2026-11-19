@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBcead386X6oMPLLMqxa",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 2\n  },\n  \"visible_support\": [\n    \"Pale cream-coloured granular food mass with herbs and black specks\",\n    \"Bright green avocado slice on white plate\",\n    \"Colorful textile background (blue, red, yellow stripes)\",\n    \"Natural daylight, some surface glare on plate\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows granular pale food pile with green herb garnish\",\n    \"Avocado slice visible on right side\",\n    \"Food identity visible but appeal diminished at small scale\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Escamoles (ant larvae) are not in the allowed protein category list (chicken/beef/pork/duck/lamb/seafood)\",\n    \"Source title provides only 'Escamoles' with no explicit animal species quote matching protocol requirements\",\n    \"Dish contains insect larvae, which falls outside canonical protein categories\"\n  ],\n  \"reason\": \"While the photograph is sharp, well-composed, and the dish is clearly identifiable as escamoles (ant larvae) from both source title and visual appearance, escamoles do not belong to any of the five allowed protein categories (chicken, beef, pork, duck, lamb, seafood). The source description provides no alternative animal protein quote. The identity check fails because the dish category is not supported by the review protocol. Reject on identity constraint violation.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1624,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 450,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

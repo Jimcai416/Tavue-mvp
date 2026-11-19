@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBcf1voAeJmPb5TkfhUM",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows a brown/bronze oval dish with granular pale mixture and green garnish\",\n    \"Lime wedge and green guacamole visible in full image but not prominently featured in phone thumbnail\",\n    \"Overall composition legible in thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title describes 'escamoles' (ant larvae) but the full ingredient list and preparation cannot be visually confirmed as authentic escamoles vs a superficially similar grain or legume dish\",\n    \"Escamoles are insect larvae, not an allowed protein category (chicken/beef/pork/duck/lamb/seafood)\",\n    \"Visual appearance alone cannot distinguish escamoles from couscous, pearl barley, hominy or other granular preparations\"\n  ],\n  \"reason\": \"Rejection: The source description identifies this as escamoles (ant larvae—Liometopum humile), which is not an allowed protein category. Tavue's protein_evidence categories explicitly permit only chicken, beef, pork, duck, lamb, or seafood. Although the photograph is sharp, well-lit and appetisingly composed, and the metadata credit is provided, the dish's core ingredient falls outside the acceptance scope. The visual appearance alone cannot reliably confirm escamoles vs. a granular grain or legume preparation. Identity check fails due to unsupported protein classification.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1759,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 453,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
