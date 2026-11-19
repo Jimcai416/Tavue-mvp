@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChD2iY5PyRsxz1BToAmP3",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": true,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 2,\n    \"composition\": 2,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Subject is a person, not a finished food dish\",\n    \"Phone thumbnail shows human in center, not food\",\n    \"No recognizable food elements prominent in thumbnail\",\n    \"Essential dish content is completely absent or clipped\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title references 'Fura da nono' but image shows a person holding a bowl, not an exposed finished dish\",\n    \"Metadata title/description incomplete and non-standard\",\n    \"Actual food content not visibly prominent or identifiable in either image\"\n  ],\n  \"reason\": \"Rejection: This is a documentary/portrait photograph of a person holding food, not a food photograph. The subject is the human, not the finished dish. The phone thumbnail shows the person as the central element with food incidental and not prominently displayed. Essential food components are not sharp, clearly exposed, or appetisingly presented in a way that meets Tavue's food photography standards. The image fails identity (shows person, not food), quality (soft, poor lighting), phone observation (food not prominent), and composition (documentary rather than culinary focus) checks. All quality scores fall below the required minimum of 4.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1724,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 408,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

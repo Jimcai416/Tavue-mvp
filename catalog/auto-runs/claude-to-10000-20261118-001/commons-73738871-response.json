@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChD2iY5eeL9taL8gPxAQQ",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 3,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows a metal bowl/pot with unmixed dry ingredients in preparation stage\",\n    \"White powder (likely flour or rice flour) dominates the frame\",\n    \"Dark powder (spice/seasoning) visible in streaks\",\n    \"Yellow deposits (likely oil or ghee) visible but not incorporated\",\n    \"No finished dish visible—ingredients are still separate and uncooked\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Metadata title 'funges on a idly' is unintelligible; 'funges' is not a recognized English word or cuisine term\",\n    \"Source description does not match visual content—no finished idly (steamed cake) is present, only raw preparation ingredients in a mixing bowl\",\n    \"Unclear whether 'funges' is a misspelling, transliteration error, or intentional variant name\",\n    \"No finished, cooked dish is visible in either image\"\n  ],\n  \"reason\": \"Image shows a raw preparation stage (unmixed dry ingredients in a metal vessel), not a finished, exposed, appetizing dish. The source title/description is unintelligible ('funges on a idly') and does not match the visible content. No cooked or assembled food is present. Preparation stages are explicitly excluded from acceptance criteria. All quality scores meet minimum thresholds, but identity check fails due to source-visual mismatch and unfinished food state.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1728,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 465,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
