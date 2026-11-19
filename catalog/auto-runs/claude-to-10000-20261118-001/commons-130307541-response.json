@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBVrop4bMRncbN7xwHXK",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Golden-brown fried dough ball with dark specks\",\n    \"Hollow centre characteristic of vada form\",\n    \"Proper crumb structure and surface texture\",\n    \"Served on decorative blue-and-white plate\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows fried vada form\",\n    \"Golden colour and hollow centre visible\",\n    \"Adequate detail for recognition\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title metadata reads 'File:Uzhunnu vada 2.jpg' — the actual dish name 'Uzhunnu vada' is obscured by filename syntax and not cleanly separated in description\",\n    \"Description states 'a food fe5om south india' (apparent OCR error; should likely be 'from') — this is garbled and unreliable\",\n    \"No explicit, clean canonical title provided in source description field\",\n    \"Cannot extract a trustworthy canonical name from corrupted metadata\"\n  ],\n  \"reason\": \"While the photograph itself shows a well-executed fried vada with excellent visual quality and sharp detail in both full and thumbnail images, the source metadata is corrupted and unreliable. The filename contains non-instructional metadata syntax, and the description contains an OCR error ('fe5om'). The canonical dish name cannot be confidently extracted from the provided source title/description in a clean, unambiguous form. Per protocol, identity cannot be confirmed from metadata alone when it is garbled. Hold pending reliable source clarification.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1517,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 488,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

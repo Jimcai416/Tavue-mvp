@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBVs2hwjWtdMaLHpPkqT",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Three golden-brown fried fritters on white plate\",\n    \"Visible chive or herb garnish\",\n    \"Crisp exterior with speckled seasoning\",\n    \"Natural daylight photography\"\n  ],\n  \"phone_observations\": [\n    \"Three fritters clearly visible in thumbnail\",\n    \"Golden-brown colour and texture preserved\",\n    \"Adequate detail to confirm fried legume cake form\",\n    \"Plate and composition recognisable at reduced size\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title metadata contains 'File:' prefix and filename extension per instruction prohibition\",\n    \"Description is personal commentary, not authoritative dish identification\",\n    \"Vada is a legume fritter typically made from lentils/chickpeas; no animal protein visible or confirmed in source text\",\n    \"Regional variant 'gare' in filename is unverified—gare may refer to potato vada or other preparation, but source title structure is compromised\"\n  ],\n  \"reason\": \"Photograph and thumbnail quality are excellent (all scores ≥4), and the finished fried fritter dish is visually prominent and appetising. However, source metadata violates instruction requirements: the title includes 'File:' prefix and filename extension, and the description is personal commentary rather than authoritative identification. The variant descriptor 'gare' appears only in the filename, not in a clean title or description. No animal protein is visible or explicitly named in source text. Because canonical_name cannot be reliably extracted from compromised metadata, and 'identity' check fails, the submission must be held pending clean, authoritative source title and description.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1638,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 509,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

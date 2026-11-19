@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBVrYbktcL7wQgG119Vb",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Dark braised beef chunks in rich brown sauce\",\n    \"Raw egg yolk (uncooked)\",\n    \"Fresh scallion and ginger garnish\",\n    \"Black ceramic bowl\",\n    \"Street food presentation\"\n  ],\n  \"phone_observations\": [\n    \"Beef and egg clearly visible in thumbnail\",\n    \"Brown sauce evident\",\n    \"Green garnish visible at top\",\n    \"Composition matches full image\"\n  ],\n  \"protein_evidence\": {\n    \"beef\": \"Gyudon curry\"\n  },\n  \"uncertainties\": [\n    \"Source title states 'Gyudon curry' but the dish shown is gyudon with a raw egg yolk, not a curry dish. Gyudon is a Japanese beef rice bowl; curry gyudon (curry over rice) is a different preparation. The visual evidence shows a braised beef bowl with raw egg characteristic of standard gyudon, not a curry-sauced variant.\",\n    \"Description metadata lists 'カレー' (curry) but the visual presentation is authentic gyudon—no rice visible in frame, raw egg intact, braised beef in soy-based sauce. This is an internal source contradiction.\"\n  ],\n  \"reason\": \"Source title–visual mismatch. The photograph clearly shows gyudon (Japanese braised beef bowl with raw egg and scallion garnish in a soy-based sauce), but the title claims 'Gyudon curry,' which would be curry-sauced. The description field also names 'カレー' (curry), contradicting the actual dish form shown. The image quality, sharpness, lighting, and composition all meet criteria, but identity cannot be verified because the source itself provides conflicting information about what this dish is. Hold pending source clarification.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 2128,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 536,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
