@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBLqXTyGt2VJHKgT9HMf",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 3,\n    \"lighting\": 2,\n    \"composition\": 3,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Pot contents show raw or partially cooked meat and potatoes\",\n    \"No finished, exposed dish visible\",\n    \"Preparation stage evident in both images\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Species identity unverifiable: 'baboy ramo' (wild boar) is not an allowed protein category and cannot be confirmed from appearance alone\",\n    \"Image shows cooking in progress, not a finished plated dish\",\n    \"Meat species ambiguity: wild boar is not chicken/beef/pork/duck/lamb/seafood\"\n  ],\n  \"reason\": \"Rejection: image depicts a preparation/cooking stage, not a finished, exposed, plated dish suitable for food photography review. The pot is photographed over a campfire with raw or partially cooked components visible. 'Baboy ramo' (wild boar) cannot be visually verified and is not within the allowed protein categories (chicken/beef/pork/duck/lamb/seafood). Source does not provide an explicit quote naming a dish title or any allowed protein species. Quality scores fall below threshold (lighting:2, appeal:2). Does not meet finished-dish standards.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1777,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 409,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

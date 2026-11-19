@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBLrsWWE9ABmBSHBNjQf",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 1,\n    \"lighting\": 2,\n    \"composition\": 2,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Balloons dominate the thumbnail centre, not food\",\n    \"Food items are tiny background objects, completely illegible\",\n    \"No readable essential food components visible in phone thumbnail\",\n    \"Spatial arrangement makes food identification impossible at phone scale\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source mentions 'adobong baboy' (pork adobo) but it is not visually identifiable as a finished dish in either image\",\n    \"Multiple food items listed in metadata but none are distinct, prominent or appetising in the photograph\",\n    \"The image is primarily a party scene documentation, not a food photograph\"\n  ],\n  \"reason\": \"Rejection: This is a party scene photograph, not a food photograph. The subject is balloons and party setup. Food items are present but tiny, illegible in the phone thumbnail, and not prominent or sharply detailed enough to constitute a finished dish review. Essential food components are clipped and indistinguishable. The composition and framing prioritise balloons and venue over food presentation. Sharpness, lighting and appeal scores all fall below acceptance threshold. While source metadata mentions specific dishes (adobong baboy, calamay, mocha cake, biscocho, mamon), none are visually proven as finished, exposed, appetising dishes. The photograph fails the core requirement: a prominent, sharply detailed, naturally coloured, appetising finished dish.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1659,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 459,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

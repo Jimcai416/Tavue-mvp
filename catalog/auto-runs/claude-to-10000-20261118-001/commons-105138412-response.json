@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBLqXTEbBy57KFJJfT7t",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 5,\n    \"composition\": 5,\n    \"appeal\": 5\n  },\n  \"visible_support\": [\n    \"Golden-brown crispy baguette, freshly exposed\",\n    \"Shredded pork floss (chà bông) clearly visible\",\n    \"Sliced Vietnamese pâté (giò lụa) prominent\",\n    \"Fresh sliced green chilli peppers\",\n    \"Red chilli visible\",\n    \"Natural colours, appetising presentation\",\n    \"Sharp detail in phone thumbnail\",\n    \"Complete, finished sandwich\"\n  ],\n  \"phone_observations\": [\n    \"Centre-cover thumbnail shows two bánh mì sandwiches clearly\",\n    \"Golden baguettes with crispy exterior\",\n    \"Shredded pork and toppings legible\",\n    \"Essential components visible and readable\",\n    \"Properly framed sandwich cross-section\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title contains 'giò lụa' (Vietnamese pâté/pork loaf) but species not explicitly named in description\",\n    \"Chà bông (pork floss) is visually evident but source description does not explicitly state 'pork' as qualifier\",\n    \"Protein identity cannot be sourced from explicit text declaration of animal species\"\n  ],\n  \"reason\": \"Reject: Although this is a high-quality, sharply detailed, appetising photograph of finished bánh mì with clearly visible shredded pork floss, sliced giò lụa, and fresh chillies, the source title and description do not explicitly name the protein animal species. The description 'Bánh mì nhân chà bông, giò lụa, ớt' lists ingredient names without stating 'pork' or any explicit animal qualifier. Per protocol, protein_evidence requires exact case-sensitive substrings from source title/description explicitly naming the animal, never inferred from appearance or tradition. The sandwich is visibly composed of pork products, but this cannot be sourced from the supplied metadata. Identity check fails due to lack of explicit protein species declaration in source material.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1826,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 597,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
