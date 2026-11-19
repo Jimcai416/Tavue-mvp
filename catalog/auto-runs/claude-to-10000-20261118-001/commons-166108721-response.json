@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBp924Hv1CKeSET3SLzJ",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Golden-brown curry/stew visible in both full image and phone thumbnail\",\n    \"Decorative bowl with blue patterning present in both views\",\n    \"Red underplate visible in full image and thumbnail\",\n    \"Chunks of meat and vegetables suspended in sauce\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows finished dish in serving bowl\",\n    \"Golden liquid/sauce dominant in phone view\",\n    \"Dish components visible and appetising at reduced scale\",\n    \"No clipping of essential food elements\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title 'Tongsèng kambing' specifies kambing (goat in Indonesian), but kambing may refer to either goat or mutton in regional usage\",\n    \"Visible meat chunks cannot definitively distinguish goat from mutton or other species by appearance alone\",\n    \"Title contains 'kambing' but allowed protein_evidence categories require exact match only to chicken/beef/pork/duck/lamb/seafood\",\n    \"Ambiguous meat species identification prevents positive protein classification\"\n  ],\n  \"reason\": \"Image quality, composition, sharpness, lighting and appeal all meet acceptance thresholds (all ≥4). Photograph is finished, exposed, sharply detailed, naturally coloured and appetising in both full and thumbnail views. However, the source title declares 'kambing' (ambiguous between goat and mutton in regional terminology), which cannot be mapped to the allowed protein categories (chicken/beef/pork/duck/lamb/seafood). Per protocol, ambiguous meat species designation requires hold. No contradictions visible between title and dish appearance, but the protein identity remains unresolved.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1629,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 522,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
