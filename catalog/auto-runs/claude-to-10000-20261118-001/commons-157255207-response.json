@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChC3Wn8mnQA16FU8uWSvE",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 2,\n    \"composition\": 1,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Person seated outdoors dominates thumbnail\",\n    \"Bowl visible but tiny and peripheral\",\n    \"No readable food detail in phone crop\",\n    \"Subject is a person, not the dish\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Metadata claims 'genie corn' (unclear term, possibly OCR error for 'guinea corn')\",\n    \"Source title/description contradicts with 'beer from grains' vs drink category\",\n    \"Actual food (beverage in bowl) is not the subject of photograph\"\n  ],\n  \"reason\": \"Photograph is a portrait of a person holding a phone, not a food photograph. The beverage bowl is tiny, blurred, and peripheral—not the subject. Phone thumbnail shows person's torso and face, not the dish. No sharp, appetising, prominent food detail exists. Fails photograph, phone, and quality checks. Identity cannot be confirmed from visual food evidence alone; metadata contradictions ('pito drink or beer', 'genie corn') create further uncertainty. This is a portrait photograph, not a food intake submission.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1374,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 389,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
