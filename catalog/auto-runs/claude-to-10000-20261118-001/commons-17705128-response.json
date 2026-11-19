@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBL2T1X6HaLqdCW7qToB",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Golden-brown breaded triangular cutlet\",\n    \"Crisp fried coating\",\n    \"Presented on white plate\",\n    \"Natural colour and finish\",\n    \"Sharp detail in both source and thumbnail\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows breaded meat subject\",\n    \"Golden colour visible and appetising\",\n    \"Dish prominent and readable\",\n    \"No clipping of essential components\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title contains metadata prefix 'File:' and filename extension; source canonical form unclear\",\n    \"Description 'Kuřecí řízek' (Czech: chicken schnitzel) contradicts English filename 'Chicken schnitzel' in metadata context\",\n    \"No explicit English-language source title provided to match canonical form\",\n    \"Species 'chicken' not stated in an unambiguous source quote separate from metadata labels\"\n  ],\n  \"reason\": \"The photograph shows a finished, well-plated breaded cutlet with strong technical quality (sharpness ≥4, lighting ≥4, composition ≥4, appeal ≥4). Both full image and phone thumbnail are clear and appetising. However, the supplied source metadata ('File:Chicken schnitzel.jpg' and Czech description 'Kuřecí řízek') does not constitute a clean, authoritative source title/description string. The filename includes technical prefixes and extensions; the description is in a non-English language without an official English equivalent provided. Protein identification requires an exact case-sensitive quote from a specified source document, and the metadata format does not meet the standard for canonical naming. Hold pending a clear, unambiguous English-language source title or description that explicitly names the dish variant and protein without metadata decoration.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 2039,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 543,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

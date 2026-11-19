@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBL1JMbNwc4qzeUwLCGT",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Two large whole fish fillets with skin, pan-seared or fried\",\n    \"Golden-brown crispy exterior with charred spots\",\n    \"Fresh lime wedges and cilantro garnish\",\n    \"Bright yellow plate\",\n    \"Natural appetising presentation\"\n  ],\n  \"phone_observations\": [\n    \"Two cooked fish fillets clearly visible and prominent\",\n    \"Lime and herb garnish legible\",\n    \"Colour and detail retained in thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Species identification: 'Surmai' is a regional Indian name (Scomberomorus commerson, kingfish/Spanish mackerel), but this is a vernacular common name, not a canonical English meat category. The instructions limit proteins to: chicken/beef/pork/duck/lamb/seafood. 'Seafood' is too generic without explicit animal confirmation in the title.\",\n    \"Source title states 'SURMAI FRY' but provides no explicit English species designation (e.g. 'kingfish', 'mackerel', 'fish'). Relying on regional name alone violates the rule: 'Never infer species from tradition, appearance or generic meat/sausage'.\",\n    \"Visible form confirms cooked fish, but canonical protein classification cannot be supported by exact source quote alone.\"\n  ],\n  \"reason\": \"Image quality, composition, and phone thumbnail are all acceptable. However, the source description 'SURMAI FRY' uses only a regional vernacular name without an explicit English species designation or the word 'seafood' or 'fish' in the title itself. The instructions require exact source quotes naming the animal and forbid inferring species from tradition or regional names. 'Surmai' is a local Indian common name; it is not an exact match to any canonical protein category key supported by explicit English-language evidence in the metadata. Hold pending source clarification (e.g. 'Surmai (Kingfish) Fry' or explicit 'Fish Fry').\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1456,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 605,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
