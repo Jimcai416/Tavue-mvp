@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBqigTePQF1N14Ck8AUE",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Plate clearly displays sliced smoked salmon (orange), foie gras terrine (brown/grey with black specks), salad greens, red onion slices, and purple radicchio\",\n    \"Foie gras portion is prominent, seasoned, finished and plated\",\n    \"Phone thumbnail legibly shows the composition with salmon and foie gras as main components\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly displays salmon and foie gras positioning\",\n    \"Garnish and salad base visible\",\n    \"Plating scheme recognizable at reduced resolution\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source metadata declares 'Foie gras de Gascogne à Mauvezin' but the visible dish is a composed plate with foie gras AND smoked salmon. The title does not mention or describe the full dish composition (salmon, salad, garnish).\",\n    \"Foie gras identity is visually clear, but it is not the sole subject. The title appears to reference the foie gras component only, not the complete plated preparation shown.\"\n  ],\n  \"reason\": \"The photograph shows a finished, well-composed charcuterie/seafood plate with excellent sharpness, lighting, and appeal. However, the source title 'Foie gras de Gascogne à Mauvezin' describes only the foie gras component, while the visible dish is a multi-component composed plate featuring foie gras, smoked salmon, salad greens, and garnish. The title does not match the full identity of what is photographed. The metadata describes a part, not the whole dish. This represents a mismatch between the declared subject and the actual plated preparation visible in both the full image and thumbnail. Identity check fails.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 2061,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 550,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
