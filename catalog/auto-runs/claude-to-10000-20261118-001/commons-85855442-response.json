@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCwX3rPEoLkrhWLQnYkK",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Broth/soup in white bowl with spoon\",\n    \"Fresh green herb garnish (cilantro/coriander)\",\n    \"Golden-brown broth colour\",\n    \"Visible foam indicating hot preparation\",\n    \"White bowl on wooden surface\",\n    \"Accompanying packaged items (plantain chips visible)\"\n  ],\n  \"phone_observations\": [\n    \"Bowl and broth clearly visible in thumbnail\",\n    \"Garnish visible but small\",\n    \"Broth colour and texture readable\",\n    \"Spoon present in bowl\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source metadata lists 'albacore' and 'other species' as fish but does not explicitly name a single specific fish type in a form suitable for exact quoting\",\n    \"Actual fish content cannot be visually verified from the photograph—only a golden broth is visible\",\n    \"Title contains 'File:' and '.png.jpg' filename elements that must be stripped; cleaned canonical title would be 'Encebollado Ecuatoriano'\",\n    \"Exact protein species declaration required but source uses ambiguous plural reference ('other species')\"\n  ],\n  \"reason\": \"Image quality, sharpness, lighting, composition and appeal are all acceptable (scores ≥4). The photograph shows a finished, exposed soup dish with natural colour, prominent presentation, and readable essential components in the phone thumbnail. However, identity check fails because the source description does not provide an explicit, singular, exact quote naming a specific fish species. The description states 'albacore, that is the traditional fish for this dish and other species'—this is ambiguous (plural 'other species') and does not meet the requirement for an exact source quote naming the protein. Per protocol, unknown or ambiguous meat species (including fish) requires a hold. Visual inspection of the broth alone cannot confirm the fish type or verify the declared albacore content. A source with a definitive, singular fish species quote is required to proceed.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1830,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 587,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
