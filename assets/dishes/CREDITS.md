@@ -9495,3 +9495,8 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Roast lamb served with roast potatoes and gravy** — RegionVisitor90. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Roast_Lamb_@_Willaston_Hotel_20250925-124625.jpg). Local asset: `reviewed-commons-175597677.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **steamed fish head with diced chili** — N509FZ. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:6%2B1_steamed_fish_head_with_diced_chili_(20230528121944).jpg). Local asset: `reviewed-commons-132408976.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **steamed fish** — LEIMIZHI HaoMings. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:HK_%E4%B8%8A%E7%92%B0_Sheung_Wan_%E6%80%A5%E5%BA%87%E5%88%A9%E8%A1%97_Clevely_Street_%E9%8B%BF%E6%99%B6%E9%A4%A8_SC_Cuisine_Chinese_Seafood_Restaurant_food_steamed_fish_October_2025_N13P_01.jpg). Local asset: `reviewed-commons-177627277.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.

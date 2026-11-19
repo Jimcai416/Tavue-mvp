@@ -123726,5 +123726,53 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 720,
     "height": 960,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-132408976",
+    "title": "File:6+1 steamed fish head with diced chili (20230528121944).jpg",
+    "author": "N509FZ",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:6%2B1_steamed_fish_head_with_diced_chili_(20230528121944).jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cf/6%2B1_steamed_fish_head_with_diced_chili_%2820230528121944%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "f90e2a9e9acd6f44521f7338df9eb2aafcc812fb",
+    "name": "steamed fish head with diced chili",
+    "aliases": [],
+    "proteins": [
+      "seafood"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-132408976.jpg",
+    "assetSha256": "709813197cedbc26b624ca8e29c09aac1543b5fc59362d6155ad767820f4e884",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 640,
+    "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-177627277",
+    "title": "File:HK 上環 Sheung Wan 急庇利街 Clevely Street 鋿晶館 SC Cuisine Chinese Seafood Restaurant food steamed fish October 2025 N13P 01.jpg",
+    "author": "LEIMIZHI HaoMings",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:HK_%E4%B8%8A%E7%92%B0_Sheung_Wan_%E6%80%A5%E5%BA%87%E5%88%A9%E8%A1%97_Clevely_Street_%E9%8B%BF%E6%99%B6%E9%A4%A8_SC_Cuisine_Chinese_Seafood_Restaurant_food_steamed_fish_October_2025_N13P_01.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/94/HK_%E4%B8%8A%E7%92%B0_Sheung_Wan_%E6%80%A5%E5%BA%87%E5%88%A9%E8%A1%97_Clevely_Street_%E9%8B%BF%E6%99%B6%E9%A4%A8_SC_Cuisine_Chinese_Seafood_Restaurant_food_steamed_fish_October_2025_N13P_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "3ebf2b1fd0d522245fdf08278c1fe2a12620e918",
+    "name": "steamed fish",
+    "aliases": [],
+    "proteins": [
+      "seafood"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-177627277.jpg",
+    "assetSha256": "fa44acfdd468bd7364b838094cc9fb680d702f3fe43af80c7173870096526aeb",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];
