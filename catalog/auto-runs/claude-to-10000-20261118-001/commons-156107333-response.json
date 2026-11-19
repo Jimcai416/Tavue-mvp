@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChByzajzDjXtMz4CKsZ9J",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [\n    \"Brown viscous broth in white bowl\",\n    \"Visible pale cubes consistent with organ meat texture\",\n    \"Homemade/street-food presentation\",\n    \"Natural lighting, minimal glare\"\n  ],\n  \"phone_observations\": [\n    \"Dish prominently centred in thumbnail\",\n    \"Broth colour and cubed components visible\",\n    \"Essential food not clipped\",\n    \"Bowl rim clearly shown\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Papaitan is a Filipino offal/organ meat soup traditionally made with beef or goat bile, liver, and tripe. The title claims 'Papaitan' but the source description does not explicitly name any animal protein. The visible pale cubes suggest organ meat components, but the specific species (beef vs. goat vs. other) cannot be determined from appearance alone.\",\n    \"No explicit animal identification in the provided description beyond the dish name. 'Papaitan' is a category name, not a protein declaration.\",\n    \"Bile-based dishes carry intrinsic risks; visual confirmation of safe preparation is not possible from photography alone.\"\n  ],\n  \"reason\": \"Identity check fails: the source title is 'Papaitan in bowl (Taichung)' but the description does not explicitly name the animal protein(s) used. Papaitan traditionally contains offal and bile from a named animal (typically beef or goat), but no explicit source quote identifies which species is present in this dish. Per protocol, ambiguous meat species—including when traditional preparation suggests one animal but no source quote confirms it—must be held. The photograph and phone thumbnail are of high quality and show a finished, appetising offal soup, but protein_evidence cannot be populated without an explicit animal name in the source metadata.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1773,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 540,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

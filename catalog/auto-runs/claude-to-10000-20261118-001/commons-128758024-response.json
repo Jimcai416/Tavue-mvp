@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChByzwb71kSHx14HMTt55",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [\n    \"Shredded meat in golden broth, prominent in both full and phone images\",\n    \"Red and green pepper garnish visible in full image\",\n    \"Served in large communal metal pan on burner\",\n    \"White bowls and plates arranged for service\",\n    \"Natural kitchen/catering setting\"\n  ],\n  \"phone_observations\": [\n    \"Dish clearly visible in thumbnail centre-cover\",\n    \"Golden broth and shredded meat components readable\",\n    \"Sufficient detail for identification purposes\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title 'Papaitan' refers to a Filipino dish traditionally made with offal/organ meats (liver, kidney, intestines), but no species is explicitly named in source description\",\n    \"Visible shredded meat texture is consistent with offal preparation, but exact species and organ types cannot be confirmed from appearance alone\",\n    \"Source description provides only 'Papaitan' without specifying animal type or which organs are present\",\n    \"Cannot visually distinguish which animal parts are in the broth or confirm claimed preparation method\"\n  ],\n  \"reason\": \"Image quality and photograph composition are strong (all ≥4), and the dish is clearly identifiable as papaitan in both full and thumbnail views. However, the source description does not explicitly name any protein species or organ types. While 'papaitan' is a known Filipino preparation traditionally using offal, the protocol requires exact source quotation explicitly naming the animal and organ components. The absence of specific protein identification in the provided metadata prevents acceptance. Identity check fails due to incomplete protein specification in source.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1725,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 502,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
