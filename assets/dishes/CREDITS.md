@@ -7080,3 +7080,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 - **Lumpia Semarang** — Wah333. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Lumpia_Semarang.jpg). Local asset: `reviewed-commons-126401674.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Causa Rellena** — [spersper](https://www.flickr.com/people/spersper/). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Causa_Rellena.jpg). Local asset: `reviewed-commons-27992824.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Lao beef nam tok** — Bounthy. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Lao_beef_nam_tok_(Lao_ping_sin_nam_tok).jpg). Local asset: `reviewed-commons-128901748.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Yuca frita** — Francesc Fort. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Yuca_frita.jpg). Local asset: `reviewed-commons-85144082.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
