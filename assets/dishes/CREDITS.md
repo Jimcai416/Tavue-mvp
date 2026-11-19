@@ -10143,3 +10143,11 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Leshan-style Shaomai** — N509FZ. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Leshan-style_Shaomai_at_Huayanjie,_Lize_(20211119171902).jpg). Local asset: `reviewed-commons-112643208.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Chicken noodles with fried wonton** — [miss_yasmina](https://www.flickr.com/people/65748856@N00). [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:Mi_ayam_pangsit_goreng.jpg). Local asset: `reviewed-commons-7483011.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Pangsit Goreng (fried wonton)** — Gunawan Kartapranata. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Pangsit_Goreng_GM.jpg). Local asset: `reviewed-commons-9178305.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Kaipen with spicy jaew bong Sauce** — [by joaquinuy](https://www.flickr.com/photos/wakxy/). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Kaipen_with_Spicy_Jaew_Bong_Sauce-02.jpg). Local asset: `reviewed-commons-7896889.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Pangsit goreng** — Serenity. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/); [source](https://commons.wikimedia.org/wiki/File:Pangsit_goreng.jpg). Local asset: `reviewed-commons-2181258.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **kor moo yang jing jaew** — JIP. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Kor_moo_yang_jing_jaew.jpg). Local asset: `reviewed-commons-88097230.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
