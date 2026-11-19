@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBKVVhPqLEL67ZXhn6ox",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 5,\n    \"appeal\": 5\n  },\n  \"visible_support\": [\n    \"Golden-brown broth with visible depth and clarity\",\n    \"Hand-pulled noodles visible in broth\",\n    \"Prominent sliced/shredded meat (pale pink interior, cooked exterior)\",\n    \"Green onion garnish visible top and throughout\",\n    \"Ceramic bowl with decorative interior pattern\",\n    \"Natural daylight with minor gloss/reflection from broth surface\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows noodle soup in bowl\",\n    \"Meat component prominently displayed and readable\",\n    \"Garnish visible but small\",\n    \"Bowl shape and broth colour are distinguishable\",\n    \"Adequate centre-cover framing of main dish elements\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title 'Lamian de vedella' uses Catalan/Spanish; 'vedella' may mean veal (young beef) or general beef, but no explicit English animal identifier provided in source title or description\",\n    \"The meat appears to be beef/veal by colour and form, but source description is 'Normal' (uninformative) and title alone does not constitute unambiguous species declaration in English convention\",\n    \"Exact canonical dish name should be sourced from title, but 'Lamian de vedella' is in Catalan; no English variant or standard transliteration provided in description field\"\n  ],\n  \"reason\": \"Image quality, photography, and phone thumbnail all pass. The dish is a finished, sharp, well-lit lamian (hand-pulled noodle soup) with visible meat and garnish. However, the source metadata fails the identity check: (1) the title 'Lamian de vedella.jpg' uses a non-English animal term ('vedella') without explicit English-language confirmation of the species in the title or description field, and (2) the description field provides no meaningful information ('Normal'). Per protocol, ambiguous meat species or source contradictions require a hold. The title alone, in Catalan, does not meet the requirement for 'an exact source quote explicitly naming each animal.' No metadata contradiction exists, but the lack of English-language species declaration in the source title/description is a barrier to identity confirmation.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1718,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 641,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
