@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBL6SNghh5rkUfMES1is",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Person in hat actively cooking/serving with utensil\",\n    \"Raw or in-preparation stage food visible in bowls and large pan\",\n    \"No finished plated dish evident in phone thumbnail\",\n    \"Active food preparation scene rather than finished food\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Image shows food preparation/cooking process, not a finished exposed dish ready for consumption\",\n    \"Multiple bowls and pans contain raw or partially processed ingredients\",\n    \"The title 'Konya Tirit Yemeği' refers to a finished dish, but the photograph captures the preparation stage, not the final plated result\",\n    \"Essential identity mismatch: source describes a finished dish, but image documents mid-preparation\"\n  ],\n  \"reason\": \"Reject: This is a preparation/cooking stage photograph, not a finished, exposed, plated dish. While the source title correctly names 'Konya Tirit Yemeği' (a Turkish bread and yogurt dish), the image shows active cooking with the chef using a utensil over raw ingredients in bowls and pans. The instructions require 'a finished, exposed, likely photographic dish' with 'readable essential components'—this shows the process, not the completed food. Home cooking context is welcome, but only when the dish is finished and prominently displayed. The phone thumbnail confirms the in-progress cooking state rather than a finished appetising result.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1637,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 464,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

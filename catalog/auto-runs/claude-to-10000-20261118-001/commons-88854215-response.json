@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBL5ZZFyfTcpbaBYD1FE",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows a ceramic vessel with pale emulsified sauce and garlic cloves\",\n    \"No finished dish presentation visible\",\n    \"Raw ingredients (garlic) dominate the composition\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title is a filename ('File:Aïoli.jpg'), not a dish description\",\n    \"Only French metadata provided: 'Aïoli à l'ail et huile d'olive' (Aioli with garlic and olive oil)\",\n    \"Image shows preparation stage: raw garlic cloves and an emulsified condiment in a serving vessel, not a finished plated dish\",\n    \"No food subject is prominent as a finished, exposed dish\"\n  ],\n  \"reason\": \"Rejection: This is a condiment (aioli) in a serving vessel with raw garlic components, not a finished, exposed, prominent photographic dish. The image shows preparation ingredients and a sauce in serving ceramics, which does not meet the criterion of a 'finished, exposed, likely photographic dish' with sharply detailed, appetising, prominent components. Raw/preparation stages are explicitly rejected. The source metadata provides only a filename and French description, insufficient for canonical identity verification.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1731,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 419,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
