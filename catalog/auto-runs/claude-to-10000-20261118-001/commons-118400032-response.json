@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChC3ej4h5MPJ6qYfQGkPF",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 1,\n    \"lighting\": 2,\n    \"composition\": 1,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows storefront signage and interior, not a finished dish\",\n    \"No food subject visible in phone centre-cover crop\",\n    \"Essential food content absent from thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"No actual dish photograph present—image is a street-view storefront\",\n    \"Title references 'Ketoprak Cirebon' but no plated or served ketoprak is visible\",\n    \"Metadata title/description conflict with photographic content\"\n  ],\n  \"reason\": \"Source image is a storefront exterior and interior view, not a photograph of a finished, exposed, plated dish. The thumbnail contains only signage and venue architecture. No food subject is prominent, sharply detailed, or appetising in either the full or thumbnail image. The title references a dish type (Ketoprak Cirebon) but the actual photograph shows no prepared food to review. This fails identity, quality, photograph, and phone checks. Category/query alone is insufficient evidence of a valid dish photograph.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1744,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 376,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

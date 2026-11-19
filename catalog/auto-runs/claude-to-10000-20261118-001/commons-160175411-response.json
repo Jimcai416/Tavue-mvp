@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChC3do8VKDocBEJMY4G2g",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 3,\n    \"appeal\": 3\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows a large cooked fish fillet in a bright orange bowl\",\n    \"Meat is tan/beige, clearly cooked, with visible surface texture\",\n    \"Green herb garnish visible on upper surface\",\n    \"Fork visible in lower right of thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title states 'Ikan Patin' (patin fish, a Southeast Asian catfish species), but patin is not in the allowed seafood category list (which typically covers only common commercial species like salmon, tuna, shrimp, etc.)\",\n    \"Patin/Pangasius cannot be confirmed as belonging to supported seafood protein categories without explicit source naming of an allowed species\",\n    \"Fish species visible but unconfirmed identity and not explicitly named in allowed categories\"\n  ],\n  \"reason\": \"While the photograph shows a finished, cooked fish dish with good sharpness, lighting and composition, the source identifies it as 'Ikan Patin' (patin fish/Pangasius catfish). Patin is not an explicitly supported protein category in the allowed list. The source does not name any alternative allowed seafood species. Without a source quote matching an allowed protein category, identity cannot be confirmed and the image must be held pending clarification of protein category eligibility.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1742,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 443,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
