@@ -10216,3 +10216,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 - **Duck magret** — El Nuevo Doge. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Magret_de_pato,_Mazatl%C3%A1n,_28_de_junio_de_2023_04.jpg). Local asset: `reviewed-commons-133711354.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Magret de canard** — Boca Dorada. [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:Magret_de_pato_-_listo_para_ser_cortado.jpg). Local asset: `reviewed-commons-103665590.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Mar i muntanya amb fesolets** — Consell Comarcal del Baix Empordà. Cuina de l'Emp. [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:Mar_i_muntanya_amb_fesolets.jpg). Local asset: `reviewed-commons-39550162.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Cơm nắm served with sesame salt** — MinWuHwang. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:C%C6%A1m_n%E1%BA%AFm_mu%E1%BB%91i_v%E1%BB%ABng_01.jpg). Local asset: `reviewed-commons-163181615.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.

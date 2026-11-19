@@ -131302,5 +131302,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-163181615",
+    "title": "File:Cơm nắm muối vừng 01.jpg",
+    "author": "MinWuHwang",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:C%C6%A1m_n%E1%BA%AFm_mu%E1%BB%91i_v%E1%BB%ABng_01.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5e/C%C6%A1m_n%E1%BA%AFm_mu%E1%BB%91i_v%E1%BB%ABng_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "bb0db11f1addb91d5daf21b70ea5d23ff47440ec",
+    "name": "Cơm nắm served with sesame salt",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-163181615.jpg",
+    "assetSha256": "c3301856ebb88c92ede39932a63fa35a6f304f60465a51544438861db6b4ebaf",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 931,
+    "requiresExactMenuName": true
   }
 ];
