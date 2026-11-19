@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBV2gvE7kZ6CYzZnL3QH",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"White plate with five distinct seafood preparations arranged artfully\",\n    \"Smoked/cured fish varieties with herbs and garnishes visible\",\n    \"Toasted bread slices on grey plate in background\",\n    \"Pickled vegetables and accompaniments in small container\",\n    \"Professional restaurant plating on dark table setting\"\n  ],\n  \"phone_observations\": [\n    \"Central white plate with five fish preparations clearly visible at thumbnail resolution\",\n    \"Individual components distinguishable: dark fish, light fish, orange-cured fish, pale preparation, brown preparation\",\n    \"Bread and accompaniments visible in background\",\n    \"Overall composition and subject prominence readable in thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title lists five specific smoked/cured fish types but cannot visually verify each one definitively: 'Smoked trout, herbed gravlax, kippered salmon, oil cured sardine, salt cured anchovies'\",\n    \"Visual appearance alone cannot reliably distinguish between trout, salmon, and other similar-looking cured fish species\",\n    \"Exact identity of each preparation cannot be confirmed from photograph alone without ambiguity\",\n    \"Source title is filename metadata (File: prefix), not a dish name or restaurant description\"\n  ],\n  \"reason\": \"Reject: The source provides a technical filename with a list of five specific fish species, but the photograph cannot visually verify which preparation corresponds to which named species. The source metadata format (File: prefix, photographer credit, license) indicates this is catalogued content rather than a dish with authoritative naming. Fish species identification from appearance alone in cured/smoked preparations is unreliable—herring, anchovy, sardine, trout, and salmon can appear visually similar when processed. No exact case-sensitive quote from the title can be matched to a canonical dish name. The identity check fails due to ambiguity between source claims and visual confirmation. Hold would be appropriate for a single uncertain fish; rejection is warranted for multiple unverifiable species claims in a sampler format.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1753,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 597,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
