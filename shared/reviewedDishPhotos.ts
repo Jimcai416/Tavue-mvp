@@ -113647,5 +113647,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-145114189",
+    "title": "File:Piatto di malfatti.jpg",
+    "author": "Teseo",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Piatto_di_malfatti.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Piatto_di_malfatti.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "16f62b6e4a8a76cbfa0caee072ec2edc01c49784",
+    "name": "Piatto di malfatti",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-145114189.jpg",
+    "assetSha256": "a7409394da6da3e1892d3a09f2f4d8ffe94db9c1520c3876a1fa1297eecfc9c9",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 925,
+    "requiresExactMenuName": true
   }
 ];
