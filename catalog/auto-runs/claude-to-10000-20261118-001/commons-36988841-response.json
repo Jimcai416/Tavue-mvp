@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBStZJPSs4ybxJccMPFc",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": true,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 2,\n    \"composition\": 2,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail is blurry and severely lacks detail\",\n    \"Individual food components cannot be reliably distinguished\",\n    \"Essential dish structure not readable in phone view\",\n    \"Severe softness compromises identifiability\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title claims 'Pork' but the meat species cannot be visually confirmed in either full image or thumbnail due to poor sharpness and lighting\",\n    \"Sadza (cornmeal porridge) component is ambiguous in both views\",\n    \"Cabbage presence unclear; leafy green visible but not definitively identifiable\",\n    \"Overall image quality too poor to verify dish authenticity\"\n  ],\n  \"reason\": \"Rejection: Image fails multiple critical acceptance criteria. Full photograph is severely out of focus (sharpness 2/5), with poor lighting (2/5) and muddy colours that render essential food components unidentifiable. Phone thumbnail is equally blurred and lacks readable detail—individual components cannot be distinguished reliably. Composition and appeal are compromised by technical defects, not creative choices. Although a real dish appears to be present, the photograph quality prevents confident identity verification. Protein cannot be visually confirmed despite source title claim. The image does not meet the standard for 'sharply detailed, naturally coloured, appetising' presentation required for acceptance.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1728,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 446,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

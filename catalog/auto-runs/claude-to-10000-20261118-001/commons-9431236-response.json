@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBSt5AiAWPBdfbgnss4A",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Finished, cooked curry dish in white bowl\",\n    \"Rich brown gravy visible\",\n    \"Rice and kidney beans on the side\",\n    \"Fresh garnish: sliced red chilli, green onion/scallion\",\n    \"Visible protein chunks in sauce\",\n    \"Natural daylight, well-exposed\"\n  ],\n  \"phone_observations\": [\n    \"Dish clearly visible in thumbnail\",\n    \"Curry and rice components readable\",\n    \"Garnish visible\",\n    \"No essential food clipped\",\n    \"Good colour reproduction\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Species identity unresolved: title claims 'Curry Goat' but visual appearance is consistent with beef or mutton; no explicit visual markers distinguish goat from other dark meats in cooked form\",\n    \"Ambiguous meat species prevents confident protein categorisation under required strict criteria\"\n  ],\n  \"reason\": \"Reject: The source title declares 'Curry Goat', but cooked curry photographs cannot reliably distinguish goat from beef, mutton, or lamb by appearance alone. The instructions require that protein_evidence values be exact source quotes naming each animal explicitly, and demand that 'ambiguous meat species (including mutton that might mean goat)' result in a hold/reject decision. The visual evidence does not resolve this ambiguity. Although photograph quality, sharpness, lighting, composition and appeal are strong (all ≥4), and the dish is finished and appetising, the unresolved protein identity fails the identity check, triggering rejection per protocol.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1531,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 497,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
