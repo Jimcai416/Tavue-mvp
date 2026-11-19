@@ -101721,5 +101721,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-3294513",
+    "title": "File:Russian Olivier salad.jpg",
+    "author": "AlMare",
+    "license": "CC BY 2.5",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Russian_Olivier_salad.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Russian_Olivier_salad.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "1bdddf8d34603908c9ec3033b83914f3fbcb16e2",
+    "name": "Russian Olivier salad",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-3294513.jpg",
+    "assetSha256": "2d687c49053e76d4f9ee85dd2ab6578a30f4ae1c32bc85485d0a09ef9ef400c1",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 641,
+    "requiresExactMenuName": true
   }
 ];
