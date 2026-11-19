@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBV9YYPmdRdi1Sd9ZZbG",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Red bowl containing brown textured curry\",\n    \"Green herb garnish visible\",\n    \"Creamy, finished dish appearance\",\n    \"Prominent in phone thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'chicken wings' but no visible wing pieces, bones, or identifiable poultry parts are present in either image\",\n    \"Description states 'tender chicken wings in mildly spiced creamy and textured curry' but the visible dish appears to be a uniform paste or minced meat preparation with no discernible wing structure\",\n    \"The dish resembles a keema or ground meat curry rather than a wings-based preparation\"\n  ],\n  \"reason\": \"Identity check fails. The source title explicitly names 'chicken wings' and the description emphasises tender wings in a creamy curry, but the photographed dish shows no visible chicken wing pieces, bones, or wing structure. The appearance is consistent with a ground or minced meat preparation (keema-style), not wings. This is a material contradiction between the declared identity and visible form. Cannot accept without clarity on actual dish composition.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1786,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 394,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

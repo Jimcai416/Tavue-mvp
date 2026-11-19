@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBV9XwBgSa8rLUydh5tk",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Finished, cooked curry dish in metal serving bowl\",\n    \"Rich brown gravy visible\",\n    \"Meat pieces and what appear to be bone/marrow visible\",\n    \"Served with spoon\",\n    \"Street or restaurant service context\"\n  ],\n  \"phone_observations\": [\n    \"Curry bowl clearly visible in thumbnail\",\n    \"Essential components readable: meat, gravy, serving vessel\",\n    \"Not clipped or severely obscured\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title states 'Mutton Qorma' but 'mutton' is ambiguous—it may refer to goat, sheep, or other animals depending on regional convention and cannot be reliably mapped to a single species from visual appearance alone\",\n    \"No explicit species qualifier (e.g., 'lamb', 'goat', 'sheep') provided in source title\",\n    \"Species identity cannot be visually confirmed from the photograph\"\n  ],\n  \"reason\": \"The photograph is sharp, well-lit, and shows an appetising finished curry dish with visible meat components. The phone thumbnail is clear and representative. However, the source title uses 'Mutton', which is a known ambiguous term that may refer to goat, sheep, or other animals depending on regional context. Per instructions, ambiguous meat species designations require a hold. No exact species-specific quote supporting a single allowed protein category (chicken/beef/pork/duck/lamb/seafood) can be extracted from the metadata. The identity check fails due to this unresolved ambiguity.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1422,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 494,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

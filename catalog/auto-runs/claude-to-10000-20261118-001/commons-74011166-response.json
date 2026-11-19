@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBVAqvCNCf4pS4iymxRy",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Green banana/unripe plantain visible in pale yellow-beige form\",\n    \"White rice mound\",\n    \"Shredded brown meat component\",\n    \"Dark brown spherical item (possibly egg or fried element)\",\n    \"Banana leaf plating\",\n    \"Served on woven rattan base with fork\"\n  ],\n  \"phone_observations\": [\n    \"All major components clearly visible and identifiable at thumbnail scale\",\n    \"Green/white rice and meat components sharp and prominent\",\n    \"Plating on banana leaf evident\",\n    \"No essential food clipped or obscured\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title 'Gudeg Jogja' refers to a traditional Indonesian dish of cooked unripe jackfruit, but the description field contains only marketing/contextual text with no explicit confirmation of jackfruit identity or any meat species\",\n    \"Brown shredded component is consistent with chicken traditionally served with gudeg, but no explicit animal declaration appears in source metadata\",\n    \"Dark brown spherical item is ambiguous (possibly hard-boiled egg, fried element, or other component) with no source specification\",\n    \"No source quotation explicitly names the protein species or confirms jackfruit as primary ingredient\"\n  ],\n  \"reason\": \"While the photograph shows excellent quality, sharpness, lighting, and composition (all ≥4), and the dish visually matches gudeg characteristics (cooked unripe fruit, rice, meat, banana leaf plating), the source metadata does NOT contain an explicit description confirming either the jackfruit identity or the meat species. The title alone 'Gudeg Jogja' is a category/tradition reference, not a descriptive specification. The description field provides only social context and restaurant advice, with no meaningful dish detail. Per instructions, 'Category/query alone is not evidence' and 'Proteins may include only chicken/beef/pork/duck/lamb/seafood, with an exact source quote explicitly naming each animal; never infer species from tradition, appearance or generic meat/sausage.' No such explicit quote exists here. Identity and protein_evidence cannot be confirmed from the supplied metadata.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1838,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 629,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
