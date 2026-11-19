@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBmvXgvFcRFG5pCYe9EN",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": true,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 3,\n    \"lighting\": 2,\n    \"composition\": 2,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows raw/preparation stage: whole uncooked fish with visible scales, fins, eyes and internal structures\",\n    \"No finished dish visible in phone centre-cover\",\n    \"White plate with garnish elements barely legible at small scale\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title claims 'fillets' but full image shows intact whole fish in raw/preparation state, contradicting finished dish requirement\",\n    \"Species 'Tulyahan' unverified in culinary databases; metadata states 'rare fish' without confirmed edibility or dish tradition\",\n    \"Unclear preparation status: scales, fins and eye structure suggest pre-cooking state, not finished plated dish\"\n  ],\n  \"reason\": \"Rejects: (1) Raw/preparation stage — whole fish with visible scales, fins, eyes and internal structures, not a finished exposed dish; (2) Phone thumbnail fails — uncooked fish and essential components unreadable at 124x96; (3) Title-image contradiction — 'fillets' claimed but whole intact fish shown; (4) Identity uncertain — 'Tulyahan' is unverified rare species without established culinary documentation; (5) Multiple quality scores <4 (sharpness 3, lighting 2, composition 2, appeal 1); (6) Not appetising or prominently plated. This is a food preparation/handling photograph, not a finished dish suitable for intake.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 2279,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 469,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

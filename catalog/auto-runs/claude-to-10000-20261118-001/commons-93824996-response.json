@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBmvfG5rbXriSCX64bQJ",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [\n    \"Raw/gutted fish on white plate with vegetables\",\n    \"Whole fish with head, eyes visible\",\n    \"Green long beans, corn husk, pale garlic cloves\",\n    \"Outdoor garden setting with green foliage background\",\n    \"Fish body unprepared, not cooked\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail shows raw whole fish on plate\",\n    \"Vegetable garnish visible but fish remains uncooked\",\n    \"Subject legible but preparation stage evident\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'Tulyahan fillets' but image shows whole ungutted/unprocessed fish, not fillets\",\n    \"No evidence of cooking, preparation, or finished dish state\",\n    \"Tulyahan identification unverifiable from appearance alone\",\n    \"Metadata describes rare fish species with unreliable sourcing\",\n    \"Title-image mismatch: 'fillets' vs. whole fish form\"\n  ],\n  \"reason\": \"Reject: image shows raw preparation stage, not a finished, exposed, cooked dish. Title claims 'fillets' but photograph displays whole unprocessed fish with head and organs visible. Essential identity contradiction between title and visible form. No evidence of cooking or plating as a finished appetizing dish. Home food photography rule does not override raw/preparation stage rejection criterion.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 2279,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 454,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
