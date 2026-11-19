@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBdZjGugA6RvnCpjbwrq",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Yellow and red bell peppers in a stew\",\n    \"Simmering liquid in black cooking pot\",\n    \"Orange-red tomato-based sauce\",\n    \"Home cooking stage on stovetop\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows simmering stew with peppers and liquid\",\n    \"Yellow and red pepper strips prominent and readable\",\n    \"Colour and composition match source photograph\",\n    \"Pot rim visible and in focus\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title references 'lecsó kolbásszal' (lecsó with sausage), but no sausage is visibly present in either photograph\",\n    \"Only vegetables and sauce are visible; meat component cannot be confirmed\",\n    \"Sausage species unspecified in source metadata and not identifiable in image\",\n    \"Contradiction between title claim (sausage present) and visible content (sausage absent or not yet added)\"\n  ],\n  \"reason\": \"Identity check fails: source description claims 'lecsó kolbásszal' (lecsó with sausage), but no sausage is visibly present in the full photograph or thumbnail. Only peppers and tomato-based sauce are evident. The unspecified sausage species and absence of any visible meat component create a source contradiction that cannot be resolved visually. Hold pending clarification of actual dish identity and confirmation of protein presence.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1759,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 470,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
