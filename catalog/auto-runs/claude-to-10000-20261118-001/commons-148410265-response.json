@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCjeTo5cFCWQQVGv3JEP",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 2,\n    \"composition\": 1,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows interior of warung with diners and tables\",\n    \"No distinct food dish visible in phone thumbnail centre-cover\",\n    \"Food items on tables are too small and blurred to identify specific dishes\",\n    \"Thumbnail is predominantly venue/people photography, not food-focused\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source description lists multiple dishes (ayam goreng, lele goreng, mie goreng, dll.) but no specific dish is identifiable in either image\",\n    \"Full photograph shows a warung interior with diners but no prominent, finished dish is clearly visible or sharp enough to confirm identity\",\n    \"Food on tables in full image is too distant, small, and poorly lit to assess as finished, appetising dish photography\"\n  ],\n  \"reason\": \"Rejection: This is a venue/documentary photograph of a warung interior with diners, not a food photograph. No specific finished dish is prominent, sharply detailed, or appetisingly presented in either the full source image or the phone thumbnail. The thumbnail fails the phone review requirement (no readable essential food components). The source description lists multiple dishes generically but provides no specific dish to photograph. The image is fundamentally a location/people photograph, not food photography meeting Tavue standards.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1801,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 427,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
