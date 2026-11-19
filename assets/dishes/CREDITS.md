@@ -8914,3 +8914,9 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Methi ki bhaakri aur sengdane ki chutney** — Rahul Patil. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Methi_ki_bhaakri_aur_sengdane_ki_chutney.JPG). Local asset: `reviewed-commons-40872917.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Crepe** — David Monniaux. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/); [source](https://commons.wikimedia.org/wiki/File:Crepes_dsc07085.jpg). Local asset: `reviewed-commons-602379.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Crêpes roulées with portobello mushrooms, leeks, crème fraiche, mixed leaves** — Andy Li. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Cr%C3%AApes_roul%C3%A9es_with_portobello_mushrooms,_leeks,_cr%C3%A8me_fraiche,_mixed_leaves_-_Petit_Pois_Restaurant_2024-07-11.jpg). Local asset: `reviewed-commons-150250381.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Marion Crêpes in Harajuku Takeshita** — Syced. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Marion_Cr%C3%AApes_in_Harajuku_Takeshita_2.jpg). Local asset: `reviewed-commons-122515667.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
