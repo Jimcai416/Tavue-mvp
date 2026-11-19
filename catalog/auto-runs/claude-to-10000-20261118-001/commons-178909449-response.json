@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCCUrXS457gSGyJFqtNp",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Raw, uncooked meat pieces on cutting board with knife\",\n    \"No finished dish visible\",\n    \"Preparation stage, not a completed food\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title declares 'Chorizo argentino picado' but the image shows raw ground/minced meat preparation, not chorizo (which is a sausage product). The title describes this as an ingredient for bean stew (guiso de porotos), not a finished dish.\"\n  ],\n  \"reason\": \"Rejection: This is a raw meat preparation stage, not a finished, exposed, cooked dish. The image shows minced or ground meat on a cutting board with a knife—ingredient preparation for another dish (bean stew), not a plated or served food. Even if the source claims chorizo, the visible form is raw meat pieces, not a finished chorizo product. Home cooking photographs are welcome, but only finished dishes qualify; raw/preparation stages are explicitly rejected per guidelines.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1737,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 367,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCCUcGBXt46mEMVY82dP",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Sliced sausage rounds clearly visible on wooden board\",\n    \"Pink/red meat interior visible in cross-sections\",\n    \"Multiple slices arranged in rows\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source identifies item as 'chorizo' (sausage), which is an unspecified meat preparation—the actual animal species (pork, beef, or mixed) is not explicitly declared in the title or description\",\n    \"Title contains 'File:' prefix and filename extension, violating canonical_name rules\",\n    \"Sausage is not an allowed protein category key per instructions\"\n  ],\n  \"reason\": \"Reject: The source describes this as 'chorizo argentino' (Argentine sausage), but sausage is a preparation type, not a protein category. The instructions explicitly state 'do not use sausage/rabbit/clams as keys' and 'do not guess which animal sausage contains.' While the description mentions 'traditional barbecue sausages,' no explicit animal species is named in the title or description. The image is well-photographed and appetising, but cannot be accepted because protein_evidence cannot be populated with an allowed category (chicken/beef/pork/duck/lamb/seafood) backed by exact source text. Sausage compositions are ambiguous without explicit species declaration.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1765,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 449,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCCVHEyjc2dmZRXGh7QM",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Coiled sausages in dark container visible in thumbnail\",\n    \"Characteristic curved shape consistent with full image\",\n    \"Prominent enough for recognition\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source metadata labels this 'Chorizo sausage' but provides no explicit animal species declaration\",\n    \"Chorizo is a sausage category with multiple meat sources (pork, beef, etc.); species cannot be inferred from appearance or tradition alone\",\n    \"No source title or description explicitly names the animal protein (e.g., 'pork chorizo', 'beef chorizo')\"\n  ],\n  \"reason\": \"Rejection: The source description identifies this as 'Chorizo sausage' but provides no explicit statement of the animal species used. Protocol requires an exact case-sensitive source quote naming the specific protein (chicken/beef/pork/duck/lamb/seafood). Generic category 'sausage' and inferred species from tradition or appearance are not permitted. The ambiguity regarding the actual meat species prevents acceptance. The image quality and presentation are adequate, but the protein identity cannot be verified from explicit source evidence.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1731,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 405,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
