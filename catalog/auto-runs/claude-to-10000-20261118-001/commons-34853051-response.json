@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCxnidJUpeomaZk7nj9n",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Glass jar with clear amber/orange liquid visible in both full and thumbnail images\",\n    \"Straw present in jar\",\n    \"Blurred background food items (bread, plate) visible in full image and thumbnail\",\n    \"Natural indoor lighting with warm tones\"\n  ],\n  \"phone_observations\": [\n    \"Jar of amber liquid dominates thumbnail centre-cover clearly\",\n    \"Liquid state is prominently visible\",\n    \"Background food items blurred but present\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'apple jelly' but photograph shows a clear liquid beverage, not a solid jelly/gel food product\",\n    \"Source description 'apple jelly shot' contradicts visible liquid state—a jelly is a finished solid or semi-solid food, not a beverage\",\n    \"Photograph appears to show apple juice or apple cider, not a plated jelly dish\"\n  ],\n  \"reason\": \"Identity mismatch: source title/description declares 'apple jelly' and 'jelly shot', but the photograph clearly shows a finished liquid beverage in a glass jar, not a solid jelly dish or food item. The visible form does not match the declared identity. Tavue accepts finished, exposed dishes; a beverage is outside scope. Hold rules require exact agreement between source and visible form; this contradiction is unresolved.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1625,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 450,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

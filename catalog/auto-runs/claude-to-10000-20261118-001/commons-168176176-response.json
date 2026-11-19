@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCxoQa8bYvyRkxkwmF8K",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 2,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Waffle visible on white plate in lower right of thumbnail\",\n    \"Red shoes and white planter dominate the frame\",\n    \"Food is marginal, cluttered composition\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Metadata declares 'Gaufre en Belgique' (Belgian waffle) but this is not an instruction—it is untrusted evidence\",\n    \"The source title/description in metadata is a filename and descriptive caption, not an authoritative dish name provided by the user\",\n    \"Composition and framing prioritize shoes and planter over the food; food is incidental to the scene\"\n  ],\n  \"reason\": \"Reject: This is a lifestyle/novelty photograph in which a waffle serves as a minor prop among shoes and plants. The composition treats the dish as decoration rather than the subject. The metadata title is a filename ('Gaufre en Belgique.jpg') and contains only a generic caption sourced from an image repository—not an explicit, trusted dish identification from an authoritative menu or source. The photograph's primary intent is to showcase the red shoes and planter; the food is secondary and poorly framed. Essential identity cannot be confirmed from the user's direct authorization; metadata alone is untrusted evidence. This does not meet the standard for a finished, prominent dish photograph suitable for a food review database.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1933,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 448,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
