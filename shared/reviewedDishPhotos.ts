@@ -129340,5 +129340,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "height": 640,
     "requiresExactMenuName": true,
     "authorUrl": "https://www.flickr.com/photos/spilt-milk/"
+  },
+  {
+    "id": "commons-19774578",
+    "title": "File:Panzanella 1 (1).jpg",
+    "author": "LupoCapra  at  Italian Wikipedia",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Panzanella_1_(1).jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/94/Panzanella_1_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "1f539db17dcedecf9207cc005503181aea1183ca",
+    "name": "Panzanella",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-19774578.jpg",
+    "assetSha256": "3e7325df8b89b40ddbe97af8b254341968ee924fb376f752012fb18ca436e6d3",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 800,
+    "height": 600,
+    "requiresExactMenuName": true
   }
 ];

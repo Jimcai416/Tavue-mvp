@@ -10036,3 +10036,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 - **Chile en nogada** — Alejandra Mendoza Santillan. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Chile_en_nogada_con_granada.jpg). Local asset: `reviewed-commons-106167855.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Italian Panzanella** — [Heather Katsoulis](https://www.flickr.com/people/52473526@N00). [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:Italian_Panzanella.jpg). Local asset: `reviewed-commons-19279358.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Houtou** — [yoppy](https://www.flickr.com/photos/spilt-milk/). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Houtou_by_yoppy.jpg). Local asset: `reviewed-commons-2342762.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Panzanella** — LupoCapra  at  Italian Wikipedia. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/); [source](https://commons.wikimedia.org/wiki/File:Panzanella_1_(1).jpg). Local asset: `reviewed-commons-19774578.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
