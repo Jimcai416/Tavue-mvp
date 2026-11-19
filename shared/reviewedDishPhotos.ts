@@ -87649,5 +87649,29 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "height": 638,
     "requiresExactMenuName": true,
     "authorUrl": "https://www.flickr.com/people/63743776@N00"
+  },
+  {
+    "id": "commons-137513841",
+    "title": "File:Tagliatelle Funghi e Prosciutto - Donatello 2023-09-12.jpg",
+    "author": "Andy Li",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tagliatelle_Funghi_e_Prosciutto_-_Donatello_2023-09-12.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Tagliatelle_Funghi_e_Prosciutto_-_Donatello_2023-09-12.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "98b94a715acf7903cdfccbf9085f0d27b189a56c",
+    "name": "Tagliatelle Funghi e Prosciutto",
+    "aliases": [],
+    "proteins": [
+      "pork"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-137513841.jpg",
+    "assetSha256": "ec41f15e415ea9492db0e9ae0eba20a07c2d4b368a49ba9f6d076a360dfd6922",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 720,
+    "height": 960,
+    "requiresExactMenuName": true
   }
 ];
