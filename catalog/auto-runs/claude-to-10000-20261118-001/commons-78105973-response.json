@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCNnWuPXqNvKio2msk7R",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": true,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 2,\n    \"composition\": 3,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail is a street scene showing a food stall/poffertjes cart exterior\",\n    \"No finished dish is visible in the phone thumbnail\",\n    \"Subject is a vendor booth and public plaza, not a food product\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source describes a poffertjes stall (a food vendor structure), not a finished, exposed dish photograph\",\n    \"No actual food item is visible or prominent in either the full image or thumbnail\",\n    \"The photograph is a historical documentary street scene, not a food photography submission\"\n  ],\n  \"reason\": \"Reject: This is a black-and-white historical documentary photograph of a poffertjes (Dutch pancake) vendor stall and street scene from 1994, not a photograph of a finished, exposed, appetising dish. No food item is visible, prominent, or sharply detailed in the composition. The phone thumbnail shows only the exterior stall structure and public plaza. This violates the core requirement for a finished, exposed, likely photographic dish that is prominent and visually detailed enough for food review. The image is archival/documentary in nature, not a food submission.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 2101,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 404,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
