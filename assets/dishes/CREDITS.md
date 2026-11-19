@@ -7089,3 +7089,9 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 
 - **Nam tok kor moo yang, grilled sliced pork neck in spicy Isaan salad with roasted rice, chili and lime dressing** — JIP. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Nam_tok_kor_moo_yang.jpg). Local asset: `reviewed-commons-85612411.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Nam tok bami noodles** — Xufanc. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Namtok-noodles102.jpg). Local asset: `reviewed-commons-7313112.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Chicken and Samp** — Puoyaka. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Chicken_and_Samp.jpg). Local asset: `reviewed-commons-171137549.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **lahpet thohk - pickled tea salad** — ​ en  user  Wagaung. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/); [source](https://commons.wikimedia.org/wiki/File:Laphet_thoke.JPG). Local asset: `reviewed-commons-4485814.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Samp and Beef Stew meal** — Puoyaka. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Samp_and_Beef_Stew.jpg). Local asset: `reviewed-commons-171137548.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
