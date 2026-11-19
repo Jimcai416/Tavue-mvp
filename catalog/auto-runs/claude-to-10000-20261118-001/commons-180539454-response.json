@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCymeYKrzNLCkC8qryJc",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Sliced cured/smoked pork visible in thumbnail\",\n    \"Pink-toned meat and darker exterior consistent with main image\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title describes 'Uzená žebra a uzená rolovaná plec' (smoked ribs and smoked rolled shoulder) but the image shows sliced cured/smoked pork that appears to be prepared components or ingredients, not a finished plated dish\",\n    \"The photograph shows raw or cured meat components arranged for display, not a finished cooked dish ready to serve\",\n    \"Czech source description lists this as an ingredient ('V teplé kuchyni se používá jako uzenina na přípravu pokrmů' — in a warm kitchen used as cured meat to prepare dishes), not a finished dish itself\",\n    \"No finished, exposed, cooked dish is identifiable—only cured/smoked pork components\"\n  ],\n  \"reason\": \"Reject: This is a display of cured/smoked pork components (ribs and rolled shoulder) presented as ingredients or raw material, not a finished, exposed, cooked dish. The source metadata explicitly describes these as cured meat ('uzenina') used to prepare dishes, not a served dish itself. While the photograph quality, sharpness, and phone thumbnail are acceptable, the subject fails the core requirement of being a finished, exposed, likely photographic dish. Home cooking and street food are welcome, but ingredients or preparation stages are not.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1844,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 484,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

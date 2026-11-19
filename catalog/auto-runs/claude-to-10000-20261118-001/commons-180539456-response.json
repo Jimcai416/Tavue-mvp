@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCymeWqYev9SzeUC9dxN",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Raw/preparation stage meat slices visible in thumbnail\",\n    \"Uncooked pork cuts with exposed pink interior\",\n    \"No finished, exposed dish evident\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source describes these as cured/smoked pork components (uzená žebra, uzená plec) but the photograph shows raw or inadequately cooked meat slices with pink interiors and no evidence of a finished, cooked dish\",\n    \"Title references preparation ingredients, not a completed plated dish\"\n  ],\n  \"reason\": \"Reject: This photograph shows raw or preparation-stage pork cuts (ribs and rolled shoulder), not a finished, exposed, cooked dish. The source description explicitly frames these as ingredients 'used in warm kitchens for dish preparation' (uzená polévka, šunkofleky, etc.), not as a served dish itself. The pink interior of sliced meat and uncooked appearance violate the requirement for a finished, appetising photographic dish. The phone thumbnail confirms this is a preparation/ingredient stage, not a completed meal.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1844,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 392,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

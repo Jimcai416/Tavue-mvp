@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCymeYZfCqSWahgDGRLy",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Raw/cured meat slices displayed on plate\",\n    \"Pink interior visible, uncooked state\",\n    \"Marbling and fat distribution prominent\",\n    \"No prepared dish evident\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title references 'uzená žebra a uzená rolovaná plec' (smoked ribs and smoked rolled shoulder) but image shows sliced, raw or cured pork cuts in preparation/raw state, not a finished cooked dish\",\n    \"Ambiguous meat species: source text says 'vepřový' (pork) but describes this as cured/smoked meat ('uzená') used for preparation of other dishes, not a standalone finished food\",\n    \"Image depicts raw or cured meat components, not an exposed, finished, cooked dish ready to eat\"\n  ],\n  \"reason\": \"Reject: The source describes raw/cured pork components ('uzená'—smoked/cured) intended for use in preparing other dishes (soup, fleck, potato dishes), not a finished standalone dish. The photograph shows sliced cured/raw meat with visible pink interior on a plate—this is a preparation ingredient or charcuterie display, not a finished cooked dish. Identity does not match the requirement for 'a finished, exposed, likely photographic dish.' The metadata explicitly states these are ingredients for cooking other meals. This fails the identity and finished-dish criteria.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1844,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 470,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
