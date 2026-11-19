@@ -101520,5 +101520,30 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "height": 960,
     "requiresExactMenuName": true,
     "authorUrl": "https://www.flickr.com/photos/glossmania/"
+  },
+  {
+    "id": "commons-83131214",
+    "title": "File:Laksa Lemak - Billy Chu AUD8.50 (2293033305).jpg",
+    "author": "Alpha  from Melbourne, Australia",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Laksa_Lemak_-_Billy_Chu_AUD8.50_(2293033305).jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/64/Laksa_Lemak_-_Billy_Chu_AUD8.50_%282293033305%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "9591e9abff244b775362293572a54004c6f5dcd2",
+    "name": "Laksa Lemak",
+    "aliases": [],
+    "proteins": [
+      "chicken"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-83131214.jpg",
+    "assetSha256": "a6f4905a2b5bd6a600c876fdf5940684d25400b8f4c9610645756723cf1b7b88",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true,
+    "authorUrl": "https://www.flickr.com/people/10559879@N00"
   }
 ];

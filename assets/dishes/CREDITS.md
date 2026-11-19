@@ -7560,3 +7560,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Ginataang kalabasa at hipon (shrimp, calabaza, green beans, and eggplant in coconut milk)** — [Yvette Tan](https://www.flickr.com/photos/glossmania/). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Ginataang_kalabasa_at_hipon_(shrimp,_calabaza,_green_beans,_and_eggplant_in_coconut_milk)_-_Philippines.jpg). Local asset: `reviewed-commons-75244928.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Laksa Lemak** — [Alpha  from Melbourne, Australia](https://www.flickr.com/people/10559879@N00). [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:Laksa_Lemak_-_Billy_Chu_AUD8.50_(2293033305).jpg). Local asset: `reviewed-commons-83131214.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
