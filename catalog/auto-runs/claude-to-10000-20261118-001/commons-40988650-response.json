@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBttHrj96jvqE8KAxhgc",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 3,\n    \"lighting\": 2,\n    \"composition\": 3,\n    \"appeal\": 2\n  },\n  \"visible_support\": [\n    \"Mint-flecked paratha visible in upper left\",\n    \"Two brown curried dishes on metal plate\",\n    \"Plated on traditional Indian thali-style steel plate\"\n  ],\n  \"phone_observations\": [\n    \"Mint paratha readable but soft\",\n    \"Two distinct brown preparations visible but underexposed\",\n    \"Plate dominates; food components compressed and poorly lit in thumbnail\",\n    \"Essential details of curried dishes unresolvable at phone size\"\n  ],\n  \"protein_evidence\": {\n    \"chicken\": \"boneless chicken mixed with it\"\n  },\n  \"uncertainties\": [\n    \"Source title claims 'Chicken tadka' but description states tadka is 'an Indian Veg dish' with chicken 'mixed with it'—contradicts whether chicken is a tadka component or a separate preparation\",\n    \"Two brown preparations visible but cannot visually distinguish which is 'Chicken tadka' and which is 'Dal Makhani' from photograph alone\",\n    \"Description contains confusing/contradictory language about tadka definition and chicken integration\",\n    \"Lighting and softness obscure curry texture and ingredient visibility\"\n  ],\n  \"reason\": \"Reject: source title–description contradiction. Title names 'Chicken tadka' as a main component, but description defines tadka as 'an Indian Veg dish' with boneless chicken 'mixed with it,' implying chicken is added to a vegetarian base—conflicting identity. Visual composition shows three elements (paratha, two curried dishes) but cannot reliably assign identity to the two brown preparations in soft, underlit conditions. Phone thumbnail severely compresses essential food detail. The photograph quality and internal source inconsistency prevent confident canonical identification. Hold rules require source identity certainty; this source contradicts itself.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1871,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 543,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
