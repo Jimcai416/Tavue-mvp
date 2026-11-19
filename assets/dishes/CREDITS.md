@@ -6584,3 +6584,9 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 
 - **Fish soup** — Gerda Arendt. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Fish_soup,_Ibiza.jpg). Local asset: `reviewed-commons-140330093.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Easter breakfast in Serbia** — Petar Milošević. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Easter_breakfast_in_Serbia_(close-up).jpg). Local asset: `reviewed-commons-107567899.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Juicy pork meatballs** — Lauren Stephan. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Juicy_pork_meatballs.jpg). Local asset: `reviewed-commons-203109610.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Skånsk kalops med grillad sparris** — Pelle Sten. [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Sk%C3%A5nsk_kalops_med_grillad_sparris.jpg). Local asset: `reviewed-commons-69820077.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Æbleskiver** — Michael Meinecke. [Public domain](https://creativecommons.org/publicdomain/mark/1.0/); [source](https://commons.wikimedia.org/wiki/File:Aebleskiver1.jpg). Local asset: `reviewed-commons-5901463.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
