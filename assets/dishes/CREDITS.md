@@ -9898,3 +9898,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 - **Tuwo da miya** — Zahraswaty. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Tuwo_da_miya_Food_in_Northern_Nigeria.jpg). Local asset: `reviewed-commons-161967283.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Okro Soup and Yellow Gari** — Yemisi Ogbe. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Okro_Soup_and_Yellow_Gari.jpg). Local asset: `reviewed-commons-36898662.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Tuwo da miyar kuka** — Halima Waziri. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Tuwo_miyar_kuka.jpg). Local asset: `reviewed-commons-164443703.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Tuwo miyar taushe** — Halima Waziri. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Tuwo_miyar_taushe.jpg). Local asset: `reviewed-commons-164443706.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.

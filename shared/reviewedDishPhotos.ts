@@ -128081,5 +128081,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 715,
     "height": 829,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-164443706",
+    "title": "File:Tuwo miyar taushe.jpg",
+    "author": "Halima Waziri",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tuwo_miyar_taushe.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Tuwo_miyar_taushe.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "bc1068d3924ace615d7065aac41e30888e203307",
+    "name": "Tuwo miyar taushe",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-164443706.jpg",
+    "assetSha256": "1bfb0d52242b7a931a61f1f94d10d4f5350ae3013169f478646eac969c37eaa8",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 540,
+    "height": 960,
+    "requiresExactMenuName": true
   }
 ];
