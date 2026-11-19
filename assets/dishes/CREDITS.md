@@ -7826,3 +7826,10 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 
 - **neer dosa** — Hebbar.sudarshan. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Neer-dosa-.jpg). Local asset: `reviewed-commons-48209127.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Salmorejo** — Tamorlan. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Salmorejo_-_Barajas.JPG). Local asset: `reviewed-commons-19028043.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Aloo Chaat** — Obaid Raza. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Aloo_Chaat.jpg). Local asset: `reviewed-commons-39971752.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **masala khichiya** — Shah Naisargi. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:KhichiyaPapad_Homemade_Mumbai.jpg). Local asset: `reviewed-commons-103626934.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Ragi Mudde** — Chandan.kempegowda. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Ragi_Muddde.jpg). Local asset: `reviewed-commons-40752245.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Chicken Mandi Rice** — Miansari66. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Chicken_Mandi_Rice_%D9%85%D9%86%D8%AF%D9%8A_%D8%AF%D8%AC%D8%A7%D8%AC.JPG). Local asset: `reviewed-commons-26558996.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
