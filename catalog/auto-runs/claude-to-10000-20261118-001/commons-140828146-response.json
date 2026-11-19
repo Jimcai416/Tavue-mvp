@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBWCbMmRFmHTHTSNycoJ",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Golden-brown fried rice visible in two black square plates\",\n    \"White raita/yogurt accompaniment in small containers\",\n    \"Fried items (possibly pakora or similar snacks) on white plate\",\n    \"Golden french fries in black plate\",\n    \"Natural daylight, sharp detail of food components\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail shows fried rice portions prominently\",\n    \"Fried snacks and fries visible but small\",\n    \"Essential dish components readable in phone view\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title 'Briyani with snacks.jpg' is vague metadata only—does not specify the dish identity, preparation style, meat type, or regional variant\",\n    \"Visible fried rice and accompaniments could be biryani, but no explicit 'biryani' text in metadata title\",\n    \"No protein species named in metadata; meat ingredient(s) cannot be identified from visual inspection alone\",\n    \"Generic 'snacks' and 'Foods' description insufficient to establish canonical dish name\",\n    \"Multiple fried items present but their specific identity and ingredients are ambiguous\"\n  ],\n  \"reason\": \"Reject: Source metadata provides only generic filename ('Briyani with snacks.jpg') and vague description ('Foods'). No explicit confirmation of dish type, variant, preparation, or protein species. While the photograph shows appetizing fried rice and accompaniments with good technical quality, the absence of a specific canonical title or protein declarations means identity cannot be established against visible form. Metadata alone is untrusted evidence and cannot serve as instruction. A meaningful source title or description is required.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1722,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 520,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

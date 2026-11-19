@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBWBvFHpQkD3Na9Fs8Ep",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 3,\n    \"lighting\": 2,\n    \"composition\": 2,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows a brown rice-based dish with visible dark dried fruits (raisins, dates, or prunes) distributed across surface\",\n    \"Subject is prominent and legible but composition is flat, shot from directly above inside a metal pot\",\n    \"No distinct plating or finished presentation; appears mid-preparation or in-pot\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'Briyani Pulao' but description says 'Briyani in Kerala style'; these are distinct dishes—briyani is a layered rice dish with meat, pulao is a one-pot rice preparation. Source is internally contradictory.\",\n    \"No visible protein (meat, seafood) identifiable in either image. Dry fruits are visible but no animal protein is apparent.\",\n    \"Dish is photographed in-pot without plating, presentation, or exposed finished form typical of accepted food photographs.\"\n  ],\n  \"reason\": \"Reject: source title/description contradiction (Briyani vs. Pulao are different dishes). No visible protein evidence despite both names implying a meat dish. Image shows unpresentable in-pot preparation stage without finished plating or exposure. Scores for lighting, composition, and appeal fall below threshold (2/5). Cannot establish canonical identity from conflicting source metadata.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1731,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 440,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBWBrhxrSz9VWndyFfiv",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 5,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Roasted eggplant with tahini and fresh green herbs clearly visible\",\n    \"Sliced hard-boiled eggs with yolk and black pepper seasoning\",\n    \"Boiled potatoes with tahini coating\",\n    \"Fresh chopped salad with cucumber, tomato and greens\"\n  ],\n  \"phone_observations\": [\n    \"All major components clearly visible in thumbnail at centre-cover framing\",\n    \"Eggplant, eggs, potatoes and salad all identifiable\",\n    \"Plate composition readable and appetising\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title describes 'open sabich (personal variation)' but sabich is a closed sandwich form; metadata labels this as 'sabich-inspired plate' which is inconsistent with established dish identity\",\n    \"The description states 'roasted eggplant topped with tahini and herbs' but sabich traditionally includes eggplant, egg, potato and salad inside a pita pocket; this plated composition does not match the canonical form\",\n    \"Source metadata contradicts itself: title says 'open sabich' while description says 'sabich-inspired plate' — no consensus on actual dish name\",\n    \"No animal proteins explicitly named in source (eggs are present visually but not mentioned in title/description text)\"\n  ],\n  \"reason\": \"Image quality, sharpness, lighting and composition are excellent; phone thumbnail clearly shows the finished plated dish. However, identity check fails because the source description introduces substantial ambiguity: 'open sabich' contradicts the closed-sandwich definition of sabich, and the metadata alternates between 'sabich' and 'sabich-inspired plate.' The source itself acknowledges this is a 'personal variation' that deviates from canonical form. The canonical_name cannot be reliably extracted from a self-contradictory and non-standard source description. No animal proteins are explicitly named in the title or description despite eggs being visibly present. Hold pending clarification of the actual intended dish identity.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1812,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 597,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

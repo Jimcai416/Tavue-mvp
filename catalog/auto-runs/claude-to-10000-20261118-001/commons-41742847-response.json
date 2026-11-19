@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBWCsNRTPZFRAhBgWdYW",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 2,\n    \"composition\": 2,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Plate on printed newspaper background\",\n    \"Tan/beige shredded or pulled meat visible\",\n    \"White garnish (onion?) on plate rim\",\n    \"Overall soft focus and poor lighting in both images\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title claims 'chicken briyani' but the dish appears to be a shredded/pulled meat preparation, not characteristic biryani (layered rice + meat)\",\n    \"Visual appearance inconsistent with biryani identity: no visible rice, appears to be meat-only preparation\",\n    \"Severe softness, blur and poor lighting make confident identification impossible\",\n    \"Despite source declaring 'chicken', visual form does not support biryani classification\",\n    \"Plate set on newspapers on what appears to be an unfinished surface suggests preparation/staging phase rather than finished plated dish\"\n  ],\n  \"reason\": \"Reject: Quality checks fail (sharpness 2, lighting 2, composition 2, appeal 1 all below threshold). The photographed dish does not visually correspond to 'chicken briyani' — no rice is visible, only shredded/pulled meat on a plate set directly on printed newspapers in poor lighting and severe softness. The visual form contradicts the source identity claim. The presentation, lighting conditions, and lack of focus suggest a preparation or staging photograph rather than a finished, appetising dish. Essential quality and identity standards are not met.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1518,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 471,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
