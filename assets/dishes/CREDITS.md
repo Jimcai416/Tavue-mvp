@@ -10533,3 +10533,9 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 
 - **French Fries with Ketchup** — Kritzolina. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:French_Fries_with_Ketchup_01.jpg). Local asset: `reviewed-commons-119779475.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Course -6 Foie Gras - Terrine with Black Truffle and Asparagus** — [City Foodsters](https://www.flickr.com/people/89060048@N03). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Course_-6_Foie_Gras_-_Terrine_with_Black_Truffle_and_Asparagus_(9246970452).jpg). Local asset: `reviewed-commons-67348482.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Shakahari Thali** — Avinashvh1n1. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Shakahari_Thali.JPG). Local asset: `reviewed-commons-40914726.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Vigorón** — Nicaraguan food. [Public domain](https://creativecommons.org/publicdomain/mark/1.0/); [source](https://commons.wikimedia.org/wiki/File:VIGORON.JPG). Local asset: `reviewed-commons-8401676.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Pupusas revueltas with curtido and tomato sauce** — No machine-readable author provided.  Guanaco152003  assumed (based on copyright claims).. [Public domain](https://creativecommons.org/publicdomain/mark/1.0/); [source](https://commons.wikimedia.org/wiki/File:2006_0226Pupusas0102.JPG). Local asset: `reviewed-commons-601746.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
