@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCM1d85FU4MWHGdh68bJ",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Noodle soup in white bowl on weathered surface\",\n    \"Wavy wheat noodles in golden-brown broth\",\n    \"Hard-boiled egg halves visible as garnish\",\n    \"Green herbs/scallions present\",\n    \"Natural daylight, street food setting\",\n    \"Spoon visible in bowl\"\n  ],\n  \"phone_observations\": [\n    \"Dish clearly recognizable in thumbnail\",\n    \"White bowl and noodle soup prominent\",\n    \"Egg garnish visible at scale\",\n    \"Broth colour and noodle texture evident\",\n    \"Adequate detail for acceptance purposes\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'Soto Madura Jawa Timur' but source metadata is filename/title only, not verified description\",\n    \"No explicit animal protein named in source title or description—'soto' is a category, not a specific protein declaration\",\n    \"Traditional soto madura often contains beef or chicken, but no source quote explicitly names either animal\",\n    \"Cannot infer species from appearance or regional tradition alone\"\n  ],\n  \"reason\": \"Image is a finished, naturally lit, appetising noodle soup photograph with sharp detail and good composition. Phone thumbnail is clear and functional. However, identity check fails: the source title 'Soto Madura Jawa Timur' is a regional category name without explicit protein declaration. No animal species is named in the supplied title or description text. While the dish tradition suggests likely meat content, the rules prohibit inferring species from appearance, tradition, or generic category names. The source metadata must contain an exact quote naming the specific animal (e.g. 'beef', 'chicken') as a protein_evidence key. Without that explicit source evidence, identity cannot be verified as matching a specific dish variant. Hold pending clarification of protein content in authoritative source description.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1737,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 570,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

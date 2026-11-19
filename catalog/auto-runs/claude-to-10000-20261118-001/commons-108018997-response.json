@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChCLzr8dYyvrxGYynm7y3",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 5,\n    \"composition\": 5,\n    \"appeal\": 4\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows raw ingredient components arranged on decorative plate\",\n    \"No finished, cooked dish visible in either source or thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title is 'Bumbu Soto Madura' (spice paste/ingredient blend for Soto Madura soup), not a finished dish\",\n    \"Image shows raw spice components: shallots, garlic, candlenuts, peppercorns, lemongrass, turmeric, and lime leaves—preparation stage only\",\n    \"No soup or cooked final dish is present\"\n  ],\n  \"reason\": \"Rejection: Image shows raw spice paste ingredients (bumbu) for Soto Madura soup, not a finished, exposed, cooked dish. This is a preparation/ingredient display stage, not a completed photographic food dish suitable for Tavue review. Identity check fails: the source describes an ingredient blend, not a dish. No protein can be identified because no cooked food is present.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 2111,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 379,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
