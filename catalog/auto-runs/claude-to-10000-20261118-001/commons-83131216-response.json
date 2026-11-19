@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBq8ri6XdaQ1JFya2BAJ",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Creamy golden-brown curry broth with visible meat pieces\",\n    \"Fresh mint leaf garnish\",\n    \"White bowl presentation\",\n    \"Restaurant setting with accompaniments\",\n    \"Noodles visible in broth\"\n  ],\n  \"phone_observations\": [\n    \"Mint leaf and meat curry broth clearly visible\",\n    \"Golden-brown colour and composition readable\",\n    \"Dish prominence adequate in thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title states 'Curry Laksa' but no explicit meat species declaration in metadata\",\n    \"Visible meat pieces appear to be poultry or pork but cannot be definitively identified from appearance alone\",\n    \"No protein animal explicitly named in the supplied title or description\",\n    \"Cannot confirm whether meat is chicken, pork, or another species without explicit source statement\"\n  ],\n  \"reason\": \"Image quality, photograph authenticity, composition and phone visibility are all acceptable. However, the identity check fails: the source title 'Curry Laksa' is provided but contains no explicit declaration of which protein animal(s) are present. While meat is visibly present in the dish, the species cannot be inferred from appearance alone and no exact source quote names a specific animal. Protein evidence is therefore empty. This requires hold pending clarification of the actual protein composition from the source.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1797,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 445,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

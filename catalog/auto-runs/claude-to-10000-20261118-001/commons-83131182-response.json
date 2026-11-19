@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChBq94AAo1Hg2ns1RPy5B",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Yellow egg noodles and vermicelli clearly visible\",\n    \"Cream-coloured curry broth\",\n    \"Green herbs/scallions garnish\",\n    \"Cooked meat pieces (tan/brown colour)\",\n    \"White items consistent with fish cake or tofu\",\n    \"Served in white bowl\",\n    \"Natural, appetising appearance\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail shows noodle dish with broth, meat, and garnish\",\n    \"Curry/cream soup base readable\",\n    \"Essential components visible and not clipped\",\n    \"Appetising presentation maintained in thumbnail\"\n  ],\n  \"protein_evidence\": {\n    \"chicken\": \"chicken\"\n  },\n  \"uncertainties\": [\n    \"Source title states 'clam' (cockles) as an ingredient, but clams are not an allowed protein category and cannot be verified as a visually distinct component in the photograph\",\n    \"Fish cake (tofu-like white pieces) and bean curd are present but cannot be distinguished from each other visually\",\n    \"Bean shoots mentioned in description but not definitively identifiable separately from garnish\",\n    \"Exact species ambiguity: 'cockles' (clams) explicitly named in source but outside allowed protein scope\"\n  ],\n  \"reason\": \"Source description lists clam/cockles as a key ingredient, which falls outside the allowed protein categories (chicken/beef/pork/duck/lamb/seafood with explicit species naming). While chicken is named and visually supported, the presence of a named but ineligible protein ingredient creates unresolved uncertainty about the dish's authentic composition and whether approval would validate an incomplete protein accounting. Hold pending clarification or image with clearly identifiable and category-compliant ingredients only.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1926,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 535,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
