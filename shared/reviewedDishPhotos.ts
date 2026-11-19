@@ -106221,5 +106221,52 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-192497796",
+    "title": "File:Tahu isi goreng di pemandian patemon.jpg",
+    "author": "Nafisaacdr",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tahu_isi_goreng_di_pemandian_patemon.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Tahu_isi_goreng_di_pemandian_patemon.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "0aa76dccdc67c828d4d9d590a4df00f1a2762226",
+    "name": "Tahu isi goreng",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-192497796.jpg",
+    "assetSha256": "d016a2ac2f55041f61cbd2443240e2cec328f8dcd3d9fa4bf8f25fdda72c8850",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 896,
+    "height": 960,
+    "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-101322760",
+    "title": "File:Prawn Mee (8519155325).jpg",
+    "author": "Charles Haynes",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Prawn_Mee_(8519155325).jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Prawn_Mee_%288519155325%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "b654683f8101e4b03c953f18fcf253ffd9155abe",
+    "name": "Prawn Mee",
+    "aliases": [],
+    "proteins": [
+      "seafood"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-101322760.jpg",
+    "assetSha256": "03bf26eea8c7f8e2210ab053be93b108bddf14e6d23752465c4daae7559c30ea",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 567,
+    "requiresExactMenuName": true,
+    "authorUrl": "https://www.flickr.com/people/87232391@N00"
   }
 ];
