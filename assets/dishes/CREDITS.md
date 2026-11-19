@@ -10076,3 +10076,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 - **paratha stuffed with cauliflower** — Nithyasrm. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Picture_of_tasty_Gobi_paratha.JPG). Local asset: `reviewed-commons-40916530.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Ragda puri** — Sahil tiwarie. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Ragda_puri.jpg). Local asset: `reviewed-commons-40848195.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Vegetable Biryani** — Miansari66. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Vegetable_Biryani.JPG). Local asset: `reviewed-commons-29951842.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Karniyarik eggplant stuffed with minced lamb** — [Alpha](https://www.flickr.com/photos/10559879@N00). [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:Karniyarik_Eggplant_stufed_with_Minced_Lamb_-_degustation_-_Ottoman_Cuisine.jpg). Local asset: `reviewed-commons-7979696.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.

@@ -129763,5 +129763,30 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-7979696",
+    "title": "File:Karniyarik Eggplant stufed with Minced Lamb - degustation - Ottoman Cuisine.jpg",
+    "author": "Alpha",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Karniyarik_Eggplant_stufed_with_Minced_Lamb_-_degustation_-_Ottoman_Cuisine.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/95/Karniyarik_Eggplant_stufed_with_Minced_Lamb_-_degustation_-_Ottoman_Cuisine.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "bfe10b1251e2a3cdf505a3365ef0adfdcdc7923f",
+    "name": "Karniyarik eggplant stuffed with minced lamb",
+    "aliases": [],
+    "proteins": [
+      "lamb"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-7979696.jpg",
+    "assetSha256": "68e0e7998d23b4d58bc9bb285a045d3631f274b9c3b3cc66e459cc24e2eb0e1b",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true,
+    "authorUrl": "https://www.flickr.com/photos/10559879@N00"
   }
 ];
