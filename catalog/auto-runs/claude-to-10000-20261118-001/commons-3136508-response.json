@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChD54L87DfLTBnjJjHNAw",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": \"minced pork, glass noodles and mushrooms packaged into a half moon shape within layers of a dense, flaky wrapper\",\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Half-moon shaped fried pastries with golden-brown, crispy exterior visible in full image and phone thumbnail\",\n    \"Dense, flaky wrapper layers evident on fractured edges\",\n    \"Filling visible in cross-section showing mixed ingredients\",\n    \"Accompanying soup bowl with diced vegetables (carrot, potato/turnip) in clear broth\",\n    \"Home-style presentation on white plates against dark background\"\n  ],\n  \"phone_observations\": [\n    \"Half-moon pastry clearly visible and prominent in thumbnail\",\n    \"Golden colour and crispy texture readable in small format\",\n    \"Accompanying soup bowl visible in background right\",\n    \"Essential components well-represented in 124x96 crop\"\n  ],\n  \"protein_evidence\": {\n    \"pork\": \"minced pork\"\n  },\n  \"uncertainties\": [\n    \"Source title is 'File:Banh goi 03.JPG' which is a filename, not a canonical dish name. The description provides ingredient detail but no authoritative Vietnamese dish name in title format.\",\n    \"Ambiguity whether this should be canonically called 'Bánh gối' (the implied regional variant) or if 'Banh goi' is the correct romanization to preserve. Source provides description but not a formal canonical title.\",\n    \"No explicit source-provided canonical name matching expected dish title format available to copy verbatim.\"\n  ],\n  \"reason\": \"Photograph and phone thumbnail both meet technical quality, sharpness, lighting and composition standards (all ≥4). Pork is explicitly named in source description and visually supported. However, identity check fails: the source provides only a filename and ingredient description, not a formal canonical dish name. Per protocol, canonical_name must be 'copied exactly from source title or description' in specific dish phrase format. The filename 'File:Banh goi 03.JPG' is explicitly excluded per instructions. The description provides ingredients but no properly formatted canonical title. This creates an unresolvable identity uncertainty—the dish cannot be formally named from provided source metadata in the required canonical format. Hold pending a proper source-attributed canonical name.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1744,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 647,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
