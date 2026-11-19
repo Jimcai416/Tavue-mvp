@@ -86289,5 +86289,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "height": 640,
     "requiresExactMenuName": true,
     "authorUrl": "http://www.dvidshub.net/portfolio/1131231/amber-leach"
+  },
+  {
+    "id": "commons-53892832",
+    "title": "File:Tajik mantu (1).jpg",
+    "author": "The original uploader was  Ibrahim  at  Tajik Wikipedia .",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tajik_mantu_(1).jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/61/Tajik_mantu_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "67edf336db3f0b6a218a5a8ae9e940fd8c5ebeb3",
+    "name": "Tajik mantu",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-53892832.jpg",
+    "assetSha256": "359ae0faa8955bb506f047c84492344ebc99cb10db48d45ac9ef7943f59544b7",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];
