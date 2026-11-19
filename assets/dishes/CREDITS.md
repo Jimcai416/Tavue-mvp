@@ -7552,3 +7552,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Crispy Bagnet** — Ralff Nestor Nacor. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Crispy_Bagnet,_Mar_2024.jpg). Local asset: `reviewed-commons-146785941.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Tortang Giniling** — Judgefloro. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:8233Cuisine_of_Bulacan_05.jpg). Local asset: `reviewed-commons-81505757.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.

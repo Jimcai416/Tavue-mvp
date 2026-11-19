@@ -101473,5 +101473,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 723,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-81505757",
+    "title": "File:8233Cuisine of Bulacan 05.jpg",
+    "author": "Judgefloro",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:8233Cuisine_of_Bulacan_05.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e7/8233Cuisine_of_Bulacan_05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "f1e51db91ded6db4675be33c3b4fd0b81436ac85",
+    "name": "Tortang Giniling",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-81505757.jpg",
+    "assetSha256": "b4c7aa0307fe4d493708b802b7eb1bf1b25de220cdc55412b90df1fc9d519f34",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];
