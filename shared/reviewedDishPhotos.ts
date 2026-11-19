@@ -126321,5 +126321,30 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-78706673",
+    "title": "File:Tenglong Chinese Restaurant Lemon Chicken (37577556406).jpg",
+    "author": "Willis Lam",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tenglong_Chinese_Restaurant_Lemon_Chicken_(37577556406).jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/71/Tenglong_Chinese_Restaurant_Lemon_Chicken_%2837577556406%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "9727565df7f23ac2d160643b6f939f0394c10672",
+    "name": "Lemon Chicken",
+    "aliases": [],
+    "proteins": [
+      "chicken"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-78706673.jpg",
+    "assetSha256": "7c161a7369544a99f4fa0014a49c9f2e5e15be6061d22a060558f337f646831a",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true,
+    "authorUrl": "https://www.flickr.com/people/85567416@N03"
   }
 ];

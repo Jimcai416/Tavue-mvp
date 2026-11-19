@@ -9746,3 +9746,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 - **Lei cha** — Encik Tekateki. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Lei_Cha_in_Vegeterian_Restaurant.jpg). Local asset: `reviewed-commons-89176093.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Lemon posset** — jules. [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Lemon_posset-3.jpg). Local asset: `reviewed-commons-144374455.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Lemon Rice** — Sanjay Kar (Shaazsrk). [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Lemon_Rice.JPG). Local asset: `reviewed-commons-40688666.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Lemon Chicken** — [Willis Lam](https://www.flickr.com/people/85567416@N03). [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:Tenglong_Chinese_Restaurant_Lemon_Chicken_(37577556406).jpg). Local asset: `reviewed-commons-78706673.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
