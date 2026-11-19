@@ -107302,5 +107302,29 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-36176026",
+    "title": "File:Tuwo with miyan kuka and fried fish.jpg",
+    "author": "Suleiman213",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tuwo_with_miyan_kuka_and_fried_fish.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/33/Tuwo_with_miyan_kuka_and_fried_fish.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "889c4c655f937d7732268231f8410187e62ac59f",
+    "name": "Tuwo with miyan kuka and fried fish",
+    "aliases": [],
+    "proteins": [
+      "seafood"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-36176026.jpg",
+    "assetSha256": "c8ea5ca54e6c06c8421dad9eea5852eb5503afd86ffd8c3d111247cec7fb1b76",
+    "reviewedAt": "2026-11-19",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 576,
+    "height": 960,
+    "requiresExactMenuName": true
   }
 ];
