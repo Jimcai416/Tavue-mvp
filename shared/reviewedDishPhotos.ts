@@ -148469,5 +148469,29 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 638,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-47485801",
+    "title": "File:Poulet farci du Gâtinais.jpg",
+    "author": "Marianne Casamance",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Poulet_farci_du_G%C3%A2tinais.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Poulet_farci_du_G%C3%A2tinais.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "1d311e79dbfcfb329d2eb2f4715e9830717bc5c2",
+    "name": "Poulet farci du Gâtinais",
+    "aliases": [],
+    "proteins": [
+      "chicken"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-47485801.jpg",
+    "assetSha256": "370ddfc1ccb1e0d62d76dde5f54728ee2af4eb5f6c6f6ea2529e0550e2f39c48",
+    "reviewedAt": "2026-11-20",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 640,
+    "requiresExactMenuName": true
   }
 ];

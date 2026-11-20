@@ -11801,3 +11801,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 
 - **Morilles et champignons à la crème avec une quenelle** — Romainbehar. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:La_Valla-en-Gier_-_La_Jasserie_du_Pilat_-_Restaurant_La_Jasserie_-_Morilles_et_champignons_%C3%A0_la_cr%C3%A8me_avec_une_quenelle.jpg). Local asset: `reviewed-commons-121085556.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Farci Poitevin** — Nikoniste. [Public domain](https://creativecommons.org/publicdomain/mark/1.0/); [source](https://commons.wikimedia.org/wiki/File:Farci_Poitevin.JPG). Local asset: `reviewed-commons-10629173.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Poulet farci du Gâtinais** — Marianne Casamance. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Poulet_farci_du_G%C3%A2tinais.jpg). Local asset: `reviewed-commons-47485801.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
