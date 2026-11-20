@@ -11754,3 +11754,12 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Kheere Ka Raita** — Miansari66. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Kheere_Ka_Raita.JPG). Local asset: `reviewed-commons-33761271.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Bread Omelette** — Gannu03. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Bread_Omelette_2.jpg). Local asset: `reviewed-commons-153241918.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Spinach dumpling with Parmesan cheese** — Kritzolina. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Spinatkn%C3%B6del_mit_Parmesan.jpg). Local asset: `reviewed-commons-108943495.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Bread Omelette from India** — Gannu03. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Bread_Omelette_5.jpg). Local asset: `reviewed-commons-153264400.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Bread omelette from Himachal** — Gannu03. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Bread_omelette_4.jpg). Local asset: `reviewed-commons-155403913.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Classic argentine omelette (with cheese)** — Horacio Cambeiro. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Classic_argentine_omelette_(with_cheese).jpg). Local asset: `reviewed-commons-184179059.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Omelette** — Gaurav Dhwaj Khadka. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Omelette_1.jpg). Local asset: `reviewed-commons-127177658.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
