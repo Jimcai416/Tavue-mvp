@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChEXcufdwmy1EBEhpBvx2",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows cooked protein pieces in golden sauce within a glass oval baking dish\",\n    \"Speckled seasoning visible across surface\",\n    \"Adequate detail and colour saturation in phone thumbnail\"\n  ],\n  \"protein_evidence\": {\n    \"seafood\": \"Shrimp scampi\"\n  },\n  \"uncertainties\": [\n    \"Source title declares 'Shrimp scampi' but visible form in photograph shows white opaque meat pieces characteristic of scallops or firm white fish, not the typical translucent/pink appearance of raw or cooked shrimp\",\n    \"Species mismatch between declared 'Shrimp' and apparent visual morphology suggests either misidentification or substituted ingredient\"\n  ],\n  \"reason\": \"Reject: identity check fails due to critical mismatch between source-declared protein ('Shrimp scampi') and visible meat form in both full image and thumbnail. The opaque, white, solid chunks do not match typical shrimp appearance. This contradiction prevents confident acceptance. Protein identity must align with visible evidence; ambiguity about which seafood species is actually present requires hold, not acceptance.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1558,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 405,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
