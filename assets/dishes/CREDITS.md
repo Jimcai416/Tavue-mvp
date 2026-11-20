@@ -13010,3 +13010,11 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Calamares a la romana** — Robot8A. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Calamares_a_la_romana,_en_Zaragoza.jpeg). Local asset: `reviewed-commons-132960872.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Buffet food at Kameraseura Christmas party** — JIP. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Buffet_food_at_Kameraseura_Christmas_party.jpg). Local asset: `reviewed-commons-138023475.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Pytt i panna** — [Sharon Hahn Darlin](https://www.flickr.com/people/41980486@N07). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Pytt_i_panna_(13782629654).jpg). Local asset: `reviewed-commons-38844442.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Kalakukko** — fi:Käyttäjä:Kompak. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/); [source](https://commons.wikimedia.org/wiki/File:Kalakukko.jpg). Local asset: `reviewed-commons-444762.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Kalakukko and red wine** — JIP. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Kalakukko_and_red_wine.jpg). Local asset: `reviewed-commons-143390225.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Kalakukko with butter** — JIP. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Kalakukko_in_Lohja.jpg). Local asset: `reviewed-commons-131259146.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
