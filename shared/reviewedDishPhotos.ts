@@ -138284,5 +138284,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 723,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-146790974",
+    "title": "File:Miang Lao.jpg",
+    "author": "Bounthy",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Miang_Lao.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/40/Miang_Lao.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "3e6c2172e13992056698705fd62a0e91bd2b5517",
+    "name": "Miang Lao",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-146790974.jpg",
+    "assetSha256": "9bd0cf5d282775f49aef5362cb5cf9503cad5dde809348daee08b50b586df8bc",
+    "reviewedAt": "2026-11-20",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 720,
+    "height": 960,
+    "requiresExactMenuName": true
   }
 ];

@@ -10843,3 +10843,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 - **Nems** — [Guilhem Vellut  from Paris, France](https://www.flickr.com/people/22539273@N00). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Nem,_Rice_%26_Noodle,_5_Rue_Littr%C3%A9,_Paris_001.jpg). Local asset: `reviewed-commons-54837665.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Zrazy - Polish meat dish** — user:Kuruni , modification  Przykuta. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Zrazy2_whitebackground.jpg). Local asset: `reviewed-commons-4141126.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Zrazy** — Gartxoak. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Zrazy_in_a_Mleczny_Bar_in_Krak%C3%B3w.jpg). Local asset: `reviewed-commons-197869885.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Miang Lao** — Bounthy. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Miang_Lao.jpg). Local asset: `reviewed-commons-146790974.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
