@@ -10803,3 +10803,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 - **Sopapilla** — [Greg Holland  from Los Alamos, NM, USA](https://www.flickr.com/people/31296768@N07). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Sopapilla_(3491407008).jpg). Local asset: `reviewed-commons-94958724.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Bissara Moroccan split pea and fava bean soup** — Ruby Josephine Smith. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Bissara_Moroccan_split_pea_and_fava_bean_soup.jpg). Local asset: `reviewed-commons-89183014.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Traditional Maltese Kusksu (Fava Bean Soup)** — PolluxWorld. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Traditional_Maltese_Kusksu_(Fava_Bean_Soup).jpg). Local asset: `reviewed-commons-78359599.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Rajas poblanas, asadas al fuego** — El Mono Español. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Chile_en_rajas.jpg). Local asset: `reviewed-commons-91110864.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
