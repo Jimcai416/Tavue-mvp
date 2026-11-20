@@ -142707,5 +142707,51 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "height": 638,
     "requiresExactMenuName": true,
     "authorUrl": "https://www.flickr.com/people/12057629@N04"
+  },
+  {
+    "id": "commons-90772402",
+    "title": "File:Arroz a la tumbada, platillo típico veracruzano.jpg",
+    "author": "Isaacvp",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Arroz_a_la_tumbada,_platillo_t%C3%ADpico_veracruzano.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Arroz_a_la_tumbada%2C_platillo_t%C3%ADpico_veracruzano.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "a3db5282e9362bd5cd47e6512b33cb27bedc864e",
+    "name": "Arroz a la tumbada, platillo típico veracruzano",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-90772402.jpg",
+    "assetSha256": "d4a0ed6be0063ac699848a870c47d42d3a6b319924ea3db4f09efc70dbe46cd9",
+    "reviewedAt": "2026-11-20",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-32360064",
+    "title": "File:ShrimpTlacotalpan 02.JPG",
+    "author": "AlejandroLinaresGarcia",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:ShrimpTlacotalpan_02.JPG",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8f/ShrimpTlacotalpan_02.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "031b0562cfc23eddf0bee098e260e3b4800048dc",
+    "name": "Arroz a la tumbada",
+    "aliases": [],
+    "proteins": [
+      "seafood"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-32360064.jpg",
+    "assetSha256": "70bd3e922e409bceb1bb3479c06bbff5dbca8105cabc830f7b1e88e56e15554c",
+    "reviewedAt": "2026-11-20",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 638,
+    "requiresExactMenuName": true
   }
 ];

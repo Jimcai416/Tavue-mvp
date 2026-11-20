@@ -11264,3 +11264,8 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 
 - **Takikomi-gohan and Omelette** — ノボホショコロトソ. [CC BY 4.0](https://creativecommons.org/licenses/by/4.0); [source](https://commons.wikimedia.org/wiki/File:Takikomi-gohan_and_Omelette_in_Student_Union_02.jpg). Local asset: `reviewed-commons-202511846.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Takikomi gohan with fried pork** — [Shou-Hui Wang  from Melbourne, Australia](https://www.flickr.com/people/12057629@N04). [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:Takikomi_gohan_with_fried_pork_%E5%8F%B0%E6%B9%BE%E9%A2%A8%E7%84%BC%E3%81%8D%E8%B1%9A%E8%82%89%E5%85%A5%E3%82%8A%E3%81%AE%E4%BA%94%E7%9B%AE%E3%81%94%E9%A3%AF_(9232620206).jpg). Local asset: `reviewed-commons-49653923.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Arroz a la tumbada, platillo típico veracruzano** — Isaacvp. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Arroz_a_la_tumbada,_platillo_t%C3%ADpico_veracruzano.jpg). Local asset: `reviewed-commons-90772402.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Arroz a la tumbada** — AlejandroLinaresGarcia. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:ShrimpTlacotalpan_02.JPG). Local asset: `reviewed-commons-32360064.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
