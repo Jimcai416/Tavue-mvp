@@ -10937,3 +10937,8 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Seb Ka Murabba** — Miansari66. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Saib_Ka_Murabba.JPG). Local asset: `reviewed-commons-37286863.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Dosa, idli and bade** — Kanika bhardwaj. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Dosa,idli_and_bade.jpg). Local asset: `reviewed-commons-40963059.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **South Indian thali at Haldiram's, Gurgaon** — User: (WT-shared) Jpatokal at  wts wikivoyage. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Haldiram_SouthIndian.JPG). Local asset: `reviewed-commons-22922677.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
