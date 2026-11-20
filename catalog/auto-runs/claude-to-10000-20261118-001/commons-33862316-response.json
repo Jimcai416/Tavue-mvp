@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChEgV9CoNUyYRdAevdpL2",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 5,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thin cured sausage visible in thumbnail\",\n    \"Rope tie visible and recognizable\",\n    \"Natural colour preserved in reduction\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Fuet is a category of cured sausage; source does not explicitly name the animal species (pork, beef, wild boar, etc.)\",\n    \"Animal species cannot be reliably inferred from appearance alone\",\n    \"No explicit protein species declaration in title or description\"\n  ],\n  \"reason\": \"Reject: Fuet sausage species is unspecified in source metadata. The title and description name only the sausage category, not the animal protein used. Protocol requires explicit source-named species (chicken/beef/pork/duck/lamb/seafood) with exact case-sensitive quotes. 'Sausage' alone is not an allowed protein_evidence key, and the actual animal cannot be determined from visual inspection. Identity check fails due to ambiguous meat specification. High-quality photograph and clear phone thumbnail do not override this mandatory hold condition.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1623,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 385,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
