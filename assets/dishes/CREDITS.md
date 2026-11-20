@@ -12108,3 +12108,8 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Elarji - cornmeal and sulguni cheese** — [Georgia About](http://georgiaabout.com). [CC BY 3.0](https://creativecommons.org/licenses/by/3.0); [source](https://commons.wikimedia.org/wiki/File:Elarji_-_cornmeal_and_sulguni_cheese.jpg). Local asset: `reviewed-commons-38152614.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Rasabali, Odisha traditional sweet** — Prateek Pattanaik. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Rasabali,_Odisha_traditional_sweet.jpg). Local asset: `reviewed-commons-122787616.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Rasabali** — Swetapadma07. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Rasabali.JPG). Local asset: `reviewed-commons-47034613.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
