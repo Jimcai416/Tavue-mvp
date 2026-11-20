@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDfDvfhSZwYPV5AErHAF",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Pita bread sandwich visible\",\n    \"Shredded potato/sauerkraut layer visible\",\n    \"Melted cheese visible\",\n    \"Pink/red meat layer visible beneath cheese\",\n    \"Toasted pita exterior\"\n  ],\n  \"phone_observations\": [\n    \"Two sandwich halves clearly visible in thumbnail\",\n    \"Cheese and shredded vegetable layers readable\",\n    \"Meat component identifiable\",\n    \"Overall composition retained in reduction\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title states 'Tempeh reuben' but tempeh is not an allowed protein category (only chicken/beef/pork/duck/lamb/seafood accepted)\",\n    \"Visual appearance shows what could be meat, but source explicitly claims tempeh\",\n    \"Cannot verify tempeh identity visually; meat-like appearance contradicts declared ingredient\",\n    \"No explicit quote from source confirms the actual protein used is from allowed categories\"\n  ],\n  \"reason\": \"Reject: Identity check fails. Source declares 'Tempeh reuben pita sandwich' but tempeh is not an allowed protein category. The visual appearance suggests conventional meat (possibly beef or pork in a reuben preparation), but the source title explicitly names tempeh as the protein. Per instructions, unknown or non-approved protein species must be held/rejected. The contradiction between visual appearance and source declaration, combined with tempeh falling outside allowed protein categories, requires rejection.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1535,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 469,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
