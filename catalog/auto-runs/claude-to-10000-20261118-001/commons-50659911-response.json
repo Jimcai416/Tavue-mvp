@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDUDktYvaY1q6RLBJqe5",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 3,\n    \"composition\": 1,\n    \"appeal\": 0\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows aerial landscape view of fields and forest\",\n    \"No food subject visible in phone centre-cover thumbnail\",\n    \"Distant settlement and agricultural patchwork visible\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title references a geographic location (Kuchen), not a food dish\",\n    \"Image is an aerial photograph of a town and countryside, not a food photograph\",\n    \"No finished, exposed, or plated dish visible in either source or thumbnail\"\n  ],\n  \"reason\": \"Rejection: This is an aerial landscape photograph of Kuchen (a town in Baden-Württemberg, Germany) from an archive of aerial images. It is not a food photograph. No finished dish, food subject, or appetising food composition is present in either the full source image or the phone thumbnail. The title/description explicitly identifies this as an archived aerial image (Luftbild), not a food dish. This fails all core acceptance criteria for food review.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1882,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 362,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
