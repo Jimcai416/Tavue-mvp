@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChEUBqPsQsyjgddZpEhMQ",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Cream/tan-coloured broth visible\",\n    \"Hard-boiled egg halves with visible yolks present\",\n    \"Orange carrot pieces distributed throughout\",\n    \"Yellow potato pieces visible\",\n    \"Herb garnish (green flecks, consistent with dried marjoram)\",\n    \"Light blue serving bowl\",\n    \"Top-down flat lay composition\"\n  ],\n  \"phone_observations\": [\n    \"Soup bowl clearly visible in thumbnail\",\n    \"Hard-boiled eggs prominent and readable\",\n    \"Broth, carrots, and herbs distinguishable\",\n    \"Adequate detail for dish recognition\",\n    \"No clipping of essential components\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title references 'white sausage' but no sausage is visibly identifiable in either photograph. The pale round/oval object in the broth is ambiguous—could be sausage, but species and exact nature are not visually confirmed.\",\n    \"Sausage species unspecified in source description ('white sausage' does not name the animal; could be pork, beef, or other)\",\n    \"Source title is a filename (File:02026...) which violates the instruction to extract canonical name from title/description without File: prefix, date, photographer or extension. The actual dish description is in the 'description' field, not a formal title.\",\n    \"Identity match between source description and visible content is incomplete due to unconfirmed sausage visibility\"\n  ],\n  \"reason\": \"Photograph quality, sharpness, lighting, and composition all meet standards (all scores ≥4). Both full image and phone thumbnail show a finished, appetising soup dish with readable components. However, identity cannot be confirmed because: (1) the source provides no formal canonical dish name—only a filename and a description; (2) the description names 'white sausage' as an ingredient, but this sausage is not visually confirmed in the photograph, and even if present, its animal species is unspecified ('white sausage' is not an explicit animal declaration); (3) sausage of unspecified species cannot be included in protein_evidence without a source quote naming the animal. The dish description itself is marketing/health-focused ('gut-healing', 'high-protein', 'collagen broth') and does not constitute a standard dish canonical name. Hold pending clarification of actual dish identity and sausage species.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 2130,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 693,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
