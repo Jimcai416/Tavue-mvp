@@ -11390,3 +11390,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 - **Ga kenkey and fried egg with pepper** — daSupremo. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Ga_kenkey_and_fried_egg.jpg). Local asset: `reviewed-commons-100593765.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Akara with yagi** — Matino183. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Akara_with_yagi.jpg). Local asset: `reviewed-commons-162264364.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Kenkey with pepper, okra and fish** — Zakaria Tunsung. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Ghanaian_Local_Dish.jpg). Local asset: `reviewed-commons-145752913.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Kosai (Akara)** — YusufuAM. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Kosai(Akara).jpg). Local asset: `reviewed-commons-128512766.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
