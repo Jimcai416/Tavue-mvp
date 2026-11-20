@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChEJuEDHDDV2ArTxBms3T",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 2,\n    \"composition\": 1,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows only a large industrial cooking pot/vessel with dark liquid\",\n    \"No finished dish visible\",\n    \"No recognizable food components identifiable\",\n    \"Pot dominates frame, subject is preparation equipment not a served dish\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title incomplete: 'This is an image of food from' (truncated, no dish name provided)\",\n    \"Actual food dish not identifiable from either image\",\n    \"No finished, plated, or served food visible\"\n  ],\n  \"reason\": \"Rejection: This is a preparation/kitchen scene showing industrial cooking equipment and an empty or unfinished pot, not a finished, exposed, identifiable dish. Source description is incomplete and does not name a specific dish. Neither full image nor thumbnail displays appetizing, recognizable food with readable components. The subject is infrastructure/equipment, not a photographic dish suitable for Tavue review. Quality scores fail acceptance thresholds across all dimensions.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1728,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 367,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
