@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDDBtvhNWpdgGK9k3zFx",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 5,\n    \"composition\": 2,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Sushi roll is visible but severely cropped at bottom edge of thumbnail\",\n    \"Wooden scrabble tiles and chopsticks dominate the phone composition\",\n    \"Essential food component is marginal in phone frame\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Composition is primarily decorative/staged with letter blocks and chopsticks, not a food photograph\",\n    \"Subject is overwhelmed by non-food props in both images\",\n    \"Phone thumbnail shows sushi as incidental to the SUSHI text prop arrangement\"\n  ],\n  \"reason\": \"Reject: This is a staged photograph designed to illustrate the word 'SUSHI' using wooden scrabble tiles and chopsticks as the primary compositional elements. The actual sushi roll, though visible and well-detailed in the full image, is secondary to an artistic/illustrative arrangement. The phone thumbnail shows the sushi clipped and marginal, with props dominating. This fails the photograph check (not a finished-dish-focused image) and phone check (essential food component is minor/cropped). The composition is conceptual decoration rather than food photography suitable for a food review platform.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1621,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 405,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
