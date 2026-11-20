@@ -11856,3 +11856,8 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 
 - **Dulce de batata y queso (estilo argentino)** — Horacio Cambeiro. [CC BY 3.0](https://creativecommons.org/licenses/by/3.0); [source](https://commons.wikimedia.org/wiki/File:Dulce_de_batata_and_cheese.jpg). Local asset: `reviewed-commons-178081660.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Dulce de batata y queso** — Horacio Cambeiro. [CC BY 3.0](https://creativecommons.org/licenses/by/3.0); [source](https://commons.wikimedia.org/wiki/File:Dulce_de_batata_and_cheese_(argentine_dessert).jpg). Local asset: `reviewed-commons-178081728.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Pastafrola de dulce de batata** — Just a Man. [CC BY 4.0](https://creativecommons.org/licenses/by/4.0); [source](https://commons.wikimedia.org/wiki/File:Pastafrola_de_dulce_de_batata.jpg). Local asset: `reviewed-commons-201883434.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Pastelitos fritos de dulce de batata** — Horacio Cambeiro. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Pastelitos_fritos_de_dulce_de_batata,_son_un_tipo_de_pastel_dulce_de_la_cocina_misionera_de_Argentina.jpg). Local asset: `reviewed-commons-155099682.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
