@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDKz5RSfcbJwuddvHPBU",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Ravioli-style pasta parcels with wavy edges clearly visible\",\n    \"Brown topping consistent with breadcrumb or meat dust coating\",\n    \"Finished plated dish on white ceramic bowl\",\n    \"Natural daylight, appetising presentation\"\n  ],\n  \"phone_observations\": [\n    \"Pasta parcels and topping fully readable at thumbnail scale\",\n    \"Central brown topping component clearly distinguished from pale pasta\",\n    \"Prominent and well-composed in phone frame\"\n  ],\n  \"protein_evidence\": {\n    \"ham\": \"jamón\"\n  },\n  \"uncertainties\": [\n    \"Source title declares 'jamón y mozzarella' (ham and mozzarella) but visible topping is a dry, granular brown substance (breadcrumbs, possibly pan-fried meat dust, or spiced coating), not mozzarella. No melted cheese visible on pasta.\",\n    \"Mozzarella cannot be visually confirmed as a component of the finished dish—it may be internal filling but is not shown in the cooked form.\",\n    \"The brown topping's composition and origin are not definitively identifiable from appearance alone—could be breadcrumb-based, meat-based, or a prepared condiment.\",\n    \"Source metadata includes brand name '\\\"La Salteña\\\"' and geographic qualifier 'argentina', but the canonical name requirement conflicts with the incomplete visual proof of declared ingredients.\"\n  ],\n  \"reason\": \"Photograph quality, sharpness, composition and phone visibility all meet acceptance thresholds. Ham (jamón) is explicitly named in source title and aligns with visible savoury preparation. However, the declared 'mozzarella' component is not visually supported—no melted cheese is apparent on the finished dish; if present, it is interior filling only. The visible brown topping does not match mozzarella in any form. Identity cannot be confirmed because a core declared ingredient lacks visual evidence. Holding pending source clarification or confirmed alternative canonical name that matches visible form.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1865,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 590,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
