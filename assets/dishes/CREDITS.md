@@ -12025,3 +12025,8 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Fatir mehraban** — MEHRABANI1. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Fatir_mehraban.jpg). Local asset: `reviewed-commons-75040389.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Authentic Wiener Schnitzel** — [traveljunction](https://www.flickr.com/people/128012202@N05). [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:Authentic_Wiener_Schnitzel,_Vienna,_Austria_(22463648757).jpg). Local asset: `reviewed-commons-97748066.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Figlmüller Schnitzel** — Sarah_Ackerman. [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Figlmueller._World_Famous_Schnitzel!_Vienna.jpg). Local asset: `reviewed-commons-61826594.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
