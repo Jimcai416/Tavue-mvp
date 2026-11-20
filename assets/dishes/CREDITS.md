@@ -11937,3 +11937,8 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 - **Bata macher jhol** — Rajeeb Dutta. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Bata_macher_jhol-MB03.jpg). Local asset: `reviewed-commons-94681767.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Alur Dom** — Sagar Patra. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Alur_Dom_recipe.jpg). Local asset: `reviewed-commons-144708457.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Koraishuti r kochuri with alur dom** — Arkapriya Das. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Koraishuti_r_kochuri_with_alur_dom.jpg). Local asset: `reviewed-commons-102422762.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Singju - a traditional salad from Manipur** — পল্লৱ কুমাৰ নাথ. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Singju_-_a_traditional_salad_from_Manipur.jpg). Local asset: `reviewed-commons-203152504.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Thambou singju** — Punshiba18. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Thambou_singju_(2).jpg). Local asset: `reviewed-commons-32018229.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
