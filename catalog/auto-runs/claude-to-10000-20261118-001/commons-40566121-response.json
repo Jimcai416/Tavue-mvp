@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDLCYfdNSj99Qje2VTn3",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 1,\n    \"lighting\": 2,\n    \"composition\": 2,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Phone thumbnail shows a bowl of red/orange curry and flatbreads with visible char/browning\",\n    \"Thumbnail resolution insufficient to verify sharp detail or natural colour accuracy\",\n    \"Thumbnail shows recognisable food components but source image quality undermines confidence\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title claims 'Kadhai Paneer' (paneer cheese, not an allowed protein category)\",\n    \"Source title claims 'Daal Tadka' (lentils, not an allowed protein category)\",\n    \"Full photograph is severely out-of-focus, low-contrast, and colour-cast (blue/grey tint dominates)\",\n    \"No poultry, beef, pork, duck, lamb, or seafood are explicitly named or visibly identifiable\",\n    \"Image quality too poor to verify natural colour, sharp detail, or appetising presentation\",\n    \"Severe softness and glare throughout full source image prevent reliable dish assessment\"\n  ],\n  \"reason\": \"Reject: Full source photograph fails quality checks (sharpness 1/5, lighting 2/5, severe blue colour-cast, out-of-focus). No allowed proteins (chicken/beef/pork/duck/lamb/seafood) are named in source title or visibly supported. Source describes paneer and lentils only. Phone thumbnail shows recognisable food but cannot redeem severely degraded full image. Essential food sharpness, natural colour, and allowed protein evidence missing.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1573,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 482,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
