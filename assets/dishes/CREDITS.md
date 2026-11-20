@@ -11843,3 +11843,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 
 - **Veg lunch menu: Gatte ki sabji, Amaranth leaves paratha, Boondi ka raita, Mango Pickle** — Lopanayak. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Gattekisabjiwithamranthleavesparatha_Rayagada_Odisha_0018.jpg). Local asset: `reviewed-commons-102609247.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Gatte ki Sabji** — Shah Naisargi. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:TraditionalGatteKiSabji_HomeMade_Mumbai.jpg). Local asset: `reviewed-commons-103631067.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Dudh Puli Pitha** — Pinakpani. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Dudh_Puli_Pitha_in_West_Bengal_01.jpg). Local asset: `reviewed-commons-133707458.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.

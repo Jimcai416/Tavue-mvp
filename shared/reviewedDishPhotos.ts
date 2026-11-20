@@ -148807,5 +148807,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 878,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-133707458",
+    "title": "File:Dudh Puli Pitha in West Bengal 01.jpg",
+    "author": "Pinakpani",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dudh_Puli_Pitha_in_West_Bengal_01.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/65/Dudh_Puli_Pitha_in_West_Bengal_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "48987efa9bac8eb167228c4a4e6b16c4fa1c6064",
+    "name": "Dudh Puli Pitha",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-133707458.jpg",
+    "assetSha256": "2bcd19b21ec96d98ea30ea219a41af34ed42d47511bbded9c50cabd3a50c6c60",
+    "reviewedAt": "2026-11-20",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 720,
+    "height": 960,
+    "requiresExactMenuName": true
   }
 ];
