@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChEo57SHcyWJohPY6hjTS",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 3,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Raw, uncooked meat pieces visible in phone thumbnail\",\n    \"No finished dish characteristics present\",\n    \"Preparation stage evident\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Meat species ambiguous—cannot determine exact animal(s) from visual appearance alone\",\n    \"Source title references 'Salmis chasseur' (a finished game stew dish) but photograph shows raw preparation stage, creating identity contradiction\"\n  ],\n  \"reason\": \"Rejection: The photograph shows raw, uncooked meat in a preparation stage, not a finished, exposed, cooked dish. The source description claims 'Salmis chasseur de Jacqueline : vue des viandes crues' (raw meats view), contradicting the requirement for a finished, photographic dish. Additionally, meat species cannot be determined from visual inspection alone, and the uncooked state makes the dish unappetising and unsuitable for acceptance. The phone thumbnail confirms raw preparation materials, not an appetising finished food.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1742,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 370,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
