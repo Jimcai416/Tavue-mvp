@@ -10571,3 +10571,8 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 
 - **Korean red bean porridge-Patjuk** — [taylorandayumi](https://www.flickr.com/photos/25921029@N05). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Korean_red_bean_porridge-Patjuk-01.jpg). Local asset: `reviewed-commons-4743356.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Korean redbean porridge, patjuk** — [Korea.net  / Korean Culture and Information Service (Photographer name)](http://www.korea.net). [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:Korean_redbean_porridge,_patjuk.jpg). Local asset: `reviewed-commons-31705649.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Nankotsu soba (Okinawa soba)** — [Blue Lotus](https://www.flickr.com/photos/bluelotus/). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Nankotsu_soba_(Okinawa_soba).jpg). Local asset: `reviewed-commons-1213484.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Mizore nabe from Matsudo, Japan** — [t-mizo](https://www.flickr.com/people/47626742@N07). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Mizore_nabe_of_Matsudo.jpeg). Local asset: `reviewed-commons-67248406.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
