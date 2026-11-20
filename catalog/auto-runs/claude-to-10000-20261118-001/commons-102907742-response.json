@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDniWX1VuXsDooFBbHkp",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Golden-brown spherical fried items clearly visible in thumbnail\",\n    \"Uniform texture and colour consistent with full image\",\n    \"Prominent subject fills phone frame appropriately\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title is 'File:AKARA.jpg' — a filename, not a dish description\",\n    \"Description provided is generic theme text ('Health and Wellness in Africa'), not a dish specification\",\n    \"No authoritative source title or description of the actual dish supplied\",\n    \"Akara is traditionally a legume fritter (chickpea/bean-based), not a meat dish, but cannot confirm composition from visual inspection alone\",\n    \"Cannot match a canonical name without an explicit dish title or description from a reliable source\"\n  ],\n  \"reason\": \"Identity check fails. The supplied metadata contains only a filename ('File:AKARA.jpg') and a generic theme description ('Health and Wellness in Africa'), neither of which constitutes a proper dish title or description. The filename itself is not an authoritative source specification. Without an explicit, non-metadata source title or description of this dish, canonical identity cannot be established. Photograph and phone image quality are excellent, but identity verification is mandatory for acceptance.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1733,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 421,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
