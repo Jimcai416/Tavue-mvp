@@ -151380,5 +151380,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 960,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-105159602",
+    "title": "File:Laksa Sarawak - YF.jpg",
+    "author": "Sweizhong",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Laksa_Sarawak_-_YF.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Laksa_Sarawak_-_YF.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "4a0530b9b44b1ae9e8444ecc1e3875b3c4dcd32f",
+    "name": "Sarawak Laksa",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-105159602.jpg",
+    "assetSha256": "28bbf8b55b055a3a7fe1b32aa3e556e14d07fb3383e5ee02986947a603ffe184",
+    "reviewedAt": "2026-11-20",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];

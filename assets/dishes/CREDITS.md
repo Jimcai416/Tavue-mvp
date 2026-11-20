@@ -12087,3 +12087,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 - **Dadar gulung berisi parutan kelapa yang gurih** — Aghnisans. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Dadar_gulung_aesthetic.jpg). Local asset: `reviewed-commons-176572808.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Kue dadar gulung** — Midori. [CC BY 3.0](https://creativecommons.org/licenses/by/3.0); [source](https://commons.wikimedia.org/wiki/File:Kue_dadar_gulung.JPG). Local asset: `reviewed-commons-13300244.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Kuih Keyatap** — James Chopin Bach. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Kuih_Keyatap.jpg). Local asset: `reviewed-commons-106328153.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Sarawak Laksa** — Sweizhong. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Laksa_Sarawak_-_YF.jpg). Local asset: `reviewed-commons-105159602.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
