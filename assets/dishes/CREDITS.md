@@ -11378,3 +11378,9 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 
 - **Sago Soup with Assorted Fruits & Coconut Noodle** — Ceeseven. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Sago_Soup_with_Assorted_Fruits_%26_Coconut_Noodle.jpg). Local asset: `reviewed-commons-75801317.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Sago Soup with Assorted Fruits & Glass Jelly** — Ceeseven. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Sago_Soup_with_Assorted_Fruits_%26_Glass_Jelly.jpg). Local asset: `reviewed-commons-61511921.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Bean cake:Akara** — Taoheedah. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Akara;Bean_Cake.jpg). Local asset: `reviewed-commons-118152911.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Akara Okpoto** — Psalmbusy. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Akara_Okpoto_01.jpg). Local asset: `reviewed-commons-121272755.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Fante Kenkey** — Azorbli. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Fante_Kenkey_(2).jpg). Local asset: `reviewed-commons-102490613.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
