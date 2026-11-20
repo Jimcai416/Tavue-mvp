@@ -136985,5 +136985,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "height": 720,
     "requiresExactMenuName": true,
     "authorUrl": "https://www.flickr.com/people/136527749@N07"
+  },
+  {
+    "id": "commons-143499040",
+    "title": "File:Ravioles2.jpg",
+    "author": "AnticoMu90",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ravioles2.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/05/Ravioles2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "256b3c96bb749510346dbe62311320fd66c099d5",
+    "name": "Ravioles with butter and cheese from the province of Cuneo (Italy)",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-143499040.jpg",
+    "assetSha256": "73d3d9cec7ab3c8aa9d9f4b6e7409d546de45b775c809b4808979a74e1414f12",
+    "reviewedAt": "2026-11-20",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 720,
+    "height": 960,
+    "requiresExactMenuName": true
   }
 ];

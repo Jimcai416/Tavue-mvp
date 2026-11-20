@@ -10734,3 +10734,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 
 - **Gratin de ravioles au bleu et aux noix, servis avec une salade composée** — Noé. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Gratin_de_ravioles_-_restaurant_Chez_Vous_%C3%A0_Beaufort-sur-Gervanne.jpg). Local asset: `reviewed-commons-118747772.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Asado** — [mariela morales](https://www.flickr.com/people/136527749@N07). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Asado_-_Flickr_-_Marieloreto.jpg). Local asset: `reviewed-commons-44718752.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Ravioles with butter and cheese from the province of Cuneo (Italy)** — AnticoMu90. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Ravioles2.jpg). Local asset: `reviewed-commons-143499040.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
