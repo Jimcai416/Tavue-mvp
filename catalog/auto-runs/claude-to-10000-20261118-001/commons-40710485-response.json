@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChEFdEB1GRJGKd2iSZyKS",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 2,\n    \"composition\": 1,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows raw/preparation ingredients on a plate, not a finished dish\",\n    \"Individual components (whole spices, ground spices, raw vegetables, liquids) arranged separately\",\n    \"No cohesive, cooked final dish visible\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Image shows ingredient preparation/mise en place, not a finished prepared dal-batti-churma dish\",\n    \"Source title/description contradicts visible content—claims 'Traditional Rajasthani Delicacy' and finished components, but photograph captures only raw/component stage\"\n  ],\n  \"reason\": \"Reject: Photograph shows raw ingredients and preparation stage (whole spices, ground powders, uncooked components arranged in separate containers and on plate), not a finished, cooked, exposed dish. This fails the core requirement for a 'finished, exposed, likely photographic dish.' The thumbnail confirms only ingredient components are visible, not an appetising prepared food. Source metadata contradiction between claimed finished dish and actual preparation-stage content reinforces rejection. Does not meet quality, composition, or appeal standards for food intake.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1554,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 394,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
