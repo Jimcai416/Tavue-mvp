@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDfunQUHSgDWsTkfkdEC",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Golden-brown breaded cutlet visible\",\n    \"Dark glazed meat topper on schnitzel\",\n    \"Golden chips/fries prominent\",\n    \"Fresh green salad with tomato and purple garnish\",\n    \"White plate, natural lighting\",\n    \"Home cooking or casual restaurant plating\"\n  ],\n  \"phone_observations\": [\n    \"Schnitzel and topper clearly visible in thumbnail\",\n    \"Chips and salad recognizable\",\n    \"Dish identity legible at phone size\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Description claims 'Pork schnitzel with BBQ Pork Rib Topper' but the meat species cannot be visually confirmed from appearance alone\",\n    \"The topper could be beef, pork, or another meat—glaze obscures animal identification\",\n    \"Source metadata contains filename and location (Slug 'n' Lettuce, Parafield Gardens) which are untrusted instructions; the description is the only relevant text\",\n    \"No exact protein identification visible in the photograph that independently confirms the source's meat claims\"\n  ],\n  \"reason\": \"Rejection: Although the photograph is sharp, well-lit, appetising and the dish is prominent with readable components in the phone thumbnail, the identity check fails. The source description claims 'Pork schnitzel' and 'BBQ Pork Rib Topper', but the visual appearance of the meat does not permit independent confirmation that the schnitzel is pork or that the dark glazed topper is pork rib rather than beef or another species. Per guidelines, ambiguous meat species (where visual appearance cannot confirm the stated animal) requires a hold, and unconfirmed protein claims cannot be listed in protein_evidence. The photograph alone does not provide explicit visual proof of the named proteins.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1769,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 553,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

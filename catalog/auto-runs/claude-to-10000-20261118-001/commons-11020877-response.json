@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDfu52pyrLSCHnGmDVC1",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 3,\n    \"appeal\": 2\n  },\n  \"visible_support\": [\n    \"Raw/uncooked ground beef patty in vacuum-sealed packaging\",\n    \"Label clearly shows 'STEAK HACHE DE BOEUF BIO' (organic ground beef steak)\",\n    \"Retail packaging with barcode, weight (0.250kg), and storage instructions\",\n    \"Product is a raw preparation stage, not a finished dish\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail shows raw meat patty with packaging label\",\n    \"No cooking visible; product remains in uncooked state\",\n    \"Packaging dominates the frame, confirming retail meat product\"\n  ],\n  \"protein_evidence\": {\n    \"beef\": \"STEAK HACHE DE BOEUF BIO\"\n  },\n  \"uncertainties\": [],\n  \"reason\": \"Reject: This is a raw ground beef patty in retail vacuum packaging, representing a preparation stage rather than a finished, exposed, cooked dish. The image shows uncooked meat with manufacturer labeling, barcode, and storage instructions. While the photograph is sharp and the beef identity is clear from the label, it fails the core requirement of depicting a finished, cooked, appetizing dish suitable for a food photograph repository. Raw meat in packaging does not meet the standard for food photography intake.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1739,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 420,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

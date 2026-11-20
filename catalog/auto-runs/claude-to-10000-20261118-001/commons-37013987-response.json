@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDfu544bTCLuzXSDt1Vn",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Ground meat patties and sweet potato slices visible in pan\",\n    \"Food in mid-preparation stage, still cooking\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title and description reference a paleo recipe (Recette paléo), not a finished dish name\",\n    \"Image shows food in active preparation/cooking stage, not a finished, exposed, plated dish\",\n    \"Ground beef species cannot be confirmed from appearance alone; source does not explicitly name the animal\",\n    \"This is a home cooking preparation photograph, not a finished food photograph suitable for Tavue intake\"\n  ],\n  \"reason\": \"Rejection: Image depicts food in mid-cooking stage within a pan, not a finished, exposed, plated dish. The source metadata describes a paleo recipe and cooking method rather than identifying a specific finished dish. Ground meat patties are visible but the source does not explicitly name the meat species (only 'steaks hachés'). The photograph shows a preparation process, not a completed dish ready for service or consumption. All quality and technical scores are acceptable, but the fundamental identity check fails: this is a cooking-in-progress image, not a finished dish photograph.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1730,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 408,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
