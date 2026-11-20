@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDaTbRNE2awux1FcE8Ba",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Orange/golden curry sauce in wok with spoon\",\n    \"Creamy, spiced appearance consistent with tikka masala\",\n    \"No visible discrete chicken pieces\",\n    \"Sauce-dominant presentation\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'Chicken tikka' but image shows a curry sauce with no visible discrete tikka pieces or recognizable chicken chunks\",\n    \"Appearance is consistent with tikka masala (a gravy dish) rather than tikka (grilled/cooked meat pieces)\",\n    \"No protein visibly identifiable in either full or thumbnail image\",\n    \"Source metadata is untrusted, filename/title alone insufficient for identity verification when visual form contradicts\"\n  ],\n  \"reason\": \"Identity check fails. The source title claims 'Chicken tikka', which refers to grilled/cooked meat pieces, but the photograph shows only a smooth curry sauce in a wok with no visible discrete chicken pieces. This is inconsistent with tikka preparation. Without visible chicken protein and with a sauce-only presentation that contradicts the named dish form, identity cannot be verified. No protein evidence can be extracted from the visible food.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1764,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 409,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
