@@ -10608,3 +10608,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 - **Chicken bharta** — Marajozkee. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Chicken_bharta_01.jpg). Local asset: `reviewed-commons-75415729.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Bolani with herbs and different types of sauces** — Tunshi. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Bolani.jpg). Local asset: `reviewed-commons-104704364.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Bolani Afghan bread** — arnold | inuyaki. [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Bolani_Afghan_bread_01.jpg). Local asset: `reviewed-commons-18957158.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **ladies finger bharta** — Ferdous. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Ladies_finger_bharta.jpg). Local asset: `reviewed-commons-75173706.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
