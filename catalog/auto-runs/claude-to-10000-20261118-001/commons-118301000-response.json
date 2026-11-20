@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChEQFQkSSZBX3FJ81zD7A",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Roasted small rodent carcass, visibly intact with head and tail\",\n    \"Boiled potatoes, quartered\",\n    \"Sautéed greens with herbs\",\n    \"Fresh tomato slices with herb garnish\",\n    \"Green sauce (chimichurri or salsa verde) in side bowl\",\n    \"White ceramic plate, wooden table surface\",\n    \"Natural lighting, well-exposed\",\n    \"Finished, plated dish presentation\"\n  ],\n  \"phone_observations\": [\n    \"Plate centre shows roasted small rodent, potatoes, and greens clearly visible\",\n    \"Essential components readable in thumbnail\",\n    \"Dish prominence adequate for phone format\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Species identity unconfirmed: title states 'Cuy' (guinea pig), but source metadata title 'File:Cuy al horno en La Chomba, Cusco.jpg' and description 'Cuy al horno en La Chomba, Cusco' are untrusted metadata and treated as such per instructions. The visible roasted small rodent cannot be visually confirmed as guinea pig (Cavia porcellus) versus other rodent species without expert examination.\",\n    \"Guinea pig is not an accepted protein category in the allowed list (chicken/beef/pork/duck/lamb/seafood only)\"\n  ],\n  \"reason\": \"Reject: The dish features a roasted small rodent that the source metadata identifies as 'Cuy' (guinea pig), a traditional Peruvian/Andean dish. However, guinea pig is not among the accepted protein categories (chicken, beef, pork, duck, lamb, seafood). The visible form of the animal cannot be visually confirmed to the species level without expert examination, and the species identity cannot be established from visual inspection alone. Per instructions, unknown or unconfirmed meat species and species outside the allowed category list require a hold or reject decision. Since the protein cannot be categorized within the system's allowed proteins, rejection is appropriate.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1741,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 606,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
