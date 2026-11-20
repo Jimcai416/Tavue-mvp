@@ -11398,3 +11398,8 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Mogodu** — JupiterKB. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Tripe_Botswana.jpg). Local asset: `reviewed-commons-185785216.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Pastel de papa** — Horacio Cambeiro. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Pastel_de_papa_(porci%C3%B3n).jpg). Local asset: `reviewed-commons-157660909.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Bánh mì cá sấu (Crocodile bread)** — Khả Vân Đại Hãn. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:B%C3%A1nh_m%C3%AC_c%C3%A1_s%E1%BA%A5u_(Crocodile_bread).jpg). Local asset: `reviewed-commons-116363806.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
