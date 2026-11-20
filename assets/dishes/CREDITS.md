@@ -12478,3 +12478,8 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 
 - **Espárragos Trigueros a la Plancha** — [Javier Lastras  from España/Spain](https://www.flickr.com/people/22662305@N04). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Esp%C3%A1rragos_Trigueros_a_la_Plancha.jpg). Local asset: `reviewed-commons-6406327.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Tortilla de espárragos trigueros** — User:Ismael Esteban. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Tortilla.jpeg). Local asset: `reviewed-commons-26104186.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Tortelli di ricotta, crema di fave e Pecorino** — [Ryan Snyder](https://www.flickr.com/people/47592968@N00). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Tortelli_di_ricotta,_crema_di_fave_e_Pecorino,_Osteria_del_Castello,_Giaole_in_Chianti_(14187694142).jpg). Local asset: `reviewed-commons-157374066.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **frittelle di pasta all'uovo fatte in casa** — fugzu. [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Un_piatto_di_frittelle_fatte_in_casa.jpg). Local asset: `reviewed-commons-30733749.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
