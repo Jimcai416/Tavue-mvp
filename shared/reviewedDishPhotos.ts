@@ -156882,5 +156882,30 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 720,
     "height": 960,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-75695564",
+    "title": "File:Milestones - Pork Croquettes (5853135812).jpg",
+    "author": "Calgary Reviews  from Calgary, Canada",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Milestones_-_Pork_Croquettes_(5853135812).jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/69/Milestones_-_Pork_Croquettes_%285853135812%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "2e849e2e27de0e440f2cfb7a82bad12356aca155",
+    "name": "Pork Croquettes",
+    "aliases": [],
+    "proteins": [
+      "pork"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-75695564.jpg",
+    "assetSha256": "dc5bcc5fd0fbcbd855d4b5839bc393fef0a8538c48df92c42fa63ae9aa9ba6b0",
+    "reviewedAt": "2026-11-20",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true,
+    "authorUrl": "https://www.flickr.com/people/51930963@N02"
   }
 ];
