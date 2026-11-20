@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChEEuh5LnNmWym5zUw6UM",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Phone thumbnail shows pitchers and glasses of pale liquid with lemon slices\",\n    \"Lemonade/beverage is the primary subject in thumbnail\",\n    \"No finished food dish visible in phone frame\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source metadata declares 'Alcoholic Drinks Lavender Lemonade' but this is a beverage, not a finished food dish\",\n    \"Title/description conflict: file name suggests photograph only, metadata claims alcoholic beverage category\"\n  ],\n  \"reason\": \"Rejection: This is a beverage (lavender lemonade), not a finished food dish. Tavue accepts food photographs only. The source description categorizes this as 'Alcoholic Drinks' rather than a food item. While the photograph quality is acceptable and the beverage is clearly visible and appetising, beverages fall outside the scope of food dish review. No food item is present to evaluate.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1768,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 357,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChEEuh9p4A57s1YCgZNjv",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Cream-coloured sauce with visible meat pieces\",\n    \"Orange carrot chunks visible\",\n    \"Pink/pale meat pieces consistent with source image\",\n    \"Creamy braise composition legible at thumbnail scale\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title declares 'Lapin à la moutarde' (rabbit in mustard sauce), but rabbit is not an allowed protein category per instructions\",\n    \"Animal species cannot be visually confirmed as rabbit vs. chicken/pork/duck/lamb in the photograph alone\",\n    \"No explicit source quote names an allowed protein (chicken, beef, pork, duck, lamb, or seafood)\"\n  ],\n  \"reason\": \"Source declares rabbit (lapin), which is not an allowed protein category. The visible meat cannot be reliably distinguished from allowed species (chicken, pork, or duck) by appearance alone. Identity check fails: the source title matches the dish form shown, but the protein species is excluded from the canonical framework. Hold rule applies: unknown or non-canonical meat species requires holding, not rejection of image quality.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1728,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 390,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
