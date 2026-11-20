@@ -12199,3 +12199,8 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 - **Phat thai (ผัดไทย)** — Iudexvivorum. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Phat_thai_-_Chiang_Mai_-_2017-07-08_(006).jpg). Local asset: `reviewed-commons-61281300.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Combinado, arroz chaufa y tallarín saltado** — Dtarazona. [Public domain](https://creativecommons.org/publicdomain/mark/1.0/); [source](https://commons.wikimedia.org/wiki/File:Combinado_12032009.JPG). Local asset: `reviewed-commons-6218275.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Chaufa con pollo enrollado** — John PC. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Pollo_enrrollado_-_Cajamarca.JPG). Local asset: `reviewed-commons-26361038.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Maltese broth with chicken** — Continentaleurope. [CC BY 4.0](https://creativecommons.org/licenses/by/4.0); [source](https://commons.wikimedia.org/wiki/File:Brodu.jpg). Local asset: `reviewed-commons-176936775.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **beef mixian noodles** — Pratyeka. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Mixian-broth-and-noodles.jpg). Local asset: `reviewed-commons-54918305.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.

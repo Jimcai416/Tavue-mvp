@@ -152619,5 +152619,53 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-176936775",
+    "title": "File:Brodu.jpg",
+    "author": "Continentaleurope",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Brodu.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/42/Brodu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "e53bec9c2460710ab1e8dc0f9940105ba215c6ad",
+    "name": "Maltese broth with chicken",
+    "aliases": [],
+    "proteins": [
+      "chicken"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-176936775.jpg",
+    "assetSha256": "214fc672fa6e4e78047c94418c09bfe5fdcf390bae58de47c05c0f1dd755f6bc",
+    "reviewedAt": "2026-11-20",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 540,
+    "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-54918305",
+    "title": "File:Mixian-broth-and-noodles.jpg",
+    "author": "Pratyeka",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mixian-broth-and-noodles.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/db/Mixian-broth-and-noodles.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "52221cd3c9e5e3a570b64782c9954ce6f7d1196d",
+    "name": "beef mixian noodles",
+    "aliases": [],
+    "proteins": [
+      "beef"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-54918305.jpg",
+    "assetSha256": "8037f4cb51d1978b7dae3b56590785979046509c637c989497f8253e6dee505e",
+    "reviewedAt": "2026-11-20",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 540,
+    "requiresExactMenuName": true
   }
 ];
