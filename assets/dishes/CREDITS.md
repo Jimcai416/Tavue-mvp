@@ -12524,3 +12524,10 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Almejas a la marinera** — juantiagues. [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:A_la_marinera.jpg). Local asset: `reviewed-commons-95185412.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Calzone** — Michael Rivera. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Calzone,_Italian_Pizzeria_and_Restaurant,_Live_Oak.jpg). Local asset: `reviewed-commons-122690483.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Frittata** — [Mack Male  from Edmonton, AB, Canada](https://www.flickr.com/people/24311648@N00). [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:Frittata_(2407295513).jpg). Local asset: `reviewed-commons-109913695.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Pizza Calzone** — TELLURIDE 749. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Calzone_01.jpg). Local asset: `reviewed-commons-85667405.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Pasta alla Carbonara** — Wikimedia.kewbeach.ca. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Pasta_alla_carbonara_crop.png). Local asset: `reviewed-commons-53947328.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
