@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDWxzFtmuw17trqTJwdm",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Clear amber/orange broth in white cup and saucer\",\n    \"Garnished with green chives or scallion slices\",\n    \"Professional plating and lighting\",\n    \"Finished, exposed dish suitable for review\"\n  ],\n  \"phone_observations\": [\n    \"Soup clearly visible at centre of thumbnail\",\n    \"Broth colour and garnish readable\",\n    \"No clipping of essential components\",\n    \"Thumbnail composition adequate for identification\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title states 'Consommé soup' but metadata shows 'Loup de Mer' (sea bass) restaurant context—no visible fish or protein component in the broth itself\",\n    \"Consommé is typically clarified beef or chicken stock; no source text explicitly names the protein base\",\n    \"Visual appearance alone cannot determine whether this is beef, chicken, seafood or vegetable consommé\",\n    \"Restaurant name suggests seafood, but the soup's protein origin is not explicitly stated in title or description\"\n  ],\n  \"reason\": \"Image quality and photograph presentation pass all checks. However, identity verification fails: the title 'Consommé soup' does not name the protein base (beef/chicken/seafood/other), and while the restaurant context (Loup de Mer) suggests seafood, no explicit protein declaration appears in the source title or description. The visible broth contains no readable solid protein component. Per protocol, ambiguous protein identity and source contradictions require holding pending clarification of the consommé's base protein.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1649,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 492,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
