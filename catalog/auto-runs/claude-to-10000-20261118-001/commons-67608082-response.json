@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChEnp6YXxoHd5g4jSmAAN",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 5,\n    \"appeal\": 5\n  },\n  \"visible_support\": [\n    \"Stacked tomato slices with mozzarella and basil\",\n    \"Yellow oil/vinaigrette drizzle\",\n    \"Fine dining plating on white plate\",\n    \"Fresh green basil leaves\",\n    \"White cheese (mozzarella)\",\n    \"Red tomato slices\"\n  ],\n  \"phone_observations\": [\n    \"Stacked caprese clearly visible in thumbnail\",\n    \"Distinct layered structure readable\",\n    \"Basil and cheese composition evident\",\n    \"Yellow drizzle visible\",\n    \"Appetising presentation retained\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title states 'Ensalada caprese' (salad) but photograph shows an elaborately plated, stacked fine-dining composition—a prepared dish, not a traditional salad presentation\",\n    \"Source metadata contains only generic title 'Ensalada caprese Chef koketo' with no dish-specific description to confirm exact variant or preparation method\",\n    \"Caprese traditionally contains tomato, mozzarella and basil with no protein; no source text explicitly names any animal product\"\n  ],\n  \"reason\": \"Identity check fails. The source title 'Ensalada caprese Chef koketo' contradicts the visual form: a stacked, fine-dining composed dish rather than a salad. The filename is not a canonical dish description. Source metadata is insufficient—it lacks the explicit dish description needed to confirm the exact variant, preparation method, or any named ingredients. While the photograph is sharp, well-lit, appetising and clearly shows tomato, mozzarella and basil, without authoritative source text matching the visual composition and plating style, identity cannot be verified. Hold pending a proper source title or description that matches the dish form shown.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1732,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 541,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChEnp1PiokmdgtBHUFj1c",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Cooked/seared meat slices visible\",\n    \"Mozzarella cheese (white round slices)\",\n    \"Fresh basil leaves\",\n    \"Dark sauce drizzle on plate\"\n  ],\n  \"phone_observations\": [\n    \"Meat and cheese components clearly visible\",\n    \"Basil garnish prominent\",\n    \"Plated presentation recognizable\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title claims 'Caprese salad' but dish displays seared meat slices (prosciutto or similar cured/cooked meat), mozzarella, basil and reduction sauce—this is a Caprese-inspired meat plate, not a traditional Caprese salad (tomato, mozzarella, basil)\",\n    \"Meat species/preparation not explicitly named in source; appears to be prosciutto or seared beef but no declaration provided\",\n    \"Identity contradiction: source metadata does not match visible dish form\"\n  ],\n  \"reason\": \"Identity check fails. The source title 'Caprese salad' contradicts the visible dish, which contains cooked/cured meat slices, mozzarella, basil and reduction—a Caprese-inspired plated meat dish, not a salad. The meat species/preparation is not explicitly declared in the source title or description, preventing protein_evidence population. Source metadata does not match actual dish form.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1549,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 459,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
