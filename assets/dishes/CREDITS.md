@@ -11550,3 +11550,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 - **Qatayef Palestine** — Osps7. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Qatayef_Palestine.jpg). Local asset: `reviewed-commons-103932413.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Qatayef with honey** — Freedom's Falcon. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Qatayef_with_honey_JO.jpg). Local asset: `reviewed-commons-105015447.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Stuffed zucchini** — КатеринаДими. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:%D0%9F%D0%BE%D0%BB%D0%BD%D0%B5%D1%82%D0%B8_%D1%82%D0%B8%D0%BA%D0%B2%D0%B8%D1%86%D0%B8.jpg). Local asset: `reviewed-commons-64481645.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Croqueta de pollo** — Platea Madrid. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:CROQUETA_DE_POLLO.jpg). Local asset: `reviewed-commons-69195343.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.

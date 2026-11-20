@@ -145692,5 +145692,29 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 960,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-69195343",
+    "title": "File:CROQUETA DE POLLO.jpg",
+    "author": "Platea Madrid",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:CROQUETA_DE_POLLO.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1e/CROQUETA_DE_POLLO.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "02308e3bedc0b16f6dfc81961e2d5f2e179d2206",
+    "name": "Croqueta de pollo",
+    "aliases": [],
+    "proteins": [
+      "chicken"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-69195343.jpg",
+    "assetSha256": "d4b47f531be46c946a9776e17b11b3472b06804b660251090b8b2cf7caa71017",
+    "reviewedAt": "2026-11-20",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 640,
+    "requiresExactMenuName": true
   }
 ];
