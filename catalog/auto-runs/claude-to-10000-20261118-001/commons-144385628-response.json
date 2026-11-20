@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChEWjLhavexm8yKJtSSWc",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": \"A pork soup called tom saep, as sold in Thailand.\",\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Finished, exposed broth-based dish in white bowl\",\n    \"Prominent pale protein cubes (tofu or pork)\",\n    \"Dark leafy greens (bok choy or similar)\",\n    \"Green onion/scallion garnish\",\n    \"Red chilli flakes visible\",\n    \"Natural warm broth colour\",\n    \"Metal spoon indicates active service\",\n    \"Phone thumbnail clearly shows layered broth and ingredients\"\n  ],\n  \"phone_observations\": [\n    \"Broth and protein components readable at 124x96\",\n    \"Green garnish and spice visible\",\n    \"Dish proportions and depth preserved\",\n    \"No critical clipping of essential elements\"\n  ],\n  \"protein_evidence\": {\n    \"pork\": \"pork soup called tom saep\"\n  },\n  \"uncertainties\": [\n    \"Source title contains ambiguity: 'Tom Saep' vs standard Thai tom yum/tom saap/tom saep romanization and regional spelling variants are inconsistent in literature\",\n    \"Visible protein appears to be pale cubes (tofu-coloured) but source explicitly claims pork; actual species identity visually uncertain—could be tofu, chicken, or pork based on appearance alone\",\n    \"No explicit confirmation that pale cubes are cooked pork rather than tofu or another protein\"\n  ],\n  \"reason\": \"Identity check fails: source uses non-standard romanization 'tom saep' without established canonical Thai spelling confirmation, and visible pale cubic protein contradicts typical pork appearance (would expect visible pork tissue structure). The source explicitly names pork, but the visual evidence of uniform pale cubes creates doubt about whether this is actually pork soup or if the metadata is inaccurate. All quality and photograph checks pass (sharpness 4, lighting 4, composition 4, appeal 4), but the protein/identity mismatch between metadata claim and visual appearance must be resolved before acceptance. Hold pending clarification of actual dish name standardization and protein verification.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1846,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 607,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

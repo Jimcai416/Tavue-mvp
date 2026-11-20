@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChEWkbNejPRbS2sMxSNM5",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [\n    \"Noodles with sesame seeds visible in top container\",\n    \"White rice with red condiment in bottom container\",\n    \"Cooked meat visible among noodles\",\n    \"Vegetables (green onion, mushroom) in noodle dish\",\n    \"Natural daylight, genuine takeout packaging\"\n  ],\n  \"phone_observations\": [\n    \"Noodle and meat dish clearly visible in upper container\",\n    \"Rice with condiment visible in lower container\",\n    \"Composite meal presentation readable at thumbnail size\",\n    \"Sesame seeds on noodle portion identifiable\"\n  ],\n  \"protein_evidence\": {\n    \"pork\": \"Pork chop\"\n  },\n  \"uncertainties\": [\n    \"Title claims 'Pork chop rice' but image shows two-container meal: noodles (not rice) in top container with sesame seeds and cooked meat, separate rice in bottom container\",\n    \"Cannot visually confirm meat in top container is a 'chop' or distinct cut—appears shredded or sliced among noodles\",\n    \"Identity mismatch: source title describes rice-based dish but photograph clearly shows noodles as primary component in serving container\"\n  ],\n  \"reason\": \"Reject: source title 'Pork chop rice' contradicts visible form. Image shows a two-container meal with sesame-seeded noodles (not rice) in the top container and plain rice in the bottom. The 'pork chop' cannot be verified as a discernible chop cut—it appears processed within the noodle mixture. Title-to-image identity check fails. While photograph and phone thumbnail quality are acceptable, the fundamental dish identity is misrepresented by the source title.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1809,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 536,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
