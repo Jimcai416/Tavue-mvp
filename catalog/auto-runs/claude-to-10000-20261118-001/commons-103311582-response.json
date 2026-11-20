@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDg4x2fzs8hJahbGwwj5",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Plated dish on dark slate server\",\n    \"Golden-brown toasted sandwich pieces arranged with appetising presentation\",\n    \"Red sauce/chutney in central ramekin\",\n    \"Decorative white sauce drizzles on plating\",\n    \"Fresh green herb garnish visible on sandwich surfaces\",\n    \"Natural lighting, well-exposed, sharp detail of sandwich cross-sections\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail shows same toasted sandwich pieces with golden exterior\",\n    \"Red condiment visible in centre vessel\",\n    \"Plating details readable; sandwich form and garnish evident\",\n    \"Adequate visual prominence and clarity for identification\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'Paneer Makhani Sandwich' but visible plated dish shows what appears to be toasted bread/toast pieces with possible cheese or protein filling, not a recognisable 'sandwich' form (two slices of bread with filling between them)\",\n    \"No clear visual confirmation of paneer (Indian cottage cheese) as the protein—appearance could be baked/fried bread with cheese or other filling\",\n    \"Paneer is a dairy product, not an allowed protein category (chicken/beef/pork/duck/lamb/seafood only)\",\n    \"Source title metadata is filename-based, not an independent dish description; metadata reliability is compromised by marketing health claims ('high in protein', 'low on carbs', 'vegetarian') which violate source integrity rules\"\n  ],\n  \"reason\": \"Reject: Identity check fails. The source title 'Paneer Makhani Sandwich' describes a dish containing paneer (cottage cheese), which is not an allowed protein category. Paneer is a dairy product and cannot be listed under chicken/beef/pork/duck/lamb/seafood. Additionally, the visible plated presentation does not clearly match the canonical form of a 'sandwich' (two bread slices with filling), and paneer itself cannot be confirmed visually. The source metadata contains marketing and health claims ('high in protein', 'very low on carbs', 'best source of daily protein intake') that violate source reliability standards. While the photograph quality and plating are professional and appetising, identity agreement with an allowed dish cannot be established.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1784,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 654,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

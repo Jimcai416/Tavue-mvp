@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDg4x3RN5WApgyUkdh8Y",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Rich golden-brown curry sauce visible in full image\",\n    \"Distinct paneer pieces clearly visible and prominent\",\n    \"Well-plated in white bowl\",\n    \"Phone thumbnail shows sauce and paneer chunks distinctly\",\n    \"Natural colour, appetising appearance\"\n  ],\n  \"phone_observations\": [\n    \"Paneer chunks clearly distinguishable in centre-cover thumbnail\",\n    \"Curry sauce colour and texture readable\",\n    \"Bowl rim visible, subject properly framed\",\n    \"No clipping of essential components\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'paneer makhani curry' but paneer is a dairy product (cheese), not a protein category accepted by guidelines (chicken/beef/pork/duck/lamb/seafood only)\",\n    \"Source description 'north indian dish prepared with paneer and butter' does not name any animal protein eligible for protein_evidence mapping\"\n  ],\n  \"reason\": \"Image quality, composition, sharpness and phone thumbnail all meet acceptance thresholds. However, the dish contains only paneer (Indian cottage cheese) as the primary protein component. The guidelines restrict protein_evidence keys to chicken/beef/pork/duck/lamb/seafood. Paneer does not fall within these categories and cannot be recorded as supporting evidence. Without any eligible protein category, the identity check fails and acceptance is not possible.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1729,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 451,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
