@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDwygr6KSamo6iZdeg4r",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": true,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 3,\n    \"lighting\": 3,\n    \"composition\": 2,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Phone thumbnail shows hands handling raw/partially prepared poultry parts in a preparation stage, not a finished dish\",\n    \"Essential food subject is obscured by hands and processing activity\",\n    \"No plated or finished presentation visible in thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title declares 'chicken soup' but the full photograph shows raw preparation stage with uncooked poultry parts being cleaned/processed, not an exposed finished dish\",\n    \"Cannot visually confirm the finished soup appearance or its actual form from either image\"\n  ],\n  \"reason\": \"Rejection: This is a preparation/processing stage photograph, not a finished exposed dish. Both the source image and phone thumbnail show hands cleaning and handling raw poultry parts at a sink or preparation surface. No cooked or plated dish is visible. The source metadata title declares 'chicken soup' but that finished dish form is not photographically evident—only the raw ingredient preparation stage is shown. The phone thumbnail fails the requirement for 'a finished, exposed, likely photographic dish' and shows the subject obscured by hands during food preparation, not an appetising finished presentation.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1631,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 398,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

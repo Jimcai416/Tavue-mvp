@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDwyoBawYYMsEXELJvbQ",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 3,\n    \"lighting\": 2,\n    \"composition\": 3,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows pale poached chicken pieces in murky broth\",\n    \"Visible corn kernels (yellow) and brown legumes distributed throughout\",\n    \"Broth appears cloudy and underseasoned in appearance\",\n    \"Chicken dominates composition but lacks appetising colour or gloss\"\n  ],\n  \"protein_evidence\": {\n    \"chicken\": \"chicken soup\"\n  },\n  \"uncertainties\": [\n    \"Source title references 'mushrooms' but no mushrooms are visibly identifiable in either the full source image or thumbnail—only brown legumes (possibly chickpeas or similar) are evident\",\n    \"Corn is visible but mushrooms cannot be confirmed by visual inspection\",\n    \"The dish appears to be a preparation stage or home cooking in a plain pot rather than a finished, plated dish suitable for food review\",\n    \"Severe lighting deficiency and murky broth colouration significantly reduce visual appeal\"\n  ],\n  \"reason\": \"Identity check fails: source description claims 'mushrooms' as a key component, but no mushrooms are visibly present in either photograph—only legumes and corn are evident. The variant promised in the source title cannot be preserved because the described ingredient is absent. Additionally, the image shows a dish in a plain cooking vessel at an intermediate stage rather than a finished, exposed, appetisingly presented dish. Poor lighting and unappetising broth colouration further compromise quality. Reject due to ingredient mismatch and presentation stage concerns.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1727,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 472,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

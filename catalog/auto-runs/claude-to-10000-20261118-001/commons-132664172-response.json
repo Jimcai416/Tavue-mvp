@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDwz3ouVbsUFpTV5Nw3i",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Creamy soup in red oval cast-iron dish visible in thumbnail\",\n    \"Herb and vegetable garnish visible\",\n    \"Dish is prominent and sharp in phone view\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'Thai chicken soup' but no chicken is visibly identifiable in the dish\",\n    \"The creamy, uniform appearance shows no distinct protein pieces, bones, or identifiable poultry\",\n    \"Dish appears to be a pureed or blended soup with herbs and vegetables but no visible chicken\",\n    \"Source title asserts chicken but photograph does not provide visual evidence of chicken\"\n  ],\n  \"reason\": \"Reject: Identity check fails. The source title declares 'Thai chicken soup' with chicken as a protein component, but the photograph shows a creamy, blended soup with no visibly identifiable chicken pieces, bones, or other poultry matter. The rule requires exact source quote matching for protein_evidence, and 'chicken' is explicitly named in the title, but the visible form contradicts this claim—no chicken can be detected in the dish itself. This represents a source-photograph mismatch. Hidden flavours may be source-declared but cannot be accepted when the named protein is not visually supported and the dish appears fundamentally different (pureed soup vs. identifiable protein-containing soup).\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1730,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 447,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDwyfFLV4WhhKKHgMUEY",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": true,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 3,\n    \"lighting\": 2,\n    \"composition\": 2,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows raw chicken pieces in a yellow/gold tray with broth/liquid—preparation stage, not finished dish\",\n    \"Essential food (the dish itself) is clipped or obscured; only ingredient stage visible\",\n    \"No finished, plated, or exposed prepared food recognizable in phone thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title claims 'chicken soup' but image shows raw chicken and preparation workflow, not a finished soup dish\",\n    \"The described dish (soup) is not visibly complete or exposed in either full or thumbnail view—only raw ingredients and mid-preparation state\"\n  ],\n  \"reason\": \"Rejection: Image depicts food preparation and raw ingredients (raw chicken pieces in liquid), not a finished, exposed, appetising dish. The phone thumbnail shows only the raw ingredient stage with essential components clipped. The source describes a soup, but no finished soup is visible or prominently presented. Quality scores fall below threshold (lighting 2, composition 2, appeal 1). Home cooking context is acknowledged but the subject is a preparation stage, not a completed dish.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1632,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 390,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

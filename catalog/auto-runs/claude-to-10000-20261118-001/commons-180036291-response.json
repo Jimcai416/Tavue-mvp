@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDwydkYZCLYbZwXhnXaa",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Clear broth-based soup in white bowl\",\n    \"Thin rice noodles visible throughout\",\n    \"Diced orange/yellow vegetables (carrots)\",\n    \"Light green herbs scattered on surface\",\n    \"Professional plating on dark wooden table\"\n  ],\n  \"phone_observations\": [\n    \"Soup contents clearly visible in thumbnail\",\n    \"Noodles and vegetable pieces readable\",\n    \"Bowl centre-covered without clipping essential elements\",\n    \"Colour and composition consistent with full image\"\n  ],\n  \"protein_evidence\": {\n    \"chicken\": \"Chicken Soup with Rice Noodles\"\n  },\n  \"uncertainties\": [\n    \"Title contains 'File:' prefix and extraneous metadata (Liat Portal, Foodie Disorder, HaJunkiyada) not part of actual dish name\",\n    \"Source metadata is untrusted; actual chicken not visually identifiable in broth\",\n    \"Description lists 'celery' but only carrots and herbs are clearly visible\",\n    \"Exact canonical name unclear after removing metadata noise\"\n  ],\n  \"reason\": \"Identity check fails: the source title is embedded in filename metadata with photographer, archive name, and author attributions that must be stripped. The core dish phrase appears to be 'Chicken Soup with Rice Noodles', but the metadata noise and unverifiable chicken (not visible in the clear broth) create ambiguity about the authoritative canonical name. Photograph and phone thumbnail quality are strong (all visual checks pass, scores ≥4), but identity uncertainty prevents acceptance. Hold pending clarification of exact source-declared dish name without metadata wrapper.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1812,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 512,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
