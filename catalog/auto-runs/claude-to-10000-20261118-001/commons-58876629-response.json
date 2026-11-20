@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChETpaQt95fewEC5sTSF6",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Red sliced meat visible on plate\",\n    \"Bean sprouts, lime, fresh herbs on banana leaf\",\n    \"Spice powders and condiments arranged\",\n    \"Green chilli present\",\n    \"Professional plating on decorative red plate\"\n  ],\n  \"phone_observations\": [\n    \"Red meat slices prominent in thumbnail\",\n    \"Bean sprouts clearly visible\",\n    \"Banana leaf base visible\",\n    \"Decorative plate border recognizable\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title describes 'phat thai' (Thai stir-fry noodle dish), but photograph shows sliced raw or rare meat with condiments on a banana leaf—this is incompatible with phat thai preparation and presentation\",\n    \"The dish appears to be a meat carpaccio, ceviche, or similar raw/rare meat preparation, not a noodle stir-fry\",\n    \"Meat species cannot be determined from appearance alone; source does not name the animal\",\n    \"No noodles visible despite title claiming phat thai\"\n  ],\n  \"reason\": \"Identity mismatch: source title claims 'phat thai' (a stir-fried rice noodle dish), but photograph shows sliced raw or rare meat with condiments and bean sprouts on a banana leaf—a fundamentally different dish type. The composition, preparation method, and presentation contradict the stated identity. Meat species is unspecified in source description. Cannot accept when visible form contradicts declared dish identity.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1799,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 486,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
