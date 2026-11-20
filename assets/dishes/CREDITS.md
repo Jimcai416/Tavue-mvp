@@ -11512,3 +11512,8 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Maxine's Chicken & Waffles with Fried Green Tomatoes** — Richie Diesterheft. [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:Maxine%27s_Chicken_%26_Waffles_with_Fried_Green_Tomatoes.jpg). Local asset: `reviewed-commons-114689107.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Somun bread from Turkey** — E4024. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Somun_bread_from_Turkey.jpg). Local asset: `reviewed-commons-44935236.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Kartoffelsalat** — Kobako. [CC BY-SA 2.5](https://creativecommons.org/licenses/by-sa/2.5); [source](https://commons.wikimedia.org/wiki/File:Kartoffelsalat.jpg). Local asset: `reviewed-commons-809323.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
