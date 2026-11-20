@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDsiAR7QezLxChajYjRj",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": \"Smażona mortadela z ziemniakami i kapustą\",\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Two round, golden-brown fried slices visible on plate\",\n    \"Yellow mashed potatoes clearly present\",\n    \"White/cream coloured component (cabbage or coleslaw)\",\n    \"Dark sauce in white ramekin (likely berry or plum)\",\n    \"Finished dish on clear glass plate\"\n  ],\n  \"phone_observations\": [\n    \"Fried meat slices prominent in thumbnail centre\",\n    \"Mashed potatoes and cabbage/coleslaw visible\",\n    \"Plate and accompaniments legible\",\n    \"Sauce vessel visible top-right\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Mortadella is Italian processed pork meat, but source description is in Polish and the specific animal species is not explicitly named in the title/description—only the product name 'mortadela' (Polish spelling of mortadella) is stated\",\n    \"While mortadella is traditionally pork, the source does not explicitly declare pork in the exact title or description provided\",\n    \"Cannot visually verify the meat species from appearance alone\"\n  ],\n  \"reason\": \"Image quality and photograph composition are strong (sharp, well-lit, appetising). The phone thumbnail clearly shows the finished dish. However, identity check fails because the source description 'Smażona mortadela z ziemniakami i kapustą' does not explicitly name the animal protein (pork). Although mortadella is traditionally pork-based, the protocol requires an explicit source quote naming the animal species. The unadorned product name 'mortadela' without explicit animal designation falls short of the protein_evidence requirement. Hold pending clarification of the animal species in source metadata or explicit instruction.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1739,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 538,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
