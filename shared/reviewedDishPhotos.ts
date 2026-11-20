@@ -145175,5 +145175,29 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-86792059",
+    "title": "File:Chok tomyam (tomyam congee), chicken ver, Bangkok, 2018-01-21.jpg",
+    "author": "Bitterschoko",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chok_tomyam_(tomyam_congee),_chicken_ver,_Bangkok,_2018-01-21.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/99/Chok_tomyam_%28tomyam_congee%29%2C_chicken_ver%2C_Bangkok%2C_2018-01-21.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "25620c5aaf0a5fb588722718e19dce02e916bc55",
+    "name": "Chok tomyam (tomyam congee), chicken ver",
+    "aliases": [],
+    "proteins": [
+      "chicken"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-86792059.jpg",
+    "assetSha256": "8f24880e5c7fab0e60f536e7afd6f13303cfe0dd3eb248206824a588a0434de4",
+    "reviewedAt": "2026-11-20",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 941,
+    "height": 960,
+    "requiresExactMenuName": true
   }
 ];

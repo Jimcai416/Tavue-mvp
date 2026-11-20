@@ -11494,3 +11494,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Bouyiourdi** — Dianeira. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Bouyiourdi.jpg). Local asset: `reviewed-commons-163318194.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Chok tomyam (tomyam congee), chicken ver** — Bitterschoko. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Chok_tomyam_(tomyam_congee),_chicken_ver,_Bangkok,_2018-01-21.jpg). Local asset: `reviewed-commons-86792059.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
