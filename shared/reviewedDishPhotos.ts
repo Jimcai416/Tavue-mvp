@@ -146319,5 +146319,52 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 749,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-87451781",
+    "title": "File:Pommes Anna (32311397556).jpg",
+    "author": "Herry Lawford  from Stockbridge, UK",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pommes_Anna_(32311397556).jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Pommes_Anna_%2832311397556%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "4a39fcda35b61f20186b3c39abd70f50171249da",
+    "name": "Pommes Anna",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-87451781.jpg",
+    "assetSha256": "738aeadb48c1bc71ade2cfffa304800c60583856b9c5f418b388d7d86005d8e2",
+    "reviewedAt": "2026-11-20",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 720,
+    "height": 960,
+    "requiresExactMenuName": true,
+    "authorUrl": "https://www.flickr.com/people/32662631@N00"
+  },
+  {
+    "id": "commons-4120836",
+    "title": "File:Chicken Soup With Kreplach.jpg",
+    "author": "Yoninah",
+    "license": "CC BY 2.5",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chicken_Soup_With_Kreplach.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Chicken_Soup_With_Kreplach.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "22a92e953865e0d559f7691be9d9b5f62079c6d8",
+    "name": "Chicken Soup With Kreplach",
+    "aliases": [],
+    "proteins": [
+      "chicken"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-4120836.jpg",
+    "assetSha256": "afc4dc7f9c26a51b18b151ce2c7abd42a4a61004c036d1884b896bd6c997aeff",
+    "reviewedAt": "2026-11-20",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 625,
+    "requiresExactMenuName": true
   }
 ];
