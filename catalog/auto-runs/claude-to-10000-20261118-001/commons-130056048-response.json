@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChEoANJPExSWmLN2apsbs",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 3,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows ingredient layout, not a finished dish\",\n    \"Centre-cover is dominated by component photographs, not a plated meal\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title references 'ingredients' not a finished dish\",\n    \"Image explicitly labeled as instructional/recipe component visual\",\n    \"No single finished, exposed, plated dish visible—only ingredient components arranged for educational purposes\"\n  ],\n  \"reason\": \"Rejection: This is an ingredient reference image, not a photograph of a finished, exposed dish. The source description ('Roulade ingredients') and visual construction (ingredient components arranged on white background) confirm this is instructional/educational content created from free images, not an actual plated food photograph. The title 'Roulade ingredients' in Armenian script (Անուլուն) describes ingredients, not a dish. The centrecover thumbnail reinforces the layout of components rather than a cohesive finished meal. Home cooking and street food are welcome, but raw/preparation stages and ingredient compilations are explicitly rejected. This fails the primary acceptance criterion of a 'finished, exposed, likely photographic dish.'\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1836,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 401,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

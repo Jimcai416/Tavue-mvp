@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChEoAd58foj4pZuNpNQRx",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [\n    \"Cooked rice dish in blue-patterned bowl (prominent, sharp, naturally coloured)\",\n    \"Skewered meat on white plate (small portion, cooked, identifiable as brochette/môsikiky)\",\n    \"Red dipping sauce bowl visible\",\n    \"Home/family meal setting on decorative tablecloth\"\n  ],\n  \"phone_observations\": [\n    \"Rice clearly visible and prominent in thumbnail\",\n    \"White plate with meat skewer readable but small\",\n    \"Red sauce bowl visible at top\",\n    \"Composition shows full dish layout\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title contains 'File:' prefix and filename extension (.jpg) which should be stripped; exact canonical phrase unclear\",\n    \"Meat species in 'brochette ou môsikiky' not explicitly named in source—appears cooked but species unconfirmed (could be beef, pork, or other)\",\n    \"Source description lists multiple possible accompaniments (achard, fish, omelette, milk, honey, chocolate) but only brochette/sauce visible; source does not confirm which are actually present\",\n    \"Source metadata states North Madagascar context and 'sabeda au déjeuner' (lunch dish) but canonical name construction requires exact title phrase without metadata context\"\n  ],\n  \"reason\": \"Reject: The source provides a filename entry ('File:Sabeda ou vary sosoa accompagné de brochette ou môsikiky.jpg') rather than a clean canonical title. The meat species in 'brochette ou môsikiky' is not explicitly named in the source description—it is only visibly cooked but cannot be reliably identified as chicken, beef, pork, duck, or lamb without explicit source confirmation. The description lists multiple possible accompaniments but does not confirm which are actually present in this specific photograph. These ambiguities prevent confident identity verification and protein classification. The dish requires a cleaned, unambiguous source title phrase and explicit protein species naming to proceed.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1824,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 592,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

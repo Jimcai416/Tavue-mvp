@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChEoANFQiNW7CojywFZQd",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 3,\n    \"lighting\": 3,\n    \"composition\": 2,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows raw preparation stage: unfinished braised meat mid-cooking in cast pot\",\n    \"Orange carrot chunks and translucent onion visible but dish incomplete\",\n    \"No finished, exposed dish appearance\",\n    \"Cooking vessel dominates; food not prominently plated or finished\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title references 'salmis' and 'mirepoix et carcasse' (carcass and aromatic vegetable base) indicating a preparation/cooking stage, not finished dish\",\n    \"Description explicitly states 'mijotage des carcasses' (simmering of carcasses) — this is mid-preparation, not a finished food photograph\",\n    \"Animal species not specified in source; 'carcasse' alone is insufficient for protein identification\"\n  ],\n  \"reason\": \"Reject: image shows raw preparation/cooking stage (braising in progress), not a finished, exposed, appetising dish suitable for food intake review. The source description explicitly labels this as mid-cooking ('mijotage'). Phone thumbnail confirms unfinished appearance with ingredients visible in pot but no plated or finished food presentation. Quality scores reflect preparation rather than finished photography. No protein species can be established from source text.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1754,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 430,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

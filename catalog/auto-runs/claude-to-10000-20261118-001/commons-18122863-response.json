@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChEoAg8w87hEXDVxg5hnz",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows a cooking-stage stew in a metal pot/pan with visible liquid and ingredients in mid-preparation\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title references 'carcasses' and 'mirepoix' – this is a preparation/cooking stage, not a finished dish\",\n    \"Description explicitly identifies this as intermediate components ('vue de la mirepoix et des carcasses'), not a completed plated food\",\n    \"Dish identity cannot be confirmed from visual form alone; source metadata suggests a stage within salmis preparation rather than finished salmis\"\n  ],\n  \"reason\": \"Rejection: This is a preparation/cooking stage photograph, not a finished, exposed dish ready for service. The source description ('vue de la mirepoix et des carcasses' – 'view of the mirepoix and carcasses') explicitly identifies this as intermediate mise en place and braising components, not a completed salmis. The image shows raw meat pieces, vegetable garnish, and liquid in an active cooking vessel. Per intake criteria, preparation stages are not acceptable. Identity cannot be established as a finished, plated dish.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1752,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 407,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
