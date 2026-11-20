@@ -135999,5 +135999,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 720,
     "height": 960,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-99401655",
+    "title": "File:Hidangan papeda.jpg",
+    "author": "Pungkas nurrohman",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hidangan_papeda.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/db/Hidangan_papeda.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "3517e24b0707ee496779c3cbdf6ce7564c090f32",
+    "name": "Papeda",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-99401655.jpg",
+    "assetSha256": "1e534b35e9c3656953291337eec42310a7bc73f3e26bbf80f1ac88f6ca1a138e",
+    "reviewedAt": "2026-11-20",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 952,
+    "height": 864,
+    "requiresExactMenuName": true
   }
 ];

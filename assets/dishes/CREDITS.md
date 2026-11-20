@@ -10639,3 +10639,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Shrimp Remoulade** — kerinin. [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:Shrimp_Remoulade,_Arnaud%27s_Jazz_Bistro.jpg). Local asset: `reviewed-commons-149220721.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Papeda** — Pungkas nurrohman. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Hidangan_papeda.jpg). Local asset: `reviewed-commons-99401655.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
