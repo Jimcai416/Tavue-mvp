@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDsFjnoSqDw7NduJdBgQ",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 5,\n    \"composition\": 5,\n    \"appeal\": 5\n  },\n  \"visible_support\": [\n    \"Golden-brown fried ovoid croquettes arranged in green-and-white checkered paper\",\n    \"Central white ramekin with creamy white dipping sauce\",\n    \"Sharp detail and natural colour throughout\",\n    \"Professional presentation consistent with restaurant plating\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows fried items arranged around central white sauce\",\n    \"Golden-brown colour and form plainly visible\",\n    \"Essential components readable: fried items and dip\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'Fried Green Tomatoes' but visual form is clearly croquettes—ovoid, breaded, and uniform in shape, inconsistent with sliced fried tomato preparation\",\n    \"No visible tomato slices, tomato texture, or green tomato evidence in either full image or thumbnail\",\n    \"Source describes venue and date but provides no recipe, ingredient list, or confirmation that the dish contains tomato\",\n    \"Visual identity contradicts declared title\"\n  ],\n  \"reason\": \"Identity check fails. The source title declares 'Fried Green Tomatoes', but the photograph shows finished fried croquettes—uniform, ovoid, breaded balls or cylinders—not sliced fried green tomatoes. No tomato form, texture, or green colour is visible. The shape and construction are incompatible with fried tomato slices. This is a source-title contradiction that prevents canonical acceptance. The dipping sauce (ranch) is correctly identifiable but does not resolve the core identity conflict. Without source clarification confirming what the dish actually contains, the entry cannot proceed.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1654,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 509,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

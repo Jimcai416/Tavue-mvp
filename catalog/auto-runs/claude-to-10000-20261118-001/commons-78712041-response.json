@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDsETWEuSspBSHpe49vC",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Arby's branded packaging visible\",\n    \"Two sandwich halves with golden buns\",\n    \"Fried hush puppies in paper cup\",\n    \"Sauce packet labeled 'Bronco Berry Sauce'\",\n    \"Beef-looking patty visible in sandwich cross-section\"\n  ],\n  \"phone_observations\": [\n    \"Sandwiches prominent and clearly visible in thumbnail\",\n    \"Hush puppies visible at top\",\n    \"Arby's logo readable\",\n    \"Overall composition legible at phone size\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title metadata reads 'File:Arby's Mighty Minis & Hush Puppies' but this is a filename, not an authoritative dish description\",\n    \"Description is generic ('Nice meal') and provides no specific dish identity\",\n    \"Meat species in sandwiches cannot be definitively confirmed from visual inspection alone\",\n    \"No explicit source quote names the specific sandwich variety or protein content\"\n  ],\n  \"reason\": \"Reject: Identity check fails. The source title is a filename (prefixed 'File:'), not a canonical dish description. The description ('Nice meal') is non-specific marketing language. While the photograph shows what appears to be an Arby's sandwich meal with hush puppies, the actual source metadata does not provide an explicit, authoritative dish name or protein declaration sufficient to establish canonical identity. Metadata alone is untrusted evidence and cannot substitute for a clear source description. No meaningful variant qualifiers or protein confirmations are available from trusted source text.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1734,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 498,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

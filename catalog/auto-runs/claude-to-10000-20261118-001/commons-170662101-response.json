@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDsFAXZb5TykcKp53p5K",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Golden-brown fried onion rings, prominent and central\",\n    \"Toasted bread slices with lettuce visible\",\n    \"Red maraschino cherry garnish\",\n    \"Fresh green lettuce base\",\n    \"Natural outdoor daylight, vibrant colours\"\n  ],\n  \"phone_observations\": [\n    \"Onion rings clearly visible and sharp in thumbnail centre\",\n    \"Bright golden-brown colour preserved\",\n    \"Surrounding components readable but secondary to rings\"\n  ],\n  \"protein_evidence\": {\n    \"bacon\": \"Bacon, Lettuce, Fried Green Tomatoes\"\n  },\n  \"uncertainties\": [\n    \"Source title describes a 'Fried Green Tomato BLT' sandwich, but the photograph's primary subject and composition centre on onion rings as the dominant element, not the sandwich\",\n    \"The sandwich itself is partially visible at left and right edges but severely diminished in prominence compared to the onion rings\",\n    \"Fried green tomatoes are not visually distinguishable in the exposed dish; only bread, lettuce, and bacon elements can be confirmed in the sandwich portion\",\n    \"Mismatch between stated dish identity (BLT sandwich) and actual photographic composition (onion rings as hero dish)\"\n  ],\n  \"reason\": \"Identity check fails. The source title identifies the dish as 'Fried Green Tomato BLT', but the photograph's composition and prominence clearly centre on onion rings as the main subject, with the sandwich pushed to secondary status at the frame edges. The fried green tomatoes themselves are not visually identifiable in the exposed portions. This is a significant mismatch between declared identity and actual photographic content. The photograph appears to document a plate including both items, but the BLT sandwich—the named dish—is not the prominent finished dish presented. Without clarity on which dish is being submitted (the sandwich or the rings), and with the sandwich not meeting prominence requirements in its partial state, acceptance cannot proceed.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1585,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 584,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

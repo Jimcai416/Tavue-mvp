@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDsETWUtRxi6xzqdswUt",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 3,\n    \"appeal\": 4\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Plate visible with spiced reddish-brown stew component and white rice component\",\n    \"Garden setting visible in thumbnail\",\n    \"Dish composition recognizable but context dominates\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title declares 'Crawfish Gumbo' but no crawfish are visibly identifiable in either photograph\",\n    \"Gumbo protein cannot be verified from visual inspection—crawfish species unconfirmed\",\n    \"Dish identity relies entirely on metadata title, not visual evidence\"\n  ],\n  \"reason\": \"Identity check fails. The source title 'Crawfish Gumbo' names crawfish as the protein, but crawfish are not visibly identifiable in the full photograph or thumbnail. The rule requires that proteins be supported by an exact source quote explicitly naming the animal AND be visibly present or at minimum reasonably inferred from clear visual markers. The reddish-brown stew could contain crawfish, but the protein is hidden within the sauce and cannot be confirmed from appearance alone. Per instructions: 'Hidden flavours may be source-declared; never claim they are visually proven.' However, the reverse also applies—visual evidence is required to accept protein declarations when the creature itself is not visible. The uncertainty regarding whether this is actually crawfish gumbo rather than a similar dish (shrimp gumbo, sausage gumbo, etc.) cannot be resolved from the photograph. Hold would be appropriate if awaiting clarification, but the protocol requires acceptance only when uncertainties is empty. This rejects.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1716,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 493,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
