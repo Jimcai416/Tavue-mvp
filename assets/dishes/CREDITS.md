@@ -10698,3 +10698,8 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Kunafa/Kanafeh in Kerala** — Dr. Chinchu C.. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Kunafa-Kanafeh.jpg). Local asset: `reviewed-commons-101946365.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Cassata siciliana** — Sharon Hahn Darlin. [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Cassata_siciliana_%F0%9F%87%AE%F0%9F%87%B9_Catania.jpg). Local asset: `reviewed-commons-147464747.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Moqueca capixaba** — DAR7  e Eloy Olindo Setti. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Moqueca_capixaba_18_de_janeiro_de_2014_(4).JPG). Local asset: `reviewed-commons-30682224.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
