@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChEnJxjg9R3uovZkt9gVK",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": \"Three meat (turkey, pork and beef), Sunday roast dinner\",\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Golden-brown Yorkshire puddings visible\",\n    \"Roasted potatoes with crispy edges\",\n    \"Small white gravy boat with dark sauce\",\n    \"Outdoor table setting with wine bottles in background\",\n    \"Natural daylight, appetising presentation\"\n  ],\n  \"phone_observations\": [\n    \"Yorkshire puddings clearly visible and prominent\",\n    \"Roasted potatoes recognisable\",\n    \"Gravy boat distinguishable\",\n    \"Composition readable at thumbnail scale\",\n    \"Essential food components present in crop\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title declares 'Three meat (turkey, pork and beef)' but only Yorkshire puddings and roasted potatoes are visually identifiable on the plate\",\n    \"No distinct turkey, pork or beef cuts are clearly visible or visually distinguishable in either the full photograph or thumbnail\",\n    \"Meat components may be plated but are not prominently visible or sharply detailed enough to confirm identity or verify the specific three-meat claim\",\n    \"Cannot visually confirm the exact protein composition matches the declared 'turkey, pork and beef' without clear visual evidence of each meat\"\n  ],\n  \"reason\": \"While the photograph is sharp, well-lit, appetising and shows a finished dish with readable components (Yorkshire puddings, roasted potatoes, gravy), the identity check fails because the three named meats (turkey, pork, beef) cannot be visually confirmed in the image. The visible food (puddings and potatoes) are side components, not the titular protein elements. Source metadata declares specific proteins but they lack visual support in the actual photograph. This contradicts the requirement that identity must agree with visible form and that hidden flavours may be source-declared but cannot be claimed as visually proven. Hold pending clarification or clearer visibility of the declared meat components.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1710,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 569,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

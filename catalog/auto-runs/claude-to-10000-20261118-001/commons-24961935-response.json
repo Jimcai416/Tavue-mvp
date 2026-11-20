@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChEnJxjRi1V42K89om96G",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows unfinished dough form with exposed filling on baking paper\",\n    \"Central cheese/filling strip is visible but dough appears raw or mid-preparation\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Image shows dough in preparation stage with filling exposed, not a finished, cooked dish\",\n    \"No evidence of complete cooking or final presentation\",\n    \"This is explicitly a 'making' photograph, capturing process rather than finished food\"\n  ],\n  \"reason\": \"Reject: photograph documents the preparation stage of Karelian pasties (dough with exposed filling on baking paper before cooking), not a finished, exposed, appetising dish. The source metadata explicitly states 'Making Carelian pasties', confirming this is a process/preparation image. While technically a photograph with acceptable sharpness and composition, it fails the core requirement of showing a finished, cooked, ready-to-eat dish. The filling is visible but the dough remains uncooked. Home cooking reference does not override the fundamental requirement for completed culinary presentation.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1735,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 384,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
