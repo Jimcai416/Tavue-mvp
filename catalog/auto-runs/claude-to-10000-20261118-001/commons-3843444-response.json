@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChEgvvACrUAZqwimeGLh1",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Seared protein with golden-brown crust visible in both full and thumbnail\",\n    \"Cream-coloured sauce base consistent with beurre blanc\",\n    \"Red garnish (described as pickled ginger or similar) on top\",\n    \"Decorative plating with sauce drizzle\",\n    \"Fine dining presentation\"\n  ],\n  \"phone_observations\": [\n    \"Seared protein and sauce clearly visible in thumbnail\",\n    \"Dish composition recognisable at reduced resolution\",\n    \"Plating details preserved\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title states 'Seared ahi' but ahi is a Hawaiian term for yellowfin tuna (seafood). The description does not use an allowed protein category term (chicken/beef/pork/duck/lamb/seafood). 'Ahi' alone is not an explicit source-quoted match to the canonical allowed category 'seafood'.\",\n    \"While the visual form is consistent with seared tuna, the source title uses regional/colloquial terminology rather than the canonical protein descriptor required by the protocol.\"\n  ],\n  \"reason\": \"Reject: Although the photograph shows a finished, sharply detailed, well-plated seared dish with appetising presentation and all checks pass on visual and technical grounds, the protein cannot be verified against the allowed category list. The source title uses 'ahi' (Hawaiian colloquial for tuna) rather than explicitly stating 'seafood' or naming the animal directly. The protocol requires exact source quote matches to canonical category names. 'Ahi' is not an allowed key; without an explicit 'seafood' declaration in the source text, protein evidence cannot be established. This is a hold-worthy uncertainty that prevents acceptance.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1760,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 535,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

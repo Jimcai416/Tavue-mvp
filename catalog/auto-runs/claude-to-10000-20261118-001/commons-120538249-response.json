@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChEgvvCSLDgXjGaup4UsH",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows a brown roasted meat dish with onions on a white plate against red background\",\n    \"Rosemary sprig visible as garnish\",\n    \"Meat and onions clearly visible in reduced view\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title is 'File:Schweinenackenbraten.png' (a filename, not a dish title) and contains a .png extension\",\n    \"Description claims 'pork' but source title contains 'Schwein' (German for pork); no explicit English-language source title provided that names the animal\",\n    \"Metadata indicates this is a file/image database entry, not an original dish documentation\",\n    \"Cannot extract a canonical dish name from filename alone; description is secondary metadata\"\n  ],\n  \"reason\": \"Rejection: Source title is a filename ('File:Schweinenackenbraten.png') with extension, not a proper dish title or description. The animal (pork) is stated in the description but the canonical source identifier is malformed. Per instructions, canonical_name must be copied exactly from source title or description without filename/extension; the actual 'title' field here is a filename that violates this requirement. While the photograph shows a finished, well-lit, appetizing roasted meat dish with clear caramelization, onions, and rosemary garnish in both full and thumbnail views, the identity cannot be reliably established from the provided source metadata structure. File-based entries require reformation to a proper source description before acceptance.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1769,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 491,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
