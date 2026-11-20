@@ -11335,3 +11335,8 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 
 - **Frangipane tart** — lazy fri13th. [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Frangipane_tart.jpg). Local asset: `reviewed-commons-88469957.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Frangipane tartelette** — Ibu. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Frangipane_tartelette.jpg). Local asset: `reviewed-commons-94486697.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Kolhapuri Misal Pav** — Chandumania. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Delicious_Kolhapuri_Misal_Pav.jpg). Local asset: `reviewed-commons-40689065.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Kolhapur style misal** — Milind Bhadvankar. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Kolhapuri_Misal_-_Our_home_at_Pune_-_Maharashtra_-IMG_6029.jpg). Local asset: `reviewed-commons-103615745.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
