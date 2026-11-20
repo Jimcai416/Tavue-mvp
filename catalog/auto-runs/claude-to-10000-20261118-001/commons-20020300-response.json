@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChEhkcyvJxMsCDBZnzPCy",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Golden-brown, curved fried pieces with crispy texture\",\n    \"Distinctive C-shaped and curved morphology consistent with fried pork rinds\",\n    \"Natural appetising colour and finish\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows curved fried pieces\",\n    \"Golden colour and texture readable at reduced size\",\n    \"Subject prominent and not clipped\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title is 'Torreznos - Cerca' but no explicit protein declaration in source metadata\",\n    \"While visual appearance and morphology are consistent with fried pork rind snacks (torreznos traditionally contain pork), the source title does not explicitly state 'pork' or any protein ingredient\",\n    \"Torreznos are regionally associated with pork preparation, but this cannot be assumed from appearance alone without explicit source confirmation\"\n  ],\n  \"reason\": \"The photograph is sharp, well-lit, naturally coloured and appetising, with good composition and readable detail in the phone thumbnail. However, the source title 'Torreznos - Cerca' does not include an explicit protein declaration. Although torreznos are traditionally pork-based, the instructions require an exact case-sensitive substring from title or description naming the animal. The metadata provides only a filename-style title without protein specification, so protein_evidence cannot be populated from an authoritative source quote. This creates an identity uncertainty that prevents acceptance.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1623,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 469,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

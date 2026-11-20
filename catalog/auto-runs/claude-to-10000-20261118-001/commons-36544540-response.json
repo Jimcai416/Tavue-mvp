@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChEhjF4Y5QsUzm1WSK5Qu",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Golden-orange mashed potato base visible in full source and thumbnail\",\n    \"Reddish-brown crispy pieces arranged on top\",\n    \"White plate, natural daylight exposure\",\n    \"Home-cooked presentation style\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows the dish structure: potato base with crispy topping pieces\",\n    \"Essential components are readable and not clipped\",\n    \"Colour and composition consistent with full source\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Torreznos are a cured pork product (specifically cured pork belly/lard pieces), but source uses 'torreznos' as a collective name rather than explicitly stating 'pork'. The exact animal source is not explicitly declared in the title as 'pork torreznos', only as the regional product name 'torreznos'.\"\n  ],\n  \"reason\": \"The photograph is sharp, well-lit, appetising and shows a finished, identifiable dish. However, the source metadata lists 'torreznos' as an ingredient without explicitly naming the animal (pork). Per rules, protein_evidence requires an exact source quote explicitly naming the animal—'torreznos' alone, though traditionally pork, does not meet the standard of explicit animal declaration. The dish identity cannot be canonicalised without resolving this protein specification requirement. Hold pending explicit pork declaration or use of a source description that names the meat animal directly.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1508,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 472,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
