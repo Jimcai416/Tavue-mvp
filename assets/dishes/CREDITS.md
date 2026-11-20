@@ -11931,3 +11931,9 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Chocolate Halloween cake donut** — Missvain. [CC BY 4.0](https://creativecommons.org/licenses/by/4.0); [source](https://commons.wikimedia.org/wiki/File:Mad_Dog%27s_Creamery_%26_Donuts_-_October_2023_-_Sarah_Stierch.jpg). Local asset: `reviewed-commons-143456144.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Bata macher jhol** — Rajeeb Dutta. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Bata_macher_jhol-MB03.jpg). Local asset: `reviewed-commons-94681767.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Alur Dom** — Sagar Patra. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Alur_Dom_recipe.jpg). Local asset: `reviewed-commons-144708457.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Koraishuti r kochuri with alur dom** — Arkapriya Das. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Koraishuti_r_kochuri_with_alur_dom.jpg). Local asset: `reviewed-commons-102422762.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
