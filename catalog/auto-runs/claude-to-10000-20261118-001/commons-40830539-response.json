@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChEE13mK5e56S8eeqfmgX",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 3,\n    \"lighting\": 2,\n    \"composition\": 3,\n    \"appeal\": 2\n  },\n  \"visible_support\": [\n    \"Chopped white/translucent onion slices visible throughout\",\n    \"Shredded pale cabbage base\",\n    \"Orange/tan spheres consistent with boiled chickpeas\",\n    \"Dark seeds scattered across surface (sesame seeds noted in description)\",\n    \"Pink/red onion slices interspersed\",\n    \"Matte dark surface plate\"\n  ],\n  \"phone_observations\": [\n    \"Subject remains identifiable as a composed salad with distinct components\",\n    \"Orange chickpea spheres prominent and central\",\n    \"Overall composition readable but softness and lighting limitations reduce visual appeal\",\n    \"No essential food clipped in thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title references 'chana (chick-peas)' but chick-peas are legumes, not proteins in the allowed category (chicken/beef/pork/duck/lamb/seafood)\",\n    \"No animal protein explicitly named in source title or description\",\n    \"Description mentions 'boiled chana' and 'crushed Kerala papadam' (legume and fried lentil snack) but neither qualify as scoreable animal protein\"\n  ],\n  \"reason\": \"Image shows a Manipuri salad (Singju) with identifiable components matching the description: chopped cabbage, boiled chickpeas, onions, and sesame seeds. Photography is acceptable (readable components, natural colour, exposed finished dish). However, rejection is required because no animal protein category can be supported from the source materials. Chick-peas are legumes and papadam is a fried lentil product—neither are chicken, beef, pork, duck, lamb, or seafood. The source title contains no explicit reference to animal proteins, and no animal protein is visually evident or textually declared. Per protocol, protein_evidence remains empty and this triggers mandatory hold/reject status.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1778,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 571,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

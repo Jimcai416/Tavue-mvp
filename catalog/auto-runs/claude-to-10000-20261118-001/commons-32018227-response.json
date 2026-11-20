@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChEDzdBxXCJ35DFivqEoh",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": \"another type of eromba with fermented bamboo shoots, taro as its ingredients\",\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Finished, cooked dish in white bowl\",\n    \"Fermented bamboo shoots visible as pale elongated strips\",\n    \"Green cilantro garnish on top\",\n    \"Brownish-green cooked components consistent with taro and meat\"\n  ],\n  \"phone_observations\": [\n    \"Dish prominently centred in thumbnail\",\n    \"Bowl edges visible\",\n    \"Cilantro garnish readable\",\n    \"Overall composition clear at small scale\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title is 'Soibum yendem eromba' but description says 'another type of eromba' – identity relationship unclear\",\n    \"No protein species explicitly named in source (title or description)\",\n    \"Meat component visible in photograph but not identified in provided metadata\",\n    \"Unclear whether 'Soibum yendem eromba' is the correct canonical name or if it refers to a different preparation variant\"\n  ],\n  \"reason\": \"Image quality, sharpness, lighting, composition and phone thumbnail all meet standards. However, the source identity is ambiguous: the title 'Soibum yendem eromba' conflicts with the description stating 'another type of eromba', leaving uncertainty about which is the canonical dish name. No protein species is explicitly named in the supplied metadata despite visible meat in the photograph. Per rules, hold on ambiguous identity and unspecified protein evidence.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1635,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 485,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

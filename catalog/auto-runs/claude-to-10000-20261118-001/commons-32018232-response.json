@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChEE1kz3at6XwNRYyMQgR",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 3,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Cooked legume-based dish in white bowl\",\n    \"Green scallions and cilantro garnish\",\n    \"Soft, stewed consistency\",\n    \"Brown/tan coloured components\",\n    \"Home-style preparation evident\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail shows recognisable stew/curry in white bowl\",\n    \"Garnish visible but small at phone resolution\",\n    \"Dish centre well-framed in thumbnail\",\n    \"Adequate detail for dish category identification\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title specifies 'stink bean' (yongchaak) but source description 'a typical eromba made by stink bean' is ambiguous—unclear whether this is a stink bean dish, or a dish made WITH stink bean as one component, or the primary identity of the dish\",\n    \"Eromba is a Manipuri cuisine preparation, but exact composition and whether meat/fish is included cannot be reliably determined from photograph alone\",\n    \"The dish may contain fish, meat, or be vegetarian—no explicit animal protein is visibly identifiable or stated in source text\",\n    \"Source metadata (title, description, author fields) conflicts in emphasis: filename suggests 'eromba' as primary; description emphasises 'stink bean'—identity contradiction\",\n    \"Canonical name would require clarification of whether 'stink bean eromba' or 'eromba with stink bean' or another variant is correct\"\n  ],\n  \"reason\": \"Identity check fails due to source ambiguity. The title field 'Yongchaak eromba (2)' and description 'a typical eromba made by stink bean' do not clearly establish the canonical dish name. The phrase 'made by stink bean' is grammatically and culinarily unclear—it could mean the dish is primarily stink bean, or made using stink bean as an ingredient among others. No explicit animal protein is named in the source or reliably identifiable in the photograph. The dish is visibly a finished, appetising legume stew with traditional garnish, but without resolved source identity and confirmed protein component, acceptance cannot proceed. Quality, photograph and phone checks pass; sharpness is marginal (3) due to some softness, but acceptable. Hold pending source clarification of exact canonical name and ingredient/protein composition.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1733,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 681,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
