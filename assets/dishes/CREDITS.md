@@ -11662,3 +11662,8 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Instant Chilli Pickle Recipe - Mirch Ke Tipore** — Sonia Goyal Jaipur. [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:Instant_Chilli_Pickle_Recipe_-_Mirch_Ke_Tipore_by_Sonia_Goyal.jpg). Local asset: `reviewed-commons-128100690.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Cag Kebab** — Gourmet expert. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Cag_Kebab.jpg). Local asset: `reviewed-commons-77673441.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Turkish muhallebi** — E4024. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Turkish_muhallebi.jpg). Local asset: `reviewed-commons-40522603.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
