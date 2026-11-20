@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChEbmfFgBe5gynDbT9j28",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Yellow spongy cake with spiced texture visible in full source\",\n    \"Orange carrot shreds and white coconut garnish on top\",\n    \"Green leaf accent (cilantro/curry leaf)\",\n    \"Tan/beige loaf visible in background\",\n    \"Yellow round items (possibly banana slices) in composition\"\n  ],\n  \"phone_observations\": [\n    \"Yellow spiced cake slice clearly visible in phone thumbnail\",\n    \"Orange carrot garnish and white shreds distinguishable\",\n    \"Background tan loaf partially visible\",\n    \"Yellow round items visible at bottom edge\",\n    \"Overall composition matches full image centre-cover crop\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title lists two separate dishes: 'Dokhla & Puttu' – unclear which is primary subject or if this is a composition of both\",\n    \"Dokhla (Gujarat) is typically a savoury chickpea/gram flour cake; Puttu (Kerala) is typically a cylindrical steamed rice/chickpea cake – visual distinction between them in this single plate is ambiguous\",\n    \"The yellow cake with carrot/coconut garnish could be either Dokhla or a variant preparation; the tan loaf and yellow rounds do not clearly match canonical Kerala Puttu form\",\n    \"No explicit protein animals named in source description; both Dokhla and Puttu are typically vegetarian but may contain gram flour (legume-based)\",\n    \"Source metadata format ('File:' prefix, event context, photographer credit) is metadata noise; ambiguity about which dish is being submitted remains unresolved by visible form\"\n  ],\n  \"reason\": \"Identity check fails: source title lists two distinct regional dishes ('Dokhla & Puttu') without clarity on which is the primary subject or how they are distinguished in the photograph. The yellow spiced cake with carrot/coconut garnish is consistent with Dokhla preparation, but the tan loaf and yellow items do not unambiguously represent canonical Kerala Puttu form. No protein species are explicitly named in the description, and both dishes are traditionally vegetarian preparations. Ambiguous dual-dish identity, uncertain visual correspondence to stated variants, and lack of explicit protein declaration warrant hold pending clarification of which single finished dish this represents and confirmation of its exact regional name and form.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1648,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 665,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
