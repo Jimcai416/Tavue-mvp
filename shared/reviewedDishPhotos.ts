@@ -143023,5 +143023,30 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-59750479",
+    "title": "File:Spicy beef noodles @ Lakou @ Paris (35019322002).jpg",
+    "author": "Guilhem Vellut  from Paris, France",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Spicy_beef_noodles_@_Lakou_@_Paris_(35019322002).jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Spicy_beef_noodles_%40_Lakou_%40_Paris_%2835019322002%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "e947079933e71e49ff4fe1d8f32dcac6539bd249",
+    "name": "Spicy beef noodles",
+    "aliases": [],
+    "proteins": [
+      "beef"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-59750479.jpg",
+    "assetSha256": "3f85d13a06af2b704d8caee5303f2de019aebfa2f29d45233770512fdb82c4a2",
+    "reviewedAt": "2026-11-20",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 640,
+    "requiresExactMenuName": true,
+    "authorUrl": "https://www.flickr.com/people/22539273@N00"
   }
 ];
