@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChEginWzAgC8V8h6VSPdQ",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Spaghetti visible in pot with tomato-based sauce\",\n    \"Dish identifiable at thumbnail scale\",\n    \"Adequate detail for recognition\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Dish shown in-progress in cooking pot, not finished and plated\",\n    \"Source title claims 'Spaghetti al pomodoro' but photograph shows pasta mid-cooking in cookware, not an exposed, finished dish ready to serve\",\n    \"No protein ingredient (meat or seafood) is visible or named in source description—classic pomodoro is vegetarian, conflicting with Tavue food photography guidelines requiring finished, served dishes\"\n  ],\n  \"reason\": \"Reject: This is a preparation-stage photograph showing spaghetti cooking in a pot with tomato sauce, not a finished, exposed, plated dish. The subject is in an intermediate cooking state rather than a completed presentation. Additionally, the source description contains no protein declaration, and no meat or seafood is visibly present. Tavue accepts home cooking, but requires finished dishes in their served form, not cookware capture during preparation. The appeal score reflects the unfinished state.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1741,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 408,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

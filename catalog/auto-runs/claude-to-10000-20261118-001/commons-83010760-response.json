@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChEgihtRdewLdbBrWLcL8",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Spaghetti with tomato-based red sauce\",\n    \"Fresh basil leaves visible\",\n    \"Broccoli florets on side\",\n    \"Grated cheese (Parmesan or similar)\",\n    \"White plate, finished plated dish\"\n  ],\n  \"phone_observations\": [\n    \"Pasta and sauce clearly visible\",\n    \"Broccoli distinct in phone thumbnail\",\n    \"Green basil readable\",\n    \"Composed dish evident at small scale\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title claims 'Spaghetti al Pomodoro' but visible grated cheese and breadcrumb-like coating are atypical for traditional al pomodoro\",\n    \"No protein animal explicitly named in source description or title\",\n    \"Cheese topping not standard in canonical pomodoro preparation; appears to be a variant or different dish\"\n  ],\n  \"reason\": \"Rejection: Source title 'Spaghetti al Pomodoro' contradicts visible preparation. The dish displays grated cheese and what appears to be panko or breadcrumb crust, neither characteristic of traditional spaghetti al pomodoro (which features only pasta, tomato, basil, olive oil, and garlic). This suggests either misidentification in the source metadata or a non-standard variant. No protein animal is explicitly named in the provided source title or description. Identity check fails due to source-visible mismatch.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 2060,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 472,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

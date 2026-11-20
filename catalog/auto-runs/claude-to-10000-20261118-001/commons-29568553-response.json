@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChEgj6snqEqnGDdu68pxD",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Cooked spaghetti with red sauce visible throughout\",\n    \"Natural tomato-orange colouring consistent with tomato-based sauce\",\n    \"Pasta strands well-defined and prominently displayed\",\n    \"Finished dish appearance with glossy sauce coating\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows spaghetti strands with orange-red sauce\",\n    \"Essential components readable: pasta and tomato sauce\",\n    \"Sharp detail preserved in 124x96 centre crop\",\n    \"Appetising appearance maintained at thumbnail scale\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title metadata reads 'File:Spaghetti al pomodoro 5.jpg' — filename component present in supplied title string\",\n    \"Description field contains only generic category 'Primi' with no dish specification\",\n    \"No canonical dish name can be extracted: title is a filename+extension, not a source description\"\n  ],\n  \"reason\": \"Rejection: The supplied title is a filename ('File:Spaghetti al pomodoro 5.jpg') rather than an actual source title or description. Per instructions, filenames and extensions must be stripped. The only descriptive field ('Primi') is too generic and does not constitute a canonical dish name. Although the photograph itself is sharp, well-lit, appetising and correctly shows a finished spaghetti dish with tomato sauce in both full and thumbnail views, the absence of a valid canonical name in source metadata prevents acceptance. A proper source title (not a filename) is required.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1720,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 494,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
