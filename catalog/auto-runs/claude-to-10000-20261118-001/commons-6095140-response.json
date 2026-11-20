@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDEMFSqQvZ5fXxHtSPSq",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Finished, baked savoury tart in black round tin\",\n    \"Lattice pattern of pale dough strips over golden-brown filling\",\n    \"Visible egg custard base with caramelized top\",\n    \"Fluted pastry crust edge, well-defined\",\n    \"Home-kitchen setting, natural daylight\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows lattice-topped tart\",\n    \"Golden-brown filling visible between dough strips\",\n    \"Dish is prominent and sharp in phone view\",\n    \"Pastry edge defined in reduced size\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title states 'Quiche lorraine' but no bacon, lardons, or other meat are visibly present or confirmed in the description\",\n    \"Traditional quiche lorraine contains bacon/lardons as a defining ingredient; this appears to be a vegetable or custard-only variant with no protein evidence\",\n    \"Source title does not explicitly name any animal protein\",\n    \"Visual appearance shows only egg custard, pastry, and possible vegetables under lattice—no identifiable meat components\"\n  ],\n  \"reason\": \"Identity check fails. The source title 'Quiche lorraine' conventionally refers to a dish with lardons or bacon as a defining ingredient. However, no protein is named in the source description, and no meat is visibly apparent in either the full image or thumbnail. The filling appears to be custard-based only. Per protocol, unknown or absent protein qualifiers in a named variant dish, combined with no visual or textual protein evidence, trigger a hold. A generic custard quiche or vegetable quiche would require explicit source confirmation. The image quality and photograph are strong (all technical scores ≥4), but the identity uncertainty regarding the essential meat component—or its absence—prevents acceptance.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1722,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 561,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

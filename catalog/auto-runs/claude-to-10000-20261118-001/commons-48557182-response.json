@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDELy1NMr6z7Au6kDWwL",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Deep-fried breaded fish fillet, golden-brown exterior\",\n    \"Lemon slice garnish\",\n    \"Creamy sauce in white pitcher (remoulade)\",\n    \"Potato salad with chive garnish\",\n    \"Mixed green salad with red pepper\",\n    \"Professional plating on metallic tray\"\n  ],\n  \"phone_observations\": [\n    \"Fried fish fillet clearly visible and prominent in thumbnail\",\n    \"Lemon garnish readable\",\n    \"Potato salad distinguishable\",\n    \"Sauce vessel visible\",\n    \"Overall composition preserved in reduction\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title references 'Forelle' (trout in German), but this is a Wikimedia Commons filename and metadata, not an explicit dish name supplied by the user\",\n    \"The photograph shows an identifiable deep-fried fish fillet, but the exact species cannot be visually confirmed from appearance alone\",\n    \"Protocol requires an exact case-sensitive substring match from title/description for protein evidence; 'Forelle' (trout) appears only in the filename 'Forelle gebacken' and metadata context, not in a user-supplied canonical dish title\"\n  ],\n  \"reason\": \"While the photograph is sharp, well-lit, appetizing and properly composed, with clear detail in the phone thumbnail, the source metadata indicates this is trout (Forelle). However, the protocol requires protein_evidence keys to be supported by explicit quotes from a supplied title or description—not from filename metadata or external context. The filename 'Forelle gebacken' and description 'Deep fried trout' are Wikimedia Commons metadata fields, not an explicit canonical_name supplied by the user for identity verification. Without a user-provided canonical dish name that explicitly names the species, protein cannot be reliably mapped and verified according to the strict matching rules. Hold pending user supply of an explicit, unambiguous dish title/description.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1626,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 586,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
