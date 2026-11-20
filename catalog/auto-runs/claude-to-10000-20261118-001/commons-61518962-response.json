@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDJsHc843aeW2auUjFLh",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [\n    \"Finished, cooked dish in white bowl\",\n    \"Creamy brown/tan risotto-like texture with visible grain\",\n    \"Natural colour, appetising appearance\",\n    \"Prominent subject, readable in phone thumbnail\",\n    \"Home/restaurant plating on red background\"\n  ],\n  \"phone_observations\": [\n    \"Dish clearly visible and identifiable\",\n    \"Creamy grain texture distinct in thumbnail\",\n    \"No clipping of essential food elements\",\n    \"Natural colours preserved in reduction\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title contains 'Alfonso Champorado Onions (Philippines) Sadines' – contradictory and unclear identity\",\n    \"Champorado is typically a Filipino chocolate-rice porridge (sweet), but image shows savoury risotto-like dish\",\n    \"Metadata mentions 'Sadines' (sardines) but no visible sardines, fish, or protein in photograph\",\n    \"Orange textures/Oranges listed in description but not visible or relevant to dish\",\n    \"Source description is fragmented, metadata-heavy, and does not provide clear canonical dish name\",\n    \"Cannot confirm whether dish is champorado, risotto, or a fish/protein dish from visual evidence alone\",\n    \"Exact dish identity unresolvable from conflicting and incoherent source description\"\n  ],\n  \"reason\": \"Source metadata is contradictory and incoherent: title lists 'Alfonso Champorado Onions (Philippines) Sadines' (suggesting sardines/fish risotto), but champorado is a sweet chocolate-rice dish, the image shows a savoury creamy grain dish with no visible protein or sardines, and description includes irrelevant items (oranges, judge names, coordinates). Quality and photograph checks pass, but identity check fails due to source-description mismatch and lack of clear canonical dish name. Hold pending clarification of actual dish identity and confirmation of protein presence/type.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1885,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 589,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
