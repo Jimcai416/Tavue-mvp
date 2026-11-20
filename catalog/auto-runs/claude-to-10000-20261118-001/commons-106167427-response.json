@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChESGyFJ7h5dNjC1siLku",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Crispy golden tostada base clearly visible\",\n    \"Pink/red raw fish prominently displayed on top\",\n    \"Avocado slices (green) arranged on the fish\",\n    \"Purple onion strips interlaced throughout\",\n    \"Black speckled ceramic plate, well-presented\",\n    \"Iced beverage in jar visible in background\",\n    \"Natural daylight, warm wooden surface\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail shows finished dish clearly\",\n    \"Tostada base, fish, avocado and onion all readable\",\n    \"Appetising presentation preserved at small scale\",\n    \"Essential components not clipped\",\n    \"No watermark or obstructions\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title states 'Tuna fish corn toast' but photograph shows raw fish, not cooked tuna. Tuna (atún in Spanish) is typically cooked in finished tostada dishes, yet this image displays what appears to be ceviche-style raw fish preparation—inconsistent with 'tostada de atún' as a standard finished dish category.\",\n    \"Cannot confirm fish species from visual appearance alone. 'Tuna' is stated in English description but source metadata is unreliable and the raw preparation suggests possible ceviche rather than standard tuna tostada.\",\n    \"No explicit source text confirms 'tuna' or 'atún' as an exact substring in a canonical dish name—only in metadata title and unreliable description field.\"\n  ],\n  \"reason\": \"Reject: source identity contradiction. The photograph displays a raw fish preparation (consistent with ceviche or similar crudo), while the source title/description claims 'Tuna fish corn toast' (tostada de atún). A finished tostada would present cooked or seared fish; this image shows uncooked fish fillet, suggesting a different dish category. Additionally, while 'tuna' appears in metadata, the instructions require exact case-sensitive substring from title/description for protein_evidence keys, and the raw preparation creates meaningful doubt about species and dish authenticity. The visual and textual claims do not align with a single canonical finished dish identity. Hold pending clarification of actual dish name and preparation method.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1520,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 651,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
