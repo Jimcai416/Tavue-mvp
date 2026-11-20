@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDxKdDMiiHZE8eSDvEid",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Cooked rice dish with meat pieces visible\",\n    \"Green leaf base, white plate\",\n    \"Metal utensil with blue handle\",\n    \"Golden-brown rice colour consistent with biryani\",\n    \"Meat chunks embedded throughout\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail shows rice-based dish prominently\",\n    \"Meat component visible and readable\",\n    \"Appetising golden appearance preserved\",\n    \"No severe clipping of essential components\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Species ambiguity: title states 'mutton' but mutton commonly refers to goat in South Asian contexts and may refer to sheep; exact animal origin cannot be visually confirmed and source uses ambiguous terminology\",\n    \"Metadata language is Bengali; 'মটন' (moton) translates to 'mutton' but the precise animal species (sheep vs. goat) is not explicitly stated in English-language source text\",\n    \"No explicit English-language source statement naming the exact animal species in the provided description or title\"\n  ],\n  \"reason\": \"Photograph quality and composition are strong (all scores ≥4), and the dish is visibly finished, appetising and well-presented in both full image and phone thumbnail. However, identity check fails due to protein species ambiguity. The source uses 'mutton' (মটন), which is ambiguous terminology—it may refer to either sheep or goat meat depending on regional convention. The source provides no explicit English statement naming the precise animal species. Per protocol, ambiguous meat species designations require a hold pending clarification of the exact animal. The photograph itself supports a biryani dish with rice and meat, but the protein cannot be accepted without unambiguous species identification.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1877,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 535,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

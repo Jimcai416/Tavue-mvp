@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDxJGSBV9jAUd7Bw7Nfx",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [\n    \"Yellow rice with red/brown garnish scattered throughout\",\n    \"Cooked rice dish in metal pot/vessel\",\n    \"Consistent colour and texture across full surface\",\n    \"Phone thumbnail clearly shows same dish\"\n  ],\n  \"phone_observations\": [\n    \"Yellow rice with red/brown elements visible in thumbnail\",\n    \"Dish identity and components readable at phone scale\",\n    \"No essential food clipped in thumbnail\",\n    \"Consistent with full image\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title contains only filename 'Biriyani IMG 1436.JPG' — no source description of specific biryani type or variant\",\n    \"Spelling 'Biriyani' is non-standard; standard spelling is 'Biryani'\",\n    \"No meat species, protein, or specific regional variant explicitly named in source metadata\",\n    \"Red/brown garnish visible (possibly fried onions or spices) but specific preparation unclear\",\n    \"No explicit confirmation whether this is biryani or a similar yellow rice dish with garnish\"\n  ],\n  \"reason\": \"Source metadata provides only a filename without meaningful description. The dish appears to be a yellow rice preparation with red/brown garnish, potentially biryani, but the source title lacks explicit identification of specific variant, regional type, or protein content. Identity cannot be reliably matched to source description because no actual description exists beyond the filename. Per protocol, identity check fails when source description is absent or contradictory.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1738,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 477,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

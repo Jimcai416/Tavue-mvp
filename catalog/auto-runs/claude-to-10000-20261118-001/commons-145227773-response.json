@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDxJjRtwWM3DV54fHoG4",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Golden-brown fried rice visible in foreground plate\",\n    \"Accompanying soup/broth bowl with green herbs and egg\",\n    \"Side dish in small white bowl\",\n    \"Home/casual dining setting with decorative plates\"\n  ],\n  \"phone_observations\": [\n    \"Central dish clearly visible as golden-brown fried rice\",\n    \"Accompanying bowls with soup and side dish readable\",\n    \"Adequate detail for recognition of main component\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title states 'Biriyani of Bangladesh' but photograph shows fried rice (likely Fried Rice or Khichuri), not biryani (layered rice and meat dish)\",\n    \"Description mentions 'beef or goat meat' but neither is visibly identifiable in the cooked rice\",\n    \"Ambiguous meat species: 'goat meat' is not an allowed category; goat may refer to mutton or chevon—uncertain species\",\n    \"Visible form contradicts source identity claim: finished dish appears to be fried rice, not the layered biryani structure described\"\n  ],\n  \"reason\": \"Source metadata contains a critical identity mismatch. The title claims 'Biriyani of Bangladesh' but the photograph displays a golden-brown fried rice dish, not biryani (which is characterised by layered rice and meat). The description references 'beef or goat meat' without visual confirmation of either animal; goat meat is an ambiguous species qualifier. The visible form, preparation style, and presentation contradict the claimed biryani identity. Identity check fails; hold pending clarification of actual dish name and protein species.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1771,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 515,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

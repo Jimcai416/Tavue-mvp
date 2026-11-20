@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDxK8YgvrVVWVbq1MAWi",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Golden-yellow fried rice in earthen clay pot\",\n    \"Two boiled eggs placed on top\",\n    \"Metal serving spoon visible\",\n    \"Accompanying condiment bowl to the right\",\n    \"Natural indoor lighting\",\n    \"Finished, exposed dish presentation\"\n  ],\n  \"phone_observations\": [\n    \"Rice and eggs clearly visible in thumbnail\",\n    \"Earthen pot recognizable\",\n    \"Dish proportions and composition match full photo\",\n    \"Adequate detail for identification\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'Chatti biriyani chicken' but no chicken is visibly identifiable in either photograph\",\n    \"Only boiled eggs are visible as protein component\",\n    \"Rice appears to be fried rice, not traditional biryani preparation\",\n    \"No source quote explicitly names chicken as an ingredient\",\n    \"Identity contradiction: source declares chicken but visual evidence shows only eggs\"\n  ],\n  \"reason\": \"Rejection due to identity mismatch. The source title declares 'Chatti biriyani chicken' but the photograph shows fried rice with two boiled eggs and no visible chicken pieces or chicken-containing components. The dish does not match the declared identity. Per rules, identity must agree with exact source title and visible form. No explicit source quote naming chicken as an ingredient exists, and the visual appearance contradicts the chicken claim. Cannot accept when protein declaration cannot be verified through visible evidence or source quote.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1519,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 469,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

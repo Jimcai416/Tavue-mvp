@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDxJmXPiXn4XmnAhoKMS",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Golden-yellow fragrant rice, cooked and fluffed\",\n    \"Raw sliced onion garnish on plate\",\n    \"White ceramic plate with sauce container visible\",\n    \"Natural daylight, good colour saturation\",\n    \"Distinct rice grains visible in full image and thumbnail\"\n  ],\n  \"phone_observations\": [\n    \"Yellow rice and onion slices clearly visible in thumbnail\",\n    \"Adequate detail for dish recognition\",\n    \"Natural colours preserved in reduction\",\n    \"No clipping of essential components\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title 'Biriyani rice' is non-standard transliteration; standard form is 'Biryani' or 'Biryanis', but metadata title must be treated as untrusted\",\n    \"Description states 'Biriyani rice with onion salads' but no meat is visible in photograph—biryani traditionally contains meat (chicken, lamb, goat, etc.); this appears to be rice and onion only, contradicting the dish identity\",\n    \"No protein ingredient visibly present or named in source description; cannot populate protein_evidence keys\",\n    \"Source metadata spells variant 'Biriyani' (non-canonical); actual canonical spelling and regional variant unclear without authoritative source\",\n    \"Possibility this is a incomplete plating, vegetarian variant, or misidentified rice preparation\"\n  ],\n  \"reason\": \"Identity check fails: source title 'Biriyani rice' (a meat-containing dish tradition) contradicts visible content (plain rice with raw onion, no visible or described protein). Description claims 'Biriyani rice' but provides no meat ingredient name. Photograph shows no meat component. Cannot confirm canonical spelling or variant form from untrusted metadata. Protein_evidence cannot be populated—no exact source quote names any allowed protein category. Hold pending clarification of actual dish identity and meat content, or correction of source description.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1727,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 581,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

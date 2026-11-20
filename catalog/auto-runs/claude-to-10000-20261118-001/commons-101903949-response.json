@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDxKaEGnGkKZzRsgHBtY",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Crumbly biryani rice with crispy edges visible\",\n    \"Three boiled eggs prominently placed\",\n    \"Two sauce/curry accompaniments in small bowls\",\n    \"Plate/tray presentation with multiple components\",\n    \"Warm golden-brown rice colouration\"\n  ],\n  \"phone_observations\": [\n    \"Central rice mound clearly visible and appetising\",\n    \"White sauce bowl recognisable in thumbnail\",\n    \"Hashtag #KAITHIBIRIYANI present but is metadata/social markup, not title\",\n    \"Adequate detail for dish type recognition\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'Kaithi biriyani chicken' but no chicken is visibly identifiable in either photograph; only eggs and rice are evident\",\n    \"Description metadata says 'chicken' but source does not explicitly state chicken in the actual canonical title field (only in filename/author field)\",\n    \"No meat protein component can be confirmed from visual inspection—the dark matter at plate edge is ambiguous (possibly meat or charred rice)\",\n    \"Kaithi is a regional biryani variant, but identity hinges on undeclared chicken that is not visually supported\"\n  ],\n  \"reason\": \"Photographs show finished biryani with eggs and accompaniments, good quality and composition. However, source identity claims 'chicken' (in filename and description field) but provides no explicit canonical title containing the word 'chicken', and no chicken is visibly identifiable in the dish itself. The protein_evidence rule requires an exact case-sensitive substring from the supplied title/description explicitly naming the animal. The filename 'Kaithi biriyani chicken.jpg' is not a canonical title phrase, and the description's mention of 'chicken' appears only as metadata context, not as part of a formal dish name. Without visual confirmation of chicken and without a proper canonical title containing an explicit protein declaration, identity cannot be verified. Hold pending clarification of the actual dish title and visual protein confirmation.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1533,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 593,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

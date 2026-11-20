@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDxKmyxpzvpvJov5QU72",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Golden-yellow rice with visible spice colouration\",\n    \"Boiled egg half nestled centrally in rice\",\n    \"Red pepper pieces visible throughout\",\n    \"Dark specks consistent with black cardamom or cloves\",\n    \"Green herb visible (possibly mint or cilantro)\",\n    \"Natural plating on brown ceramic bowl\",\n    \"Sharp detail of rice grains and toppings\"\n  ],\n  \"phone_observations\": [\n    \"Central egg half clearly visible in thumbnail\",\n    \"Golden rice colour readable and appetising\",\n    \"Spice components (red, dark specks) distinguishable\",\n    \"Adequate composition preservation in crop\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'Shrimp Biriyani' but no shrimp is visibly present in either full source or thumbnail photograph\",\n    \"Visible components: rice, egg, spices, herbs—no seafood evidence\",\n    \"Metadata title contradicts visual content; cannot confirm shrimp species or presence\",\n    \"Potential ingredient mismatch between declared dish name and actual exposed food\"\n  ],\n  \"reason\": \"Identity check fails. The source title declares 'Shrimp Biriyani' but the photograph shows no visible shrimp, only rice, a boiled egg, spices, and herbs. Shrimp is a primary identifying ingredient that must be visibly prominent or explicitly confirmed in source text. The visual content does not match the stated identity. No protein_evidence can be extracted because no seafood is visible and 'shrimp' in the title is contradicted by the actual dish shown. Photograph quality, sharpness, lighting and phone thumbnail are all acceptable (scores ≥4), but the identity mismatch prevents acceptance. Hold pending clarification of actual dish identity or provision of authentic shrimp biryani image.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1624,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 564,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
