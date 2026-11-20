@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChEam81rh9uQnupMvzmC2",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Cooked forcemeat/pâté-like preparation with herb garnish visible in full image and thumbnail\",\n    \"Red roasted pepper clearly visible\",\n    \"Dark olives visible\",\n    \"Pickled gherkins/cornichons visible\",\n    \"White plate, natural daylight, well-exposed\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail shows all major components proportionally: herb-topped forcemeat, red pepper, dark olives, pickles\",\n    \"Central dish detail sharp and identifiable\",\n    \"Colours natural and appetising\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title 'Drob de Miel' cannot be verified against visible appearance alone. 'Drob' typically refers to Romanian liver-based forcemeat, but no source text explicitly confirms animal species (pork liver, beef liver, etc.) or that this preparation matches that definition\",\n    \"The herb-covered preparation is consistent with traditional drob styling, but animal protein species is not declared in supplied metadata\",\n    \"No explicit source quote identifying the meat species or confirming this is authentic drob\"\n  ],\n  \"reason\": \"While the photograph is well-exposed, sharp, appetising and shows a finished dish with identifiable components (herb-garnished forcemeat, pepper, olives, pickles) suitable for acceptance, the identity check fails because the source title 'Drob de Miel' lacks explicit protein identification. 'Drob' is a traditional Romanian dish, but the metadata does not contain a source quote that explicitly names the animal (pork, beef, etc.). Protein_evidence cannot be populated without an exact source quote naming the meat species. Regional variant knowledge is insufficient to infer species. Hold pending source clarification of the meat component.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1726,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 542,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
