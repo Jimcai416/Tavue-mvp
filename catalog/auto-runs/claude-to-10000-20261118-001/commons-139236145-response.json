@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChEyDpBcpxaacGqfDSBJA",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows interior architectural space with tables, chairs, hanging lights\",\n    \"No food dish visible in phone thumbnail\",\n    \"Scene is a restaurant or market interior, not a finished food photograph\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title 'Mirepoix' refers to a place (the town) or possibly a culinary term (mirepoix base vegetables), not a finished dish\",\n    \"No food item is visible or identifiable in either the full photograph or thumbnail\",\n    \"The image documents a restaurant/venue interior space, not a plated or served food photograph\"\n  ],\n  \"reason\": \"Rejection: This is an architectural/venue interior photograph of La Flambée restaurant in Mirepoix, not a photograph of a finished food dish. No identifiable prepared food is visible in the full image or phone thumbnail. The source metadata references the location (Mirepoix town) rather than a specific dish identity. This fails the core requirement of accepting only finished, exposed, prominent dishes with readable essential components in the phone thumbnail.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1619,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 386,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
