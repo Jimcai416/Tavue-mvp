@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDV6uGFWnRPGHjko3UcE",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 2\n  },\n  \"visible_support\": [\n    \"Intact eggshell with partial opening\",\n    \"Yellow yolk visible\",\n    \"Cooked embryonic tissue visible\",\n    \"Red pepper garnish present\",\n    \"Street food context consistent with metadata\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows opened egg with cooked filling\",\n    \"Yellow and meat components visible at 124x96 resolution\",\n    \"Subject prominent and identifiable\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Balut contains fertilised duck embryo (not an allowed protein category: chicken/beef/pork/duck/lamb/seafood)\",\n    \"Source title identifies dish as 'Balut' but no exact protein species quote in title matches allowed categories\",\n    \"Duck embryo is developmental stage of duck, not standard duck meat preparation\"\n  ],\n  \"reason\": \"Reject: Balut is a fertilised duck embryo dish. While the photograph is sharp, well-lit, appetising and identifiable, the protein cannot be mapped to allowed categories. 'Duck' as a standard protein would require the dish to be prepared duck meat (breast, leg, etc.), not an embryonic stage. The source description does not provide an explicit protein quote matching allowed categories. Balut's cultural and culinary identity is inseparable from its preparation method involving the embryo, which falls outside the defined protein scope.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1409,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 451,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

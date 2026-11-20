@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDV74V9FGnieRYfgo3GZ",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 2,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows uncooked whole eggs in plastic container with pink label\",\n    \"No finished, exposed, cooked dish visible\",\n    \"Raw ingredient stage, not a prepared food photograph\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title/description conflict: metadata claims 'Balut' (Filipino duck embryo dish) but image shows raw whole uncooked eggs in carton, not a finished balut\",\n    \"Metadata description mentions 'Baking Freshest Pastries Wedding Cakes' which contradicts balut identity entirely\",\n    \"No evidence of balut preparation, cooking, or the characteristic opened embryo form\"\n  ],\n  \"reason\": \"Rejection: Image shows raw whole eggs in a commercial carton at preparation/ingredient stage, not a finished, exposed, cooked dish. The source metadata contradicts itself (title 'Balut' vs. description 'Baking Pastries Wedding Cakes') and does not match the visible content. Phone thumbnail confirms raw ingredient subject. No finished food to review. Severe identity and quality check failures.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1883,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 393,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
