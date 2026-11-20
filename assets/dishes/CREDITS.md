@@ -11161,3 +11161,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 - **Chicken Tikka Kebab** — Sumit Surai. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Chicken_Tikka_Kebab.jpg). Local asset: `reviewed-commons-57629259.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **chicken tikka with pudina chutney** — Fatimahope. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Chicken_tikka_by_fatima.jpg). Local asset: `reviewed-commons-40957932.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Grilled Chicken Tikka** — Iwaqarhashmi. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Grilled_Chicken_Tikka_Sizzler_with_Vegetables_and_Lemon_Wedge.jpg). Local asset: `reviewed-commons-150882767.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Falafel sandwich** — Lieseylulu. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Falafel_at_L%27as_du_Falafel.jpg). Local asset: `reviewed-commons-56250364.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
