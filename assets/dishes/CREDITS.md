@@ -11030,3 +11030,8 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **chicken gyros wrap** — Aethonatic. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Say_Souvlaki_-_chicken_gyros_wrap_-_21_June_2026.jpg). Local asset: `reviewed-commons-195772953.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Aloo fritters** — Biswarup Ganguly. [CC BY 3.0](https://creativecommons.org/licenses/by/3.0); [source](https://commons.wikimedia.org/wiki/File:Aloo_Fritters_-_Howrah_2015-04-26_8540.JPG). Local asset: `reviewed-commons-39812623.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Aloo chop** — TAPAS KUMAR HALDER. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Potato_Croquettes-Aloo_Chop_(-_Kolkata_-_West_Bengal_-_DSC_0014.jpg). Local asset: `reviewed-commons-125305271.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
