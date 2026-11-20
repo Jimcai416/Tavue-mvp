@@ -152343,5 +152343,29 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-49711056",
+    "title": "File:Ayam penyet SG.jpg",
+    "author": "Banej",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ayam_penyet_SG.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Ayam_penyet_SG.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "f0685a3bf84e2ffd615069a42cc3e53883b3acd4",
+    "name": "Ayam penyet",
+    "aliases": [],
+    "proteins": [
+      "chicken"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-49711056.jpg",
+    "assetSha256": "e065cc8994a5c37ed4253d3462dd1c4fb1e740854c408ffcbfbd569b209900c9",
+    "reviewedAt": "2026-11-20",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];
