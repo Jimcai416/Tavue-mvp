@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChET8AdXt78snRUFQqie7",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": true,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 2,\n    \"composition\": 2,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail is severely degraded and compressed\",\n    \"Essential detail of the stuffed chicken is unreadable\",\n    \"Dish structure is obscured; cannot verify finished state or component identity\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title is a filename, not a dish description; identity cannot be verified\",\n    \"Image shows a raw or partially cooked poultry item in a tray, not a finished plated dish\",\n    \"Severe softness, colour cast, and poor lighting throughout both images\",\n    \"No readable evidence of stuffing or finished preparation visible in either image\"\n  ],\n  \"reason\": \"Reject: Image fails multiple criteria. The source title is a filename (not a canonical dish description), making identity verification impossible. Both full and thumbnail images exhibit severe softness, muddy lighting, and colour cast that render the dish unappetising and detail-obscured. The subject appears to be a raw or partially cooked poultry item in a preparation container, not a finished, exposed, sharply detailed dish. The thumbnail is too compressed and degraded to verify essential components. Quality scores all fall below the required minimum of 4.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1803,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 406,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

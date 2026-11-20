@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChET8F4gRGYLNGS6FCBZf",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Poultry breast, halved and stuffed with green herb/vegetable filling\",\n    \"Golden-brown seared exterior with charred marks\",\n    \"Dark leafy herbs visible in filling (appears to be spinach or similar)\",\n    \"Red diced ingredient visible in and around filling\",\n    \"Natural plating on decorative dish with orange and green band\"\n  ],\n  \"phone_observations\": [\n    \"Stuffed poultry clearly visible in thumbnail\",\n    \"Golden colour and seared surface readable\",\n    \"Filling ingredients partially discernible\",\n    \"Full dish shape preserved in phone crop\"\n  ],\n  \"protein_evidence\": {\n    \"chicken\": \"Stuffed chicken rice\"\n  },\n  \"uncertainties\": [\n    \"Title states 'Stuffed chicken rice' but no visible rice component is apparent in the photograph; dish appears to be stuffed chicken breast with herb/vegetable filling, not rice-based\",\n    \"Exact nature of filling ingredients cannot be definitively confirmed visually (appears herbaceous and possibly spinach-based, but source does not specify)\",\n    \"Contradiction between source title claiming 'rice' and actual visible content (stuffed poultry with vegetable/herb filling)\"\n  ],\n  \"reason\": \"Reject due to source-photograph mismatch: title claims 'Stuffed chicken rice' but the visible dish is clearly a halved, herb-and-vegetable-stuffed chicken breast with no apparent rice component. This fundamental identity contradiction between metadata and actual food form prevents confident canonical naming. The photograph quality, sharpness, lighting and phone thumbnail are all excellent, but the identity check fails due to the unexplained absence of rice despite it being in the stated title.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1767,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 524,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
