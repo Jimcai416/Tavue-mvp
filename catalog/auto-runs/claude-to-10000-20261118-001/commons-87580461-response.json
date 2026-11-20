@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChEDE1okSM7qaWdpcVops",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 2,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows person in ornate red vest and bandana in shop setting\",\n    \"No finished food dish visible in phone thumbnail centre-cover area\",\n    \"Subject is a person performing/posing, not a food item\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [],\n  \"reason\": \"Rejection: The image is not a photograph of a finished, exposed food dish. The full source shows a person in traditional Turkish attire (red embroidered vest, blue striped trousers, red headband) posing in what appears to be a shop or restaurant with decorative ceiling, holding what looks like a wooden stick or pole. The phone thumbnail confirms the primary subject is the person, not food. While the metadata title references 'Turkish traditional ice cream', no actual ice cream dish is visible, prominent, or the focus of either the full photograph or the phone thumbnail. The composition is a portrait/performance shot in an interior setting, not a food-focused image. This fails the core requirement of accepting only 'a finished, exposed, likely photographic dish, sharply detailed, naturally coloured, appetising, prominent'.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 2043,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 391,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
