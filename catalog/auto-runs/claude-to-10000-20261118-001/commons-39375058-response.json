@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDMb68hXbzrpmbyZHfqt",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 2,\n    \"composition\": 2,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows dark, granular texture with minimal visible structure\",\n    \"No distinct food form recognizable at phone resolution\",\n    \"Essential components unreadable in 124x96 view\",\n    \"Subject appears as undifferentiated mass\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source describes preparation stage (frying, mid-cooking), not finished dish\",\n    \"Huitlacoche is a fungal mass; subject in photo is uncooked/mid-preparation raw ingredient in pan\",\n    \"No finished, plated, or exposed dish visible\",\n    \"Image captures cooking process, not final food presentation\"\n  ],\n  \"reason\": \"Rejection: Image shows raw/preparation stage (fungi being fried in a pan mid-cook), not a finished, exposed, plated dish. The thumbnail is illegible and shows only an undifferentiated dark mass. Source metadata confirms this is a cooking-in-progress photograph ('frying with epazote and a little onion, ready for a taco'), which violates the requirement for finished dishes. Sharpness, appeal, and phone legibility all critically insufficient. No checks pass.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1771,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 407,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
