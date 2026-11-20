@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDyz7Y84EgfbxSKuoKXU",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 3,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows fried pork rind pieces in clear plastic container with partially visible label\",\n    \"Container and packaging dominate the frame\",\n    \"Food is recognizable but minimal in visual prominence within phone view\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'Pork rind' but source description 'Pork rind' refers to raw/unprocessed ingredient, not a finished prepared dish\",\n    \"Image shows what appears to be fried/cooked pork rind product, but identity conflict exists: raw material vs. prepared food\",\n    \"Unclear if this is a finished restaurant/commercial dish or a raw ingredient photographed for documentation\"\n  ],\n  \"reason\": \"Reject: Identity check fails. The source title/description 'Pork rind' refers to a raw ingredient or material rather than a finished, exposed, prepared dish suitable for Tavue's food photography intake. The image shows packaged pork rinds in a container with visible label and packaging—this is a packaged ingredient product, not a plated or presented finished dish. While the photograph quality is acceptable and protein would be supportable if this were a prepared dish, the fundamental identity is a raw/ingredient category, not a finished food service item. Home cooking and street food are welcome, but this appears to be unfinished ingredient documentation rather than a served or finished dish presentation.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1727,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 454,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
