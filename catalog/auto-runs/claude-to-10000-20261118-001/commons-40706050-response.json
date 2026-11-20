@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDjc5oCiQmbXtFiVtbr2",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Yellow saffron-coloured creamy dessert dominating foreground bowl\",\n    \"Two orange-red spherical fried items in upper left (pani puri shells)\",\n    \"Small white bowl with beige mixture upper right (pani puri filling)\",\n    \"Transparent glass with greenish liquid (pani/spiced water)\",\n    \"Red-bordered tray, white plates, restaurant setting\"\n  ],\n  \"phone_observations\": [\n    \"Yellow creamy dessert bowl sharp and prominent in centre-cover\",\n    \"Orange pani puri spheres visible upper left\",\n    \"White bowl with filling visible upper right\",\n    \"Essential dish components readable and well-exposed\",\n    \"Natural colours, appetising appearance maintained in thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title lists two distinct dishes: 'ras malai and pani puri' – a composite plate rather than a single dish identity\",\n    \"Ras malai (yellow dessert) is a sweet cheese-based confection with no protein category matches\",\n    \"Pani puri (fried shells + filling) contains unspecified legume/vegetable filling – no animal protein visible or declared\",\n    \"Canonical_name cannot accurately represent a two-dish composite without introducing ambiguity\",\n    \"No explicit protein animals named in source description\"\n  ],\n  \"reason\": \"Image quality, sharpness, lighting, composition and phone visibility all meet standards. However, identity check fails: the source explicitly presents two distinct regional dishes ('ras malai and pani puri') as a composite plate, not a single unified dish. Ras malai is a sweet saffron-cheese dessert (no protein category), and pani puri is a savoury street snack with vegetable/legume filling (no declared animal protein). No single canonical_name can faithfully represent both without invention or omission. Regional origin claims in metadata are untrusted context, not visual evidence. Hold pending clarification of intended dish identity or separate submission of each component as an individual dish.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 2065,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 606,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
