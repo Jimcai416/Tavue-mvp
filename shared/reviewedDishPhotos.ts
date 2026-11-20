@@ -161604,5 +161604,78 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "height": 800,
     "requiresExactMenuName": true,
     "authorUrl": "https://flickr.com/people/44032042@N00"
+  },
+  {
+    "id": "commons-136177817",
+    "title": "File:Duck in madeira sauce (78098640).jpg",
+    "author": "Andy / Andrew Fogg  from near Cambridge, UK",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Duck_in_madeira_sauce_(78098640).jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Duck_in_madeira_sauce_%2878098640%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "dd0154efb7d70cab178fb0024be7e9045be5a23d",
+    "name": "Duck in madeira sauce with carrot & celeriac puree, peas, buttered baby corn, pommes Duchesse",
+    "aliases": [],
+    "proteins": [
+      "duck"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-136177817.jpg",
+    "assetSha256": "d99c80e921681bb26b61d41111ac3c4b0221ed80de7deaf0643b4000099911c6",
+    "reviewedAt": "2026-11-20",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true,
+    "authorUrl": "https://www.flickr.com/people/69024001@N00"
+  },
+  {
+    "id": "commons-88273052",
+    "title": "File:Iscas de filé ao molho madeira e champignon.jpg",
+    "author": "Melsj",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Iscas_de_fil%C3%A9_ao_molho_madeira_e_champignon.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Iscas_de_fil%C3%A9_ao_molho_madeira_e_champignon.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "5b7a5a3899344549cced7e5205dc4c4fd2c4558d",
+    "name": "Iscas de filé ao molho madeira e champignon",
+    "aliases": [],
+    "proteins": [
+      "beef"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-88273052.jpg",
+    "assetSha256": "7727062b4d0917b6c6563fa22d4328f3235027eb71b4f2c56547db463fd01327",
+    "reviewedAt": "2026-11-20",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 540,
+    "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-39426935",
+    "title": "File:Zunge Madeirasosse Klösse.JPG",
+    "author": "Benreis",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Zunge_Madeirasosse_Kl%C3%B6sse.JPG",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Zunge_Madeirasosse_Kl%C3%B6sse.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "50fa246e3e53cdb7f9469ca696bab677d0f65b8a",
+    "name": "Beef tongue in Madeira sauce with potato dumplings",
+    "aliases": [],
+    "proteins": [
+      "beef"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-39426935.jpg",
+    "assetSha256": "7f10b17c7490c2d516d4ca75e85dc344f393d71a0a42b22273be68176ec8c9fb",
+    "reviewedAt": "2026-11-20",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 640,
+    "requiresExactMenuName": true
   }
 ];
