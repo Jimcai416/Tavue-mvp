@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChEn2Y6eQ5LRjujnCkwT4",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Plated dish with seared meat portions (saddle cuts visible)\",\n    \"Pommes Dauphine (golden spheres) clearly present\",\n    \"Baby leeks (green vegetable strips) visible\",\n    \"Red/orange tomato elements present\",\n    \"Browned jus/sauce drizzle on white plate\",\n    \"Fine dining presentation style matches source venue\"\n  ],\n  \"phone_observations\": [\n    \"Dish composition readable in thumbnail\",\n    \"Main protein and vegetable elements distinguishable\",\n    \"Adequate detail for recognition at reduced size\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title specifies 'Saddle of Rabbit' but rabbit is not an allowed protein category per instructions (only chicken/beef/pork/duck/lamb/seafood accepted)\",\n    \"Cannot verify meat species from visual appearance alone\",\n    \"Source title contains 'Rabbit' which falls outside canonical protein categories\"\n  ],\n  \"reason\": \"Dish identity cannot be accepted: the source title explicitly names rabbit as the protein, but rabbit is not an allowed category in the protein_evidence map (only chicken, beef, pork, duck, lamb, seafood are permitted). Per instructions, unknown or unallowed meat species requires a hold. Although the photograph quality is excellent and the plating clearly matches a fine-dining saddle preparation, the protein constraint violation prevents acceptance.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1759,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 455,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
