@@ -12514,3 +12514,9 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 
 - **Polenta con i funghi** — [やましこ](https://www.flickr.com/people/183837926@N03). [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:Polenta_con_i_funghi_(49653224713).jpg). Local asset: `reviewed-commons-110787119.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Spaghetti al tartufo nero estivo** — Marica Massaro. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Spaghetti_al_tartufo_nero.jpg). Local asset: `reviewed-commons-172565152.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Tourte alsacienne à la viande de porc et au riesling** — Thomon. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Tourte_alsacienne.jpg). Local asset: `reviewed-commons-112378585.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Tourte fourrée à la caillette en Drôme provençale** — Marianne Casamance. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Tourte_fourr%C3%A9e_%C3%A0_la_caillette_en_Dr%C3%B4me_proven%C3%A7ale.JPG). Local asset: `reviewed-commons-48141800.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Tourte lorraine** — Arnaud 25. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Tourte_lorraine.jpg). Local asset: `reviewed-commons-178258741.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
