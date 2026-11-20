@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDdwnwJbWwUyvDxHRUMJ",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 3,\n    \"appeal\": 2\n  },\n  \"visible_support\": [\n    \"Grilled meat strips with grill marks visible\",\n    \"Yellow, orange and red bell peppers\",\n    \"Purple onion slices\",\n    \"Green herb garnish (cilantro/parsley)\",\n    \"Yellow rice or similar grain base\",\n    \"Metal bowl/wok presentation\",\n    \"El Sabor wraps packaging visible left\"\n  ],\n  \"phone_observations\": [\n    \"Packaged wraps visible on left edge\",\n    \"Metal bowl with prepared ingredients clearly visible\",\n    \"Cooked meat and vegetables prominent in centre\",\n    \"Overall composition recognisable but packaging presence reduces focus on finished dish\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Species of grilled meat not explicitly stated in source description—only 'grilled chicken' claimed in description, but source title 'Chicken Fajita Ingredints' suggests preparation stage rather than finished fajita dish\",\n    \"Image appears to show ingredient assembly or preparation stage (ingredients in bowl, wraps packaged separately) rather than a completed, plated fajita dish\",\n    \"No explicit 'chicken' substring in title; title contains misspelling 'Ingredints' suggesting this is documentation of raw/prep components, not a finished food photograph\"\n  ],\n  \"reason\": \"Reject: This photograph documents ingredient preparation and assembly components rather than a finished, exposed, plated dish. The image shows raw ingredients in a bowl (peppers, onions, grilled protein) alongside unopened tortilla packaging—classic hallmarks of a preparation-stage or 'ingredients' photograph, not a served fajita. The source filename and title emphasis on 'Ingredints' (misspelled) further confirm this is documentation of components, not a finished dish. Tavue criteria require a finished, appetising, plated food subject. Additionally, while 'chicken' appears in the description, the protein cannot be verified from visual appearance alone and the presentation context suggests this is not a finished service photograph. All quality scores pass, but the identity check fails: this is not a completed dish suitable for a food review collection.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1736,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 609,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDdvknJHUyALEtZUSLBL",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Four golden-brown spherical fried items on white plate\",\n    \"Textured surface consistent with legume-based fritter\",\n    \"Warm, appetising colour and finished appearance\",\n    \"Phone thumbnail clearly shows same four items\"\n  ],\n  \"phone_observations\": [\n    \"Four fried balls plainly visible and prominent\",\n    \"Legume texture readable at thumbnail resolution\",\n    \"Plate and composition fully captured\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title spells 'Falafal' (non-standard romanization); standard English spelling is 'falafel'\",\n    \"No explicit protein declaration in source metadata; falafel traditionally contains chickpeas but this is not visually proven and is not named in the source title/description\",\n    \"Source description provides location only, not ingredients or composition confirmation\"\n  ],\n  \"reason\": \"While the photograph is sharp, well-lit, appetising and the phone thumbnail is clear and readable, the source metadata contains a spelling variant ('Falafal' instead of standard 'falafel') that creates ambiguity about the exact dish identity. More critically, no protein is explicitly named in the source title or description, so no protein_evidence can be recorded. Per protocol, identity must agree with the exact source title/description; the variant spelling and absence of ingredient declaration prevent confident canonical naming. Hold standard applies.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1632,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 454,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

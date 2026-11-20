@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDdwGwWhZN9twoTPV15s",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 3,\n    \"composition\": 2,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows raw pastry bundles on parchment before baking\",\n    \"No finished, cooked state visible\",\n    \"Items appear uncooked with pale, unbaked appearance\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source metadata states 'pronti da essere infornati' (ready to be baked), confirming raw/preparation stage\",\n    \"No finished dish visible in either full or thumbnail image\"\n  ],\n  \"reason\": \"Rejection: Image shows raw pasta sfoglia fagottini in preparation stage (unbaked bundles on parchment), not a finished, exposed, cooked dish. Source description explicitly confirms 'ready to be baked' status. Photo fails photograph quality check (raw food stage), phone thumbnail check (uncooked state unclear for Tavue intake), and identity check (preparation stage, not finished dish). Appetising appearance and readable details absent. Home cooking context does not override requirement for finished, exposed food.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1489,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 364,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
