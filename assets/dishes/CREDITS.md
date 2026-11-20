@@ -12355,3 +12355,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 
 - **Chorreadas costarricenses con natilla y queso** — Aleat88. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Chorreadas_CR.png). Local asset: `reviewed-commons-64498867.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Almuerzo costarricense** — Alejandro Álvarez Taborda (Aleat88). [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Casado_CR.jpg). Local asset: `reviewed-commons-63245676.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Casado costarricense** — Aleat88. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Casado_costarricense.png). Local asset: `reviewed-commons-66233266.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
