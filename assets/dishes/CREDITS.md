@@ -11140,3 +11140,8 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 - **Etli kuru fasulye** — E4024. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Kuru_fasulye,_Turkish_style.jpg). Local asset: `reviewed-commons-41558380.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Terbiyeli tel şehriye çorbası** — E4024. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Terbiyeli_tel_sehriye.jpg). Local asset: `reviewed-commons-47040484.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Kuru fasulye (etsiz)** — E4024. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Kuru_fasulye_(etsiz).jpg). Local asset: `reviewed-commons-46597021.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Timphan Asoe Kaya** — Si Gam. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Timphan_Asoe_Kaya.jpg). Local asset: `reviewed-commons-121293884.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **timphan ubi ungu** — Bibazi. [CC BY 4.0](https://creativecommons.org/licenses/by/4.0); [source](https://commons.wikimedia.org/wiki/File:Timphan_ubi_ungu.jpg). Local asset: `reviewed-commons-159544458.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
