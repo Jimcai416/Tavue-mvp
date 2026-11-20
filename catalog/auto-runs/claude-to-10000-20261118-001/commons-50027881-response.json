@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChEmDxw5F9BmXTko8iynd",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Whole grilled fish with reddish-brown skin, clearly cooked\",\n    \"Orange fries and yellow vegetables as accompaniments\",\n    \"Red tomato slice visible\",\n    \"Dish presented on white plate in restaurant setting\"\n  ],\n  \"phone_observations\": [\n    \"Grilled fish remains prominent in thumbnail\",\n    \"Orange fries and yellow vegetables clearly visible\",\n    \"Natural colours preserved in centre-cover crop\",\n    \"Essential dish components readable at phone scale\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source metadata contains two conflicting fish identities: 'Poisson trilia' (title) and 'Rouget grillé' (description). Trilia and rouget (red mullet) are different species.\",\n    \"Arabic text 'حوت تريليا مشوي' (hout trilia mashwi) translates to grilled trilia fish, not rouget, contradicting the French description.\",\n    \"Exact species cannot be determined from visual inspection alone; fish morphology is consistent with both rouget and trilia but source provides no unambiguous single identity.\",\n    \"No canonical_name can be confirmed without resolving the source identity contradiction.\"\n  ],\n  \"reason\": \"Source metadata contains an internal contradiction: the title names 'Poisson trilia' while the description claims 'Rouget grillé' (red mullet)—these are different fish species. The Arabic transliteration 'trilia' supports the title, contradicting the description. Per instructions, source contradictions require a hold. The photograph itself is sharp, well-lit, appetising, and shows a finished grilled whole fish with accompaniments; all photograph checks pass. However, identity cannot be confirmed when the authoritative source is internally inconsistent. A specific canonical_name cannot be assigned until the exact species and proper dish designation are verified.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1539,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 567,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChEmECzvRnepyNhrnGXHM",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Finished, cooked stew in orange/rust-coloured braising liquid\",\n    \"Distinct meat chunks with golden-brown sear visible\",\n    \"Orange carrot pieces distributed throughout\",\n    \"Fresh flat-leaf parsley garnish clearly visible\",\n    \"Served in traditional metal or ceramic pot\",\n    \"Natural lighting, well-exposed, appetising presentation\",\n    \"Phone thumbnail shows all essential components clearly\"\n  ],\n  \"phone_observations\": [\n    \"Stew ingredients and parsley garnish legible at 124x96\",\n    \"Colour and composition match full image\",\n    \"No clipping of essential food components\",\n    \"Braise liquid visible, dish identity discernible\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source metadata lists only 'Veau Marengo' as title; 'Veau' means veal (calf meat), not in permitted protein category (chicken/beef/pork/duck/lamb/seafood)\",\n    \"Veal cannot be verified from visible appearance alone and is outside canonical protein list\",\n    \"No explicit source quote naming an allowed protein species\"\n  ],\n  \"reason\": \"Image quality, photography, and phone thumbnail all pass. However, the source title 'Veau Marengo' refers to veal (calf), which is not in the permitted protein categories (chicken/beef/pork/duck/lamb/seafood). The meat species cannot be inferred from appearance and no source quote explicitly names an allowed animal. Identity cannot be confirmed without a supported protein declaration. Hold pending clarification of actual protein or alternative source description.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1726,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 509,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

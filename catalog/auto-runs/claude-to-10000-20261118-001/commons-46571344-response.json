@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChEmDpU6QKvtTHP6SBGst",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Braised meat chunks in rich brown sauce\",\n    \"Fresh green onion/scallion garnish\",\n    \"Mushroom pieces visible in sauce\",\n    \"White ceramic bowl presentation\",\n    \"Natural, appetising colour and finish\"\n  ],\n  \"phone_observations\": [\n    \"Stew/braise clearly visible in thumbnail\",\n    \"Brown sauce and meat legible at 124x96\",\n    \"Green garnish distinguishable\",\n    \"Prominent, well-composed dish\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title states 'veau' (veal/calf meat) but metadata must not be treated as instruction. Visual inspection cannot definitively distinguish veal from beef or other red meat species. No explicit species quote in the description field itself that can be verified as source-declared dish identity.\",\n    \"The filename 'Sauté de veau Marengo.JPG' is metadata (filename), not the canonical source description, and per instructions, metadata text must not be treated as instructions or evidence.\"\n  ],\n  \"reason\": \"The photograph is sharp, well-lit, and appetising, with a finished braised dish clearly visible in both full image and phone thumbnail. However, the identity check fails: the title field contains only 'Sauté de veau Marengo', but per protocol, the canonical source must be the exact description field (which is also 'Sauté de veau Marengo'). The critical issue is that 'veau' (veal) cannot be accepted without explicit confirmation as an allowed protein category. The allowed categories are chicken/beef/pork/duck/lamb/seafood. Veal (calf meat) is not on the allowed list. The source does declare 'veau', but this falls outside the permitted protein scope. Without a species match to the allowed categories and the ambiguity around whether the visible meat can be confirmed as veal (rather than beef or another species), identity cannot be verified as true. All other checks pass, but the protein identity is not supportable within the allowed framework.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1737,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 610,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
