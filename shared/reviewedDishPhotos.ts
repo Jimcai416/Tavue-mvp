@@ -140798,5 +140798,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-15630415",
+    "title": "File:Schiaccia briaca dettaglio.jpg",
+    "author": "F Ceragioli",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Schiaccia_briaca_dettaglio.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Schiaccia_briaca_dettaglio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "a8cbb7b34e01a009e06133606903fb36a5adde0b",
+    "name": "Schiaccia briaca",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-15630415.jpg",
+    "assetSha256": "b728a7ffc2f02662c29b950af12b260dca8b2712dae0e561aaa6ea624952a324",
+    "reviewedAt": "2026-11-20",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 843,
+    "height": 960,
+    "requiresExactMenuName": true
   }
 ];
