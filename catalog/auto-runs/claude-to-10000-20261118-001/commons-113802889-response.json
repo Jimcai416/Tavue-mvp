@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChEmT42XV6C6SjHSF3uv4",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Cooked meat cutlets with sear marks, browning and gloss\",\n    \"White rice portion\",\n    \"Yellow legume accompaniment (chickpeas or lentils)\",\n    \"Shredded vegetable salad (grated carrot/beetroot)\",\n    \"Fried pastry or bread item\",\n    \"Deep fried spherical item\",\n    \"Checkered tablecloth, home/casual dining setting\",\n    \"Both full and thumbnail images show the same plated composition\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows seared meat cutlets as central subject\",\n    \"White rice and yellow legumes visible and identifiable\",\n    \"Colouration and textural detail preserved in 124x96 reduction\",\n    \"Phone-ready composition: subject prominent and readable\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title 'Almuerzo' means 'lunch' (meal type, not dish name) – does not identify the specific dish\",\n    \"Meat species and cut cannot be determined from appearance alone – could be pork, beef, chicken or lamb cutlets\",\n    \"No explicit source text naming the dish, meat type, preparation method or regional variant\",\n    \"Legume type (chickpeas vs lentils) not confirmed by source description\",\n    \"Identity cannot be matched to source because source provides only 'Lunch' as metadata\"\n  ],\n  \"reason\": \"Image is a finished, well-exposed, sharply detailed, naturally coloured, appetising plated dish with all components prominent and readable in both full and thumbnail formats. Photograph and phone checks pass with scores ≥4. However, the identity check fails: the source description 'Almuerzo' is a meal type (lunch), not a dish name. No explicit source text identifies the specific dish, meat species, cut, preparation, or regional variant. Without source-provided identity information, canonical name cannot be assigned. Meat species cannot be inferred from appearance. This is a hold pending explicit dish identification and meat species naming in source metadata.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1728,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 610,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
