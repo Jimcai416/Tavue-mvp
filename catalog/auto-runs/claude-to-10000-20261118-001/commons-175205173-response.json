@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDn3aWna6SBni5LDyVKF",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": \"Ceviche clasico (poisson blanc)\",\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Fresh green lettuce prominent in upper portion\",\n    \"Diced pale flesh protein with green onion garnish in centre\",\n    \"Sliced mushrooms or root vegetable at bottom\",\n    \"Cooked/browned components visible on right side\",\n    \"Bowl presentation with black rim on white dish\",\n    \"Natural daylight, no watermarks or severe casts\"\n  ],\n  \"phone_observations\": [\n    \"Lettuce, diced protein, and mushroom/root components all readable at thumbnail scale\",\n    \"Central protein mass clearly visible with garnish\",\n    \"No essential elements clipped in 124x96 frame\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title declares 'poisson blanc' (white fish) but no fish species is explicitly named\",\n    \"Visual appearance shows diced pale protein with cooked/browned elements that could be mushroom or seafood, but species cannot be visually confirmed\",\n    \"Browned component on right side is ambiguous—could be cooked fish, mushroom, or other ingredient; source does not explicitly clarify composition\",\n    \"French source metadata ('poisson blanc' = white fish) cannot override requirement for explicit English species naming in title/description\"\n  ],\n  \"reason\": \"Image quality and composition are strong. However, source description 'Ceviche clasico (poisson blanc)' uses French terminology and does not explicitly name a fish species in English. No exact English species name (e.g., 'white fish ceviche', 'cod', 'halibut', 'sea bream') appears in the supplied metadata. Protocol requires exact case-sensitive substrings from title/description for protein_evidence keys. 'Poisson blanc' is a French descriptor, not an allowed category name. Without an explicit English species name in the source title or description, protein cannot be supported. Hold pending source clarification with specific fish species.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1745,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 583,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
