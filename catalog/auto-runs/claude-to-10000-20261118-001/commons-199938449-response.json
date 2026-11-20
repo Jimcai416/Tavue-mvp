@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDgEVAS1TUxvLWFwtNfp",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 5,\n    \"appeal\": 5\n  },\n  \"visible_support\": [\n    \"Tender meat pieces cooked and caramelized\",\n    \"Deep-fried basil leaves (dark green, crispy, prominent)\",\n    \"Rich brown and reddish sauce coating\",\n    \"Served in metal tray\",\n    \"Rustic presentation\"\n  ],\n  \"phone_observations\": [\n    \"Meat and basil clearly visible and sharp in thumbnail\",\n    \"Golden-brown meat colour readable\",\n    \"Green basil pieces prominent and well-defined\",\n    \"No clipping of essential components\",\n    \"Natural appetising appearance maintained\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'pork' but metadata description states 'possibly pork or beef' — species ambiguous\",\n    \"Description acknowledges uncertainty: 'tender pieces of meat (possibly pork or beef)' — contradicts definitive title claim\",\n    \"No explicit source quote unambiguously confirming single meat species\",\n    \"Dish identity varies between 'pad kaprao' (traditional holy basil stir-fry, typically pork) and generic 'spicy basil stir-fry' — regional variant unclear\"\n  ],\n  \"reason\": \"Image quality, sharpness, lighting, composition and phone thumbnail are all excellent. The dish is finished, exposed, sharply detailed, naturally coloured and appetising. However, identity verification fails: the title claims 'pork' but the description explicitly states 'possibly pork or beef', creating a source contradiction regarding meat species. Per protocol, ambiguous meat species (including where the source itself is uncertain) requires hold. No exact, unambiguous protein quote can be extracted from the source that definitively names a single animal. The regional variant (pad kaprao vs. generic basil stir-fry) is also unclear from metadata.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1821,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 548,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

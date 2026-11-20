@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDgFVbFJPHPQ7RPUTT8U",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 3,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Hand holding sauce bottle mid-pour over pan\",\n    \"Pan with partially cooked cabbage and wooden spoon\",\n    \"Active cooking/preparation stage, not finished dish\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Image shows mid-cooking preparation, not a finished, exposed, plated dish\",\n    \"Subject is a step-by-step cooking process, not the final prepared food\",\n    \"Cabbage appears raw or partially cooked, not in finished state\"\n  ],\n  \"reason\": \"Rejection: This is a preparation/cooking stage photograph, not a finished dish. The image captures the act of pouring sauce into a pan with partially cooked cabbage, documenting a step in the cooking process rather than presenting a completed, plated dish ready for consumption. The guidelines explicitly reject raw/preparation stages. Additionally, the dish is not prominently displayed as a finished product—it remains in an intermediate cooking state with active hand involvement and sauce pouring in progress. This fails the core requirement of accepting only finished, exposed dishes.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1531,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 377,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
