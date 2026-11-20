@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChEchAbG5ioTgYSNMAd2b",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [\n    \"Glass jar with dark, cooked fish pieces in golden oil\",\n    \"Portion served on white plate with garnish\",\n    \"Natural lighting shows detail of prepared product\",\n    \"Both full image and thumbnail clearly show finished dish\"\n  ],\n  \"phone_observations\": [\n    \"Jar and plated portion both visible in thumbnail\",\n    \"Cooked fish pieces and oil clearly identifiable\",\n    \"Plate presentation readable at thumbnail scale\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Species identification ambiguous: S. fimbriata and S. albella are scientific names for specific fish species (round herring and Japanese anchovy respectively), but the common English name 'tuyô' does not map to the allowed protein categories (chicken/beef/pork/duck/lamb/seafood)\",\n    \"Source description uses binomial nomenclature rather than common fish name; species cannot be verified as belonging to 'seafood' category without explicit English species confirmation\",\n    \"Dried boneless fish fillet product: unclear if this constitutes a finished 'dish' or a preserved ingredient/condiment in the culinary review context\"\n  ],\n  \"reason\": \"Reject: Although the photograph is sharp, well-lit, and shows a finished, appetising preserved fish product in both full image and thumbnail, the protein cannot be accepted. The source identifies the content only by scientific binomial names (S. fimbriata, S. albella) without providing an explicit English common name or species designation that matches the allowed 'seafood' category. The generic 'seafood' key requires exact source quote naming a recognisable fish species, not Latin nomenclature. Additionally, while tuyô is a legitimate Japanese preserved fish product, it functions as a condiment/preserved ingredient rather than a complete finished dish. The identity check fails due to lack of explicit allowed protein evidence.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1984,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 555,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
