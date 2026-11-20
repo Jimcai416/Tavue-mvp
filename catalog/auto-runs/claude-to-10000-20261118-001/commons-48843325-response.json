@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChET2ipcbwnZatXEhWYqx",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Green beans visible in stew form\",\n    \"Red pepper pieces distributed throughout\",\n    \"Brown braised sauce consistent with meat stew\",\n    \"Cooked, exposed finished dish plated on white rim bowl\",\n    \"Phone thumbnail shows complete dish clearly\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows stewed green beans with meat and red peppers\",\n    \"Dish identity and components are readable at phone size\",\n    \"No clipping of essential food elements\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title states 'with veal' but veal is not an allowed protein category (only chicken/beef/pork/duck/lamb/seafood accepted)\",\n    \"Description declares veal as the meat species; veal cannot be verified from appearance and is outside allowed categories\",\n    \"Cannot confirm canonical name without explicit source text that uses an allowed protein term\"\n  ],\n  \"reason\": \"Image quality, composition, and phone thumbnail are acceptable. However, the source description identifies the meat as 'veal', which is not an allowed protein category. The instructions restrict proteins to chicken/beef/pork/duck/lamb/seafood with explicit source quotes naming each animal. Veal (young beef) cannot be accepted as an identity match under the allowed categories, and appearance alone cannot override this restriction. Hold pending clarification or source text using an allowed protein descriptor.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1743,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 453,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

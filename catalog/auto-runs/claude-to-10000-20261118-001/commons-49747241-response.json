@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChET2fMG9bQZYNjw4mHJG",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Pot of cooked green beans in liquid visible in thumbnail\",\n    \"Minimal visual appeal in phone view\",\n    \"Raw/preparation stage appearance despite cooking completion claim\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Description states 'cooling process' but image shows unfinished cooking stage\",\n    \"Dish appears to be mid-preparation or cooling, not a finished plated dish\",\n    \"No appetising presentation; appears to be a preparation or intermediate stage\"\n  ],\n  \"reason\": \"Rejection: The source description explicitly labels this as a 'cooling process' photograph, indicating a preparation/intermediate stage rather than a finished, exposed, plated dish ready for service. The image shows green beans in a pot mid-cooking or cooling, not a completed, appetisingly presented dish. This violates the requirement for a finished, exposed, likely photographic dish. Home cooking is acceptable, but this appears to be documentation of a preparation stage, not the final dish itself. The minimal visual appeal and unfinished presentation state disqualify this from acceptance.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1734,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 380,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

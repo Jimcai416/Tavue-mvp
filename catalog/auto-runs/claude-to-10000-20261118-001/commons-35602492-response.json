@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChET3KpXdkuK6hKX9Q1S7",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 3,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Bright red tomato halves, hollowed and stuffed\",\n    \"White/cream filling with visible pink and green components\",\n    \"Green garnish (scallions or chives) on top\",\n    \"Creamy, mayo-like binding visible in filling\"\n  ],\n  \"phone_observations\": [\n    \"Red tomato clearly visible in thumbnail\",\n    \"White creamy filling prominent\",\n    \"Garnish visible but small\",\n    \"Adequate definition of core elements\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source claims 'Vegan Crab' - no crab protein present, only plant-based substitute\",\n    \"Cannot visually confirm crab analog or identify specific vegan protein used\",\n    \"Identity mismatch: dish appears to contain crab-alternative filling but source description uses non-standard protein terminology\",\n    \"No explicit source quote names an allowed protein category (chicken/beef/pork/duck/lamb/seafood)\"\n  ],\n  \"reason\": \"Reject: source identity cannot be accepted. Title declares 'Vegan Crab' as the primary protein component. 'Crab' is seafood, but the filling is explicitly vegan (plant-based), not actual seafood. No allowed protein category (chicken/beef/pork/duck/lamb/seafood) is explicitly named in the source as a real ingredient. The visual appearance shows a creamy mayo-like filling with possible beans or tofu, but this cannot be matched to an allowed protein without source attribution to a real animal protein. Protocol requires exact source quote naming each animal for protein validation; vegan substitutes do not qualify.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1647,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 511,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

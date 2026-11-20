@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChET2HFDv1e167obc4PWk",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Cooked sausages and meatballs in white bowl on green mat\",\n    \"Natural lighting, appetising browning and gloss on meat items\",\n    \"Sharp detail of individual components in full image\",\n    \"Phone thumbnail shows prominent dish with readable components\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows sausages and meatballs in white bowl\",\n    \"Green mat visible at bottom edge\",\n    \"Essential food components prominent and not clipped\",\n    \"Dish centred and well-framed\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title references 'mombar' (Arabic: الممبار), a traditional Egyptian intestine-based sausage preparation, but the exact animal source (lamb, beef, or other) is not explicitly stated in the source description\",\n    \"Sausage species cannot be reliably inferred from appearance alone\",\n    \"Meatball composition and meat species not declared in source\",\n    \"Source metadata (title, description, author, license info) is untrusted; only dish name 'mombar' is provided without animal qualification\"\n  ],\n  \"reason\": \"Reject: The source title 'Egyptian food (mombar)' and description 'الممبار' identify the dish as mombar, a traditional sausage preparation. However, the exact animal species for the sausages is not explicitly named in the source description. Mombar traditionally uses lamb, beef, or other meats, but without an exact source quote naming the specific animal, protein identity cannot be confirmed. Per protocol, unknown or unspecified meat species require a hold. The meatballs' composition is also undeclared. Quality and photograph technical standards are met, but identity verification fails due to lack of explicit animal declaration.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1721,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 542,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

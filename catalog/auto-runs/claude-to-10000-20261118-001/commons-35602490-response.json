@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChET2o9ondxw9XjEvuo66",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 3,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [\n    \"Red hollowed tomato shell visible in full image\",\n    \"White creamy filling with green chive garnish\",\n    \"Pink and pale ingredients consistent with crab or crab substitute\",\n    \"Yellow dice visible (bell pepper)\",\n    \"Plated presentation on white dish\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail shows creamy white filling with green chive garnish and pink/pale elements\",\n    \"Colour and texture consistent with full image\",\n    \"Essential components visible but soft focus overall\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'Vegan Crab' but no vegan protein ingredient is explicitly named in the description\",\n    \"Tomato identity conflict: description says 'Stuffed Tomato' but source title includes filename metadata ('File:') suggesting this may be metadata extraction rather than confirmed dish title\",\n    \"No explicit confirmation of which vegan ingredient substitutes for crab (tofu, hearts of palm, konjac, etc.)\",\n    \"Visual appearance of filling does not definitively prove vegan status or crab substitute type\"\n  ],\n  \"reason\": \"Rejection: Although the photograph is adequately sharp and composed, and the phone thumbnail is clear, the identity check fails due to protein evidence uncertainty. The source claims 'Vegan Crab' but provides no explicit ingredient name for the vegan protein used. The instructions require exact source-quote evidence for any protein claim; 'Vegan Crab' is a marketing descriptor, not a named ingredient. Without explicit identification of the actual vegan substitute (hearts of palm, etc.), protein_evidence cannot be populated with a valid key-value pair from the source description. Additionally, the filename wrapper ('File:') in the title suggests metadata inconsistency. The uncertainties list is non-empty, triggering mandatory hold/reject. Rejection applied because vegan proteins fall outside the allowed category scope (chicken/beef/pork/duck/lamb/seafood only).\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1542,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 586,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

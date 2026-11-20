@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChET37VNJQNJxFdYtqA6k",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Tomato shell visible in both images\",\n    \"White creamy filling present\",\n    \"Fresh green onion/chive garnish\",\n    \"Pink radish slices visible\",\n    \"Red tomato body in background\"\n  ],\n  \"phone_observations\": [\n    \"Tomato shell and filling clearly visible in thumbnail\",\n    \"Garnish and toppings readable\",\n    \"Adequate detail for recognition\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title claims 'Vegan Crab' but no actual seafood protein is present—this is a plant-based substitute or imitation product, not a real protein category supported by the system (chicken/beef/pork/duck/lamb/seafood)\",\n    \"Identity mismatch: dish appears to be a vegetable-based stuffed tomato; 'crab' is not an identifiable protein but a vegan substitute, which cannot be verified visually and falls outside allowed protein categories\"\n  ],\n  \"reason\": \"Reject: source title declares 'Vegan Crab', which is neither seafood nor any other allowed protein category. The actual protein identity cannot be established from the photograph, and the vegan substitute claim contradicts the requirement for real, nameable protein sources. Identity check fails because the dish's protein component is not a supported category.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1542,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 442,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
