@@ -11283,3 +11283,8 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **塩ラーメン** — Lombroso. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Shio-ramen_(2014-05-18).jpg). Local asset: `reviewed-commons-41859172.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Shio-ramen and Chahan** — ノボホショコロトソ. [CC BY 4.0](https://creativecommons.org/licenses/by/4.0); [source](https://commons.wikimedia.org/wiki/File:Shio-ramen_and_Chahan_of_Gantetsu_02.jpg). Local asset: `reviewed-commons-153863144.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Shio Ramen** — [Guilhem Vellut  from Paris, France](https://www.flickr.com/people/22539273@N00). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Shio_Ramen,_Kodawari_Ramen,_Paris_001.jpg). Local asset: `reviewed-commons-50030890.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
