@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChEr7CxpmzmzfP77WqiWS",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 2,\n    \"composition\": 2,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows indistinct pale and dark shapes in a white bowl\",\n    \"Cannot resolve individual components clearly enough to verify dish identity\",\n    \"Overall composition appears muddy and poorly defined at phone resolution\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'Tofu and mushroom papillote' but description contradicts with 'Baked frozen vegetable sausages and peas'—critical source conflict\",\n    \"Visible forms do not clearly match either claim; pale shapes could be tofu, fish, or other proteins; dark objects ambiguous\",\n    \"Mushroom vs. sausage identity unresolved by appearance\",\n    \"Full image is severely soft-focused and low-contrast; details indistinct\",\n    \"Broccoli visible but not mentioned in title or description\"\n  ],\n  \"reason\": \"Source metadata contains unresolved contradiction (tofu and mushroom vs. frozen vegetable sausages and peas). Full photograph is severely out-of-focus and low-contrast, with poor lighting and muddy composition (sharpness 2/5). Phone thumbnail is unintelligible at coverage level. Visual forms do not clearly confirm either dish claim. Identity cannot be safely established. All quality checks failed.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1324,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 428,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

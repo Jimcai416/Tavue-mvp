@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChEr6s5jfb6nhthc28rNU",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": true,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 2,\n    \"composition\": 1,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows granular/crumbly texture dominated by purple and green particulates\",\n    \"White object in bottom right corner with scattered topping\",\n    \"No identifiable finished dish visible at phone scale\",\n    \"Texture appears raw, uncooked, or preparation-stage material\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title mentions 'saucisson sec' (cured sausage) but sausage species cannot be determined and is not an allowed protein category key\",\n    \"Image appears to show raw ingredients or a preparation stage rather than a finished, exposed dish\",\n    \"Purple and green granular material is not appetising or identifiable as a cooked food component\",\n    \"No readable essential components of a finished dish in either full image or thumbnail\"\n  ],\n  \"reason\": \"Reject: Image fails multiple acceptance criteria. The photograph shows what appears to be a raw ingredient mixture or preparation stage, not a finished, exposed, cooked dish. The granular purple and green texture lacks definition and appetite appeal. The phone thumbnail cannot resolve any identifiable finished food—only scattered particulates and an unclear white object. Sharpness, lighting, composition and appeal all score below threshold. The source mentions saucisson sec (sausage) but the species is unspecified and sausage cannot be used as a protein category key. The visible form does not match a recognizable prepared dish suitable for food review.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1735,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 463,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
