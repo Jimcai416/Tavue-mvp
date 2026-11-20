@@ -154371,5 +154371,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-113217219",
+    "title": "File:Tortang sardinas (Philippines) - Canned sardines omelet 02.jpg",
+    "author": "Obsidian Soul",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tortang_sardinas_(Philippines)_-_Canned_sardines_omelet_02.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Tortang_sardinas_%28Philippines%29_-_Canned_sardines_omelet_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "4e169eb4ec7f1f21756028ff07bf5439b984ed2e",
+    "name": "Tortang sardinas",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-113217219.jpg",
+    "assetSha256": "c4feed503a7421403793cabd50cceff9b7d4b4aa4d8892f38331995a878676fc",
+    "reviewedAt": "2026-11-20",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 885,
+    "requiresExactMenuName": true
   }
 ];
