@@ -155296,5 +155296,101 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-24890604",
+    "title": "File:Navarin d'agneau.jpg",
+    "author": "Kent Wang",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Navarin_d%27agneau.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Navarin_d%27agneau.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "00cd728eb51c8b8da4262f6a0104703bccc40e1d",
+    "name": "Navarin d'agneau",
+    "aliases": [],
+    "proteins": [
+      "lamb"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-24890604.jpg",
+    "assetSha256": "fcf3566cacf02290ba451f9aa141ba38f9b462536b5727f03dd34eef0cf196db",
+    "reviewedAt": "2026-11-20",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 640,
+    "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-103071876",
+    "title": "File:Melon d'agneau 04.jpg",
+    "author": "Bastenbas",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Melon_d%27agneau_04.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/43/Melon_d%27agneau_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "ea8ba53697b9c44a5f1a405a760284a88377a7b6",
+    "name": "Melon d'agneau cuit, épaule d'agneau désossée, ficelée et bardée",
+    "aliases": [],
+    "proteins": [
+      "lamb"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-103071876.jpg",
+    "assetSha256": "89d41b719e88b817eec398cd465c761c736cd7354794a560625f4548672d5d82",
+    "reviewedAt": "2026-11-20",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-15489567",
+    "title": "File:Navarin dagneau printanier.JPG",
+    "author": "TonyHagale",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Navarin_dagneau_printanier.JPG",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Navarin_dagneau_printanier.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "fb7e21ec8a08d455bb0b6960a177351102b39555",
+    "name": "Navarin D'Agneau Printanier",
+    "aliases": [],
+    "proteins": [
+      "lamb"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-15489567.jpg",
+    "assetSha256": "1d40e965a0408b4f5839611b2d484634fea290e0484e628723aef05f31916598",
+    "reviewedAt": "2026-11-20",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 717,
+    "height": 960,
+    "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-44285036",
+    "title": "File:Épaule d'agneau rôtie.jpg",
+    "author": "jules",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%C3%89paule_d%27agneau_r%C3%B4tie.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/59/%C3%89paule_d%27agneau_r%C3%B4tie.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "2a13c0b1869020bd571574f244e8ef7985a70bba",
+    "name": "Épaule d'agneau rôtie",
+    "aliases": [],
+    "proteins": [
+      "lamb"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-44285036.jpg",
+    "assetSha256": "c194de9c941d92a62eb323981bd096b832390beac8924bb7f431d143b728277b",
+    "reviewedAt": "2026-11-20",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 639,
+    "requiresExactMenuName": true
   }
 ];
