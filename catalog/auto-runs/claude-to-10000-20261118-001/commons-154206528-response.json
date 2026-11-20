@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDofUvZFgikE5JEkL4Xq",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Granular, cooked couscous texture visible in white bowl\",\n    \"Brown/tan crumb appearance consistent with cooked grain\",\n    \"Powdered topping visible on surface\",\n    \"Street food setting with blurred background\"\n  ],\n  \"phone_observations\": [\n    \"Couscous grain structure clearly visible in thumbnail\",\n    \"White bowl prominent and readable\",\n    \"Colour and texture match full image\",\n    \"Dish composition recognizable at small scale\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title claims 'cous cous vegano' (vegan couscous), but no proteins are listed in source description and none are visibly identifiable as meat\",\n    \"Description states it is vegan, which contradicts the protein_evidence category requirement for specific animal proteins (chicken/beef/pork/duck/lamb/seafood)\",\n    \"Visual appearance alone cannot confirm it is vegan or identify any hidden animal products\"\n  ],\n  \"reason\": \"Rejection: Source explicitly declares this dish as 'cous cous vegano' (vegan couscous). The protocol requires proteins to include only chicken/beef/pork/duck/lamb/seafood with explicit source quote naming each animal. A vegan dish contains no allowed protein categories and cannot meet the protein_evidence requirement. The identity check fails because the dish does not match the protein category constraints of the review system, even though the photograph is sharp, well-lit, and appetizing. The dish itself is finished and properly photographed, but it falls outside the scope of dishes that can be accepted under these criteria.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1641,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 500,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
