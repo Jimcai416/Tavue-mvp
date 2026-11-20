@@ -11304,3 +11304,8 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Túrós csusza** — Original uploader was  User:OsvátA  at  hu.wikipedia. [Public domain](https://creativecommons.org/publicdomain/mark/1.0/); [source](https://commons.wikimedia.org/wiki/File:Turos_csusza.jpg). Local asset: `reviewed-commons-3324379.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Jajka sadzone z ziemniakami i kompot** — Aw58. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Jajka_sadzone_z_ziemniakami_i_kompot_-_2024.0814.jpg). Local asset: `reviewed-commons-151637010.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Kompot z jablek a kdoulí** — Dezidor. [CC BY 3.0](https://creativecommons.org/licenses/by/3.0); [source](https://commons.wikimedia.org/wiki/File:Kompot_z_jablek_a_kdoul%C3%AD.jpg). Local asset: `reviewed-commons-8902549.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
