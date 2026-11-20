@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDXNk2KJS2c5PDtuGAcv",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 0,\n    \"lighting\": 0,\n    \"composition\": 0,\n    \"appeal\": 0\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Image is sheet music notation, not a food photograph\",\n    \"Musical staff lines and notes visible throughout\",\n    \"Title text visible: 'HAUTBOIS' and composer markings\",\n    \"No food subject present\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [],\n  \"reason\": \"Source is a historical musical score (Le Chalumeau, olla podrida for oboe with piano accompaniment by Edouard Sabon, op. 38, published by F. Triebert, Paris), not a food photograph. Despite the metadata containing the word 'olla podrida' (a Spanish stew dish), the actual image is printed sheet music. This is an illustration/document, not a finished, exposed, photographic dish. Rejects on: photograph type (musical score, not food photo), identity mismatch (no dish present), and quality criteria (no food subject to assess).\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1817,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 352,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
