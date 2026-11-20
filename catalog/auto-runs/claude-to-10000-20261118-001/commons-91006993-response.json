@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChEV1o53jAPZsMF587BNd",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Sliced poultry rolls on white plate clearly visible in thumbnail\",\n    \"Pink/pale flesh tones consistent with cooked chicken\",\n    \"Red garnish visible in centre\",\n    \"Adequate detail for recognition of finished dish\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'Drunken Chicken Roll Slices' but source description states only 'Drunken Chicken Roll Slices' without explicit 'chicken' confirmation in description field\",\n    \"Visual inspection shows pink poultry flesh consistent with chicken, but metadata title is the only explicit protein identifier\",\n    \"No visible text or labels in the photograph itself naming the protein\",\n    \"Cannot definitively distinguish chicken from other pale poultry species (turkey, etc.) from appearance alone\"\n  ],\n  \"reason\": \"While the photograph shows a finished, sharp, well-lit dish of sliced poultry rolls with garnish, and the thumbnail is clear and recognizable, the protein cannot be confirmed by exact substring from the supplied description field. The title 'Drunken Chicken Roll Slices' is metadata labelling (a filename equivalent), not an explicit description field statement. Per protocol, proteins require an exact source quote explicitly naming the animal from title/description; visual appearance of pale poultry alone does not constitute sufficient evidence. The uncertainties regarding protein identification prevent acceptance.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1731,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 453,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

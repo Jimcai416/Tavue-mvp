@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChEV1T8kMqMkWc7udTb6G",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Active barbecue grill with meat being cooked\",\n    \"Pork ribs visibly on lower grill grate\",\n    \"Aluminium pans with previously cooked items on upper shelf\",\n    \"Street/block party setting with trailer-mounted smoker\",\n    \"Natural outdoor lighting\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows active grilling operation\",\n    \"Meat on grates is distinct and prominent\",\n    \"Cook's hands and grill interior are readable\",\n    \"Red trailer structure frame visible\",\n    \"Essential food components not clipped\"\n  ],\n  \"protein_evidence\": {\n    \"pork\": \"pork ribs\",\n    \"chicken\": \"drunken chicken\"\n  },\n  \"uncertainties\": [\n    \"Source title describes 'barbecue' generically without specific dish name\",\n    \"'Drunken chicken' is a named variant requiring visual confirmation of the specific preparation on grill—visible meat on grate does not definitively identify which cut or preparation is 'drunken chicken' versus standard grilled chicken\",\n    \"Hamburgers and hot dogs described as already grilled earlier; visible items on upper shelf are not clearly identifiable as these specific finished products\",\n    \"No single canonical finished dish name provided in source; description lists multiple items in progress and completed\"\n  ],\n  \"reason\": \"Source metadata describes multiple items (hamburgers, hot dogs, pork ribs, drunken chicken) in various states, none with a single canonical finished-dish name. While photograph quality, lighting, sharpness and composition all meet standards (all ≥4), and the grill and meat are appetisingly visible in both full image and phone thumbnail, the identity check fails because no specific dish identity can be reliably matched to the exact visual contents. 'Drunken chicken' is named but not visually distinguished on the grill among the visible meat. The source provides a generic event description ('barbecue block party') rather than a specific canonical dish name. Hold pending clarification of which specific finished dish is the subject.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1811,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 603,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
