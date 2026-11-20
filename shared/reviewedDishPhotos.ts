@@ -160646,5 +160646,29 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 622,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-31549705",
+    "title": "File:Côte de bœuf, jeune oignon et pomme de terre fumée à la sauce périgueux.jpg",
+    "author": "hegyessy",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:C%C3%B4te_de_b%C5%93uf,_jeune_oignon_et_pomme_de_terre_fum%C3%A9e_%C3%A0_la_sauce_p%C3%A9rigueux.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/65/C%C3%B4te_de_b%C5%93uf%2C_jeune_oignon_et_pomme_de_terre_fum%C3%A9e_%C3%A0_la_sauce_p%C3%A9rigueux.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "c76f9641bf191fb7a3fc6911e6300f7343d740c4",
+    "name": "Côte de bœuf, jeune oignon et pomme de terre fumée à la sauce périgueux",
+    "aliases": [],
+    "proteins": [
+      "beef"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-31549705.jpg",
+    "assetSha256": "0cac6445e25bae0e096d36c5f757797ea36b030645e64b2b0f24f3f93f434bf2",
+    "reviewedAt": "2026-11-20",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 717,
+    "height": 960,
+    "requiresExactMenuName": true
   }
 ];

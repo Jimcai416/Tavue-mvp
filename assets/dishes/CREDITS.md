@@ -12885,3 +12885,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Timballo di Bucatini in Crosta** — DinaBenedettoFerrandina. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Timballo_di_Bucatini_in_Crosta.jpg). Local asset: `reviewed-commons-143273725.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Côte de bœuf, jeune oignon et pomme de terre fumée à la sauce périgueux** — hegyessy. [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:C%C3%B4te_de_b%C5%93uf,_jeune_oignon_et_pomme_de_terre_fum%C3%A9e_%C3%A0_la_sauce_p%C3%A9rigueux.jpg). Local asset: `reviewed-commons-31549705.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
