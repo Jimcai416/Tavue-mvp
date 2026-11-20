@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChEumwY4N6UF142eKmrda",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 3,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Single rounded baked item on white paper\",\n    \"Golden-brown surface with darker patches\",\n    \"Appears to be a small biscuit or cookie\",\n    \"No visible filling or cross-section shown\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'Macaron d'Amiens' but the visible form is a single, solid, rounded biscuit with no characteristic macaron sandwich structure, filling, or dual-shell appearance\",\n    \"Macaron d'Amiens (the regional French speciality) is traditionally a soft-centred almond biscuit, often with visible texture and sometimes filled, but this appears to be a simple round cookie or sablé\",\n    \"No internal structure, filling layers, or the typical macaroon/macaron form is evident from either photograph\",\n    \"Source title may refer to packaging/file nomenclature rather than the actual dish identity\"\n  ],\n  \"reason\": \"Identity check fails. The source title 'Macaron d'Amiens' does not match the visible form. The photograph shows a single, solid, rounded baked biscuit or cookie with no visible filling, sandwich structure, or characteristic macaron/macaroon anatomy. Macaron d'Amiens is a known regional French speciality with distinctive texture and form that is not supported by this image. The source metadata (filename, title) is untrusted evidence and cannot override the visible form. Without clear identity agreement between source description and visible food, acceptance is withheld.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1904,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 487,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
