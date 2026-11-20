@@ -144021,5 +144021,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 960,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-185785216",
+    "title": "File:Tripe Botswana.jpg",
+    "author": "JupiterKB",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tripe_Botswana.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Tripe_Botswana.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "01c52af2764359548b7d6f210675daf9f92ae976",
+    "name": "Mogodu",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-185785216.jpg",
+    "assetSha256": "05840812723633b0cd536f556b4d3ac2685e0ae17604d00968ac4d044691113f",
+    "reviewedAt": "2026-11-20",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 857,
+    "requiresExactMenuName": true
   }
 ];

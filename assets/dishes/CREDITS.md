@@ -11394,3 +11394,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Kosai (Akara)** — YusufuAM. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Kosai(Akara).jpg). Local asset: `reviewed-commons-128512766.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Mogodu** — JupiterKB. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Tripe_Botswana.jpg). Local asset: `reviewed-commons-185785216.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
