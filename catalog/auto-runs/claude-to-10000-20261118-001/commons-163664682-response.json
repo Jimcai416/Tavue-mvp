@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDXuNytowVixCBZftqdo",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": \"Traditional meal from Cape Verde islands called cachupa as cooked in Europe on canned corn.\",\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Cooked diced potatoes, corn kernels, and black beans clearly visible\",\n    \"Meat pieces (beef-coloured, diced) prominent throughout\",\n    \"Natural colours, finished dish presentation\",\n    \"White ceramic bowl on woven placemat\",\n    \"Phone thumbnail shows complete dish with readable components\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows starch base with scattered corn and beans\",\n    \"Meat pieces visible and prominent\",\n    \"Overall composition readable despite size\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title describes 'cachupa as cooked in Europe on canned corn' — this is a geographical/preparation variant claim rather than a canonical dish name\",\n    \"Meat species not explicitly named in source description; beef-coloured pieces assumed but unconfirmed\",\n    \"No exact dish name provided, only category ('cachupa') with European adaptation context\",\n    \"Cape Verdean cachupa has regional preparation variants; source emphasizes European canned-corn modification\"\n  ],\n  \"reason\": \"Photograph quality, sharpness, lighting, composition and phone thumbnail all meet acceptance thresholds. However, identity check fails: the source description does not provide a canonical dish name—only a category ('cachupa') with metadata about European preparation and canned corn usage. The title is a filename, not a named dish variant. Protein species (the meat) is not explicitly identified in the source, only inferred from appearance. Per protocol, identity must agree with exact source title/description in specific form, and meat species require explicit source naming. The source contradicts canonical cachupa (traditionally made with corn that must be soaked and ground, not canned corn kernels), creating ambiguity about which regional variant this represents. These source deficiencies prevent confident acceptance.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1634,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 562,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
