@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChEvRCfvP4BQLVt2cMivd",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [\n    \"Diced pale yellow cubes consistent with boiled potato\",\n    \"Orange specks visible matching diced carrots\",\n    \"Creamy mayonnaise-based binding throughout\",\n    \"Finished, exposed cold dish on white plate\",\n    \"Served with ornate spoon\"\n  ],\n  \"phone_observations\": [\n    \"Plate and fork clearly visible at reduced resolution\",\n    \"Pale, creamy salad components prominent\",\n    \"Overall form and components readable in thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source metadata labels this a PNG file ('File:Argentine Russian Salad') rather than an authentic photograph\",\n    \"Description declares ingredients (peas, carrots, egg whites, potatoes, mayo) but no animal protein species can be visually confirmed in either image\",\n    \"Hard-boiled egg whites are mentioned in description but not visually distinguishable from potatoes in the actual photograph\",\n    \"File naming and metadata structure suggest this may be an illustration, composite, or heavily processed digital image rather than a natural photograph\",\n    \"Lighting and presentation are unusually uniform and artificial in appearance\"\n  ],\n  \"reason\": \"Rejection: Source metadata identifies this as 'File:Argentine Russian Salad (Ensalada Rusa).png'—a PNG file format strongly indicating this is an illustration, composite, or non-photographic digital rendering rather than an authentic food photograph. Although the visible components (potatoes, carrots, mayonnaise binding) match the description, the PNG format, artificial uniformity, and lack of natural photographic texture violate the requirement for a finished, exposed, likely photographic dish. No protein species can be visually proven or extracted from source text as a direct quote naming an allowed category. The image fails the photograph authenticity check.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 2002,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 543,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
