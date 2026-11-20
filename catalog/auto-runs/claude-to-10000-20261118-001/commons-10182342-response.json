@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDRf34zLn62ihxTZKkCU",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Cooked protein mould with spiced topping\",\n    \"Boiled potatoes\",\n    \"Peas and red pepper garnish\",\n    \"Blue plate presentation\",\n    \"Natural daylight photograph\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail shows spiced white protein, potatoes, peas and red pepper clearly\",\n    \"Adequate detail for dish recognition in thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Description claims 'fish, crustaceans and vegetables' but no source title specifies which animal proteins are present\",\n    \"Visual appearance shows a moulded pudding but cannot confirm fish or crustacean species from appearance alone\",\n    \"Description contains generic protein references without exact species naming\",\n    \"No explicit canonical name provided in source title—only filename 'Fiskepudding.jpg'\"\n  ],\n  \"reason\": \"Identity check fails. The source provides only a filename (Fiskepudding.jpg) and a generic description claiming fish and crustaceans without naming specific animals or providing an exact canonical dish phrase. The description metadata does not constitute a reliable source title. Protein identity cannot be confirmed from appearance alone, and no exact source quote names the animal species. Hold rule applies: ambiguous species and source contradictions require rejection.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1741,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 434,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
