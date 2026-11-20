@@ -158032,5 +158032,77 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-31844566",
+    "title": "File:Bistrot de pays à Caseneuve Gigot d'agneau aux légumes.jpg",
+    "author": "vpagnouf",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bistrot_de_pays_%C3%A0_Caseneuve_Gigot_d%27agneau_aux_l%C3%A9gumes.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Bistrot_de_pays_%C3%A0_Caseneuve_Gigot_d%27agneau_aux_l%C3%A9gumes.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "2f12daf2c64ba7c7a14ca3f5af4de5e54ae774b6",
+    "name": "Gigot d'agneau aux légumes",
+    "aliases": [],
+    "proteins": [
+      "lamb"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-31844566.jpg",
+    "assetSha256": "bd950caa3cf96b53b3493379d5fa96bd5da976ec75a1807db48f286bfc8e6dbf",
+    "reviewedAt": "2026-11-20",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-26056463",
+    "title": "File:Gigot d'agneau à la poêle.jpg",
+    "author": "Chun's Pictures",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gigot_d%27agneau_%C3%A0_la_po%C3%AAle.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Gigot_d%27agneau_%C3%A0_la_po%C3%AAle.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "322ee197cf75d326480a2ba6b8e1f9fc1362d70c",
+    "name": "Gigot d'agneau à la poêle",
+    "aliases": [],
+    "proteins": [
+      "lamb"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-26056463.jpg",
+    "assetSha256": "cc1d13b139934f3bd21b6c4400694dae1bdc03484dcbc415aec831ff8e671bf8",
+    "reviewedAt": "2026-11-20",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 699,
+    "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-48011394",
+    "title": "File:Le Cercle Républicain Jonquières Gigot d'agneau pascal de 7 heures, pommes de terre grenaille à la crème d'ail et carotte entièr.JPG",
+    "author": "Marianne Casamance",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Le_Cercle_R%C3%A9publicain_Jonqui%C3%A8res_Gigot_d%27agneau_pascal_de_7_heures,_pommes_de_terre_grenaille_%C3%A0_la_cr%C3%A8me_d%27ail_et_carotte_enti%C3%A8r.JPG",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Le_Cercle_R%C3%A9publicain_Jonqui%C3%A8res_Gigot_d%27agneau_pascal_de_7_heures%2C_pommes_de_terre_grenaille_%C3%A0_la_cr%C3%A8me_d%27ail_et_carotte_enti%C3%A8r.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "4f45ad5b9414097535325d1f9267b421acc6b53b",
+    "name": "Gigot d'agneau pascal de 7 heures",
+    "aliases": [],
+    "proteins": [
+      "lamb"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-48011394.jpg",
+    "assetSha256": "2f4eb54527400d4ced6ccf5eb2b47799c2f5d802a3fbe29dd66984d3be7b69bc",
+    "reviewedAt": "2026-11-20",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];
