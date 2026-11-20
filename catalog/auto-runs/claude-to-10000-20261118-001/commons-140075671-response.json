@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDFtWKXmU4JmeQr1cZ5A",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 3,\n    \"lighting\": 3,\n    \"composition\": 2,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows raw/uncooked shredded ingredients in a banana leaf container\",\n    \"No finished dish visible; only preparation stage with loose coconut strands and green ingredients\",\n    \"Essential food components are not assembled or cooked\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title references 'Kalalapun/Klepon' as boiled glutinous rice balls coated with grated coconut, but photograph shows only raw preparation ingredients in a leaf container, not a finished, cooked, served dish\"\n  ],\n  \"reason\": \"Image shows raw/preparation stage only: shredded coconut and other uncooked ingredients loosely arranged in a banana leaf, not a finished, exposed, cooked dish. The source description describes klepon as boiled balls coated with coconut, but the photograph displays only pre-preparation ingredients. This fails the requirement for 'a finished, exposed, likely photographic dish' and violates the rejection criterion 'raw/preparation stages'. Phone thumbnail also fails to show a cohesive, recognisable finished food item. Quality scores reflect lack of food appeal and compositional clarity.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1619,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 401,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
