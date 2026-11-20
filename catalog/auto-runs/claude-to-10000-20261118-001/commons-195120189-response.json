@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDpCCYRmhiPA8FpAdT19",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 5,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Banana leaf serving base consistent with Yogyakarta presentation\",\n    \"White rice mound with oil finish visible\",\n    \"Shredded jackfruit (gudeg gori) in upper left\",\n    \"Spiced meat/vegetable mixture (mercon) in upper right\",\n    \"Dark leafy greens (spinach/kale), fried tofu, orange carrot slices, ground meat components visible\",\n    \"Woven basket presentation typical of regional Indonesian street food\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows all major dish components despite 124x96 size\",\n    \"Rice mound, shredded components, and accoutrements all legible\",\n    \"Natural lighting and warm tones preserved\",\n    \"No clipping of essential food elements\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title contains 'File:' prefix and filename extension (non-canonical metadata)\",\n    \"Species of shredded meat in mercon component not explicitly named in description (only 'oseng-oseng mercon' or 'sambal krecek' referenced)\",\n    \"Ground meat component species not specified in source text\",\n    \"Fried item species ambiguous without explicit source declaration\",\n    \"Description uses 'krecek' (tripe/offal) but does not definitively specify primary meat animals in composition\"\n  ],\n  \"reason\": \"Image quality, composition, sharpness and phone thumbnail all meet acceptance criteria. However, source metadata contains filename elements and the description does not explicitly name any allowed protein category (chicken/beef/pork/duck/lamb/seafood) despite visible meat components. The term 'krecek' (tripe/offal) cannot map to an allowed category, and no unambiguous animal species is quoted in the source text for the mercon, fried items, or ground meat. Per protocol, ambiguous or unspecified meat species requires hold. Identity also fails due to metadata pollution in source title.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1584,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 593,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
