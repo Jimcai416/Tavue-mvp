@@ -12104,3 +12104,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Ebi Fry** — Ocdp. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Ebi_Fry_002.jpg). Local asset: `reviewed-commons-89034235.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Elarji - cornmeal and sulguni cheese** — [Georgia About](http://georgiaabout.com). [CC BY 3.0](https://creativecommons.org/licenses/by/3.0); [source](https://commons.wikimedia.org/wiki/File:Elarji_-_cornmeal_and_sulguni_cheese.jpg). Local asset: `reviewed-commons-38152614.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
