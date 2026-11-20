@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDzVgChgQkPfdyCtPg21",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 2,\n    \"composition\": 2,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Meat pieces on grill grates with flames visible\",\n    \"Active cooking in progress, not finished dish\",\n    \"Severe motion blur and bright flame obscuration\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Species cannot be reliably determined from appearance alone; metadata claims 'lamb' but source metadata is explicitly untrusted\",\n    \"Image shows cooking process, not finished plated dish\",\n    \"Flame obstruction and motion blur prevent clear assessment of doneness and final appearance\"\n  ],\n  \"reason\": \"Reject: This image documents mid-cooking process on active flames rather than a finished, exposed dish. Motion blur, flame obscuration, and severe glare (scores 1–2) prevent assessment of the final product's colour, texture, and doneness. The source title/description alone cannot establish species identity (lamb vs. other meat) without visual corroboration, which is absent here. Preparation stage, not food photography of a completed dish.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1625,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 363,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
