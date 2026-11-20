@@ -157493,5 +157493,53 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 783,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-150590719",
+    "title": "File:Poulet Soubise 01.jpg",
+    "author": "Arnaud 25",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Poulet_Soubise_01.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Poulet_Soubise_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "f0555559453748af7225b74a05482fa480f27c78",
+    "name": "Poulet Soubise",
+    "aliases": [],
+    "proteins": [
+      "chicken"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-150590719.jpg",
+    "assetSha256": "76f74ad8e40aac3f74d3a07d28ba522110da115ce453cca9c9725fe92618ac17",
+    "reviewedAt": "2026-11-20",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-44275140",
+    "title": "File:Filet de bœuf grillé, sauce madère.jpg",
+    "author": "Mokeneco",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Filet_de_b%C5%93uf_grill%C3%A9,_sauce_mad%C3%A8re.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Filet_de_b%C5%93uf_grill%C3%A9%2C_sauce_mad%C3%A8re.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "8c1175441c7cf28a4606daccf07825ffc22e9823",
+    "name": "Filet de bœuf grillé, sauce madère",
+    "aliases": [],
+    "proteins": [
+      "beef"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-44275140.jpg",
+    "assetSha256": "9acd9efaf7d122ac0ec5351281594b79783ad1000b5a37975d6b6d0ea50c3f71",
+    "reviewedAt": "2026-11-20",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 643,
+    "requiresExactMenuName": true
   }
 ];
