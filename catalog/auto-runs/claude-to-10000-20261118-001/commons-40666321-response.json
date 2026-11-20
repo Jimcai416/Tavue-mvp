@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChF34NYV14krG5AA8qR6D",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Spiral pastry cross-section with visible layers\",\n    \"Orange/salmon-coloured filling visible in centre\",\n    \"Dark herb-studded layer (duxelles)\",\n    \"Fresh green salad accompaniment\",\n    \"Herb garnish and oil drizzle\",\n    \"Professional plating on white plate\"\n  ],\n  \"phone_observations\": [\n    \"Pastry spiral clearly visible and sharp\",\n    \"Filling layers readable in thumbnail\",\n    \"Salad component visible and identifiable\",\n    \"Overall composition legible at reduced size\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title states 'Salmon Coulibiac' but no salmon is explicitly named in the description field provided\",\n    \"Description lists only 'Duxelles, Fine Herb, Brown Butter' without naming salmon or any protein\",\n    \"Coulibiac traditionally contains salmon, but the description does not supply an explicit quote naming salmon as a protein component\",\n    \"The word 'Salmon' appears only in the title (metadata), not in the description text\"\n  ],\n  \"reason\": \"Although the photograph shows a finished, well-composed coulibiac with sharp detail, natural colour, and strong appeal, the protein cannot be verified against the supplied description. The source description lists only 'Duxelles, Fine Herb, Brown Butter' and does not explicitly name salmon or any animal protein. While the title contains 'Salmon Coulibiac', instructions specify that only an exact case-sensitive substring of the supplied description can support protein_evidence. The description does not provide this quote. Identity cannot be fully confirmed without explicit protein naming in the description field. Hold applied pending clarification of protein declaration in the source text itself.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1633,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 530,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
