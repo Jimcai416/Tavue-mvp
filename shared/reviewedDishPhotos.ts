@@ -140843,5 +140843,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "height": 640,
     "requiresExactMenuName": true,
     "authorUrl": "https://500px.com/jcdoll"
+  },
+  {
+    "id": "commons-105079616",
+    "title": "File:Lao papaya salad 3.jpg",
+    "author": "T.Tseng",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lao_papaya_salad_3.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/65/Lao_papaya_salad_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "9105988b6f6df29c7853db6cd25eb0ad25b74643",
+    "name": "Papaya salad Lao style",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-105079616.jpg",
+    "assetSha256": "56f1264b1ceda46bd71bcbb160e6a1bcfd8f195bdf2e722bc1ff4779898e0206",
+    "reviewedAt": "2026-11-20",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];

@@ -11089,3 +11089,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Spinach Noodle Kugel** — [J Doll](https://500px.com/jcdoll). [CC BY 3.0](https://creativecommons.org/licenses/by/3.0); [source](https://commons.wikimedia.org/wiki/File:Spinach_Noodle_Kugel_(140491099).jpeg). Local asset: `reviewed-commons-77378370.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Papaya salad Lao style** — T.Tseng. [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Lao_papaya_salad_3.jpg). Local asset: `reviewed-commons-105079616.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
