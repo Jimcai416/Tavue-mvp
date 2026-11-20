@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChExYAxfpvnyqA5NJefPy",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [\n    \"Pale cream-coloured custard visible in bowl\",\n    \"Distinct brown pain d'épices slice partially submerged\",\n    \"Home plate with floral decoration\",\n    \"Natural daylight, sharp detail of components\"\n  ],\n  \"phone_observations\": [\n    \"Custard and gingerbread clearly distinguishable in thumbnail\",\n    \"Brown element identifiable as pain d'épices\",\n    \"Plate and components prominent and readable\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title format is filename (File:Creme anglaise...) not a dish name; metadata only.\",\n    \"Description presents two separate components (crème anglaise + pain d'épices) not a unified dish.\",\n    \"No canonical dish identity provided in source—only ingredient description.\",\n    \"Ambiguous whether this is styled as a prepared dish or a component showcase.\"\n  ],\n  \"reason\": \"Reject: The source metadata lacks a proper canonical dish name—it is a filename with a loose description of two separate components (custard and gingerbread). No recognizable unified dish identity is established by the title or description. While the photograph itself is sharp, well-lit, and appetising, and the components are visually clear, the absence of a specific, stable canonical dish name from the source violates the identity check requirement. The description 'crème anglaise and pain d'épices' reads as ingredient enumeration rather than a named dish. A proper source title identifying this as a recognisable plated dish would be required for acceptance.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1843,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 489,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

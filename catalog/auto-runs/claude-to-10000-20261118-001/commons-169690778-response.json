@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChExYS9j7mwTqsERhWNHh",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Cream/sauce base visible and prominent\",\n    \"Garnished with edible flowers (purple element)\",\n    \"Layered vegetable components (tan/golden pieces)\",\n    \"Fine dining plating in grey bowl\",\n    \"Water glass and table setting consistent with restaurant service\"\n  ],\n  \"phone_observations\": [\n    \"Cream-based sauce clearly visible in thumbnail\",\n    \"Central garnish and toppings readable\",\n    \"Dish prominence and detail adequate for phone review\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title references 'File:' and date as filename metadata, not canonical dish name\",\n    \"Visible components: asparagus (white and green confirmed), cream sauce, floral garnish, almond pieces—but 'liquorice creme anglaise' and 'vin jaune and onion sauce' cannot be visually distinguished or verified in photograph\",\n    \"No animal protein visible or named in source description\",\n    \"Source description contains file metadata (date, restaurant name, author) rather than a clean dish title\"\n  ],\n  \"reason\": \"Identity check fails: source metadata format (File: prefix, date, photographer, location as description) does not constitute a canonical dish name. The description lists sauce components (vin jaune, onion, liquorice creme anglaise) that cannot be visually confirmed or differentiated in the photograph. No protein is present or declared. While photograph and phone quality are adequate, the source title/description does not provide a usable canonical name matching the visible dish. Hold pending clarification of the actual dish name independent of metadata.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1853,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 501,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
