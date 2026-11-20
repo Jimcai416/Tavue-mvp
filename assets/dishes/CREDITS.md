@@ -12258,3 +12258,8 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 - **Masa (wainar shinkafa) and vegetable soup** — Hajjare. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Soup_masa_In_Northern_Nigeria_11.jpg). Local asset: `reviewed-commons-161831231.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Ezogelin soup** — E4024. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Ezogelin_soup.jpg). Local asset: `reviewed-commons-39336793.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Onion Pakora** — Seethabharathi. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Onion_Pakora.JPG). Local asset: `reviewed-commons-40824589.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Vegetable soup - leeks onions pumpkin mushroom** — gran. [CC BY 3.0](https://creativecommons.org/licenses/by/3.0); [source](https://commons.wikimedia.org/wiki/File:Vegetable_soup_-_leeks_onions_pumpkin_mushroom.jpg). Local asset: `reviewed-commons-8454841.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Vegetable soup** — Tiia Monto. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Vegetable_soup_4.jpg). Local asset: `reviewed-commons-49397977.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
