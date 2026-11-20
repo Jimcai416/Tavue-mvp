@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChE6RLimXKTC9TsFiHz7Z",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Fried tortilla pieces visible in brown sauce\",\n    \"White onion rings on top\",\n    \"Green poblano pepper strip\",\n    \"Crumbled white cheese (queso fresco)\",\n    \"Brown/tan gravy broth\",\n    \"Yellow corn kernels visible\",\n    \"Crispy fried chorizo pieces on the side\"\n  ],\n  \"phone_observations\": [\n    \"Dish centre clearly visible in thumbnail\",\n    \"Brown sauce, fried tortilla, cheese and onion rings readable\",\n    \"Sharp enough to identify key components\",\n    \"Not clipped or obscured\"\n  ],\n  \"protein_evidence\": {\n    \"pork\": \"chorizo\"\n  },\n  \"uncertainties\": [\n    \"Source title states 'Huevos Veracruzanos' (Veracruz-style eggs) but no visible eggs in photograph — dish shows enfrijoladas (fried tortilla strips in bean sauce) with chorizo, not egg-based preparation\",\n    \"Description claims 'enfrijoladas rellenas de huevo a la mexicana' (enfrijoladas filled with Mexican-style eggs) but visible form is fried tortilla pieces in sauce without identifiable egg content or tortilla pockets\",\n    \"Title and description do not match the visible dish structure\",\n    \"Chorizo is unspecified as to animal species in source text\"\n  ],\n  \"reason\": \"Identity check fails: source title and description describe a dish centred on eggs (Huevos Veracruzanos, enfrijoladas rellenas de huevo) but the photograph shows fried tortilla pieces and chorizo in brown sauce with no visible eggs or filled tortilla structure. The visible form does not match the declared identity. Chorizo species is unspecified in metadata. Source-declared identity contradiction with photographic evidence requires hold per protocol, but the fundamental mismatch (eggs vs. no eggs) is irreconcilable—reject.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1770,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 585,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
