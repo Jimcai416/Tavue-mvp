@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDQpGU1uEaJvu2ghsXWu",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 5,\n    \"composition\": 5,\n    \"appeal\": 5\n  },\n  \"visible_support\": [\n    \"Cooked, finished dish with crispy, caramelized texture\",\n    \"Golden-brown and reddish-brown coloration consistent with fried anchovies and spice\",\n    \"Prominent subject, well-exposed, naturally coloured\",\n    \"Sharp detail visible in phone thumbnail\"\n  ],\n  \"phone_observations\": [\n    \"Subject remains prominent and identifiable at 124x96\",\n    \"Texture and colour clearly visible\",\n    \"No clipping of essential components\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title references 'Sambal Teri Medan' (anchovy sambal from Medan) but description states 'dilengkapi dengan kacang tanah dan tempe' (accompanied by peanuts and tempeh)\",\n    \"Source metadata lists peanuts and tempeh as accompaniments, but image shows only the spiced fried mixture without clear separation or identification of these components\",\n    \"Teri (anchovies) is not in the allowed protein categories (chicken/beef/pork/duck/lamb/seafood)\",\n    \"Cannot visually confirm presence or proportion of declared accompaniments (peanuts, tempeh) distinct from the main preparation\",\n    \"Unclear if this is a composite dish or if peanuts/tempeh are genuinely visible mixed within\"\n  ],\n  \"reason\": \"The photograph is of excellent technical quality and shows a finished, appetizing cooked dish. However, identity cannot be confirmed because: (1) teri (anchovies) falls outside the allowed protein categories; (2) the description mentions peanuts and tempeh as typical accompaniments, but these cannot be reliably distinguished visually in the image; (3) source metadata and visual evidence do not clearly align on composition. The title 'Sambal Teri Medan' cannot be canonically accepted without an exact match to source description and confirmed presence of only allowed proteins or unambiguous visual evidence of declared components.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1744,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 580,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

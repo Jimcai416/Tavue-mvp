@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDQpWnVq7dspcSQDVatT",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 5,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Dark ceramic bowl with traditional presentation\",\n    \"Finely minced/chopped red chilies and aromatic ingredients\",\n    \"Natural golden-brown and red colour palette\",\n    \"Rustic woven placemat consistent with Indonesian home cooking\",\n    \"Sharp detail of individual minced components in phone thumbnail\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows minced condiment in dark bowl\",\n    \"Red and golden minced texture fully visible and identifiable\",\n    \"Bowl shape and placemat context preserved\",\n    \"No clipping of essential subject matter\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title 'Sambal manggurak' does not appear in supplied metadata title field (only 'File:Sambal manggurak.jpg' filename is present)\",\n    \"No explicit canonical description provided in structured source data to confirm exact dish variant name and spelling\",\n    \"Image appears to be a sambal (Indonesian chili paste condiment) but exact regional variant and ingredient specification cannot be verified from metadata alone\"\n  ],\n  \"reason\": \"Photograph quality, sharpness, lighting, composition and phone thumbnail all meet acceptance criteria. However, identity check fails: the filename contains 'Sambal manggurak' but this does not appear in the structured title or description fields provided. Canonical identity must be derived from explicit source title or description text, not from filename metadata. Without a formal source title or description confirming the exact dish name and variant qualifiers, canonical_name cannot be reliably established. Hold pending clarification of authoritative source title/description.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1730,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 498,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

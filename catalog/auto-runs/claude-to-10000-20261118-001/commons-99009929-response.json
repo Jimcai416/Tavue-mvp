@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDQp54fcg3fuYVxBrDyV",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 3,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows mixed fried components in clear packaging\",\n    \"Small anchovies/teri visible among other fried elements\",\n    \"Red chilli pepper visible\",\n    \"Overall composition unclear due to scale and density\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title claims 'Sambal Goreng Teri Tempe' but tempe (soy product, not a protein category) cannot be verified in the full photograph\",\n    \"Teri (anchovies) are visible but anchovies/small fish are not in the allowed protein category list\",\n    \"The source description identifies 'teri' as a component, but seafood category requires explicit naming of recognised fish species, not regional abbreviations\",\n    \"Unclear if tempe is actually present or identifiable in the dish as cooked\"\n  ],\n  \"reason\": \"Rejection: Although the photograph is sharp and the dish appears to be a finished, fried preparation in natural colours, the protein identity cannot be supported by allowed categories. The source explicitly names 'teri' (Indonesian term for small dried anchovies), but the allowed seafood category requires specific fish species names, not regional abbreviations. Tempe is a soy product, not a meat protein. No chicken, beef, pork, duck, lamb, or named seafood species can be confirmed from the source title or visually verified. The dish cannot be canonically named with supported protein evidence.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1774,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 469,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

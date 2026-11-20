@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDQp6PYef8gXA6Xeodcw",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Red condiment with granular texture and visible sesame seeds\",\n    \"Served on banana leaf\",\n    \"Purple/dark red plate visible beneath\",\n    \"Natural daylight, sharp detail in phone thumbnail\"\n  ],\n  \"phone_observations\": [\n    \"Red granular condiment clearly visible and prominent\",\n    \"Banana leaf wrapping legible\",\n    \"Adequate resolution to identify as a condiment/side dish\",\n    \"Not a finished plated dish\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title references 'Sambal Onion' but the visible dish appears to be sambal (chilli paste/condiment), not a composed dish with identifiable onion as a primary component\",\n    \"Title-description mismatch: 'Spicy Chilli in Indonesia Restaurant' suggests a prepared dish, but image shows a condiment/sauce served as an accompaniment on a leaf\",\n    \"Cannot definitively verify onion as a major visible component—appears to be primarily chilli sambal with sesame seeds\"\n  ],\n  \"reason\": \"Reject: This is a condiment or sauce (sambal) served as a side/accompaniment, not a finished, complete dish suitable for food review. The title claims 'Sambal Onion Spicy Chilli' but the visible form is a sambal paste/condiment without identifiable primary onion content or dish structure. The source metadata describes it as served 'in Indonesia Restaurant' but provides no dish name that matches the visible preparation. Identity cannot be reliably confirmed as a named, complete dish. Condiments and raw preparation stages fall outside acceptance criteria.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1524,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 510,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

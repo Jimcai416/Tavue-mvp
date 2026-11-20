@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDQpFeAGEsJjoLBdcKEM",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Cooked, glistening, chopped/minced protein component with golden-brown caramelization\",\n    \"Orange ceramic plate, natural daylight\",\n    \"Prominent, well-exposed dish in both full and thumbnail views\",\n    \"Characteristic appearance consistent with sambal preparation\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows composed minced/chopped dish on orange plate\",\n    \"Essential components visible at phone size\",\n    \"No clipping of critical elements\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title 'Sambal Teri' references teri (anchovy), but the visible component in this photograph appears to be a cooked minced/chopped meat preparation with size and texture inconsistent with whole or recognizable anchovy pieces. Teri typically refers to small dried anchovies, which would be visibly distinct.\",\n    \"The description mentions 'biasanya disajikan bersama dengan tempe dan juga kacang tanah' (usually served with tempe and peanuts), but only one component is visible in this photograph—the identity and species of the primary cooked protein is not explicitly stated in source text.\",\n    \"No explicit protein species confirmation in source description that matches the visible cooked component. 'Sambal teri' implies anchovy, but the visual form does not clearly support that identification.\"\n  ],\n  \"reason\": \"Hold: While photograph and phone thumbnail quality are excellent (all scores ≥4), and the dish appears to be a finished, appetising sambal preparation, the identity check fails. The source title 'Sambal Teri' implies anchovy (teri), but the visible component in the photograph—a cooked, minced/chopped mixture with meat-like texture and size—does not clearly demonstrate anchovy identity. The source description does not explicitly name the protein species in the primary visible component. Without explicit source confirmation that the visible cooked component is seafood/anchovy, and given the visual ambiguity regarding species, identity cannot be verified. Protein evidence cannot be populated because no exact species-naming quote from title or description matches the visible preparation.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1764,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 621,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
