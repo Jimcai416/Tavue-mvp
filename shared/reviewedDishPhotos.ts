@@ -157763,5 +157763,28 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 640,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-6849323",
+    "title": "File:Lasagnette-with-pumpkin-and-parmesan.jpg",
+    "author": "WordRidden  from Hove, United Kingdom.",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lasagnette-with-pumpkin-and-parmesan.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Lasagnette-with-pumpkin-and-parmesan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "6b4c4f002f80a6d325ab22feb8598790f56f3990",
+    "name": "Lasagnette with pumpkin and parmesan",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-6849323.jpg",
+    "assetSha256": "6f42cde35b7fe01ff6c65f24448d784a7e642c598a2cfc4e4a5c164bca57b4c7",
+    "reviewedAt": "2026-11-20",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true,
+    "authorUrl": "https://www.flickr.com/people/wordridden/"
   }
 ];

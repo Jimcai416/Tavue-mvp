@@ -12628,3 +12628,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 - **Pinchos de tortilla en Barcelona** — [flydime](https://www.flickr.com/photos/98073722@N00). [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:Pinchos_de_tortilla_en_Barcelona.jpg). Local asset: `reviewed-commons-11347080.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Boquerones Fritos** — Tamorlan. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:BoqueronesFritos01.jpg). Local asset: `reviewed-commons-2680110.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Dos pinchos de tortilla de patatas con pimiento** — Tamorlan. [CC BY 3.0](https://creativecommons.org/licenses/by/3.0); [source](https://commons.wikimedia.org/wiki/File:Tapas_(Tortilla-Pimiento).jpg). Local asset: `reviewed-commons-8950702.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Lasagnette with pumpkin and parmesan** — [WordRidden  from Hove, United Kingdom.](https://www.flickr.com/people/wordridden/). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Lasagnette-with-pumpkin-and-parmesan.jpg). Local asset: `reviewed-commons-6849323.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
