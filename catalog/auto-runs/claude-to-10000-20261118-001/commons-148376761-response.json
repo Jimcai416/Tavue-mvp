@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChECkm1VtJtHynbXhS89s",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Grilled meat with sesame seeds, clearly cooked\",\n    \"Fresh raw vegetables: lettuce, green onions, jalapeños, garlic\",\n    \"Grey serving plate, restaurant plating\",\n    \"Phone thumbnail clearly shows meat and vegetable components\"\n  ],\n  \"phone_observations\": [\n    \"Meat and vegetables both prominent and legible\",\n    \"Sesame garnish visible on cooked protein\",\n    \"Fresh vegetables sharply detailed\",\n    \"Overall composition matches full source\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title metadata is in Vietnamese (Món Hàn ng4th8n2022 (thịt nướng và rau sống)) and contains apparent corruption ('ng4th8n2022' is unclear). Title translates roughly to 'Korean dish [date unclear] (grilled meat and fresh vegetables)'.\",\n    \"Meat species cannot be determined from visual appearance alone. The title says 'thịt nướng' (grilled meat) but does not specify beef, pork, chicken, lamb, duck, or seafood with explicit English name.\",\n    \"Description states 'Korean cuisine in Vietnam' but provides no specific dish name in source metadata.\",\n    \"No exact English dish name matching source title/description can be extracted.\"\n  ],\n  \"reason\": \"Photograph and phone thumbnail are of high quality, sharp, well-lit, and appetising. The dish is clearly a grilled meat plate with fresh vegetables. However, the source metadata does not provide a clear, uncorrupted, or specific English dish name. The Vietnamese title contains apparent data corruption ('ng4th8n2022'), and 'thịt nướng' (grilled meat) does not specify the animal protein with the required explicit English naming. Without a readable source title matching the dish and without explicit identification of the meat species from the source description, identity cannot be confirmed and canonical_name cannot be derived. Hold pending clarification of source title and meat species.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1779,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 587,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

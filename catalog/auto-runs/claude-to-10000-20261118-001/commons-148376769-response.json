@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChECkoWp7icBHAQYzus1M",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 5\n  },\n  \"visible_support\": [\n    \"Glazed grilled meat cubes with sesame seeds, charred exterior\",\n    \"Fresh raw vegetables: lettuce, scallions, jalapeños, onion slices\",\n    \"Dipping sauce in blue bowl in background\",\n    \"Professional presentation on grey slate plate\"\n  ],\n  \"phone_observations\": [\n    \"Glazed meat and sesame visible and prominent\",\n    \"Vegetables readable and identifiable\",\n    \"Plate and composition retained in thumbnail\",\n    \"No clipping of essential components\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title contains Vietnamese filename descriptors ('Món Hàn ng4th8n2022 (thịt nướng và rau sống)') rather than a canonical dish name\",\n    \"Meat species not explicitly named in source description—'thịt nướng' means 'grilled meat' but does not specify beef, pork, chicken, or other allowed category\",\n    \"Description only states 'Korean cuisine in Vietnam' without identifying the specific dish name or meat type\",\n    \"Glaze colour and sesame suggest bulgogi or similar Korean grilled meat, but visual appearance alone cannot confirm species\"\n  ],\n  \"reason\": \"Photograph quality, sharpness, composition and appeal are excellent; phone thumbnail is clear and complete. However, identity check fails: the source provides only a generic Vietnamese filename and 'Korean cuisine in Vietnam' description, with no canonical dish name. The meat species is not explicitly stated in source title or description—'thịt nướng' (grilled meat) alone is insufficient to populate protein_evidence. Without explicit species identification from source text, the dish identity cannot be confirmed. Hold pending clarification of dish name and meat type.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1779,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 534,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
