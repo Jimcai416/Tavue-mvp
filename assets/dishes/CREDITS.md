@@ -12590,3 +12590,8 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 
 - **Caprese salad on a stick** — [Larry Hoffman](https://www.flickr.com/people/83886716@N00). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Caprese_salad_skewer_appetizers.jpg). Local asset: `reviewed-commons-35226547.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Ensalada Caprese de tomate y queso** — Juan Emilio Prades Bel. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Ensalada_Caprese_de_tomate_y_queso.jpg). Local asset: `reviewed-commons-120146280.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Salade caprese** — Arnaud 25. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Salade_caprese_02.jpg). Local asset: `reviewed-commons-93895021.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Insalata caprese - burrata** — Arnaud 25. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Salade_caprese_burrata.jpg). Local asset: `reviewed-commons-93895084.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
