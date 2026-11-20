@@ -12834,3 +12834,9 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Semolina gnocchi with sage brown butter** — [Karen and Brad Emerson](https://www.flickr.com/people/10293577@N03). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Semolina_gnocchi_with_sage_brown_butter_(10063056444).jpg). Local asset: `reviewed-commons-103533804.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Crème caramel** — Vivekvaid. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Caramel_Pudding.jpg). Local asset: `reviewed-commons-40794146.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Home made Creme Caramel** — Pradeep717. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:CremeCaramelPrd.jpg). Local asset: `reviewed-commons-57233847.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Tournedos Rossini** — Arnaud 25. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Tournedos_Rossini_1.jpg). Local asset: `reviewed-commons-85267280.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
