@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChEy23ZTPfLPbtJxGqwQr",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 3,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Spiral arrangement of meat slices clearly visible in thumbnail\",\n    \"Unfinished state evident: raw or partially cooked meat visible\",\n    \"Still in baking vessel with parchment paper, not plated or served\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title states 'under construction' — this is a preparation/assembly stage, not a finished dish\",\n    \"Meat species cannot be identified with certainty from appearance alone\",\n    \"No explicit protein naming in source description\"\n  ],\n  \"reason\": \"Rejection: The source metadata explicitly states 'under construction', indicating this is a preparation stage rather than a finished, exposed, ready-to-eat dish. The image shows raw or partially cooked meat arranged in a baking vessel with parchment paper — characteristic of food preparation, not a completed photographic dish suitable for a food review database. Additionally, no meat species is explicitly named in the source title or description, so protein_evidence cannot be populated. Home cooking is welcome, but only when finished and plated; preparation stages are not acceptable.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1734,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 385,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
