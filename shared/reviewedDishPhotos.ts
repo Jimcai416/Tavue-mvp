@@ -135953,5 +135953,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-35334226",
+    "title": "File:Kibbeling Pommes Remoulade Salat.JPG",
+    "author": "Benreis",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kibbeling_Pommes_Remoulade_Salat.JPG",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/14/Kibbeling_Pommes_Remoulade_Salat.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "1c228a2b6e4ef9b42cd2df1eab1d99a5fc08ab7f",
+    "name": "Kibbeling mit Pommes, Remoulade und Salat",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-35334226.jpg",
+    "assetSha256": "5cd7a7fe4e6064540891c7e20609280d448456b73a25ca1a28c7f8006e8d320a",
+    "reviewedAt": "2026-11-20",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 630,
+    "requiresExactMenuName": true
   }
 ];
