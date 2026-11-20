@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDYZC1A87F5imY29UrsL",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 2,\n    \"composition\": 3,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Fish visible but extremely dark and underexposed in thumbnail\",\n    \"Subject legible but minimal detail retained at phone size\",\n    \"Harsh contrast from black background reduces appetitive appeal\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Subject is a raw/uncooked dried fish in preparation or preservation stage, not a finished dish\",\n    \"No food preparation, plating, or serving context visible\",\n    \"Image documents a food ingredient or preservation process, not a culinary dish ready for consumption\",\n    \"Lao common name 'pa tak' does not resolve to a canonical dish identity\"\n  ],\n  \"reason\": \"Reject: This is a raw ingredient or preservation-stage documentation (sun-drying fish), not a finished, exposed, appetising dish. The photograph shows fish in production/drying rather than a prepared meal. Identity check fails because no specific dish name is established—only a fish species and drying process. The image lacks the hallmarks of food photography for a completed dish: no plating, serving context, or culinary presentation. Lighting score reflects severe underexposure and harsh black background that eliminate visual appeal. This falls outside Tavue's scope of finished food photography.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1669,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 414,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
