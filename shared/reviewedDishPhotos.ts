@@ -160242,5 +160242,52 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 723,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-37742687",
+    "title": "File:YorkshirePudding.jpg",
+    "author": "Mr Barndoor",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:YorkshirePudding.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/88/YorkshirePudding.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "4e9a666d20227224e607df5500b8a7bae890aa5b",
+    "name": "Yorkshire pudding filled with mashed potato, beef, gravy and vegetables",
+    "aliases": [],
+    "proteins": [
+      "beef"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-37742687.jpg",
+    "assetSha256": "67a6d2bd42e745ccd5153ba9ce79b8028dc85e564b65627d509a1c5dfdebe9e6",
+    "reviewedAt": "2026-11-20",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 643,
+    "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-2555511",
+    "title": "File:Yorkshire Pudding.jpg",
+    "author": "stef yau  from Seattle, USA",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Yorkshire_Pudding.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Yorkshire_Pudding.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "e6d768a78d50a4961884362895a97d20be39e9c1",
+    "name": "Yorkshire Pudding",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-2555511.jpg",
+    "assetSha256": "d8c2165e26597faa3a8b4898ea5c16c870cab01561b30833442424119630e60b",
+    "reviewedAt": "2026-11-20",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 800,
+    "height": 600,
+    "requiresExactMenuName": true,
+    "authorUrl": "https://www.flickr.com/people/49502976207@N01"
   }
 ];
