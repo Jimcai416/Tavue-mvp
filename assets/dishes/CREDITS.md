@@ -11187,3 +11187,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 - **Deep-fried mantou** — CNEcija12345. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Deep-fried_mantou.jpg). Local asset: `reviewed-commons-164059319.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Shengjian Mantou on a Pan** — Luca Mascaro. [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:Shengjian_Mantou_on_a_Pan.jpg). Local asset: `reviewed-commons-49062670.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Xiao Long Bao at Nanxiang Mantou Dian** — [Eason Lai  from  上海](https://www.flickr.com/photos/eason0303/). [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:Xiao_Long_Bao_at_Nanxiang_Mantou_Dian_2.jpg). Local asset: `reviewed-commons-1668920.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **tom som kraduk mu** — Takeaway. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Tom_som_kraduk_mu.JPG). Local asset: `reviewed-commons-19389165.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.

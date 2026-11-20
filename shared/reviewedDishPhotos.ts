@@ -141966,5 +141966,29 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "height": 720,
     "requiresExactMenuName": true,
     "authorUrl": "https://www.flickr.com/photos/eason0303/"
+  },
+  {
+    "id": "commons-19389165",
+    "title": "File:Tom som kraduk mu.JPG",
+    "author": "Takeaway",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tom_som_kraduk_mu.JPG",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Tom_som_kraduk_mu.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "8307b5c4a7ee4c7ae6ca7ce58f87d9ead825d5e2",
+    "name": "tom som kraduk mu",
+    "aliases": [],
+    "proteins": [
+      "pork"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-19389165.jpg",
+    "assetSha256": "3d8cb8163f2b2c80e0b1dbcfbdc597aa63b51390a42f07c7ab1a9fded53bcb46",
+    "reviewedAt": "2026-11-20",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 636,
+    "height": 960,
+    "requiresExactMenuName": true
   }
 ];
