@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChE7dxyJMxYQzx8tuoQun",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Cooked sausage with browned surface visible in both source and thumbnail\",\n    \"Sliced apples and red onions present throughout the dish\",\n    \"Pan-cooked preparation evident\",\n    \"Natural colours and appetising presentation\"\n  ],\n  \"phone_observations\": [\n    \"Sausage clearly prominent and readable in thumbnail\",\n    \"Apple and onion components visible\",\n    \"Adequate detail for recognition of main elements\",\n    \"No clipping of essential food\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Boudin blanc is a sausage made from offal and meat, but the source title does not explicitly name the animal species\",\n    \"Sausage category cannot be supported: instructions prohibit sausage as a protein_evidence key and forbid guessing which animal sausage contains\",\n    \"Species remains ambiguous without explicit source declaration\"\n  ],\n  \"reason\": \"Image quality, photograph sharpness, lighting, composition and phone thumbnail all meet acceptance criteria. However, the dish identity cannot be accepted because the protein cannot be confirmed. 'Boudin blanc' is a traditional French sausage, but the source title does not explicitly name the animal species (pork, beef, etc.). The instructions require exact source quotes naming each animal and explicitly forbid inferring species from tradition or appearance. Sausage cannot be used as a protein_evidence key. Without species clarification in the source metadata, identity verification fails and the submission must be held.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1742,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 474,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
