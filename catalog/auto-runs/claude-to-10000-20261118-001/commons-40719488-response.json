@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChENaSiJ2kjoBQLrQh9UB",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Golden-yellow legumes with glossy surface coating\",\n    \"Green herbs/spices visible throughout\",\n    \"Red pepper pieces dispersed in mixture\",\n    \"Cooked, finished dish appearance\",\n    \"Prominent and appetizing presentation in both full and thumbnail views\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows cooked chickpea dish\",\n    \"Legume texture and colour readable at small scale\",\n    \"Spice and herb garnish visible\",\n    \"No clipping of essential components\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source metadata describes chole (chickpeas) but provides no explicit protein category match required by review rules\",\n    \"Chickpeas are legumes, not in the allowed protein categories (chicken/beef/pork/duck/lamb/seafood)\",\n    \"Chole is vegetarian with no named animal protein component in source description\"\n  ],\n  \"reason\": \"Reject: Source identifies this as chole (chickpea dish) with no animal protein component. The allowed protein_evidence keys are limited to chicken/beef/pork/duck/lamb/seafood, and an exact source quote naming one of these animals is required for acceptance. The description contains no such quote. While the photograph quality, lighting, composition and phone thumbnail are all excellent (all scores ≥4), the identity check fails because no supported protein can be evidenced from the source material. Vegetarian legume dishes cannot be accepted without an explicit animal protein named in the source title or description.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 2071,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 486,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
