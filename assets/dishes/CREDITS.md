@@ -10713,3 +10713,8 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Pastéis de Nata / Pastéis de Belém** — [Yusuke Kawasaki  from Tokyo, Japan](https://www.flickr.com/people/50902562@N00). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Past%C3%A9is_de_Nata_Past%C3%A9is_de_Bel%C3%A9m_(3780458944).jpg). Local asset: `reviewed-commons-24302147.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Tart telur Portugis (Pastéis de nata)** — Wiki Farazi. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Tart_telur_Portugis_(Past%C3%A9is_de_nata)_20230409_194702.jpg). Local asset: `reviewed-commons-130946155.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Tart telur Portugis** — Wiki Farazi. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Tart_telur_Portugis_(Past%C3%A9is_de_nata)_20230409_195040.jpg). Local asset: `reviewed-commons-130946159.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
