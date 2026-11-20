@@ -11714,3 +11714,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 
 - **Lardons (porc)** — Patrice78500. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Lardons.jpg). Local asset: `reviewed-commons-10791748.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Dry-fried Pork Slices with Lao Gan Ma Sauce** — Yunseul1118. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:%E5%B9%B2%E5%A6%88%E5%9B%9E%E9%94%85%E8%82%89.jpg). Local asset: `reviewed-commons-155950215.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Chicken with hilopites** — Badseed. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Chicken_with_hilopites.JPG). Local asset: `reviewed-commons-6073321.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.

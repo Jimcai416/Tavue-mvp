@@ -147589,5 +147589,29 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 640,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-6073321",
+    "title": "File:Chicken with hilopites.JPG",
+    "author": "Badseed",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chicken_with_hilopites.JPG",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Chicken_with_hilopites.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "344bf5e47532db769c15a83bc39f455dd3bad6d7",
+    "name": "Chicken with hilopites",
+    "aliases": [],
+    "proteins": [
+      "chicken"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-6073321.jpg",
+    "assetSha256": "54e71fc3e6552b4cb8ea3feb04a6a6cb52887a7d7fe5ced4629222fb6ea0f987",
+    "reviewedAt": "2026-11-20",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 641,
+    "requiresExactMenuName": true
   }
 ];
