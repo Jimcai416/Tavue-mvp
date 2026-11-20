@@ -10580,3 +10580,10 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Nabe being made at a dinner party in Japan** — Sgroey. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Nabe_being_made_at_a_dinner_party_in_Japan.jpg). Local asset: `reviewed-commons-115941463.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Yayla soup** — E4024. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Yayla_or_yogurt_soup.jpg). Local asset: `reviewed-commons-39350304.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Yayla soup (Turkish cuisine)** — E4024. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Yayla_soup_(Turkish_cuisine).jpg). Local asset: `reviewed-commons-38877281.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Yayla çorbası of Turkey** — E4024. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Yayla_%C3%A7orbas%C4%B1_of_Turkey.jpg). Local asset: `reviewed-commons-50749239.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Beet poké with nori chips** — Missvain. [CC BY 4.0](https://creativecommons.org/licenses/by/4.0); [source](https://commons.wikimedia.org/wiki/File:Sigh_and_Elaine_Bell_Catering_Pop-Up,_Sonoma,_California_08.jpg). Local asset: `reviewed-commons-93906806.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
