@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChE5aQqhwiW5y9eD7DQya",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 5,\n    \"appeal\": 5\n  },\n  \"visible_support\": [\n    \"Wide hand-pulled noodles visible in bowl\",\n    \"Ground meat topping (species unconfirmed)\",\n    \"Scrambled egg visible\",\n    \"Fresh green vegetables (bok choy or similar)\",\n    \"Red chilli or tomato garnish\",\n    \"Chopsticks present\",\n    \"Traditional Chinese serving bowl with decorative rim\"\n  ],\n  \"phone_observations\": [\n    \"Noodle dish clearly visible at centre\",\n    \"Meat component and egg distinguishable\",\n    \"Green vegetables visible\",\n    \"Bowl shape and chopsticks readable\",\n    \"Overall composition matches full source\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Meat species cannot be determined from visual appearance alone; source title does not explicitly name the animal protein used\",\n    \"Description states 'Biáng Biáng noodles' but does not specify whether the meat topping is beef, pork, lamb or another species\",\n    \"Ground meat texture and colour are ambiguous regarding animal origin\"\n  ],\n  \"reason\": \"Image quality, sharpness, lighting, composition and appeal all exceed thresholds. Phone thumbnail is clear and readable. However, the identity check fails because the source description 'Biáng Biáng noodles, a type of wide, hand-pulled noodles from Shaanxi, China' does not explicitly name the protein species visible in the dish. The ground meat topping is prominent but its animal source is not stated in the supplied title or description—only inferred from regional tradition. Per protocol, unknown or unspecified meat species require a hold. No exact case-sensitive substring from source text explicitly identifies the protein as chicken, beef, pork, duck, lamb or seafood.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1655,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 535,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
