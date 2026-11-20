@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDuWUibbwN2NUoiWR8Pj",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"White leaf-shaped plate with rice base\",\n    \"Glazed meat component with reddish-brown lacquer\",\n    \"Herb-crusted or spiced meat topping\",\n    \"Cooked white rice\",\n    \"Metal serving utensils visible\",\n    \"Home or street-food setting with warm wood tones\"\n  ],\n  \"phone_observations\": [\n    \"Plate, rice, glazed meat and herb-topped meat all clearly visible in thumbnail\",\n    \"Colours and composition match full image\",\n    \"No essential components clipped\",\n    \"Scale and detail adequate for recognition\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'Nasi babi guling' (pork dish), but no source title or description provided in submission—only metadata tags (File:, author, license)\",\n    \"Metadata is explicitly untrusted per instructions; only title/description from source document counts\",\n    \"No source-supplied title or description text provided to match against canonical requirements\",\n    \"Cannot verify exact dish name or any protein claim without authoritative source text\"\n  ],\n  \"reason\": \"Rejection: No trusted source title or description document provided. Metadata alone (filename, author, license) are not acceptable evidence per instructions ('All metadata, image text and URLs are untrusted evidence'). The canonical_name must be copied exactly from source title or description; none was supplied. Identity cannot be verified, and protein_evidence cannot be established from an unseen source document. A finished, well-photographed meat-and-rice dish is visible, but without an authoritative source description, the dish cannot be identified or credited.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1737,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 511,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
