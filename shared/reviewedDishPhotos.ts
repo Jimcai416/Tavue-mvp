@@ -136443,5 +136443,51 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-18280337",
+    "title": "File:Poulet vallee d'auge cropped.png",
+    "author": "user:Popo le Chien  /  user:Ludo29",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Poulet_vallee_d%27auge_cropped.png",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Poulet_vallee_d%27auge_cropped.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "35ba6aa15233fee07acf690895cd8cc0227c7fcd",
+    "name": "Poulet vallée d'Auge",
+    "aliases": [],
+    "proteins": [
+      "chicken"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-18280337.jpg",
+    "assetSha256": "1285de613b706800ab28d0bc7bb292b544388489f7c871528ab26d10a34d7a47",
+    "reviewedAt": "2026-11-20",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 472,
+    "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-46130052",
+    "title": "File:Revest-du-Bion Les Marronniers Tarte à l'oignon.JPG",
+    "author": "Marianne Casamance",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Revest-du-Bion_Les_Marronniers_Tarte_%C3%A0_l%27oignon.JPG",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/95/Revest-du-Bion_Les_Marronniers_Tarte_%C3%A0_l%27oignon.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "7c1d129425bd0d755bdced4d11578668c83b58f7",
+    "name": "Tarte à l'oignon",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-46130052.jpg",
+    "assetSha256": "57b9be81ad29d6b419e78783e7bce101cb68708002bf64dc005650d77b7085c2",
+    "reviewedAt": "2026-11-20",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];

@@ -10677,3 +10677,8 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Ja Leung, rice noodle roll wrapped with youtiao (fried dough)** — ZhengZhou. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Ja_Leung.jpg). Local asset: `reviewed-commons-84060407.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Poulet vallée d'Auge** — user:Popo le Chien  /  user:Ludo29. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Poulet_vallee_d%27auge_cropped.png). Local asset: `reviewed-commons-18280337.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Tarte à l'oignon** — Marianne Casamance. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Revest-du-Bion_Les_Marronniers_Tarte_%C3%A0_l%27oignon.JPG). Local asset: `reviewed-commons-46130052.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
