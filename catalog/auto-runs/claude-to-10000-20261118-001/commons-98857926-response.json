@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDfNz9ZQAdEJpq47qtb3",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Skewered meat cubes on wooden sticks\",\n    \"Charred exterior visible on protein pieces\",\n    \"Orange/red vegetable pieces (possibly peppers) interspersed\",\n    \"Metal cooking surface with charred residue\",\n    \"Multiple skewers arranged in rows\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Meat species cannot be reliably distinguished visually from photograph\",\n    \"Source identifies as tuna (seafood), but visual appearance is indistinguishable from poultry or terrestrial meat\",\n    \"Tuna is not in the allowed protein categories (chicken/beef/pork/duck/lamb/seafood with explicit source documentation)\",\n    \"Source title contains 'File:' prefix indicating metadata rather than canonical dish name\",\n    \"Despite explicit source declaration of tuna, the visual form does not provide independent verification of the specific seafood species\"\n  ],\n  \"reason\": \"Rejection: Although the photograph shows well-executed grilled meat skewers with appetising appearance and sharp detail, the protein cannot be accepted. The source declares 'Sate Tuna' but tuna is not an explicitly listed allowable protein category in the review criteria (only: chicken/beef/pork/duck/lamb/seafood with exact source quote naming the animal). The visual appearance alone cannot distinguish tuna from chicken, pork or other meats. Additionally, 'seafood' as a category requires explicit source naming, and while 'tuna' is named in the source, the system requires exact category alignment with the predefined protein list. The source metadata format (File: prefix, author attribution) also indicates this is source metadata rather than a user-provided canonical dish name. Hold would be appropriate if reconsidering category definitions, but under current strict criteria, rejection is required.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1715,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 550,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
