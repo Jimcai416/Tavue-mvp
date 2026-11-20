@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChEqzPuwKx1kuvfM3bZnt",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"white parchment paper wrapping consistent with en papillote preparation\",\n    \"pale flesh visible beneath parchment, consistent with white fish\",\n    \"green vegetable pieces (baby artichokes) clearly visible\",\n    \"small red slice consistent with declared dish components\"\n  ],\n  \"phone_observations\": [\n    \"parchment wrapping clearly visible in thumbnail\",\n    \"pale fish flesh discernible\",\n    \"green vegetables prominent\",\n    \"red accent visible\",\n    \"composition matches full image adequately\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title references 'sustainable West Coast cod' and 'lobster', but source metadata format (File:, author field, license) is untrusted per instructions\",\n    \"Visible pale fish is consistent with cod, but species cannot be definitively confirmed from appearance alone\",\n    \"No lobster is visibly identifiable in either photograph; only parchment, white fish, artichokes and minor garnish are evident\",\n    \"Source description does not match visible content: lobster declared but not photographically present\",\n    \"Canonical name cannot be extracted from metadata as it is classified as untrusted evidence\"\n  ],\n  \"reason\": \"Identity check fails: source metadata describes 'lobster' as a component, but no lobster is visibly present in either the full photograph or thumbnail. Only white fish (consistent with cod), baby artichokes, and minor garnish are evident. Per protocol, metadata including title and description are untrusted evidence and cannot serve as the basis for canonical_name. The visible dish components do not align with the declared ingredient list. Hold pending clarification of actual dish identity and confirmation of all named proteins through visual or trusted explicit evidence.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1630,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 524,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

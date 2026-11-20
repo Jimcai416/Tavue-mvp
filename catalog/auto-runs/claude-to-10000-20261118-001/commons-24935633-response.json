@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChEqzhpTFsZus9No19UwU",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Sliced bread visible\",\n    \"Cheese (appears to be white/pale cheese slices) present\",\n    \"Cured meat (saucisson sec) visible between bread slices\",\n    \"Corn/sweetcorn visible as filling\",\n    \"Plate presentation on wooden board\"\n  ],\n  \"phone_observations\": [\n    \"Sandwich halves clearly visible in thumbnail\",\n    \"Layered structure of bread, cheese, and meat distinguishable\",\n    \"Overall composition readable and coherent\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title states 'saucisson sec' but this is a generic cured sausage category—exact species (pork/beef/game) is not explicitly named in the source\",\n    \"Cheese type is not specified in the source description\",\n    \"Corn/sweetcorn filling is visible but not mentioned in the source title or description\"\n  ],\n  \"reason\": \"Reject: The protein 'saucisson sec' cannot be accepted because it is an unspecified sausage category without explicit species identification (pork, beef, etc.) in the source title or description. Per protocol, unspecified sausage species must not be guessed or inferred from appearance or tradition, and cannot be used as a protein key. The source does not provide sufficient named protein evidence to meet acceptance criteria.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1732,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 449,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
