@@ -12692,3 +12692,8 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 
 - **Chicken Piccata** — MattCC716. [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:Chicken_Piccata_-_52060244637.png). Local asset: `reviewed-commons-140923593.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **pandoro** — Affitisciuto. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Commercial_pandoro.jpg). Local asset: `reviewed-commons-99622189.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Fresh Burrata served with Sourdough Bread, Cherry Tomatoes, Rocket and Basil** — Andy Li. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Burrata_-_Nanninella.jpg). Local asset: `reviewed-commons-131647164.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Mozzarella di bufala tartufo, huile de truffe et roquette** — Romainbehar. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Lyon_6e_-_Quai_Charles_de_Gaulle_-_Casa_Raphaela_-_Mozzarella_di_bufala_tartufo.jpg). Local asset: `reviewed-commons-108613158.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
