@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDUqE1BTgBpqqBrgfS5N",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Roasted whole pig carcass visible in full source image\",\n    \"Golden-brown crispy skin characteristic of hornado\",\n    \"Kitchen/market preparation setting evident\",\n    \"Multiple finished specimens on display\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail shows only close cropped detail of roasted meat surface\",\n    \"Essential subject identification—whole pig form—is clipped and not readable\",\n    \"Cannot distinguish hornado as a specific finished dish from thumbnail alone\",\n    \"No recognizable dish boundary or complete subject visible in phone crop\"\n  ],\n  \"protein_evidence\": {\n    \"pork\": \"asado de cerdo\"\n  },\n  \"uncertainties\": [],\n  \"reason\": \"Rejection: Phone thumbnail fails acceptance criteria. The 124×96 centre-cover crop shows only a close detail of the roasted meat surface, with the characteristic whole-pig carcass form completely clipped and unreadable. The thumbnail does not present the finished, exposed dish with readable essential components required for phone review. Although the full source photograph is sharp, well-lit, and shows hornado clearly in a market setting, the phone thumbnail alone cannot communicate the dish identity or finished state. Identity is supported by source description ('asado de cerdo' / pork roast, hornado, Ecuador), but phone_thumbnail check fails.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1793,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 434,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

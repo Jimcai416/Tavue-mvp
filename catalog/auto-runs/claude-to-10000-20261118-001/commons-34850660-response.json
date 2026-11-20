@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDUpdnPtdFohj7eFAsUm",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Golden-roasted meat with glossy exterior in ceramic bowl\",\n    \"Yellow root vegetables (plantains or yuca)\",\n    \"Shredded cabbage or lettuce\",\n    \"Diced onion, tomato, and cilantro garnish\",\n    \"Shredded meat component visible\",\n    \"Traditional earthenware presentation\"\n  ],\n  \"phone_observations\": [\n    \"Yellow starch clearly visible and prominent\",\n    \"Shredded vegetable component readable\",\n    \"Meat component visible\",\n    \"Bowl colour and form distinct\",\n    \"Sufficient detail for dish recognition\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title 'Gastronomia_Hornado (37)' is a filename, not a dish description—no explicit animal species declared\",\n    \"Hornado typically refers to roasted meat, but species (pork/beef/lamb) cannot be visually confirmed and is not explicitly stated in metadata\",\n    \"Cannot verify meat identity from appearance alone without source quote\",\n    \"Actual canonical dish name cannot be extracted from the filename\"\n  ],\n  \"reason\": \"Photograph quality, sharpness, lighting and composition are strong (all ≥4). Phone thumbnail is clear and recognizable. However, the identity check fails: the source metadata provides only a filename ('File:Ama la Vida - Flickr - Gastronomia Hornado (37) (14294945111).jpg') and a generic description ('Gastronomia_Hornado (37)'), not an explicit dish title or animal species declaration. 'Hornado' is a cooking method (roasting) but does not specify the meat type. No exact canonical phrase naming the dish and its protein can be extracted from the supplied metadata. Protocol requires a specific source quote matching the canonical_name and explicit animal naming; a filename does not meet this standard. Hold pending clarification of the actual dish name and meat species from authoritative source description.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1649,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 586,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
