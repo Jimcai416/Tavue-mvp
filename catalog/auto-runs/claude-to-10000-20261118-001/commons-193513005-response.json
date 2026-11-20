@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDzJCuqT4NeCqKZYAh2L",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Golden, laminated croissant with sea salt topping\",\n    \"Filled with green vegetable (appears to be asparagus) and pale cheese sauce\",\n    \"Croissant cross-section clearly visible in both full and thumbnail images\",\n    \"Finished, exposed dish prominently displayed in hand\"\n  ],\n  \"phone_observations\": [\n    \"Croissant clearly identifiable in thumbnail\",\n    \"Green filling and pale sauce visible\",\n    \"Hand-held presentation maintains subject prominence\",\n    \"Adequate detail for recognition\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'Asparagus Welsh Rarebit Croissant' but Welsh Rarebit is a cheese sauce dish traditionally served on toast, not a croissant filling. The source description contradicts the visual form.\",\n    \"No savory cheese sauce typical of Welsh Rarebit is visually apparent; the pale filling appears more delicate.\",\n    \"Asparagus is visible but the dish identity itself (Welsh Rarebit on/in croissant vs. asparagus croissant with cheese) is ambiguous.\",\n    \"Source metadata indicates 'Burnt' in filename; no visible burning detected in the photograph, contradicting this claim.\"\n  ],\n  \"reason\": \"Identity check fails due to source contradiction: the title 'Asparagus Welsh Rarebit Croissant' describes a conceptual mismatch. Welsh Rarebit is a classic cheese sauce dish served on toast; applying this name to a croissant is non-standard and creates ambiguity about the actual dish identity. The visual evidence shows a croissant with asparagus and a pale filling, but cannot confirm the specific preparation or sauce claimed. Photography quality is good, but the semantic inconsistency between source description and dish form prevents confident identity confirmation. Hold would be appropriate, but the fundamental contradiction between the stated dish name and typical dish preparation means rejection is warranted.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1754,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 578,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDzHq2gzuW6XnRF3SFBi",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Smooth, creamy yellowish soup in white bowl\",\n    \"Black pepper flecks visible throughout\",\n    \"Natural restaurant lighting\",\n    \"Finished plated dish\"\n  ],\n  \"phone_observations\": [\n    \"Soup remains clearly visible in thumbnail\",\n    \"Creamy colour and pepper specks preserved\",\n    \"Bowl rim and spoon edge visible\",\n    \"Adequate detail for recognition\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title states 'oyster soup' but no oysters are visually identifiable in either image\",\n    \"Oysters would be essential to verify identity of oyster soup; their absence or hidden presence cannot be confirmed from photograph alone\",\n    \"Soup could be any pale, creamy broth-based soup (potato, celery, leek, seafood bisque, etc.)\",\n    \"No shells, meat pieces, or characteristic oyster elements visible\"\n  ],\n  \"reason\": \"Identity check fails. The source description claims 'oyster soup,' but no oyster material is visibly evident in the photograph. The dish appears to be a smooth, creamy, pale soup with black pepper—consistent with many soups but not specifically identifiable as oyster soup from visual evidence alone. Per protocol, hidden flavours may be source-declared but cannot be visually proven. The absence of any visible oyster components (shells, meat, characteristic texture) creates sufficient uncertainty to hold for clarification rather than accept on description alone.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1728,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 472,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
