@@ -150616,5 +150616,30 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 697,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-15406996",
+    "title": "File:Chennai Banana Leaf Dosa.jpg",
+    "author": "avlxyz at  Flickr",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chennai_Banana_Leaf_Dosa.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/df/Chennai_Banana_Leaf_Dosa.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "68d0e8b4ed12560a4e5675dbf008d1086436743c",
+    "name": "Chicken, Carrot, Mixed Veg Curries, Dosai, Idli, Uthaapam",
+    "aliases": [],
+    "proteins": [
+      "chicken"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-15406996.jpg",
+    "assetSha256": "d81d590abb73916ff225b877c4e7ed89b5df1c8fe21ce5f2a7c458d25e1fae04",
+    "reviewedAt": "2026-11-20",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true,
+    "authorUrl": "https://www.flickr.com/photos/avlxyz/with/2068576214/"
   }
 ];
