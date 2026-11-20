@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDZZdKXbyYQU2x2gC5rz",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Six elongated boat-shaped flatbreads on a metal grill\",\n    \"Golden-brown baked surface with visible minced meat topping\",\n    \"Characteristic pide boat shape with slightly raised edges\",\n    \"Even browning and appetising appearance\",\n    \"Clear detail in phone thumbnail showing minced topping\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows minced meat distribution across pide surface\",\n    \"Boat shape and grill grate visible\",\n    \"Golden colour and texture readable at reduced resolution\",\n    \"Essential food components identifiable\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title is 'Kıymalı pide' but metadata format 'File:Kiymalipide2.jpg' and filename extension are not authoritative sources for canonical naming\",\n    \"Description 'Kıymalı pide.' matches title exactly but provides no explicit protein species declaration\",\n    \"Kıymalı means 'minced meat' in Turkish but the specific animal species (beef, lamb, etc.) is not explicitly stated in source title or description\",\n    \"Visual appearance suggests minced meat filling but cannot determine exact protein species from appearance alone without source declaration\"\n  ],\n  \"reason\": \"Image quality, photograph authenticity and phone thumbnail are all acceptable. However, identity check fails because the source provides no explicit protein species declaration. While 'Kıymalı pide' is a legitimate Turkish dish name and the visual elements match (minced meat topping on boat-shaped flatbread), the protocol requires exact source quotation explicitly naming the animal for protein evidence. The source only states 'kıymalı' (minced), not the specific meat type. This ambiguity requires hold pending clarification of the actual protein species used.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1729,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 547,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

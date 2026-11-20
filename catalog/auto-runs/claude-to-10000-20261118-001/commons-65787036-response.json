@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDZa1dxbwn3Ne7g97iTE",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 3,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [\n    \"Reddish-brown broth in white bowl\",\n    \"Visible seafood (clams/mussels with shells)\",\n    \"Fresh green herbs scattered throughout\",\n    \"Spoon with broth and ingredients\",\n    \"Natural home/street food setting\"\n  ],\n  \"phone_observations\": [\n    \"Soup bowl clearly visible in thumbnail\",\n    \"Shell-containing seafood prominent in centre-cover\",\n    \"Broth colour and ingredients readable\",\n    \"Legible as a prepared dish\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'Chicken and orzo soup' but visible shells (clams/mussels) are unambiguous seafood, not chicken\",\n    \"No orzo pasta visibly distinguishable in either full or thumbnail image\",\n    \"Source title–to–visible-content mismatch is fundamental: poultry vs. shellfish are incompatible proteins\"\n  ],\n  \"reason\": \"Identity check failed. Source title explicitly names 'Chicken and orzo soup', but the photograph displays a shellfish soup with clearly visible clams or mussels in their shells. No chicken is visibly present, and orzo pasta is not distinguishable. This is a direct contradiction between declared identity and visible form. The dish cannot be accepted without resolution of this conflict. Clams/mussels are not in the allowed protein_evidence categories, and the source description does not explicitly name the actual visible shellfish species.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1736,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 474,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

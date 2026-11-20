@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDZaXEgtE9tGYdrfaa2B",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Cooked poultry strips with charred edges on white plate\",\n    \"Green pepper slices visible\",\n    \"Onion garnish present\",\n    \"Red and white checked tablecloth\",\n    \"Fork and knife framing\",\n    \"Appetising presentation of prepared meat dish\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows plated meat with vegetables\",\n    \"Cooked poultry visible and prominent\",\n    \"Green and white vegetable garnish readable\",\n    \"Plate composition readable in reduced format\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'Tavuk döner (on pilav)' but visible plate shows no pilav/rice base—only meat, peppers, and onion on white plate\",\n    \"Description-image mismatch: döner preparation typically involves vertical rotisserie meat; this appears to be sliced/cut poultry cooked in a different style\",\n    \"No rice or pilav visible despite title specification 'on pilav'\",\n    \"Species 'tavuk' (Turkish for chicken) is not explicitly named in English in source metadata; identity depends on translation of non-English title\"\n  ],\n  \"reason\": \"Identity check fails: source title 'Tavuk döner (on pilav)' promises a dish served on pilaf/rice, but the photograph shows only seasoned poultry strips with vegetable garnish on an empty white plate—no rice base is visible. The preparation style also does not match typical döner (rotisserie) presentation. The protein species ('tavuk'=chicken in Turkish) is not explicitly confirmed in English-language title/description text, only in the filename. Source title-to-visible-dish correspondence is broken, preventing confident identity acceptance.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1728,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 543,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

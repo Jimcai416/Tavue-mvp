@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDZZdLGmKp73e14S4Tvm",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 2,\n    \"composition\": 3,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Plate visible with rice and dark topping components\",\n    \"Overall composition recognizable but severely blurred in both source and thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title references two dishes (musakka and pilav) but photograph quality does not permit confident identification of either component\",\n    \"Severe motion blur and soft focus prevent reliable assessment of dish identity, preparation stage, and essential components\",\n    \"Eggplant musakka composition not visually verifiable; topping appears dark but specific ingredients indeterminate\",\n    \"Rice pilav present but quality insufficient to confirm finished, appetising state\"\n  ],\n  \"reason\": \"Reject: photograph fails sharpness requirement (score 2/5) and appeal requirement (score 2/5). Severe motion blur and soft focus throughout both full image and thumbnail prevent confident identification of the finished dishes named in source title. While composition is recognizable and photograph is technically a photo (not illustration), the image quality does not meet the standard for 'sharply detailed' or 'appetising' appearance. No protein species explicitly named in source description. Essential quality thresholds not met.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1774,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 403,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
