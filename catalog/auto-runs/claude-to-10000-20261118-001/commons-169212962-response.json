@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChEnsFugiRrJSmt75pwpb",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 5,\n    \"appeal\": 4\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Cake top with powdered sugar coating visible\",\n    \"Chocolate decoration/text clearly readable\",\n    \"Rounded cake form prominent in thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source metadata labels this as an illustration or file (File: prefix), not a submitted food photograph\",\n    \"Metadata indicates cocoa powder and powdered sugar decoration applied deliberately—consistent with cake decoration styling rather than natural food photography\",\n    \"Author attribution and CC license metadata suggest this is a curated/designed image, not a candid user photograph of a dish at service\",\n    \"Title contains 'Faraglioni design'—the decorative pattern is intentional artwork rather than evidence of authentic food identity\"\n  ],\n  \"reason\": \"Reject: Although the image shows a finished, sharply detailed cake with appealing composition, the source metadata identifies this as a file with intentional decorative design ('Faraglioni design', cocoa powder and powdered sugar applied as deliberate decoration), and carries a CC license with author attribution. This indicates the image is a styled illustration or deliberately designed photograph rather than an unmodified candid food photograph. The File: prefix in the title reinforces that this is a curated/archived resource, not a user-submitted dish photo. Tavue's criteria require representative food photographs; this appears to be a designed or illustrative image. The dish identity 'Torta caprese' cannot be verified against the visible form alone—the decoration is applied design, not proof of the underlying cake's true composition or authenticity.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1890,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 488,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
