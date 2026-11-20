@@ -152692,5 +152692,52 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "height": 640,
     "requiresExactMenuName": true,
     "authorUrl": "https://www.flickr.com/photos/15441925@N00"
+  },
+  {
+    "id": "commons-63810041",
+    "title": "File:Drachena-kartofelnaya 216.jpg",
+    "author": "Unknown author Unknown author",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Drachena-kartofelnaya_216.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Drachena-kartofelnaya_216.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "1711d20f1e3f5f261c394301a93039c785447b16",
+    "name": "Картофельная дрочёна",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-63810041.jpg",
+    "assetSha256": "fbef275758bc5970ef4c12058f1cd8f3ce7e3dc1748ed8bf8f1e59eb4b53c1b1",
+    "reviewedAt": "2026-11-20",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 800,
+    "height": 600,
+    "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-3483381",
+    "title": "File:ShaoxingWineChickenWings.jpg",
+    "author": "Alpha",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:ShaoxingWineChickenWings.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/15/ShaoxingWineChickenWings.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "43ff44a655959d3756640716bee2cf1160c9f34d",
+    "name": "Shaoxing Wine Chicken Wings",
+    "aliases": [],
+    "proteins": [
+      "chicken"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-3483381.jpg",
+    "assetSha256": "b97f93a783c630067efe76afea15cd8669aa9c49d3817081ac59177a8c5bc1dc",
+    "reviewedAt": "2026-11-20",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true,
+    "authorUrl": "https://www.flickr.com/photos/10559879@N00"
   }
 ];
