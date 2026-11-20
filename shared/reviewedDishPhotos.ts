@@ -145535,5 +145535,30 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 636,
     "height": 960,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-6923916",
+    "title": "File:Babi guling.jpg",
+    "author": "Rollan Budi  from Vancouver, BC, Canada",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Babi_guling.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/08/Babi_guling.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "42eddf43bd253f4f99ba4fcad35c029a88e1dce8",
+    "name": "Babi guling",
+    "aliases": [],
+    "proteins": [
+      "pork"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-6923916.jpg",
+    "assetSha256": "8fc07cf42f30e16c8dff8cec748c0d9e6e2d33ef0ac4a079a5b483d4e597d8d3",
+    "reviewedAt": "2026-11-20",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true,
+    "authorUrl": "https://www.flickr.com/people/25866036@N05"
   }
 ];
