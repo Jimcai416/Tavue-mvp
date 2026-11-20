@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChEhp9ZX7iCUqVtJckfX5",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": \"Torreznos entreverados\",\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Cubed, browned, crispy meat pieces on white plate\",\n    \"Golden-brown exterior with visible char and seasoning\",\n    \"Appetising colour and texture typical of fried pork offal\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail shows cubed, browned pieces clearly\",\n    \"Seasoning and texture legible at 124x96\",\n    \"Prominent subject fills frame appropriately\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Torreznos are traditionally pork rind/belly (entreverado = interlarded with fat and lean), but the source title does not explicitly name 'pork'\",\n    \"Meat species cannot be inferred from tradition or appearance alone; only explicit source quotation of animal species counts\",\n    \"No protein category can be supported without direct naming in title/description\"\n  ],\n  \"reason\": \"Image quality, sharpness, lighting, composition and phone legibility all pass. Dish identity is 'Torreznos entreverados' from source title. However, the source provides no explicit statement of protein species (e.g. 'pork torreznos'). Although torreznos are traditionally pork, the rules forbid inferring species from tradition, appearance or generic meat descriptions. Without an exact case-sensitive source quote naming the animal, protein_evidence remains empty and identity check fails. Hold pending clarification of explicit protein naming in source metadata.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1618,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 477,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
