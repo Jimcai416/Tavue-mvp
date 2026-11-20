@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDNRvsxKERJeeuwnh4CQ",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 3,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Stewed meat in rich brown sauce with peas and red peppers\",\n    \"Garnished plate with decorative sauce drizzle\",\n    \"Accompanied by fresh-cut chips and bread basket\",\n    \"Restaurant dining setting with wine service\"\n  ],\n  \"phone_observations\": [\n    \"Plated stew clearly visible in phone thumbnail\",\n    \"Sauce and vegetable components readable\",\n    \"Plate and utensils appropriately framed\",\n    \"Dish prominence sufficient for identification attempt\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title declares 'Civet de lapin' (rabbit stew) but rabbit is not an allowed protein category\",\n    \"Species cannot be confirmed from visual appearance alone—meat could be rabbit, game, or another small animal\",\n    \"No explicit, unambiguous visual proof of the specific animal type in the photograph\",\n    \"Rabbit is explicitly excluded from allowed protein categories (chicken/beef/pork/duck/lamb/seafood only)\"\n  ],\n  \"reason\": \"Identity check fails. The source title 'Civet de lapin à Malte' names rabbit (lapin) as the protein, but rabbit is not an allowed category and cannot be visually confirmed as the dish's meat component. The stew's appearance is consistent with the general description, but the species ambiguity combined with the declared rabbit specification and the lack of an allowed protein category match prevents acceptance. Hold pending clarification of actual protein or resubmission with a dish containing an allowed meat type.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1732,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 486,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDNR6d4x1siPCXqbNYMb",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Spiced meat slices (brown coating, paprika/sumac visible)\",\n    \"Pita bread, lightly charred\",\n    \"Yellow potato slices layered on top\",\n    \"White sauce/tzatziki visible\",\n    \"Red tomato slice\",\n    \"Pink onion slice\",\n    \"Street food presentation in paper wrap\"\n  ],\n  \"phone_observations\": [\n    \"Meat, potatoes, sauce, tomato and onion all clearly visible in thumbnail\",\n    \"Pita bread structure evident\",\n    \"Appetising composition with strong colour contrast\",\n    \"No clipping of essential components\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title 'Pita Gyros à Almyrida (juillet 2021) - 2.jpg' does not explicitly name the meat species. 'Gyros' is a traditional Greek preparation but the exact animal (pork, chicken, lamb, beef) is not stated in the supplied title or description.\",\n    \"Visible meat characteristics (colour, texture, spicing) are consistent with pork gyros traditionally served in Greece, but this cannot override the requirement for explicit source naming.\",\n    \"The description provides only location and date ('Almyrida, Crète, juillet 2021'), not ingredient details.\"\n  ],\n  \"reason\": \"The photograph is of high quality with sharp detail, natural lighting, good composition and strong appeal. The pita gyros is a finished, exposed dish with prominent, readable components visible in both full and thumbnail views. However, the source title and description do not explicitly name the meat species. Per instructions, hidden flavours and species must never be inferred from appearance, tradition or generic preparation type—only explicit source quotes are accepted. Without a source statement naming the specific animal (pork/chicken/lamb/beef), protein_evidence cannot be populated and identity check fails. Hold for source clarification of meat type.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1990,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 571,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
