@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDu8o6nD7Y11Nos2R3Ni",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Golden-fried paneer cubes with green herb garnish visible in platter\",\n    \"Brown-crusted flat items consistent with mushroom tikka\",\n    \"Green-tinted oval patties matching hara bhara kabab description\",\n    \"Cone-shaped fried item visible on right side\",\n    \"Cabbage leaf bed as described\",\n    \"Natural lighting, sharp detail, appetising presentation\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows mixed platter composition\",\n    \"Golden and brown fried items distinctly visible\",\n    \"Green-crusted patties evident\",\n    \"Cone-shaped item on right side visible\",\n    \"Cabbage bed clearly present\",\n    \"All essential components readable at thumbnail scale\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title describes a vegetarian platter; paneer is a dairy product, not a protein category in allowed list (chicken/beef/pork/duck/lamb/seafood)\",\n    \"Mushroom tikka is fungal, not in allowed protein categories\",\n    \"Hara bhara kabab (spinach and legume patty) contains no allowed protein species\",\n    \"Masala tandoori chaap is typically paneer- or soy-based, not an allowed protein\",\n    \"No animal protein explicitly named or visually identifiable in source description or platter\"\n  ],\n  \"reason\": \"Image quality, photography, composition, and phone thumbnail are all excellent. The dish is properly identified as a vegetarian platter from a named establishment. However, the source explicitly declares this as a vegetarian platter containing only dairy (paneer), mushrooms, and legume-based items. No allowed protein species (chicken/beef/pork/duck/lamb/seafood) are named in the source description or identifiable in the visible components. Per protocol, protein_evidence cannot be populated, and acceptance requires meaningful protein support or explicit non-protein categorization. Vegetarian platters fall outside the stated protein categories and cannot be accepted without at least one named allowed animal protein.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1777,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 607,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
