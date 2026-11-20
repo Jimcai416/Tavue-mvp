@@ -10616,3 +10616,10 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Quesadilla de flor de calabaza con quesillo** — Pequeño mar. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Quesadilla_de_flor_de_calabaza_con_quesillo.jpg). Local asset: `reviewed-commons-140069949.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Assiette lorraine** — Arnaud 25. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Assiette_lorraine.jpg). Local asset: `reviewed-commons-150402145.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Quesadilla de flor de calabaza** — Danae Ruiz. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Quesadilla_de_flor_de_calabaza_en_Oaxaca.jpg). Local asset: `reviewed-commons-106077214.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **salade froide de céleri rave rémoulade aux herbes** — Jpbrigand2. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Celeri_remoulade_classique.jpg). Local asset: `reviewed-commons-124095462.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Greek revani** — Akerbeltz. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Greek_revani.JPG). Local asset: `reviewed-commons-32922430.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
