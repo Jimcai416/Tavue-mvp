@@ -11915,3 +11915,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 
 - **Biscoff Crème Donut** — Andy Li. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Biscoff_Cr%C3%A8me_Donut_-_Stone_Ground_Donuts_2025-07-07.jpg). Local asset: `reviewed-commons-169522768.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Tarta pascualina argentina elaborada con relleno de espinaca, huevo y cebolla, cubierta con masa y horneada hasta dorar** — Horacio Cambeiro. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Porciones_de_tarta_pascualina_argentina,_rellena_de_espinaca_y_huevo,_con_masa_dorada_al_horno.jpg). Local asset: `reviewed-commons-189531772.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Maraş dondurma with kabak** — E4024. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Dondurma_with_kabak.jpg). Local asset: `reviewed-commons-62196373.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
