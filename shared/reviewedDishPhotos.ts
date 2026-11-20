@@ -149807,5 +149807,29 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 960,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-64668183",
+    "title": "File:Traditional fish curry (Macher Jhol).jpg",
+    "author": "Afifa Afrin",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Traditional_fish_curry_(Macher_Jhol).jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Traditional_fish_curry_%28Macher_Jhol%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "ce72d34c98a3e923bec6e18829d2e323b17de96d",
+    "name": "Traditional fish curry (Macher Jhol)",
+    "aliases": [],
+    "proteins": [
+      "seafood"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-64668183.jpg",
+    "assetSha256": "415fe96c4ef1d0f7c1e948291e4f283e089e2b6202efca381de89f4375d8308a",
+    "reviewedAt": "2026-11-20",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];

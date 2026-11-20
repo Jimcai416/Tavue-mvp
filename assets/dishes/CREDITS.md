@@ -11942,3 +11942,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 
 - **Singju - a traditional salad from Manipur** — পল্লৱ কুমাৰ নাথ. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Singju_-_a_traditional_salad_from_Manipur.jpg). Local asset: `reviewed-commons-203152504.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Thambou singju** — Punshiba18. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Thambou_singju_(2).jpg). Local asset: `reviewed-commons-32018229.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Traditional fish curry (Macher Jhol)** — Afifa Afrin. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Traditional_fish_curry_(Macher_Jhol).jpg). Local asset: `reviewed-commons-64668183.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
