@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDWsvotvscrVMX7NSLok",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": true,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 3,\n    \"lighting\": 3,\n    \"composition\": 2,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows a pot with ingredients in mid-preparation stage, not a finished dish\",\n    \"Raw or cooking-stage food visible in both full image and thumbnail\",\n    \"Hand actively stirring/preparing the dish, indicating active preparation\",\n    \"Ingredients not cooked or plated as a finished product\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title describes 'pâte à choux' (choux pastry dough), which is a preparation stage, not a finished dish\",\n    \"Image shows dough/batter in a pot during cooking/preparation, not a finished, exposed, plated dish\"\n  ],\n  \"reason\": \"Rejection: This is a food preparation/cooking stage image, not a finished dish. The source description explicitly identifies this as 'Préparation d'une pâte à choux' (choux pastry preparation), and both the full image and thumbnail show ingredients actively being stirred in a pot during the preparation process. Per guidelines, raw/preparation stages must be rejected. The dish is not finished, exposed, or appetisingly presented as a completed food item. Phone thumbnail is too unclear and shows active preparation, not a finished product.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1742,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 412,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
