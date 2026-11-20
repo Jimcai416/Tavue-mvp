@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDMFBg2bsYPWvkrLTsoP",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 5,\n    \"composition\": 5,\n    \"appeal\": 4\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows storefront and seating area, no food visible\",\n    \"Plant foliage and furniture dominate the phone crop\",\n    \"No dish, plate, or prepared food elements present in thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"No actual food photograph supplied—image is a restaurant exterior/environment shot only\"\n  ],\n  \"reason\": \"Rejection: The source photograph is an exterior street scene of Ya Kun Kaya Toast restaurant showing seating, plants, and storefront signage. No prepared dish, plate of food, or any finished food item is visible in either the full source image or the phone thumbnail. The image violates the core requirement: 'Accept only a finished, exposed, likely photographic dish, sharply detailed, naturally coloured, appetising, prominent, with readable essential components in the phone thumbnail.' This is architectural/venue documentation, not a food photograph. Identity cannot be verified against visible food form because no food is shown.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1841,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 362,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

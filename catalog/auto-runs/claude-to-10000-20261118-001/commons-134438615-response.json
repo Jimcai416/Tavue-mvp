@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDMEKwpjBYs7ftc4nCBi",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Pasta noodles visible in reddish-brown sauce on white plate\",\n    \"Green herb garnish (appears to be parsley) on top\",\n    \"Natural restaurant setting with diners and other dishes visible\",\n    \"Sauce appears glossy and well-coated\"\n  ],\n  \"phone_observations\": [\n    \"Dish clearly visible in thumbnail\",\n    \"Pasta and sauce colour consistent with full image\",\n    \"Essential components readable at reduced resolution\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'chili crab pasta' but no visible crab meat or seafood is identifiable in either the full photograph or thumbnail\",\n    \"Source describes 'chili crab gravy' but the dish appears to show only pasta in a spiced/tomato-based sauce with no visible crab pieces\",\n    \"Cannot visually confirm crab as a protein component despite source title assertion\"\n  ],\n  \"reason\": \"Identity check fails. The source title explicitly names 'chili crab pasta' and describes 'chili crab gravy', but no crab meat or seafood protein is visibly present in the photograph. The dish shows pasta in a reddish-brown sauce, but crab—a key named component—cannot be detected visually. Per protocol, source contradictions between metadata and visible form require a hold, not outright rejection, but the absence of the named primary protein (crab) where it should be prominently visible makes acceptance impossible. The photograph quality and composition meet standards, but the identity mismatch is fundamental.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1531,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 491,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDMEn7wKx3iFtetFCPsb",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [\n    \"Two square/rectangular crackers with perforated surface on red plate\",\n    \"Golden-brown baked colour consistent with cream crackers\",\n    \"One cracker shows visible bite/break revealing interior structure\",\n    \"Phone thumbnail shows prominent crackers and red plate clearly\"\n  ],\n  \"phone_observations\": [\n    \"Both crackers clearly visible and identifiable\",\n    \"Red plate background distinct\",\n    \"Food is sharp and well-exposed in thumbnail\",\n    \"Perforations on cracker surface visible\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Kaya (coconut jam) and butter are described in source but not visibly distinguishable on cracker surface in photograph\",\n    \"Internal filling/spread is not clearly visible even in the broken cracker section\",\n    \"Cannot confirm presence of spreads from visual evidence alone—these are hidden or minimal\"\n  ],\n  \"reason\": \"While the photograph quality is acceptable and the crackers are clearly identifiable as cream crackers, the core dish identity depends on visible kaya (coconut jam) and butter toppings which are not clearly evident in the image. The source claims these spreads are present, but they are either not visible, minimally applied, or obscured by the cracker's surface. The broken cracker shows mainly crumb interior without clearly visible jam or butter layer. Since canonical identity requires that spreads/toppings be visibly confirmed and not merely source-declared (per instructions on hidden flavours), and the visual evidence does not support the full dish description, acceptance would require assuming invisible components. This contradicts the requirement for 'sharp detail' of 'essential components' and truthful visual support.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1762,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 513,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

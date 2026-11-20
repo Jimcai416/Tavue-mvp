@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDMEL13auEh5NkGmXRk1",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Grilled preparation visible\",\n    \"Banana leaf wrapping visible\",\n    \"Sambal/spice coating evident\",\n    \"Lime and pink onion garnish visible\",\n    \"Finished plated dish in serving context\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows grilled protein on banana leaves\",\n    \"Spice crust and garnish visible at thumbnail scale\",\n    \"Dish identity readable in thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title describes 'Grilled Stingray' but stingray is not an allowed protein category (chicken/beef/pork/duck/lamb/seafood only); stingray is a cartilaginous fish and does not map to standard seafood category without explicit confirmation\",\n    \"No explicit quote from title/description that names stingray as 'seafood' or other allowed category\",\n    \"Species ambiguity: stingray requires explicit allowlist confirmation, not inferred from appearance or regional tradition\"\n  ],\n  \"reason\": \"Although the photograph is sharp, well-lit, appetising and properly finished, and the phone thumbnail is clear and readable, the protein cannot be verified against allowed categories. The source title names 'Stingray', which is not in the allowed protein list (chicken/beef/pork/duck/lamb/seafood). Stingray is a ray species; without an explicit source statement mapping it to an allowed category, it cannot be accepted. Regional or culinary tradition does not substitute for direct textual evidence matching an allowed protein name.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1736,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 496,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
