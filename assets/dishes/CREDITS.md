@@ -12830,3 +12830,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 
 - **Ensalada rusa tradicional argentina elaborada con papas, arvejas y mayonesa** — Horacio Cambeiro. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Ensalada_rusa_tradicional_argentina_elaborada_con_papas,_arvejas_y_mayonesa,_lista_para_servir.jpg). Local asset: `reviewed-commons-189837496.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Porción de ensalada rusa con papas, zanahorias y arvejas (Argentina)** — Horacio Cambeiro. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Porci%C3%B3n_de_ensalada_rusa_con_papas,_zanahorias_y_arvejas_(Argentina).jpg). Local asset: `reviewed-commons-200144117.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Semolina gnocchi with sage brown butter** — [Karen and Brad Emerson](https://www.flickr.com/people/10293577@N03). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Semolina_gnocchi_with_sage_brown_butter_(10063056444).jpg). Local asset: `reviewed-commons-103533804.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.

@@ -160017,5 +160017,28 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-103533804",
+    "title": "File:Semolina gnocchi with sage brown butter (10063056444).jpg",
+    "author": "Karen and Brad Emerson",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Semolina_gnocchi_with_sage_brown_butter_(10063056444).jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/32/Semolina_gnocchi_with_sage_brown_butter_%2810063056444%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "4ffab8a7fe44f362c0a09aa1853f8823ddb24c4e",
+    "name": "Semolina gnocchi with sage brown butter",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-103533804.jpg",
+    "assetSha256": "ed7f78617844ab79c968b56977dc4ee20aa5f6641b637b046e79c18a9a18a5b1",
+    "reviewedAt": "2026-11-20",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 717,
+    "height": 960,
+    "requiresExactMenuName": true,
+    "authorUrl": "https://www.flickr.com/people/10293577@N03"
   }
 ];
