@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDQXdgFRdBYxSBdE85bp",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Spiced brown curry sauce visible on meat pieces\",\n    \"Pink/rose-coloured rice base\",\n    \"White plate\",\n    \"Herb garnish visible (possibly cilantro)\"\n  ],\n  \"phone_observations\": [\n    \"Curry meat pieces clearly prominent in thumbnail centre\",\n    \"Pink rice visible underneath\",\n    \"Dish components readable and identifiable\",\n    \"Natural colour and appetising appearance\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source metadata states 'Curry Goat' but goat species cannot be visually confirmed from photograph appearance alone\",\n    \"Meat species ambiguity: goat/lamb/mutton distinction not visually determinable; source title declares 'goat' but this requires explicit visual confirmation or unambiguous documentation\",\n    \"Generic 'curry' preparation without specific regional variant named in source\"\n  ],\n  \"reason\": \"Image quality, composition, sharpness, lighting and phone thumbnail all meet standards. However, the dish identity cannot be accepted because the source declares 'Curry Goat' but goat species cannot be visually proven from the photograph alone, and the source metadata itself is marked as untrusted evidence per instructions. Ambiguous meat species identification (goat might be mutton or lamb) triggers a hold. The dish requires either explicit visual species confirmation or source documentation that removes ambiguity. No specific regional variant is provided beyond generic 'curry'.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1738,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 463,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

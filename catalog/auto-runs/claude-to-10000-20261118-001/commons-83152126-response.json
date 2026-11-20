@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDQXdwd4NNauDN39RXJf",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Brown curry broth with visible meat\",\n    \"Green onions and red chilli garnish\",\n    \"White bowl presentation\",\n    \"Side dish visible (rice and peas mentioned in source)\"\n  ],\n  \"phone_observations\": [\n    \"Curry bowl clearly visible in thumbnail\",\n    \"Broth, meat, and garnish readable at phone size\",\n    \"Red chilli and green onions distinguishable\",\n    \"Adequate detail for identification\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title states 'Curry Goat' but the meat species cannot be confirmed visually from the photograph alone; goat cannot be reliably distinguished from lamb or mutton by appearance in cooked curry form\",\n    \"No explicit visual evidence of goat meat characteristics in the cooked state\"\n  ],\n  \"reason\": \"Although the photograph shows a finished, well-presented curry dish with sharp detail, natural colour, and appetising appearance (all checks pass and all scores ≥4), the identity cannot be confirmed. The source title declares 'Curry Goat' but goat meat cannot be visually verified in a finished curry—the cooked appearance is indistinguishable from lamb or mutton. Per protocol, ambiguous meat species (including those that might mean alternative animals) require a hold. No protein_evidence can be populated because the exact animal cannot be proven from the visible form. The title is a file name and metadata, not a reliable source quote for a specific dish identity.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1768,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 475,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
