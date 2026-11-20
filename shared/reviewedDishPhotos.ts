@@ -151136,5 +151136,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 540,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-30515955",
+    "title": "File:Jiaoquan and douzhi.jpg",
+    "author": "Vchan0120",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jiaoquan_and_douzhi.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Jiaoquan_and_douzhi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "6115943285752573ea2d8e1629aa564839b01816",
+    "name": "Jiaoquan with douzhi",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-30515955.jpg",
+    "assetSha256": "6d9b454dd4c6baf5e7e37f645e8b07ef6584eafdd648ebcaea7fd8168208cb7a",
+    "reviewedAt": "2026-11-20",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];
