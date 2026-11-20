@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDTepEHspFqnDtbiXQCi",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Finished, cooked dish in orange bowl\",\n    \"Rich dark brown/red broth visible\",\n    \"Fresh green herbs garnish on top\",\n    \"Cooked fish visible beneath broth\",\n    \"Natural lighting, appetising presentation\"\n  ],\n  \"phone_observations\": [\n    \"Orange bowl clearly visible\",\n    \"Dark broth and herbs legible in thumbnail\",\n    \"Fish shape discernible\",\n    \"Composition matches full image\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Species identity unconfirmed: title says 'Ikan srengat' but 'srengat' is not a standard Indonesian fish species name; 'serangat' spelling variant in filename does not resolve ambiguity\",\n    \"No explicit English fish species named in source description or title\",\n    \"Visual identification of cooked fish species from appearance alone is unreliable\",\n    \"Cannot confirm whether this is a named regional variant or a generic preparation\"\n  ],\n  \"reason\": \"Image quality, photograph authenticity, and phone thumbnail legibility all pass. However, identity check fails because the fish species ('ikan srengat'/'serangat') cannot be reliably identified from visual appearance or cross-referenced to a standard species name. Source title/description does not provide an explicit, recognisable English or scientific species identifier. Per protocol, ambiguous or unconfirmed meat species identity requires hold. No protein_evidence key can be supported without certain species verification.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1529,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 473,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

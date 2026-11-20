@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDTdnKfiNc6EgaM1gxc4",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Whole fish fillet with charred skin wrapped with dark leafy strips in brown broth\",\n    \"Fresh cilantro garnish scattered in gravy\",\n    \"Orange ceramic bowl, natural daylight\",\n    \"Finished, exposed dish with prominent subject\"\n  ],\n  \"phone_observations\": [\n    \"Central fish fillet clearly visible in thumbnail\",\n    \"Dark wrap/bindings on fish recognizable\",\n    \"Orange bowl retained at frame edges\",\n    \"Subject sharp and well-composed for small format\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'Pindang Ikan Gabus' (snakehead fish preparation in Palembang style), but source metadata is filename/wiki-tag format, not a verified dish description\",\n    \"Visible fish identity cannot be confirmed from appearance alone—gabus (snakehead) is not distinguishable by visual inspection from other whitefish\",\n    \"Dark wrapping around fish (possibly banana leaf or similar) is visible but its exact material and traditional preparation method cannot be verified from image alone\",\n    \"Gabus is not on the allowed protein category list (chicken/beef/pork/duck/lamb/seafood); fish species-level claims require explicit source quote matching the exact category name\"\n  ],\n  \"reason\": \"Image quality and photograph composition meet standards; both full source and thumbnail show a finished, appetising fish dish in gravy with clear detail. However, identity check fails: the metadata title 'Pindang Ikan Gabus' is a filename/wiki tag without an authoritative dish description quote. The fish species (gabus/snakehead) cannot be visually confirmed and does not map to the allowed protein categories. No exact canonical source quote from a verified title/description field is supplied. Hold pending an authoritative source description that either explicitly names the dish in English or provides a verified fish species within accepted seafood categories.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1728,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 569,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
