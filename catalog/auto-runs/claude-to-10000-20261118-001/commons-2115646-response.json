@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDLn7zG73jBBTBEKZD1H",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [\n    \"Coiled, fried offal strips with crispy, golden-brown exterior\",\n    \"Natural daylight, street-food context consistent with Madrid fiesta setting\",\n    \"Sharp detail of texture and form in full image\"\n  ],\n  \"phone_observations\": [\n    \"Subject remains clearly visible and identifiable as coiled fried strips\",\n    \"Spicing/coating visible in thumbnail\",\n    \"Adequate composition for recognition\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Gallinejas is a traditional Madrid dish made from offal (intestines, typically of lamb or goat), but the exact animal source is not explicitly stated in the title or description\",\n    \"The term 'gallinejas' refers to the traditional preparation method and regional name, but does not specify whether this is lamb, goat, or another ungulate\",\n    \"No explicit animal species qualifier appears in the metadata\"\n  ],\n  \"reason\": \"Reject: Identity cannot be confirmed with certainty. While the visual form matches the known appearance of gallinejas (coiled fried offal strips), the source metadata does not explicitly name the animal species (lamb/goat/etc.). The description 'Gallinejas' is a regional dish name without species qualification. Per guidelines, ambiguous meat species including those that might refer to goat or other ungulates must be held. The protein_evidence map remains empty because no exact source quote naming a specific allowed animal is present. This triggers the hold/reject rule for unknown or unspecified meat species.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1667,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 480,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

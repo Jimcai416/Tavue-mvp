@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDLnDMxwFHdP3tRizCQo",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 3,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Empty or near-empty bowl with spoons\",\n    \"No visible food content\",\n    \"Ceramic vessel only\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Koldskål is a Danish chilled dessert drink/soup, typically milk-based with varying components. The source shows only an empty bowl with spoons—no actual dish content, ingredients, or finished food visible.\",\n    \"No food is exposed or plated for review in either the full image or thumbnail.\"\n  ],\n  \"reason\": \"Rejection: The photograph does not show a finished, exposed dish. While the metadata correctly identifies Koldskål and the image is well-exposed with good outdoor lighting, the subject is an empty serving bowl with utensils only. No food matter, beverage, or recognizable dish components are visible in the full source or the phone thumbnail. Identity cannot be verified without visible food evidence. This fails the core requirement for 'a finished, exposed, likely photographic dish' with 'readable essential components'.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1729,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 373,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
