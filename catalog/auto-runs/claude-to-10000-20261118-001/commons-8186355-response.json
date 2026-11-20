@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDnNsN5QG3e1p9NUrVYH",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Cooked meat sandwich in pita bread\",\n    \"Hummus or yogurt-based dip with garnish\",\n    \"Yellow rice with red pepper pieces\",\n    \"Tabbouleh or herb-tomato salad with fresh parsley\",\n    \"Professional plated presentation in black tray\",\n    \"Receipt visible in bottom left corner\"\n  ],\n  \"phone_observations\": [\n    \"Sandwich prominently centered and readable\",\n    \"Rice and dip components clearly visible\",\n    \"Herb salad identifiable in phone thumbnail\",\n    \"Overall platter composition legible at 124x96\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title states 'Lamb Shawarma' but no visual evidence definitively distinguishes lamb from beef or other cooked meat in the shawarma filling\",\n    \"Meat species cannot be reliably identified from photograph appearance alone\",\n    \"Source metadata (title/description) explicitly names 'Lamb' but visual inspection does not provide independent confirmation of lamb versus beef or other species\"\n  ],\n  \"reason\": \"While the photograph is sharp, well-lit, and appetising, with good composition and readable components in the phone thumbnail, the identity check fails because the meat species cannot be visually confirmed. The source title claims 'Lamb Shawarma,' but the visible meat filling does not provide sufficient visual evidence to independently verify lamb versus beef or another species. Per instructions, protein categories require exact source quote evidence AND visual support; a source title claim without independent visual confirmation of the specific animal is insufficient. The image meets all quality and photographic criteria but cannot be accepted without resolving the protein identity uncertainty.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1803,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 512,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDnPkaKXwdtSQbNyTvnT",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Charred, grilled flesh with dark caramelization visible\",\n    \"Translucent onion slices layered on top\",\n    \"Orange-red surface indicating high-heat cooking\",\n    \"Clear grill marks and char patterns\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows grilled/charred protein with onions\",\n    \"Layered composition readable at small size\",\n    \"Central subject prominent and identifiable as cooked fish/meat\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title states 'grilled fish' but specific fish species cannot be visually confirmed—no scales, fins, or other ichthyological markers are distinguishable in the cooked form\",\n    \"Protein identity is obscured by cooking—charred exterior and internal composition do not permit confident species identification from photograph alone\",\n    \"Source metadata describes 'grilled fish' generically without naming the actual fish species\"\n  ],\n  \"reason\": \"Reject: Identity check fails. The source title 'grilled fish' names only a cooking method and generic protein category, not a specific fish species. Visual examination of the charred, cooked form cannot confirm which fish species this is. Per instructions, ambiguous or unspecified protein species (including where species cannot be visually proven and source does not name it explicitly) must be held or rejected. The photograph is sharp, well-lit, and appetising, and the phone thumbnail is clear, but the absence of a named fish species in either the source title or visible form prevents acceptance. A specific fish species name from the source is required.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1512,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 500,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

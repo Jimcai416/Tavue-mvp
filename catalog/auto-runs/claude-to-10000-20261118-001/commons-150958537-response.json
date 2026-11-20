@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDnPLYi9b8mjCquB4aDJ",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Whole grilled fish, clearly cooked and plated\",\n    \"Natural searing and browning visible on exterior\",\n    \"Green leaf garnish visible\",\n    \"Dark ceramic serving plate\",\n    \"Fish species clearly identifiable as a whole specimen\"\n  ],\n  \"phone_observations\": [\n    \"Centre-cover thumbnail clearly shows prominent grilled fish fillet/whole\",\n    \"Golden-brown seared surface readable in thumbnail\",\n    \"Adequate detail and contrast for recognition\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title states 'Grilled fish at restaurant in Tokyo' but specific fish species is not named in title or description\",\n    \"Fish type cannot be definitively identified from visual appearance alone (could be sea bream, sea bass, mackerel, or other species)\",\n    \"No explicit species confirmation in source metadata\"\n  ],\n  \"reason\": \"Image quality, composition, and telephoto clarity are all excellent (all scores ≥4). The photograph shows a finished, appetising grilled whole fish on a dark plate, properly exposed and sharply detailed. However, identity check fails: the source title and description provide only the generic term 'Grilled fish' without naming the specific fish species. Per instructions, unknown seafood species must be held. An exact species name from the source (e.g., 'sea bream', 'sea bass', 'mackerel') is required in canonical_name but is not supplied in the title or description metadata.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1726,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 474,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

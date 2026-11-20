@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDnNsNpdtbzxfM37MeQC",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": \"Grilled fish and squid on sale in the Crab Market at Kep, Cambodia\",\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Grilled seafood on white tray with bamboo skewers\",\n    \"Two larger whole grilled fish at rear\",\n    \"Multiple grilled squid or smaller fish arranged on sticks\",\n    \"Golden-brown charred exterior indicating grilled preparation\",\n    \"Street food setting on rustic wooden table\",\n    \"Phone thumbnail preserves essential food arrangement and detail\"\n  ],\n  \"phone_observations\": [\n    \"Grilled seafood skewers clearly visible and sharp\",\n    \"Tray and arrangement recognizable at reduced size\",\n    \"Golden-brown colour and charring visible in thumbnail\",\n    \"Essential composition preserved for identification\"\n  ],\n  \"protein_evidence\": {\n    \"seafood\": \"Grilled fish and squid\"\n  },\n  \"uncertainties\": [\n    \"Source title lists both 'fish and squid' but specific species of fish cannot be visually confirmed from photograph alone\",\n    \"No explicit distinction visible between which skewers contain fish versus squid\",\n    \"Cannot verify exact species identity of either component from visual inspection\"\n  ],\n  \"reason\": \"Image quality, sharpness, lighting, composition and phone thumbnail all meet acceptance criteria. However, identity check fails because the source description conflates two distinct seafood components ('fish and squid') without specifying fish species, and the photograph does not allow definitive visual confirmation of which skewers contain which protein. The ambiguity between fish and squid species, combined with unspecified fish type, creates unresolvable identity uncertainty that prevents canonical naming.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1755,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 505,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

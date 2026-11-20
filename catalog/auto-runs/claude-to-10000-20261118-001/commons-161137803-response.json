@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDnPJ5NaUZZZ82uG9Akp",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [\n    \"Grilled meat visible on foil-wrapped portions\",\n    \"Street vendor setup with signage\",\n    \"Outdoor event/market setting\",\n    \"Multiple cooked protein pieces on display\"\n  ],\n  \"phone_observations\": [\n    \"Vendor and grilled meat visible in thumbnail\",\n    \"Cooked protein portions identifiable\",\n    \"Essential food components present in phone crop\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Individual grilled fish pieces cannot be distinguished from chicken pieces visually\",\n    \"Specific fish species not identifiable from appearance\",\n    \"Exact preparation style (marinade, seasoning) not visually determinable\",\n    \"Source title references both fish and chicken as combined dish offering, not a single finished dish\",\n    \"Metadata title describes a vendor stand category rather than a specific plated dish\"\n  ],\n  \"reason\": \"Reject: The source title and metadata describe a vendor stand offering multiple grilled proteins (\\\"Grilled fish and chicken stand\\\"), not a specific finished dish. The photograph shows a street vendor's cooking setup with various grilled meat portions, but these are not identifiable as a singular named dish with determinable composition. Visual inspection cannot reliably distinguish which pieces are fish vs. chicken, nor identify specific fish species. The image documents a vendor category/location rather than a finished, exposed, identifiable dish suitable for menu documentation. No exact dish name can be derived from the source metadata.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1647,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 462,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
