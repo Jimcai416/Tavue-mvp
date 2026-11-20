@@ -12359,3 +12359,12 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Casado costarricense** — Aleat88. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Casado_costarricense.png). Local asset: `reviewed-commons-66233266.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Polpette Catanesi** — Andy Li. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Polpette_Catanesi_-_Giuseppes_2026-08-17.jpg). Local asset: `reviewed-commons-197806046.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Jemista** — Haeferl. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Wasserweltfest_2012_-_Makedonischer_Stand_-_Jemista.jpg). Local asset: `reviewed-commons-19950515.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Süßer, flambierter Apfel-Flammkuchen** — Sonja1982. [CC BY 4.0](https://creativecommons.org/licenses/by/4.0); [source](https://commons.wikimedia.org/wiki/File:Flammkuchen-Apfel-flambiert.jpg). Local asset: `reviewed-commons-149056809.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Hirtenflammkuchen** — Gerda Arendt. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Flammkuchen_on_Rhine_in_Hattenheim.jpg). Local asset: `reviewed-commons-124309972.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Flammkuchen with apples and smoked salmon** — Gerda Arendt. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Flammkuchen_with_apples,_Johannisberg.jpg). Local asset: `reviewed-commons-147060391.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Flammkuchen with chanterelles** — Gerda Arendt. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Flammkuchen_with_chanterelles,_Johannisberg,_with_wine.jpg). Local asset: `reviewed-commons-150906495.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
