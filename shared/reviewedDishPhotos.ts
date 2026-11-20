@@ -161854,5 +161854,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 723,
     "height": 960,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-132960872",
+    "title": "File:Calamares a la romana, en Zaragoza.jpeg",
+    "author": "Robot8A",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Calamares_a_la_romana,_en_Zaragoza.jpeg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Calamares_a_la_romana%2C_en_Zaragoza.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "01e288b1bb1f99909c708bcef39dc684375570cf",
+    "name": "Calamares a la romana",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-132960872.jpg",
+    "assetSha256": "4bb020d4f17613678276f00587db61b942276959552b5e62b18387942a3ed82c",
+    "reviewedAt": "2026-11-20",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];

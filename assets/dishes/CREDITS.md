@@ -13006,3 +13006,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 - **tortilla de patata y cebolla** — asolers. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Tortilla_de_patata_y_cebolla.JPG). Local asset: `reviewed-commons-19956000.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Tortilla de patata y verduras (paisana)** — Jorge Díaz. [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:Tortilla_de_patata_y_verduras_(paisana).jpg). Local asset: `reviewed-commons-112576442.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Deep fried Spanish baby Peppers** — Andy Li. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Pimientos_De_Padron_-_Casa_Don_Carlos_2025-10-01.jpg). Local asset: `reviewed-commons-176037959.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Calamares a la romana** — Robot8A. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Calamares_a_la_romana,_en_Zaragoza.jpeg). Local asset: `reviewed-commons-132960872.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
