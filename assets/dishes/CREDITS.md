@@ -11199,3 +11199,8 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Zelnik - Macedonian leek pie** — Наташа Величковска. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:%D0%97%D0%B5%D0%BB%D0%BD%D0%B8%D0%BA_%D0%9F%D1%80%D0%B0%D0%B7.jpg). Local asset: `reviewed-commons-64364505.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Shrimp Fajita** — anoldent. [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:2019_Shrimp_Fajita_1.jpg). Local asset: `reviewed-commons-149570499.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Beef Fajita** — [Mack Male  from Edmonton, AB, Canada](https://www.flickr.com/people/24311648@N00). [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:Beef_Fajita_(2415579684).jpg). Local asset: `reviewed-commons-109450009.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.

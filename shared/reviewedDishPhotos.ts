@@ -142036,5 +142036,54 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 664,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-149570499",
+    "title": "File:2019 Shrimp Fajita 1.jpg",
+    "author": "anoldent",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:2019_Shrimp_Fajita_1.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/47/2019_Shrimp_Fajita_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "2cd84ce98fb9fa1f1f6713174904a80e734c8f4e",
+    "name": "Shrimp Fajita",
+    "aliases": [],
+    "proteins": [
+      "seafood"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-149570499.jpg",
+    "assetSha256": "3c0e85dc65451d78c9b24b17710fdaa645cca9dce70bc19fd4dea5f67ac564d1",
+    "reviewedAt": "2026-11-20",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 662,
+    "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-109450009",
+    "title": "File:Beef Fajita (2415579684).jpg",
+    "author": "Mack Male  from Edmonton, AB, Canada",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Beef_Fajita_(2415579684).jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/05/Beef_Fajita_%282415579684%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "8f9d1996a839b88efa97220db2ded8e7c39fe412",
+    "name": "Beef Fajita",
+    "aliases": [],
+    "proteins": [
+      "beef"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-109450009.jpg",
+    "assetSha256": "8eba135172b7a6c7eb4f735fc60130c476be7028643cdbfc3a2594668ff748fe",
+    "reviewedAt": "2026-11-20",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true,
+    "authorUrl": "https://www.flickr.com/people/24311648@N00"
   }
 ];
