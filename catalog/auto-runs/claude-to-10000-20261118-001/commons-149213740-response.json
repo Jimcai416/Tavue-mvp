@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDhShRaJxoVPPtcCZKFe",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Divided ceramic dish with two compartments on wood table\",\n    \"Left compartment: crispy fried strips, golden-brown colour, appears to be fried chicken skin or similar\",\n    \"Right compartment: pale, translucent gelatinous component, possibly ginger or radish pickle\",\n    \"Natural indoor lighting, sharp focus\",\n    \"Phone thumbnail clearly shows both components and dish structure\"\n  ],\n  \"phone_observations\": [\n    \"Both compartments visible and distinct in thumbnail\",\n    \"Fried component occupies majority of phone frame\",\n    \"Gelatinous component visible on right side\",\n    \"Ceramic container clearly shown\",\n    \"Natural colours preserved\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title references 'Tori Paitan Ramen' but image shows only side dish/condiments in a divided dish, not a ramen bowl or complete dish\",\n    \"Left compartment appears to be fried chicken skin (tori karaage?) or fried garlic/onion, not part of a ramen preparation\",\n    \"Right compartment identity unclear—possibly ginger, pickled radish, or similar condiment—not visually confirmed as component of ramen\",\n    \"Image does not show the finished, exposed ramen dish referenced in the title\",\n    \"This appears to be a condiment plate or mise en place, not the final plated/finished ramen dish\"\n  ],\n  \"reason\": \"Source identity claims 'Tori Paitan Ramen' but the photograph shows only a divided condiment dish with fried strips and gelatinous component—not a finished ramen bowl or the primary dish described in the title. The image appears to show side components or mise en place rather than a complete, exposed, finished ramen dish. Identity check fails: the visible food form does not match the declared dish type. Rejection based on identity mismatch.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1757,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 574,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

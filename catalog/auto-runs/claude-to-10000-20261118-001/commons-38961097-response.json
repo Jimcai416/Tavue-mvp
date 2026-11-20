@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDhSugX4qm6JyGxVgTdj",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 3,\n    \"composition\": 1,\n    \"appeal\": 0\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows only interior storefront signage, wooden slats, and entrance\",\n    \"No food visible in phone centre-cover thumbnail\",\n    \"Only architectural/exterior elements framed\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title references 'Tori Paitan Ramen' but neither photograph contains any visible finished dish\",\n    \"Full source image shows only restaurant entrance, signage, and interior doorway with no plated food\",\n    \"Mismatch between metadata claim (ramen dish) and actual photograph content (storefront/entrance only)\"\n  ],\n  \"reason\": \"Rejection: The source image is a photograph of a restaurant storefront/entrance with signage and curtains, not a finished dish photograph. No food is visible in either the full source or the phone thumbnail. The metadata title references 'Tori Paitan Ramen @ Kagari @ Ginza' but this is not documented by the actual image content. This fails the fundamental requirement of showing a finished, exposed, recognizable dish with readable essential components in the phone thumbnail. Identity cannot be confirmed visually, quality scores are low, and no meaningful dish observations can be made.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1747,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 411,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

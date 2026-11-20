@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDhS6kypEkzfpnedwuCe",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Creamy pale broth characteristic of paitan ramen\",\n    \"Soft-boiled egg (ajitsuke tamago) with visible yolk and caramelized surface\",\n    \"Corn kernel visible in background\",\n    \"Green onion garnish\",\n    \"White noodles visible in broth\",\n    \"Professional plating on white bowl\"\n  ],\n  \"phone_observations\": [\n    \"Soft-boiled egg clearly visible in centre-cover thumbnail\",\n    \"Creamy broth and noodles recognizable\",\n    \"Garnish visible\",\n    \"Finished dish presentation confirmed in thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'Tori Paitan Ramen' (chicken paitan broth), but source metadata (filename, author, date) are explicitly untrusted per instructions\",\n    \"No visible poultry meat, bones, or chicken broth characteristics can be definitively confirmed from the photograph alone\",\n    \"The creamy broth could be chicken-, pork-, or seafood-based paitan; visual appearance alone cannot distinguish the animal source\",\n    \"No explicit chicken mention appears in the description text itself\"\n  ],\n  \"reason\": \"While the photograph shows a well-executed, sharp, appetising ramen dish with clear identity markers (paitan broth, soft-boiled egg, noodles, corn, green onion), the source title containing 'Tori' (chicken) lives only in the filename metadata, which are explicitly untrusted per instructions. The description field states only 'Tori Paitan Ramen @ Kagari @ Ginza' with no independent text source quote. No poultry, chicken meat, bones, or visually distinctive chicken broth characteristics are evident in the photograph itself. The creamy paitan broth appearance is not species-specific. Without a trusted source description explicitly naming the protein, and per the rule that proteins require 'an exact source quote explicitly naming each animal', chicken cannot be confirmed. All other checks pass, but identity check fails due to lack of verifiable protein evidence from an untrusted title.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1757,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 619,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
