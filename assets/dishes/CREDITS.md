@@ -11344,3 +11344,9 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Chicken Saleeg** — Basil343. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Chicken_Saleeg.jpg). Local asset: `reviewed-commons-91705681.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Kesari Bath** — Xamtra. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:KEsari_baat.jpg). Local asset: `reviewed-commons-90003843.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Karnataka Special Sweet Kesari Bath** — Manjeshwari poet mysore. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Karnataka_Sweet_Kesari_Bath.jpg). Local asset: `reviewed-commons-102776237.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Kesari bhath** — [Harsha K R  from Bangalore, India](https://www.flickr.com/people/27526538@N07). [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:Kesari_Bath_(5832083727).jpg). Local asset: `reviewed-commons-40834067.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
