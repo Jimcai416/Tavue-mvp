@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDxpRdf8ZnXn5aWt4GVF",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 2,\n    \"composition\": 1,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Person in red chef coat visible cooking over yellow grill\",\n    \"Food subject (ribs) is severely underexposed and obscured by glare and shadow on grill surface\",\n    \"Subject is small and peripherally positioned relative to cook\",\n    \"Insufficient detail to assess finished dish appearance, colour, or components\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source claims 'ribs' but photograph shows only obscured preparation stage with severe glare and backlight\",\n    \"Essential food detail is not visible or sharp in either full or thumbnail view\",\n    \"Composition captures cooking activity rather than finished, exposed dish\"\n  ],\n  \"reason\": \"Reject: Photograph is a preparation/cooking-stage scene, not a finished dish review. The ribs subject is severely underexposed, obscured by glare and shadow on the yellow grill surface, and not sharply detailed or appetisingly presented. The thumbnail shows the cook prominently while the actual food is tiny, shadowed and unreadable. Lighting is dominated by harsh backlighting and glare. Quality scores all critically low (sharpness=2, lighting=2, composition=1, appeal=1). This fails the core requirement for a finished, exposed, sharply detailed dish with readable essential components in the phone thumbnail.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1638,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 435,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
