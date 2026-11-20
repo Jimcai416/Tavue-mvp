@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDLSFZNMqaqxYe9F3iyD",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Full-image shows two plated dishes with fried items, chips, and salad components in a waterside setting\",\n    \"Phone thumbnail clearly displays plated food with fried protein, yellow chips, and fresh vegetables\",\n    \"Natural daylight, well-exposed, appetising presentation on white plates with patterned tablecloth\"\n  ],\n  \"phone_observations\": [\n    \"Fried protein item visible and prominent in thumbnail\",\n    \"Yellow chips/fries clearly visible\",\n    \"Fresh vegetable garnish apparent\",\n    \"Two distinct plated servings shown\",\n    \"Essential components readable and not clipped\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'Trucha frita' (fried trout), but trout is not an allowed protein category (only chicken/beef/pork/duck/lamb/seafood accepted, and trout is a specific freshwater fish species, not the generic 'seafood' category)\",\n    \"Source metadata lists 'trucha' (trout) which cannot be verified as within the allowed protein categories\"\n  ],\n  \"reason\": \"Reject: The source title explicitly names 'Trucha frita' (fried trout). Trout is a specific fish species not covered by the allowed protein categories (chicken/beef/pork/duck/lamb/seafood). The specific freshwater fish species 'trout' falls outside approved categories and therefore cannot be accepted. Image quality and photograph composition are strong, but identity verification fails due to unsupported protein species.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1532,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 487,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
