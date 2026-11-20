@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChEfZJ8pKh7ta9A9cNv1w",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [\n    \"Crumbly, golden-yellow and dark green textured mixture on white plate\",\n    \"Turmeric-coloured base with visible leafy green fragments\",\n    \"Natural daylight, no severe glare or unnatural casts\",\n    \"Dish is prominent and fully visible in both source and thumbnail\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail shows same crumbly mixture, golden and green tones readable\",\n    \"Portion clearly visible and identifiable at 124x96 resolution\",\n    \"No essential food clipped or obscured in centre-cover framing\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title describes 'Revuelto de espinacas con tofu' (spinach and tofu scramble), but tofu is not an allowed protein category. The source explicitly states this is a veganized version without egg.\",\n    \"No chicken, beef, pork, duck, lamb, or seafood is named or visibly identifiable.\",\n    \"Title mentions 'revuelto' (scramble) traditionally made with egg, but the description confirms no animal protein is present—only tofu, spinach, turmeric and black salt.\"\n  ],\n  \"reason\": \"Reject: The dish contains only tofu and spinach with no supported animal protein. Tofu is not within the allowed protein categories (chicken/beef/pork/duck/lamb/seafood). The source explicitly describes this as a veganized dish without egg or meat. While the photograph is sharp, well-lit and appetizing, identity cannot be verified against Tavue's protein-inclusive scope.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1775,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 507,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
