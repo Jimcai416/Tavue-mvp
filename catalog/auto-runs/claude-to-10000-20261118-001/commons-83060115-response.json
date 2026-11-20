@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChF5PDGdaoPHjiDP3fAiL",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Green/pesto-coloured pasta parcels visible in both full image and phone thumbnail\",\n    \"White shredded garnish (possibly cheese or onion) draped over pasta\",\n    \"Decorative cucumber and radish garnish on plate\",\n    \"Orange/terracotta plate\",\n    \"Natural lighting, sharp focus on main dish\"\n  ],\n  \"phone_observations\": [\n    \"Green pasta clearly visible in thumbnail\",\n    \"White shredded garnish prominent\",\n    \"Decorative elements visible\",\n    \"Overall dish composition readable\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title states 'Ravioli di burrata' but no burrata cheese is visibly evident in either image—only pesto-coloured pasta parcels with white shredded garnish are apparent\",\n    \"Burrata is a soft white cheese and would be visually prominent if present; the green colour and structure suggest pesto-filled ravioli, not burrata filling\",\n    \"No visible filling or texture consistent with burrata (creamy, white interior) is discernible\",\n    \"The dish appearance contradicts the stated identity of burrata ravioli\"\n  ],\n  \"reason\": \"Identity check fails. The source title claims 'Ravioli di burrata' but the visible dish shows green/pesto-coloured ravioli with white shredded garnish, with no visible evidence of burrata cheese (which would appear as a soft, creamy white filling or surface). This is a source-identity contradiction: the photograph does not match the declared dish name. The image quality and photographic presentation are good, but the fundamental identity mismatch prevents acceptance.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1746,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 519,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
