@@ -141625,5 +141625,101 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 778,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-40885651",
+    "title": "File:Chicken-Tikka.jpg",
+    "author": "Minaxibose1992",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chicken-Tikka.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Chicken-Tikka.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "72c19a4eda61ce4167c5fbbebd443d77cb252fd2",
+    "name": "Chicken Tikka",
+    "aliases": [],
+    "proteins": [
+      "chicken"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-40885651.jpg",
+    "assetSha256": "23b019b7e20105d23fa9ea862b608821e7745942853ab053d742910fa0a69d62",
+    "reviewedAt": "2026-11-20",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 577,
+    "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-57629259",
+    "title": "File:Chicken Tikka Kebab.jpg",
+    "author": "Sumit Surai",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chicken_Tikka_Kebab.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Chicken_Tikka_Kebab.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "1fa3a7f0da325955846cc8e5fd2d5ba5537cebb5",
+    "name": "Chicken Tikka Kebab",
+    "aliases": [],
+    "proteins": [
+      "chicken"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-57629259.jpg",
+    "assetSha256": "c6983a13353b10a510e3b0651038c1603ae719c0b875722c4ccc4807fd02dc9d",
+    "reviewedAt": "2026-11-20",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 640,
+    "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-40957932",
+    "title": "File:Chicken tikka by fatima.jpg",
+    "author": "Fatimahope",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chicken_tikka_by_fatima.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/83/Chicken_tikka_by_fatima.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "3499d67c1d55b73a135e1c16f50fd0845b264ef9",
+    "name": "chicken tikka with pudina chutney",
+    "aliases": [],
+    "proteins": [
+      "chicken"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-40957932.jpg",
+    "assetSha256": "e392dd1aef224d50e9211ba4223a003f5abb57b056511806887f8a92fca75efc",
+    "reviewedAt": "2026-11-20",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-150882767",
+    "title": "File:Grilled Chicken Tikka Sizzler with Vegetables and Lemon Wedge.jpg",
+    "author": "Iwaqarhashmi",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Grilled_Chicken_Tikka_Sizzler_with_Vegetables_and_Lemon_Wedge.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Grilled_Chicken_Tikka_Sizzler_with_Vegetables_and_Lemon_Wedge.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "e87c180272466f9e05b11eb81be60814ab908f61",
+    "name": "Grilled Chicken Tikka",
+    "aliases": [],
+    "proteins": [
+      "chicken"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-150882767.jpg",
+    "assetSha256": "4c074208fff0abfe90c78916edbe73053dcd26da41ac3ce661a772e077a9abdf",
+    "reviewedAt": "2026-11-20",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 540,
+    "requiresExactMenuName": true
   }
 ];
