@@ -11704,3 +11704,8 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Paneer momo** — Soumendra Kumar Sahoo. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Paneer_momo.jpg). Local asset: `reviewed-commons-86430805.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **豚丼** — User:Lusheeta. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/); [source](https://commons.wikimedia.org/wiki/File:Butadon_Sukiya.jpg). Local asset: `reviewed-commons-1194860.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Butadon** — Nissy-KITAQ. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Butadon_negi.JPG). Local asset: `reviewed-commons-32736578.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
