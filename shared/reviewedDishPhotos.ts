@@ -149966,5 +149966,28 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-40530390",
+    "title": "File:Tahdeeg (15741556461).jpg",
+    "author": "Arnold Gatilao  from Oakland, CA, USA",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tahdeeg_(15741556461).jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/02/Tahdeeg_%2815741556461%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "47b677f8b6fb3895c9e644db4851436cbf54c394",
+    "name": "Tahdeeg",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-40530390.jpg",
+    "assetSha256": "403fb0dbde6db32855701415edfa957ab0d898879038b3397fac24aa97546dc6",
+    "reviewedAt": "2026-11-20",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 640,
+    "height": 640,
+    "requiresExactMenuName": true,
+    "authorUrl": "https://www.flickr.com/people/58819758@N00"
   }
 ];

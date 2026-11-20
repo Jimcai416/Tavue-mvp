@@ -11958,3 +11958,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 
 - **Leberknödelsuppe** — [Tauralbus](https://www.flickr.com/people/25507134@N00). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:20240310_Hollabrunn_004_(53703316166).jpg). Local asset: `reviewed-commons-157788333.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Lasagne verdi romagnole** — GastRomagna. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Lasagne_verdi_romagnole.jpg). Local asset: `reviewed-commons-131668683.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Tahdeeg** — [Arnold Gatilao  from Oakland, CA, USA](https://www.flickr.com/people/58819758@N00). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Tahdeeg_(15741556461).jpg). Local asset: `reviewed-commons-40530390.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
