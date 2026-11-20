@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDDdtFzFwZToZetwcbiD",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Golden-yellow rice visible throughout both images\",\n    \"Brown meat pieces integrated with rice\",\n    \"Served on white plate with spoon\",\n    \"Finished, exposed dish with natural colours\"\n  ],\n  \"phone_observations\": [\n    \"Yellow rice and meat components clearly visible in thumbnail\",\n    \"Dish identity readable at reduced resolution\",\n    \"Adequate composition for phone review\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title 'Bashmati Kacchi' does not match standard biryani/kacchi nomenclature; 'Kacchi' typically refers to raw preparation method but final dish appears cooked\",\n    \"Description in Bengali: 'সুলতান্স ডাইনের বাশমতি কাচ্চি' (Sultan's Diner's Basmati Kacchi) – contextual/restaurant name, not a recipe specification\",\n    \"Meat species cannot be determined from visual appearance alone; no source text explicitly names the animal protein\",\n    \"Whether this is biryani, kacchi, or a hybrid preparation cannot be confirmed from metadata\",\n    \"No explicit protein declaration in English-language source title or description\"\n  ],\n  \"reason\": \"Identity check fails: source metadata provides only a Bengali restaurant context and an unclear English transliteration ('Bashmati Kacchi') that does not match standard dish nomenclature. 'Kacchi' refers to a raw cooking method, but the photograph shows a finished, cooked dish. No explicit animal protein is named in the source title or description. While the photograph itself is sharp, well-lit, appetising and the phone thumbnail is adequate, the source identity and protein cannot be verified against reliable documentation. Hold pending clarification of exact dish type and meat species via explicit source text.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1758,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 552,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

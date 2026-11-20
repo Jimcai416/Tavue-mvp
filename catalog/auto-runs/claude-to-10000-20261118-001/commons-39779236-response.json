@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDDdqeE44YkfjJcKcQDG",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [\n    \"Shredded pale cabbage on left\",\n    \"Shredded green cabbage on right\",\n    \"Dark beetroot shreds in centre\",\n    \"Lime slice garnish\",\n    \"Green chilli garnish\",\n    \"White plate\",\n    \"Natural daylight\"\n  ],\n  \"phone_observations\": [\n    \"Plate clearly visible at centre\",\n    \"Vegetable components identifiable\",\n    \"Lime and chilli garnish visible\",\n    \"Colour contrast readable\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Description says 'kakdi' (cucumber) but no cucumber is visibly present in either photograph—only cabbage, beetroot, lime and chilli are evident\",\n    \"Source description does not match visible dish composition\",\n    \"Cannot confirm identity without resolution of kakdi/cucumber contradiction\"\n  ],\n  \"reason\": \"Identity check fails. The source description claims 'Salad from kakdi, bit, lemon & cabbage' but the visible dish contains no identifiable cucumber (kakdi). Only shredded pale and green cabbage, beetroot, lime slice and green chilli are present. This material contradiction between the declared source identity and visible form prevents acceptance. The photograph and phone thumbnail are sharp and well-composed, but the dish identity cannot be verified.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1626,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 437,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

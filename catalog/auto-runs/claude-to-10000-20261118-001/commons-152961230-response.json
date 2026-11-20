@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDDeQKFDdchaayg1MESa",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Golden-yellow rice base, well-cooked and appetising\",\n    \"Prominent meat pieces and potatoes in caramelised sauce\",\n    \"Finished, exposed dish with natural colour\",\n    \"White plate with visible restaurant branding ('Sultan's Dine')\",\n    \"Spoon and serving utensil present\",\n    \"Phone thumbnail shows complete dish clearly\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail captures full dish composition\",\n    \"Rice, meat, and potatoes all visible and readable\",\n    \"No clipping of essential components\",\n    \"Natural lighting and colour reproduction adequate\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title 'Bashmoti Kacchi' does not match visible dish form. Kacchi traditionally denotes raw marinated meat before cooking; this is a finished biryani-style rice dish with cooked meat and potatoes. No explicit protein species declared in source metadata.\",\n    \"Meat species cannot be inferred from appearance alone and is not named in title or description.\",\n    \"Terminology mismatch between claimed name and observable finished dish suggests either labelling error or unclear identity.\"\n  ],\n  \"reason\": \"Photograph quality, composition, sharpness and phone thumbnail all meet criteria. However, identity check fails: source title 'Bashmoti Kacchi' refers to a raw preparation method (kacchi = uncooked), but the visible dish is a finished, cooked biryani-style preparation with golden rice, cooked meat pieces, and potatoes in caramelised sauce. This contradiction indicates uncertain or incorrect dish identification. No protein species is explicitly named in metadata. Hold pending clarification of actual dish name and meat type.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1740,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 527,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
