@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDnD8GVGRyTNfXGV1rBe",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 3,\n    \"composition\": 2,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows hands actively cooking/flipping at stovetop\",\n    \"No finished plated dish visible in phone centre-cover\",\n    \"Active preparation stage dominates both images\",\n    \"Food is mid-cooking in pan, not exposed/finished\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source claims 'Galettes fait maison' but image shows active cooking stage, not finished dish\",\n    \"Cannot verify galette identity or components from preparation photograph\",\n    \"Crêpe/galette form not clearly distinguishable in its current cooking state\"\n  ],\n  \"reason\": \"Rejection: Image shows active cooking/preparation stage, not a finished, exposed, plated dish. Both full source and phone thumbnail capture someone flipping or manipulating food in a pan on stovetop. No completed dish is visible or appetising in the phone thumbnail. Galette identity cannot be confirmed from the mid-cooking appearance. This violates the core requirement for a finished, exposed, sharply detailed, prominent food photograph. Home cooking context does not override the preparation-stage disqualification.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1627,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 391,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
