@@ -12047,3 +12047,8 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 - **mumbar dolması** — Tpinar. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Mumbar_dolmas%C4%B1.jpg). Local asset: `reviewed-commons-159585910.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Okroshka cold soup** — I,  Leonid Dzhepko. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/); [source](https://commons.wikimedia.org/wiki/File:Kvass-okroshka.jpg). Local asset: `reviewed-commons-2343354.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Knedle ze śliwkami** — Aw58. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Knedle_ze_%C5%9Bliwkami_-_2023.08.29.jpg). Local asset: `reviewed-commons-136702957.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Okroshka** — Шнапс. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:%D0%9E%D0%BA%D1%80%D0%BE%D1%88%D0%BA%D0%B03.jpg). Local asset: `reviewed-commons-15688340.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Kvass-based okroshka** — Pannet. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:%D0%9E%D0%BA%D1%80%D0%BE%D1%88%D0%BA%D0%B0_5.jpg). Local asset: `reviewed-commons-117533038.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
