@@ -11667,3 +11667,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 
 - **Cag Kebab** — Gourmet expert. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Cag_Kebab.jpg). Local asset: `reviewed-commons-77673441.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Turkish muhallebi** — E4024. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Turkish_muhallebi.jpg). Local asset: `reviewed-commons-40522603.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Vegetable taguine** — [Photograph by  Mike Peel  ( www.mikepeel.net ).](https://www.mikepeel.net/). [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:At_Wiki_Indaba_2023_278.jpg). Local asset: `reviewed-commons-147239374.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.

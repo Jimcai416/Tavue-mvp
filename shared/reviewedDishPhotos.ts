@@ -146979,5 +146979,28 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-147239374",
+    "title": "File:At Wiki Indaba 2023 278.jpg",
+    "author": "Photograph by  Mike Peel  ( www.mikepeel.net ).",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:At_Wiki_Indaba_2023_278.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c9/At_Wiki_Indaba_2023_278.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "aa347226b183b570b58827c63263afa97bf5eaef",
+    "name": "Vegetable taguine",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-147239374.jpg",
+    "assetSha256": "bb4fb88c493c4a8cc8a2380134f2c40c91b66b3e50374838e3fffe3b26e89b96",
+    "reviewedAt": "2026-11-20",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true,
+    "authorUrl": "https://www.mikepeel.net/"
   }
 ];
