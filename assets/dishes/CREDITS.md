@@ -11230,3 +11230,11 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Sate Bibi Wasiah Pontianak** — Riolin Putri. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Sate_Bibi_Wasiah_Pontianak.jpg). Local asset: `reviewed-commons-151519527.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Chicken sope** — Missvain. [CC BY 4.0](https://creativecommons.org/licenses/by/4.0); [source](https://commons.wikimedia.org/wiki/File:Chicken_sope_at_La_Casa_Restaurant_-_December_2023_-_Sarah_Stierch_01.jpg). Local asset: `reviewed-commons-141626425.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Chicken sope at La Casa Restaurant** — Missvain. [CC BY 4.0](https://creativecommons.org/licenses/by/4.0); [source](https://commons.wikimedia.org/wiki/File:Chicken_sope_at_La_Casa_Restaurant_-_December_2023_-_Sarah_Stierch_02.jpg). Local asset: `reviewed-commons-141626426.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Sope and Taco Dorado with black beans and rice** — Missvain. [CC BY 4.0](https://creativecommons.org/licenses/by/4.0); [source](https://commons.wikimedia.org/wiki/File:La_Casa_Restaurant_-_Stierch_-_April_2019_03.jpg). Local asset: `reviewed-commons-78981862.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Sope con frijol y aguacate** — Wotancito. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Sope_con_frijol_y_aguacate.jpg). Local asset: `reviewed-commons-104888341.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Sope con nopales** — Wotancito. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Sope_con_nopales.jpg). Local asset: `reviewed-commons-104888391.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
