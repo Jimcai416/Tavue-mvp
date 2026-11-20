@@ -12418,3 +12418,10 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Jamón serrano** — David Adam Kess. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:A_plate_of_Jam%C3%B3n_serrano,_Madrid,_Spain_Jam%C3%B3n_serrano_is_a_type_of_jam%C3%B3n_(dry-cured_Spanish_ham),_which_is_generally_served_in_thin_slices.jpg). Local asset: `reviewed-commons-50061913.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Spaghetti al pomodoro** — [Photograph by  Mike Peel  ( www.mikepeel.net ).](https://www.mikepeel.net/). [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:At_Sardinia_2024_048.jpg). Local asset: `reviewed-commons-155889763.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Gnocchi al Castelmagno con granella di noci tostate** — Prof.lumacorno. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Gnocchi_al_Castelmagno_con_granella_di_noci_tostate.jpg). Local asset: `reviewed-commons-80879716.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Spaghetti al pomodoro e basilico** — Dr.Conati. [Public domain](https://creativecommons.org/publicdomain/mark/1.0/); [source](https://commons.wikimedia.org/wiki/File:Spaghettata.JPG). Local asset: `reviewed-commons-4360376.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **spaghetti al pomodoro pelato** — 10Rosso. [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Spaghetti_al_pomodoro_6.jpg). Local asset: `reviewed-commons-29568529.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
