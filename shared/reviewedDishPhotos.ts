@@ -161414,5 +161414,80 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 720,
     "height": 960,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-110390009",
+    "title": "File:Individual Beef Wellington with Mushroom Duxelles served with Rosé Butter Sauce and Green Beans -mycookingadventures (29092223267).jpg",
+    "author": "transcendancing",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Individual_Beef_Wellington_with_Mushroom_Duxelles_served_with_Ros%C3%A9_Butter_Sauce_and_Green_Beans_-mycookingadventures_(29092223267).jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Individual_Beef_Wellington_with_Mushroom_Duxelles_served_with_Ros%C3%A9_Butter_Sauce_and_Green_Beans_-mycookingadventures_%2829092223267%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "ec188409545bc1825ade6861e147941fd7609554",
+    "name": "Individual Beef Wellington with Mushroom Duxelles served with Rosé Butter Sauce and Green Beans",
+    "aliases": [],
+    "proteins": [
+      "beef"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-110390009.jpg",
+    "assetSha256": "2522f0797e25cbbed3657ba6d552e6b4f1d03178e069d879076c87ac41a78651",
+    "reviewedAt": "2026-11-20",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 640,
+    "height": 640,
+    "requiresExactMenuName": true,
+    "authorUrl": "https://www.flickr.com/people/40567405@N07"
+  },
+  {
+    "id": "commons-101265406",
+    "title": "File:Salmon coulibiac (12312210373).jpg",
+    "author": "Edsel Little",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Salmon_coulibiac_(12312210373).jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Salmon_coulibiac_%2812312210373%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "c636de34cb4ef90b880e50fbf3a1e0346e76abb1",
+    "name": "Salmon Coulibiac",
+    "aliases": [],
+    "proteins": [
+      "seafood"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-101265406.jpg",
+    "assetSha256": "442d5d821482f3e3f5c0902ed32fd5eba821b8eed5056c3af7b1393e863d94ae",
+    "reviewedAt": "2026-11-20",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 641,
+    "requiresExactMenuName": true,
+    "authorUrl": "https://www.flickr.com/people/27119975@N00"
+  },
+  {
+    "id": "commons-129225559",
+    "title": "File:Tuna nicoise crudo, quail egg, haricot vert, olive vinaigrette by Chef Tim Graham.2004 Pieere moncuit Champagne Brut Millesime Grand Cru Blanc de Blancs (15431441173).jpg",
+    "author": "Lou Stejskal",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tuna_nicoise_crudo,_quail_egg,_haricot_vert,_olive_vinaigrette_by_Chef_Tim_Graham.2004_Pieere_moncuit_Champagne_Brut_Millesime_Grand_Cru_Blanc_de_Blancs_(15431441173).jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Tuna_nicoise_crudo%2C_quail_egg%2C_haricot_vert%2C_olive_vinaigrette_by_Chef_Tim_Graham.2004_Pieere_moncuit_Champagne_Brut_Millesime_Grand_Cru_Blanc_de_Blancs_%2815431441173%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "3abb3329e6c1c814b5a710338416f7f39c7c8c5a",
+    "name": "Tuna nicoise crudo, quail egg, haricot vert, olive vinaigrette",
+    "aliases": [],
+    "proteins": [
+      "seafood"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-129225559.jpg",
+    "assetSha256": "30ea9db2b5fedd13a71751351512248618205849b7493be9ec657011e0a5b7c0",
+    "reviewedAt": "2026-11-20",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true,
+    "authorUrl": "https://www.flickr.com/people/63311602@N08"
   }
 ];
