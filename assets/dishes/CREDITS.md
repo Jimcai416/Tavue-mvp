@@ -11175,3 +11175,8 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 - **Borani soup** — E4024. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Borani_soup.jpg). Local asset: `reviewed-commons-55336560.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Papadum** — JIP. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Papadum_at_restaurant_Milan_Nepal.jpg). Local asset: `reviewed-commons-113628921.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Eggplant borani** — Sdkb. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Eggplant_borani_at_Naan_Kabob_in_Toronto.jpg). Local asset: `reviewed-commons-140825166.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Mangalorean Pundi Gasi** — Yakshitha. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Mangalorean_Pundi_Gasi_3.jpg). Local asset: `reviewed-commons-148839317.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Pundi Gatti with Kothambari Chutney** — Kart127. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Pundi_Gatti_with_Kothambari_Chutney.jpg). Local asset: `reviewed-commons-40939680.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
