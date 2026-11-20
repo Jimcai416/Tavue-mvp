@@ -10979,3 +10979,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Kugel made from egg noodles** — [Stuart Spivack](https://www.flickr.com/people/stuart_spivack/). [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:Kugel.jpg). Local asset: `reviewed-commons-1311992.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Yerusalem kugel** — Jukka Wallin. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Yerusalem_kugel_by_Jukkawallin.jpg). Local asset: `reviewed-commons-77210811.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.

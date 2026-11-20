@@ -139851,5 +139851,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "height": 798,
     "requiresExactMenuName": true,
     "authorUrl": "https://www.flickr.com/people/stuart_spivack/"
+  },
+  {
+    "id": "commons-77210811",
+    "title": "File:Yerusalem kugel by Jukkawallin.jpg",
+    "author": "Jukka Wallin",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Yerusalem_kugel_by_Jukkawallin.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/27/Yerusalem_kugel_by_Jukkawallin.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "3bb289f5bce95907f943afb02d525d13cd89e895",
+    "name": "Yerusalem kugel",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-77210811.jpg",
+    "assetSha256": "e45ed3573f43755e62639fd4d5254834c32af9a62cb1b2f932ce9019750bf41b",
+    "reviewedAt": "2026-11-20",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 720,
+    "height": 960,
+    "requiresExactMenuName": true
   }
 ];
