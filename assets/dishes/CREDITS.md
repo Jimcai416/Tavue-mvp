@@ -10942,3 +10942,8 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 
 - **Dosa, idli and bade** — Kanika bhardwaj. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Dosa,idli_and_bade.jpg). Local asset: `reviewed-commons-40963059.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **South Indian thali at Haldiram's, Gurgaon** — User: (WT-shared) Jpatokal at  wts wikivoyage. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Haldiram_SouthIndian.JPG). Local asset: `reviewed-commons-22922677.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Sriracha chicken wings** — [anokarina  from United States](https://www.flickr.com/people/30760976@N04). [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:Sriracha_chicken_wings_(10832723804).jpg). Local asset: `reviewed-commons-47139314.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Butternut squash bisque** — [Robert Baldus  from Knoxville, United States](https://www.flickr.com/people/23929926@N05). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Butternut_squash_bisque_at_Sobu_in_Knoxville,_TN.jpg). Local asset: `reviewed-commons-35461048.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.

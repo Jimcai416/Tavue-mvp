@@ -139353,5 +139353,53 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 638,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-47139314",
+    "title": "File:Sriracha chicken wings (10832723804).jpg",
+    "author": "anokarina  from United States",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sriracha_chicken_wings_(10832723804).jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/13/Sriracha_chicken_wings_%2810832723804%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "688b6a7b99f4fa1a6c7a47029d6b722112a83059",
+    "name": "Sriracha chicken wings",
+    "aliases": [],
+    "proteins": [
+      "chicken"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-47139314.jpg",
+    "assetSha256": "dd7280339eb2d778d52926ddef6b2897c1318e939d4b14bcf4609fd8891b4cfd",
+    "reviewedAt": "2026-11-20",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true,
+    "authorUrl": "https://www.flickr.com/people/30760976@N04"
+  },
+  {
+    "id": "commons-35461048",
+    "title": "File:Butternut squash bisque at Sobu in Knoxville, TN.jpg",
+    "author": "Robert Baldus  from Knoxville, United States",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Butternut_squash_bisque_at_Sobu_in_Knoxville,_TN.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Butternut_squash_bisque_at_Sobu_in_Knoxville%2C_TN.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "baba7f26d99eecd8eee35e83604fae6ebb6b2abb",
+    "name": "Butternut squash bisque",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-35461048.jpg",
+    "assetSha256": "82404f555379cbd4b26f4dc20b41537d4c757048f6b73cff03bbb4d26cf4fd1a",
+    "reviewedAt": "2026-11-20",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 785,
+    "requiresExactMenuName": true,
+    "authorUrl": "https://www.flickr.com/people/23929926@N05"
   }
 ];
