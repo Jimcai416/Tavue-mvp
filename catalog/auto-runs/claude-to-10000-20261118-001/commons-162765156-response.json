@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDeYP2M9qc6scPcgrdHj",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"White bowl containing a starchy porridge base with golden cubed yam pieces\",\n    \"Central dark-coloured protein element (declared as dried fish)\",\n    \"Rich brown gravy coating the dish\",\n    \"Phone thumbnail clearly shows the finished dish composition\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail confirms bowl shape and overall layout\",\n    \"Cubed yam and central dark protein are legible\",\n    \"Dish is adequately prominent and not clipped\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title declares 'dried fish' garnish, but the dark central element is not visually identifiable as fish with certainty—it appears as an unspecified dark protein mass\",\n    \"No explicit statement in title/description confirms this is 'yam porridge' as a complete dish name; source metadata describes ingredients rather than a canonical dish identity\",\n    \"Species of dried fish (if present) is not specified in source material\"\n  ],\n  \"reason\": \"While the photograph is sharp, well-composed, and naturally coloured, and the phone thumbnail is acceptable, the identity check fails because the source provides only ingredient description ('Yam porridge garnished with dried fish') rather than a confirmed canonical dish name. The dark central element cannot be visually verified as dried fish; it is an ambiguous dark protein that contradicts the source declaration. Per protocol, unspecified or visually unconfirmed protein species—and source contradictions between description and visible form—require hold. The fish species is also not named. No exact canonical dish phrase matching source title/description can be extracted that meets the specificity requirement.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1524,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 505,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
