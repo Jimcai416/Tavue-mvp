@@ -151468,5 +151468,29 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 444,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-89034235",
+    "title": "File:Ebi Fry 002.jpg",
+    "author": "Ocdp",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ebi_Fry_002.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Ebi_Fry_002.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "7e49e5157e21270745144e79cd843bbf733ac0a1",
+    "name": "Ebi Fry",
+    "aliases": [],
+    "proteins": [
+      "seafood"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-89034235.jpg",
+    "assetSha256": "19549ae6512922b1dc240d0570df29223c5133bd0a02596c409afe5909b4a1bd",
+    "reviewedAt": "2026-11-20",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 638,
+    "requiresExactMenuName": true
   }
 ];
