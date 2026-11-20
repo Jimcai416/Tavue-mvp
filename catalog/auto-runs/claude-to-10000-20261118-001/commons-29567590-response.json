@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDFkz3AnXe7QJ3siRrmq",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 2\n  },\n  \"visible_support\": [\n    \"Small silvery fish arranged in clear liquid\",\n    \"Green parsley garnish visible\",\n    \"Shallow ceramic or plastic container\",\n    \"Natural daylight with patterned background cloth\"\n  ],\n  \"phone_observations\": [\n    \"Fish and liquid visible in phone thumbnail\",\n    \"Parsley garnish readable at thumbnail size\",\n    \"Subject prominent enough for phone review\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'Alici marinate' (marinated anchovies) but source metadata is untrusted per instructions\",\n    \"Visual appearance is consistent with small preserved fish, but species cannot be confirmed from image alone without trusted source declaration\",\n    \"Liquid appears to be marinade, but exact preparation and regional variant cannot be visually determined\"\n  ],\n  \"reason\": \"Reject: Although the photograph shows a finished dish of small silvery fish in liquid with parsley garnish, with acceptable sharpness and composition, the identity cannot be verified. The source title 'Alici marinate' is in untrusted metadata (filename/URL context). The fish species (anchovy vs. other small fish) and regional preparation variant cannot be confirmed from visual evidence alone. Without a trusted, explicit source description in the submission, the dish identity remains unverified and must be held or rejected per protocol. The appeal score is low due to the unappetizing presentation of raw/preserved fish in liquid in a plain container.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1717,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 463,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
