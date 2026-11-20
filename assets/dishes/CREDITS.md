@@ -12550,3 +12550,9 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Pork Croquettes** — [Calgary Reviews  from Calgary, Canada](https://www.flickr.com/people/51930963@N02). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Milestones_-_Pork_Croquettes_(5853135812).jpg). Local asset: `reviewed-commons-75695564.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Assiette côtelettes d'agneau** — [Benoît Prieur](https://www.wikidata.org/wiki/Q42790984). [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Assiette_c%C3%B4telettes_d%27agneau_(restaurant_de_l%27Angle)_-_janvier_2022.JPG). Local asset: `reviewed-commons-114437153.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Carré d'agneau de Pauillac** — Nikchick. [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:C%C3%B4telettes_d%27agneau.jpg). Local asset: `reviewed-commons-25865224.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Lamb chop served in the Menta restaurant in Esnazu** — Tangopaso. [Public domain](https://creativecommons.org/publicdomain/mark/1.0/); [source](https://commons.wikimedia.org/wiki/File:Restaurant_Menta_(Esnazu)_-_Cotelettes_d%27agneau.jpg). Local asset: `reviewed-commons-65885771.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.

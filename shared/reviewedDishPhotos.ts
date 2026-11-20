@@ -156907,5 +156907,78 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "height": 720,
     "requiresExactMenuName": true,
     "authorUrl": "https://www.flickr.com/people/51930963@N02"
+  },
+  {
+    "id": "commons-114437153",
+    "title": "File:Assiette côtelettes d'agneau (restaurant de l'Angle) - janvier 2022.JPG",
+    "author": "Benoît Prieur",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Assiette_c%C3%B4telettes_d%27agneau_(restaurant_de_l%27Angle)_-_janvier_2022.JPG",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Assiette_c%C3%B4telettes_d%27agneau_%28restaurant_de_l%27Angle%29_-_janvier_2022.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "b61116fef2bcc932e0c44bf163bb60298aecc702",
+    "name": "Assiette côtelettes d'agneau",
+    "aliases": [],
+    "proteins": [
+      "lamb"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-114437153.jpg",
+    "assetSha256": "3ceaeec03db0182d44809e31ed5b08d8ebc9bb6ce29d11b4838b50c227425687",
+    "reviewedAt": "2026-11-20",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true,
+    "authorUrl": "https://www.wikidata.org/wiki/Q42790984"
+  },
+  {
+    "id": "commons-25865224",
+    "title": "File:Côtelettes d'agneau.jpg",
+    "author": "Nikchick",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:C%C3%B4telettes_d%27agneau.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ea/C%C3%B4telettes_d%27agneau.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "547d130b40032c0e831b81a68bf13335636e4434",
+    "name": "Carré d'agneau de Pauillac",
+    "aliases": [],
+    "proteins": [
+      "lamb"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-25865224.jpg",
+    "assetSha256": "3de06b6c52676f4beba994656280c7ac584e67e5389421499052aca62769301e",
+    "reviewedAt": "2026-11-20",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 800,
+    "height": 600,
+    "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-65885771",
+    "title": "File:Restaurant Menta (Esnazu) - Cotelettes d'agneau.jpg",
+    "author": "Tangopaso",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Restaurant_Menta_(Esnazu)_-_Cotelettes_d%27agneau.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Restaurant_Menta_%28Esnazu%29_-_Cotelettes_d%27agneau.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "3ae924bf6fe4bb89a49ba83c20be66c1c5df701d",
+    "name": "Lamb chop served in the Menta restaurant in Esnazu",
+    "aliases": [],
+    "proteins": [
+      "lamb"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-65885771.jpg",
+    "assetSha256": "b9e44ff19a0752f61169ce7fc370b77d8362dfa558be5141d678aa5f11e3fdf6",
+    "reviewedAt": "2026-11-20",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];
