@@ -12296,3 +12296,8 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 
 - **Taralli Dolci Pasquali** — DinaBenedettoFerrandina. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Taralli_dolci_pasquali.jpg). Local asset: `reviewed-commons-116703367.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Taralli** — OppidumNissenae. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Taralli_in_una_bancarella_2024.jpg). Local asset: `reviewed-commons-154830740.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Spaghetti al nero di Sepia** — Kritzolina. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Food_on_Mallorca_01.jpg). Local asset: `reviewed-commons-145345031.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Kuro-Goma Tantan Ramen** — [Guilhem Vellut  from Paris, France](https://www.flickr.com/people/22539273@N00). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Noodles,_Kuro-Goma_Tantan_Ramen,_Dosanko_Larmen,_Paris_001.jpg). Local asset: `reviewed-commons-55265269.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
