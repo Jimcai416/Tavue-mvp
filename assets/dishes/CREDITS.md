@@ -11498,3 +11498,8 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Chok tomyam (tomyam congee), chicken ver** — Bitterschoko. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Chok_tomyam_(tomyam_congee),_chicken_ver,_Bangkok,_2018-01-21.jpg). Local asset: `reviewed-commons-86792059.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Burrata and Fried Green Tomatoes** — [David Berkowitz  from New York, NY, USA](https://www.flickr.com/people/25897810@N00). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Burrata_and_Fried_Green_Tomatoes_-_Birch_%26_Barley_-_Washington_DC_-_United_States_Capital_-_October_2010_(5132611465).jpg). Local asset: `reviewed-commons-104696528.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Fried green tomatoes with shrimp** — Infrogmation of New Orleans. [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Elizabeths_6Ap2015_FriedTomatoShrimp.jpg). Local asset: `reviewed-commons-39453895.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.

@@ -145199,5 +145199,52 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 941,
     "height": 960,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-104696528",
+    "title": "File:Burrata and Fried Green Tomatoes - Birch & Barley - Washington DC - United States Capital - October 2010 (5132611465).jpg",
+    "author": "David Berkowitz  from New York, NY, USA",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Burrata_and_Fried_Green_Tomatoes_-_Birch_%26_Barley_-_Washington_DC_-_United_States_Capital_-_October_2010_(5132611465).jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/28/Burrata_and_Fried_Green_Tomatoes_-_Birch_%26_Barley_-_Washington_DC_-_United_States_Capital_-_October_2010_%285132611465%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "f7776c00f14ebd741faff72334cfdd12e03646d7",
+    "name": "Burrata and Fried Green Tomatoes",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-104696528.jpg",
+    "assetSha256": "21a3ca8a6815e65987285ed102a2e9fe71a2a24e2fb1d43f76d30bb59134bb4e",
+    "reviewedAt": "2026-11-20",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 717,
+    "requiresExactMenuName": true,
+    "authorUrl": "https://www.flickr.com/people/25897810@N00"
+  },
+  {
+    "id": "commons-39453895",
+    "title": "File:Elizabeths 6Ap2015 FriedTomatoShrimp.jpg",
+    "author": "Infrogmation of New Orleans",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Elizabeths_6Ap2015_FriedTomatoShrimp.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/27/Elizabeths_6Ap2015_FriedTomatoShrimp.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "2b2a173d744aabbf57dbd25d208c13a7077db4dc",
+    "name": "Fried green tomatoes with shrimp",
+    "aliases": [],
+    "proteins": [
+      "seafood"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-39453895.jpg",
+    "assetSha256": "5f240ae3bb5e68624ac6b191f2722918f85eb6fd47754abc621036768b2967a2",
+    "reviewedAt": "2026-11-20",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 906,
+    "requiresExactMenuName": true
   }
 ];
