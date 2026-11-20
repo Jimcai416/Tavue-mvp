@@ -159793,5 +159793,30 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 720,
     "height": 960,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-24283093",
+    "title": "File:Galvin La Chapelle, Spitalfields, London (4285894365).jpg",
+    "author": "Ewan Munro  from London, UK",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Galvin_La_Chapelle,_Spitalfields,_London_(4285894365).jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Galvin_La_Chapelle%2C_Spitalfields%2C_London_%284285894365%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "550a4404b3b15c11ca62a91612df4801e58bbcef",
+    "name": "lasagne of Dorset crab with velouté of chanterelles",
+    "aliases": [],
+    "proteins": [
+      "seafood"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-24283093.jpg",
+    "assetSha256": "c5b0f95eec0a738524c628c4f2174d82d1898379da958036b80c3a188aebade0",
+    "reviewedAt": "2026-11-20",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 641,
+    "requiresExactMenuName": true,
+    "authorUrl": "https://www.flickr.com/people/55935853@N00"
   }
 ];
