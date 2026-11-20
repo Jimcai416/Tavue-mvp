@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChEaqSQWSDbAyz7dAU6Tw",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 2\n  },\n  \"visible_support\": [\n    \"Cooked meat mixture in parchment-lined baking pan\",\n    \"Herb-flecked, browned surface visible in both full and thumbnail images\",\n    \"Green onion and herb visible across the dish\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows the finished dish with browning and herb speckling\",\n    \"Parchment wrapping edges visible\",\n    \"Overall form recognizable as a baked preparation\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source metadata states 'lamb offal' but offal is not an allowed protein category (chicken/beef/pork/duck/lamb/seafood only); offal is a preparation type, not a named animal protein\",\n    \"Cannot visually confirm lamb as the specific meat species from appearance alone\",\n    \"Description claims 'lamb' but the exact protein composition (which specific offal organs) cannot be verified from visual inspection\"\n  ],\n  \"reason\": \"Reject: The source description identifies this as made from 'lamb offal', but offal is a preparation category, not a supported protein type in the allowed list (chicken/beef/pork/duck/lamb/seafood). The title 'Drob de miel' refers to a traditional Romanian offal dish, but the specific organ(s) used cannot be confirmed visually, and offal/organ meat does not map to an allowed protein key. The photograph quality and composition are acceptable, but the protein identity cannot be established within the allowed categories. Additionally, the dish appearance (minced/ground mixture) does not allow confident visual confirmation of the lamb species claim without explicit source naming of a supported protein category.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1525,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 511,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
