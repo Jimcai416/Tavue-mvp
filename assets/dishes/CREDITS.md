@@ -11554,3 +11554,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Croqueta de pollo** — Platea Madrid. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:CROQUETA_DE_POLLO.jpg). Local asset: `reviewed-commons-69195343.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Sweet potato pear tzimmes** — [Joey Doll](https://www.flickr.com/people/96626920@N08). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Sweet_potato_pear_tzimmes_(41368704030).jpg). Local asset: `reviewed-commons-102853760.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
