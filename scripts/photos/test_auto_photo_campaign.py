@@ -267,6 +267,30 @@ class CampaignTests(unittest.TestCase):
         self.assertFalse(fields['additionalProperties'])
         self.assertEqual(api.call_args.args[1]['output_config'],body['output_config'])
 
+    def test_europe_focus_leaves_out_of_scope_candidates_unbilled(self):
+        self.config['discoveryFocus']=c.EUROPE_FOCUS
+        p=self.campaign()
+        rows=[{'id':'test-'+str(i),'title':'File:Uncovered dish.jpg','commonsSha1':'sha-'+str(i),
+               'searchCuisine':label} for i,label in enumerate(['Spanish','Sicilian','Provençal','Greek','Indian','Indonesian','Filipino'])]
+        self.assertEqual(p.filter_wave(rows),rows[:4])
+        self.assertEqual([row['reason'] for row in p.decisions],['outside_europe_search_scope']*3)
+        self.assertEqual(p.ledger['requests'],{})
+
+    def test_spanish_plan_restricts_output_and_filters_non_spanish_searches(self):
+        self.config['discoveryFocus']=c.EUROPE_FOCUS
+        p=self.campaign()
+        row=self.round_row()
+        row['focusCuisines']=['Spanish']
+        plans=[{'dish':'Arroz al horno','query':'Arroz al horno','cuisine':'Spanish'},
+               {'dish':'Adobo','query':'Adobo','cuisine':'Filipino'}]
+        message={'id':'plan','stop_reason':'end_turn','content':[{'type':'text','text':json.dumps({'queries':plans})}],
+                 'usage':{'input_tokens':1000,'output_tokens':200}}
+        with patch.object(p,'api',return_value={'input_tokens':1000}),patch.object(p,'persist'),patch.object(p,'paid',return_value=(row['plannerKey'],message,None)) as paid:
+            self.assertEqual(p.plan_round(row),plans[:1])
+        body=paid.call_args.args[1]
+        cuisine=body['output_config']['format']['schema']['properties']['queries']['items']['properties']['cuisine']
+        self.assertEqual(cuisine['enum'],['Spanish'])
+
     def test_unusable_saved_plan_does_not_stop_the_next_round(self):
         p=self.campaign()
         row=self.round_row()
