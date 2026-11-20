@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDTSMJiQdnRMwDTMmjm8",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Smooth, creamy tan bisque in white bowl\",\n    \"Shredded pink/white seafood garnish on surface\",\n    \"Served with sliced bread on red-and-white checkered paper\",\n    \"Metal spoon visible\",\n    \"Natural outdoor daylight\"\n  ],\n  \"phone_observations\": [\n    \"Bisque bowl clearly visible and prominent\",\n    \"Cream colour and garnish readable in thumbnail\",\n    \"Bread and spoon present but secondary\",\n    \"Checkered background pattern visible\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'Lobster crab bisque' but source lists both 'lobster' and 'crab' as ingredients without clarifying which are actually visible or used. No explicit quote isolates a single primary protein or confirms both are present.\",\n    \"Shredded garnish is consistent with crab or lobster but cannot visually distinguish the species or confirm both are in the dish itself.\",\n    \"Metadata title and description are untrusted; only exact visible evidence and explicit source text may support protein claims.\"\n  ],\n  \"reason\": \"Image quality, composition and phone thumbnail are all strong (sharpness, lighting, appeal ≥4). However, identity check fails because the source description ('Lobster crab bisque') names two seafood proteins without an explicit, unambiguous quote isolating which animal(s) are actually in the dish. Standard practice requires exact species confirmation via direct source text. The visible shredded garnish is consistent with either lobster or crab but does not resolve the ambiguity. Hold pending clarification of which seafood protein(s) the dish contains.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1749,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 519,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
