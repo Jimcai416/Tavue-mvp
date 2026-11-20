@@ -12809,3 +12809,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **lasagne of Dorset crab with velouté of chanterelles** — [Ewan Munro  from London, UK](https://www.flickr.com/people/55935853@N00). [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:Galvin_La_Chapelle,_Spitalfields,_London_(4285894365).jpg). Local asset: `reviewed-commons-24283093.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Velouté de Pommes de Terre, crème fraîche, caviar** — Lou Stejskal. [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Velout%C3%A9_de_Pommes_de_Terre,_cr%C3%A8me_fra%C3%AEche,_caviar.jpg). Local asset: `reviewed-commons-95919440.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
