@@ -143273,5 +143273,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "height": 612,
     "requiresExactMenuName": true,
     "authorUrl": "https://www.flickr.com/people/26157413@N08"
+  },
+  {
+    "id": "commons-103709812",
+    "title": "File:Fishcakes and Bratkartoffeln.jpg",
+    "author": "Much Ramblings",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fishcakes_and_Bratkartoffeln.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Fishcakes_and_Bratkartoffeln.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "5f7c8cf799ba9eb4d405cc3e852b4ddd483cd4d1",
+    "name": "Fishcakes and bratkartoffeln",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-103709812.jpg",
+    "assetSha256": "34f4a0f34e9bf4f5b14942ede12d617012f358e2585b487d0f7dfd9caea64c5f",
+    "reviewedAt": "2026-11-20",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];

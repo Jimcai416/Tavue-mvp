@@ -11322,3 +11322,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 - **Kesar ras malai** — Shrads.m. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Ras-malai.jpg). Local asset: `reviewed-commons-40788246.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Biggs Beef Salpicao** — ShmilyDigital. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Biggs_Beef_Salpicao_01.jpg). Local asset: `reviewed-commons-156724945.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Rasmalai** — [martakat83  from Queens, NY, USA](https://www.flickr.com/people/26157413@N08). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Ras_malai-my_new_fave_Indian_delicasy!_-rasmalai_-indianfood_(8237938307).jpg). Local asset: `reviewed-commons-57980530.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Fishcakes and bratkartoffeln** — Much Ramblings. [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Fishcakes_and_Bratkartoffeln.jpg). Local asset: `reviewed-commons-103709812.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
