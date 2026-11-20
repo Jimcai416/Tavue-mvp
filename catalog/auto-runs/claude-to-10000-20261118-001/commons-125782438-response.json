@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChEFqtMzq1bFntL4cpmvR",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows a golden-crusted elongated item on paper atop a vintage kitchen scale\",\n    \"No rice, pork, sauce, sausage, cucumber or eggs visible in either image\",\n    \"Scale and culinary styling suggest a bakery or pastry context, not a rice dish\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title describes 'Thanee Khao Moo Daeng' (barbecue pork over rice with sauce, sausage, cucumber, eggs); photograph shows a single golden-crusted item on a scale with no visible rice, meat, sauce, vegetables or eggs\",\n    \"Visible subject appears to be a baked good or pastry, not the described dish\",\n    \"Complete mismatch between source description and actual photograph content\"\n  ],\n  \"reason\": \"Identity check fails. Source description specifies 'barbecue pork over rice with sticky pork sauce, Chinese cured sausage, cucumber and boiled eggs,' but the photograph displays a single golden-crusted item (possibly a pastry or baked good) balanced on a vintage kitchen scale with no rice, meat preparation, sauce, sausage, vegetables or eggs visible. The composition, context and subject matter contradict the declared identity. Rejection is mandatory regardless of image quality.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1706,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 440,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
