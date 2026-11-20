@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChEsuAQvtv86N2TPA8N1R",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Burrata cheese clearly visible as creamy white ball\",\n    \"Pink cured meat (prosciutto) draped beside\",\n    \"Fresh green arugula\",\n    \"Coloured grapes (orange, green, red)\",\n    \"Serrated knife with wooden handle\",\n    \"Black textured plate\",\n    \"Fine dining plated presentation\"\n  ],\n  \"phone_observations\": [\n    \"Burrata cheese centre-prominent and sharp\",\n    \"Pink meat and green leaf visible\",\n    \"Plate and composition recognizable at thumbnail scale\",\n    \"Essential components readable and not clipped\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title describes only 'Burrata cheese' but photograph shows a composed dish with cured meat and accompaniments—identity mismatch\",\n    \"Meat species (prosciutto assumed but not stated in source description) cannot be claimed without explicit source naming\",\n    \"Source description does not name or qualify the full dish; it names only one component\"\n  ],\n  \"reason\": \"Identity check fails. The source title and description state only 'Burrata cheese' as a standalone ingredient, but the photograph presents a finished, plated dish composed of burrata, prosciutto, arugula, grapes, and knife—a complete preparation. The source metadata does not describe this plated composition. No protein can be claimed in protein_evidence because the cured meat species is not explicitly named in the source title/description (prosciutto is inferred from appearance, not stated). The title/description must match the actual dish presented, with all material components and qualifiers named. Reject.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1715,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 507,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
