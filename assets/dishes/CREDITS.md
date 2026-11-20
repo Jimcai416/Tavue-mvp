@@ -11014,3 +11014,10 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Nepali Dhido** — Janak Bhatta. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Nepali_Dhido.jpg). Local asset: `reviewed-commons-159484258.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Mille-feuille** — Thomon. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Bon_mille-feuille.jpg). Local asset: `reviewed-commons-112692665.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Crepe with strawberries and mille-feuille** — KKPCW. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Crepe_with_strawberries_and_mille-feuille_in_it.jpg). Local asset: `reviewed-commons-99182361.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Mille-feuille cake** — Miya. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/); [source](https://commons.wikimedia.org/wiki/File:Mille-feuille_01.jpg). Local asset: `reviewed-commons-373265.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Vanilla Mille-Feuille with berries** — Richard N Horne. [CC BY 4.0](https://creativecommons.org/licenses/by/4.0); [source](https://commons.wikimedia.org/wiki/File:Vanilla_Mille-Feuille_with_berries_onboard_the_MS_Queen_Anne.jpg). Local asset: `reviewed-commons-163164498.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
