@@ -11826,3 +11826,9 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Gising-Gising** — Ralff Nestor Nacor. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Gising-Gising,_Jan_2026.jpg). Local asset: `reviewed-commons-182117524.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Humitas salteñas** — Leonardovillada. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:HUMITAS_SALTE%C3%91AS.jpg). Local asset: `reviewed-commons-36344158.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Humitas** — JordiCuber. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Humitas_(3).jpg). Local asset: `reviewed-commons-69761112.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Humitas en chala tipicas de Argentina** — Marcos Katz. [CC BY 3.0](https://creativecommons.org/licenses/by/3.0); [source](https://commons.wikimedia.org/wiki/File:Humitas_en_chala_tipicas_de_Argentina8.JPG). Local asset: `reviewed-commons-9454458.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
