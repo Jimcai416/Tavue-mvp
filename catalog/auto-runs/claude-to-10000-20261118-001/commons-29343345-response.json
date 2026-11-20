@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDPaurK45tKPZApX77Cw",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Composed cold platter with multiple protein components\",\n    \"Fresh vegetables: lettuce, radishes, peppers, peas, olives, yellow apple\",\n    \"Visible shrimp/prawns with orange colouration\",\n    \"White fish or poultry pieces\",\n    \"Processed meats (salami visible)\",\n    \"Sharp detail in full image; phone thumbnail shows layered composition\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly displays mixed platter with protein variety\",\n    \"Colourful vegetable components visible\",\n    \"Layered arrangement readable at reduced scale\",\n    \"Finished, exposed dish suitable for intake\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title 'Fiambre' is a Guatemalan All Souls' Day dish with regional and family variations; exact protein species (fish vs poultry in white pieces) not definitively identifiable from appearance\",\n    \"Salami/processed meat species not explicitly named in source\",\n    \"Shrimp/seafood presence visually clear but not confirmed in source description\",\n    \"No explicit source quote naming individual proteins or variant qualifiers\",\n    \"Ambiguity whether this represents a specific regional fiambre variant or home preparation\"\n  ],\n  \"reason\": \"Image quality, sharpness, lighting, composition and appeal all meet thresholds (scores ≥4). Photograph and phone thumbnail both show a finished, exposed, appetising cold platter with readable components. However, identity check fails: the source provides only the generic dish name 'Fiambre' without variant specification or explicit protein naming. While the visual composition is consistent with fiambre tradition (mixed cold proteins, vegetables, fruits, olives), the exact species of white protein pieces and processed meats cannot be definitively confirmed from appearance alone, and the source description does not name proteins explicitly. Per protocol, ambiguous or unspecified protein species and lack of meaningful variant detail in source → hold. A specific source quote naming proteins and regional variant (if applicable) is required for acceptance.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1724,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 603,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
