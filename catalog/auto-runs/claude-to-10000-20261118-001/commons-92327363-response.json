@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChEKdpdu8eDmneVtnE3br",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Golden-brown cooked sausage-like forms with visible spice coating\",\n    \"Plated on cream-coloured ceramic dish\",\n    \"Garnished with crushed nuts visible on surface\",\n    \"Appetising colour and apparent finished state\"\n  ],\n  \"phone_observations\": [\n    \"Subject remains prominent and legible in thumbnail\",\n    \"Golden colour and form clearly visible\",\n    \"No clipping of essential components\",\n    \"Spice coating and details discernible at reduced size\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source metadata states 'membrane of intestines of sheep' but this is unverified metadata, not an explicit dish name or title containing a protein category\",\n    \"The actual dish name 'Mumbar Dolması' does not explicitly state lamb or any allowed protein category in the canonical form\",\n    \"Membrane/intestine preparation means the protein cannot be safely identified as a single allowed category—the source says 'sheep intestines' but canonical title does not name the animal\",\n    \"Protocol requires exact source quote naming each animal for protein_evidence; the description contains the animal reference, but the canonical_name must derive from title/description without inferring\"\n  ],\n  \"reason\": \"Photograph is sharp, well-lit, appetising and properly exposed. The dish is plated and finished. Phone thumbnail is excellent. However, identity cannot be fully verified because the canonical dish name 'Mumbar Dolması' does not itself explicitly name a protein category. The source description mentions 'sheep' intestines, but the protocol requires the canonical_name to match the exact source title/description, and the title 'Mumbar Dolması' does not include an animal name. The description does provide context, but using metadata to infer a protein when the canonical name does not state it violates the rule that proteins must come from an exact source quote explicitly naming the animal. The intestine membrane itself is the primary ingredient, not a standard protein category. Hold pending clarification of whether 'Mumbar Dolması' has a standard English canonical form that includes the protein qualifier.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1643,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 610,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

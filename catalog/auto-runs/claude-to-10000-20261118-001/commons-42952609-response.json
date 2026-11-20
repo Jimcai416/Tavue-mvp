@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChEKegEQTP9Bm99SynuGH",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Three distinct component salads clearly visible on white plate\",\n    \"Vibrant red beetroot-based salad with peas (vinegret)\",\n    \"Creamy potato salad (Olivier)\",\n    \"Cellophane noodle dish with garnish (funchoza)\",\n    \"Natural lighting, sharp detail, appetising presentation\",\n    \"Phone thumbnail preserves all three components\"\n  ],\n  \"phone_observations\": [\n    \"Red beetroot salad prominent in phone view\",\n    \"Creamy component visible at top\",\n    \"Noodle component readable on right\",\n    \"Green garnish visible\",\n    \"All three dishes distinguishable in 124x96 thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title references three separate starters, not a single unified dish\",\n    \"Source describes these as 'starters that come with the Kyrgyz-Kazakh menu' — a plate composition of three distinct salads rather than one finished dish identity\",\n    \"Canonical identity ambiguous: is this 'Vinegret Olivier Funchoza' as a combined plate, or three separate dishes?\"\n  ],\n  \"reason\": \"Reject: The source explicitly presents three distinct starter salads (vinegret, Olivier, and funchoza) served together as components of a menu offering, not a single identified dish. The title conflates three separate dishes by joining their names. Identity cannot be established as a unified canonical dish—it is a composition of three named components. Tavue's food review system accepts individual finished dishes with clear identity, not mixed-composition starter plates where the 'name' is merely a list of three unrelated traditional salads. The photograph quality and phone presentation are acceptable, but the fundamental identity requirement fails because the canonical_name would need to either name all three equally or select one, neither of which preserves accurate identity of what is photographed.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1786,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 568,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
