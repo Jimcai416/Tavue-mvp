@@ -146436,5 +146436,53 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 720,
     "height": 960,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-148838881",
+    "title": "File:Chicken Biriyani (ಬಿರಿಯಾನಿ).jpg",
+    "author": "Yakshitha",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chicken_Biriyani_(%E0%B2%AC%E0%B2%BF%E0%B2%B0%E0%B2%BF%E0%B2%AF%E0%B2%BE%E0%B2%A8%E0%B2%BF).jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Chicken_Biriyani_%28%E0%B2%AC%E0%B2%BF%E0%B2%B0%E0%B2%BF%E0%B2%AF%E0%B2%BE%E0%B2%A8%E0%B2%BF%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "b8638fe0c6a0dd10b6068a0fc6d807d9913f8965",
+    "name": "Chicken Biriyani",
+    "aliases": [],
+    "proteins": [
+      "chicken"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-148838881.jpg",
+    "assetSha256": "396104c3f7d3507b52baadd845767bbcb2608c462f737b2e9905e4d71df99c99",
+    "reviewedAt": "2026-11-20",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 720,
+    "height": 960,
+    "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-101903951",
+    "title": "File:Kaithi biriyani beef.jpg",
+    "author": "Baluej",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kaithi_biriyani_beef.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Kaithi_biriyani_beef.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "5be337625802ff865f94893a7975634a3740767a",
+    "name": "Kaithi biriyani beef",
+    "aliases": [],
+    "proteins": [
+      "beef"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-101903951.jpg",
+    "assetSha256": "3a64a5db891c690f2f5e4ae15d9541fdaa75e3515fa16dfc07f1181ab272ab87",
+    "reviewedAt": "2026-11-20",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 720,
+    "height": 960,
+    "requiresExactMenuName": true
   }
 ];

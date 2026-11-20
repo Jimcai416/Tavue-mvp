@@ -11613,3 +11613,8 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 
 - **Chicken khorma Hyderabad India** — Abhinaba Basu. [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Chicken_khorma_Hyderabad_India.jpg). Local asset: `reviewed-commons-137281217.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Bakwan jembak** — Risanprasetyo /Febri Ady Prasetyo. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Gorengan_selada_air_jembak.jpg). Local asset: `reviewed-commons-192537671.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Chicken Biriyani** — Yakshitha. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Chicken_Biriyani_(%E0%B2%AC%E0%B2%BF%E0%B2%B0%E0%B2%BF%E0%B2%AF%E0%B2%BE%E0%B2%A8%E0%B2%BF).jpg). Local asset: `reviewed-commons-148838881.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Kaithi biriyani beef** — Baluej. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Kaithi_biriyani_beef.jpg). Local asset: `reviewed-commons-101903951.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
