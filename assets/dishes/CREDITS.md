@@ -11634,3 +11634,9 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Konro Bakar, grilled spicy ribs, a specialty of Makassar cuisine, South Sulawesi** — Gunawan Kartapranata. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Konro_Bakar_4.jpg). Local asset: `reviewed-commons-65225786.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Bauerngröstl** — Benreis. [CC BY 3.0](https://creativecommons.org/licenses/by/3.0); [source](https://commons.wikimedia.org/wiki/File:Bauerngr%C3%B6stl_Innerperskoler_Hof,_.JPG). Local asset: `reviewed-commons-63845728.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Fried shrimp po-boy sandwich with fries and a glass of beer** — Infrogmation of New Orleans. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Fried_shrimp_po-boy_sandwich_with_fries_and_beer.jpg). Local asset: `reviewed-commons-12136037.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Shrimp po-boy sandwich** — Infrogmation of New Orleans. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Shrimp_Po-boy_Parkway_NOLA.JPG). Local asset: `reviewed-commons-10491331.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
