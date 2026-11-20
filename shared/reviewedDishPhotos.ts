@@ -147991,5 +147991,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 640,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-33761271",
+    "title": "File:Kheere Ka Raita.JPG",
+    "author": "Miansari66",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kheere_Ka_Raita.JPG",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Kheere_Ka_Raita.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "38be9a13096ecb4a36c230d04b253718ff40ff6d",
+    "name": "Kheere Ka Raita",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-33761271.jpg",
+    "assetSha256": "092642ae7c4153fa10d3fbddf2a377448b8332dae699d9c848b7cac2975d149b",
+    "reviewedAt": "2026-11-20",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];

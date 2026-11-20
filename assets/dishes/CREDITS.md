@@ -11750,3 +11750,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 
 - **green kroeung** — Goomba King ( en:User:Trilinguist ). [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/); [source](https://commons.wikimedia.org/wiki/File:A_spoonful_of_green_kroeung.jpg). Local asset: `reviewed-commons-4477032.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Cha kroeung** — Thomas Wanhoff. [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:Cha_kroeung.jpg). Local asset: `reviewed-commons-138627830.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Kheere Ka Raita** — Miansari66. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Kheere_Ka_Raita.JPG). Local asset: `reviewed-commons-33761271.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
