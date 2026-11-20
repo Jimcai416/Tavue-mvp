@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDUkVTisoSWTx7mTwMKd",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Roasted whole pig carcass prominently displayed\",\n    \"Yellow rice/grain visible in centre\",\n    \"Shredded meat on platter above\",\n    \"Kitchen/street food preparation setting\",\n    \"Professional presentation with staff\",\n    \"Tomato garnish visible\"\n  ],\n  \"phone_observations\": [\n    \"Roasted pig clearly visible in thumbnail\",\n    \"Yellow starch component visible\",\n    \"Shredded meat components readable\",\n    \"Essential dish elements present and sharp\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title contains only filename reference 'RP ICampeonatoMundial del Hornado 29-05-2014 043 - copia' with no descriptive dish name\",\n    \"Description field repeats filename without canonical dish identity\",\n    \"While visual content strongly suggests 'hornado' (roasted pork), no explicit canonical dish name supplied in source metadata\",\n    \"'Hornado' implies pork but source provides no direct declaration of animal species or finished dish name\"\n  ],\n  \"reason\": \"Reject: Source metadata lacks a canonical dish name or explicit identity description. The filename reference alone is not authoritative dish identification. Although the photograph clearly shows a roasted pig preparation with rice and accompaniments (consistent with Ecuadorian hornado), the source provides no explicit title or description confirming the finished dish name or animal species. Identity check cannot pass without source-supplied canonical name or species declaration.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1669,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 474,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

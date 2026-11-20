@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDUmqcDAvBK9TBK5ca87",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 5\n  },\n  \"visible_support\": [\n    \"Golden-brown, crispy fried meat with irregular coating\",\n    \"High-definition detail of texture and surface\",\n    \"Well-lit, appetising appearance\",\n    \"Phone thumbnail clearly shows fried meat product\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail preserves texture detail of fried coating\",\n    \"Subject prominent and identifiable as fried meat\",\n    \"No clipping of essential components\",\n    \"Colour and form clearly visible at small size\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title contains only 'HORNADO' (a Ecuadorian roasted/fried pork dish) but no explicit animal species declaration in the metadata\",\n    \"While hornado traditionally refers to pork, the source description does not contain an exact quoted animal name\",\n    \"Visible form is consistent with fried pork but species cannot be confirmed from image alone without source text confirmation\"\n  ],\n  \"reason\": \"Image quality, sharpness, lighting and composition all excellent; phone thumbnail adequate. However, the source metadata does not contain an explicit, case-sensitive quote naming the protein (e.g., 'pork'). The title references 'HORNADO' but provides no readable animal species declaration. Per protocol, without an exact source quote explicitly naming the animal, protein evidence cannot be populated and identity check fails. Hold for explicit species confirmation from source.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1680,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 452,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
