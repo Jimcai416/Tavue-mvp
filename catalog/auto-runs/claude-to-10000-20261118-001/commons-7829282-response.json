@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChEQ6TjGN4ZxyjHsAg5bH",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Sliced cured sausage with characteristic red-orange granular interior\",\n    \"Intact exterior casing with paprika-based coating visible\",\n    \"Cross-section clearly visible in full image and thumbnail\",\n    \"Surrounding packaged meats and food items in market/display setting\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail shows sliced sausage cross-section prominently\",\n    \"Red-orange granular texture clearly visible at this scale\",\n    \"Sausage identity recognizable in reduced dimensions\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'Chorizo de Pamplona' but source description provides no explicit animal species identification\",\n    \"Chorizo is a category name covering multiple regional variants and meat compositions; exact species (pork/beef/mixed) cannot be verified from title alone\",\n    \"Photograph shows finished, sliced cured sausage but does not visually prove specific species or regional origin claim\",\n    \"No explicit source quote naming the animal protein present\"\n  ],\n  \"reason\": \"Reject: Identity check fails. The title 'Chorizo de Pamplona' is a regional category name and meat type, but contains no explicit source quote identifying the specific animal protein (pork, beef, etc.). Chorizo can be made from multiple species and blends. Without an exact source quote naming the animal, protein_evidence cannot be populated and the dish identity cannot be verified as matching source description per rules. Photograph quality and form are acceptable, but identity verification is required for acceptance.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1621,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 492,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
