@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChEXSayhkm6FczgTfqzRR",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Pot of broth/soup visible in phone thumbnail\",\n    \"Light golden liquid dominates\",\n    \"Some vegetable matter visible but not distinct\",\n    \"Cooked stage confirmed in thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Dish appears to be an in-progress or preparation-stage soup, not a finished plated dish ready for service\",\n    \"Broth contains only partially visible vegetable matter; no identifiable finished components\",\n    \"Raw or unfinished preparation appearance: vegetables appear to be cooking in liquid rather than forming a composed dish\",\n    \"No essential components visually readable in phone thumbnail beyond generic broth\",\n    \"Home cooking context does not override the preparation-stage rejection rule\"\n  ],\n  \"reason\": \"Reject: This is a soup or broth in an active cooking state, not a finished exposed dish. The image shows a pot on a stovetop with vegetables still cooking in liquid—a preparation/intermediate stage rather than a plated or finished serving. Even though home cooking is welcome, this violates the core requirement for 'a finished, exposed, likely photographic dish' with 'readable essential components.' The phone thumbnail confirms only generic broth with indistinct ingredients, failing to meet the standard for a complete, presented dish. The source metadata is untrusted but the visual evidence itself confirms an in-progress state.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1726,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 451,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

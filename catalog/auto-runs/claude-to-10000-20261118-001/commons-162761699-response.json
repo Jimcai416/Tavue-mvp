@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChEXTQ3fJMCJdJmTqigKL",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": \"Vegetable soup with fish and pomo\",\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 3,\n    \"lighting\": 2,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [\n    \"Dark leafy greens visible (kale or similar)\",\n    \"Browned protein pieces embedded in greens\",\n    \"Oily/glossy surface indicating soup/stew preparation\",\n    \"Served in white bowl\",\n    \"Rustic, home-cooked presentation\"\n  ],\n  \"phone_observations\": [\n    \"Soup/stew bowl clearly visible in thumbnail\",\n    \"Green vegetable component prominent\",\n    \"Brown protein fragments distinguishable\",\n    \"Overall composition readable but detail softness limits confidence in species identification\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Fish species not specified in source description—'fish' is generic and cannot be verified visually or confirmed as a single identifiable species\",\n    \"Pomo identity unclear: source does not define pomo, and it is not a standard English culinary term recognizable as a specific ingredient\",\n    \"Visual softness and lighting make definitive protein species confirmation impossible\",\n    \"Brown fragments could represent cooked fish, but no explicit regional or preparation detail confirms this\"\n  ],\n  \"reason\": \"Source description contains unspecified generic meat ('fish') without species name and an undefined term ('pomo') without explanation. Protein_evidence cannot be populated without exact species quotes. Photo quality is acceptable and dish appears finished, but identity cannot be verified against the source title without clarity on both the fish type and the pomo ingredient. Hold pending source clarification.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1733,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 470,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

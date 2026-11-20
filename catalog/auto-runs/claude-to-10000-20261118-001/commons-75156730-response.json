@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChEXSb5QwGDVXQkWQVbuJ",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Pot of broth-based soup visible in thumbnail\",\n    \"Golden/orange broth colour consistent with source\",\n    \"Vegetables and herbs visible but not sharply resolved at 124x96\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title 'Vegetable soup' is generic and does not match a specific dish identity\",\n    \"No regional variant, preparation style or named dish type provided\",\n    \"No proteins explicitly named in source description\",\n    \"Photograph shows preparation stage (cooking in pot) rather than finished plated dish\"\n  ],\n  \"reason\": \"Rejection: Image depicts soup in an active cooking stage within a pot on a stove, not a finished, exposed, plated dish suitable for food photography review. Source metadata provides only generic 'Vegetable soup' with no specific dish identity, variant qualifier, or protein declaration. Home cooking context is acknowledged but the subject is mid-preparation, not a finished service. Identity cannot be established from generic category alone.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1729,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 369,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
