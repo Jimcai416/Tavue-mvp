@@ -11064,3 +11064,8 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Daube de Boeuf** — Missvain. [CC BY 4.0](https://creativecommons.org/licenses/by/4.0); [source](https://commons.wikimedia.org/wiki/File:Bistro_Jeanty_-_January_2019_-_Sarah_Stierch.jpg). Local asset: `reviewed-commons-76451778.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Khao mok kai** — Takeaway. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Khao_mok_kai.JPG). Local asset: `reviewed-commons-18293850.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Khao mok kai (chicken biryani)** — Bitterschoko. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Khao_mok_kai_(chicken_biryani),_Bangkok,_2018-10-09.jpg). Local asset: `reviewed-commons-86791877.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
