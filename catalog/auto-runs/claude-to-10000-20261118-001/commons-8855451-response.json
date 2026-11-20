@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChEsoucoMYMEYGDPfo7nJ",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thin-sliced cured meat visible in thumbnail\",\n    \"Marbling and fat distribution consistent with source\",\n    \"Natural colour preserved in reduction\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title references 'Sweetcapicola' but description lists 'Capicola (also known as Coppa)' – conflicting nomenclature\",\n    \"Capicola/Coppa is a pork product, but 'pork' is not explicitly stated in title or description – only inferred from common knowledge of the meat type\",\n    \"Metadata indicates this is a Wikipedia file upload, not a food service photograph of a finished dish\"\n  ],\n  \"reason\": \"Reject: This is a raw ingredient/charcuterie product photograph, not a finished prepared dish. The source is a Wikipedia file documenting the ingredient itself rather than a plated or served food item. Additionally, while capicola/coppa is traditionally pork, the source title and description do not explicitly name the animal protein ('pork'), preventing valid protein_evidence entry. The nomenclature conflict between 'Sweetcapicola' (title) and 'Capicola (also known as Coppa)' (description) creates source ambiguity. Tavue reviews finished food dishes, not ingredient documentation.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1743,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 445,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

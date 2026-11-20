@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChEspGPTpn4Qay3niyEEf",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Sliced tomatoes arranged around central element\",\n    \"Creamy white spherical centre element\",\n    \"Mixed greens and microgreens garnish\",\n    \"Fine dining plating on white plate\",\n    \"Natural lighting from restaurant setting\"\n  ],\n  \"phone_observations\": [\n    \"Cream/white sphere centre clearly visible\",\n    \"Orange tomato slices form recognizable base\",\n    \"Green garnish details readable in thumbnail\",\n    \"Dish composition and arrangement maintained in crop\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title describes 'Burrata Salad with green vegetables' but visible form shows tomato slices as primary base, not predominantly green vegetables\",\n    \"Central element described as burrata (creamy cheese sphere) is visually consistent, but source metadata contains unverified restaurant/location attribution\"\n  ],\n  \"reason\": \"Identity check fails: the source description emphasizes 'green vegetables' as the primary component, but the photograph clearly shows sliced tomatoes as the dominant base element, with greens in secondary garnish role. This contradicts the stated identity. While the photograph itself is sharp, well-lit, appetizing and shows a finished dish with clear presentation, the material discrepancy between source description and visible composition triggers a hold on identity verification. Burrata salad formulations vary regionally, but the emphasis on 'green vegetables' in the title does not match the tomato-forward visual evidence.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1757,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 467,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

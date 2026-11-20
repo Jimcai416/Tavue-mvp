@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChEsosJPrsfUPRRVF3Nej",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Raw egg yolk and diced cured meat visible in bowl\",\n    \"Blue flower garnish on plate rim\",\n    \"Oil being poured from metal vessel\",\n    \"Orange underlay surface\"\n  ],\n  \"phone_observations\": [\n    \"Preparation stage with raw egg and meat dice clearly visible\",\n    \"Hand pouring oil/liquid into the bowl\",\n    \"Uncooked components dominate the thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title is '087' (generic reference number, not a dish name)\",\n    \"File metadata indicates 'Pancetta' but image shows preparation/assembly stage, not a finished dish\",\n    \"Metadata name contradicts visible evidence: pancetta is cured meat, but image shows raw egg yolk and diced ingredients being combined\",\n    \"No finished, cooked, or exposed dish visible—only ingredient preparation\"\n  ],\n  \"reason\": \"Reject: image shows a preparation/assembly stage (raw egg yolk, diced cured meat, oil being added to bowl) rather than a finished, exposed, cooked dish. Source metadata ('Pancetta') does not match the visible preparation activity. Source title is a file reference number ('087'), not an actual dish name. The image violates the core requirement of depicting a finished, recognizable dish in naturally exposed form.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1723,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 442,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

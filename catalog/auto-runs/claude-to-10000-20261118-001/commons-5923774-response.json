@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChEso3y4moQHoGHNjD7s2",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Thin-sliced cured meat on white plate\",\n    \"Natural pink-red colour consistent with prosciutto\",\n    \"Characteristic marbling and translucency\",\n    \"Sharp detail and appetising presentation\"\n  ],\n  \"phone_observations\": [\n    \"Sliced meat clearly visible in thumbnail\",\n    \"Colour and texture recognisable\",\n    \"Subject prominent and not clipped\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title indicates 'Prosciutto di Parma affettato', but no animal species ('ham', 'pork') is explicitly named in the title or description\",\n    \"Per protocol, 'prosciutto' alone is a preparation method/regional designation, not an explicit animal identifier\",\n    \"Although visually consistent with cured pork ham and contextually certain, the exact source text does not contain an explicit animal species name required for protein_evidence\"\n  ],\n  \"reason\": \"While the photograph shows a sharply detailed, naturally coloured, appetising plate of sliced cured meat consistent with Prosciutto di Parma, and all quality and photograph checks pass, the source title 'Prosciutto di Parma affettato' does not explicitly name the animal species (pork/ham). Protocol requires an exact case-sensitive substring naming the animal; tradition, appearance, and regional designation alone cannot supply the protein evidence. Identity check fails. Hold for explicit species confirmation in source metadata.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1648,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 468,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
