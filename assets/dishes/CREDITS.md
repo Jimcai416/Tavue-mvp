@@ -12204,3 +12204,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 
 - **Maltese broth with chicken** — Continentaleurope. [CC BY 4.0](https://creativecommons.org/licenses/by/4.0); [source](https://commons.wikimedia.org/wiki/File:Brodu.jpg). Local asset: `reviewed-commons-176936775.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **beef mixian noodles** — Pratyeka. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Mixian-broth-and-noodles.jpg). Local asset: `reviewed-commons-54918305.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Chicken Balti Bhuna, Pilau Rice and Plain Naan** — [Edinburgh Blog](https://www.flickr.com/photos/15441925@N00). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Chicken_Balti_Bhuna.jpg). Local asset: `reviewed-commons-4649402.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.

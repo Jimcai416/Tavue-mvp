@@ -152667,5 +152667,30 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 540,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-4649402",
+    "title": "File:Chicken Balti Bhuna.jpg",
+    "author": "Edinburgh Blog",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chicken_Balti_Bhuna.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/50/Chicken_Balti_Bhuna.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "9ae5a0c6e6d05f5ef69b794e7dc1789d56376a86",
+    "name": "Chicken Balti Bhuna, Pilau Rice and Plain Naan",
+    "aliases": [],
+    "proteins": [
+      "chicken"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-4649402.jpg",
+    "assetSha256": "9a6a420e9fa8fef42d65e1e739c18cf7504715a0421e5c41c8ba01fab2e21060",
+    "reviewedAt": "2026-11-20",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 640,
+    "requiresExactMenuName": true,
+    "authorUrl": "https://www.flickr.com/photos/15441925@N00"
   }
 ];
