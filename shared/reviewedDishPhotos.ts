@@ -146390,5 +146390,51 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-137281217",
+    "title": "File:Chicken khorma Hyderabad India.jpg",
+    "author": "Abhinaba Basu",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chicken_khorma_Hyderabad_India.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Chicken_khorma_Hyderabad_India.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "47452a5becfa337e1ca66ca5271378ff3c8280c1",
+    "name": "Chicken khorma Hyderabad India",
+    "aliases": [],
+    "proteins": [
+      "chicken"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-137281217.jpg",
+    "assetSha256": "06a49de16adc385047fa7b4e45f7edabba6d651f317628dcd1279907038ed71b",
+    "reviewedAt": "2026-11-20",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 957,
+    "height": 960,
+    "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-192537671",
+    "title": "File:Gorengan selada air jembak.jpg",
+    "author": "Risanprasetyo /Febri Ady Prasetyo",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gorengan_selada_air_jembak.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Gorengan_selada_air_jembak.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "03035db3ae0d6923add508cc852b00f0ed887b30",
+    "name": "Bakwan jembak",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-192537671.jpg",
+    "assetSha256": "80187c8d6702880b26a1250543449926927a4de7d37602f063d942ae692f6d7b",
+    "reviewedAt": "2026-11-20",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 720,
+    "height": 960,
+    "requiresExactMenuName": true
   }
 ];

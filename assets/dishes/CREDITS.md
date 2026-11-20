@@ -11608,3 +11608,8 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Hainanese coconut chicken soup** — Jpatokal. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Yeziji_Hainanese_coconut_chicken_soup.jpg). Local asset: `reviewed-commons-109440968.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Chicken khorma Hyderabad India** — Abhinaba Basu. [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Chicken_khorma_Hyderabad_India.jpg). Local asset: `reviewed-commons-137281217.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Bakwan jembak** — Risanprasetyo /Febri Ady Prasetyo. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Gorengan_selada_air_jembak.jpg). Local asset: `reviewed-commons-192537671.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
