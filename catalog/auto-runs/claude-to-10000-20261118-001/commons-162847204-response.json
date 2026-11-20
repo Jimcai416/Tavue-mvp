@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChE4Ed9SujqaHe9yFVsL9",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Golden-brown baked pastry turnovers in clear plastic takeaway container\",\n    \"Multiple sealed half-moon shaped pies with crimped edges\",\n    \"Natural daylight, warm colour cast, food clearly visible and prominent in both images\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows baked pastry pies with distinctive half-moon shape\",\n    \"Enough detail to identify as finished baked goods, not raw preparation\",\n    \"Golden colour and form consistent across both images\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title states 'Meat pie' but no specific meat type is named or visually identifiable\",\n    \"Geographic qualifier 'Northern Nigeria' is contextual but does not confirm meat species\",\n    \"Pastry is opaque; filling composition and meat species cannot be determined from appearance alone\",\n    \"No explicit protein declaration in source metadata\"\n  ],\n  \"reason\": \"Image quality, sharpness, lighting and composition all meet standards. Photograph shows finished, appetising baked pastry pies prominently displayed. However, the source title 'Meat pie' lacks explicit protein species identification. Per rules, ambiguous meat species and source contradictions require hold. The filling is completely hidden by the opaque pastry crust, making visual confirmation of meat type impossible. An explicit quote naming the specific animal (chicken/beef/pork/lamb/etc.) is required in source title or description for acceptance. Generic 'meat' cannot be used to populate protein_evidence.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1511,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 481,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
