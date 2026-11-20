@@ -157900,5 +157900,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-97302437",
+    "title": "File:Rijsttafel-OKT2020-1.jpg",
+    "author": "Milliped",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rijsttafel-OKT2020-1.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Rijsttafel-OKT2020-1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "2b83b2917cccb4d1f311e7d70ee386ccfdbbfc33",
+    "name": "rijsttafel",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-97302437.jpg",
+    "assetSha256": "ec25ed1ea114203fc12ed316c94a542e5e99c9fdfa708cbe33e0f80d6b1ea803",
+    "reviewedAt": "2026-11-20",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 640,
+    "requiresExactMenuName": true
   }
 ];
