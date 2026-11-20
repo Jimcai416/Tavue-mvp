@@ -12459,3 +12459,8 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 
 - **Soda Bread** — Richard Avery. [Public domain](https://creativecommons.org/publicdomain/mark/1.0/); [source](https://commons.wikimedia.org/wiki/File:Soda_Bread.JPG). Local asset: `reviewed-commons-12277826.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **St. Patrick's Day Soda Bread** — [slgckgc](https://www.flickr.com/people/14771153@N04). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:St._Patrick%27s_Day_Soda_Bread_(33528786238).jpg). Local asset: `reviewed-commons-79519222.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Aceitunas rellenas y aceitunas 'Ferran Adrià'** — Jan Mark Holzer. [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Jaleo_-_las_Vegas_-_9.jpg). Local asset: `reviewed-commons-74795045.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Mejillones al vapor** — Juan Emilio Prades Bel. [CC BY 4.0](https://creativecommons.org/licenses/by/4.0); [source](https://commons.wikimedia.org/wiki/File:Mejillones_al_vapor,_Grao_de_Castell%C3%B3n.jpg). Local asset: `reviewed-commons-174254275.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
