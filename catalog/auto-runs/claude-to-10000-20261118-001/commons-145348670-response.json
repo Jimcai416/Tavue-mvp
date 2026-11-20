@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChExhg1QDZ8ZFLvKTu8F4",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Golden-yellow broth with visible chilli peppers and herbs in large communal pot\",\n    \"Arranged raw ingredients: sliced mushrooms, noodles, meat slices, tofu strips, leafy vegetables\",\n    \"Serving spoons, small bowls, and chopsticks positioned for self-cooking service\",\n    \"Rustic dark wooden table presentation typical of hot-pot dining\"\n  ],\n  \"phone_observations\": [\n    \"Central pot with golden broth and red chilli peppers clearly visible in thumbnail\",\n    \"Broth colour and ingredient distribution recognisable at phone size\",\n    \"Communal cooking vessel dominates the frame appropriately\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title states 'Fondue chinoise' but image shows traditional Chinese hot-pot (火鍋) with communal raw ingredient assembly, not fondue\",\n    \"Description claims 'spécialité du Sichuan' (Sichuan specialty) but no visible preparation stage or finished dish being consumed\",\n    \"Image depicts mise-en-place and preparation tableau, not a finished exposed dish ready to eat\",\n    \"No proteins explicitly named in source title or description; meat species cannot be determined from raw sliced appearance alone\",\n    \"Raw ingredients are still in preparation/raw state, not cooked and plated\"\n  ],\n  \"reason\": \"Reject: This is a preparation stage and ingredient assembly tableau, not a finished, exposed, cooked dish. While the communal pot contains broth suitable for hot-pot, the dominant visual content is raw ingredients and mise-en-place arrangement. The source title 'Fondue chinoise' contradicts the actual hot-pot preparation style visible. No proteins are explicitly named in source metadata, and species cannot be inferred from raw ingredient appearance. The image fails the finished dish requirement and identity alignment criterion.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1745,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 561,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

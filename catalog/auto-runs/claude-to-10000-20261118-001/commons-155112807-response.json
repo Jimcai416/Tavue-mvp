@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChExhg3dxN2P8RJJzmpAZ",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Pizza in cardboard box with visible toppings\",\n    \"Golden-brown crust with cheese and distributed toppings\",\n    \"Red and pale ingredients scattered across surface\",\n    \"Drinks and condiments present in tray\"\n  ],\n  \"phone_observations\": [\n    \"Pizza clearly visible in box\",\n    \"Toppings distinguishable but species ambiguous at thumbnail resolution\",\n    \"Overall composition readable\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title claims 'Chicken Paprika Pizza' but no visual evidence definitively identifies chicken as the meat species in the photograph\",\n    \"Red toppings could be paprika seasoning, red peppers, or other ingredients; paprika itself is not a protein\",\n    \"Meat species cannot be verified from appearance alone without explicit confirmation in source documentation\",\n    \"Species ambiguity (meat visible but unconfirmed as chicken) requires hold per protocol\"\n  ],\n  \"reason\": \"Identity check fails. The source title declares 'Chicken Paprika Pizza' but the photograph does not provide explicit visual proof of chicken as the protein. Meat toppings are present but their species cannot be definitively identified from the image alone. Per protocol, ambiguous meat species or source-declared proteins without visual confirmation require hold. No exact substring from the title can be reliably mapped to visible protein evidence.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1552,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 447,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
