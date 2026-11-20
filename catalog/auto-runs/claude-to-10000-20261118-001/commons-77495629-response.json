@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDspH6Ni2V9RFLNiX72U",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Sliced cured meat visible in cross-section\",\n    \"Layered sandwich construction with bread\",\n    \"Pickled vegetables (olives, onions)\",\n    \"Natural daylight photography\"\n  ],\n  \"phone_observations\": [\n    \"Sandwich cross-section clearly visible\",\n    \"Meat and vegetable layers readable\",\n    \"Overall composition and subject prominence adequate\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title references 'Mortadella' but this is metadata only, not a source description field\",\n    \"No authoritative source description provided to confirm mortadella or verify meat species\",\n    \"Visible meat appears to be cured processed meat but species cannot be confirmed from appearance alone\",\n    \"URL in metadata is untrusted evidence per instructions\"\n  ],\n  \"reason\": \"Source title is a filename without supporting description text. Metadata alone (title field, URL, photographer) is explicitly untrusted evidence. The photograph shows a sandwich with cured meat, pickled vegetables and bread, but without an authoritative source description confirming 'mortadella' or specifying the exact meat species, identity cannot be verified. Per rules, meat species must come from explicit source quote in title/description—appearance and metadata are insufficient. Hold pending proper source description.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1387,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 429,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

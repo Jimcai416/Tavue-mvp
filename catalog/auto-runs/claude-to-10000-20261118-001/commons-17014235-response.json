@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDsosgxnd2CRAAtWSwcW",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 5,\n    \"composition\": 5,\n    \"appeal\": 5\n  },\n  \"visible_support\": [\n    \"Crusty golden bread roll, sharply detailed and naturally coloured\",\n    \"Fresh green basil leaves clearly visible\",\n    \"Pink cured meat slices (mortadella) prominently displayed\",\n    \"Full sandwich composition readable in both full and thumbnail\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows finished sandwich with all components visible\",\n    \"Bread, meat, and basil are all identifiable at reduced resolution\",\n    \"No essential food elements are clipped or obscured\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title 'Mortadella sandwich' is a generic descriptor, not a canonical dish name with regional or preparation qualifiers\",\n    \"Mortadella is a cured meat product (pork-based by tradition) but the source does not explicitly name 'pork' in the title or description\",\n    \"No explicit species declaration ('pork mortadella') is present in the supplied metadata\"\n  ],\n  \"reason\": \"While this is a high-quality photograph of a finished, appetising sandwich with excellent technical execution and clear visibility in both full and thumbnail formats, the source metadata does not provide a specific canonical dish name—only a generic English descriptor. The source title does not explicitly state 'pork' as the protein, and protocol requires exact source quotes naming each animal. Without an explicit 'pork' declaration in the title/description and without a specific named dish variant, identity cannot be confirmed per instructions. Hold pending a source-provided canonical name with explicit protein species.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1903,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 482,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

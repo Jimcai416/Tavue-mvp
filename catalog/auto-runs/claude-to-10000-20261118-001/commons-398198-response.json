@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDsoTwx2ySmX1TCPcmhk",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [\n    \"Pink/pale interior with visible fat marbling consistent with mortadella\",\n    \"Red protective casing intact\",\n    \"Package label visible with branding\",\n    \"Sliced cross-section exposing interior\"\n  ],\n  \"phone_observations\": [\n    \"Subject readable and identifiable in thumbnail\",\n    \"Sliced mortadella cross-section clearly visible\",\n    \"Pink colour and marbling pattern prominent\",\n    \"Packaging label visible\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title describes this as 'giant ham' but the visible product is mortadella (processed pork sausage/emulsion), not ham. Identity mismatch between source description and actual dish form.\",\n    \"No explicit animal species confirmation in source text; 'ham' and mortadella are different products with different production methods.\"\n  ],\n  \"reason\": \"Reject: Identity check fails. The source description claims 'giant ham' but the photograph clearly shows mortadella—a distinct Italian cured sausage product with visible marbling and characteristic pale pink colour of an emulsified product, not sliced ham. The description does not match the actual finished dish visible in both the full photograph and thumbnail. Source contradiction on dish identity prevents acceptance. Photograph quality, sharpness, and phone visibility are acceptable, but identity conflict is a blocking issue.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1718,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 443,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
