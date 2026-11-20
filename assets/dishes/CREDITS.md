@@ -12073,3 +12073,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 
 - **Chashni wali gujiya** — Aayushi 25. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Chashni_wali_gujiya.jpg). Local asset: `reviewed-commons-103637447.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Sugar syrup soaked gujiyaa** — Aayushi 25. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Sugar_syrup_soaked_gujiyaa.jpg). Local asset: `reviewed-commons-103637451.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Jangiri** — Dineshkumar Ponnusamy. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Jangiri.jpg). Local asset: `reviewed-commons-40307132.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.

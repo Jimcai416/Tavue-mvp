@@ -151202,5 +151202,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 662,
     "height": 960,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-40307132",
+    "title": "File:Jangiri.jpg",
+    "author": "Dineshkumar Ponnusamy",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jangiri.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/63/Jangiri.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "c63c972e6031b76cad1974fe468922f62cef5da2",
+    "name": "Jangiri",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-40307132.jpg",
+    "assetSha256": "14195d968ea3db8753028aa80aa9bee27c0b18e83bd7bb906595e35101e4424c",
+    "reviewedAt": "2026-11-20",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 720,
+    "height": 960,
+    "requiresExactMenuName": true
   }
 ];
