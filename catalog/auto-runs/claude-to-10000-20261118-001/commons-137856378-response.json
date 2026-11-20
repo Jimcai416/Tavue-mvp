@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChE7XzZdxKnRWBwDZmFpU",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 2,\n    \"composition\": 1,\n    \"appeal\": 0\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows handwritten text on aged paper, not a food photograph\",\n    \"No finished dish visible\",\n    \"No food components discernible\",\n    \"Entirely text-based archival document\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [],\n  \"reason\": \"This is a handwritten recipe note on the reverse of a 1944 military ammunition box label, not a photograph of a prepared dish. The source is a museum archival object (Musée de la Libération de Paris, inventory 2007.24.243). The front is a German military label for Panzerfaust 60 ammunition; the reverse contains a handwritten recipe for 'Poitrine de veau farcie' (stuffed veal breast). Neither the full image nor the thumbnail shows an actual finished, exposed, photographed dish. The subject is illegible handwritten text on paper, not appetising food with readable essential components. This fails all mandatory acceptance criteria: no actual food photograph, no sharp detail of a dish, no composition appeal, and no discernible food elements in either image. Rejection is correct.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 2151,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 392,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
