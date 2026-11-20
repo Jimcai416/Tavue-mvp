@@ -12825,3 +12825,8 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 
 - **Ensalada rusa argentina** — Carlosdisogra. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Ensalada_rusa_argentina.JPG). Local asset: `reviewed-commons-46582293.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Ensalada rusa argentina con mayonesa** — Horacio Cambeiro. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Ensalada_rusa_argentina_con_mayonesa.jpg). Local asset: `reviewed-commons-200144146.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Ensalada rusa tradicional argentina elaborada con papas, arvejas y mayonesa** — Horacio Cambeiro. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Ensalada_rusa_tradicional_argentina_elaborada_con_papas,_arvejas_y_mayonesa,_lista_para_servir.jpg). Local asset: `reviewed-commons-189837496.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Porción de ensalada rusa con papas, zanahorias y arvejas (Argentina)** — Horacio Cambeiro. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Porci%C3%B3n_de_ensalada_rusa_con_papas,_zanahorias_y_arvejas_(Argentina).jpg). Local asset: `reviewed-commons-200144117.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
