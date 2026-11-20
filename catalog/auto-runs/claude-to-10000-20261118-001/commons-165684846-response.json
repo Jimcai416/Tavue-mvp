@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDL2xFBHiv794cSCA5c1",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Cooked pasta pillows (ravioli-like shape) on decorative floral plate\",\n    \"Crumbled brown topping (meat-based sauce residue or breadcrumb)\",\n    \"Diced yellow/tan vegetable pieces (described as papas/potatoes)\",\n    \"Glossy, cooked appearance\",\n    \"Plated presentation with utensils and table setting\"\n  ],\n  \"phone_observations\": [\n    \"Plate and dish clearly visible in thumbnail\",\n    \"Main food subject prominent and readable\",\n    \"Decorative plate pattern visible\",\n    \"Topping and components distinguishable at small scale\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title states 'Ravioles de jamón y queso' (ham and cheese ravioli) but no ham or cheese is visibly identifiable in the photograph itself—the filling is obscured or not visible\",\n    \"Crumbled brown topping is described as 'salsa de carne' (meat sauce) in title, but cannot be confirmed as meat sauce from visual inspection alone; could be breadcrumb, ground meat, or other garnish\",\n    \"No explicit animal protein species ('chicken', 'beef', 'pork', 'lamb', 'duck', or 'seafood') appears in the source description—'jamón' (ham) and 'carne' (meat) are generic terms without species confirmation\",\n    \"Yellow/tan component labelled as 'papas' (potatoes) in title is consistent with appearance but described as a topping/component alongside a main sauce, creating ambiguity about the actual dish structure\"\n  ],\n  \"reason\": \"While the photograph is sharp, well-lit, appetising and properly plated, and the phone thumbnail is clear and readable, the source title cannot be accepted as matching visual evidence. The title claims 'ravioles de jamón y queso' (ham and cheese ravioli), but no ham filling or cheese is visible in the dish itself. The 'salsa de carne' (meat sauce) is listed but no specific animal species is named in the source—'carne' is a generic term. Per instructions, unspecified meat species and source-declared hidden flavours that cannot be visually proven require a hold. The identity check fails because the title's key ingredient claims (ham filling, cheese) are not visually supported, and protein category cannot be assigned without an explicit source quote naming a specific animal.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1541,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 698,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
