@@ -140820,5 +140820,28 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 843,
     "height": 960,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-77378370",
+    "title": "File:Spinach Noodle Kugel (140491099).jpeg",
+    "author": "J Doll",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Spinach_Noodle_Kugel_(140491099).jpeg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Spinach_Noodle_Kugel_%28140491099%29.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "52a4f43c1893a2e909d691994f6b6f164c063780",
+    "name": "Spinach Noodle Kugel",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-77378370.jpg",
+    "assetSha256": "770a529a1a6917d4f0c7fef88efa2343a5ebba8377486bd4017b95068c76936a",
+    "reviewedAt": "2026-11-20",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 640,
+    "requiresExactMenuName": true,
+    "authorUrl": "https://500px.com/jcdoll"
   }
 ];

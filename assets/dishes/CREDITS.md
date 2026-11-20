@@ -11085,3 +11085,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Schiaccia briaca** — F Ceragioli. [Public domain](https://creativecommons.org/publicdomain/mark/1.0/); [source](https://commons.wikimedia.org/wiki/File:Schiaccia_briaca_dettaglio.jpg). Local asset: `reviewed-commons-15630415.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Spinach Noodle Kugel** — [J Doll](https://500px.com/jcdoll). [CC BY 3.0](https://creativecommons.org/licenses/by/3.0); [source](https://commons.wikimedia.org/wiki/File:Spinach_Noodle_Kugel_(140491099).jpeg). Local asset: `reviewed-commons-77378370.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
