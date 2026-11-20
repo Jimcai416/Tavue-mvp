@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChEAAuX3TovVtZHJyhzge",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Round, golden-brown baked item with sesame seeds visible in top image (dal bati or kachori)\",\n    \"White rice heap with herbs scattered in lower image\",\n    \"Yellow lentil-based curry/dal in multiple containers\",\n    \"Reddish-brown chutney in small bowl (lasun chutney plausible)\",\n    \"Fried pastry item visible in lower image (gatte ki sabji or kachori plausible)\",\n    \"Dipped bread item consistent with bati\"\n  ],\n  \"phone_observations\": [\n    \"Top thumbnail shows seeded round item and yellow-green liquid in white container—distinctive and legible\",\n    \"Lower thumbnail shows composed plated meal with rice, curries, breads and chutneys—all components visibly present\",\n    \"Overall meal composition coherent and appetizing at thumbnail scale\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title lists 'dal bati churma, gatte ki sabji, onion kachori, lasun chutney' but does not specify which individual items are visible in which image\",\n    \"Top image shows a single plate with dal/curry and one baked item; lower image shows a full thali-style plated meal—these appear to be two separate photographs of different presentations or courses\",\n    \"Cannot definitively distinguish dal bati from onion kachori in top image based on appearance alone\",\n    \"No explicit protein animals named in source description\",\n    \"Unclear whether 'dal bati churma' refers to a single composite dish or multiple components\"\n  ],\n  \"reason\": \"Source description lists multiple regional Rajasthan dishes without clear correspondence to either photograph. The two images appear to show different meal stages or presentations (top: casual outdoor plating; bottom: formal thali service), creating ambiguity about which canonical dish name applies. No animal protein is explicitly named in source, and the description mixes component names (dal bati churma as a compound term is unclear—churma may be a separate component or topping). While image quality, sharpness, lighting and phone thumbnail legibility all meet criteria, the identity check fails because source identity does not unambiguously match a single finished dish—it lists a meal collection. Preserve this hold pending clarification of which specific dish is the subject.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1809,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 662,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
