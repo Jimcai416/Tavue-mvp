@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDGCQX2eiPEd94pca8SL",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Tea in glass cup visible on left\",\n    \"Single baked item on blue plate on right\",\n    \"Item appears to be a pastry/baked good\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source metadata claims 'sausage roll with potatoes' but no potatoes are visible in either full image or thumbnail—only tea and a single baked pastry item\",\n    \"The baked item on the blue plate does not visibly contain or show sausage filling; it appears to be a plain or simply-topped pastry\",\n    \"Source description contradicts visible contents: metadata asserts 'with potatoes' but no potato dish is present\",\n    \"Identity mismatch between claimed dish (sausage roll with potatoes) and visible composition (tea + single pastry)\"\n  ],\n  \"reason\": \"Identity check fails. Source metadata claims 'Tea and sausage roll with potatoes' but the photograph shows only tea and a single baked pastry item with no visible sausage filling, no potato dish, and no potatoes present. The visible composition does not match the source title/description. Metadata contradiction and unverifiable identity prevent acceptance.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1753,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 411,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDGAyZ4rzKsRaHNdFb92",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": \"Eel soup (Con Cuong District, Nghe An Province)\",\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Vibrant green herb-enriched broth in white bowl, prominent and well-lit\",\n    \"Leafy greens (scallion/herb garnish) clearly visible throughout\",\n    \"Rice noodles visible in broth\",\n    \"Fresh white rice noodles on black plate as accompaniment\",\n    \"Lime wedges, dipping sauce, and supporting condiments arranged\",\n    \"Natural indoor restaurant setting\",\n    \"Phone thumbnail clearly shows soup bowl as focal point with noodle accompaniment\"\n  ],\n  \"phone_observations\": [\n    \"Central soup bowl composition readable and prominent\",\n    \"Broth colour and herb garnish visible at thumbnail scale\",\n    \"Supporting white noodle plate recognisable\",\n    \"Overall dish arrangement discernible\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Eel is not an allowed protein category (only chicken/beef/pork/duck/lamb/seafood permitted; eel species ambiguous and not explicitly listed)\",\n    \"Source title names 'eel soup' but eel cannot be verified as a supported protein category—it is neither fish nor a standard category\",\n    \"No visible confirmation of eel presence in the photograph; broth and herbs are visible but the primary protein source cannot be independently verified from visual inspection\"\n  ],\n  \"reason\": \"Image quality, composition, lighting and phone thumbnail are all acceptable. However, the dish cannot be accepted because the stated protein (eel) does not map to any allowed category. Eel is not chicken, beef, pork, duck, lamb, or seafood in the sense of standard finfish or molluscs. The instructions do not permit inference of protein from appearance, and eel is not an explicitly named allowed protein. This creates an unresolvable protein identity conflict: the source explicitly names eel, but eel cannot be validated against the permitted protein set. Hold pending clarification or correction of the dish identity.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1741,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 588,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

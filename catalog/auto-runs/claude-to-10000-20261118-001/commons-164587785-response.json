@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDGAyXqSAACBYVzAJNa6",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Sausage roll is clearly visible in phone thumbnail\",\n    \"Golden pastry exterior prominent\",\n    \"Filling partially visible at cross-section\",\n    \"Adequate detail for identification\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title describes 'Australian sausage roll' but does not explicitly name the animal species contained in the sausage filling\",\n    \"Sausage is an ambiguous meat category that cannot be accepted without explicit species identification\",\n    \"Visible meat filling does not prove species; colour and texture are insufficient evidence\"\n  ],\n  \"reason\": \"Reject: The source title 'Australian sausage roll' does not explicitly name the animal species in the sausage filling. Per protocol, 'sausage' is an unspecified species category and cannot be used as a protein_evidence key. The visible reddish-brown filling suggests pork or beef, but no explicit source quote names the animal. Unknown meat species requires hold, not acceptance. Protocol mandates an exact case-sensitive source quote explicitly naming each animal; inference from appearance or tradition is prohibited.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1723,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 393,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

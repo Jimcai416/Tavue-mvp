@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDGBV5qTwm6CjND4z5QM",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [\n    \"Golden-brown pastry exterior clearly visible\",\n    \"Cross-section view showing meat filling\",\n    \"Fork holding the item demonstrating texture and flakiness\",\n    \"Natural daylight with consistent illumination\",\n    \"Appetising home-cooked presentation\"\n  ],\n  \"phone_observations\": [\n    \"Meat filling and pastry cross-section clearly visible in thumbnail\",\n    \"Fork and food item prominent and readable\",\n    \"Colour and texture discernible at small scale\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title states 'sausage roll' but no explicit animal species identified in title or description\",\n    \"Generic term 'sausage' does not specify which animal (pork, beef, chicken, etc.)\",\n    \"Only 'Home made sausage roll' provided—no species qualifier present\"\n  ],\n  \"reason\": \"Reject: The source title/description contains 'sausage' without explicit species identification. Protocol requires exact source quote naming the animal for protein_evidence keys. 'Sausage' alone is ambiguous and does not meet the requirement for unspecified species to be omitted. The image itself does not visually prove species. Hold cannot be used here as the metadata is complete but insufficient; the dish identity cannot be canonically established without explicit animal naming.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1737,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 441,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

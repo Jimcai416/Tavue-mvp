@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDGBtaxA1XtY3YADgqQo",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Half-eaten state clearly visible in thumbnail\",\n    \"Main dish portion substantially consumed\",\n    \"Plated salad and pastry visible but subject already in consumption stage\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'pork sausage roll' but no explicit pork protein quote in description field\",\n    \"Half-eaten state contradicts requirement for finished, exposed dish\"\n  ],\n  \"reason\": \"Reject: image shows a half-eaten dish in mid-consumption. Per guidelines, only finished, exposed dishes are acceptable. The photograph documents an in-progress meal rather than a completed plated presentation. Additionally, protein evidence cannot be established—the title field (which appears to be metadata/filename) contains 'pork sausage roll' but the actual description field supplied does not include this protein qualifier. Per instructions, only exact case-sensitive substrings from title or description qualify as protein evidence; metadata alone is untrusted. The half-eaten state is the primary disqualifying factor.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1740,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 373,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

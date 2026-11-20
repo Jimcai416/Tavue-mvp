@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDGBQiA8pLdxpcDouq7s",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Golden-brown pastry exterior, well-baked\",\n    \"Cylindrical sausage roll form with scored surface\",\n    \"Natural colour and finished appearance\"\n  ],\n  \"phone_observations\": [\n    \"Pastry-wrapped cylinder clearly visible\",\n    \"Golden-brown colour preserved in thumbnail\",\n    \"Subject prominent and well-framed\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'meat-free sausage roll' but canonical name must reflect the descriptor. The source explicitly names this as 'meat-free', which is a dietary flag and negation of the conventional sausage roll category—this contradicts standard Tavue food photography acceptance for finished dishes with identifiable proteins.\",\n    \"No protein can be supported: 'meat-free' explicitly excludes chicken/beef/pork/duck/lamb/seafood\"\n  ],\n  \"reason\": \"Reject: The source description explicitly identifies this as a 'meat-free sausage roll'. Tavue's protein_evidence rules require that proteins be drawn only from the allowed category (chicken/beef/pork/duck/lamb/seafood), with an exact source quote naming each animal. A 'meat-free' dish contains no eligible protein and cannot be assigned a canonical_name that preserves meaningful protein identity. While the photograph itself is well-exposed, sharp, and appetising, the dish does not meet the implicit content scope of representative food photographs for Tavue's review system, which appears designed for dishes with identifiable animal proteins.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1781,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 482,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

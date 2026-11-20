@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDGAyYpGBzNvxZacuauf",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Cross-section of pastry-wrapped savoury item on fork\",\n    \"Pink/red meat interior visible\",\n    \"Crispy, browned pastry exterior\",\n    \"Crumbs and partial remains on white plate\"\n  ],\n  \"phone_observations\": [\n    \"Fork-held cross-section clearly visible in thumbnail\",\n    \"Pink meat and pastry layers readable at small size\",\n    \"Prominent presentation of interior structure\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title specifies 'bacon & maple sausage roll' but no bacon is visually distinguishable from the pink sausage meat\",\n    \"Species of sausage meat cannot be determined from appearance alone; source claims bacon but visual evidence shows only pink/red ground or minced meat\",\n    \"Maple flavour cannot be visually verified\",\n    \"'Sausage' is not an allowed protein category key; underlying animal species is ambiguous and unsupported by visual inspection\"\n  ],\n  \"reason\": \"Rejection: The image shows a cross-section of a pastry roll with pink/red meat interior, presented on a fork. While photograph quality, sharpness, lighting and phone thumbnail visibility all meet standards, identity cannot be confirmed. The source title claims 'bacon & maple sausage roll' but: (1) no bacon is visually distinct in the cross-section; (2) the meat appears to be ground or minced sausage of unspecified species; (3) 'sausage' is not an allowed protein category—the underlying animal species (pork, beef, etc.) cannot be inferred from appearance; (4) maple flavour is not visually demonstrable. The ambiguous meat species and mismatch between source description and visible form trigger a hold under identity and protein_evidence rules. Without explicit source confirmation of the sausage animal species or clear visual distinction of bacon, acceptance cannot proceed.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1744,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 569,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

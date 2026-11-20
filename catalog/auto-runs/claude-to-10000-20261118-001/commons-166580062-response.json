@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDGBu4EgH9HtAaSn6D44",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Plate with golden-brown pastry and green salad visible in thumbnail\",\n    \"White plate on pink table is identifiable\",\n    \"Main dish component clearly present\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title claims 'Pork sausage roll' but no explicit pork protein phrase found in supplied title or description\",\n    \"Title contains 'File:' prefix and date metadata which must be excluded per instructions\",\n    \"Description mentions only 'mocha' beverage, not the dish itself\",\n    \"Species identification (pork) is inferred from 'sausage roll' tradition, not from an explicit source quote naming the animal\"\n  ],\n  \"reason\": \"Identity check fails. The source title format includes 'File:' prefix and date stamp (metadata to be excluded). The core dish phrase 'Pork sausage roll with salad' cannot be used as canonical_name because the protein 'pork' is not explicitly stated as a substring that independently names the animal—it is inferred from the generic term 'sausage roll'. Per protocol, sausage species must be explicitly named in the source to be claimed; unknown or traditionally-inferred meat species require a hold. The description provided ('A cup of mocha on the side') does not describe the dish and contains no protein evidence. All quality and photograph checks pass, but identity and protein_evidence cannot be established from explicit source quotation.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1735,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 469,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

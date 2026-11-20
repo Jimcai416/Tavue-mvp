@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDGCGvcr6sgXnxri9TVt",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Golden-brown pastry exterior, well-baked\",\n    \"Filled with dark meat visible at one end\",\n    \"Served on white disposable plate\",\n    \"Casual cafe setting with One Garden branding visible\",\n    \"Natural daylight exposure\"\n  ],\n  \"phone_observations\": [\n    \"Sausage roll clearly visible in thumbnail\",\n    \"Adequate detail to confirm pastry and filling\",\n    \"Prominent positioning on plate\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title says 'Sausage roll' but does not specify the meat species (pork, beef, chicken, etc.)\",\n    \"No explicit source text naming the animal protein\",\n    \"Generic term 'sausage' cannot be mapped to allowed category without species declaration\"\n  ],\n  \"reason\": \"Reject: protein_evidence cannot be populated. The source title uses the generic term 'Sausage roll' without declaring the specific meat species (chicken/beef/pork/duck/lamb/seafood). Per instructions, sausage cannot be used as a key, and species must not be inferred from appearance or tradition. The source must explicitly name the animal. All quality and photograph checks pass, but the identity check fails due to missing species declaration in source text.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1731,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 431,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
