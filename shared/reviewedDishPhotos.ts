@@ -158104,5 +158104,53 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-56563586",
+    "title": "File:Provence Gigot d'agneau.jpg",
+    "author": "Mon Œil",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Provence_Gigot_d%27agneau.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Provence_Gigot_d%27agneau.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "d393382b6e566686744a3ebe7cc1e3491a413728",
+    "name": "Gigot d'agneau",
+    "aliases": [],
+    "proteins": [
+      "lamb"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-56563586.jpg",
+    "assetSha256": "3d2af68636825ee094f5d382063a93266cea1674e7a005d8337f23718a901902",
+    "reviewedAt": "2026-11-20",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 640,
+    "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-48168449",
+    "title": "File:Saint-Pantaléon-les-Vignes L'Auberge Gigot d'agneau de Sisteron en cocotte.JPG",
+    "author": "Marianne Casamance",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Saint-Pantal%C3%A9on-les-Vignes_L%27Auberge_Gigot_d%27agneau_de_Sisteron_en_cocotte.JPG",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Saint-Pantal%C3%A9on-les-Vignes_L%27Auberge_Gigot_d%27agneau_de_Sisteron_en_cocotte.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "a99fd302a9207c8e5750c89fd08cc3f80661882a",
+    "name": "Gigot d'agneau de Sisteron en cocotte",
+    "aliases": [],
+    "proteins": [
+      "lamb"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-48168449.jpg",
+    "assetSha256": "a00fd4a25210c2b601df23ec50c503248c6e133809f92428c3252d6f8ca17837",
+    "reviewedAt": "2026-11-20",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];
