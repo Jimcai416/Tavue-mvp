@@ -11035,3 +11035,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 
 - **Aloo fritters** — Biswarup Ganguly. [CC BY 3.0](https://creativecommons.org/licenses/by/3.0); [source](https://commons.wikimedia.org/wiki/File:Aloo_Fritters_-_Howrah_2015-04-26_8540.JPG). Local asset: `reviewed-commons-39812623.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Aloo chop** — TAPAS KUMAR HALDER. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Potato_Croquettes-Aloo_Chop_(-_Kolkata_-_West_Bengal_-_DSC_0014.jpg). Local asset: `reviewed-commons-125305271.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Pico de Gallo** — [jeffreyw](https://www.flickr.com/people/7927684@N03). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Mmm..._Pico_de_Gallo_(5923456035).jpg). Local asset: `reviewed-commons-23120511.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
