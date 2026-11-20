@@ -155591,5 +155591,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-107530197",
+    "title": "File:House made Fraser Valley farm to table roasted butternut squash and herb ravioli with crispy brussels sprouts, shaved almonds, and brown butter beurre blanc. - 38205354666.jpg",
+    "author": "ppacificvancouver",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:House_made_Fraser_Valley_farm_to_table_roasted_butternut_squash_and_herb_ravioli_with_crispy_brussels_sprouts,_shaved_almonds,_and_brown_butter_beurre_blanc._-_38205354666.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fb/House_made_Fraser_Valley_farm_to_table_roasted_butternut_squash_and_herb_ravioli_with_crispy_brussels_sprouts%2C_shaved_almonds%2C_and_brown_butter_beurre_blanc._-_38205354666.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "cd826ca090f4d0c855d622d8b859c1cdcdc1fbfe",
+    "name": "House made Fraser Valley farm to table roasted butternut squash and herb ravioli with crispy brussels sprouts, shaved almonds, and brown butter beurre blanc",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-107530197.jpg",
+    "assetSha256": "773a58da37c79c4dcd92d69753f71a5a88c6c58f3b628f430933ce2a7b828df0",
+    "reviewedAt": "2026-11-20",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 540,
+    "requiresExactMenuName": true
   }
 ];
