@@ -157856,5 +157856,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 640,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-29568540",
+    "title": "File:Farfalle al ragù.jpg",
+    "author": "10Rosso",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Farfalle_al_rag%C3%B9.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/33/Farfalle_al_rag%C3%B9.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "44b88d10774dee0703a5c6e6aa18ac82bac81e90",
+    "name": "Farfalle al ragù",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-29568540.jpg",
+    "assetSha256": "345a623d2a53e6f9b1ad8318f8c595d9ac7265ea267a09b9e7601c1a543be4e7",
+    "reviewedAt": "2026-11-20",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];

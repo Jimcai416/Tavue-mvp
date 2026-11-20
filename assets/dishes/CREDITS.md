@@ -12641,3 +12641,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Zarajo, tapa típica de Cuenca** — Malopez 21. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Zarajo,_tapa_t%C3%ADpica_de_Cuenca.jpg). Local asset: `reviewed-commons-69288507.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Farfalle al ragù** — 10Rosso. [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Farfalle_al_rag%C3%B9.jpg). Local asset: `reviewed-commons-29568540.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
