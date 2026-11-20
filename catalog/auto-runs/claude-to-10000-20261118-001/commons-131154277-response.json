@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChEdJTtJAw8SxrKVQgD2s",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Two golden-brown breaded spheres consistent with polpette\",\n    \"Pink/red shredded meat visible inside one polpette cross-section\",\n    \"Green herb sauce (salsa verde) with oil underneath\",\n    \"Professional plating on white dish with decorative rim\",\n    \"Phone thumbnail shows all key components clearly\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows breaded meatballs with visible meat interior\",\n    \"Green sauce and oil visible beneath polpette\",\n    \"Composition and prominence adequate for phone view\",\n    \"Sharp detail of key components preserved\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title specifies 'polpette di bollito' (meatballs from boiled meat), but the exact meat species is not named in the source title or description\",\n    \"The shredded meat visible inside appears pink/red and finely textured, suggesting beef or possibly pork, but no explicit species declaration exists in provided metadata\",\n    \"Traditional polpette di bollito uses beef, but source does not state this\"\n  ],\n  \"reason\": \"Photograph and phone thumbnail are sharp, well-lit, appetising and show clear detail of a finished dish. However, the source title 'Polpette di bollito con salsa verde' does not explicitly name the meat species. Per instructions, ambiguous meat species without explicit source declaration requires hold. The dish form and ingredients are visually consistent with the title, but protein_evidence cannot be populated without an exact quoted species name from the source metadata.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1734,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 492,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
