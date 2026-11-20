@@ -12454,3 +12454,8 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 
 - **Speckknödel with mixed salad** — Benreis. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Speckkn%C3%B6del_gemischter_Salat.jpg). Local asset: `reviewed-commons-93998459.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Irish stew** — [pelican  from Tokyo, Japan](https://www.flickr.com/people/85936780@N00). [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:Irish_stew_(33513450284).jpg). Local asset: `reviewed-commons-77827289.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Soda Bread** — Richard Avery. [Public domain](https://creativecommons.org/publicdomain/mark/1.0/); [source](https://commons.wikimedia.org/wiki/File:Soda_Bread.JPG). Local asset: `reviewed-commons-12277826.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **St. Patrick's Day Soda Bread** — [slgckgc](https://www.flickr.com/people/14771153@N04). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:St._Patrick%27s_Day_Soda_Bread_(33528786238).jpg). Local asset: `reviewed-commons-79519222.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
