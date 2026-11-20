@@ -148560,5 +148560,52 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "height": 856,
     "requiresExactMenuName": true,
     "authorUrl": "https://www.flickr.com/people/75531279@N05"
+  },
+  {
+    "id": "commons-164459022",
+    "title": "File:Bun Mam Soc Trang - fish, prawns, pork - Vinh Long Market VND20000 - 1.jpg",
+    "author": "avlxyz",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bun_Mam_Soc_Trang_-_fish,_prawns,_pork_-_Vinh_Long_Market_VND20000_-_1.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Bun_Mam_Soc_Trang_-_fish%2C_prawns%2C_pork_-_Vinh_Long_Market_VND20000_-_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "df3cc19cf2af86ad0a46122744f07bfe1ecb2d59",
+    "name": "Bún mắm Sóc Trăng",
+    "aliases": [],
+    "proteins": [
+      "seafood",
+      "pork"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-164459022.jpg",
+    "assetSha256": "bde3a92a3a9fab256373c3ae7ae248766bb6e1f48546e5fd8a113c260835241f",
+    "reviewedAt": "2026-11-20",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 643,
+    "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-92984172",
+    "title": "File:Bún mắm Bạc Liêu năm 2016 với eHy (2).jpg",
+    "author": "Phương Huy",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:B%C3%BAn_m%E1%BA%AFm_B%E1%BA%A1c_Li%C3%AAu_n%C4%83m_2016_v%E1%BB%9Bi_eHy_(2).jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/83/B%C3%BAn_m%E1%BA%AFm_B%E1%BA%A1c_Li%C3%AAu_n%C4%83m_2016_v%E1%BB%9Bi_eHy_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "ef3bcf2ef2d1abfd7e609de0ea5f68f33f5259b3",
+    "name": "Bún mắm Bạc Liêu",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-92984172.jpg",
+    "assetSha256": "eaea0e3021254784594ccbe97d3ab09035f7557a0d91814d86261e911e8d9591",
+    "reviewedAt": "2026-11-20",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 760,
+    "height": 960,
+    "requiresExactMenuName": true
   }
 ];
