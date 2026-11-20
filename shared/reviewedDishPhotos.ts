@@ -141990,5 +141990,29 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 636,
     "height": 960,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-201727503",
+    "title": "File:Chicken & Leek Pie and Spinach & Ricotta Roll - Bodhi's Kitchen 2026-10-10.jpg",
+    "author": "Andy Li",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chicken_%26_Leek_Pie_and_Spinach_%26_Ricotta_Roll_-_Bodhi%27s_Kitchen_2026-10-10.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/96/Chicken_%26_Leek_Pie_and_Spinach_%26_Ricotta_Roll_-_Bodhi%27s_Kitchen_2026-10-10.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "2f0b5f158a3d4e41bed8d0f21e67b64bca28a77d",
+    "name": "Chicken & Leek Pie and Spinach & Ricotta Roll",
+    "aliases": [],
+    "proteins": [
+      "chicken"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-201727503.jpg",
+    "assetSha256": "35a659d419c6aff5bcbd0f19fc7d2ffd5d77303ee5bd80bace02387f79d58291",
+    "reviewedAt": "2026-11-20",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 723,
+    "requiresExactMenuName": true
   }
 ];

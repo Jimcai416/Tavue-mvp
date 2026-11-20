@@ -11191,3 +11191,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **tom som kraduk mu** — Takeaway. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Tom_som_kraduk_mu.JPG). Local asset: `reviewed-commons-19389165.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Chicken & Leek Pie and Spinach & Ricotta Roll** — Andy Li. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Chicken_%26_Leek_Pie_and_Spinach_%26_Ricotta_Roll_-_Bodhi%27s_Kitchen_2026-10-10.jpg). Local asset: `reviewed-commons-201727503.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
