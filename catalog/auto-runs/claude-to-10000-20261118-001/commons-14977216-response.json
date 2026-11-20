@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDup13wnDaoGvpzwBU79",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 2,\n    \"composition\": 1,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Subject is entirely within an oven cavity, not a finished plated dish\",\n    \"Foil-wrapped item in mid-cooking state, not exposed finished food\",\n    \"Oven interior dominates; dish itself is tiny and obscured\",\n    \"No appetizing presentation or readable component detail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Image shows preparation/cooking stage, not a finished exposed dish\",\n    \"Source title is a filename (File:Roasting Qatayef.jpg), not a canonical dish description\",\n    \"Description explicitly states 'the end result was a disaster'\",\n    \"Qatayef identity cannot be verified from visual form alone in this mid-cook state\"\n  ],\n  \"reason\": \"Reject: This is a raw preparation/cooking-stage photograph showing food mid-roast inside an oven, not a finished, exposed, plated dish. The subject is tiny, wrapped in foil, and embedded in appliance context. The source description explicitly labels it a failed attempt ('the end result was a disaster'). Phone thumbnail shows only the oven cavity with unintelligible food detail. All acceptance checks fail: identity unverifiable from cooking stage, quality poor (soft, low contrast), photograph unsuitable (behind glass, mid-process), phone observations confirm essential food is clipped and obscured by oven cavity. Sharpness, lighting, composition, and appeal all fall below threshold.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1750,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 468,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
