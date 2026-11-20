@@ -11076,3 +11076,8 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 - **Tarka dal** — [rovingI](https://www.flickr.com/people/70522326@N00). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Tarka_dal_(1248298366).jpg). Local asset: `reviewed-commons-87474999.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Cachupa at Sal Rei, Cape Verde** — Adriao. [CC BY 3.0](https://creativecommons.org/licenses/by/3.0); [source](https://commons.wikimedia.org/wiki/File:Cachupa_em_Sal_Rei.jpg). Local asset: `reviewed-commons-14755334.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Cachupa frita** — Adriao. [CC BY 3.0](https://creativecommons.org/licenses/by/3.0); [source](https://commons.wikimedia.org/wiki/File:Cachupa_frita.jpg). Local asset: `reviewed-commons-9880979.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Corsican fiadone** — Popo le Chien. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Corsican_fiadone.jpg). Local asset: `reviewed-commons-143883291.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **fiadone corse** — Popo le Chien. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Fiadone_corse.jpg). Local asset: `reviewed-commons-143883043.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
