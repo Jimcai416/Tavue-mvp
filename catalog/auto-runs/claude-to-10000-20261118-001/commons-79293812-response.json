@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChF2WLtd9z3iVRZyQtDuZ",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Six oysters on half shell arranged on white plate with ice\",\n    \"Dark seaweed/nori visible between oysters\",\n    \"Oyster forks placed on either side\",\n    \"Restaurant table setting with glasses and table service\",\n    \"Natural colour, appetising presentation\"\n  ],\n  \"phone_observations\": [\n    \"Oysters clearly visible in thumbnail\",\n    \"White plate and arrangement readable\",\n    \"Dark garnish between oysters distinguishable\",\n    \"Food is prominent and sharp in phone view\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title lists 'Shigoku oysters' but description adds butter and celery root accompaniments that are not visually prominent or clearly identifiable in the photograph\",\n    \"Kizami Wasabi Butter is not visually distinct in the image—no visible sauce, spread or butter layer is clearly present on the oysters themselves\",\n    \"Celery root is not visibly identifiable in the photograph; the dark element between oysters appears to be seaweed/nori, not celery root\",\n    \"Source metadata contradicts visible appearance: advertised components (wasabi butter, celery root) cannot be confirmed from the image alone\",\n    \"Oyster species 'Shigoku' is a regional/varietal name but identity cannot be visually verified from appearance alone\"\n  ],\n  \"reason\": \"The photograph shows oysters on the half shell with an unidentified dark garnish (appears to be seaweed rather than the stated celery root) and no visible butter or wasabi preparation. The source title and description claim specific accompaniments (Kizami Wasabi Butter, Celery Root) that are either invisible or contradicted by what is visible in the photograph. This creates a material conflict between the metadata identity claim and the visual evidence. While the oysters themselves are well-photographed and appetising, the stated dish composition cannot be visually confirmed. Per guidelines, source contradictions and doubt about which advertised components are actually present require a hold. Rejecting because the identity cannot be reliably confirmed: the visible dark garnish does not match 'Celery Root', and no butter layer is evident.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1761,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 632,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
