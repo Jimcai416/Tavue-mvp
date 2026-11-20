@@ -157092,5 +157092,30 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "height": 960,
     "requiresExactMenuName": true,
     "authorUrl": "https://www.flickr.com/people/75897997@N00"
+  },
+  {
+    "id": "commons-3098177",
+    "title": "File:Traditional.Sunday.Roast-01.jpg",
+    "author": "by robbie jim",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Traditional.Sunday.Roast-01.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Traditional.Sunday.Roast-01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "7fae14cd8d369a55e068a52a739c342b0166984b",
+    "name": "Traditional Sunday roast: roast beef, vegetables, mashed potatoes, Yorkshire pudding and gravy",
+    "aliases": [],
+    "proteins": [
+      "beef"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-3098177.jpg",
+    "assetSha256": "2f9ba88072af666a5c638aa45b9bb4af340189a299b7cd0d6e6dfb1f62224817",
+    "reviewedAt": "2026-11-20",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true,
+    "authorUrl": "https://www.flickr.com/photos/robs-pics/"
   }
 ];

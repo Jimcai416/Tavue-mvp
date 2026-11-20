@@ -12570,3 +12570,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Karelian pasties and egg butter** — [kahvikisu  from Kangasala, Suomi (Finland)](https://www.flickr.com/people/75897997@N00). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Karelian_pasties_and_egg_butter.jpg). Local asset: `reviewed-commons-32110188.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Traditional Sunday roast: roast beef, vegetables, mashed potatoes, Yorkshire pudding and gravy** — [by robbie jim](https://www.flickr.com/photos/robs-pics/). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Traditional.Sunday.Roast-01.jpg). Local asset: `reviewed-commons-3098177.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
