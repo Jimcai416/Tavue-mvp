@@ -148310,5 +148310,28 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-52701347",
+    "title": "File:Biang Biang Noodles, Chez Mam, Paris 001.jpg",
+    "author": "Guilhem Vellut  from Paris, France",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Biang_Biang_Noodles,_Chez_Mam,_Paris_001.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Biang_Biang_Noodles%2C_Chez_Mam%2C_Paris_001.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "0a87510ed00e297af1f3706948a90af44d8fa0ab",
+    "name": "Biang Biang Noodles",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-52701347.jpg",
+    "assetSha256": "72c1dde129866c55e6a72f13c2b0be44a56fc37ddfb1e5ae9a8a707078169911",
+    "reviewedAt": "2026-11-20",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 640,
+    "requiresExactMenuName": true,
+    "authorUrl": "https://www.flickr.com/people/22539273@N00"
   }
 ];
