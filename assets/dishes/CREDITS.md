@@ -11630,3 +11630,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 - **Bulgogi gimbap** — Chiyako92. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Bulgogi_gimbap_at_Okja_Restaurant,_Milan,_2022_01.jpg). Local asset: `reviewed-commons-156846965.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Gimbap** — 최광모. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Gimbap_02.jpg). Local asset: `reviewed-commons-39809054.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Gimbap (seaweed rice roll)** — [junho306](https://pixabay.com/users/junho306-957137/). [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Gimbap_5.jpg). Local asset: `reviewed-commons-75464240.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Konro Bakar, grilled spicy ribs, a specialty of Makassar cuisine, South Sulawesi** — Gunawan Kartapranata. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Konro_Bakar_4.jpg). Local asset: `reviewed-commons-65225786.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.

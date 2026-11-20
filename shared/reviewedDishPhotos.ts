@@ -146619,5 +146619,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "height": 640,
     "requiresExactMenuName": true,
     "authorUrl": "https://pixabay.com/users/junho306-957137/"
+  },
+  {
+    "id": "commons-65225786",
+    "title": "File:Konro Bakar 4.jpg",
+    "author": "Gunawan Kartapranata",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Konro_Bakar_4.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Konro_Bakar_4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "51a79f5f03b93c224f3f3a415add2751385fd9cf",
+    "name": "Konro Bakar, grilled spicy ribs, a specialty of Makassar cuisine, South Sulawesi",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-65225786.jpg",
+    "assetSha256": "92a462d3ac2def7f9c64fc8c4254a8960ecc4cc80cad617244d788d4b73c6c18",
+    "reviewedAt": "2026-11-20",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 589,
+    "requiresExactMenuName": true
   }
 ];
