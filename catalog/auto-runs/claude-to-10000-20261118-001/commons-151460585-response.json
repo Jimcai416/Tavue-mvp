@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDaqiojfApec9FnEE913",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": \"Łazanki.\",\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Cooked pasta pieces in pale yellow/cream colour\",\n    \"Visible pink/ham pieces distributed throughout\",\n    \"Seasoning visible (black pepper, possibly red pepper flakes)\",\n    \"Served on white plate with coloured grid pattern\",\n    \"Home-cooked presentation\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows pasta dish composition\",\n    \"Pink meat component visible and identifiable\",\n    \"Seasoning and texture readable\",\n    \"Adequate detail for dish recognition\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title 'Łazanki' is Polish but metadata provides only the word without full description or ingredient list\",\n    \"Meat species not explicitly named in source description—pink colour suggests ham or bacon, but species cannot be confirmed from title alone\",\n    \"No source quote names the specific protein (chicken/beef/pork/duck/lamb/seafood)\",\n    \"Traditional Polish łazanki may include various meats, but this cannot be assumed from appearance or category name alone\"\n  ],\n  \"reason\": \"Image quality, sharpness, lighting, composition and phone thumbnail all meet acceptance criteria. Dish is a finished, cooked pasta dish with identifiable components and appetising presentation. However, the source description ('Łazanki.') provides only the dish name without explicit protein identification. While the visible pink pieces suggest a pork product (ham or bacon), the species cannot be confirmed from the source title or description alone. Protein category requires an exact case-sensitive substring from the supplied title/description naming the animal. The bare title 'Łazanki' does not constitute this evidence. Canonical name cannot be completed without resolved protein identity and full source description.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 2009,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 533,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
