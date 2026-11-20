@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChETwMPk4mN3LzCuFeFEc",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Stir-fried rice dish with visible green onion, red ingredients, and orange carrot strips\",\n    \"Fried plantain slices flanking the rice mound\",\n    \"Natural plated presentation on white dish\",\n    \"Clear detail in both full image and phone thumbnail\"\n  ],\n  \"phone_observations\": [\n    \"Rice mound clearly visible with toppings\",\n    \"Plantain slices prominent on either side\",\n    \"Composition and components readable in thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title states 'cecina, carne de venado y cecina' (venison and dried beef). Venison (venado/deer) is not an allowed protein category (chicken/beef/pork/duck/lamb/seafood only)\",\n    \"Ambiguous meat species present in source description that cannot be verified visually and falls outside permitted categories\",\n    \"Source metadata describes meats not supported by review protocol\"\n  ],\n  \"reason\": \"Dish quality, photograph sharpness, lighting, composition and phone thumbnail all meet acceptance criteria (scores ≥4). However, the source description explicitly names venison (carne de venado), which is not an allowed protein category. The protocol restricts protein_evidence keys to chicken/beef/pork/duck/lamb/seafood only. Unknown or unsupported meat species trigger a hold. While cecina (dried beef) is beef-derived, the venison component cannot be supported. This ambiguity and species restriction requires hold pending clarification of actual proteins used.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1761,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 492,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
