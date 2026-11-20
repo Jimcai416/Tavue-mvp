@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChEjHpb9uRCLDQg5dpsNw",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Earthenware cazuela dish visible\",\n    \"Browned, cooked meat pieces with visible pink/red flesh tones\",\n    \"Garlic cloves present among meat\",\n    \"Oil/cooking liquid visible\",\n    \"Outdoor preparation setting\"\n  ],\n  \"phone_observations\": [\n    \"Meat and garlic mixture clearly visible at centre\",\n    \"Dark vessel edges defined\",\n    \"Subject adequately prominent in thumbnail\",\n    \"Essential components readable\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title declares 'conejo' (rabbit), which is not an allowed protein category per instructions (chicken/beef/pork/duck/lamb/seafood only)\",\n    \"Visual appearance alone cannot definitively confirm rabbit species; meat colour and texture are consistent with rabbit but also with other game/stewed meats\",\n    \"No explicit source quote names an allowed protein species\"\n  ],\n  \"reason\": \"Reject: The source title identifies this as 'conejo al ajillo' (rabbit with garlic). Rabbit is not an approved protein category (only chicken, beef, pork, duck, lamb, seafood are permitted). The photograph quality, sharpness, lighting and composition are strong (all scores ≥4), and the dish is clearly a finished, exposed, appetising preparation. However, identity cannot be accepted because the declared protein (rabbit/conejo) falls outside the allowed categories, and no alternative approved protein can be visually confirmed or extracted from the source metadata. Per instructions, unknown meat species means hold.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1736,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 486,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

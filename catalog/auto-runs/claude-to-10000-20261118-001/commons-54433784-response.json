@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChEjHpceGr2etgR2wPiVZ",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Golden-brown roasted meat pieces visible in full image\",\n    \"Chunked potatoes present throughout plate\",\n    \"Caramelized, appetising browning consistent with roasting\",\n    \"White plate, natural lighting, home-cooked presentation\",\n    \"Phone thumbnail clearly shows finished dish with prominent detail\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail displays full plated dish with clear focus\",\n    \"Golden meat and potato chunks distinctly visible\",\n    \"Appropriate centre-cover framing of complete food\",\n    \"No essential components clipped or obscured\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title states 'Conejo al ajillo con patatas' (rabbit with garlic and potatoes), but rabbit is not an approved protein category and cannot be visually confirmed as distinct from other small game or poultry in the photograph\",\n    \"Visual identification of meat species from appearance alone is unreliable; the meat could plausibly be small poultry, game bird, or other species\"\n  ],\n  \"reason\": \"Image quality, composition, lighting and phone thumbnail presentation are all excellent. However, the source dish requires rabbit (conejo), which is not an approved protein category. No other protein species is declared in the source title. The meat cannot be reliably identified visually as rabbit versus other small game or poultry. Per protocol, unknown or unapproved meat species requires a hold. Cannot accept without an approved protein declaration or visual certainty of an approved species.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1730,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 480,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
