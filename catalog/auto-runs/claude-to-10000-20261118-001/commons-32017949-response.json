@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChEE7Zgp36kfFw4WujFPo",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 5,\n    \"composition\": 5,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Golden-fried stink bean visible as main component\",\n    \"Purple onion slices clearly present\",\n    \"Green pea shoots/microgreens as garnish\",\n    \"White plate, finished dish presentation\",\n    \"Natural colours, sharp detail throughout\",\n    \"Phone thumbnail clearly shows composed dish\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail matches full image composition\",\n    \"Fried beans, onions and greens all readable\",\n    \"No clipping of essential components\",\n    \"Appetising presentation maintained in small format\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title declares 'Hawai Maton' as main ingredient; metadata states 'stink bean as its main ingredient'. Title phrase 'Hawai Maton' is ambiguous—no exact English animal species match found in source title or description to satisfy protein_evidence requirements\",\n    \"Description 'stink bean' is a plant, not a protein category; cannot be recorded in protein_evidence\",\n    \"Title metadata contradiction: 'Hawai Maton' vs description 'stink bean' creates identity uncertainty\"\n  ],\n  \"reason\": \"Photograph and phone thumbnail are sharp, well-lit, naturally coloured and appetising, with all checks passing for quality and presentation. However, the source title includes 'Hawai Maton' as a named ingredient, while the description states 'stink bean as its main ingredient.' Hawai Maton does not map to an allowed protein category (chicken/beef/pork/duck/lamb/seafood), and stink bean is a plant legume, not a protein. The title/description contradiction and absence of an identifiable protein source quote matching the canonical dish name create unresolvable identity uncertainty. Per guidelines, source contradictions => hold.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1756,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 550,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
