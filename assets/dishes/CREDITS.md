@@ -10576,3 +10576,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 
 - **Nankotsu soba (Okinawa soba)** — [Blue Lotus](https://www.flickr.com/photos/bluelotus/). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Nankotsu_soba_(Okinawa_soba).jpg). Local asset: `reviewed-commons-1213484.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Mizore nabe from Matsudo, Japan** — [t-mizo](https://www.flickr.com/people/47626742@N07). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Mizore_nabe_of_Matsudo.jpeg). Local asset: `reviewed-commons-67248406.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Nabe being made at a dinner party in Japan** — Sgroey. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Nabe_being_made_at_a_dinner_party_in_Japan.jpg). Local asset: `reviewed-commons-115941463.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.

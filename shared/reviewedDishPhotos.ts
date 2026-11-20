@@ -135333,5 +135333,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "height": 640,
     "requiresExactMenuName": true,
     "authorUrl": "https://www.flickr.com/people/47626742@N07"
+  },
+  {
+    "id": "commons-115941463",
+    "title": "File:Nabe being made at a dinner party in Japan.jpg",
+    "author": "Sgroey",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nabe_being_made_at_a_dinner_party_in_Japan.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Nabe_being_made_at_a_dinner_party_in_Japan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "2c2a42f3eaa85e05e3ae2563f37aeae66cc5ac9b",
+    "name": "Nabe being made at a dinner party in Japan",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-115941463.jpg",
+    "assetSha256": "c36e46be8ed24cc1a1b72dc329ad58cf5ecda410cf1ea1b0174f6f93487e853e",
+    "reviewedAt": "2026-11-20",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 720,
+    "height": 960,
+    "requiresExactMenuName": true
   }
 ];
