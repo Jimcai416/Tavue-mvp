@@ -154143,5 +154143,29 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 723,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-3470976",
+    "title": "File:Satay chicken.JPG",
+    "author": "I,  BrokenSphere",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Satay_chicken.JPG",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Satay_chicken.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "43d7a56eb8e6044b0e64e783ccd9f3c11585f4a7",
+    "name": "Satay chicken",
+    "aliases": [],
+    "proteins": [
+      "chicken"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-3470976.jpg",
+    "assetSha256": "86f4b38b607ec3025fa0d7259b86bdab62a101f320fcd8076169110dec4283c8",
+    "reviewedAt": "2026-11-20",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 571,
+    "requiresExactMenuName": true
   }
 ];

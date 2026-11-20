@@ -12311,3 +12311,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 - **Kanda Bhaji with Tangy Salsa** — Shrabee. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Kanda_Bhaji_with_Tangy_Salsa.jpg). Local asset: `reviewed-commons-40956662.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Mix bhaji pao** — SerChevalerie. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Mix_bhaji_pao,_Goa.jpg). Local asset: `reviewed-commons-163150920.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Pau Bhaji** — Andy Li. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Pau_Bhaji_-_Bengal_Bertie%27s_2025-12-15.jpg). Local asset: `reviewed-commons-180055171.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Satay chicken** — I,  BrokenSphere. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/); [source](https://commons.wikimedia.org/wiki/File:Satay_chicken.JPG). Local asset: `reviewed-commons-3470976.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
