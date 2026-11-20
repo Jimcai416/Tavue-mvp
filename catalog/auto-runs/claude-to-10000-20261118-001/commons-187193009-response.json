@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChEzvyxWJgNGE8dk1vve5",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Golden-brown breaded croquette with crispy exterior\",\n    \"Wooden chopsticks holding item\",\n    \"White plate with minimal sauce residue\",\n    \"Pork and corn visible in cross-section\"\n  ],\n  \"phone_observations\": [\n    \"Subject clearly visible and identifiable in thumbnail\",\n    \"Chopsticks prominent, dish state obvious\",\n    \"Half-eaten state evident in both source and thumbnail\"\n  ],\n  \"protein_evidence\": {\n    \"pork\": \"Pork, corn, sweet + spicy mayo\"\n  },\n  \"uncertainties\": [\n    \"Item is explicitly half-eaten in photograph, violating 'finished' dish requirement\",\n    \"Partial consumption state makes this a preparation/stage photograph rather than completed dish presentation\"\n  ],\n  \"reason\": \"Rejection: The photograph explicitly shows a half-eaten croquette, documented in the filename itself ('half-eaten'). The acceptance criteria require 'a finished, exposed, likely photographic dish'—a half-consumed item represents a preparation or consumption stage, not a finished dish suitable for intake review. Despite good sharpness, lighting, composition and phone visibility, the fundamental identity violation precludes acceptance.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1751,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 410,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
