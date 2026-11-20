@@ -148537,5 +148537,28 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-87471880",
+    "title": "File:Namkeen puran puri (9607441452).jpg",
+    "author": "Devika",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Namkeen_puran_puri_(9607441452).jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Namkeen_puran_puri_%289607441452%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "77cfd2c6a3a4715e659e6851a59001160f8b5e7b",
+    "name": "Chana dal stuffed salted puris",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-87471880.jpg",
+    "assetSha256": "d931450a13e070b74d2bab31cadb8977a77f1bb3e9833cf352824d9955ddb3ab",
+    "reviewedAt": "2026-11-20",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 856,
+    "requiresExactMenuName": true,
+    "authorUrl": "https://www.flickr.com/people/75531279@N05"
   }
 ];

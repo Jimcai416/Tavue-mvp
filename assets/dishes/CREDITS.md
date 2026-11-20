@@ -11813,3 +11813,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Pastechi filled with cheese** — DanielleJWiki. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Pastechi_on_a_table.jpg). Local asset: `reviewed-commons-80252850.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Chana dal stuffed salted puris** — [Devika](https://www.flickr.com/people/75531279@N05). [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:Namkeen_puran_puri_(9607441452).jpg). Local asset: `reviewed-commons-87471880.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
