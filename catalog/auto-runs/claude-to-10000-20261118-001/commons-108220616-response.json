@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDJ5zLniXtYV1keEHBWa",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Cooked shrimp with charred surfaces visible in full image\",\n    \"Green pepper (chile) on left side of platter\",\n    \"Mushrooms in lower portion\",\n    \"Appetising browning and sear marks\",\n    \"Professional plating on dark slate/iron serving board\",\n    \"Herbs (cilantro) garnish on shrimp\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail shows cooked shrimp with caramelised edges\",\n    \"Mushrooms and green pepper visible\",\n    \"Natural lighting reveals detail\",\n    \"Platter composition readable at small scale\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title states 'Camarones al Ajillo' (shrimp in garlic sauce) but no seafood category 'shrimp' or 'seafood' is permitted in the allowed protein_evidence keys (chicken/beef/pork/duck/lamb/seafood)\",\n    \"Although 'seafood' is listed as an allowed category, the metadata title 'Camarones al Ajillo' refers to shrimp, which requires exact case-sensitive substring match from title/description\",\n    \"The word 'shrimp' or 'camarones' cannot be directly mapped to the allowed key 'seafood' without explicit instruction to do so\"\n  ],\n  \"reason\": \"Identity check fails. The source title 'Camarones al Ajillo, cocina guatemalteca' refers to shrimp (camarones), which is a seafood species. While the photograph is sharp, well-lit, appetising and properly plated, and the phone thumbnail is clear and readable, the protein cannot be verified against the allowed categories with an exact substring match. The title contains 'Camarones' (shrimp) but no explicit English declaration of 'seafood' in the source metadata. Per protocol, unknown or unverified animal species—even when visually apparent—cannot be accepted without an exact case-sensitive match from the source title or description mapping to an allowed protein category.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1628,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 613,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDJ5yZfGZRpmRs9veW18",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 2\n  },\n  \"visible_support\": [\n    \"Roasted insects visible in white container\",\n    \"Yellow limes/citrus garnish clearly present\",\n    \"Street food market setting with crowd\",\n    \"Comal preparation method consistent with description\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail shows insects, limes, and container clearly\",\n    \"Composition and subject legible at small size\",\n    \"Food recognizable despite scale\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title contains 'File:' prefix and filename extension (chapulines.jpg) which must be excluded per canonical_name rules\",\n    \"Chapulines (grasshoppers) are insects, not an allowed protein category (chicken/beef/pork/duck/lamb/seafood only)\",\n    \"Despite clear visual and textual evidence of roasted grasshoppers, this ingredient category falls outside the defined protein scope\"\n  ],\n  \"reason\": \"Reject: Chapulines (roasted grasshoppers) are insects and do not match the allowed protein categories (chicken, beef, pork, duck, lamb, or seafood). Although the photograph is sharp, well-lit, appetizingly presented with garnish in a street food context, and the dish is clearly identifiable in both full and thumbnail images, the protein ingredient is outside the scope of acceptable categories for this review system.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1648,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 445,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
