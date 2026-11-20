@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDwt8Q4RmbH5yon9p3Ph",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Fried fish fillet with spice crust, clearly visible on plate\",\n    \"Red/tomato-based curry in white bowl with visible fish piece\",\n    \"Dark brown dry curry in black bowl\",\n    \"Flatbread (bhakari) with char marks\",\n    \"Fresh garnish: cucumber slices, lime, pickled onion\",\n    \"Thali presentation on decorative plate\"\n  ],\n  \"phone_observations\": [\n    \"All components readable and visible in thumbnail\",\n    \"Fish fry, curries and flatbread prominent\",\n    \"Plate decoration and garnish distinguishable\",\n    \"Overall composition clear at reduced resolution\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Species ambiguity: 'Mutton dry' in source description—mutton may refer to goat or sheep, unspecified in title/description\",\n    \"Fish species in curry and fry not named in source description\",\n    \"Source lists 'fish fry, fish curry, Mutton dry' but neither 'fish' nor 'mutton' are unambiguous protein categories per protocol\",\n    \"Title filename 'Fish Thali' conflicts with inclusion of 'Mutton dry' in description—identity discord\"\n  ],\n  \"reason\": \"Hold: source description lists 'Mutton dry' (species ambiguous—could mean goat or sheep) and 'fish' (species unspecified). Protocol requires exact source quote naming each animal within allowed categories {chicken, beef, pork, duck, lamb, seafood}. 'Mutton' as a generic term does not satisfy species clarity. Fish type not declared. Additionally, filename title 'Fish Thali' conflicts with the multi-protein description, creating identity uncertainty. All photograph and phone checks pass and scores meet threshold, but protein_evidence cannot be populated with certainty, triggering hold.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1753,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 568,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDwtc6gtbs3zf6j2TGWA",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Steamed dumplings with pleated, closed tops\",\n    \"Fresh herb garnish (dill or parsley)\",\n    \"Diced tomato and onion topping\",\n    \"Served on decorative plate with floral design\",\n    \"Natural lighting, cooked/finished state\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows clustered steamed dumplings\",\n    \"Herb garnish visible\",\n    \"Tomato and onion toppings readable\",\n    \"Prominent, sharp, appetising presentation\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title is 'Manty (3968046229).jpg' — a filename, not a dish description\",\n    \"Description 'but these ones weren't too good' is subjective commentary, not a canonical name or identity confirmation\",\n    \"No explicit filling or protein declaration in source metadata\",\n    \"Manty is a Central Asian dumpling that may contain beef, lamb, or other proteins, but source provides no specific filling information\",\n    \"Cannot verify exact variant (e.g., Kazakh, Kyrgyz, Uzbek manty; meat type or preparation)\"\n  ],\n  \"reason\": \"Image quality, photography, and phone thumbnail all pass. Dish is a finished, sharply detailed, appetising steamed dumpling presentation. However, source metadata fails identity verification: the 'title' is a filename with image ID, and the 'description' is subjective commentary ('weren't too good'), not a canonical dish name or variant specification. No protein is explicitly named in the source. While the visual form is consistent with manty, the source provides insufficient authoritative identification and no specific variant or filling details to construct a reliable canonical_name. Hold pending proper source description.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1735,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 542,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
