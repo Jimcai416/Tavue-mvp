@@ -10902,3 +10902,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Filet de boeuf au poivre** — Sacha47. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Filet_de_boeuf_au_poivre.png). Local asset: `reviewed-commons-106528559.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Mabele, morogo and beef in a plate** — LEATILE DIPEBE. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Mabele_and_morogo_and_beef_in_a_plate.jpg). Local asset: `reviewed-commons-184636460.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
