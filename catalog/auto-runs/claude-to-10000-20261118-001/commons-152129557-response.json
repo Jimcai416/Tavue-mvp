@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChF2P8djUH9LMaoiAbL5z",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows mussels in white bowl with lemon wedge, fried sandwich, and additional plated items on newspaper wrapping\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title claims 'Oyster Dishes' but photograph clearly shows mussels (closed black bivalves with distinctive mussel morphology), not oysters (which are typically irregular, rough-shelled, and open differently)\",\n    \"Source description promises 'Freshly Shucked Oysters' but the image displays intact, unopened mussels in their shells\",\n    \"Critical mismatch between declared seafood species and visible form in both full image and thumbnail\"\n  ],\n  \"reason\": \"Identity check fails. The source title and description explicitly declare 'Oyster Dishes' and 'Freshly Shucked Oysters,' but both the full photograph and phone thumbnail unmistakably show mussels (intact closed shells with characteristic mussel morphology), not oysters. This is a fundamental contradiction between the stated identity and visible form. The image quality, sharpness, lighting, and composition are all acceptable, and the photograph is well-composed with appetizing presentation, but the declared dish does not match what is photographed. Hold cannot resolve a species-level mismatch without authoritative clarification from the source.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1762,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 443,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

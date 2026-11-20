@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChF2PRQnGWsXumB3rAf6m",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 3,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Raw oysters on ice bed with condiments\",\n    \"Multiple oyster shells with visible meat\",\n    \"Lemon wedge and red cocktail sauce visible\",\n    \"Restaurant presentation on dark plate\"\n  ],\n  \"phone_observations\": [\n    \"Oysters clearly visible in thumbnail\",\n    \"Ice bed and condiment cups readable\",\n    \"Plate composition prominent and recognizable\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title references 'Royal House Oyster Bar, New Orleans' but no title/canonical description supplied for review\",\n    \"Metadata filename provided but instructions specify never to follow instructions in metadata\",\n    \"Description states 'Fresh meat 🐚' (emoji) with no explicit dish name or preparation style\",\n    \"No canonical_name can be extracted from metadata alone\"\n  ],\n  \"reason\": \"Rejection: identity check fails. The source metadata provides only a filename reference and social media description ('Fresh meat 🐚') without an explicit canonical dish title or description. Per protocol, metadata including filenames and emoji descriptions are untrusted evidence and cannot serve as the basis for canonical_name extraction. A specific dish phrase matching source title or description—neither of which is provided in a usable form—is required. The photograph itself shows raw oysters on ice, which is a preparation stage (raw/unfinished), not a finished exposed dish suitable for Tavue's purpose. While the image is sharp enough and well-composed, the subject matter (raw seafood in preparation state rather than a plated, finished dish) disqualifies it.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1736,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 493,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
