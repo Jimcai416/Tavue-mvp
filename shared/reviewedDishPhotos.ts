@@ -155927,5 +155927,54 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 720,
     "height": 960,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-4072168",
+    "title": "File:Côte de Porc Fermière.jpg",
+    "author": "Edward Russell",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:C%C3%B4te_de_Porc_Fermi%C3%A8re.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9d/C%C3%B4te_de_Porc_Fermi%C3%A8re.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "e62819543805fd16805859b00e1164a888c414ca",
+    "name": "Côte de Porc Fermière",
+    "aliases": [],
+    "proteins": [
+      "pork"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-4072168.jpg",
+    "assetSha256": "7fc03de4a3ff48af8ca46ccbd763e9b8aa7304d2254af8dc451877894ea9a302",
+    "reviewedAt": "2026-11-20",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true,
+    "authorUrl": "https://www.flickr.com/photos/21837558@N00"
+  },
+  {
+    "id": "commons-108340585",
+    "title": "File:Pork cutlet with demi-glace sauce lunch box of NewDays.jpg",
+    "author": "毒島みるく",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pork_cutlet_with_demi-glace_sauce_lunch_box_of_NewDays.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Pork_cutlet_with_demi-glace_sauce_lunch_box_of_NewDays.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "0eca3da80b4c5a93311ca028d36e0d81f2b555f5",
+    "name": "Pork cutlet with demi-glace sauce lunch box",
+    "aliases": [],
+    "proteins": [
+      "pork"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-108340585.jpg",
+    "assetSha256": "a846c748cb65eebb063649ca5861f044a5bff198c2d821a4cf73910609e80005",
+    "reviewedAt": "2026-11-20",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 649,
+    "requiresExactMenuName": true
   }
 ];
