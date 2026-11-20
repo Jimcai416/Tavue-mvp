@@ -10893,3 +10893,8 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Phat khana mu krop** — Takeaway. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Pak_kanaa_moo_krob.jpg). Local asset: `reviewed-commons-8130454.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Memelas Oaxaqueñas** — Nsaum75. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Memelas_Oaxaquenos.jpg). Local asset: `reviewed-commons-10738062.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Inihaw na Bangus** — LubGua987. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Inihaw_na_Bangus_02.jpg). Local asset: `reviewed-commons-116114120.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
