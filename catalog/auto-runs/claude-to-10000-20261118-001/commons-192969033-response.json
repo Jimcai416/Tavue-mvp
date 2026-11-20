@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDNb1MagmJQ81S2mLeGa",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Bright orange-red soup in white ceramic bowl with handle\",\n    \"Bowl sits on matching white saucer with Chinese characters\",\n    \"Glossy, translucent broth surface with visible particles\",\n    \"Professional restaurant setting, sharp focus on dish\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows orange-red soup in white handled bowl\",\n    \"Bowl and saucer legible; dish identity preserved in miniature\",\n    \"Adequate sharpness and colour saturation for recognition\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'HK-style borscht' (Luo song tong) but no source title/description provided in canonical form for exact matching\",\n    \"Metadata describes the dish but canonical_name requires exact copy from source title or description field—only filename and description paraphrase available\",\n    \"No protein explicitly named in source text; borscht traditionally contains beef but this is not stated in the supplied metadata\"\n  ],\n  \"reason\": \"Photograph and thumbnail are sharp, well-lit, appetising and show a finished soup dish prominently. However, the source metadata does not include a formal title field suitable for canonical_name extraction. The description 'Luo song tong (HK-style borscht) served at Mido Cafe' is a paraphrase rather than a verbatim source title. No protein is explicitly named in the provided text. Without a precise source title to copy and without explicit protein identification, identity and variant_preserved checks cannot be confirmed. Hold pending clarification of exact dish title from source.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1648,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 500,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
