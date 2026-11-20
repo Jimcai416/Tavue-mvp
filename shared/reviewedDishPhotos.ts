@@ -142911,5 +142911,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 644,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-41859172",
+    "title": "File:Shio-ramen (2014-05-18).jpg",
+    "author": "Lombroso",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Shio-ramen_(2014-05-18).jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/95/Shio-ramen_%282014-05-18%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "e1762a44380e69541429b3bc5cf1ba1d09b894b5",
+    "name": "塩ラーメン",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-41859172.jpg",
+    "assetSha256": "9ea30675a8ad9851e3affa8a53a09e4d4b42c082906c1ad76f2c0d410895e034",
+    "reviewedAt": "2026-11-20",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];

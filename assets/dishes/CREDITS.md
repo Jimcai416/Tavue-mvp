@@ -11279,3 +11279,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 - **Tantanmen** — [Guilhem Vellut  from Paris, France](https://www.flickr.com/people/22539273@N00). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Tantanmen,_Op%C3%A9ra_Ramen,_Paris_001.jpg). Local asset: `reviewed-commons-53088349.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Gomoku chahan and Shio ramen** — ノボホショコロトソ. [CC BY 4.0](https://creativecommons.org/licenses/by/4.0); [source](https://commons.wikimedia.org/wiki/File:Gomoku_chahan_and_Shio_ramen.jpg). Local asset: `reviewed-commons-157328506.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Tlacoyos** — ProtoplasmaKid. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Mercado_de_Xochimilco_-_Tlacoyos.jpg). Local asset: `reviewed-commons-34102670.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **塩ラーメン** — Lombroso. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Shio-ramen_(2014-05-18).jpg). Local asset: `reviewed-commons-41859172.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
