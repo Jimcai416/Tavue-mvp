@@ -12940,3 +12940,8 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Chicken with Allemande Sauce** — [Alex Kane  from New York, USA](https://www.flickr.com/people/52079207@N00). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Chicken_with_Allemande_Sauce_(13426370413).jpg). Local asset: `reviewed-commons-37429678.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Calisson from fruidoraix** — Loak14. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Calisson_fruidoraix.jpg). Local asset: `reviewed-commons-53026244.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Religieuse à la vanille** — Thomon. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Religieuse_%C3%A0_la_vanille.jpg). Local asset: `reviewed-commons-98891441.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
