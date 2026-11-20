@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChF2xdgtvmV6rASov2TDH",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Speckled ceramic bowl visible in both full image and thumbnail\",\n    \"Charred romanesco florets clearly visible\",\n    \"Sugar snap peas identifiable as green strips\",\n    \"Crunchy garlic visible as golden elements\",\n    \"Natural restaurant lighting and wooden table setting\",\n    \"Fork present, dish plated and ready to serve\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows finished dish in speckled bowl\",\n    \"Romanesco and peas readable at phone size\",\n    \"Dish proportions and composition maintained in thumbnail\",\n    \"No clipping of essential components\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title describes a vegetable dish (charred romanesco, sugar snap pea, crunchy garlic, Thai-chili coconut vinaigrette) with no meat component\",\n    \"No poultry, beef, pork, duck, lamb or seafood are named or visibly present\",\n    \"This is a vegetable-focused appetizer or side dish, outside Tavue's protein-focused food photography scope\"\n  ],\n  \"reason\": \"Image quality and photograph composition are excellent, and the dish identity matches the source description. However, this is a vegetarian dish containing no protein from the allowed categories (chicken, beef, pork, duck, lamb, seafood). Tavue's review criteria require representative food photography with meaningful protein components. A vegetable-only charred romanesco and sugar snap pea preparation does not meet the protein-focused mandate, regardless of photographic quality.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1789,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 493,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
