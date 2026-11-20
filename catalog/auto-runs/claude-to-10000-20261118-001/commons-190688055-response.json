@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDor3hZA1eSvA5Nz8ouw",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Ravioli/ravioles visible on white plate with decorative pattern\",\n    \"Ground meat sauce clearly visible atop pasta\",\n    \"Dish appears finished and plated\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title describes 'ravioles rellenos de pollo' (ravioli filled with chicken) but the visible sauce contains ground meat of unspecified species\",\n    \"Description states sauce is 'elaborada a base de carne' (made with meat) without specifying which animal\",\n    \"Generic 'carne' (meat) cannot be mapped to a specific allowed protein category\",\n    \"No explicit statement identifying the ground meat in the sauce as chicken, beef, pork, lamb, duck or seafood\"\n  ],\n  \"reason\": \"Rejection: The source description claims chicken-filled ravioli with a meat-based sauce, but does not explicitly name the animal species composing the ground meat topping visible on the dish. The generic term 'carne' (meat) and 'salsa casera de carne con tomate y cebolla' cannot be mapped to a specific allowed protein category without ambiguity. Per instructions, unknown or ambiguous meat species require a hold or reject decision. The filling is not visibly verifiable from the photograph. Without explicit source identification of the sauce meat species, protein_evidence cannot be populated and acceptance criteria are not met.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1843,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 461,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

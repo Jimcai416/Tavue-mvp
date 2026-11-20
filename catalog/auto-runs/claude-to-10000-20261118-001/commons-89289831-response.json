@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDoqvuGqGrnSKtf9hDwu",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": true,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 2,\n    \"composition\": 2,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail is severely blurred and softened\",\n    \"Essential dish components are indistinct and not readable in phone view\",\n    \"Broth and seafood details collapse into an unclear mass at 124x96 resolution\",\n    \"Visual appeal and identifiable food detail are absent in the phone thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title references 'Lẫu tôm chua cay' (sour spicy shrimp hot pot), but severe softness in both full and thumbnail images prevents confident identification of shrimp or other components\",\n    \"Quality degradation makes it impossible to verify finished, exposed dish state or natural colour rendering\"\n  ],\n  \"reason\": \"Rejection due to severe softness, blur and loss of essential detail in both full photograph and phone thumbnail. The image fails sharpness (2/5), lighting (2/5), composition (2/5) and appeal (2/5) thresholds. Phone thumbnail is unreadable—broth, seafood and dish components are not visibly distinguishable. Although a hot pot dish is suggested by source metadata, the photograph quality does not meet acceptance standards for appetising, sharply detailed, natural representation of a finished dish. Severe blur and softness are actual defects, not proposed crops.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1777,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 439,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
