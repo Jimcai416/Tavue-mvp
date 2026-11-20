@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChEwvsGKexMDE3P6KqAyr",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Cooked crustacean pieces in orange-red tomato-based sauce\",\n    \"Visible shellfish meat texture and segmentation\",\n    \"Herb garnish (appears to be parsley)\",\n    \"Rich, glossy sauce characteristic of a prepared seafood dish\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows cooked crustacean in red sauce\",\n    \"Essential components readable and prominent\",\n    \"Appetising presentation maintained in reduced view\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Species identity cannot be visually confirmed from photograph alone. Title states 'Homard' (lobster in French), but visual appearance shows characteristics consistent with large prawns/langoustines rather than whole lobster segments. The body segments, leg structure, and overall morphology are ambiguous between lobster and large decapod crustaceans.\",\n    \"Seafood category exists but specific crustacean species cannot be verified from visual evidence alone—the dish requires explicit source identification of the exact animal, which the metadata provides as 'Homard' (lobster), but visual confirmation is insufficient for acceptance under strict protein evidence rules.\"\n  ],\n  \"reason\": \"While this is a well-executed, appetising photograph of a finished seafood dish in a classic sauce with excellent technical quality, the protein identity cannot be verified visually. The title metadata states 'Homard à l'américaine' (lobster American-style), but the visible crustacean segments appear morphologically consistent with large prawns or langoustines rather than lobster. Since crustacean species must be explicitly named in source documentation AND visually supportable, and the visual form creates ambiguity about whether this is true lobster or another large decapod, this must be held pending clarification. Per guidelines, unknown or ambiguous seafood species (including those with contradictory visual/textual evidence) requires holding.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1728,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 567,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
