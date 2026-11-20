@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDe8TtsnrNWY6Gj7MPxq",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [\n    \"Tortillas in cast iron skillet\",\n    \"Sour cream in small bowl\",\n    \"Rice with vegetables\",\n    \"Lime wedge\",\n    \"Sauce in small bowl\"\n  ],\n  \"phone_observations\": [\n    \"Tortillas and sour cream clearly visible\",\n    \"Rice and condiments distinguishable\",\n    \"Components recognizable at thumbnail size\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source describes 'condiments and tortillas for fajitas' but no actual finished fajita dish is present\",\n    \"Image shows preparation components and sides only, not a complete plated dish\",\n    \"No protein ingredient (meat) is visible or named in the source\"\n  ],\n  \"reason\": \"Rejection: This image documents fajita accompaniments and sides (tortillas, sour cream, rice, condiments) rather than a finished, exposed fajita dish. The source itself explicitly labels this as 'condiments and tortillas' rather than a complete dish. Identity fails because the visible food does not match the concept of 'fajitas' — a finished protein-based entrée. While photograph and phone thumbnail quality are acceptable, the subject is a preparation stage and component platter, not a finished, prominent dish meeting acceptance criteria.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1804,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 429,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
