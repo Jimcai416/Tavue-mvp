@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDmrjSkXXobntH8Fe9mU",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Finished, cooked semolina halwa in ornate serving dish\",\n    \"Bright red-orange colour consistent with kesari/saffron powder\",\n    \"Visible roasted cashew pieces and raisins on surface\",\n    \"Natural, appetising appearance in both full image and thumbnail\"\n  ],\n  \"phone_observations\": [\n    \"Dish clearly visible and identifiable in thumbnail\",\n    \"Ornate bowl rim visible\",\n    \"Red sweet halwa with garnish elements readable at reduced scale\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title references 'Sweet Kesari South Indian Dish' but metadata entry begins 'File:' prefix and contains detailed recipe instructions rather than a canonical dish name\",\n    \"Source description is a recipe/preparation guide rather than a finished dish title—does not follow canonical naming convention\",\n    \"Photograph shows finished dish clearly, but source metadata structure violates requirements (filename prefix, recipe format, author/date/license tags included)\"\n  ],\n  \"reason\": \"Reject: The source metadata does not provide a clean, canonical dish title. The 'title' field includes a filename prefix ('File:'), and the 'description' field is a full recipe with preparation steps rather than a dish name or variant description. While the photograph itself is a high-quality, appetising image of a finished Sweet Kesari halwa with appropriate lighting, sharpness and composition (all checks except identity pass), the source document structure fails the canonical_name requirement. A canonical_name must be copied exactly from source title or description without file prefixes, dates, or instructions. The recipe format makes extraction of a clean dish phrase ambiguous and violates intake protocol. The dish identity itself (Sweet Kesari South Indian Dish) is visually supported, but the source format is not suitable for automated canonical naming.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1763,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 548,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
