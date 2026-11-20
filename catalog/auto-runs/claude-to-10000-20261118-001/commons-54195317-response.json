@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChEh2WbXtCdWndfKfahMq",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 2,\n    \"composition\": 3,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows seared scallops but severely underexposed and obscured\",\n    \"Red garnish barely visible in compressed 124x96 format\",\n    \"Essential dish components not clearly readable at phone size\",\n    \"High contrast loss makes identification difficult\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title references 'Qualicum Bay scallops' but scallops are not in the allowed protein categories (chicken/beef/pork/duck/lamb/seafood is listed as category but scallops are mollusk/shellfish, not standard seafood protein)\",\n    \"While 'seafood' appears in protocol, scallops specifically are not explicitly named as an allowed protein species\",\n    \"Full image quality too soft and poorly lit to independently verify dish identity beyond metadata reliance\"\n  ],\n  \"reason\": \"Rejection on multiple grounds: (1) Scallops do not match the explicitly allowed protein categories (chicken, beef, pork, duck, lamb, or seafood with exact species quotes). Scallops are mollusks; no source quote names them as 'seafood' in the title. (2) Phone thumbnail fails readability—essential components (seared scallops, beurre blanc sauce, garnish) are severely underexposed and unclear at 124x96 resolution. (3) Full photograph exhibits poor sharpness (score 2), inadequate lighting (score 2), and insufficient visual appeal (score 2). (4) Heavy reliance on metadata rather than independent visual verification due to image quality.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1884,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 494,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
