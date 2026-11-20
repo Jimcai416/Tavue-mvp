@@ -11292,3 +11292,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Tsukemen Ramen** — [Alper Çuğun  from Berlin, Germany](https://www.flickr.com/people/12505664@N00). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Tsukemen_ramen.jpg). Local asset: `reviewed-commons-56500780.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Falafel & Baba Ganoush - Lavash** — Andy Li. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Falafel_%26_Baba_Ganoush_-_Lavash_2023-12-13.jpg). Local asset: `reviewed-commons-142121272.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
