@@ -140120,5 +140120,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 960,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-90117861",
+    "title": "File:Juju dhau.jpg",
+    "author": "SHnehaa",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Juju_dhau.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Juju_dhau.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "1261d0987dd1878f4ce384afa1cafeaa0bf91d05",
+    "name": "Juju dhau",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-90117861.jpg",
+    "assetSha256": "eb9683eb89f7538831db046ca3c5475fb6194b0269c2deef8fec60614da32afa",
+    "reviewedAt": "2026-11-20",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 960,
+    "requiresExactMenuName": true
   }
 ];
