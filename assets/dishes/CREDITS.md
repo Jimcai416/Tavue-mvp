@@ -12675,3 +12675,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 
 - **Gigot d'agneau** — Mon Œil. [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Provence_Gigot_d%27agneau.jpg). Local asset: `reviewed-commons-56563586.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Gigot d'agneau de Sisteron en cocotte** — Marianne Casamance. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Saint-Pantal%C3%A9on-les-Vignes_L%27Auberge_Gigot_d%27agneau_de_Sisteron_en_cocotte.JPG). Local asset: `reviewed-commons-48168449.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Beef kroketten (rundvleeskroketten)** — Ziko van Dijk. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:20220907_kroketten.jpg). Local asset: `reviewed-commons-123056424.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
