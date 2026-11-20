@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChE99381Uy8XXES98tqXx",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Wide pale noodles visible in full source and thumbnail\",\n    \"Green herbs and spring onion visible at base\",\n    \"Cooked meat pieces on top in orange/brown tones\",\n    \"Wooden chopsticks present\",\n    \"White plate, natural daylight\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail shows noodle dish with meat topping and green herbs\",\n    \"Essential components visible: noodles, meat, garnish\",\n    \"Plate and composition recognizable at reduced size\"\n  ],\n  \"protein_evidence\": {\n    \"pork\": \"boiled pork\"\n  },\n  \"uncertainties\": [\n    \"Source title says 'Broad rice noodles' but dish appears to contain thinner wheat or egg noodles, not broad rice noodles\",\n    \"Visible golden noodles on top do not match 'broad rice noodles' description—appear to be crispy chow mein or fried egg noodles\",\n    \"Source title 'Bún mắm thịt heo luộc' (bún = thin rice vermicelli) contradicts 'broad rice noodles' in English description\",\n    \"The fermented shrimp paste (mắm) is not visually evident on the finished plate; cannot confirm presence visually\"\n  ],\n  \"reason\": \"Source metadata contains internal contradiction: Vietnamese title 'Bún mắm thịt heo luộc' indicates thin rice vermicelli (bún), but English description claims 'broad rice noodles'. The visible noodles appear to include crispy fried noodles (possibly egg noodles) layered with softer pale noodles, which does not clearly match either stated noodle type. The fermented shrimp paste (mắm), a defining element of this dish, is not visually demonstrable on the finished plate. These source contradictions regarding the core noodle identity and absent visual confirmation of the signature mắm component create unresolvable uncertainty about the dish's actual identity.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 2082,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 607,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
