@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDafhUr2X22y5rXeCd6W",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 3,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [\n    \"Round sandwich with pale bread\",\n    \"Red pepper strips visible\",\n    \"Green leafy vegetable (appears to be lettuce)\",\n    \"Yellow/golden items suggesting potato\",\n    \"Brown crumbly filling consistent with falafel or similar legume fritter\",\n    \"White crumbly topping (tahini or similar)\"\n  ],\n  \"phone_observations\": [\n    \"Sandwich clearly visible in thumbnail\",\n    \"Internal structure readable\",\n    \"Coloured filling and vegetables distinguishable\",\n    \"Overall composition preserved\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title metadata labels this 'Falafel Sandwich' but photograph composition and browning pattern are ambiguous—could represent various Middle Eastern or Mediterranean filled sandwiches\",\n    \"No explicit protein category can be assigned: falafel is a legume-based product, not chicken/beef/pork/duck/lamb/seafood\",\n    \"Brown filling identity cannot be visually confirmed as falafel versus other fried legume patties, vegetable fritters, or meat-based items\",\n    \"Crumbly topping appears consistent with tahini or sesame but cannot be guaranteed from photograph alone\"\n  ],\n  \"reason\": \"Reject: source metadata identifies this as 'Falafel Sandwich', but falafel is a legume-based product that does not fall within the allowed protein categories (chicken/beef/pork/duck/lamb/seafood). No visible protein ingredient meets the specification. Identity check fails because the dish contains no supported protein type. The photograph is adequately sharp and composed, but the absence of an allowable protein category makes this ineligible regardless of image quality.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1759,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 521,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
