@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDudyLjNTyQvvVyP9YGq",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Multiple grilled sausages with visible browning and char\",\n    \"Golden hash browns or potato cake\",\n    \"Fresh parsley garnish\",\n    \"Served on metal skillet on wooden board\",\n    \"Outdoor casual dining setting\"\n  ],\n  \"phone_observations\": [\n    \"Sausages clearly visible and prominent\",\n    \"Potato element readable in thumbnail\",\n    \"Garnish visible\",\n    \"Skillet and presentation intact in crop\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title references 'Nurnberger Bratwurst' but source description is empty; filename alone cannot confirm this specific regional variant\",\n    \"Sausage species not explicitly stated in supplied metadata (bratwurst traditionally indicates pork, but this is inference not explicit source declaration)\",\n    \"No authoritative source description provided to verify exact dish identity or meat composition\"\n  ],\n  \"reason\": \"Image quality, sharpness, lighting, composition and appeal all meet standards. Photograph and phone thumbnail both show a finished, appetising grilled sausage dish with potato and garnish. However, identity check fails: the filename 'Nurnberger Bratwurst' is metadata/filename convention, not an explicit title or description field. The supplied description field is empty. Without an actual source title or description confirming the dish identity and sausage species, identity cannot be verified per instructions. Protein cannot be evidence-quoted from empty source description. Hold pending explicit source title/description.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1445,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 477,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

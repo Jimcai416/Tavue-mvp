@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDudyLzFP8wdzto5mENu",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 5,\n    \"appeal\": 5\n  },\n  \"visible_support\": [\n    \"Plated sausages with charred surfaces\",\n    \"Sauerkraut side visible\",\n    \"Glass of dark beverage in background\",\n    \"Red-and-white checkered tablecloth\",\n    \"Metal plate presentation\",\n    \"Fork and napkin present\"\n  ],\n  \"phone_observations\": [\n    \"Plate, sausages, and sauerkraut clearly visible\",\n    \"Cooked sausages with browning prominent\",\n    \"Sauerkraut distinguishable\",\n    \"Red tablecloth pattern retained\",\n    \"Essential components readable\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title contains 'File:' prefix and filename extension, violating canonical_name rules\",\n    \"Description names specific sausage varieties (Nürnberger Bratwurst, Stadtwurst, Käsekrainer) but canonical_name instruction forbids extracting from filename metadata and requires title/description without 'File:' and extension\",\n    \"Sausage species cannot be reliably identified from appearance alone; species qualification depends entirely on source naming\",\n    \"Source description contains unverified restaurant attribution (Bratwurst Glöckl, Munich) and location metadata not independently confirmable from image\"\n  ],\n  \"reason\": \"Image quality, sharpness, lighting, composition and appeal are all excellent (scores 4–5). Phone thumbnail clearly shows the finished plated dish with sausages, sauerkraut and beverage. However, identity check fails: the source title includes 'File:' prefix and '.jpg' extension, which the instructions explicitly exclude from canonical_name extraction. The description names specific sausage varieties, but the protocol forbids inferring species from tradition or generic sausage categories, and requires exact protein_evidence sourced from an explicit animal-naming quote. While the description does name 'Nürnberger Bratwurst', 'Stadtwurst' and 'Käsekrainer', these are regional sausage names whose base animal composition (pork is traditional but not stated in the source text) cannot be claimed as visually proven. Without an explicit quote naming the animal (e.g. 'pork bratwurst'), protein_evidence cannot be populated. The source metadata (restaurant name, location, beverage name 'Spetzi') is contextual but not verifiable from the photograph. Hold pending a clean source title without file markup and explicit animal identification, or until visual certainty of species is established independently.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1795,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 711,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
