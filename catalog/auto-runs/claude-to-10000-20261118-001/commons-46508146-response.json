@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChEWY2UexSY8eCsbw8kn4",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Plated rice visible on white dish\",\n    \"Sliced meat with reddish and darker colouration visible\",\n    \"Red and dark purple/burgundy vegetable or pickled component\",\n    \"Bowl with dark sauce\",\n    \"Natural daylight, home/casual setting\"\n  ],\n  \"phone_observations\": [\n    \"Rice mound clearly visible on plate\",\n    \"Sliced meat component visible\",\n    \"Sauce bowl visible\",\n    \"Components recognisable at thumbnail size\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title states 'charsiu and samcan (roasted pork belly)' but no explicit 'pork' term appears in the title itself, only parenthetical explanation\",\n    \"Meat species cannot be visually confirmed with certainty—reddish sliced meat could be multiple species\",\n    \"Dark cooked component identity ambiguous (could be duck, beef, or heavily cooked pork)\",\n    \"Red component appears to be pickled or cooked beetroot or radish, not meat\",\n    \"Source metadata lists specific proteins but requires exact substring match in title/description; metadata describes preparation but title does not explicitly name proteins\"\n  ],\n  \"reason\": \"Source description identifies proteins ('charsiu and samcan (roasted pork belly)') but the canonical title 'Nasi Campur Tionghoa' does not explicitly contain these animal names. The rule requires an exact source quote explicitly naming each animal protein within the title or description used for canonical_name. The parenthetical explanation in the description is clarification, not an explicit naming of 'pork' in the formal title/description text. Visible meat components cannot be unambiguously identified to species from appearance alone. The 'File:' prefix and location tag must be excluded from canonical_name, leaving only 'Nasi Campur Tionghoa', which does not meet the requirement for explicit protein naming. Hold required due to protein_evidence criteria unmet.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1775,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 592,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

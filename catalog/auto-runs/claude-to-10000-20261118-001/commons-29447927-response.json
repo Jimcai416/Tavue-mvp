@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChEWY2W8tnJrTULwJheKj",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Mixed rice dish with white and orange-toned rice visible\",\n    \"Tempe goreng (fried tempe/tempeh) on left side, golden-brown, clearly identifiable\",\n    \"Dark brown protein item in centre-top area\",\n    \"Decorative plate with red/gold border, traditional presentation\",\n    \"Fork and spoon present, finished plated dish\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail shows full plate composition clearly\",\n    \"Rice mixture, fried tempe, and central protein all visible at reduced size\",\n    \"Plate decorations readable, natural colours preserved\",\n    \"No clipping of essential components\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'honey-cooked chicken' but the central dark brown item is visually ambiguous—could be chicken, but colour and form do not conclusively match typical honey-cooked poultry appearance. No visible skin, texture or anatomical markers confirming chicken species.\",\n    \"Source metadata lists title as 'File:Javanese nasi campur.JPG'—the canonical dish name must be extracted from description ('Javanese nasi campur'), but the protein qualifier 'honey-cooked chicken' is stated in description, not source title itself. The dark protein's species cannot be visually confirmed from photograph alone.\",\n    \"Tempe goreng is a plant-based ingredient, not an allowed protein category.\"\n  ],\n  \"reason\": \"Source description claims 'honey-cooked chicken' but the visual appearance of the central dark protein does not unambiguously support chicken identification. No skin, joints, or distinctive poultry anatomy are visible. The colour, texture and form are insufficiently specific to confirm species. Per protocol, ambiguous meat species or doubtful visual support => hold. The tempe goreng is identifiable and appropriate, but cannot serve as the primary protein evidence. Hold pending clarification of the protein identity.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1642,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 576,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

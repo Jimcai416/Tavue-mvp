@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChEWZ2pH4YsGqsYHk6Gc2",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Stir-fried noodles with visible egg noodles, carrots, onions, green onions\",\n    \"Grilled meat skewer (sate) with caramelized glaze\",\n    \"Round meatballs or similar protein items in dark sauce\",\n    \"Green and yellow vegetables on the right\",\n    \"Served in woven rattan basket with small bowls\",\n    \"Chopsticks present\"\n  ],\n  \"phone_observations\": [\n    \"Noodles and meat components clearly visible\",\n    \"Sate skewer and meatballs prominent in thumbnail\",\n    \"Colour, composition and appetising presentation evident\",\n    \"No clipping of essential food elements\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title states 'Nasi campur mi goreng sate' but description says 'Nasi campur in Bali' – these are conflicting dish identities. Nasi campur is a mixed rice dish; mi goreng is stir-fried noodles; sate is grilled meat skewer. The photograph shows noodles, sate, and meatballs but no visible rice.\",\n    \"Meat species in the meatballs and main protein cannot be determined from appearance alone – could be beef, pork, chicken or mixed. Source does not explicitly name the animal.\",\n    \"The exact canonical name is ambiguous: is this 'Nasi campur', 'Mi goreng', 'Sate', or a combination plate? Metadata does not resolve the contradiction.\"\n  ],\n  \"reason\": \"Source metadata contains conflicting dish identities (title vs. description) and does not explicitly name the protein species. While the photograph is well-executed and appetising, with clear noodle, sate, and meatball components, the protein evidence cannot be established without an explicit species declaration in the source. The dish identity itself is ambiguous between nasi campur (rice), mi goreng (noodles), and sate (skewered meat), and the visible contents do not unambiguously match any single named source title. Hold pending clarification of exact dish name and protein species.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1514,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 633,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
