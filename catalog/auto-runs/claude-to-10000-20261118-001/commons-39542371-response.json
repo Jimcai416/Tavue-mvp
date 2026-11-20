@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChF4PNwCS59CgEFzSCNcF",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 2,\n    \"composition\": 2,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows a long, meat-filled snack in clear plastic display case with napkins\",\n    \"Golden-brown exterior casing visible\",\n    \"Glossy red sauce or glaze coating the top portion\",\n    \"Small plastic serving utensil present\",\n    \"Professional food service setting evident\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Species of meat filling is not visibly determinable and not explicitly named in source title/description\",\n    \"Source metadata labels this as 'XL frikandel' but provides no protein species declaration\",\n    \"Frikandel is a Dutch processed meat product but the exact animal origin is not stated in provided source information\",\n    \"Cannot confirm if filling is pork, beef, or a mixture without explicit source naming\"\n  ],\n  \"reason\": \"Reject: source title 'XL frikandel' does not explicitly name any protein animal. Frikandel is a Dutch sausage-type product of ambiguous meat species composition. Per protocol, unspecified or ambiguous meat species (sausage products without explicit species naming) cannot be accepted. The source must explicitly state which animal(s) constitute the filling. Additionally, image quality scores fall below the required >=4 threshold due to soft focus, variable lighting, and suboptimal composition for a food review photograph.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1724,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 447,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChF4PLg1EY5fXCFA9YN53",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Golden, crisp French fries dominate the plate\",\n    \"Brown elongated fried item (frikandel) clearly visible\",\n    \"White creamy substance (mayonnaise) in upper left\",\n    \"Decorative Asian-style plate with green bamboo motifs\",\n    \"Finished, exposed dish in natural lighting\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail shows full plate composition with fries prominent\",\n    \"All essential components visible and readable at reduced size\",\n    \"Golden colour and plating preserved in thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title metadata reads 'File:Patat met.jpg' (filename, not title)\",\n    \"Description states 'frikandel' but source does not explicitly name the animal species of this sausage product\",\n    \"Frikandel is an unspecified meat sausage—cannot confirm chicken/beef/pork/duck/lamb/seafood from appearance or generic sausage descriptor alone\"\n  ],\n  \"reason\": \"Reject: The source description names 'frikandel', a Dutch fried sausage, but does not explicitly identify the animal species (pork, beef, or other). Per protocol, unspecified meat species and sausage products cannot be accepted as protein evidence. Identity check fails because the meat component cannot be verified against allowed categories. All quality and photograph checks pass, but the protein ambiguity prevents acceptance.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1845,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 471,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

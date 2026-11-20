@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChF4NuaQMqYGfxQBVZxeu",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Golden-brown fries in white paper cone\",\n    \"White mayonnaise dollop on top\",\n    \"Plastic fork visible\",\n    \"Street vendor setting with 'Frituur-Snacks' sign\",\n    \"Natural daylight, appetising presentation\"\n  ],\n  \"phone_observations\": [\n    \"Hand-held cone with fries and mayo visible\",\n    \"Vendor sign readable in background\",\n    \"Subject prominent and clear in thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Frikandel identity unconfirmed: source description names it but it is not visually distinguished in the photograph. Frikandel is an unspecified meat species (Dutch/Belgian processed meat product of ambiguous animal origin—could be pork, beef, chicken or mixed). No explicit animal species named in source text.\",\n    \"The title/filename references only 'frikandel' generically without species declaration, violating protein evidence requirements.\"\n  ],\n  \"reason\": \"Source description identifies a 'frikandel' but does not explicitly name the animal species. Frikandel is a traditional Dutch/Belgian processed meat product whose composition varies by maker and may contain pork, beef, chicken or mixtures—the species is ambiguous and not declared in the source. Per protocol, unknown or ambiguous meat species (including sausage-like products without explicit animal naming) must be held. The frikandel is also not visually distinguished in the photograph to confirm its presence independently. Identity cannot be accepted without explicit protein species confirmation in the source.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 2085,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 492,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
