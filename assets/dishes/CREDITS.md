@@ -11169,3 +11169,9 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Łazanki** — Aw58. [CC BY 4.0](https://creativecommons.org/licenses/by/4.0); [source](https://commons.wikimedia.org/wiki/File:%C5%81azanki_-_08.11.2025.jpg). Local asset: `reviewed-commons-178686951.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Borani soup** — E4024. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Borani_soup.jpg). Local asset: `reviewed-commons-55336560.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Papadum** — JIP. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Papadum_at_restaurant_Milan_Nepal.jpg). Local asset: `reviewed-commons-113628921.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Eggplant borani** — Sdkb. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Eggplant_borani_at_Naan_Kabob_in_Toronto.jpg). Local asset: `reviewed-commons-140825166.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
