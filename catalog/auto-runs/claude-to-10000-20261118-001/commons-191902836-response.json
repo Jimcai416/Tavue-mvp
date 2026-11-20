@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChEvcd3hFgVhaPY28r7pX",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 3,\n    \"lighting\": 3,\n    \"composition\": 2,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows a mayonnaise-based salad in a glass bowl with a serving spoon\",\n    \"Individual components (potato, carrot, peas) are not sharply distinguished in the thumbnail\",\n    \"The dish appears as an undifferentiated creamy mixture at phone scale\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title describes 'ensalada rusa' but the image shows a prepared salad in a serving bowl, not a finished plated dish ready for consumption\",\n    \"This appears to be a preparation or serving stage rather than a finished, exposed, appetising dish presentation\"\n  ],\n  \"reason\": \"Rejection criteria met: The photograph shows a salad in a mixing/serving bowl during preparation or service setup, not a finished, exposed, plated dish suitable for food photography review. The thumbnail fails the phone legibility requirement—individual components (potato dice, carrot, peas, mayonnaise base) are not sharply readable as distinct elements. The creamy, homogeneous appearance in both full and thumbnail images reduces visual appeal and component clarity. This is preparation-stage documentation, not a finished dish presentation. Quality scores (sharpness 3, lighting 3, composition 2, appeal 2) all fall below the required minimum of 4.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1823,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 432,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
