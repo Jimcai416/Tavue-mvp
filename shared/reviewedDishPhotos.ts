@@ -159416,5 +159416,28 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 721,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-191827062",
+    "title": "File:Travesseiro de Sintra and Queijada de Sintra bakery pastries in Sintra, Portugal (55139884975).jpg",
+    "author": "Philip Mallis  from Melbourne",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Travesseiro_de_Sintra_and_Queijada_de_Sintra_bakery_pastries_in_Sintra,_Portugal_(55139884975).jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/79/Travesseiro_de_Sintra_and_Queijada_de_Sintra_bakery_pastries_in_Sintra%2C_Portugal_%2855139884975%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "c97084729b252564f4abd365d50d5386ca11d3b8",
+    "name": "Travesseiro de Sintra and Queijada de Sintra",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-191827062.jpg",
+    "assetSha256": "967653979b6bf3e6db210440162f08165a2574396735b4138367a53f3bd85f3e",
+    "reviewedAt": "2026-11-20",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 723,
+    "requiresExactMenuName": true,
+    "authorUrl": "https://www.flickr.com/people/122687277@N03"
   }
 ];
