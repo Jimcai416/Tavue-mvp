@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDCqzQnmkZuobo9MbR7C",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 3,\n    \"composition\": 3,\n    \"appeal\": 3\n  },\n  \"visible_support\": [\n    \"Sandwich on white bread with red onion slices\",\n    \"Cooked ground meat filling, brown and textured\",\n    \"Golden-brown fried potato wedges as side\",\n    \"Plate presentation on clear dish\",\n    \"Home/street food setting evident\"\n  ],\n  \"phone_observations\": [\n    \"Sandwich prominently visible in thumbnail centre-left\",\n    \"Meat filling and bread structure clearly readable\",\n    \"Fried potatoes visible on right side\",\n    \"Overall composition recognizable at small scale\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title contains Turkish 'cigeri' (liver) but photograph quality and angle make liver identification uncertain; ground meat appearance could be minced liver or other organ, but cannot be visually confirmed\",\n    \"Source title indicates 'Edirne yaprak cigeri' (Edirne leaf liver) but the cooked form and low image sharpness prevent confident species or preparation verification\",\n    \"Metadata title/description language is Turkish; exact English canonical name unclear without confirmed visual verification of liver preparation\",\n    \"No explicit animal species confirmation in source text; 'cigeri' implies liver but species unspecified\"\n  ],\n  \"reason\": \"Image quality is marginal (sharpness 2/5 due to motion blur and low resolution), and critical identity uncertainty prevents acceptance. While the source title clearly names this as 'Edirne yaprak cigeri' (Edirne leaf liver), the photograph's poor sharpness and the ambiguity of minced liver vs. other organ meats in cooked form make visual confirmation impossible. The protein category 'liver' is not in the allowed list (only chicken/beef/pork/duck/lamb/seafood), and no source text explicitly names an allowed animal species. The source contradicts the allowed protein framework. This requires explicit hold pending clarification of both visual detail and animal species in the original source description.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1810,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 576,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
