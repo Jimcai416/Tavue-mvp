@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChF64dv3kYnc8kmNEtQZ8",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows only interior signage and empty dining tables\",\n    \"No food subject visible in phone centre-cover crop\",\n    \"Restaurant branding dominates, no dish present\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title/description refers to restaurant design/interior, not a food dish\",\n    \"No finished food photograph present in either full image or thumbnail\"\n  ],\n  \"reason\": \"This is a photograph of restaurant interior signage and empty dining space labelled '100 Montaditos' (a Spanish tapas chain). It is not a photograph of a finished, exposed dish. The source describes it as 'design of 100 Montaditos' and 'a typical Spanish 19th-century tavern'—architectural/documentary content, not food photography. No food subject is visible in the full image or phone thumbnail. Rejects: not a finished dish photograph; no prominent food subject; fails identity check (interior/branding, not dish); fails photograph check (architectural interior, not food).\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1630,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 377,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
