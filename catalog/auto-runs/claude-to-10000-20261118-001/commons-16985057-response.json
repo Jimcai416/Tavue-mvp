@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChEnheVhfYeStXH15ntvY",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Spaghetti visible in white bowl\",\n    \"Red tomato-based sauce visible\",\n    \"Spherical meatball forms visible\",\n    \"Grated cheese topping visible\",\n    \"Professional plating on white dish\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows pasta dish with meatballs\",\n    \"Red sauce and spherical protein forms prominent\",\n    \"Composition readable at phone size\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title states 'Spaghetti and meatballs' but description claims 'Spaghetti alla Bolognese with meatballs'—these are distinct dishes (meatballs are not canonical to Bolognese)\",\n    \"Meatball composition (beef/pork/mixed) not declared in source\",\n    \"Source contradiction between title and description creates identity ambiguity\"\n  ],\n  \"reason\": \"Source metadata contains a material contradiction: the title 'Spaghetti and meatballs' and description 'Spaghetti alla Bolognese with meatballs' name two different dishes. Spaghetti alla Bolognese uses a ragù of minced meat, not meatballs. The image shows meatballs, confirming the title is accurate, but the description misidentifies it. Without a source statement confirming the specific meat composition (beef/pork/other), and given this identity conflict, the dish cannot be canonically named with confidence. Hold rules require source-exact identity; this source fails that standard.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1757,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 502,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
