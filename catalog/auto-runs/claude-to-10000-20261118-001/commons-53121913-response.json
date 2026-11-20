@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChF4JTrxvbmTbcpop1X6z",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Single cooked sausage on wooden surface\",\n    \"Golden-brown casing with visible seasoning\",\n    \"Natural curled shape typical of link sausage\",\n    \"Sharp detail and natural colour in full image\",\n    \"Phone thumbnail shows sausage prominently and clearly\"\n  ],\n  \"phone_observations\": [\n    \"Sausage occupies most of phone thumbnail\",\n    \"Golden-brown colour and form clearly visible\",\n    \"No clipping or obscuration of essential subject\",\n    \"Adequate resolution for identification\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title 'Klobása' is a generic Slovak/Czech term for sausage but does not specify the animal species (pork, beef, mixed meats, or other)\",\n    \"Visual appearance cannot definitively determine meat species\",\n    \"No explicit source quote naming the specific animal protein\",\n    \"Image metadata and filename are untrusted; only the title 'Klobása' is provided\"\n  ],\n  \"reason\": \"Reject: The source title 'Klobása' refers to a sausage category without specifying the animal species. Per instructions, ambiguous meat species (sausage without named animal) and source contradictions or doubtful credits require hold or rejection. The photograph itself is sharp, well-lit, and appetising, and shows a finished, cooked sausage prominently in both full image and phone thumbnail. However, no explicit source quote names a specific allowed protein (chicken/beef/pork/duck/lamb/seafood). The generic term 'sausage' cannot be used as a protein key, and the species cannot be inferred from appearance alone. Identity check fails because the exact animal protein is not declared in the source title or description.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1478,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 538,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChF4J7KwXhQ7Y9uRoLjDj",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Single fried sausage on white plate, clearly visible\",\n    \"Brown exterior, cylindrical shape consistent with source image\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Frikandel is a 'processed meat' product of unspecified animal origin; no explicit identification of chicken/beef/pork/duck/lamb/seafood in source description\",\n    \"Source metadata states 'you probably wouldnt want to know what goes in it' — this indicates ambiguous or undeclared meat composition\",\n    \"Cannot confirm specific animal protein from visual appearance alone\"\n  ],\n  \"reason\": \"Reject: frikandel is described as 'processed meat' with deliberately obscured ingredient composition. No explicit, credible source quote names a single allowed protein category (chicken/beef/pork/duck/lamb/seafood). The humorous disclaimer in the source description confirms meat species is unknown or intentionally undisclosed. Identity cannot be verified against required protein specificity.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1695,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 367,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

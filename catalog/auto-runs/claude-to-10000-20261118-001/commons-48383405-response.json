@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChF4J7BmWAZSTnK7BTimk",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Two distinct cheese blocks with visible spice flecks visible in full image and thumbnail\",\n    \"Brown/dark bread slices on wooden board\",\n    \"Cheese knife present\",\n    \"Natural daylight, sharp detail\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows brown bread, two yellow cheese pieces with dark spice flecks\",\n    \"Cheese pieces prominent and readable\",\n    \"Board and knife visible\",\n    \"Adequate resolution for identification\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source metadata describes 'matured Dutch cheese flavoured with cloves and cumin' but no explicit dish name provided in title or description—only file name and descriptive text\",\n    \"Description identifies components (spiced cheese and farmer's cheese) but neither the front nor back cheese is given a canonical Dutch name in the source\",\n    \"Ambiguity whether this is meant to represent a specific named dish or merely a styled plating of two separate cheeses with accompaniment\",\n    \"Title is a filename only: 'File:Belegen nagelkaas en belegen boerenkaas.jpg'—the file name itself suggests Dutch names but canonical_name must be copied from title or description field, neither of which provide an explicit dish phrase\"\n  ],\n  \"reason\": \"While the photograph is sharp, well-lit, and appetisingly composed, and the phone thumbnail clearly shows the finished plating, the source provides no explicit canonical dish name in the title or description fields. The title is a file reference only (File:Belegen nagelkaas en belegen boerenkaas.jpg), and the description identifies components and origin but does not name a specific dish. Per instructions, canonical_name must be copied exactly from source title or description without File: prefix or filename extension. The source description does not provide a dish phrase suitable for direct extraction. This constitutes a source identity deficiency rather than a photograph quality issue.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1922,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 572,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
