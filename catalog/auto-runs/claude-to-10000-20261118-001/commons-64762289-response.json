@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDr6vy8wmmVAk48eRUXk",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 2,\n    \"composition\": 2,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows meat on flatbread with green herb garnish, but subject is severely blurred and motion-streaked\",\n    \"Meat detail unreadable; colour cast and softness prevent identification of marinade or surface treatment\",\n    \"Flatbread structure visible but poorly rendered; essential components not sharply defined\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Species unconfirmed: title claims 'kuzu' (lamb) but photograph quality and angle prevent visual verification\",\n    \"Tandır preparation and marinade/glaze not visually distinguishable due to severe blur and camera motion\",\n    \"Overall image softness and low contrast make it unsuitable for reliable dish assessment\"\n  ],\n  \"reason\": \"Source title describes 'Konya style kuzu tandır' but the photograph is severely blurred with apparent camera motion, weak lighting, and very low sharpness (score 2). The phone thumbnail is equally soft and unsharp. While the composition shows meat on flatbread with herb garnish, the image quality falls far short of standards requiring sharp detail, natural colour, and readable essential components. The blur prevents confident visual confirmation of the lamb species, tandır cooking method, or surface characteristics. No score meets the >=4 threshold. Reject on photograph quality alone.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1735,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 436,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
