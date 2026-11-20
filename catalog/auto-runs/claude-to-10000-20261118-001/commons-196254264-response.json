@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDx8SPgt26JwDyNdk9Fj",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Cooked, browned, ball-shaped fritters prominently displayed\",\n    \"Natural lighting, appetising colour\",\n    \"Clear phone thumbnail showing all items sharply\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows clustered fried balls with brown crust\",\n    \"All essential components visible and readable\",\n    \"No clipping of food elements\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title provides generic category 'Gorengan' (fried snacks) but description lists three possible main ingredients: kacang tolo (pigeon peas), kacang hijau (mung beans), or singkong (cassava) – all plant-based, not protein category matches\",\n    \"Visual appearance alone cannot distinguish which of the three stated ingredients was actually used\",\n    \"No animal protein explicitly named in source title or description\"\n  ],\n  \"reason\": \"Source description lists three distinct possible ingredients (pigeon peas, mung beans, or cassava) without specifying which one is in this dish. Visual inspection cannot reliably differentiate between them. The dish contains no named animal proteins. Per protocol, ambiguity about core identity components requires hold. A source quote specifying the actual ingredient used would enable acceptance.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1750,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 424,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
