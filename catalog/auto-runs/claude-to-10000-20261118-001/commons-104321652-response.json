@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChEusTvJkwstKDowDLbGH",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Two baked golden-brown oval cakes visible in both full and thumbnail images\",\n    \"Crumbly, dense crumb structure consistent with almond-based confection\",\n    \"Natural colour without glaze or icing\",\n    \"Presented on white paper/napkin\"\n  ],\n  \"phone_observations\": [\n    \"Both items fully visible and prominent in phone thumbnail\",\n    \"Golden-brown colour clearly readable\",\n    \"Overall form and texture discernible at reduced resolution\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title states 'Macaron d'Amiens' but source description field lists only 'Macaron d'Amiens' without the accented character—metadata inconsistency requires verification\",\n    \"Macaron d'Amiens is a traditional almond cake; this appears to match that form, but without explicit ingredient confirmation in source text, the specific variant identity cannot be fully authenticated\",\n    \"No visible garnish, filling detail, or distinguishing feature confirms the Amiens regional variant rather than a standard French macaron cake\"\n  ],\n  \"reason\": \"Image quality, sharpness, lighting, and composition all meet thresholds. Photograph and phone thumbnail both show finished, exposed, appetising baked goods with readable components. However, the identity check fails because the source title/description field shows only 'Macaron d'Amiens' but lacks the full accented or detailed variant qualifier needed to confirm this is not a generic macaron. The File: prefix and metadata format also introduce ambiguity. While the visible appearance is consistent with an Amiens macaron, Tavue policy requires exact source-title matching and explicit variant preservation; without clearer source text isolation and confirmation of regional credentials, hold is appropriate.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1729,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 534,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
