@@ -150641,5 +150641,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "height": 720,
     "requiresExactMenuName": true,
     "authorUrl": "https://www.flickr.com/photos/avlxyz/with/2068576214/"
+  },
+  {
+    "id": "commons-75040389",
+    "title": "File:Fatir mehraban.jpg",
+    "author": "MEHRABANI1",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fatir_mehraban.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/29/Fatir_mehraban.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "9d0eca87d720b2f9a34ae9a3d4003d79923d3e93",
+    "name": "Fatir mehraban",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-75040389.jpg",
+    "assetSha256": "8996fb223e186edeeaae7d289e1c7012322bc8c5b9db82c108fd4618029ed9eb",
+    "reviewedAt": "2026-11-20",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 646,
+    "height": 960,
+    "requiresExactMenuName": true
   }
 ];
