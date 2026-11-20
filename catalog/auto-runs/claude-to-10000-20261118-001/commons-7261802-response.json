@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChEPtbhQYmYr3RHGqEiR7",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Fried rolled tortillas visible in white bowl\",\n    \"Red chili sauce covering the dish\",\n    \"Garnish visible (appears to be cheese or onion)\",\n    \"Crispy exterior texture evident\",\n    \"Finished, exposed dish at table setting\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows fried rolled items in sauce\",\n    \"Prominent in frame with readable components\",\n    \"Red sauce and toppings visible\",\n    \"Full dish visible, not clipped\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Description states 'shredded meat filling' but meat species is unspecified and not explicitly named in title or description—cannot determine if chicken, beef, pork, or other animal\",\n    \"Source metadata describes filling as 'shredded meat' generically without declaring specific animal type\"\n  ],\n  \"reason\": \"Image quality, sharpness, lighting, composition and phone thumbnail are all acceptable. Identity as flautas is supported by visual form (fried rolled tortillas) and source description. However, the protein requirement cannot be satisfied: the source description states the filling is 'shredded meat' without explicitly naming the specific animal (chicken/beef/pork/duck/lamb/seafood). Per protocol, unspecified meat species requires hold. No exact source quote naming a permitted protein category can be extracted from the title or description.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1726,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 457,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

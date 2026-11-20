@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChEPtbgfivud1mh567QeQ",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Pink fish-shaped bowl with fried millet visible in thumbnail\",\n    \"Spoon present, raw/preparation stage evident\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Image shows raw/uncooked millet in a preparation bowl, not a finished, exposed, plated dish\",\n    \"Metadata title describes this as preparation/ingredients stage (millet to be added to milk tea), not a finished served dish\",\n    \"Subject is clearly in a preparation context with ingredient bowls, not a completed appetising dish ready for consumption\"\n  ],\n  \"reason\": \"Rejection: This image documents a preparation stage (raw fried millet in a serving bowl before being combined with milk tea), not a finished, exposed, cooked dish. The metadata explicitly states the millet 'is to be added in the milk tea', confirming preparation stage. The thumbnail shows the raw ingredient prominently. While the photograph is sharp and well-composed, it fails the core requirement of depicting a finished, complete dish that is appetising and naturally ready for consumption. Raw/preparation stages are explicitly excluded.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1924,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 387,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
