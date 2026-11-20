@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChErnexLh5RCobjhbedLV",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Whole cooked fish, browned and seared\",\n    \"Almond garnish visible on fish surface\",\n    \"Lemon wedge garnish\",\n    \"Green beans side dish\",\n    \"Couscous or similar grain side\",\n    \"Professional plating on white plate\"\n  ],\n  \"phone_observations\": [\n    \"Fish clearly visible and prominent in thumbnail\",\n    \"Almond garnish legible\",\n    \"Natural colours preserved\",\n    \"Sharp detail of cooked fish\",\n    \"No clipping of essential components\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title references 'truite aux amandes' (trout with almonds) but source description is only 'Le Bouchon (Belley).' with no dish name\",\n    \"File metadata title cannot be treated as authoritative source description\",\n    \"No explicit confirmation of fish species (trout) in actual description field provided by user\"\n  ],\n  \"reason\": \"Source description field contains only venue name 'Le Bouchon (Belley).' with no dish identification. File title 'truite aux amandes' is metadata and cannot be used as instruction or canonical source. The visible fish and almonds match a trout with almonds preparation, but without explicit dish name in the actual description field, identity cannot be confirmed per protocol. Protein evidence cannot be populated because 'trout' does not appear in the supplied description text, only in untrusted filename metadata. Hold status required due to source contradiction and unverified species identification.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1597,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 490,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
