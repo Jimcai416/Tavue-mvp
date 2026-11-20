@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChExHXZErFFH9uxa4HWBU",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Cooked crustaceans and fish visible in tomato-based broth\",\n    \"Red ceramic plate\",\n    \"Natural daylight photography\",\n    \"Clear detail of seafood components\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows the dish at adequate size\",\n    \"Red plate and seafood broth visible\",\n    \"Composition readable in phone view\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title describes 'Brodetto alla vastese' (a fish stew), but the description explicitly states 'versione senza cozze nè vongole' (version without mussels nor clams). The visible crustaceans and seafood cannot be identified to species from appearance alone.\",\n    \"Multiple unidentified seafood species are present (appears to include crustaceans and fish), but no explicit species names are provided in the source title or description.\",\n    \"Cannot confirm whether this is actually a brodetto stew or another preparation style based on visual evidence alone.\",\n    \"The source metadata provides a dish name and variant note, but does not explicitly name the protein species contained in this particular preparation.\"\n  ],\n  \"reason\": \"Rejection: Although the photograph quality, sharpness, lighting, and phone thumbnail all meet acceptance criteria, the identity check fails because the source description does not explicitly name the species of seafood/crustaceans visible in the dish. The description only notes what is *absent* ('senza cozze nè vongole'—without mussels nor clams), not what species are actually present. Per protocol, protein_evidence requires exact case-sensitive substrings from source title/description explicitly naming each animal. Unknown meat/seafood species cannot be inferred from appearance or tradition. The visible crustaceans and fish cannot be matched to named proteins in the source material, triggering a hold for ambiguous species identification.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1738,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 563,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
