@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDUfeu7QkhJYzXXs8Gtk",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Golden-yellow fried potato rounds with spice crust\",\n    \"Green avocado slice\",\n    \"Shredded meat with vegetables (cabbage, carrot, onion)\",\n    \"Stone mortar bowl with amber sauce\",\n    \"Red background, stone platter\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows potatoes, avocado, shredded meat salad, and sauce bowl\",\n    \"All key components visible at reduced scale\",\n    \"Colour and composition preserved in thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title states 'Hornado' but visible meat is shredded, not roasted/grilled whole animal. Hornado typically refers to slow-roasted pork; the preparation form shown does not match canonical hornado presentation.\",\n    \"Meat species cannot be confirmed from appearance alone. Source provides no explicit animal identification.\",\n    \"Geographic qualifier 'Cotopaxi' (Ecuador) is present but dish form contradicts hornado tradition.\"\n  ],\n  \"reason\": \"Reject: Identity check fails. The source title claims 'Hornado' (a whole-roasted dish), but the photograph clearly shows shredded cooked meat in a salad preparation, not a roasted/grilled intact animal. This is a fundamental mismatch between source declaration and visible form. No explicit protein species is named in the source metadata. The composition (fried potatoes, avocado, meat salad, sauce) is appetising and well-photographed, but cannot be accepted under a name that misrepresents its actual preparation. Hold or identify with correct dish name and explicit meat species from source.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1636,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 517,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
