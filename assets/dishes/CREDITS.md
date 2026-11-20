@@ -10872,3 +10872,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 - **Gujrati Dabeli** — Joy Hindocha. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Gujrati_Dabeli.jpg). Local asset: `reviewed-commons-40981465.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Kach Dabeli** — Harikrishnan N. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Kach_Dabeli_-_VV_Puram_Food_Street,_Bangalore_-_Karnataka_-_PXL5846.jpg). Local asset: `reviewed-commons-102372270.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Kachchi Dabeli** — Jatan1992. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Kachchi_Dabeli.jpg). Local asset: `reviewed-commons-40987192.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Gajjar ka halwa** — Prerna Jaddwani. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Gajjar_ka_halwa_(carrot_halwa).JPG). Local asset: `reviewed-commons-40940261.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
