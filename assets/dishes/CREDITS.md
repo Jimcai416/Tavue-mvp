@@ -10975,3 +10975,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 - **Cheese Kugel** — Alliejgamble. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Cheese_Kugel.jpg). Local asset: `reviewed-commons-177703789.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Hungarian Dobos torte** — Edsel Little. [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:Hungarian_Dobos_torte.jpg). Local asset: `reviewed-commons-54894936.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Kyivska perepichka** — Xsandriel. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Kyivska_perepichka_(3).jpg). Local asset: `reviewed-commons-76191946.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Kugel made from egg noodles** — [Stuart Spivack](https://www.flickr.com/people/stuart_spivack/). [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:Kugel.jpg). Local asset: `reviewed-commons-1311992.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.

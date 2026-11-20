@@ -139828,5 +139828,28 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 893,
     "height": 960,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-1311992",
+    "title": "File:Kugel.jpg",
+    "author": "Stuart Spivack",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kugel.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Kugel.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "e74d57da02537ac3d6b8b63da4f0d9e54227ba05",
+    "name": "Kugel made from egg noodles",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-1311992.jpg",
+    "assetSha256": "301bd56700a4068d4ed96c8326ab0866b5a825918586f4f908156e518b07304a",
+    "reviewedAt": "2026-11-20",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 798,
+    "requiresExactMenuName": true,
+    "authorUrl": "https://www.flickr.com/people/stuart_spivack/"
   }
 ];
