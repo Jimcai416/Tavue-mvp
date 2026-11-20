@@ -11326,3 +11326,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Fishcakes and bratkartoffeln** — Much Ramblings. [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Fishcakes_and_Bratkartoffeln.jpg). Local asset: `reviewed-commons-103709812.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Crostata Frangipane alle Mandorle** — DinaBenedettoFerrandina. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Crostata_Frangipane_alle_Mandorle.jpg). Local asset: `reviewed-commons-122336592.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.

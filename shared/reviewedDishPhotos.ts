@@ -143295,5 +143295,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-122336592",
+    "title": "File:Crostata Frangipane alle Mandorle.jpg",
+    "author": "DinaBenedettoFerrandina",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Crostata_Frangipane_alle_Mandorle.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/67/Crostata_Frangipane_alle_Mandorle.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "adc2bf66430b14846d51e937323477ae67cbc40b",
+    "name": "Crostata Frangipane alle Mandorle",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-122336592.jpg",
+    "assetSha256": "950dc1f9743c49f2d8ddb6a09ac4ceaced3d48c35bf955aa17347903fc64531d",
+    "reviewedAt": "2026-11-20",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 887,
+    "requiresExactMenuName": true
   }
 ];
