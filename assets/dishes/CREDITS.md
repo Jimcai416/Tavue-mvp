@@ -11313,3 +11313,12 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Mộc nhĩ xào miến chay** — Phương Huy  ( thảo luận ). [Public domain](https://creativecommons.org/publicdomain/mark/1.0/); [source](https://commons.wikimedia.org/wiki/File:M%E1%BB%99c_nh%C4%A9_x%C3%A0o_mi%E1%BA%BFn_chay,_t%E1%BA%A5t_ni%C3%AAn_nh%C3%A0_m%E1%BB%87,_T%E1%BA%BFt_2018_(3).jpg). Local asset: `reviewed-commons-89847195.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Ube cake** — Judgefloro. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:8842TamUbe_cake.jpg). Local asset: `reviewed-commons-94348544.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Ras Malai** — ramantalkin. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Ras-Malai.jpg). Local asset: `reviewed-commons-40874681.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Beef Salpicao** — Ralff Nestor Nacor. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Beef_Salpicao,_Mar_2024.jpg). Local asset: `reviewed-commons-146112990.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Kesar ras malai** — Shrads.m. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Ras-malai.jpg). Local asset: `reviewed-commons-40788246.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Biggs Beef Salpicao** — ShmilyDigital. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Biggs_Beef_Salpicao_01.jpg). Local asset: `reviewed-commons-156724945.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Rasmalai** — [martakat83  from Queens, NY, USA](https://www.flickr.com/people/26157413@N08). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Ras_malai-my_new_fave_Indian_delicasy!_-rasmalai_-indianfood_(8237938307).jpg). Local asset: `reviewed-commons-57980530.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
