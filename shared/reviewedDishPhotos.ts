@@ -142660,5 +142660,52 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 783,
     "height": 960,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-202511846",
+    "title": "File:Takikomi-gohan and Omelette in Student Union 02.jpg",
+    "author": "ノボホショコロトソ",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Takikomi-gohan_and_Omelette_in_Student_Union_02.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Takikomi-gohan_and_Omelette_in_Student_Union_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "d548c8ecc4b3983ae89ee380b5c416748acd0e83",
+    "name": "Takikomi-gohan and Omelette",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-202511846.jpg",
+    "assetSha256": "7b8a7b19f9513f5b680de53e720b760cbbbb607de94873b4104454a6aefbb9dd",
+    "reviewedAt": "2026-11-20",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-49653923",
+    "title": "File:Takikomi gohan with fried pork 台湾風焼き豚肉入りの五目ご飯 (9232620206).jpg",
+    "author": "Shou-Hui Wang  from Melbourne, Australia",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Takikomi_gohan_with_fried_pork_%E5%8F%B0%E6%B9%BE%E9%A2%A8%E7%84%BC%E3%81%8D%E8%B1%9A%E8%82%89%E5%85%A5%E3%82%8A%E3%81%AE%E4%BA%94%E7%9B%AE%E3%81%94%E9%A3%AF_(9232620206).jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/91/Takikomi_gohan_with_fried_pork_%E5%8F%B0%E6%B9%BE%E9%A2%A8%E7%84%BC%E3%81%8D%E8%B1%9A%E8%82%89%E5%85%A5%E3%82%8A%E3%81%AE%E4%BA%94%E7%9B%AE%E3%81%94%E9%A3%AF_%289232620206%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "328475c95735f867f8f8a87fcf702e68325f81a6",
+    "name": "Takikomi gohan with fried pork",
+    "aliases": [],
+    "proteins": [
+      "pork"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-49653923.jpg",
+    "assetSha256": "87d8c3296aa6c4cba638f82ba0b9f61c1069bcac46e9ce0a650403c8a4bf946f",
+    "reviewedAt": "2026-11-20",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 638,
+    "requiresExactMenuName": true,
+    "authorUrl": "https://www.flickr.com/people/12057629@N04"
   }
 ];
