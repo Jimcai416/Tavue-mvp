@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChEuK298L9MRSpMG9821T",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 2,\n    \"composition\": 2,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows a dish with visible meat/protein pieces and greenish starch component\",\n    \"Colour and texture consistent with full image\",\n    \"Plate and overall presentation visible but soft focus\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'Lentejas rojas Dhal con alcachofas' (Red lentil dhal with artichokes) but description contradicts this, stating 'Baked frozen vegetable sausages and peas'\",\n    \"Source metadata contains direct contradiction: title names a vegetarian legume dish; description names processed sausages and peas\",\n    \"Visible meat/protein pieces in image do not match either 'red lentils' or 'vegetable sausages' clearly\",\n    \"Species of any meat present cannot be determined from appearance\",\n    \"No explicit animal protein named in source title or description with sufficient clarity to support identity\",\n    \"Description metadata appears to be mismatched or corrupted relative to title\"\n  ],\n  \"reason\": \"Source metadata contains irreconcilable contradiction: title declares 'Lentejas rojas Dhal con alcachofas' (a vegetarian dish); description declares 'Baked frozen vegetable sausages and peas' (different ingredients). The visible dish shows what appear to be protein pieces in a starch base, but cannot be matched to either declared identity. No explicit animal species is named in the source. Protein evidence cannot be extracted. Identity check fails due to source conflict. Image quality is also poor (soft focus, low contrast, unappetising presentation, dim lighting). Hold rules require source-declared protein with explicit animal naming; sausage species is unspecified and contradicted by title. Reject due to identity irresolution and quality deficiency.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1762,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 549,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

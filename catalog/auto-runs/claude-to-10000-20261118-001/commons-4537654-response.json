@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChEuKQHQ3TkZLvC5RW5LN",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 3,\n    \"lighting\": 2,\n    \"composition\": 3,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows raw/preparation stage: fish halves on grill grates over white charcoal, still cooking\",\n    \"Fish not finished: interior flesh visible, charring incomplete, translucent sections indicate active cooking rather than plated dish\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title references 'bonito del norte' (northern bonito/Atlantic bluefin tuna), but image shows preparation/cooking in progress, not a finished exposed dish\",\n    \"Species name 'bonito' is ambiguous in culinary context and would require explicit confirmation in final form\"\n  ],\n  \"reason\": \"Reject: image captures raw/preparation stage (fish actively cooking on grill with charcoal visible, interior flesh exposed, charring incomplete) rather than a finished, plated, exposed dish. Phone thumbnail confirms this is mid-cooking documentation, not a service-ready photograph. Lighting is poor (blue/white cast), composition lacks appetising presentation. Does not meet requirement for 'finished, exposed, likely photographic dish' with appeal score >=4.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1749,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 386,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
