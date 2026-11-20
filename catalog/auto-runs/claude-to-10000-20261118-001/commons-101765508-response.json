@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDhGSpTMd8jXMPSVpL9j",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 3,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Small red/brown condiment on white plate visible in thumbnail\",\n    \"Minimal food portion, not a finished dish\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title describes 'Spicy Miso paste' as a component or garnish, not a finished dish\",\n    \"Photograph shows only a small dollop of miso on a plate, not the ramen dish itself\",\n    \"Title claims this is from 'Chicken Paitan Ramen' but the image contains no visible ramen, noodles, broth, or chicken\",\n    \"Image appears to be a cropped detail of a larger meal, not a complete dish presentation\",\n    \"No essential food components readable or prominent in either full or thumbnail view\"\n  ],\n  \"reason\": \"Reject: The source description identifies this as a component ('Spicy Miso paste') of a larger ramen dish, not a finished, exposed dish in its own right. The photograph shows only a small condiment portion on a plate—a preparation stage or garnish detail, not an appetising, complete, identifiable meal. The claimed dish (Chicken Paitan Ramen) is entirely absent; no noodles, broth, chicken, or ramen structure are visible. Identity does not match the visible form. This fails the core requirement for 'a finished, exposed, likely photographic dish' with 'readable essential components' prominent in the thumbnail.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1698,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 468,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

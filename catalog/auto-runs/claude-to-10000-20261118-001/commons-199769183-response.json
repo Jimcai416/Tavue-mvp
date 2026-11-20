@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDhGcfYipfeKSJnd59FM",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Two soft corn tortillas with distinct fillings visible\",\n    \"Lower taco: braised meat, diced onion, cilantro garnish\",\n    \"Upper taco: purple cabbage slaw, creamy sauce, avocado, lime wedge at plate edge\",\n    \"Accompanying sauce cup (yellow/mustard tone)\",\n    \"Wood table, white plate, beverage glasses in background\"\n  ],\n  \"phone_observations\": [\n    \"Purple cabbage slaw clearly visible on upper taco\",\n    \"Meat component readable in lower taco\",\n    \"Two distinct tacos compositionally clear\",\n    \"Garnish detail (cilantro, onion) discernible\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'Taco de Lengua y Taco de Camaron' (beef tongue and shrimp)\",\n    \"Visual inspection of lower taco shows braised meat consistent with lengua/tongue appearance\",\n    \"Upper taco purported to be camaron (shrimp) but no shrimp is visibly identifiable—only purple cabbage, creamy sauce, and avocado are apparent\",\n    \"No visible evidence of seafood/shrimp component in the photograph despite source title declaration\",\n    \"Ambiguous whether upper taco is shrimp or vegetarian preparation with sauce\"\n  ],\n  \"reason\": \"Source title declares 'Taco de Lengua y Taco de Camaron' but the upper taco (allegedly camaron/shrimp) contains no visible shrimp. Only purple cabbage slaw, creamy sauce, and avocado are identifiable in that component. Beef tongue in the lower taco cannot be confirmed from appearance alone and the source does not provide explicit protein naming in a quote format matching the canonical requirement. The identity mismatch between source declaration and visible content, combined with inability to confirm shrimp presence or explicit tongue identification via source quote, requires hold pending clarification. Photograph quality, sharpness, and composition are acceptable, but protein identity verification fails.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1755,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 609,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
