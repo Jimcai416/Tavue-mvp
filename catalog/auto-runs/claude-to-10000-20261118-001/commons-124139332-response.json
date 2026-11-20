@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDYrpijYnhNrL82MbPqk",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 3,\n    \"appeal\": 3\n  },\n  \"visible_support\": [\n    \"Fried noodles visible in both full and thumbnail images\",\n    \"Golden-yellow colour consistent with mie goreng\",\n    \"White plate with food scattered across surface\",\n    \"Supplementary vegetables/proteins (tomato slices, potato cubes, meat slices) scattered around noodle mass\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail shows compact noodle mound with some scattered elements\",\n    \"Central mass is adequately visible and sharp\",\n    \"Overall composition somewhat chaotic with decorative sprinkles on plate edges\",\n    \"Food identity readable but presentation unconventional\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title 'Sayur Mie Goreng Di Kebumen Jateng Indonesia' translates to 'Vegetable Fried Noodles', but prominent red meat slices are clearly visible in the dish—this contradicts the vegetable-only descriptor\",\n    \"Meat species cannot be determined from visual appearance alone; source provides no explicit animal name\",\n    \"No metadata specification of chicken, beef, pork, lamb, duck or seafood in the title or description\"\n  ],\n  \"reason\": \"Identity check fails due to source-title/visual contradiction: title claims 'Sayur Mie Goreng' (vegetable fried noodles) but dish contains visible meat slices. No explicit protein species named in source. Cannot preserve variant accurately when source description conflicts with photographic evidence. Protein category cannot be assigned without explicit source identification of animal type.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1748,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 491,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDYrjcQ3bsosy5HfiV7S",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Stir-fried noodles with visible protein\",\n    \"Bean sprouts and green onion/scallion garnish\",\n    \"Brown caramelized glaze typical of fried noodle dishes\",\n    \"Bright green plate, natural daylight\",\n    \"Chopsticks present in frame\"\n  ],\n  \"phone_observations\": [\n    \"Noodle dish clearly visible in thumbnail\",\n    \"Green plate colour preserved\",\n    \"Essential components readable: noodles, protein, garnish\",\n    \"Composition matches full source image\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title states 'Mie goreng' (fried noodles) but specific protein species cannot be visually identified with certainty—brown meat pieces visible but animal species ambiguous (could be beef, chicken, pork, or other)\",\n    \"Source description 'Fried noodle in Mie Tarik Laiker' is incomplete/grammatically unclear and does not provide explicit protein identification\",\n    \"No source quote unambiguously names the meat species present\"\n  ],\n  \"reason\": \"Photograph quality, sharpness, lighting, and phone thumbnail all meet standards. However, identity check fails: the meat species in the dish cannot be visually determined with confidence, and the source title/description do not provide explicit animal identification. Per protocol, ambiguous meat species requires hold. No protein_evidence keys can be populated without an exact source quote naming the specific animal.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1740,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 480,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

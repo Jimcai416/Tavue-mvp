@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDYrn4k5anzS9XBUCsh2",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Curly wheat noodles, deeply browned and caramelised\",\n    \"Visible meat pieces (pale tan/beige coloured)\",\n    \"Fresh green onion/scallion garnish and bean sprouts\",\n    \"White plate, fork, natural lighting\",\n    \"Home or casual restaurant setting\"\n  ],\n  \"phone_observations\": [\n    \"Noodle dish clearly visible at centre\",\n    \"Fork and garnish readable\",\n    \"Appetising brown colour preserved\",\n    \"Essential components prominent\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'Mie goreng manis' (sweet fried noodles) but metadata description is a health warning unrelated to dish identity and not a description of the food itself\",\n    \"Meat species visible but not explicitly named in source title or description—pale tan pieces could be chicken, pork, or seafood; cannot be identified by appearance alone\",\n    \"No explicit protein declaration in the source title 'Mie goreng manis'\"\n  ],\n  \"reason\": \"Source title 'Mie goreng manis' does not explicitly name any protein, and visible meat pieces cannot be reliably identified by appearance. Protein evidence keys require an exact case-sensitive substring from the supplied title/description naming the animal. The metadata description is a generic health claim, not a dish description. Without explicit protein naming in the source, protein_evidence remains empty, and the identity check fails. Hold would be appropriate, but reject is applied due to inability to verify canonical identity against source-declared specifics.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 2065,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 495,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
