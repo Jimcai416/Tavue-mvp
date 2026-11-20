@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChEv9R7qGCAs9aZkfDtos",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 5,\n    \"composition\": 5,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Cheese in protective paper wrapper on dark slate plate\",\n    \"Characteristic orange-tan rind visible\",\n    \"Finished food product clearly photographed\"\n  ],\n  \"phone_observations\": [\n    \"Cheese subject clearly visible in thumbnail\",\n    \"Orange rind and shape legible at reduced resolution\",\n    \"Prominent and well-composed in phone view\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title contains 'File:' prefix and image filename, not a clean dish description\",\n    \"Cheese is a finished dairy product, not a prepared dish requiring identity verification as food photograph\"\n  ],\n  \"reason\": \"Reject: This is a cheese product photograph, not a finished prepared dish. Tavue's review scope is for representative food photographs of cooked/finished dishes (home cooking and street food welcomed). A cheese wheel, though a finished food product, falls outside the category of dishes requiring photographic intake review. Additionally, the source metadata format (File: prefix, photographer credit, license information) suggests this is documentary/reference photography rather than consumer food photography submitted for Tavue review. The source title does not follow the expected format for a dish submitted for intake.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1324,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 404,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
