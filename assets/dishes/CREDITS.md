@@ -11482,3 +11482,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 - **Homemade sourdough bread with turmeric, flax, pepitas and sesame seeds** — Missvain. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Sourdough_bread_-_January_2026_-_Sarah_Stierch_02.jpg). Local asset: `reviewed-commons-181261455.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Montreal Bagel by Fairmount Bagels** — Gogerr. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Montreal_Bagel_by_Fairmount_Bagels.jpg). Local asset: `reviewed-commons-174081563.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Raisin and Cinnamon Bagel** — Andy Li. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Raisin_and_Cinnamon_Bagel_-_Jacob%E2%80%99s_Bagels_2025-12-13.jpg). Local asset: `reviewed-commons-179834865.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Veggie bagel** — Andy Li. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Veggie_bagel_-_Grind_%26_Slice_2024-04-22.jpg). Local asset: `reviewed-commons-147677403.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.

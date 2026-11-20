@@ -145109,5 +145109,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 723,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-147677403",
+    "title": "File:Veggie bagel - Grind & Slice 2024-04-22.jpg",
+    "author": "Andy Li",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Veggie_bagel_-_Grind_%26_Slice_2024-04-22.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Veggie_bagel_-_Grind_%26_Slice_2024-04-22.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "ec93ccbfd4ee17ba0f6e49df179499c1c1be5bce",
+    "name": "Veggie bagel",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-147677403.jpg",
+    "assetSha256": "bf0737e9148dc8c1e0466d05aaa42ba21791939a05cd38b8fc0721a445ec16a6",
+    "reviewedAt": "2026-11-20",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];
