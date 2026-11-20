@@ -149651,5 +149651,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-47281150",
+    "title": "File:Künefe with dondurma.jpg",
+    "author": "E4024",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:K%C3%BCnefe_with_dondurma.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/42/K%C3%BCnefe_with_dondurma.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "5394f212aa1cde1989deff471aaacd51726afeaa",
+    "name": "Turkish künefe with dövme dondurma",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-47281150.jpg",
+    "assetSha256": "5701f9e38f97a34dc2c559f83d2cddcb3e0427f830d6e99bd387f9db2fa507ce",
+    "reviewedAt": "2026-11-20",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];
