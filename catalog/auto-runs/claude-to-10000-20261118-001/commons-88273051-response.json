@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDjesFjQe2Bj3N4YkZjG",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [\n    \"Shredded, light tan/beige strands consistent with cooked chicken\",\n    \"Green onion/scallion pieces scattered throughout\",\n    \"Texture and colour consistent with cooled salad base\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows shredded chicken and green onions\",\n    \"Composition readable and representative of full image\",\n    \"Natural lighting and colour reproduction\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title states 'shredded chicken salad' but no chicken is explicitly named in the description field provided\",\n    \"Shoestring potatoes mentioned in source but not visibly distinguished in photograph—only shredded protein and allium visible\",\n    \"No visible confirmation of potato component in either full image or thumbnail\"\n  ],\n  \"reason\": \"Identity check fails. The source description identifies this as 'Salpicão (shredded chicken salad with shoestring potatoes)' but chicken is not explicitly named in the description text itself—it appears only in parenthetical recipe detail. Protein evidence cannot be established from an exact case-sensitive substring of the supplied description. Additionally, the promised shoestring potatoes are not visually distinguishable in the photograph; only shredded protein and green onions are evident. Without explicit protein naming in the source description and unverified recipe components, identity cannot be confirmed. Hold criteria are met.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1632,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 459,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
