@@ -147541,5 +147541,53 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-10791748",
+    "title": "File:Lardons.jpg",
+    "author": "Patrice78500",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lardons.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/43/Lardons.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "6871d383477b9313836447758b931b4e5b52e305",
+    "name": "Lardons (porc)",
+    "aliases": [],
+    "proteins": [
+      "pork"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-10791748.jpg",
+    "assetSha256": "042cb947a11773b5c29592b5c031c689db88257c8247070cd941fe6c6d2806a0",
+    "reviewedAt": "2026-11-20",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-155950215",
+    "title": "File:干妈回锅肉.jpg",
+    "author": "Yunseul1118",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%B9%B2%E5%A6%88%E5%9B%9E%E9%94%85%E8%82%89.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/76/%E5%B9%B2%E5%A6%88%E5%9B%9E%E9%94%85%E8%82%89.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "7704d19f63045545ffef665f18e1475a8796da73",
+    "name": "Dry-fried Pork Slices with Lao Gan Ma Sauce",
+    "aliases": [],
+    "proteins": [
+      "pork"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-155950215.jpg",
+    "assetSha256": "12a2f4066a0ad15b0155871a3187a81a08eb322b990d8343939d416007e7d019",
+    "reviewedAt": "2026-11-20",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 640,
+    "requiresExactMenuName": true
   }
 ];

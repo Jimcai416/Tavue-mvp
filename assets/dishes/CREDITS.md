@@ -11709,3 +11709,8 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 
 - **豚丼** — User:Lusheeta. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/); [source](https://commons.wikimedia.org/wiki/File:Butadon_Sukiya.jpg). Local asset: `reviewed-commons-1194860.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Butadon** — Nissy-KITAQ. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Butadon_negi.JPG). Local asset: `reviewed-commons-32736578.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Lardons (porc)** — Patrice78500. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Lardons.jpg). Local asset: `reviewed-commons-10791748.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Dry-fried Pork Slices with Lao Gan Ma Sauce** — Yunseul1118. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:%E5%B9%B2%E5%A6%88%E5%9B%9E%E9%94%85%E8%82%89.jpg). Local asset: `reviewed-commons-155950215.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
