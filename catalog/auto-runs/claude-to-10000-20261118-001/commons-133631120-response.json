@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDw7c7gSEWydKmFehmsU",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 1,\n    \"lighting\": 2,\n    \"composition\": 2,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Severe out-of-focus blur rendering essential food details unreadable\",\n    \"Creamy/pale surface visible but texture and components indistinguishable\",\n    \"Dark curved objects present but identity unclear due to focus failure\",\n    \"Phone thumbnail fails readability requirement for food identification\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Sharp detail insufficient to confirm quiche identity, filling type, or crust presence\",\n    \"Curved dark elements visible but unidentifiable—cannot confirm eggs, meat, vegetables, or dairy\",\n    \"No distinguishable quiche structure (crust edge, filling layers, golden finish) evident\",\n    \"Image quality does not permit verification of cooked, finished state\"\n  ],\n  \"reason\": \"Reject: Both full image and phone thumbnail are severely out of focus, failing fundamental photograph quality and phone readability checks. Sharpness score (1/5) and lighting defects prevent identification of essential quiche components, filling type, or cooked finish. The subject is prominent but critically underexposed in detail. No meaningful visual support for the claimed dish identity is available. Quality scores fail minimum thresholds (all <4).\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1543,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 409,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

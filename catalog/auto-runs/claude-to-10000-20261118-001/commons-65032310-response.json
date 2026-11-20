@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDw7RTEfqxvFkmWsbCYN",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 2,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Subject is a small brown organism on white background\",\n    \"Mollusk or invertebrate specimen, not a prepared food dish\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title references 'Causa holosericea', a taxonomic name for a mollusk species (not a food dish)\",\n    \"Image shows a preserved specimen in a scientific/naturalistic context\",\n    \"No evidence of cooking, plating, or culinary preparation\"\n  ],\n  \"reason\": \"This is a natural history specimen photograph of Causa holosericea (a mollusk), not a finished food dish. The metadata title is a scientific binomial name, not a dish name. The image shows an uncooked biological specimen on a plain background with no culinary presentation. This fails identity, quality, and photograph checks. Tavue reviews food dishes only; biological specimens and uncooked animals are out of scope.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 2050,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 348,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

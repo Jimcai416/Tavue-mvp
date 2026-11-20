@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDw8UixXZzGHaNsschXo",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Cooked quiche with visible filling on yellow plate\",\n    \"Fresh strawberries, grapes, and fruit accompaniments\",\n    \"Orange juice in glass\",\n    \"Fork present on plate\"\n  ],\n  \"phone_observations\": [\n    \"Quiche slice clearly visible on yellow plate\",\n    \"Golden-brown baked top visible\",\n    \"Fork visible in thumbnail\",\n    \"Plate colour and setting match full image\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title 'Quiche (5)' provides no specific variant descriptor—no filling type, preparation method, regional variant, or ingredient qualifiers are named\",\n    \"Visible quiche appears to contain herbs and possibly cheese/egg, but exact fillings cannot be reliably identified visually\",\n    \"No animal protein explicitly named in source title or description\",\n    \"Generic numbering '(5)' suggests this is part of a series with no unique identity information\"\n  ],\n  \"reason\": \"Source title 'Quiche (5)' is insufficient for identity. It contains no specific variant name, filling descriptor, preparation style, or other qualifier that distinguishes this dish. The canonical_name requirement demands a specific dish phrase copied exactly from source; a generic numbered title does not meet that standard. Without explicit protein naming in the source and without sufficient variant descriptor, the dish cannot be reliably accepted despite good photograph and phone thumbnail quality.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1616,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 456,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
