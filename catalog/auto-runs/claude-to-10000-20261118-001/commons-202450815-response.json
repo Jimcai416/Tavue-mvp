@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDGvE2RPeUD3VvWsVD4J",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": true,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 3,\n    \"lighting\": 3,\n    \"composition\": 2,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Phone thumbnail shows only yellow-coloured prepared items and partial fruit display, heavily cropped to exclude any finished dish context\",\n    \"Thumbnail lacks readable essential components of any single complete dish\",\n    \"Foreground elements in thumbnail are unidentifiable prepared items, not a presentable finished food\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source metadata describes temple pilgrimage locations (Ashta dikku Temples, Girivalam, Thiruvannamalai), not a food dish\",\n    \"Full photograph shows street food stall with multiple prepared items (brown items in basin, fruit skewers, decorated items), but source title contains no food identity\",\n    \"No canonical dish name supplied in source; title references temples and pilgrimage route only\",\n    \"Brown items in basin and prepared yellow items lack clear identification from source\"\n  ],\n  \"reason\": \"Reject: Source metadata is a temple/pilgrimage photograph title with no food dish identification. Full image shows a street food stall but provides no dish name, description, or context. Phone thumbnail is heavily cropped and shows only partial prepared items without readable essential components or recognizable finished dish. Identity check fails—source does not declare a food dish. Quality and phone checks fail due to composition, lack of complete dish visibility, and thumbnail inadequacy. No protein evidence can be established from an unnamed photograph context.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1540,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 450,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
