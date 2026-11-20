@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDEe1fqQ5ka1xuDWFWf5",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [\n    \"Open-faced sandwich on toasted bread\",\n    \"White creamy spread (remoulade) with herbs\",\n    \"Purple onion slices\",\n    \"Fresh green parsley garnish\",\n    \"Red bell pepper strips\",\n    \"Seasoning spice dust\",\n    \"Sautéed potato/vegetable accompaniments on white plate\"\n  ],\n  \"phone_observations\": [\n    \"Sandwich clearly visible in thumbnail\",\n    \"Remoulade and toppings readable\",\n    \"Plate and presentation identifiable\",\n    \"Adequate detail for phone view\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title describes 'brawn jellied (Sülze)' - a meat aspic/terrine dish - but photograph shows an open-faced sandwich with remoulade, not a plated jellied brawn or aspic\",\n    \"No visible meat product, aspic, or brawn structure typical of Sülze in the sandwich\",\n    \"Photograph contradicts source description of the dish type\",\n    \"Identity mismatch between metadata (German jellied brawn) and visible prepared form (remoulade sandwich)\"\n  ],\n  \"reason\": \"Identity check fails. Source metadata describes a German jellied brawn (Sülze), but the photograph shows a remoulade-topped open sandwich with vegetables. These are fundamentally different dishes. The visible form does not match the declared identity. No protein species can be identified visually in the sandwich toppings. Source and photograph are in contradiction.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 2114,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 487,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
