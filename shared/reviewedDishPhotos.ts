@@ -152321,5 +152321,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 933,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-51140276",
+    "title": "File:Zeytinyağlı yeşil fasulye.jpg",
+    "author": "E4024",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Zeytinya%C4%9Fl%C4%B1_ye%C5%9Fil_fasulye.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/18/Zeytinya%C4%9Fl%C4%B1_ye%C5%9Fil_fasulye.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "dc7c2537f67e265c7f8b22899be2e6b3336b0825",
+    "name": "Zeytinyağlı yeşil fasulye",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-51140276.jpg",
+    "assetSha256": "22cc9d0bd3f50e2521c46dc527905545ad10645e0391d8b01bc3abe3acf37850",
+    "reviewedAt": "2026-11-20",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];
