@@ -157834,5 +157834,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-69288507",
+    "title": "File:Zarajo, tapa típica de Cuenca.jpg",
+    "author": "Malopez 21",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Zarajo,_tapa_t%C3%ADpica_de_Cuenca.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Zarajo%2C_tapa_t%C3%ADpica_de_Cuenca.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "646ec4a4a2e8d98bb7c01b6de3e0d653d3112e6c",
+    "name": "Zarajo, tapa típica de Cuenca",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-69288507.jpg",
+    "assetSha256": "65440c907ac539ce8e0c199df86a42028330f59004969c98b9841127abe0bdca",
+    "reviewedAt": "2026-11-20",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 640,
+    "requiresExactMenuName": true
   }
 ];

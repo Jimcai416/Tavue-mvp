@@ -12637,3 +12637,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 
 - **Canard à l'orange** — fabulousfabs. [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Canard_%C3%A0_l%27orange.jpg). Local asset: `reviewed-commons-34602545.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Magret de canard à l'orange** — Arnaud 25. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Canard_%C3%A0_l%27orange_01.jpg). Local asset: `reviewed-commons-97307701.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Zarajo, tapa típica de Cuenca** — Malopez 21. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Zarajo,_tapa_t%C3%ADpica_de_Cuenca.jpg). Local asset: `reviewed-commons-69288507.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
