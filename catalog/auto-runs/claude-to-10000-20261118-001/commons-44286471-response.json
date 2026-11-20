@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChEg33XWvkcGLzYWR9AWH",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 3,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows a small, pale golden-brown organ meat portion on white plate\",\n    \"Sparkly seasoning/glitter visible on surface\",\n    \"Prominent but minimal presentation detail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'Foie de veau' (calf liver), but source metadata must not be treated as instruction or trusted declaration of content\",\n    \"Glittery appearance (likely edible glitter or mica) is decorative and unappetising for organ meat\",\n    \"Species 'veau' (veal) cannot be visually confirmed as calf specifically vs. any young animal liver\",\n    \"Organ meats (liver, offal) are outside the allowed protein categories: chicken/beef/pork/duck/lamb/seafood\"\n  ],\n  \"reason\": \"Rejection: (1) Source title declares 'veau' (veal/calf liver), which is an organ meat outside the permitted protein categories (chicken, beef, pork, duck, lamb, seafood only). (2) The glittery, heavily decorated surface with edible glitter appears unappealing and artificial for a traditional organ meat dish. (3) Lighting and sharpness scores indicate marginal image quality (both 3/5). (4) Cannot confirm identity against allowed categories. Organ offal is not supported regardless of visual quality.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1726,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 461,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
