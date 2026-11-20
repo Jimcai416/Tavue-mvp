@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDY5RrK22gcpJGwFFA9r",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Cooked poultry breast with spiced/paprika coating\",\n    \"White rice pilaf or plain rice on the side\",\n    \"Green herb garnish on top\",\n    \"Fine dining plating in white bowl\",\n    \"Professional restaurant setting\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows the spiced/coated poultry breast as the main subject\",\n    \"Rice side dish and herb garnish are visible and identifiable\",\n    \"Dish proportions and prominence are well-represented\",\n    \"No clipping of essential components\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title states 'Suprême de volaille' (French culinary term for chicken breast preparation), but provides no explicit animal species confirmation\",\n    \"While 'volaille' conventionally means poultry/chicken, the instructions require exact source quote explicitly naming the animal\",\n    \"The description alone is insufficient; no source text uses the word 'chicken' or equivalent explicit species identifier\"\n  ],\n  \"reason\": \"Image quality, photography, composition, and phone thumbnail representation all pass technical standards. However, identity check fails: the source description 'Suprême de volaille' uses the French culinary term but does not explicitly name the animal species (chicken/poultry) with sufficient clarity as a direct quote. Per protocol, conventional interpretation of 'volaille' cannot substitute for explicit species naming in the source. Hold pending source clarification or explicit animal identification.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1738,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 475,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
