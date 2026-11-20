@@ -146913,5 +146913,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "height": 717,
     "requiresExactMenuName": true,
     "authorUrl": "https://www.flickr.com/people/66961498@N05"
+  },
+  {
+    "id": "commons-128100690",
+    "title": "File:Instant Chilli Pickle Recipe - Mirch Ke Tipore by Sonia Goyal.jpg",
+    "author": "Sonia Goyal Jaipur",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Instant_Chilli_Pickle_Recipe_-_Mirch_Ke_Tipore_by_Sonia_Goyal.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/26/Instant_Chilli_Pickle_Recipe_-_Mirch_Ke_Tipore_by_Sonia_Goyal.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "a4a9e409529313b748ac7dafcedf344567bb9537",
+    "name": "Instant Chilli Pickle Recipe - Mirch Ke Tipore",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-128100690.jpg",
+    "assetSha256": "28767aa6799b9b73704865087fa8d6c77d522ab29224e0e7004a24d2be104e33",
+    "reviewedAt": "2026-11-20",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];
