@@ -135931,5 +135931,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 936,
     "height": 960,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-44450327",
+    "title": "File:Quiche lorraine 01.JPG",
+    "author": "Arnaud 25",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Quiche_lorraine_01.JPG",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/34/Quiche_lorraine_01.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "467a9ab6eba4755efaa99be33c78d2f900da0245",
+    "name": "Quiche lorraine",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-44450327.jpg",
+    "assetSha256": "adf933af7236d7ed745dde872b5b2bba6ed33a32105c8532fb081e58890f23e2",
+    "reviewedAt": "2026-11-20",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];
