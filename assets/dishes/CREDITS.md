@@ -12813,3 +12813,10 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Velouté de Pommes de Terre, crème fraîche, caviar** — Lou Stejskal. [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Velout%C3%A9_de_Pommes_de_Terre,_cr%C3%A8me_fra%C3%AEche,_caviar.jpg). Local asset: `reviewed-commons-95919440.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Costrada** — José Antonio Carpente. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Costrada22.jpg). Local asset: `reviewed-commons-16837550.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Espinacas gratinadas** — [Heather Cowper  from Bristol, UK](https://www.flickr.com/people/22446827@N02). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Espinacas_gratinadas.jpg). Local asset: `reviewed-commons-9946974.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Argentine Russian Salad (Ensalada Rusa)** — Horacio Cambeiro. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Close-up_of_Argentine_Russian_Salad_(Ensalada_Rusa).jpg). Local asset: `reviewed-commons-197523074.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Ensalada Rusa (hecha en Argentina)** — Horacio Cambeiro. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Ensalada_Rusa_(con_estilo_argentino).jpg). Local asset: `reviewed-commons-170454138.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
