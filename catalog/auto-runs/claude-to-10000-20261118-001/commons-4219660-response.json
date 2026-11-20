@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDCQfkBfQandkAsbSRex",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Three small bowls of prepared Korean banchan components\",\n    \"Left bowl: dark red beans (kongjaban)\",\n    \"Top left bowl: bright red-orange shredded kimchi\",\n    \"Right bowl: amber/reddish translucent shredded squid (ojingeochae bokkeum)\",\n    \"Natural lighting, sharp detail, appetising presentation\"\n  ],\n  \"phone_observations\": [\n    \"Three bowls clearly visible in thumbnail\",\n    \"Red-orange shredded vegetable (kimchi) prominent\",\n    \"Dark red beans distinguishable left\",\n    \"Amber shredded component (squid) on right\",\n    \"Adequate resolution to identify dish components\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title lists 'ojingeochae bokkeum' (squid) but squid is not an allowed protein category (only chicken/beef/pork/duck/lamb/seafood accepted, and squid falls under seafood but requires explicit source confirmation of 'seafood' naming, not species name alone)\",\n    \"Image shows multiple distinct banchan components, not a single finished dish—this is a preparation or ingredient display rather than a plated, served dish\"\n  ],\n  \"reason\": \"Reject: Identity check fails. The source describes this as banchan (Korean side dish assortment/ingredients), specifically listing multiple distinct components (kimchi, squid, beans) rather than a single finished, exposed, served dish. While photograph and phone quality are strong and components are sharp and appetising, the subject is a multi-component ingredient or preparation display, not a completed plated dish. Additionally, ojingeochae (squid) cannot be confirmed as 'seafood' using only the species name in the source; the source does not explicitly state 'seafood' as the protein category. Banchan as a category of side dishes or ingredient components does not meet the criterion of a finished, exposed, likely photographic dish suitable for Tavue review.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1652,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 590,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

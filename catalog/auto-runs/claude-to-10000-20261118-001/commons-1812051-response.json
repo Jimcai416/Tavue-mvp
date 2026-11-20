@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDCQfmv8K3THZpAby87k",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 3,\n    \"lighting\": 3,\n    \"composition\": 2,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Phone thumbnail shows storefront signage only, no food visible\",\n    \"Cannot identify any dish in the thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"No actual dish photograph present in either source or phone images\",\n    \"Source shows only a street-level storefront neon sign for a ramen restaurant\",\n    \"No finished, exposed, plated food visible in full photograph\",\n    \"Phone thumbnail is entirely exterior signage/storefront\"\n  ],\n  \"reason\": \"Rejection: The source photograph is an exterior storefront sign for a ramen restaurant (Ramen Yokocho in Sapporo), not a dish photograph. No finished food is visible, exposed, plated or identifiable in either the full image or phone thumbnail. The thumbnail contains only storefront signage with no food subject. This fails the core requirement of a finished, photographic dish with sharp detail and appetising presentation. Category/query name alone is not evidence of a photographed dish.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1478,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 365,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
