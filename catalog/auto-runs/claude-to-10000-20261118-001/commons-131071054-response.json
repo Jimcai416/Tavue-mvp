@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChE5iDb1GSg3k4frjsnTH",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 3,\n    \"lighting\": 3,\n    \"composition\": 2,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Phone thumbnail shows ingredient diagram, not finished dish photo\",\n    \"Central dish element is a diagram graphic, not a photograph\",\n    \"Ingredients labels and illustrations dominate the frame\",\n    \"No clear appetising finished food presentation in thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Image is explicitly labelled as an ingredients diagram ('created on the basis of free images'), not a dish photograph\",\n    \"Contains illustrated/graphic elements and ingredient callouts, not food photography\",\n    \"Watermark and metadata text overlay present\",\n    \"Source title references 'ingredients', not a finished dish\"\n  ],\n  \"reason\": \"Reject: This is an ingredients diagram/infographic, not a photograph of a finished dish. The source description explicitly states 'The visual was created on the basis of free images' and the file title is 'Tirokafteri ingredients.png', indicating it is a composite illustration of ingredients with labels and decorative elements, not a photographic food image. The image contains watermarks, illustrated components, and ingredient callouts rather than a naturally photographed, exposed dish suitable for food intake review. Both full image and phone thumbnail confirm this is instructional/recipe graphic content, not food photography.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1803,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 416,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
