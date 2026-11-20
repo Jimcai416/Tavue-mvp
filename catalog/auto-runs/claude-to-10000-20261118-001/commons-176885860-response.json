@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChEXquPtFekBLjvTF2CBu",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 5,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Churro clearly visible and identifiable in thumbnail\",\n    \"Golden-brown colour and sugar coating evident\",\n    \"Characteristic elongated shape with ridged texture\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source metadata indicates this is a file/illustration (File: prefix, PNG format, author attribution style) rather than an original food photograph\",\n    \"Description says 'Close-up image' but metadata structure suggests Wikimedia Commons upload rather than original photograph\"\n  ],\n  \"reason\": \"Reject: The source file metadata (File: prefix, .png extension, author 'Leo219', CC BY-SA 4.0 license attribution structure) indicates this is a processed or stock image file from Wikimedia Commons rather than an original photograph. While the image quality is high and the churro is clearly identifiable and appetising, Tavue's protocol requires original photographs of finished dishes. The file naming and licensing metadata pattern strongly suggests this is not a primary source photograph but a catalogued/republished image. Additionally, no title or description beyond the generic 'A piece of churro on white background' was provided to establish a canonical dish name.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1730,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 402,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

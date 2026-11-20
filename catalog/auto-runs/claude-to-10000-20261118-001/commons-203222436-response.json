@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChEXrJ3ejV3sQwMpFAdZw",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 3,\n    \"lighting\": 3,\n    \"composition\": 2,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows interior café/restaurant seating area with Bentwood chairs\",\n    \"No finished dish visible in phone thumbnail\",\n    \"Counter service operation visible but no food subject present\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"No food dish present in either source or thumbnail photograph\",\n    \"Image is a venue/location photograph, not a food photograph\",\n    \"Title references 'San Churro Mandurah' establishment but no churros or finished food visible\"\n  ],\n  \"reason\": \"Rejection: This is a venue interior photograph showing a café/restaurant seating area and counter, not a finished, exposed food photograph. No dish is visible, prominent, or photographed with detail in either the full source or phone thumbnail. The identity check fails because while the location title is provided, no actual food item is present to review. All quality, photograph, phone and variant checks fail due to absence of a food subject. This does not meet the core requirement of reviewing a finished, exposed, appetising dish.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1490,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 372,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
