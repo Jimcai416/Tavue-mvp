@@ -11056,3 +11056,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 
 - **Pan-fried halloumi, seasoned portobello mushrooms, rocket, caramelized onions, joe's chilli mango sauce** — Andy Li. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Fancy_Veggie_Burger_and_Fries_-_Joe%27s_Burger_House_2024-07-07.jpg). Local asset: `reviewed-commons-150125524.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Spicy & Smoky Halloumi Sandwich** — Andy Li. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Spicy_%26_Smoky_Halloumi_Sandwich_-_T_@_The_Dials_2025-04-12.jpg). Local asset: `reviewed-commons-163494285.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Pimientos del piquillo rellenos** — [Juan Mejuto](https://www.flickr.com/people/14058263@N06). [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:Pimientos_del_piquillo_rellenos_en_cazuela.jpg). Local asset: `reviewed-commons-9999946.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.

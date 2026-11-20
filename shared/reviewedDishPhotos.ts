@@ -140570,5 +140570,28 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 723,
     "height": 960,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-9999946",
+    "title": "File:Pimientos del piquillo rellenos en cazuela.jpg",
+    "author": "Juan Mejuto",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pimientos_del_piquillo_rellenos_en_cazuela.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Pimientos_del_piquillo_rellenos_en_cazuela.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "05a7adee1bebb4d727248516087de37a6f9b21d7",
+    "name": "Pimientos del piquillo rellenos",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-9999946.jpg",
+    "assetSha256": "7b488343bc5fff3645fd73db18374475bfff1c4e4d2b7acb8abbc3a029e7fff2",
+    "reviewedAt": "2026-11-20",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true,
+    "authorUrl": "https://www.flickr.com/people/14058263@N06"
   }
 ];
