@@ -135909,5 +135909,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-53984987",
+    "title": "File:Rechta.png",
+    "author": "Ms10vc",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rechta.png",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Rechta.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "90277201fec127a8108d2a38501e98b4586f8858",
+    "name": "Rechta",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-53984987.jpg",
+    "assetSha256": "a46d0e8705295c96168965af1c91c88b2ccc29c45749dcd2004b17dd7b636803",
+    "reviewedAt": "2026-11-20",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 936,
+    "height": 960,
+    "requiresExactMenuName": true
   }
 ];
