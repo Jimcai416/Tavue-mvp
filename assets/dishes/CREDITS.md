@@ -11309,3 +11309,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 
 - **Jajka sadzone z ziemniakami i kompot** — Aw58. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Jajka_sadzone_z_ziemniakami_i_kompot_-_2024.0814.jpg). Local asset: `reviewed-commons-151637010.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Kompot z jablek a kdoulí** — Dezidor. [CC BY 3.0](https://creativecommons.org/licenses/by/3.0); [source](https://commons.wikimedia.org/wiki/File:Kompot_z_jablek_a_kdoul%C3%AD.jpg). Local asset: `reviewed-commons-8902549.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Mộc nhĩ xào miến chay** — Phương Huy  ( thảo luận ). [Public domain](https://creativecommons.org/publicdomain/mark/1.0/); [source](https://commons.wikimedia.org/wiki/File:M%E1%BB%99c_nh%C4%A9_x%C3%A0o_mi%E1%BA%BFn_chay,_t%E1%BA%A5t_ni%C3%AAn_nh%C3%A0_m%E1%BB%87,_T%E1%BA%BFt_2018_(3).jpg). Local asset: `reviewed-commons-89847195.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.

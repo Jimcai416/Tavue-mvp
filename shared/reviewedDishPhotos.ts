@@ -143114,5 +143114,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-89847195",
+    "title": "File:Mộc nhĩ xào miến chay, tất niên nhà mệ, Tết 2018 (3).jpg",
+    "author": "Phương Huy  ( thảo luận )",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:M%E1%BB%99c_nh%C4%A9_x%C3%A0o_mi%E1%BA%BFn_chay,_t%E1%BA%A5t_ni%C3%AAn_nh%C3%A0_m%E1%BB%87,_T%E1%BA%BFt_2018_(3).jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5a/M%E1%BB%99c_nh%C4%A9_x%C3%A0o_mi%E1%BA%BFn_chay%2C_t%E1%BA%A5t_ni%C3%AAn_nh%C3%A0_m%E1%BB%87%2C_T%E1%BA%BFt_2018_%283%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "e3a64f2f07719e0d4295442a1a419f80fee20d0a",
+    "name": "Mộc nhĩ xào miến chay",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-89847195.jpg",
+    "assetSha256": "54740e28ed44152b8eea49c1003b0c9ae793fdf7129c4cf8cd856e86fd179f8b",
+    "reviewedAt": "2026-11-20",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 764,
+    "requiresExactMenuName": true
   }
 ];
