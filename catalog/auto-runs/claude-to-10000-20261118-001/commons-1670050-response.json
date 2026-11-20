@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChEC45pheZDGUktyzBHNJ",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 3,\n    \"composition\": 3,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows a dish in a bowl with crispy noodles on top and broth visible\",\n    \"Bowl is positioned left-centre, clearly visible but soft focus overall\",\n    \"Sparse garnish and toppings; broth colour pale yellow-green\",\n    \"Hand with utensil visible at top; cooking griddle and second bowl in background\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title metadata is 'File:Monjayaki-2006-06-25.jpg' — a filename, not a dish description\",\n    \"Description text 'Makeing Monjayaki. In Machiya, Arakawa, Tokyo M.' contains a spelling error ('Makeing') and is fragmented\",\n    \"Visual content appears to show noodles in broth, not the typical okonomiyaki/monjayaki pancake form\",\n    \"Dish identity cannot be reliably confirmed from metadata alone; visible form does not clearly match standard monjayaki presentation\"\n  ],\n  \"reason\": \"Source metadata is unreliable: title is a filename, description is fragmented and misspelled. The visible dish—noodles and broth in a bowl—does not clearly match a finished monjayaki presentation. No readable, unambiguous canonical name can be extracted from the supplied source. Identity check fails. All acceptance criteria require specific, non-contradictory source evidence; this case lacks it.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1750,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 472,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

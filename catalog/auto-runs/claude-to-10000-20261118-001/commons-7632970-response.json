@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChEC3hN5ZTbTGg4kENwvJ",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 2,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Person dominates the phone thumbnail; food plate is peripheral and severely reduced\",\n    \"Individual food items not distinguishable at phone resolution\",\n    \"Essential dish components clipped and unreadable in thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title lists three dishes (Bansh, Buuz, Chuuschuur) but source description is unclear and possibly contains a typo ('Buuz and Chuuschuur' vs 'Khuushuur')\",\n    \"Multiple dishes on one plate creates ambiguous identity\",\n    \"No explicit protein declarations in source metadata\"\n  ],\n  \"reason\": \"Rejection: The photograph fails the phone thumbnail requirement. The 124x96 centre-cover thumbnail is dominated by a uniformed server, with the food plate occupying only a small peripheral area. Essential food components are not readable, identifiable, or prominent in the thumbnail—the primary subject is a person, not the dish. Additionally, the source title/description lists multiple dishes without clear singular identity, and contains apparent spelling inconsistencies (Chuuschuur vs Khuushuur). The full-image shows a service presentation rather than a food-focused composition suitable for Tavue's purposes.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1739,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 421,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
