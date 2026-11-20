@@ -136625,5 +136625,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 959,
     "height": 960,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-101946365",
+    "title": "File:Kunafa-Kanafeh.jpg",
+    "author": "Dr. Chinchu C.",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kunafa-Kanafeh.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/df/Kunafa-Kanafeh.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "67714c4011e5861fe22e5d7575521719b2dd70a6",
+    "name": "Kunafa/Kanafeh in Kerala",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-101946365.jpg",
+    "assetSha256": "af4c8d4bb702e971cd2c720e6fe985e0d41a68452ec822d64fcdf9baa5537226",
+    "reviewedAt": "2026-11-20",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 960,
+    "requiresExactMenuName": true
   }
 ];
