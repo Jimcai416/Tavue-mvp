@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChEvDzXNxCC6hhaee2ThQ",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [\n    \"Raw legumes (peanuts or groundnuts) held in hand\",\n    \"Bulk storage container visible in background\",\n    \"Outdoor/street setting\",\n    \"Uniform tan/brown colour and size\",\n    \"Uncooked, whole legumes\"\n  ],\n  \"phone_observations\": [\n    \"Raw legumes clearly visible in palm\",\n    \"No plating, preparation or cooking visible\",\n    \"Subject is ingredient/commodity, not a finished dish\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title 'Velouté solom' does not match visible content (a soup name does not describe raw legumes in a hand)\",\n    \"No finished dish visible—this is a raw ingredient or commodity display\",\n    \"Species ambiguity: legumes appear to be groundnuts/peanuts but exact type not definitively identifiable from appearance alone\"\n  ],\n  \"reason\": \"Rejection: Image shows raw, uncooked legumes held in a hand during a commodity/ingredient display, not a finished, exposed, cooked dish. Source title 'Velouté solom' (a soup) contradicts the visible form of whole raw legumes. Identity mismatch and preparation stage (raw ingredient, not plated food) violate acceptance criteria. No finished dish is evident in full image or phone thumbnail.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1734,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 444,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

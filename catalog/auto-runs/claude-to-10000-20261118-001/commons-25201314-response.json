@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChEvEK1cwDpmVWZTHrJxk",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Plated dish with seared meat morsels and garnish visible on white plate\",\n    \"Cream-based sauce in verrine jar with spoon\",\n    \"Lemon slices and microgreens as plating elements\",\n    \"Professional restaurant setting with wine, bread, flowers, and table service\"\n  ],\n  \"phone_observations\": [\n    \"Plated meat and garnish clearly visible in phone thumbnail\",\n    \"Verrine jar with pale cream sauce readable\",\n    \"Orange strainer and service elements present\",\n    \"Overall composition and dish prominence adequate for phone review\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title declares 'grenouille de Vallorbe' (Vallorbe frog). Frog is not an allowed protein category (only chicken/beef/pork/duck/lamb/seafood accepted). Cannot verify or accept this claim visually.\",\n    \"Seared meat on plate could visually be small beef pieces, but source naming frog creates irresolvable conflict with allowed protein list.\",\n    \"Ravioles de morilles (morel ravioli) are pasta, not a protein; morels are mushrooms, not in the allowed category.\",\n    \"No evidence in image or title of any chicken, beef, pork, duck, lamb or seafood.\"\n  ],\n  \"reason\": \"Source title declares a dish containing frog (grenouille), which is not an allowed protein category for Tavue review (only chicken/beef/pork/duck/lamb/seafood). The visible plated meat cannot be definitively identified as an allowed species, and the source description contains no explicit naming of any allowed protein. Identity cannot be confirmed as matching Tavue's protein scope. Hold pending clarification or alternative dish submission.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1657,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 540,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
