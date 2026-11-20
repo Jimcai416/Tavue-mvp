@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDyD654S6yQ94DEKJZYF",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Diced/chunked roasted potatoes with browned edges\",\n    \"Visible meat pieces (stated as roast beef)\",\n    \"Herb garnish (parsley/chives visible)\",\n    \"Bay leaves visible among ingredients\",\n    \"Served on white plate with blue border decoration\",\n    \"Full plated dish in restaurant setting\"\n  ],\n  \"phone_observations\": [\n    \"Dish clearly visible and prominent in thumbnail\",\n    \"Golden-brown potatoes and meat distinguishable\",\n    \"Plate decoration readable\",\n    \"Adequate detail for dish identification\"\n  ],\n  \"protein_evidence\": {\n    \"beef\": \"roast beef\"\n  },\n  \"uncertainties\": [\n    \"Source title lists 'bacon' in description but no pork protein category exists in allowed list (chicken/beef/pork/duck/lamb/seafood). The description states 'with bacon, onion, roast beef' — bacon is identifiable pork but cannot be formally captured without 'pork' as an independent key with exact substring match from title/description. The title 'Tiroler Gröstl' does not explicitly name pork/bacon.\",\n    \"Beef is clearly stated ('roast beef'), but bacon presence creates ambiguity about whether to hold pending explicit pork designation in title or accept beef only.\"\n  ],\n  \"reason\": \"Image quality, composition, sharpness, lighting and appeal all meet thresholds (≥4). Dish identity matches source title 'Tiroler Gröstl' and visible form (fried potatoes with meat and herbs in Tirolean style). Full image and phone thumbnail both show finished, exposed, appetising dish with readable components. However, source description names both 'bacon' and 'roast beef' as protein components. Beef ('roast beef') is explicitly stated and supported. Bacon (pork) is named in description but the canonical title 'Tiroler Gröstl' does not explicitly include a pork qualifier, and 'bacon' alone is not an allowed protein_evidence key. This creates a source contradiction: the description lists pork but the formal title does not preserve it, violating the preservation rule. Hold pending clarification of whether the source title or description governs protein identity, and whether pork should be included despite absence from formal title.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1597,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 664,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
