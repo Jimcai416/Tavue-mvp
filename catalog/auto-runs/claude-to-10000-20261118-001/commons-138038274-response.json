@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChEdcRecQ9uXFDFJNdCX5",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [\n    \"Bowl of dark reddish-brown liquid with visible solid components (peanuts or similar)\",\n    \"Fresh leafy greens in basket and on plate\",\n    \"Cooked meat item with crispy exterior in white bowl\",\n    \"Street food or home cooking context with casual presentation\"\n  ],\n  \"phone_observations\": [\n    \"Central bowl of dark sauce/condiment clearly visible\",\n    \"Cooked protein portion visible below\",\n    \"Natural lighting, adequate detail for identification attempt\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title references 'mắm nêm' (Vietnamese fermented shrimp/fish paste condiment) but source does not explicitly name the cooked protein species\",\n    \"The cooked meat item is partially visible but its exact species cannot be determined from visual appearance alone\",\n    \"Description 'Cuisine of Vietnam' is categorical, not a specific dish name\",\n    \"No explicit protein species declaration in title or description\"\n  ],\n  \"reason\": \"Identity check fails. The source provides only a generic categorical description ('Cuisine of Vietnam') and a condiment reference ('mắm nêm') without naming the specific finished dish or explicitly identifying the protein species visible in the bowl. The cooked protein's species cannot be determined from appearance alone. Per protocol, ambiguous or unspecified meat species and source contradictions between title and visible content require hold. The title does not constitute a canonical dish name that matches the full image content.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1746,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 468,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
