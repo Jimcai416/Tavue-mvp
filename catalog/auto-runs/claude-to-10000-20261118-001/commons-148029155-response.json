@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChECb3URbB3smNTe9hZCG",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Cooked meat cubes on wooden skewers, clearly grilled\",\n    \"Red and yellow bell pepper pieces alternating on skewers\",\n    \"White rice visible in background\",\n    \"Natural lighting, appetising presentation\",\n    \"Multiple complete skewers on light blue plate\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows kebab skewers with meat and peppers\",\n    \"Bright colours visible at reduced resolution\",\n    \"Complete skewers readable in phone view\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title 'Family Kebab Night skewers on a plate' is generic marketing language and does not name the specific dish type (e.g. shish kebab, beef kebab, chicken kebab)\",\n    \"Meat species cannot be determined from visual appearance alone; no source text explicitly names the animal (beef/chicken/lamb/pork)\",\n    \"No explicit canonical dish name provided in source metadata\"\n  ],\n  \"reason\": \"Reject: Identity check fails. The source title 'Family Kebab Night skewers on a plate' is a generic event descriptor, not a specific dish name. No explicit animal protein is named in the title or description. Visual appearance alone cannot determine whether the meat is beef, lamb, chicken, or pork, and no source text names the protein. Canonical_name cannot be reliably established without ambiguity. Per rules, unknown or unspecified meat species requires hold or rejection when source identity is unclear.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1621,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 480,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
