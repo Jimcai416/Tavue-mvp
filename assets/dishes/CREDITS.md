@@ -12653,3 +12653,10 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **rijsttafel** — Milliped. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Rijsttafel-OKT2020-1.jpg). Local asset: `reviewed-commons-97302437.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Arroz meloso con verduras** — Juan Emilio Prades Bel. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Arroz_meloso_con_verduras_(Comunidad_Valenciana,_Espa%C3%B1a).jpg). Local asset: `reviewed-commons-189636558.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Arroz meloso con verduras (España)** — Juan Emilio Prades Bel. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Arroz_meloso_con_verduras_(Espa%C3%B1a).jpg). Local asset: `reviewed-commons-189636029.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Plato de arroz meloso con verduras** — Juan Emilio Prades Bel. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Plato_de_arroz_meloso_con_verduras_(Comunidad_Valenciana,_Espa%C3%B1a).jpg). Local asset: `reviewed-commons-189636332.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Arroz meloso** — StellarD. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Restaurante_Casa_Baina_-_arroz_meloso.jpg). Local asset: `reviewed-commons-79599166.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
