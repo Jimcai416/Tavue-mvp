@@ -145131,5 +145131,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-2230073",
+    "title": "File:Hortobagy palacsinta.JPG",
+    "author": "I,  Themightyquill",
+    "license": "CC BY 2.5",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hortobagy_palacsinta.JPG",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/97/Hortobagy_palacsinta.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "7833777fb70787407e2a362233cd2839dd0eb15b",
+    "name": "Hortobágyi palacsinta",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-2230073.jpg",
+    "assetSha256": "d6797b96ed7428dd2674b1b8c637d81e497011f9126e94cca8e0e337080f7580",
+    "reviewedAt": "2026-11-20",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 640,
+    "requiresExactMenuName": true
   }
 ];
