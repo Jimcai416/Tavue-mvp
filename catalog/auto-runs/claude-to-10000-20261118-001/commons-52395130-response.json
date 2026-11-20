@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChEUjYtL47Wk2BBtTP3eX",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": \"\\\"tost\\\" made not with the classical toast bread but with a special flatbread, called \\\"bazlama\\\". Therefore I named the pick \\\"Bazlama tostu\\\". The ingredients are \\\"kaşar\\\" cheese and \\\"kavurma\\\"\",\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 3,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Toasted flatbread sandwich with melted cheese visible\",\n    \"Fresh vegetable salad with tomato, cucumber, carrot, greens\",\n    \"Waffle-cut fried potatoes as side\",\n    \"White plate presentation\",\n    \"Golden-brown toasted surface on bread\"\n  ],\n  \"phone_observations\": [\n    \"Sandwich prominently visible in centre-cover thumbnail\",\n    \"Cheese and bread detail readable\",\n    \"Salad and fries visible at edges\",\n    \"Adequate sharpness for thumbnail review\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Kavurma is claimed as ingredient but not visibly identifiable in photograph; source states 'we cannot appreciate this ingredient at the pic'\",\n    \"Kaşar cheese is claimed but cannot be definitively confirmed as the melted cheese visible in toasted surface\",\n    \"No explicit animal species named for kavurma (traditional Turkish meat preparation; species ambiguous)\",\n    \"Source metadata title/description inconsistency: file named 'Bazlama tostu.jpg' but canonical form unclear\"\n  ],\n  \"reason\": \"Hold: Protein identity unconfirmed. Kavurma is declared as an ingredient but explicitly unvisible in the photograph per source; its animal species is not specified in the source description. Kaşar cheese presence cannot be visually confirmed with certainty. The dish form (Bazlama tostu) is identifiable and photograph quality is adequate, but protein_evidence cannot be populated with explicit, visually supported or unambiguously named animal sources required by policy. Visible support exists for bread, cheese, vegetables, and fries, but hidden/unspecified protein components prevent acceptance.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1891,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 584,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

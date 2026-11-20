@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChEUjefLKP6JqvcNUWM8t",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Shredded meat on flatbread visible in both full and thumbnail images\",\n    \"Green pepper slices as garnish\",\n    \"Salad with shredded carrot and greens in background\",\n    \"Ayran bottle with Turkish branding clearly visible\",\n    \"Water glass\",\n    \"White plate and table setup\"\n  ],\n  \"phone_observations\": [\n    \"Meat and pepper prominent and sharp in thumbnail centre\",\n    \"Flatbread base clearly visible beneath meat\",\n    \"Salad bowl visible in background of thumbnail\",\n    \"Composition readable and appetising at reduced size\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Döner meat species cannot be visually confirmed from photograph; source title states 'Döner' but does not explicitly declare the animal type\",\n    \"Döner traditionally may contain lamb, beef, or mixed meat; visual appearance alone does not confirm which species\"\n  ],\n  \"reason\": \"Image quality, composition, and photograph authenticity are strong (all ≥4). Phone thumbnail is clear and readable. However, identity check fails because the source title 'Döner on a bazlama' does not include an explicit animal species declaration. The instructions require exact source quote evidence naming each animal protein—tradition or appearance cannot substitute. Döner commonly refers to lamb, beef, or mixed preparations, but without explicit species naming in the source, the protein cannot be reliably documented. Hold pending source clarification of meat type.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1747,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 473,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
