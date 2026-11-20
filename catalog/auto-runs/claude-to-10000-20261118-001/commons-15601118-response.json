@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChE4rzMf6uQF4xBfams43",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 5,\n    \"composition\": 5,\n    \"appeal\": 5\n  },\n  \"visible_support\": [\n    \"Golden-yellow cooked omelette, clearly folded\",\n    \"Fresh tomato slice with parsley garnish\",\n    \"Sharp detail on textured egg surface\",\n    \"Natural colours, well-lit professional presentation\",\n    \"Phone thumbnail clearly shows main dish and garnish\"\n  ],\n  \"phone_observations\": [\n    \"Omelette shape and colour fully visible\",\n    \"Garnish visible in thumbnail\",\n    \"Bright, appetising appearance maintained\",\n    \"Dish is prominent and sharp\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title is generic ('An omelette') with no variant descriptor\",\n    \"No specific filling or preparation style identified in source\",\n    \"No protein type explicitly declared in source description\",\n    \"Possible fillings (cheese, ham, vegetables) cannot be visually confirmed as internal components\"\n  ],\n  \"reason\": \"Reject: Source provides only generic title 'An omelette' without meaningful variant information (filling type, preparation style, or specific regional name). While the photograph is high-quality and appetising, the identity check fails because the canonical name cannot be specific enough—the description does not declare what is inside the omelette, and internal ingredients cannot be reliably inferred from external appearance alone. Per guidelines, unknown or undeclared variants require hold/reject. The generic metadata is insufficient to establish a specific dish identity.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1964,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 453,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
