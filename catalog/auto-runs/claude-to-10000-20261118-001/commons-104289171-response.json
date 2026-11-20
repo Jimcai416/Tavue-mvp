@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDPUjNcRk8Xas9V1DV7t",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [\n    \"Finished savoury dish in aluminium container\",\n    \"Shredded cheese topping clearly visible in both full and thumbnail\",\n    \"Brown crepe or pastry base visible beneath cheese\",\n    \"Natural daylight photography\",\n    \"Prominent subject appropriate for phone review\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows wrapped/rolled items with cheese topping\",\n    \"Essential components readable: filled rolls and shredded cheese\",\n    \"No clipping of critical food elements\",\n    \"Adequate contrast and definition in thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source metadata lists only 'Ficelle picarde' without explicit protein identification\",\n    \"Ficelle picarde traditionally contains ham and mushrooms, but no source text explicitly names 'ham', 'pork', 'chicken' or other allowed protein category\",\n    \"Visual inspection shows brown pastry and cheese but cannot definitively identify hidden filling species from appearance alone\",\n    \"No explicit protein quote available in title or description\"\n  ],\n  \"reason\": \"Identity check fails: although the dish appears to be ficelle picarde (a filled crepe/pastry roll), the source description provides no explicit statement of protein content. The rule requires exact source quotes naming each animal protein, never inference from tradition or appearance. While ham and mushrooms are canonical, the metadata does not state this. The image quality and composition are acceptable (scores 3–4), but absence of explicit protein naming in source documentation triggers hold on identity verification. This is not a photograph quality issue but a source documentation deficiency.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1653,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 495,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
