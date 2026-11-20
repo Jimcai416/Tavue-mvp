@@ -12854,3 +12854,9 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 
 - **Yorkshire pudding filled with mashed potato, beef, gravy and vegetables** — Mr Barndoor. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:YorkshirePudding.jpg). Local asset: `reviewed-commons-37742687.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Yorkshire Pudding** — [stef yau  from Seattle, USA](https://www.flickr.com/people/49502976207@N01). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Yorkshire_Pudding.jpg). Local asset: `reviewed-commons-2555511.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Brandade de morue** — Véronique PAGNIER. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Brandade_de_morue.JPG). Local asset: `reviewed-commons-12641434.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Brandade de morue et pomme de terre** — Marianne Casamance. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Brandade_de_morue_au_pommes_de_terre_2.JPG). Local asset: `reviewed-commons-39767521.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Lasagne de brandade** — Véronique PAGNIER. [Public domain](https://creativecommons.org/publicdomain/mark/1.0/); [source](https://commons.wikimedia.org/wiki/File:Lasagne_de_brandade.JPG). Local asset: `reviewed-commons-11142567.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
