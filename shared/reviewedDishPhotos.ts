@@ -145153,5 +145153,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 640,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-163318194",
+    "title": "File:Bouyiourdi.jpg",
+    "author": "Dianeira",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bouyiourdi.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/88/Bouyiourdi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "7ed0722f6ff4b3cda1f4670ddfdc30c4d4c03133",
+    "name": "Bouyiourdi",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-163318194.jpg",
+    "assetSha256": "0f6b2df98e19e779c369916ca69d5d373b2a8f3b8049307303702219dec370fa",
+    "reviewedAt": "2026-11-20",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];

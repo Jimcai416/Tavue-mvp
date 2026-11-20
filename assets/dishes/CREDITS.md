@@ -11490,3 +11490,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Hortobágyi palacsinta** — I,  Themightyquill. [CC BY 2.5](https://creativecommons.org/licenses/by/2.5); [source](https://commons.wikimedia.org/wiki/File:Hortobagy_palacsinta.JPG). Local asset: `reviewed-commons-2230073.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Bouyiourdi** — Dianeira. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Bouyiourdi.jpg). Local asset: `reviewed-commons-163318194.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
