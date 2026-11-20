@@ -150572,5 +150572,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 640,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-146731685",
+    "title": "File:Pesto with focaccia 05.jpg",
+    "author": "Superchilum",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pesto_with_focaccia_05.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Pesto_with_focaccia_05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "006d7e91867afe484ecfd2c5130c3f0d6357f08a",
+    "name": "Pesto with focaccia",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-146731685.jpg",
+    "assetSha256": "eef16100f38f27894a0885dd2b2a2395b5e877841fe769013c4406c3556a2057",
+    "reviewedAt": "2026-11-20",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];
