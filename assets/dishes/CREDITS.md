@@ -11039,3 +11039,10 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Pico de Gallo** — [jeffreyw](https://www.flickr.com/people/7927684@N03). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Mmm..._Pico_de_Gallo_(5923456035).jpg). Local asset: `reviewed-commons-23120511.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **gougères et olives en guise d'amuse-bouche** — [Benoît Prieur](https://www.wikidata.org/wiki/Q42790984). [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Bistrot_du_Bord_de_l%27Eau_(Levernois)_-_goug%C3%A8res_et_olives_en_guise_d%27amuse-bouche.jpg). Local asset: `reviewed-commons-85234541.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Des gougères en apéritif** — [Benoît Prieur](https://www.wikidata.org/wiki/Q42790984). [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Des_goug%C3%A8res_en_ap%C3%A9ritif_-_restaurant_Place_Bernard_(f%C3%A9vrier_2023).jpg). Local asset: `reviewed-commons-128689105.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Chicken consommé** — E4024. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Chicken_consomm%C3%A9.jpg). Local asset: `reviewed-commons-53380610.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Gougère** — [Jules Morgan  from Montreal, Canada](https://www.flickr.com/people/66419320@N00). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Goug%C3%A8re_(6253068918).jpg). Local asset: `reviewed-commons-23086337.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
