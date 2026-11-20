@@ -12769,3 +12769,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 - **Chocolate Eclairs** — [Willis Lam](https://www.flickr.com/people/85567416@N03). [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:Two_Safeway_Chocolate_Eclairs_(19043880936).jpg). Local asset: `reviewed-commons-78706840.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Éclairs à la pistache** — Thomon. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:%C3%89clairs_%C3%A0_la_pistache.jpg). Local asset: `reviewed-commons-87714697.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **vichyssoise** — stu_spivack. [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:Vichyssoise_-_Citronelle.jpg). Local asset: `reviewed-commons-186041584.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Spaghetti ai frutti di mare** — Auregann. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Spaghetti_ai_frutti_di_mare.jpg). Local asset: `reviewed-commons-153795259.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.

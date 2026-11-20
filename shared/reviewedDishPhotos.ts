@@ -159392,5 +159392,29 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-153795259",
+    "title": "File:Spaghetti ai frutti di mare.jpg",
+    "author": "Auregann",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Spaghetti_ai_frutti_di_mare.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/91/Spaghetti_ai_frutti_di_mare.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "921f628ab8a48170cc4f2ed184dd450e86dc0920",
+    "name": "Spaghetti ai frutti di mare",
+    "aliases": [],
+    "proteins": [
+      "seafood"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-153795259.jpg",
+    "assetSha256": "2544197e52eb556c44d4f52ed050f2274253ac7eab4d3ddeeaf885edeef1aff0",
+    "reviewedAt": "2026-11-20",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 721,
+    "requiresExactMenuName": true
   }
 ];
