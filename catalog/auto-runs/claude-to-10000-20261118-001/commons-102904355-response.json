@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChEEQWYHBatRc3E1DfJ8L",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Bright yellow rice with cashews and raisins visible\",\n    \"Spiced/saffron-coloured rice in metal bowl\",\n    \"Cashew nuts and dried fruit clearly present\",\n    \"Even plating, well-lit, natural colours\"\n  ],\n  \"phone_observations\": [\n    \"Yellow rice dish clearly readable in thumbnail\",\n    \"Cashews and raisins distinguishable at 124x96 scale\",\n    \"Bowl shape and contents prominent\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title describes 'Saffron Rice Or Basmati Rice Kesari Bath' as a 'sweetdish' (sweet dish), but the visual appearance shows a savoury-looking spiced rice with cashews and raisins—ambiguous whether this is a sweet or savoury preparation\",\n    \"Description states ingredients are 'mixed with saffron rinsed milk and slowly cooked in sugar syrup,' indicating a sweet preparation, yet plating and colour do not distinctly read as a dessert\",\n    \"No explicit meat protein named in source description; cashews are nuts, not a recognized protein category for this review\"\n  ],\n  \"reason\": \"Reject due to identity mismatch: source describes this as a sweet dish cooked in sugar syrup, but visual presentation reads ambiguously between sweet and savoury. The fundamental identity of the preparation—sweetdish vs. savoury rice—cannot be reliably confirmed from the photograph alone. Additionally, no eligible protein (chicken/beef/pork/duck/lamb/seafood) is present or named in the source, so this does not meet the protein evidence requirement for acceptance under Tavue's dish review scope.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1970,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 528,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
