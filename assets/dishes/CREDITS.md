@@ -10673,3 +10673,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 - **Klepon Khas Tulungagung** — Robijuniarta. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Klepon_Khas_Tulungagung.jpg). Local asset: `reviewed-commons-99220500.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Klepon** — Cun Cun. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Klepon_juli_2018.jpg). Local asset: `reviewed-commons-71174702.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Kue putu keliling** — Midori. [CC BY 3.0](https://creativecommons.org/licenses/by/3.0); [source](https://commons.wikimedia.org/wiki/File:Kue_putu_klepon_keliling.JPG). Local asset: `reviewed-commons-13300289.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Ja Leung, rice noodle roll wrapped with youtiao (fried dough)** — ZhengZhou. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Ja_Leung.jpg). Local asset: `reviewed-commons-84060407.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
