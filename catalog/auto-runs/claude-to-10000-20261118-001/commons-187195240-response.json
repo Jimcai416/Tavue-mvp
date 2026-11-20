@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDRx6VqZWaaWDLGSAZbN",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Shredded grey-pink meat (left portion)\",\n    \"Reddish-brown breaded fried items (centre-right, 4–5 pieces)\",\n    \"Dark leafy greens (bottom, identifiable as cooked morogo/African leafy greens)\",\n    \"Cream-coloured plate\",\n    \"Natural daylight, hand-held presentation\"\n  ],\n  \"phone_observations\": [\n    \"All three components clearly visible in thumbnail\",\n    \"Meat, fried items, and greens distinguishable at small scale\",\n    \"Plate edges and structure intact\",\n    \"No clipping of essential food\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title states 'Grinded meat' but does not specify animal species (beef/lamb/pork/chicken/duck/seafood)\",\n    \"Meat colour and texture consistent with beef or lamb, but source provides no explicit species declaration\",\n    \"Breaded items appear to be a prepared secondary component; identity not stated in source\",\n    \"No explicit protein category can be supported without an exact species quote from title/description\"\n  ],\n  \"reason\": \"Image quality, sharpness, lighting, composition and phone thumbnail all meet acceptance criteria. Dish components are visibly complete and appetising. However, the source title 'Seswaa and Morogo' declares only 'Grinded meat' without naming the animal species. The instructions require an exact source quote explicitly naming each animal protein (chicken/beef/pork/duck/lamb/seafood). Generic 'meat' is not sufficient. No protein_evidence keys can be populated. Identity cannot be confirmed with the required specificity. Hold pending explicit protein species declaration in source metadata.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1734,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 531,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

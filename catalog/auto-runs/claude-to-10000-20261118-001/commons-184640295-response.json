@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDRwnjVmV98cNvuXd2p5",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [\n    \"Dark leafy greens visible in full image and thumbnail\",\n    \"Small protein elements visible throughout both images\",\n    \"White plate/bowl containing the dish\",\n    \"Natural daylight photography\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail shows recognizable greens and small components\",\n    \"Sufficient detail visible to identify dish category\",\n    \"No severe clipping of essential elements\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Mophane worms are an insect protein category not in the allowed list (chicken/beef/pork/duck/lamb/seafood)\",\n    \"Source title identifies 'Phane' (Mophane worms) but this species cannot be categorized under approved protein categories\",\n    \"Identity matches source description but protein component falls outside acceptable scope\"\n  ],\n  \"reason\": \"Dish identity is clear and matches source ('Greens and Mophane worms'), photograph and thumbnail quality are adequate, and all visual checks pass. However, the dish contains Mophane worms (a traditional southern African insect protein) which is not in the allowed protein categories (chicken/beef/pork/duck/lamb/seafood). Per protocol, protein species outside the approved list cannot be supported, requiring hold or rejection. This is not a photographic defect but a category constraint.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1636,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 441,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

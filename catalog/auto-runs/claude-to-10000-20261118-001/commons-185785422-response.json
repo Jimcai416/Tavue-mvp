@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDRwY7vfL2VnGLXqbYkY",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [\n    \"Cooked leafy greens in a clear bowl\",\n    \"Golden-brown diced onion or vegetable pieces scattered throughout\",\n    \"Dark green, braised leaves with glossy, moist appearance\",\n    \"Red/brown broth or cooking liquid visible at bowl base\",\n    \"Natural home-cooking presentation in simple container\"\n  ],\n  \"phone_observations\": [\n    \"Leafy green dish clearly visible and prominent in thumbnail\",\n    \"Texture and components (greens and diced pieces) readable at phone size\",\n    \"Colour and composition consistent between full image and thumbnail\",\n    \"No essential food clipped; full dish representation preserved\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title 'Morogo wa Thepe' is a Setswana dish name, but no explicit ingredient list or protein declarations in source description\",\n    \"Visible components are leafy greens and onion/diced vegetables; no visible meat or seafood\",\n    \"Traditional preparation of morogo may include meat, but it is not visually evident or explicitly named in source metadata\",\n    \"Cannot confirm protein identity from appearance alone without source declaration\"\n  ],\n  \"reason\": \"Image quality, photograph authenticity, phone thumbnail readability, and composition all pass. However, identity check fails because the source provides only a title in Setswana ('Morogo wa Thepe') with no descriptive text, ingredient list, or explicit protein declaration. The visible components (leafy greens, onion, broth) do not contain identifiable meat or seafood. Per rules, hidden flavours may be source-declared but are never visually proven, and category/query alone is not evidence. Without explicit source text naming any protein category (chicken/beef/pork/duck/lamb/seafood), acceptance cannot be justified. Hold pending clarification of actual ingredients and any meat content.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 2039,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 560,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
