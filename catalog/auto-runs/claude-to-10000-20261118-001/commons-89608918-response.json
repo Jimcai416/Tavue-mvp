@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDEFvM1AyrXiE6LqX74K",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 2,\n    \"composition\": 2,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows sandwich with tan bread roll and filled interior, but detail is too compressed to verify components\",\n    \"Filling appears pale/beige; green tomato visibility unclear in thumbnail\",\n    \"Shrimp remoulade consistency cannot be confirmed at this resolution\"\n  ],\n  \"protein_evidence\": {\n    \"seafood\": \"shrimp remoulade\"\n  },\n  \"uncertainties\": [\n    \"Full image: severe softness, poor lighting, and extreme blue-green colour cast make component identification unreliable\",\n    \"Fried green tomato visibility compromised by lighting and focus defects\",\n    \"Shrimp remoulade composition and appearance cannot be visually confirmed due to image quality\",\n    \"Overall image quality fails professional food photography standards\"\n  ],\n  \"reason\": \"Reject: Full source photograph fails quality thresholds. Severe softness (sharpness score 2), poor lighting with strong blue-green cast (lighting score 2), and weak composition prevent confident verification of the declared sandwich components. While the title declares shrimp remoulade and fried green tomato Po-Boy, the actual visual evidence is too degraded to confirm these elements are present and appetisingly presented. The phone thumbnail offers minimal additional clarity. All quality scores fall below the required minimum of 4.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1746,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 435,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

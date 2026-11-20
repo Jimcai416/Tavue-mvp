@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDEGNtRLWuMqfTzx7kZ7",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Toasted bread roll with crispy exterior\",\n    \"Layered lettuce base\",\n    \"Pale sliced ingredient (consistent with shrimp/prawns)\",\n    \"Street food vendor setting with signage\"\n  ],\n  \"phone_observations\": [\n    \"Sandwich clearly visible in hand\",\n    \"Bread, lettuce, and protein layers readable\",\n    \"Hand-held food format appropriate for thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'Fischbrötchen Nordseekrabben mit Remoulade' (fish sandwich with North Sea shrimp and remoulade)\",\n    \"Visible protein appears to be pale sliced crustacean, consistent with shrimp/prawns\",\n    \"No remoulade sauce is visually apparent in the photograph\",\n    \"Source metadata specifies 'Nordseekrabben' (North Sea shrimp) but Tavue protein categories do not include seafood/crustacean as an allowed key\",\n    \"Cannot confirm seafood identity is supported under current acceptable protein categories (chicken/beef/pork/duck/lamb/seafood)\"\n  ],\n  \"reason\": \"The photograph shows a well-composed, sharp, appetising sandwich with visible layers readable in the thumbnail. However, the dish identity cannot be accepted: the source title specifies 'Fischbrötchen Nordseekrabben mit Remoulade' (a fish and shrimp sandwich), but the visible pale sliced protein cannot be definitively identified as an allowed category (chicken, beef, pork, duck, or lamb). Crustaceans and seafood fall outside the specified protein categories. The claimed remoulade sauce is not visually evident. The source-title identity and visible food do not align with acceptable protein evidence. Hold required pending clarification of protein identity or rejection if seafood/crustacean composition is confirmed.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1650,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 571,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
