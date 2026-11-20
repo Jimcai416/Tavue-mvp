@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChEu6DnVv3hgCb9xF9Qwe",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 3,\n    \"lighting\": 2,\n    \"composition\": 2,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows only packaging exterior with printed text and label graphics\",\n    \"No finished dish visible in thumbnail\",\n    \"Ingredient list and nutritional information dominate the frame\",\n    \"No food subject recognizable in phone view\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source describes ingredients only, not a finished dish photograph\",\n    \"Image shows product packaging, not prepared food\",\n    \"No actual cooked puddings, haggis or food components visible\",\n    \"Cannot verify identity of any finished dish from packaging alone\"\n  ],\n  \"reason\": \"Image is a photograph of a food product package showing ingredient lists and nutritional information printed on packaging. This is not a photograph of a finished, exposed, prepared dish. The source description correctly identifies it as 'ingredients' rather than a finished food item. No cooked pudding, haggis, or other prepared components are visible. The phone thumbnail contains only text and label design with no recognizable food subject. This violates the core requirement for a finished, exposed, appetising dish with visible components. Reject.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1533,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 385,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

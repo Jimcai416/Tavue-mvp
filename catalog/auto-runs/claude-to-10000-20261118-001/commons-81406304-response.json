@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChEu65tjpqgzYmP4uWsms",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 3,\n    \"lighting\": 3,\n    \"composition\": 2,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Packaging dominates; individual components barely visible in thumbnail\",\n    \"Malcolm Allan branding and price label occupy most visual space\",\n    \"Food items recessed behind plastic film and cardboard\",\n    \"Thumbnail composition fails to show finished, exposed dish\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Lorne sausage species unspecified (traditional recipe varies)\",\n    \"Link sausages described as 'pork and beef' but no explicit individual animal confirmation in title/description\",\n    \"Black pudding and fruit pudding ingredient composition not visually verifiable\",\n    \"Image shows packaged raw/prepared state, not a finished cooked dish\"\n  ],\n  \"reason\": \"Reject: This is packaged breakfast meat and puddings displayed in retail packaging on a shelf, not a finished, exposed, cooked dish. The full source shows components in plastic wrapping with dominant label branding; the phone thumbnail is entirely dominated by packaging, label text and price marker with food barely visible. The image fails photograph (packaged retail display, not exposed food) and phone (essential food clipped/obscured by packaging) checks. Protein evidence cannot be established: 'lorne sausage' and 'fruit pudding' and 'black pudding' are unspecified species or non-meat categories, and 'pork and beef link sausages' lacks explicit per-animal confirmation. The source description metadata contradicts the requirement that visible form match identity. This is ingredient display, not a dish.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1532,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 482,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

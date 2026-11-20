@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChEu6DimyCt6wAiMij42f",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 3,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Cross-section of raw, uncooked meat product showing internal texture\",\n    \"No finished, cooked dish visible\",\n    \"Granular, unappetizing appearance typical of raw preparation\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title references 'Stornoway Black Pudding' but no explicit animal species named in title or description\",\n    \"Image shows raw/preparation stage, not finished exposed dish\"\n  ],\n  \"reason\": \"Rejection: This is a raw preparation stage or cross-section of an uncooked meat product, not a finished, exposed, appetising photographic dish. Black pudding requires cooking to be a completed food dish. The subject lacks the visual evidence of a finished preparation—no browning, no cooked exterior, no appetising presentation. Additionally, the source title does not explicitly name an animal species (black pudding's precise protein composition is not visually or textually declared here), triggering the hold rule for ambiguous meat species. The image fails the core requirement of showing a finished, exposed, likely photographic dish suitable for food intake review.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 2045,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 390,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
