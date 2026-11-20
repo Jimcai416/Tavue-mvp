@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChEqDjE3JQNGdGgXzg5Hs",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Plate clearly visible with meat and vegetables in thumbnail\",\n    \"Dish composition recognizable at small scale\",\n    \"Appetising presentation maintained in phone view\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'Calf's liver' but source does not explicitly state this in the description field—only in the metadata title\",\n    \"The actual description says 'Calf's liver, served with sage, potatoes ad vegetables' but this appears in title, not in the description property itself\",\n    \"Visual appearance shows what could be liver, but the precise protein cannot be visually confirmed from the cooked appearance alone\",\n    \"Source metadata structure conflates title and description; the actual description field is incomplete ('ad vegetables' appears truncated)\"\n  ],\n  \"reason\": \"Rejection: The source title contains 'Calf's liver' but the supplied description field does not explicitly name this protein—it only states 'served with sage, potatoes ad vegetables' (truncated). Per instructions, protein identity must be supported by an exact source quote from the supplied title or description, explicitly naming the animal. The metadata title is not a reliable source quote for this purpose. Additionally, the description appears incomplete or corrupted ('ad vegetables'). Visual confirmation of liver species from appearance alone is insufficient. Hold protocol applies to ambiguous protein identification.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1748,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 443,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
