@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChE22uCndJKaTtC9m1Krm",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Four thin, pale, speckled crepes/pancakes on a banana leaf\",\n    \"Deep red-brown condiment in a small white bowl with black spoon\",\n    \"Warm, natural daylight with decorative patterned background\",\n    \"Home preparation setting, finished and plated dish\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows the flatbreads and condiment bowl\",\n    \"Red condiment is visibly prominent and readable\",\n    \"Crepes/pancakes are sharp and naturally coloured in thumbnail\",\n    \"Composition and subject are well-centered and appetising\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title states 'Lempeng dan Sambal Ikan Bilis' (lempeng with anchovy/small fish paste sambal) but no fish/seafood protein is visually identifiable in the dish itself—the sambal appears as a paste/ground condiment without visible whole or cut fish components\",\n    \"Lempeng identity is uncertain: the crepes resemble Indian dosa, Sri Lankan hoppers, or Malaysian lempeng variants, but the exact regional type and flour base are not declared in source\",\n    \"Sambal ikan bilis composition cannot be visually confirmed; source claims anchovy but the condiment is uniform and unstructured\"\n  ],\n  \"reason\": \"Image quality, sharpness, lighting, composition and appeal all meet criteria. Photograph and phone thumbnail are clear, sharp, naturally coloured and appetising. However, identity check fails: the source title declares 'Sambal Ikan Bilis' (anchovy/small fish paste) but no seafood protein is visually evident in the condiment or dish. The sambal appears as an undifferentiated dark paste. Per rules, hidden flavours may be source-declared but cannot be claimed as visually proven, and protein_evidence requires exact source quotes for any claimed species—here, 'ikan bilis' is named in the title but the visible support does not confirm it. Lempeng itself is a generic flour-based crepe/pancake whose exact regional variant and ingredients are not specified. Hold pending clarification of sambal contents and lempeng variant identity.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1793,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 642,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
