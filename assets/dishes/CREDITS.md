@@ -11093,3 +11093,8 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Papaya salad Lao style** — T.Tseng. [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Lao_papaya_salad_3.jpg). Local asset: `reviewed-commons-105079616.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **mie goreng** — Bahnfrend. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Dinner,_Soekarno-Hatta_International_Airport,_2025_(02).jpg). Local asset: `reviewed-commons-161364090.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Indomie Mie Goreng Iga Penyet** — Gunawan Kartapranata. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Indomie_Mie_Goreng_Iga_Penyet_1.JPG). Local asset: `reviewed-commons-33316087.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
