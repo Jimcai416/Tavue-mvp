@@ -141743,5 +141743,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 720,
     "height": 960,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-178686951",
+    "title": "File:Łazanki - 08.11.2025.jpg",
+    "author": "Aw58",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%C5%81azanki_-_08.11.2025.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/40/%C5%81azanki_-_08.11.2025.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "fcbb2b166b48071b3a381c037ec9f9fd120a7042",
+    "name": "Łazanki",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-178686951.jpg",
+    "assetSha256": "2b8a806f68b692cc9dd6a464d68e9215be4a03fd433e7a03b80d62610c598e4a",
+    "reviewedAt": "2026-11-20",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 933,
+    "requiresExactMenuName": true
   }
 ];
