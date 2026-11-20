@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDVCh3iD1CquAN5tdL3Z",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [\n    \"Finished, cooked dish on white plate\",\n    \"Crumbled/ground cooked protein visible\",\n    \"Green vegetable pieces (appears to be chopped green beans or similar, not broccoli)\",\n    \"Orange/yellow vegetable pieces (tomato or carrot)\",\n    \"Onion pieces visible\",\n    \"No visible whole tilapia or fish fillets\",\n    \"No visible broccoli florets\"\n  ],\n  \"phone_observations\": [\n    \"Dish remains recognizable as a fried/cooked protein mixture\",\n    \"Crumbled texture and mixed vegetable components visible\",\n    \"Scale and prominence adequate for phone thumbnail\"\n  ],\n  \"protein_evidence\": {\n    \"seafood\": \"tilapia\"\n  },\n  \"uncertainties\": [\n    \"Visible vegetables do not match source description: no broccoli florets visible (only small green vegetable pieces); no cohesive tomato pieces visible (only orange/yellow crumble consistent with cooked carrot or pepper)\",\n    \"Source describes 'fried tilapia' but no whole or filleted fish form is visible—only ground/crumbled protein consistent with ground fish or prepared minced fish\",\n    \"No visible egg despite source description claiming egg as component\",\n    \"Significant discrepancy between stated ingredients (broccoli, tomatoes, egg) and what is visually apparent (ground protein, mixed small vegetable pieces, no identifiable egg)\"\n  ],\n  \"reason\": \"Identity check fails. Source title claims 'Fried tilapia with Broccoli, tomatoes and egg,' but the visible dish shows only crumbled/ground cooked protein with small mixed vegetable pieces—no intact broccoli florets, no cohesive tomato pieces, and no visible egg. The preparation form (ground/minced) contradicts the expectation of 'fried tilapia' (whole or filleted). While the photograph is sharp and acceptably composed, the material identity does not match the source description with sufficient confidence to accept. Hold required due to identity uncertainty.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1745,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 606,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDVCNzWV7ukBkRM3TVu9",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Two fried fish fillets with crispy golden-brown exterior\",\n    \"Broccoli florets visible and prominent\",\n    \"Orange/red diced tomatoes scattered across plate\",\n    \"Cooked egg visible as a component\",\n    \"White plate, natural outdoor lighting\"\n  ],\n  \"phone_observations\": [\n    \"Fried fish and vegetables clearly visible in thumbnail\",\n    \"Dish composition recognizable at small scale\",\n    \"Essential components present and readable\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title states 'fried tilapia' but tilapia is not an allowed protein category (tilapia is freshwater fish, not in the seafood-generic allowlist; species-specific fish require exact source naming convention)\",\n    \"The fish visible appears consistent with the description but the specific species designation creates ambiguity for intake criteria\"\n  ],\n  \"reason\": \"Reject: The source explicitly names 'tilapia' as the protein. While the photograph shows a recognizable, well-presented fried fish dish with vegetables, tilapia as a named species does not map to the allowed protein category 'seafood' under the strict rules requiring exact source quotation matching and category compliance. The protein_evidence cannot be populated without an exact source quote naming an allowed category. The dish itself is photographically sound but cannot be accepted due to protein category mismatch with intake requirements.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1745,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 456,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

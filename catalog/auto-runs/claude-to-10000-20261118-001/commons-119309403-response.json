@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDVDGh2Jh7WjB4gNoiys",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 3,\n    \"appeal\": 2\n  },\n  \"visible_support\": [\n    \"Street vendor sign reads 'BALUT PENDY'\",\n    \"White eggs displayed in white bowl\",\n    \"Peanuts visible in bulk beside eggs\",\n    \"Outdoor Santa Rosa City location\",\n    \"Phone thumbnail clearly shows eggs and legumes\"\n  ],\n  \"phone_observations\": [\n    \"Eggs are the dominant subject in thumbnail\",\n    \"Legume detail (peanuts) visible alongside\",\n    \"Subject is clearly raw/unprepared eggs, not a finished cooked dish\",\n    \"Essential food (the prepared balut itself) is not visible or clipped\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Balut requires the egg to be prepared and cooked (embryo at specific incubation stage); raw eggs displayed at a vendor stall do not constitute a finished, exposed, cooked dish\",\n    \"No finished balut specimen is visible—only raw/uncooked eggs in their raw state at point of sale\",\n    \"The dish itself (opened balut ready to eat) is not shown, only ingredients/raw materials\"\n  ],\n  \"reason\": \"Reject: This is a vendor display of raw eggs and legumes, not a finished, cooked, exposed balut dish. Balut is a prepared dish requiring incubation and cooking; the image shows only the raw ingredient stage at a street stall. Essential food detail (the finished balut) is clipped or absent in both full image and phone thumbnail. The photograph documents a purchasing opportunity, not a photogenic finished dish suitable for food review. Identity cannot be confirmed—no cooked balut specimen is visible.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1738,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 503,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

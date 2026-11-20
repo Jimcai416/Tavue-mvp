@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDVDYyoXMJ7ZkfUsKcZz",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [\n    \"Whole fried fish on white plate\",\n    \"Golden-brown exterior coating visible\",\n    \"Fish fins clearly visible and intact\",\n    \"Brown powder/spice accompaniment on plate\",\n    \"Crispy fried appearance\"\n  ],\n  \"phone_observations\": [\n    \"Whole fried fish recognisable in thumbnail\",\n    \"Brown garnish/spice visible\",\n    \"Plate and dish composition clear at reduced size\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Species identification: source claims 'tilapia' but photograph shows a fish with distinctive features (fin colouration, body proportions, barbels) inconsistent with typical tilapia morphology; visible reddish/purple ventral fins and body structure suggest this may be a different species such as catfish or another Siluriformes\",\n    \"No explicit source text confirms 'tilapia' in title or description field—metadata only\",\n    \"Fish species cannot be reliably determined from appearance alone without expert ichthyological verification\"\n  ],\n  \"reason\": \"Identity check fails: source metadata claims 'tilapia' but visible fish morphology (fin pattern, body shape, apparent barbels, fin colouration) contradicts typical tilapia appearance. Tilapia is a cichlid with specific anatomical features; this specimen's visual characteristics suggest a different species. Source title/description field does not explicitly state 'tilapia' in the canonical description text—only metadata headers contain it. Per protocol, identity must agree with source title/description and visible form. Unknown or misidentified species = hold. Reject due to unresolved species identity conflict.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1730,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 512,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
