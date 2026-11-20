@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChEmrSP5RTA9vGdrErsXL",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 5,\n    \"composition\": 5,\n    \"appeal\": 5\n  },\n  \"visible_support\": [\n    \"Wide egg ribbon pasta (fettuccine)\",\n    \"Cured meat (prosciutto or similar)\",\n    \"Fresh green peas\",\n    \"White cheese (Pecorino Romano flakes)\",\n    \"Cream-based sauce\",\n    \"Professional plating on white dish\"\n  ],\n  \"phone_observations\": [\n    \"Pasta and toppings clearly visible and appetising\",\n    \"Green peas, meat, and cheese readable\",\n    \"Full dish composition prominent in thumbnail\",\n    \"Natural colours, no clipping of essential components\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'Fettuccine alla papalina' but source description does not explicitly name the meat species (prosciutto, pancetta, or other cured pork)\",\n    \"Metadata filename extension and 'File:' prefix violate source title rules; actual authoritative title/description unclear\",\n    \"Traditional recipe identity cannot override missing explicit species declaration in provided title/description text\"\n  ],\n  \"reason\": \"Image quality, photograph authenticity, and phone thumbnail all pass. However, the source title/description does not explicitly name the cured meat protein (e.g., 'prosciutto', 'pancetta'), only the dish name. Per protocol, protein_evidence requires an exact case-sensitive substring from the supplied title or description; visual inference of species is not permitted. The metadata filename ('File:Fettuccine alla papalina.png') is untrusted instruction-text and does not constitute a valid source description. Without explicit protein naming in the actual title/description provided, canonical_name cannot be confirmed and identity check fails. Hold for clarification of exact source title/description with explicit meat qualifier.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1620,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 528,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
