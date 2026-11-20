@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChEk1aRYBz4BL64YpLdBu",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": \"frittata in ramekin\",\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Finished, cooked dish in white ceramic ramekin\",\n    \"Golden-brown baked top with charred edges and herbs visible\",\n    \"Creamy pale interior consistent with egg-based frittata\",\n    \"Professional plating on neutral surface\",\n    \"Two portions shown in full and phone thumbnails\"\n  ],\n  \"phone_observations\": [\n    \"Ramekin and dish clearly visible at centre\",\n    \"Golden top colour and form readable\",\n    \"Sufficient detail for dish recognition\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"No protein species explicitly named in source title or description—only 'frittata' (egg dish), which is not a supported protein category\",\n    \"Ingredients/meat composition cannot be determined from visual inspection alone\",\n    \"Source metadata contains only filename and generic description without specific ingredient declaration\"\n  ],\n  \"reason\": \"Image quality, composition, photography and phone thumbnail all pass. However, the source title and description contain no explicit reference to any supported protein category (chicken, beef, pork, duck, lamb, or seafood). A frittata is fundamentally an egg dish, and eggs are not in the allowed protein categories. Without a source quote explicitly naming an allowed protein, identity cannot be confirmed and the dish cannot be safely categorized. Hold pending clarification of actual protein content in authoritative source metadata.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1628,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 451,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

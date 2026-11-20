@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChEk2Nu2UbW63ZEUowAHq",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Four bowls of distinct ingredients visible in thumbnail\",\n    \"White cheese (ricotta), white cubes (mozzarella), brown spheres (meatballs), and reddish sauce\",\n    \"Clear component presentation typical of lasagna filling components\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title 'farcitura di lasagna' (lasagna filling) describes ingredients, not a finished dish\",\n    \"Photograph shows component ingredients in separate bowls, not an assembled or cooked lasagna dish\",\n    \"No finished, exposed, cooked lasagna visible—only raw/preparation stage components\",\n    \"Meatballs appear uncooked or in raw state\",\n    \"Cannot determine specific meat species in meatballs from visual appearance alone; source provides no explicit animal identifier\",\n    \"Image represents preparation/mise en place, not a finished photographic dish\"\n  ],\n  \"reason\": \"Reject: The photograph displays lasagna filling components (ricotta, mozzarella, meatballs, sauce) arranged in separate bowls during preparation, not a finished, exposed, cooked lasagna dish. This is a raw/preparation stage image, violating the requirement for 'a finished, exposed, likely photographic dish.' The source title 'farcitura di lasagna' explicitly confirms these are filling ingredients, not a completed dish. Additionally, the meatball protein species cannot be determined from appearance or source description, requiring a hold on protein classification. The image does not meet the standard for acceptance as a finished food photograph.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1620,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 492,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
