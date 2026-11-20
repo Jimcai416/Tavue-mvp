@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChF39sLybtAM9Xehsvits",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows a stacked, mousse-like pale item with layered texture, orange carrot strips, and dark green steamed vegetables\",\n    \"Central subject is prominent and sharp in thumbnail\",\n    \"Colour and form consistent with full image\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'Vegan Potato Timbale' but metadata declares vegan preparation, contradicting any protein category\",\n    \"Description references 'sunflower pesto' and 'horseradish soy kreme' (plant-based condiments) with no animal protein named\",\n    \"No poultry, beef, pork, duck, lamb, or seafood explicitly declared in title or description\"\n  ],\n  \"reason\": \"Dish is explicitly vegan with no animal protein named in title or description. Tavue protein_evidence categories require exact source quotes naming chicken/beef/pork/duck/lamb/or seafood. 'Vegan' status and plant-based condiments (soy-based kreme, sunflower pesto) confirm no qualifying protein is present or intended. Identity check fails: vegan dishes fall outside the protein-focused acceptance scope.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1760,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 414,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

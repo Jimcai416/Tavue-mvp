@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChF39uZS9SzRpN7Mj5drD",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 3,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Creamy pale mixture with yellow garnish visible\",\n    \"Green leafy base clearly shown\",\n    \"Stacked/mounded presentation recognizable\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title contains 'Chickless' — explicitly states absence of chicken protein\",\n    \"No animal proteins visually identifiable or source-declared\",\n    \"Dish is vegetarian/vegan; cannot match any allowed protein category\"\n  ],\n  \"reason\": \"The source title 'Veggie Chickless Salad Timbale' explicitly declares this is a vegetarian dish with no chicken or other animal proteins. The protein_evidence category requires exact source quotes naming chicken/beef/pork/duck/lamb/or seafood. This dish contains none. The word 'Chickless' is a marketing qualifier indicating absence of protein, not presence. No protein category can be supported from the source description. Rejection is required: identity check fails because the declared identity is explicitly non-animal-protein.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1742,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 373,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
