@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChEyz2v57vDnALGFYFhKU",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Golden-brown rice base, well-cooked and appetising\",\n    \"Dark pieces visible (likely black pudding)\",\n    \"Yellow/pale vegetable pieces consistent with cauliflower\",\n    \"Natural colour palette, no severe casts\",\n    \"Finished dish presentation in full source image\",\n    \"Phone thumbnail shows prominent rice and dark inclusions\"\n  ],\n  \"phone_observations\": [\n    \"Central rice texture clearly visible at reduced resolution\",\n    \"Dark pieces (morcilla) distinguishable in thumbnail\",\n    \"Adequate detail for dish identification at phone scale\",\n    \"Golden-brown colour preserved in thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Morcilla (blood sausage) is not an allowed protein category—sausage species cannot be specified from metadata alone\",\n    \"Source lists 'morcilla de cebolla' but this is a sausage product of unconfirmed animal origin\",\n    \"No explicit animal qualifier in source title for the sausage component\"\n  ],\n  \"reason\": \"Image quality, photography, and phone thumbnail all pass. Dish appears to be finished, sharply detailed, naturally coloured and appetising. However, the source description includes 'morcilla de cebolla' (onion blood sausage), which is a sausage product. Per protocol, sausage cannot be used as a protein category key, and no explicit animal source is stated in the title or description for this component. This creates unresolvable uncertainty about the protein identity. Hold for clarification or source revision specifying the animal source of the morcilla, or confirmation that protein evidence is not required.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1773,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 514,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChEyzRfJEKjt6Jkth76fX",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Finished, exposed sandwich on white plate\",\n    \"Clearly visible Spanish bocadillo with two halves\",\n    \"Tomato-rubbed bread, Spanish omelette, black morcilla sausage\",\n    \"Natural colours, appetising appearance\",\n    \"Sharp detail in both full and thumbnail views\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows sandwich structure with morcilla and omelette components\",\n    \"Readable essential food elements in centre-cover crop\",\n    \"Sharp definition of filling layers\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"morcilla is a blood sausage of unspecified animal origin; source lists 'morcilla de cebolla' but does not explicitly name the animal species\",\n    \"No explicit statement in source title/description confirming which animal (pork, beef, etc.) the morcilla contains\"\n  ],\n  \"reason\": \"Reject: protein_evidence is empty because 'morcilla' is a sausage category of ambiguous animal species. Source description names 'morcilla de cebolla' (onion blood sausage) but does not explicitly state the animal. Per protocol, unknown or ambiguous meat species cannot be accepted. The sausage cannot be inferred as pork from tradition or appearance alone. All other checks pass and photograph quality is strong, but the protein ambiguity prevents acceptance.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1794,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 459,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
