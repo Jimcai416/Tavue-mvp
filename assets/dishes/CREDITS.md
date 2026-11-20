@@ -10983,3 +10983,10 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Yerusalem kugel** — Jukka Wallin. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Yerusalem_kugel_by_Jukkawallin.jpg). Local asset: `reviewed-commons-77210811.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **sopa de tortilla** — robertorodriguex. [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:La_atestada_sopa_de_tortilla..._@_El_Z%C3%B3calo,_SV.jpg). Local asset: `reviewed-commons-103256529.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Tarta de choclo con queso, cebollas, huevos y pimienta negra** — Horacio Cambeiro. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Tarta_de_choclo_con_queso,_cebollas,_huevos_y_pimienta_negra.jpg). Local asset: `reviewed-commons-157092368.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Sopa de Tortilla and Blue Curaçao Margarita** — StoppedTime. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Sopa_de_Tortilla_and_Blue_Cura%C3%A7ao_Margarita.jpg). Local asset: `reviewed-commons-200807839.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Tortilla soup** — El Nuevo Doge. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Sopa_de_tortilla,_Mazatl%C3%A1n,_15_de_noviembre_de_2022.jpg). Local asset: `reviewed-commons-125555690.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
