@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDPkLEkrTqFqVhMpHzxB",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Leafy greens (lettuce) base visible in full image and thumbnail\",\n    \"Pink/purple shredded vegetables and cooked proteins arranged on greens\",\n    \"Red bell peppers and yellow vegetables visible\",\n    \"Olives and mixed colorful ingredients\",\n    \"Festive presentation with decorative textile\",\n    \"Natural daylight, sharp detail of food components\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows composed salad dish with seafood and vegetables\",\n    \"Pink/coral proteins (likely shrimp) prominent\",\n    \"Green leaf base and colorful vegetable elements readable\",\n    \"Appetising appearance and adequate detail for dish recognition\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title contains only 'File:' prefix and filename; actual dish name 'fiambre' comes from description metadata, not canonical title field\",\n    \"Description states 'fiambre es un plato tradicional guatemalteco' but no explicit protein species named in source text\",\n    \"Pink/cooked protein appearance suggests seafood (likely shrimp) but no source text explicitly confirms species—cannot infer from appearance alone\",\n    \"Source metadata format violates canonical requirement: title is filename only, description is unstructured metadata\",\n    \"No exact dish name phrase in proper title field to extract as canonical_name\"\n  ],\n  \"reason\": \"Reject: Source title is a filename ('File:241101-fiambre-guatemala-2.jpg') with no actual dish name. The word 'fiambre' appears only in unstructured description metadata, not in a canonical title or description field suitable for extraction. Per rules, canonical_name must be copied exactly from 'source title or description'—here the title is malformed (filename only) and the description is metadata without a formal dish name statement. Additionally, no source text explicitly names the protein species; the cooked pink/coral protein appearance suggests seafood but cannot be confirmed from text. Without a proper source title field and explicit protein naming, identity check fails. Photograph and phone thumbnail quality are acceptable, but the source data structure does not meet identity requirements for acceptance.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1566,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 624,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
