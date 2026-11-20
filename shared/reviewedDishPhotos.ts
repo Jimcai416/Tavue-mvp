@@ -139287,5 +139287,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 710,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-37286863",
+    "title": "File:Saib Ka Murabba.JPG",
+    "author": "Miansari66",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Saib_Ka_Murabba.JPG",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Saib_Ka_Murabba.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "c76c5b1a491d3e751333191c32b6d8298f59ff19",
+    "name": "Seb Ka Murabba",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-37286863.jpg",
+    "assetSha256": "891b02c2832b3f38a987d1f095d4880a7fd4b6835bfdc5bdea5e32080eea21b9",
+    "reviewedAt": "2026-11-20",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];

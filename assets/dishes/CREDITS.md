@@ -10933,3 +10933,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 - **Dal Makhni with Rumali Roti** — Wikilover54234. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Dal_makhni_with_rumali_roti.jpg). Local asset: `reviewed-commons-203271091.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Allam murabba** — User:Randhirreddy. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Allam_murabba_2013-11-30_18-28.jpg). Local asset: `reviewed-commons-29943313.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Homemade Rumali Roti** — Celestial Pari. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Homemade_Rumali_Roti.jpg). Local asset: `reviewed-commons-40702944.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Seb Ka Murabba** — Miansari66. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Saib_Ka_Murabba.JPG). Local asset: `reviewed-commons-37286863.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
