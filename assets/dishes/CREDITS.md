@@ -12464,3 +12464,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 
 - **Aceitunas rellenas y aceitunas 'Ferran Adrià'** — Jan Mark Holzer. [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Jaleo_-_las_Vegas_-_9.jpg). Local asset: `reviewed-commons-74795045.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Mejillones al vapor** — Juan Emilio Prades Bel. [CC BY 4.0](https://creativecommons.org/licenses/by/4.0); [source](https://commons.wikimedia.org/wiki/File:Mejillones_al_vapor,_Grao_de_Castell%C3%B3n.jpg). Local asset: `reviewed-commons-174254275.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Spaghetti all'assassina** — Ellie31415. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Spaghetti_all%27assassina.jpg). Local asset: `reviewed-commons-202552147.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
