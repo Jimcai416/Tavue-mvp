@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChEoG26Nm75JpgUmkvz4S",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Finished, cooked meat dish in black cast-iron pot\",\n    \"Sauce-covered meat pieces, golden-brown braise visible\",\n    \"Natural lighting, appetising colour and presentation\",\n    \"Sharp detail in both full image and phone thumbnail\"\n  ],\n  \"phone_observations\": [\n    \"Meat and sauce clearly visible and identifiable\",\n    \"Dish composition prominent and readable in thumbnail\",\n    \"No clipping of essential food components\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title contains 'Salmis chasseur de Jacqueline' but metadata labels it as 'salmis mijotage' (preparation stage descriptor rather than finished dish name)\",\n    \"Exact meat species cannot be visually confirmed—appears to be game bird or poultry but no explicit species declaration in source description\",\n    \"French source description 'viandes rôties recouvertes de la sauce' (roasted meats covered in sauce) does not specify animal type\",\n    \"Salmis is a ragout traditionally made from game, but no explicit protein species named in source metadata\",\n    \"Attribution ambiguity: title suggests Jacqueline's recipe, author is Olivier de kermoysan\"\n  ],\n  \"reason\": \"Image quality, sharpness, lighting and composition all exceed thresholds. Finished dish is appetising and well-presented in both formats. However, the source description does not explicitly name the meat species (chicken/beef/pork/duck/lamb/seafood). The dish appears to be a salmis (a classic French game ragout), but visual appearance alone cannot confirm species identity, and the source metadata does not provide an explicit protein declaration. Per protocol, ambiguous or unspecified meat species requires hold. The canonical name cannot be confirmed without resolving whether this is 'Salmis chasseur' or another variant, and what animal is actually used.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1751,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 570,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
