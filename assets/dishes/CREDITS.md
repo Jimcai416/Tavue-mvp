@@ -10828,3 +10828,11 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Sfiha** — Carioca. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/); [source](https://commons.wikimedia.org/wiki/File:Sfiha.jpg). Local asset: `reviewed-commons-1150109.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Paccheri rigati al ragù Napoletano** — CristianoMay. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Paccheri_rigati_al_rag%C3%B9_Napoletano.jpg). Local asset: `reviewed-commons-54245488.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Teiglach** — Tess Mattew. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:2025-01-22_Teiglach_in_Belarus_by_Pavel_%D7%98%D7%99%D7%99%D7%92%D7%9C%D7%A2%D7%9A.jpg). Local asset: `reviewed-commons-173223283.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Single serving of teiglach** — Klezmerguy. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Single_serving_of_teiglach.jpg). Local asset: `reviewed-commons-137625290.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Teiglach, Traditional Ashkenazi Holiday Dish** — Someben. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Teiglach,_Traditional_Ashkenazi_Holiday_Dish.jpg). Local asset: `reviewed-commons-28175126.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Teiglach boiled in honey** — Klezmerguy. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Teiglach_boiled_in_honey.jpg). Local asset: `reviewed-commons-72492233.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
