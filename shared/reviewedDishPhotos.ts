@@ -147471,5 +147471,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-86430805",
+    "title": "File:Paneer momo.jpg",
+    "author": "Soumendra Kumar Sahoo",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Paneer_momo.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Paneer_momo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "600f409c423d13417dc0974b3ad761ba89d624ab",
+    "name": "Paneer momo",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-86430805.jpg",
+    "assetSha256": "8e196df6a578cb3496387ea605aac525eb422e04bda75abb1242482da4b17e68",
+    "reviewedAt": "2026-11-20",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 540,
+    "requiresExactMenuName": true
   }
 ];

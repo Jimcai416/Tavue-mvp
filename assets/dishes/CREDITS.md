@@ -11700,3 +11700,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 - **Hyderabadi Chicken Dum Biryani** — Sannidhishetty. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Hyderabadi_Chicken_Dum_Biryani.jpg). Local asset: `reviewed-commons-203431522.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Lunch with Polao and Beef** — Ibrahim Husain Meraj. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Lunch_with_Polao_and_Beef.JPG). Local asset: `reviewed-commons-32302711.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Homemade Niramish vegetables** — Sm faysal. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Homemade_Niramish_vegetables.jpg). Local asset: `reviewed-commons-144870615.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Paneer momo** — Soumendra Kumar Sahoo. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Paneer_momo.jpg). Local asset: `reviewed-commons-86430805.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
