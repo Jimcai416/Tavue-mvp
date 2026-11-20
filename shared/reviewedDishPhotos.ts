@@ -142014,5 +142014,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 723,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-64364505",
+    "title": "File:Зелник Праз.jpg",
+    "author": "Наташа Величковска",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%D0%97%D0%B5%D0%BB%D0%BD%D0%B8%D0%BA_%D0%9F%D1%80%D0%B0%D0%B7.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ad/%D0%97%D0%B5%D0%BB%D0%BD%D0%B8%D0%BA_%D0%9F%D1%80%D0%B0%D0%B7.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "7bf5114b1ed145baecf99371b7d39b9b615c1416",
+    "name": "Zelnik - Macedonian leek pie",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-64364505.jpg",
+    "assetSha256": "f38142410b16775cbcc8fcdc3f6108cdc8f681abafdf13b9515fe3e2b8426412",
+    "reviewedAt": "2026-11-20",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 664,
+    "requiresExactMenuName": true
   }
 ];
