@@ -160762,5 +160762,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-17183686",
+    "title": "File:Gachas Manchegas.jpg",
+    "author": "JUSEPPE",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gachas_Manchegas.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/58/Gachas_Manchegas.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "f6268126ec58ade993ff4799bcba38adc1829370",
+    "name": "Gachas Manchegas",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-17183686.jpg",
+    "assetSha256": "c980ae0678654aa245dc9af78385ce040d6f4edab439b2d5cd12b1ec2a690cfc",
+    "reviewedAt": "2026-11-20",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 690,
+    "requiresExactMenuName": true
   }
 ];
