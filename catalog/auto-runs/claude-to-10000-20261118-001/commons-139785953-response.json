@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDsS2wxLvvRvkasrA1cs",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Cooked greens (arugula or similar leafy greens) prominently featured\",\n    \"Three spherical breaded, deep-fried items positioned around greens\",\n    \"Creamy sauce drizzled on plate\",\n    \"White plating\",\n    \"Natural daylight photography\",\n    \"Full dish clearly visible in both source and thumbnail\"\n  ],\n  \"phone_observations\": [\n    \"Greens and fried balls both clearly readable at 124x96 resolution\",\n    \"Colour and composition preserved in thumbnail\",\n    \"Essential dish components visible and identifiable\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title states 'boudin balls' but boudin is a sausage product of unspecified animal species (traditionally pork or pork/rice/offal mix, but source does not explicitly name the animal)\",\n    \"Protein category rules require exact source quote explicitly naming the animal; 'boudin' alone is insufficient and does not qualify as chicken/beef/pork/duck/lamb/seafood\",\n    \"Cannot confirm animal species from visual inspection of breaded exterior\"\n  ],\n  \"reason\": \"Photograph quality, sharpness, lighting, composition and appeal all meet standards (scores ≥4). Identity and phone thumbnail checks pass. However, the protein check fails: the source title names 'boudin balls' but provides no explicit animal species qualifier. Boudin is a sausage category whose composition is not declared in the source metadata. Per protocol, unknown meat species and sausage products of unspecified animal origin trigger a hold. The dish cannot be accepted without explicit source confirmation of the animal protein used in the boudin.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1633,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 518,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

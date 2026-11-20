@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDsRr3sMEkZxfTUMJmB3",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Two round, golden-brown fried balls on white plate with fork\",\n    \"Coated with crispy breading or crust, natural colour\",\n    \"Sharp detail in both full image and phone thumbnail\",\n    \"Prominent subject, well-lit, appetising appearance\"\n  ],\n  \"phone_observations\": [\n    \"Both items fully visible and clearly readable\",\n    \"Coated texture distinct in thumbnail\",\n    \"No clipping or essential parts hidden\",\n    \"Adequate detail for dish identification\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Boudin is a sausage product of unspecified animal origin in the source title—no explicit animal species named (beef, pork, chicken, lamb, duck, or seafood)\",\n    \"Crawfish is seafood, but boudin sausage composition is undeclared and cannot be confirmed from appearance alone\",\n    \"Source lists 'Crawfish Boudin Balls' but does not explicitly state which animals are in the sausage component\"\n  ],\n  \"reason\": \"Image quality, sharpness, lighting, composition and appeal all meet standards; phone thumbnail is clear and complete. However, the source title 'Crawfish Boudin Balls' presents an unresolved protein identification issue. Crawfish (seafood) is named, but boudin is a sausage whose animal species is not explicitly stated in the source description. The protocol requires exact case-sensitive source quotes naming each animal in the dish—boudin alone does not qualify as a named species. Without explicit declaration of the sausage animal (pork, beef, etc.) in the source text, protein_evidence cannot be populated and identity check fails. Hold for clarification of boudin composition.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1757,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 528,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
