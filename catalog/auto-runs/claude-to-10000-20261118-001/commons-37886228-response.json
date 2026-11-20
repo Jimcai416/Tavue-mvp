@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChE49UWu2Kn35s7KcAfmK",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 2,\n    \"composition\": 1,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows a preparation stage, not a finished dish\",\n    \"Ingredients in various states of cooking in separate containers\",\n    \"Raw/semi-cooked meat visible in pan\",\n    \"No plated or served food visible\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title references 'bacon' but Polish 'słonina' may denote cured pork fat rather than typical bacon\",\n    \"Image shows cooking in progress, not finished dish\"\n  ],\n  \"reason\": \"Rejection: Image depicts a raw/preparation stage, not a finished, plated dish. Both full photograph and phone thumbnail show ingredients and cooking equipment mid-preparation (chopped onion on cutting board, meat browning in pan, yellow sauce in separate pot), not a complete, exposed, appetising food subject. The photograph fails the core criterion of showing a 'finished, exposed, likely photographic dish' and fails all quality, composition, and appeal checks. Phone thumbnail is similarly insufficient, showing only preparation stages. This is documentation of cooking process, not food photography suitable for Tavue review.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1842,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 389,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

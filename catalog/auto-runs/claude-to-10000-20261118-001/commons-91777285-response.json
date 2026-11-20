@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChE48nC1AM8baWqQSmm7d",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Round bread bowl with hollowed centre\",\n    \"Creamy herb-filled dip inside\",\n    \"Served on white disposable plate\",\n    \"Natural outdoor daylight\",\n    \"Home/casual setting\"\n  ],\n  \"phone_observations\": [\n    \"Bread bowl and filled dip clearly visible\",\n    \"Cream/herb filling prominent in thumbnail\",\n    \"Overall composition readable at mobile size\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title says 'Cob loaf' but description says 'Cobb loaf dip' — these are distinct spellings with different culinary meanings (cob = bread type; Cobb = salad/dip style). The image shows a bread bowl with dip, not a traditional cob loaf or Cobb salad.\",\n    \"No animal proteins visibly identified or explicitly named in source\",\n    \"Dip ingredients cannot be determined from appearance alone; source does not declare specific contents\"\n  ],\n  \"reason\": \"Identity mismatch: source metadata contains conflicting terminology (Cob vs Cobb) and neither matches the visible dish convincingly. A cob loaf is traditionally a round bread roll for serving soup/dip, but 'Cobb loaf dip' is not a recognized canonical dish name. The description does not explicitly name any proteins or confirm the dip's composition. Without a clear, authoritative canonical name that matches both source and visible form, identity cannot be confirmed. All photograph quality checks pass, but identity failure is disqualifying.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1727,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 489,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
