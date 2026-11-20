@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChEJrESauN6VQiTe3vsM6",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Multiple bowls with creamy white base and yellow/green garnish\",\n    \"Metal bowls arranged on dark patterned fabric\",\n    \"Dish appears finished and plated\",\n    \"Phone thumbnail shows clear view of multiple servings\"\n  ],\n  \"phone_observations\": [\n    \"Bowls clearly visible in thumbnail with creamy content and garnish\",\n    \"Yellow-green vegetable garnish visible on each serving\",\n    \"Multiple portions arranged cohesively\",\n    \"Essential components readable in thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title is incomplete: 'This is an image of food from' (truncated, no dish name provided)\",\n    \"File title 'Fatir 019, Lion Village.JPG' is a filename, not a dish description\",\n    \"No explicit dish identification in metadata\",\n    \"Cream-based dish with yellow-green garnish could be multiple cuisines; identity cannot be confirmed from visual alone\",\n    \"Protein content unknown and not declared in source\"\n  ],\n  \"reason\": \"Identity check fails. The source description is incomplete ('This is an image of food from' with no completion). The filename 'Fatir' may suggest a regional dish, but incomplete source text and lack of explicit canonical name prevents identity verification. While the photograph shows a finished, plated, appetising creamy dish with garnish and acceptable quality/sharpness, the absence of a complete, authoritative source title or description means the dish cannot be identified with certainty. Per protocol, identity must agree with the exact source title/description; truncated or ambiguous source text requires hold.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1728,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 506,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
