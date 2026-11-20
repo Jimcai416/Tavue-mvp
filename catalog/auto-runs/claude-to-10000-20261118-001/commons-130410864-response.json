@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChEhE47R4XW9fPH2ANncH",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Golden-brown baked dumplings with crispy exterior\",\n    \"Shredded sauerkraut or pickled vegetable side\",\n    \"White rectangular serving plate\",\n    \"Natural daylight, sharp detail on main dish\",\n    \"Finished, exposed food presentation\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows baked dumplings with two visible pieces\",\n    \"Sauerkraut side visible but compressed\",\n    \"Main subject prominent and recognizable\",\n    \"Golden colour preserved in reduction\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title 'Gebackene Speckknödel' contains 'Speck' (bacon/lard), but no explicit animal species declaration in title or description\",\n    \"Identity match requires exact source title phrase, but 'Speck' qualifies as meat but lacks specific animal confirmation (pork is traditional but not stated)\",\n    \"Description provides location (Dümlerhütte, Österreich) but no English translation or canonical variant name in source\"\n  ],\n  \"reason\": \"Image quality, sharpness, lighting, composition and appeal are all excellent (scores 4–5). The photograph shows a finished, appetising baked dumpling dish with side, clearly visible in both full and thumbnail versions. However, the identity check fails because the source title 'Gebackene Speckknödel' includes 'Speck' (a cured meat product), which traditionally means pork bacon, but the source provides no explicit animal species declaration. Per rules, 'sausage' and unspecified meat species cannot be accepted, and 'Speck' as a generic term without explicit source confirmation of the animal (chicken/beef/pork/lamb/duck/seafood) requires holding. No protein_evidence key can be populated without exact animal naming in the source. Hold pending source clarification or explicit 'pork' declaration.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1577,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 579,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

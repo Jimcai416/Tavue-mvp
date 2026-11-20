@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChEhELCYY4eUvNafAPMsw",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Sausages with seared exterior\",\n    \"Creamy mashed potatoes\",\n    \"Green beans/peas garnish\",\n    \"Rich brown gravy\",\n    \"Professional plating on white dish\"\n  ],\n  \"phone_observations\": [\n    \"Sausages clearly visible in thumbnail\",\n    \"Mashed potato base readable\",\n    \"Green vegetable garnish evident\",\n    \"Dish composition recognizable at small scale\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title declares 'vegan version' but sausages in photograph appear to be meat-based with traditional seared browning and glaze inconsistent with vegan plant-based alternatives\",\n    \"Source description states vegan ingredients but visual evidence contradicts this claim\",\n    \"Cannot verify actual protein composition from appearance alone; sausage species unspecified and potentially ambiguous\"\n  ],\n  \"reason\": \"Identity check fails due to material contradiction between source declaration ('vegan version') and visible photograph. The dish shows what appears to be conventional meat sausages with characteristic browning, glaze, and texture inconsistent with typical vegan sausage products. No exact source quote naming specific proteins can be validated. Sausage species is unspecified (sausage is not an allowed protein category key). The source metadata contradicts the visual form, creating unresolvable uncertainty about the actual dish composition. Per instructions, source contradictions require hold/reject.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 2056,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 466,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
