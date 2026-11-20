@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDaBjCF1zHyPjtZuJgs1",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"White rice base clearly visible\",\n    \"Brown curry gravy dish in lower portion\",\n    \"Crispy appalam (fried papad) visible at top\",\n    \"What appears to be a second protein item (darker/reddish) at upper right\",\n    \"Creamy pale item (possibly fish component) on left edge\",\n    \"Plated on steel plate consistent with hostel service\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail shows rice, brown curry gravy, and crispy appalam edge clearly\",\n    \"Central curry component is visible and appears to be the main protein\",\n    \"Composition readable and representative of full dish\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title specifies 'fish curry' but no fish species is explicitly named in source description\",\n    \"Multiple protein items visible (pale item on left, darker item at top right, brown curry dish) but source title mentions only 'fish curry'—cannot visually confirm which component is the stated fish or identify the species\",\n    \"Species ambiguity: 'fish' is unspecified and cannot be confirmed by appearance alone\",\n    \"Second reddish/maroon item at top (possibly papad variant or different protein) is unidentified\"\n  ],\n  \"reason\": \"Hold due to unspecified fish species. Source title declares 'fish curry' but provides no explicit species name and does not qualify 'fish' further. Per protocol, unspecified or ambiguous animal species cannot be assigned to protein_evidence keys. The photograph itself is well-exposed, sharp, and appropriately composed, with all elements readable in the thumbnail; however, identity verification requires an exact species-level protein quote from the source, which is absent.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1456,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 530,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
