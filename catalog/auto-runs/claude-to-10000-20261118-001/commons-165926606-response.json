@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDkn8M8svwiLtpU4yug9",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Brown, coated, clustered fritters or balls on white plate\",\n    \"Glossy, spiced surface consistent with rendang preparation\",\n    \"Natural daylight, well-exposed full image\",\n    \"Phone thumbnail shows subject clearly, recognizable as cooked food\"\n  ],\n  \"phone_observations\": [\n    \"Subject prominent and clearly visible in centre-cover thumbnail\",\n    \"Golden-brown colour and texture preserved in reduction\",\n    \"No clipping of essential components\",\n    \"Appetising presentation maintained\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title references 'Jèngkol' (stink beans/Archidendron pauciflorum), a legume, not a protein category animal; no meat declared in source metadata\",\n    \"Description 'Batavian Traditional Cuisine' provides cultural context but does not declare meat species\",\n    \"Visual appearance consistent with fried/rendang-cooked legume, not a dish featuring chicken/beef/pork/duck/lamb/seafood\",\n    \"No explicit meat protein named in title or description\"\n  ],\n  \"reason\": \"Photograph quality and presentation are strong (all scores ≥4, identity and quality checks pass). However, the source title 'Rendang Jèngkol' and description identify this as a traditional Batavian dish centred on jèngkol (stink beans, a legume), not a meat-based dish. No animal protein is explicitly named in the title or description. The visible form—clustered fried/coated legume balls—is consistent with this identification. Protein_evidence remains empty because no allowed category (chicken/beef/pork/duck/lamb/seafood) is declared or supported by the source. Per protocol, hold when source-declared identity cannot be matched to a supported protein category.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1625,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 557,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
