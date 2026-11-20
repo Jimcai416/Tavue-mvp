@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChEHDPnXHjbdS5L3uqtp9",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"White plate with stir-fried cauliflower florets\",\n    \"Green pepper or vegetable pieces visible\",\n    \"Black sesame seeds sprinkled on top\",\n    \"Natural outdoor lighting on grass background\",\n    \"Finished dish presentation\"\n  ],\n  \"phone_observations\": [\n    \"Dish clearly visible in thumbnail\",\n    \"White plate recognizable\",\n    \"Cauliflower and green vegetables distinct\",\n    \"Sesame seeds visible as garnish\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title lists 'Manila clams' (bajirak) but no clams are visible in either the full photograph or thumbnail. The dish appears to contain only cauliflower, green peppers/vegetables, and sesame seeds.\",\n    \"Clams cannot be visually identified in the prepared dish. If present, they would need to be hidden within or under other components.\",\n    \"Protocol excludes clams from acceptable protein_evidence keys. The source-declared animal (clams/bajirak) cannot be verified visually and falls outside allowed protein categories.\"\n  ],\n  \"reason\": \"Reject: Source description claims 'Manila clams' but no clams are visually present or identifiable in the finished dish photograph. Clams are not an accepted protein category for Tavue review. The visible components (cauliflower, green pepper, sesame) do not match the source's protein claim. Identity check fails due to unverifiable protein declaration and mismatch between source description and visible form.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1643,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 486,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

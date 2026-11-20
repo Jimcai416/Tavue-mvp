@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChEHDnaUU58B5aFVKz8rU",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Golden-orange creamy broth characteristic of coconut curry soup\",\n    \"Visible protein pieces (pale, cooked appearance) suspended in liquid\",\n    \"Fresh bean sprouts and green onion garnish on top\",\n    \"Served in a black cauldron-style bowl on wooden table\",\n    \"Steam visible rising from soup surface\"\n  ],\n  \"phone_observations\": [\n    \"Soup remains prominent and identifiable in thumbnail\",\n    \"Golden-orange colour preserved and clear\",\n    \"Garnish visible but small scale\",\n    \"Essential dish components readable\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title states 'Tom Kha Gai' (which explicitly means chicken in Thai) but description lists three possible proteins: 'Chicken is often added, but there are also variations with black tiger prawns or tofu'\",\n    \"Visual inspection cannot definitively distinguish between chicken, prawn, or tofu from appearance alone in the creamy broth\",\n    \"No explicit quote in the source confirms which protein variant is pictured in this specific dish\",\n    \"The filename suggests chicken ('Gai'), but metadata alone is untrusted evidence per instructions\"\n  ],\n  \"reason\": \"The photograph shows a well-executed, appetising Tom Kha soup with excellent technical quality and clear visibility in both full image and phone thumbnail. However, identity cannot be confirmed because the source description contradicts the implied title by listing three equally valid protein options (chicken, black tiger prawns, tofu) without specifying which variant is pictured. No explicit quote in the supplied description definitively names the actual protein in this image. The instructions require that proteins 'may include only chicken/beef/pork/duck/lamb/seafood, with an exact source quote explicitly naming each animal.' The generic description does not provide this explicit quote for the specific dish shown. Hold pending clarification of the actual protein used in this particular preparation.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 2129,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 570,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

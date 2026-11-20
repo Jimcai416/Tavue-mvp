@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChEHEMFzgKZCd8Xwmuvyh",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Red-brown stir-fried meat visible with white garlic slices\",\n    \"Dark pan with glossy sauce evident\",\n    \"Recognizable dish structure maintained in thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title/description identifies hagfish (Eptatretus burgeri, inshore hagfish) as the protein\",\n    \"Hagfish is not a recognized category in the allowed proteins list (chicken/beef/pork/duck/lamb/seafood)\",\n    \"No explicit source quote names an allowed protein species\"\n  ],\n  \"reason\": \"Identity check fails. The source explicitly identifies this dish as kkomjangeo bokkeum made from inshore hagfish (Eptatretus burgeri). Hagfish is not a standard seafood category and cannot be mapped to the allowed protein categories (chicken/beef/pork/duck/lamb/seafood). The protein cannot be supported with an exact source quote naming an allowed species. Without valid protein evidence matching the declared identity, the dish cannot be accepted.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1691,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 380,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

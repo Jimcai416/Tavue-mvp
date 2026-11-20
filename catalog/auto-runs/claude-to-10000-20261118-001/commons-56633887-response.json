@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChEHDPom7PdpkYxoAo31U",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 5,\n    \"appeal\": 5\n  },\n  \"visible_support\": [\n    \"Fried rice with visible vegetables (peas, carrots, diced items)\",\n    \"Sesame seeds scattered across top\",\n    \"Green onion garnish\",\n    \"Glossy red sauce or glaze on portion of rice\",\n    \"Served in black cast-iron skillet on wooden board\",\n    \"Finished, exposed dish with natural colour and appetising presentation\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows fried rice with sauce component\",\n    \"Cast-iron skillet and wooden board visible\",\n    \"Red glossy element and sesame seeds readable\",\n    \"Composition matches full image; dish remains prominent and sharp\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title 'bokkeum-bap (fried rice)' provides only the generic Korean category, not a specific dish identity\",\n    \"Red sauce/glaze visible but its composition and origin unclear—could indicate gochujang, tomato, or other sauce; source does not specify\",\n    \"No protein explicitly named in source title or description; meat species cannot be inferred from visual appearance alone\",\n    \"Exact dish variant (e.g. kimchi bokkeum-bap, seafood bokkeum-bap, beef bokkeum-bap) is not stated in source metadata\"\n  ],\n  \"reason\": \"Photograph and phone thumbnail are of excellent quality, sharp, well-lit, and appetising. However, the source metadata provides only the generic English translation 'fried rice' without a specific dish name or meaningful variant identifier. No protein is explicitly named in the source title or description, and species cannot be inferred from visual appearance. The red sauce/glaze component is visible but its identity is not source-declared. Identity check fails because the canonical name must match the exact source title/description and preserve all meaningful qualifiers; 'bokkeum-bap (fried rice)' alone is insufficient to establish a specific, verifiable dish identity. Hold pending source clarification of exact dish variant and any named protein components.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 2042,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 601,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
