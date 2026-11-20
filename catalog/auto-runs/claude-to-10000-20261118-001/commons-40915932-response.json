@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChEBR5v7z8ZXjX3Y2nxWb",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 2,\n    \"composition\": 2,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows metal serving tray with condiment bowls and fried items\",\n    \"Essential food detail is obscured; composition is cluttered with multiple containers\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title contains 'File:' prefix and appears to be metadata, not a clean dish name\",\n    \"Description is non-standard user commentary ('awwfull' appears to be a typo/slang)\",\n    \"No authoritative canonical source name provided beyond filename\",\n    \"Image shows preparation/service stage with multiple condiments rather than a finished plated dish\",\n    \"Severe glare on metal tray surfaces obscures food detail\",\n    \"Fried items visible but not sharply detailed or prominently displayed in phone thumbnail\"\n  ],\n  \"reason\": \"Reject: Image fails multiple quality checks. Source metadata (filename, non-standard description) does not constitute a reliable canonical name. Photograph shows cluttered service tray with severe glare, low sharpness, and poor lighting (score ≤2 on multiple dimensions). Phone thumbnail does not show a prominent, clearly detailed finished dish suitable for intake. The composition emphasizes condiment bowls and preparation context rather than an appetising, clearly identifiable finished food product. No clean, specific dish identity can be established from untrusted metadata.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1662,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 441,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
