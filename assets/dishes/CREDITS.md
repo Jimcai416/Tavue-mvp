@@ -12520,3 +12520,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 - **Tourte alsacienne à la viande de porc et au riesling** — Thomon. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Tourte_alsacienne.jpg). Local asset: `reviewed-commons-112378585.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Tourte fourrée à la caillette en Drôme provençale** — Marianne Casamance. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Tourte_fourr%C3%A9e_%C3%A0_la_caillette_en_Dr%C3%B4me_proven%C3%A7ale.JPG). Local asset: `reviewed-commons-48141800.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Tourte lorraine** — Arnaud 25. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Tourte_lorraine.jpg). Local asset: `reviewed-commons-178258741.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Almejas a la marinera** — juantiagues. [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:A_la_marinera.jpg). Local asset: `reviewed-commons-95185412.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.

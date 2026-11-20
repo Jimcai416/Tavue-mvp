@@ -156564,5 +156564,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-95185412",
+    "title": "File:A la marinera.jpg",
+    "author": "juantiagues",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:A_la_marinera.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1b/A_la_marinera.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "4dc468db6f3767edaea04bc030a3afaf0021d7db",
+    "name": "Almejas a la marinera",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-95185412.jpg",
+    "assetSha256": "b822a331d396f6054b2693bb8b861f6d2d06c7e4a94b2ae382d576d4605120b2",
+    "reviewedAt": "2026-11-20",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];
