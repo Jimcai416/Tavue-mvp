@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChEqUpmqNjM493pf7jCo9",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Finished, cooked fish dish with garnish\",\n    \"Lemon slices and fresh dill visible\",\n    \"Red peppers as accompaniment\",\n    \"Natural colours, appetising presentation\",\n    \"Sharp detail in both full and thumbnail views\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows cooked fish on white plate\",\n    \"Garnish and lemon slices readable\",\n    \"Dish prominence adequate for phone view\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'pickled herring and salmon' but source description is minimal Polish text only ('Wigilia 2020 r. w Poznaniu')\",\n    \"Visual appearance shows cooked/prepared fish, not clearly pickled; preparation method ambiguous\",\n    \"Cannot definitively distinguish herring from salmon visually, nor confirm both species are present\",\n    \"Exact dish name and fish species identity do not reliably match the filename title\"\n  ],\n  \"reason\": \"Identity check fails. The filename title 'pickled herring and salmon' cannot be verified against the actual visible form. The fish appears cooked rather than pickled, and species cannot be reliably distinguished or confirmed from the photograph alone. Source description provides only Polish location text without explicit dish confirmation. Ambiguous species identification and preparation method contradict the metadata claim, triggering a hold on species-specific protein evidence. Reject due to unresolved identity and protein species uncertainty.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1743,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 468,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

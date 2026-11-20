@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChEqUYsbuQ5S98raqf2FE",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Mussels in dark shells in a cooking pot\",\n    \"Orange/saffron-coloured broth or sauce visible\",\n    \"Finished, cooked presentation\",\n    \"Sharp detail in full image\",\n    \"Appetising warm lighting\"\n  ],\n  \"phone_observations\": [\n    \"Mussels and broth clearly visible in thumbnail\",\n    \"Dish identity readable at phone size\",\n    \"Warm golden tones preserved in reduction\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title contains 'File:' prefix and filename extension (Prieur), violating canonical_name rules\",\n    \"Description 'Moules marinières à La Rose Blanche (Bruxelles)' mixes dish name with restaurant/location credit\",\n    \"No explicit protein category match: 'moules' (mussels) is not an allowed category (chicken/beef/pork/duck/lamb/seafood require exact species naming; molluscs/clams excluded)\"\n  ],\n  \"reason\": \"Although the photograph is high-quality, sharp, well-lit, appetising and clearly shows a finished cooked mussel dish in broth, the source metadata violates canonical naming rules by including 'File:' prefix and filename extension. More critically, mussels (moules) cannot be verified as 'seafood' protein because the protocol requires explicit species naming and treats clams/molluscs as excluded categories. The source title conflates dish name with restaurant/location attribution, making a clean canonical extraction impossible. Identity cannot be confirmed without a compliant source description.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 2060,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 499,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
