@@ -160624,5 +160624,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 542,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-143273725",
+    "title": "File:Timballo di Bucatini in Crosta.jpg",
+    "author": "DinaBenedettoFerrandina",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Timballo_di_Bucatini_in_Crosta.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/43/Timballo_di_Bucatini_in_Crosta.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "378a766ab890ea123d777a71ce401b5f1113bd4e",
+    "name": "Timballo di Bucatini in Crosta",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-143273725.jpg",
+    "assetSha256": "6dbb78977535dbeb7be82977246c251c60197868103edc8dbf83ab0c37c232f7",
+    "reviewedAt": "2026-11-20",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 622,
+    "requiresExactMenuName": true
   }
 ];

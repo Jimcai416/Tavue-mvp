@@ -12881,3 +12881,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 
 - **Fondue chinoise (Sichuan)** — Feuille d-Acacias. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Fondue_chinoise_(Sichuan)_2.jpg). Local asset: `reviewed-commons-145348671.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Regular-Size Chicken Paprika Pizza** — Owais Al Qarni. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Tasting_the_Regular-Size_Chicken_Paprika_Pizza_at_Domino%27s_Bali_Arcade_03.jpg). Local asset: `reviewed-commons-155112806.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Timballo di Bucatini in Crosta** — DinaBenedettoFerrandina. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Timballo_di_Bucatini_in_Crosta.jpg). Local asset: `reviewed-commons-143273725.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
