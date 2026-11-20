@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDJVyaKGY1Z3FPfAcon1",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Raw/partially cooked meat pieces in large metal wok on active gas stove\",\n    \"Home kitchen setting with natural window light\",\n    \"Poultry-coloured meat visible but unfinished cooking stage\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows preparation/cooking stage, not finished dish\",\n    \"Meat pieces raw or mid-cook, not appetising final presentation\",\n    \"Essential components visible but dish is demonstrably incomplete\"\n  ],\n  \"protein_evidence\": {\n    \"chicken\": \"caruru de frango\"\n  },\n  \"uncertainties\": [\n    \"Source title contains 'Preparação' (preparation) and poetic description explicitly frames this as a process/stage ('Antes de virar alimento'—before becoming food), not a finished dish\",\n    \"Meat is visibly raw or in early cooking stages, not fully cooked or plated\",\n    \"Image captures the culinary ritual/memory rather than a complete, exposed, appetising finished dish\"\n  ],\n  \"reason\": \"Reject: This is a preparation/cooking-stage photograph, not a finished dish. The source title explicitly includes 'Preparação de' (preparation of), and the poetic description frames the moment as the cook's process and memory-making, not consumption-ready food. The thumbnail and full image both show raw or incompletely cooked meat pieces in a wok mid-process. While photography quality, lighting, and composition are strong (all ≥4), and chicken is confirmed ('caruru de frango'), the fundamental requirement—a finished, exposed, appetising dish—is not met. Home cooking is welcome, but only when fully cooked and plated.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1720,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 518,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

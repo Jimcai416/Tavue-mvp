@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDJWJ35muCtENa1gBFcP",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Hand stirring food in large pot visible in thumbnail\",\n    \"Golden-brown colour and chunky texture consistent with main image\",\n    \"Cooking stage apparent in both frames\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'caruru de frango' (chicken caruru) but image shows active cooking/preparation stage, not a finished plated dish\",\n    \"Poetic description in source is decorative and does not provide recipe confirmation\",\n    \"No finished, exposed, or plated dish visible—this is mid-preparation in a cooking vessel\"\n  ],\n  \"reason\": \"Image shows an active cooking stage with ingredients being stirred in a pot, not a finished, exposed, and plated dish. Acceptance criteria require a finished, photographic dish with sharp detail and appetising presentation. This is a preparation/intermediate stage photograph. Although the source metadata indicates 'caruru de frango', the visual evidence captures the moment of cooking, not the completed dish. The poetic descriptive text does not constitute reliable recipe or ingredient documentation.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1715,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 380,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
