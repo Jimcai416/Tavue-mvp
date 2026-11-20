@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChF4agMVpLTTHYTzJreEA",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Cooked seafood prominently displayed (lobster or large shrimp tails, orange-red)\",\n    \"Sliced mushrooms (pale, button-type)\",\n    \"Broccoli florets (bright green)\",\n    \"Garnish with what appears to be parsley or herbs\",\n    \"Plated on decorative gold-rimmed serving dish\",\n    \"Full exposure, natural colour, sharp detail in phone thumbnail\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows seafood, mushrooms, broccoli composition\",\n    \"Garnish visible on seafood\",\n    \"Plate and plating style match source photograph\",\n    \"Central elements readable and prominent\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title 'AJILLO' suggests garlic preparation but no source description confirms this or any dish name beyond the metadata title\",\n    \"Seafood species not explicitly named in source description—visible form is consistent with lobster tail or large shrimp, but source does not state which\",\n    \"No source-supplied canonical dish name or description beyond the filename-derived 'AJILLO'\",\n    \"Metadata title/filename alone is insufficient to establish identity without supporting description\"\n  ],\n  \"reason\": \"Image quality, sharpness, lighting, composition and phone thumbnail all meet criteria. However, source identity cannot be confirmed: the only text provided is a metadata title 'AJILLO' with no accompanying description. The seafood species visible in the photograph (lobster tail or large shrimp) is not explicitly named in any source-supplied text. Per rules, protein_evidence keys require exact case-sensitive substrings from title or description, and no source quote identifies the animal. The title alone is insufficient to establish canonical identity without supporting evidence. Holding pending source description confirmation of dish name and seafood species.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1552,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 556,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
