@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDJoc5WME6agHso5mfbJ",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [\n    \"Finished, cooked dish in white bowl\",\n    \"Creamy tan/beige risotto-like preparation with darker brown bits throughout\",\n    \"Prominent in both source and thumbnail\",\n    \"Natural colours, no severe glare or softness\"\n  ],\n  \"phone_observations\": [\n    \"Dish clearly visible in thumbnail\",\n    \"Essential components readable\",\n    \"Creamy texture and mix of lighter and darker elements visible\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title mentions 'Alfonso Champorado Onions (Philippines) Sadines' – champorado is traditionally a chocolate rice porridge, not a risotto-like dish\",\n    \"Visible appearance suggests risotto, creamed rice, or rice pudding rather than champorado\",\n    \"Sardines (sadines) mentioned in title but no visible fish pieces, bones or seafood identifiable in image\",\n    \"No explicit protein naming in title that matches visible content\",\n    \"Source metadata is contradictory and confusing; dish identity is unclear\"\n  ],\n  \"reason\": \"Fundamental identity conflict: metadata title references 'champorado' and 'sadines' (sardines) but the visible dish appears to be a creamy rice preparation without identifiable sardines or fish, and lacks the typical appearance of champorado (which is usually chocolate-brown and porridge-like). No explicit source quote clearly names the actual dish shown. Protein cannot be confirmed from title/description with required exactness. Hold pending clarification of actual dish identity and composition.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1885,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 490,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

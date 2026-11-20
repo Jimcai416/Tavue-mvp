@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDJnt4eh4jjyVHuRDx52",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 2,\n    \"composition\": 1,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows street vendor with carrying pole and metal containers\",\n    \"No finished food visible in phone thumbnail\",\n    \"Vendor preparation/service stage, not exposed dish\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title 'Puto Kutsinta' names Philippine rice/cassava steamed cakes, but no finished food is visible in either image\",\n    \"Full photograph shows only vendor setup, preparation equipment, and carrying apparatus\",\n    \"No plated, finished, or exposable dish visible in full source or thumbnail\"\n  ],\n  \"reason\": \"Reject: Photograph is a street vendor scene showing preparation setup and containers, not a finished, exposed, photographed dish. The image does not show Puto Kutsinta or any food product itself—only the vendor, pole, and metal serving containers in a preparation/service context. Phone thumbnail confirms no recognisable finished food is visible. Quality checks fail: composition (1/5) is a documentary vendor scene; sharpness (2/5) is poor; lighting (2/5) is industrial/overcast; appeal (1/5) shows no appetising dish. This is a preparation-stage or vendor documentation photograph, not food photography meeting Tavue standards.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1619,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 424,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
