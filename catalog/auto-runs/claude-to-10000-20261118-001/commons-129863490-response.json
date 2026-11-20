@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChE2x6ZNsECxMQPpUyMA3",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 2,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Raw uncooked meat slab visible in thumbnail\",\n    \"Knife present in frame indicates preparation stage\",\n    \"Meat is unfinished, not a prepared dish\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title contains 'Picanha wagyu' but this is a raw preparation stage, not a finished dish\",\n    \"Description 'Where is your God now?' is not a reliable source identifier\"\n  ],\n  \"reason\": \"Image shows raw, uncooked meat on a cutting board with a knife, clearly a preparation stage rather than a finished, exposed, cooked dish. This violates the core requirement for a 'finished, exposed, likely photographic dish.' Home cooking of prepared food is welcome, but raw/preparation stages are explicitly rejected. The thumbnail confirms the meat remains raw and unprepared. Scores do not meet minimum thresholds (composition and appeal both below 4). This is not a finished food photograph suitable for Tavue intake.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1737,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 364,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
