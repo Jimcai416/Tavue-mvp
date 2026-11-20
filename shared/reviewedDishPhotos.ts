@@ -148145,5 +148145,101 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 720,
     "height": 960,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-40990745",
+    "title": "File:Crab curry.JPG",
+    "author": "Kalaiselvi Murugesan",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Crab_curry.JPG",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Crab_curry.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "132874ef76531453dbb121771fd551ac6da9a120",
+    "name": "Coconut milk crab curry",
+    "aliases": [],
+    "proteins": [
+      "seafood"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-40990745.jpg",
+    "assetSha256": "aef015f6b57f5d685ca41867a8d8530d8d30b0e94aa4fd6d51d90289af4efd7e",
+    "reviewedAt": "2026-11-20",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-40956152",
+    "title": "File:Crab masala.jpg",
+    "author": "Kajori.p",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Crab_masala.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Crab_masala.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "614a164b5bfc099fb87cef4cb080008e7c758cfa",
+    "name": "Crab curry cooked with Indian spices and coconut paste",
+    "aliases": [],
+    "proteins": [
+      "seafood"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-40956152.jpg",
+    "assetSha256": "be4133a33bcf972a93de4e9707b9db9e41de9ef6166086ab98c7d25a77340d6c",
+    "reviewedAt": "2026-11-20",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 640,
+    "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-40937438",
+    "title": "File:Crab thali.JPG",
+    "author": "Jit.roy.chowdhury",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Crab_thali.JPG",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Crab_thali.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "1eab90ccfb981967fc252c2c15eec95feb85a349",
+    "name": "Crab curry, potato-drumstick curry, dal and rice",
+    "aliases": [],
+    "proteins": [
+      "seafood"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-40937438.jpg",
+    "assetSha256": "738cbce5227b04e80f33b3297774ab6d3074470fcf2a13182ad7c0a49cfcedaa",
+    "reviewedAt": "2026-11-20",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-40729321",
+    "title": "File:The cracking Crab curry.jpg",
+    "author": "Chotonn",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_cracking_Crab_curry.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4b/The_cracking_Crab_curry.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "b43e769b7c6a0fff64b6871db9469245bb5abc8c",
+    "name": "The cracking Crab curry",
+    "aliases": [],
+    "proteins": [
+      "seafood"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-40729321.jpg",
+    "assetSha256": "e11f33a3658d06cf304dd8a75de36cfac52121826e64cbe285709a40ef096107",
+    "reviewedAt": "2026-11-20",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 720,
+    "height": 960,
+    "requiresExactMenuName": true
   }
 ];
