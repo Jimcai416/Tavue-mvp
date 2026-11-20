@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDpmVQreFFwTYoEPxxpX",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 2,\n    \"composition\": 1,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Subject is a crowd/event scene, not a finished dish\",\n    \"People eating or holding items are barely distinguishable in thumbnail\",\n    \"No clear, prominent food subject visible\",\n    \"Image documents a polling/fundraising event, not a dish presentation\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"No finished, exposed dish is visible or prominent in either image\",\n    \"Food (if present) is not the subject and is not clearly identifiable\",\n    \"Image is event/crowd documentation, not food photography\"\n  ],\n  \"reason\": \"This is an event photograph documenting a polling day fundraiser, not a food photograph. The full image shows a church exterior/porch with crowds of people; the thumbnail shows the same scene at reduced scale. No finished dish is prominently displayed, sharply detailed, or naturally coloured in either version. The metadata mentions 'democracy sausages' but no actual sausage dish is visibly presented, exposed, or appetisingly photographed. This fails the core requirement of accepting only finished, exposed, likely photographic dishes. Event documentation does not meet the standards for Tavue food review.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1684,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 400,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

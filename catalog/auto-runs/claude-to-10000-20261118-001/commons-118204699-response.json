@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDpm6wzQBpCFXsSkz6B2",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 3,\n    \"composition\": 1,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Exterior view of church building with crowds outside\",\n    \"No finished dish visible in phone thumbnail\",\n    \"Wide landscape shot of parking area and building facade\",\n    \"No food subject detectable at thumbnail resolution\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"No food dish is visible or identifiable in either the full source photograph or the phone thumbnail\",\n    \"Image is an exterior event/polling location photograph, not a food photograph\"\n  ],\n  \"reason\": \"This is an exterior photograph of a church building during what appears to be a polling day event. No finished food dish is visible in either the full-resolution source image or the phone thumbnail. The image shows only the building exterior, crowds of people, parked vehicles, and the parking area. Although the metadata mentions 'democracy sausages' being sold, no actual food photograph or dish is present to review. This fails the fundamental requirement of showing a finished, exposed, prominent food subject. The composition, sharpness, and all quality metrics are insufficient for food review as there is no food visible to assess.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1682,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 381,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
