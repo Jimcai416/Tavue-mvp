@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDX8d7hVo2MAsiywi7tV",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Sliced fried cheese with grill marks on decorative blue-and-white plate\",\n    \"Golden chips/fries prominently displayed\",\n    \"Fresh mint garnish visible on cheese\",\n    \"Natural lighting, well-exposed, appetising presentation\"\n  ],\n  \"phone_observations\": [\n    \"Cheese slices and chips clearly visible in thumbnail\",\n    \"Plate pattern recognisable\",\n    \"Subject prominent and not clipped\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title describes 'halloumi-style cheese wrap' but the photographed dish shows sliced fried cheese (halloumi-style), not a wrap. No wrap structure is visible in either image.\",\n    \"Identity contradiction: the title claims a 'wrap' but the visible form is sliced/stacked fried cheese served flat on a plate with chips—a classic fried halloumi-and-chips dish, not a wrap preparation.\"\n  ],\n  \"reason\": \"Identity check fails. The source title claims 'Fried halloumi-style cheese wrap' but the actual photograph shows sliced/stacked fried halloumi-style cheese served as a flat plate with chips—a traditional fried halloumi dish, not a wrap. This is a material contradiction between the declared identity and the visible form. Per rules, source contradictions => hold. This is rejected rather than held because the discrepancy is severe and the actual dish (fried halloumi and chips) would require a different canonical name not supplied in the source metadata.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1767,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 486,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
