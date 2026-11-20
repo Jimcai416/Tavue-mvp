@@ -161187,5 +161187,30 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-37429678",
+    "title": "File:Chicken with Allemande Sauce (13426370413).jpg",
+    "author": "Alex Kane  from New York, USA",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chicken_with_Allemande_Sauce_(13426370413).jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/60/Chicken_with_Allemande_Sauce_%2813426370413%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "ed20286d590ae8ba5c70f005ab698730c087176b",
+    "name": "Chicken with Allemande Sauce",
+    "aliases": [],
+    "proteins": [
+      "chicken"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-37429678.jpg",
+    "assetSha256": "c94932075dbfec88a6211165ff889aaef65a607c34ad60344d0fea37e8a07f74",
+    "reviewedAt": "2026-11-20",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true,
+    "authorUrl": "https://www.flickr.com/people/52079207@N00"
   }
 ];

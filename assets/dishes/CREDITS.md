@@ -12936,3 +12936,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 - **Tagliatelle ai funghi** — Bonniebartilomo. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Tagliatelle_ai_funghi.jpg). Local asset: `reviewed-commons-87391736.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Tagliatelle with fresh porcini mushrooms** — Gius.arena. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Tagliatelle_ai_funghi_da_Luciana,_San_Piero_Patti,_Italia.jpg). Local asset: `reviewed-commons-172944138.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Parmigiana di zucchine** — 10Rosso. [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Parmigiana_di_zucchine_1.jpg). Local asset: `reviewed-commons-29568009.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Chicken with Allemande Sauce** — [Alex Kane  from New York, USA](https://www.flickr.com/people/52079207@N00). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Chicken_with_Allemande_Sauce_(13426370413).jpg). Local asset: `reviewed-commons-37429678.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
