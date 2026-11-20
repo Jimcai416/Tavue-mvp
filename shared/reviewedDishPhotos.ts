@@ -146866,5 +146866,52 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "height": 542,
     "requiresExactMenuName": true,
     "authorUrl": "https://www.flickr.com/people/22822922@N00"
+  },
+  {
+    "id": "commons-18593508",
+    "title": "File:Nasi goreng merah Makassar.JPG",
+    "author": "Midori",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nasi_goreng_merah_Makassar.JPG",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/45/Nasi_goreng_merah_Makassar.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "00b4a422c1207ad2058bf8f26ff4bc1b8e959d4d",
+    "name": "Nasi goreng merah Makassar",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-18593508.jpg",
+    "assetSha256": "e657dcc33de88297590464ed48321a267028e4a2748d63239596bed564896a14",
+    "reviewedAt": "2026-11-20",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-80211295",
+    "title": "File:Lemongrass Chicken (7491346796).jpg",
+    "author": "Jen Arrr",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lemongrass_Chicken_(7491346796).jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Lemongrass_Chicken_%287491346796%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "b3a017ee255954fa339361dfc3ac91cdf7e25aa7",
+    "name": "Lemongrass Chicken",
+    "aliases": [],
+    "proteins": [
+      "chicken"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-80211295.jpg",
+    "assetSha256": "72def3178f5c4b1a7769117be8781631058d820696de4d42b75c0951bef72d76",
+    "reviewedAt": "2026-11-20",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 717,
+    "requiresExactMenuName": true,
+    "authorUrl": "https://www.flickr.com/people/66961498@N05"
   }
 ];
