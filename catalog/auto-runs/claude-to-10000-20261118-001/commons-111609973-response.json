@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDGgEK8sAP2fbHSiJNL2",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 5,\n    \"composition\": 5,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Golden-brown bagel with sesame seed topping\",\n    \"Sharp detail and natural colour in full source image\",\n    \"Phone thumbnail clearly shows bagel form and sesame coverage\"\n  ],\n  \"phone_observations\": [\n    \"Circular bagel form clearly visible\",\n    \"Sesame seed texture readable at thumbnail scale\",\n    \"Subject prominent and well-centred\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title references 'Lender's Bagels' (branded product/packaging), not a finished dish identity\",\n    \"Description states 'Lender's Bagels' which is a commercial brand name, not a dish name\",\n    \"No specific dish variant, preparation method or regional style declared beyond generic bagel type\"\n  ],\n  \"reason\": \"Rejection: The source metadata identifies this as a commercial branded product ('Lender's Bagels') rather than a finished dish with an identifiable canonical name. The title is a filename, and the description is a brand reference. While the photograph quality is excellent and the sesame bagel is clearly depicted, Tavue's policy requires a specific dish phrase from source title or description—not a product brand name. Without a proper dish identity (e.g. 'Sesame Bagel', 'Plain Bagel', or regional variant), identity check fails. The image itself is photographic, sharp, and appetising, but source identity criteria cannot be met.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1935,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 464,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
