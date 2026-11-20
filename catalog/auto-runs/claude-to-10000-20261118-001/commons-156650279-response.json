@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChED8zrJnPvJGZSgKsFFe",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Chocolate-glazed donuts clearly visible in thumbnail\",\n    \"Multiple donuts with central holes in focus\",\n    \"Rich brown colour and glaze evident\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Metadata shows 'File:' prefix and EXIF camera reference—untrusted per instructions\",\n    \"Source title contains only generic filename 'Chocolate donuts 2.jpg'\",\n    \"No authoritative title or description provided—only filename and metadata tags\"\n  ],\n  \"reason\": \"Rejection: The source metadata provides no valid canonical title or description. The filename 'Chocolate donuts 2.jpg', EXIF camera reference, and license metadata are explicitly untrusted per instructions. No supplier name, bakery, brand, variant qualifier, or authentic source description is available to establish identity. While the photograph quality and phone thumbnail meet technical standards (sharpness, lighting, composition, appeal all ≥4), identity check fails because no trustworthy source title or description exists to confirm the dish. A finished, appetising chocolate donut photograph cannot be accepted without a proper, authoritative source identity.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1860,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 399,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
