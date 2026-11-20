@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDnqRWa6hu4VMou11SRg",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Finished, cooked dish prominently displayed\",\n    \"Red stew/sauce with visible texture and depth\",\n    \"Cornmeal-based steamed parcels (kenkey) wrapped in corn husks\",\n    \"Fried fish fillet with golden-brown char\",\n    \"Natural daylight, appetizing presentation\",\n    \"Sharp detail in phone thumbnail showing all components\"\n  ],\n  \"phone_observations\": [\n    \"Red stew clearly visible and identifiable\",\n    \"Wrapped kenkey parcels prominent on right\",\n    \"Fried fish visible on left\",\n    \"Essential components readable and not clipped\",\n    \"Good contrast and composition in thumbnail\"\n  ],\n  \"protein_evidence\": {\n    \"seafood\": \"fried fish\"\n  },\n  \"uncertainties\": [\n    \"Source title states 'Kenkey with fried fish and pepper' but does not explicitly name the fish species—only 'fried fish' is identified\",\n    \"The red preparation is described as 'pepper' in source but appears to be a sauce/stew; exact composition (whether tomato-based, spice composition, regional variant) cannot be visually confirmed\",\n    \"No explicit regional qualifier or preparation method stated in source (e.g., 'Ghanaian kenkey' or specific regional variant)\"\n  ],\n  \"reason\": \"Source title does not provide the full specific dish name required for canonical_name. The description 'Kenkey with fried fish and pepper' lacks the regional/cultural qualifier and does not name the fish species explicitly (only 'fried fish' is mentioned). Although the photograph quality, lighting, composition and phone thumbnail are all excellent, and the visible components match the description, the source evidence is insufficiently specific to establish a canonical name that preserves all meaningful variant qualifiers as required. A more precise source title (e.g., 'Ghanaian Kenkey with fried [species] and tomato pepper sauce') would be needed for acceptance.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1719,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 583,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

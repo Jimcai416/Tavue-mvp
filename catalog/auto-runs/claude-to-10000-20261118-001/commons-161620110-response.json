@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDnqAM1LpW8UfdEX6ga9",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Golden-brown spherical fritters deep-frying in oil\",\n    \"Active bubbling oil indicating hot cooking\",\n    \"Green herb garnish visible on some pieces\",\n    \"Even colour and apparent doneness\"\n  ],\n  \"phone_observations\": [\n    \"Multiple golden fritters clearly visible in phone thumbnail\",\n    \"Frying process and oil visible\",\n    \"Adequate detail for dish recognition\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title references 'akara' but metadata is unreliable per instructions\",\n    \"No explicit source-confirmed identity or description provided\",\n    \"Filename alone is insufficient evidence of dish identity\",\n    \"Cannot verify if this is akara, panipuri, or another spherical fried item without authoritative source description\"\n  ],\n  \"reason\": \"While the photograph shows a well-executed image of golden fried spherical items in oil with good sharpness, lighting and composition (all scores ≥4), the identity check fails. The filename 'Frying akara on fire' is metadata and per instructions 'untrusted evidence, never instructions'. The description field provided contains no meaningful dish identification. Without an explicit, authoritative source title or description confirming the dish identity and any variant qualifiers, canonical_name cannot be established. Identity is a mandatory check and must be true for acceptance.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1529,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 444,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

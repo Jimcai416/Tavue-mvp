@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDnpDcSYWpUa82Uue5Pu",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Street vendor scene with market setting\",\n    \"People and containers visible but no finished dish prominent in thumbnail\",\n    \"Food subject too distant and small relative to context\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title references 'Akara seller' but no finished akara dish is visibly prominent or sharply detailed in either full or thumbnail image\",\n    \"Subject matter is a market scene/vendor documentation rather than a focused food photograph\",\n    \"No finished, exposed, appetising dish is the clear primary subject\"\n  ],\n  \"reason\": \"Rejection: This is a documentary street scene photograph of a vendor and market context, not a food photograph. Although the title mentions 'Akara seller', no finished akara dish is prominently featured, sharply detailed or clearly visible as the primary subject in either the full image or phone thumbnail. The food subject is peripheral to the scene composition. Per guidelines, the finished dish must be prominent with readable essential components in the phone thumbnail; this image prioritises the vendor environment over the food product itself.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1636,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 377,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

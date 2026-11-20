@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDnqBqZMQJa46kNTKYC1",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Corn-based white starch (kenkey) prominent and identifiable\",\n    \"Whole fried fish with visible scales and bones\",\n    \"Small silvery fish (sardines) present\",\n    \"Red chili paste (shitor) visible\",\n    \"Dark sauce component present\",\n    \"Yellow/orange turmeric rice visible\",\n    \"Plate presentation, finished dish state\"\n  ],\n  \"phone_observations\": [\n    \"Kenkey, fried fish, and sauces clearly visible in thumbnail\",\n    \"Sardines identifiable by size and silvery appearance\",\n    \"Color palette matches full image\",\n    \"Essential components readable at phone scale\"\n  ],\n  \"protein_evidence\": {\n    \"seafood\": \"fried fish, sardines\"\n  },\n  \"uncertainties\": [\n    \"Title contains 'File:' prefix and filename extension (.jpg) which should be stripped; actual canonical form unclear\",\n    \"Description metadata incomplete and appears truncated ('theme \\\" Farm to Plate \\\" from:')\",\n    \"No explicit source dish name provided in title/description—only ingredient list (Kenkey, fried fish, sardines, shitor)\",\n    \"Cannot verify exact canonical name from source documentation as title is filename-based only\"\n  ],\n  \"reason\": \"Image quality, photograph authenticity, and phone thumbnail all pass. Seafood proteins (fried fish, sardines) are explicitly named. However, the source provides only a filename with ingredients rather than a true dish title or description. The canonical_name requirement demands 'a specific dish phrase copied exactly from source title or description'—here, the source is 'File:Kenkey, fried fish, sardines, shitor.jpg' with truncated description metadata. While the dish is identifiable as a Ghanaian/West African plate (kenkey with seafood and condiments), there is no authoritative source phrase that qualifies as a proper canonical dish name. This ambiguity in source documentation requires hold pending clarification.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1741,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 588,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

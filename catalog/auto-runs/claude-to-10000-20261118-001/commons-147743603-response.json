@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDnpDZxHoox7kSnD9Cy2",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [\n    \"Street food preparation setting with cooking vessel\",\n    \"Golden-brown batter/dough in large flat cooking pan\",\n    \"Handler with utensil turning/managing food\",\n    \"Rounded partially-cooked items visible in pan\"\n  ],\n  \"phone_observations\": [\n    \"Cream-coloured batter mixture visible in pan\",\n    \"Hands and utensil prominent in thumbnail\",\n    \"Food subject adequately detailed and readable\",\n    \"Orange spheres (possibly onions or fried items) visible bottom left\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title is a filename ('File:Akara processing 10.jpg'), not a dish name or description\",\n    \"Description ('The balls must be turned after the side facing the oil has cooled evenly') is a cooking instruction, not a dish identity or variant declaration\",\n    \"No explicit canonical dish name provided in metadata\",\n    \"Cannot confirm dish identity, regional variant, or specific ingredients from title/description alone\",\n    \"Akara is a known West African fritter, but source provides no explicit confirmation of this identity\"\n  ],\n  \"reason\": \"Rejection: source title is a filename only, and the description is a cooking instruction rather than a dish name or identity statement. The image shows food in preparation/processing stage with metadata that provides no canonical dish identity. Per protocol, identity must agree with 'exact source title/description'—here, neither the filename nor the cooking instruction qualifies as a dish specification. The photograph itself is well-executed, but without an explicit, specific canonical dish name from the source, identity cannot be confirmed.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1630,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 503,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

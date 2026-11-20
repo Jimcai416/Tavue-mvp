@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDnq3yHXueAuYiLkrcY6",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [\n    \"Golden-brown spherical fried items in oil\",\n    \"Large black wok/pan on outdoor cooking surface\",\n    \"Active frying preparation stage visible\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows fried ball-shaped items\",\n    \"Recognizable as frying in progress\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'Bean cake' being fried into 'Local Akara' but these are contradictory forms—bean cake and akara are distinct West African dishes\",\n    \"Source metadata describes an in-progress cooking stage rather than a finished, exposed, plated dish\",\n    \"No protein species identified in source description\"\n  ],\n  \"reason\": \"REJECT: This photograph documents a frying/preparation stage, not a finished dish. The title-description conflict ('Frying Bean cake...into Local Akara') indicates either a mislabeling or an intermediate stage. Tavue accepts finished, exposed dishes; raw ingredients, preparation stages, and in-process cooking are explicitly excluded. The image does not meet the finished-dish criterion regardless of culinary merit.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1732,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 396,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
