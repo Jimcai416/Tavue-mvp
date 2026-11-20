@@ -150708,5 +150708,30 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-23128133",
+    "title": "File:Pork ramen flavored with sambal oelek.jpg",
+    "author": "jeffreyw",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pork_ramen_flavored_with_sambal_oelek.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Pork_ramen_flavored_with_sambal_oelek.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "485abd34f3af150ba557600c7c9f70aa0ae92277",
+    "name": "Pork ramen flavored with sambal oelek",
+    "aliases": [],
+    "proteins": [
+      "pork"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-23128133.jpg",
+    "assetSha256": "f8e1409e2abb1acb42025de36c7e1c8ef6c9852ff3769a6fe79132052bb13f8e",
+    "reviewedAt": "2026-11-20",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 637,
+    "requiresExactMenuName": true,
+    "authorUrl": "https://www.flickr.com/people/7927684@N03"
   }
 ];
