@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDy35bWYB76iSViuWrFP",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Dark black pudding visible centre-left in phone thumbnail\",\n    \"Golden fried potatoes prominent lower right\",\n    \"White shredded horseradish garnish clearly visible\",\n    \"Green spring onion garnish visible\",\n    \"Dark bowl/plate containing the dish\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Blutwurst (blood sausage) is not an allowed protein category; it is processed offal/sausage meat of unspecified species origin\",\n    \"Source title uses 'Blutwurst' but no explicit animal species is named in source description\",\n    \"Cannot verify if the dark pudding visible in image is definitively the named Blutwurst or another black pudding variant\"\n  ],\n  \"reason\": \"Rejection: Blutwurst is a blood sausage of indeterminate/mixed species composition and falls outside the allowed protein categories (chicken/beef/pork/duck/lamb/seafood). The source provides no explicit quote naming a single animal species for this sausage. Without species-level clarity from the source, protein cannot be confirmed. While photograph and phone thumbnail are of acceptable quality and show a finished, appetising dish with sharp detail and natural colours, the protein identity rule requires exact species naming for meat-based dishes, and 'sausage' or unspecified blood products cannot be assigned to the allowed categories.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1733,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 455,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

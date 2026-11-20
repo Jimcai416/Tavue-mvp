@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDy3ZDB1twCkViLargn2",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Six cooked sausages in a clear plastic container\",\n    \"Golden-brown colour, smooth skin\",\n    \"Sharp detail and natural lighting throughout\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows stacked sausages in container\",\n    \"Colour and form consistent with full image\",\n    \"Subject prominent and identifiable at reduced size\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title 'Wiener Würstchen' refers to sausage but does not explicitly name the animal species (commonly pork or pork-beef blend, but not stated in source)\",\n    \"German metadata indicates sausage type but species composition is not declared in title or description\"\n  ],\n  \"reason\": \"Reject: The source description identifies the dish as 'Wiener Würstchen' (Vienna sausages/frankfurters), which is a generic sausage category. The title and description do not explicitly name the animal species—these sausages are traditionally pork or pork-beef blends, but no source quote explicitly states 'pork', 'beef', or any other species. Per protocol, sausage cannot be used as a protein key, and unknown or unspecified meat species requires a hold or rejection. The image quality and photograph are strong, but the identity cannot be confirmed with specific protein evidence from the source material.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1788,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 449,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

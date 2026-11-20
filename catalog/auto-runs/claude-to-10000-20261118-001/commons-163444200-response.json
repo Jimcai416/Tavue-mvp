@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDy3Xy2XL2uD876JLHe2",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 5,\n    \"composition\": 5,\n    \"appeal\": 5\n  },\n  \"visible_support\": [\n    \"Golden, crisped potatoes throughout dish\",\n    \"Fried egg with runny yolk and chives on top\",\n    \"Cooked meat slices visible beneath egg and potatoes\",\n    \"Natural lighting, appetising presentation\",\n    \"Sharp detail in phone thumbnail showing all components\"\n  ],\n  \"phone_observations\": [\n    \"Egg, potatoes and meat clearly visible at 124x96 resolution\",\n    \"Yolk colour and chive garnish readable\",\n    \"Overall composition and dish structure apparent\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title specifies 'Rehbratenfleisch' (venison loin), but metadata is untrusted and cannot be used as instruction source; however, 'Reh' (roe deer) is not an allowed protein category\",\n    \"No explicit, case-sensitive protein name matching allowed categories (chicken/beef/pork/duck/lamb/seafood) found in source title or description\",\n    \"Meat species visible but cannot be definitively identified from appearance alone\"\n  ],\n  \"reason\": \"Image quality, sharpness, composition and phone thumbnail are all excellent. Dish identity is Kartoffel-Gröstl (potato hash), a finished, appetising, sharply detailed photograph. However, the source title names 'Rehbratenfleisch' (venison/roe deer meat), which does not map to any allowed protein category (chicken/beef/pork/duck/lamb/seafood). Venison species cannot be confirmed visually, and 'Reh' (roe deer) is not a supported category. Without a source-quoted protein name matching an allowed category, protein_evidence remains empty and identity cannot be fully verified. Hold pending clarification of meat species or source revision to an allowed category.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1695,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 552,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

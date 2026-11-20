@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDy3vjVSBTjKfcTgNK2P",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Golden-brown scored pastry exterior visible in both full and thumbnail\",\n    \"Flaky pastry casing clearly present and prominent\",\n    \"Sausage/meat filling visible inside pastry\",\n    \"Plated on pale green/cream ceramic dish\",\n    \"Finished, exposed cooked dish\"\n  ],\n  \"phone_observations\": [\n    \"Subject sharp and well-centred in thumbnail\",\n    \"Golden pastry and filling clearly readable\",\n    \"No clipping of essential components\",\n    \"Appetising appearance maintained at reduced size\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Species of meat/sausage not explicitly named in source description; 'currywurst' traditionally contains pork but source does not state this\",\n    \"Exact dish name in source title contains 'File:' prefix and date stamp which must be excluded from canonical_name\",\n    \"No explicit confirmation of which animal comprises the sausage filling\"\n  ],\n  \"reason\": \"Image quality, photography, and phone thumbnail all meet standards. However, the source description does not explicitly name the meat species. 'Currywurst' is a named regional dish with traditional pork content, but the source metadata does not state 'pork' or any animal explicitly. Protocol requires exact source quotes naming each animal in protein_evidence; inference from dish tradition or appearance is not permitted. Additionally, the source title includes filename metadata (File: prefix, date, .jpg extension) that must be stripped for canonical_name, leaving ambiguity about the clean dish title. Hold pending clarification of protein identity in source text.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1530,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 499,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
