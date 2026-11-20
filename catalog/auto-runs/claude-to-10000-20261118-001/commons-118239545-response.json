@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDbnfoh7bPGxEvoX628Q",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Orange sausages and brown patties visible on grill grates\",\n    \"Active cooking stage with open flame/coals visible beneath\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title declares 'Barbacoa vegana' (vegan barbacoa) with plant-based protein products only: Heura chorizo and vegetable patties\",\n    \"No animal proteins are present or claimed in the source description\",\n    \"Title explicitly states vegan preparation—no chicken, beef, pork, lamb, duck or seafood to support\",\n    \"Image shows preparation/cooking stage with raw/unfinished elements still on grill\"\n  ],\n  \"reason\": \"Rejection on two grounds: (1) Identity mismatch—source declares vegan barbacoa with only plant-based Heura chorizo and vegetable patties; no animal proteins are claimed or visible. The canonical_name requires a finished, exposed dish with identifiable components matching the source; vegan plant-based products cannot be categorized under the allowed protein schema (chicken/beef/pork/duck/lamb/seafood). (2) Photograph stage—image shows active cooking on grill grates with coals visible, representing a preparation/mid-cook stage rather than a finished, plated dish ready for consumption. Per guidelines, raw/preparation stages are rejected.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1736,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 448,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

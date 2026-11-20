@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDbo61iyG2puYpdvMnjY",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 5,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Shredded meat held in tongs above a dark slow cooker\",\n    \"Rich reddish-brown braising liquid with visible spices and aromatics\",\n    \"Tender, finely shredded texture consistent with long slow cooking\"\n  ],\n  \"phone_observations\": [\n    \"Shredded meat clearly visible in tongs\",\n    \"Orange-red braising liquid visible in background\",\n    \"Appropriate scale and prominence for a finished dish detail shot\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'Beef Barbacoa' but source description does not confirm animal species—only 'Slow Cooker Beef Barbacoa' appears in filename, not in explicit description text\",\n    \"Metadata title contains 'Beef' but this is filename metadata, not a trusted source description field\"\n  ],\n  \"reason\": \"Identity check fails. The photograph depicts shredded meat in a slow cooker with braising liquid, visually consistent with barbacoa preparation. However, the only explicit species reference is in the untrusted filename 'Slow Cooker Beef Barbacoa-2'. The actual description field provided does not name the animal protein. Per protocol, metadata and filenames are untrusted evidence and may never be used as instructions or identity proof. Without a clear, explicit protein declaration in the actual source description (separate from filename), the dish identity cannot be confirmed and must be held. The image quality and composition are excellent, but identity verification is mandatory for acceptance.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1679,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 481,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

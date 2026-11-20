@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDbnDFGdHvxbrYUYk7tV",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Cooked meat with deep brown colour and glazed surface\",\n    \"Shredded/pulled texture consistent with barbacoa preparation\",\n    \"Foil wrapping typical of traditional slow-cooking method\",\n    \"Natural lighting, appetising appearance\"\n  ],\n  \"phone_observations\": [\n    \"Meat prominence clear in thumbnail\",\n    \"Brown colouration and texture visible at 124x96\",\n    \"Foil wrapping visible\",\n    \"No essential food clipped\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title contains 'File:' prefix and filename extension (Barbacoa Veracruzana 05.jpg) — canonical extraction unclear\",\n    \"No explicit animal species declared in source description; 'barbacoa' is traditionally beef but species is not stated\",\n    \"Description is in Spanish; translation to English canonical form uncertain\",\n    \"Ambiguous whether regional qualifier 'Veracruzana' should be preserved in canonical name\"\n  ],\n  \"reason\": \"Photograph quality, sharpness, lighting and composition all meet standards (scores ≥4). Image shows finished, exposed, appetising cooked meat on foil with natural colour and good detail in both full and phone views. However, identity check fails: source metadata lacks explicit animal species declaration required for protein_evidence inclusion. The source title format contains 'File:' prefix and filename extension, violating canonical extraction rules. Regional variant 'Veracruzana' status and proper canonical phrase extraction are ambiguous. Hold pending clarified source title/description without file metadata and explicit species declaration.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1751,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 503,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

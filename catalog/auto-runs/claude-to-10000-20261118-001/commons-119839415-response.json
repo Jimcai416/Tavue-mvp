@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDbnh94FHHTrnyDC3V27",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 3,\n    \"lighting\": 3,\n    \"composition\": 2,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Vendor environment visible but no finished dish in phone thumbnail\",\n    \"Cooking activity in progress shown, not plated food\",\n    \"Food subject too small and obscured by personnel\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"No finished, plated dish visible in either photograph\",\n    \"Image shows food preparation/cooking stage, not a served or exposed finished dish\",\n    \"Barbacoa mentioned in metadata description but no specific finished dish photographed for review\"\n  ],\n  \"reason\": \"Rejection: This is a documentation photograph of a barbacoa vendor stand and cooking operation at a market, not a photograph of a finished, plated, or exposed dish ready for consumption. The full image shows the market stall environment and cooking process with personnel at work. The phone thumbnail contains no recognizable, prominent finished food subject. The photograph fails the core acceptance criterion of showing 'a finished, exposed, likely photographic dish' with 'readable essential components in the phone thumbnail.' Raw/preparation stages and vendor scenes are outside scope; only finished food dishes qualify.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1754,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 382,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

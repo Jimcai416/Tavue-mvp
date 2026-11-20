@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDbnEHGxEWY3QVQwavsq",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 2\n  },\n  \"visible_support\": [\n    \"Raw/butchering stage with hands actively disassembling meat\",\n    \"Uncooked meat tissue clearly visible\",\n    \"Preparation environment with plastic wrapping and tools\",\n    \"No plated dish; no cooking evident\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail shows raw butchered meat and preparation stage\",\n    \"No finished, cooked, or exposed dish visible\",\n    \"Hands and tools in active preparation work\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title declares 'Barbacoa de Carnero' (mutton/sheep); image shows raw butchering stage, not finished dish\",\n    \"Species 'Carnero' (mutton that may mean goat) cannot be visually confirmed from raw tissue alone\",\n    \"Image is preparation/butchering, not a finished, exposed, cooked dish suitable for menu intake\"\n  ],\n  \"reason\": \"Rejection: This is a raw meat butchering/preparation photograph, not a finished, exposed, cooked dish. The image shows hands actively disassembling raw meat tissue with tools in a preparation environment. The source description names 'Carnero' (mutton, potentially ambiguous between sheep and goat), which cannot be visually confirmed from raw tissue. Tavue accepts only finished, exposed, likely photographic dishes. Raw/preparation stages must be rejected.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1805,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 454,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
