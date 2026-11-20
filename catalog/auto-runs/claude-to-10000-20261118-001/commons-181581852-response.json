@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDTL3A9iYfb2Nv9vCGDs",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Two Lee Kum Kee branded bottles with red caps and yellow/orange liquid\",\n    \"Labels clearly read 'SRIRACHA MAYO'\",\n    \"Net weight 15 fl oz (445ml) visible on labels\",\n    \"Product displayed on shelf among condiment bottles\",\n    \"Phone thumbnail captures the two featured bottles prominently\"\n  ],\n  \"phone_observations\": [\n    \"Two identical branded bottles dominate the 124x96 thumbnail\",\n    \"Yellow/orange colour and red caps clearly visible\",\n    \"Sufficient detail to identify the product category\",\n    \"No clipping of essential elements\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title/description identifies product as 'Sriracha sauce' but labels clearly state 'SRIRACHA MAYO' — a condiment/sauce product, not a prepared dish\",\n    \"This is a packaged condiment bottle, not a finished food dish\"\n  ],\n  \"reason\": \"Rejection: The source material is a photograph of packaged condiment bottles (Lee Kum Kee Sriracha Mayo), not a finished, exposed, prepared food dish. While the photograph quality, sharpness, lighting and phone thumbnail are all acceptable, this fails the fundamental identity requirement: Tavue accepts finished dishes (home-cooked, restaurant, street food, etc.), not packaged retail products, ingredients, or condiments in their original packaging. The image shows a retail shelf display, not food ready for consumption as a meal or dish component.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1345,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 483,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

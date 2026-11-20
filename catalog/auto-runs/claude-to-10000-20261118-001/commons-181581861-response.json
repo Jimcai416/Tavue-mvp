@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDTLmeGPQU4vrVEGfVHo",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Red beer bottle with 'ROGUE' branding clearly visible\",\n    \"Hand holding bottle in center frame\",\n    \"Label text legible in thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title/description mismatch: title says 'Rogue - Sriracha Stout.jpg' but description claims 'Sriracha sauce'\",\n    \"This is a bottled beer, not a food dish suitable for Tavue food review\",\n    \"Description contradicts image content (beverage, not sauce)\"\n  ],\n  \"reason\": \"Rejection: This is a bottled sriracha hot stout beer, not a finished food dish. Tavue food review is designed for photographed dishes (prepared foods), not packaged beverages. The source metadata also contains a contradiction: the filename references 'Sriracha Stout' but the description incorrectly labels it 'Sriracha sauce'. While the photograph itself is sharp and well-composed, the subject matter falls outside the category of food dishes for review. Identity check fails due to fundamental mismatch between expected food content and actual beverage product.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1724,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 406,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

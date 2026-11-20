@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDTLpfawYt4FYNzUyrRM",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Cream-coloured liquid in bowl visible in thumbnail\",\n    \"Speckled surface consistent with bisque appearance\",\n    \"Bowl shape and plating recognizable at reduced resolution\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'Shrimp bisque' but no shrimp, shrimp meat, shrimp shells, or seafood garnish is visibly present in either full image or thumbnail\",\n    \"Liquid appears to be a plain cream soup with black pepper specks; no identifiable shrimp or seafood components visible\",\n    \"Cannot confirm seafood protein category from visual evidence alone\"\n  ],\n  \"reason\": \"Identity check fails. The source title declares 'Shrimp bisque', but the photograph shows only a smooth cream-coloured soup with pepper specks in a bowl. No shrimp, shrimp meat, shrimp shells, or any other identifiable seafood component is visible in the full source image or the phone thumbnail. The dish cannot be confirmed as containing the named protein. Per protocol, hidden flavours may be source-declared but cannot be visually proven, and in this case there is no visual support for the seafood identity required to match the canonical title. Hold would be appropriate if identity were ambiguous, but the explicit name–image mismatch (bisque named for a protein entirely absent from view) warrants rejection.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1732,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 457,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

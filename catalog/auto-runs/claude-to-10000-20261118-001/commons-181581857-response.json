@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDTLtkf4LmhQE2AEMpMh",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 5,\n    \"composition\": 5,\n    \"appeal\": 5\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Four red bottles clearly visible in phone thumbnail\",\n    \"Branding text readable as 'ROGUE' on each bottle\",\n    \"Rooster logo visible on label\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title describes 'Sriracha sauce' but image shows bottled beer (Rogue Sriracha Hot Stout Stout Beer)\"\n  ],\n  \"reason\": \"Rejection: This is a beverage (beer), not a food dish suitable for Tavue's food photography review. The source description claims 'Sriracha sauce' but the photograph clearly shows four bottles of Rogue Sriracha Hot Stout Beer with visible branding and rooster logo. The contradiction between source description and actual content, combined with the product being an alcoholic beverage rather than prepared food, makes this unsuitable for acceptance. Food photography review scope is finished, exposed dishes with visible food components—not packaged beverages or condiments.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1514,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 366,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
