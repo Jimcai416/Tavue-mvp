@@ -12315,3 +12315,10 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Satay chicken** — I,  BrokenSphere. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/); [source](https://commons.wikimedia.org/wiki/File:Satay_chicken.JPG). Local asset: `reviewed-commons-3470976.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Marqa (Douez)** — Casabus. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Marqa-douez.jpg). Local asset: `reviewed-commons-63850828.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Marqa (ragout à la tunisienne) au poulet et aux pommes de terre** — Citizen59. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:MarqaPoulet.jpg). Local asset: `reviewed-commons-7915443.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Omelet with herbs and mushrooms** — Valereee. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Blond_unbrowned_omelet_with_mushrooms_and_herbs.jpg). Local asset: `reviewed-commons-81738690.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Egg and spinach breakfast omelet** — Kurt Kaiser. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Egg_and_spinach_breakfast_omelet_2.jpg). Local asset: `reviewed-commons-107668288.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
