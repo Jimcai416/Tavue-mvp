@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChEZ9gQe9bP8hPkbtUTxc",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Golden-brown roasted potato cubes with visible char and spice coating\",\n    \"Green herb garnish (appears to be cilantro) on potato pieces\",\n    \"Thin flatbread (roti) visible at bottom of plate\",\n    \"Green chili visible at left side of plate\",\n    \"Professional plating on white dish\",\n    \"Natural, appetising coloration\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows clustered golden potato bhaji as central element\",\n    \"Roti and chili components visible and identifiable\",\n    \"Dish proportions and arrangement readable at thumbnail scale\",\n    \"No clipping of essential components\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title lists three components ('Bhaji, roti and mirchi') but provides no explicit dish name—it is a component list, not a canonical dish identity\",\n    \"Generic description 'simple indian food' contradicts the specific photographed composition and provides no authoritative dish classification\",\n    \"Bhaji alone is a category (vegetable fry); the specific variant (aloo bhaji, onion bhaji, etc.) is not named in source\",\n    \"Exact canonical name cannot be reliably extracted from metadata without introducing inference\"\n  ],\n  \"reason\": \"Image quality, sharpness, lighting, composition and appeal all meet standards; photograph and phone thumbnail both show a finished, exposed, sharply detailed dish with natural colour and appetising presentation. However, the source title is a component list ('Bhaji, roti and mirchi') rather than a canonical dish name, and the generic description provides no authoritative identity. The specific variant of bhaji (aloo bhaji, onion bhaji, or other regional type) is not stated in source. Without an explicit, specific dish name in the source title or description, canonical_name cannot be reliably assigned. Identity check fails. Hold for clarification of exact dish name.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1620,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 575,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
