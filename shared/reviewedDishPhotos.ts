@@ -142219,5 +142219,28 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 717,
     "height": 717,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-78706858",
+    "title": "File:Twilight Cafe and Deli Falafel Pita Sandwich (18560111150).jpg",
+    "author": "Willis Lam",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Twilight_Cafe_and_Deli_Falafel_Pita_Sandwich_(18560111150).jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/db/Twilight_Cafe_and_Deli_Falafel_Pita_Sandwich_%2818560111150%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "1111b52efc68c9da03330bfb26354a77f8a899a8",
+    "name": "Falafel Pita Sandwich",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-78706858.jpg",
+    "assetSha256": "f2125740986cebec09ce8fc995df89531e3fc4060565f17ae4cf50365421edc0",
+    "reviewedAt": "2026-11-20",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true,
+    "authorUrl": "https://www.flickr.com/people/85567416@N03"
   }
 ];

@@ -11222,3 +11222,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Yam porridge with vegetable soup** — Bukky658. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Yam_porridge_with_vegetable_soup.jpg). Local asset: `reviewed-commons-102722565.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Falafel Pita Sandwich** — [Willis Lam](https://www.flickr.com/people/85567416@N03). [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:Twilight_Cafe_and_Deli_Falafel_Pita_Sandwich_(18560111150).jpg). Local asset: `reviewed-commons-78706858.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
