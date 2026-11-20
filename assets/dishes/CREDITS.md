@@ -11718,3 +11718,10 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Chicken with hilopites** — Badseed. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Chicken_with_hilopites.JPG). Local asset: `reviewed-commons-6073321.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Memela bandera** — Luisalvaz. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Memela_bandera_en_mercado_de_Puebla.jpg). Local asset: `reviewed-commons-85616854.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Memela bandera en mercado de Puebla** — Luisalvaz. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Memela_bandera_en_mercado_de_Puebla_2.jpg). Local asset: `reviewed-commons-85616856.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Memela con quesillo en Puebla** — Luisalvaz. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Memela_con_quesillo_en_Puebla.jpg). Local asset: `reviewed-commons-85617320.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Sopes (maíz, nopal, espinacas, chía y linaza)** — Cardenascaru. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Elaboraci%C3%B3n_de_Sopes_(ma%C3%ADz,_nopal,_espinacas,_ch%C3%ADa_y_linaza)_en_un_Sistema_Econ%C3%B3mico_Familiar.jpg). Local asset: `reviewed-commons-97317382.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
