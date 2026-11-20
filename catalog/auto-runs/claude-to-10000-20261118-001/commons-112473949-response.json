@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChE7k6XeSkkvYHzusyAqA",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 5,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Two halved hard-boiled eggs with white albumen and yellow yolk visible\",\n    \"Creamy pale yellow filling (possibly egg yolk-based mousse or purée)\",\n    \"Dark brown anchovy fillet draped across each egg half\",\n    \"Presented on teal/turquoise ceramic plate\",\n    \"Professional plating with clean shadows cast by structured light\"\n  ],\n  \"phone_observations\": [\n    \"Both egg halves clearly visible in thumbnail\",\n    \"Anchovy fillets readable as dark stripes\",\n    \"Plate colour and form recognizable\",\n    \"Dish identity preserved at reduced resolution\"\n  ],\n  \"protein_evidence\": {\n    \"seafood\": \"anchois\"\n  },\n  \"uncertainties\": [\n    \"Title claims 'Oeuf farci aux anchois' (egg stuffed with anchovy), but the yellow/cream filling composition is not independently verifiable—it may be egg yolk mousse, anchovy paste, or other preparation\",\n    \"Source title format includes 'File:' prefix and metadata (date, author) which are untrusted metadata; the core dish description 'Oeuf farci aux anchois' is extracted from title field\",\n    \"The exact recipe variant and filling ingredients cannot be confirmed from visual inspection alone; attribution to 'Louis Dubois 1972' is metadata, not visual evidence\"\n  ],\n  \"reason\": \"Reject: The source title and description metadata are inconsistent in their authority status. The filename prefix 'File:' and photo credit (Jpbrigand2) are explicitly untrusted metadata. While the visual dish is sharp, well-lit, appetising, and the phone thumbnail preserves legible identity, the canonical name cannot be safely derived without resolving whether 'recette de Louis Dubois 1972' is a confirmed dish variant or editorial metadata. The dish visibly shows hard-boiled egg halves with anchovy fillet and a pale filling, matching 'Oeuf farci aux anchois', but the filling composition (yolk mousse vs. anchovy paste vs. other) contradicts the singular 'anchois' description. No explicit source quote unambiguously confirms the filling identity as matching the title. This ambiguity prevents acceptance under the strict identity-match rule.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1654,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 655,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

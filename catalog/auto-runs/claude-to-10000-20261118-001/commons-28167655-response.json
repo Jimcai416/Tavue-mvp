@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChE7kE4aEFSiPGmhHrhgw",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Finished, cooked sausage with golden-brown crust\",\n    \"Green sauce base with visible peas, diced vegetables, and spring onion rings\",\n    \"Professional plating on white plate\",\n    \"Natural colour and sharp detail in both full and thumbnail images\"\n  ],\n  \"phone_observations\": [\n    \"Sausage clearly visible and prominent in thumbnail\",\n    \"Green sauce and components readable\",\n    \"No clipping of essential elements\",\n    \"Thumbnail matches full image content\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Species of meat in sausage unknown—'boudin blanc' is traditionally pork-based, but no explicit animal naming in source description\",\n    \"Source metadata labels this 'File:Boudin blanc par Bruno Loubet.jpg', but filename and photographer credit are metadata, not title/description\",\n    \"No confirmed source title or description provided separately from metadata\"\n  ],\n  \"reason\": \"The photograph shows a well-presented sausage (consistent with boudin blanc) on a green sauce with vegetables. Quality, sharpness, lighting, and composition all meet standards; both full and thumbnail images are clear and appetising. However, the identity check fails because the source provides only metadata (filename, photographer, license) with no explicit title or description field. The dish name 'Boudin blanc' appears only in the filename, which is explicitly excluded from canonical naming. Additionally, while boudin blanc is traditionally pork, the source contains no explicit statement of the meat species. Protocol requires that proteins be named only via exact source quote explicitly naming the animal, never inferred from tradition or generic 'sausage' designation. Without a separate, confirmed source title/description field and an explicit animal name, identity cannot be verified and species cannot be confirmed. Hold pending clarification of the actual source title and meat composition statement.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1726,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 553,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

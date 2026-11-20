@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChE7jyTzZWWPK1DnRgHfj",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Cheese wheel cross-section visible on wooden surface\",\n    \"Dark coating/rind with visible texture\",\n    \"Pale interior visible at cut edge\",\n    \"Crumbly dark particles scattered around base\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title truncated: 'Tomme de savoie au marc rais' is incomplete; full phrase cannot be verified\",\n    \"Metadata shows 'File:' prefix and partial description; exact canonical source phrase unavailable\",\n    \"Cannot confirm whether this is a finished, exposed dish suitable for food service review versus a cheesemaker's documentation photo\"\n  ],\n  \"reason\": \"Source title is incomplete/truncated ('Tomme de savoie au marc rais' vs. expected 'Tomme de savoie au marc de raisin'). The image appears to be a cheese wheel cut or cross-section photographed on a work surface for documentation/reference purposes rather than a finished plated dish. While the photograph itself is sharp and well-lit, Tavue's review criteria require a finished, exposed, likely photographic dish—this appears to be a cheese reference or production documentation photo. Incomplete metadata prevents canonical_name extraction with confidence. Identity check fails due to truncated source description.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1633,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 432,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

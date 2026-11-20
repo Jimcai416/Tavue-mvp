@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChE7kWp8hHbwwZYZwZdgL",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Finished, cooked dish in rich tomato-based sauce\",\n    \"Leafy green vegetable (appears to be grape leaves or similar) wrapped/rolled and filled, prominent in centre\",\n    \"Red-brown broth with visible herb/spice speckling\",\n    \"Served on clean white plate\",\n    \"Natural colour, appetising presentation\"\n  ],\n  \"phone_observations\": [\n    \"Dish remains clearly visible and identifiable at thumbnail size\",\n    \"Central wrapped item and sauce visible\",\n    \"Essential components readable in reduced format\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title indicates 'viande hachée' (minced meat) filling but no specific animal species is named in the source description\",\n    \"The wrapped vegetable appears to be grape leaves or similar, consistent with dolma/poivron farci tradition, but exact filling composition is not visible and species of meat is unspecified\",\n    \"Description incomplete: 'This is an image of food from' – source description cuts off without completing the country/region statement beyond the filename's 'Tunisie' hint\"\n  ],\n  \"reason\": \"Cannot accept without explicit protein identification. The title 'Poivron farci viande hachée, Tunisie' names minced/ground meat as filling but does not specify beef, pork, lamb, chicken, duck or seafood. The generic term 'viande hachée' is insufficient. Ambiguous meat species, combined with incomplete source description, requires hold pending clarification of exact animal protein.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1982,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 492,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
