@@ -12945,3 +12945,23 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 
 - **Calisson from fruidoraix** — Loak14. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Calisson_fruidoraix.jpg). Local asset: `reviewed-commons-53026244.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Religieuse à la vanille** — Thomon. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Religieuse_%C3%A0_la_vanille.jpg). Local asset: `reviewed-commons-98891441.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Rag Pudding with Chips and Gravy** — Jza84. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Rag_Pudding_with_Chips_and_Gravy.jpg). Local asset: `reviewed-commons-40938274.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Victoria sponge cake** — Kolforn   ( Kolforn )  
+ I'd appreciate if you could mail me  (Kolforn@gmail.com)  if you want to use this picture out of the Wikimedia project scope. 
+ 
+    
+        
+              This file is licensed under the  Creative Commons   Attribution-Share Alike 4.0 International  license.  
+  You are free:
+   to share  – to copy, distribute and transmit the work 
+  to remix  – to adapt the work   
+ Under the following conditions:
+   attribution  – You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use. 
+  share alike  – If you remix, transform, or build upon the material, you must distribute your contributions under the  same or compatible license  as the original.      https://creativecommons.org/licenses/by-sa/4.0  CC BY-SA 4.0   Creative Commons Attribution-Share Alike 4.0   true  true. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:-2016-10-16_Victoria_sponge_cake,_Trimingham,_Norfolk.JPG). Local asset: `reviewed-commons-121415796.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Black Forest Cake** — [Willis Lam](https://www.flickr.com/people/85567416@N03). [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:3_Slices_Black_Forest_Cake_from_Bryan%27s_Grocery_(41039152472).jpg). Local asset: `reviewed-commons-78706380.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Linzer Torte** — [Alfred Lui](https://flickr.com/people/69843317@N00). [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:Linzer_Torte_serving.jpg). Local asset: `reviewed-commons-10206888.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Victoria Sponge** — Andy Li. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Victoria_Sponge_-_The_Royal_Pavilion_Rooms_2025-06-25.jpg). Local asset: `reviewed-commons-168520064.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Original Sacher-Torte** — Sacher Hotels Betriebsgesellschaft m.b.H.. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Original_Sacher-Torte_%C2%A9Hotel_Sacher.jpg). Local asset: `reviewed-commons-82033807.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
