@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDgLH7YaFWTMcM94x2kv",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 3,\n    \"lighting\": 2,\n    \"composition\": 2,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows rice dish in metal pot during cooking/stirring\",\n    \"Ingredients partially mixed, preparation stage evident\",\n    \"No finished plated presentation\",\n    \"Subject remains in cookware, not served\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Image shows mid-preparation cooking stage, not finished dish\",\n    \"Rice and vegetables are actively being stirred in pot\",\n    \"No plated or exposed finished state visible\",\n    \"Lighting is dim with shadow cast over much of the bowl\"\n  ],\n  \"reason\": \"Reject: This is a preparation/cooking stage photograph, not a finished, exposed dish. The image shows takikomi gohan (Japanese mixed rice) actively being cooked in a pot with ingredients mid-stir. The bowl remains in cookware, not plated or served. Quality checks fail: poor lighting with heavy shadows, low composition appeal (cooking equipment dominance), and soft focus. Phone thumbnail confirms preparation state rather than appetizing finished presentation. Per guidelines, raw/preparation stages must be rejected.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1531,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 379,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
