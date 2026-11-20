@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChETdzTBHwWquxPfB5As1",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [\n    \"Multiple whole poultry birds hung in display case\",\n    \"Golden-brown exterior colour consistent with roasting\",\n    \"Butchered pieces visible in serving tray below\",\n    \"Commercial restaurant display setting\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail shows hung birds and meat pieces in serving tray\",\n    \"Golden-brown colour visible but individual details limited at small scale\",\n    \"Composition sufficient to identify food category\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title lists both 'Ayam Betutu' (chicken) AND 'Bebek Betutu' (duck) as a combined dish, but the two poultry species cannot be reliably distinguished by appearance in this photograph\",\n    \"No single unambiguous species identification possible from visual inspection alone\",\n    \"Title describes two different animals but does not specify which birds are which in the display\"\n  ],\n  \"reason\": \"Ambiguous protein identity: source description claims both chicken (Ayam Betutu) and duck (Bebek Betutu) are present and served together, but visual differentiation between the two poultry species is not reliably possible in this photograph. The thumbnail and full image show hung whole birds and prepared meat pieces in golden-brown colour, but cannot confirm which birds are chicken and which are duck. Per protocol, ambiguous meat species results in hold. However, the fundamental issue is that the dish is presented as a mixed offering of two distinct species without clear visual separation or labelling. This creates unresolvable identity uncertainty that cannot be preserved in a canonical name without invention. Rejection is appropriate.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1780,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 506,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
