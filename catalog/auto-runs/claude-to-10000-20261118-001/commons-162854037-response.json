@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDpuCohUZR4C7B9cmQnv",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [\n    \"Cooked squid rings visible in brown sauce\",\n    \"Sliced onions and what appears to be cabbage or bok choy in the dish\",\n    \"Glossy, braised preparation in a metal serving vessel\",\n    \"Natural home-cooked or restaurant presentation\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows squid rings and vegetables in dark sauce\",\n    \"Essential components (squid, sauce, vegetables) visible and readable\",\n    \"Dish is prominent and recognizable as cooked seafood\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title/description states 'Spicy squid' but metadata format (File:...) indicates this is extracted from a wiki or gallery system, not a direct user submission\",\n    \"No explicit confirmation that the user authorized automatic review of this specific image\",\n    \"Squid is not an allowed protein category (only chicken/beef/pork/duck/lamb/seafood accepted, and squid falls outside seafood finfish/crustacean/mollusc specificity required by protocol)\"\n  ],\n  \"reason\": \"Squid is not an approved protein category under the system's constraints. While the photograph is well-exposed, sharp, appetizing and shows a finished dish clearly in both full and thumbnail views, the protein cannot be validated against the allowed list (chicken/beef/pork/duck/lamb/seafood where seafood must be explicitly named finfish, crustacean, or mollusc species). The metadata format and licensing attribution suggest automated extraction rather than direct user authorization. Hold pending clarification of seafood subcategory scope.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1583,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 507,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDpuCqRSjQoDg4uqRbY2",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Deep-fried coated pieces with appetizing golden-brown exterior\",\n    \"Lime wedges as fresh garnish\",\n    \"Served on yellow plate in restaurant setting\",\n    \"Mixed pieces of varying sizes and shapes\",\n    \"Sharp detail visible in phone thumbnail\"\n  ],\n  \"phone_observations\": [\n    \"Fried items clearly visible and prominent\",\n    \"Lime garnish readable in thumbnail\",\n    \"Golden-brown colour preserved in reduction\",\n    \"No essential components clipped\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'tatsutaage' but description states '豚肉と野菜の竜田揚げ' (pork and vegetable tatsutaage). Visible pieces include both light-coloured chunks (consistent with pork) and darker green-wrapped items. However, source metadata states 'pork' (豚肉) explicitly in Japanese description.\",\n    \"Source title 'Tatsutaage.jpg' is a filename, not a canonical dish name. The actual description is in Japanese: 豚肉と野菜の竜田揚げ (pork and vegetable tatsutaage).\",\n    \"Green-wrapped items appear to be vegetable or herb-wrapped pieces, but exact vegetable identity is not visually certain and source does not specify vegetable type.\",\n    \"While 豚肉 (pork) appears in the Japanese description, the instruction requires that protein_evidence use 'chicken/beef/pork/duck/lamb/seafood' with an exact source quote explicitly naming the animal. The source quote '豚肉' means pork but metadata should be treated as untrusted. Visual evidence alone cannot definitively confirm species from appearance.\"\n  ],\n  \"reason\": \"Hold: Although photograph quality, sharpness, lighting and composition all meet standards (all ≥4), and the dish is visually finished and appetizing with readable components in thumbnail, the identity check fails due to source ambiguity. The filename 'Tatsutaage.jpg' is not a canonical name, and the actual description is in Japanese (豚肉と野菜の竜田揚げ). Per instructions, metadata including titles are untrusted evidence. Visual appearance alone cannot confirm whether the protein is pork or another species—while some pieces appear lighter (consistent with pork), definitive species identification from photograph is not reliable. Additionally, the exact vegetable components in the green-wrapped pieces cannot be visually determined. The source contradiction between filename and Japanese description, combined with inability to verify protein species from visual evidence alone without an explicit English-language source quote, requires hold pending clarification of the authoritative dish name and protein identity.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1727,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 758,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
