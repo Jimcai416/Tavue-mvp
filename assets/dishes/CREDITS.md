@@ -11522,3 +11522,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 
 - **Ambuyat** — e_chaya. [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Ambuyat_in_Bandar_Seri_Begawan_Brunei.jpg). Local asset: `reviewed-commons-29820293.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Goto (Rice Porridge)** — MarvinBikolano. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Goto_(Rice_Porridge).jpg). Local asset: `reviewed-commons-143343042.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **set of baklawa sweets from Nablus. baklawa, balooryah, osh elbolbol and other nawashef** — RabahK. [Public domain](https://creativecommons.org/publicdomain/mark/1.0/); [source](https://commons.wikimedia.org/wiki/File:Baklawa_Sweets.jpg). Local asset: `reviewed-commons-10472416.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.

@@ -145403,5 +145403,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 540,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-10472416",
+    "title": "File:Baklawa Sweets.jpg",
+    "author": "RabahK",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Baklawa_Sweets.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/47/Baklawa_Sweets.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "81a507e99e2a567f03c95bed2276a7751e0ffb1f",
+    "name": "set of baklawa sweets from Nablus. baklawa, balooryah, osh elbolbol and other nawashef",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-10472416.jpg",
+    "assetSha256": "311eefbbca8bba6c88d690add062e271d7a85fa1e3cd3dc63b1d1b23f0708467",
+    "reviewedAt": "2026-11-20",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];
