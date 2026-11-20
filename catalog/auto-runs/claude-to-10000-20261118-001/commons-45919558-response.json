@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDwcDxVKQbFAUeZCJGDU",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Creamy tan/beige sauce with visible meat pieces and spice flecks\",\n    \"Smooth, finished sauce texture consistent with stewed/braised dish\",\n    \"Natural lighting, appetising colour and presentation in white bowl\",\n    \"Meat components visible as darker, cooked fragments suspended in sauce\"\n  ],\n  \"phone_observations\": [\n    \"Cream-coloured sauce clearly visible in thumbnail\",\n    \"Meat pieces readable as darker elements in centre-cover crop\",\n    \"Bowl rim and essential dish components present and not clipped\",\n    \"Sufficient detail to confirm finished, cooked dish\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title phrase 'Un fel de ciulama' translates to 'A kind of ciulama' but does not name specific meat species\",\n    \"Ciulama is a Romanian stew traditionally made with beef, pork, or other meats, but no explicit species declared in source title or description\",\n    \"Meat species cannot be inferred from appearance alone; source metadata does not state which animal protein is used\",\n    \"No exact quoted meat species name in title or description to populate protein_evidence\"\n  ],\n  \"reason\": \"Identity check fails: source title is non-specific ('A kind of ciulama') and does not declare the meat species explicitly required by protocol. Although the photograph shows a finished, well-lit, appetising stewed dish with readable meat and sauce components in both full image and phone thumbnail (all quality, photograph, and phone checks pass with scores ≥4), the absence of an explicit, quoted meat species name in the title or description prevents canonical identity establishment. Hold pending clarification of protein type from reliable source metadata.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1295,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 523,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
