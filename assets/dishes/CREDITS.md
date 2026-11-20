@@ -12095,3 +12095,8 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Chole bature** — Akashdoley13. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Chole_bature.jpg). Local asset: `reviewed-commons-154359359.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Rabanadas** — José Conçalves. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Rabanadas_-_Natal.JPG). Local asset: `reviewed-commons-12442481.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Rabanadas Dessert aus Portugal** — Markus Fliegen. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Rabanadas_Dessert_aus_Portugal.webp). Local asset: `reviewed-commons-157887578.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
