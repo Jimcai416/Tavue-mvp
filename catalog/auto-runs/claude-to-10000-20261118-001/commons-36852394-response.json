@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChEPK3GMANJmx7VefwuAn",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 2,\n    \"composition\": 1,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Phone thumbnail shows only person's face and upper torso; dish is not visible or identifiable in centre-cover frame\",\n    \"No food detail, colour, texture or form distinguishable in thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title field contains 'File:' prefix and incomplete metadata ('This is an image of food from' – truncated description)\",\n    \"Source description is non-standard and incomplete; no clear canonical dish name provided\",\n    \"Dish identity cannot be confirmed from phone thumbnail alone\"\n  ],\n  \"reason\": \"Rejection on multiple grounds: (1) Phone thumbnail fails primary acceptance criterion – the dish is not visible in the 124x96 centre-cover frame; only the person holding it is shown. (2) Full photograph fails composition and appeal scores (both 1–2) due to casual domestic setting, poor framing, and subject-centric rather than food-centric composition. (3) Source metadata is malformed (retains 'File:' prefix, incomplete description field). (4) Sharpness and lighting are poor (scores 2). (5) This is a domestic snapshot of a person, not a professional or representative food photograph. No readable essential food components in phone thumbnail. Dish identity unconfirmed from metadata alone.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1450,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 434,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
