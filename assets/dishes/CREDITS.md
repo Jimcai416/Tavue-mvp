@@ -12005,3 +12005,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 - **Bokkeum-bap** — ecodallaluna. [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:Bokkeum-bap.png). Local asset: `reviewed-commons-88881047.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Kimchi-bokkeum-bap (Kimchi fried rice)** — Andy Li. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Kimchi-bokkeum-bap_(Kimchi_fried_rice)_-_Kogi_2023-09-11.jpg). Local asset: `reviewed-commons-137420234.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Odolppyeo-bokkeum (stir-fried pork cartilage)** — Charles Haynes. [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:Odolppyeo-bokkeum.jpg). Local asset: `reviewed-commons-88496018.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **saeu-aehobak-bokkeum (stir-fried Korean zucchini and shrimp)** — Dr 방원장. [CC BY 4.0](https://creativecommons.org/licenses/by/4.0); [source](https://commons.wikimedia.org/wiki/File:Saeu-aehobak-bokkeum.jpg). Local asset: `reviewed-commons-60261447.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.

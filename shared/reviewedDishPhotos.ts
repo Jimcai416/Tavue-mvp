@@ -150548,5 +150548,29 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 640,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-60261447",
+    "title": "File:Saeu-aehobak-bokkeum.jpg",
+    "author": "Dr 방원장",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Saeu-aehobak-bokkeum.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Saeu-aehobak-bokkeum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "151605ffa38c6682f56504850d4d18a658d13535",
+    "name": "saeu-aehobak-bokkeum (stir-fried Korean zucchini and shrimp)",
+    "aliases": [],
+    "proteins": [
+      "seafood"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-60261447.jpg",
+    "assetSha256": "4b9a93015e05bef1dedc2ee1cc638120c749d4027e75bb7f2d7637fb2ef9df3e",
+    "reviewedAt": "2026-11-20",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 640,
+    "requiresExactMenuName": true
   }
 ];
