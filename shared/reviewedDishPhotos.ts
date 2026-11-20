@@ -160578,5 +160578,51 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "height": 600,
     "requiresExactMenuName": true,
     "authorUrl": "https://www.flickr.com/people/10559879@N00"
+  },
+  {
+    "id": "commons-145348671",
+    "title": "File:Fondue chinoise (Sichuan) 2.jpg",
+    "author": "Feuille d-Acacias",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fondue_chinoise_(Sichuan)_2.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/67/Fondue_chinoise_%28Sichuan%29_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "a4efdf5cbab0df98225858408249694c3e2da0c2",
+    "name": "Fondue chinoise (Sichuan)",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-145348671.jpg",
+    "assetSha256": "b764f2dcc787bbafbea7b7bc4008af8bba7da5a8c6737cec08837819a565f3eb",
+    "reviewedAt": "2026-11-20",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-155112806",
+    "title": "File:Tasting the Regular-Size Chicken Paprika Pizza at Domino's Bali Arcade 03.jpg",
+    "author": "Owais Al Qarni",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tasting_the_Regular-Size_Chicken_Paprika_Pizza_at_Domino%27s_Bali_Arcade_03.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Tasting_the_Regular-Size_Chicken_Paprika_Pizza_at_Domino%27s_Bali_Arcade_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "48ac4f77474240d6d9fdf04eb4e901ef2833effe",
+    "name": "Regular-Size Chicken Paprika Pizza",
+    "aliases": [],
+    "proteins": [
+      "chicken"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-155112806.jpg",
+    "assetSha256": "f2111f168735b6bfc9e35c02caef0b44e026e7d2c774be373753f975271d8da6",
+    "reviewedAt": "2026-11-20",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 542,
+    "requiresExactMenuName": true
   }
 ];
