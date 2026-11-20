@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDjq3hKWEer1Hj7w7AGP",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Golden-brown fried patties visible on plate\",\n    \"Green beans on side\",\n    \"Orange/red vegetables (described as parsnips and carrots) on side\",\n    \"Home-cooked plated dinner setting\",\n    \"Natural lighting, wooden table\"\n  ],\n  \"phone_observations\": [\n    \"Plate clearly visible with fried patties, vegetables, and beans\",\n    \"Golden-brown coating on main items readable\",\n    \"Side vegetables and green beans distinguishable\",\n    \"Adequate detail for dish identification\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Arctic Char is a named fish species in source title/description, but Tavue protein_evidence category keys are restricted to: chicken, beef, pork, duck, lamb, seafood. 'Arctic Char' is a specific salmonid, not a generic 'seafood' category—identity mismatch creates ambiguity in how to represent this protein.\",\n    \"Source description mentions 'Flaked cooked Arctic Char' and 'finely chopped anchovies' as ingredients, but neither 'Arctic Char' nor 'anchovy' map cleanly to the allowed protein category keys without loss of meaningful regional/species qualification.\",\n    \"Specification rules state proteins may include only chicken/beef/pork/duck/lamb/seafood, with exact source quote naming each animal. 'Arctic Char' and 'anchovies' are named but neither is one of the six allowed category keys.\"\n  ],\n  \"reason\": \"Image quality, composition, lighting, and phone thumbnail all meet acceptance thresholds. Identity and dish form are clear: the visible fried patties, breadcrumb coating, side vegetables (green beans, parsnips/carrots), and plating match the source description of fishcakes. However, the source names 'Arctic Char' and 'anchovies' as the fish proteins, which do not map to the restricted protein_evidence category keys (chicken/beef/pork/duck/lamb/seafood). Arctic Char is a specific salmonid species; anchovies are a named small fish. The rule requires exact source quotes naming animals that fit the allowed categories, and permits no inference or species guessing. The uncertainty about how to represent these specific, named fish species within the constrained category system means identity check cannot be confirmed as fully satisfied. Hold pending clarification of whether 'seafood' is intended to absorb all finfish species including Arctic Char and anchovy, or whether the specific names must be preserved in protein_evidence keys.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1863,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 713,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
