@@ -12113,3 +12113,10 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 
 - **Rasabali, Odisha traditional sweet** — Prateek Pattanaik. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Rasabali,_Odisha_traditional_sweet.jpg). Local asset: `reviewed-commons-122787616.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Rasabali** — Swetapadma07. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Rasabali.JPG). Local asset: `reviewed-commons-47034613.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Home made Sukto-Delhi** — Sumita Roy Dutta. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Home_made_Sukto-Delhi-IMG_20210326_140024.jpg). Local asset: `reviewed-commons-102347100.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Sukto** — Sushant savla. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Sukto_1.jpg). Local asset: `reviewed-commons-102879325.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **South Indian Dosa** — Skyb1891. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Samber_Dosa_Chutney.JPG). Local asset: `reviewed-commons-40815355.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Tomato Dosa** — Apoorva lakshmi. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Tomato_Dosa_chutney.jpg). Local asset: `reviewed-commons-40754063.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
