@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChEiA77VupdASE64PtJtx",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Brown glazed meat patty visible in ceramic dish\",\n    \"Diced potatoes and corn garnish present\",\n    \"Rice and coleslaw side dishes clearly shown\",\n    \"Broth/soup accompaniment in cup\",\n    \"Restaurant plating style evident\"\n  ],\n  \"phone_observations\": [\n    \"Central dish clearly readable in thumbnail\",\n    \"Main meat component prominent\",\n    \"Side dishes visible but partially compressed\",\n    \"Adequate detail for dish identification at phone scale\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title references 'Hamburg Steak' but this is a translated/transliterated term; standard English identification is 'Hamburger Steak' or 'Hamburg Steak (Japanese style)'\",\n    \"Description is in Japanese; metadata title uses File: prefix and Japanese characters mixed with romanization\",\n    \"Exact canonical form unclear: should it preserve 'Hamburg Steak' as written in English title, or is 'Saizeriya Hamburg Steak with Demi-Glace Sauce' the intended canonical phrase?\",\n    \"No explicit protein species confirmation in source text—'Hamburg' suggests beef by convention but is not stated\"\n  ],\n  \"reason\": \"Identity check fails. The source metadata format is non-standard (File: prefix, mixed Japanese/romanized description). The title 'Saizeriya Hamburg Steak with Demi-Glace Sauce' uses a transliterated/translated term ('Hamburg') rather than a standard English dish name, creating ambiguity about canonical form. More critically, no explicit protein species is stated in the source—while 'Hamburg Steak' conventionally implies beef, this is not visually or textually confirmed in the provided metadata. Per protocol, unknown or unconfirmed meat species requires a hold. The photograph and phone thumbnail are of good quality, but identity and protein certainty cannot be satisfied.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1767,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 574,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

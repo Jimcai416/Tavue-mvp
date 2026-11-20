@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChEi9uieWkf7q9MV4EarZ",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"White rice in bowl, clearly visible and appetizing\",\n    \"Brown demi-glace sauce over what appears to be ground meat patty\",\n    \"Soft-boiled egg halves with visible runny yolk\",\n    \"Mixed vegetables including corn and broccoli\",\n    \"Finished dish presentation in takeout container\"\n  ],\n  \"phone_observations\": [\n    \"Both components clearly visible in thumbnail\",\n    \"Rice bowl and curry/sauce bowl both readable\",\n    \"Egg and sauce elements distinguishable\",\n    \"Overall composition preserved in reduction\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title references 'Hamburg' (ハンバーグ) but source metadata contains only Japanese filename and price—no English dish name provided in title or description fields\",\n    \"Hamburg could indicate hamburger/ground beef patty, but no explicit protein animal name appears in the actual title or description supplied\",\n    \"Description is Japanese price label only; identity confirmation requires explicit English title match\",\n    \"Cannot confirm whether this is 'demi-glace hamburger don' or alternative protein without source declaring the dish name in English\"\n  ],\n  \"reason\": \"Identity check fails: the metadata title is a filename only ('File:Hamburg...') and the description field contains only a Japanese price tag (ファミリーマート デミたまハンバーグ丼（498円）), not an English dish name. Although 'Hamburg' and 'demi-glace' are visually supported and the photograph is high-quality with strong appeal, there is no exact English source title or description to match against canonical_name. Protein cannot be confirmed because no explicit animal name appears in the supplied source text. Hold pending a clear English source title/description that names the dish and any meat explicitly.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1473,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 545,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
