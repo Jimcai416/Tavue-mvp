@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDxW92GkjswBT8vkUSrH",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Two crispy fried pastry rolls with golden-brown exterior\",\n    \"Filled with shredded vegetables and what appears to be tofu or similar protein\",\n    \"Plated on light blue/grey ceramic plate\",\n    \"Natural daylight illumination\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows two fried pastry rolls\",\n    \"Filled components visible through broken sections\",\n    \"Plate and plating recognisable\",\n    \"Overall composition readable\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source identifies as 'Chinese loempia' but actual dish identity and name spelling are ambiguous—'loempia' and 'lumpia' refer to spring rolls with no standardised single English transliteration\",\n    \"Protein filling is not explicitly named in source title or description; visible component appears to be tofu but cannot be confirmed from provided text\",\n    \"Exact filling ingredients and meat species (if any) are undeclared in source metadata\",\n    \"Commercial product from Lidl: source lacks ingredient list or canonical dish name\"\n  ],\n  \"reason\": \"Reject: Identity check fails. The source title provides only a generic transliterated term ('Chinese loempia'/'lumpia') without a specific dish name, regional variant, or declared filling ingredients. The protein content is not explicitly named in the supplied title or description—visible filling appears to be tofu and vegetables, but this is visual inference, not source-declared. Without a specific canonical name matching source text and explicit protein identification via source quote, identity cannot be verified. The photograph quality is acceptable, but metadata insufficiency and lack of verifiable dish identity prevent acceptance.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1669,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 514,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
