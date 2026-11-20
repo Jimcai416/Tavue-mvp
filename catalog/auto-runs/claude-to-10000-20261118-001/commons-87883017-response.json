@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDqVXY2JpkC8Ko2E9Tej",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 5,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Artisan sourdough cob with scored diamond pattern\",\n    \"Golden-brown baked crust with white flour dusting\",\n    \"Visibly finished bread loaf, not raw dough or preparation stage\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows complete baked bread with scored pattern\",\n    \"Crust colour and flour dusting readable at reduced size\",\n    \"Subject prominent and unclipped\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title contains 'File:' prefix and filename syntax, not a clean dish name\",\n    \"Description provides baking notes (flour blend, fold count, proof time) rather than a canonical dish identifier\",\n    \"No standard menu or recipe name supplied; identity rests on inferred 'sourdough cob' from metadata rather than explicit dish title\"\n  ],\n  \"reason\": \"Although the photograph is sharp, well-lit and shows a finished, appetising artisan bread with excellent composition, the source metadata does not provide a proper canonical dish name. The title field contains a filename prefix ('File:') and the description is a baking process note rather than a dish identifier. Tavue requires an exact, clean source title or description phrase for canonical_name. The image itself meets all quality criteria, but cannot be accepted without proper identity documentation matching the submission requirements.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1852,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 442,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
