@@ -137884,5 +137884,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-21520208",
+    "title": "File:Testaroli, taglio.jpg",
+    "author": "Sailko",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Testaroli,_taglio.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/98/Testaroli%2C_taglio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "78ec8aa3f043b638e462070d1777d33075d41856",
+    "name": "Testaroli",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-21520208.jpg",
+    "assetSha256": "74a62d65eb2066f8d96461f2b77c6c52ba76e35c855b30dfa7af359f6b129561",
+    "reviewedAt": "2026-11-20",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 720,
+    "height": 960,
+    "requiresExactMenuName": true
   }
 ];

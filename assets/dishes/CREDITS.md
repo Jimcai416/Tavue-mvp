@@ -10807,3 +10807,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Rajas poblanas, asadas al fuego** — El Mono Español. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Chile_en_rajas.jpg). Local asset: `reviewed-commons-91110864.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Testaroli** — Sailko. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Testaroli,_taglio.jpg). Local asset: `reviewed-commons-21520208.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
