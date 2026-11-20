@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChEpkZxvHhXaapZkezHr6",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 3,\n    \"lighting\": 3,\n    \"composition\": 2,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows a yellow fishing boat on water\",\n    \"No food dish visible in phone thumbnail\",\n    \"Vessel and maritime equipment dominate the frame\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source describes a fishing operation (centolla/king crab fishing), not a finished food dish\",\n    \"No prepared, cooked, or exposed food visible in either photograph\",\n    \"Image shows raw ingredient harvesting stage, not a plated or finished dish\"\n  ],\n  \"reason\": \"This is a documentary photograph of a fishing vessel engaged in king crab (centolla) harvesting in Ushuaia Bay. It shows the preparation/harvesting stage of a raw ingredient, not a finished, exposed, cooked dish. The subject is maritime infrastructure and fishing operations, not food. No appetising, finished dish is visible in the full source or thumbnail. Fails identity (not a food dish), quality (no food present), and variant_preserved (no dish to preserve) checks.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1768,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 367,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
