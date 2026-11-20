@@ -12777,3 +12777,8 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Travesseiro de Sintra and Queijada de Sintra** — [Philip Mallis  from Melbourne](https://www.flickr.com/people/122687277@N03). [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Travesseiro_de_Sintra_and_Queijada_de_Sintra_bakery_pastries_in_Sintra,_Portugal_(55139884975).jpg). Local asset: `reviewed-commons-191827062.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Crema de lentejas rojas** — E4024. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Crema_de_mercimek.jpg). Local asset: `reviewed-commons-38196866.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Ezogelin** — E4024. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Ezogelin.jpg). Local asset: `reviewed-commons-37738955.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
