@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChERPhGh31w2E3zvwowrv",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Sausages visible in red tomato-based sauce in serving tray\",\n    \"Cooked, finished dish appearance\",\n    \"Natural colour and appetising presentation\"\n  ],\n  \"phone_observations\": [\n    \"Sausages and sauce clearly visible in thumbnail\",\n    \"Essential components readable at reduced size\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Species of sausage unknown: 'longanizas' is a regional type but specific meat composition (pork, beef, etc.) cannot be verified from source metadata alone\",\n    \"Cannot confirm animal species from title or visible form; 'longanizas' does not explicitly name the meat in the provided source description\"\n  ],\n  \"reason\": \"Reject: sausage species is unspecified. The title 'Longanizas con pisto de verduras y tomate frito' does not explicitly name the meat animal (pork, beef, etc.). Longanizas is a regional sausage type, but without explicit source declaration of the specific meat, the protein category cannot be supported. Per protocol, unknown meat species and sausage without explicit animal identification mandate hold/reject. All quality and photograph checks pass, but identity check fails due to unverifiable protein species.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1749,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 424,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
