@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChE8ktuJ75rwKj14snLBm",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Golden-brown fried pastries in aluminium tray\",\n    \"Multiple elongated and triangular fried items\",\n    \"Natural daylight, appetising colour\",\n    \"Clear food detail in phone thumbnail\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail shows multiple fried pastries clearly\",\n    \"Golden-brown colour visible\",\n    \"Food is prominent and legible\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title 'Pastechi' is a generic pastry category name, not a specific dish identity\",\n    \"No filling visibility or source description of filling ingredients\",\n    \"Bonaire context suggests cheese or meat pastries, but specific filling type unconfirmed\",\n    \"No explicit protein naming in source metadata\",\n    \"Cannot determine if savoury (meat/cheese) or sweet without opening or source detail\"\n  ],\n  \"reason\": \"The photograph shows well-executed fried pastries with good quality, sharpness, lighting and composition. However, the source provides only the generic category name 'Pastechi' without specifying the filling type, meat species, or other variant qualifiers. The title does not name a specific dish variant (e.g. 'Pastechi filled with beef' or 'Pastechi filled with cheese'). Without explicit source evidence of filling identity or protein type, the canonical identity cannot be determined with certainty. The image alone cannot prove filling contents. Hold pending source clarification of specific filling.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1730,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 475,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
