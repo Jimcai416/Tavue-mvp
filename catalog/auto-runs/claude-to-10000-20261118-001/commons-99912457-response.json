@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDE61gwjzTQJpvLQATPe",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Whole fish, cooked, charred skin visible\",\n    \"Orange/red curry preparation on okra and other vegetables\",\n    \"White rice base\",\n    \"Flatbread (tortilla/chapati)\",\n    \"Plated, finished dish\"\n  ],\n  \"phone_observations\": [\n    \"Flatbread and orange curry vegetables clearly visible\",\n    \"Whole fish partially visible in upper portion\",\n    \"Rice base readable\",\n    \"Appetising presentation maintained in thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'Fish Curry Rice' but description lists 'Rechad Bangddo, Stuffed mackerel, Lepo curry' — these are distinct Goan dishes with different preparations; image shows grilled whole fish with side curry, not clearly a 'stuffed mackerel' preparation\",\n    \"Description lists multiple dishes ('Rechad Bangddo, Stuffed mackerel, Lepo curry etc') but image shows a single plated combination — unclear which dish name applies to the visible plate\",\n    \"Fish species (mackerel vs. other) not definitively confirmed by appearance alone\",\n    \"Exact dish identity contradicted between title and description metadata\"\n  ],\n  \"reason\": \"Source metadata contains conflicting identity information: title claims 'Fish Curry Rice' but description lists multiple distinct named Goan dishes ('Rechad Bangddo, Stuffed mackerel, Lepo curry'). The visible dish shows a grilled whole fish with side curry preparation, but the relationship between the plate shown and the named dishes is unclear. Fish species cannot be confirmed visually. The description lists 'etc' suggesting incompleteness. Identity check fails due to unresolved source contradiction. Photograph and phone quality are good, but canonical_name cannot be reliably established from conflicting source claims.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1807,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 562,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

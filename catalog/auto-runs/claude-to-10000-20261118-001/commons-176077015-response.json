@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDE6UoLs9hedjYL8AJQX",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Golden-brown baked quiche in clear glass pie dish\",\n    \"Custard-based filling with visible dark meat pieces distributed throughout\",\n    \"Crimped pastry crust edge, fully baked\",\n    \"Natural daylight, appetising presentation\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail shows complete baked quiche filling the frame\",\n    \"Golden colour and meat pieces clearly visible at phone size\",\n    \"Dish shape and crust definition readable\",\n    \"No clipping of essential components\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title 'Quiche lorraine' declares only the dish name, not specific protein identity\",\n    \"Dark meat pieces visible in filling but species not stated in title or description\",\n    \"Traditional quiche lorraine contains bacon/lardons, but source metadata does not explicitly name the animal protein\",\n    \"Without explicit source quote naming the meat species, protein cannot be recorded\"\n  ],\n  \"reason\": \"Photograph quality, composition, sharpness and phone thumbnail all meet acceptance criteria. However, the source title provides only 'Quiche lorraine' without explicit protein declaration. Although the dish traditionally contains pork (bacon/lardons) and meat pieces are visually present, the instructions require an exact source quote explicitly naming the animal—metadata and tradition alone cannot substitute. The protein_evidence object cannot be populated without this explicit source naming. Identity check fails because the source does not provide the full specific dish specification needed to match the visible content with certainty.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1513,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 482,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
