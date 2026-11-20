@@ -157069,5 +157069,28 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 960,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-32110188",
+    "title": "File:Karelian pasties and egg butter.jpg",
+    "author": "kahvikisu  from Kangasala, Suomi (Finland)",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Karelian_pasties_and_egg_butter.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Karelian_pasties_and_egg_butter.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "57ca05e0b61f3f4156161703eac36cdb2d3c2397",
+    "name": "Karelian pasties and egg butter",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-32110188.jpg",
+    "assetSha256": "1207d06aeb506f22d97d0ba8254e26ff1234e1387e4f6c11941cdde92c420a69",
+    "reviewedAt": "2026-11-20",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 719,
+    "height": 960,
+    "requiresExactMenuName": true,
+    "authorUrl": "https://www.flickr.com/people/75897997@N00"
   }
 ];
