@@ -140593,5 +140593,29 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "height": 720,
     "requiresExactMenuName": true,
     "authorUrl": "https://www.flickr.com/people/14058263@N06"
+  },
+  {
+    "id": "commons-76451778",
+    "title": "File:Bistro Jeanty - January 2019 - Sarah Stierch.jpg",
+    "author": "Missvain",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bistro_Jeanty_-_January_2019_-_Sarah_Stierch.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/47/Bistro_Jeanty_-_January_2019_-_Sarah_Stierch.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "bb12456163ba8314a0b8badac872cc28a2e25557",
+    "name": "Daube de Boeuf",
+    "aliases": [],
+    "proteins": [
+      "beef"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-76451778.jpg",
+    "assetSha256": "476d28b35878d17789b0a9cdfd613a0ac06301432d53f67cbd0243138095295d",
+    "reviewedAt": "2026-11-20",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];

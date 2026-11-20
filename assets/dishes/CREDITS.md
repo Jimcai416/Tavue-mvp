@@ -11060,3 +11060,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Pimientos del piquillo rellenos** — [Juan Mejuto](https://www.flickr.com/people/14058263@N06). [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:Pimientos_del_piquillo_rellenos_en_cazuela.jpg). Local asset: `reviewed-commons-9999946.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Daube de Boeuf** — Missvain. [CC BY 4.0](https://creativecommons.org/licenses/by/4.0); [source](https://commons.wikimedia.org/wiki/File:Bistro_Jeanty_-_January_2019_-_Sarah_Stierch.jpg). Local asset: `reviewed-commons-76451778.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
