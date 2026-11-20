@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChEjcqz2t6m3aFXp88jAY",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 5,\n    \"appeal\": 5\n  },\n  \"visible_support\": [\n    \"Seared meat disc with rare/medium-rare centre visible in cross-section\",\n    \"White foam or purée with herb garnish and asparagus-like vegetable\",\n    \"Herb-crusted cylindrical protein element\",\n    \"Dark mushroom or truffle component\",\n    \"Red currants and orange/red pepper dust\",\n    \"Brown sauce in white bowl\",\n    \"Professional plating on black slate\"\n  ],\n  \"phone_observations\": [\n    \"Central seared meat component clearly visible in thumbnail\",\n    \"White foam/purée element recognizable\",\n    \"Herb-crusted cylinder legible\",\n    \"Sauce bowl present\",\n    \"Finished dish presentation evident at reduced scale\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title specifies 'chevreuil' (venison/roe deer) but source does not explicitly state this is the seared meat disc visible in photograph—venison identification cannot be confirmed visually from colour/texture alone\",\n    \"Exact species ambiguity: 'chevreuil' typically refers to European roe deer, but visual confirmation is impossible\",\n    \"Complete dish assembly unknown: title lists three components (noisettes, tourte, chanterelles) but spatial relationship and whether all are present in final plated form is unclear\",\n    \"'Tourte de zita' is not a standard reference—identity and composition unverifiable from visual inspection alone\",\n    \"Chanterelles (mushroom) may be the dark component but cannot be definitively identified visually\"\n  ],\n  \"reason\": \"Photograph quality, sharpness, lighting, composition and appeal all exceed thresholds. Phone thumbnail clearly shows finished, plated dish with readable essential components. However, identity check fails: the source title claims 'Noisettes de chevreuil rôties' (roasted roe deer medallions), but venison/roe deer species cannot be visually confirmed from the seared meat appearance alone. The title also includes 'tourte de zita' (an unverifiable/non-standard reference) and 'chanterelles' which cannot be positively identified in the image. Per protocol, species ambiguity (chevreuil = roe deer, a specific wild cervid not in the allowed protein categories, and unconfirmed by appearance) and incomplete dish identity verification mandate hold. Unknown or unconfirmed proteins must not be assigned to the standard category keys (chicken/beef/pork/duck/lamb/seafood), and wild game species cannot be inferred or accepted without explicit visual or source certainty.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1833,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 722,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
