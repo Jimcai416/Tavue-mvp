@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChEqQ1W7U7qkNivG4p4Pk",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 2,\n    \"composition\": 1,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows packaged food in plastic containers under red-tinted overhead lighting\",\n    \"Labels visible but unreadable at thumbnail scale\",\n    \"No finished dish presentation; subject remains in deli/butcher display case\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title/description mismatch: filename suggests 'Herring flaps ala Bismarck and Spain' but metadata title is generic 'Pickled Herring'\",\n    \"Display case contents not clearly identifiable in photograph; packaging and labelling obscure actual food\",\n    \"Red/pink colour cast from ambient lighting compromises visibility of natural food colour and detail\"\n  ],\n  \"reason\": \"Reject: This is a deli/butcher display case photograph, not a finished dish. The subject remains packaged in plastic containers under artificial red lighting, with obscuring labels and no plated or served presentation. Quality scores fail across sharpness (2), lighting (2), composition (1), and appeal (1) due to severe colour cast, poor visibility of actual food, and packaging obstruction. The image is unsuitable for food photography review. Source metadata conflicts between filename and title field create identity uncertainty. No finished, exposed, naturally coloured dish is visible.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1466,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 425,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

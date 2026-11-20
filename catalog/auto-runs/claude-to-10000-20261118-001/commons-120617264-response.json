@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChEqQrVQamBPNnb6WAfST",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Dark-shelled mussels in white bowl\",\n    \"Fresh parsley garnish\",\n    \"Yellow chips/frites visible in background\",\n    \"Natural daylight, sharp detail\"\n  ],\n  \"phone_observations\": [\n    \"Mussels prominently displayed centre-cover\",\n    \"Green parsley clearly visible\",\n    \"Dark shells readable\",\n    \"Chips partially visible at top left\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title contains 'File:' prefix and filename extension (.jpg) which must be stripped per instructions\",\n    \"Description states 'Moules marinières frites de Dinard (Bretagne)' but canonical_name must be extracted from exact source title or description without file metadata\",\n    \"Mussels are seafood but 'seafood' is not an allowed protein_evidence key; only specific animals (chicken/beef/pork/duck/lamb/seafood) permitted, and 'mussels' are molluscs, not in the allowed category list\"\n  ],\n  \"reason\": \"Reject: Protein category mismatch. The dish contains mussels (molluscs), which do not map to the allowed protein categories (chicken, beef, pork, duck, lamb, seafood as a category name requires explicit animal naming). The source description 'Moules marinières frites de Dinard (Bretagne)' does not explicitly name the seafood animal in a form matching required keys. While the photograph is sharp, well-lit, and appetising, and the dish is identifiable and finished, the protein evidence cannot be properly classified under the specified allowed keys without an exact matching source quote. Hold rules require no uncertainties remain for acceptance.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1734,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 528,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
