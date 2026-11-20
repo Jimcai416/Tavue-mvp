@@ -145919,5 +145919,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "height": 638,
     "requiresExactMenuName": true,
     "authorUrl": "https://www.flickr.com/people/63743776@N00"
+  },
+  {
+    "id": "commons-40485107",
+    "title": "File:Boondi Laddu.JPG",
+    "author": "Tamizhmuhil",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Boondi_Laddu.JPG",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/03/Boondi_Laddu.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "744c7a4defe084988e7662abb0385eea2fad3ea2",
+    "name": "Boondi Laddu",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-40485107.jpg",
+    "assetSha256": "b16533b23115fad08a4c03eab0ab0ca071524d99e0bcbad884c712cace057ab6",
+    "reviewedAt": "2026-11-20",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];

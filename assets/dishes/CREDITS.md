@@ -11572,3 +11572,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 
 - **Cheese quiche** — Infrogmation of New Orleans. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Maple_Street_Patisserie_Quiche.JPG). Local asset: `reviewed-commons-29239348.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Quiche** — [John Freeman](https://www.flickr.com/people/63743776@N00). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Quiche_(10)_(26497569789).jpg). Local asset: `reviewed-commons-102923035.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Boondi Laddu** — Tamizhmuhil. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Boondi_Laddu.JPG). Local asset: `reviewed-commons-40485107.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
