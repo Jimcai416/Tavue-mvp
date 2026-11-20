@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChExrwvcuoezyi4FiEqHn",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Saffron-coloured rice base with visible grains\",\n    \"Multiple whole shrimp/prawns scattered across surface, orange-pink colouring consistent with cooked seafood\",\n    \"Green peas visible throughout\",\n    \"Red pepper pieces dispersed in dish\",\n    \"Natural pan cooking appearance, not plated\",\n    \"Wet, oily finish typical of paella preparation\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows rice dish with seafood\",\n    \"Shrimp/prawns distinctly visible at centre-cover\",\n    \"Golden rice colour readable\",\n    \"Essential components (rice, seafood, vegetables) prominent and identifiable\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title states 'Paella de arróz con gambas, verduras y carne' (paella with prawns, vegetables and meat), but no meat species is explicitly named—only the generic term 'carne'\",\n    \"Visible shrimp/prawns (gambas) are identifiable but source does not use the word 'seafood' or 'prawns' in English; uses Spanish 'gambas'\",\n    \"Meat component is unspecified (species unknown); could be chicken, pork, beef or other\",\n    \"Source description is in Spanish; canonical English title unclear from metadata\"\n  ],\n  \"reason\": \"Image quality, sharpness, lighting and composition all meet standards. Photograph shows a finished, exposed paella dish with clearly visible rice, shrimp, peas and peppers in natural cooking state. Phone thumbnail is sharp, readable and shows essential components prominently. However, identity check fails: the source description names an unspecified meat ('carne') without declaring the animal species, violating the rule that unknown meat species must be held. Additionally, the source uses Spanish descriptors and no authoritative English canonical title is provided in the source metadata. All other checks pass, but the unspecified meat component and lack of clear English identity prevent acceptance.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1746,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 597,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
