@@ -138394,5 +138394,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 540,
     "height": 960,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-2817045",
+    "title": "File:Fiambre.JPG",
+    "author": "Alfiboy",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fiambre.JPG",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Fiambre.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "12a85a12acf1cc92beb7399143b43e231f9c506a",
+    "name": "Fiambre",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-2817045.jpg",
+    "assetSha256": "500d477dabc718e27e2c06c3928e491f12ffce471cd2ab5ae738305558f95c59",
+    "reviewedAt": "2026-11-20",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 640,
+    "requiresExactMenuName": true
   }
 ];

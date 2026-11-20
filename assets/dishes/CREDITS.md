@@ -10860,3 +10860,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **El fiambre, comida típica de Topaipí** — Bigbangtheory. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:El_fiambre,_comida_t%C3%ADpica_de_Topaip%C3%AD_(47).JPG). Local asset: `reviewed-commons-24762125.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Fiambre** — Alfiboy. [CC BY 3.0](https://creativecommons.org/licenses/by/3.0); [source](https://commons.wikimedia.org/wiki/File:Fiambre.JPG). Local asset: `reviewed-commons-2817045.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
