@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChEuxXncz8XH8KPeSBYvS",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Phone thumbnail shows a cheese display with multiple wedges and blocks arranged on a dark plate\",\n    \"Central subjects are wedge-shaped cheese pieces, some with decorative paper labels and wooden leaf garnishes\",\n    \"Items are pale yellow to golden in colour, consistent with aged hard cheese\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title 'Comté 002.JPG' is a filename, not a dish description\",\n    \"French description 'Choix de divers affinages de comté' translates to 'Selection of various Comté agings' — this is a cheese display, not a finished plated dish\",\n    \"Image shows raw cheese blocks and wedges in a retail or display setting, not a prepared food dish\",\n    \"No finished, cooked, or exposed dish is present — this is ingredient display\"\n  ],\n  \"reason\": \"Rejection: This is a cheese retail or promotional display showing raw cheese blocks and wedges with decorative garnish and labelling, not a finished, exposed, plated dish. The source title is a filename ('File:Comté 002.JPG'), and the description ('Choix de divers affinages de comté') indicates a selection of cheese aging stages for reference or sale, not a food dish prepared for consumption. While the photograph is sharp and well-composed, it fails the identity check: Tavue reviews finished food dishes, not ingredient displays, cheese assortments, or promotional cheese boards. The subject is too ambiguous as a singular 'dish' and lacks the culinary preparation context required.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1730,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 500,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
