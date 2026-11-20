@@ -11103,3 +11103,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 
 - **Menudo (stew)** — Judgefloro. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:06171jfFoods_of_Philippines_Menudo_Stew_Mangoesfvf_09.jpg). Local asset: `reviewed-commons-61079027.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Fritada de setas de cardo y robellones** — Juan Emilio Prades Bel. [CC BY 4.0](https://creativecommons.org/licenses/by/4.0); [source](https://commons.wikimedia.org/wiki/File:Fritada_de_setas_de_cardo_y_robellones,_gastronom%C3%ADa_comarca_Maestrazgo.jpg). Local asset: `reviewed-commons-178636541.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Fritada de verduras con huevo** — Juan Emilio Prades Bel. [CC BY 4.0](https://creativecommons.org/licenses/by/4.0); [source](https://commons.wikimedia.org/wiki/File:Fritada_de_verduras_con_huevo.jpg). Local asset: `reviewed-commons-144676612.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.

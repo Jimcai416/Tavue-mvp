@@ -140953,5 +140953,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-144676612",
+    "title": "File:Fritada de verduras con huevo.jpg",
+    "author": "Juan Emilio Prades Bel",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fritada_de_verduras_con_huevo.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Fritada_de_verduras_con_huevo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "bae1c557a829b9c0a3bd271782da96a6d470a935",
+    "name": "Fritada de verduras con huevo",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-144676612.jpg",
+    "assetSha256": "7320a988ab5792875797bf2eec379534cdb2e0b5188a298a667b6efd64b4d143",
+    "reviewedAt": "2026-11-20",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];
