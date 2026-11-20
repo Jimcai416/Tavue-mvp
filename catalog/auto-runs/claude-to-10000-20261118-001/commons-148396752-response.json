@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDZ89fBrwpRFtHGizzt4",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Cooked meat pieces in rich brown gravy\",\n    \"Green peas distributed throughout\",\n    \"Diced root vegetables (potatoes, carrots)\",\n    \"Glossy, stewed appearance consistent with Filipino menudo\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail shows finished stew composition clearly\",\n    \"Meat, peas, and vegetables all visible and readable\",\n    \"Natural colour saturation appropriate to cooked dish\",\n    \"Adequate detail for identification\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title states 'Menudo (Philippines)' but provides no explicit meat species declaration in title or description\",\n    \"Philippine menudo traditionally contains pork and/or liver, but neither animal is explicitly named in the supplied source metadata\",\n    \"Meat type cannot be visually confirmed from appearance alone and requires explicit source naming\"\n  ],\n  \"reason\": \"Image quality and composition are strong (all scores ≥4), and both full image and thumbnail meet technical standards. However, the source title 'Menudo (Philippines)' does not explicitly name any protein species. Although the dish traditionally contains pork and/or liver, the supplied metadata does not state this. Per protocol, protein_evidence requires exact case-sensitive substrings from title/description naming the animal; species cannot be inferred from tradition or appearance. The identity check fails because no explicit meat qualifier appears in the source title/description. Hold pending explicit protein naming in source metadata.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1513,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 472,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

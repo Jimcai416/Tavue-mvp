@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDZ7pzGqsDrUB7vVXfvT",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Cooked meat pieces (tan/beige, diced small) distributed throughout\",\n    \"Red tomato-based sauce with glossy surface\",\n    \"Red bell pepper visible (bright red chunks)\",\n    \"Finished, exposed dish in what appears to be a serving vessel\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows diced meat and red sauce composition\",\n    \"Essential components readable: meat pieces and tomato base\",\n    \"Colour and texture consistent with full image\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Meat species cannot be definitively determined from appearance alone. Source title states 'Filipino menudo' but does not explicitly name which animal protein is used. Traditional Filipino menudo typically contains pork, but this is not visually proven and the source does not explicitly state 'pork' or any other meat type.\",\n    \"Source metadata lists title as 'File:Filipino menudo 1.JPG' and description as 'Filipino menudo', but per instructions, filenames and generic category names are not acceptable evidence of identity without explicit ingredient declaration.\"\n  ],\n  \"reason\": \"Image shows a finished, well-photographed dish with appropriate sharpness, lighting and composition. Phone thumbnail acceptably displays the dish. However, the source provides only a generic category name 'Filipino menudo' without explicitly naming the meat species used. Per protocol, meat species must be explicitly stated in source title or description with an exact quote; inference from tradition or appearance is not permitted. The ambiguity regarding protein identity prevents acceptance.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1721,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 485,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
