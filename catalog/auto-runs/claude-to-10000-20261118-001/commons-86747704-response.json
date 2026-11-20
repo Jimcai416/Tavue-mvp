@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChEKNpR5f36SUqic3DPkS",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 3,\n    \"lighting\": 3,\n    \"composition\": 2,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Espresso cup with crema visible in phone thumbnail\",\n    \"Cup is tiny and severely clipped at edges in phone thumbnail\",\n    \"Coffee beverage only, no food dish present\",\n    \"Phone thumbnail shows only partial cup handle and saucer edge\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title states 'Espresso i København' but this is a beverage, not a food dish\",\n    \"No finished food dish present—only a coffee drink\"\n  ],\n  \"reason\": \"Rejection: This is a beverage photograph (espresso), not a finished food dish. Tavue reviews food photographs only. The source image shows a restaurant setting with a coffee cup as the primary subject. While the photograph itself is adequately sharp and lit, it fails the fundamental identity requirement: no finished, exposed food dish is present. The phone thumbnail shows the coffee cup severely clipped and minimal. Beverages alone do not meet acceptance criteria for food photography review.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1722,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 364,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

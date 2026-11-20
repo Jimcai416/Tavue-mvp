@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChEKNW4n2uAfcPrPMMGmQ",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 3,\n    \"composition\": 3,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Espresso cup visible but very small in frame\",\n    \"Beverage colour and crema barely distinguishable at thumbnail size\",\n    \"Overall composition fails to showcase dish appeal at reduced resolution\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [],\n  \"reason\": \"Rejection: Beverage (espresso) is not a food dish suitable for Tavue food photography review. Sharpness score of 2 reflects significant softness and motion blur in source image. Lighting score of 3 indicates uneven illumination and glare on cup rim. Composition and appeal both fail to meet minimum thresholds (scores 3 and 2 respectively, both below required >=4). The photograph does not meet quality standards for food intake: image is out of focus, lighting is poor, and the subject—a hot beverage in a cup—does not constitute finished plated food. Phone thumbnail confirms the dish is too small and poorly rendered to assess visual appeal.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1796,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 360,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
