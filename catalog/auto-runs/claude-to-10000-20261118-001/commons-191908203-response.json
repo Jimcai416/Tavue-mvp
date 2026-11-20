@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDKFGEdD9XJ9YDqaKNs3",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Two sandwich halves on decorative plate with circular motifs\",\n    \"Golden-brown bread consistent with French bread/pan francés\",\n    \"Pink/reddish filling visible between bread layers\",\n    \"Plate of thick-cut golden fries on floral-patterned plate\",\n    \"Home dining setting with striped tablecloth\",\n    \"Glass salt shaker, cutlery, paper napkins visible\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows two sandwich halves and fries on separate plates\",\n    \"Sandwich filling colour and bread form visible at reduced scale\",\n    \"Plating and table setting context preserved in thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title declares 'choripanes argentinos' and 'chorizo' but the red/pink filling is not definitively chorizo in the image—it could be any processed meat or even jam/preserves given the colour and texture visible\",\n    \"No explicit source quote directly confirms the animal species of the chorizo/sausage filling\",\n    \"Species of meat in chorizo is not stated in title or description; chorizo tradition does not constitute visual proof of pork content\",\n    \"The description states 'dos choripanes (sándwich de chorizo)' but provides no explicit animal species attribution\"\n  ],\n  \"reason\": \"Image quality, composition, photography, and phone thumbnail are all acceptable. The dish is a finished, plated, home-cooked Argentine meal presented appetisingly. However, protein_evidence cannot be populated: the source title contains 'chorizo' but provides no explicit statement of which animal (pork, beef, etc.) the chorizo contains. Per rules, species must be declared explicitly in source, never inferred from tradition or appearance. The source description translates to 'two choripanes (chorizo sandwich)' but does not name the animal. Identity cannot be confirmed without resolving the unspecified meat species. Hold pending clarification of chorizo animal source or rejection if species cannot be established from explicit source text.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1504,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 601,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

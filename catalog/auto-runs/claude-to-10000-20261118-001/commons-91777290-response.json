@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDKEppRZtBufV23sq6rt",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Golden-brown puff pastry exterior, well-baked and flaky\",\n    \"Dark brown meat filling visible at cross-section\",\n    \"Served on white paper wrapper in outdoor street food setting\",\n    \"Natural daylight, appetising presentation\"\n  ],\n  \"phone_observations\": [\n    \"Pie clearly visible and prominent in thumbnail centre-cover\",\n    \"Golden pastry and meat filling both readable\",\n    \"Hand holding the wrapped pie in foreground\",\n    \"Street food context evident in background\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title 'File:Aussie meat pie.jpg' is a filename, not a canonical description\",\n    \"Source description 'A pie' is uninformative and does not specify dish variant or meat type\",\n    \"Meat species cannot be identified from visual appearance alone (could be beef, pork, lamb, or mixed)\",\n    \"No explicit source text naming the specific meat protein\",\n    \"'Aussie meat pie' in filename is metadata/title, not an authoritative description from a reliable source\"\n  ],\n  \"reason\": \"Source metadata lacks a proper canonical description. The filename 'Aussie meat pie.jpg' and vague description 'A pie' do not provide explicit, authoritative identification of the dish variant or protein. Meat species cannot be inferred from appearance. Identity check fails due to insufficient source-declared information meeting the requirement for exact, specific source quotes. Hold for clarification of proper dish identity and meat type from a reliable, detailed source.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 2036,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 485,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

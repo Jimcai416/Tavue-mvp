@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDKF53BdyHDXMqYNqjAy",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Grilled meat with characteristic grill marks and well-browned exterior\",\n    \"Sausages with reddish-brown roasted surface\",\n    \"Bread rolls on grill grate\",\n    \"Wood-fired barbecue setup with metal drum construction\",\n    \"Live fire and ember bed visible\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows grilled meats, sausages and bread on grate\",\n    \"Meat colour and sausage form are identifiable\",\n    \"Overall composition legible at reduced size\"\n  ],\n  \"protein_evidence\": {\n    \"beef\": \"Argentine vacío beef\",\n    \"sausage\": \"parrillero chorizo sausages\"\n  },\n  \"uncertainties\": [\n    \"Source metadata labels this as 'File:' with photographer and date, which violates canonical_name rules per protocol\",\n    \"Protein list includes 'parrillero chorizo sausages'—sausage is not an allowed protein category key; the animal species within chorizo is not explicitly named in source text\",\n    \"Source description is detailed promotional-style text with health/regional claims, potentially authored metadata rather than a simple dish title\"\n  ],\n  \"reason\": \"Identity check fails: source format is a filename with metadata tags (File:, author, license, licenseUrl) that must be excluded per protocol. Canonical name cannot be extracted cleanly from this structure without removing essential qualifiers or violating the <=200 character / exact-quote rule. Protein evidence includes 'sausage' (not an allowed key) with unspecified animal species; chorizo origin and tradition do not prove the specific meat. The description is a detailed curatorial text, not a simple dish title. All quality, photograph and phone checks pass; sharpness, lighting, composition and appeal all meet >=4 threshold. Hold pending clarification of actual dish title (without File: prefix, metadata, or unspecified sausage species) and confirmation of beef species if 'vacío' is a cut qualifier rather than a species name.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 2182,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 606,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
