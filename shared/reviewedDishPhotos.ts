@@ -142197,5 +142197,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 960,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-102722565",
+    "title": "File:Yam porridge with vegetable soup.jpg",
+    "author": "Bukky658",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Yam_porridge_with_vegetable_soup.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Yam_porridge_with_vegetable_soup.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "f3c72cb6544d1249216dfc8993194dee3e28bca1",
+    "name": "Yam porridge with vegetable soup",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-102722565.jpg",
+    "assetSha256": "ffe8d097bf9348223f7135c3fd847df08627c9f3f79618c381f0aec6e1b10f76",
+    "reviewedAt": "2026-11-20",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 717,
+    "height": 717,
+    "requiresExactMenuName": true
   }
 ];
