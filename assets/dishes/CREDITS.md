@@ -11069,3 +11069,10 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 
 - **Khao mok kai** — Takeaway. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Khao_mok_kai.JPG). Local asset: `reviewed-commons-18293850.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Khao mok kai (chicken biryani)** — Bitterschoko. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Khao_mok_kai_(chicken_biryani),_Bangkok,_2018-10-09.jpg). Local asset: `reviewed-commons-86791877.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Cachupa** — Xandu. [Public domain](https://creativecommons.org/publicdomain/mark/1.0/); [source](https://commons.wikimedia.org/wiki/File:Cachupa_2.jpg). Local asset: `reviewed-commons-4961298.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Tarka dal** — [rovingI](https://www.flickr.com/people/70522326@N00). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Tarka_dal_(1248298366).jpg). Local asset: `reviewed-commons-87474999.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Cachupa at Sal Rei, Cape Verde** — Adriao. [CC BY 3.0](https://creativecommons.org/licenses/by/3.0); [source](https://commons.wikimedia.org/wiki/File:Cachupa_em_Sal_Rei.jpg). Local asset: `reviewed-commons-14755334.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Cachupa frita** — Adriao. [CC BY 3.0](https://creativecommons.org/licenses/by/3.0); [source](https://commons.wikimedia.org/wiki/File:Cachupa_frita.jpg). Local asset: `reviewed-commons-9880979.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
