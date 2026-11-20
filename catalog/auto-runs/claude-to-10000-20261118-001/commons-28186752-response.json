@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChE7rfr2t7U6ENQwuaZ6q",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 3,\n    \"lighting\": 3,\n    \"composition\": 2,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows raw ingredient mixture (minced meat and spice blend with orange turmeric/paprika visible) in a metal bowl during preparation\",\n    \"No finished, cooked dish visible\",\n    \"Active food preparation stage, not a plated or exposed finished food\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Species of meat in the mixture cannot be identified from visual appearance alone; source title mentions 'boudin blanc' (white sausage) but this is a preparation stage, not a finished dish\",\n    \"No cooked or finished form visible to confirm the dish identity\"\n  ],\n  \"reason\": \"Rejection: Image shows raw food preparation (minced meat being mixed with spices in a bowl) during the manufacturing stage, not a finished, exposed, cooked dish. The thumbnail confirms this is an in-process preparation view. Additionally, the meat species cannot be reliably identified from the raw mixture alone, and while the source metadata names 'boudin blanc,' the image does not show the finished sausage product. Per guidelines, raw/preparation stages are explicitly rejected. The appeal and composition scores are severely compromised by the preparation-stage subject matter and lack of an appetising finished dish.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1625,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 413,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
