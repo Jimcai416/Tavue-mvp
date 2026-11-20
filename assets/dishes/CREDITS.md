@@ -13022,3 +13022,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Gachas de panizo** — Alfredo Sánchez Garzón. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:3-Gachas_de_panizo_(2012)003.jpg). Local asset: `reviewed-commons-50203563.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Gachas de matalauva** — Mjblanco. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Gachas_de_matalauva..JPG). Local asset: `reviewed-commons-18917194.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
