@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChEj1UzFEXanc9tZbSfNK",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Braised meat chunks in olive/herb-forward sauce\",\n    \"Fresh green cilantro/parsley garnish\",\n    \"Golden-brown meat pieces with visible sear\",\n    \"Glossy, rich sauce coating\",\n    \"Orange/amber vegetable (carrot or onion) visible\"\n  ],\n  \"phone_observations\": [\n    \"Meat and sauce clearly visible in thumbnail\",\n    \"Green herb garnish prominent and readable\",\n    \"Dish in serving vessel, finished state evident\",\n    \"Natural lighting, appetising colour palette\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'Carbonnade provençale ou carbonnée' but no meat species is explicitly named in source description\",\n    \"Carbonnade traditionally contains beef, but this is not stated in the supplied source title or description—inference from regional tradition is not permitted\",\n    \"No explicit quote in title/description identifying the protein animal\"\n  ],\n  \"reason\": \"Image quality, composition and phone thumbnail are all acceptable. However, the source title and description do not explicitly name the meat species. 'Carbonnade' implies beef by tradition, but the supplied source metadata contains no explicit animal identifier (e.g. 'beef carbonnade'). Per protocol, unknown or ambiguous meat species requires hold. Identity check fails because protein cannot be visually confirmed and source does not state it.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1553,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 451,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
