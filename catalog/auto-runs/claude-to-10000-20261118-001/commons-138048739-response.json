@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDixEGPNeyYNMqD5jDPL",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Golden-brown broth in a serving pot\",\n    \"Fresh green herbs (scallions/onions) garnish\",\n    \"White ladle with broth\",\n    \"Fish visible in liquid\",\n    \"Natural lighting shows appetising colour\"\n  ],\n  \"phone_observations\": [\n    \"Broth and ladle clearly visible in thumbnail\",\n    \"Green garnish readable\",\n    \"Bowl shape and contents prominent\",\n    \"Satisfactory composition for phone review\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title contains 'tô nước lèo canh cá hành tây' but metadata lacks English translation or complete dish name confirmation\",\n    \"Fish (cá) is mentioned in filename but species is not explicitly named in the provided title/description\",\n    \"Exact canonical dish name cannot be verified from source text alone\",\n    \"Vietnamese romanisation requires precise matching but only filename elements are available, not a formal source title\"\n  ],\n  \"reason\": \"Image quality, sharpness, lighting and composition all meet standards. Photograph and phone thumbnail are clear and appetising. However, identity check fails: the source provides only a filename fragment in Vietnamese ('tô nước lèo canh cá hành tây') without an explicit formal title or description containing the complete, canonical dish name. Fish is referenced ('cá') but the species is not explicitly named. The generic description 'Cuisine of Vietnam' does not constitute identity confirmation. Without a verifiable source title or description that provides the exact canonical name and explicit protein species naming, the dish cannot be safely accepted. Hold pending clarification of the formal dish title and explicit fish species identification.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1750,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 513,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

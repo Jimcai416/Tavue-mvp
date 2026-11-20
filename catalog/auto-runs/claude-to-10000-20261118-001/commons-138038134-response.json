@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDixEGdN3dvyaPdaDebi",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Steamed fish dish with herbs and aromatics on decorative Asian plate\",\n    \"Broth pot with green herbs visible in background\",\n    \"Yellow table setting, street food context\"\n  ],\n  \"phone_observations\": [\n    \"Pot of broth and plated fish clearly visible\",\n    \"Fish portions recognizable with garnish\",\n    \"Decorative plate rim prominent\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title contains 'cá bóp hấp' (steamed fish type unspecified by species) but no explicit animal species declaration in source metadata\",\n    \"Fish variety 'cá bóp' is not a standard English-readable species identifier; exact Vietnamese fish species unclear\",\n    \"Source metadata does not explicitly name which fish species is present\"\n  ],\n  \"reason\": \"Image quality, composition, and phone thumbnail all meet standards. The dish is clearly a Vietnamese steamed fish (cá bóp hấp) with broth and herbs, visually finished and appetizing. However, the canonical identity cannot be confirmed because the source title/description does not explicitly declare the fish species in readable form. Vietnamese regional fish names like 'cá bóp' require explicit species confirmation. The source metadata lists only 'Cuisine of Vietnam' as category, which is insufficient. Per protocol, ambiguous meat species (including unspecified fish) => hold. A source quote naming the exact fish species would enable acceptance.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1756,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 466,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
