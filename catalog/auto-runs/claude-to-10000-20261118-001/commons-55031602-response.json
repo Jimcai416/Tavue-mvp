@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChEY8dXs236JGJBt1ZqiZ",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Golden-brown crispy rice dome visible\",\n    \"Red glossy tomato sauce coat prominent\",\n    \"Cross-section shows layered filling with visible peas, meat components, and cheese\",\n    \"Peas scattered around base\",\n    \"Served on festive red tablecloth\",\n    \"Sauce bowl visible in background\"\n  ],\n  \"phone_observations\": [\n    \"Central dome clearly visible in thumbnail\",\n    \"Bright red sauce coating evident\",\n    \"Cross-section exposes layered interior convincingly\",\n    \"Peas and filling components readable at this resolution\",\n    \"Overall form and composition preserved in phone crop\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Description lists multiple meat components: 'polpettine di carne' (meat balls – unspecified species), 'salsiccia' (sausage – species unconfirmed), 'pancetta' (pork belly – acceptable but source says 'pancetta' not explicitly 'pork'), 'salame napoletano' (Neapolitan salami – species unconfirmed)\",\n    \"No explicit, unambiguous source statement naming individual animal species for each protein; 'carne' means 'meat' generically\",\n    \"Salsiccia and salame napoletano are traditional pork products but source does not state this directly\",\n    \"Pancetta is pork but source uses Italian term only\"\n  ],\n  \"reason\": \"Photograph and thumbnail are sharp, well-lit, appetising, and clearly show a finished Sartù di riso alla napoletana with readable cross-section and components. Identity matches source title. However, protein_evidence cannot be populated: the source description lists 'polpettine di carne' (meat balls with unspecified species), 'salsiccia' (sausage, species not stated), 'pancetta', 'salame napoletano', but only 'pancetta' unambiguously indicates pork by ingredient name alone. 'Carne' is generic; sausage and salami species are not explicitly named in the source. Per rules, unknown or ambiguous meat species and unspecified sausage/salami types require hold. Identity check fails because source protein declarations are insufficient for canonical recognition.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1782,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 661,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
