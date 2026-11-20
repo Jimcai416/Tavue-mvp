@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChF1itNgFykEdmKkrJPat",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Golden-brown fried pieces on white plate\",\n    \"Natural colour, appetising appearance\",\n    \"Sharp detail in both full and thumbnail images\",\n    \"Finished, exposed dish suitable for review\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows fried pieces with golden-brown coating\",\n    \"Prominent subject, readable as finished food\",\n    \"No clipping of essential components\",\n    \"Adequate resolution for dish identification\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Species identity cannot be visually confirmed: 'raya' typically refers to ray (a cartilaginous fish), but visual appearance alone does not definitively establish the species\",\n    \"Source title 'Raya frita' (fried ray) requires explicit species confirmation not provided in metadata\",\n    \"Cartilaginous fish species (ray/skate) are not in the allowed protein category list (chicken/beef/pork/duck/lamb/seafood)\",\n    \"Cannot verify if 'seafood' category applies without explicit source statement confirming ray is acceptable under 'seafood'\"\n  ],\n  \"reason\": \"Image quality, photography, and phone thumbnail all meet acceptance standards. However, identity cannot be confirmed because 'raya' (ray) is a cartilaginous fish not explicitly covered by the allowed protein categories (chicken/beef/pork/duck/lamb/seafood), and no source metadata explicitly states the species or confirms it qualifies as 'seafood'. The dish cannot be accepted without authoritative species confirmation in the source description.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1727,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 491,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
