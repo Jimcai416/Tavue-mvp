@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChEsDtgXwKFunWCQm65d4",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": \"Mozzarella, Prosciutto di Parma, artichokes and pesto at Eataly Las Vegas\",\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Sliced cured pork (prosciutto) visible on board\",\n    \"Fresh mozzarella cheese prominent\",\n    \"Green herb sauce (pesto) in small white bowl\",\n    \"Roasted artichoke pieces visible\",\n    \"Wooden serving board with printed text overlay\",\n    \"Restaurant table setting with plates and glassware\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows mozzarella, prosciutto, and artichokes on wooden board\",\n    \"Pesto bowl visible in top right of thumbnail\",\n    \"Subject is prominent and well-framed in thumbnail\",\n    \"Colors are natural and appetizing\",\n    \"Composition readable at small scale\"\n  ],\n  \"protein_evidence\": {\n    \"pork\": \"Prosciutto di Parma\"\n  },\n  \"uncertainties\": [\n    \"Source title describes a plated or composed dish, but photograph shows ingredient components arranged on a board rather than a finished, plated dish\",\n    \"No specific canonical dish name exists in source—description lists components only\",\n    \"Ambiguous whether this represents a completed dish or a tasting board/antipasto presentation\"\n  ],\n  \"reason\": \"Image quality and photograph technical standards are strong (all scores ≥4), and protein is clearly evidenced by explicit 'Prosciutto di Parma' citation. However, identity check fails: the source description lists ingredients/components ('Mozzarella, Prosciutto di Parma, artichokes and pesto') rather than naming a specific finished dish. The photograph shows raw/component arrangement on a board rather than an integrated, plated, finished dish. Without a canonical dish name from the source, and with the presentation ambiguous between a composed course and ingredient display, identity cannot be confirmed. Hold pending clarification of the actual dish name and finished form.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1755,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 584,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChEsE5AphuG6WgScwb9FD",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Spaghetti or linguine pasta clearly visible\",\n    \"Pink/red meat pieces distributed throughout (consistent with pancetta)\",\n    \"Fresh green parsley garnish visible\",\n    \"Creamy sauce coating\",\n    \"In dark pan suggesting in-situ cooking\"\n  ],\n  \"phone_observations\": [\n    \"Pasta and meat components clearly readable in thumbnail\",\n    \"Cream-based sauce visible\",\n    \"Green herb garnish distinguishable\",\n    \"Overall dish shape and composition retained\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title states 'pancetta and mushroom carbonara' but no mushrooms are visually identifiable in either photograph—only pink meat pieces and what appears to be black pepper or similar dark garnish\",\n    \"Classic carbonara traditionally uses guanciale (cured pork jowl), not pancetta; source says 'pancetta' but this is not guaranteed to be pancetta—it could be guanciale or other cured pork\",\n    \"Source title lists 'mushroom' as ingredient but mushrooms are not visible in the finished dish\",\n    \"Contradiction between source description (mentions mushrooms) and visual evidence (none apparent)\"\n  ],\n  \"reason\": \"Hold due to source-visual contradiction: the title declares 'pancetta and mushroom carbonara' but no mushrooms are discernible in the photograph. The visible pink meat pieces cannot be confirmed as pancetta specifically (traditional carbonara uses guanciale, and appearance alone cannot distinguish cured pork species). The protein_evidence is empty because 'pancetta' as an animal category is not in the allowed set (only chicken/beef/pork/duck/lamb/seafood), and even if pork were claimed, the source text uses 'pancetta' (a preparation/cut name) rather than explicitly naming the animal. Additionally, the missing mushrooms create doubt about whether the source description matches the actual finished dish shown. These uncertainties prevent acceptance.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 2253,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 582,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChEsDj75quW4M1J5B4r1H",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Toasted bread base visible\",\n    \"Fresh diced tomatoes prominent\",\n    \"Green herb garnish (basil) visible\",\n    \"White plate presentation\",\n    \"Casual dining setting with gingham tablecloth\"\n  ],\n  \"phone_observations\": [\n    \"Bruschetta clearly visible in thumbnail\",\n    \"Red tomato topping readable\",\n    \"Toast base distinguishable\",\n    \"Adequate detail for recognition\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title contains 'File:' prefix and metadata labels (not a clean dish name)\",\n    \"Description mixes venue attribution, date visited, and social media credits rather than providing authoritative dish identification\",\n    \"No explicit canonical dish name provided in source material\",\n    \"Metadata format indicates this is a wiki/archive entry rather than a direct food service source\"\n  ],\n  \"reason\": \"The photograph is sharp, well-lit, appetising and shows a finished bruschetta dish clearly in both full and thumbnail views. However, the source material provided is not authoritative dish identification. The 'title' field contains a File: prefix and filename structure; the 'description' field lists only a venue, visit date, and social media credits without a formal dish name or specification. Canonical_name extraction requires 'a specific dish phrase copied exactly from source title or description' – the unstructured metadata here does not constitute a reliable, copyable canonical source. The source contradicts standard food documentation practices by prioritising metadata over formal dish identification.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1688,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 481,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
