@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChEkczGUimAHmZwJLxCjV",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 5,\n    \"appeal\": 5\n  },\n  \"visible_support\": [\n    \"Four golden-brown, crispy breaded croquettes stacked on white plate\",\n    \"Vibrant orange sauce drizzled beneath\",\n    \"Fresh parsley garnish scattered on plate and atop croquettes\",\n    \"Professional plating at dining establishment\",\n    \"Sharp detail of breadcrumb crust and interior texture visible\",\n    \"Natural warm lighting with no glare or colour cast\",\n    \"Phone thumbnail clearly shows all essential elements\"\n  ],\n  \"phone_observations\": [\n    \"Croquettes fully visible and prominent in centre-cover frame\",\n    \"Orange sauce clearly distinguishable\",\n    \"Golden colour and crispy texture readable at thumbnail size\",\n    \"Garnish visible\",\n    \"Finished dish presentation evident\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title states 'Ham and cheddar croquettes' but ham is not in allowed protein categories (chicken/beef/pork/duck/lamb/seafood). Ham is processed pork, but source does not explicitly name 'pork'—only the product 'ham'\",\n    \"Species ambiguity: ham does not qualify as a named animal protein under strict protein_evidence rules; it is a cured/processed form whose base animal is not explicitly declared in source\",\n    \"Cannot visually verify ham or cheddar from photograph alone; identity depends entirely on source description\"\n  ],\n  \"reason\": \"The photograph is of professional quality with excellent sharpness, lighting, composition and appeal. The dish is finished, prominent, and naturally coloured with appetising presentation. However, the source title 'Ham and cheddar croquettes' presents a protein identity problem: 'ham' is not an explicitly named animal species (chicken/beef/pork/duck/lamb/seafood) in the allowed protein categories. Although ham is pork-derived, the source does not state 'pork' as the protein—only 'ham', which is a processed product. This creates unresolvable species ambiguity under strict protein-evidence rules. The croquettes cannot be visually verified to contain ham or cheddar. Hold pending clarification of exact protein sources from source metadata.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1740,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 629,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
