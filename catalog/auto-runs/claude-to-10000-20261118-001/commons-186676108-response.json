@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChF5m8z2iEkxJkfdb4Z3b",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 3,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Sliced bread loaf with dark filling visible in cross-section on white paper\",\n    \"Multiple whole and sliced loaves in background\",\n    \"Plate with what appears to be pâté or spread on left\",\n    \"Jar with preserved item on right\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title contains only filename and metadata (File: prefix, date 1978, photographer name, license); no actual dish name or description provided\",\n    \"Kalakukko identity cannot be verified—the title field is a filename, not a canonical dish description\",\n    \"Visual form (sliced bread with filling) is consistent with kalakukko, but source does not explicitly name the dish in a description field\",\n    \"No explicit statement of contents or preparation in provided source text\"\n  ],\n  \"reason\": \"Source metadata provides only a filename (File:Parikkala, Rautalahti, kalakukko siivutettuna pöydässä sekä muita perinneruokia 1978 (KUVKDD1777).jpg) and photograph attributes, not a canonical title or description from which to extract the dish name. The title field is a file reference with date and photographer, not a source-approved dish identifier. Although the visual form strongly suggests kalakukko (sliced bread with filling), the absence of an explicit, non-metadata source description means identity cannot be confirmed by the stated rule: 'canonical_name must be a specific dish phrase copied exactly from source title or description.' Filename parsing is not sufficient. Hold or reject required.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1696,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 504,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
