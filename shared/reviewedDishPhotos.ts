@@ -142085,5 +142085,29 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "height": 720,
     "requiresExactMenuName": true,
     "authorUrl": "https://www.flickr.com/people/24311648@N00"
+  },
+  {
+    "id": "commons-167810870",
+    "title": "File:Chicken fajita platter, Lone Star Texas Grill, Windsor, Ontario, 2025-06-14 01.jpg",
+    "author": "Crisco 1492",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chicken_fajita_platter,_Lone_Star_Texas_Grill,_Windsor,_Ontario,_2025-06-14_01.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Chicken_fajita_platter%2C_Lone_Star_Texas_Grill%2C_Windsor%2C_Ontario%2C_2025-06-14_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "42793f0b767ef89d62bcd3db628a6749b3ca97cb",
+    "name": "Chicken fajita platter",
+    "aliases": [],
+    "proteins": [
+      "chicken"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-167810870.jpg",
+    "assetSha256": "54009961df7be6898bcba2a293053084d4c9ddb5861ea5ef00d660d4e1567bb0",
+    "reviewedAt": "2026-11-20",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 769,
+    "requiresExactMenuName": true
   }
 ];
