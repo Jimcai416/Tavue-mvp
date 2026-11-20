@@ -11770,3 +11770,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 - **Crab curry cooked with Indian spices and coconut paste** — Kajori.p. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Crab_masala.jpg). Local asset: `reviewed-commons-40956152.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Crab curry, potato-drumstick curry, dal and rice** — Jit.roy.chowdhury. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Crab_thali.JPG). Local asset: `reviewed-commons-40937438.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **The cracking Crab curry** — Chotonn. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:The_cracking_Crab_curry.jpg). Local asset: `reviewed-commons-40729321.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Nadan Chicken Curry** — [Yummy O Yummy](https://www.flickr.com/people/127963413@N05). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Nadan_Chicken_Curry_(15292486764).jpg). Local asset: `reviewed-commons-99907844.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
