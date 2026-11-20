@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDgycQT1myFaVAb7TYrg",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": true,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 2,\n    \"composition\": 2,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail too blurred and low-contrast to discern essential dish components\",\n    \"No readable detail of food identity in phone centre-cover crop\",\n    \"Cream/white content barely distinguishable from background\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title metadata states 'Laax (bouilli de mil)' but no authoritative source description provided in structured data\",\n    \"Actual dish identity cannot be verified against visible form in either full or thumbnail image\",\n    \"Severe softness and lack of detail prevent confirmation of finished, exposed, appetising dish\",\n    \"Unclear whether subject is preparation stage, broth, or finished plated food\",\n    \"No readable food components visible in either photograph\"\n  ],\n  \"reason\": \"Reject: Image fails quality and phone checks. Full photograph is severely soft, underexposed and lacks sharp detail of any identifiable dish components. The thumbnail is too blurred and low-contrast to show essential food elements. Lighting is poor with minimal visual appeal. No finished, exposed, appetising dish can be confidently identified. Without a trusted, structured source description matching the visible form, identity cannot be verified. The image appears to show only a pale, indistinct liquid or preparation stage, not a completed dish suitable for Tavue review.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1632,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 434,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
