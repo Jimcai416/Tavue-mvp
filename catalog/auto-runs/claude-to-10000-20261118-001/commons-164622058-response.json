@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDqQ5jMZZxh9RwEga6y1",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Cooked meat slices with glossy caramelization visible\",\n    \"Red chilli sauce drizzle prominent across meat\",\n    \"Golden chips/fries alongside\",\n    \"Natural daylight, warm colour cast\",\n    \"Sharp detail of meat texture and sauce\",\n    \"Appetising presentation on white plate\"\n  ],\n  \"phone_observations\": [\n    \"Meat and sauce clearly visible in thumbnail\",\n    \"Chips visible on right side\",\n    \"Sufficient detail to identify dish category\",\n    \"Red sauce unmistakably shown\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title states 'Doner meat' but source does not explicitly name the animal species (beef, lamb, or goat cannot be confirmed from title or visible form)\",\n    \"Generic term 'meat' in title without species qualification violates protein naming requirement\"\n  ],\n  \"reason\": \"Image quality, photograph authenticity, and phone thumbnail presentation all pass. However, the source title 'Doner meat and chips with hot chilli sauce' uses the unspecified term 'meat' without declaring the actual animal species. Per protocol, protein_evidence keys require exact case-sensitive substrings from the source naming specific animals (chicken/beef/pork/duck/lamb/seafood). 'Doner meat' alone is ambiguous—doner can be made from lamb, beef, or other species. Identity check fails because the source does not provide an explicit, unambiguous species declaration. This must be held pending species clarification.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1615,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 486,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

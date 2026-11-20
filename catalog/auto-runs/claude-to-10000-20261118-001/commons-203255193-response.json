@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDqPmZhWeYpJdhSp3ReE",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Cooked meat strips in white container with decorative garnish (orange carrot ribbons, pickled vegetables)\",\n    \"White plates and wooden utensils visible\",\n    \"Outdoor café setting with street backdrop\",\n    \"Coca-Cola Zero Sugar bottle present\",\n    \"Natural daylight, well-exposed\"\n  ],\n  \"phone_observations\": [\n    \"Meat dish clearly visible and prominent in thumbnail\",\n    \"White container and garnish readable\",\n    \"Beverage bottle visible\",\n    \"Adequate sharpness for recognition\",\n    \"No clipping of essential food\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Species of meat cannot be visually confirmed from appearance alone\",\n    \"Title states 'Doner Meat Plate Combo' but 'Doner' traditionally refers to a preparation method and rotating meat type, not a specific animal species\",\n    \"Doner meat species (lamb, beef, chicken, or mixed) is not explicitly named in the source description\",\n    \"No visible source quote explicitly naming a single allowed protein category (chicken/beef/pork/duck/lamb/seafood)\"\n  ],\n  \"reason\": \"While the photograph is sharp, well-lit, and appetisingly presented with clear identity as a meat plate combo from the named café, the source description does not explicitly name the meat species. 'Doner Meat' is a preparation style whose animal origin is ambiguous and cannot be confirmed from visual inspection alone. The requirement to preserve exact source-declared protein names and never infer species from tradition or appearance cannot be satisfied. The identity check fails because the canonical name cannot be established without explicit species confirmation.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 2078,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 512,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
