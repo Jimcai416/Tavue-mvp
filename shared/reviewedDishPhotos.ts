@@ -136763,5 +136763,28 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 720,
     "height": 960,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-24302147",
+    "title": "File:Pastéis de Nata Pastéis de Belém (3780458944).jpg",
+    "author": "Yusuke Kawasaki  from Tokyo, Japan",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Past%C3%A9is_de_Nata_Past%C3%A9is_de_Bel%C3%A9m_(3780458944).jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/67/Past%C3%A9is_de_Nata_Past%C3%A9is_de_Bel%C3%A9m_%283780458944%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "87dcdfcacd220a6d22bdd8e80d58be52cbd30628",
+    "name": "Pastéis de Nata / Pastéis de Belém",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-24302147.jpg",
+    "assetSha256": "ab7af6dafafe38065ac040816652f12fe2973f174cf8e9f7b63f791d63a9fe8f",
+    "reviewedAt": "2026-11-20",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 637,
+    "requiresExactMenuName": true,
+    "authorUrl": "https://www.flickr.com/people/50902562@N00"
   }
 ];
