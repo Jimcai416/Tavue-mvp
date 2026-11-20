@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDKKe9csW88Jg4BiP9Dw",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Gnocchi-like pasta visible on plate, pale/white in colour\",\n    \"Cooked ground meat topping with red diced peppers/tomatoes and breadcrumb crust\",\n    \"Sauce pooled on plate beneath components\",\n    \"Plated presentation with fork, home/restaurant dining setting\",\n    \"Phone thumbnail shows dish clearly in centre-cover position\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly displays gnocchi-like pasta base with meat topping\",\n    \"Red vegetable pieces and crumb topping visible at this resolution\",\n    \"Dish is prominent, not clipped, identifiable as prepared food\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title states 'ñoquis argentinos' (Argentine gnocchi) but no protein species is named in title or description\",\n    \"Ground meat topping is visibly present but animal origin cannot be determined from appearance alone and is not explicitly stated in source metadata\",\n    \"Exact dish identity cannot be confirmed without protein specification\"\n  ],\n  \"reason\": \"Image quality, photography, and phone thumbnail all meet standards. The dish is a finished, plated gnocchi preparation with visible meat topping, properly exposed and appetising. However, the source title and description contain no explicit protein identifier. The ground meat visible in the photograph cannot be definitively identified by species (beef, pork, lamb, etc.) from appearance alone, and the metadata provides no species declaration. Per protocol, unknown meat species requires hold. The canonical name cannot be established without this essential qualifier.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1523,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 492,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
