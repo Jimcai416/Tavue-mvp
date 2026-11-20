@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChEKitHJr2Koda4KU6nkc",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 3,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Glass contains dark liquid with white foam/cream layer\",\n    \"No visible food components\",\n    \"Subject is a beverage, not a dish\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'Okroshka' (a cold soup with meat and vegetables), but the full-source and phone thumbnail show only a glass beverage with no visible solid food components, meat, or vegetables\",\n    \"Visual identity does not match source description\"\n  ],\n  \"reason\": \"Rejection: source title 'Okroshka' describes a traditional cold soup typically containing meat, potatoes, cucumber and other vegetables served with kvass or sour cream. The photograph shows a clear glass containing what appears to be a dark liquid (possibly kvass or cola) with white foam topping—a beverage without any visible prepared dish components, solid food elements, or recognizable soup ingredients. The visual content contradicts the named dish identity. This is a beverage photograph, not a finished, exposed food dish meeting Tavue acceptance criteria. Identity check fails due to source–visual mismatch.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1732,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 389,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

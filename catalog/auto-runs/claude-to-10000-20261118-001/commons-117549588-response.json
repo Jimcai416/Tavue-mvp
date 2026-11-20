@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChEKjfKjWmQKtF2VUjmYS",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 5,\n    \"composition\": 5,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Raw ingredients in preparation bowls\",\n    \"Diced cucumbers, cured/cooked pork pieces, egg whites visible\",\n    \"Herb and sour cream mixture in separate bowl\",\n    \"Glass of yellow kvass alongside\"\n  ],\n  \"phone_observations\": [\n    \"Phone thumbnail shows two preparation bowls with raw/semi-prepared components\",\n    \"No finished, plated dish visible in thumbnail\",\n    \"Essential dish form is not present in either full or phone image\"\n  ],\n  \"protein_evidence\": {\n    \"pork\": \"boiled pork\"\n  },\n  \"uncertainties\": [\n    \"Image shows ingredient preparation and mise en place, not a finished exposed okroshka dish\",\n    \"No assembled, served cold soup visible in either photograph\"\n  ],\n  \"reason\": \"Rejection: This is a preparation/ingredients photograph, not a finished dish. The source description explicitly frames these as component preparation stages (\\\"Sliced products for okroshka\\\", \\\"Dressing\\\" ingredients). Neither the full source image nor the phone thumbnail displays a completed, plated okroshka soup. The image shows raw/cooked ingredients in bowls and a glass of kvass — documentation of a recipe's mise en place rather than a photographed finished food suitable for Tavue's gallery of eaten dishes. Accepts must show finished, exposed, plated food with appetising presentation.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1668,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 451,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
