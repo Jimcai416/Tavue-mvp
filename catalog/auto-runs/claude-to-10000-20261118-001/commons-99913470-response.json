@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDEb1FhHUySmfuMgjy77",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Four whole fish, grilled/fried, golden-brown with charred edges\",\n    \"Coleslaw accompaniment (green cabbage with purple onion)\",\n    \"Fork and plating on white dish\",\n    \"Natural, finished, exposed cooked state\"\n  ],\n  \"phone_observations\": [\n    \"Four fish clearly visible and readable\",\n    \"Coleslaw and plating legible\",\n    \"Subject prominent and sharp in thumbnail\",\n    \"No clipping of essential components\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title 'Somdalle Rechad fry' does not match description 'Butterfish'—ambiguous identity\",\n    \"Species 'Butterfish' is not an exact protein category supported (not chicken/beef/pork/duck/lamb/seafood with explicit species confirmation)\",\n    \"Description metadata ('Somdaye Rs.120', market location) suggests unverified or incomplete dish naming\",\n    \"No explicit source quote unambiguously identifying the dish in a canonical form\"\n  ],\n  \"reason\": \"Identity check fails due to contradiction between title 'Somdalle Rechad fry' and description 'Butterfish'. Butterfish is not a supported protein category (seafood requires explicit species qualification, not colloquial name). Source metadata is incomplete and market-notation style. While photograph and phone quality are strong (sharpness, lighting, composition, appeal all ≥4), and the dish is clearly a finished, appetising grilled fish plate with slaw, the identity conflict and lack of a canonical source quote matching a standard dish name prevent acceptance. Hold pending clarification of exact dish name and seafood species.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1901,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 522,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

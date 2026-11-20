@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDEap7jQFBwYcgk475hs",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Three whole grilled fish, deeply browned with charred edges\",\n    \"Fresh shredded cabbage and onion slaw on white plate\",\n    \"Fork present, natural daylight outdoor setting\",\n    \"Coleslaw accompaniment visible in both full and thumbnail\"\n  ],\n  \"phone_observations\": [\n    \"Three grilled fish clearly visible and identifiable\",\n    \"Prominent charred surfaces and caramelization\",\n    \"Slaw visible in background\",\n    \"White plate fills frame appropriately\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title 'Somdalle Rechad fry' does not match visible form—no recognized romanization or Konkani dish name aligns with this exact phrase\",\n    \"Description states 'Butterfish' but source title does not contain this word; unclear if title or description is authoritative\",\n    \"Species ambiguity: 'Butterfish' is not a standard fish category—could refer to multiple species (pomfret, mackerel variants, or regional common name); exact species unconfirmed\",\n    \"No explicit protein quote in title matching the fish served\",\n    \"Regional variant name unclear: 'Somdalle' romanization and 'Rechad' preparation style cannot be verified against visible form alone\",\n    \"Price and market location metadata present but do not resolve identity conflict\"\n  ],\n  \"reason\": \"Identity check fails. The source description names 'Butterfish' but the title 'Somdalle Rechad fry' does not explicitly name the fish. 'Butterfish' is not a recognized or precise species category and may refer to multiple fish types. The title and description conflict without clear resolution. Regional dish variant name 'Somdalle Rechad' cannot be verified as a canonical Goan or Indian grilled fish dish from the visible form or standard sources. While photograph and phone thumbnail quality, sharpness, lighting and composition all meet standards (all ≥4), and the dish appears appetising and finished, the absence of a consistent, specific, verifiable protein identity and canonical name means identity and variant_preserved checks cannot pass. Hold pending clarification of exact fish species and authoritative dish name.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1866,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 637,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
