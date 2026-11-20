@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChEhRLXgj5auQKHmDjr5J",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 5,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Single large dumpling in golden broth\",\n    \"Fresh parsley garnish\",\n    \"Blue-rimmed white bowl\",\n    \"Appetising presentation\",\n    \"Sharp detail of dumpling texture\",\n    \"Natural warm lighting\",\n    \"Restaurant setting with wine glasses visible\"\n  ],\n  \"phone_observations\": [\n    \"Dumpling and broth clearly visible\",\n    \"Sufficient detail to identify dish type\",\n    \"Parsley garnish visible\",\n    \"Bowl border clearly shown\",\n    \"Central composition readable\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title contains 'Speckknödelsuppe' but description states the dumpling is a 'Tiroler Knödel/Speckknödel' with bacon addition. The exact canonical form from the source is ambiguous between 'Tiroler Speckknödelsuppe', 'Speckknödelsuppe', or 'Tiroler Knödelsuppe'.\",\n    \"Bacon (Speck) is mentioned in the description but is not an allowed protein category (chicken/beef/pork/duck/lamb/seafood). Bacon derives from pork, but the source does not explicitly state 'pork' as a protein category.\",\n    \"The description identifies the dumpling composition (bread, bacon, possibly other ingredients) but no explicit quote names a primary animal protein using the allowed categories.\"\n  ],\n  \"reason\": \"Image quality, composition, and phone thumbnail are excellent and satisfy all photographic criteria. However, the source title 'Tiroler Speckknödelsuppe' cannot be used as canonical_name without resolving ambiguity with the description's alternative phrasing. More critically, 'Speck' (bacon) cannot be supported as a protein_evidence key—while bacon is pork-derived, the source explicitly says 'bacon' not 'pork', and bacon itself is not an allowed protein category. The description does not provide an explicit quote naming pork or another allowed protein species. This protein uncertainty prevents acceptance.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1705,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 613,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

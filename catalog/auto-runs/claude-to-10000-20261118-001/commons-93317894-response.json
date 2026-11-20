@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChEhRAyxc7JLwfm8Qy5MT",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Dark braised/cooked items stacked on greens in deep brown gravy\",\n    \"Green leafy vegetable clearly visible\",\n    \"Thumbnail composition matches full image\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'vegan bangers' but photograph shows what visually appears to be conventional braised/stewed meat with rich brown gravy and substantial dark protein items\",\n    \"No animal protein can be sourced from the title 'Vegan bangers and mash' as it explicitly declares vegan preparation\",\n    \"Visual appearance contradicts vegan declaration – the braised items, gravy colour, and overall presentation are consistent with traditional meat-based bangers and mash, not plant-based alternatives\",\n    \"Cannot verify if visible items are indeed vegan sausages or conventional sausages; source metadata contradicts visual evidence of what appears to be animal protein\"\n  ],\n  \"reason\": \"Reject: The source title declares this a vegan dish ('Vegan bangers and mash'), which means no animal protein categories can be claimed per instructions. However, the visual appearance of dark braised items in rich brown gravy is inconsistent with typical vegan preparation and presentation. This creates a material contradiction between source declaration and visual evidence that cannot be resolved through the photograph alone. Per protocol, source contradictions requiring verification => hold/reject. Since the title explicitly excludes animal proteins (vegan), no protein_evidence can be populated, violating the meaningful full-image requirement for acceptance. The dish cannot be positively identified as the finished animal-protein dish category Tavue accepts.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1839,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 501,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

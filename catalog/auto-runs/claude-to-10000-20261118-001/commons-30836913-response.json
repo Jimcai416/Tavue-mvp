@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChEhQfzSPyGCMypizD1Bo",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 5,\n    \"appeal\": 5\n  },\n  \"visible_support\": [\n    \"Glossy brown sausage with rich caramelized surface\",\n    \"Creamy mashed potato visible beneath sausage\",\n    \"Bright green peas scattered prominently across dish\",\n    \"Rich brown gravy pooling around components\",\n    \"Plate presentation is clean and professional\",\n    \"Phone thumbnail shows all three components clearly\"\n  ],\n  \"phone_observations\": [\n    \"Sausage, peas, and mash base all distinctly visible\",\n    \"Green peas occupy central focus area\",\n    \"Brown meat and cream-coloured starch clearly readable\",\n    \"Thumbnail composition supports full-image identity\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title refers to 'Bangers' (colloquial British term for sausages) but does not explicitly name the meat species (pork, beef, or other animal)\",\n    \"No source quote explicitly identifies the sausage as pork, beef, chicken, lamb, duck, or seafood\",\n    \"Species must be declared in title/description; tradition and regional convention cannot substitute for explicit naming\"\n  ],\n  \"reason\": \"Image quality, photograph authenticity, phone thumbnail readability, and composition are all excellent. All quality scores meet threshold. However, the source title 'Bangers and mash with peas' uses only the colloquial term 'Bangers' without explicitly naming the meat species. Protocol requires exact source quote explicitly naming the animal for protein_evidence. 'Bangers' is a generic British term that traditionally refers to pork sausages but could refer to other species. Without an explicit species declaration in the source title or description, identity cannot be fully verified and protein_evidence cannot be populated with any allowed category. Hold pending clarification of sausage meat species.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1870,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 542,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
