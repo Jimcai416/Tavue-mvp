@@ -12301,3 +12301,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 
 - **Spaghetti al nero di Sepia** — Kritzolina. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Food_on_Mallorca_01.jpg). Local asset: `reviewed-commons-145345031.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Kuro-Goma Tantan Ramen** — [Guilhem Vellut  from Paris, France](https://www.flickr.com/people/22539273@N00). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Noodles,_Kuro-Goma_Tantan_Ramen,_Dosanko_Larmen,_Paris_001.jpg). Local asset: `reviewed-commons-55265269.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Bhaji Pauv** — TriptaG. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Bhaji_Pauv.JPG). Local asset: `reviewed-commons-40917246.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.

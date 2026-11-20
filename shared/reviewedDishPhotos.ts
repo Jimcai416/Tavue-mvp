@@ -154055,5 +154055,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "height": 640,
     "requiresExactMenuName": true,
     "authorUrl": "https://www.flickr.com/people/22539273@N00"
+  },
+  {
+    "id": "commons-40917246",
+    "title": "File:Bhaji Pauv.JPG",
+    "author": "TriptaG",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bhaji_Pauv.JPG",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Bhaji_Pauv.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "5203155657cfcd88c72fecdf25f1e908927f41b5",
+    "name": "Bhaji Pauv",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-40917246.jpg",
+    "assetSha256": "0a78871f50c4a3639eb88ac564404fe71006c1fa762269b07334b5105f68656c",
+    "reviewedAt": "2026-11-20",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 563,
+    "requiresExactMenuName": true
   }
 ];
