@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDERfmvjQoWhJWbrYag1",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Golden-brown fried patties consistent with fish cakes\",\n    \"Boiled potatoes with herb garnish (consistent with wild garlic)\",\n    \"Creamy pale sauce consistent with tartar/remoulade\",\n    \"Natural home-cooked plating on white plate\"\n  ],\n  \"phone_observations\": [\n    \"All three components clearly visible in thumbnail\",\n    \"Fish cakes prominent and well-exposed\",\n    \"Potatoes and sauce legible\",\n    \"Adequate detail for recognition\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title declares 'fiskefrikadeller med asparges, laks og rejer' (fish cakes with asparagus, salmon and shrimp) but asparagus is not visibly present in either photograph\",\n    \"Salmon and shrimp are mentioned as components but cannot be visually distinguished in the fried cakes\",\n    \"Source metadata lists multiple proteins (asparagus, laks, rejer) that have no visible support in the actual dish shown\",\n    \"Fish species and preparation method (whether cakes contain only fish or mixed seafood) cannot be confirmed from appearance alone\"\n  ],\n  \"reason\": \"Source description declares asparagus, salmon, and shrimp as visible components but asparagus is absent from both images, and salmon/shrimp cannot be distinguished within the fried cakes. The visible dish shows fish cakes, potatoes with herbs, and remoulade sauce, but the stated protein composition contradicts what is photographically evident. Without ability to verify the actual content of the fried patties or confirm the missing asparagus, identity cannot be confirmed. Hold pending clarification of actual dish composition.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1715,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 524,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

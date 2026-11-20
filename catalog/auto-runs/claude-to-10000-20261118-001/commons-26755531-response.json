@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDERPSAUbcGJgcEKWvtF",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Finished, cooked dish in white leaf-shaped serving vessel\",\n    \"Creamy pale sauce (purported karl johan-remoulade) clearly visible on left\",\n    \"Multiple brown sausages prominently displayed\",\n    \"Quail eggs (speckled, recognizable)\",\n    \"Red and yellow bell pepper strips\",\n    \"Natural colours, sharp detail in phone thumbnail\"\n  ],\n  \"phone_observations\": [\n    \"All essential components readable in 124x96 thumbnail\",\n    \"Sausages, peppers, sauce and eggs clearly distinguishable\",\n    \"No clipping of critical elements\",\n    \"Composition and appetite appeal preserved at reduced size\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Sausage ('pølser') species unspecified in source title/description—cannot determine if pork, beef, or mixed animal origin\",\n    \"Source title is in Danish; 'vagtelæg' confirmed as quail eggs (not a protein category), but sausage animal cannot be established from metadata alone\"\n  ],\n  \"reason\": \"Image quality, photograph authenticity, composition and phone rendering all pass acceptance thresholds (sharpness, lighting, composition, appeal all ≥4). However, the dish contains sausages ('pølser') whose animal species is not explicitly named in the source title or description. Per protocol, unspecified sausage species cannot be accepted as protein evidence, and 'sausage' is not an allowed protein category key. The identity check fails because a complete, verifiable canonical name cannot be established without knowing the sausage species. Hold pending clarification of protein source.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1763,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 513,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
