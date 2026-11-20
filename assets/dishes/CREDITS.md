@@ -12599,3 +12599,11 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Pistachio & Raspberry Roulade** — Andy Li. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Pistachio_%26_Raspberry_Roulade_-_Jacob%27s_Bakery_%2B_Cafe_2025-08-06.jpg). Local asset: `reviewed-commons-171801987.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Bocadillo de tortilla de patatas** — Tamorlan. [CC BY 3.0](https://creativecommons.org/licenses/by/3.0); [source](https://commons.wikimedia.org/wiki/File:Bocadillo_de_Tortilla_de_patatas_-_34.jpg). Local asset: `reviewed-commons-6882477.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Tortilla de patata perfecta de Tía Rosa** — Dalonsojimenez. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Tortilla-de-patatas-perfecta.jpg). Local asset: `reviewed-commons-63838153.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Tortilla de patata al estilo de Betanzos** — Bea.miau. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Tortilla_de_patata_t%C3%ADpica_de_Betanzos.jpg). Local asset: `reviewed-commons-107239121.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Tortilla de patatas con cebolla** — Mentxuwiki. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Tortilla_de_patatas_con_cebolla.jpg). Local asset: `reviewed-commons-126702424.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Tortilla de patatas de 15 huevos** — El Mono Español. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Tortilla_de_patatas_de_15_huevos.jpg). Local asset: `reviewed-commons-113923989.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
