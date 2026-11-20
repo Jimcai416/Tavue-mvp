@@ -11288,3 +11288,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 
 - **Shio-ramen and Chahan** — ノボホショコロトソ. [CC BY 4.0](https://creativecommons.org/licenses/by/4.0); [source](https://commons.wikimedia.org/wiki/File:Shio-ramen_and_Chahan_of_Gantetsu_02.jpg). Local asset: `reviewed-commons-153863144.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Shio Ramen** — [Guilhem Vellut  from Paris, France](https://www.flickr.com/people/22539273@N00). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Shio_Ramen,_Kodawari_Ramen,_Paris_001.jpg). Local asset: `reviewed-commons-50030890.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Tsukemen Ramen** — [Alper Çuğun  from Berlin, Germany](https://www.flickr.com/people/12505664@N00). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Tsukemen_ramen.jpg). Local asset: `reviewed-commons-56500780.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.

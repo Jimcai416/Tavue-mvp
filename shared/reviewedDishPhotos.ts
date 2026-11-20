@@ -142978,5 +142978,28 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "height": 640,
     "requiresExactMenuName": true,
     "authorUrl": "https://www.flickr.com/people/22539273@N00"
+  },
+  {
+    "id": "commons-56500780",
+    "title": "File:Tsukemen ramen.jpg",
+    "author": "Alper Çuğun  from Berlin, Germany",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tsukemen_ramen.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Tsukemen_ramen.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "d1fe7a58d35d43d35375cf8bb8146b7aaed91d98",
+    "name": "Tsukemen Ramen",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-56500780.jpg",
+    "assetSha256": "489c6994b0cd7a40c2c9cc22b165e93dded5e41ddb96ba290feb6a9ea145932f",
+    "reviewedAt": "2026-11-20",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true,
+    "authorUrl": "https://www.flickr.com/people/12505664@N00"
   }
 ];
