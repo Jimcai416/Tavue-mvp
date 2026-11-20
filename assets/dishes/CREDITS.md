@@ -11517,3 +11517,8 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 
 - **Somun bread from Turkey** — E4024. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Somun_bread_from_Turkey.jpg). Local asset: `reviewed-commons-44935236.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Kartoffelsalat** — Kobako. [CC BY-SA 2.5](https://creativecommons.org/licenses/by-sa/2.5); [source](https://commons.wikimedia.org/wiki/File:Kartoffelsalat.jpg). Local asset: `reviewed-commons-809323.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Ambuyat** — e_chaya. [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Ambuyat_in_Bandar_Seri_Begawan_Brunei.jpg). Local asset: `reviewed-commons-29820293.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Goto (Rice Porridge)** — MarvinBikolano. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Goto_(Rice_Porridge).jpg). Local asset: `reviewed-commons-143343042.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
