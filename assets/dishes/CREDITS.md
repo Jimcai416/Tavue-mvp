@@ -12013,3 +12013,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Pesto with focaccia** — Superchilum. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Pesto_with_focaccia_05.jpg). Local asset: `reviewed-commons-146731685.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Kuglof** — Verica 1966. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Kuglof,_Srbija.jpg). Local asset: `reviewed-commons-183587396.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.

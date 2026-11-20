@@ -150594,5 +150594,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-183587396",
+    "title": "File:Kuglof, Srbija.jpg",
+    "author": "Verica 1966",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kuglof,_Srbija.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Kuglof%2C_Srbija.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "9849bbec293af0e319b08d093770ff1c7a3fa046",
+    "name": "Kuglof",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-183587396.jpg",
+    "assetSha256": "d6d67fddd124221dd5548e06a9e14c4e400f95b3a9d4b4038bfeaefd5b6273b3",
+    "reviewedAt": "2026-11-20",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 697,
+    "requiresExactMenuName": true
   }
 ];
