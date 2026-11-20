@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChEtDH9VeT8CyQSzEzmEk",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Creamy white burrata cheese prominently displayed\",\n    \"Red tomato visible beneath cheese\",\n    \"Green vegetables (arugula/microgreens) as garnish\",\n    \"Green sauce/pesto on plate\",\n    \"Professional plating on ceramic dish\",\n    \"Natural lighting, restaurant setting\"\n  ],\n  \"phone_observations\": [\n    \"Burrata cheese and tomato elements clearly visible in thumbnail\",\n    \"Dish composition recognizable at small scale\",\n    \"Adequate detail retention for menu identification\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title describes 'Burrata salad with Red Tomato and Green Vegetables' but provides no explicit animal protein identification\",\n    \"Burrata is a cheese product (dairy), not a protein category listed in allowed categories (chicken/beef/pork/duck/lamb/seafood)\",\n    \"No meat, poultry, or seafood is visible or declared in the source description\"\n  ],\n  \"reason\": \"Rejection: The dish is a burrata cheese salad with tomato and vegetables. The source title and description contain no explicit naming of any allowed protein category (chicken, beef, pork, duck, lamb, or seafood). Burrata is a dairy cheese and does not qualify as a protein_evidence entry. While the photograph is sharp, well-lit, and appetizing, and the identity correctly matches the source description as a burrata salad, the absence of any declared animal protein means the dish falls outside the scope of review criteria requiring protein identification. All quality and photograph checks pass, but identity check fails due to lack of qualifying protein evidence.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1755,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 505,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChEtCH7DrBnditE65f5AR",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Plate shows a substantial protein-like item in yellowish-green sauce\",\n    \"Textured surface visible, green herb garnish evident\",\n    \"Dish is prominent and well-composed in thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Seitan is a wheat gluten product, not a recognized protein category (chicken/beef/pork/duck/lamb/seafood)\",\n    \"Source title claims 'Seitan Piccata' but seitan does not match any allowed protein category\",\n    \"Cannot visually distinguish seitan from meat or confirm it is seitan rather than a prepared dish containing an allowed protein\"\n  ],\n  \"reason\": \"Rejection: The source identifies this dish as 'Seitan Piccata,' where seitan (wheat gluten) is the primary ingredient. Seitan is not a recognized protein category per the acceptance rules (only chicken/beef/pork/duck/lamb/seafood are allowed). No explicit source quote names an allowed protein species. While the photograph is well-exposed, sharp, and appetizing, the identity cannot be accepted because the stated main component falls outside permitted protein categories and cannot be verified visually as containing an allowed protein.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1734,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 414,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
