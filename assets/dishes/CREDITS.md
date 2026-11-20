@@ -11791,3 +11791,8 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Enfrijoladas con crema, queso y salsa verde** — German matus. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Enfrijoladas.jpg). Local asset: `reviewed-commons-105998189.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Hobak-jeon** — hyun chun kim. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Hobak-jeon.jpg). Local asset: `reviewed-commons-61237434.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Beef Bowl, Gyūdon** — Calgary Reviews. [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Beef_Bowl,_Gy%C5%ABdon.jpg). Local asset: `reviewed-commons-75188510.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.

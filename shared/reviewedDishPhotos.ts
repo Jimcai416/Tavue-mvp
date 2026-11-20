@@ -148379,5 +148379,51 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 776,
     "height": 960,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-61237434",
+    "title": "File:Hobak-jeon.jpg",
+    "author": "hyun chun kim",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hobak-jeon.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/af/Hobak-jeon.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "8f2c98f606f0d37e52179f4c091fb20dc4662bac",
+    "name": "Hobak-jeon",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-61237434.jpg",
+    "assetSha256": "e8ab370a9484b0e35b0c62b83dc8f63180cbe05287503938353d65280161fbb4",
+    "reviewedAt": "2026-11-20",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 540,
+    "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-75188510",
+    "title": "File:Beef Bowl, Gyūdon.jpg",
+    "author": "Calgary Reviews",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Beef_Bowl,_Gy%C5%ABdon.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/73/Beef_Bowl%2C_Gy%C5%ABdon.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "c6c2375b46e579980c5b09aa445a7f7547835dbf",
+    "name": "Beef Bowl, Gyūdon",
+    "aliases": [],
+    "proteins": [
+      "beef"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-75188510.jpg",
+    "assetSha256": "abea51e4090f41be7e83542fc91b7a3a8217362b4c34b932f52d84f5e91ecb63",
+    "reviewedAt": "2026-11-20",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 641,
+    "requiresExactMenuName": true
   }
 ];
