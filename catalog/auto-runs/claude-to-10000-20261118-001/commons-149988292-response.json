@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChEGpNQnUijZ4a74x3qsh",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Two open-faced toast compositions on slate plate\",\n    \"Golden toasted bread base\",\n    \"Avocado spread visible on both pieces\",\n    \"Tomato slices with black sesame seeds\",\n    \"Cucumber slices layered on top\",\n    \"Side bowl with what appears to be pico de gallo or ceviche\",\n    \"Natural daylight, restaurant setting\",\n    \"Sharp detail of toppings and textures\"\n  ],\n  \"phone_observations\": [\n    \"Plate clearly visible in thumbnail with two toast pieces\",\n    \"Garnishes and toppings readable at small size\",\n    \"Side accompaniment visible in small bowl\",\n    \"Overall composition recognizable as finished dish\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title states 'Avocado Toast' but provides no specific regional or house variant name\",\n    \"Description credits 'Kuka y Naranjo' restaurant as source but does not name the dish itself\",\n    \"Generic title 'Avocado Toast' does not match Tavue canonical naming requirement for specific dish identity\",\n    \"Cannot verify if this is a named house specialty or standard preparation without explicit source dish name\",\n    \"No proteins explicitly named in title or description\"\n  ],\n  \"reason\": \"Identity check fails. Source provides only generic 'Avocado Toast' as title, with restaurant credit in description but no specific canonical dish name. The image quality, sharpness, lighting, composition and phone thumbnail are all excellent and meet criteria. However, Tavue requires canonical_name to be a specific dish phrase copied exactly from source title or description. 'Avocado Toast' alone is too generic and does not preserve any meaningful regional variant, house specialty name, or preparation qualifier. The source metadata does not supply an explicit, specific dish identity beyond the generic category. Without a named variant or house-specific designation from the source, identity cannot be established to match Tavue's requirements.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1532,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 582,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

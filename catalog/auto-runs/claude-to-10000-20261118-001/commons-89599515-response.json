@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChEGpkPNeJ1wpA1QjZaLY",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Crispy hash brown patties with visible greens mixed in\",\n    \"Crispy shredded root vegetable hash browns on right side\",\n    \"Toast base visible beneath toppings on left\",\n    \"Brown strips identifiable as tempeh product\",\n    \"White plate, natural indoor lighting\"\n  ],\n  \"phone_observations\": [\n    \"Hash browns and tempeh strips clearly visible in thumbnail\",\n    \"Toast component readable but secondary\",\n    \"Overall composition and dish proportions match source\",\n    \"Essential components present and identifiable\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title claims 'bacon-flavored tempeh' but tempeh is a fermented soy product, not an animal protein. The exact protein category cannot be determined from visual inspection alone and 'tempeh' is not a supported protein key (chicken/beef/pork/duck/lamb/seafood only). Source description explicitly states 'tempeh bacon' (plant-based), not meat.\",\n    \"No visible poultry, mammalian meat, or seafood protein that meets canonical categories present in the dish.\"\n  ],\n  \"reason\": \"Rejection: Source description explicitly identifies the protein component as 'tempeh bacon' (fermented soy product, plant-based). The canonical protein categories are limited to chicken, beef, pork, duck, lamb, and seafood only. Tempeh does not qualify under any of these categories and cannot be supported as a protein_evidence entry. The dish contains no visible meat or seafood to validate under required protein standards. While photograph and phone thumbnail quality are acceptable, identity check fails due to absence of supported protein category.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1605,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 509,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

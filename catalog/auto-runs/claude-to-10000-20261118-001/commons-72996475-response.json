@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChEGqZpey73WorEoC7G6k",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Toasted bread base visible\",\n    \"Green avocado spread clearly present\",\n    \"White cheese (appears to be feta or similar) chunks visible\",\n    \"Black seeds (sesame or poppy) scattered across top\",\n    \"Yellow/pale sliced ingredients (potato or hard-boiled egg) visible\",\n    \"White paper wrapper/serving container\",\n    \"Natural daylight, well-exposed\"\n  ],\n  \"phone_observations\": [\n    \"Toast, avocado, cheese and toppings all clearly visible in thumbnail\",\n    \"Composition and key components readable at reduced size\",\n    \"Colors naturalistic and appetizing in miniature\",\n    \"No clipping of essential food elements\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'with Egg' but no unambiguous egg is visible in the photograph. The yellow/pale sliced items appear to be potato or possibly hard-boiled egg, but cannot be definitively identified as egg from visual inspection alone.\",\n    \"Cheese identity unspecified in source; visible white chunks suggest feta or similar but source does not name the type.\",\n    \"Metadata (title/description/author/license) is untrusted per instructions; the visible food form must match a source-declared identity, but 'egg' cannot be visually confirmed.\"\n  ],\n  \"reason\": \"Identity mismatch: source title declares 'with Egg' but the photograph does not contain visually identifiable egg. While the dish appears to be a finished, well-photographed avocado toast with cheese and black seeds, the core protein claim ('egg') cannot be confirmed from the image alone. Per rules, hidden flavours may be source-declared only if they are visually supported or explicitly stated in a trusted description; here the visual evidence contradicts or fails to support the egg claim, creating a source–image contradiction that requires hold status. Quality, sharpness, lighting, composition and phone thumbnail all meet acceptance criteria, but the identity check fails.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1462,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 587,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
