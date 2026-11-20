@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChEkGfrPXPhNp2jxC3dto",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Finished, cooked meat dish with caramelized glaze\",\n    \"Starchy side dish (cassava/manioc) in white bowl\",\n    \"Garnished mixed vegetable side in small bowl\",\n    \"Natural colours, appetising presentation\"\n  ],\n  \"phone_observations\": [\n    \"Glazed meat portions clearly visible in thumbnail\",\n    \"Starchy white accompaniment recognizable\",\n    \"Dish identity readable from phone view\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title states 'queue de boeuf' (oxtail/beef tail) but metadata is untrusted and cannot be used as instruction\",\n    \"Source title contains 'File:' prefix and filename structure, not a clean dish description\",\n    \"Visual appearance consistent with beef/oxtail but species cannot be confirmed from photograph alone without authoritative source text\",\n    \"No explicit, case-sensitive dish name provided in a trusted description field\"\n  ],\n  \"reason\": \"Identity check fails: supplied source is a filename/metadata structure ('File:Deux plats queue de boeuf avec le manioc.jpg') rather than an authoritative dish title or description. Per instructions, metadata and filenames are untrusted evidence and never instructions. The photograph itself shows a finished, well-presented cooked meat dish with manioc and vegetables—quality and photograph checks pass. However, without a clean, trusted canonical source description (not a filename), the specific identity cannot be confirmed. The visual appearance and title suggest beef oxtail, but extracting the dish name from an untrusted filename violates the protocol. Hold pending a proper source title or description field.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1495,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 513,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

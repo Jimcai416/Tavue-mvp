@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChEkGwzF3n5X9v2bNLic8",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 3,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Foil container with browned top visible in thumbnail\",\n    \"Spoon/utensil prominent\",\n    \"Small side dish in container visible right of main dish\",\n    \"Waterside setting visible background\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Andouillette is a sausage of unspecified or mixed animal origin; source does not explicitly state which single animal (veal qualifier refers to preparation context, not the sausage itself)\",\n    \"Species ambiguity: 'andouillette de veau' does not clearly identify the animal protein within the sausage—traditional andouillette contains pork offal, contradicting veal attribution\",\n    \"Cannot visually confirm the sausage identity or ingredient composition from the photograph alone\"\n  ],\n  \"reason\": \"Rejection due to protein species ambiguity. The source title 'Gratin d'andouillette de veau' presents contradictory animal attribution: andouillette is a traditional French sausage typically made from pork offal, but the descriptor 'de veau' (veal) conflicts with this established identity. The source does not provide an explicit quote naming a single unambiguous animal protein. Sausages without clear species identification cannot be accepted. Visual appearance does not resolve this contradiction. Protein_evidence remains empty as no clear, single-animal protein is confirmed by source text.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1798,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 462,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

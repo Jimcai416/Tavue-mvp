@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChEkHUnukWsmUy5TvVWk8",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Cooked meat pieces with caramelised surface\",\n    \"Sliced onions, some caramelised\",\n    \"Fresh green herb garnish (appears to be chives or similar)\",\n    \"Plate marked 'Bon App' and restaurant fork logo\",\n    \"Professional plating on white dish\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows meat and onions composition\",\n    \"Herb garnish visible in phone view\",\n    \"Plate branding readable\",\n    \"Subject prominent and unclipped\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'queue de boeuf' (oxtail/beef tail) but metadata is untrusted and filename is not a source title\",\n    \"Description provided is generic template text ('Farm to Plate') with no actual dish confirmation\",\n    \"No reliable source title/description supplied—only untrusted filename and generic theme metadata\",\n    \"Cannot confirm beef species or oxtail preparation from image alone\",\n    \"Unknown secondary ingredient 'koko' in filename—no visual or textual verification\"\n  ],\n  \"reason\": \"Identity check fails: the filename 'La queue de boeuf avec koko.jpg' and generic description metadata are explicitly untrusted and cannot serve as canonical source evidence. No authoritative title or description was provided by the user. The image shows a cooked meat dish with caramelised onions and herbs, but without a verified source title matching the actual dish identity, and with an unidentified ingredient ('koko'), acceptance cannot proceed. The photograph and phone thumbnail are of good quality, but identity verification is mandatory and absent.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1490,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 514,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

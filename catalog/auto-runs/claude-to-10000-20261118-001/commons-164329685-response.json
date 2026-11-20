@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChEkHqiz9g1wtFhu6k4ts",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Cooked meat pieces in rich brown broth\",\n    \"Sliced white onions or leeks garnish\",\n    \"Glossy, braised appearance consistent with stewed beef\",\n    \"Two bowls visible; foreground bowl sharp and well-lit\",\n    \"Natural plating on white ceramic\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail shows brown braised meat with white garnish clearly visible\",\n    \"Portion and colour visible in centre-cover framing\",\n    \"Adequate sharpness and contrast for identification\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title references 'queue de boeuf' (oxtail/beef tail) but metadata is untrusted and contains filename-style text, not a confirmed source description\",\n    \"No explicit animal species confirmation in provided trusted source description field—only 'Farm to Plate' theme phrase given\",\n    \"Visual appearance consistent with beef braised dish, but species cannot be confirmed from image alone without trusted source text\",\n    \"Description field does not contain the dish name or protein identifier required for canonical_name construction\"\n  ],\n  \"reason\": \"The photograph shows a finished, appetising braised meat dish with strong visual appeal and sharp detail. However, the supplied source description is minimal ('Farm to Plate' theme only) and does not name the dish or confirm the protein. The filename 'La queue de boeuf en bouillon' appears in metadata (title field) but metadata is explicitly untrusted per instructions—it cannot be used as evidence. Without a trusted, authoritative source description that explicitly names the dish and confirms the protein identity, identity verification cannot be completed. Hold pending a canonical source title or description that confirms 'queue de boeuf' or equivalent beef/oxtail identification in trusted form.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1490,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 541,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

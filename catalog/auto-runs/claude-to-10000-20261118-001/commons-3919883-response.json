@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChEkHZCK2bSesN6eyCxkB",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows breaded, golden-brown fried pieces on a white plate\",\n    \"Texture consistent with deep-fried breaded coating\",\n    \"Multiple pieces visible with reddish/pink interior visible in one piece\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title describes 'Pieds de porc panés' (breaded pig's feet), but pig feet are an organ/offal category not in the allowed protein list (chicken/beef/pork/duck/lamb/seafood)\",\n    \"The pink/reddish interior visible in the thumbnail is inconsistent with fully cooked pork and suggests either undercooked meat or a preparation artifact\",\n    \"While 'porc' (pork) appears in the title, feet/trotters are not standard culinary meat cuts and fall outside the protocol's protein scope\"\n  ],\n  \"reason\": \"Rejection based on protein category exclusion. The source explicitly identifies this dish as 'Pieds de porc panés' (breaded pig's feet). Although pork is mentioned, pig feet are an offal/organ component not covered by the allowed protein categories (chicken/beef/pork/duck/lamb/seafood apply to muscle meat only). Additionally, the visible pink interior in the thumbnail raises concerns about doneness or preparation authenticity. The dish cannot be accepted without a qualifying source quote that names an allowed protein category explicitly.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1735,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 462,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
