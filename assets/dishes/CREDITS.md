@@ -11526,3 +11526,9 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **set of baklawa sweets from Nablus. baklawa, balooryah, osh elbolbol and other nawashef** — RabahK. [Public domain](https://creativecommons.org/publicdomain/mark/1.0/); [source](https://commons.wikimedia.org/wiki/File:Baklawa_Sweets.jpg). Local asset: `reviewed-commons-10472416.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Crêpe Suzette (Warm crêpe with orange butter and orange liquor)** — Missvain. [CC BY 4.0](https://creativecommons.org/licenses/by/4.0); [source](https://commons.wikimedia.org/wiki/File:Bistro_Jeanty_-_Sarah_Stierch_-_May_2018_05.jpg). Local asset: `reviewed-commons-69073593.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Crépe Suzette** — Ka23 13. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:CrepeSuzette_20220507_205653.jpg). Local asset: `reviewed-commons-147230257.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Crêpe Suzette au Citron** — Antilived. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Cr%C3%AApe_Suzette_au_Citron.jpg). Local asset: `reviewed-commons-10424125.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
