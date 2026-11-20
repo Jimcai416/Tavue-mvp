@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDkRQLEkkn1Yyi85LF9Q",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [\n    \"Bowl on left contains a spiced legume/lentil mixture with visible yellow noodles and garnish\",\n    \"Centre plate displays fresh tomato slices, cucumber slices, lime wedges, diced onion, and cilantro\",\n    \"Right plate shows two pieces of toasted bread/pav\",\n    \"Phone thumbnail confirms all three components visible\"\n  ],\n  \"phone_observations\": [\n    \"Central plate with vegetable garnish clearly visible\",\n    \"Bowl and bread plate recognisable in thumbnail\",\n    \"Overall composition readable but subject scale modest\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title 'Kolhapuri Misal' conflicts with description 'Misal. In every corner of maharashtra'—Kolhapuri is a specific regional variant claim not independently verified in photograph\",\n    \"Left bowl contents cannot be definitively identified as the specific Misal variant claimed; appears to be a spiced legume preparation with noodles but exact recipe/regional origin not visually provable\",\n    \"No explicit protein (meat/seafood/chicken) visible or declared in source; only legume-based preparation evident\",\n    \"Description 'In every corner of maharashtra' is marketing language, not a dish identity qualifier\"\n  ],\n  \"reason\": \"Source metadata conflict: title declares 'Kolhapuri Misal' (a specific regional variant) but description reduces it to generic 'Misal' found across Maharashtra. The photograph shows component preparation (raw vegetables, bread, legume dish) consistent with misal service, but cannot visually confirm the Kolhapuri variant claim. No protein species named in source. Ambiguity over exact canonical identity and unverifiable regional qualifier requires hold per protocol, but the fundamental issue—contradiction between specific variant in filename and generic description—creates unresolvable identity uncertainty. Reject due to source self-contradiction on dish identity.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1743,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 574,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

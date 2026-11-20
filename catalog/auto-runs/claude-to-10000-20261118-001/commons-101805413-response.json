@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDkRkoHYjUprwdGEDf1f",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Spicy curry-based dish in metal bowl with reddish-brown gravy\",\n    \"Topped with diced onions, fresh lime wedge, and green coriander\",\n    \"White bread slice on separate plate\",\n    \"Street food presentation on marble/light surface\"\n  ],\n  \"phone_observations\": [\n    \"Misal bowl clearly visible with garnish and lime in thumbnail\",\n    \"Bread plate visible on left side\",\n    \"Dish identity readable in phone thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title states 'Kolhapuri misal' but description refers to generic 'Misal' without regional qualifier confirmation\",\n    \"No explicit protein/meat ingredient named in title or description; misal composition unclear from visuals alone\",\n    \"Description is generic promotional text; actual dish identity depends on exact regional variant and ingredient sourcing\"\n  ],\n  \"reason\": \"Image quality, sharpness, lighting, composition and phone visibility all meet standards. However, identity check fails: source metadata contains contradictory dish naming ('Kolhapuri misal' in filename vs generic 'Misal' focus in description). No protein species are explicitly named in the supplied title or description—only generic reference to 'spicy dish' and 'ingredients.' Misal is traditionally a legume-based dish; meat presence is neither confirmed in source text nor clearly identifiable in the photograph. Regional variant qualifier (Kolhapuri) cannot be reliably matched to canonical form without explicit source statement. Hold pending clarification of exact dish name and any protein components explicitly declared in authoritative source metadata.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1660,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 506,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
