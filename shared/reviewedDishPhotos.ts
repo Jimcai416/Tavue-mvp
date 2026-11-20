@@ -157786,5 +157786,53 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "height": 720,
     "requiresExactMenuName": true,
     "authorUrl": "https://www.flickr.com/people/wordridden/"
+  },
+  {
+    "id": "commons-34602545",
+    "title": "File:Canard à l'orange.jpg",
+    "author": "fabulousfabs",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Canard_%C3%A0_l%27orange.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Canard_%C3%A0_l%27orange.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "0da50f8370dc5e1bafccf67f724e7765fe9f6a1a",
+    "name": "Canard à l'orange",
+    "aliases": [],
+    "proteins": [
+      "duck"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-34602545.jpg",
+    "assetSha256": "30b82c94969c3c381f0773cc720fbf525fde2e6eeffe1591ee61f0698fa2ee40",
+    "reviewedAt": "2026-11-20",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 720,
+    "height": 960,
+    "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-97307701",
+    "title": "File:Canard à l'orange 01.jpg",
+    "author": "Arnaud 25",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Canard_%C3%A0_l%27orange_01.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/34/Canard_%C3%A0_l%27orange_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "39157048ac4d66c6aaf1be39f0cfc5e13b249e3c",
+    "name": "Magret de canard à l'orange",
+    "aliases": [],
+    "proteins": [
+      "duck"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-97307701.jpg",
+    "assetSha256": "844e7754aad127dd2e88c29644c2417b36127cd6af526c8e889a0aed5a893f10",
+    "reviewedAt": "2026-11-20",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];

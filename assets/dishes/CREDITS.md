@@ -12632,3 +12632,8 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Lasagnette with pumpkin and parmesan** — [WordRidden  from Hove, United Kingdom.](https://www.flickr.com/people/wordridden/). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Lasagnette-with-pumpkin-and-parmesan.jpg). Local asset: `reviewed-commons-6849323.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Canard à l'orange** — fabulousfabs. [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Canard_%C3%A0_l%27orange.jpg). Local asset: `reviewed-commons-34602545.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Magret de canard à l'orange** — Arnaud 25. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Canard_%C3%A0_l%27orange_01.jpg). Local asset: `reviewed-commons-97307701.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
