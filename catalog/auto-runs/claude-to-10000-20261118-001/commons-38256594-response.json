@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChEp1F6A7Aqp7miE3Kj3X",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 5,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Waffle cookie with cross-hatch grid pattern clearly visible\",\n    \"Dark beverage in decorative cup beneath waffle\",\n    \"Natural, warm lighting and sharp focus on both elements\",\n    \"Appetising presentation typical of stroopwafel serving\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows waffle top and red patterned cup\",\n    \"Sufficient detail to recognise the dish and setting\",\n    \"Readable composition at reduced size\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title references only a filename (File:How to eat a stroopwafel...) rather than a dish name\",\n    \"Description 'Place over a cup of hot coffee to warm' is usage instruction, not an identity statement\",\n    \"No explicit canonical dish name provided in source metadata\"\n  ],\n  \"reason\": \"Reject: source title is a filename with no canonical dish name. The description is an instruction, not a dish identity. Although the photograph clearly shows a stroopwafel over a hot beverage and meets all quality and photographic criteria (all checks except identity=true, scores 4–5), the absence of an explicit source-provided dish name or description identifying the item violates the requirement that canonical_name must be copied exactly from source title or description. The filename alone does not constitute a valid source identity statement.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1675,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 444,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
