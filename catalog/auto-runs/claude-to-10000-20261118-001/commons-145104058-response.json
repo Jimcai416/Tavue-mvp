@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDowjCV1A4HmfE7QHDEJ",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Object is a decorative gourd vessel, not a food dish\",\n    \"Geometric tribal patterns visible but subject is a utensil/artifact\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source metadata describes 'utensílio doméstico' (household utensil/tool), not a finished food dish\",\n    \"Image shows a decorative cuia (gourd bowl) with inlay work, not prepared food\"\n  ],\n  \"reason\": \"This is a photograph of a decorative gourd vessel (cuia) used as a household utensil, not a finished, exposed, photographic food dish. The source description explicitly identifies it as 'utensílio doméstico feito da planta cuieira' (household implement made from gourd plant). While cuias are traditionally used as serving vessels for tacacá soup, this image shows only the empty decorated vessel itself, not food. The subject fails the core requirement of being a finished, appetizing prepared dish with visible food components. Reject.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1736,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 375,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

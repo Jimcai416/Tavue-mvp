@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDowjdmgJ5vW8StyGcRz",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 3,\n    \"appeal\": 2\n  },\n  \"visible_support\": [\n    \"Raw green onions/scallions prominently visible\",\n    \"Metal cooking pot/vessel\",\n    \"Noodles visible in background\",\n    \"Cooking utensil present\",\n    \"Communal dining setup\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail shows raw/preparation stage vegetables\",\n    \"Essential dish components not clearly identifiable in reduced thumbnail\",\n    \"Raw green onions dominate phone view, not finished dish\",\n    \"No recognisable cooked/finished food form in phone thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title describes 'Lẫu tôm chua cay' (sour spicy shrimp hot pot) but image shows raw preparation stage with prominent uncooked vegetables and noodles in background\",\n    \"No visible finished hot pot broth or cooked shrimp in either photograph or thumbnail\",\n    \"Image appears to document ingredient preparation rather than finished dish exposure\",\n    \"Seafood (tôm/shrimp) claimed in title but not visually evident in any form\"\n  ],\n  \"reason\": \"Rejection: Image depicts a preparation/raw ingredient stage, not a finished, exposed, cooked dish. The full source shows raw green onions dominating with cooking equipment and uncooked noodles visible. The phone thumbnail reinforces this—raw vegetables are the primary subject, with no finished dish form evident. Source title claims 'Lẫu tôm chua cay' (sour spicy shrimp hot pot) but no cooked broth, finished hot pot, or visible seafood is present. This is a documentation of mise en place or cooking setup, not the completed dish in its exposed, edible form. Fails photograph and phone checks for finished dish requirement.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1672,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 545,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
