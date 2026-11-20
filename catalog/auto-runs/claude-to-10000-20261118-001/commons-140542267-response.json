@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChEZuRXfxQQtkgAyB6Jb8",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Plate visible with layered savoury item\",\n    \"Fresh greens and toppings clearly visible\",\n    \"Cheese and cooked filling evident\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title describes 'fried cheese omelet' but photograph shows a layered dish with substantial filling, greens, and toppings inconsistent with a simple cheese omelet\",\n    \"Visible filling appears to contain meat (brownish cooked protein visible beneath greens and herbs), contradicting 'cheese omelet' description\",\n    \"No explicit protein species named in source metadata\",\n    \"Identity mismatch between title and visible dish form suggests misattribution or incorrect metadata\"\n  ],\n  \"reason\": \"Identity check fails. The source title 'fried cheese omelet' does not match the visible dish, which appears to be a substantial filled and topped preparation (possibly a crepe, pancake, or flatbread base) with cooked protein filling, fresh herbs, red onion, and multiple garnishes—far more complex than a cheese omelet. The brownish filling visible beneath the greens suggests meat content, but no protein species is explicitly named in the source description. The mismatch between metadata and actual photograph indicates unreliable source attribution. Hold pending clarification of actual dish identity and explicit protein naming.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1727,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 440,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
