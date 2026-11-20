@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChEXNXymH9EsbtetbaQjT",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Wavy/curly pasta noodles visible throughout\",\n    \"Visible shrimp/prawn pieces with orange-pink coloration\",\n    \"Pork or minced meat visible interspersed with pasta\",\n    \"Creamy broth or sauce coating the dish\",\n    \"Bowl with blue-and-white rim\",\n    \"Home kitchen setting consistent with source claim\"\n  ],\n  \"phone_observations\": [\n    \"Pasta and protein components clearly readable at thumbnail scale\",\n    \"Cream-coloured broth prominent and appetising\",\n    \"Shrimp and meat pieces distinguishable\",\n    \"Overall composition and dish identity preserved in thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title states 'seafood and pork' but does not explicitly name the seafood species; visible shrimp-like pieces suggest prawn/shrimp but source does not confirm\",\n    \"Pork component is stated but generic 'pork' category not allowed by rules; exact cut/form not specified\",\n    \"Source metadata describes 'Animals pasta soup' (possibly OCR error or non-standard phrasing) rather than a canonical regional dish name\"\n  ],\n  \"reason\": \"Image quality, sharpness, lighting and composition all meet threshold (≥4). Photograph and phone thumbnail both show finished, exposed, appetising pasta soup with visible proteins and natural colouration. However, identity check fails: source title/description does not provide a specific canonical dish name—only generic descriptor 'pasta soup with seafood and pork'. Protein evidence cannot be recorded because (1) the seafood species is not explicitly named in source text (shrimp-like appearance is visible but unconfirmed), and (2) 'pork' alone does not map to an allowed protein category key without specification. Source contradicts rules by offering generic descriptors rather than a named dish. Hold pending source clarification of exact dish identity and explicit protein species naming.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1751,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 583,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

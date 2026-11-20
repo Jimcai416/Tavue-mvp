@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChEXMPbi1QDq59NmNjYGh",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 3,\n    \"composition\": 3,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows fried pastry item with green herb garnish on decorative plate\",\n    \"Central subject visible but soft focus limits detail assessment\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title claims 'garam veg samosa' (vegetarian), but visible image shows what appears to be a meat-filled pastry with fibrous/shredded texture inconsistent with vegetable filling\",\n    \"Critical contradiction between source description (vegetable) and visual evidence (apparent meat content)\",\n    \"Species of any meat cannot be determined from appearance alone\"\n  ],\n  \"reason\": \"REJECT: Identity mismatch. Source describes 'vegetable samosa' but photograph shows a pastry with what appears to be shredded/fibrous meat filling, visually inconsistent with claimed vegetarian content. This contradiction between metadata and actual dish content cannot be resolved. Sharpness score 2 (soft focus throughout) also fails minimum threshold. Cannot accept without resolved identity certainty.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1757,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 368,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
