@@ -10723,3 +10723,9 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 
 - **Bubur Ketan Hitam** — Abdul Hanif Arromy. [CC BY 4.0](https://creativecommons.org/licenses/by/4.0); [source](https://commons.wikimedia.org/wiki/File:Bubur_Ketan_Hitam.jpg). Local asset: `reviewed-commons-186676024.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **turon with ube sauce** — Philip Mallis. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Inside_a_turon_with_ube_sauce_from_Filipino_Festival_at_the_Queen_Victoria_Market,_Melbourne.jpg). Local asset: `reviewed-commons-168950133.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Turon** — Ralff Nestor Nacor. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Turon,_Mar_2024.jpg). Local asset: `reviewed-commons-146148710.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Champorado** — Ralff Nestor Nacor. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Champorado,_June_2025.jpg). Local asset: `reviewed-commons-167947402.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Turon (Philippines)** — Obsidian Soul. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Turon_(Philippines).jpg). Local asset: `reviewed-commons-68622647.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
