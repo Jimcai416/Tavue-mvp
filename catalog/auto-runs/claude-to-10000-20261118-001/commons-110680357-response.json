@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChEhKYYaSuTDh9mQjSrDa",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Cooked meat patty with textured surface\",\n    \"Roasted potatoes with golden-brown colour and herbs\",\n    \"Shredded sauerkraut/cabbage\",\n    \"Pale dumpling visible at left\",\n    \"White ceramic plate, natural lighting\"\n  ],\n  \"phone_observations\": [\n    \"Meat patty prominent and readable in thumbnail\",\n    \"Potatoes clearly visible and identifiable\",\n    \"Dumpling and shredded cabbage distinguishable\",\n    \"Composition and colours preserved adequately in reduction\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title states 'Grillwurst' (grilled sausage) but photograph shows a solid meat patty/loaf, not a recognisable sausage form\",\n    \"Description claims 'im Original mit polenta' (originally with polenta) but visible component is roasted potatoes (Bratkartoffeln), not polenta\",\n    \"Speckknödel (speck dumplings) are described but dumpling species/exact composition not visually verifiable\",\n    \"Meat patty species ambiguous—could be beef, pork, or mixed; no explicit species declaration in source title\",\n    \"Source metadata (File:, photographer, location) cannot override identity verification requirement\"\n  ],\n  \"reason\": \"Identity mismatch: source description claims Grillwurst (sausage) but photograph shows a solid meat patty/loaf. Source also states original preparation included polenta, but visible starch component is clearly roasted potatoes. Dumpling composition unverified. Meat species not explicitly named in source title. No protein category can be supported by exact source quote naming an allowed animal. Hold pending source clarification or corrected metadata matching actual plated components.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1785,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 551,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

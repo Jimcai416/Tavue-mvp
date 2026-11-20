@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChEhLEPxj6hTsuHqZ5sA4",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Fried eggs present\",\n    \"Sausages visible\",\n    \"Toast visible\",\n    \"Beans in bowl\",\n    \"Black pudding visible\",\n    \"Mushrooms present\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows composed breakfast plate\",\n    \"Eggs, sausages, toast and beans all readable\",\n    \"Central subject well-framed for phone view\",\n    \"Natural colours preserved in thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title claims 'ham' but no ham is visibly distinct on the plate\",\n    \"Source claims 'roasted tomatoes' but no tomatoes are clearly visible\",\n    \"Black pudding species/origin not specified in source\",\n    \"Sausage type described only as 'English sausages' without animal species declaration\"\n  ],\n  \"reason\": \"Identity check fails. Source description lists 'ham' and 'roasted tomatoes' as components but these are not reliably visible or identifiable in the photograph. No explicit protein species evidence (chicken/beef/pork/duck/lamb/seafood) is provided in the source title or description for the sausages or black pudding. The source metadata contains generic descriptors ('English sausages', 'black pudding') without named animal species, triggering the hold rule for ambiguous meat. Photo and phone quality are acceptable, but protein_evidence cannot be populated with confidence, and the visible components do not fully match the declared identity.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1771,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 481,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
