@@ -142175,5 +142175,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 540,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-36129147",
+    "title": "File:Yam porridge.jpg",
+    "author": "Nancy Nwachukwu",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Yam_porridge.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/77/Yam_porridge.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "ff86f6f1ea110c38375a28cf431ac2f3243d21d1",
+    "name": "yam boiled in oil and vegetables",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-36129147.jpg",
+    "assetSha256": "a1059b7135606bd591ceccc278cdbb134981c23f865679517aed598b59f1b6d9",
+    "reviewedAt": "2026-11-20",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 960,
+    "requiresExactMenuName": true
   }
 ];
