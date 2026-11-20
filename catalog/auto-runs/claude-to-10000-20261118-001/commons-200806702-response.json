@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDyPN3XRuui2Ah9KVmNz",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Bánh mì sandwich on crusty bread\",\n    \"Visible grilled protein with char marks\",\n    \"Fresh cilantro, julienned carrot and daikon\",\n    \"Served in black tray with accompaniment bowl\",\n    \"Street food presentation consistent with Vietnamese vendor\"\n  ],\n  \"phone_observations\": [\n    \"Sandwich clearly visible in centre-cover thumbnail\",\n    \"Orange-coloured grilled protein prominent\",\n    \"Fresh herbs and vegetables readable\",\n    \"Overall composition legible at phone size\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title claims 'Grilled Lemongrass Chicken' but the visible protein in the full photograph shows substantial char/browning and grill marks inconsistent with typical chicken colour and texture—appearance suggests it may be pork or another meat species, not chicken\",\n    \"No explicit visual confirmation of chicken species possible from appearance alone\",\n    \"Lemongrass flavouring is source-declared but not visually verifiable\",\n    \"Sate sauce claimed in title but not clearly visible or distinguishable in the accompanying bowl in photograph\"\n  ],\n  \"reason\": \"Identity check fails. The source title explicitly names 'Chicken' as the protein, but the grilled protein visible in the photograph exhibits substantial browning, char patterning, and colour/texture that do not match typical grilled chicken appearance. The meat appears darker and denser than expected for poultry. Without explicit source text confirming the exact animal species from a reliable menu or vendor description (not just filename/author claim), and given the visual contradiction, the identity cannot be verified. Protein evidence cannot include 'chicken' because the visible form does not support it and the title alone is not sufficient override without contradictory visual evidence. Hold required pending source clarification of actual protein species.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 2065,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 551,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDyPuMgwRA8PqWE7s3k3",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Glazed meat pieces with caramelised surface visible in both images\",\n    \"Rice accompaniment (appears white/cream, not red as titled)\",\n    \"Green vegetable garnish (long green bean or similar)\",\n    \"Red pepper piece visible\",\n    \"Appetising presentation in phone thumbnail\"\n  ],\n  \"phone_observations\": [\n    \"Meat and rice components clearly visible and readable\",\n    \"No clipping of essential food elements\",\n    \"Adequate detail for identification purposes\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'Lemongrass Chicken' but no lemongrass visible in either image\",\n    \"Title claims 'Red Rice' but rice appears white or cream-coloured, not red\",\n    \"Meat colour and form are ambiguous—cannot reliably confirm chicken species from appearance alone\",\n    \"No explicit 'chicken' mention in source description; title is filename metadata only\",\n    \"Visible meat characteristics do not clearly exclude other poultry or meat species\"\n  ],\n  \"reason\": \"Source title metadata ('Lemongrass Chicken with Red Rice') contradicts visible evidence: rice is not visibly red, lemongrass is not identifiable in the dish, and the meat species cannot be confirmed from appearance. While the photograph itself is sharp, well-lit and appetising, the identity mismatch between title and visible form creates unresolvable uncertainty. The filename is untrusted metadata and cannot override visual inspection. No explicit protein confirmation in the actual description field. Hold for clarification or alternative documentation.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1780,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 495,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
