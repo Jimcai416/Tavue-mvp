@@ -11851,3 +11851,8 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Dulce de batata with chocolate** — Gveret Tered. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/); [source](https://commons.wikimedia.org/wiki/File:Dulce_de_batata1.JPG). Local asset: `reviewed-commons-2259100.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Dulce de batata y queso (estilo argentino)** — Horacio Cambeiro. [CC BY 3.0](https://creativecommons.org/licenses/by/3.0); [source](https://commons.wikimedia.org/wiki/File:Dulce_de_batata_and_cheese.jpg). Local asset: `reviewed-commons-178081660.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Dulce de batata y queso** — Horacio Cambeiro. [CC BY 3.0](https://creativecommons.org/licenses/by/3.0); [source](https://commons.wikimedia.org/wiki/File:Dulce_de_batata_and_cheese_(argentine_dessert).jpg). Local asset: `reviewed-commons-178081728.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
