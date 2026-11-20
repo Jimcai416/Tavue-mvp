@@ -12595,3 +12595,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 
 - **Salade caprese** — Arnaud 25. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Salade_caprese_02.jpg). Local asset: `reviewed-commons-93895021.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Insalata caprese - burrata** — Arnaud 25. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Salade_caprese_burrata.jpg). Local asset: `reviewed-commons-93895084.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Pistachio & Raspberry Roulade** — Andy Li. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Pistachio_%26_Raspberry_Roulade_-_Jacob%27s_Bakery_%2B_Cafe_2025-08-06.jpg). Local asset: `reviewed-commons-171801987.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.

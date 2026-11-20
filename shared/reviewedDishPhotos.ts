@@ -157361,5 +157361,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-171801987",
+    "title": "File:Pistachio & Raspberry Roulade - Jacob's Bakery + Cafe 2025-08-06.jpg",
+    "author": "Andy Li",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pistachio_%26_Raspberry_Roulade_-_Jacob%27s_Bakery_%2B_Cafe_2025-08-06.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/39/Pistachio_%26_Raspberry_Roulade_-_Jacob%27s_Bakery_%2B_Cafe_2025-08-06.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "2aab47caa69335ff4b8f3ba696db1bb86df4fb23",
+    "name": "Pistachio & Raspberry Roulade",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-171801987.jpg",
+    "assetSha256": "9937278cd92218a568930448544ca41e58687a73fee0a49ad1daefd95c115b9f",
+    "reviewedAt": "2026-11-20",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 723,
+    "requiresExactMenuName": true
   }
 ];
