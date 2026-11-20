@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDGkiKEhumGAEBkprMs1",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 3,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Vendor seated against stone wall in street market setting\",\n    \"Raw leafy greens (grape leaves) visible on blue plate/tray\",\n    \"Red plastic bags containing unprepared produce\",\n    \"Street vendor preparation/selling context, not a finished dish\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Subject is raw grape leaves at point of sale, not a prepared/finished dish\",\n    \"No cooked or plated food visible\",\n    \"Image documents vendor activity, not food service or consumption\"\n  ],\n  \"reason\": \"Rejection: This is a documentary photograph of a street vendor selling raw grape leaves in Jerusalem's Old City market, not a finished, exposed, cooked dish. The image shows preparation/point-of-sale context with raw materials displayed for sale. While the photograph is sharp and well-composed, it fails the core identity requirement: it must depict a finished dish in appetising, served form. Raw ingredients in market setting do not meet Tavue's review criteria for food photography acceptance.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1749,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 375,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
