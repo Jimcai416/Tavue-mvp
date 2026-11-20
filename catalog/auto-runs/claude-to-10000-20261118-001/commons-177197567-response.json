@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChEshUhgZLM7Rnn8rnTtQ",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 5,\n    \"appeal\": 5\n  },\n  \"visible_support\": [\n    \"Wood-fired pizza with charred crust\",\n    \"French fries/chips prominently displayed across surface\",\n    \"Basil leaf garnish\",\n    \"White cheese visible beneath fries\",\n    \"Golden-brown fries with salt\",\n    \"Yellow rim on plate\",\n    \"Natural, appetising presentation\"\n  ],\n  \"phone_observations\": [\n    \"Fries and pizza clearly visible in thumbnail\",\n    \"Charred crust pattern readable\",\n    \"Basil garnish distinguishable\",\n    \"Cheese and toppings evident\",\n    \"Dish prominence and detail adequate for phone review\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title states 'Italian Sausage & Patatine' but description refers to original 'WÜRSTEL & PATATINE' with 'Würstel Sausage'. The user altered the sausage type but metadata labels it 'Italian Sausage'. Species of sausage meat is not explicitly stated in either title or original menu description.\",\n    \"No exact visible confirmation of sausage species (pork/beef/other) from appearance alone.\",\n    \"Description is sourced from original menu, not current preparation. User claims substitution but substitution not independently verified in image.\"\n  ],\n  \"reason\": \"Image quality, sharpness, lighting, composition and appeal all excellent. Pizza and fries are sharp, naturally coloured, appetising and prominent in both full image and phone thumbnail. However, protein identity cannot be established. The source title claims 'Italian Sausage' but provides no explicit species confirmation. The description references the original 'Würstel Sausage' menu item, which is a generic sausage descriptor that does not specify the animal (pork/beef/other). The user's claim of substitution is undeclared in the actual metadata and unverifiable from the image alone. 'Sausage' as a category key is not permitted per instructions. Without an explicit, case-sensitive source quote naming a specific allowed protein species (chicken/beef/pork/duck/lamb/seafood), protein_evidence must remain empty and identity check fails. Hold pending clarification of actual sausage meat species in current dish.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1821,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 646,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

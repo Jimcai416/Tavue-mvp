@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChEsiFN2a885JxXFbCUNC",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 3,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Sliced cured meat on wooden board with knife visible\",\n    \"Characteristic striped muscle and fat pattern of prosciutto\",\n    \"Adequate detail for cured meat identification in thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title states 'Prosciutto' but description is generic 'Prosciutto' without regional qualifier\",\n    \"Title includes 'Prosciutto di Parma (IT25L)' but description metadata only says 'Prosciutto'—ambiguity over exact canonical name\",\n    \"Filename indicates protected geographical origin designation (Parma) but description does not explicitly preserve this variant\",\n    \"Image shows cured meat slices but cannot visually confirm Parma PDO certification or origin\"\n  ],\n  \"reason\": \"Source identity contradiction: filename and title context suggest 'Prosciutto di Parma' (a protected regional variant) but the supplied description field states only generic 'Prosciutto'. Canonical name cannot be reliably extracted without clarity on which exact source text is authoritative. Per protocol, source contradictions on named regional variants require hold. Additionally, sharpness score (3) reflects some focus softness in full image, and the image shows a preparation/slicing stage rather than a finished, exposed, ready-to-eat dish presentation. Hold for clarification of exact title and finished-dish status.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1639,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 460,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
