@@ -11300,3 +11300,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Spicy beef noodles** — [Guilhem Vellut  from Paris, France](https://www.flickr.com/people/22539273@N00). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Spicy_beef_noodles_@_Lakou_@_Paris_(35019322002).jpg). Local asset: `reviewed-commons-59750479.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Túrós csusza** — Original uploader was  User:OsvátA  at  hu.wikipedia. [Public domain](https://creativecommons.org/publicdomain/mark/1.0/); [source](https://commons.wikimedia.org/wiki/File:Turos_csusza.jpg). Local asset: `reviewed-commons-3324379.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.

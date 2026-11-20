@@ -143048,5 +143048,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "height": 640,
     "requiresExactMenuName": true,
     "authorUrl": "https://www.flickr.com/people/22539273@N00"
+  },
+  {
+    "id": "commons-3324379",
+    "title": "File:Turos csusza.jpg",
+    "author": "Original uploader was  User:OsvátA  at  hu.wikipedia",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Turos_csusza.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/76/Turos_csusza.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "c3ebb1f74c58d60b03401116ccdd5f3c12c84659",
+    "name": "Túrós csusza",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-3324379.jpg",
+    "assetSha256": "6888b26baa89be89433c942cda706744ecb7a48e3145858e31fa8b661b30e643",
+    "reviewedAt": "2026-11-20",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];
