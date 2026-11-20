@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChEopZCHiKsPhm25KkWyR",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Liquid/sauce visible in dark pan\",\n    \"No finished dish plated or presented for service\",\n    \"Preparation or cooking stage, not a served dish\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Sauce poivrade described as containing 'Kalbsfond' (veal stock) but veal is not an allowed protein category and cannot be verified visually\",\n    \"Image shows an unfinished sauce in a cooking pan, not a completed dish\"\n  ],\n  \"reason\": \"Rejection: This photograph captures a sauce during preparation in a cooking vessel, not a finished, plated, exposed dish ready for service. The source metadata references 'Kalbsfond' (veal stock/demi-glace), but veal is not an allowed protein category. The image fails the core requirement of showing a finished, exposed, appetising dish suitable for restaurant photography intake. Home cooking preparation stages and intermediate cooking steps are outside scope.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1663,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 361,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
