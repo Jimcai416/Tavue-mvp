@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDk8FUDKzJDm9JaGU5u9",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Two brown patties visible on plate in full image and phone thumbnail\",\n    \"Plated with cutlery and table setting\",\n    \"Ciabatta rolls visible in background bowl\",\n    \"White plate with decorative border\",\n    \"Home dining setting\"\n  ],\n  \"phone_observations\": [\n    \"Two cooked brown patties clearly visible in centre\",\n    \"Adequate plating presentation\",\n    \"Dish identity readable from visual form\"\n  ],\n  \"protein_evidence\": {\n    \"salmon\": \"salmon & dill fishcakes\"\n  },\n  \"uncertainties\": [\n    \"Source title references 'Nigel Slater's salmon & dill fishcakes' but actual preparation contradicts the declared recipe: description explicitly states 'we were out of dill so I did them with fresh flat parsley from the garden and a little extra lemon juice'\",\n    \"The dish prepared does not match the canonical recipe name—it is a substitution/variation using parsley instead of dill, making the identity claim 'salmon & dill fishcakes' inaccurate for the actual dish shown\",\n    \"Source-declared modification (parsley instead of dill) creates a material deviation from the named dish identity\"\n  ],\n  \"reason\": \"Identity check fails. The source description claims the dish is 'Nigel Slater's salmon & dill fishcakes' but then explicitly states 'we were out of dill so I did them with fresh flat parsley from the garden and a little extra lemon juice.' The actual dish prepared is a parsley variant, not the named dill fishcakes recipe. This material contradiction between canonical_name and actual preparation means the identity cannot be verified as matching the source title. The photograph quality and presentation are acceptable, but the fundamental identity requirement is not met due to the source-documented recipe substitution that changes the dish from what is named.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1715,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 560,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

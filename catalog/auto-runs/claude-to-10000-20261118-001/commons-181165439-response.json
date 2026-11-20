@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDk8GYww4gmmsauyZu1k",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 3,\n    \"lighting\": 3,\n    \"composition\": 2,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows a classical painting scene with multiple figures\",\n    \"No recognizable finished food dish visible as primary subject\",\n    \"Figures appear to be engaged in social activity around a table\",\n    \"Painting style consistent with historical European art\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title references 'Le chat emmailloté' (The swaddled cat) but this is an art historical work, not a food photograph\",\n    \"Metadata describes this as a museum painting attributed to Niccolò Frangipane\",\n    \"No evidence this is an actual food photograph rather than a classical painting\"\n  ],\n  \"reason\": \"This is a classical European painting (not a photograph) depicting a historical scene. The image is an illustration/artwork, not a finished food dish photograph. Identity check fails: the source is an art historical work titled 'Le chat emmailloté,' not a food dish. While table activity and food-like objects may be present in the painting, this is not a food photograph suitable for Tavue review. Rejects: illustration, not photograph; not a food dish; identity contradiction.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1826,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 400,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
