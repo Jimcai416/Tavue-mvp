@@ -11919,3 +11919,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Maraş dondurma with kabak** — E4024. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Dondurma_with_kabak.jpg). Local asset: `reviewed-commons-62196373.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Künefe and "Maraş dondurması"** — E4024. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Kunefe_and_dondurma.jpg). Local asset: `reviewed-commons-46988366.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
