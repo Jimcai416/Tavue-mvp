@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChEYazB4WJT4yxCgv1AE4",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 2\n  },\n  \"visible_support\": [\n    \"Raw flatfish fileted on wooden cutting board\",\n    \"Visible pink flesh interior, dark skin exterior\",\n    \"Five-piece fillet preparation (5mai-oroshi) evident\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows raw fish fileting stage, not finished dish\",\n    \"Flesh colour and texture confirm uncooked preparation state\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [],\n  \"reason\": \"Image documents a raw preparation stage (ヒラメの五枚おろし = five-piece hirame fillet butchering), not a finished, exposed, cooked or plated dish. The photograph depicts fish processing/butchering on a cutting board, which falls under preparation stage rejection criteria. While the source metadata identifies this as hirame (flounder/flatfish), no finished culinary dish is presented—only raw protein in an intermediate preparation state. This fails the core requirement for 'a finished, exposed, likely photographic dish'.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1420,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 361,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
