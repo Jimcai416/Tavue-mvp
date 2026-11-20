@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDHaUW7iieCnCY3mbDFm",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Raw/translucent fish pieces with visible marination\",\n    \"Pink onion slices layered on seafood\",\n    \"Red pepper strips\",\n    \"Yellow potato chunks with purple tints (boiled, characteristic of ceviche)\",\n    \"Green lettuce base\",\n    \"Natural daylight, appetising presentation\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows pale seafood with layered pink onion\",\n    \"Boiled potato chunks visible on left\",\n    \"Red pepper accent strips visible\",\n    \"Green vegetable base prominent\",\n    \"Composition readable and representative of full image\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title states 'Cebiche' but visible fish is raw/marinated, not fully cooked; ceviche preparation involves acid-curing rather than heat cooking, yet the title/description does not explicitly name the fish species\",\n    \"Fish species cannot be determined from appearance alone and is not named in source metadata\",\n    \"No explicit protein category can be supported without source text naming a specific seafood type (e.g., 'white fish', 'sea bass', 'cod')\"\n  ],\n  \"reason\": \"Although the photograph is sharp, well-lit, appetising and clearly shows a ceviche-style dish with marinated seafood, boiled potatoes, onion and pepper, the source metadata does not explicitly name the fish species. The instruction requires an exact case-sensitive substring from the source title or description for each protein_evidence entry. 'Seafood' is not an allowed category key; only chicken/beef/pork/duck/lamb/seafood are allowed, but 'seafood' requires explicit species naming in the source. The title 'Cebiche' and description 'Peruvian Cebiche (ceviche)' do not specify whether the fish is white fish, sea bass, cod, or another species. Without explicit source naming of the fish type, protein_evidence cannot be populated with a valid key-value pair, making the identity check fail. Identity must agree with the exact source title/description and visible form; here, the visible form (seafood) cannot be confirmed by species from the source text.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1748,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 639,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
