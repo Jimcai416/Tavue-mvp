@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChEsWnaecpYvxAFrDDHLe",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Fresh burrata cheese visible at centre\",\n    \"Fresh tomatoes with stems surrounding\",\n    \"Red roasted/sun-dried peppers with capers at base\",\n    \"White plate, natural daylight\",\n    \"Sharp detail and natural colouring throughout\"\n  ],\n  \"phone_observations\": [\n    \"Burrata, tomatoes and peppers all clearly visible in thumbnail\",\n    \"Composition and key ingredients readable at small size\",\n    \"Natural colours preserved in reduction\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title states only 'Burrata' but photograph shows a prepared dish with accompaniments (tomatoes, roasted peppers, capers), not burrata alone\",\n    \"No explicit source description of full dish composition—only ingredient list visible in photograph\",\n    \"Unclear whether this is a styled ingredient display or a finished plated dish intended for service\"\n  ],\n  \"reason\": \"The photograph shows high-quality, sharply detailed components with excellent lighting and composition. However, identity check fails: the source title 'Burrata' describes only the cheese itself, not the full arrangement with roasted peppers, fresh tomatoes, and capers visible in both images. The photograph appears to be an ingredient or component display rather than a finished, plated dish identity. Without explicit source confirmation that this arrangement constitutes a named dish entity (e.g. 'Burrata with Roasted Peppers and Tomatoes'), the identity cannot be verified as matching the stated title. All quality and photographic criteria are met, but the identity/title mismatch is a fundamental requirement failure.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1720,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 500,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
