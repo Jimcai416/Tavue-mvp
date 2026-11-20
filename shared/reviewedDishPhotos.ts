@@ -157878,5 +157878,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-19950514",
+    "title": "File:Wasserweltfest 2012 - Mousaka am makedonischen Stand.jpg",
+    "author": "Haeferl",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Wasserweltfest_2012_-_Mousaka_am_makedonischen_Stand.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/42/Wasserweltfest_2012_-_Mousaka_am_makedonischen_Stand.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "263296b60d8fce601cde7868403fffe6bdce694a",
+    "name": "Mousaka am makedonischen Stand",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-19950514.jpg",
+    "assetSha256": "8eb424cad05d98429cc9db10c46f0cf4569a19bfe6c3e2a6f41ec9431df17a3c",
+    "reviewedAt": "2026-11-20",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];
