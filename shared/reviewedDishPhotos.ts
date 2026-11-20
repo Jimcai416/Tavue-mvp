@@ -158292,5 +158292,51 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-140923593",
+    "title": "File:Chicken Piccata - 52060244637.png",
+    "author": "MattCC716",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chicken_Piccata_-_52060244637.png",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/98/Chicken_Piccata_-_52060244637.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "d640ea28d7d29201a802df67cb5c1d39257d2b42",
+    "name": "Chicken Piccata",
+    "aliases": [],
+    "proteins": [
+      "chicken"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-140923593.jpg",
+    "assetSha256": "382903d9f023969fc836be78c1875ef396691a3148cc452fdb7dc85d046bd2e0",
+    "reviewedAt": "2026-11-20",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-99622189",
+    "title": "File:Commercial pandoro.jpg",
+    "author": "Affitisciuto",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Commercial_pandoro.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/05/Commercial_pandoro.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "0f1225353b346fcf85956a75f41594937a317928",
+    "name": "pandoro",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-99622189.jpg",
+    "assetSha256": "f4cf66c83a871ff5805de7f3a0e35f0f29014c2dfd42aa0719ed5cd79b642627",
+    "reviewedAt": "2026-11-20",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 825,
+    "height": 960,
+    "requiresExactMenuName": true
   }
 ];
