@@ -146366,5 +146366,29 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 625,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-109440968",
+    "title": "File:Yeziji Hainanese coconut chicken soup.jpg",
+    "author": "Jpatokal",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Yeziji_Hainanese_coconut_chicken_soup.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Yeziji_Hainanese_coconut_chicken_soup.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "f8620edb6d3668bae05edead7323ceb01c6afc09",
+    "name": "Hainanese coconut chicken soup",
+    "aliases": [],
+    "proteins": [
+      "chicken"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-109440968.jpg",
+    "assetSha256": "355d0916ab5a47d6b9b34bb8c08387adb464a48e5639c2fd264d043eb15f4373",
+    "reviewedAt": "2026-11-20",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];
