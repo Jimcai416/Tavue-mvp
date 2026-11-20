@@ -11508,3 +11508,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 
 - **Fried Green Tomatoes with ranch dressing** — City Foodsters. [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Fried_Green_Tomatoes_with_ranch_dressing_-_15392253204.jpg). Local asset: `reviewed-commons-156359774.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Hush puppies** — [Jeremy Keith  from Brighton & Hove, United Kingdom](https://www.flickr.com/people/74105777@N00). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Hush_puppies_(1351024586).jpg). Local asset: `reviewed-commons-23077843.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Maxine's Chicken & Waffles with Fried Green Tomatoes** — Richie Diesterheft. [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:Maxine%27s_Chicken_%26_Waffles_with_Fried_Green_Tomatoes.jpg). Local asset: `reviewed-commons-114689107.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
