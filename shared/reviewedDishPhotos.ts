@@ -135975,5 +135975,29 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 630,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-149220721",
+    "title": "File:Shrimp Remoulade, Arnaud's Jazz Bistro.jpg",
+    "author": "kerinin",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Shrimp_Remoulade,_Arnaud%27s_Jazz_Bistro.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Shrimp_Remoulade%2C_Arnaud%27s_Jazz_Bistro.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "82005aab4d3cd554f1b0c1c7b800b61759bc7515",
+    "name": "Shrimp Remoulade",
+    "aliases": [],
+    "proteins": [
+      "seafood"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-149220721.jpg",
+    "assetSha256": "98d279c9a0c27cb294f7a6ebb9284fb845778550bcd309598dd4c1b82514e247",
+    "reviewedAt": "2026-11-20",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 720,
+    "height": 960,
+    "requiresExactMenuName": true
   }
 ];
