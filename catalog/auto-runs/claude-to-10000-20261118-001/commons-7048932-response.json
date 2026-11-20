@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChEw1BQyNEkxZfwrWYjnW",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Seared beef tournedos with seared surface visible\",\n    \"Sliced demo pieces showing pink interior (medium-rare)\",\n    \"Turned/tourée potatoes with black pepper seasoning\",\n    \"Green leafy vegetable (stated as bok choi)\",\n    \"Cream/sauce base on plate\"\n  ],\n  \"phone_observations\": [\n    \"Plate clearly shows seared beef steaks, potatoes and greens\",\n    \"Meat doneness evident in thumbnail\",\n    \"Complete composed dish visible\",\n    \"Components recognizable at phone resolution\"\n  ],\n  \"protein_evidence\": {\n    \"beef\": \"Tournedos Rossini\"\n  },\n  \"uncertainties\": [\n    \"Source title contains 'File:' prefix and filename structure inconsistent with canonical extraction requirement\",\n    \"Foie gras component described but not visually confirmed in photograph\",\n    \"Truffle sauce stated in description but not independently verifiable from visual inspection\",\n    \"Dish identity (Tournedos Rossini) requires exact matching of source-declared components; foie gras and truffle are canonical elements of the classical preparation but cannot be visually authenticated\",\n    \"'Biscotti doppo' substrate claimed but appears to be a cream sauce base; substrate identity uncertain\",\n    \"Source metadata format (File:...jpg, author, license tags) suggests this may be a wiki/database entry rather than user-submitted photo\"\n  ],\n  \"reason\": \"While the photograph shows a well-executed seared beef steak plate with identifiable components (beef, potatoes, greens) and passes quality and phone thumbnail checks, the source description contains unverifiable claims (foie gras, truffle) that are canonical to Tournedos Rossini. The 'File:' prefix and structured metadata suggest database origin rather than user authorization for automatic intake. The discrepancy between visible cream sauce base and claimed 'biscotti doppo' substrate, combined with hidden-flavour declarations (foie gras, truffle) that cannot be visually proven, triggers the hold condition. Source title/description must be exact match without file prefixes and metadata tags.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1773,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 622,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
