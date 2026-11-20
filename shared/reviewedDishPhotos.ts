@@ -138350,5 +138350,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 905,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-52800622",
+    "title": "File:161101-fiambre.jpg",
+    "author": "Luisfi",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:161101-fiambre.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6b/161101-fiambre.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "f2a67321c79d81a9808e13f275ed12667ee4ec7a",
+    "name": "Fiambre, traditional Guatemalan meal for the day of all saints",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-52800622.jpg",
+    "assetSha256": "4e683f4836a32a648a00e04fbe4d6d580abf2540a63c2c84535239ba488653d8",
+    "reviewedAt": "2026-11-20",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];

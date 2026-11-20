@@ -10852,3 +10852,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 
 - **Caldero de fideos secos con verduras variadas** — Juan Emilio Prades Bel. [CC BY 4.0](https://creativecommons.org/licenses/by/4.0); [source](https://commons.wikimedia.org/wiki/File:Caldero,_fideos_secos_con_verduras.jpg). Local asset: `reviewed-commons-155249660.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Ficelle picarde** — Bycro. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Ficelle_picarde_02.jpg). Local asset: `reviewed-commons-104289173.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Fiambre, traditional Guatemalan meal for the day of all saints** — Luisfi. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:161101-fiambre.jpg). Local asset: `reviewed-commons-52800622.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
