@@ -12965,3 +12965,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 - **Linzer Torte** — [Alfred Lui](https://flickr.com/people/69843317@N00). [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:Linzer_Torte_serving.jpg). Local asset: `reviewed-commons-10206888.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Victoria Sponge** — Andy Li. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Victoria_Sponge_-_The_Royal_Pavilion_Rooms_2025-06-25.jpg). Local asset: `reviewed-commons-168520064.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Original Sacher-Torte** — Sacher Hotels Betriebsgesellschaft m.b.H.. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Original_Sacher-Torte_%C2%A9Hotel_Sacher.jpg). Local asset: `reviewed-commons-82033807.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Sacher Torte** — Robot8A. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Sacher_Torte_-_Oberlaa_Kurkonditorei.jpeg). Local asset: `reviewed-commons-117892668.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
