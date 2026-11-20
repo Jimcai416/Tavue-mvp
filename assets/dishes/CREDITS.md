@@ -10811,3 +10811,9 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Testaroli** — Sailko. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Testaroli,_taglio.jpg). Local asset: `reviewed-commons-21520208.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Kapustnica** — Foxburg. [Public domain](https://creativecommons.org/publicdomain/mark/1.0/); [source](https://commons.wikimedia.org/wiki/File:Kapustnica.JPG). Local asset: `reviewed-commons-5261537.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Kapustnica s chlebem a smetanou** — Vojtasekd. [CC BY 4.0](https://creativecommons.org/licenses/by/4.0); [source](https://commons.wikimedia.org/wiki/File:Terchov%C3%A1,_Kapustnica.jpg). Local asset: `reviewed-commons-147527330.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Pita Gyros** — [Benoît Prieur](https://www.wikidata.org/wiki/Q42790984). [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Restaurant_Ammos_(Almyrida)_-_un_Pita_Gyros_(2).jpg). Local asset: `reviewed-commons-107780853.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
