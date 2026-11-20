@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChEDh3onoZY3uyS6Jkzr5",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Taco with orange Doritos-flavoured shell visible in phone thumbnail\",\n    \"Orange crumble and toppings clearly shown\",\n    \"Wrapper and branding visible\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title declares 'Doritos Locos Tacos' but no meat species is explicitly named in title or description\",\n    \"Meat filling is not identifiable from photograph alone\",\n    \"Description provides no protein specification despite being necessary for acceptance\"\n  ],\n  \"reason\": \"Reject: Source title 'Taco Bell Doritos Locos Tacos' and description 'inspirada en los tacos. La tortilla tiene sabor Doritos Nachos' name the dish but do NOT explicitly identify any meat protein. The photograph shows a filled taco with unknown meat species. Per rules, ambiguous or unspecified meat species (no source quote explicitly naming the animal) requires hold, not acceptance. All other checks pass, but protein_evidence cannot be populated without an exact source quote naming the animal, triggering mandatory hold/reject. Since Taco Bell's standard Doritos Locos Tacos typically contain beef, but the source does not declare this, identity and protein requirements fail.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1757,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 426,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
