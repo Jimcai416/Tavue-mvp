@@ -142570,5 +142570,51 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 703,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-51337242",
+    "title": "File:Paneer Makhani - Mohali 2016-08-07 9114.JPG",
+    "author": "Biswarup Ganguly",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Paneer_Makhani_-_Mohali_2016-08-07_9114.JPG",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/14/Paneer_Makhani_-_Mohali_2016-08-07_9114.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "7fec61d3120ac99f9ca26ad5ae0c8bf579e0e324",
+    "name": "Paneer Makhani",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-51337242.jpg",
+    "assetSha256": "e62b2cb94711b3138a8e0ccd273cc864cb86f07e60e8c329f857244e7761acac",
+    "reviewedAt": "2026-11-20",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 638,
+    "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-40956148",
+    "title": "File:Tandoori Pomfret.JPG",
+    "author": "Kajori.p",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tandoori_Pomfret.JPG",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Tandoori_Pomfret.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "d71abd09701ba7a8fb5d9ccb8e75e8c429e98e23",
+    "name": "Tandoori Pomfret",
+    "aliases": [],
+    "proteins": [
+      "seafood"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-40956148.jpg",
+    "assetSha256": "97e54d53c4ea318a7d3f02a903c9f0ddcce4540f329b84164d6c6102752e5e49",
+    "reviewedAt": "2026-11-20",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 640,
+    "requiresExactMenuName": true
   }
 ];
