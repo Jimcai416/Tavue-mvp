@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChF46uZTcC7mzcERrgo7k",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows battered fried fish fillet and chips on white plate, clearly visible and appetising\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source metadata declares 'Applebee's Fish' but image is a restaurant photograph of unknown provenance\",\n    \"Title references 'Our Famous Fish and Chips' as attributed to Applebee's, but metadata and filename indicate this is a user photograph (Andy Li) with CC0 license, not an official Applebee's menu item or branded image\",\n    \"Fish species not identified in source title or description—only generic 'Fish' stated\",\n    \"Contradiction between claimed source (Applebee's) and actual photograph context (appears to be independent restaurant or home setting based on table environment)\"\n  ],\n  \"reason\": \"Reject: source identity is contradictory and unreliable. The title attributes the dish to 'Applebee's Fish and Chips', but the photograph is credited to an individual photographer (Andy Li) with CC0 license, suggesting this is an independent photograph, not an official Applebee's menu item. The fish species is not explicitly named in the source description, only referred to generically as 'Fish'. Source metadata is inconsistent with actual provenance. Identity check fails due to unresolved contradiction between claimed brand attribution and independent photograph status. No protein_evidence can be supported because fish species is not explicitly identified.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1769,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 463,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
