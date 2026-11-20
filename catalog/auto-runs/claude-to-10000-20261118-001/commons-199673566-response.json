@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChEvXpJicPaWi1xCVKRru",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [\n    \"Creamy pale yellow mixture with visible cubed potato pieces\",\n    \"Small green peas distributed throughout\",\n    \"Mayonnaise-bound salad in clear glass bowl\",\n    \"Sharp detail in both source and thumbnail\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows potato salad components in pale binding\",\n    \"Peas and potato cubes recognizable at small scale\",\n    \"Consistency and colour match source photograph\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source metadata labels this as 'File:Ensalada rusa argentina...' with filename extension and photographer credit—metadata is explicitly untrusted per instructions\",\n    \"Visible form shows only potato, peas, and mayonnaise—no finished dish identity can be confirmed from photograph alone without trusted title/description\",\n    \"Image appears to be a preparation stage or component, not a finished plated dish\"\n  ],\n  \"reason\": \"Identity check fails. The source metadata (filename, author, license) is explicitly untrusted evidence per protocol. The photograph itself shows only a raw/intermediate preparation stage—a bowl of chopped potatoes, peas, and mayonnaise—not a finished, exposed, plated dish. Without a trusted title/description independent of metadata, canonical identity cannot be verified. The image lacks the characteristics of a finished, ready-to-serve dish suitable for food review.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1932,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 453,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

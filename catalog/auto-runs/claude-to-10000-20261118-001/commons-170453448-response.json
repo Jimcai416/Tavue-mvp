@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChEvWqWsWKkpB7BcYJ1x8",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 3,\n    \"lighting\": 3,\n    \"composition\": 2,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows raw ingredients in preparation stage, not a finished dish\",\n    \"Cooked potatoes in liquid with separated ingredients visible\",\n    \"No plated or composed food visible\",\n    \"No appetising presentation of finished dish\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [],\n  \"reason\": \"Rejection: Image shows ingredients and preparation stage, not a finished, exposed, plated dish. Large bowl contains boiled potatoes in cooking liquid; separate containers show raw peas, diced carrot, mayonnaise package, and lemon. This is a work-in-progress food preparation photograph, not a completed appetising dish. Phone thumbnail confirms raw ingredient state. Does not meet requirement for 'finished, exposed, likely photographic dish' with 'readable essential components' in appetising form. Scores fail threshold: sharpness 3, appeal 1 both <4.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1768,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 343,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
