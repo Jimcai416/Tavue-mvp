@@ -142242,5 +142242,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "height": 720,
     "requiresExactMenuName": true,
     "authorUrl": "https://www.flickr.com/people/85567416@N03"
+  },
+  {
+    "id": "commons-151519527",
+    "title": "File:Sate Bibi Wasiah Pontianak.jpg",
+    "author": "Riolin Putri",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sate_Bibi_Wasiah_Pontianak.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/78/Sate_Bibi_Wasiah_Pontianak.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "ea78d803b9d26e40f5e5ec2cf664311eb5978b65",
+    "name": "Sate Bibi Wasiah Pontianak",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-151519527.jpg",
+    "assetSha256": "9d9edcee81157710c97a05fb02be2a248c5f1b0cb9dd1c8a924e7a73d3c310d0",
+    "reviewedAt": "2026-11-20",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];
