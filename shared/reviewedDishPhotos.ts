@@ -143405,5 +143405,29 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-91705681",
+    "title": "File:Chicken Saleeg.jpg",
+    "author": "Basil343",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chicken_Saleeg.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Chicken_Saleeg.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "e9742b5caf4a62f3d1a7a36d32c97967c371dfe2",
+    "name": "Chicken Saleeg",
+    "aliases": [],
+    "proteins": [
+      "chicken"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-91705681.jpg",
+    "assetSha256": "23d064d83c8d76cf7022ed99012094290f2b34d1f96aa8f111f643ebb81a3c03",
+    "reviewedAt": "2026-11-20",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 720,
+    "height": 960,
+    "requiresExactMenuName": true
   }
 ];
