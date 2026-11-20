@@ -155392,5 +155392,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 639,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-50061913",
+    "title": "File:A plate of Jamón serrano, Madrid, Spain Jamón serrano is a type of jamón (dry-cured Spanish ham), which is generally served in thin slices.jpg",
+    "author": "David Adam Kess",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:A_plate_of_Jam%C3%B3n_serrano,_Madrid,_Spain_Jam%C3%B3n_serrano_is_a_type_of_jam%C3%B3n_(dry-cured_Spanish_ham),_which_is_generally_served_in_thin_slices.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/66/A_plate_of_Jam%C3%B3n_serrano%2C_Madrid%2C_Spain_Jam%C3%B3n_serrano_is_a_type_of_jam%C3%B3n_%28dry-cured_Spanish_ham%29%2C_which_is_generally_served_in_thin_slices.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "c7461d4045ac855e7c658ecc7bfe0636b380dae6",
+    "name": "Jamón serrano",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-50061913.jpg",
+    "assetSha256": "3cb0aea68884e6d817bbf5eef320f0859b84e0564decb05ad0b806c62aaa92f7",
+    "reviewedAt": "2026-11-20",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];
