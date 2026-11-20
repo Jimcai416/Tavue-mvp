@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDGWZbxx8bsRSRZtErtT",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 3,\n    \"composition\": 1,\n    \"appeal\": 0\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows handwritten text on aged paper, not a food photograph\",\n    \"No visible dish, food item, or plated meal present\",\n    \"Document appears to be a historical label or recipe card, not cuisine\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [],\n  \"reason\": \"This is a historical document (a 1944 Panzerfaust ammunition crate label with handwritten recipe notes on the reverse), not a photograph of a finished, exposed dish. The source metadata correctly identifies it as a militaria label with French recipe text written on the back. The image contains only handwritten text on aged paper. No actual prepared food is visible in either the full photograph or thumbnail. This fails the core requirement of being a 'finished, exposed, likely photographic dish' with 'prominent' and 'sharply detailed' food subject matter. It is neither home cooking documentation nor food photography—it is a museum artifact/document.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 2160,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 352,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
