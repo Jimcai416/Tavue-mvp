@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDb26aDFFHzwbTE5zHBf",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": \"Borani soup from Hatay\",\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [\n    \"Creamy pale broth with herbs and spices visible\",\n    \"Prominent meat chunks in center\",\n    \"White serving bowl\",\n    \"Finished, exposed dish suitable for intake\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail shows creamy soup with visible meat and herbs\",\n    \"Bowl contents clearly discernible at small size\",\n    \"Adequate detail for recognition\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Borani soup traditionally contains lamb or beef, but source description does not explicitly name the meat species\",\n    \"Visual appearance suggests meat present but species cannot be reliably determined from appearance alone\",\n    \"No explicit protein identification in source metadata\"\n  ],\n  \"reason\": \"Source title provides dish name 'Borani soup from Hatay' but contains no explicit protein declaration. While the photograph clearly shows a finished, well-lit creamy soup with meat chunks and herbs, the protein_evidence rule requires an exact case-sensitive substring from title or description naming the animal. The source metadata does not state which meat is used. Regional tradition suggests lamb or beef, but this cannot be inferred. Hold pending explicit source confirmation of protein species.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1726,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 411,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

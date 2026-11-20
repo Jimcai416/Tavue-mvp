@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDb2VNQdM4r4ctSd39w9",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"White plate with organized salad components\",\n    \"Purple cabbage base, fresh greens, diced vegetables\",\n    \"Golden-brown crisp papadum leaning against plate\",\n    \"Restaurant table setting with wine glass and red napkin\",\n    \"Natural colours, sharp detail of salad vegetables\"\n  ],\n  \"phone_observations\": [\n    \"Plate clearly visible with salad and papadum\",\n    \"Readable essential components in thumbnail\",\n    \"Vibrant colour contrast (purple, green, orange)\",\n    \"Finished dish prominently featured\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title describes 'Salad and papadum' as a starter, not a named dish—identity is a category/component description rather than a specific dish name\",\n    \"Salad composition and dressing not declared in source; vegetable-only preparation cannot be confirmed as a named regional dish variant\",\n    \"No protein species declared; salad appears vegetarian but no source confirmation of intentional recipe or cultural identity\"\n  ],\n  \"reason\": \"While the photograph and thumbnail meet technical quality, sharpness, lighting and composition standards (all ≥4), and the dish is finished and appetising, the source metadata provides only a generic component description ('Salad and papadum') rather than a specific canonical dish name. This violates the requirement that canonical_name must be 'a specific dish phrase copied exactly from source title or description' and that 'Category/query alone is not evidence' of identity. The salad lacks a named variant, regional qualifier, or declared composition that would establish it as a recognisable named dish. Without a specific, verifiable dish identity from the source, acceptance cannot proceed.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1775,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 525,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

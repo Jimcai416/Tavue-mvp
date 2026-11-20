@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDb1dV2veGrPapujznYJ",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Savoury filling with corn, legumes, and minced meat visible in full image\",\n    \"Crispy, speckled exterior consistent with fried chatamari\",\n    \"Served in ceramic bowl on bright green background\",\n    \"Dish is finished, cooked, and prominently displayed\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows the filled, cooked chatamari\",\n    \"Bowl and plating visible at appropriate scale\",\n    \"Filling components (corn, meat) distinguish it from plain variants\",\n    \"No clipping of essential food elements\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title states 'Meat Chatamari' but does not specify the exact animal protein (beef/chicken/pork/lamb/duck/seafood)\",\n    \"Minced meat visible in filling but source metadata does not provide explicit species identification\",\n    \"Description 'Newari Chatamari' confirms regional variant but does not resolve protein ambiguity\"\n  ],\n  \"reason\": \"Image quality, composition, and phone thumbnail presentation all meet acceptance criteria. However, the source title 'Meat Chatamari' uses a generic term without naming a specific allowed protein category. Although minced meat is visually present and the Newari variant is identifiable, the protocol requires an exact source quote explicitly naming the animal (chicken/beef/pork/duck/lamb/seafood). The metadata provides no such explicit identification. Hold pending clarification of the specific protein used.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1552,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 482,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
