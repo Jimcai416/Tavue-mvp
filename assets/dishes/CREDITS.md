@@ -12091,3 +12091,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Sarawak Laksa** — Sweizhong. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Laksa_Sarawak_-_YF.jpg). Local asset: `reviewed-commons-105159602.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Chole bature** — Akashdoley13. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Chole_bature.jpg). Local asset: `reviewed-commons-154359359.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
