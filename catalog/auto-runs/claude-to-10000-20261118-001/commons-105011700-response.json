@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChEN45aEQE2KYFpK3Bqrn",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Noodle soup in white bowl with blue rim\",\n    \"Visible shrimp/prawns (orange, cooked)\",\n    \"Shredded chicken or poultry (pale, stringy)\",\n    \"Yellow egg noodles\",\n    \"Green herb garnish (cilantro/coriander)\",\n    \"Golden/amber broth\",\n    \"Home cooking setting\"\n  ],\n  \"phone_observations\": [\n    \"Soup bowl clearly visible with layered components\",\n    \"Shrimp and noodles prominent and readable\",\n    \"Garnish visible despite small scale\",\n    \"Appetizing composition preserved in thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title states 'Homemade Laksa Sarawak' but description omits explicit protein species naming\",\n    \"Poultry visible (shredded pale meat) but source does not specify 'chicken'\",\n    \"Shrimp/prawn visible but source does not explicitly name 'seafood' or 'shrimp'\",\n    \"Source metadata (title, description) are untrusted; no authoritative source document with explicit protein declarations provided\",\n    \"Protocol requires exact source quote naming each protein; filename and metadata phrases do not constitute reliable dish identity proof\"\n  ],\n  \"reason\": \"Image quality and composition are excellent, and the finished dish is sharp, well-lit, appetizing, and prominent in both full and thumbnail forms. However, the source title and description—which are untrusted metadata—do not explicitly name proteins (chicken, shrimp) with direct quotations. Although shrimp and poultry are clearly visible in the photograph, the protocol requires that protein_evidence values be exact case-sensitive substrings from the supplied title or description. The description 'Laksa Sarawak is a comforting dish originating from Sarawak that taste sweet yet spicy with slight sourness and bursting with flavor' contains no explicit protein species names. Without a reliable, authoritative source document providing exact protein declarations, identity cannot be confirmed and proteins cannot be catalogued. Hold pending a source title or description that explicitly names proteins.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1632,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 628,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
