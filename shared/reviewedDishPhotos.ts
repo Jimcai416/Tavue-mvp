@@ -148357,5 +148357,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 621,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-105998189",
+    "title": "File:Enfrijoladas.jpg",
+    "author": "German matus",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Enfrijoladas.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/15/Enfrijoladas.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "08ab5c5fcd6f74bdcf80680febdba8bdee0c337e",
+    "name": "Enfrijoladas con crema, queso y salsa verde",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-105998189.jpg",
+    "assetSha256": "5f238696af3dcd083ff3288a55d0a99f7e54368ecc1fcf9d4e88847c06ccfc7d",
+    "reviewedAt": "2026-11-20",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 776,
+    "height": 960,
+    "requiresExactMenuName": true
   }
 ];

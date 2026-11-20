@@ -11787,3 +11787,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Paprikás csirke galuskával** — Sumit Surai. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Paprik%C3%A1s_Csirke_Galusk%C3%A1val.jpg). Local asset: `reviewed-commons-75939457.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Enfrijoladas con crema, queso y salsa verde** — German matus. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Enfrijoladas.jpg). Local asset: `reviewed-commons-105998189.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
