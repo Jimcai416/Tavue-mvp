@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDKUovUeL4Rw6xzt95bM",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 3,\n    \"lighting\": 3,\n    \"composition\": 2,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows packaged product with branding, not a finished dish\",\n    \"Package label dominates the frame\",\n    \"No plated or exposed food visible in thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Subject is a retail food package, not a photographed finished dish\",\n    \"No cooked ñoquis visible in either source or thumbnail\",\n    \"Image shows product packaging rather than prepared food\"\n  ],\n  \"reason\": \"Rejection: This is a photograph of retail packaged ñoquis (gnocchi), not a finished, exposed, prepared dish. The full source image shows the product bag prominently, with packaging text and labeling dominating the composition. The phone thumbnail confirms the subject is the package itself, not a plated or prepared meal. Per guidelines, printed food on packaging and uncooked/unprepared ingredients are rejected. The image lacks the finished, appetising, prominently displayed cooked dish required for acceptance. No meaningful photograph of an actual prepared ñoquis dish is evident.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1730,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 377,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
