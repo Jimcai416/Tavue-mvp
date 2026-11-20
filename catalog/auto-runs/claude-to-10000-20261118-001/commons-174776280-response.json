@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChEHbrJKnQQXK7PcUsWUB",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 0,\n    \"lighting\": 0,\n    \"composition\": 0,\n    \"appeal\": 0\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Image shows an architectural exterior (restaurant building facade)\",\n    \"No food dish visible in phone thumbnail\",\n    \"No plated food, no ingredients, no finished dish\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source metadata references a closed restaurant (Chakalaka, closed as of early-2011) with no visible food content\",\n    \"Image is a building photograph, not a food photograph\"\n  ],\n  \"reason\": \"This is an architectural photograph of a restaurant building exterior, not a photograph of a food dish. The image shows no finished, exposed, or plated food. No food components are visible in either the full source or the phone thumbnail. The source metadata indicates this is a restaurant location photograph, and the restaurant is noted as closed. This does not meet the core requirement of being a representative food photograph showing an actual finished dish.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1695,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 334,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

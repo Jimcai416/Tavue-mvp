@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChEHbrLJQqnxyxyaKsH5k",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 3,\n    \"lighting\": 2,\n    \"composition\": 3,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Four dark-wrapped objects in a grid arrangement\",\n    \"Wrapped presentation obscures finished dish form\",\n    \"Meat colour visible but essential components (whether cooked sausage, interior texture, plating, accompaniments) are largely hidden by wrapping\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'beef sausage' but sausage is an unspecified processing method; species cannot be confirmed as cattle without explicit 'beef' in a trusted source description, and the metadata title is untrusted.\",\n    \"Wrapped/packaged presentation prevents visual confirmation of a finished, exposed, cooked dish suitable for a food review platform.\",\n    \"No plating, accompaniments, or dish context visible.\",\n    \"Image appears to show sausages in plastic wrapping rather than a prepared plate.\"\n  ],\n  \"reason\": \"Reject: The source title contains 'sausage' as a protein category, which is not an allowed explicit species (chicken/beef/pork/duck/lamb/seafood). The metadata title 'beef sausage' is untrusted and does not provide an explicit, citable source quote confirming beef. The image shows wrapped sausages rather than a finished, exposed, plated dish. Essential food components are obscured by packaging, violating the requirement for a sharp, appetising, well-exposed finished dish with visible form in the phone thumbnail. The photograph fails the identity, variant_preserved, and overall acceptance criteria for a food review intake.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1736,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 480,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

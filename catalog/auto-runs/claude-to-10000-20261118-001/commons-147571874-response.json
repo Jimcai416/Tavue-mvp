@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChEHcNoNYRLsohXHZFg5b",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": true,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 2,\n    \"composition\": 2,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail is severely overexposed with blown-out white highlights\",\n    \"Essential food components are clipped or obscured by intense glare and light flare\",\n    \"No readable detail of the dish itself visible in phone thumbnail\",\n    \"Lighting conditions make food identification impossible at thumbnail scale\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title references 'Chakalaka' but the full source image shows preparation/street vendor context rather than a finished, exposed dish\",\n    \"Severe backlighting and glare prevent visual confirmation of any finished food state\",\n    \"No clear, appetising view of the prepared dish in either full or thumbnail format\"\n  ],\n  \"reason\": \"Reject: The full photograph shows a street vendor preparation scene with backlighting, glare, and clutter that obscures the finished dish. The phone thumbnail is severely overexposed with blown-out highlights and clipped essential food components, making the dish unreadable. While metadata names 'Chakalaka', the visual evidence does not present a sharp, naturally coloured, appetising, and prominently detailed finished dish. Severe lighting defects (glare, overexposure, backlighting) and obscured food subject fail quality and phone thumbnail requirements. All scores below threshold.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1749,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 430,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
