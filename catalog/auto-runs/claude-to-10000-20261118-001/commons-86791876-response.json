@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDXm4h61a6YhquLiDnRZ",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 5\n  },\n  \"visible_support\": [\n    \"Golden-yellow fragrant rice, well-cooked and evenly distributed\",\n    \"Crispy fried onions prominently layered on top\",\n    \"Purple cabbage slaw and lime wedge as fresh garnish\",\n    \"Dish served on white plate with professional plating\",\n    \"Natural colours, sharp detail, appetising presentation\",\n    \"Phone thumbnail clearly shows rice, protein topping, and garnish\"\n  ],\n  \"phone_observations\": [\n    \"Central rice mound with crispy onion topping visible and readable\",\n    \"Purple and green garnish elements present\",\n    \"Plate edges and composition captured adequately\",\n    \"No clipping of essential components\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title states 'goat biryani' (phae = goat in Thai), but 'phae' can also mean mutton (sheep); the terms are ambiguous in English translation and the meat species cannot be visually confirmed from the photograph alone\",\n    \"The crispy topping appears to be fried onions and possibly meat crisp, but the exact meat species is not visually identifiable\",\n    \"No explicit source quote unambiguously confirms whether the protein is goat or sheep/mutton\"\n  ],\n  \"reason\": \"Image quality, sharpness, lighting, composition and phone thumbnail all meet acceptance criteria. However, the source metadata contains a known ambiguity: 'phae' in Thai can refer to either goat or mutton (sheep), and English translations of this term are unreliable. The photograph itself does not visually resolve this species ambiguity. Per protocol, ambiguous meat species (including mutton that might mean goat) must be held pending clarification. The source title/description does not provide an exact, unambiguous species declaration that would justify overriding this uncertainty.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1776,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 557,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
