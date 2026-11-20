@@ -158010,5 +158010,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-100582534",
+    "title": "File:Linguine ai funghi.jpg",
+    "author": "Camelia.boban",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Linguine_ai_funghi.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Linguine_ai_funghi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "21c54e147012b28870f5b539ba7ad85573f80639",
+    "name": "Linguine ai funghi",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-100582534.jpg",
+    "assetSha256": "dad3d58c48ecd81d7c2c93a36972346eee591f7018000d4aa2dffceab2bc2e5b",
+    "reviewedAt": "2026-11-20",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];
