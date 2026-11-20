@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDpNoqjWVWSsQGTvLssE",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Döner kebab visible in pita bread\",\n    \"Shredded meat clearly present\",\n    \"Red cabbage and pickled vegetables visible\",\n    \"Fork positioning suggests finished dish\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail shows recognizable döner structure\",\n    \"Meat and vegetable layers visible at reduced size\",\n    \"White plate base clearly rendered\",\n    \"Pita bread outline evident\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title 'Mannheim Döner kaum convenience bestandteile' translates to 'Mannheim Döner hardly any convenience components' — a subjective quality claim, not a dish name or variant descriptor\",\n    \"Meat species in döner is not explicitly named in source; döner traditionally contains lamb, beef, or chicken but generic 'shredded meat' cannot confirm specific animal\",\n    \"Description 'Erstaunlicher Döner aus Mannheim' (Amazing Döner from Mannheim) is marketing language, not a canonical dish identifier\"\n  ],\n  \"reason\": \"Rejection: Source metadata does not provide a proper canonical dish name—only a location ('Mannheim'), a marketing descriptor ('Erstaunlicher'/Amazing), and a subjective quality claim. The meat species is not explicitly named in title or description, so protein cannot be assigned. While the photograph itself is sharp, well-lit, and appetising, and the finished döner is recognisable, the source identity fails the requirement to match an exact, specific dish phrase from the title/description. A location and adjective do not constitute sufficient identity evidence. Hold or reject expected.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1628,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 511,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDpNJPvkJbNWiNLwHCMN",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Golden-brown toasted bread exterior visible in both images\",\n    \"Stacked meat with caramelised edges visible at top of sandwich\",\n    \"Golden fried potato pieces clearly visible in both full and thumbnail\",\n    \"Natural daylight with strong shadows indicating authentic photograph\",\n    \"Finished, exposed dish prominently displayed on white plate\"\n  ],\n  \"phone_observations\": [\n    \"Sandwich core and bread crust clearly readable at 124x96\",\n    \"Meat and potato components distinctly visible\",\n    \"Satisfactory detail retention in phone thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source metadata states 'Döner Kebab' but provides no explicit meat species declaration—döner traditionally uses lamb, beef, or chicken, and species cannot be confirmed from appearance alone\",\n    \"File title references 'french fries and chili sauce' which are visible, but canonical identity requires exact source quote with meat specification\",\n    \"Metadata is flagged as untrusted per instructions; title alone is insufficient without explicit species confirmation in a trusted description field\"\n  ],\n  \"reason\": \"Photograph and phone thumbnail are sharp, well-lit, naturally coloured and appetising. The finished sandwich with meat and fries is prominent and readable. However, protein_evidence cannot be populated: the file title 'Döner Kebab' does not explicitly name a specific meat species, and instructions require an exact source quote naming the animal. Döner can contain lamb, beef, or chicken—species cannot be inferred from visual appearance or tradition. Identity check fails due to absence of explicit meat species declaration in source metadata. Hold pending clarification of exact meat type from a trusted description field.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1544,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 518,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDpMvMsc9Ydm5H9oHH6Q",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 3,\n    \"appeal\": 3\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Döner kebab sandwich visible in phone thumbnail\",\n    \"Meat and fries clearly present\",\n    \"Sandwich structure apparent but meat species unconfirmed\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Meat species in döner kebab not explicitly named in source description—tradition suggests lamb, beef, or mixed meat, but no specific animal is declared\",\n    \"Source title mentions 'File:' prefix and date metadata, which are excluded from canonical naming per protocol\",\n    \"Actual dish identity depends on meat composition, which is not stated in provided metadata\"\n  ],\n  \"reason\": \"Reject: The source description does not explicitly name the meat species in the döner kebab (e.g., 'lamb', 'beef', 'chicken', 'pork', or 'duck'). Per protocol, protein_evidence requires an exact case-sensitive substring from the title/description; unknown or unspecified meat species mandate a hold or reject. The description only references 'Döner Kebab' without declaring which animal protein it contains. Identity cannot be confirmed without explicit meat species declaration, and no exact source quote supports the protein category.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1544,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 407,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
