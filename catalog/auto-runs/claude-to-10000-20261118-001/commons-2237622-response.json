@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDTsaebJRyzxDRTWtbHz",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 5,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Toasted bread slices arranged in circular platter\",\n    \"Green pesto spread visible on each slice\",\n    \"White crumbled cheese (appears to be blue cheese) on top\",\n    \"Brown meat or protein layer visible under pesto\",\n    \"Yellow flower and green leaf garnish at centre\",\n    \"Natural lighting, appetising presentation\",\n    \"Sharp detail in phone thumbnail showing all components\"\n  ],\n  \"phone_observations\": [\n    \"Circular arrangement clearly visible\",\n    \"Green pesto prominent on each slice\",\n    \"White cheese crumbles readable\",\n    \"Toast colour and crispness evident\",\n    \"Central garnish visible\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title contains 'bue cheese' (apparent typo for 'blue cheese'), but source metadata is explicitly untrusted and cannot be used to identify dish\",\n    \"Brown layer under pesto is not clearly identifiable as 'spiced pear' from visual inspection alone—could be caramelised fruit, meat, or other protein\",\n    \"Source title claims 'spiced pear' but no pear is visually distinguishable with certainty in the photograph\",\n    \"No explicit protein naming in visible image supports protein_evidence extraction\",\n    \"Identity contradiction: source description says 'pear' but pear as a protein category does not exist in allowed list; if it is meat, species is unspecified and unclear\"\n  ],\n  \"reason\": \"Reject: Identity check fails. Source title/description claims 'spiced pear' as a primary component, but pear is not a valid protein category and appears visually ambiguous in the photograph. The brown layer could plausibly be fruit, vegetable, or unspecified protein. Source metadata is explicitly untrusted; visual inspection alone does not conclusively confirm the dish identity or the nature of the brown component. No valid protein can be extracted with an exact case-sensitive source quote. The photograph quality is excellent, but identity uncertainty is fundamental to acceptance criteria.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1743,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 595,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
