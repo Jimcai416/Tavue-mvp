@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDDTix78VhjTaYJKN2o9",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Large wok or pan with reddish-brown/chilli-scattered sauce or oil\",\n    \"Substantial cooked protein visible in centre\",\n    \"Appears savoury, not dessert\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title/description claims 'Shahi Tukda - Dessert of India' (bread + cream), but photograph shows a large savoury wok dish with what appears to be fish or meat in a spiced/chilli-oil sauce\",\n    \"Identity contradiction: photograph does not match declared dessert identity\",\n    \"Actual dish identity cannot be determined from photograph alone without contradicting source metadata\"\n  ],\n  \"reason\": \"Critical identity mismatch. Source metadata declares 'Shahi Tukda,' a sweet bread-and-cream dessert, but both full photograph and thumbnail show a large savoury wok dish with cooked protein in a reddish chilli oil or spiced sauce—visually inconsistent with any dessert. The photograph appears to document a different dish entirely. Identity check fails. Metadata is explicitly untrusted evidence and cannot override visual contradiction. Reject.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1659,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 409,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
