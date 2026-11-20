@@ -11822,3 +11822,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 
 - **Bún mắm Sóc Trăng** — avlxyz. [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:Bun_Mam_Soc_Trang_-_fish,_prawns,_pork_-_Vinh_Long_Market_VND20000_-_1.jpg). Local asset: `reviewed-commons-164459022.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Bún mắm Bạc Liêu** — Phương Huy. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:B%C3%BAn_m%E1%BA%AFm_B%E1%BA%A1c_Li%C3%AAu_n%C4%83m_2016_v%E1%BB%9Bi_eHy_(2).jpg). Local asset: `reviewed-commons-92984172.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Gising-Gising** — Ralff Nestor Nacor. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Gising-Gising,_Jan_2026.jpg). Local asset: `reviewed-commons-182117524.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.

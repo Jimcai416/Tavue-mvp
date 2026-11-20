@@ -148607,5 +148607,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 760,
     "height": 960,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-182117524",
+    "title": "File:Gising-Gising, Jan 2026.jpg",
+    "author": "Ralff Nestor Nacor",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gising-Gising,_Jan_2026.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Gising-Gising%2C_Jan_2026.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "fdf34f40e487aec0dc2ac896cd4b39369a963df7",
+    "name": "Gising-Gising",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-182117524.jpg",
+    "assetSha256": "4b75a61d44523e3239ca1ce1f2ee1a0b99285ecacbc615522805e464275ef1ae",
+    "reviewedAt": "2026-11-20",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 723,
+    "requiresExactMenuName": true
   }
 ];
