@@ -160873,5 +160873,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-27121799",
+    "title": "File:Champiñones rellenos -2013.JPG",
+    "author": "Tamorlan",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Champi%C3%B1ones_rellenos_-2013.JPG",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Champi%C3%B1ones_rellenos_-2013.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "14e24ce050b9ed3148fa7dc871eb3f3f8febfbcf",
+    "name": "Champiñones rellenos",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-27121799.jpg",
+    "assetSha256": "db6d1aac03da0321c8461a56035cdfd65c7b61e4409e63b60e592b39f5ffecfb",
+    "reviewedAt": "2026-11-20",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 640,
+    "requiresExactMenuName": true
   }
 ];

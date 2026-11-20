@@ -12907,3 +12907,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 - **Cheesecake fromage blanc** — Roozitaa. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Cheesecake_fromage_blanc.jpg). Local asset: `reviewed-commons-31283253.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Flans de fromage blanc au fruit de la passion** — [muriel amaury](https://www.flickr.com/people/88183497@N00). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Flans_de_fromage_blanc_au_fruit_de_la_passion_(2).jpg). Local asset: `reviewed-commons-10280417.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Tarte au fromage blanc** — Arnaud 25. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Tarte_au_fromage_blanc.jpg). Local asset: `reviewed-commons-147826418.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Champiñones rellenos** — Tamorlan. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Champi%C3%B1ones_rellenos_-2013.JPG). Local asset: `reviewed-commons-27121799.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
