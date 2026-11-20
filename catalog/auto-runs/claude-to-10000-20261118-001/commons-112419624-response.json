@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDe3L6vbH4adV3DR1FCH",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Plated mixed components: fried chicken, beef steak, rice, tortillas, guacamole\",\n    \"Sharp detail across full frame and thumbnail\",\n    \"Natural indoor lighting, appetising presentation\",\n    \"White plate, wooden table setting\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail shows recognisable mixed grill with steak, fried chicken, tortillas, and green dip\",\n    \"Main components visible and prominent in centre-cover framing\",\n    \"No clipping of essential food items\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'Fajita Republic' but photograph shows a mixed grill/combination plate, not fajitas as a dish identity\",\n    \"No source text explicitly names specific proteins (chicken/beef/pork/duck/lamb/seafood)\",\n    \"Plate appears to be a restaurant combo sampler rather than a single named dish\",\n    \"Metadata title is filename/location, not a canonical dish name\"\n  ],\n  \"reason\": \"Identity check fails. The source provides only a restaurant name and location ('Fajita Republic, Puerto Vallarta, 2021'), not an actual dish title or description. The photograph shows a mixed grill combination plate with multiple components (fried chicken, beef steak, rice, tortillas, guacamole) but no authoritative source text names the dish itself or explicitly identifies proteins. The restaurant name alone does not constitute evidence of dish identity. Without a specific dish name from source title/description, and without explicit protein naming in source text, identity cannot be verified. All quality and photograph checks pass, but the identity check is mandatory for acceptance.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1533,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 514,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
