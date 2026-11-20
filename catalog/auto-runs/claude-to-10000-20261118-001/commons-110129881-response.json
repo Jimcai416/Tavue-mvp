@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChEydkjvKme1gkxjnwkuB",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Two whole wheat/brown mini baguettes with crusted exterior\",\n    \"Generous portion of scrambled egg dish with visible green herbs, peas, and what appears to be diced ham or bacon\",\n    \"Fresh lemon wedges as garnish\",\n    \"Served on clean white plate in restaurant setting\"\n  ],\n  \"phone_observations\": [\n    \"Mini baguettes clearly visible and prominent in thumbnail\",\n    \"Scrambled egg mixture with green herbs and meat visible\",\n    \"Natural colours, sharp detail sufficient for phone review\",\n    \"Lemon garnish visible\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title states 'Brouillade' (French scrambled eggs) but does not explicitly name any meat species in the visible ham/bacon component\",\n    \"The diced pinkish/reddish protein in the egg mixture is not identified by species in the source description\",\n    \"No explicit confirmation that 'mini baguettes' are the correct term or if this is a regional variant qualifier\"\n  ],\n  \"reason\": \"Identity check fails. The source description 'Brouillade, mini baguettes' does not provide explicit species identification for the visible meat component in the scrambled eggs (appears to be ham or bacon but unspecified in source). Per protocol, ambiguous or unspecified meat species cannot be claimed in protein_evidence, and source contradiction/omission of named proteins means hold. The dish itself is identifiable as brouillade, but the protein cannot be canonically established from source text. Quality and photograph checks pass.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1841,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 493,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

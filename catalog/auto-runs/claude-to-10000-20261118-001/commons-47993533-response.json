@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChEydFXkeLo1cPHAGEECt",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 3,\n    \"composition\": 3,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows scrambled eggs with herbs on a decorated plate\",\n    \"Golden-yellow curds visible, consistent with cooked eggs\",\n    \"Green herb garnish evident\",\n    \"Plate has decorative border with green and red striping\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title 'Brouillade à l'ail et aux herbes' describes scrambled eggs with garlic and herbs, but neither garlic nor any specific herbs are visually identifiable in either image\",\n    \"Full source photo is severely blurred and out of focus, making sharp detail assessment impossible\",\n    \"Cannot verify garlic as a component—no visible pieces or characteristic appearance\",\n    \"Herb garnish visible but specific herbs cannot be identified visually\",\n    \"Blurriness in full source photo violates sharpness requirement (score 2 is <4 threshold)\"\n  ],\n  \"reason\": \"Reject: full source photograph is severely out of focus and blurred (sharpness score 2, below minimum 4). While the dish identity (scrambled eggs with herbs) can be inferred from the title and phone thumbnail, the full source image lacks the sharp detail and visual clarity required by the standard. The claimed garlic component is not visually verifiable. The phone thumbnail is acceptable, but the primary source photograph fails the quality and sharpness checks.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1741,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 453,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
