@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDDk5dGaFUsjhpFZg8it",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 3,\n    \"lighting\": 3,\n    \"composition\": 2,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Dish visible in transparent glass container in centre-thumbnail\",\n    \"Rice-based preparation with scattered ingredients visible\",\n    \"White plate and water bottle present\",\n    \"Limited detail resolution in 124x96 thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'Kacchi Biriyani' but source description lacks explicit meat species identification\",\n    \"Rice preparation visible but no clearly identifiable meat component visible in photograph to match claimed dish identity\",\n    \"Kacchi biriyani traditionally contains marinated raw meat (kacchi = raw), but no visible raw/marinated meat staging is evident; appearance suggests cooked rice dish only\",\n    \"Contradiction between source title (kacchi biriyani with meat requirement) and visible contents (appears to be rice only or unidentifiable cooked components)\"\n  ],\n  \"reason\": \"Source title 'Kacchi Biriyani' asserts a specific meat biriyani dish, but no source description explicitly names the animal protein used. The photograph shows rice in a glass container with scattered components, but no clearly visible marinated raw meat characteristic of authentic kacchi biriyani preparation. The visible preparation does not support the claimed identity. Without explicit protein naming in source metadata and visual contradiction with traditional kacchi biriyani form (which requires visible raw marinated meat layered with partially cooked rice), identity cannot be verified. Hold criteria met: ambiguous meat species and source contradiction.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1739,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 471,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

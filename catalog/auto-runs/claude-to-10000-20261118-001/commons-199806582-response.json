@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDDjiiQsz7A64jTQC86s",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 3,\n    \"appeal\": 2\n  },\n  \"visible_support\": [\n    \"Golden-brown fried rice texture visible\",\n    \"Red chilli visible scattered throughout\",\n    \"Served in banana leaf-lined container\",\n    \"Serving spoon present in dish\",\n    \"Street food presentation\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail shows granular fried rice texture\",\n    \"Red chilli visible in thumbnail\",\n    \"Spoon visible centre-cover\",\n    \"Adequate sharpness for recognition\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'telur orak arik' (scrambled egg) but no egg is visibly distinguished in the photograph—the mass appears to be homogeneous fried rice with no discrete egg curds or cooked egg white visible\",\n    \"No identifiable egg component can be visually confirmed in either full image or thumbnail\",\n    \"Dish appears to be plain fried rice with chilli, not the characteristic two-component preparation (separated egg and rice) implied by the source title\"\n  ],\n  \"reason\": \"Identity check fails. The source title 'Nasi goreng telur orak arik' specifies scrambled egg (telur orak arik) as a named component, but no visibly distinct scrambled egg is present in the photograph. The image shows a homogeneous mass of fried rice with scattered red chilli. The essential identity-defining ingredient—visible cooked egg curds or egg component—cannot be confirmed. Without visual evidence of the named protein preparation, identity cannot be verified despite the photograph being sharp and well-presented.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1730,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 491,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

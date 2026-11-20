@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDDjtrsBXC1PDFrctEKN",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Cooked rice dish with meat visible throughout\",\n    \"Green chilli garnish\",\n    \"Natural lighting, appetising appearance\",\n    \"Served in clear container on decorative cloth\"\n  ],\n  \"phone_observations\": [\n    \"Rice and meat components clearly visible at thumbnail scale\",\n    \"Garnish visible\",\n    \"Dish identity readable in reduced format\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'Kacchi Biriyani' but source description states only 'Kacchi Biriyani' with no protein specification. Kacchi biryani traditionally contains meat (usually goat/mutton or lamb), but the exact species is not explicitly named in the source metadata.\",\n    \"No explicit animal protein is named in the supplied title or description—only the dish name is provided.\",\n    \"Meat is visibly present in the photograph but species cannot be determined from appearance alone and is not declared in source text.\"\n  ],\n  \"reason\": \"Hold: The source title/description 'Kacchi Biriyani' does not explicitly name the protein species (chicken/beef/pork/duck/lamb/seafood). Although meat is visibly present throughout the dish and garnished with green chilli, the exact animal cannot be verified from the metadata supplied. Per protocol, unknown or undeclared meat species requires a hold pending explicit source confirmation of which animal protein is used.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1731,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 460,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
