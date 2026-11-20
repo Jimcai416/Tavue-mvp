@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDsWiuPRpL24Ukngeosd",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [\n    \"Clay pot vessel with broth\",\n    \"Light-coloured protein pieces visible\",\n    \"Mushrooms and vegetables in broth\",\n    \"Steam and condensation on lid rim\",\n    \"Finished soup presentation in serving vessel\"\n  ],\n  \"phone_observations\": [\n    \"Soup in dark clay pot clearly visible\",\n    \"Light protein and vegetable components identifiable\",\n    \"Broth and ingredient composition readable at thumbnail scale\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'turtle soup' but source metadata identifies it as 'מרק צבים' (Hebrew: 'turtle soup'). Turtle is not an allowed protein category (chicken/beef/pork/duck/lamb/seafood only)\",\n    \"Visual identification cannot confirm the specific species or confirm whether this contains protected or restricted species\",\n    \"No exact substring match to source title available that names an allowed protein\"\n  ],\n  \"reason\": \"Rejection: The dish is titled as 'Turtle soup' in both English and Hebrew metadata. Turtle does not fall within the allowed protein categories (chicken, beef, pork, duck, lamb, seafood). Although the photograph shows a well-presented finished soup with good quality, lighting, sharpness and composition, and the phone thumbnail clearly displays the dish, the identity check fails because no allowed protein can be extracted from the source description. The image quality and presentation would otherwise warrant acceptance, but the protein constraint is mandatory.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1558,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 468,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

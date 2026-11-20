@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDsWiteH5UEMPQL2dJgT",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 3,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Soup bowl with clear broth visible in thumbnail\",\n    \"Green garnish (cilantro) visible\",\n    \"Meat pieces partially visible in phone thumbnail\",\n    \"Pink plastic spoon visible in both images\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Species identity cannot be visually confirmed—'turtle' claimed in title/description but visual inspection cannot distinguish turtle meat from other species (chicken, pork, or other poultry/offal); no definitive morphological markers visible\",\n    \"Animal species cannot be reliably identified from appearance alone in a cooked soup\",\n    \"Title metadata is untrusted per instructions; cannot use it to override visual ambiguity\"\n  ],\n  \"reason\": \"Rejection: The title claims 'turtle soup', but the protein identity cannot be visually verified from the photograph. Cooked meat pieces in broth lack distinctive morphological features that would reliably distinguish turtle from chicken, pork, or other species. Per protocol, ambiguous meat species (including those that cannot be visually confirmed) must be held or rejected. The source title is untrusted metadata and cannot override visual uncertainty. No exact protein match can be provided to protein_evidence. The identity check fails.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1726,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 418,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
