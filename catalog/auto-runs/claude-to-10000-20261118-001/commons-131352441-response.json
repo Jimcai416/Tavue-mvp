@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChEiockjybDdfasLgKjc6",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 2,\n    \"composition\": 1,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Image is a 19th-century lithographic illustration, not a photograph\",\n    \"Two comic scenes depicting social satire, not a food dish\",\n    \"Line drawing and sketch style, not photographic or food imagery\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title mentions 'poularde truffée' (truffle-stuffed chicken) but this is a lithographic illustration from 1859, not a photograph of an actual dish\",\n    \"The image is entirely illustrative/satirical artwork, not documentation of food\"\n  ],\n  \"reason\": \"Rejection: This is a 19th-century lithographic illustration (Arts graphiques/Estampe), not a photograph of food. The image shows two comic social scenes drawn in line art style. While the metadata title references 'une minute..cette poularde truffée' (a truffle-stuffed chicken), no actual dish is visible. The source is explicitly catalogued as a lithograph by Vernier and Destouches (1859), not food photography. The photograph check fails fundamentally: this is printed artwork, not a photographic capture of a prepared dish. No plating, no actual food rendering, no visual evidence of any consumable item.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 2244,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 423,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

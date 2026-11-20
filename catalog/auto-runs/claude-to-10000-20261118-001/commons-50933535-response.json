@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChEinokzkAsS2je83wMpw",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Two pale salmon-coloured cylindrical items visible in phone thumbnail\",\n    \"Surrounded by diced mushrooms and root vegetables\",\n    \"Dish appears mid-cooking in a wok/large pan on stovetop\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title states 'Fish paupiettes with cepes' but description claims 'Salmon paupiettes with cepes'—contradictory fish vs salmon species declaration\",\n    \"Image shows clear cooking-in-progress state: food is still in active pan on stovetop, not plated or finished\",\n    \"Salmon identity cannot be visually confirmed from colour alone without explicit source consistency\"\n  ],\n  \"reason\": \"Reject: Dish is in preparation/cooking stage (actively in wok on stovetop), not a finished, exposed, served dish. Source metadata contains internal contradiction (title 'Fish paupiettes' vs description 'Salmon paupiettes'), creating identity uncertainty. Paupiettes require plating and finishing to present as a completed dish. Home cooking context does not override the preparation-stage rejection criterion.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1513,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 400,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

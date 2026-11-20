@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChEiotUnoqbfagvndpSyE",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 3,\n    \"composition\": 3,\n    \"appeal\": 3\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Rolled meat parcels in golden-brown sauce visible in thumbnail\",\n    \"Dark elements (prunes) visible atop rolls\",\n    \"Braise or stew composition evident\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title declares rabbit (lapin), but rabbit is not an allowed protein category per instructions\",\n    \"Protein cannot be verified as chicken/beef/pork/duck/lamb/seafood\",\n    \"Species explicitly named in source but falls outside permitted categories\"\n  ],\n  \"reason\": \"Rejection: The source explicitly identifies this dish as 'Paupiettes de lapin aux pruneaux' (rabbit paupiettes with prunes). While the photograph is adequately exposed and the dish is finished and appetising, rabbit is not an allowed protein category. Per instructions, proteins may include only chicken/beef/pork/duck/lamb/seafood with explicit source quotes naming each animal. The source naming of 'lapin' (rabbit) cannot be mapped to any permitted category, and no alternative protein is visibly or textually supported. This mandates hold/reject status.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1669,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 396,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

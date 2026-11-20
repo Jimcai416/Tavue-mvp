@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChEiozhM87HVgQmmUXr7D",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Cooked sausage, browned and fully plated\",\n    \"Diced potato/cheese gratin with melted cheese (truffade)\",\n    \"Arugula and tomato garnish\",\n    \"Finished plated dish on white tableware\",\n    \"Sharp detail and natural colours in full image and thumbnail\"\n  ],\n  \"phone_observations\": [\n    \"Sausage, gratin, and salad all visible and prominent\",\n    \"Adequate detail for identification of components\",\n    \"Finished dish clearly presented\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Sausage species cannot be identified from visual appearance alone; source does not explicitly name the animal (e.g. 'pork sausage', 'beef sausage')\",\n    \"Generic 'Sausage' in title does not qualify as explicit species naming\",\n    \"Cannot infer meat type from appearance or regional tradition\"\n  ],\n  \"reason\": \"Image quality, composition, and plating are excellent (all visual scores ≥4). The dish is clearly finished, appetising, and well-documented in both full and thumbnail views. However, the protein_evidence check fails: the source metadata describes only 'Sausage' without naming the specific animal species (chicken/beef/pork/duck/lamb/seafood). Per protocol, unknown meat species and unspecified sausage composition mandate a hold. No explicit source quote names the sausage animal. Title and description are insufficient to establish identity beyond the generic dish name.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1658,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 489,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

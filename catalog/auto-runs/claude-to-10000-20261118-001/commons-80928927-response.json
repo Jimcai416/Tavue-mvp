@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChEioA4PDrG7SbqnQbDVj",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Plated terrine slice with mixed green salad\",\n    \"Brasserie Georges branding visible on plate\",\n    \"Natural pink colour consistent with poultry liver pâté\",\n    \"Professional plating with garnish\"\n  ],\n  \"phone_observations\": [\n    \"Terrine and salad clearly visible in thumbnail\",\n    \"Adequate sharpness and colour representation\",\n    \"Subject prominent and not clipped\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title specifies 'foie de volaille' (poultry liver), but volaille is a generic term that does not identify the specific bird species (chicken, duck, guinea fowl, etc.)\",\n    \"Source description does not explicitly name the animal species, only the generic category 'poultry'\",\n    \"Cannot visually distinguish between chicken liver, duck liver, or other poultry liver terrines from appearance alone\"\n  ],\n  \"reason\": \"Reject: The source title and description use 'volaille' (poultry), which is an ambiguous category that does not explicitly name a specific animal species. The protein_evidence rule requires exact source quotes that explicitly name the animal (chicken/duck/etc.). 'Foie de volaille' alone does not meet this requirement. The photograph is of high quality and properly exposed, but identity cannot be confirmed with the specificity required by the canonical_name rules.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1767,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 457,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
