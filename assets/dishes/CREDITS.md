@@ -11783,3 +11783,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Biang Biang Noodles** — [Guilhem Vellut  from Paris, France](https://www.flickr.com/people/22539273@N00). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Biang_Biang_Noodles,_Chez_Mam,_Paris_001.jpg). Local asset: `reviewed-commons-52701347.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Paprikás csirke galuskával** — Sumit Surai. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Paprik%C3%A1s_Csirke_Galusk%C3%A1val.jpg). Local asset: `reviewed-commons-75939457.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
