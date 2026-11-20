@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChEv45vHUkMVbd41MyrQp",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 5,\n    \"appeal\": 5\n  },\n  \"visible_support\": [\n    \"Vibrant pale green velouté in white bowl\",\n    \"Two golden-brown croustillons/fritole garnished with fresh herbs (tarragon visible)\",\n    \"Fine dining plating with professional presentation\",\n    \"Natural lighting reveals rich colour and texture\"\n  ],\n  \"phone_observations\": [\n    \"Cream soup with garnish clearly visible in thumbnail\",\n    \"Dish identity readable at reduced scale\",\n    \"Golden garnish elements prominent against green base\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title references 'File:' prefix and metadata inconsistent with canonical dish naming rules\",\n    \"Description states 'free range egg' but croustillons/oliebol/fritole are typically egg-based dough pastries, not containing a named meat protein; egg is not an allowed protein category\",\n    \"Creamy soup base appears to be vegetarian pea and tarragon velouté with no visible protein components beyond the egg-based fried pastries\"\n  ],\n  \"reason\": \"Image quality, sharpness, composition and phone visibility all meet standards. However, the dish cannot be accepted because: (1) The source metadata format violates canonical naming requirements (File: prefix, photographer credit, license tags present); (2) The only protein evidence is 'free range egg' describing the croustillon/fritole pastries, but egg is not an allowed protein_evidence category key; (3) The velouté itself is vegetarian with no chicken, beef, pork, duck, lamb, or seafood visible or declared. Hold pending source title normalization and clarification of whether this vegetable soup with egg-based garnish meets intake criteria.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1843,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 517,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
