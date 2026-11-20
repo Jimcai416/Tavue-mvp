@@ -138372,5 +138372,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-24762125",
+    "title": "File:El fiambre, comida típica de Topaipí (47).JPG",
+    "author": "Bigbangtheory",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:El_fiambre,_comida_t%C3%ADpica_de_Topaip%C3%AD_(47).JPG",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/69/El_fiambre%2C_comida_t%C3%ADpica_de_Topaip%C3%AD_%2847%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "8589af0ae55085cc545dfb8733778722bbbd9635",
+    "name": "El fiambre, comida típica de Topaipí",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-24762125.jpg",
+    "assetSha256": "d56c5d609747a81ae2e3384bfd9ba71af81d442bd5ae3c88e5fb67ec6be8d107",
+    "reviewedAt": "2026-11-20",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 540,
+    "height": 960,
+    "requiresExactMenuName": true
   }
 ];
