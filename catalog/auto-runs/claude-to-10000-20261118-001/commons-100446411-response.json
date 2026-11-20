@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChDV17q8nNMb7Yx4xJUye",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Crumbly, granular texture consistent with fried rice or minced preparation\",\n    \"Long green chilli visible prominently\",\n    \"Orange/red vegetable pieces visible (described as tomatoes)\",\n    \"Pale spherical object at top (described as egg)\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail shows granular, crumbly dish on white plate\",\n    \"Composition matches full image\",\n    \"Colour and texture consistent with fried rice preparation\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title describes 'Fried tilapia' but no whole fish, fish fillet, or recognisable fish pieces are visible in either image. The dish appears to be fried rice or a minced/crumbly preparation.\",\n    \"No visible fish component supports the 'tilapia' claim in the title.\",\n    \"Source describes 'Broccoli' but only green long chillies and diced vegetables are visible; no broccoli florets are identifiable.\",\n    \"The visible preparation contradicts the stated identity.\"\n  ],\n  \"reason\": \"Identity mismatch. The source title claims 'Fried tilapia' but the photograph shows a crumbly, granular fried rice or minced preparation with no visible whole fish, fillet, or fish pieces. The title also claims 'Broccoli' but only long green chillies and diced vegetables are visible. The photograph does not match the described dish identity, violating the requirement that identity must agree with visible form.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1745,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 491,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
