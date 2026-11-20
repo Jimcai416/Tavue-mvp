@@ -11946,3 +11946,10 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Traditional fish curry (Macher Jhol)** — Afifa Afrin. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Traditional_fish_curry_(Macher_Jhol).jpg). Local asset: `reviewed-commons-64668183.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Eggplant Turnovers, Tomato Rice, Lentils and Saffron Rice** — [Alpha](https://www.flickr.com/photos/10559879@N00). [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:Eggplant_Turnovers,_Tomato_Rice,_Lentils_and_Saffron_Rice_at_Moroccan_Soup_Bar.jpg). Local asset: `reviewed-commons-6217428.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Grain saffron rice** — Leon Brooks. [Public domain](https://creativecommons.org/publicdomain/mark/1.0/); [source](https://commons.wikimedia.org/wiki/File:Grain_saffron_rice.jpg). Local asset: `reviewed-commons-24905440.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Saffron Rice Or Basmati Rice Kesari Bath** — Manjeshwari poet mysore. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Saffron_Rice_Or_Basmati_Rice_Kesari_Bath_-_higher_resolution.jpg). Local asset: `reviewed-commons-102863291.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Saffron rice** — [pelican  from Tokyo, Japan](https://www.flickr.com/people/85936780@N00). [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:Saffron_rice_(4355404519).jpg). Local asset: `reviewed-commons-77826954.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
