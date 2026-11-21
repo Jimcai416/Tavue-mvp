@@ -167334,5 +167334,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "height": 720,
     "requiresExactMenuName": true,
     "authorUrl": "https://www.flickr.com/people/sekimura/"
+  },
+  {
+    "id": "commons-145398867",
+    "title": "File:Arepa de carne mechada.jpg",
+    "author": "Pequeño mar",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Arepa_de_carne_mechada.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Arepa_de_carne_mechada.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "7ff1e03fb90ef274a8bd43d9053888d3bac20adb",
+    "name": "Arepa de carne mechada con frijoles negros y queso",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-145398867.jpg",
+    "assetSha256": "34df6e9a55bbd2903896c62285583b6220956f6d8395269acb2b5d69d86f364f",
+    "reviewedAt": "2026-11-21",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 541,
+    "height": 960,
+    "requiresExactMenuName": true
   }
 ];
