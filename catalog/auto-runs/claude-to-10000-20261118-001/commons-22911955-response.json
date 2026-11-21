@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChGEuHZz5XziJgJEpjnq1",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Cheese wedge clearly visible in thumbnail\",\n    \"Pale yellow/cream colour consistent with source image\",\n    \"Block shape recognizable at reduced size\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title references 'Queso Manchego' but metadata is untrusted and contains filename/date/author elements\",\n    \"Source description does not provide explicit canonical dish name suitable for Tavue intake\",\n    \"Metadata format indicates archive/wiki entry rather than authorized food photography submission\",\n    \"No explicit user authorization statement in source metadata for Tavue automatic intake\"\n  ],\n  \"reason\": \"Reject: Source metadata is untrusted archive information (filename, date, author, wiki format) containing no explicit authorization for automatic Tavue intake. The image shows a cheese wedge with acceptable technical quality, but the identity cannot be confirmed from a cleaned canonical source title—only from untrusted metadata. Per protocol, identity must agree with exact source title/description without File:, date, photographer or filename extension. No suitable cleaned canonical name is derivable from the provided source.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1675,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 388,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
