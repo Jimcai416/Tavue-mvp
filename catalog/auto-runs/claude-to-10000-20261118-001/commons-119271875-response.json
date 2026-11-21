@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChFfVt6sRrk62kAozUXp9",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Sliced cured meat product clearly visible in thumbnail\",\n    \"Red/rust coloured cross-section with visible fat and spice distribution\",\n    \"Partial wrap visible at top of slice\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title describes 'Salchichón achorizado' (a sausage product), but this is not an allowed protein category\",\n    \"Sausage/processed meat products are excluded from acceptance criteria\",\n    \"No explicit animal species declared in source description\"\n  ],\n  \"reason\": \"Rejection: The source describes 'Salchichón achorizado de Alcalá La Real'—a Spanish cured sausage product. While the photograph is sharp, well-lit, and shows a clearly sliced cured meat with good detail, sausage is not an accepted protein category in the review criteria. The source does not explicitly name an animal species (chicken/beef/pork/duck/lamb/seafood), and sausage identity alone cannot be used to infer the meat component. Without explicit species declaration in the source text and with sausage excluded as a category, identity check fails.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1746,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 408,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

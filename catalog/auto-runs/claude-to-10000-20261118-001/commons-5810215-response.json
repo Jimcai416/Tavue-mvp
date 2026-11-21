@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChFfWH3zcbeJ4EaSNUC2H",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Sliced cured meat arranged on white plate clearly visible in thumbnail\",\n    \"Red-brown speckled appearance consistent with source description\",\n    \"Prominent subject, natural colours, adequate detail for identification\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title describes 'salchichón (spiced sausage)' but sausage is an explicitly excluded protein category key\",\n    \"Animal species of sausage not declared in source title or description\",\n    \"Cannot confirm whether pork, beef, or mixed meat without explicit source statement\"\n  ],\n  \"reason\": \"Reject: sausage is not an allowed protein_evidence category key. The source metadata describes this as 'spiced sausage' without naming the specific animal species. Per instructions, sausage cannot be used as a protein category key and the actual animal cannot be inferred from appearance or tradition. The photograph quality is acceptable but the dish cannot be accepted without explicit species identification in the source material.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1731,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 367,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

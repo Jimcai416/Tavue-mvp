@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChFfVyLdnb1XfUcAxTXUr",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Braised meat pieces with deep golden-brown caramelized surface\",\n    \"Cubed potatoes in rich golden sauce\",\n    \"Finished, exposed dish in white bowl\",\n    \"Sharp detail and natural colour in both full image and phone thumbnail\"\n  ],\n  \"phone_observations\": [\n    \"Meat and potato components clearly visible and prominent\",\n    \"Golden sauce evident in thumbnail\",\n    \"Appetising appearance maintained at reduced resolution\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title specifies 'manitas de cerdo' (pig's feet/trotters). The visible meat pieces appear to be chunks or cubes of braised pork, but their exact anatomical origin cannot be visually confirmed from the cooked appearance alone. 'Manitas de cerdo' is a specific, named offal cut that must be sourced-declared; visual confirmation of minced, diced, or reassembled trotter meat is not possible from finished appearance.\",\n    \"Source metadata lists 'cerdo' (pork) but Tavue protein_evidence keys are restricted to: chicken, beef, pork, duck, lamb, seafood. While 'cerdo' clearly indicates pork, the dish name 'manitas de cerdo' refers to a specific cut/preparation (trotters). The instructions require exact source quote for protein category support, and 'manitas de cerdo' is not a direct match for the generic key 'pork'—it is a named regional variant of pork offal that cannot be confirmed visually as the specific cut claimed.\"\n  ],\n  \"reason\": \"Although the photograph is sharp, well-lit, appetising and the thumbnail is clear, the source title 'Guiso de manitas de cerdo' names a specific Spanish offal dish (braised pig's trotters). While pork is explicitly declared in the description, the canonical name must preserve the exact regional variant 'manitas de cerdo'. However, Tavue's protein_evidence rules require that only chicken/beef/pork/duck/lamb/seafood can be used as keys, and they must be supported by an exact source quote explicitly naming the animal. 'Manitas de cerdo' is not a generic 'pork' protein declaration—it is a named, specific cut whose visual identity cannot be confirmed from the finished, diced appearance. The source does not contain a standalone phrase 'pork' naming the animal in isolation; it only contains the Spanish variant name. This creates an irreconcilable conflict: the dish identity must be preserved as stated, but the protein cannot be mapped to an allowed category key with the required explicit source quote. Hold rules apply to ambiguous meat species and source contradictions affecting identity assurance.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1735,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 749,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

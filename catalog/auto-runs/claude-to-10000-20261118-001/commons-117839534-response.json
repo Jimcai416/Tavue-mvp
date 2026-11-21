@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChFfWrYtFRZVnKPyDYewu",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Roasted Roma tomato visible with red seasoning\",\n    \"Boiled yellow potatoes with reddish seasoning\",\n    \"Green pickled cornichons present\",\n    \"White cheese-topped bread slice visible\",\n    \"Red/purple cured meat slices present\",\n    \"Green sauerkraut visible\",\n    \"Decorative green-bordered plate\"\n  ],\n  \"phone_observations\": [\n    \"Plate composition clearly visible at thumbnail resolution\",\n    \"Roasted potatoes and tomato recognizable\",\n    \"Cured meat and bread elements distinct\",\n    \"Green pickles visible in lower portion\",\n    \"Overall dish identity readable in phone thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source identifies meat as 'Salchichón sausage' but does not explicitly name the animal species (pork/beef/other). Salchichón is traditionally pork-based, but this is inference from tradition, not an explicit source statement naming the animal.\",\n    \"No explicit animal name appears in the supplied title or description for the sausage component.\",\n    \"Title does not state which animal the sausage contains.\"\n  ],\n  \"reason\": \"Image quality and photograph are strong (sharp, well-lit, appetising, clearly composed). Phone thumbnail clearly shows the finished dish. However, the source description names 'Salchichón sausage' but does not explicitly identify the animal species (e.g., 'pork salchichón' or 'beef salchichón'). The rules prohibit inferring species from tradition or generic meat names—only explicit source quotation naming each animal is accepted. This uncertainty about the protein species prevents acceptance. The source is internally consistent (title matches description) and the visible elements match the components listed, but the protein evidence requirement cannot be met without an explicit animal name in the source text.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 2145,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 563,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
