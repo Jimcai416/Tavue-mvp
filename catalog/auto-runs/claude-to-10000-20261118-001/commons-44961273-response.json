@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChGUv1vJnxkV2gdphFhm2",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 5,\n    \"composition\": 5,\n    \"appeal\": 5\n  },\n  \"visible_support\": [\n    \"Plated fine-dining dish with crisp toasted bread\",\n    \"Red tomato confit base\",\n    \"White cheese component (declared as feta)\",\n    \"Pink pickled onion garnish\",\n    \"Fresh herb microgreen\",\n    \"Professional presentation on white plate\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows stacked sandwich/open-faced structure\",\n    \"Red layer, white cheese, crisp bread visible\",\n    \"Garnish detail legible\",\n    \"Adequate visual prominence and sharpness in thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title declares 'Flétan sauvage' (wild halibut) but no seafood is visually identifiable in the photograph; the protein component is not shown or is completely obscured by other layers\",\n    \"Cannot confirm the presence, identity or preparation of halibut from the visible image alone\",\n    \"Declared protein species (halibut/flétan) cannot be supported by visual evidence\"\n  ],\n  \"reason\": \"While the photograph is technically excellent and shows a finished, sharply-detailed, appetizing plated dish with clear visual components (bread, tomato confit, feta, pickled onion, herb), the critical identity check fails. The source title declares 'Flétan sauvage' (wild halibut) as the primary protein, but the seafood component is not visibly present or distinguishable in either the full source photograph or the phone thumbnail. The dish appears to be a vegetarian or non-seafood assembly. Per protocol, unverifiable protein species declarations with no visible supporting evidence require a hold; however, the complete absence of any visible fish or seafood where the dish's identity crucially depends on it constitutes a fundamental identity mismatch, triggering rejection. Halibut cannot be inferred from decoration or tradition and cannot be claimed as visually proven.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1648,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 573,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
