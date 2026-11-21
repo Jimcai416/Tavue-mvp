@@ -13241,3 +13241,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Caillettes à l'ancienne** — Marianne Casamance. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Bistrot_de_Pays_de_Niozelles_Caillettes_%C3%A0_l%27ancienne.jpg). Local asset: `reviewed-commons-32221703.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Soupe de poisson avec sa rouille** — atl10trader. [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Soupe_de_poisson_avec_sa_rouille.jpg). Local asset: `reviewed-commons-52870122.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.

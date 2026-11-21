@@ -163946,5 +163946,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-52870122",
+    "title": "File:Soupe de poisson avec sa rouille.jpg",
+    "author": "atl10trader",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Soupe_de_poisson_avec_sa_rouille.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Soupe_de_poisson_avec_sa_rouille.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "d834b1070f86737ce99c36f32d6626e11ecc3af2",
+    "name": "Soupe de poisson avec sa rouille",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-52870122.jpg",
+    "assetSha256": "aa6516d744c5fa9bd7e4b4edbce8e218c9287621356a32150be52a63b1eef74c",
+    "reviewedAt": "2026-11-21",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 640,
+    "requiresExactMenuName": true
   }
 ];
