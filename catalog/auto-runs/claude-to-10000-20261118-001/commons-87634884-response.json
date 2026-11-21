@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChGqU5CyUMYbbbFPp1mtR",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": \"Spaghetti Marinara with mussels, squid rings, prawns, scallops & chorizo in a tomato and onion cream sauce\",\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Cooked spaghetti pasta visibly twined and glazed\",\n    \"Red/orange tomato-based sauce coating pasta and plate\",\n    \"Two dark mussels with shells open, clearly visible\",\n    \"Visible squid rings (pale circular pieces)\",\n    \"Orange/pink crustacean pieces consistent with prawns and scallops\",\n    \"Floral-patterned white plate, home-style presentation\",\n    \"Natural daylight, no severe glare or artificial cast\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows finished pasta dish with seafood\",\n    \"Mussels and squid rings distinguishable in reduced view\",\n    \"Sauce colour and pasta form readable\",\n    \"No essential food clipped; full composition visible\"\n  ],\n  \"protein_evidence\": {\n    \"seafood\": \"mussels, squid rings, prawns, scallops\"\n  },\n  \"uncertainties\": [\n    \"Chorizo ingredient declared in title but no visible pork sausage pieces confirmed in photograph; sausage species cannot be determined from appearance alone\",\n    \"Source title lists chorizo as a protein component, but chorizo category is not an allowed key (only chicken/beef/pork/duck/lamb/seafood allowed). Chorizo is pork-based by tradition, but source does not explicitly state 'pork' in the title.\",\n    \"Ambiguity between seafood species: 'scallops' are molluscs, not in the standard protein_evidence categories (chicken/beef/pork/duck/lamb/seafood), and their exact inclusion requires clarification of whether 'seafood' as a catch-all category encompasses them\"\n  ],\n  \"reason\": \"Identity check fails because chorizo is listed as a protein component in the source description but cannot be categorized under allowed keys without explicit 'pork' naming in the source text, and the sausage ingredient is not visually confirmed in the photograph. Seafood components (mussels, squid, prawns) are clearly visible and supported, but the complete dish identity cannot be verified as stated without resolving the chorizo classification. The photograph and phone thumbnail are of high quality and show a finished, appetising marinara pasta dish, but the protein_evidence mapping cannot be completed accurately given the constraints. Hold pending clarification of chorizo content or source re-specification.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1827,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 710,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

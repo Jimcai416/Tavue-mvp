@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChGqU5ExmHU6NJ8u2uZ5Q",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Spaghetti noodles present and prominent\",\n    \"Orange-red crustacean visible (prawn/shrimp)\",\n    \"Grated cheese topping visible\",\n    \"Tomato-based sauce evident\",\n    \"Plated on dark grey textured dish\",\n    \"Natural lighting, restaurant setting\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail shows spaghetti and crustacean clearly\",\n    \"Dish is prominent and identifiable\",\n    \"No essential components clipped\",\n    \"Textured plate visible\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'marinara' but visible crustacean (prawn/shrimp) contradicts pure marinara, which is traditionally tomato-sauce-only without seafood\",\n    \"Crustacean species (shrimp vs prawn) cannot be definitively determined visually\",\n    \"Source title does not explicitly name the seafood animal present in the dish\"\n  ],\n  \"reason\": \"Identity mismatch: source title 'Spaghetti marinara' describes a tomato-sauce pasta without seafood, but the photograph clearly shows a large orange-red crustacean (prawn or shrimp) as a prominent component. The title does not explicitly name this seafood protein. Per protocol, contradictions between source description and visible form, combined with unnamed/ambiguous protein species, require hold. The image quality is excellent, but the identity conflict prevents acceptance.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1762,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 483,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

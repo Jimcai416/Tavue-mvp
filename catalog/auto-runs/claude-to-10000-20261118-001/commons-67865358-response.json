@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChGqU5HBPYe26mKAaDynb",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Spaghetti with tomato-based sauce\",\n    \"Garnished with green herbs\",\n    \"White plate, natural lighting\",\n    \"Finished, exposed dish\"\n  ],\n  \"phone_observations\": [\n    \"Spaghetti and sauce clearly visible in thumbnail\",\n    \"Seafood component (mussel shell) visible at plate edge\",\n    \"Dish composition readable at phone size\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source names 'Mytilidae and jackknife clams' but neither mussel nor clam are permitted protein categories\",\n    \"Only visible seafood is a single mussel shell; clams not visually confirmed\",\n    \"Protein_evidence map cannot include unsupported species (molluscs/shellfish not in allowed set)\"\n  ],\n  \"reason\": \"Identity check fails: source description specifies seafood (Mytilidae mussels and jackknife clams) as primary proteins, but neither mollusc species is in the permitted protein categories (chicken/beef/pork/duck/lamb/seafood). The word 'seafood' alone is not an explicit animal name. Visible mussel shell confirms one mollusc type, but cannot be mapped to an allowed key. Clams are not visually proven and are not an allowed category. Cannot establish identity with explicit, permissible protein evidence. Hold criteria met due to protein species uncertainty.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1799,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 461,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
