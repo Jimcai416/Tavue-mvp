@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChFxShvpv7NHQvCnep7eD",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": true,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 3,\n    \"composition\": 2,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows only a street food queue and red commercial tent/stall from extreme distance\",\n    \"No finished dish visible in phone thumbnail\",\n    \"Crowd and infrastructure dominate; no food subject present or readable\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source metadata references 'moule / frite' (mussels/fries) but this is untrusted metadata, not visual evidence\",\n    \"No actual finished dish photograph is present in either image\",\n    \"Full source is a street market scene, not a food photograph\"\n  ],\n  \"reason\": \"Rejection: The source is a street scene photograph of a food market queue at 'Tonnerres de Brest 2012', not a photograph of a finished dish. Neither the full image nor the phone thumbnail shows an exposed, finished, appetising food subject. The images depict crowds and commercial infrastructure only. The referenced dish ('moule / frite') appears only in untrusted metadata and is not visually documented. This is a venue/event photograph, not a food photograph meeting intake criteria.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1639,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 388,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
