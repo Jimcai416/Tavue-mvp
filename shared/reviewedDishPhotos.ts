@@ -163272,5 +163272,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-50950728",
+    "title": "File:Taco al pastor-1.jpg",
+    "author": "Leo Chiou",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Taco_al_pastor-1.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/78/Taco_al_pastor-1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "dbdc9c8ba8c09d0aaa6ae05a5acdc0d911259456",
+    "name": "taco al pastor",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-50950728.jpg",
+    "assetSha256": "7676bb081e4224ab975d365956a39eda32426502cda1354fbd75b92edf197156",
+    "reviewedAt": "2026-11-21",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 641,
+    "requiresExactMenuName": true
   }
 ];
