@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChFA99KCVaA9Edx4ASxTZ",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 2\n  },\n  \"visible_support\": [\n    \"Cooked meat pieces with segmented limb structure consistent with amphibian appendages\",\n    \"Young potatoes visible in background\",\n    \"Plated presentation on white dish\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows cooked segmented limbs and meat portions\",\n    \"Prominent presentation of prepared dish components\",\n    \"Adequate detail for identification of prepared form\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title describes 'Żabie udka' (frog legs) but Tavue protocol does not accept amphibian/non-standard meat species\",\n    \"Frog is not in the allowed protein category list (chicken/beef/pork/duck/lamb/seafood only)\"\n  ],\n  \"reason\": \"Reject: The source explicitly identifies this dish as frog legs (Żabie udka), a prepared and plated dish that is photographically sound. However, Tavue's protein_evidence categories explicitly permit only chicken, beef, pork, duck, lamb, and seafood. Frog is not an allowed protein category, and no source quote can support acceptance under the defined parameters. The image quality, composition, and photographic merit are adequate, but the dish composition fails the identity check against allowed proteins.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1698,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 429,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
