@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChFq4kEohhbTuTRKY8aRF",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": \"Haricots de Soissons accompagnant des tranches de gigot de mouton\",\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Finished, cooked dish with glossy sauce\",\n    \"Large sliced meat prominently positioned\",\n    \"Creamy legume base visible in both images\",\n    \"Green garnish (scallions) visible\",\n    \"Natural colours, appetising presentation\",\n    \"Sharp detail in full source; readable in phone thumbnail\"\n  ],\n  \"phone_observations\": [\n    \"Meat and beans clearly distinguishable at 124x96\",\n    \"Sauce and legumes visible\",\n    \"Composition maintains dish identity in thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title declares 'gigot de mouton' (mutton leg), but mutton is an ambiguous term that may refer to sheep or goat meat depending on regional convention\",\n    \"No explicit visual confirmation of exact animal species from appearance alone\",\n    \"Protocol requires explicit source quote naming the animal; 'mouton' is French but ambiguity about whether this means sheep or goat remains unresolved in English context\"\n  ],\n  \"reason\": \"Image quality, composition, and photograph characteristics all meet acceptance criteria (all checks true except identity/variant, all scores ≥4). However, the protein cannot be accepted because 'mouton' represents ambiguous meat species designation. The protocol requires exact source quotes explicitly naming animals, and 'mouton' creates ambiguity that must be held pending clarification of whether this refers to sheep or goat. The dish cannot be accepted with this unresolved species uncertainty.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1636,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 498,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

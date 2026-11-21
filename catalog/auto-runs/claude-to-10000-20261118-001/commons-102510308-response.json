@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChFq4jmnfyM7mWXohUvNK",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [\n    \"Cream-coloured sauce with herb garnish visible\",\n    \"Central protein element with pink interior flesh\",\n    \"Full-frame plated dish, naturally lit\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows herb-crusted protein in cream sauce\",\n    \"Central protein and sauce legible at reduced resolution\",\n    \"Dish prominently positioned, no clipping of essential components\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'Saumon à l'oseille' (salmon with sorrel), but visible protein shows opaque white/grey flesh with red/pink centre streak characteristic of undercooked poultry, not raw salmon structure\",\n    \"Pink colouration and flesh texture inconsistent with salmon muscle or typical salmon serving\",\n    \"Species identity cannot be visually confirmed from appearance alone; title-declared salmon contradicts visible morphology\",\n    \"Without explicit source confirmation of actual protein species visible in photograph, cannot reliably map to allowed category\"\n  ],\n  \"reason\": \"Identity check fails. Title declares 'Saumon à l'oseille' (salmon with sorrel sauce), but visible flesh structure, opacity, and pink interior streak are inconsistent with salmon and appear more consistent with poultry. The protein species cannot be reliably determined from visual evidence alone, and the contradiction between title declaration and visible form creates unresolvable uncertainty about what protein is actually present. Photography and phone quality are acceptable (all ≥4), but identity mismatch and unresolvable protein uncertainty prevent acceptance.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1732,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 489,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
