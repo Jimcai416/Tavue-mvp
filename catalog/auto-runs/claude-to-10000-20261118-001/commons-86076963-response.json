@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChFYZxBUcu5SyNHeacPgs",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Wrapped cheese block visible in thumbnail\",\n    \"Blue-veined interior visible in packaging wrap\",\n    \"Product appears partially wrapped, not fully exposed\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Subject is a cheese product (Gorgonzola), not a prepared/cooked food dish\",\n    \"Image shows raw/unfinished ingredient state with plastic wrapping\",\n    \"Not a finished, exposed, plated dish suitable for food photography review\"\n  ],\n  \"reason\": \"Rejection: The source is a cheese block (Gorgonzola DOP) in its wrapped/packaged state, not a finished, exposed, cooked dish. Per guidelines, raw/preparation stages and packaged food are rejected. Cheese blocks without plating or presentation context do not meet the requirement for 'a finished, exposed, likely photographic dish.' While photograph quality is adequate, the subject category—an ingredient rather than a prepared food—disqualifies it from acceptance.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1729,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 366,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

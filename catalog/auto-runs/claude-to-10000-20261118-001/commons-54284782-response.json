@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChFYZkmt3fWSf3myhTPCP",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 5,\n    \"composition\": 5,\n    \"appeal\": 5\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows architectural structure with roof and landscaping\",\n    \"No food subject visible in phone centre-cover thumbnail\",\n    \"Building and grounds dominate the frame\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title 'Koliba u dobrého pastiera' refers to a building/lodge, not a food dish\",\n    \"No finished, exposed food visible in either source or thumbnail photograph\",\n    \"Image is architectural/landscape photography, not food photography\"\n  ],\n  \"reason\": \"This is a landscape/architectural photograph of a wooden lodge building (koliba) in a mountain setting with forest backdrop, stairs, and grounds. It is not a food photograph. No finished dish, meal component, or food subject is visible in either the full source image or the phone thumbnail. The title references a building name ('Koliba u dobrého pastiera' = The Good Shepherd's Lodge), not a food dish. Identity check fails: the subject is not food.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1739,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 363,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

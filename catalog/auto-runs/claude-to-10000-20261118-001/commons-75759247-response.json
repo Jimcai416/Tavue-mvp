@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChFYZLbqs65h5tGxr4JuC",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": \"fior di latte, scamorza, saucisse italienne au fenouil, cèpes et parmesan\",\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Cooked pizza with charred crust\",\n    \"Visible cheese layer\",\n    \"Dark specks consistent with mushroom pieces\",\n    \"Sliced onion visible\",\n    \"Black olives visible\",\n    \"Served on white plate in restaurant setting\"\n  ],\n  \"phone_observations\": [\n    \"Pizza clearly visible and prominent in thumbnail\",\n    \"Charred crust and toppings readable\",\n    \"Full dish extent shown without clipping\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source lists 'saucisse italienne au fenouil' (Italian fennel sausage) but sausage species cannot be verified as an allowed protein category—the animal type is unspecified and sausage is not an acceptable key\",\n    \"No exact dish name provided in source title; description lists ingredients only\",\n    \"Cannot confirm the specific dish identity or variant name from source metadata\"\n  ],\n  \"reason\": \"Image quality, sharpness, lighting, composition and appeal all meet standards. Phone thumbnail is clear and readable. However, the source provides only an ingredient list ('fior di latte, scamorza, saucisse italienne au fenouil, cèpes et parmesan') without a canonical dish name. The sausage ingredient cannot be categorized under allowed protein keys because sausage species are unspecified and 'sausage' is not an acceptable category. The identity check fails due to absence of a named dish identity in the source, and protein_evidence cannot be populated with an allowed protein key. Per protocol, hold pending a source-provided dish name and clarification of any meat species.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1702,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 537,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

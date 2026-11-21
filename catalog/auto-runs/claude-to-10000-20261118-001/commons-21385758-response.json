@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChFYZUtQf5baWjPRB8Q6y",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 5,\n    \"composition\": 5,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Stacked slices of cured pork fat with spice coating\",\n    \"Clear layered cross-sections showing fat and thin pink curing layer\",\n    \"Herb garnish visible between stack layers\",\n    \"Natural outdoor market setting with blurred background\"\n  ],\n  \"phone_observations\": [\n    \"Stack of sliced cured meat product clearly visible\",\n    \"Spice coating and layering pattern readable in thumbnail\",\n    \"Adequate detail for identification of prepared food form\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Lardo is cured pork fat, not muscle meat; source title names the product as 'lardo di Colonnata' but this is a preserved fat product, not a dish containing a named protein category (chicken/beef/pork/duck/lamb/seafood)\"\n  ],\n  \"reason\": \"Although the photograph is sharp, well-lit and appetisingly composed, and the source metadata correctly identifies the product as 'Pezzi di lardo di Colonnata' (pieces of Colonnata lard), lardo is cured pork fat alone, not a finished dish containing a nameable protein ingredient. The protocol's protein_evidence category requires exact source quotes naming chicken/beef/pork/duck/lamb/or seafood as explicit animal ingredients in a dish context. Lardo is a preserved fat product without a qualifying protein component, making it ineligible under the acceptance criteria. The product is real, well-photographed, and identifiable, but falls outside the scope of Tavue's food dish review mandate.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1990,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 494,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
