@@ -13142,3 +13142,8 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Champiñones al ajillo** — Tamorlan. [CC BY 3.0](https://creativecommons.org/licenses/by/3.0); [source](https://commons.wikimedia.org/wiki/File:Champi%C3%B1ones_al_ajillo_(Madrid).jpg). Local asset: `reviewed-commons-9845512.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Mariscada** — Xemenendura. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Mariscada,_Santiago._Galicia.jpg). Local asset: `reviewed-commons-151649831.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Revuelto de ajetes** — Tamorlan. [CC BY 3.0](https://creativecommons.org/licenses/by/3.0); [source](https://commons.wikimedia.org/wiki/File:Revuelto_de_Ajetes-2011.JPG). Local asset: `reviewed-commons-16036211.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
