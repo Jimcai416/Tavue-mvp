@@ -13897,3 +13897,10 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **casoncelli alla bergamasca** — Florixc. [Public domain](https://creativecommons.org/publicdomain/mark/1.0/); [source](https://commons.wikimedia.org/wiki/File:Casoncelli_in_una_grande_padella.jpg). Local asset: `reviewed-commons-11497630.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Croissants** — Silar. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:020220327_Croissants,_Bielsko-Bia%C5%82a,_Market_Square.jpg). Local asset: `reviewed-commons-116454674.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **French croissants** — No machine-readable author provided.  Rainer Zenz  assumed (based on copyright claims).. [Public domain](https://creativecommons.org/publicdomain/mark/1.0/); [source](https://commons.wikimedia.org/wiki/File:Croissants-2.jpg). Local asset: `reviewed-commons-473127.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Medialunas** — ViajeroExtraviado. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Croissants-3.jpg). Local asset: `reviewed-commons-105331925.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Croissants au beurre** — [Herry Wibisono ( herryway )](https://pixabay.com/en/users/herryway-29985/). [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Croissants_au_beurre_(18953292873).jpg). Local asset: `reviewed-commons-45733817.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
