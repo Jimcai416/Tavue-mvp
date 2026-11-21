@@ -163206,5 +163206,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "height": 720,
     "requiresExactMenuName": true,
     "authorUrl": "https://www.flickr.com/people/23178876@N03"
+  },
+  {
+    "id": "commons-162761613",
+    "title": "File:Vegetable salad with mayonnaise.jpg",
+    "author": "Halima Waziri",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Vegetable_salad_with_mayonnaise.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/30/Vegetable_salad_with_mayonnaise.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "c61b064aa6c0d092f35f1909806d80fb3c3100bc",
+    "name": "Vegetable salad with mayonnaise",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-162761613.jpg",
+    "assetSha256": "9df83544218d38e575cf03c7c6da1d7ea52bfc71c4a606e350a2aefacc6563f4",
+    "reviewedAt": "2026-11-21",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 720,
+    "height": 900,
+    "requiresExactMenuName": true
   }
 ];
