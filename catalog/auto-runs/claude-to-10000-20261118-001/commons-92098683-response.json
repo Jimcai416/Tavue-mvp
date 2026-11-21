@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChFiCFrf9byYfQyLXVpPi",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Cooked sausage on white plate\",\n    \"Mustard-coloured sauce pooled beneath\",\n    \"Golden fries to left\",\n    \"Fresh salad with lettuce, radish slices, onion rings to right\",\n    \"Casual dining setting with water glass and yellow napkin/utensil visible\",\n    \"Phone thumbnail clearly shows sausage, fries and salad components\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail captures central sausage with sauce, fries on left, salad on right\",\n    \"Sausage and sauce proportions readable\",\n    \"Salad detail visible\",\n    \"Composed and appetising at reduced scale\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title references 'Andouillette' but this species is not an allowed protein category (pork, beef, chicken, duck, lamb, seafood only). Andouillette is a traditional French pork tripe sausage—the animal is pork, but the organ/offal nature and regional name create ambiguity about whether source intends pork declaration or a regional specialty claim.\",\n    \"No explicit 'pork' label appears in title or description—only 'Andouillette' (regional variant name).\",\n    \"Title does not contain exact protein species declaration matching allowed categories.\"\n  ],\n  \"reason\": \"Image quality, photography, composition and phone thumbnail are all strong (all checks except identity pass, all scores ≥4). However, the dish identity cannot be confirmed because the source title/description names 'Andouillette'—a regional French charcuterie product and protected name—without an explicit declaration of its base animal ('pork'). Although andouillette is traditionally pork offal, the rules require an exact case-sensitive source quote naming the allowed protein category explicitly. The regional variant name alone does not satisfy the protein_evidence requirement. Per protocol, unknown or ambiguous meat species (including regional variants not explicitly named in allowed categories) must be held. The photograph is appetising and well-composed, but identity verification fails.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1737,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 616,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
