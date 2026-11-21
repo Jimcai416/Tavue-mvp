@@ -13638,3 +13638,7 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 - **Verrine à la tomate et au chèvre** — Par atl10trader. [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Verrine_%C3%A0_la_tomate_et_au_ch%C3%A8vre.jpg). Local asset: `reviewed-commons-25217183.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Spicy Tajin on Lime Sorbet** — Daniel Ramirez. [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Spicy_Tajin_on_Lime_Sorbet.jpg). Local asset: `reviewed-commons-113781066.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Strawberry sorbet** — star5112. [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:Strawberry_sorbet_zoomed.jpg). Local asset: `reviewed-commons-129329802.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Pollo al forno con patate e peperoni** — Ensahequ. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Pollo_al_forno_con_patate_e_peperoni.jpg). Local asset: `reviewed-commons-153404582.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.

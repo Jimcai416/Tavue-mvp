@@ -167732,5 +167732,29 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 865,
     "height": 960,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-153404582",
+    "title": "File:Pollo al forno con patate e peperoni.jpg",
+    "author": "Ensahequ",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pollo_al_forno_con_patate_e_peperoni.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Pollo_al_forno_con_patate_e_peperoni.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "f15de07ee7b97e3fc94a03684808167e3d700478",
+    "name": "Pollo al forno con patate e peperoni",
+    "aliases": [],
+    "proteins": [
+      "chicken"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-153404582.jpg",
+    "assetSha256": "c3f5e267cd6138f7d9714ea78f7feeb4f6b23b8fd4d36b7d51b8eb7dad9f83e8",
+    "reviewedAt": "2026-11-21",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];
