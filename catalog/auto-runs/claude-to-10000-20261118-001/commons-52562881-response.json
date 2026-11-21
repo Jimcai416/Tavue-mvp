@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChFQZab34GNx8aQ7z4f1W",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Large paella pan with rice, visible protein pieces, green beans, and legumes\",\n    \"Professional competition setting with score card\",\n    \"Natural daylight illumination\",\n    \"Fully cooked, finished dish\"\n  ],\n  \"phone_observations\": [\n    \"Paella visible in thumbnail with score card\",\n    \"Rice and components clearly discernible\",\n    \"Adequate resolution for dish identification\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title references 'Paella' generically without specific variant name (e.g., paella valenciana, paella de marisco, paella mixta)\",\n    \"No explicit protein species named in title or description—'cooked by' restaurant attribution does not identify meat type\",\n    \"Visible meat pieces in pan cannot be definitively identified as chicken, beef, pork, lamb, duck, or seafood from appearance alone\",\n    \"Green beans and legumes visible but no source declaration of specific ingredients or proteins\"\n  ],\n  \"reason\": \"Source metadata provides only generic 'Paella' without variant specification or any explicit protein declaration. While the photograph shows a finished, well-lit paella with visible meat and legumes, the absence of a source-named protein species (chicken/beef/pork/duck/lamb/seafood) with an exact quote prevents acceptance. The canonical_name requirement demands a specific dish phrase from the source title or description; 'Paella' alone is insufficient without variant qualifiers or protein identifiers. Identity check fails due to insufficient source specificity. No visible support for a named variant exists in the provided metadata.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1653,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 500,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
