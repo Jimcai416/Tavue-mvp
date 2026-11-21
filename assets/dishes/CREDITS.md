@@ -13517,3 +13517,8 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Poêlée de salsifis et poulet à la crème, riz basmati** — Isabelle Hurbain-Palatin. [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:Poelee_salsifis_poulet_riz.jpg). Local asset: `reviewed-commons-35977210.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Poélée d'abricot au sirop d'érable et au romarin (glace yaourt et crumble Spéculos)** — [Benoît Prieur](https://www.wikidata.org/wiki/Q42790984). [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Po%C3%A9l%C3%A9e_d%27abricot_au_sirop_d%27%C3%A9rable_et_au_romarin_(glace_yaourt_et_crumble_Sp%C3%A9culos).jpg). Local asset: `reviewed-commons-110071180.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Pumpkin soup with seeds and croutons in Bosnia and Herzegovina** — Minja Klarić. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Pumpkin_soup_with_seeds_and_croutons_in_Bosnia_and_Herzegovina-bs.jpg). Local asset: `reviewed-commons-202161070.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
