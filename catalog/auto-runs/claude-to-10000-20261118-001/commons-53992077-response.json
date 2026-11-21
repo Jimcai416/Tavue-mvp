@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChFhrJxt1L2dKAobk9tk2",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 3,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Raw cured meat in vacuum wrap, clearly uncooked\",\n    \"Wrapped product shown before serving\",\n    \"No prepared/finished dish visible\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title declares 'Viande des Grisons' (Grisons meat), a cured/dried beef product, but the image shows raw cured meat in packaging—a preparation stage, not a finished dish\",\n    \"No cooked or plated preparation visible; this is ingredient or product photography\"\n  ],\n  \"reason\": \"Rejection: Image shows raw/cured meat in vacuum packaging, representing a preparation stage or ingredient rather than a finished, exposed, cooked dish. Tavue accepts finished food photography. The subject is prominently wrapped in plastic and has not been prepared for consumption. Quality of photograph is acceptable, but the subject matter violates the finished-dish requirement. No protein identity can be confirmed from visual form alone, and the source title's declaration of beef cannot override the rule against inventing species from tradition or description alone when visual evidence is absent.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1728,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 383,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChFhrJvQXpSPrwvbzFZUN",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thin red sliced meat visible on plate with decorative border\",\n    \"Meat slicing and marbling clearly readable in thumbnail\",\n    \"Natural colour and texture preserved in phone view\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Species of meat not explicitly named in source title or description\",\n    \"Viande des Grisons refers to a traditional air-dried meat product from Grisons region (Switzerland/Italy), but the exact animal source (beef, game, etc.) is not stated in the provided metadata\",\n    \"Generic 'viande' (meat) without species qualifier cannot be accepted\"\n  ],\n  \"reason\": \"Reject: The source title 'Tranches de viande des Grisons' provides only the regional designation and form (slices/tranches) but does not explicitly name the meat species. While the image shows a finished, sharply detailed, naturally coloured, appetising cured meat dish suitable for Tavue, the identity check fails because the exact protein cannot be verified from the source description alone. Regional tradition does not constitute explicit visual or textual proof of species. Per protocol, ambiguous meat species or unspecified protein sources must be held or rejected.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1730,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 413,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
