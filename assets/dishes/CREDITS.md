@@ -13702,3 +13702,8 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 
 - **Lentilles vertes du Puy et oeuf poché** — Marianne Casamance. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Lentilles_vertes_du_Puy_et_oeuf_poch%C3%A9.JPG). Local asset: `reviewed-commons-46226294.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **soupe de lentilles vertes du Berry** — Marianne Casamance. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Soupe_de_lentilles_verte_du_Berry.JPG). Local asset: `reviewed-commons-37021547.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Tortell de Reis** — Jpbazard  Jean-Pierre Bazard. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Coupe_transversale_d%27_un_Tortell_de_Reis.JPG). Local asset: `reviewed-commons-14641575.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Foie gras torchon, cassis pate de fruits, pistachio, cubeb peppercorn** — [Lou Stejskal](https://www.flickr.com/people/63311602@N08). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Foie_gras_torchon,_cassis_pate_de_fruits,_pistachio,_cubeb_peppercorn_by_Chef_Jason_Hedin._1994_Balthazae_Ress_Hochheimer_Domechaney_Reisling_Spatlese,_Rheingau_(15863810540).jpg). Local asset: `reviewed-commons-129225558.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
