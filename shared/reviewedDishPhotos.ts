@@ -168094,5 +168094,29 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 540,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-17413548",
+    "title": "File:Bacalao Rebozado 001.jpg",
+    "author": "Valdavia",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bacalao_Rebozado_001.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/59/Bacalao_Rebozado_001.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "b81a38d57192f07eda75d2b8d04d1c4e21f2b4d4",
+    "name": "Battered cod fish",
+    "aliases": [],
+    "proteins": [
+      "seafood"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-17413548.jpg",
+    "assetSha256": "6a688c72f748fa50b116d83bbe2c36abdb9a13673712e930c2e7182bc5f60592",
+    "reviewedAt": "2026-11-21",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 643,
+    "requiresExactMenuName": true
   }
 ];

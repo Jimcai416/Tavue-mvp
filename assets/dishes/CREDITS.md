@@ -13675,3 +13675,7 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 - **Gugelhupf mit Mandeln und Puderzucker** — Sol Octobris. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:GugelhupfL1180635_(2).jpg). Local asset: `reviewed-commons-90891574.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Gugelhupf with Orange Syrup** — Roozitaa. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Gugelhupf_with_Orange_Syrup.jpg). Local asset: `reviewed-commons-43750244.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Mini-Gugelhupf** — Dr. Bernd Gross. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Mini-Gugelhupf_1.JPG). Local asset: `reviewed-commons-37177704.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Battered cod fish** — Valdavia. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Bacalao_Rebozado_001.jpg). Local asset: `reviewed-commons-17413548.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
