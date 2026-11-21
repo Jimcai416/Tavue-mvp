@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChFmNczHKQucNFc84RXKx",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Red frozen dessert in clear glass cup\",\n    \"Granular texture consistent with sorbet or granita\",\n    \"Natural colour, appetising appearance\",\n    \"Sharp detail, well-composed\"\n  ],\n  \"phone_observations\": [\n    \"Red dessert clearly visible in thumbnail\",\n    \"Cup shape recognisable\",\n    \"Sufficient detail for identification intent\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title 'File:Glass cup with sorbet (5186725623).jpg' is a filename, not a dish description\",\n    \"Description 'JOH_9105' is a code identifier, not a canonical dish name\",\n    \"Exact frozen dessert type (sorbet, granita, shaved ice, etc.) cannot be definitively determined from visual appearance alone\",\n    \"No explicit source-provided canonical dish name supplied\"\n  ],\n  \"reason\": \"Image quality, composition, and phone thumbnail are strong (all checks except identity satisfied). However, the source metadata provides only a filename and reference code, not an actual dish title or description. The frozen red dessert is visually consistent with sorbet, but without an authoritative source description naming the specific dish, flavour, or preparation, identity cannot be confirmed. Canonical name must derive from explicit source title/description; filename parsing and visual inference alone are insufficient. Hold pending proper dish identification from source.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1621,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 450,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

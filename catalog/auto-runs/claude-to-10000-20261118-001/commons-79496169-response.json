@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChFmPuJaco67U4QNpMwUc",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 3,\n    \"appeal\": 3\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Cream-coloured, puffy baked items with visible dark speckles\",\n    \"Irregular organic shapes consistent with meringue\",\n    \"Items densely packed and partially overlapping\",\n    \"Readable as finished baked goods in thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title 'Meringue cookies' is a generic Wikipedia filename, not a specific dish identity\",\n    \"Description is metadata (personal recipe note with date and intent), not a canonical dish specification\",\n    \"No authoritative source dish name or regional variant provided\",\n    \"Meringue is a prepared ingredient/technique, not a named finished dish identity\"\n  ],\n  \"reason\": \"Reject: Identity check fails. The source metadata is a personal Wikipedia file with a generic title ('Meringue cookies') and a note about intent to post a recipe. This is not a specific dish identity, canonical name, or authoritative reference. The image shows what appear to be meringue-based baked items, but without a proper source dish title/description specifying an actual dish name (e.g., 'Italian meringue kisses', 'Swiss meringue shells', a regional speciality name, or similar), identity cannot be established. Metadata and filenames are explicitly untrusted evidence and do not constitute valid source evidence for a finished dish name. The photograph and thumbnail are of acceptable technical quality, but the absence of a verifiable canonical dish identity disqualifies acceptance.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1534,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 475,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
