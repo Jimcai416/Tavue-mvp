@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChGMfJGLAXQytxFFubsJC",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Finished, cooked dish in white ceramic bowl\",\n    \"Orange/red sauce with visible meat and vegetables\",\n    \"Natural restaurant lighting, well-exposed\",\n    \"Appetising appearance with glossy sauce\",\n    \"Prominent in both full and thumbnail views\"\n  ],\n  \"phone_observations\": [\n    \"Dish clearly visible and identifiable in thumbnail\",\n    \"Sauce and components readable at small size\",\n    \"No clipping of essential food elements\",\n    \"Appropriate centre-cover framing\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title 'Ajoarriero' implies a specific Basque dish, but the protein composition is visually ambiguous. Traditional ajoarriero contains salt cod (bacalao), but the visible meat does not clearly show fish characteristics—it appears to be chunks that could be poultry or other protein. No explicit protein identification in source description.\",\n    \"The source description is in Spanish and declares this as 'plato típico de origen vasco' (typical Basque dish) but provides no English translation or explicit ingredient list. The title alone is insufficient to confirm protein identity against the Tavue requirement for explicit source naming of animal species.\",\n    \"Visual inspection shows cooked meat pieces in a tomato-based sauce with what appear to be potatoes, but cannot reliably distinguish between cod, chicken, pork, or other proteins from appearance alone.\"\n  ],\n  \"reason\": \"Hold: Although the photograph is sharp, well-lit, appetising and clearly shows a finished dish appropriate for review, the source metadata does not explicitly name the protein component. 'Ajoarriero' is a named regional variant (Basque origin), but the source description ('plato típico de origen vasco. españa') does not contain an explicit quote naming the animal protein (traditional ajoarriero uses salt cod, but this is not stated in the supplied source). Per protocol, proteins may be included only when the exact source explicitly names each animal; tradition or appearance alone is insufficient. The identity check fails because no specific source quote matching the canonical name requirement and including explicit protein identification is available. Uncertainty about protein species with no explicit source declaration = hold.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1735,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 629,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

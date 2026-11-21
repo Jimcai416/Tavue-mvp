@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChGMfXpAff5ZFGXjeEFPT",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Diced potatoes in tomato-based sauce\",\n    \"Visible capers or similar garnish\",\n    \"Served in metal cooking vessel with ladle\",\n    \"Natural colour and finished cooking state\"\n  ],\n  \"phone_observations\": [\n    \"Stew/braise clearly visible in thumbnail\",\n    \"Red sauce with pale chunks prominent\",\n    \"Adequate detail for dish recognition\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'Ajoarriero navarra' but no protein animal is named in source description\",\n    \"Ajoarriero traditionally contains salt cod or bacalao (a seafood), but source metadata does not explicitly state this\",\n    \"Visual inspection shows no clearly identifiable fish/seafood components despite expected ingredient\",\n    \"Cannot confirm protein identity from photograph alone without explicit source declaration\"\n  ],\n  \"reason\": \"Reject: source title 'Ajoarriero navarra' implies a known regional dish with traditional seafood (cod), but the supplied description lacks explicit animal naming. Protein cannot be inferred from tradition or appearance alone. The photograph quality, composition and phone thumbnail are acceptable, but identity cannot be verified without an explicit source quote naming the protein. Hold would be appropriate if source metadata were incomplete; reject applies because the title alone is insufficient evidence when the dish's defining ingredient is not declared in the provided description.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1728,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 452,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
