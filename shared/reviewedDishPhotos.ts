@@ -165738,5 +165738,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 639,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-138357472",
+    "title": "File:Risotto alla Pescatora.jpg",
+    "author": "DinaBenedettoFerrandina",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Risotto_alla_Pescatora.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/84/Risotto_alla_Pescatora.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "a9300c2354fa8704a95db219fd20df6612a40af8",
+    "name": "Risotto alla Pescatora",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-138357472.jpg",
+    "assetSha256": "a0089139e7fc33c66b80aac4193d6fbe16117ff381244b19e4b9aade06d790ee",
+    "reviewedAt": "2026-11-21",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 687,
+    "requiresExactMenuName": true
   }
 ];
