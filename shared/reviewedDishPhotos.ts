@@ -165015,5 +165015,28 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "height": 600,
     "requiresExactMenuName": true,
     "authorUrl": "https://www.flickr.com/people/17304916@N00"
+  },
+  {
+    "id": "commons-50854447",
+    "title": "File:Half rigatoni with pumpkin, dry tomatoes and cashew nuts (11776250123).jpg",
+    "author": "Luca Nebuloni  from Milan, Italy",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Half_rigatoni_with_pumpkin,_dry_tomatoes_and_cashew_nuts_(11776250123).jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Half_rigatoni_with_pumpkin%2C_dry_tomatoes_and_cashew_nuts_%2811776250123%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "ee7b7d8599e7dc4ef96a5316d864c33ad0d339b7",
+    "name": "Half rigatoni with pumpkin, dry tomatoes and cashew nuts",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-50854447.jpg",
+    "assetSha256": "efc91f65246214bd253de0e43f8ad667cf77bd76be4cfd51a863d40ed3d3a715",
+    "reviewedAt": "2026-11-21",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 640,
+    "requiresExactMenuName": true,
+    "authorUrl": "https://www.flickr.com/people/7897906@N06"
   }
 ];
