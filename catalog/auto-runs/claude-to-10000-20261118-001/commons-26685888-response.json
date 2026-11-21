@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChFoXNJiyLCMYkhT3x2fm",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Braised dark meat with glossy sauce\",\n    \"Boiled or steamed potato chunks\",\n    \"Natural plating on white dish\",\n    \"Readable components in phone thumbnail\"\n  ],\n  \"phone_observations\": [\n    \"Potatoes and braised meat clearly distinguishable\",\n    \"Sauce visible pooling at plate base\",\n    \"Sharp enough to identify dish components\",\n    \"Central composition maintains subject prominence\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Species identity unconfirmed: 'jabalí' (wild boar) is not in the allowed protein categories (chicken/beef/pork/duck/lamb/seafood)\",\n    \"Source title contains 'File:' prefix and date metadata\",\n    \"Exact canonical phrase ambiguous between title and description\"\n  ],\n  \"reason\": \"Image quality and photograph composition meet standards; phone thumbnail is readable and shows finished dish. However, the meat is identified in source as 'jabalí' (wild boar), which does not match any allowed protein category. Protocol requires exact source quote for protein_evidence keys from the restricted set only. Wild boar cannot be accepted under chicken, beef, pork, duck, lamb, or seafood. Hold pending clarification of protein identity or alternative source documentation.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1748,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 430,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
