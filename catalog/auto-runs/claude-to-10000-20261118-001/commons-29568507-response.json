@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChGPuusMCc54FLZPQ7jZ1",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Thin spaghetti noodles visible in both full and thumbnail images\",\n    \"Prominent green herb garnish (appears to be parsley) throughout\",\n    \"Golden oil sheen on pasta\",\n    \"What appears to be toasted garlic chip or crouton visible on pasta in full image\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows pasta with herb garnish\",\n    \"Dish identity is readable and consistent with full image\",\n    \"Adequate detail for recognition at reduced size\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'Spaghetti aglio e olio' but source description is only 'Primi' (generic first course category), creating contradiction\",\n    \"Title is derived from filename metadata, not from an authoritative source description of this specific dish\",\n    \"Cannot verify aglio e olio preparation from visual appearance alone—while garlic is traditionally required, only an herb-garnished oil-coated pasta is visibly confirmed\"\n  ],\n  \"reason\": \"Reject: Source metadata contradiction. The title 'Spaghetti aglio e olio' comes from the filename, not from an explicit dish description in the source metadata. The actual source description is only 'Primi' (a generic pasta course category), which does not confirm the specific dish identity. The photograph shows herb-garnished pasta with oil, but cannot visually prove the aglio e olio preparation (garlic and oil only, no other ingredients). Per protocol, source contradictions and unconfirmed dish identity require a hold or rejection. The filename title is unreliable metadata and cannot serve as canonical evidence when the formal description field is generic.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1719,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 518,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

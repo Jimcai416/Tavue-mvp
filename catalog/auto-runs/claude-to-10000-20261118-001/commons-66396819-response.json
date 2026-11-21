@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChGPuHqAALW5Ygs3Xzmf3",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 5,\n    \"composition\": 5,\n    \"appeal\": 4\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Pasta shells clearly visible in thumbnail\",\n    \"Ridged texture distinctly shown\",\n    \"Pale yellow/cream natural colour preserved\",\n    \"Subject prominent and sharp\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source is a product photograph of uncooked dry pasta, not a finished dish\",\n    \"Metadata indicates this is a file/product image (File: prefix, .png extension, product brand reference)\",\n    \"No prepared food context—pasta is in raw state\"\n  ],\n  \"reason\": \"Reject: This is an uncooked pasta product photograph, not a finished, exposed, prepared dish. The source metadata identifies it as a file image of De Cecco brand dry pasta shells (Conchiglie rigate), which falls outside the scope of food photography review. Tavue reviews finished dishes, not raw ingredients or packaged food product shots. The image quality and thumbnail are excellent, but identity criterion fails: this is not a dish.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1676,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 364,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
