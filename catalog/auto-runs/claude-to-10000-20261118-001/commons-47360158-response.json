@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChFhRKdsiKMyg4KbLnXaJ",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Diced/chunked potatoes, golden-brown and crispy on exterior\",\n    \"Red/pink diced items (likely cured pork or beet, unclear)\",\n    \"Fresh green herbs scattered throughout\",\n    \"Black pepper visible\",\n    \"Finished, cooked appearance with appetising colour and texture\"\n  ],\n  \"phone_observations\": [\n    \"Potato chunks clearly visible and prominent\",\n    \"Red/pink component present but identity ambiguous at thumbnail resolution\",\n    \"Green herbs readable\",\n    \"Overall composition legible; dish identity supported in thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title 'GT_Bratkartoffeln_4' is a filename, not a source dish description; metadata alone is insufficient for identity verification\",\n    \"Red/pink diced component unclear—could be diced cured pork (suggesting Bratkartoffeln with bacon/ham), diced beet, or other ingredient; visually indistinguishable\",\n    \"No explicit source description provided to confirm canonical name, variant qualifiers, or protein identity\",\n    \"Bratkartoffeln traditionally includes bacon or sausage, but neither is explicitly named in supplied metadata\"\n  ],\n  \"reason\": \"Photograph and thumbnail are sharp, well-lit, appetising, and show a finished cooked dish with clear component visibility. However, the only supplied metadata is a filename ('GT_Bratkartoffeln_4') and a generic filename slug ('GT_Bratkartoffeln_4'), neither of which constitutes an authoritative source title or description. No explicit dish name, regional variant, preparation qualifier, or protein identification is provided in a source description. The red/pink diced component is visually ambiguous—it may be cured pork, beet, or another ingredient—and cannot be definitively identified. Canonical name cannot be established without an explicit, non-filename source description, and protein identity cannot be confirmed. Hold pending a proper source title or description.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1801,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 588,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

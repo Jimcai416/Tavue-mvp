@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChFhQWSUUD6meiKAzcpSY",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Golden-brown fried potato wedges in black skillet\",\n    \"Visible bacon or cured meat pieces scattered throughout\",\n    \"Cooked on stovetop\",\n    \"Natural colour, well-exposed\"\n  ],\n  \"phone_observations\": [\n    \"Potato wedges clearly visible at 124x96 thumbnail size\",\n    \"Golden colour and texture readable\",\n    \"Skillet and contents prominent in frame\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title is generic ('Fried potatoes in pan') with no specific dish identity\",\n    \"Visible meat pieces (appearing bacon or ham) are not named in source description\",\n    \"No canonical dish name supplied; metadata contains only generic English description\",\n    \"Actual dish identity cannot be verified against source—appears to be Bratkartoffeln mit Speck or similar regional variant, but source provides no such qualification\"\n  ],\n  \"reason\": \"Source metadata provides only generic description ('Fried potatoes in pan') without a specific canonical dish name. Although the photograph shows finished, appetising fried potatoes with visible cured meat pieces and meets photographic quality standards, the identity cannot be verified because no authoritative dish title or variant name is supplied in the source. Visible meat components are undeclared in the metadata. Reject due to missing canonical identity.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1527,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 443,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

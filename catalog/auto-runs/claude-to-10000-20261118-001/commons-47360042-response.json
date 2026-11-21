@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChFhRJioChQT9nfjvV1eJ",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Diced/chunked potatoes, golden-brown and cooked\",\n    \"Red/pink diced meat pieces distributed throughout\",\n    \"Fresh green parsley garnish\",\n    \"Black pepper seasoning visible\",\n    \"White plate presentation\",\n    \"Appetising colour and texture in both full and thumbnail views\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows cooked potato chunks with red meat and green herb garnish\",\n    \"Central composition is sharp and recognisable at reduced size\",\n    \"Essential components (potatoes, meat, seasoning) visible and readable\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title 'GT_Bratkartoffeln_1' does not explicitly name the meat species (appears to be ham or bacon based on colour and form, but species is not declared in source metadata)\",\n    \"Metadata provides only filename slug, not a full dish description or canonical title\",\n    \"Meat species cannot be inferred from appearance alone; source must explicitly state which animal the protein is from\"\n  ],\n  \"reason\": \"Image quality, photograph composition, and phone thumbnail all pass technical checks. The dish is visibly a finished, cooked potato preparation with identifiable red meat and herb garnish, sharply detailed and appetising. However, identity check fails: the source provides only a filename ('GT_Bratkartoffeln_1') without an explicit canonical dish name or meat species declaration. Bratkartoffeln typically contains ham, bacon, or sausage, but the exact protein species is not stated in the supplied metadata. Per protocol, unknown or unconfirmed meat species requires a hold. A properly formatted source title or description explicitly naming the meat and dish variant is required for acceptance.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1836,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 530,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
