@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChFazi4r3VY8odtmgXeGK",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Cooked spaghetti noodles visible\",\n    \"White chicken chunks, clearly cooked and sliced\",\n    \"Green bell pepper pieces\",\n    \"Red bell pepper pieces\",\n    \"Mushroom pieces (brown/tan coloured)\",\n    \"Bean sprouts or enoki mushrooms (white strands)\",\n    \"Black pepper visible on some components\",\n    \"Served on black and white checkered plate\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows finished plated dish\",\n    \"All major components readable: noodles, chicken, peppers, mushrooms, sprouts\",\n    \"Appetising presentation maintained in thumbnail\",\n    \"No clipping of essential food elements\"\n  ],\n  \"protein_evidence\": {\n    \"chicken\": \"Japanese-style spaghetti\"\n  },\n  \"uncertainties\": [\n    \"Source title 'Japanese-style spaghetti in Shirokane' is generic and does not specify a canonical dish name or formal variant identifier\",\n    \"Description lacks explicit protein confirmation—'chicken' is inferred from visible appearance only, not stated in source text\",\n    \"No explicit dish name (e.g. 'Yakisoba,' 'Yaki Udon,' 'Stir-fried Spaghetti,' etc.) provided in source metadata\",\n    \"Cannot confirm if this is a named regional variant or a custom/home preparation without authoritative source naming\"\n  ],\n  \"reason\": \"Image quality, composition and phone thumbnail are all excellent (all scores ≥4). The photograph clearly shows a finished, appetising stir-fried noodle dish with chicken and vegetables. However, the source metadata fails the identity check: the title is a generic location-based descriptor ('Japanese-style spaghetti in Shirokane') rather than a specific dish name. Protein identification of 'chicken' cannot be supported by an explicit source quote—it is inferred from appearance alone. Per rules, protein must include 'an exact source quote explicitly naming each animal.' The source title does not name chicken. Without a specific canonical dish name from the source and without explicit protein confirmation in writing, identity cannot be confirmed. Hold pending clarification of the actual dish name and explicit protein identification in source documentation.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1734,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 646,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

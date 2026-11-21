@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChFazhxeNuif7TDbzYYhH",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Linguine pasta clearly visible\",\n    \"Black mussels (cozze) prominently displayed\",\n    \"Small pale clams (vongole) visible among pasta\",\n    \"Fresh parsley garnish\",\n    \"White plate, fine dining presentation\"\n  ],\n  \"phone_observations\": [\n    \"Dish centre clearly visible in thumbnail\",\n    \"Pasta, mussels and clams all readable at phone size\",\n    \"Natural colours preserved\",\n    \"No clipping of essential components\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title lists 'cozze e vongole' (mussels and clams), but only mussels and clams are allowed protein categories in the system; clams are not in the allowed protein_evidence keys (chicken/beef/pork/duck/lamb/seafood), and mussels fall outside standard taxonomy\",\n    \"The allowed protein categories are strictly limited to chicken, beef, pork, duck, lamb, or seafood; neither 'cozze' (mussels) nor 'vongole' (clams) match these exact category names\",\n    \"No single 'seafood' umbrella term in source title to verify against allowed categories\"\n  ],\n  \"reason\": \"The photograph is sharp, well-lit, appetising and properly composed. The dish is clearly a finished, restaurant-quality linguine with mussels and clams. However, the source title 'Linguine cozze e vongole' specifies mussels (cozze) and clams (vongole) as the protein components. The system's protein_evidence keys are limited to {chicken, beef, pork, duck, lamb, seafood}, and while these molluscs are technically seafood, the source does not explicitly use the word 'seafood'—it names specific mollusc species. The instructions require an exact source quote explicitly naming each animal using only the allowed category keys. Since 'cozze' and 'vongole' do not match any allowed key, and the source does not say 'seafood' explicitly, protein identity cannot be verified within the constraints. Hold.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1731,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 626,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

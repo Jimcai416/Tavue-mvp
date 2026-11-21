@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChFaziA4HeupjEzLNLXma",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Finished, exposed dish plated on white crackle-pattern plate\",\n    \"Sharp detail of pasta parcels with golden-brown seared surface\",\n    \"Rich red cherry tomato sauce with whole and halved tomatoes\",\n    \"Fresh parsley garnish scattered across surface\",\n    \"Professional plating with restaurant setting visible\",\n    \"Phone thumbnail shows dish distinctly with readable essential components\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly displays plated pasta and tomato sauce\",\n    \"Sauce colour and tomato elements prominent and identifiable\",\n    \"Plate and presentation style visible at reduced resolution\",\n    \"No clipping of essential food elements\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source metadata states 'Tortelloni Pasta Filled with Lobster and Crab Meat' but visual inspection cannot confirm seafood filling inside sealed pasta parcels\",\n    \"No visible evidence of lobster or crab meat—only the seared pasta exterior and cherry tomato sauce are observable\",\n    \"Seafood proteins are not supported by visual examination alone; filling is hidden within tortelloni\",\n    \"Source title contradicts visual capability: internal seafood cannot be visually verified from photograph\"\n  ],\n  \"reason\": \"Reject: The source claims seafood filling (lobster and crab meat) that cannot be visually verified from the photograph. Identity check fails because the visible form shows only pasta parcels with cherry tomato sauce; the claimed seafood proteins are hidden inside the tortelloni and cannot be confirmed from exterior appearance alone. Per protocol, hidden flavours must be source-declared (which they are), but the protein_evidence map cannot include unverifiable internal ingredients. The dish appears well-executed and photographed, but the identity mismatch between what can be seen (sealed pasta + tomato sauce) and what is claimed (seafood filling) creates an insurmountable uncertainty that blocks acceptance.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1777,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 572,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
