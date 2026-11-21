@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChGjVBEheaU1M1v6Tyzyi",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Sliced cured ham (jamón) clearly visible\",\n    \"Rustic bread rolls (pan) prominently displayed\",\n    \"Natural colour, well-lit, appetising arrangement\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows ham slices and bread\",\n    \"Essential components readable and prominent\",\n    \"Sharp detail preserved in centre-cover crop\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source describes ingredients of a bocadillo, not a finished dish\",\n    \"Image shows separate components (pan y jamón) rather than an assembled sandwich\",\n    \"No finished, exposed, complete dish visible—only ingredient components\"\n  ],\n  \"reason\": \"Rejection: The source explicitly describes this as ingredients ('ingrediente del bocadillo de jamón') rather than a finished dish. The photograph shows unassembled components—bread and ham laid separately for display—not a completed, cooked sandwich ready to eat. This violates the requirement for 'a finished, exposed, likely photographic dish.' While quality, sharpness, lighting and phone thumbnail are all acceptable, the fundamental identity check fails: this is ingredient staging, not a prepared dish.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1625,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 405,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
