@@ -13733,3 +13733,8 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 
 - **Bami Goreng** — Iijjccoo. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Bami.JPG). Local asset: `reviewed-commons-5275264.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Bamihap: deep-fried Dutch snack of Bami Goreng in a crust** — User:Erbsensuppe. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/); [source](https://commons.wikimedia.org/wiki/File:Bamihap.jpg). Local asset: `reviewed-commons-2246631.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Tapa de queso y jamón** — [Manel  from Meliana, Valencia. Spain.](https://www.flickr.com/people/51035681884@N01). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Jam%C3%B3n_y_queso.jpg). Local asset: `reviewed-commons-5964223.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Ravioles argentinos caseros de jamón y queso con salsa de tomate y queso rallado** — Horacio Cambeiro. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Ravioles_argentinos_caseros_de_jam%C3%B3n_y_queso_con_salsa_de_tomate_y_queso_rallado.jpg). Local asset: `reviewed-commons-189927472.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
