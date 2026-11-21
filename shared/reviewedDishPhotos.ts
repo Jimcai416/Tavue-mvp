@@ -170093,5 +170093,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 640,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-118446175",
+    "title": "File:Ración de torrada, con ajo, tomate, alioli y tinto de verano (Barcelona, 2022).jpg",
+    "author": "El Mono Español",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Raci%C3%B3n_de_torrada,_con_ajo,_tomate,_alioli_y_tinto_de_verano_(Barcelona,_2022).jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/24/Raci%C3%B3n_de_torrada%2C_con_ajo%2C_tomate%2C_alioli_y_tinto_de_verano_%28Barcelona%2C_2022%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "b23724da8103a6f4b03b0f61ac0567c5dd539095",
+    "name": "Ración de torrada, con ajo, tomate, alioli y tinto de verano",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-118446175.jpg",
+    "assetSha256": "f1d310cdb1316a04dbdb025ac7459fae17fd185b05293a1bce9aab3f9087fabd",
+    "reviewedAt": "2026-11-21",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 720,
+    "height": 960,
+    "requiresExactMenuName": true
   }
 ];
