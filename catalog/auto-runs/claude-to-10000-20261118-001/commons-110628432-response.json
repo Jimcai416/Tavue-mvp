@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChF7PuQrgUTXtTNkzPfbL",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Golden-yellow soufflé with green herb specks (spinach visible)\",\n    \"Risen, baked soufflé with characteristic texture\",\n    \"Served in white ramekin\",\n    \"Finished, exposed dish in home/casual setting\"\n  ],\n  \"phone_observations\": [\n    \"Soufflé clearly visible in thumbnail\",\n    \"Green herb specks legible at reduced resolution\",\n    \"Prominent subject, adequate detail for identification\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'Soufflé con spinaci e gamberi' (spinach and shrimp soufflé), but no visible shrimp/seafood is identifiable in either photograph. Spinach is visually supported by green specks, but shrimp presence cannot be confirmed from appearance alone.\",\n    \"Source title–description mismatch: metadata lists 'gamberi' (shrimp) but no pink/opaque seafood particles are distinguishable in the finished soufflé.\"\n  ],\n  \"reason\": \"Source title claims shrimp ('gamberi') as a component, but no visible shrimp evidence exists in the photograph. The soufflé's appearance is consistent with spinach incorporation (green specks visible), but the protein component cannot be verified from the image. This contradicts the supplied identity. Hold pending clarification of actual ingredients, or rejection if shrimp is essential to the canonical name.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1732,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 468,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
