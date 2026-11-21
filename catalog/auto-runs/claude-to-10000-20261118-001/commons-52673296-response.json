@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChGCSBvgVgMyVYEHz3AZ9",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Pale yellow-cream coloured cheese wedge\",\n    \"Natural rind with white and brown surface patina\",\n    \"Presented on black slate plate\",\n    \"Sharp detail and natural colour rendition\",\n    \"Phone thumbnail clearly shows cheese form and plating\"\n  ],\n  \"phone_observations\": [\n    \"Cheese wedge clearly visible\",\n    \"Black slate base unmistakable\",\n    \"Subject prominent and unclipped\",\n    \"Adequate resolution for cheese identification attempt\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title contains 'File:' prefix and metadata fields (photographer, license, date context) which are untrusted per instructions\",\n    \"Source description claims 'Belper Mürggel (medium aged)' but this is a cheese, not a finished dish requiring Tavue food photograph review—Tavue reviews prepared/cooked dishes\",\n    \"Cheese alone presented on a plate does not constitute a finished, exposed, appetising dish in the culinary sense—it is a food ingredient/product display\"\n  ],\n  \"reason\": \"Reject: This is a product photograph of cheese, not a finished dish. While the image quality, sharpness, lighting and phone thumbnail are all excellent (all checks pass except identity), Tavue's scope is finished, exposed, photographic dishes—prepared food presented for consumption. A single wedge of cheese on a slate plate represents product documentation or ingredient showcase, not a culinary dish. Additionally, the title/description metadata contains untrusted File: prefixes and attribution fields per standing instructions. Cheese alone does not meet the 'finished, exposed, likely photographic dish' criterion.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1830,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 513,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
