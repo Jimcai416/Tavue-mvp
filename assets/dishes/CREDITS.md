@@ -13662,3 +13662,8 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 
 - **Crocchette di Patate e Mozzarella** — Andy Li. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Crocchette_di_Patate_e_Mozzarella_-_Si_Signore_2024-01-15.jpg). Local asset: `reviewed-commons-144019593.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Fritto misto** — Missvain. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Forge_Napa_-_October_2025_-_Sarah_Stierch_05.jpg). Local asset: `reviewed-commons-176174866.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Canard laqué à la cantonaise** — Arnaud 25. [Public domain](https://creativecommons.org/publicdomain/mark/1.0/); [source](https://commons.wikimedia.org/wiki/File:Canard_laqu%C3%A9.jpg). Local asset: `reviewed-commons-11985989.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Canard laqué** — Thomon. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Canard_laqu%C3%A9_dans_un_restaurant_chinois_de_Paris.jpg). Local asset: `reviewed-commons-87717981.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.

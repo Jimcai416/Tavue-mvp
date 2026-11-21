@@ -167934,5 +167934,53 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-11985989",
+    "title": "File:Canard laqué.jpg",
+    "author": "Arnaud 25",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Canard_laqu%C3%A9.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/96/Canard_laqu%C3%A9.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "5792d36e9c04787d72aa227b5f82b456c3239d65",
+    "name": "Canard laqué à la cantonaise",
+    "aliases": [],
+    "proteins": [
+      "duck"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-11985989.jpg",
+    "assetSha256": "d9659f9d28e51321d033cc76a254a35a1bfee1b6d83534a7bf770bec76e32573",
+    "reviewedAt": "2026-11-21",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-87717981",
+    "title": "File:Canard laqué dans un restaurant chinois de Paris.jpg",
+    "author": "Thomon",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Canard_laqu%C3%A9_dans_un_restaurant_chinois_de_Paris.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Canard_laqu%C3%A9_dans_un_restaurant_chinois_de_Paris.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "b508f943f83d44eabeb794589fd8e73a3fd8156b",
+    "name": "Canard laqué",
+    "aliases": [],
+    "proteins": [
+      "duck"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-87717981.jpg",
+    "assetSha256": "1b884371df3882e5e2a49ff9c03f0652637cf50c714e6736d775f6b10f8761bc",
+    "reviewedAt": "2026-11-21",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 804,
+    "height": 621,
+    "requiresExactMenuName": true
   }
 ];
