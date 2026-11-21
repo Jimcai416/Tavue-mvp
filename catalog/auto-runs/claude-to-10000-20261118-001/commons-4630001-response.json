@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChG2moTDfokRXQz1bFZLC",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": true,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 2,\n    \"composition\": 1,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows only undifferentiated granular texture with no recognisable dish structure\",\n    \"Essential food components are not readable in phone thumbnail\",\n    \"No prominent, finished food form is discernible at thumbnail scale\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source metadata describes 'Stockfisch Lagerung' (stockfish storage) on the Lofoten, suggesting a preservation/storage stage rather than a finished, exposed, prepared dish ready to eat\",\n    \"Full image shows dried fish in bulk storage condition, not a plated or service-ready meal\",\n    \"No finished dish presentation; this appears to be a raw ingredient or preparation stage\"\n  ],\n  \"reason\": \"Reject: The source describes dried fish in storage on the Lofoten, not a finished, exposed, prepared dish. The full photograph shows bulk dried stockfish in a storage state, which is a raw/preparation ingredient stage, not an appetising finished meal. The phone thumbnail is illegible—a uniform granular texture with no readable essential components or recognisable dish form. All quality and phone checks fail. No identity match to a named finished dish.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1736,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 404,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
