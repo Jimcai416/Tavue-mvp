@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChFta2oNuCfyBLYK6vCxB",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 3,\n    \"composition\": 2,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows a stewed/cooked fruit filling with visible chunks\",\n    \"No crumble topping visible in either full image or thumbnail\",\n    \"Glossy, sauce-like surface with particulate matter\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source explicitly states 'before crumble topping is added' — image shows preparation stage, not finished dish\",\n    \"Essential component (crumble topping) is absent\",\n    \"Severe macro-level softness obscures fine detail and overall dish structure\"\n  ],\n  \"reason\": \"Reject: The source description explicitly identifies this as an intermediate preparation stage ('before crumble topping is added'). The image shows only the unfinished fruit filling without its defining crumble component. Per guidelines, raw/preparation stages and images missing essential food components in the thumbnail are not acceptable. Additionally, extreme macro softness and lack of appetising presentation further reduce suitability.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1741,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 360,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
