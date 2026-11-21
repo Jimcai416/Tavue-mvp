@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChFf3L5JjwGtZv4TF8Foi",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": true,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 2,\n    \"composition\": 2,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows a street cooking scene from directly overhead\",\n    \"Central dish in red tray is too small and blurred to resolve detail\",\n    \"Uncooked/preparation stage dominant: pot of noodles still cooking, raw papaya, fresh piment, unworked dough\",\n    \"Essential finished dish component is not identifiable or prominent in thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"No finished, plated dish is visible or prominent in either image\",\n    \"Scene depicts preparation and raw ingredients, not an exposed finished food dish\",\n    \"Actual dish identity cannot be determined from the cooking-in-progress scene\",\n    \"Metadata describes ingredients and process, not a named dish\",\n    \"No readable, appetising finished product in phone thumbnail for acceptance\"\n  ],\n  \"reason\": \"Reject: This is a preparation/cooking-in-action scene, not a finished dish photograph. The full image shows raw ingredients, an active cooking pot with pasta still on a charcoal fire, raw papaya, fresh chilli, garlic, and hand-worked dough on a plate—all stage components. The phone thumbnail does not resolve any finished, plated, exposed dish; the central item in the red tray is too small and blurred. The metadata confirms this documents ingredients and process, not a completed food item. The scene lacks the sharp detail, natural colouring, and appetising presentation of a finished dish required for acceptance. No specific canonical dish name can be established from preparation elements alone.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1865,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 483,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

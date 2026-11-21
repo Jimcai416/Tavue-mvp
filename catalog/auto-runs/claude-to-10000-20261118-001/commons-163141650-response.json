@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChFf3z933rb4AyVAcUwHs",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Finished, cooked rice dish with fried rice texture\",\n    \"Sharp detail of rice grains, browning, and fresh green herbs\",\n    \"Natural colour, appetising presentation on white plate\",\n    \"Readable components: rice, meat topping, fresh cilantro garnish\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail shows fried rice with brown meat component and green herb garnish\",\n    \"Prominent dish clearly visible in phone crop\",\n    \"Rice and meat elements legible in 124x96 frame\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title 'Steak 🥩 Mariné au légumes' (Steak marinated with vegetables) contradicts visible dish: photograph shows fried rice with rice as primary component, not steak as primary dish\",\n    \"Source description indicates marinated steak with vegetables but image displays rice-based preparation\",\n    \"Meat species in topping cannot be visually confirmed as steak\",\n    \"Source metadata does not match actual dish form\"\n  ],\n  \"reason\": \"Identity check fails. Source title and description ('Steak Mariné au légumes') do not match the visible finished dish, which is clearly a fried rice preparation with a meat topping garnished with fresh herbs. The photograph shows rice as the primary component, not steak. This is a material contradiction between source identity and actual dish content. Metadata is untrusted but dish form must align with stated identity; here it fundamentally does not.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1743,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 483,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
