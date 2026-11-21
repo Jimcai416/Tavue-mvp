@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChFC9x3Z9Ctk2Mdo7Uy3N",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 3,\n    \"composition\": 3,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Plate visible with cooked pepper dish\",\n    \"Central subject recognizable but soft focus\",\n    \"Garnish visible but details indistinct in thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title contains 'cèbes' (onions) but metadata spelling is non-standard; appears to mean 'oignons' or similar\",\n    \"Full image severely soft-focused and motion-blurred throughout; sharpness critically insufficient for food review\",\n    \"Lighting creates uneven exposure with blown highlights on plate rim and green cast on subject\",\n    \"Essential dish components obscured by poor focus and glare; cannot confirm finished, properly exposed state\",\n    \"No protein declared; dish appears to be cooked peppers and onions only\"\n  ],\n  \"reason\": \"Image fails sharpness requirement (score 2/5). Full photograph exhibits pervasive soft focus, motion blur, and uneven lighting that prevent sharp, detailed visibility of the finished dish. Essential components are obscured. Phone thumbnail confirms the full image lacks the sharpness and clarity required for acceptance. Lighting defects (blown highlights, colour cast) further compromise quality. No protein is present or declared, confirming this is a vegetable preparation. While the dish concept is legitimate (poivrade/pepper stew), the photograph quality does not meet the standard for a finished, sharply detailed, well-exposed dish suitable for review.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1753,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 463,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

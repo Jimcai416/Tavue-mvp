@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChFC9hBLdhYR6BK84sUEw",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 2,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows raw preparation stage: uncooked ingredients in a metal bowl\",\n    \"Green chopped herbs and black pepper visible on pale uncooked base\",\n    \"No finished, exposed dish visible\",\n    \"Ingredients not assembled into consumable form\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title describes ingredients only ('Zutaten für Salate' = 'Ingredients for salads'), not a finished dish\",\n    \"Visible content is preparation stage, not plated food\",\n    \"Cream/mayonnaise base uncooked and not prepared into dish form\"\n  ],\n  \"reason\": \"Reject: This is a raw preparation stage image, not a finished, exposed, cooked dish. The source description 'Zutaten für Salate' (Ingredients for salads) explicitly confirms ingredients only. The photograph shows uncooked components (cream, fresh herbs, spices) in a mixing bowl prior to preparation. Home cooking is welcome, but only when presented as a finished, plated dish. No protein identity can be established. Fails photograph, identity, and phone checks.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1678,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 398,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
