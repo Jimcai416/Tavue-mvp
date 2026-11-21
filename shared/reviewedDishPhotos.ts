@@ -169750,5 +169750,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 720,
     "height": 960,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-112033545",
+    "title": "File:Crostata con Crema Pasticcera e Mele.jpg",
+    "author": "DinaBenedettoFerrandina",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Crostata_con_Crema_Pasticcera_e_Mele.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Crostata_con_Crema_Pasticcera_e_Mele.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "144b922dc608fac1be06f94235ed510877871ec7",
+    "name": "Crostata con Crema Pasticcera e Mele",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-112033545.jpg",
+    "assetSha256": "5a4e5e2b30c3744a2f1ffcc4603eaa46183b01d54c8a81088c99e941f766b385",
+    "reviewedAt": "2026-11-21",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];

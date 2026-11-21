@@ -13845,3 +13845,7 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Anko & butter bread** — Andy Li. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Anko_%26_butter_bread_2023-12-10.jpg). Local asset: `reviewed-commons-142114134.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Crostata con Crema Pasticcera e Mele** — DinaBenedettoFerrandina. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Crostata_con_Crema_Pasticcera_e_Mele.jpg). Local asset: `reviewed-commons-112033545.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
