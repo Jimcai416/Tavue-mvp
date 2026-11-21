@@ -167056,5 +167056,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 768,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-53992079",
+    "title": "File:Viande des Grisons 02.jpg",
+    "author": "Arnaud 25",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Viande_des_Grisons_02.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Viande_des_Grisons_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "419d1705dfb821eeec66ede06fea5e0b64e19088",
+    "name": "Viande des Grisons",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-53992079.jpg",
+    "assetSha256": "e4aeefde8c0fa8b9c3a6c057896ec5a4199c5c08a50b239f50eab2bc2a50a57e",
+    "reviewedAt": "2026-11-21",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];

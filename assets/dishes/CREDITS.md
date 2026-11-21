@@ -13581,3 +13581,7 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 
 - **Bratkartoffeln** — [Faldrian](https://500px.com/Faldrian). [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Bratkartoffeln_(43291078).jpeg). Local asset: `reviewed-commons-71353042.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Bratkartoffeln mit Speck** — Oxfordian Kissuth. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Bratkartoffeln_mit_Speck.jpg). Local asset: `reviewed-commons-11964799.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Viande des Grisons** — Arnaud 25. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Viande_des_Grisons_02.jpg). Local asset: `reviewed-commons-53992079.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
