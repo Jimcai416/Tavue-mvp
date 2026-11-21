@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChFaueoW3sZT8jtGYN3LX",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Rigatoni pasta tubes visible and identifiable\",\n    \"Diced potato visible throughout dish\",\n    \"Green zucchini pieces present\",\n    \"Dark meat component visible (browned/seared)\",\n    \"Natural plating on white dish with appropriate lighting\",\n    \"Phone thumbnail shows all major components clearly\"\n  ],\n  \"phone_observations\": [\n    \"Pasta, potato cubes, zucchini and meat all distinguishable\",\n    \"Composition holds in thumbnail view\",\n    \"No clipping of essential elements\",\n    \"Appetizing presentation maintained\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Finocchiona is a Tuscan cured sausage (pork-based). Source title names 'finocchiona' but species not explicitly stated in title/description—only the product name. Protocol requires exact source quote explicitly naming the animal; product name alone is insufficient for unambiguous species identification.\",\n    \"Visible dark meat component appears seared/cooked but exact species cannot be determined from visual appearance alone without explicit source statement\"\n  ],\n  \"reason\": \"Image quality, photography, composition and phone thumbnail are all strong (scores 4+). However, identity check fails: the source title states 'finocchiona' (a named cured sausage product) but does not explicitly name the animal species in the title or description text itself. The protocol requires an exact case-sensitive source quote that explicitly names the animal (chicken/beef/pork/duck/lamb/seafood), not a product name alone. 'Finocchiona' is traditionally pork-based, but this is culinary tradition/inference, not visual proof or explicit source statement. Without explicit species naming in the source text, protein_evidence remains empty and the identity check cannot pass. Hold for source clarification or explicit animal species statement.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1643,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 555,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
