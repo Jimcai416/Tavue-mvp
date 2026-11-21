@@ -165515,5 +165515,29 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "height": 638,
     "requiresExactMenuName": true,
     "authorUrl": "https://www.flickr.com/people/22666220@N00"
+  },
+  {
+    "id": "commons-195577196",
+    "title": "File:Argentine Tirabuzón pasta stew with meat sauce, bread, and table setting.jpg",
+    "author": "Horacio Cambeiro",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Argentine_Tirabuz%C3%B3n_pasta_stew_with_meat_sauce,_bread,_and_table_setting.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/63/Argentine_Tirabuz%C3%B3n_pasta_stew_with_meat_sauce%2C_bread%2C_and_table_setting.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "d085ac2cde2bb81c31c60e7f06cbb96d94ea6727",
+    "name": "Argentine Tirabuzón pasta stew with meat sauce",
+    "aliases": [],
+    "proteins": [
+      "beef"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-195577196.jpg",
+    "assetSha256": "6881b0fb622899ecfc6a5376acaa606f27426685554f13a403533842f2632ad1",
+    "reviewedAt": "2026-11-21",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];
