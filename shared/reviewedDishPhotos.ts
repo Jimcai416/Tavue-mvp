@@ -162844,5 +162844,30 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-81366998",
+    "title": "File:Wagyu tataki with ponzu jelly, wagyu tartare, wagyu bresaola dry aged and salted (24034866874).jpg",
+    "author": "T.Tseng",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Wagyu_tataki_with_ponzu_jelly,_wagyu_tartare,_wagyu_bresaola_dry_aged_and_salted_(24034866874).jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Wagyu_tataki_with_ponzu_jelly%2C_wagyu_tartare%2C_wagyu_bresaola_dry_aged_and_salted_%2824034866874%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "c6c68af0f420ef1c7dd74e7a788d16f424507490",
+    "name": "Wagyu tataki with ponzu jelly, wagyu tartare, wagyu bresaola dry aged and salted",
+    "aliases": [],
+    "proteins": [
+      "beef"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-81366998.jpg",
+    "assetSha256": "8864164d70221075179aacf0fa1b1c9ac090ee365176e268119f3a74e380668c",
+    "reviewedAt": "2026-11-21",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true,
+    "authorUrl": "https://www.flickr.com/people/68147320@N02"
   }
 ];

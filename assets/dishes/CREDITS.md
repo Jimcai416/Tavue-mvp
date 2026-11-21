@@ -13111,3 +13111,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Tortilla de espárragos silvestres** — Juan Emilio Prades Bel. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Tortilla_de_esp%C3%A1rragos_silvestres.jpg). Local asset: `reviewed-commons-116382398.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Wagyu tataki with ponzu jelly, wagyu tartare, wagyu bresaola dry aged and salted** — [T.Tseng](https://www.flickr.com/people/68147320@N02). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Wagyu_tataki_with_ponzu_jelly,_wagyu_tartare,_wagyu_bresaola_dry_aged_and_salted_(24034866874).jpg). Local asset: `reviewed-commons-81366998.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
