@@ -165804,5 +165804,30 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-104172132",
+    "title": "File:Suprême de poulet snacké, mousseline de chou-fleur et fèves de soja.jpg",
+    "author": "Benoît Prieur",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Supr%C3%AAme_de_poulet_snack%C3%A9,_mousseline_de_chou-fleur_et_f%C3%A8ves_de_soja.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Supr%C3%AAme_de_poulet_snack%C3%A9%2C_mousseline_de_chou-fleur_et_f%C3%A8ves_de_soja.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "2b2bbe6f97b90156c8dbde77194044797d64989e",
+    "name": "Suprême de poulet snacké, mousseline de chou-fleur et fèves de soja",
+    "aliases": [],
+    "proteins": [
+      "chicken"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-104172132.jpg",
+    "assetSha256": "f3cfec87d901a8622ef19517b31d3f673330c68f40efb8682da7e9048bfe199c",
+    "reviewedAt": "2026-11-21",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 684,
+    "requiresExactMenuName": true,
+    "authorUrl": "https://www.wikidata.org/wiki/Q42790984"
   }
 ];
