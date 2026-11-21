@@ -13348,3 +13348,9 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Half rigatoni with pumpkin, dry tomatoes and cashew nuts** — [Luca Nebuloni  from Milan, Italy](https://www.flickr.com/people/7897906@N06). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Half_rigatoni_with_pumpkin,_dry_tomatoes_and_cashew_nuts_(11776250123).jpg). Local asset: `reviewed-commons-50854447.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Bramborové lokše se šlehanou brynzou, červeným zelím, perníkem a povidly** — Vojtasekd. [CC BY 4.0](https://creativecommons.org/licenses/by/4.0); [source](https://commons.wikimedia.org/wiki/File:Beskydsk%C3%BD_pivov%C3%A1rek,_Lok%C5%A1e.jpg). Local asset: `reviewed-commons-147443694.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Gundel Palacsinta** — [dpotera](https://www.flickr.com/people/17304916@N00). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Gundel_Palacsinta_at_Gundel.jpg). Local asset: `reviewed-commons-35303840.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Potato pancake "lokše" with Brimsen and Mangalica bacon** — Benreis. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Lok%C5%A1e_s_brynzou_a_%C5%A1pekem_z_mangalici.jpg). Local asset: `reviewed-commons-107467435.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
