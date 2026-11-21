@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChF6p9Ermq2E9UhZWMSwk",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Pink/pale pâté or terrine slices visible on left side of container\",\n    \"Mixed green and red leaf salad with radish slices, capers, and garnishes\",\n    \"Orange/apricot dressing in small side container\",\n    \"White disposable takeout container\",\n    \"Fresh, natural colours and sharp detail\"\n  ],\n  \"phone_observations\": [\n    \"Pâté slices and salad components clearly visible in thumbnail\",\n    \"Pink-toned meat product distinct from salad greens\",\n    \"Dressing cup visible in upper left corner\",\n    \"Essential dish components represented in phone crop\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title states 'Niman Ranch Pork Tenderloin Terrine' but no pork species declaration is present in the title itself—'Niman Ranch' is a producer/brand name, not a species identifier\",\n    \"The exact phrase 'Pork Tenderloin Terrine' does not appear as a quoted substring; only 'Niman Ranch' and product category are given\",\n    \"Protocol requires explicit source declaration of animal species (e.g., 'pork'); brand or producer name alone does not satisfy this requirement\"\n  ],\n  \"reason\": \"Reject: Although the photograph is sharp, well-lit, appetising, and the phone thumbnail clearly shows the dish, the protein evidence cannot be validated. The source description contains 'Niman Ranch Pork Tenderloin Terrine', but the word 'Pork' appears only as a descriptor within a product name, not as an explicit species declaration that can be extracted as a canonical substring. Protocol requires that every protein_evidence value be an exact case-sensitive substring of the supplied title/description; 'Pork' is present but embedded in a brand/product phrase rather than as a standalone species attribution suitable for canonical recording. The terrine/pâté itself is not definitively identifiable from visual inspection alone. Hold pending source clarification or explicit species statement.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1894,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 601,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
