@@ -169658,5 +169658,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-74766913",
+    "title": "File:Cheese plate at Lake Sonoma Winery - Sarah Stierch.jpg",
+    "author": "Missvain",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cheese_plate_at_Lake_Sonoma_Winery_-_Sarah_Stierch.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/24/Cheese_plate_at_Lake_Sonoma_Winery_-_Sarah_Stierch.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "aed704d013d0589cea66fac142fabe9f8d7b80f8",
+    "name": "Cheese plate with five California cheeses, marcona almonds and crackers",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-74766913.jpg",
+    "assetSha256": "98bb4a5792afd2ee00ec974d60d1347aba58251c336bdd557bccbbffbf3a2e43",
+    "reviewedAt": "2026-11-21",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];
