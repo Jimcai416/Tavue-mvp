@@ -13770,3 +13770,7 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Sugo di lumache alla calabrese** — Marcuscalabresus. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Sugo_di_lumache_alla_calabrese.jpg). Local asset: `reviewed-commons-202766682.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Pâtes aux truffes noires** — Curt Gibbs. [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:P%C3%A2tes_aux_truffes_noires.jpg). Local asset: `reviewed-commons-41917640.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.

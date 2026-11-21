@@ -169025,5 +169025,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 723,
     "height": 960,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-41917640",
+    "title": "File:Pâtes aux truffes noires.jpg",
+    "author": "Curt Gibbs",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:P%C3%A2tes_aux_truffes_noires.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/55/P%C3%A2tes_aux_truffes_noires.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "1fc4f10342d44b4953ddfe5d932bf13b57b6cca6",
+    "name": "Pâtes aux truffes noires",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-41917640.jpg",
+    "assetSha256": "8d1579a5d4b2a63a165d4110d5964f497ff67188e138710fdde92f8d7a3a4107",
+    "reviewedAt": "2026-11-21",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];
