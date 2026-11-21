@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChFGSfxrHj796kSafSn9d",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Crêpes visible on black plate\",\n    \"Filled with what appears to be ham and cheese\",\n    \"Red tablecloth, wine glasses and bottles in background\",\n    \"Thumbnail shows prepared crêpe with filling\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title states 'Crêpes Bretagne' but source description does not explicitly confirm this is the dish name or provide ingredient details\",\n    \"Filling appears to contain ham/cheese but exact protein species not stated in source title or description\",\n    \"Source description references a recipe URL but provides no explicit ingredient or protein declarations in the metadata supplied\",\n    \"Ambiguity whether 'Bretagne' refers to Breton crêpes or is simply a location reference\"\n  ],\n  \"reason\": \"Identity check fails: the source metadata does not provide an explicit, unambiguous dish title matching visible form. The description mentions 'Crêpes Bretagne' but offers no source-quoted ingredient list confirming protein identity (ham species, cheese type, etc.). The URL reference to an external recipe is not an acceptable substitute for explicit source declarations. Protein evidence cannot be established from appearance alone without source confirmation. Hold criteria are met due to absence of verifiable source quote matching the exact dish identity and protein composition.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1701,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 434,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
