@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChFmVwv1H5pucvaC5j8ba",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Plated fine-dining dish with crisp shrimp chip\",\n    \"Red spherical element consistent with tomato sorbet\",\n    \"Clear white plate, professional presentation\",\n    \"Natural lighting, sharp detail of components\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows two distinct components centred on white plate\",\n    \"Shrimp chip and red sorbet both visible and readable\",\n    \"Adequate detail for recognition of dish structure\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Amaebi (sweet shrimp) is explicitly named in source description but not visually verifiable in photograph—no raw seafood component is clearly visible\",\n    \"Title lists multiple components (celeriac puree, finger limes) not distinctly identifiable in image\",\n    \"Shrimp chips and tomato sorbet are recognisable, but the primary protein element (amaebi tartare) cannot be confirmed as present in the visible dish\",\n    \"Source description cannot be fully reconciled with visible plate contents\"\n  ],\n  \"reason\": \"Although photograph and thumbnail are sharp, well-lit and professionally composed, identity check fails because the named primary protein component (amaebi tartare) is not visibly present or identifiable in the finished dish shown. The source title and visible form do not agree sufficiently—only garnish and sorbet are clearly evident. Ambiguous seafood identity and undocumented preparation state prevent acceptance.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1782,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 468,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
