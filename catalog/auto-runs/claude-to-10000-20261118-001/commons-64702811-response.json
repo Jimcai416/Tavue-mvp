@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChFYjekX1nhm6zjqx15gc",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [\n    \"White plate with clear plating\",\n    \"Natural daylight from left\",\n    \"Cheese structure visible in cross-section\",\n    \"Wheat stalk garnish present\"\n  ],\n  \"phone_observations\": [\n    \"Subject clearly visible and prominent in thumbnail\",\n    \"Cheese form recognizable\",\n    \"Lighting and composition preserved in reduction\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source metadata lists 'Scamorza' as title but provides only generic 'Scamorza' in description without confirmation this is a finished dish photograph rather than a reference/documentation image\",\n    \"Image appears to be a documentary/reference photograph of raw cheese rather than a plated, finished food dish\",\n    \"Cheese is displayed in raw form with garnish but lacks evidence of preparation context (cooking, sauce, accompaniments) typical of a finished dish\"\n  ],\n  \"reason\": \"Reject: Identity check fails. The photograph shows raw cheese (scamorza) with decorative wheat stalk on a plate. This appears to be a documentary reference image of an ingredient or cheese product rather than a finished, exposed, cooked dish suitable for food service review. Scamorza is a fresh cheese typically consumed fresh or lightly grilled, but this image shows the product in its raw, uncooked state without evidence of service preparation. The source metadata ('File:', documentation license) and presentation (ingredient documentation style) reinforce this as a reference image rather than a finished dish photograph meeting Tavue's criteria.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1513,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 479,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

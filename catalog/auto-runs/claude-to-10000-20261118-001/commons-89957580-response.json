@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChFYjeh3hEbt6amm4M7y3",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 5,\n    \"appeal\": 5\n  },\n  \"visible_support\": [\n    \"Seared meat surface with deep brown crust\",\n    \"Compound butter with herbs (chives) and visible speckling\",\n    \"Natural colour and sharp detail throughout\",\n    \"Plate presentation on white dish with yellow background\"\n  ],\n  \"phone_observations\": [\n    \"Meat and butter clearly visible and identifiable\",\n    \"Butter topping prominent and readable\",\n    \"Overall composition preserved in thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title describes 'Walnuss-Gorgonzola-Butter' (walnut–Gorgonzola butter) but no visible walnuts or Gorgonzola cheese are distinguishable in the photograph\",\n    \"Meat species cannot be definitively identified from visual appearance alone\",\n    \"Source description is a foreign-language recipe link, not a dish name; no explicit meat species declared in provided metadata\",\n    \"Butter composition (walnuts, Gorgonzola) cannot be visually confirmed\"\n  ],\n  \"reason\": \"Identity check fails. The source provides a recipe URL and German butter name ('Walnuss-Gorgonzola-Butter') but no explicit, case-sensitive dish title or meat species declaration. The meat cut and species are not stated in the source metadata and cannot be reliably inferred from appearance alone. The advertised butter ingredients (walnuts, Gorgonzola) are not visually verifiable in the photograph. Without a canonical dish name from the source and no explicit meat species quote, the identity requirement cannot be satisfied. Hold pending clarification of the actual dish name and meat type from the source.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1706,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 513,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
