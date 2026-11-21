@@ -164992,5 +164992,28 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 640,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-35304049",
+    "title": "File:White Asparagus with Hollandaise.jpg",
+    "author": "dpotera",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:White_Asparagus_with_Hollandaise.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d2/White_Asparagus_with_Hollandaise.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "13a7cf3addeb1e31d161db6b23578df214d32e13",
+    "name": "White Asparagus with Sauce Hollandaise",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-35304049.jpg",
+    "assetSha256": "7c64a3b25372e5bbf52a7e4c2af886409f15bd246658dcfd54d2db096745fda0",
+    "reviewedAt": "2026-11-21",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 800,
+    "height": 600,
+    "requiresExactMenuName": true,
+    "authorUrl": "https://www.flickr.com/people/17304916@N00"
   }
 ];

@@ -13340,3 +13340,7 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 
 - **Ground beef, cherry tomatoes, tomato sauce, and black pepper on rotini** — Daderot. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Ground_beef,_cherry_tomatoes,_tomato_sauce,_and_black_pepper_on_rotini_-_Massachusetts.jpg). Local asset: `reviewed-commons-122539582.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Expresné langoše with Tomato sauce** — Tamorlan. [CC BY 3.0](https://creativecommons.org/licenses/by/3.0); [source](https://commons.wikimedia.org/wiki/File:Langose-Prag_(Tomato_sauce)-01.JPG). Local asset: `reviewed-commons-11310267.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **White Asparagus with Sauce Hollandaise** — [dpotera](https://www.flickr.com/people/17304916@N00). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:White_Asparagus_with_Hollandaise.jpg). Local asset: `reviewed-commons-35304049.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
