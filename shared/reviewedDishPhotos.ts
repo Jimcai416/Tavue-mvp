@@ -166376,5 +166376,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 762,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-179788279",
+    "title": "File:Tabla de jamón serrano y queso, comarca del Alto Mijares.jpg",
+    "author": "Juan Emilio Prades Bel",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tabla_de_jam%C3%B3n_serrano_y_queso,_comarca_del_Alto_Mijares.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/62/Tabla_de_jam%C3%B3n_serrano_y_queso%2C_comarca_del_Alto_Mijares.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "6c9960e5bd5988bcf00b157c210d8b09870b3c1e",
+    "name": "Tabla de jamón serrano y queso",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-179788279.jpg",
+    "assetSha256": "33364fb7599369634011a62739fb26118d12a743493acfcfd79961c1f06e2600",
+    "reviewedAt": "2026-11-21",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];
