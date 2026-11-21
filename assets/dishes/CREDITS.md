@@ -14051,3 +14051,8 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Sopa de pan cocido abulense** — Xemenendura. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Sopa_de_pan_cocido_abulense.jpg). Local asset: `reviewed-commons-153761383.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Gebackener saarländischer Fleischkäse** — Sol Octobris. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Saarl%C3%A4ndischerFleischk%C3%A4seL1160689_(2).jpg). Local asset: `reviewed-commons-81821914.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **palacinke** — Momcilo Stokanovic. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Palacinke_photo_Moma_SM.jpg). Local asset: `reviewed-commons-121377782.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
