@@ -14204,3 +14204,7 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Melanzane ripiene** — Gino Larosa. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Mammola_-_Melanzane_ripiene.jpg). Local asset: `reviewed-commons-88949372.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Salade de lentilles, potimarron rôti et Feta** — [Benoît Prieur](https://www.wikidata.org/wiki/Q42790984). [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Salade_de_lentilles,_potimarron_r%C3%B4ti_et_Feta.jpg). Local asset: `reviewed-commons-101072852.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.

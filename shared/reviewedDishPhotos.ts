@@ -173549,5 +173549,28 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 781,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-101072852",
+    "title": "File:Salade de lentilles, potimarron rôti et Feta.jpg",
+    "author": "Benoît Prieur",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Salade_de_lentilles,_potimarron_r%C3%B4ti_et_Feta.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Salade_de_lentilles%2C_potimarron_r%C3%B4ti_et_Feta.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "9a8435c35791ed088ad339a17d5f0d2d4d849d7e",
+    "name": "Salade de lentilles, potimarron rôti et Feta",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-101072852.jpg",
+    "assetSha256": "f3baf3e49b12093928b04fd8cd88a3b0a8c1dd9d4381993590c13939860a6856",
+    "reviewedAt": "2026-11-21",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 960,
+    "requiresExactMenuName": true,
+    "authorUrl": "https://www.wikidata.org/wiki/Q42790984"
   }
 ];
