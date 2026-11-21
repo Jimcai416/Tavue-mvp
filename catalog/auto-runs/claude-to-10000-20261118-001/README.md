@@ -1,11 +1,11 @@
 # Continuous Claude photo campaign
 
-Status: **reviewing**. Updated: 2026-11-21T23:50:06.918663+00:00.
+Status: **reviewing**. Updated: 2026-11-21T23:50:25.485712+00:00.
 
 - Bundled approved photographs: **7,722 / 10,000**.
 - Newly integrated in this campaign: 5,660.
-- Candidates: 51,738; processed: 51,727; pending: 11.
-- Cumulative accounted/reserved API cost: **$285.330250 / $300.00**.
+- Candidates: 51,738; processed: 51,738; pending: 0.
+- Cumulative accounted/reserved API cost: **$285.285634 / $300.00**.
 - This includes $9.440475 of verified prior usage; the allowance is not reset by rounds or restarts.
 - Search rounds started: 1835.
 - Search focus: Europe, with Spain, Italy and France first.
