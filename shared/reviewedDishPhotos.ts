@@ -166121,5 +166121,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-156789636",
+    "title": "File:Aceitunas con pimentón.jpg",
+    "author": "Xemenendura",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Aceitunas_con_piment%C3%B3n.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Aceitunas_con_piment%C3%B3n.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "1b9a59fb3a53ad2963f5509153bf62a9c1fa7b8b",
+    "name": "Aceitunas con pimentón y cebolla",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-156789636.jpg",
+    "assetSha256": "876007d7cdab7d6a69465d15e1706edceb25e4dc83a6586ae99960ecde7aceba",
+    "reviewedAt": "2026-11-21",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 720,
+    "height": 960,
+    "requiresExactMenuName": true
   }
 ];
