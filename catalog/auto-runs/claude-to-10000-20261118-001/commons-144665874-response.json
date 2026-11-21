@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChFV9dVa1Hb4ALa9egXYn",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 5,\n    \"appeal\": 5\n  },\n  \"visible_support\": [\n    \"Cooked roasted pork roll with crackling scored skin on wooden board\",\n    \"Cross-section reveals white fat layer and pink meat interior\",\n    \"Professional kitchen setting visible in background\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows sliced roasted pork roll with crispy exterior\",\n    \"Essential subject fully visible and prominent\",\n    \"Natural colour and appetising appearance preserved\",\n    \"Cooked/finished state unambiguous\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title contains only 'File:Porchetta (3168207946).jpg' — the actual dish name 'porchetta' is embedded in the filename, not stated explicitly in the title field\",\n    \"Description is in Portuguese: 'Uma receita Italiana que nos engordou durante o natal' (An Italian recipe that fattened us up during Christmas) — this is commentary, not a formal dish identification\",\n    \"No explicit confirmation in the supplied title/description that this is 'porchetta' or what meat species it contains, despite visual evidence of roasted pork\"\n  ],\n  \"reason\": \"Reject: The source title field contains only a filename reference ('File:Porchetta...'), not a proper dish description. The actual dish name 'porchetta' appears only in the filename component, which is metadata not in the title or description fields. The description provided is casual Portuguese commentary without formal dish or protein identification. Per protocol, canonical_name must be copied from source title or description (not filename metadata), and protein_evidence requires exact case-sensitive substrings from title/description fields. No explicit 'pork' or 'porchetta' declaration exists in the supplied title or description text. This creates an identity uncertainty that mandates hold under the given rules, though the photograph itself is of high quality and clearly shows a finished, appetising roasted pork roll.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1560,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 567,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
