@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChGoVEPATFZaCb68vvoVj",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": \"Assiette de charcuterie bovine arménienne : bastourma (en haut) et soudjoukh (en bas)\",\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Finished, cooked charcuterie plate with clear differentiation of two sausage types\",\n    \"Top section: flat, wide strips with visible marbling and fat—consistent with bastourma\",\n    \"Bottom section: round sliced discs with granular/spiced surface—consistent with soudjoukh\",\n    \"Natural colour, appetising presentation on white plate\",\n    \"Sharp detail visible in phone thumbnail; components clearly distinguishable\"\n  ],\n  \"phone_observations\": [\n    \"Both sausage types visible and readable in centre-cover thumbnail\",\n    \"Bastourma (flat strips) and soudjoukh (round slices) are distinct\",\n    \"No clipping of essential food elements\",\n    \"Plate proportions and composition preserved\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title states 'charcuterie bovine' (beef charcuterie) but does not explicitly name 'beef' as a protein category alongside the dish names\",\n    \"Soudjoukh is traditionally made from multiple meat species (beef, pork, or combinations); source does not specify which animal(s) it contains\",\n    \"Bastourma is typically beef but source says 'bovine' (generic cattle term) rather than 'beef'\",\n    \"No exact case-sensitive substring in the title/description that explicitly names 'beef' or 'pork' as a canonical protein category\"\n  ],\n  \"reason\": \"Image quality, sharpness, composition and phone visibility all meet acceptance thresholds. The finished, cooked charcuterie plate is appetising and clearly photographic. However, protein_evidence cannot be populated: the source description uses the qualifier 'bovine' and generic dish names 'bastourma' and 'soudjoukh' but does not contain an explicit case-sensitive substring naming a canonical protein category (chicken/beef/pork/duck/lamb/seafood). Soudjoukh in particular may contain multiple meat species not disambiguated by the source. Per rules, unknown or unspecified species and source contradictions require hold. canonical_name cannot be established without resolvable protein evidence.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1938,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 664,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

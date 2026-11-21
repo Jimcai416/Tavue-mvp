@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChGoWMrejNP6xGFM7QbB5",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 3,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Cured meats (salami, prosciutto, ham) in multiple varieties\",\n    \"Cheese blocks (white and pale yellow)\",\n    \"Olives or capers (orange/golden elements)\",\n    \"Fresh vegetables (green herbs visible)\",\n    \"Wood board presentation\"\n  ],\n  \"phone_observations\": [\n    \"Mixed cured meats and cheese visible\",\n    \"Natural colours preserved\",\n    \"Readable as charcuterie board\",\n    \"Components recognizable at thumbnail scale\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title is a filename ('File:Fromage et Charcuterie...'), not a dish name\",\n    \"Description 'St Valery sur Somme' is a location, not a dish identifier\",\n    \"Specific meat species cannot be reliably determined from appearance alone (salami, prosciutto, and ham varieties visible but unconfirmed by source)\",\n    \"No explicit canonical dish name provided in metadata\",\n    \"Generic 'Charcuterie' term in filename insufficient without explicit species declaration\"\n  ],\n  \"reason\": \"Rejection: Source metadata lacks a proper canonical dish name. The filename 'Fromage et Charcuterie' is a generic category descriptor, not a specific dish identity. The description provides only a location ('St Valery sur Somme'), not dish details. While the photograph shows a well-composed charcuterie board with appetising appearance, sharp detail, and natural colours, the identity check fails because there is no explicit source quote naming specific meats or confirming species. Cured meat varieties are visible but unidentified. Per rules, ambiguous meat species and source contradictions require a hold, but in this case the absence of any usable source dish name mandates rejection.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1815,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 543,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChGoWipjLd9HgcHtuzKHZ",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Wooden charcuterie board with multiple components\",\n    \"Cured meats (prosciutto/ham slices visible)\",\n    \"Cheese (yellow cheese slices visible)\",\n    \"Bread (toasted/grilled slices visible)\",\n    \"Cornichons/pickled vegetables\",\n    \"Pâté or spread in small bowl\",\n    \"Green herb sauce/pesto in small bowl\",\n    \"Nuts in metal cup\",\n    \"Fresh greens/arugula garnish\"\n  ],\n  \"phone_observations\": [\n    \"Charcuterie board components clearly visible in thumbnail\",\n    \"Multiple items identifiable: meats, cheese, bread, accompaniments\",\n    \"Central composition readable at phone size\",\n    \"Adequate detail and contrast for recognition\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title describes 'Charcuterie board' but no specific dish name provided\",\n    \"Source metadata indicates this is from a conference dinner menu setting, not a restaurant dish with canonical identity\",\n    \"Specific meat species cannot be confirmed from visual inspection alone\",\n    \"No source title or description provides a canonical dish name—only generic category and event context\",\n    \"Appears to be a composite platter assembled for the event rather than a named, finished dish\"\n  ],\n  \"reason\": \"Reject: Identity check fails. The source provides only generic category ('Charcuterie board') and event context ('The Old Vicarage... conference dinner'), not a specific canonical dish name. No source title or description assigns a meaningful, distinct identity beyond 'charcuterie board.' Tavue requires exact source-quoted canonical names for finished dishes. This is a composite platter assembled for a table setting without named dish identity. While photograph quality is good, identity is insufficient for acceptance.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1752,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 550,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
