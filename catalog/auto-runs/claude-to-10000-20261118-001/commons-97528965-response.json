@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChGXUC4sWhJfUe8Bf3pxj",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Pot-cooked meat with browning visible in thumbnail\",\n    \"Sauce and onions visible\",\n    \"Overall composition matches full image\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'Lapin chasseur' (rabbit hunter's stew), but no visual evidence confirms rabbit species; meat appears to be cooked pieces in sauce but species cannot be reliably distinguished from appearance alone\",\n    \"Metadata title/description may not be authoritative; cannot visually confirm rabbit vs. other game/poultry from cooked state\"\n  ],\n  \"reason\": \"Rejection: source title claims 'Lapin chasseur' (rabbit dish), but rabbit is not an allowed protein category per instructions (only chicken/beef/pork/duck/lamb/seafood with explicit source quote naming the animal). The cooked meat pieces in the pot cannot visually confirm the species. No exact source quote can support rabbit as a named protein category. Identity check fails due to unverifiable and disallowed protein species.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1724,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 376,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
