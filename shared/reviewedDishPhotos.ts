@@ -169316,5 +169316,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 721,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-29568597",
+    "title": "File:Pasta al pomodoro 1-1.jpg",
+    "author": "10Rosso",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pasta_al_pomodoro_1-1.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/64/Pasta_al_pomodoro_1-1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "cdf7d3590bec68309dc99ec73f42d2c6ae2a4502",
+    "name": "Pasta al pomodoro",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-29568597.jpg",
+    "assetSha256": "9b8e8504e513527b94f647147690af53f24da8155a2519a11de5a18a5a975f86",
+    "reviewedAt": "2026-11-21",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];

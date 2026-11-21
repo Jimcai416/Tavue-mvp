@@ -13795,3 +13795,7 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 - **Pasta al Pesto** — [slgckgc](https://www.flickr.com/people/14771153@N04). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Pasta_al_Pesto_in_Florence,_Italy_(47909905101).jpg). Local asset: `reviewed-commons-79519157.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Risotto with pumpkin and star anise** — [Luca Nebuloni  from Milan, Italy](https://www.flickr.com/people/7897906@N06). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Risotto-alla-zucca.jpg). Local asset: `reviewed-commons-36179529.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Pasta al pesto nisseno** — Auregann. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Pasta_al_pesto_nisseno.jpg). Local asset: `reviewed-commons-154770900.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Pasta al pomodoro** — 10Rosso. [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Pasta_al_pomodoro_1-1.jpg). Local asset: `reviewed-commons-29568597.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
