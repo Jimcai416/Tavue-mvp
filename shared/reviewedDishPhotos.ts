@@ -162370,5 +162370,28 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-135765583",
+    "title": "File:Terrine (Bouillon Chartier Grands Boulevards) août 2023.jpg",
+    "author": "Benoît Prieur",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Terrine_(Bouillon_Chartier_Grands_Boulevards)_ao%C3%BBt_2023.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/64/Terrine_%28Bouillon_Chartier_Grands_Boulevards%29_ao%C3%BBt_2023.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "8fa968bf803d0d887ef9fa956f7b651fa3026b16",
+    "name": "Terrine",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-135765583.jpg",
+    "assetSha256": "fc0968cb10c39297478cca7d4e6a42ad9dd09364b8503cbb16d758db16b88d34",
+    "reviewedAt": "2026-11-21",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 801,
+    "height": 960,
+    "requiresExactMenuName": true,
+    "authorUrl": "https://www.wikidata.org/wiki/Q42790984"
   }
 ];

@@ -13056,3 +13056,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 
 - **Homemade Saint-Honoré cake** — Daaisy. [CC BY 4.0](https://creativecommons.org/licenses/by/4.0); [source](https://commons.wikimedia.org/wiki/File:Homemade_Saint-Honor%C3%A9_cake_2026.jpg). Local asset: `reviewed-commons-200255062.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Chocolate souffle** — stu_spivack. [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:Chocolate_souffle.jpg). Local asset: `reviewed-commons-110803008.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Terrine** — [Benoît Prieur](https://www.wikidata.org/wiki/Q42790984). [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Terrine_(Bouillon_Chartier_Grands_Boulevards)_ao%C3%BBt_2023.jpg). Local asset: `reviewed-commons-135765583.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
