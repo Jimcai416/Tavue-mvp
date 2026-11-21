@@ -166304,5 +166304,77 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "height": 641,
     "requiresExactMenuName": true,
     "authorUrl": "https://www.flickr.com/people/26242865@N04"
+  },
+  {
+    "id": "commons-159944295",
+    "title": "File:Seafood linguine at La Pizza Trattoria Cairns, 2025.jpg",
+    "author": "Chris Olszewski",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Seafood_linguine_at_La_Pizza_Trattoria_Cairns,_2025.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Seafood_linguine_at_La_Pizza_Trattoria_Cairns%2C_2025.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "5ceabf7afee8cc2235bf761e7c5c333596d52a7b",
+    "name": "Seafood linguine at La Pizza Trattoria Cairns",
+    "aliases": [],
+    "proteins": [
+      "seafood"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-159944295.jpg",
+    "assetSha256": "ec989955fde7508ee62eae0b8a7f88910f10404fceed42606fe830a5f8a570b7",
+    "reviewedAt": "2026-11-21",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-109728274",
+    "title": "File:Swiss Hotel Bar and Restaurant - 2021-08-28 - Sarah Stierch 02.jpg",
+    "author": "Missvain",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Swiss_Hotel_Bar_and_Restaurant_-_2021-08-28_-_Sarah_Stierch_02.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/67/Swiss_Hotel_Bar_and_Restaurant_-_2021-08-28_-_Sarah_Stierch_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "d94d23c4bff3601fc35a7200c34e87b8cefe357a",
+    "name": "Chicken parmesan and pesto linguine",
+    "aliases": [],
+    "proteins": [
+      "chicken"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-109728274.jpg",
+    "assetSha256": "ef89bc306ab49698786c5506b3f75832ddaf8dede34d33943d5570a0aa8dd339",
+    "reviewedAt": "2026-11-21",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-152130097",
+    "title": "File:Spaghetti with Lamb Meat.jpg",
+    "author": "روتانا",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Spaghetti_with_Lamb_Meat.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Spaghetti_with_Lamb_Meat.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "b2de69eba4a448740a1289c200a15c7b1238d01f",
+    "name": "Spaghetti with Ground Lamb Meat Sauce and Fresh Herbs",
+    "aliases": [],
+    "proteins": [
+      "lamb"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-152130097.jpg",
+    "assetSha256": "79fbb229395d046ed0621cf8f7fdc4151fed29b447abe7ad54c1d37f25de9091",
+    "reviewedAt": "2026-11-21",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 762,
+    "requiresExactMenuName": true
   }
 ];
