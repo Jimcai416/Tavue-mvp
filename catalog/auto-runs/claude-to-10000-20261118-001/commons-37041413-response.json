@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChG3TSZEFgziPYhF12k82",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 5,\n    \"composition\": 5,\n    \"appeal\": 5\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows a bright yellow sunflower with green centre and snails visible on petals\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title references snail farming ('Allevamento lumache da gastronomia') but the image shows a living sunflower with snails in their natural state, not a prepared food dish\",\n    \"No finished, cooked, or plated dish is visible\",\n    \"This is a nature/garden photograph, not a food photography submission\"\n  ],\n  \"reason\": \"Rejection: This is a nature photograph of a sunflower with live snails, not a finished, prepared food dish. While the metadata references snail farming for gastronomy, the actual image shows raw wildlife/garden subject matter with no evidence of cooking, plating, or food preparation. Tavue accepts only finished, exposed, likely photographic dishes. The source metadata alone ('lumache da gastronomia') is untrusted evidence and cannot override the visual absence of a prepared food item.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1739,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 373,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
