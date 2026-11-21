@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChF89JUsquRDTeo6uDVrD",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Cooked weißwurst visible in pot with tongs\",\n    \"Wooden plate with sliced meats, greens, radish and cheese cubes\",\n    \"Pretzel basket in background\",\n    \"Beer glass visible\",\n    \"Restaurant table setting at Zum Franziskaner, Munich\"\n  ],\n  \"phone_observations\": [\n    \"Phone thumbnail shows pot with sausages and wooden plate clearly\",\n    \"Dish components visible but composition shows preparation/service stage rather than finished plated dish\",\n    \"Multiple items presented simultaneously rather than single composed dish\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title describes 'Weißwurst und Brotzeit' — this is a meat species ('Weißwurst') paired with a Bavarian snack board ('Brotzeit'), not a single unified dish\",\n    \"The wooden plate contains multiple unidentified meat components (sliced red meat, light pâté or liver spread) with no source declaration of species\",\n    \"Weißwurst in the pot is a traditional Bavarian sausage but no source quote explicitly names the animal species\",\n    \"Presentation shows multiple separate components (pot of sausages + charcuterie board) rather than a single finished, plated dish\"\n  ],\n  \"reason\": \"Source title 'Weißwurst und Brotzeit' refers to two distinct items: a sausage type (not explicitly sourced with species) and a traditional Bavarian snack board. The image shows preparation/service (sausages still in cooking pot, board presented separately) rather than a finished, composed dish. Identity check fails because the source does not declare species for weißwurst or the sliced meats on the board, and the presentation is a table spread rather than a single identifiable dish suitable for Tavue review. Reject on grounds of unidentified meat species and presentation stage.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1773,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 572,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
