@@ -166189,5 +166189,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 723,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-63097130",
+    "title": "File:Tortelloni Anton.jpg",
+    "author": "Derbrauni",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tortelloni_Anton.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/69/Tortelloni_Anton.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "37e949d7ed492e24ed389d30662033949d5d017e",
+    "name": "Tortelloni Anton",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-63097130.jpg",
+    "assetSha256": "fc6043c66adc5880d393dd27f855da3761bc4138e57ca197b1c0b870eb60679d",
+    "reviewedAt": "2026-11-21",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 916,
+    "requiresExactMenuName": true
   }
 ];

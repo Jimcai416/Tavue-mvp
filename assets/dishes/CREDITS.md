@@ -13474,3 +13474,7 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Linguine Carbonara** — Andy Li. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Linguine_Carbonara_-_Giuseppes_2026-01-12.jpg). Local asset: `reviewed-commons-181772192.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Tortelloni Anton** — Derbrauni. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Tortelloni_Anton.jpg). Local asset: `reviewed-commons-63097130.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
