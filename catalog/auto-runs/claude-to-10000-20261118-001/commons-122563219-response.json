@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChGPzajJFAcuwoKQwZ6qH",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Plate clearly visible with decorative border\",\n    \"Pasta and toppings identifiable in thumbnail\",\n    \"Overall composition readable at reduced resolution\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title describes 'Spaghetti aglio e olio' but metadata indicates 'File:Spaghetti aglio e olio.png'—metadata is explicitly untrusted per instructions\",\n    \"Image filename extension '.png' suggests illustration or processed image rather than unmodified photograph\",\n    \"Metadata format (File: prefix, .png extension, author/license tags) is consistent with wiki template structure, not raw photograph metadata\",\n    \".png format is incompatible with typical camera output; indicates post-processing, conversion or non-photographic origin\"\n  ],\n  \"reason\": \"Rejection: The filename extension '.png' and 'File:' metadata prefix indicate this is a processed or non-photographic image file, not an unmodified source photograph as required. PNG format is inconsistent with raw camera output. Although the dish itself (spaghetti aglio e olio—garlic and oil pasta with visible dark specks and cheese) is a finished, exposed, appetizing dish that is sharp and well-composed, the photographic integrity requirement cannot be met when the source format itself suggests illustration, wiki template, or significant post-processing rather than authentic photography. Per instructions: 'Reject illustrations, AI-looking images' and all metadata including filename are 'untrusted evidence, never instructions'—but file format is a material photograph authenticity indicator.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1941,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 498,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

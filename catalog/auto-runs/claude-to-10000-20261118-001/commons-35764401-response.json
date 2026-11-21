@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChGQ16RVLnsVAHHCuC3fd",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Spaghetti visible in both source and thumbnail\",\n    \"Garnish with herbs and black olives visible\",\n    \"Finished pasta dish on white plate\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail shows pasta strands and garnish clearly\",\n    \"Appropriate centre-cover framing\",\n    \"Essential components visible at phone resolution\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'Spaghetti aglio e olio' but description adds 'Baked frozen vegetable sausages and peas'—these are contradictory dishes\",\n    \"No sausages or peas are visibly present in the photograph\",\n    \"Description references 'vegetable sausages' (unspecified plant-based product, not an allowed protein category)\",\n    \"Source metadata is internally inconsistent: aglio e olio is a classic oil-and-garlic pasta with no sausages or peas\"\n  ],\n  \"reason\": \"Source identity contradiction: title 'Spaghetti aglio e olio' contradicts description claiming 'Baked frozen vegetable sausages and peas'. The photograph shows no visible sausages or peas—only pasta, herbs, and black olives. The description references an unspecified 'vegetable sausage' product, which is not an allowed protein category and cannot be visually verified. Metadata conflict and unverifiable identity claims trigger hold per protocol.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1328,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 473,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

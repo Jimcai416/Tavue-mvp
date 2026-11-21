@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChGQ1TorfdE5fMoYeb5FK",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 5,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [\n    \"Yellow pasta strands photographed against neutral background\",\n    \"Individual pasta pieces clearly visible and sharp\",\n    \"Natural colour and lighting throughout\"\n  ],\n  \"phone_observations\": [\n    \"Pasta pieces visible in thumbnail\",\n    \"Adequate detail for recognition\",\n    \"Consistent with full image\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'Casarecce' but image shows 'Gemelli' per description—description states 'Gemelli, a type of Italian pasta' while filename suggests Casarecce; these are distinct pasta shapes and do not match the visible form\",\n    \"Description contradicts title: file is named Casarecce but explicitly identified as Gemelli\",\n    \"Visible pasta form does not clearly match either declared shape with certainty\"\n  ],\n  \"reason\": \"Identity check fails: source metadata contains a direct contradiction between filename (Casarecce) and explicit description (Gemelli). The image shows dried pasta, which is a raw ingredient, not a finished, exposed, cooked dish. Pasta alone without sauce, preparation, or plating context does not meet the criteria for a finished food photograph. Additionally, the identity conflict (Casarecce vs. Gemelli) prevents canonical confirmation.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1623,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 427,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
