@@ -171958,5 +171958,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-54999271",
+    "title": "File:Friand à la truffe 08.jpg",
+    "author": "Classiccardinal",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Friand_%C3%A0_la_truffe_08.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Friand_%C3%A0_la_truffe_08.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "3cbdb3eaaaae336e98debd17d79707484de967c2",
+    "name": "Friands à la truffe",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-54999271.jpg",
+    "assetSha256": "6c3718e617ae5be54ef971b2f80b8f41768e96ac0a6a590acd39c910c9b3b724",
+    "reviewedAt": "2026-11-21",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];
