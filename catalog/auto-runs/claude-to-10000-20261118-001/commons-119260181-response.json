@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChFWLQ7a5hRX1YPsCSQRU",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 1,\n    \"lighting\": 1,\n    \"composition\": 1,\n    \"appeal\": 0\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Illustration/sketch rendering, not a photograph\",\n    \"Minimal detail visible in thumbnail; stylised line drawing\",\n    \"No finished food visible, only abstract representation\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title describes 'Eskimo reindeer stew' but image is clearly a historical illustration/cartoon, not a photograph of actual food\",\n    \"No actual dish visible; this is line-drawn artwork\",\n    \"Species claim (reindeer) cannot be verified from illustration\"\n  ],\n  \"reason\": \"Image is a historical illustration or cartoon sketch, not a photograph of a finished dish. It fails the photograph check entirely. The source description identifies it as artwork by an illustrator (Harry B. Bradford) from a 1913 publication. No actual food is present, no sharp detail exists, and no appetising photographic dish is evident. Phone thumbnail confirms abstract/illustrative rendering. Reject.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1903,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 354,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
