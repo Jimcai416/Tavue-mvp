@@ -13869,3 +13869,11 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Cappelletti romagnoli** — Cifo Buscemi. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Cappelletti.jpg). Local asset: `reviewed-commons-68271997.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Alfajor** — [This file   is a work by   El Pantera   . Please, credit this:  El Pantera 
+       I would appreciate  being notified  (elpanteradejerez@gmail.com) if you use my work outside Wikimedia
+  More of my work can be found in my  personal gallery](http://toolserver.org/~daniel/WikiSense/Gallery.php?wikifam=commons.wikimedia.org&img_user_text=El_Pantera). [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Alfajor-P1060387.JPG). Local asset: `reviewed-commons-9391690.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Tuscan roasted pork (arista) with Shiitake mushrooms** — Albarubescens. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Fusion_of_traditional_dishes,_Tuscan_roasted_pork_(arista)_with_Shiitake_mushrooms.jpg). Local asset: `reviewed-commons-99477789.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Patatas alioli** — Tamorlan. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Patatas_alioli-Brillante.jpg). Local asset: `reviewed-commons-10225059.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
