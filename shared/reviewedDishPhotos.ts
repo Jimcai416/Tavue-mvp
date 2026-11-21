@@ -170137,5 +170137,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-44186766",
+    "title": "File:Almejas.jpg",
+    "author": "MARTA CORRAL",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Almejas.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Almejas.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "31e0271a22a56a912a15382f4168dd40f56da2df",
+    "name": "Rica sopa de almejas",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-44186766.jpg",
+    "assetSha256": "f71163347757d2c148b065f067ad93ad86058b51a2ef6cb0b0009faa96ecf433",
+    "reviewedAt": "2026-11-21",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 704,
+    "height": 960,
+    "requiresExactMenuName": true
   }
 ];
