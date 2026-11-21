@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChFdgypjghp9zVCfg4ULG",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows whole fish prominently positioned on a rust-coloured plate\",\n    \"Shredded cheese, julienned vegetables, and lettuce clearly visible around fish\",\n    \"Plate centred and dish well-defined in phone view\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title describes 'smoked Kieler sprats' but the visible fish are whole, identifiable specimens of substantial size—visually inconsistent with sprats, which are tiny (7–10 cm), oily forage fish. Sprats are rarely presented whole and unjointed in this manner.\",\n    \"No explicit source quote names the visible fish species; 'sprats' is assumed from title but contradicts photographic evidence.\",\n    \"Sprats are not in the allowed protein_evidence categories (chicken/beef/pork/duck/lamb/seafood). The specific fish type remains unconfirmed by visual inspection alone.\"\n  ],\n  \"reason\": \"Source identity conflict: title claims 'smoked Kieler sprats', but the photograph shows whole fish of visibly larger body structure inconsistent with true sprats (small forage fish, typically 7–10 cm). The species claimed in the title cannot be reliably verified from visual inspection, and sprats do not map to allowed protein categories without explicit alternative naming. Identity check fails. Protein category cannot be assigned without resolving the species contradiction.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 2112,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 461,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
