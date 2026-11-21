@@ -13825,3 +13825,7 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **St. Honoré cake with chocolate** — Trougnouf. [CC BY 4.0](https://creativecommons.org/licenses/by/4.0); [source](https://commons.wikimedia.org/wiki/File:St._Honor%C3%A9_cake_with_chocolate_(DSCF4539).jpg). Local asset: `reviewed-commons-69948524.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Profiteroles au chocolat** — Romainbehar. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Paris_2e_-_Rue_Vivienne_-_Restaurant_Le_Vaudeville_-_Profiteroles_au_chocolat.jpg). Local asset: `reviewed-commons-146876805.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.

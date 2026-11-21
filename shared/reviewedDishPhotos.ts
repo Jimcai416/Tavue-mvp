@@ -169636,5 +169636,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 514,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-146876805",
+    "title": "File:Paris 2e - Rue Vivienne - Restaurant Le Vaudeville - Profiteroles au chocolat.jpg",
+    "author": "Romainbehar",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Paris_2e_-_Rue_Vivienne_-_Restaurant_Le_Vaudeville_-_Profiteroles_au_chocolat.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/75/Paris_2e_-_Rue_Vivienne_-_Restaurant_Le_Vaudeville_-_Profiteroles_au_chocolat.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "f23dd2c2e85e5d8d13e51bae87826a82bfacb942",
+    "name": "Profiteroles au chocolat",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-146876805.jpg",
+    "assetSha256": "90340560580594fb7a7e434ccdf2f1ceb642d217faa8c51b2665ef1d9058cf39",
+    "reviewedAt": "2026-11-21",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];
