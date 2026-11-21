@@ -170927,5 +170927,28 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-24282785",
+    "title": "File:Roma Sparita, Trastevere, Rome (2345433961).jpg",
+    "author": "Ewan Munro  from London, UK",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Roma_Sparita,_Trastevere,_Rome_(2345433961).jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Roma_Sparita%2C_Trastevere%2C_Rome_%282345433961%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "8e540049004976f2a8c27872bb3f9682ce952ea9",
+    "name": "Zuppa di funghi",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-24282785.jpg",
+    "assetSha256": "e5b4b96616cc9df59632f736feb5cc685031907506c33962dd78f0ed7269f09a",
+    "reviewedAt": "2026-11-21",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true,
+    "authorUrl": "https://www.flickr.com/people/55935853@N00"
   }
 ];
