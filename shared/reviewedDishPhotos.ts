@@ -165492,5 +165492,28 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-55048457",
+    "title": "File:Risotto allo zafferano (5515171837).jpg",
+    "author": "Giorgio Minguzzi  from Italy",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Risotto_allo_zafferano_(5515171837).jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/78/Risotto_allo_zafferano_%285515171837%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "6d45883d1955425ebb388ad51a63ca0a39a8dc74",
+    "name": "Risotto allo zafferano",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-55048457.jpg",
+    "assetSha256": "8786d29970e0e86ba8ebe075c583069b998111f91e7af8fbc8e12d4d7142f975",
+    "reviewedAt": "2026-11-21",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 638,
+    "requiresExactMenuName": true,
+    "authorUrl": "https://www.flickr.com/people/22666220@N00"
   }
 ];
