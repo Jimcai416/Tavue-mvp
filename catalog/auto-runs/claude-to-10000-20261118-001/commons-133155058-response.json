@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChG1egL2AHC2mGQiWeNXE",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Layered savoury crêpe cake with golden scrambled egg topping\",\n    \"Visible ham/cured meat layers between crêpes\",\n    \"Cucumber slices on top\",\n    \"Cross-section reveals meat, binding ingredients, and savoury layers\",\n    \"Served on grey plate on wooden board\",\n    \"Professional plating in dining setting\"\n  ],\n  \"phone_observations\": [\n    \"Cross-section clearly visible showing internal layers and meat fill\",\n    \"Golden scrambled egg topping readable\",\n    \"Plate and composition recognizable\",\n    \"Dish identity unambiguous in thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title 'Gâteau de crêpes salé' is generic French (savoury crêpe cake) and does not specify meat species or exact filling composition\",\n    \"Visible meat appears to be ham or cured pork but source provides no explicit protein declaration\",\n    \"Internal binding and garnish components not named in source description\",\n    \"No exact dish name variant preserved in source metadata beyond the generic category term\"\n  ],\n  \"reason\": \"Photograph is sharp, well-lit, appetizing and clearly shows a savoury crêpe cake with visible meat and vegetable layers. Phone thumbnail is clear and readable. However, the source title 'Gâteau de crêpes salé' is a generic category descriptor without specific meat species identification or detailed filling specification. Per protocol, protein_evidence requires an exact case-sensitive substring from the source title/description explicitly naming the animal—the generic term does not meet this requirement. The source provides insufficient specificity to establish a canonical_name that preserves meaningful variant qualifiers. Hold pending clarification of exact filling composition and meat species from source.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1524,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 539,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
