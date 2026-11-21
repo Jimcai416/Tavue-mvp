@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChFDvVAu8eFEgQviUGwu7",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Golden-brown baked pastry with visible crisp texture\",\n    \"Dusting of sugar coating visible across surface\",\n    \"Embedded chunks of pork cracklings (chicharrones) visible throughout\",\n    \"Presented on white paper in natural daylight\",\n    \"Phone thumbnail shows sharp detail of pastry surface and cracklings\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly displays sugar-dusted pastry surface\",\n    \"Cracklings are distinguishable as embedded chunks\",\n    \"Golden-brown colour and texture are readable at phone size\",\n    \"Subject is prominent and well-framed\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Description declares 'chicharrones' (pork cracklings) but no pork/cerdo/puerco qualifier appears in the Spanish title 'Torta de Alcalá de los Gazules'\",\n    \"Protein cannot be visually confirmed as pork from appearance alone\",\n    \"Source title does not explicitly name the animal, only the description does\",\n    \"Ambiguity between hidden-flavour declaration and explicit dish identity\"\n  ],\n  \"reason\": \"Reject: source title 'Torta de Alcalá de los Gazules (Andalucía, España), con chicharrones' does not explicitly name pork/cerdo as a protein qualifier in the canonical dish name. The description field mentions chicharrones, but per protocol, proteins must be sourced from an explicit animal name in the title or description used as canonical_name, never inferred from ingredient type alone. The pork cracklings are a traditional component but are not visually confirmable as pork species and lack explicit naming in the title itself. Identity check fails because the declared protein cannot be matched to an exact source quote in the dish name that explicitly identifies the animal. All quality and photograph checks pass, but protein_evidence cannot be populated with supporting evidence meeting the protocol requirement.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1754,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 580,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
