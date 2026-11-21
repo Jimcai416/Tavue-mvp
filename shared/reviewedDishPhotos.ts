@@ -163183,5 +163183,28 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 960,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-8818631",
+    "title": "File:Flickr - cyclonebill - Rugbrød med æg, mayonnaise og purløg.jpg",
+    "author": "cyclonebill",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Flickr_-_cyclonebill_-_Rugbr%C3%B8d_med_%C3%A6g,_mayonnaise_og_purl%C3%B8g.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Flickr_-_cyclonebill_-_Rugbr%C3%B8d_med_%C3%A6g%2C_mayonnaise_og_purl%C3%B8g.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "bb0541b01c87eeabccd4982d94a01c0774378942",
+    "name": "Rye bread with eggs, mayonnaise and chives",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-8818631.jpg",
+    "assetSha256": "c4a87be0622319bbdbd63346fd9b79faf71e78b08d5dd51ba363d9064ee06ea4",
+    "reviewedAt": "2026-11-21",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true,
+    "authorUrl": "https://www.flickr.com/people/23178876@N03"
   }
 ];

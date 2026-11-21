@@ -13156,3 +13156,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Chicken breast and grape tomatoes on rye bread, with garlic mayonnaise** — Daderot. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Chicken_breast_and_grape_tomatoes_on_rye_bread,_with_garlic_mayonnaise_-_Massachusetts.jpg). Local asset: `reviewed-commons-151588092.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Rye bread with eggs, mayonnaise and chives** — [cyclonebill](https://www.flickr.com/people/23178876@N03). [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:Flickr_-_cyclonebill_-_Rugbr%C3%B8d_med_%C3%A6g,_mayonnaise_og_purl%C3%B8g.jpg). Local asset: `reviewed-commons-8818631.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
