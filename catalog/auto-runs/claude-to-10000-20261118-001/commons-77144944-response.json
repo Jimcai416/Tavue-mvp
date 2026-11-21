@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChGNEdgZLZEuJjcXymcXU",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 3,\n    \"lighting\": 3,\n    \"composition\": 3,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows edamame, fried tofu cubes, caviar in glass, and condiment bowls—no toro tartare visible or identifiable\",\n    \"No raw fish or tartare texture evident in phone view\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title claims 'Toro Tartare with Caviar' but photograph shows no toro, no tartare, and no visible raw fish—only prepared vegetables and fried tofu\",\n    \"Caviar appears present in a glass dish, but main protein (toro) is completely absent from the image\",\n    \"Severe identity mismatch between title and actual dish content\"\n  ],\n  \"reason\": \"Identity check fails. The source title 'Toro Tartare with Caviar' contradicts the visible content: the photograph displays edamame in a bowl, fried tofu cubes, caviar in a glass, and condiment bowls, but no toro, no tartare, and no raw fish component. The subject of the dish (toro tartare) is entirely absent. The photograph appears to show a Japanese appetizer course or mise en place, but does not match the declared dish. This is a source-title contradiction that prevents acceptance.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1733,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 427,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

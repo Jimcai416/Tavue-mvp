@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChGNEET4HzBvTVLnWgwfi",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Raw minced meat with two whole raw egg yolks visible in phone thumbnail\",\n    \"Bowl with decorative pink floral rim clearly shown\",\n    \"Essential components readable: uncooked meat and raw eggs\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Image shows raw/preparation stage, not a finished cooked dish\",\n    \"Steak tartare is served raw by definition, but the source description does not explicitly name the meat species (beef assumed by tradition, not stated)\"\n  ],\n  \"reason\": \"Rejection: This photograph shows steak tartare in raw/preparation stage—minced raw meat with whole raw egg yolks and onion in a mixing bowl, not a finished, exposed, plated dish ready to eat. The guidelines explicitly reject raw/preparation stages. Additionally, the source description does not contain an explicit quote naming 'beef' or any other specific meat species; species cannot be inferred from tradition or generic 'tartare' category. No protein_evidence can be generated without an exact case-sensitive source quote naming the animal. All checks cannot be satisfied.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1732,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 388,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
