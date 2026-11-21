@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChFdnJbyePi8ZhRAd5Gv6",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Diced potatoes, clearly visible and golden-brown\",\n    \"Sliced sausage pieces with reddish-brown casing\",\n    \"Crispy lardons (bacon/pork belly strips) scattered throughout\",\n    \"Home-cooked plated presentation on a decorative plate\",\n    \"Natural lighting, appetising colour and finish\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows sausage slices and diced potatoes in prominent view\",\n    \"Lardons and potato cubes well-represented at 124x96 resolution\",\n    \"Dish identity and components readable in phone preview\",\n    \"No clipping of essential food elements\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title lists 'saucisse' (sausage) but no specific animal species is explicitly named—species cannot be inferred from appearance alone\",\n    \"Lard/lardons are pork derivatives but source does not use the word 'pork' in an explicit protein context\",\n    \"Comté (cheese) is mentioned in description but is not a protein category in the allowed set\",\n    \"Description appears incomplete (ends with 'comté rappé' without closing parenthesis), suggesting possible metadata truncation\"\n  ],\n  \"reason\": \"Image quality, sharpness, lighting, composition and appeal are all strong (scores ≥4). The photograph clearly shows a finished, cooked dish with identifiable components (potatoes, sausage, lardons) on a home-style plate. The phone thumbnail is sharp and readable. However, the source description does not explicitly name the animal species for 'saucisse' (only the generic French term 'sausage' is used). Per protocol, unspecified or ambiguous meat species cannot be accepted, and species cannot be inferred from appearance or culinary tradition. The description truncation and lack of explicit species naming in the source title/description prevent confident identity verification and protein documentation. Hold pending clarification of sausage species and complete source metadata.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1749,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 602,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
