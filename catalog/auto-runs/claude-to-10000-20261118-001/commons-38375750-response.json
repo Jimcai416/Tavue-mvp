@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChF9MRocDG2f2s8kHeYB5",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Dome-shaped cream-coloured mousse or bavarois on white plate\",\n    \"Dark chocolate decorative stripes around plate perimeter\",\n    \"Green mint leaves on top as garnish\",\n    \"Overall form is recognisable but source image quality is significantly degraded\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title suggests 'Bavarois au choco' (chocolate bavarois) but metadata contains only 'L.T.A.' as description without full dish confirmation\",\n    \"Image quality is poor and soft throughout both source and thumbnail, compromising sharp detail assessment\",\n    \"Photograph appears grainy and underexposed, suggesting either poor camera quality or significant image degradation\",\n    \"Exact flavour/chocolate type cannot be visually confirmed from appearance alone\",\n    \"No explicit protein content stated in source metadata; bavarois is typically a cream-based mousse dessert without protein declarations\"\n  ],\n  \"reason\": \"Image quality fails sharpness threshold (score 2/5). Both full photograph and thumbnail show significant softness, graininess, and poor definition inconsistent with 'sharp, naturally coloured' requirement. While the dish form is recognisable as a plated dessert with chocolate decoration and mint garnish, the poor photographic execution and absent source description (only 'L.T.A.' provided) prevent confident identity verification. Metadata title suggests 'Bavarois au choco' but source description does not explicitly confirm this. Hold pending clearer image and complete source identification.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1729,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 491,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
