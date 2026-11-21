@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChGeeUn3nwfqbSH8cEuLz",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Single sausage on white plate clearly visible\",\n    \"Brown colouration consistent with cooked sausage\",\n    \"Prominent enough for phone thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title names 'sausage' as a category, but specific meat animal (pork/beef/chicken/duck/lamb/seafood) is not explicitly stated in title or description\",\n    \"Knackwurst is traditionally pork-based, but tradition alone cannot substitute for explicit source naming\",\n    \"Cannot infer species from appearance or generic 'sausage' label\"\n  ],\n  \"reason\": \"Rejection: The source identifies this as 'Knackwurst (german sausage)' but does not explicitly name the animal protein. The word 'sausage' is a preparation method, not a permitted protein category. No exact substring from the title or description unambiguously names chicken, beef, pork, duck, lamb, or seafood. Knackwurst tradition suggests pork, but traditional assumptions do not meet the requirement for explicit source-quoted animal naming. protein_evidence remains empty. Identity check fails due to unspecified species.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1541,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 413,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

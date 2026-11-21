@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChGedgy1JuNSBtQMx2T6J",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [\n    \"Two sausage cross-sections on paper\",\n    \"Upper: pale casing, unsmoked appearance\",\n    \"Lower: darker casing, smoked appearance\",\n    \"Natural casings visible\",\n    \"German packaging background\"\n  ],\n  \"phone_observations\": [\n    \"Sausage cross-sections clearly visible\",\n    \"Casing and interior texture discernible\",\n    \"Subject prominent in thumbnail\",\n    \"Paper packaging partially visible\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title contains 'File:' prefix and filename extension (DEU BSer Knackwurst Darm Papier MSZ091030.jpg) which must be removed per canonical_name rules\",\n    \"Description is in German; exact English canonical phrase not provided in source\",\n    \"Knackwurst species/meat type not explicitly stated in title or description—cannot assume pork or any animal from tradition or appearance alone\",\n    \"No explicit protein animal name in source metadata\"\n  ],\n  \"reason\": \"Reject: Identity check fails. The source title begins with 'File:' prefix and ends with filename extension (.jpg), both of which must be excluded per canonical_name rules. No acceptable canonical phrase can be extracted. Additionally, while the description mentions 'Knackwurst' (a sausage category), it does not explicitly name the meat animal (chicken/beef/pork/duck/lamb/seafood). Per protocol, meat species cannot be inferred from tradition or appearance; an explicit source quote naming the animal is required. The photograph quality and phone thumbnail are acceptable, but identity and protein requirements cannot be satisfied.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1730,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 509,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

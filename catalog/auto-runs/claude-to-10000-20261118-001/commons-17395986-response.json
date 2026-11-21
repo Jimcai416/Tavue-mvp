@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChGee48iu7NG4hsSjHkrH",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 3,\n    \"appeal\": 3\n  },\n  \"visible_support\": [\n    \"Receipt clearly labels 'KNACKWURST'\",\n    \"Butcher shop (Fleischerei Göthe) in Braunschweig\",\n    \"Yellow-skinned sausage with cross-section showing pale interior and dark speckles\",\n    \"Natural colour, recognisable finished product\"\n  ],\n  \"phone_observations\": [\n    \"Receipt partially visible in thumbnail\",\n    \"Sausage identifiable but composition cramped\",\n    \"Receipt/label dominates significant portion of phone view\",\n    \"Dish itself visible but framed awkwardly with packaging/receipt clutter\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Receipt and label occupy excessive frame space, violating composition principle that finished food should be prominent in phone thumbnail\",\n    \"Image is primarily a food receipt documentation rather than an appetising photograph of the dish itself\",\n    \"Metadata describes this as a documentation photo paired with a receipt (Kassenbon), not a standalone food photograph\"\n  ],\n  \"reason\": \"Reject: This is fundamentally a receipt documentation photo rather than a food photograph. While the sausage is identifiable and naturally coloured, the composition is dominated by a large butcher's receipt that obscures the dish and makes it non-prominent in the phone thumbnail. The image serves as proof-of-purchase documentation rather than meeting the standard for a finished, appetising, prominent food photograph suitable for a food review database. The receipt clutter violates the requirement that essential food components and the dish itself be the focal point in the phone thumbnail view.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1934,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 489,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
