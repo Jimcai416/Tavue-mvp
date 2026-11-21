@@ -172648,5 +172648,28 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-42702704",
+    "title": "File:Choux à la crème (19387655069).jpg",
+    "author": "俊哉 佐伯 ( la-fontaine )",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Choux_%C3%A0_la_cr%C3%A8me_(19387655069).jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Choux_%C3%A0_la_cr%C3%A8me_%2819387655069%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "ff87100dff8843577173540c7f680f49c3528aea",
+    "name": "Cream puffs",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-42702704.jpg",
+    "assetSha256": "4d7b76c241dc35a3779d507b990db7ba6d768bf9e70ab1291f3bb01a30af392c",
+    "reviewedAt": "2026-11-21",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true,
+    "authorUrl": "https://pixabay.com/en/users/la-fontaine-22289/"
   }
 ];

@@ -14117,3 +14117,7 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 - **Kibbeling mit Pommes rotweiß und Remoulade** — Benreis. [CC BY 3.0](https://creativecommons.org/licenses/by/3.0); [source](https://commons.wikimedia.org/wiki/File:Kibbeling_Pommes_Remoulade.JPG). Local asset: `reviewed-commons-35334189.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Kibbeling met saus** — Dhdewit. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Kibbeling_met_saus.jpg). Local asset: `reviewed-commons-136520459.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Kibbeling mit Kartoffelsalat** — Nemracc. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Kibbeling_mit_Kartoffelsalat,_Vareler_Hafen.jpg). Local asset: `reviewed-commons-82665532.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Cream puffs** — [俊哉 佐伯 ( la-fontaine )](https://pixabay.com/en/users/la-fontaine-22289/). [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Choux_%C3%A0_la_cr%C3%A8me_(19387655069).jpg). Local asset: `reviewed-commons-42702704.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
