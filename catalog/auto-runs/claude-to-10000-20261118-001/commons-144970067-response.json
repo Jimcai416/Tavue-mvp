@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChF85htRrCgARbnbXpDLb",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 3,\n    \"lighting\": 2,\n    \"composition\": 2,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows waffle iron equipment in use, not a finished plated dish\",\n    \"One waffle visible mid-production on right side of iron\",\n    \"Mostly shows empty waffle iron cavities and cooking equipment\",\n    \"No finished, exposed, appetising dish prominent in thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [],\n  \"reason\": \"Rejects on multiple grounds: (1) Subject is a waffle iron and production setup, not a finished, exposed, plated dish ready for consumption; (2) Phone thumbnail fails acceptance—it shows cooking equipment and in-progress production, not a prominent finished food item; (3) Essential food (the single waffle) is small and clipped/incomplete in the thumbnail; (4) Full image shows preparation stage with raw/unfinished waffles and equipment, not a complete dish; (5) Composition and appeal scores fall below threshold (all scores must be ≥4 for acceptance). This is production/kitchen documentation, not a food photograph of a finished dish suitable for Tavue review.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1703,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 382,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

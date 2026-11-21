@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChF85uLzgmrgZnGTk7CCP",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Golden-brown breaded sausage prominently displayed\",\n    \"Pretzel-crusted chips visible alongside sausage\",\n    \"Fresh salad garnish with microgreens, cucumber, tomato, radish\",\n    \"Plated presentation on white slate\"\n  ],\n  \"phone_observations\": [\n    \"Breaded sausage clearly visible and sharp in thumbnail\",\n    \"Chip elements and salad distinguishable\",\n    \"Overall composition readable and appetizing\",\n    \"Golden colour consistent with full image\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Species of sausage cannot be verified from visual appearance alone. Source title describes 'Weißwurst' (white sausage), but the cooked breaded form obscures confirmation of the characteristic pale meat interior\",\n    \"Sausage is not an allowed protein category key per instructions ('never infer species from tradition, appearance or generic meat/sausage')\",\n    \"Source title is in German; translation reliability for 'Weißwurst' as 'white sausage' does not establish specific species (pork/beef/chicken/duck/lamb/seafood)\"\n  ],\n  \"reason\": \"While the photograph is sharp, well-lit, appetizing and properly composed, with both full image and phone thumbnail clearly showing a finished plated dish, the protein cannot be validated. The source names 'Weißwurst' (white sausage), but sausage is not an allowable protein_evidence key, and the breaded coating prevents visual confirmation of the meat species. No exact quote explicitly names an allowed animal category (chicken/beef/pork/duck/lamb/seafood). Without verifiable species evidence meeting the strict protein naming requirements, identity cannot be confirmed. Hold for clarification of exact meat composition.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1772,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 545,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

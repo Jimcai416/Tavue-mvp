@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChF86ZJGsHinKWGxUUm2Q",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 5,\n    \"composition\": 5,\n    \"appeal\": 5\n  },\n  \"visible_support\": [\n    \"Salt-crusted pretzel/Brezn clearly visible and prominently displayed\",\n    \"Two white sausages with herb speckling consistent with Weißwurst\",\n    \"Brown mustard/sauce in small portion\",\n    \"Bavarian blue-and-white diamond plate with coat of arms\",\n    \"Natural, well-exposed food photograph\"\n  ],\n  \"phone_observations\": [\n    \"All three components clearly visible in thumbnail\",\n    \"Pretzel dominates upper portion with readable salt crystals\",\n    \"Sausages visible in lower portion\",\n    \"Mustard recognisable in small portion\",\n    \"Plate decoration visible and identifiable\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title contains 'Weißwurst' (white sausage), a traditional Bavarian product typically made from pork and veal, but metadata does not explicitly name the animal species used\",\n    \"No source text explicitly states the protein composition or which animals are present\",\n    \"Sausage species cannot be inferred from appearance alone per instructions\"\n  ],\n  \"reason\": \"Rejection: The source metadata title/description contains only the German word 'Weißwurst' without an explicit English species declaration. Per instructions, ambiguous meat species (including unspecified sausage composition) or source contradictions require a hold. However, the instructions are unambiguous that protein_evidence keys may only be populated when 'an exact source quote explicitly names each animal'. The title 'Weißwurst' does not constitute an explicit species-naming quote in English; it is a traditional category name. Without an explicit statement such as 'pork and veal sausage' or similar, the protein identity cannot be verified as required. The photograph itself is excellent, but identity verification cannot be completed.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 2072,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 549,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
