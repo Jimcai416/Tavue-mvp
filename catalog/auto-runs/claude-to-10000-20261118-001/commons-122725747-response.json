@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChFCzjPusVdvNSxrHqh78",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Finished, cooked dish in white bowl on red-checkered surface\",\n    \"Golden-brown pastry/wrapper base visible\",\n    \"Leafy green vegetable components (chard or similar) visible on top\",\n    \"Creamy yellow sauce or filling\",\n    \"Sharp detail of food components in full image\",\n    \"Phone thumbnail shows complete dish with clear component visibility\"\n  ],\n  \"phone_observations\": [\n    \"Dish fully visible and prominent in frame\",\n    \"Essential food components readable: wrapped item with greens and sauce\",\n    \"Natural colours preserved\",\n    \"No clipping of significant elements\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title 'Capuns Trun' lacks explicit protein declaration—no meat species named in title or description\",\n    \"Capuns is a traditional Swiss/Romansh dish that typically contains meat (often pork or beef), but visual appearance alone cannot confirm animal species\",\n    \"Green component appears to be chard wrapping, but exact filling composition and any meat content cannot be visually verified as matching a declared ingredient\"\n  ],\n  \"reason\": \"Image quality, photography, and phone thumbnail all meet acceptance criteria. However, the source title provides only a geographic variant name ('Capuns Trun') without explicit protein declaration. Capuns traditionally may contain meat, but no specific animal is named in the supplied metadata. Per protocol, unknown or undeclared meat species requires hold. Identity cannot be confirmed without explicit source naming of any protein component.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1728,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 480,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

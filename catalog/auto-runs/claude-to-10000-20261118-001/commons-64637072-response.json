@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChFD17vEQS8dusKLw2WnZ",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Cabbage/chard leaves visibly wrapped around a pale filling\",\n    \"Multiple parcels arranged on white parchment\",\n    \"Filling visible at leaf folds, appears to be a bound mixture\",\n    \"Kitchen preparation setting with colander in background\",\n    \"Natural daylight, sharp detail of leaf texture and filling\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows stacked wrapped leaf parcels\",\n    \"Filling visible at openings\",\n    \"Green leaf wrapping prominent and readable\",\n    \"Scale and subject proportion adequate for phone review\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title references 'Capuns' (a Grisons/Swiss dish) but provides no source title or description in English to verify exact canonical name and variant qualifiers\",\n    \"Filling composition not explicitly named in provided metadata—appears to be a meat and grain mixture but source does not specify protein type, quantity, or exact preparation\",\n    \"Leaf type (cabbage vs. chard) not explicitly stated in source\",\n    \"No source title/description provided to extract canonical_name; only filename and category hint given\"\n  ],\n  \"reason\": \"Image quality, sharpness, lighting, composition and phone thumbnail all meet acceptance thresholds. Photograph shows a finished, exposed, appetising dish with readable components. However, identity check fails: no source title or description was provided—only a filename ('Capunsblätter.jpg') and category hint ('Herstellung von Capuns'). Per protocol, canonical_name must be copied exactly from source title or description; filenames and category hints alone are insufficient. Protein_evidence remains empty because the filling ingredients are not explicitly named in the metadata. All acceptance criteria require identity=true, specific source quote matching, and empty uncertainties. These cannot be satisfied without an authoritative source title or description. Hold pending source metadata.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1727,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 564,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

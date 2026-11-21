@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChFCzEnTtu4iCfbEer5vj",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Cabbage-wrapped rolls filled with unclear contents\",\n    \"Cream or butter sauce base\",\n    \"White plate, finished presentation\",\n    \"Natural lighting, appetising appearance\"\n  ],\n  \"phone_observations\": [\n    \"Wrapped rolls clearly visible in thumbnail\",\n    \"Sauce visible around items\",\n    \"Composition readable at small size\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title contains '(Nachbildung)' meaning 'reconstruction/replica' – this is a recreated dish, not a naturally prepared example\",\n    \"Source explicitly states this is a recreation from BEA Bern expo 2011 (a food exhibition), not authentic home cooking or restaurant service\",\n    \"Filling contents are not visible and cannot be verified from the photograph\",\n    \"No protein species can be confirmed from visual inspection alone\"\n  ],\n  \"reason\": \"Reject: The source metadata explicitly identifies this as a 'Nachbildung' (reconstruction/replica) created for a food exhibition (BEA Bern expo 2011), not an authentic prepared dish. Tavue accepts home cooking and street food, but not exhibition recreations or deliberately reconstructed historical dishes. Additionally, the filling is completely obscured, and no protein species can be visually or textually confirmed. While photograph quality is acceptable, the fundamental nature of the subject disqualifies it.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1537,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 450,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

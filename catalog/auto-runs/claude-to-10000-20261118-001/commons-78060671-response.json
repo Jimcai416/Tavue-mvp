@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChFCzEpC6Wihj2SvS3R2S",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 5,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Finished, cooked dish in white bowl\",\n    \"Golden-brown broth/sauce surrounding main component\",\n    \"Herb garnish visible on dumplings/parcels\",\n    \"Red/pink diced ingredient (possibly pancetta or similar) scattered on top\",\n    \"Natural colour palette, appetising presentation\"\n  ],\n  \"phone_observations\": [\n    \"Dish is clearly visible in thumbnail\",\n    \"Bowl and broth details readable at 124x96 resolution\",\n    \"Dumplings/wrapped components and toppings discernible\",\n    \"No clipping of essential food elements\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title references 'Capuns' but provides only language tag 'de:Capuns' without explicit English description or ingredient list\",\n    \"No explicit protein animals named in the supplied metadata or visible description\",\n    \"Red diced ingredient visible but identity unconfirmed—could be pancetta, bacon, or other cured meat; species not stated\",\n    \"Exact dish variant and regional qualifier cannot be verified from metadata alone\",\n    \"File metadata lacks canonical English dish name or formal description beyond the German language tag\"\n  ],\n  \"reason\": \"Image quality, sharpness, lighting, composition and phone thumbnail all meet acceptance criteria. However, the source metadata provides only a German language tag ('de:Capuns') and minimal formal description. No explicit protein animals are named in any supplied title or description text. The visible red cured meat topping cannot be attributed to a specific animal without source documentation. The identity check fails because the available source evidence does not provide sufficient specificity to confirm the exact dish variant or its named components. Hold pending explicit English-language source description or ingredient documentation.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1719,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 530,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
