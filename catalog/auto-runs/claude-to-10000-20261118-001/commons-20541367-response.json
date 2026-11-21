@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChGnmnGtrnukGSgkSRsHT",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 3,\n    \"lighting\": 2,\n    \"composition\": 2,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Meat pieces on grill grate over charcoal\",\n    \"Preparation stage visible with active fire/coals beneath\",\n    \"Raw or mid-cooking state; not finished and plated\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'bonito' (skipjack tuna) but source metadata shows 'Atún ojael' (tuna ojael); seafood species cannot be verified from visual appearance alone\",\n    \"Image shows preparation/cooking in progress, not finished dish\"\n  ],\n  \"reason\": \"Reject: This is a cooking/preparation stage photograph, not a finished, exposed, plated dish. The meat is actively cooking on a grill over charcoal, not removed, finished, and ready for consumption. Additionally, the seafood species (bonito/tuna) cannot be visually confirmed with certainty from the cooked appearance alone, and the title/metadata contains a source contradiction (ojael vs. bonito descriptor). Quality scores are low due to harsh backlighting, poor sharpness, and the chaotic preparation context. The phone thumbnail confirms this is a work-in-progress image, not suitable for a finished food review.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1752,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 412,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

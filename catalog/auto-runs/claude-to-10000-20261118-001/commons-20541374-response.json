@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChGnn89ja4FZHZRfGQAMp",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 3,\n    \"lighting\": 3,\n    \"composition\": 3,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Raw/actively cooking fish pieces on grill grates\",\n    \"Central subject still charring and in active preparation\",\n    \"No plated, finished, or exposed dish visible\",\n    \"Preparation stage, not finished food\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title references 'bonito' (skipjack tuna) but image shows raw/mid-cooking stage, not a finished dish\",\n    \"Species identity from title cannot override preparation-stage rejection\"\n  ],\n  \"reason\": \"Reject: image shows raw fish and meat actively cooking on a grill in preparation phase, not a finished, plated, or exposed dish. Source description explicitly states 'Preparación' (preparation). The photo documents the cooking process, not the completed appetising food product suitable for Tavue. All checks cannot pass when the fundamental requirement—a finished, exposed, likely photographic dish—is not met.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1752,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 353,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

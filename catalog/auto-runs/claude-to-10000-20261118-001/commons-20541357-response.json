@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChGnnADVqXCR3FQ3BDi9T",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 2,\n    \"composition\": 2,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Person holding partially cooked/charred meat piece over table\",\n    \"Meat appears raw or severely undercooked in hand\",\n    \"Pan on table with meat pieces in liquid, unclear if finished\",\n    \"Preparation/handling stage, not plated dish\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title references 'bonito' (tuna species) but metadata key 'ojael' and description text create ambiguity\",\n    \"Image shows preparation/handling stage, not finished exposed dish\",\n    \"Meat held aloft appears raw or severely undercooked, not finished\",\n    \"Cannot confirm finished state from either full image or thumbnail\",\n    \"Lighting severely degraded; outdoor/atmospheric conditions compromise colour accuracy\"\n  ],\n  \"reason\": \"Reject: image captures a preparation or handling stage, not a finished, exposed, appetising dish. The meat held in hand appears raw or severely charred/undercooked. The pan contents are unclear and the overall presentation is unplated and mid-process. Sharpness, lighting and appeal all severely compromised (scores 1–2). Phone thumbnail confirms preparation stage, not a finished food photograph. Source metadata contains contradictory identifiers (title 'bonito', key 'ojael') creating species ambiguity. Does not meet threshold for finished, photographic, restaurant-ready or home-cooked dish presentation.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1752,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 459,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChGnmnL7cDrNg5ZQrDBHA",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 2,\n    \"composition\": 2,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows raw/preparation stage: uncooked fish steaks on grill grates over coals\",\n    \"No colour development, browning or sear marks visible\",\n    \"Fish appears pale, translucent, pre-exposure\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title metadata claims 'bonito' but image shows raw preparation stage, not finished dish\",\n    \"Metadata also references 'atún' (tuna) in filename—species contradiction in source itself\",\n    \"No finished, exposed, cooked appearance visible in either full or thumbnail image\"\n  ],\n  \"reason\": \"Reject: This image documents the raw preparation stage (uncooked fish steaks on grill over coals), not a finished, exposed, appetising dish. The fish lacks all signs of cooking—no sear marks, browning, colour development or caramelisation. Both full photograph and phone thumbnail show pre-cooking state. Additionally, source metadata contains internal contradiction ('atún' in filename vs 'bonito' in description), and no species can be visually confirmed from raw preparation appearance. Home cooking is welcome, but only finished dishes; preparation stages are explicitly excluded.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1752,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 411,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChGnmnJ8yk8XgvPXuuRm7",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Raw or very lightly seared fish steaks visible in pan\",\n    \"Prominent blood wells and uncooked tissue visible in phone thumbnail\",\n    \"Early preparation stage evident from exposed interior\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title declares 'bonito asado a la parrilla (ojael)' but image shows raw/preparation stage, not finished grilled dish\",\n    \"Species identity unconfirmed visually; source claims bonito but anatomical detail insufficient for verification\",\n    \"Severe contradiction between title (finished grilled dish) and actual image content (raw/early preparation)\"\n  ],\n  \"reason\": \"Rejection: Image depicts raw fish steaks or early preparation stage with exposed blood and uncooked tissue, not a finished, exposed, cooked dish. Title claims 'bonito asado a la parrilla' (grilled bonito) but photograph shows pre-cooking stage. Source species declaration ('bonito') cannot be independently verified from anatomy alone. Identity contradiction and failure of finished-dish requirement.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1752,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 381,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
