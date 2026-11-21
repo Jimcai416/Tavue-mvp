@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChFXdtGKvt4SqB4dZCLsj",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Golden-brown cooked pancake with crispy edges\",\n    \"Cheese visible beneath surface\",\n    \"Savoury Dutch-style pannenkoek appearance\",\n    \"Sharp detail in both full image and thumbnail\",\n    \"Natural lighting, appetising presentation\"\n  ],\n  \"phone_observations\": [\n    \"Pancake clearly visible and prominent in thumbnail\",\n    \"Golden colour and texture readable\",\n    \"No clipping of essential components\",\n    \"Plate edges visible, context clear\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title 'Pfanntastic Pannenkoek Haus' is a restaurant/venue name, not a dish description\",\n    \"No explicit dish name provided in source metadata\",\n    \"Cheese visible but no other protein animals explicitly named in source\",\n    \"Cannot confirm exact pannenkoek variant (cheese-only, ham-and-cheese, etc.) from metadata alone\"\n  ],\n  \"reason\": \"Identity check fails. The source provides only a restaurant name ('Pfanntastic Pannenkoek Haus'), not a canonical dish title or description. The photograph shows a savoury cheese pannenkoek with high quality, sharpness, lighting and appeal across both full and thumbnail views, but without an explicit source dish name or variant description, canonical_name cannot be assigned. No protein animals other than dairy are named in the source metadata. Hold pending explicit dish-name source documentation.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1749,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 468,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
