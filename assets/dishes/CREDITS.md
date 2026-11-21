@@ -13642,3 +13642,10 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Pollo al forno con patate e peperoni** — Ensahequ. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Pollo_al_forno_con_patate_e_peperoni.jpg). Local asset: `reviewed-commons-153404582.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Orxata i fartons** — Pacopac. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:2017_10_12_Orxata_i_fartons_a_l%27Orxateria_Vida,_Alboraia.jpg). Local asset: `reviewed-commons-85549211.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Fartons** — [Alejandro Castella](https://www.flickr.com/people/96497871@N08). [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:Fartons_a_go-go._(10115304746).jpg). Local asset: `reviewed-commons-49452474.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Horchata y fartóns** — Juan Emilio Prades Bel. [CC BY 4.0](https://creativecommons.org/licenses/by/4.0); [source](https://commons.wikimedia.org/wiki/File:Horchata_y_%22fart%C3%B3ns%22,_Horchater%C3%ADa_El_Collado,_Valencia,_Espa%C3%B1a.jpg). Local asset: `reviewed-commons-192843319.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Horchata mixta, fartóns y buñuelos, Valencia** — [https://www.flickr.com/photos/edans/](https://www.flickr.com/photos/edans/). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Horchater%C3%ADa_Fabi%C3%A1n.jpg). Local asset: `reviewed-commons-58507658.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
