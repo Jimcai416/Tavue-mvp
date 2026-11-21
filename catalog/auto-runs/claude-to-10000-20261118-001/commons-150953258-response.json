@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChGW5mPqMjENBG42Xbeim",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Brioche bun clearly visible with golden-brown exterior\",\n    \"Egg and cheese visible inside sandwich\",\n    \"Fresh green salad prominently displayed on white plate\",\n    \"Natural daylight, well-exposed full image and thumbnail\"\n  ],\n  \"phone_observations\": [\n    \"Sandwich and salad both clearly visible in thumbnail\",\n    \"Golden brioche bun prominent\",\n    \"Plate and plating legible\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title describes 'egg breakfast sandwich' but no specific dish name provided—generic descriptor only\",\n    \"Meat species in sandwich is not visible and not declared in source description; cannot confirm presence or type of protein beyond egg\",\n    \"Description is a category phrase ('Bitten brioche egg sandwich...') rather than a specific canonical dish name\"\n  ],\n  \"reason\": \"Rejection: Source title and description provide only a generic category phrase ('Bitten brioche egg sandwich on a plate with a side salad'), not a specific canonical dish name. No meat protein is visually identifiable or explicitly named in the source. The image is well-photographed and the food is appetizing, but without a specific source-declared dish identity and protein declaration, acceptance cannot proceed. Generic descriptors are insufficient for canonical_name.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1738,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 431,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
