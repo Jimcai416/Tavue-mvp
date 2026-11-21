@@ -13538,3 +13538,7 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 
 - **Spumone gelato** — [Ruth Hartnup  from Vancouver, Canada](https://www.flickr.com/people/95142644@N00). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Spumone_gelato_(9691247818).jpg). Local asset: `reviewed-commons-75430472.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Linguine al Pesto** — [Benoît Prieur](https://www.wikidata.org/wiki/Q42790984). [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Linguine_al_Pesto_-_Dell%27Anima_(Beynost).jpg). Local asset: `reviewed-commons-109951949.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Roasted lamb noisettes in rosemary sauce with minted boiled potatoes and peas** — Rodhullandemu. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Lamb_noisettes.jpg). Local asset: `reviewed-commons-76667905.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.

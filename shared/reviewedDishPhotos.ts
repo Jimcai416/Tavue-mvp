@@ -166759,5 +166759,29 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "height": 752,
     "requiresExactMenuName": true,
     "authorUrl": "https://www.wikidata.org/wiki/Q42790984"
+  },
+  {
+    "id": "commons-76667905",
+    "title": "File:Lamb noisettes.jpg",
+    "author": "Rodhullandemu",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lamb_noisettes.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/92/Lamb_noisettes.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "770d98fd71ab7469c33ddfccfe38e74c3c9925d6",
+    "name": "Roasted lamb noisettes in rosemary sauce with minted boiled potatoes and peas",
+    "aliases": [],
+    "proteins": [
+      "lamb"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-76667905.jpg",
+    "assetSha256": "8e43a6013c43239662a2312d3c501d6106c0c1dff3d563d62101b9c9cf68e383",
+    "reviewedAt": "2026-11-21",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 640,
+    "requiresExactMenuName": true
   }
 ];
