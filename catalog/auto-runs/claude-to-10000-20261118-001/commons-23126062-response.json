@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChG1AMVfQiKefjGXDnVz2",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": \"chicken gumbo with Andouille and tasso\",\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Finished, cooked dish with roux-based sauce\",\n    \"Prominent rice mound garnished with fresh parsley\",\n    \"Visible meat pieces in rich brown gravy\",\n    \"Appetising colour and plating on yellow bowl\"\n  ],\n  \"phone_observations\": [\n    \"Rice and meat components clearly visible at thumbnail scale\",\n    \"Sauce and garnish readable\",\n    \"No clipping of essential elements\"\n  ],\n  \"protein_evidence\": {\n    \"chicken\": \"chicken gumbo\"\n  },\n  \"uncertainties\": [\n    \"Andouille sausage species cannot be determined from visual inspection alone—source declares it but animal origin is not explicitly named in title/description\",\n    \"Tasso identity unverifiable visually; source declares it but species confirmation absent from metadata\"\n  ],\n  \"reason\": \"Image quality, composition, sharpness and phone thumbnail all meet acceptance criteria. However, protein_evidence rules require explicit animal-species naming in source title/description for sausage/tasso entries. The source states 'Andouille and tasso' without naming the animals they contain. Andouille is traditionally pork-based, and tasso is traditionally pork-based, but these are not explicitly declared in the supplied title. Per protocol, unknown or unspecified meat species must be held. Chicken is explicitly named and accepted. The two sausage/cured items cannot be added to protein_evidence without explicit animal identification in the source metadata.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1638,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 485,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
