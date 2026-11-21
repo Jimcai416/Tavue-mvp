@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChFagUdDHQ5qq9NMcngLw",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Whole cooked crab with dark carapace visible\",\n    \"Garlic-forward noodle dish beside crab\",\n    \"Fresh herbs (appears to be chives/scallions) garnish\",\n    \"White wine sauce evident on pasta\"\n  ],\n  \"phone_observations\": [\n    \"Crab and noodle dish clearly visible in thumbnail\",\n    \"Adequate detail to distinguish crustacean and pasta components\",\n    \"Cooked, exposed finished dish\",\n    \"Appetizing presentation\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'CRAB SPAGHETTI' but image shows whole crab with separate noodle side dish, not integrated pasta-and-crab composition\",\n    \"Menu description lists 'cherry tomatoes' but no visible red tomato pieces in photograph\",\n    \"Noodles appear to be thin egg noodles or Asian-style noodles, not spaghetti\",\n    \"Dish structure contradicts stated identity: whole crab served alongside noodles, not crab with spaghetti as single integrated dish\",\n    \"Cannot confirm seafood as the qualifying protein category from source text alone—source lists 'crab' but does not use the word 'seafood'\"\n  ],\n  \"reason\": \"Identity check fails: substantial mismatch between source title 'CRAB SPAGHETTI' and visible dish structure (whole crab plated separately from noodles, not an integrated pasta dish). Menu description lists cherry tomatoes as a component; none are visibly present. Noodle type does not match 'spaghetti' description. Protein category cannot be supported: source names 'crab' but does not explicitly use the word 'seafood,' and the allowed category key requires exact source terminology. Hold pending clarification of actual dish identity and ingredient accuracy.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1757,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 566,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
