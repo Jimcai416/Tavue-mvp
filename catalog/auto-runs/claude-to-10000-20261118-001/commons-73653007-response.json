@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChG8SafC92QUijnS8KEmD",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 3,\n    \"lighting\": 2,\n    \"composition\": 2,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Red branded packaging only, no visible food product\",\n    \"Text 'SWISS' legible but subject is wrapper, not dish\",\n    \"No distinguishable food detail in thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Actual chocolate product not visible—only airline gift packaging shown\",\n    \"Food content and type completely obscured by wrapper\"\n  ],\n  \"reason\": \"Rejection: Image shows only a red airline branded chocolate wrapper ('Thank you for flying SWISS') on a dark surface. No finished, exposed food dish is visible. The subject is packaging, not a photographed food item. The thumbnail confirms only the red wrapper is distinguishable. This fails identity (not a finished dish), quality (severe lighting/contrast issues, packaging glare), photograph (branded packaging, not food), and phone (no food detail visible). Printed food on packaging is explicitly excluded. No acceptable dish to review.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1726,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 350,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
