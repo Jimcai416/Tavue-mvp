@@ -13738,3 +13738,7 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 
 - **Tapa de queso y jamón** — [Manel  from Meliana, Valencia. Spain.](https://www.flickr.com/people/51035681884@N01). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Jam%C3%B3n_y_queso.jpg). Local asset: `reviewed-commons-5964223.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Ravioles argentinos caseros de jamón y queso con salsa de tomate y queso rallado** — Horacio Cambeiro. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Ravioles_argentinos_caseros_de_jam%C3%B3n_y_queso_con_salsa_de_tomate_y_queso_rallado.jpg). Local asset: `reviewed-commons-189927472.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Pumpkin soup with chestnuts** — [Luca Nebuloni  from Milan, Italy](https://www.flickr.com/people/7897906@N06). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Pumpkin_soup_with_chestnuts_(10513766303).jpg). Local asset: `reviewed-commons-50854424.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
