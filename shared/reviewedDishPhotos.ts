@@ -169614,5 +169614,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "height": 960,
     "requiresExactMenuName": true,
     "authorUrl": "https://www.flickr.com/people/35284396@N00"
+  },
+  {
+    "id": "commons-69948524",
+    "title": "File:St. Honoré cake with chocolate (DSCF4539).jpg",
+    "author": "Trougnouf",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:St._Honor%C3%A9_cake_with_chocolate_(DSCF4539).jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f6/St._Honor%C3%A9_cake_with_chocolate_%28DSCF4539%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "ab3bda1991a343d649f1e28283ea4a2647a46e5a",
+    "name": "St. Honoré cake with chocolate",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-69948524.jpg",
+    "assetSha256": "c693df3cfd67e5846f60f593422d5f6ef05f3de4ca3fcf4f76f84293f4d788f6",
+    "reviewedAt": "2026-11-21",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 514,
+    "requiresExactMenuName": true
   }
 ];

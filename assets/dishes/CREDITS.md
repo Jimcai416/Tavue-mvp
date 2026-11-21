@@ -13821,3 +13821,7 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 - **Spaghetti aglio olio e peperoncino** — Spaghetti_aglio_olio_e_peperoncino_by_matsuyuki_retouched.jpg  
  derivative work:  Jbarta  (  talk  ). [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:Aglio_e_olio.jpg). Local asset: `reviewed-commons-16450281.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **saffron risotto with orange, parsley & picholine olive** — [D.L.](https://www.flickr.com/people/35284396@N00). [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:Saffron_risotto_with_orange,_parsley_%26_picholine_olive_(2331749417).jpg). Local asset: `reviewed-commons-129029999.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **St. Honoré cake with chocolate** — Trougnouf. [CC BY 4.0](https://creativecommons.org/licenses/by/4.0); [source](https://commons.wikimedia.org/wiki/File:St._Honor%C3%A9_cake_with_chocolate_(DSCF4539).jpg). Local asset: `reviewed-commons-69948524.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
