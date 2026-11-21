@@ -163316,5 +163316,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 540,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-6882301",
+    "title": "File:Chopitos (limón) - 89.jpg",
+    "author": "Tamorlan",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chopitos_(lim%C3%B3n)_-_89.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/19/Chopitos_%28lim%C3%B3n%29_-_89.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "be26c690011fed37e07db0f50e9ae2c6be19db39",
+    "name": "Chopitos (limón)",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-6882301.jpg",
+    "assetSha256": "f7de7f3ecbef5c9bbc1f9945cff222fda56b1172aeb6851c1af253ddeb7bcd74",
+    "reviewedAt": "2026-11-21",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 640,
+    "requiresExactMenuName": true
   }
 ];

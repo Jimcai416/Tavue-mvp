@@ -13180,3 +13180,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Tarte aux pommes de Colette** — Bycro. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Tarte_aux_pommes_de_Colette_01.jpg). Local asset: `reviewed-commons-104058652.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Chopitos (limón)** — Tamorlan. [CC BY 3.0](https://creativecommons.org/licenses/by/3.0); [source](https://commons.wikimedia.org/wiki/File:Chopitos_(lim%C3%B3n)_-_89.jpg). Local asset: `reviewed-commons-6882301.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
