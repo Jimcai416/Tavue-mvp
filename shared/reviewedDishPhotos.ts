@@ -169680,5 +169680,29 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-52474816",
+    "title": "File:Tortellini-con-panna-e-bacon.jpg",
+    "author": "Albertomos",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tortellini-con-panna-e-bacon.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/16/Tortellini-con-panna-e-bacon.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "5149ecd7ab38b9154cdf9030a6eb08677c61dc7e",
+    "name": "Tortellini con panna e bacon",
+    "aliases": [],
+    "proteins": [
+      "pork"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-52474816.jpg",
+    "assetSha256": "9e41bf7e9ceef979ddd39809188d2d6d5259cb581b6a21fa00297d37237498ba",
+    "reviewedAt": "2026-11-21",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];
