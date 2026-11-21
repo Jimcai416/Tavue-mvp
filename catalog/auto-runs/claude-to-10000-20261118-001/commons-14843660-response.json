@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChGPMksTuA8Agekxds4t2",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": true,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 2,\n    \"appeal\": 1\n  },\n  \"visible_support\": [\n    \"Raw/uncooked pork feet with visible hooves and minimal processing\",\n    \"Butcher display case setting, not a prepared dish\",\n    \"Price label indicates retail/butcher counter context, not plated food\",\n    \"Feet arranged in raw state without cooking, sauce, or serving preparation\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail shows raw meat with minimal distinguishing detail\",\n    \"Essential context (raw state, butcher display) not recoverable at phone scale\",\n    \"Insufficient visual prominence of any finished dish component\"\n  ],\n  \"protein_evidence\": {\n    \"pork\": \"Pork feet\"\n  },\n  \"uncertainties\": [],\n  \"reason\": \"Rejection: source description and photograph show raw pork feet in a butcher display case, not a finished, cooked, or exposed dish ready for consumption. This is a preparation-stage or raw ingredient photograph, not a photographed meal or prepared food item. The handwritten label indicates retail pricing at a butcher counter. Phone thumbnail is too low-contrast and shows only uncooked meat. Tavue criteria require a finished, cooked, appetising dish with natural colour and prominent, readable components—this fails the core requirement of being an exposed, finished dish.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1733,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 417,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

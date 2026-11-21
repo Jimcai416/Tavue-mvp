@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChGPMkry8zHmbdtZaZ4R8",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 2,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Oysters visible in phone thumbnail but severely compressed and unclear\",\n    \"Central subject recognizable as raw shellfish on ice/plate\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title 'Oysters! Galway' is minimal and contains no specific dish name or preparation descriptor\",\n    \"Image shows raw oysters on the half-shell with lemon and condiments, but source provides no canonical dish name to match against\",\n    \"No finished, cooked dish evident—raw oysters in natural state\",\n    \"Full photograph has poor sharpness (motion blur, low light), inadequate lighting consistency, and colour cast issues\",\n    \"Cannot confirm specific regional variant or preparation name from source metadata alone\"\n  ],\n  \"reason\": \"Reject: Source title 'Oysters! Galway' is insufficient to establish a canonical_name—it contains no specific dish descriptor, preparation method, or variant qualifier. The image shows raw oysters (not a finished, cooked dish), and the full photograph exhibits significant quality defects: poor sharpness (motion blur visible), inconsistent/low lighting, and colour casts. Although oysters on the half-shell are acceptable as food photography, the combination of inadequate source documentation and photograph quality below the required standard (sharpness score 2, lighting score 2) prevents acceptance. A proper canonical name requires an exact source quote describing the finished dish; metadata alone does not constitute evidence.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1730,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 466,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
