@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChFEwPH5ieqPWLGiiTBkf",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Cooked sausages with caramelised exterior and char marks\",\n    \"Roasted potato wedges with herbs and seasoning\",\n    \"Shredded golden sauerkraut\",\n    \"Pink/red stewed cabbage visible\",\n    \"Fresh chive garnish\",\n    \"Cardboard takeaway container\",\n    \"Natural colours and appetising presentation\"\n  ],\n  \"phone_observations\": [\n    \"Sausages, potatoes, sauerkraut and red cabbage all visible and readable in thumbnail\",\n    \"Dish components clearly distinguishable\",\n    \"Overall composition preserved in reduction\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title states 'bratwurst' but generic term 'sausage' type is unspecified—bratwurst is a traditional German sausage category, but no explicit animal species (pork/beef/chicken) is named in the title or description\",\n    \"Description lists component ingredients but does not explicitly identify the sausage species\"\n  ],\n  \"reason\": \"The photograph is sharp, well-lit, properly composed and appetising, with all dish components clearly visible in both full and phone formats. However, the source title and description refer to 'bratwurst' without explicitly naming the meat species (pork, beef, chicken, etc.). Protocol requires exact source quote naming each animal for protein evidence. 'Bratwurst' alone is a sausage category, not a species declaration. No other component qualifies as a named protein category. Identity check fails because no supported protein can be verified from explicit species naming in the source metadata.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1777,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 505,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

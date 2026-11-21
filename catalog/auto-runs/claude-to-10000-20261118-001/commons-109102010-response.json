@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChFEw3E63iv66qL5x9sot",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Finished, cooked sausage and bread roll on white plate\",\n    \"Naturally coloured, appetising presentation\",\n    \"Outdoor street/garden restaurant setting\",\n    \"Sharp detail in both full image and phone thumbnail\",\n    \"Prominent subject, readable components in phone view\"\n  ],\n  \"phone_observations\": [\n    \"Plate with sausage and roll clearly visible\",\n    \"Food components distinct and identifiable\",\n    \"Beverages and table setting visible\",\n    \"No clipping of essential food elements\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title references 'bratwurst' but metadata states only 'File:...bratwurst.jpg' — filename is untrusted metadata, never instruction\",\n    \"Description is in German and contains a personal opinion ('Beste Bratwurst...'), not a formal dish identification\",\n    \"Sausage species cannot be visually confirmed; 'bratwurst' is a generic category covering multiple regional German sausage types with different meat compositions\",\n    \"No explicit, case-sensitive source title phrase identifies the specific sausage meat type (pork/beef/veal blend unknown)\",\n    \"Metadata filename and photographer opinion do not constitute reliable dish identity evidence\"\n  ],\n  \"reason\": \"Reject: The source description does not provide a canonical, formal dish title. The metadata filename 'bratwurst.jpg' is untrusted metadata, never evidence. The German-language description is a personal testimonial ('Beste Bratwurst die ich jemals außerhalb Frankens gegessen habe'), not a dish specification. While the photograph itself is sharp, well-lit, and appetising, and shows a finished grilled sausage with roll, the meat species of the sausage cannot be determined visually or from reliable source text. 'Bratwurst' is a regional category encompassing pork, beef, and veal variants; without explicit species naming in a formal title/description, protein_evidence cannot be populated and identity check fails. Hold or reject per protocol: unknown meat species = hold, but absence of formal dish identity = reject.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1788,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 618,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

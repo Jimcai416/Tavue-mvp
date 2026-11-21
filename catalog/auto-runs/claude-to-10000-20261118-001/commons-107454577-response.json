@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChFEvvQZP8saaYKV6FStX",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Seeded bread roll with caramelised crust\",\n    \"Caramelised sauerkraut filling visible and prominent\",\n    \"Red onion slices as garnish\",\n    \"Two sausages with scorched casings (bratwurst-like)\",\n    \"Mustard accompaniment (yellow, right side)\",\n    \"White plate, restaurant setting\",\n    \"Sharp detail throughout full image and thumbnail\"\n  ],\n  \"phone_observations\": [\n    \"Bread roll and sauerkraut filling clearly visible in centre-cover\",\n    \"Sausages recognisable in thumbnail\",\n    \"Overall composition and subject prominence retained\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source metadata states 'Bratwurst' but metadata are untrusted evidence and cannot be used to identify animal species\",\n    \"Sausage species cannot be visually confirmed from appearance alone\",\n    \"No explicit animal identification visible in the photograph itself\"\n  ],\n  \"reason\": \"Identity check fails: sausage/meat species cannot be visually proven from the photograph. The source metadata naming 'Bratwurst' is untrusted evidence and cannot substitute for visual confirmation. The instruction prohibits inferring species from tradition, appearance, or generic 'meat/sausage' labels. No readable packaging or explicit visual identifier confirms the animal source. All quality and photograph checks pass, but protein_evidence cannot be populated with any allowed category, triggering mandatory hold per protocol. Reject rather than hold because sausage identity is fundamental to the dish identity and remains unresolvable.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1770,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 498,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChFEw8ttr1UJvNdjqMJs2",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 2,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Person dominates frame, occupying ~70% of phone thumbnail\",\n    \"Food item is small and peripheral in thumbnail composition\",\n    \"Sausage/bread visible but not the primary subject\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'bratwurst' but description says 'currywurst stand' – conflicting identities\",\n    \"Sausage species cannot be visually distinguished; 'bratwurst' is a category, not a specific animal protein\",\n    \"No explicit animal protein named in source (bratwurst and currywurst are preparation styles, not species declarations)\"\n  ],\n  \"reason\": \"Reject: Primary subject is a person, not the food. Food is minimal, partially obscured, and peripheral in both full and phone images, failing the requirement for 'prominent' and 'prominent in phone thumbnail' presentation. Title and description conflict ('bratwurst' vs 'currywurst stand'). Sausage species is unspecified and unidentifiable from appearance; 'bratwurst' and 'currywurst' describe preparation, not the animal protein required. Composition score reflects person-centric framing inappropriate for dish review.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1564,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 415,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

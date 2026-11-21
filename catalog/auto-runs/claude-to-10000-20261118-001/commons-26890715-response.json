@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChFEvzuvyVBdQpVsrfyYy",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Toasted rye bread with visible seed crust\",\n    \"Scrambled eggs with black pepper and shallot garnish\",\n    \"Layered protein component between bread and eggs\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows stacked composition\",\n    \"Rye bread base distinguishable\",\n    \"Yellow scrambled eggs visible and prominent\",\n    \"Dark protein layer visible between bread and eggs\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title declares 'røget sild' (smoked herring), but the protein layer appears pale/translucent in colour, inconsistent with typical smoked herring appearance\",\n    \"Visual morphology of protein component does not match expected herring fillet appearance\",\n    \"Cannot definitively confirm the declared smoked herring species from photograph alone\"\n  ],\n  \"reason\": \"Reject: Identity check fails. The source title declares 'Ristet rugbrød med røget sild, røræg og skalotteløg' (Toasted rye bread with smoked herring, scrambled eggs and shallots). However, the protein layer visible in the photograph appears inconsistent with smoked herring—the colour, texture and translucent appearance suggest a different protein species (possibly fish, but not visibly identifiable as herring). Visual evidence contradicts the declared identity. Ambiguous or unconfirmable protein species meets hold/reject criteria. No protein_evidence key populated because the herring identity cannot be visually confirmed and the actual species remains unclear.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1681,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 490,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
