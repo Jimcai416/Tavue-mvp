@@ -14196,3 +14196,7 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 
 - **Sauté d'agneau** — Marianne Casamance. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Bistrot_de_Pays_-_Saut%C3%A9_d%27agneau.JPG). Local asset: `reviewed-commons-36704913.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Curry pork saute** — [yoppy  from Kawasaki, Kanagawa, Japan](https://www.flickr.com/people/44124362019@N01). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Curry_pork_saute.jpg). Local asset: `reviewed-commons-52918270.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Patatas paja** — Tamorlan. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Patatas_paja-10.jpg). Local asset: `reviewed-commons-9388046.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
