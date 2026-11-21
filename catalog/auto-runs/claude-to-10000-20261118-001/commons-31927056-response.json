@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChGu6o2WryM2X14wgNzhG",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Full image shows multiple pastries in a bakery display setting\",\n    \"Laminated dough visible in spirals and swirls\",\n    \"Golden-brown baked finish consistent with Danish pastry\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail shows only a narrow horizontal slice of two pastries\",\n    \"Essential food components are severely clipped at frame edges\",\n    \"Individual pastry identity and form cannot be determined from thumbnail alone\",\n    \"Inadequate coverage for confident dish identification\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Generic title 'Danish pastry' does not specify individual pastry type, filling, or topping variant\",\n    \"Phone thumbnail crops away essential identifying features\",\n    \"Without visible specific variant (cinnamon swirl, almond, chocolate, etc.) or clearer thumbnail framing, exact canonical name cannot be established\"\n  ],\n  \"reason\": \"Rejection: The 124x96 phone thumbnail provides insufficient visual coverage. Essential pastry components and individual dish identity are clipped at the frame boundaries, preventing confident recognition in a small-format display context. The source title is generic ('Danish pastry') without specifying the actual variant, filling, or distinctive topping. While the full photograph shows quality baking and appealing presentation, the phone thumbnail fails the display requirement. Tavue's intake requires both full image and phone thumbnail to support the same confident identification.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1727,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 455,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
