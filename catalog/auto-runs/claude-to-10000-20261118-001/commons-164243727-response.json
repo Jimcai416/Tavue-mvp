@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChG3AsJnMsHpj3PVTQb8c",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 3,\n    \"lighting\": 3,\n    \"composition\": 2,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Growing plants in soil, not a prepared dish\",\n    \"Leaves and stems visible but no finished food product\",\n    \"Agricultural/farm stage, not cooked or plated\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title references cucumbers and gherkins but image shows growing plants, not a prepared dish\",\n    \"No finished, exposed, cooked or plated food visible\"\n  ],\n  \"reason\": \"Image shows raw growing plants in a field or garden under plastic covering, not a finished photographic dish. This is a preparation/agriculture stage, not a prepared meal suitable for food review. The title metadata references 'Concombres et cornichons' (cucumbers and gherkins) but the actual image is of living plants, not a finished dish. Rejected per requirement: 'raw/preparation stages' are not acceptable.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1737,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 338,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
