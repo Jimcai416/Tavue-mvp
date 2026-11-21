@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChFYfjFH5Db528F5rN41u",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 3,\n    \"lighting\": 3,\n    \"composition\": 3,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Pasta visible in thumbnail but pale/washed appearance\",\n    \"Vegetable garnish (tomato, zucchini) prominent in phone view\",\n    \"No visible cheese sauce or Gorgonzola coloration in either image\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title declares 'Gorgonzola linguine' but no blue-veined cheese is visibly apparent in the full photograph or thumbnail\",\n    \"Pasta appears to be plain or lightly dressed, without the characteristic creamy blue-cheese sauce expected of Gorgonzola linguine\",\n    \"Plate shows only vegetable garnish (sliced tomato, zucchini strips) with pasta; identity mismatch between declared dish and visible contents\"\n  ],\n  \"reason\": \"Identity check failed. Source title declares 'Gorgonzola linguine' but the visible dish shows plain or very lightly dressed pasta with vegetable garnish only. No Gorgonzola cheese sauce, blue cheese coloration, or creamy coating is apparent in either the full photograph or phone thumbnail. The dish as photographed does not match the stated identity. Quality and photograph checks pass, but identity mismatch is a disqualifying defect.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1730,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 428,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
