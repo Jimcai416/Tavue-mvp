@@ -13069,3 +13069,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 
 - **Matcha & Red Bean soufflé pancakes** — Andy Li. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Matcha_%26_Red_Bean_souffl%C3%A9_pancakes_-_Rawlab_2025-08-31.jpg). Local asset: `reviewed-commons-174106837.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Parmesan souffle omelette** — Andy Li. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Parmesan_souffle_omelette_-_Caf%C3%A9_des_Couleurs_2025-04-03.jpg). Local asset: `reviewed-commons-163141822.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Soufflé au fromage** — Pierre-alain dorange. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Souffl%C3%A9.JPG). Local asset: `reviewed-commons-30292390.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.

@@ -162460,5 +162460,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 723,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-30292390",
+    "title": "File:Soufflé.JPG",
+    "author": "Pierre-alain dorange",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Souffl%C3%A9.JPG",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/70/Souffl%C3%A9.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "5b2e6dafb83a5649e7c0d6b94297657e62c5681d",
+    "name": "Soufflé au fromage",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-30292390.jpg",
+    "assetSha256": "62ac231175a9c0e5899dc3b080812f892f4e0771364928b7b203805cd437987d",
+    "reviewedAt": "2026-11-21",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 638,
+    "requiresExactMenuName": true
   }
 ];
