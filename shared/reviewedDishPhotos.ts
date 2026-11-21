@@ -166211,5 +166211,29 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 916,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-129224285",
+    "title": "File:Maya Spaghetti - Maya - March 2023 - Sarah Stierch.jpg",
+    "author": "Missvain",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Maya_Spaghetti_-_Maya_-_March_2023_-_Sarah_Stierch.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Maya_Spaghetti_-_Maya_-_March_2023_-_Sarah_Stierch.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "15dfd0bc738f7d3e8a73300a6fd4b2ddf89e4030",
+    "name": "Maya spaghetti with shrimp",
+    "aliases": [],
+    "proteins": [
+      "seafood"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-129224285.jpg",
+    "assetSha256": "955e808ae156de5e800e5adf784c0586bba95188e0a0035d564f6f391922decc",
+    "reviewedAt": "2026-11-21",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];

@@ -13478,3 +13478,7 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Tortelloni Anton** — Derbrauni. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Tortelloni_Anton.jpg). Local asset: `reviewed-commons-63097130.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Maya spaghetti with shrimp** — Missvain. [CC BY 4.0](https://creativecommons.org/licenses/by/4.0); [source](https://commons.wikimedia.org/wiki/File:Maya_Spaghetti_-_Maya_-_March_2023_-_Sarah_Stierch.jpg). Local asset: `reviewed-commons-129224285.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
