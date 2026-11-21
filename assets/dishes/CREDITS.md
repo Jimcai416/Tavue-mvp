@@ -13837,3 +13837,7 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Tortellini con panna e bacon** — Albertomos. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Tortellini-con-panna-e-bacon.jpg). Local asset: `reviewed-commons-52474816.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Lobster Newburg** — stu_spivack. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Lobster_Newburg.jpg). Local asset: `reviewed-commons-45331839.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.

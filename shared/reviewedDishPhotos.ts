@@ -169704,5 +169704,29 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-45331839",
+    "title": "File:Lobster Newburg.jpg",
+    "author": "stu_spivack",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lobster_Newburg.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/27/Lobster_Newburg.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "8c613666a2e8953f2a4f3376f0442daa1d7c2035",
+    "name": "Lobster Newburg",
+    "aliases": [],
+    "proteins": [
+      "seafood"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-45331839.jpg",
+    "assetSha256": "8a901d849689f0a278b104a9ad191c42ac2f7fe5ec0dd333302fb95137bda1d8",
+    "reviewedAt": "2026-11-21",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 670,
+    "requiresExactMenuName": true
   }
 ];
