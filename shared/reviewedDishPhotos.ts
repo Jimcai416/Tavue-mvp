@@ -168188,5 +168188,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 636,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-80055304",
+    "title": "File:Granizado de leche rizada espolvoreado con canela.jpg",
+    "author": "Ddrazir",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Granizado_de_leche_rizada_espolvoreado_con_canela.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Granizado_de_leche_rizada_espolvoreado_con_canela.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "5fb3d8104b45bb19f753b928b4694a204e7e6eeb",
+    "name": "Granizado de leche rizada espolvoreado con canela",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-80055304.jpg",
+    "assetSha256": "6b70bc59d9374e869430fe36399fbba6747e96d4f0fb62060644f77154581045",
+    "reviewedAt": "2026-11-21",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 932,
+    "requiresExactMenuName": true
   }
 ];
