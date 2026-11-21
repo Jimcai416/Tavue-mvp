@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChFBhtvJpTDokT9Nx1B5b",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Meat being carved at table with knife and fork visible\",\n    \"Dark brown/burgundy cooked meat on wooden board\",\n    \"Preparation/service action dominates the frame\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Species identity unconfirmed: 'game' is too generic; Rehrücken traditionally means venison (deer) but source says 'game' which could include multiple unspecified wild animals\",\n    \"Image shows active carving/service rather than finished plated dish\"\n  ],\n  \"reason\": \"Rejection: This photograph captures a preparation/service stage (active carving at table) rather than a finished, exposed, plated dish ready for consumption. The meat species cannot be confirmed from appearance alone—the source title 'Rehrücken' suggests venison/deer, but the metadata description uses only the generic term 'game' without explicit species confirmation. Per guidelines, ambiguous meat species (including unspecified game) must be held. Additionally, the dominant action is cutting/service rather than presentation of a complete dish.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1744,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 386,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
