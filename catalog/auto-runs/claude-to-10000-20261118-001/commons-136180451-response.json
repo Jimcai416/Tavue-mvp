@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChFSf9rQKJ5WtR6dh1oBx",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Multiple prepared appetisers on wooden board visible in full image and thumbnail\",\n    \"Cured meat slices with garnish (asparagus, peppers)\",\n    \"Bowl of olives and marinated items\",\n    \"Fresh berries in white bowl\",\n    \"Wine and table setting\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail shows wooden table with multiple tapas items arranged on serving board\",\n    \"Cured meat preparations prominent and recognisable\",\n    \"Bowl contents visible but individual dish identity unclear in thumbnail\",\n    \"Overall spread composition clear\"\n  ],\n  \"protein_evidence\": {\n    \"pork\": \"rillettes de porc\",\n    \"seafood\": \"marinated anchovy\"\n  },\n  \"uncertainties\": [\n    \"Source describes 'tapas for lunch' (a category/meal type, not a singular dish name)\",\n    \"Multiple distinct preparations are listed: egg mayo, saucisson, smoked ham, rillettes, anchovies, olives, asparagus, pimentos\",\n    \"No single canonical dish identity can be extracted; this is a composed board/platter of mixed items\",\n    \"Thumbnail shows the overall spread but does not isolate or identify a specific finished dish\",\n    \"Saucisson species is unspecified (pork is implied but not explicitly named)\",\n    \"Ham type is described only as 'smoked ham' without species or regional qualifier\"\n  ],\n  \"reason\": \"Rejection: The source material describes a 'tapas for lunch' platter—a composed board containing multiple distinct preparations (egg mayo, saucisson, smoked ham, rillettes, anchovies, etc.), not a single finished dish. The image shows an appetiser spread or board rather than one identifiable dish with a canonical name. Identity cannot be established as a specific, singular dish. While photograph and phone thumbnail quality are acceptable and proteins are documented, the subject fails the identity check: it is a mixed tapas board, not a named, specific dish suitable for Tavue's food photograph database.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1632,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 600,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
