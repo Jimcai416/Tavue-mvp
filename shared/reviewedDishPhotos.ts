@@ -169728,5 +169728,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 670,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-142114134",
+    "title": "File:Anko & butter bread 2023-12-10.jpg",
+    "author": "Andy Li",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Anko_%26_butter_bread_2023-12-10.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Anko_%26_butter_bread_2023-12-10.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "e6d13a6e3fd8e758fa4df117d86ca2c6117e8088",
+    "name": "Anko & butter bread",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-142114134.jpg",
+    "assetSha256": "8f164985decf75dc4976d117fc5d173271767d69f51faf2f7e5c4c2e82ae2fa3",
+    "reviewedAt": "2026-11-21",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 720,
+    "height": 960,
+    "requiresExactMenuName": true
   }
 ];
