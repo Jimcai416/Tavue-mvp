@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChFLARg9Xe8tFHPgRTKf4",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Whole fish, squid, seafood clearly visible and cooked\",\n    \"Terra-cotta bowl typical of regional Italian seafood preparations\",\n    \"Broth/sauce base in bowl\",\n    \"Natural colour and exposed finished dish\"\n  ],\n  \"phone_observations\": [\n    \"Seafood components prominent in thumbnail\",\n    \"Dish identity legible at small size\",\n    \"Cooked, finished state apparent\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'Mezza porzione di cacciucco alla livornese' but visible components do not match standard cacciucco composition: whole fish and squid dominate, but cacciucco typically features mixed fish pieces, shellfish (clams, mussels, langoustines), and tomato-based broth. This appears to be a simplified or modified preparation.\",\n    \"Exact seafood species cannot be reliably identified from visual appearance alone (fish type, squid identification ambiguous).\",\n    \"Source title is 'File:Mezzo cacciucco alla livornese, 2026.jpg' (filename with date), and description claims 'zuppa di pesce della cucina locale' — but the filename is a system artifact, not a dish name. The description is generic and does not match the specific visual content reliably.\",\n    \"No explicit source text naming individual seafood species in the title or description to satisfy protein_evidence rules.\"\n  ],\n  \"reason\": \"Identity check fails: source title/description claims 'cacciucco alla livornese' but the visual composition—dominated by a large whole fish and squid with minimal mixed seafood and broth—does not match the traditional or documented form of this Livorno fish soup. Cacciucco typically contains diced or chunked mixed fish, shellfish (clams, mussels), and a tomato broth; this dish appears to be a different preparation or significant regional variant not supported by the source description. Additionally, no explicit seafood species are named in the source text, so protein_evidence cannot be populated under review rules. The source title is extracted from a filename (a system artifact), and the description is too generic to establish reliable identity. Reject due to identity mismatch and insufficient specific source evidence.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1929,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 649,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
