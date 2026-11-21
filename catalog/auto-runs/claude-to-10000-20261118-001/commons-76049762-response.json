@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChF94mPc3oZVMyFWHtxcJ",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Neapolitan-style pizza with charred crust\",\n    \"Dark red/burgundy cured meat slices (bresaola) prominent across surface\",\n    \"Fresh green arugula/rocket scattered throughout\",\n    \"Shaved white cheese (parmesan) visible\",\n    \"Pine nuts (pignons de pin) scattered on top\",\n    \"Tomato base visible at edges\",\n    \"Served on white plate\"\n  ],\n  \"phone_observations\": [\n    \"Pizza subject fully visible and prominent in thumbnail\",\n    \"Burgundy meat slices clearly readable\",\n    \"Green arugula and white cheese garnish visible\",\n    \"Overall composition and toppings identifiable at phone size\"\n  ],\n  \"protein_evidence\": {\n    \"beef\": \"bresaola\"\n  },\n  \"uncertainties\": [\n    \"Source title states 'pizza provenzale' but description lists 'bresaola' as meat topping. Provençale pizza traditionally features anchovies and olives, not bresaola. The actual dish shown matches the ingredients list (bresaola, rocket, parmesan, pine nuts) but contradicts the 'provenzale' designation.\",\n    \"Source lists 'tomates green zébra' (zebra tomatoes) but these are not visibly distinguishable in the photograph—only a red tomato base is evident.\"\n  ],\n  \"reason\": \"Source title–description mismatch prevents confident identity verification. The title claims 'pizza provenzale' but the detailed ingredient list (bresaola, roquette, parmesan, pignons de pin) describes a different pizza type, and there is no visual evidence of the 'tomates green zébra' listed. While photograph and phone thumbnail quality are acceptable and all visual scores meet threshold, the unresolved contradiction between canonical title and actual ingredients creates uncertainty about which exact dish name should be recorded. Hold pending clarification of authoritative dish identity.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1778,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 579,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

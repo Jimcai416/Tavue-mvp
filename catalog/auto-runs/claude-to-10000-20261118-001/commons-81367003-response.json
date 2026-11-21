@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChF95J5aSwYUynvhAci2b",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Raw beef slices with salt crystals and garnish visible\",\n    \"Paper presentation typical of charcuterie service\",\n    \"Natural colour and texture of raw cured meat\"\n  ],\n  \"phone_observations\": [\n    \"Salt-crusted meat slices clearly visible in thumbnail\",\n    \"Paper substrate and plating visible\",\n    \"Sufficient detail to identify raw preparation state\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Bresaola is a finished, cured product but depicted here in raw/sliced preparation stage, not as a completed plated dish\",\n    \"Title claims 'dry aged and salted' (preparation descriptor) rather than a finished served dish identity\",\n    \"Presentation is cured meat slices on paper, not a recognisable finished dish composition\"\n  ],\n  \"reason\": \"Identity check fails. The source describes preparation stages ('dry aged and salted') of a raw meat product rather than a finished, exposed, cooked or conclusively plated dish. Bresaola as a cured meat is acceptable in principle, but this image shows thinly sliced raw cured beef on paper—a preparation or charcuterie board component, not a finished dish with identifiable structure, cooking, or plating. The photograph quality and phone thumbnail are acceptable, but the subject does not meet the requirement for 'a finished, exposed, likely photographic dish' with readable essential components in full presentation context. Reject.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1731,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 464,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
