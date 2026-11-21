@@ -13085,3 +13085,8 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Spaghetti vongole** — Naotake Murayama. [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Spaghetti_vongole_seafood.jpg). Local asset: `reviewed-commons-51314232.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Liège waffle** — Valereee. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Li%C3%A8ge_waffles_on_a_plate.jpg). Local asset: `reviewed-commons-145070861.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Weißwurst, Regensburger, Stockwurst & Breze** — Gerda Arendt. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Munich,_Wei%C3%9Fwurst_%26_Breze.jpg). Local asset: `reviewed-commons-201978037.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
