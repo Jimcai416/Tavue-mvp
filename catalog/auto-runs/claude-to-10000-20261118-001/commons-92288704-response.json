@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChFNQaJvk1pEAeERSNFth",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 1,\n    \"lighting\": 1,\n    \"composition\": 2,\n    \"appeal\": 0\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Extremely low resolution thumbnail shows indistinct figures on beach\",\n    \"No readable food detail visible in phone thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title references oyster park (Parc aux huitres) but this is a historical archival photograph of workers/people at an oyster farming location, not a prepared dish photograph\",\n    \"Image depicts oyster farming/processing activity, not a finished, exposed, plated food dish\",\n    \"Severe deterioration, age damage, and poor reproduction quality of historical postcard\"\n  ],\n  \"reason\": \"Reject: This is a historical archival postcard (vintage Côte d'Argent/Arcachon scene) depicting oyster park workers and processing activity on a beach, not a finished dish photograph. It is an illustration of a historical scene/document, not food photography. The image fails multiple acceptance criteria: no finished, exposed, appetising dish is present; severe image degradation and age damage (not fresh food photography); no readable components in phone thumbnail; and the subject is occupational/historical documentation rather than a food dish suitable for restaurant review. All quality scores fall well below threshold.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1567,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 407,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

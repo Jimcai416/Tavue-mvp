@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChFNQpN2aGY3PXM8s3Yfy",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 3,\n    \"lighting\": 2,\n    \"composition\": 2,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows active cooking stage in a wok/pan with translucent/pale segments and browning\",\n    \"No finished plating or complete dish presentation visible\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Frog legs are not an approved protein category (permitted categories: chicken, beef, pork, duck, lamb, seafood only)\",\n    \"Image shows preparation/cooking stage, not a finished, exposed, plated dish\"\n  ],\n  \"reason\": \"Rejection on multiple grounds: (1) Subject is frog legs, which falls outside the permitted protein categories (chicken/beef/pork/duck/lamb/seafood). The source metadata names 'Frogs legs' explicitly, but this species is not an allowed protein category. (2) The photograph captures an active cooking stage in a pan with ingredients still being prepared, not a finished, exposed dish with appetising presentation. (3) Lighting is dim with uneven glare on pan surface. (4) Composition shows kitchen/cooking context rather than food presentation. (5) Quality scores fall below the required minimum of 4 across multiple dimensions. This is a preparation-stage cooking photograph, not a finished food product suitable for Tavue's collection.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1634,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 419,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

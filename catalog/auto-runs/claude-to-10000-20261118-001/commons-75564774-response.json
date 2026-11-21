@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChFNQg6S8EwCsB86hSv6M",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 0,\n    \"lighting\": 0,\n    \"composition\": 0,\n    \"appeal\": 0\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows dense green foliage/vegetation only\",\n    \"No food subject visible in phone centre-cover\",\n    \"Cannot identify any dish, prepared food, or edible components\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title references 'Chouchou' and location 'Voile de la Mariée' but source is a landscape/garden photograph, not food\",\n    \"No finished, exposed, or plated dish evident in either full image or thumbnail\"\n  ],\n  \"reason\": \"This is a landscape/garden photograph of dense green foliage and hedgerows with a narrow path or stream visible. It is not a photograph of food. Despite the title referencing 'Chouchou' (which may be a food term in some contexts), the actual image content is entirely vegetation—no prepared dish, plated food, or edible subject is visible or recognizable in the full photograph or thumbnail. This fails the core requirement of accepting only finished, exposed, likely photographic dishes.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1540,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 373,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
