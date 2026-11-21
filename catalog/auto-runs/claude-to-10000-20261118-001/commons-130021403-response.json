@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChFL3oVNPZ2rpngKAdsfn",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Orange tomato-based sauce visible in both images\",\n    \"Mixed seafood with visible shells (clams, mussels) and fish pieces\",\n    \"Lemon wedge garnish present\",\n    \"Fresh herb garnish (parsley/cilantro) on top\",\n    \"Cooked vegetables visible (peppers, possibly artichoke)\"\n  ],\n  \"phone_observations\": [\n    \"Stew composition clearly visible in thumbnail\",\n    \"Shell-based seafood (clams/mussels) visible in reduced form\",\n    \"Orange sauce colour and lemon wedge identifiable\",\n    \"Overall dish form recognizable as seafood stew\"\n  ],\n  \"protein_evidence\": {\n    \"seafood\": \"sea bass, salmon, clams, mussels\"\n  },\n  \"uncertainties\": [\n    \"Source title states 'Cacciucco' but metadata lists ingredients including 'clams' and 'mussels' which are not permitted protein categories per instructions (clams not in allowed list, mussels not explicitly in allowed list)\",\n    \"Protein category 'seafood' is not a valid allowed category; only specific types are permitted: chicken/beef/pork/duck/lamb/seafood. 'Seafood' is too generic and contains non-permitted species (clams, mussels)\",\n    \"Cannot verify individual fish species (sea bass, salmon) are visually distinct or separable in the dish\"\n  ],\n  \"reason\": \"The source description lists clams and mussels as protein components. The instructions explicitly restrict protein_evidence keys to chicken/beef/pork/duck/lamb/seafood, and further state 'do not use sausage/rabbit/clams' as keys and do not guess species. Clams are explicitly forbidden as a protein key. Mussels are shellfish not in the permitted categories. While cacciucco is a legitimate Italian seafood stew and the photograph shows a well-composed, appetising dish with appropriate quality, the protein evidence cannot be validated because the declared proteins include prohibited shellfish species (clams) that cannot be accepted under the stated rules. Hold would be appropriate if only the shellfish category were uncertain, but the explicit prohibition of clams as a protein key forces rejection.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 2049,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 647,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
