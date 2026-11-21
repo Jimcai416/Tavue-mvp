@@ -171889,5 +171889,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-104888374",
+    "title": "File:Hongos al ajillo.jpg",
+    "author": "Wotancito",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hongos_al_ajillo.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Hongos_al_ajillo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "a6ff3179986cdc08536f6baa55c8bf4a85b758f1",
+    "name": "Hongos al ajillo",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-104888374.jpg",
+    "assetSha256": "b1796e1ede96cc507d21c147bf374cf84d687deaa4ed0692717581e7fa9f5857",
+    "reviewedAt": "2026-11-21",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 720,
+    "height": 960,
+    "requiresExactMenuName": true
   }
 ];

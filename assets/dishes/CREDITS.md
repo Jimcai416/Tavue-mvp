@@ -14056,3 +14056,7 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 
 - **Gebackener saarländischer Fleischkäse** — Sol Octobris. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Saarl%C3%A4ndischerFleischk%C3%A4seL1160689_(2).jpg). Local asset: `reviewed-commons-81821914.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **palacinke** — Momcilo Stokanovic. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Palacinke_photo_Moma_SM.jpg). Local asset: `reviewed-commons-121377782.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Hongos al ajillo** — Wotancito. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Hongos_al_ajillo.jpg). Local asset: `reviewed-commons-104888374.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
