@@ -13989,3 +13989,7 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 - **Poulet basquaise** — Arnaud 25. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Poulet_basquaise.jpg). Local asset: `reviewed-commons-70241631.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Poulet à la basquaise et sa piperade** — Marianne Casamance. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Poulet_%C3%A0_la_basquaise_et_sa_piperade.JPG). Local asset: `reviewed-commons-48644717.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Thon à la basquaise** — Arnaud 25. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Thon_%C3%A0_la_basquaise_01.jpg). Local asset: `reviewed-commons-70422521.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Poached salmon** — ProjectManhattan. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Poached_salmon.jpg). Local asset: `reviewed-commons-29681242.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.

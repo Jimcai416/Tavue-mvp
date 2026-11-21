@@ -171064,5 +171064,29 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-29681242",
+    "title": "File:Poached salmon.jpg",
+    "author": "ProjectManhattan",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Poached_salmon.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/46/Poached_salmon.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "8cbad575a4e43b04bde78a12d98330a6c92945ef",
+    "name": "Poached salmon",
+    "aliases": [],
+    "proteins": [
+      "seafood"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-29681242.jpg",
+    "assetSha256": "6a01c4b5ec07a3ca6bc57bf283a07156a705fe25438f730114c94d584ccf1201",
+    "reviewedAt": "2026-11-21",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 540,
+    "requiresExactMenuName": true
   }
 ];
