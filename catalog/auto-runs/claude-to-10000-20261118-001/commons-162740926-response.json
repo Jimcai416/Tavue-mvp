@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChFgpspA6EzUcov51oKNX",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Cooked, browned meat pieces in a metal serving tray\",\n    \"Visible diced vegetables (red peppers, onions, green elements)\",\n    \"Appetising caramelised surface on meat\",\n    \"Natural, warm lighting with good detail\",\n    \"Phone thumbnail shows the dish clearly with readable components\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly displays the meat and vegetable composition\",\n    \"Metal tray and serving utensils visible\",\n    \"Colour and texture well-represented in phone view\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title contains 'Boeuf braisé' (French for braised beef) but description states 'Beef Choukouya d'Abidjan' — these are conflicting dish identities. 'Choukouya' is typically a Ivorian/West African grilled or fried meat preparation, not a braised dish.\",\n    \"Source metadata is contradictory: braised beef versus a street food/grilled preparation. The visual appearance (caramelised, diced, cooked on tray) is ambiguous between these preparations.\",\n    \"Exact canonical dish name cannot be reliably determined from conflicting source statements\",\n    \"Protein species 'beef' is stated but the conflicting dish identities (braisé vs. Choukouya) make verification of preparation method uncertain\"\n  ],\n  \"reason\": \"Source metadata contains unresolved contradictions. The title 'Boeuf braisé' (braised beef) conflicts with the description 'Beef Choukouya d'Abidjan', which refers to a different West African preparation style (typically grilled/fried, not braised). Without clarity on the actual dish identity from the source, a canonical name cannot be reliably extracted. The photograph quality, lighting, composition and phone representation are all acceptable, but identity verification fails due to source contradiction. Hold pending clarification of the actual dish type.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1644,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 592,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

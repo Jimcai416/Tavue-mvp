@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChFgpsmRY2h66KRHvAFMZ",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 3,\n    \"composition\": 2,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Street market scene with vendors and tents\",\n    \"No finished dish prominently visible in phone thumbnail\",\n    \"Stall environment dominates; food subject too distant and unclear\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'Le soya 50-50' but description claims 'Viande de boeuf braisé' (braised beef) — direct contradiction in source\",\n    \"No clearly finished, exposed dish visible in either full or phone images\",\n    \"Photograph shows street market stall context, not a food subject suitable for intake\",\n    \"Cannot verify which dish (if any) is the actual subject — meat preparation visible in background but not as a prominent, sharply detailed, appetising finished dish\"\n  ],\n  \"reason\": \"Rejection: source title/description contradiction (soya vs. beef claim); photograph is a street market scene lacking a prominent, clearly finished, sharply detailed, appetising dish in both full and phone views; food subject is too distant and obscured by market context; phone thumbnail shows stall environment, not readable essential food components; quality and photograph checks fail.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1648,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 398,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
