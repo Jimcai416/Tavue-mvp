@@ -13077,3 +13077,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Soufflé** — Ocdp. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Souffl%C3%A9_001.jpg). Local asset: `reviewed-commons-61479875.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Brillat-savarin** — Pierre-Yves Beaudouin /  Wikimedia Commons. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:WikiCheese_-_Brillat-savarin_04.jpg). Local asset: `reviewed-commons-45473033.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.

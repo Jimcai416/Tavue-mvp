@@ -162504,5 +162504,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 638,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-45473033",
+    "title": "File:WikiCheese - Brillat-savarin 04.jpg",
+    "author": "Pierre-Yves Beaudouin /  Wikimedia Commons",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:WikiCheese_-_Brillat-savarin_04.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e3/WikiCheese_-_Brillat-savarin_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "a6abb9eb033a8f9d5db581f888a8c28630c980bf",
+    "name": "Brillat-savarin",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-45473033.jpg",
+    "assetSha256": "3bc31ced280d799e113c2283410630cd907135cf900165acb247a1f43781480a",
+    "reviewedAt": "2026-11-21",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 640,
+    "requiresExactMenuName": true
   }
 ];
