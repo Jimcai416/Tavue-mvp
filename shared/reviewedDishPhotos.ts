@@ -165470,5 +165470,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 720,
     "height": 960,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-115297980",
+    "title": "File:Albóndigas con salsa y patatas fritas, plato típico de España.jpg",
+    "author": "Juan Emilio Prades Bel",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Alb%C3%B3ndigas_con_salsa_y_patatas_fritas,_plato_t%C3%ADpico_de_Espa%C3%B1a.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/50/Alb%C3%B3ndigas_con_salsa_y_patatas_fritas%2C_plato_t%C3%ADpico_de_Espa%C3%B1a.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "7346b791bfcf8aed9a50a43ece65fe03cace3d0d",
+    "name": "Albóndigas con salsa de verduras y patatas fritas",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-115297980.jpg",
+    "assetSha256": "7dec3543c05ba53ec5fb4b14b36ac785bee76af8d02ffb720f416409301afe23",
+    "reviewedAt": "2026-11-21",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];
