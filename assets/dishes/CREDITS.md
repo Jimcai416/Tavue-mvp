@@ -13679,3 +13679,9 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Battered cod fish** — Valdavia. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Bacalao_Rebozado_001.jpg). Local asset: `reviewed-commons-17413548.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Huîtres gratinées au beurre d'escargot** — Arnaud 25. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Hu%C3%AEtres_gratin%C3%A9es_au_beurre_d%27escargot.jpg). Local asset: `reviewed-commons-90989185.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Côtelette d'agneau de Sisteron à la confiture de figues et écrasée de pommes de terre au basilic et aux truffes** — ADT 04. [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:C%C3%B4te_d%27agneau_de_Sisteron.jpg). Local asset: `reviewed-commons-26254499.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Côtelette d'agneau de Sisteron et flan d'épeautre à la courge** — voyages provence. [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:C%C3%B4telette_d%27agneau_de_Sisteron_et_flan_d%27%C3%A9peautre_%C3%A0_la_courge.jpg). Local asset: `reviewed-commons-33366111.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
