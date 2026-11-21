@@ -13924,3 +13924,8 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 
 - **Beef tartare with stout and red onions** — Benreis. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Rindstatar_Turbine_Z%C3%BCrich.jpg). Local asset: `reviewed-commons-109748795.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Salmon tartare** — Kgbo. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Salmon_tartare_at_Ku%C5%BAnia_Kulturalna_Restaurant_in_Wilan%C3%B3w,_2022.jpg). Local asset: `reviewed-commons-118284448.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Braised fish, served with aloco** — Ourytima. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Poisson_brais%C3%A9,_accompagn%C3%A9_d%E2%80%99aloco.jpg). Local asset: `reviewed-commons-197974058.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Poulet braisé** — MIA20102. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Poulet_brais%C3%A9_25122024.jpg). Local asset: `reviewed-commons-158133229.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.

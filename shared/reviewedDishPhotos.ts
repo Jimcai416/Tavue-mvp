@@ -170479,5 +170479,53 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-197974058",
+    "title": "File:Poisson braisé, accompagné d’aloco.jpg",
+    "author": "Ourytima",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Poisson_brais%C3%A9,_accompagn%C3%A9_d%E2%80%99aloco.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Poisson_brais%C3%A9%2C_accompagn%C3%A9_d%E2%80%99aloco.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "50200cfb1cce7f8ed4c2d08ce400e11fa01bc623",
+    "name": "Braised fish, served with aloco",
+    "aliases": [],
+    "proteins": [
+      "seafood"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-197974058.jpg",
+    "assetSha256": "dbcd623b0c03e4cee6bcfca9b6331fae84b16f356ec0ba42f054ad3fca4bdd65",
+    "reviewedAt": "2026-11-21",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 720,
+    "height": 960,
+    "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-158133229",
+    "title": "File:Poulet braisé 25122024.jpg",
+    "author": "MIA20102",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Poulet_brais%C3%A9_25122024.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Poulet_brais%C3%A9_25122024.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "6a01c058044fa3ba150335b5b6a38c48f7793470",
+    "name": "Poulet braisé",
+    "aliases": [],
+    "proteins": [
+      "chicken"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-158133229.jpg",
+    "assetSha256": "fdfdc8b463796d48437cef66a881890111d236ed4a748c8aa8ef93a60ab60f21",
+    "reviewedAt": "2026-11-21",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 720,
+    "height": 960,
+    "requiresExactMenuName": true
   }
 ];
