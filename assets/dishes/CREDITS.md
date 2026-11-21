@@ -13168,3 +13168,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Pulpo a la parrilla** — Ccarosio. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Pulpo_a_la_parrilla.jpg). Local asset: `reviewed-commons-146243223.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Capuns** — Claus Ableiter. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Capuns.JPG). Local asset: `reviewed-commons-4553453.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
