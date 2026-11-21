@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChFQJWNrsfqSzZXEWqkd1",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows unfilled flatbreads on dark surface\",\n    \"No filling, topping, or finished dish visible in phone view\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title describes 'Lokše s trhaným kachním masem a červeným zelím' (shredded duck meat with red cabbage), but photograph shows only plain, unfilled lokše (potato pancakes) with no visible filling, meat, or cabbage\",\n    \"Image appears to show preparation/cooking stage, not a finished, plated dish\",\n    \"Meat species (kachní = duck) is named in source but completely absent from visible food\"\n  ],\n  \"reason\": \"Source title promises finished lokše with shredded duck meat and red cabbage, but the photograph displays only plain, bare potato pancakes at preparation stage with no filling visible. The essential components (duck meat and cabbage) are absent from both full image and phone thumbnail, contradicting identity. This is a raw/intermediate preparation stage, not a finished, exposed, appetising dish suitable for food intake review. Appeal score reflects the unfinished presentation.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1806,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 400,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

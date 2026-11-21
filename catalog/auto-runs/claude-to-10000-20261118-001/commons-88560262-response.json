@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChFQJj8ZFUGHr8Mw8JCW5",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 2,\n    \"composition\": 2,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows architectural/street scene, not a finished dish\",\n    \"People and cooking equipment visible but no plated or prepared food prominent\",\n    \"Overall scene composition, not food-focused framing\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source metadata references 'pannenkoeken' (pancakes) prepared on-site, but no finished, exposed, plated dish is visibly prominent in either full image or thumbnail\",\n    \"Image documents a street food vendor/preparation scene rather than a finished, appetising dish suitable for food photography review\",\n    \"Food subject is not sharply detailed or appetising in composition; this is an ethnographic/documentary photograph of a person and location, not a dish-focused food photograph\"\n  ],\n  \"reason\": \"Reject: This is an ethnographic documentary photograph (1973–1985) of a street vendor preparing food, not a finished food photograph. The source describes pancakes being made on-site, but no completed, exposed, sharply detailed, appetising dish is visibly prominent in the full image or phone thumbnail. The composition, lighting, and focus are documentary/architectural, not food-photography standards. Sharpness, lighting, composition, and appeal scores all fall below the required threshold of 4. The subject is too small, context-dominated, and lacks the sharp detail and appetising presentation required for Tavue intake.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 2182,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 452,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

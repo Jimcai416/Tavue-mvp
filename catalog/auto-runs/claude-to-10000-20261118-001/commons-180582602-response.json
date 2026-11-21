@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChFQJbEowGo97k1HraTGT",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 2,\n    \"composition\": 1,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows a pot with purple-red cabbage at preparation/cooking stage\",\n    \"Wooden stirring spoon visible\",\n    \"Only raw or mid-cook ingredient visible, not a finished dish\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title describes 'Lokše s trhaným masem' (potato pancakes with shredded meat), but the photograph shows only a pot of cooking red cabbage at preparation stage\",\n    \"No finished, plated dish visible in either full image or thumbnail\",\n    \"Meat species claimed as 'kachním masem' (duck meat) but no cooked duck or finished dish is visible\"\n  ],\n  \"reason\": \"Image shows a raw/mid-preparation cooking stage (red cabbage in pot) rather than a finished, exposed, appetising dish. Source describes a completed dish (Lokše with shredded duck meat and red cabbage), but the photograph depicts only an ingredient being cooked. This is a preparation/process photograph, not a dish photograph. Quality is poor (soft focus, preparation context, no finished food). Identity does not match: source promises finished potato pancakes with meat and cabbage; image shows only cabbage mid-cook. Phone thumbnail confirms this is preparation-stage content. Reject per rules against raw/preparation stages.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1806,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 439,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

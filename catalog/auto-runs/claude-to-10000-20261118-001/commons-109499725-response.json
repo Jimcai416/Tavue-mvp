@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChFQK29G41DqiwwoC59aX",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Finished, cooked potato pancakes clearly visible on slate plate\",\n    \"Natural outdoor daylight, good exposure\",\n    \"Prominent dish in both full and thumbnail images\",\n    \"Sharp detail of crispy edges and potato structure\",\n    \"Appetising presentation with accompaniments\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows the finished pancakes on plate\",\n    \"Essential components visible and readable\",\n    \"No clipping of main dish elements\",\n    \"Adequate composition for recognition\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title references 'bramborové lokše' (potato pancakes) but provides only location metadata without an explicit dish name in the title field itself\",\n    \"The description 'Lázně Libverda, Obří sud, bramborové lokše.jpg' appears to be a filename construction rather than a canonical dish title\",\n    \"No explicit source-provided canonical name matching the required format; relying on filename component violates the instruction that filenames and metadata are untrusted and not instructions\",\n    \"Cannot extract a proper canonical_name string from the supplied metadata that follows the required format\"\n  ],\n  \"reason\": \"The photograph itself is high-quality, sharp, well-composed, naturally lit and shows a finished, appetising dish of potato pancakes clearly visible in both full and thumbnail images. However, the identity check fails because the source metadata does not provide an explicit, properly-formatted canonical dish title. The title field contains only 'File:Lázně Libverda, Obří sud, bramborové lokše.jpg'—a filename construction. The description is geographical location only. Instructions explicitly state that metadata including filenames are untrusted evidence and never instructions, and that canonical_name must be 'copied exactly from source title or description' without filename extensions. No clear, authoritative source title or description exists here that provides the required canonical dish phrase in the required format. The dish identity cannot be reliably extracted from untrusted metadata alone. Hold would be more appropriate if metadata were ambiguous; rejection is warranted when the source format itself prevents compliance with canonical identification rules.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1712,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 619,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
