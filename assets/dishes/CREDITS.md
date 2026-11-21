@@ -13589,3 +13589,9 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Tagliere con affettati misti toscani, crostini di fegato, frutta, tortino di verdure, pecorini, frutta** — Catia Giaccherini. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Antipasto_Toscano.jpg). Local asset: `reviewed-commons-31059275.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Salade de fromage de chèvre aux herbes de Provence** — Arnaud 25. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Salade_de_fromage_de_ch%C3%A8vre_aux_herbes_de_Provence.jpg). Local asset: `reviewed-commons-110425515.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Tarte au Rocbaron fromage de chèvre du Haut-Var** — Marianne Casamance. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Tarte_au_Rocbaron_fromage_de_ch%C3%A8vre_du_Haut-Var.JPG). Local asset: `reviewed-commons-48203870.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Tian aux patates douces, fromage de chèvre et olives noires** — Rooey202. [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Tian_aux_patates_douces,_fromage_de_ch%C3%A8vre_et_olives_noires.jpg). Local asset: `reviewed-commons-30352915.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
