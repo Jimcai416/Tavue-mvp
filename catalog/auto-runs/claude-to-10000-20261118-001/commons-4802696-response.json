@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChF8se6FXkLUUx2L9P54b",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 2,\n    \"composition\": 2,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Image shows kitchen/preparation environment, not a finished plated dish\",\n    \"Person actively preparing food at work surface\",\n    \"Raw/preparation stage ingredients and partially cooked items visible\",\n    \"No finished, exposed, appetising dish prominent in either full or thumbnail view\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Description claims 'pulpo a feria' (octopus at fair) but image shows active food preparation, not a finished dish\",\n    \"Raw meat pieces visible on work surface are not in finished form\",\n    \"No clear identification of a completed, plated, ready-to-eat dish in either photograph\"\n  ],\n  \"reason\": \"Image shows a preparation/kitchen scene with a person actively cooking, raw ingredients, and work-in-progress items on a table. This is a raw/preparation stage documentation, not a finished, exposed, appetising photograph of a completed dish. The phone thumbnail equally fails to show a prominent finished dish. Source title–description conflict (claims finished pulpo a feria but photographs only preparation) and absence of a clear, finished food subject as the primary focus makes this unsuitable for menu documentation.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1476,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 401,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
