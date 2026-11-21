@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChFwNGNi3ESQVMAciqmJq",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 2,\n    \"composition\": 2,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows raw fish fillets or anchovy-like whole small fish arranged on wooden surface\",\n    \"No cooked or prepared dish visible\",\n    \"Raw preparation stage evident in both source and thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title describes 'Estouffade de boeuf à la provençale' (beef stew), but photograph shows raw fish/anchovy, not beef preparation\",\n    \"Severe contradiction between declared dish (braised beef) and visual content (raw seafood)\"\n  ],\n  \"reason\": \"Reject: photograph shows raw fish in preparation stage, not a finished exposed cooked dish. Source metadata declares a beef stew but image depicts raw seafood—fundamental identity mismatch. Lighting is poor with glare and shadows. Sharpness is soft. Composition lacks appeal. Phone thumbnail confirms raw preparation stage. Does not meet acceptance criteria for finished, appetising, identifiable dishes.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1739,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 360,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
