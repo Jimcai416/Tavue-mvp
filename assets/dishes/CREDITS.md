@@ -13107,3 +13107,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Steak au poivre** — E4024. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Steak_au_poivre_-_Italy.jpg). Local asset: `reviewed-commons-59941914.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Tortilla de espárragos silvestres** — Juan Emilio Prades Bel. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Tortilla_de_esp%C3%A1rragos_silvestres.jpg). Local asset: `reviewed-commons-116382398.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
