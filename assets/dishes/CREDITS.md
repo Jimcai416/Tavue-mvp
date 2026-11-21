@@ -13889,3 +13889,7 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Rica sopa de almejas** — MARTA CORRAL. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Almejas.jpg). Local asset: `reviewed-commons-44186766.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Chicken Florentine Crepes with Cheddar Sauce** — Rusty Clark ~ 100K Photos. [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:IHOP_Chicken_Florentine_Crepes_with_Cheddar_Sauce.jpg). Local asset: `reviewed-commons-115910791.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.

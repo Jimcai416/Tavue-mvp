@@ -170159,5 +170159,29 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 704,
     "height": 960,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-115910791",
+    "title": "File:IHOP Chicken Florentine Crepes with Cheddar Sauce.jpg",
+    "author": "Rusty Clark ~ 100K Photos",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:IHOP_Chicken_Florentine_Crepes_with_Cheddar_Sauce.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e6/IHOP_Chicken_Florentine_Crepes_with_Cheddar_Sauce.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "e0ada089d8f41206b611395743851577f34bc700",
+    "name": "Chicken Florentine Crepes with Cheddar Sauce",
+    "aliases": [],
+    "proteins": [
+      "chicken"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-115910791.jpg",
+    "assetSha256": "3cf21b819b2fc514eb51e43b923fabb4901e94cd8f649cc9b7a8aaa737fe0955",
+    "reviewedAt": "2026-11-21",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];
