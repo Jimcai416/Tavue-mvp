@@ -163924,5 +163924,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "height": 640,
     "requiresExactMenuName": true,
     "authorUrl": "https://www.flickr.com/people/91994044@N00"
+  },
+  {
+    "id": "commons-32221703",
+    "title": "File:Bistrot de Pays de Niozelles Caillettes à l'ancienne.jpg",
+    "author": "Marianne Casamance",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bistrot_de_Pays_de_Niozelles_Caillettes_%C3%A0_l%27ancienne.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Bistrot_de_Pays_de_Niozelles_Caillettes_%C3%A0_l%27ancienne.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "18be7630c1773a07fcab949c41ab6110321eae41",
+    "name": "Caillettes à l'ancienne",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-32221703.jpg",
+    "assetSha256": "3b7fa913626226b9a250b47a00c1c54653c9126a65e3b016b9c1f594b5880e16",
+    "reviewedAt": "2026-11-21",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];
