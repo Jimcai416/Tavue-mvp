@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChFGC83qG7F8UqBEMNb7F",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": true,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 2,\n    \"composition\": 2,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Phone thumbnail shows only a glass and utensils, dish content not clearly visible at 124x96 resolution\",\n    \"Essential food subject is obscured and unidentifiable in thumbnail\",\n    \"Severe glare, reflection, and backlighting render food inspection impossible\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title references 'Copa de Txakoli' (a Basque wine cup), not a food dish\",\n    \"Photograph appears to show wine and utensils, not a prepared food item\",\n    \"No identifiable finished dish visible despite full-source image\"\n  ],\n  \"reason\": \"Rejection: This is a beverage (wine) in a glass, not a finished food dish. The source title 'Copa de Txakoli' refers to a traditional wine cup, not cuisine. The full photograph shows severe glare, backlighting, and atmospheric haze that obscure any potential food content. The phone thumbnail is unintelligible at 124x96, with essential subjects clipped and unidentifiable. Quality scores fall below the required threshold (all checks must be true and all scores ≥4). This submission does not meet the criteria for a photographic food dish.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1731,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 418,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
