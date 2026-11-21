@@ -170294,5 +170294,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "height": 960,
     "requiresExactMenuName": true,
     "authorUrl": "https://pixabay.com/en/users/herryway-29985/"
+  },
+  {
+    "id": "commons-160044781",
+    "title": "File:Villa Romana Trattoria Cairns, 2025, 04.jpg",
+    "author": "Chris Olszewski",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Villa_Romana_Trattoria_Cairns,_2025,_04.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Villa_Romana_Trattoria_Cairns%2C_2025%2C_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "71f96ccddbae05bc3e13c3e98ad36feb2671d987",
+    "name": "Oysters Kilpatrick",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-160044781.jpg",
+    "assetSha256": "b288b26a90bc9b451d7fd4b3824b00b3c5ff2418809dcab1c296430e766f3530",
+    "reviewedAt": "2026-11-21",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];
