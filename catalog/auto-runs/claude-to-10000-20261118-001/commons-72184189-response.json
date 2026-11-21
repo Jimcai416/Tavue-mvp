@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChGLsoHYzUEiKF8315LUu",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": \"Wild sockeye salmon with doenjang (soybean paste), yuja crème fraîche, and basil seeds\",\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 5,\n    \"appeal\": 5\n  },\n  \"visible_support\": [\n    \"Red diced/minced component consistent with prepared salmon\",\n    \"Green leaves (nasturtium or similar microgreens) visible in full image and thumbnail\",\n    \"Crispy croutons or toasted bread cubes scattered around\",\n    \"Dark base layer (likely squid ink or charred element)\",\n    \"Fine plating on grey ceramic dish\",\n    \"Red flower petal garnish\"\n  ],\n  \"phone_observations\": [\n    \"Red protein/sauce component dominates centre of thumbnail\",\n    \"Green leaves clearly visible and readable\",\n    \"Crispy textured elements discernible\",\n    \"Dark base visible beneath\",\n    \"Subject adequately prominent and sharp in thumbnail\"\n  ],\n  \"protein_evidence\": {\n    \"seafood\": \"Wild sockeye salmon\"\n  },\n  \"uncertainties\": [\n    \"Visual identification of cooked salmon tissue not conclusive in diced/minced prepared state; colour and texture consistent but source-dependent verification required\",\n    \"Title specifies 'wild sockeye salmon' but photograph shows processed/prepared form; species confirmation relies entirely on title declaration\",\n    \"Crouton/crispy components: composition not specified in source (bread type, seasoning unknown)\",\n    \"Dark base layer: appears to be squid ink but not explicitly named in source description\"\n  ],\n  \"reason\": \"Identity check fails: while the source title explicitly names 'Wild sockeye salmon', the visual evidence shows a heavily processed, diced/minced, cooked preparation where individual salmon tissue features are not independently verifiable from the photograph alone. The source description does not match typical presentation forms and relies on title authority rather than visual confirmation. Per protocol, cooked/processed seafood where the specific species cannot be visually verified independently, combined with source title being the only identifier, triggers a hold. All quality and photographic scores meet threshold, but identity verification is insufficient to accept without explicit visual corroboration of the named species in its prepared state.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1749,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 604,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
