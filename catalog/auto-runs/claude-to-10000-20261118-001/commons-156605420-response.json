@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChFEUUFUjFKrFDfcsYtTJ",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 5,\n    \"composition\": 5,\n    \"appeal\": 5\n  },\n  \"visible_support\": [\n    \"White ceramic cup with saucer on marble surface\",\n    \"Cappuccino with latte art (cursive letter)\",\n    \"Sugar packet visible beside cup\"\n  ],\n  \"phone_observations\": [\n    \"Cup and saucer clearly visible at centre\",\n    \"Latte art legible in thumbnail\",\n    \"Sugar packet discernible\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title contains 'File:' prefix and '.png' extension—metadata format, not a dish name\",\n    \"Description names the establishment (Gerstner) and latte art style but provides no canonical dish name suitable for intake\",\n    \"Metadata indicates this is a photograph documentation file, not a food submission with a user-provided dish title/description to match\"\n  ],\n  \"reason\": \"Source metadata is a filename with extension and CC0 license header, not a user-submitted dish title or description. The description identifies the coffee by venue and decorative element only ('Cappuccino from Gerstner…with uppercase cursive G'). No canonical dish name matching source title/description can be extracted. Per protocol, identity check fails because the exact source title cannot serve as a legitimate dish identifier. Reject as improperly sourced.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1759,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 421,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

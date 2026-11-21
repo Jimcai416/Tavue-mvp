@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChFEUvSpdhQVdojk6EEfQ",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Gold/metallic cappuccino cup with latte art clearly visible\",\n    \"Croissant on wooden plate beside the cup\",\n    \"Beverage is the primary subject in phone thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title is 'Zlaté cappuccino v A-Caffe v Gomelu' (Golden cappuccino at A-Caffe in Gomel) — this describes a beverage, not a food dish\",\n    \"Photograph includes a croissant as a secondary element, but the source title and metadata identify only the cappuccino\",\n    \"No food dish is named or described in the source; the cappuccino is a beverage\"\n  ],\n  \"reason\": \"Rejection: The source title explicitly identifies this as 'Zlaté cappuccino' (a beverage). While a croissant appears in the photograph, it is not named, described, or identified in any source metadata. Tavue accepts food dishes, not beverages alone. The cappuccino, though well-photographed and visually appealing, does not meet the requirement of being a finished, exposed, likely photographic dish. The croissant is unidentified in source materials and appears as a secondary accompaniment. No canonical food dish name can be extracted from the provided source.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1742,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 442,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
