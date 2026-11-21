@@ -171823,5 +171823,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 960,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-153761383",
+    "title": "File:Sopa de pan cocido abulense.jpg",
+    "author": "Xemenendura",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sopa_de_pan_cocido_abulense.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/20/Sopa_de_pan_cocido_abulense.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "142da8a3f39b838ef16ae36053bab5bc46cc8cde",
+    "name": "Sopa de pan cocido abulense",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-153761383.jpg",
+    "assetSha256": "23cca715a99f3eb4e0e829a474b87675a1dc408dc9bd1f362bd64ea95b7cd4de",
+    "reviewedAt": "2026-11-21",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];

@@ -14047,3 +14047,7 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 - **Tomato soup, Turkish style** — E4024. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Tomato_soup,_Turkish_style.jpg). Local asset: `reviewed-commons-43108039.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Tomato soup and grilled cheese sandwich** — William Stadtwald Demchick. [CC BY 3.0](https://creativecommons.org/licenses/by/3.0); [source](https://commons.wikimedia.org/wiki/File:Tomato_soup_and_grilled_cheese.JPG). Local asset: `reviewed-commons-34787180.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Tomato soup with chicken and roasted plum and grape tomatoes** — Daderot. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Tomato_soup_with_chicken_and_roasted_plum_and_grape_tomatoes_-_Massachusetts.jpg). Local asset: `reviewed-commons-134367319.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Sopa de pan cocido abulense** — Xemenendura. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Sopa_de_pan_cocido_abulense.jpg). Local asset: `reviewed-commons-153761383.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
