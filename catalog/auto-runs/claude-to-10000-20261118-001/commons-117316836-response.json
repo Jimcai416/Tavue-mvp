@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChGdQ2wXvDDrdRudUP5ty",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 0,\n    \"lighting\": 0,\n    \"composition\": 0,\n    \"appeal\": 0\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail is a topographic map fragment showing green terrain, contour lines, and a magenta route overlay\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source is a geographic/cartographic map file (OSM – OpenStreetMap), not a food photograph\",\n    \"No food dish, meal, or culinary content is present in either full image or thumbnail\",\n    \"Image depicts a hiking or travel route in Ariège, France, not a photographic dish\"\n  ],\n  \"reason\": \"Rejection: This is a topographic map file, not a food photograph. The full image and thumbnail both show only cartographic data (terrain, contours, place names, a route overlay). There is no finished dish, no food subject, no culinary content whatsoever. The source title 'Alos (Ariège) OSM 01.png' and metadata confirm this is a geographic/cartographic resource, not a food image. Tavue food review criteria require an actual finished, exposed, photographic dish; a map fails all core identity, quality, and photograph checks.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 2163,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 389,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
