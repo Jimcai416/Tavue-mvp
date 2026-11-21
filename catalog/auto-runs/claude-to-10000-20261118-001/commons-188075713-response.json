@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChFjh6Hd7TdFiFSGiRZYK",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 1,\n    \"lighting\": 2,\n    \"composition\": 1,\n    \"appeal\": 0\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows only unidentifiable objects at extreme distance and angle\",\n    \"No food dish distinguishable in phone thumbnail\",\n    \"Extreme perspective distortion makes composition unintelligible\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source metadata claims 'Entrée à base d'avocat et de crème' (avocado and cream starter) but photograph shows no avocado, cream, or any finished dish\",\n    \"Full image shows bottles, containers, and tableware at oblique angle—no plated food visible\",\n    \"Severe metadata–image mismatch suggests corrupted file or misattributed title\"\n  ],\n  \"reason\": \"Image is not a food photograph. The full source shows bottles, jars, and event tableware arranged at a steep angle; no finished dish, plated food, or avocado dish is visible. The phone thumbnail is unintelligible at this distance and angle. Source metadata claims an avocado and cream starter but provides no visual evidence. All quality, identity, and photograph checks fail. This does not meet acceptance criteria for food review.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1553,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 395,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
