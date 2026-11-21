@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChFWw3AjGzPJUgX5bPnRZ",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Lobster visible in shell with distinctive antennae and claws\",\n    \"Golden-brown creamy filling in lobster body\",\n    \"Microgreens and red vegetable garnish on top\",\n    \"Fine dining plated presentation on white dish\",\n    \"Oil/butter sauce pooled on plate\"\n  ],\n  \"phone_observations\": [\n    \"Lobster shell and antennae clearly recognizable in thumbnail\",\n    \"Golden-topped filling visible\",\n    \"Garnish detail preserved in reduction\",\n    \"Plate composition readable\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title states 'Lobster Thermidor' but description adds 'includes lobster and crayfish meat' — the visible dish shows only lobster in shell; crayfish presence is undeclared in title and not visually distinguishable in photograph\",\n    \"Crayfish is not an allowed protein category (seafood category permits only named finfish or crustaceans explicitly listed: chicken/beef/pork/duck/lamb/seafood with exact quote); crayfish cannot be verified as a declared component in the canonical title alone\"\n  ],\n  \"reason\": \"Identity contradiction: source description claims both lobster and crayfish meat, but only 'Lobster Thermidor' appears in the title. The description's mention of crayfish introduces an ambiguous protein component not stated in the canonical title and not visually verifiable in the photograph. Per protocol, source contradictions regarding proteins and unspecified or ambiguous species trigger hold. All quality, sharpness, lighting and composition checks pass (scores ≥4), and the photograph is a finished, appetising, sharply detailed dish in classic French style. However, the protein identity uncertainty must be resolved from source metadata before acceptance.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1858,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 543,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChFWwjrCSDRaCYvwG4ox6",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Finished, cooked meat chop with seared crust visible\",\n    \"Fresh green salad with mixed leaves\",\n    \"Two white/cream-coloured sauces in black ramekins\",\n    \"Wooden serving board\",\n    \"Natural lighting, appetising presentation\"\n  ],\n  \"phone_observations\": [\n    \"Prominent seared meat chop clearly visible in centre\",\n    \"Salad and sauces visible and readable\",\n    \"Adequate detail for thumbnail recognition\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title states 'Côte de cochon noir' (black pork chop), but 'cochon noir' is a breed designation, not an explicit species declaration in the strict protein_evidence format required\",\n    \"While 'cochon' clearly means pork, the source metadata instruction specifies exact case-sensitive substring matching for protein keys; 'cochon noir' is a French breed name, not the English word 'pork'\",\n    \"Sauces identified as 'aligot' and 'sauce au bleu d'Auvergne' in source, but only cream-coloured sauces are visually present—cannot confirm blue cheese sauce visually\",\n    \"Side dish 'aligot' (mashed potatoes with cheese) is not visible on the plate; only salad and sauces accompany the chop\"\n  ],\n  \"reason\": \"Although the photograph shows a finished, well-presented seared pork chop with appetising appeal and excellent technical quality, the source title uses the French breed designation 'cochon noir' rather than providing an explicit English protein category match (e.g., 'pork chop'). The strict protein_evidence rule requires an exact case-sensitive substring from the source that matches one of the allowed category keys (chicken/beef/pork/duck/lamb/seafood). 'Cochon noir' does not match the key 'pork' as a substring. Additionally, the promised side dish 'aligot' is not visibly present on the plate—only salad and sauces are shown. These identity and variant ambiguities, combined with the protein naming mismatch, require a hold rather than acceptance.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1795,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 646,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
