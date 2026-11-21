@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChGEG7H5swvYE5Fm9ZSL8",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 3,\n    \"composition\": 2,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Image is a historical mural/wall painting, not a food photograph\",\n    \"Depicts a person in a workshop setting, not a finished dish\",\n    \"Cracked, aged appearance consistent with fresco or historical wall art\",\n    \"No food subject visible in thumbnail or full image\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [],\n  \"reason\": \"This is a historical wall mural (Wandgemälde) depicting a printer from Neuburg an der Donau, not a food photograph. Despite the metadata reference to 'Rindfleisch' (beef) in the building name, the image shows a representational artwork of a craftsperson in a workshop, not a finished, exposed, photographic dish. The source is an illustration/mural, not food. This fails the fundamental requirement of being a finished, exposed, likely photographic dish that is appetising and prominent. The cracking and aging confirm it is historical wall art, not contemporary food photography.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 2050,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 361,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

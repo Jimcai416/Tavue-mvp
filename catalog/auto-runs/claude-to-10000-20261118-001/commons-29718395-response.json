@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChGEGv2BekPhKXYPgU7fz",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 5,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Pale, finely textured cylindrical sausage with visible pores\",\n    \"Fresh green herb garnish (chives or scallion) visible on surface\",\n    \"Cross-sectional cut showing internal composition\",\n    \"Fork in frame indicates prepared dish ready to serve\",\n    \"Professional macro photography with sharp detail\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows cut sausage with internal structure visible\",\n    \"Herb garnish readable in phone view\",\n    \"Subject prominent and unclipped\",\n    \"Natural colour palette preserved at reduced size\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title references 'Weisswurst' (German white sausage), implying pork/veal/bacon composition, but no explicit protein species declaration appears in the supplied title or description\",\n    \"Metadata indicates Weisswurst tradition but does not constitute an exact source quote naming specific animals\",\n    \"Exact source dish name from title field includes 'File:' prefix and filename extension, violating canonical_name rules\"\n  ],\n  \"reason\": \"Photograph and phone thumbnail both show high technical quality, sharp detail, natural colour, appetizing appearance, and readable components. However, identity check fails: the source description does not explicitly name the protein animals (pork/veal/beef) in a quoted phrase. The title field contains 'File:Weisswurst close-up.jpg' with prefix and extension, which must be stripped, leaving only 'Weisswurst close-up' — but this common name does not constitute an exact protein quote. Per protocol, ambiguous meat species or unspecified animal names (including traditionally-understood sausage contents) require hold status. A source quote explicitly stating the animals (e.g., 'Weisswurst made with pork and veal') would enable acceptance.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 2085,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 561,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

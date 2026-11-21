@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChGEGdTnZjkErrBPnJEvJ",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Canned/tinned meat product visible on wooden board\",\n    \"Tin opener and branded tin with animal logo present\",\n    \"Meat appears cooked but presentation is consistent with canned/processed product\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title/description states 'Rindfleisch aus der Dose' (canned beef) but provides only filename without explicit dish identity\",\n    \"Image shows processed/canned meat product rather than a finished, exposed prepared dish\",\n    \"Presentation style (on board with tin and opener) suggests product photography or packaging content rather than a culinary dish ready for consumption\",\n    \"No clear evidence of a named, finished dish—appears to be ingredient or canned product documentation\"\n  ],\n  \"reason\": \"Reject: The image depicts canned/tinned beef product with its tin and opener—a packaged ingredient or food product rather than a finished, exposed, prepared dish. The source description ('Rindfleisch aus der Dose') confirms this is canned beef, not a completed culinary presentation. Tavue accepts finished dishes; product and packaging photography do not meet the standard. Identity check fails because no specific dish name is established—only a product category.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1744,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 420,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
