@@ -13458,3 +13458,7 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 
 - **1 Disc of battered Scamorza cheese Deep fried served with Nanninella's slow cooked Tomato Sauce** — Andy Li. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Scamorza_-_Nanninella_2024-10-04.jpg). Local asset: `reviewed-commons-153550265.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Pastiera** — 10Rosso. [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Pastiera_2.jpg). Local asset: `reviewed-commons-29567753.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Scamorza al forno** — Catia Giaccherini. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Side_dishes_05.jpg). Local asset: `reviewed-commons-31079207.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.

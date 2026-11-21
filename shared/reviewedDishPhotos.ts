@@ -166099,5 +166099,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-31079207",
+    "title": "File:Side dishes 05.jpg",
+    "author": "Catia Giaccherini",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Side_dishes_05.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Side_dishes_05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "77f45aac95c2b4ea91668cd1fad944cd5afed6a5",
+    "name": "Scamorza al forno",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-31079207.jpg",
+    "assetSha256": "83a7dfbb2e4a5b4cf3cf3132521b3693bdc722dc356c544eba1352a7d907fb9a",
+    "reviewedAt": "2026-11-21",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];
