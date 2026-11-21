@@ -13707,3 +13707,8 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 
 - **Tortell de Reis** — Jpbazard  Jean-Pierre Bazard. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Coupe_transversale_d%27_un_Tortell_de_Reis.JPG). Local asset: `reviewed-commons-14641575.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Foie gras torchon, cassis pate de fruits, pistachio, cubeb peppercorn** — [Lou Stejskal](https://www.flickr.com/people/63311602@N08). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Foie_gras_torchon,_cassis_pate_de_fruits,_pistachio,_cubeb_peppercorn_by_Chef_Jason_Hedin._1994_Balthazae_Ress_Hochheimer_Domechaney_Reisling_Spatlese,_Rheingau_(15863810540).jpg). Local asset: `reviewed-commons-129225558.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Riso nero** — Effems. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Riso_nero_(Barcellona_Pozzo_di_Gotto).jpg). Local asset: `reviewed-commons-157701396.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Riso nero, dolce al cucchiaio** — Effems. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Riso_nero_(Barcellona_Pozzo_di_Gotto)_24_12_2024_01.jpg). Local asset: `reviewed-commons-180736173.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
