@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChGWmLB975BCTfzxciWRu",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 3,\n    \"lighting\": 3,\n    \"composition\": 2,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows a bakery/confectionery display case with multiple shelves\",\n    \"Individual finished items are unidentifiable in the small format\",\n    \"No single prominent dish is discernible\",\n    \"Display case environment, not a plated food photograph\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title references multiple product categories (salama da sugo, coppia ferrarese, pampepato, pasta fresca, etc.) but image is a retail display, not a finished dish photograph\",\n    \"No individual food item is prominent enough to identify and review as a single dish\",\n    \"This is a shop window/bakery display, not a photograph of a prepared food item\"\n  ],\n  \"reason\": \"Image is a bakery/confectionery display case showing many packaged and loose items in baskets and on shelves. This is a retail/commercial display photograph, not a finished, plated, or prominently featured individual dish. No single food item is sharp, detailed, or appetisingly presented as a standalone subject suitable for Tavue review. The phone thumbnail cannot resolve any specific dish. The source metadata lists multiple disparate products rather than identifying one dish. Identity cannot be established. Fails photograph, identity, and phone checks.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1799,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 426,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
