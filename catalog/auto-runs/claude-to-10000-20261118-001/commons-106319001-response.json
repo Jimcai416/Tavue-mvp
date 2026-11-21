@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChGVYqfTAtBrmass12sm8",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows raw dough strips on parchment paper\",\n    \"Yellow and pale dough logs before baking\",\n    \"Pastry brush and filling jar visible\",\n    \"Pre-baked preparation stage evident\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Image shows raw/preparation stage, not finished dish\",\n    \"Dough has not been baked or exposed\",\n    \"No cooked apple strudel visible in either image\"\n  ],\n  \"reason\": \"Rejection: The source metadata describes 'Apple strudel' as a finished dish, but both the full photograph and phone thumbnail show uncooked dough strips at a preparation stage, with filling materials visible (pastry brush, jar of filling). The subject is raw dough on parchment paper, not a finished, exposed, baked strudel. Category alone is not evidence of a completed dish. This violates the core acceptance criterion requiring a finished, exposed, likely photographic dish.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1785,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 366,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

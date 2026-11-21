@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChGVYvyggUgbVFEEtXQ1k",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Two pastry rolls on baking tray with parchment paper\",\n    \"Golden-brown exterior crust visible\",\n    \"Rolls appear to be in mid-bake or just finished state\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title/description identifies this as 'Jablkový závin z listového těsta (Apple strudel)' - a preparation stage or intermediate step, not a finished plated dish\",\n    \"Image shows rolls on a baking tray during or immediately after baking, not a served/finished presentation\",\n    \"Subject is a component ingredient stage ('Krok za krokem' = step-by-step), not a completed appetizing dish ready for consumption\"\n  ],\n  \"reason\": \"Reject: The photograph captures pastry rolls still on a baking tray at the cooking/preparation stage, explicitly labeled as a step-by-step tutorial ('Krok za krokem'). This violates the requirement for 'a finished, exposed, likely photographic dish' and excludes 'raw/preparation stages.' While the image quality and phone thumbnail are acceptable, identity check fails because this represents a cooking process component, not a finished dish suitable for food review. Home cooking is welcome, but only when presented as a completed, plated result.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1785,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 437,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
