@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChGSpQZBnviTGZ56uGk6Y",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [\n    \"Crêpe wrapper visible with tan/golden exterior\",\n    \"White paper wrapping partially visible\",\n    \"Red sauce visible inside the rolled crêpe\",\n    \"Hand-held street food presentation\"\n  ],\n  \"phone_observations\": [\n    \"Rolled crêpe clearly visible in thumbnail\",\n    \"Subject prominent and identifiable\",\n    \"Red filling visible through wrapper opening\",\n    \"Hand-held format apparent\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'galette saucisse' but sausage species cannot be verified visually or from title\",\n    \"Only a crêpe/galette with red filling is visible; sausage presence cannot be confirmed from photograph\",\n    \"No explicit protein identification in source metadata beyond the generic term 'saucisse'\"\n  ],\n  \"reason\": \"Reject: The source title refers to 'galette saucisse de Rennes' (sausage galette), but no sausage species is specified in the title or description. Per protocol, sausage cannot be used as a protein category key because the animal species is unknown and cannot be reliably inferred from appearance. The photograph shows only a crêpe with red filling; any sausage contents are not visually verifiable. The identity cannot be confirmed without explicit, unambiguous protein declaration. Hold criteria are met: unknown meat species (sausage unspecified) requires rejection.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1742,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 461,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
