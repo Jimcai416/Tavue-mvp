@@ -169047,5 +169047,51 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-95358179",
+    "title": "File:2020-10-12 revuelto esparragos.jpg",
+    "author": "MiguelAlanCS",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:2020-10-12_revuelto_esparragos.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/13/2020-10-12_revuelto_esparragos.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "3f932947ded52f1fe8322101a48382b182402f2f",
+    "name": "Revuelto de espárragos",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-95358179.jpg",
+    "assetSha256": "c03dad76095b26b97e4cf5f4c56466f8ca9afefaa08f3ab737ed25006a193e71",
+    "reviewedAt": "2026-11-21",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 720,
+    "height": 960,
+    "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-28056419",
+    "title": "File:Tuna mojama.JPG",
+    "author": "Radobera",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tuna_mojama.JPG",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Tuna_mojama.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "e0c18b24f0fda2f123e0fb567719f05a1d0ffb46",
+    "name": "Dried tuna - tuna mojama",
+    "aliases": [],
+    "proteins": [
+      "seafood"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-28056419.jpg",
+    "assetSha256": "a13be378cd6512b98095457cee44190f7b9a906aeb3a5932a4d54313f5b329a2",
+    "reviewedAt": "2026-11-21",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];

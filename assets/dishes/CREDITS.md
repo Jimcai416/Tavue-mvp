@@ -13774,3 +13774,8 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Pâtes aux truffes noires** — Curt Gibbs. [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:P%C3%A2tes_aux_truffes_noires.jpg). Local asset: `reviewed-commons-41917640.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Revuelto de espárragos** — MiguelAlanCS. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:2020-10-12_revuelto_esparragos.jpg). Local asset: `reviewed-commons-95358179.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Dried tuna - tuna mojama** — Radobera. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Tuna_mojama.JPG). Local asset: `reviewed-commons-28056419.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
