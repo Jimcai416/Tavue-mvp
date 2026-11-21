@@ -166143,5 +166143,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 720,
     "height": 960,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-1071418",
+    "title": "File:Fettuccine Pesto.JPG",
+    "author": "Cliff Hutson",
+    "license": "CC BY 2.5",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fettuccine_Pesto.JPG",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Fettuccine_Pesto.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "9d6320ed9a7c30830bb339ceb81b1b6a623307ce",
+    "name": "Fettuccine al Pesto alla genovese",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-1071418.jpg",
+    "assetSha256": "889ec60da443d06be6028688b71f6d8ac829b6cce8724a704e40ec32194a5425",
+    "reviewedAt": "2026-11-21",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];
