@@ -170571,5 +170571,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-475953",
+    "title": "File:Truffes (friandises).png",
+    "author": "No machine-readable author provided.  Lisaël~commonswiki  assumed (based on copyright claims).",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Truffes_(friandises).png",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Truffes_%28friandises%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "10d3d8d8fed90c9db90885bf9f0c2ef2b9aa8ccc",
+    "name": "Truffes",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-475953.jpg",
+    "assetSha256": "5436a7af8a9aec232db127686ffbd9172bf18db7a9b94e1763122de5a2598b70",
+    "reviewedAt": "2026-11-21",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];
