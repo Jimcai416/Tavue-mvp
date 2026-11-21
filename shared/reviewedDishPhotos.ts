@@ -163338,5 +163338,29 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 640,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-121701386",
+    "title": "File:Codillo de cerdo guisado.jpg",
+    "author": "El Mono Español",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Codillo_de_cerdo_guisado.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Codillo_de_cerdo_guisado.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "a44909426f865c40f0aad697484a18d749ae407b",
+    "name": "Codillo de cerdo guisado",
+    "aliases": [],
+    "proteins": [
+      "pork"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-121701386.jpg",
+    "assetSha256": "436e5c4fcae84b898f60daf9556ec73b199911adf9a6725881d39ebe453e932f",
+    "reviewedAt": "2026-11-21",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];
