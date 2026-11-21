@@ -13799,3 +13799,10 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Pasta al pomodoro** — 10Rosso. [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Pasta_al_pomodoro_1-1.jpg). Local asset: `reviewed-commons-29568597.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Korean fried chicken with honey mustard sauce** — Fumikas Sagisavas. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Korean_fried_chicken_with_honey_mustard_sauce.jpg). Local asset: `reviewed-commons-157115264.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Lamb filet in honey & mustard sauce** — [David Pursehouse  from Kawasaki, Japan](https://www.flickr.com/people/58246614@N00). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Lamb_filet_in_honey_%26_mustard_sauce_(2456264759).jpg). Local asset: `reviewed-commons-101532277.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Scotch Eggs w- Mustard Sauce** — [Sodanie Chea  from Norwalk, Ca, United States](https://www.flickr.com/people/41942551@N02). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Scotch_Eggs_w-_Mustard_Sauce_(8247871807).jpg). Local asset: `reviewed-commons-40618643.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Beef Slices with Creamy Mustard Sauce** — Srujanabotcha. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Succulent_Beef_Slices_with_Creamy_Mustard_Sauce.jpg). Local asset: `reviewed-commons-157015103.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
