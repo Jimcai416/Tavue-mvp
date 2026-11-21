@@ -166165,5 +166165,29 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-181772192",
+    "title": "File:Linguine Carbonara - Giuseppes 2026-01-12.jpg",
+    "author": "Andy Li",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Linguine_Carbonara_-_Giuseppes_2026-01-12.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/40/Linguine_Carbonara_-_Giuseppes_2026-01-12.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "b1d4196c3578d948f2fb7f54baa9a9dab9c7c629",
+    "name": "Linguine Carbonara",
+    "aliases": [],
+    "proteins": [
+      "pork"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-181772192.jpg",
+    "assetSha256": "9fc37ab65b0cf5e883e37d668a2e6548e3223a38ee76f45ec6e7f4bf187220b6",
+    "reviewedAt": "2026-11-21",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 723,
+    "requiresExactMenuName": true
   }
 ];
