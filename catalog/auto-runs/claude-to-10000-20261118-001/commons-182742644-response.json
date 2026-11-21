@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChFUAANKpmzuY9UxTqvbQ",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Saffron-coloured risotto bed, clearly visible\",\n    \"Four dark brown sausage segments, glossy and cooked, prominently placed atop\",\n    \"Formal place setting with glassware in background, suggesting restaurant service\",\n    \"Natural colours, appetising presentation\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows yellow risotto base\",\n    \"Four sausage pieces distinctly visible and readable\",\n    \"Dish proportions and essential components preserved in crop\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title metadata names 'luganiga' but provides no explicit animal species qualifier. Luganiga is a traditional Italian sausage, but the species (pork, beef, or other) is not stated in the title/description.\",\n    \"Protocol requires exact source quote naming the animal for protein_evidence acceptance. 'Luganiga' alone is insufficient—it is a sausage type, not a species declaration.\",\n    \"Cannot infer species from appearance or tradition; species must be explicitly named in source.\"\n  ],\n  \"reason\": \"Image quality, composition, lighting, and phone thumbnail all meet acceptance criteria. The dish is clearly identifiable as saffron risotto with sausage, sharply detailed, naturally coloured, and appetising. However, the source title/description does not explicitly name the animal species of the luganiga sausage (pork/beef/lamb/duck/chicken/seafood). Per protocol, unspecified sausage species cannot be accepted for protein_evidence. The canonical_name cannot be completed without this explicit animal qualifier from the source. Hold pending clarification of luganiga species in source metadata, or acceptance requires the source to explicitly state the animal type.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1711,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 533,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

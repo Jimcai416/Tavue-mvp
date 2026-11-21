@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChFUAD6nZnZqegTJ3oE1p",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows only a dense, blurred mass of green noodles with no recognizable dish structure\",\n    \"Essential food components are not readable in the phone thumbnail\",\n    \"Extreme crop obscures any plating, components, or finished dish presentation\",\n    \"Phone thumbnail fails acceptance criterion for visibility of dish identity\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title 'Trenette in compagnia' (Trenette in company) is ambiguous—no proteins are explicitly named\",\n    \"Full image shows raw or uncooked green pasta in a large bowl with what appears to be a live fish, suggesting preparation stage rather than finished dish\",\n    \"Image composition suggests a market or preparation context rather than a plated, finished food photograph\"\n  ],\n  \"reason\": \"Rejection on multiple grounds: (1) Phone thumbnail completely fails—the extreme centre crop reduces the dish to an unidentifiable green blur with no readable components or recognizable finished-dish form; (2) Full source image appears to show preparation stage (raw pasta with live fish in a bowl at what looks like a market), not an exposed, finished, plated dish; (3) Source title contains no explicit protein declaration—'in compagnia' (in company) is non-specific and does not name any animal; (4) The image context (outdoor market, hands handling ingredients, live fish, loose pasta) indicates ingredients or preparation, not a finished photographic dish ready for consumption. Tavue accepts finished, exposed dishes; this does not meet that standard.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1901,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 486,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
