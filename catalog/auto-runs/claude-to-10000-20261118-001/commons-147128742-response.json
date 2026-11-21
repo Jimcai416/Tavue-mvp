@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChFzVh2aC17SMwFkrWeYU",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Meat skewers on charcoal grill\",\n    \"Red/pink cubed protein alternating with yellow garnish (possibly onion or pepper)\",\n    \"Multiple wooden skewers\",\n    \"Active grilling/charring visible on grill grate\",\n    \"Street food preparation style\"\n  ],\n  \"phone_observations\": [\n    \"Skewered meat cubes clearly visible and prominent\",\n    \"Alternating protein and garnish pattern readable\",\n    \"Finished grilled state evident\",\n    \"Natural colour and appetising appearance\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Species of meat cannot be determined from visual appearance alone—colour and size are consistent with multiple animal proteins (beef, lamb, pork, or liver)\",\n    \"Source title 'Brochette de foie' specifies liver/foie, but visual identification of liver tissue versus muscle meat is not reliable from photograph\",\n    \"Exact animal source of foie not stated in metadata\",\n    \"Yellow garnish identity unclear (onion, pepper, or other vegetable)\"\n  ],\n  \"reason\": \"Image quality, composition, and photographic authenticity are strong. The dish is a finished grilled skewer with clear street-food context. However, the source title declares 'foie' (liver) but does not specify the animal species (chicken liver, beef liver, pork liver, lamb, etc.). Visual confirmation of liver versus muscle meat is unreliable. Per protocol, ambiguous meat species or unspecified animal source requires hold. The metadata title alone is insufficient—protein_evidence cannot be populated with an exact case-sensitive substring naming the animal species.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1729,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 511,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
