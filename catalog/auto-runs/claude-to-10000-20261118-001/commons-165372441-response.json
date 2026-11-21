@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChFa2vinj5jNUqKcX6dzf",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Two fried eggs visible\",\n    \"Baked beans in tomato sauce\",\n    \"Roasted cherry tomatoes\",\n    \"Sautéed mushrooms\",\n    \"Sliced cooked meat (bacon and sausage visible)\",\n    \"Hash brown present\",\n    \"Toast on side\",\n    \"Blue plate\",\n    \"Appetising full cooked breakfast composition\"\n  ],\n  \"phone_observations\": [\n    \"All essential components clearly visible and identifiable in thumbnail\",\n    \"Plate well-centred and sharp\",\n    \"Natural colours preserved\",\n    \"No clipping of key elements\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Bacon and sausage species not explicitly named in source description—'bacon' and 'sausage' are generic terms without specification of animal source\",\n    \"Title contains 'File:' prefix and date stamp (not a clean canonical name)\",\n    \"Description on menu is paraphrased, not a formal dish name from the source\"\n  ],\n  \"reason\": \"The photograph is a high-quality, well-composed, appetising full English breakfast with all components sharp, properly lit, and clearly visible in both full image and phone thumbnail. However, the source description lists 'bacon' and 'sausage' without explicit animal-species qualification. Protocol requires exact source quotes explicitly naming each animal for protein categories (chicken/beef/pork/duck/lamb/seafood). Generic terms 'bacon' and 'sausage' do not constitute explicit species naming and cannot be assigned to protein_evidence keys. The title is a filename with metadata (File: prefix, date), not a cleaned canonical name. The description is a menu paraphrase rather than a formal source-title dish name. These identity/source qualification failures require hold under strict protocol, despite photographic excellence.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1753,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 553,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
