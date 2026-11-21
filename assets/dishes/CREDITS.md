@@ -13431,3 +13431,8 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Suprême de poulet snacké, mousseline de chou-fleur et fèves de soja** — [Benoît Prieur](https://www.wikidata.org/wiki/Q42790984). [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Supr%C3%AAme_de_poulet_snack%C3%A9,_mousseline_de_chou-fleur_et_f%C3%A8ves_de_soja.jpg). Local asset: `reviewed-commons-104172132.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Galizische Krautfleckerl mit Bergquark** — Silar. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:02021_0802_(5)_Galizische_Krautfleckerl_mit_Bergquark.jpg). Local asset: `reviewed-commons-101082029.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Krautfleckerl** — Kobako. [CC BY-SA 2.5](https://creativecommons.org/licenses/by-sa/2.5); [source](https://commons.wikimedia.org/wiki/File:Krautfleckerl.jpg). Local asset: `reviewed-commons-738049.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
