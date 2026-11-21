@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChFKAudnLEojKFYGCagcS",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Pretzel shapes clearly visible in thumbnail\",\n    \"White paper tray/boat container visible\",\n    \"Golden-brown colour consistent with full image\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title and description claim 'Mini salted pretzels' but no visible salt crystals or salt coating is apparent on any pretzel in either photograph\",\n    \"Pretzels appear to be plain or possibly chocolate-coated/glazed rather than salted\",\n    \"Visual evidence contradicts 'salted' descriptor in source metadata\"\n  ],\n  \"reason\": \"Reject: Identity check fails. The source title/description explicitly claims 'Mini salted pretzels' with salt as a defining characteristic, but no salt coating or salt crystals are visibly apparent on the pretzels in either the full photograph or the thumbnail. The pretzels appear plain or possibly glazed/coated, contradicting the essential identity claim. Canonical name cannot be assigned when source description does not match visible form. The photograph itself is well-composed and sharp, but the identity mismatch prevents acceptance.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1734,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 392,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
