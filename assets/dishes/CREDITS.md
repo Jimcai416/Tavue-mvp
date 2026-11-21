@@ -13273,3 +13273,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://creativecommons.org/publicdomain/mark/1.0/); [source](https://commons.wikimedia.org/wiki/File:Selle_d%27agneau_-_btv1b53271098k.jpg). Local asset: `reviewed-commons-187938624.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Selle d'agneau farcie au beurre maître d'hôtel** — Mon Œil. [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Selle_d%27agneau_farcie_au_beurre_ma%C3%AEtre_d%27h%C3%B4tel.jpg). Local asset: `reviewed-commons-47357736.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Selle d'agneau rôtie** — pelican. [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:Selle_d%27agneau_r%C3%B4tie.jpg). Local asset: `reviewed-commons-44286053.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Setas al ajillo** — Tamorlan. [CC BY 3.0](https://creativecommons.org/licenses/by/3.0); [source](https://commons.wikimedia.org/wiki/File:Setas_al_ajillo-Madrid.jpg). Local asset: `reviewed-commons-7528770.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
