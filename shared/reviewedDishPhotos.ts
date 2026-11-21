@@ -173320,5 +173320,30 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-54007536",
+    "title": "File:Water-Boiled Beef in Chili Sauce, Asia Room, Paris 001.jpg",
+    "author": "Guilhem Vellut  from Paris, France",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Water-Boiled_Beef_in_Chili_Sauce,_Asia_Room,_Paris_001.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Water-Boiled_Beef_in_Chili_Sauce%2C_Asia_Room%2C_Paris_001.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "fe988daf7df606fa1f7d4f86a4d69bf9a7d6b21d",
+    "name": "Water-Boiled Beef in Chili Sauce",
+    "aliases": [],
+    "proteins": [
+      "beef"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-54007536.jpg",
+    "assetSha256": "e2b1921120a6f619c2c67324c88d3a6b7cb01ee3f5881857d88036aa4f48a7d4",
+    "reviewedAt": "2026-11-21",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 640,
+    "requiresExactMenuName": true,
+    "authorUrl": "https://www.flickr.com/people/22539273@N00"
   }
 ];
