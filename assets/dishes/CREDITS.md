@@ -14060,3 +14060,7 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Hongos al ajillo** — Wotancito. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Hongos_al_ajillo.jpg). Local asset: `reviewed-commons-104888374.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Judiones de la Granja** — [Javier Lastras  from España/Spain](https://www.flickr.com/people/22662305@N04). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Judiones_de_la_Granja.jpg). Local asset: `reviewed-commons-9489714.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.

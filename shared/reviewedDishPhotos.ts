@@ -171911,5 +171911,28 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 720,
     "height": 960,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-9489714",
+    "title": "File:Judiones de la Granja.jpg",
+    "author": "Javier Lastras  from España/Spain",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Judiones_de_la_Granja.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/18/Judiones_de_la_Granja.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "524fc542db2dd606dd45e63f500c1d58d770356b",
+    "name": "Judiones de la Granja",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-9489714.jpg",
+    "assetSha256": "58719f6f244f74de45fb4dfcfa7a973fc725d80f21dc411367e903ccafda62fb",
+    "reviewedAt": "2026-11-21",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 640,
+    "requiresExactMenuName": true,
+    "authorUrl": "https://www.flickr.com/people/22662305@N04"
   }
 ];
