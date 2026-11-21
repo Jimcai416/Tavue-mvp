@@ -14212,3 +14212,7 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Pastel de nata portugais** — Thomon. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Pastel_de_Nata_portugais.jpg). Local asset: `reviewed-commons-87505424.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Waldorf Salad** — Hennem08. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Waldorf_Salad.jpg). Local asset: `reviewed-commons-27217684.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.

@@ -173594,5 +173594,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-27217684",
+    "title": "File:Waldorf Salad.jpg",
+    "author": "Hennem08",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Waldorf_Salad.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/53/Waldorf_Salad.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "4fe9b813e1a90ef966632f6bfb7dfc9d956e8989",
+    "name": "Waldorf Salad",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-27217684.jpg",
+    "assetSha256": "24d3fde259997f51dfe84242220fa58d60d3a57f6a22a89b5fd77479cdd9261e",
+    "reviewedAt": "2026-11-21",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 640,
+    "requiresExactMenuName": true
   }
 ];
