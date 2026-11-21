@@ -162280,5 +162280,51 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "height": 960,
     "requiresExactMenuName": true,
     "authorUrl": "https://www.flickr.com/people/71481771@N00"
+  },
+  {
+    "id": "commons-95466876",
+    "title": "File:Pork & Pistachio Terrine, Saffron Jelly, Pickled Pear.jpg",
+    "author": "Siobhan Leachman",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pork_%26_Pistachio_Terrine,_Saffron_Jelly,_Pickled_Pear.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Pork_%26_Pistachio_Terrine%2C_Saffron_Jelly%2C_Pickled_Pear.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "d664e32fca730cac1faed9e4f9d986db7230dcc8",
+    "name": "Pork & Pistachio Terrine, Saffron Jelly, Pickled Pear",
+    "aliases": [],
+    "proteins": [
+      "pork"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-95466876.jpg",
+    "assetSha256": "cea707766d2fd88c929ba0136217801c99b111b49fc9db76b41840501b6ee887",
+    "reviewedAt": "2026-11-21",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 720,
+    "height": 960,
+    "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-3853279",
+    "title": "File:Profiterole choc.jpg",
+    "author": "Hcrepin",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Profiterole_choc.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Profiterole_choc.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "b3d54a13310048f369b45bc497f8f17b50f30a27",
+    "name": "Profiterole nappée de chocolat",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-3853279.jpg",
+    "assetSha256": "c6baa2cec869fee7268ded26be7682284e68494f1bf384a28f0d2fc4274e815e",
+    "reviewedAt": "2026-11-21",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];
