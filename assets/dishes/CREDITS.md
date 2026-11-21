@@ -13527,3 +13527,9 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 
 - **Soupe de choux rouges, avec des croutons** — Pippobuono. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Soupe_de_chou_rouge,_avec_des_croutons.jpg). Local asset: `reviewed-commons-81724869.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Poêlée de girolles (champignons) revenues au beurre** — Opsylac. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Po%C3%AAl%C3%A9e_de_girolles.jpg). Local asset: `reviewed-commons-64787069.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Alitas de pollo al ajillo con patatas a lo pobre** — Avicentegil. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Alitas_de_pollo_al_ajillo_con_patatas_a_lo_pobre.jpg). Local asset: `reviewed-commons-54427825.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Patatas a lo pobre** — Eduardo Milla. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Patatas_a_lo_pobre.jpg). Local asset: `reviewed-commons-115150647.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Tapa de patatas a lo pobre** — Urci dream. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Tapa_de_patatas_a_lo_pobre.jpg). Local asset: `reviewed-commons-109526667.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
