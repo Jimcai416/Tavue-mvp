@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChFkWRz6Rnamied9THh9P",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": \"Cod fillet, chorizo, rice with Béarnaise sauce\",\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Golden-brown seared fish fillet visible on black plate\",\n    \"Red-orange sliced chorizo prominently layered on fish\",\n    \"Creamy pale rice in white bowl with fresh parsley garnish\",\n    \"Black beurre noisette-style sauce drizzle on white plate\",\n    \"Professional plated presentation at fine dining restaurant\"\n  ],\n  \"phone_observations\": [\n    \"Red and white colour scheme clearly visible\",\n    \"Black plate with seared fish and chorizo distinct\",\n    \"Rice portion in white container readable\",\n    \"Dish components adequately prominent in thumbnail\",\n    \"Plate layout recognizable despite size reduction\"\n  ],\n  \"protein_evidence\": {\n    \"seafood\": \"Cod fillet\",\n    \"pork\": \"chorizo\"\n  },\n  \"uncertainties\": [\n    \"Source states 'rice with Béarnaise sauce' but visible sauce appears to be beurre noisette (brown butter) or reduced red wine gastrique, not classical Béarnaise (tarragon beurre blanc). Visual evidence contradicts sauce identification in description.\",\n    \"Chorizo species/origin unspecified in source; colour and appearance suggest Spanish-style cured chorizo but cannot verify exact variant\"\n  ],\n  \"reason\": \"Reject due to protein_evidence-based hold: source identifies 'chorizo' as a protein component, but chorizo is a sausage product of unspecified animal species. The source does not explicitly state 'pork chorizo' or any named animal origin. Per instructions, unspecified sausage species cannot be accepted as protein evidence. Additionally, the sauce identification creates a secondary uncertainty: the description claims 'Béarnaise sauce' but the visible golden/amber drizzle appears inconsistent with classical Béarnaise characteristics. The dish identity cannot be canonicalized with confidence given the protein ambiguity and sauce contradiction.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1662,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 582,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

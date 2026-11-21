@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChFkVSM9U5t61zBH1p8Hy",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": \"Baby carrots, grape tomatoes, hard-boiled eggs, and sardines on lettuce, with cheddar cheese and mango vinaigrette dressing\",\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 5,\n    \"appeal\": 5\n  },\n  \"visible_support\": [\n    \"Hard-boiled eggs halved, clearly visible with cooked yolks\",\n    \"Orange shredded ingredient (stated as cheddar cheese)\",\n    \"Red grape tomatoes prominent\",\n    \"Orange/red diced pieces (stated as shredded sardines)\",\n    \"Mixed greens base (lettuce)\",\n    \"Baby carrot pieces\",\n    \"Artisanal ceramic plate with blue-grey glaze\",\n    \"Professional plating and composition\"\n  ],\n  \"phone_observations\": [\n    \"All major components visible in thumbnail\",\n    \"Hard-boiled eggs clearly distinguishable\",\n    \"Shredded protein and cheese visible\",\n    \"Red tomatoes and orange elements legible\",\n    \"Plate texture and color preserved\",\n    \"Dish identity readable from thumbnail\"\n  ],\n  \"protein_evidence\": {\n    \"seafood\": \"sardines\"\n  },\n  \"uncertainties\": [\n    \"Source title describes 'sardines' but visual confirmation of fish identity from photograph alone is not definitive; shredded pink/tan pieces are consistent with canned sardines but could theoretically be other pale seafood or processed meat\",\n    \"Cheddar cheese stated in description but cannot be visually confirmed as specifically cheddar vs. another hard cheese variety from appearance alone\",\n    \"No formal dish name provided; this appears to be a composed salad without a canonical culinary title\"\n  ],\n  \"reason\": \"Identity check fails: the source provides ingredient descriptors but no actual dish name. The photograph shows a composed salad with identifiable components (eggs, vegetables, greens, shredded protein and cheese) matching the description. Protein is stated as 'sardines' (seafood category supported). However, without a canonical dish title in the source (only an ingredient list), and with visual ambiguity around the exact seafood species (sardines are stated but appearance alone does not definitively prove species), this cannot be accepted. The image quality, photography, phone thumbnail legibility, and ingredient preservation are all strong, but the fundamental naming/identity requirement cannot be satisfied. Hold pending a formal dish name or clearer source designation.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 2100,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 652,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

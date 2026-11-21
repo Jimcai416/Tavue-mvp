@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChFkWh7wHMbtnFxro5XYb",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Plated dish with dark green herb-crusted shells\",\n    \"Lemon wedges prominently placed\",\n    \"Formal dining setting with place settings\",\n    \"Multiple shells arranged on single plate\"\n  ],\n  \"phone_observations\": [\n    \"Green herb crust clearly visible in thumbnail\",\n    \"Yellow lemon garnish readable\",\n    \"Dish prominence and plate composition preserved\",\n    \"Shell structure evident\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title describes 'Oysters Rockefeller' but the visible form shows what appear to be large flat shells with dark green herb topping and lemon—consistent with oysters, but the actual mollusc species (oyster) cannot be explicitly confirmed from visual inspection alone\",\n    \"Oysters are shellfish/molluscs, not permitted protein categories (chicken/beef/pork/duck/lamb/seafood is the allowed category, but 'oysters' is a specific shellfish requiring explicit source quotation to validate the ingredient claim)\"\n  ],\n  \"reason\": \"While the photograph shows a well-executed, sharply detailed plated dish in a formal setting with excellent lighting and composition (all scores ≥4), the identity check fails because oysters are shellfish and fall outside the explicitly allowed protein categories (chicken, beef, pork, duck, lamb, seafood). The source title 'Oysters Rockefeller' names oysters as the primary ingredient, but oysters are a specific mollusc type, not covered by the permitted protein list. The visual form is consistent with the named dish, but the protein category cannot be supported within the defined framework. Hold would have been appropriate if the shellfish identity were ambiguous; rejection is correct because the named ingredient is outside allowed scope.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1675,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 534,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

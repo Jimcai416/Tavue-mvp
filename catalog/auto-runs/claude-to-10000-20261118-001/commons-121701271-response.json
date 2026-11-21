@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChFkWjCgxVUudaD3RdnB6",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Plate shows layered arrangement of colourful components: red peppers, orange/yellow tomatoes, pale cream-coloured spheres (quail eggs), and green vegetable base\",\n    \"Visible pepperoni or salami pieces dispersed throughout\",\n    \"Orange/golden scattered seasoning or toasted croutons visible across surface\",\n    \"Composition and layering consistent with full image\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'mixed greens' and 'salad' but image shows no visible leafy greens; instead displays what appears to be a cooked or prepared hot dish with arranged vegetables\",\n    \"Visible pink/red cured meat pieces (pepperoni or similar) are not mentioned in source description\",\n    \"Golden scatter (croutons or fried element) is not mentioned in source description\",\n    \"Title lists components but arrangement and apparent cooking method contradict 'salad' classification\",\n    \"Source title does not explicitly name any animal proteins; 'quail eggs' are present but no meat species declared in description\"\n  ],\n  \"reason\": \"Identity check fails: source description claims 'salad of mixed greens' but no leafy greens are visibly present in either photograph. Image shows a composed dish with roasted or cooked vegetables, visible cured meat (pepperoni or salami—undeclared in source), golden croutons or fried elements (undeclared), and quail eggs arranged on a plate. The presentation, components and cooking method contradict a simple salad description. Title-photograph mismatch creates material uncertainty about true dish identity. Additionally, while quail eggs are listed, no meat animal is explicitly named in the source description, so protein_evidence remains empty per rules.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 2098,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 540,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
