@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChG172TMhMtXRfQNA7NMj",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 3,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Packaged cured meat with label visible on cloth background\",\n    \"Label dominates thumbnail; meat occupies minimal visual space\",\n    \"Essential food subject severely undersized in phone crop\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Andouille is a prepared sausage product; source does not explicitly name the animal species (pork, beef, or other)\",\n    \"Only packaging and label visible, not an exposed, finished, cooked dish ready to eat\"\n  ],\n  \"reason\": \"Rejection: This is a packaged, uncooked prepared sausage displayed with its label on a cloth background, not a finished, exposed, cooked dish. The image shows the product in its packaging rather than plated or presented for consumption. The phone thumbnail shows the label dominates and the meat subject is tiny and clipped. Source does not explicitly name the animal species, only 'Andouille du Val d'Ajol'. Fails photograph (packaged product, not finished dish), phone (essential subject undersized and clipped), and protein_evidence (species unspecified by source) requirements.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1748,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 395,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

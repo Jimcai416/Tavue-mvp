@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChG16m1udpsuWPW83f6wd",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 2\n  },\n  \"visible_support\": [\n    \"Raw/uncooked sausage casing with visible interior texture\",\n    \"Pale, uncooked meat interior visible through casing\",\n    \"Natural casing with distinct segmentation marks\",\n    \"Still-attached tail/string characteristic of prepared but uncooked charcuterie\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows raw/uncooked state\",\n    \"No caramelization, browning, or cooking visible\",\n    \"Casing appears pale and unfinished\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Andouille de Charlieu is a traditional French sausage, but the source lists only generic 'sausage' category which cannot be accepted per protocol\",\n    \"Animal species (pork/beef/other) not explicitly stated in title or description\"\n  ],\n  \"reason\": \"Rejection: This is a raw, uncooked sausage in preparation or display state, not a finished, exposed, cooked dish. The image shows the casing, uncooked meat interior, and prepared-but-unfinished form. While the photograph quality is acceptable and identity is clear from source metadata, the subject fails the core requirement of being a 'finished, exposed, likely photographic dish.' Andouille must be cooked to be served. Additionally, the source metadata does not explicitly name the animal protein (pork is traditional but not stated), and 'sausage' alone cannot be used as a protein_evidence key per protocol. No animal species can be supported from the supplied title/description.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1572,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 493,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

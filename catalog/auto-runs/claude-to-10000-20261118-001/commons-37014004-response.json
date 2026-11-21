@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChG168Ad1QTk7CKukg97g",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 2\n  },\n  \"visible_support\": [\n    \"Hard-boiled eggs halves with yellow yolks visible\",\n    \"Brown meat cubes consistent with kidney\",\n    \"Butter slice on plate\",\n    \"Rustic presentation on terracotta plate\",\n    \"Home-cooked appearance\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows brown meat cubes, yellow egg yolks, and butter\",\n    \"Composition is readable and matches full image\",\n    \"Subject is prominent and well-centered\"\n  ],\n  \"protein_evidence\": {\n    \"pork\": \"Rognons de porc\"\n  },\n  \"uncertainties\": [\n    \"Kidneys (rognons) are organ meat, not an allowed protein category (chicken/beef/pork/duck/lamb/seafood only); pork kidneys cannot be accepted under pork category as the dish is defined by organ type, not muscle tissue\"\n  ],\n  \"reason\": \"While the photograph is sharp, well-composed, and naturally coloured with appetising presentation, the dish is rognons (kidneys), which are organ meat. The protocol restricts proteins to chicken/beef/pork/duck/lamb/seafood, understood as conventional muscle meats. Kidney is not an allowed category within the pork classification. The source explicitly names 'Rognons de porc' (pork kidneys), making this a prepared and finished dish, but it cannot meet acceptance criteria due to protein category restriction.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1751,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 465,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

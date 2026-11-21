@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChG16yr6J5yN3UVPDSM1F",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Cooked pasta (linguine) clearly visible\",\n    \"Brown meat pieces with herb garnish\",\n    \"Plate presentation in restaurant setting\",\n    \"Natural lighting, appetizing appearance\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail shows pasta and meat composition\",\n    \"Central dish clearly visible at phone size\",\n    \"No clipping of essential components\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'Rognons de veau' (veal kidneys) but source metadata is untrusted per instructions\",\n    \"Kidney organ meat is not an allowed protein category (only chicken/beef/pork/duck/lamb/seafood permitted)\",\n    \"Visible meat pieces do not unambiguously prove veal kidneys from appearance alone\",\n    \"No explicit, case-sensitive source quote naming an allowed protein species in the title/description itself\"\n  ],\n  \"reason\": \"Hold: The title metadata claims 'Rognons de veau' (veal kidneys), but kidneys are an organ meat not in the permitted protein categories (chicken/beef/pork/duck/lamb/seafood). The visible meat cannot be conclusively identified as veal or confirmed to match the title claim. All metadata is untrusted per instructions. No exact source quote naming an allowed protein category can be extracted. Identity check fails because the dish cannot be validated against allowed specifications. Protein evidence cannot be supported.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1970,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 464,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

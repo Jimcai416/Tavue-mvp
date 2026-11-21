@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChG15v6bAu3dq5RQK3L1y",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [\n    \"Raw/uncooked cross-sections of sausage with visible concentric rings\",\n    \"Pink-grey tissue colour consistent with cured pork offal\",\n    \"Wood cutting board surface\",\n    \"Five slices arranged on flat surface\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows raw sausage slices, not a finished prepared dish\",\n    \"Concentric ring pattern visible in reduced view\",\n    \"Colour and texture consistent with raw/cured preparation state\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title 'Französische Innereienwurst' (French offal sausage) does not specify animal species; 'Andouille' traditionally implies pork but metadata does not explicitly confirm\",\n    \"Image shows raw or cured sausage slices, not a cooked/finished dish ready for consumption\"\n  ],\n  \"reason\": \"Rejection: The photograph displays raw or cured sausage slices in a preparation/ingredient state, not a finished, cooked, exposed dish. Tavue accepts only finished food photographs. The source metadata identifies this as 'Französische Innereienwurst' (French offal sausage) but does not explicitly name the animal species in the title or description—only 'offal sausage' is stated. Per rules, ambiguous or unspecified meat species (sausage without explicit animal declaration) must be held or rejected. The image quality and composition are acceptable, but the fundamental requirement—a finished, exposed, prepared dish—is not met.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1480,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 493,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

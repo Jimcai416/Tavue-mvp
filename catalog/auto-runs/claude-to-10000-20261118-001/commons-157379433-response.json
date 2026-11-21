@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChG15vEH6QXUX6EBvqcg9",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Three curved sausages visible at reduced resolution\",\n    \"Brown colouring consistent with full image\",\n    \"Subject identifiable but small relative to frame\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title references only 'File:Andouille (6970895435).jpg' without explicit dish name or preparation stage confirmation\",\n    \"Description contains only a hyperlink ('How to make Andouille') without authoritative sourced dish confirmation\",\n    \"Sausage species/animal composition not explicitly named in source metadata\",\n    \"Cannot confirm finished cooked dish vs. preparation/curing stage from metadata alone\",\n    \"No explicit source quote identifying this as a finished, exposed, consumable dish ready for service\"\n  ],\n  \"reason\": \"Identity check failed. Source metadata provides only a filename and external URL reference without an explicit canonical dish title or description confirming this is a finished, exposed food photograph. The description 'How to make Andouille' suggests preparation content rather than a finished dish review. Sausage animal species is not named in the supplied source. Protein_evidence remains empty because no exact substring explicitly identifies the animal. Despite acceptable photograph and phone thumbnail quality, the absence of authoritative source text confirming identity, finished state, and protein composition means identity and variant_preserved checks cannot pass. Hold for explicit source dish confirmation.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1555,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 448,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
