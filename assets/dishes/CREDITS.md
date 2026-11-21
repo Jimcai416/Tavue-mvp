@@ -13358,3 +13358,9 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Filet de Porc à la Bordelaise** — Chensiyuan. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/); [source](https://commons.wikimedia.org/wiki/File:Filet_de_Porc_%C3%A0_la_Bordelaise.JPG). Local asset: `reviewed-commons-1507025.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **La Petite Salad Niçoise** — [Geoff Peters  from Vancouver, BC, Canada](https://www.flickr.com/people/54359128@N00). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:La_Petite_Salad_Ni%C3%A7oise_(3383454011).jpg). Local asset: `reviewed-commons-80212929.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Joue de boeuf façon daube comtadine** — Marianne Casamance. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Joue_de_boeuf_en_daube.JPG). Local asset: `reviewed-commons-35026068.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Salad Niçoise** — Wusel007. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Nizza-Salat_an_der_F_Mittelmeerk%C3%BCste.JPG). Local asset: `reviewed-commons-25572696.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
