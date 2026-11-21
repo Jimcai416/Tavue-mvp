@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChFLeGCAV74956vWP5xCg",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": \"Hirschgulasch mit Schupfnudeln und Buttergemüse\",\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 5,\n    \"appeal\": 5\n  },\n  \"visible_support\": [\n    \"Brown braised meat pieces in rich sauce\",\n    \"Golden fried potato wedges/schupfnudeln\",\n    \"Sliced orange carrots\",\n    \"Fresh broccoli florets\",\n    \"Finished plated dish on white ceramic bowl\"\n  ],\n  \"phone_observations\": [\n    \"Meat and sauce clearly visible and prominent\",\n    \"Fries and vegetables recognizable\",\n    \"Overall composition and food detail readable in thumbnail\",\n    \"Natural colours preserved in reduction\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title declares 'Hirschgulasch' (venison goulash), but venison/game is not an allowed protein category (only chicken/beef/pork/duck/lamb/seafood accepted)\",\n    \"Cannot visually confirm meat species from photograph appearance alone\",\n    \"No explicit source quote naming an allowed animal species\"\n  ],\n  \"reason\": \"Image quality, photography and phone thumbnail all meet acceptance criteria with sharp focus, natural lighting, strong composition and appetising presentation. However, identity check fails: the source title names 'Hirschgulasch' (venison), which is not an allowed protein category. The rules require an exact source quote explicitly naming each animal, and venison/game/unspecified species cannot be accepted. Hold pending clarification or correction of protein identity to an allowed category.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1989,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 469,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

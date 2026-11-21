@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChFLfB1A8cLJh1v5AUpZK",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 5,\n    \"composition\": 5,\n    \"appeal\": 5\n  },\n  \"visible_support\": [\n    \"Tender brown meat pieces in rich brown gravy\",\n    \"Yellow potato dumplings with parsley garnish\",\n    \"Deep burgundy shredded red cabbage\",\n    \"Red cranberry garnish on meat\",\n    \"Finished plated dish in restaurant setting\",\n    \"Natural lighting, saturated colours, appetising presentation\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows meat, sauce, dumplings, red cabbage\",\n    \"Yellow potatoes prominent and identifiable\",\n    \"Meat pieces visible and readable in centre-cover\",\n    \"Overall composition readable at small scale\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title states 'Venison goulash' but venison is not an allowed protein category (only chicken/beef/pork/duck/lamb/seafood permitted)\",\n    \"Meat species cannot be visually verified from appearance alone\",\n    \"No explicit source quote names an allowed animal species\"\n  ],\n  \"reason\": \"Image quality and composition are excellent; phone thumbnail is clear and readable. However, the source identifies the dish as venison goulash. Venison (wild deer) is not an allowed protein category per guidelines (only chicken, beef, pork, duck, lamb, seafood). The meat cannot be visually confirmed as one of the permitted species from photograph alone. Identity check fails due to unallowed protein specification in source. Hold pending clarification of actual meat species or alternative source confirmation.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1756,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 473,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
