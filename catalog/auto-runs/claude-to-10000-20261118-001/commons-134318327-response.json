@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChFA5qESAheU81mu9Y6GE",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 2,\n    \"composition\": 1,\n    \"appeal\": 0\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Image is a historical handwritten letter manuscript, not a food photograph\",\n    \"Cursive handwriting on aged paper with postal stamps\",\n    \"No food subject present\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source metadata references food vocabulary (miroton, plat, etc.) but only in the context of a 19th-century French letter's literary metaphors about emotional/spiritual nourishment, not an actual dish\"\n  ],\n  \"reason\": \"This is a historical autograph letter from Juliette Drouet to Victor Hugo (11 July 1848), not a food photograph. The source title, full image, and thumbnail all confirm it is a manuscript document. While the letter's text contains metaphorical language about food and appetite (miroton, plat de son métier), these are literary devices within personal correspondence, not documentation of an actual prepared dish. The image contains no finished food, no dish preparation, no food subject whatsoever. This fails all core acceptance criteria: not a photograph of food, not a finished exposed dish, not appetising visual content, and not suitable for a food review database.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 2535,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 399,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

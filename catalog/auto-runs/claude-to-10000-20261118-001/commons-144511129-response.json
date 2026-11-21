@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChFA5PshNjk95TyWjyhP6",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Yellow orzo pasta base clearly visible\",\n    \"Red plant-based chorizo strips identifiable\",\n    \"Green peas and red peppers distributed throughout\",\n    \"Lemon wedges prominently placed\",\n    \"Pink serving bowl\",\n    \"Natural daylight, well-exposed image\"\n  ],\n  \"phone_observations\": [\n    \"Dish remains clearly identifiable in thumbnail\",\n    \"Yellow pasta and red chorizo visible\",\n    \"Essential components readable\",\n    \"No clipping of critical elements\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source describes 'plant-based chicken chunks' and 'plant-based shrimp' but these are not actual animal proteins and cannot be mapped to canonical protein categories (chicken/beef/pork/duck/lamb/seafood)\",\n    \"Plant-based meat substitutes are not authentic proteins and fall outside the allowed protein categories\",\n    \"The dish is explicitly vegan/plant-based, containing no real animal proteins despite the descriptive naming of substitute ingredients\"\n  ],\n  \"reason\": \"Rejection: This is a plant-based paella using exclusively vegan substitute proteins (Heura plant-based chorizo, plant-based chicken chunks, plant-based shrimp). The protocol specifies that proteins may include only chicken/beef/pork/duck/lamb/seafood with explicit source quotes naming each animal. Plant-based meat substitutes are not actual animal proteins and cannot satisfy the protein_evidence requirement. The identity check fails because the actual dish composition (zero real animal proteins) contradicts standard paella identity and the allowed protein categories. While the photograph and phone thumbnail are of high quality and the dish is visually appetising, the fundamental protein requirement cannot be met.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1818,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 524,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
