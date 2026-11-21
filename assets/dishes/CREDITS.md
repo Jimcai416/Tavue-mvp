@@ -13147,3 +13147,8 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 
 - **Mariscada** — Xemenendura. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Mariscada,_Santiago._Galicia.jpg). Local asset: `reviewed-commons-151649831.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Revuelto de ajetes** — Tamorlan. [CC BY 3.0](https://creativecommons.org/licenses/by/3.0); [source](https://commons.wikimedia.org/wiki/File:Revuelto_de_Ajetes-2011.JPG). Local asset: `reviewed-commons-16036211.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Cheesecake alla Crema di Ricotta e Limone** — DinaBenedettoFerrandina. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Cheesecake_alla_Crema_di_Ricotta_e_Limone.jpg). Local asset: `reviewed-commons-121100155.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Crostata con Crema di Ricotta** — DinaBenedettoFerrandina. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Crostata_con_Crema_di_Ricotta.jpg). Local asset: `reviewed-commons-109794127.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
