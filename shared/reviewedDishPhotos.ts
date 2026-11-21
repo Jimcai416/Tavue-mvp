@@ -162982,5 +162982,28 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "height": 720,
     "requiresExactMenuName": true,
     "authorUrl": "https://www.flickr.com/people/55935853@N00"
+  },
+  {
+    "id": "commons-45310172",
+    "title": "File:Restaurante Santa Truta (Santo Antonio do Pinhal) - Fondue doce (Banana, Morango, Manga, Mamão, Uva e Melão) - Sweet fondue ( Banana, Strawberry, Mango, Papaya, Grape and Melon) (8903421267).jpg",
+    "author": "Deni Williams  from São Paulo, Brasil",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Restaurante_Santa_Truta_(Santo_Antonio_do_Pinhal)_-_Fondue_doce_(Banana,_Morango,_Manga,_Mam%C3%A3o,_Uva_e_Mel%C3%A3o)_-_Sweet_fondue_(_Banana,_Strawberry,_Mango,_Papaya,_Grape_and_Melon)_(8903421267).jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Restaurante_Santa_Truta_%28Santo_Antonio_do_Pinhal%29_-_Fondue_doce_%28Banana%2C_Morango%2C_Manga%2C_Mam%C3%A3o%2C_Uva_e_Mel%C3%A3o%29_-_Sweet_fondue_%28_Banana%2C_Strawberry%2C_Mango%2C_Papaya%2C_Grape_and_Melon%29_%288903421267%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "824cf84cfb392660e07037a031f6bbd65fedfe68",
+    "name": "Fondue doce (Banana, Morango, Manga, Mamão, Uva e Melão)",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-45310172.jpg",
+    "assetSha256": "61d1f2d96e76af9ce3b6cc9cf60408faf97d5a077fcb0d49cef8574c21417ac8",
+    "reviewedAt": "2026-11-21",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 640,
+    "requiresExactMenuName": true,
+    "authorUrl": "https://www.flickr.com/people/45600179@N08"
   }
 ];

@@ -13129,3 +13129,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Ravioli burro e salvia** — [Ewan Munro  from London, UK](https://www.flickr.com/people/55935853@N00). [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:La_Barca,_Waterloo,_London_(2683294786).jpg). Local asset: `reviewed-commons-24281599.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Fondue doce (Banana, Morango, Manga, Mamão, Uva e Melão)** — [Deni Williams  from São Paulo, Brasil](https://www.flickr.com/people/45600179@N08). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Restaurante_Santa_Truta_(Santo_Antonio_do_Pinhal)_-_Fondue_doce_(Banana,_Morango,_Manga,_Mam%C3%A3o,_Uva_e_Mel%C3%A3o)_-_Sweet_fondue_(_Banana,_Strawberry,_Mango,_Papaya,_Grape_and_Melon)_(8903421267).jpg). Local asset: `reviewed-commons-45310172.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
