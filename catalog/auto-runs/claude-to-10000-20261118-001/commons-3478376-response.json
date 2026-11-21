@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChG94wAyU1y3m4zBtmZ5w",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 3,\n    \"lighting\": 2,\n    \"composition\": 2,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Price labels and barcode visible, indicating raw/packaged retail meat\",\n    \"No finished dish evident; raw butcher cut with packaging tags\",\n    \"Subject too small and indistinct for meaningful detail in thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title references 'Ternasco de Aragon DO' (a protected designation for young lamb), but image shows raw/uncooked meat cuts at retail, not a finished prepared dish\",\n    \"Actual animal species (lamb, mutton, kid goat) cannot be visually confirmed from raw packaged cuts\",\n    \"Image is a retail meat photograph, not a finished plated dish\"\n  ],\n  \"reason\": \"Rejection: This is a raw/butcher-stage meat photograph with retail packaging, barcode, and price labels—not a finished, exposed, cooked dish. While the source title references 'Ternasco de Aragon DO', the image shows uncooked cuts at the point of sale. Tavue accepts finished, appetising prepared food, not raw ingredients or retail meat displays. Quality, composition, and phone thumbnail all fail acceptance thresholds. No finished dish is evident.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1623,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 411,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
