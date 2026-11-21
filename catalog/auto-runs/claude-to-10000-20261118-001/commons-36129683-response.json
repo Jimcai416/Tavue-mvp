@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChFCMPfj6ze2pP7zbnUrL",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Pink/salmon-coloured mousse or pâté base visible\",\n    \"White cream or mayonnaise topping\",\n    \"Lemon slices as garnish\",\n    \"Green herbs (chives) sprinkled on top\",\n    \"Served in aluminium individual containers\",\n    \"Tomato slices visible alongside\"\n  ],\n  \"phone_observations\": [\n    \"Central dish clearly visible in phone thumbnail\",\n    \"Pink mousse/pâté distinguishable\",\n    \"White cream topping visible\",\n    \"Lemon garnish recognizable\",\n    \"Adequate detail for identification\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title states 'Saumon à la mayonnaise' (Salmon with mayonnaise) but no raw salmon is visibly present in the photograph—only a pink-coloured mousse, pâté or forcemeat product that could be salmon-based, chicken-based, or another ingredient\",\n    \"The pink colour and texture suggest a prepared mousse or terrine rather than raw or cooked salmon fillet\",\n    \"Cannot visually confirm salmon as the protein ingredient; the dish may be a salmon mousse, pâté, or quenelle, or could be another protein entirely\",\n    \"Source title declares salmon but visual form does not permit confident identification of the protein species\"\n  ],\n  \"reason\": \"Reject: source title declares 'Saumon à la mayonnaise' (salmon with mayonnaise), but the photograph shows a pink mousse, pâté or forcemeat product whose protein identity cannot be visually confirmed. The finished form does not display recognizable salmon meat, fillet or identifiable salmon components. While the dish is clearly a finished, plated appetiser with good sharpness, lighting and composition, the fundamental identity check fails because the protein species cannot be visually verified from the photograph alone, only from the untrusted metadata title. Per protocol, hidden flavours may be source-declared but never visually proven; ambiguous protein identity where the visible form contradicts or fails to support the source claim => hold converted to reject due to impossibility of visual protein confirmation.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1647,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 624,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
