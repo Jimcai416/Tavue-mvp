@@ -163294,5 +163294,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 641,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-104058652",
+    "title": "File:Tarte aux pommes de Colette 01.jpg",
+    "author": "Bycro",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tarte_aux_pommes_de_Colette_01.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Tarte_aux_pommes_de_Colette_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "0d190113e284dc81a9880fe013330b05e57f77a0",
+    "name": "Tarte aux pommes de Colette",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-104058652.jpg",
+    "assetSha256": "2a3ae1a9758eb9ded07cbe759ba0553e6fbe6375e5b82496ad38921b9ea7fdc5",
+    "reviewedAt": "2026-11-21",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 540,
+    "requiresExactMenuName": true
   }
 ];
