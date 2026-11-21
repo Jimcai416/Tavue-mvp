@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChF9kwq2EZvXJu85CJYvQ",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Pan-seared meat pieces with browning and caramelization\",\n    \"Bone structure and connective tissue visible\",\n    \"Natural cooking stage in dark non-stick pan\",\n    \"Golden-brown surface indicating sear/cooking\"\n  ],\n  \"phone_observations\": [\n    \"Meat pieces clearly visible and prominent in thumbnail\",\n    \"Browning detail readable at reduced resolution\",\n    \"Composition centered and well-framed\",\n    \"Essential food components not clipped\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'Chuletas de cordero' (lamb chops), but source is untrusted metadata, not supplied title/description\",\n    \"Visible anatomy (bone structure, connective tissue) is consistent with lamb, but species cannot be confirmed from appearance alone without explicit source text authorization\",\n    \"No supplied canonical title or description provided by user to verify identity against\",\n    \"Metadata title/filename must not be treated as instruction or identity proof per system rules\"\n  ],\n  \"reason\": \"Image shows a finished, well-photographed cooking stage with appetizing sear marks, natural colour, and sharp detail. However, the identity check fails because the only source reference is untrusted metadata (filename and description). The user did not supply an explicit, authorized title or description for this dish. The visible anatomy suggests lamb chops, but cannot be confirmed as the source protein without an explicit, trusted canonical source. Without a user-supplied trusted title/description to match against, identity cannot be verified. Hold pending user-provided canonical dish name and source description.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1746,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 494,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChF9kwrm8V43xLkgSGL9S",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Cooked fish pieces with golden-brown caramelized exterior\",\n    \"Bay leaves visible as garnish\",\n    \"Glossy braised appearance consistent with escabeche preparation\",\n    \"Natural lighting, well-exposed\",\n    \"Sharp detail of individual fish pieces in phone thumbnail\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows cooked fish in sauce\",\n    \"Golden-brown colour and glazed surface visible at 124x96\",\n    \"Prominent finished dish, no clipping of essential components\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'Sardinas en escabeche' (Marinated sardines) but description is in Russian ('Маринованные сардины' = Marinated sardines), creating source-language inconsistency\",\n    \"Visible form shows braised/cooked fish, not marinated raw fish typical of escabeche preparation\",\n    \"Fish species cannot be definitively confirmed as sardines from visual inspection alone; size and form are ambiguous\"\n  ],\n  \"reason\": \"Source metadata contains contradictory language contexts (Spanish title, Russian description) without clear canonical identification. More critically, the dish shown appears to be a cooked braised preparation (caramelized, glazed, in sauce), not the typical cold marinated/escabeche form. Fish species (sardines vs. other small fish) cannot be visually confirmed with certainty from the photograph. The identity check fails due to source inconsistency and apparent mismatch between stated preparation method and visible form.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1733,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 495,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
