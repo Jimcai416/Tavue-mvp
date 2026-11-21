@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChGN1w7S72fp9tWbx7NUi",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 5,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Two round golden-brown fried discs (polenta or similar)\",\n    \"One whole grilled fish with herb crust and lemon slice\",\n    \"Black spoon with green sauce (pesto or herb condiment)\",\n    \"Small white ramekin with diced red accompaniment (tomato compote or relish)\",\n    \"White rectangular serving plate on wooden surface\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows the two fried discs and grilled fish\",\n    \"Lemon garnish and spoon visible\",\n    \"Composition remains readable at reduced size\",\n    \"Essential dish components preserved in phone view\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title contains 'piron au bar braisé' but bar (sea bass) in source is grilled/seared, not braisé (braised)\",\n    \"Fish identity not explicitly stated in title—'bar' is French common name, exact species not confirmed\",\n    \"Sauce in spoon not identified in source\",\n    \"Red accompaniment identity not stated (assumed tomato but not confirmed)\",\n    \"Source metadata incomplete: description truncated mid-sentence ('from:' with no continuation)\"\n  ],\n  \"reason\": \"Identity check fails: source title claims braised preparation ('braisé') but photograph shows a grilled/seared whole fish with herb crust and char, inconsistent with braising technique. Fish species ('bar') is regional name and lacks explicit scientific or English confirmation. No protein category can be safely asserted without unambiguous source naming. Metadata contradiction between stated technique and visible cooking method requires clarification before acceptance.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1739,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 509,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

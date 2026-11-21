@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChGN11Ne2oxopmkURsMgk",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Finished, cooked plated dish\",\n    \"Sharp detail across full image and thumbnail\",\n    \"Natural warm lighting with appetising colour\",\n    \"Prominent meat chunks with glaze and garnish\",\n    \"Mashed potato and sauce clearly visible in phone thumbnail\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail composition matches full image proportions\",\n    \"Essential components readable: potato, meat, sauce\",\n    \"Garnish visible despite size reduction\",\n    \"No clipping of major food elements\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title references 'porc de Gascogne (noir de Bigorre)' but visible form shows brown braised meat chunks and yellow mashed potato—cannot visually confirm pork species or the specific Noir de Bigorre breed designation\",\n    \"Description contains apparent OCR error ('moir de Bigorre' vs expected 'noir de Bigorre'), creating ambiguity about intended identity\",\n    \"Meat species cannot be confirmed from appearance alone; braised colour and texture are consistent with pork but not exclusively diagnostic\"\n  ],\n  \"reason\": \"Identity check fails. Although the photograph is well-exposed, sharp, appetising and properly composed, the source title/description presents contradictions (OCR error) and the visible form does not provide explicit confirmation of the claimed pork species or regional variant. Per protocol, protein identity must be supported by exact source quote explicitly naming the animal; ambiguous meat species and source contradictions require hold, not accept. The metadata is untrusted and contains errors; visual appearance alone cannot distinguish pork from other braised meats with certainty.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1716,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 509,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
