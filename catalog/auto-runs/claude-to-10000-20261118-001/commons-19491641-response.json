@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChFToKnHFLo9esUQsPENU",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Cooked protein fillet with golden-brown crust visible in both full image and thumbnail\",\n    \"Fresh vegetable sides (zucchini slices, potato, tomato, parsley) clearly present\",\n    \"Professional plating on white plate with green rim consistent with restaurant context\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows seared protein with accompanying vegetables\",\n    \"Golden crust and browning consistent with 'blackened' preparation\",\n    \"Sauce visible coating the protein in both images\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'Blackened Drum' (a fish species) but photograph shows no unambiguous visual proof of the specific seafood species; drum is not a standard protein category\",\n    \"Title claims 'Crab Meuniere Sauce' but no crab is visible in the photograph, only a brown sauce; the sauce ingredient cannot be visually verified\",\n    \"Seafood is an allowed category but requires explicit source documentation of the exact species; 'drum' is not among standard identifiable categories and is ambiguous\"\n  ],\n  \"reason\": \"While the photograph shows a well-prepared, sharply detailed, appetizing blackened protein fillet with fresh vegetables in professional plating, identity cannot be confirmed. The source title names 'Drum' (a fish species not covered by standard protein categories) and attributes a 'Crab Meuniere Sauce' that is not visually verifiable from the image alone. Seafood as a category requires specific species confirmation, and 'drum' cannot be visually authenticated from appearance. The title-photograph agreement for the specific dish identity remains uncertain.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1660,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 517,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
