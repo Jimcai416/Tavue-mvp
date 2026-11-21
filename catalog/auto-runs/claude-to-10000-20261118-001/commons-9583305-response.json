@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChFPSgFnXqr33uRE5VRzu",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Brown broth with visible rice\",\n    \"Green vegetable pieces (okra or greens)\",\n    \"Served in white styrofoam bowl\",\n    \"Spoon visible\",\n    \"Natural outdoor lighting\"\n  ],\n  \"phone_observations\": [\n    \"Bowl and broth clearly visible\",\n    \"Rice and vegetables distinguishable\",\n    \"Adequate detail for dish recognition\",\n    \"Styrofoam bowl readable\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title lists 'chicken & andouille' but neither protein is visually identifiable or explicitly nameable from visible components alone\",\n    \"Andouille sausage cannot be confirmed as a key; sausage species/animal origin unclear and unquoted\",\n    \"Chicken presence unverifiable in photograph—no discrete meat pieces clearly visible\",\n    \"Visible components are broth, rice, and green vegetables; protein identity requires source declaration, which conflicts with rule requiring exact case-sensitive substring AND visual support or explicit animal naming\"\n  ],\n  \"reason\": \"Source title contains 'chicken & andouille' but the photograph shows only broth, rice, and vegetables. Andouille cannot be accepted as a protein key because (1) sausage species/animal is unspecified, and (2) no explicit animal name appears in the source. Chicken is listed in the title but no chicken pieces are visually distinguishable in the dish itself. The rule requires proteins to be supported by exact source quote explicitly naming the animal; a generic title listing does not constitute visual proof or explicit ingredient documentation for a served dish. Identity check fails: the visible form does not confirm the named proteins are present in the finished dish.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1752,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 522,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
