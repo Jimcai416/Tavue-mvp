@@ -170431,5 +170431,53 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 640,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-109748795",
+    "title": "File:Rindstatar Turbine Zürich.jpg",
+    "author": "Benreis",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rindstatar_Turbine_Z%C3%BCrich.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Rindstatar_Turbine_Z%C3%BCrich.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "320948dbe4b712aa62314fd5d1c94ef42f120668",
+    "name": "Beef tartare with stout and red onions",
+    "aliases": [],
+    "proteins": [
+      "beef"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-109748795.jpg",
+    "assetSha256": "e5d976c09a23f354a5b06629d80908d93ac6f77a7ba2d6a2aafd9657ad3c129f",
+    "reviewedAt": "2026-11-21",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-118284448",
+    "title": "File:Salmon tartare at Kuźnia Kulturalna Restaurant in Wilanów, 2022.jpg",
+    "author": "Kgbo",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Salmon_tartare_at_Ku%C5%BAnia_Kulturalna_Restaurant_in_Wilan%C3%B3w,_2022.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/17/Salmon_tartare_at_Ku%C5%BAnia_Kulturalna_Restaurant_in_Wilan%C3%B3w%2C_2022.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "a4e6a9c4b7dc8250d26ec82139049a05e2b57ea2",
+    "name": "Salmon tartare",
+    "aliases": [],
+    "proteins": [
+      "seafood"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-118284448.jpg",
+    "assetSha256": "02bd469e25b8266808933393706c302af24d166608a60b5e7a76a9c49db31557",
+    "reviewedAt": "2026-11-21",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];
