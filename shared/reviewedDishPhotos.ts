@@ -166509,5 +166509,28 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "height": 720,
     "requiresExactMenuName": true,
     "authorUrl": "https://www.flickr.com/people/39388148@N04"
+  },
+  {
+    "id": "commons-49853351",
+    "title": "File:Cheese soup with croutons.jpg",
+    "author": "Joel Kramer",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cheese_soup_with_croutons.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Cheese_soup_with_croutons.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "be1e2d23afadccc627747f1ae4588457e1b2be18",
+    "name": "Cheese soup with croutons",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-49853351.jpg",
+    "assetSha256": "e6d787add196d4ee60fe17aac15cd85c16c40a7b9de98bd2fc1c686aefb0bca6",
+    "reviewedAt": "2026-11-21",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true,
+    "authorUrl": "https://www.flickr.com/people/75001512@N00"
   }
 ];
