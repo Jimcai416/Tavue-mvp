@@ -173572,5 +173572,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "height": 960,
     "requiresExactMenuName": true,
     "authorUrl": "https://www.wikidata.org/wiki/Q42790984"
+  },
+  {
+    "id": "commons-87505424",
+    "title": "File:Pastel de Nata portugais.jpg",
+    "author": "Thomon",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pastel_de_Nata_portugais.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/89/Pastel_de_Nata_portugais.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "78ecafa2c397a194236cb00464873ae5c891a204",
+    "name": "Pastel de nata portugais",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-87505424.jpg",
+    "assetSha256": "12ec70b1af41461563f10214caab20b4c20f6aae87fffd9d4f216c92d4f155c0",
+    "reviewedAt": "2026-11-21",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];
