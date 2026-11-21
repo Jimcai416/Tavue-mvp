@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChF8Xg9y4Kd2eKqSf38dg",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Spaghetti with grated cheese and lemon visible in phone thumbnail\",\n    \"Pasta strands clearly visible and appetising\",\n    \"Yellow lemon pieces discernible at this resolution\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'Lemon Spaghetti' but no protein animal explicitly named in title or description\",\n    \"Recipe URL references 'spaghetti integrali al limone' (wholemeal lemon spaghetti) but source-supplied title does not mention this variant or confirm it as the actual dish prepared\",\n    \"Metadata URL is untrusted evidence and cannot be used to infer dish identity or ingredients\",\n    \"No explicit source quote names any protein category (chicken/beef/pork/duck/lamb/seafood)\",\n    \"Visual appearance suggests possible cheese and lemon, but no protein is visually identifiable or source-declared\"\n  ],\n  \"reason\": \"Rejection: The source title 'Lemon Spaghetti' provides no explicit protein declaration. No exact source quote names any allowed protein category. The metadata URL cannot be treated as trusted evidence of dish composition or variant. Without a source-declared protein and an explicit animal name in the title or description, this cannot meet acceptance criteria. The photograph quality and presentation are strong, but identity verification fails due to missing protein evidence.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1671,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 453,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
