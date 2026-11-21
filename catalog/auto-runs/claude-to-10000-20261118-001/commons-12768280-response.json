@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChFktJdwWyS7GBDGYQgAP",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 2,\n    \"composition\": 2,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Subject is wrapped in clear plastic, partially obscuring view\",\n    \"Appears to be a raw or preparation-stage ingredient, not a finished dish\",\n    \"Fine strands visible inside packaging suggest raw shredded meat\",\n    \"No evidence of cooking, plating, or presentation as a completed dish\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title describes 'packaged' carne mechada, confirming this is raw/preparation material, not a finished exposed dish\",\n    \"The description explicitly states the item is packaged, violating the requirement for a finished, exposed dish\"\n  ],\n  \"reason\": \"Rejection: The source explicitly describes this as 'packaged' carne mechada. The image shows raw shredded meat inside plastic wrapping—a preparation stage or packaged ingredient, not a finished, exposed, cooked dish as required. The subject is wrapped in clear plastic, poorly lit, lacks sharpness and appetising presentation, and fails all mandatory acceptance criteria. No finished dish is visible in either the full image or thumbnail.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1740,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 383,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
