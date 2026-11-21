@@ -173527,5 +173527,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 640,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-88949372",
+    "title": "File:Mammola - Melanzane ripiene.jpg",
+    "author": "Gino Larosa",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mammola_-_Melanzane_ripiene.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Mammola_-_Melanzane_ripiene.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "69affa9d6024d36b4ab65f4962ac47996d20d6af",
+    "name": "Melanzane ripiene",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-88949372.jpg",
+    "assetSha256": "51d9e4a46ff91be70f65d1d3419c2d9ef9745784cddc49c6d57be52b11fd99df",
+    "reviewedAt": "2026-11-21",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 781,
+    "requiresExactMenuName": true
   }
 ];

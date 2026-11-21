@@ -14200,3 +14200,7 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Patatas paja** — Tamorlan. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Patatas_paja-10.jpg). Local asset: `reviewed-commons-9388046.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Melanzane ripiene** — Gino Larosa. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Mammola_-_Melanzane_ripiene.jpg). Local asset: `reviewed-commons-88949372.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
