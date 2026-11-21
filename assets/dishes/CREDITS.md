@@ -13422,3 +13422,8 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Risotto alla Pescatora** — DinaBenedettoFerrandina. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Risotto_alla_Pescatora.jpg). Local asset: `reviewed-commons-138357472.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Pain d'épices** — Arnaud 25. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Pain_d%27%C3%A9pices.JPG). Local asset: `reviewed-commons-47934747.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Pain d'épices de Dijon** — Arnaud 25. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Pain_d%27%C3%A9pices_01.JPG). Local asset: `reviewed-commons-46490492.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
