@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChGThHxEPPWYcF2Tth38o",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Stewed meat dish plated on white dish\",\n    \"Rich brown braised sauce with visible glaze\",\n    \"Multiple irregular meat pieces, rustic presentation\",\n    \"Fork visible in foreground\",\n    \"Serving spoon resting in sauce\"\n  ],\n  \"phone_observations\": [\n    \"Meat pieces clearly visible and prominent\",\n    \"Brown braised appearance legible in thumbnail\",\n    \"White plate background provides contrast\",\n    \"Dish identity readable from phone crop\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title states 'Cinghiale in umido' (wild boar stew) but source metadata lists this as 'File:Cinghiale 01.jpg'. The term 'cinghiale' refers to wild boar, an unspecified game animal not in the allowed protein category list (chicken/beef/pork/duck/lamb/seafood). Wild boar is neither domesticated pork nor explicitly declared as such in the source description.\",\n    \"No explicit source quote names the specific animal in allowed category terms. 'Cinghiale' is Italian for wild boar, which falls outside permitted proteins.\"\n  ],\n  \"reason\": \"While the photograph is sharp, well-lit, appetizing and clearly shows a finished braised meat dish legible in both full and phone thumbnails, the protein identity cannot be verified against the allowed category list. The source describes 'Cinghiale in umido' (wild boar stew), but wild boar is not chicken/beef/pork/duck/lamb/seafood, and the source does not explicitly state it is domesticated pork. This ambiguity regarding the exact animal species prevents acceptance. The identity check fails because the declared dish protein cannot be matched to an allowed category with an explicit source quote.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1728,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 542,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
