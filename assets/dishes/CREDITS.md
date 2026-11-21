@@ -13961,3 +13961,7 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 - **Fusilli all'Ortolana** — MassimoCarcaterra. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Fusilli_all%27Ortolana.jpg). Local asset: `reviewed-commons-68601809.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Nudelsalat mit Farfalle und Spinat** — Frank C. Müller. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Nudelsalat_mit_Farfalle_01_(fcm).jpg). Local asset: `reviewed-commons-1302461.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **fusilli tricolore** — Rillke. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Fusilli_tricolore_-_close_up.jpg). Local asset: `reviewed-commons-33207122.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Pains au Chocolat** — Joy. [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Pains_au_Chocolat.jpg). Local asset: `reviewed-commons-143720317.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.

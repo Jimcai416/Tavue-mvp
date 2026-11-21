@@ -170839,5 +170839,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-143720317",
+    "title": "File:Pains au Chocolat.jpg",
+    "author": "Joy",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pains_au_Chocolat.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/99/Pains_au_Chocolat.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "d7a2e78f13b1ca7077d617415133e5cd25590250",
+    "name": "Pains au Chocolat",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-143720317.jpg",
+    "assetSha256": "40f84b0ef4987139a18ca851cc4c49ab675a4db0a66eb3673172ecec1827ca05",
+    "reviewedAt": "2026-11-21",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 800,
+    "height": 800,
+    "requiresExactMenuName": true
   }
 ];
