@@ -13138,3 +13138,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 
 - **Sopa de verduras** — Sharon Hahn Darlin. [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Sopa_de_verduras,_Restaurante_Kinich,_Izamal,_Yucatan,_Mexico.jpg). Local asset: `reviewed-commons-103518017.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Tazón de sopa de verduras y fideos con papas fritas de paquete** — Horacio Cambeiro. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Taz%C3%B3n_de_sopa_de_verduras_y_fideos_con_papas_fritas_de_paquete.jpg). Local asset: `reviewed-commons-195997126.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Champiñones al ajillo** — Tamorlan. [CC BY 3.0](https://creativecommons.org/licenses/by/3.0); [source](https://commons.wikimedia.org/wiki/File:Champi%C3%B1ones_al_ajillo_(Madrid).jpg). Local asset: `reviewed-commons-9845512.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
