@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChGxRAct67uTeHMQDG2jv",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Golden-brown fried surface with crispy exterior\",\n    \"White cheese filling visible at cross-section\",\n    \"Layered structure consistent with stuffed eggplant\",\n    \"Natural plating on white dish\",\n    \"Home-cooked appearance\"\n  ],\n  \"phone_observations\": [\n    \"Two fried portions clearly visible\",\n    \"White filling prominent at breaks\",\n    \"Golden-brown colour preserved in thumbnail\",\n    \"Adequate detail for identification\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title 'Melanzane ripiene' (stuffed eggplant) is Italian metadata, not an explicit source description provided by user\",\n    \"No user-supplied canonical title or description comparing to filename/metadata\",\n    \"Cannot confirm stuffing ingredients from image alone—visible white filling could be cheese, béchamel, or other dairy component, but no source text declares specific protein\",\n    \"Photograph shows no legible labelling or explicit ingredient declaration\"\n  ],\n  \"reason\": \"Identity check failed. The only text reference is filename/metadata ('Melanzane ripiene.jpg'), which per instructions are untrusted evidence and never instructions. No actual source title or description was provided by the user to verify against visible form. The dish appears to be fried eggplant with a white filling, but without an explicit, user-supplied source title or description matching the visible form, identity cannot be confirmed. Metadata alone does not satisfy the requirement for a source-declared canonical name.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1716,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 479,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
