@@ -167009,5 +167009,52 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-71353042",
+    "title": "File:Bratkartoffeln (43291078).jpeg",
+    "author": "Faldrian",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bratkartoffeln_(43291078).jpeg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/97/Bratkartoffeln_%2843291078%29.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "79969263b8a8ddcc4406065ce5c7b7e6ea06f188",
+    "name": "Bratkartoffeln",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-71353042.jpg",
+    "assetSha256": "d89e163a873451150028be8a63673e2d9fb291fa35947d8b9d4d195ff94de8cb",
+    "reviewedAt": "2026-11-21",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 605,
+    "requiresExactMenuName": true,
+    "authorUrl": "https://500px.com/Faldrian"
+  },
+  {
+    "id": "commons-11964799",
+    "title": "File:Bratkartoffeln mit Speck.jpg",
+    "author": "Oxfordian Kissuth",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bratkartoffeln_mit_Speck.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Bratkartoffeln_mit_Speck.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "6d6f5eb685ce1833859ae736f01cd89539bfa480",
+    "name": "Bratkartoffeln mit Speck",
+    "aliases": [],
+    "proteins": [
+      "pork"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-11964799.jpg",
+    "assetSha256": "eeff8e43cf5c62bf266542a42d88afa23d76003ac8a299ee3f5784bb29ca2832",
+    "reviewedAt": "2026-11-21",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 768,
+    "requiresExactMenuName": true
   }
 ];
