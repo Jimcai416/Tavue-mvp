@@ -13505,3 +13505,7 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 - **Croquembouche** — CNEcija12345. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Croquembouche_mountain.jpg). Local asset: `reviewed-commons-164865709.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Millefoglie from the Cossetta patisserie** — Gobonobo. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Millefoglie_from_the_Cossetta_patisserie.jpg). Local asset: `reviewed-commons-105359153.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Croquembouche wedding cake** — Eric Baker. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Croquembouche_wedding_cake.jpg). Local asset: `reviewed-commons-4120063.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Pizelle Cookie** — [PEO ACWA](https://www.flickr.com/people/39388148@N04). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Pizelle_Cookie_(48544402926).jpg). Local asset: `reviewed-commons-82475614.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.

@@ -166486,5 +166486,28 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 720,
     "height": 960,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-82475614",
+    "title": "File:Pizelle Cookie (48544402926).jpg",
+    "author": "PEO ACWA",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pizelle_Cookie_(48544402926).jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Pizelle_Cookie_%2848544402926%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "6ab36943339a57bb063de32e38045a6a0de85339",
+    "name": "Pizelle Cookie",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-82475614.jpg",
+    "assetSha256": "d44452141146bdb4d2207fe54e1bac1c3ef1a61b4d35bda9c87538ef4f0c7161",
+    "reviewedAt": "2026-11-21",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true,
+    "authorUrl": "https://www.flickr.com/people/39388148@N04"
   }
 ];
