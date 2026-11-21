@@ -13277,3 +13277,9 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Setas al ajillo** — Tamorlan. [CC BY 3.0](https://creativecommons.org/licenses/by/3.0); [source](https://commons.wikimedia.org/wiki/File:Setas_al_ajillo-Madrid.jpg). Local asset: `reviewed-commons-7528770.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **L&B Spumoni Gardens pizza** — Rhododendrites. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:L%26B_Spumoni_Gardens_pizza_(41436).jpg). Local asset: `reviewed-commons-108799064.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Dessert (sablé pressé au gianduja, crème chocolat au lait, glace mogador)** — Gzen92. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Dessert_(sabl%C3%A9_press%C3%A9_au_gianduja,_cr%C3%A8me_chocolat_au_lait,_glace_mogador).jpg). Local asset: `reviewed-commons-68137125.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Cappuccino semifreddo** — [City Foodsters](https://www.flickr.com/people/89060048@N03). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Cappuccino_semifreddo,_donuts,_pistachio_and_peanut_and_butter_macaroons,_hazelnut_chocolate_(19325919685).jpg). Local asset: `reviewed-commons-67362949.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
