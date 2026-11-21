@@ -13398,3 +13398,9 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Porchetta** — Andy Li. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Porchetta_-_One_Kitchen.jpg). Local asset: `reviewed-commons-129543599.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Amala and gbegiri** — Ebiojo. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Amala_and_gbegiri.jpg). Local asset: `reviewed-commons-145444374.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Amala and Ẹfọ riro** — Taoheedah. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Amala_and_%E1%BA%B8%CC%80f%E1%BB%8D_riro.jpg). Local asset: `reviewed-commons-117941936.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Amala with Ewedu** — Ajia4ty. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Amala_with_Ewedu.jpg). Local asset: `reviewed-commons-128937482.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
