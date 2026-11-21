@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChGKrYpm4p4BjtXU5C9G7",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Croissants and pain au chocolat visible on retail display rack\",\n    \"Golden-brown pastries with clear lamination detail\",\n    \"Consistent exposure across thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title references file name and license metadata only, not a dish name\",\n    \"Description mixes two distinct products (croissants and pain au chocolat) without clarity on which is the primary subject\",\n    \"No explicit dish name or canonical identifier provided in source\"\n  ],\n  \"reason\": \"Rejection: The source provides only file metadata and a French-language description rather than an explicit dish title. The description conflates two different pastry types without designating a primary subject. No canonical_name can be extracted that meets the requirement of being copied exactly from source title or description as a specific dish phrase. The photograph itself shows finished, appetising pastries, but the source documentation does not supply the necessary identity verification required by the review protocol.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1748,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 360,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
