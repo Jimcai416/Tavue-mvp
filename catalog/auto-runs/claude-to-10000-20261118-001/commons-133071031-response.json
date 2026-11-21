@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChGZgjUpQv3LjfaYvPAKx",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": true,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 3,\n    \"composition\": 2,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail is a featureless expanse of water and sky with no discernible food subject\",\n    \"No dish, plate, or prepared food visible at any scale\",\n    \"Impossible to assess any food characteristics from phone view\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title references marine life (guanayes, gaviotas, pelícanos, piqueros) and anchoveta, not a finished dish\",\n    \"Image depicts wildlife and ocean environment, not prepared food photography\"\n  ],\n  \"reason\": \"This is a nature/wildlife photograph of seabirds and ocean, not a food dish photograph. The source description labels it as marine birds (cormorants, gulls, pelicans, boobies) eating anchoveta—a ecological scene, not a prepared, finished, exposed dish suitable for food review. The full image shows only birds in flight over water. The phone thumbnail contains no visible food subject whatsoever. Identity check fails: this is not a dish. Quality and phone checks fail: no food to assess. Rejected as out-of-scope for food review.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1639,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 394,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
