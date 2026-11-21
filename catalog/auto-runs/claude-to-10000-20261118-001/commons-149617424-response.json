@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChGAU5wLNw3VJ1WAxKHSe",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 3,\n    \"composition\": 2,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows only a hand and liquid chocolate dripping—no finished dish visible\",\n    \"Subject is severely out of focus and obscured\",\n    \"No recognizable food dish or plated component present\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Image shows chocolate-making process, not a finished food dish\",\n    \"No plated, exposed, complete dish is visible in either the source or thumbnail\",\n    \"This is a preparation/process stage, not a finished culinary product\"\n  ],\n  \"reason\": \"Rejection: Image depicts chocolate being made or poured—a preparation stage—not a finished, exposed, appetising dish. The source photograph is severely out of focus with no identifiable finished food subject. The phone thumbnail contains only a hand and blurred chocolate drips, with no recognizable dish visible. This fails identity (not a finished dish), quality (severe softness and blur), photograph (lacks sharp detail of food), and phone (no dish visible) checks. Per guidelines, raw/preparation stages are explicitly rejected.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1509,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 376,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

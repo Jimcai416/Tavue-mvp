@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChGAUWsmYadojXFxtZPMQ",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Beverage in glass visible on wood surface\",\n    \"Brown liquid consistent with chocolate drink\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title contains 'File:' prefix and filename extension, violating canonical_name rules\",\n    \"Description is in Indonesian; English translation unclear without verification\",\n    \"No explicit dish name provided—only generic 'chocolate blend' (minuman chocolate blend)\",\n    \"Beverage identity unconfirmed: could be chocolate drink, coffee, or other beverage\",\n    \"No specific brand, preparation method, or variant detail to distinguish this drink\",\n    \"Photograph shows a beverage, not a finished food dish as required by guidelines\"\n  ],\n  \"reason\": \"Rejection: This is a beverage (chocolate drink/minuman), not a finished food dish. Tavue reviews food photographs. Additionally, the source metadata violates canonical_name formatting rules (contains 'File:' prefix and filename), and the dish identity lacks sufficient specificity—'chocolate blend' is generic marketing language without a proper dish name, regional qualifier, or verifiable preparation detail. Beverages are outside scope; food dishes are required.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1525,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 406,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
