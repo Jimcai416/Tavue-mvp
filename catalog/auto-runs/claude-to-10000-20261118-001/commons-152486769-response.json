@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChFbD9riRrQojdf8UQtHn",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Ribbon pasta (linguine) clearly visible and prominent\",\n    \"Dark leafy greens (appears to be kale or similar) mixed throughout\",\n    \"Visible shellfish/crustacean pieces (appears to include shrimp)\",\n    \"Red pepper visible\",\n    \"Oil-based sauce consistent with source description\",\n    \"Served in textured grey bowl\",\n    \"Natural restaurant plating\",\n    \"Phone thumbnail shows dish prominently with readable components\"\n  ],\n  \"phone_observations\": [\n    \"Pasta and greens clearly visible\",\n    \"Shellfish components identifiable\",\n    \"Bowl texture and setting legible\",\n    \"Adequate detail for dish recognition\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title says 'Seafood Linguine' but does not explicitly name specific seafood species (shrimp, prawns, clams, mussels, squid, fish, etc.)\",\n    \"Multiple shellfish/crustacean pieces visible in photograph but source provides no exact species identification\",\n    \"Protocol requires exact source quote naming each animal for protein_evidence; generic 'seafood' does not meet this requirement\"\n  ],\n  \"reason\": \"Image quality, sharpness, lighting, composition and appeal all meet standards (scores ≥4). Photograph is sharp, naturally coloured, appetising and finished. Phone thumbnail clearly shows the dish. However, the source title 'Seafood Linguine' and description 'Seafood Linguine with an oil-based condiment' use generic 'seafood' without naming specific animal species (e.g., 'shrimp', 'prawns', 'clams', 'squid'). Protocol mandates protein_evidence keys only when source provides exact species quotes. Visual inspection reveals crustacean and shellfish components, but inferring species from appearance violates the protocol. Identity cannot be confirmed as a specific named dish when source provides only generic category. Hold pending explicit species identification in source metadata.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1746,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 593,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

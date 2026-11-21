@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChFbEMnqQxt8NNSDgQziB",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Yellow spaghetti strands clearly visible\",\n    \"Cooked pasta with evident browning and char\",\n    \"Reddish-brown meat pieces distributed throughout\",\n    \"White plate on red patterned surface\",\n    \"Finished, exposed dish\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows pasta with meat\",\n    \"Colour and texture match source photograph\",\n    \"Essential components visible and readable\",\n    \"Adequate detail for phone centre-cover\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'Spaghetti jollof' but spaghetti jollof is typically rice-based, not pasta-based. This appears to be spaghetti with meat sauce or a stir-fry\",\n    \"Meat species cannot be reliably determined from appearance alone—colour and texture are ambiguous and could be beef, pork, or another animal\",\n    \"No explicit protein identification in source title or description\",\n    \"Source metadata (title, description, author, license) is explicitly marked as untrusted; actual dish identity is unclear\"\n  ],\n  \"reason\": \"Identity check fails. The source title 'Spaghetti jollof' contradicts the visible form: jollof is a rice dish, but the photograph clearly shows spaghetti pasta with meat. No explicit protein species is named in the untrusted title or description. Meat presence is visible but species cannot be determined from appearance. Source metadata contradiction and lack of explicit protein identification require hold pending clarification of actual dish name and meat type.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1522,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 498,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
