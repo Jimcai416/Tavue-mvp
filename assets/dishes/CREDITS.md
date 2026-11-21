@@ -13414,3 +13414,7 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 
 - **Chocolate muesli with milk** — MartinThoma. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Chocolate-muesli.jpg). Local asset: `reviewed-commons-50513926.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Home prepared yoghurt and muesli with berries** — Papathanasiouk. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Home_prepared_yoghurt_and_muesli_with_berries.JPG). Local asset: `reviewed-commons-29324272.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Muesli with berries and yogurt** — David Stewart. [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Muesli_with_Berries.jpg). Local asset: `reviewed-commons-127942980.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
