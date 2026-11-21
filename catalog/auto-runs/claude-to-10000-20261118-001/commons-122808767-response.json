@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChGiYENBLHC1qad7ySTZf",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 2,\n    \"composition\": 1,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Plastic vacuum-sealed bag dominates the thumbnail\",\n    \"Raw/preparation stage food in water bath, not finished dish\",\n    \"Essential subject obscured by plastic wrapping\",\n    \"No plated or exposed finished dish visible\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'chobotnice v nálevu' (octopus in sauce) but image shows raw preparation stage in sous-vide bag, not a finished, exposed, cooked dish\",\n    \"Metadata title contains 'File:' prefix and photographer credit (non-canonical format)\",\n    \"Image depicts preparation/cooking process, not a finished food photograph suitable for menu reference\"\n  ],\n  \"reason\": \"Reject: This is a raw/preparation stage photograph of food in a sous-vide cooking bag submerged in a water bath. The essential subject (alleged octopus) is vacuum-sealed in plastic, not finished, exposed, or appetisingly presented. The phone thumbnail is dominated by plastic wrapping and shows no finished plated dish. Quality checks fail: sharpness is poor due to plastic and water distortion, lighting is dim and clinical, composition is of a preparation process rather than a finished dish, and appeal is minimal. The photograph documents cooking method, not a completed food item. Home cooking is welcome, but only when the dish is finished and exposed.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1764,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 448,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChGiYd4fyZpydFNGTRs1D",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 3,\n    \"lighting\": 2,\n    \"composition\": 2,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows laboratory/cooking equipment setup, not a finished dish\",\n    \"Temperature displays and immersion circulators dominate the frame\",\n    \"No plated or exposed food clearly visible in phone thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Description claims 'Eggs' and 'meat' but neither is visibly finished, exposed or prominently displayed\",\n    \"Image documents a preparation/cooking process stage, not a finished dish\",\n    \"Meat species unspecified in description; vacuum bags contain obscured contents\"\n  ],\n  \"reason\": \"Reject: This is a documentary photograph of sous vide cooking equipment and in-process food in sealed water baths and vacuum bags. It is not a finished, exposed, appetising dish. The subject is the cooking apparatus and methodology, not a plated or identifiable finished food. The thumbnail shows equipment, not food. Home cooking context does not override the requirement for a finished, exposed, visibly detailed dish. Identity cannot be verified: egg state and meat species are both undetermined, with contents hidden in vacuum bags.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1750,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 387,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
