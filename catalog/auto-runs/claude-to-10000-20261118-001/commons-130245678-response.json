@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChFEfA68xfL3eM1oqzvUK",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Cooked meat with charred exterior and glazed surface\",\n    \"Served with golden fries and pale sauce\",\n    \"Restaurant plating on white dish with branding visible\",\n    \"Natural lighting, appetising presentation\"\n  ],\n  \"phone_observations\": [\n    \"Meat and fries clearly visible in thumbnail\",\n    \"Seared/charred surface prominent\",\n    \"Sauce visible beneath protein\",\n    \"Essential components readable\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'Pied de cochon grillé' (grilled pig's foot/trotter), but the visible meat appears to be a substantial steak or large cut, not a recognizable pig's foot/trotter in form or proportion\",\n    \"Visual morphology contradicts the named dish—shape and size are inconsistent with a prepared trotter\",\n    \"Species identification mismatch between title declaration and visible form cannot be reconciled\"\n  ],\n  \"reason\": \"Identity check fails. The source title 'Pied de cochon grillé' (grilled pig's foot) does not visually match the presented dish. The photograph shows what appears to be a large steak or substantial meat cut with a charred exterior, not a recognizable pig's trotter in prepared form. The visible component does not align with the stated identity. Despite acceptable photograph and phone quality, the fundamental identity mismatch (identity check false) results in rejection per guidelines. A specific source quote cannot reliably map to the visible protein due to this contradiction.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1745,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 484,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

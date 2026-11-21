@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChFEeqg6sooH6rhmRJjTC",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 2\n  },\n  \"visible_support\": [\n    \"Two cooked pig's feet sections on a white plate with red rim\",\n    \"Natural pink-brown colouration consistent with braised/poached meat\",\n    \"Fresh parsley garnish visible on both pieces\",\n    \"Glossy surface indicating sauce or cooking liquid\",\n    \"Plate presentation suggests restaurant plating\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows two meat sections on plate\",\n    \"Colour and form consistent with full image\",\n    \"Dish identity legible in thumbnail\",\n    \"No clipping of essential components\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source metadata lists 'Pig's feet' but this is not a dish name—it is a raw ingredient category, not a finished dish identity\",\n    \"No canonical dish name provided in source (title field contains only filename)\",\n    \"Description 'Pig's feet at Mémère Paulette' names a location, not a specific dish preparation\",\n    \"Exact preparation method, sauce type, and regional variant cannot be determined from image or source alone\",\n    \"Cannot verify whether this is a named Québécois or French dish without explicit source dish title\"\n  ],\n  \"reason\": \"Rejection: Source metadata does not provide a canonical dish name. The title is a filename; the description names only an ingredient ('Pig's feet') and location ('Mémère Paulette'), not a finished dish identity. While the photograph shows a well-plated, appetising braised meat dish with sharp focus and good lighting, the source fails to supply the specific dish name required for canonical_name. Pig's feet is a commodity ingredient, not a dish title. Without an explicit source dish name (e.g. 'Pied de Cochon Braisé' or a named Québécois preparation), identity cannot be verified and canonical_name cannot be populated from source. Hold would be appropriate if seeking clarification; reject is appropriate given the absence of any dish-name declaration in source metadata.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1665,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 589,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

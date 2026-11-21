@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChFEeZmPTM5XM5BeYrBes",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [\n    \"Plated dish at Brasserie Georges (restaurant visible in watermark)\",\n    \"Golden-brown breaded item (pied de cochon pané)\",\n    \"Creamy sauce in white ramekin (described as tartare)\",\n    \"Multiple roasted potatoes with herbs visible (pommes persillées)\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows breaded meat component, roasted potatoes, and creamy sauce\",\n    \"Overall composition and proportions match full image\",\n    \"Food prominence and readability adequate in phone thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Pied de cochon (pig's foot/trotters) is not an allowed protein category. Allowed categories are: chicken, beef, pork, duck, lamb, seafood. Pig's foot/trotters do not map to 'pork' as a simple named animal protein without ambiguous preparation qualification.\",\n    \"Source title explicitly names 'Pied de cochon pané' (breaded pig's foot), which is a specific butcher cut, not a standard animal category protein.\"\n  ],\n  \"reason\": \"Rejection: The source title explicitly identifies the primary protein as 'Pied de cochon pané' (breaded pig's foot/trotters). While this clearly originates from pork/pig, 'pied de cochon' is a specialized butcher's cut that does not unambiguously map to the allowed protein category 'pork' as defined in the instructions (which require an exact source quote explicitly naming 'pork' as the animal). The source uses 'cochon' (pig) but specifies 'pied' (foot/trotter), a preparation-dependent cut name rather than a simple animal name. This creates unresolvable ambiguity about whether to map it to 'pork', and instructions state unknown or ambiguous meat species must be held. Identity check fails because the protein cannot be canonically extracted within the allowed categories.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 2076,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 592,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
