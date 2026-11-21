@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChGZCb23greTyT56L2ovE",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 2,\n    \"composition\": 2,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows poor focus and significant motion blur\",\n    \"Browned bread slice visible at edge but central subject unclear\",\n    \"Murky, indistinct soup/stew component with no readable detail\",\n    \"No clear identification of promised dish components possible at thumbnail size\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title claims 'Vegan Barley and mushroom soup' but description mentions 'Baked frozen vegetable sausages' – internal contradiction on vegan status and main ingredients\",\n    \"Species of 'sausages' undefined; source states 'vegetable sausages' but cannot verify ingredient composition visually\",\n    \"Severe image softness and blur prevent confident identification of barley, mushrooms, peas, or sausage pieces\",\n    \"Photograph is underexposed, out of focus, and appears to be a macro/close-up with poor depth of field\"\n  ],\n  \"reason\": \"Rejection: Image fails multiple critical criteria. Sharpness is severely compromised (2/5) with motion blur and soft focus making essential dish components unidentifiable in both full and thumbnail views. Lighting is poor and uneven (2/5). Composition is chaotic (2/5) and appeal is minimal (1/5). The source metadata contains an internal contradiction: title claims 'Vegan' but description references 'sausages' of unspecified animal origin, creating identity uncertainty. The protein category cannot be established from either the contradictory source or the blurred visual evidence. The thumbnail fails to show readable essential components. This appears to be an unfinished macro photograph with significant technical defects rather than a properly exposed, finished dish photograph.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1780,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 529,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

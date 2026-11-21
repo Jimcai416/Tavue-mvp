@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChGZCayKNgV4RUvbxJdAM",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 2,\n    \"composition\": 2,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Cream-coloured puree or soup in a green bowl\",\n    \"Brown garnish/spice dust visible on surface\",\n    \"No recognizable finished dish structure\",\n    \"Appears to be a preparation or intermediate stage\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title claims 'Vegan cauliflower soup' but description contradicts with 'Baked frozen vegetable sausages and peas' — no sausages or peas visible\",\n    \"Image shows only a smooth puree; no finished, exposed dish components visible\",\n    \"Unclear if this is a finished dish or a preparation/blended stage\",\n    \"Severe quality issues: soft focus, poor lighting, low detail resolution\"\n  ],\n  \"reason\": \"Rejection: Image fails multiple critical criteria. Source metadata contains a direct contradiction (title claims vegan soup; description mentions sausages and peas, neither visible). The photograph shows a smooth puree or soup without recognizable finished dish components, appearing instead to be a preparation or blending stage. Sharpness, lighting, and detail are insufficient (all scores ≤2). Phone thumbnail does not show a prominent, clearly finished dish. Identity cannot be verified due to source contradiction. No proteins can be confirmed visually or via clear source statement.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1774,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 438,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
