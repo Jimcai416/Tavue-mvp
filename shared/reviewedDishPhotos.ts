@@ -163384,5 +163384,29 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-48104224",
+    "title": "File:Chuletón de Ávila 0.jpeg",
+    "author": "Xemenendura",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chulet%C3%B3n_de_%C3%81vila_0.jpeg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/73/Chulet%C3%B3n_de_%C3%81vila_0.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "3023a0d3dd507f36133c019cdd526b3ebdf522c0",
+    "name": "Chuletón de Ávila",
+    "aliases": [],
+    "proteins": [
+      "beef"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-48104224.jpg",
+    "assetSha256": "c63c95476c17121f31c6ee9a359023823adbc61d9ea3dbcc786571f90f68e1b0",
+    "reviewedAt": "2026-11-21",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 893,
+    "requiresExactMenuName": true
   }
 ];
