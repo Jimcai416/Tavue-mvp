@@ -173179,5 +173179,79 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "height": 640,
     "requiresExactMenuName": true,
     "authorUrl": "https://www.flickr.com/people/87692493@N08"
+  },
+  {
+    "id": "commons-104587042",
+    "title": "File:Smoked Salmon Salad à la AC.jpg",
+    "author": "Andrew Currie",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Smoked_Salmon_Salad_%C3%A0_la_AC.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Smoked_Salmon_Salad_%C3%A0_la_AC.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "ff147a704a4968b2cae1d0c0a02ecb2f5fb84eef",
+    "name": "Smoked Salmon Salad à la AC",
+    "aliases": [],
+    "proteins": [
+      "seafood"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-104587042.jpg",
+    "assetSha256": "e31fc8228e2687397578fbf90e4f6a990017945e7fecaad50a12b70d63748bab",
+    "reviewedAt": "2026-11-21",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-30754187",
+    "title": "File:Smoked salmon (5226579521).jpg",
+    "author": "Matt @ PEK  from Taipei, Taiwan",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Smoked_salmon_(5226579521).jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/61/Smoked_salmon_%285226579521%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "8dbd680c8656268a398b791933d344e58622b71e",
+    "name": "Smoked salmon",
+    "aliases": [],
+    "proteins": [
+      "seafood"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-30754187.jpg",
+    "assetSha256": "bfa4b7aa6689b6fd0f3b8829b3e37c756d65e2174fca0579a81c8f9e3058934e",
+    "reviewedAt": "2026-11-21",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 640,
+    "requiresExactMenuName": true,
+    "authorUrl": "https://www.flickr.com/people/21065622@N08"
+  },
+  {
+    "id": "commons-80212003",
+    "title": "File:Smoked salmon appetizer (3230649180).jpg",
+    "author": "Geoff Peters  from Vancouver, BC, Canada",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Smoked_salmon_appetizer_(3230649180).jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Smoked_salmon_appetizer_%283230649180%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "c303fe31c0942f9b720424cb3d434abdbb0fa7f2",
+    "name": "Smoked salmon appetizer",
+    "aliases": [],
+    "proteins": [
+      "seafood"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-80212003.jpg",
+    "assetSha256": "4b98671786fc65f38325775feaa1b9f8640ddb473a6936ea31cf3e843db4b0cd",
+    "reviewedAt": "2026-11-21",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 640,
+    "requiresExactMenuName": true,
+    "authorUrl": "https://www.flickr.com/people/54359128@N00"
   }
 ];
