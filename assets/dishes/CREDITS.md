@@ -13585,3 +13585,7 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Viande des Grisons** — Arnaud 25. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Viande_des_Grisons_02.jpg). Local asset: `reviewed-commons-53992079.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Tagliere con affettati misti toscani, crostini di fegato, frutta, tortino di verdure, pecorini, frutta** — Catia Giaccherini. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Antipasto_Toscano.jpg). Local asset: `reviewed-commons-31059275.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
