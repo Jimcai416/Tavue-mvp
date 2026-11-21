@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChGv9roB8KvAC3TNvUyNY",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": true,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 3,\n    \"lighting\": 2,\n    \"composition\": 2,\n    \"appeal\": 0\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Image is a black-and-white historical archive photograph of industrial bakery equipment\",\n    \"No finished food dish is visible in either full image or thumbnail\",\n    \"Subject is machinery (mixer, oven, work benches) in a commercial kitchen/bakery facility\",\n    \"Thumbnail centre-crop confirms no food product is present or recognisable\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [],\n  \"reason\": \"Rejection: This is an archive photograph of a bakery production facility (Viipurin Keksi ja Rinkeli Oy bakery, credited to photographer Väinö Kannisto), not a photograph of a finished food dish. The image shows industrial baking equipment, machinery, and workspace in black-and-white. No prepared, cooked, or finished food is visible, prominent, or appetising in either the full source or the phone thumbnail. Identity check fails: source describes a bakery facility, not a dish. Quality and phone checks fail: no food subject exists. This does not meet the requirement for a finished, exposed, likely photographic dish suitable for food intake review.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1677,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 393,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
