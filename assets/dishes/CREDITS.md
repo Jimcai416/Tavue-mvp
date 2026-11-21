@@ -13751,3 +13751,9 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Canelones gratinados** — Juan Emilio Prades Bel. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Canelones_gratinados.jpg). Local asset: `reviewed-commons-121332669.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Frittelle di riso** — WILO-MA. [Public domain](https://creativecommons.org/publicdomain/mark/1.0/); [source](https://commons.wikimedia.org/wiki/File:FRITTELLE_DI_RISO.JPG). Local asset: `reviewed-commons-75874915.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Pandolce basso genovese** — DinaBenedettoFerrandina. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Pandolce_Basso_Genovese.jpg). Local asset: `reviewed-commons-127249940.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **pandolce genovese** — Ettorre (gregorio). [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Raduno_a_Milano_del_10_dicembre_2017-_Pandolce_Genovese.jpg). Local asset: `reviewed-commons-67729735.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
