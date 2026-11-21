@@ -163362,5 +163362,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-128728654",
+    "title": "File:El Coyote Market & Deli - February 2023 - Sarah Stierch 02.jpg",
+    "author": "Missvain",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:El_Coyote_Market_%26_Deli_-_February_2023_-_Sarah_Stierch_02.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8e/El_Coyote_Market_%26_Deli_-_February_2023_-_Sarah_Stierch_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "9192b1a4f168f6ed79dbbb181088dcbd0dd6ce87",
+    "name": "Chicharrones",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-128728654.jpg",
+    "assetSha256": "39488d5d72175613ca7da1de0f0c7e3c155d3908ac42cf6749d98ad5f418c5b2",
+    "reviewedAt": "2026-11-21",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];

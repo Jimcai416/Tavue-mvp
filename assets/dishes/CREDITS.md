@@ -13188,3 +13188,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Codillo de cerdo guisado** — El Mono Español. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Codillo_de_cerdo_guisado.jpg). Local asset: `reviewed-commons-121701386.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Chicharrones** — Missvain. [CC BY 4.0](https://creativecommons.org/licenses/by/4.0); [source](https://commons.wikimedia.org/wiki/File:El_Coyote_Market_%26_Deli_-_February_2023_-_Sarah_Stierch_02.jpg). Local asset: `reviewed-commons-128728654.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
