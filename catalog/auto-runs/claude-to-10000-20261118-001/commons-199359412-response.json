@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChG91ZygyJxcqiLVGTTQN",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 3,\n    \"lighting\": 2,\n    \"composition\": 3,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Phone thumbnail shows two sandwich halves with visible filling components\",\n    \"Yellow egg layer, brown fried fish, red tomato, and white/pale cheese visible\",\n    \"Green lettuce visible in one half\",\n    \"Pale bread exterior consistent with French-style roll\"\n  ],\n  \"protein_evidence\": {\n    \"seafood\": \"merluza frita\"\n  },\n  \"uncertainties\": [\n    \"Source metadata indicates this is a PNG file (illustration/graphic), not an actual photograph\",\n    \"File naming convention 'File:' and .png extension confirm this is a wiki/database entry image, likely a composite or rendered graphic rather than a genuine food photograph\",\n    \"Severe black background and studio lighting setup atypical of authentic food photography; appears to be edited or artificially produced\",\n    \"Image texture and rendering quality suggest computer-generated or heavily retouched composite rather than direct camera capture\",\n    \"Despite visible food components matching the description, the photographic authenticity is compromised\"\n  ],\n  \"reason\": \"Reject: Source metadata indicates this is a PNG database file, not an authentic photograph. The title prefix 'File:' and graphic file format confirm this is likely an illustration, composite, or rendered image rather than a genuine finished dish photograph. The studio-perfect black background, artificial lighting, and rendering quality further suggest image manipulation or generation rather than natural food photography. While sandwich components are identifiable and the description is specific, the fundamental photographic authenticity required for Tavue's food review standards is not met.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1465,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 483,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

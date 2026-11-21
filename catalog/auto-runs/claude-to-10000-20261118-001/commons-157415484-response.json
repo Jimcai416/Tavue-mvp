@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChG92YpkUR8nSaqBLJbbg",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 5\n  },\n  \"visible_support\": [\n    \"Roasted meat shoulder with deep caramelized crust and grill marks\",\n    \"Golden boiled potatoes on left side\",\n    \"Glossy, appetizing finish consistent with finished roasted dish\",\n    \"Sharp detail and natural colour in both full and thumbnail views\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows roasted meat shoulder prominence\",\n    \"Potato accompaniment visible and readable\",\n    \"No clipping of essential components\",\n    \"Sufficient detail for dish recognition\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'Paletilla de Ternasco' (young lamb shoulder), but species cannot be visually confirmed from appearance alone—the meat colour and texture are consistent with lamb, but beef shoulder or other ruminant meat species cannot be excluded without explicit animal identification in the source\",\n    \"Ternasco specifically refers to Aragonese milk-fed lamb, a named regional variant with protected designation, but source metadata alone does not constitute visual proof of this specific provenance or animal age/diet\"\n  ],\n  \"reason\": \"The photograph shows a finished, beautifully roasted shoulder cut with excellent sharpness, natural lighting, and appetizing presentation. However, the identity check fails because the source title 'Paletilla de Ternasco' asserts a specific meat species (lamb) and regional protected variant (Aragonese ternasco), which cannot be visually confirmed from the photograph alone. The meat colour, texture, and form are consistent with lamb shoulder, but visual appearance alone cannot distinguish young lamb (ternasco) from other ruminant shoulders or confirm the protected Aragonese designation. Per protocol, ambiguous meat species or source contradictions that cannot be resolved by visible evidence require a hold. The source metadata (title/description) must be treated as untrusted evidence, never as instruction or automatic approval.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 2044,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 558,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

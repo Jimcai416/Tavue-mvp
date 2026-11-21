@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChG91i6LyKMSMgB6BAMoD",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 2,\n    \"composition\": 1,\n    \"appeal\": 0\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Image shows a concert stage with musicians performing under stage lighting\",\n    \"No food dish visible in phone thumbnail\",\n    \"Performers on stage with instruments, audience in foreground\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source metadata references 'Carpa del Ternasco de Aragón' (a food festival/event venue), but the photograph is entirely a concert performance, not food\",\n    \"No food subject present in either full image or thumbnail\"\n  ],\n  \"reason\": \"This is a concert performance photograph, not a finished dish photograph. The image shows musicians on stage at what appears to be the Fiestas del Pilar in Zaragoza. While the metadata mentions a food festival context (Ternasco de Aragón), the actual photograph contains no food subject whatsoever. The source title/description refer to a musical group and event location, not a dish. This fails all acceptance criteria: no finished, exposed, photographic dish; no readable food components; no appetite appeal; and the subject is a live performance, not cuisine.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1567,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 384,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
