@@ -13653,3 +13653,7 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Puszta Hütten Gulasch mit Brötchen** — Neulich im Roxy Kino. [CC BY 3.0](https://creativecommons.org/licenses/by/3.0); [source](https://commons.wikimedia.org/wiki/File:Puszta_H%C3%BCtten_Gulasch_2.jpg). Local asset: `reviewed-commons-12776055.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Carne salada mit Trentingrana Flocken** — Benreis. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Carne_salada_Malga_Daiano.jpg). Local asset: `reviewed-commons-110679839.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.

@@ -167868,5 +167868,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 716,
     "height": 960,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-110679839",
+    "title": "File:Carne salada Malga Daiano.jpg",
+    "author": "Benreis",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Carne_salada_Malga_Daiano.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/63/Carne_salada_Malga_Daiano.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "061cfb39fe6361c59b6afef0c368d31ea27565b8",
+    "name": "Carne salada mit Trentingrana Flocken",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-110679839.jpg",
+    "assetSha256": "d4ae62c23caaee8f02f2ef312cf333d8693be15682b612edea6e772cfe493d15",
+    "reviewedAt": "2026-11-21",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];
