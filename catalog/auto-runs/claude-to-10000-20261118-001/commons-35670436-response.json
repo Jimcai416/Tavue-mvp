@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChFqwToWskmFFhGeCWVeb",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [\n    \"Skewered meat on a plate\",\n    \"Charred exterior visible on meat pieces\",\n    \"Cassava/manioc flour coating and crumb visible\",\n    \"Green herb accompaniment in bowl (right)\",\n    \"Active service/eating scene\"\n  ],\n  \"phone_observations\": [\n    \"Plate visible with meat and crumbs clearly shown\",\n    \"Coated meat pieces distinguishable\",\n    \"Accompaniment visible right side\",\n    \"Thumbnail shows food mid-service, not prepared final state\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title 'Espeto de Rojão assado' contains 'Rojão' but no explicit animal species declaration in title or description\",\n    \"Rojão traditionally refers to pork (pork offal), but source metadata does not explicitly state 'pork' or any animal name\",\n    \"Metadata describes it as 'regional cultural typical food' without naming the protein\",\n    \"Visible charred meat cannot be definitively identified as pork by appearance alone\"\n  ],\n  \"reason\": \"Image shows a finished, charred skewered meat dish with cassava flour coating and green herb accompaniment, presented during service. Sharpness, composition and photograph quality are acceptable (scores 4, 4, 4). However, the source title 'Espeto de Rojão assado' and description do not explicitly name the animal protein. While 'Rojão' is traditionally pork, the metadata does not contain an explicit declaration of 'pork' or any animal species name. Per rules, unknown meat species (even when traditionally associated) or source contradictions require hold. The protein cannot be confirmed from the visible evidence alone, and the source does not provide the required explicit animal name. Hold pending clarification of the exact meat species in source documentation.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1755,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 557,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChFqw7iH9tnyJCcag1uqG",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Cooked meat skewers on wooden sticks, visibly caramelised and charred\",\n    \"Multiple parallel skewers arranged in a row\",\n    \"Natural browning and grill marks consistent with roasted preparation\",\n    \"Wrapped or spiral-bound meat on each skewer\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows multiple cooked skewers with caramelised surface\",\n    \"Golden-brown to dark brown colouration visible\",\n    \"Skewers arranged parallel, occupying most of frame\",\n    \"Adequate detail to confirm finished, cooked dish\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title metadata declares 'Espeto de Rojão' but provides no explicit animal species identification in title or description\",\n    \"Rojão traditionally refers to a pork preparation in Portuguese cuisine, but tradition alone does not constitute visual or textual proof\",\n    \"No animal name appears in the supplied description text\",\n    \"Species cannot be determined from appearance of cooked, wrapped meat on skewers\"\n  ],\n  \"reason\": \"Image quality and photograph composition meet acceptance criteria. Phone thumbnail is clear and appropriate. However, identity check fails: the source description does not explicitly name the meat species. 'Rojão' is a traditional pork dish, but the supplied title and description contain no explicit animal identification. Per protocol, ambiguous meat species or unspecified animal names require hold. The canonical_name cannot be assigned without explicit species confirmation in source text.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1754,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 483,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
