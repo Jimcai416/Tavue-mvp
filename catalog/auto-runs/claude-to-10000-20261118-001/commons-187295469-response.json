@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChFtsPmRCKgyVLPEgzohn",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Large paella pan with saffron-coloured rice\",\n    \"Visible meat pieces throughout the dish\",\n    \"Rosemary garnish sprigs\",\n    \"Professional outdoor serving setup\",\n    \"Rich golden-orange colour typical of paella\",\n    \"Consistent rice grain visibility\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows paella in large pan\",\n    \"Golden rice and meat pieces readable\",\n    \"Rosemary garnish visible\",\n    \"Colour and composition retained in reduction\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title states 'carne costillas adobadas' (meat ribs with adobo seasoning) but specific meat species is not explicitly named\",\n    \"While ribs suggest beef or pork, the exact animal cannot be determined from title alone\",\n    \"Meat pieces visible in image but species identification cannot be visually confirmed with certainty\"\n  ],\n  \"reason\": \"Image quality, photograph authenticity, and phone thumbnail all pass. However, the source title 'Paella de carne costillas adobadas' refers to 'meat ribs' (carne = generic meat, costillas = ribs) without explicitly naming the specific animal species. Protocol requires exact source quote explicitly naming each animal for protein_evidence inclusion. 'Carne' and 'costillas' are insufficient—neither is an allowed category name. Without explicit species identification (chicken/beef/pork/duck/lamb/seafood), identity check fails and uncertainties are non-empty. Hold for source clarification of exact protein species.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1730,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 501,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
