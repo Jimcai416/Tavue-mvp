@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChGrgDfv8zJngdMxyxJsT",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Layered casserole dish clearly visible in thumbnail\",\n    \"Cheese topping and darker filling layers evident\",\n    \"Sharp enough to discern structure\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title describes 'eggplant parmesan' but the visible dish shows prominent meat (appears to be bacon or pancetta) layered within the casserole. The title does not declare any meat component.\",\n    \"Meat species and quantity cannot be determined from appearance alone and are not declared in source title.\",\n    \"The dish as photographed does not match the source description of 'eggplant parmesan' — it appears to be a meat and cheese-layered preparation, not the vegetable dish described.\"\n  ],\n  \"reason\": \"Identity check fails. The source title describes 'eggplant parmesan', a vegetable dish, but the full photograph and thumbnail clearly show a casserole containing visible meat layers (reddish, cured-appearing protein, possibly bacon or pancetta). The source description does not declare any meat component. This contradicts the visual evidence. No explicit meat species or source quote naming an animal is provided. The dish as prepared does not match the title description. Hold criteria violated.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1780,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 423,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
