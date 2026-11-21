@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChGwnujBaWKmftjW94cHa",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Two fried eggs with crispy, golden-brown bread base visible in full image\",\n    \"Dark caramelized meat pieces (charred sausage or bacon) in centre-back\",\n    \"Two brown cylindrical items (likely sausages) on right side\",\n    \"White plate, natural kitchen/dining setting\",\n    \"Phone thumbnail clearly shows eggs and meat components\"\n  ],\n  \"phone_observations\": [\n    \"Eggs and bread-base dominate the 124x96 centre-cover\",\n    \"Dark meat (sausage/bacon) visible in upper portion\",\n    \"Composition matches full image's focal area\",\n    \"Details sharp and appetizing at thumbnail scale\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'Egg Poach' but image shows fried eggs on what appears to be hash brown or toast, not poached eggs\",\n    \"Sausage species not specified in source metadata—cannot confirm beef, pork, chicken, or other animal without explicit statement\",\n    \"Dark charred meat pieces and cylindrical items both described as 'sausage' but animal origin unknown\",\n    \"Description says 'Egg Poach with Sausage' but visible preparation contradicts 'poach' (eggs are clearly fried/baked on base)\"\n  ],\n  \"reason\": \"Source title–description mismatch: metadata claims 'Egg Poach' but photograph clearly shows fried eggs, not poached. Sausage animal species is not explicitly named in any source field, violating the protein evidence rule (never infer from appearance or tradition). The photograph quality, sharpness, lighting and phone thumbnail are all excellent; however, identity verification fails due to preparation-method contradiction, and protein categorization cannot proceed without explicit species naming in the source title or description.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1736,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 554,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
