@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChG59W8kpZkRiUfiWZMFR",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Pale yellow pasta shapes consistent with artichoke pasta\",\n    \"Dark brown chunky pieces distributed throughout dish\",\n    \"Small red/orange flecks visible among pasta\",\n    \"Glossy coating suggesting sauce or reduction\",\n    \"Natural lighting, well-exposed photograph\",\n    \"Sharp focus on food components\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows yellow pasta shapes\",\n    \"Dark protein pieces prominently visible\",\n    \"Overall composition legible and appetising\",\n    \"Sufficient detail to assess dish components\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title describes 'Morel Mushrooms' but the dark brown chunky pieces in the photograph are indistinguishable from meat (beef, lamb, or other animal protein) in appearance and texture\",\n    \"No visual evidence confirms these are mushrooms rather than cooked meat\",\n    \"Author is 'Vegan Feast Catering' but the visual appearance contradicts a vegan dish—the dark pieces have characteristics of braised meat, not mushroom\",\n    \"Cannot visually verify morels, pinot noir reduction, or tomato components with certainty\",\n    \"Species ambiguity of dark protein material prevents confident identification\"\n  ],\n  \"reason\": \"Identity check fails due to unresolvable contradiction: the source claims 'Morel Mushrooms' and vegan catering authorship, but the photograph displays dark, textured pieces with the visual and textural properties of braised meat, not mushrooms. The thumbnail does not clarify the nature of these components. Without reliable visual confirmation of the mushroom identity or ability to reconcile the apparent meat-like appearance with the vegan/mushroom claim, the dish identity cannot be verified as stated in the source. Hold would be appropriate for uncertainty, but the fundamental visual-to-source conflict constitutes identity failure.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1766,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 560,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
