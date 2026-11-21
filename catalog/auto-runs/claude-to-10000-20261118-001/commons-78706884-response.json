@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChFY4fExCy3N2CGTKizLu",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Meal components visible: rotisserie chicken, side dish, and sauce cup\",\n    \"Chicken shows caramelised exterior typical of rotisserie preparation\",\n    \"Plated on disposable black compartmented tray\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title contains 'File:' prefix and metadata markers, indicating filename rather than a canonical dish name\",\n    \"Description references Boston Market and National Rotisserie Chicken Day campaign context, not a specific menu item or dish variant\",\n    \"No explicit canonical dish name provided in source title or description\",\n    \"Rotisserie chicken species (chicken) is implied by context but not explicitly stated in a dish-naming description\"\n  ],\n  \"reason\": \"Identity check fails. The source title is a Wikipedia filename ('File:Boston Market Half Rotisserie Chicken Meal (18400272521).jpg') rather than a canonical dish name or menu description. The description provided is campaign context (National Rotisserie Chicken Day, Boston Market marketing) and author attribution, not a source-authoritative dish identification. No canonical_name can be extracted that meets the requirement of being copied exactly from source title or description without file metadata. While the photograph itself is sharp, well-composed, and appetising, showing a finished, exposed rotisserie meal with readable components, the absence of a proper source-provided dish name prevents acceptance.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1765,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 456,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

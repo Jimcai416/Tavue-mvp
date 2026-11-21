@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChFY4fGBX4k9KsJ9JWiCJ",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 2,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows shredded/pulled meat pieces with yellowish-brown colouration\",\n    \"No plating visible; appears to be loose meat in bulk form\",\n    \"No garnish, sauce, or finished dish presentation evident\"\n  ],\n  \"protein_evidence\": {\n    \"chicken\": \"Rotisserie chicken\"\n  },\n  \"uncertainties\": [\n    \"Source describes this as 'peeled' rotisserie chicken from Costco, which is a raw/preparation stage or bulk ingredient, not a finished plated dish\",\n    \"Image shows only shredded meat without any dish context, plating, or service presentation\",\n    \"No finished, exposed, appetising dish is visible—this is a de-boned protein component only\"\n  ],\n  \"reason\": \"Rejection: The source material is explicitly described as 'peeled rotisserie chicken'—a preparation stage or bulk ingredient, not a finished, plated, exposed dish. The photograph and thumbnail show only shredded meat without any plating, garnish, sauce, or dish presentation. This fails the core requirement for a finished, photographic dish suitable for Tavue review. Home-cooked meals and street food are welcome, but this is neither—it is an intermediate ingredient state. Appeal score reflects lack of dish composition and presentation context.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1738,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 436,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

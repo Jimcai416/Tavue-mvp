@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChFY4fKfACcYdwPCu1DsN",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Two whole roasted poultry birds on white plate\",\n    \"Golden-brown skin with charring and herbs visible\",\n    \"Home kitchen setting with granite countertop\",\n    \"Rotisserie marks and even browning consistent with spit-roasting\"\n  ],\n  \"phone_observations\": [\n    \"Two whole birds clearly visible and recognizable\",\n    \"Golden-brown colour and form distinct in thumbnail\",\n    \"Adequate detail for identification of finished roasted poultry\"\n  ],\n  \"protein_evidence\": {\n    \"chicken\": \"Homemade rotisserie chicken\"\n  },\n  \"uncertainties\": [\n    \"Source title contains 'File:' prefix and metadata markers inappropriate for canonical_name extraction\",\n    \"Description is a generic category label, not a specific dish name\",\n    \"No restaurant, regional variant, preparation detail, or dish identity beyond species and cooking method provided\"\n  ],\n  \"reason\": \"Reject: Source metadata does not provide a specific canonical dish name. The title is a file identifier with prefix, and the description is only a category and geographic origin ('Homemade rotisserie chicken from a propane grill in the United States'). This is insufficient source evidence for a named dish. The photograph itself shows well-finished, appetizing roasted whole chickens with good quality, sharpness, lighting and phone thumbnail clarity, but identity cannot be established without an actual dish name or specific preparation identifier beyond 'homemade' and 'propane grill'. Accept would require source-provided specific dish nomenclature, variant name, or credible regional/restaurant attribution.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1749,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 495,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
