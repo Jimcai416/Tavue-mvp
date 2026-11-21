@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChFeL4zJxX4PQP7eAybjw",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 5,\n    \"appeal\": 5\n  },\n  \"visible_support\": [\n    \"Plated linguine pasta with green pesto coating\",\n    \"Seared/browned meat component on left side of plate\",\n    \"Grated cheese (likely Parmesan) scattered across pasta and meat\",\n    \"Professional restaurant plating on white plate\",\n    \"Natural daylight with warm wood table surface\",\n    \"Phone thumbnail clearly shows pasta, protein, and cheese distribution\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail composition matches full image well\",\n    \"Linguine and protein clearly identifiable at 124x96\",\n    \"Green pesto visible throughout pasta strands\",\n    \"Cooked meat product prominent on left\",\n    \"Sufficient detail for dish recognition in thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title specifies 'Sausage' but sausage species is unidentified (pork, chicken, beef, lamb, or other animal cannot be determined from appearance alone)\",\n    \"No explicit source text naming the specific animal in the sausage\",\n    \"Sausage is a processed preparation; underlying meat species is not visually determinable or textually declared\"\n  ],\n  \"reason\": \"Image quality, photography, composition, appeal, and phone thumbnail are all excellent (scores 4–5). However, the dish cannot be accepted because the protein is identified only as 'Sausage' in the source title without naming the specific animal. Per guidelines, sausage cannot be used as a protein category key, and the underlying animal species cannot be inferred from appearance or tradition. The source provides no explicit quote naming chicken, beef, pork, lamb, duck, or seafood. Identity check fails because the sausage animal is unknown and unspecified. Hold for clarification of sausage type/meat species.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1773,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 542,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
