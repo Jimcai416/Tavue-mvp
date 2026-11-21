@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChFSWT5UkNsA83d6Kibnd",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 2,\n    \"composition\": 3,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Subject is a decorative ceramic tureen or serving vessel shaped like a duck, not a food dish\",\n    \"Object appears to be an 18th-century earthenware artifact in a museum collection\",\n    \"No actual prepared food is visible in either the full image or thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [],\n  \"reason\": \"This is a museum artifact photograph—specifically a decorative ceramic daubière (tureen) shaped like a duck from 18th-century Brussels, not a finished, exposed food dish. The source metadata explicitly identifies it as 'Daubière en faïence de Bruxelles, XVIIIe s.' (earthenware tureen) and 'Aardenwerken stoofpot' (ceramic cooking pot). No actual food is present, prepared, or visible. The sepia-toned photograph is a historical artifact documentation image, not a food photograph. This fails the core requirement of showing 'a finished, exposed, likely photographic dish' with actual food.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1842,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 376,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
