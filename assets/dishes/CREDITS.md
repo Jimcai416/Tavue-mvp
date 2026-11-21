@@ -14121,3 +14121,10 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Cream puffs** — [俊哉 佐伯 ( la-fontaine )](https://pixabay.com/en/users/la-fontaine-22289/). [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Choux_%C3%A0_la_cr%C3%A8me_(19387655069).jpg). Local asset: `reviewed-commons-42702704.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Cicerchiata abruzzese** — Giacaz. [Public domain](https://creativecommons.org/publicdomain/mark/1.0/); [source](https://commons.wikimedia.org/wiki/File:Cicerchiata.jpg). Local asset: `reviewed-commons-14497336.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Cuelga** — Cronista de Acaxochitlan. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Cuelga.jpg). Local asset: `reviewed-commons-35045289.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Cocido de Lalín** — [Amio Cajander](https://www.flickr.com/photos/10209472@N03). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Cocido_de_Lal%C3%ADn.jpg). Local asset: `reviewed-commons-12022025.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Cocido de garbanzos** — Juan Emilio Prades Bel. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Cocido_de_garbanzos.jpg). Local asset: `reviewed-commons-128494870.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
