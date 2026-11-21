@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChFJdKTbxYy9aZDPY6Av7",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 2,\n    \"composition\": 2,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows raw fish parts, seafood pieces and green onions in liquid\",\n    \"Coloration and texture consistent with preparation/cooking stage rather than finished dish\",\n    \"Subject matter visible but quality and presentation do not meet finished dish standard\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Image shows fish and seafood in mid-preparation or early cooking stage, not a finished, plated dish\",\n    \"Title claims 'en cuisson' (cooking) — explicitly indicates work-in-progress, not completed dish\",\n    \"Lighting is poor with strong colour cast and glare from bowl rim\",\n    \"Composition lacks sharp detail and appetising presentation required for acceptance\",\n    \"No readable essential components in phone thumbnail; subject too indistinct\"\n  ],\n  \"reason\": \"Reject: source title explicitly states 'en cuisson' (cooking/in preparation), confirming this is a mid-stage cooking photograph, not a finished, exposed dish. The image shows raw seafood components (fish, shellfish) in liquid within a bowl during active preparation. Quality scores all below threshold (sharpness 2, lighting 2, composition 2, appeal 1). Poor focus, colour cast, glare, and lack of appetising presentation violate acceptance criteria. Phone thumbnail confirms indistinct, unfinished preparation state. Home cooking welcome, but only finished dishes.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1727,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 452,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
