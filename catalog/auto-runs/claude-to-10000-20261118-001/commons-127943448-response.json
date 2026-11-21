@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChFDhRUJ3VLbqVWt89sBq",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Golden-brown pastry crust with clearly visible apple slices arranged in overlapping pattern\",\n    \"Baked tart in dark baking dish on oven rack\",\n    \"Natural oven lighting with warm tones\",\n    \"Finished, exposed dessert appropriate for food photography\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows baked tart with apple arrangement\",\n    \"Essential subject visible and readable\",\n    \"No clipping of critical components\",\n    \"Adequate detail retention in thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title 'Tarte aux pommes 25' is a generic numbered variant identifier, not a specific dish description\",\n    \"No meaningful culinary variant details provided (e.g., custard filling, cream, specific apple variety, regional style)\",\n    \"Cannot verify exact preparation or filling composition from photograph alone\",\n    \"Title appears to be a file naming convention rather than authoritative dish nomenclature\"\n  ],\n  \"reason\": \"Reject: Although the photograph is of high technical quality showing a finished, appetising apple tart with clear detail in both full and thumbnail views, the source title 'Tarte aux pommes 25' fails the identity check. It is a generic numbered file variant rather than a specific, meaningful dish description. Per instructions, the canonical_name must be copied exactly from the source title or description and preserve meaningful variant qualifiers. A sequential number ('25') is not a culinary variant and provides no actionable dish identity. No enhanced description was provided to establish a proper canonical name. The image itself is acceptable, but source documentation is insufficient for acceptance.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1693,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 506,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
