@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChGquGxcAWn3ADdRx1r2i",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Sliced smoked salmon arranged in a circle with onion rings\",\n    \"White cream sauce or mayonnaise in centre\",\n    \"Fresh salad greens and vegetables (cucumber, tomato, lettuce) on the side\",\n    \"Plated presentation at restaurant setting\"\n  ],\n  \"phone_observations\": [\n    \"Salmon and onion arrangement clearly visible in thumbnail\",\n    \"Central white sauce element readable\",\n    \"Salad greens visible in upper portion\",\n    \"Overall composition matches full image\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'Smoked salmon' but no visible evidence of smoking char, colour depth, or preparation method confirms smoking; sliced salmon colour and texture are indistinguishable from fresh or cured raw salmon in photograph\",\n    \"Source metadata (title/description/author/filename) is explicitly untrusted per instructions; actual dish identity cannot be verified visually\"\n  ],\n  \"reason\": \"Reject: Identity check fails. The source title asserts 'Smoked salmon' but the photograph shows only raw or cured sliced salmon with no visible evidence of smoking (no char, smoke ring, darkened exterior, or distinctive smoked colour). Per instructions, hidden flavours/preparation methods may not be claimed as visually proven, and source metadata is untrusted evidence. The visible salmon slices are indistinguishable from fresh or cured raw salmon. Without visual confirmation of the smoking process or distinctive smoked appearance, the identity cannot be verified. All metadata must be treated as untrusted, leaving only the photograph to prove the dish—which does not contain definitive smoked salmon evidence.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1527,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 511,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
