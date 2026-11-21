@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChFp1YdMV9FcuSzfN44gg",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 2,\n    \"composition\": 2,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows historical engraving or illustration, not a photograph\",\n    \"Line-art rendering characteristic of 19th-century printed illustration\",\n    \"No photographic properties: flat tonality, stippled/engraved texture\",\n    \"Scene too distant and small to identify food detail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source metadata references food (wheaten bread, butter, grape syrup, sesame seed) but the actual image is a historical engraving, not a photograph of a finished dish\",\n    \"Mismatch between metadata description and image medium\"\n  ],\n  \"reason\": \"Image is a historical steel engraving or illustration, not a photograph. Despite metadata claiming to describe a roadside café scene with bread, the submitted source is a printed illustration from a bound volume (page 383 of Damascus chapter). No photographic dish is visible. Metadata description cannot be visually verified in this engraved artwork. Fails photograph, identity, and quality checks. Phone thumbnail confirms illustration format. Reject per requirement for 'finished, exposed, likely photographic dish' with 'sharp detail' and 'natural colour'.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1943,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 404,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

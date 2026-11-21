@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChFp1pmUNAhbPBJ7baJ7E",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Ingredients and raw preparation components visible: onions, lemon, spices, raw beef chunks, garlic, bay leaf\",\n    \"No finished dish visible in phone thumbnail\",\n    \"Raw meat and ingredient mise-en-place only\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title references 'Rinder-Gulasch' (beef goulash with spätzle) but source shows only raw preparation stage and ingredients, not a finished cooked dish\",\n    \"Metadata title/description conflict with actual image content: image shows raw beef and ingredient prep, not finished goulash with spätzle\"\n  ],\n  \"reason\": \"Image shows raw ingredient preparation and mise-en-place (raw beef chunks, onions, spices, garlic, lemon, bay leaf) rather than a finished, cooked dish. Although the source description references 'Rinder-Gulasch mit Spätzle' (beef goulash with spätzle), the photograph displays only the preparation stage before cooking. Tavue accepts finished, exposed, cooked dishes. Raw/preparation stages must be rejected per guidelines. The phone thumbnail confirms only ingredients and raw components are visible, with no finished dish evident.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1703,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 419,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

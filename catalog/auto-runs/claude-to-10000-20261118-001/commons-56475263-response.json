@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChFp1p24jcMyAgCQEzVAM",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Cooked green vegetable base consistent with kale (boerenkool)\",\n    \"Sliced cured sausage/worst prominently displayed\",\n    \"Finished plated dish in white bowl\",\n    \"Natural lighting and appetising presentation\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows sliced meat and green vegetable base\",\n    \"Composition and colours legible at small scale\",\n    \"Dish identification supported in reduction\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Sausage species cannot be determined from appearance alone; 'worst' is a generic Dutch/German term that may contain pork, beef, or mixed meats—no explicit animal source is stated in the title\",\n    \"Source title is filename-based metadata ('Boerenkool met worst') without explicit protein declaration\"\n  ],\n  \"reason\": \"The photograph is sharp, well-lit, properly composed, and shows a finished plated dish that is appetising and clearly legible in the phone thumbnail. Identity as a Dutch kale-and-sausage dish is visually supported. However, the protein_evidence map cannot be populated because 'worst' is an unspecified sausage type. The source title does not explicitly name which animal the sausage contains (pork, beef, or mixed), and sausage cannot be used as a protein category key per instructions. Without an exact source quote naming a specific animal (chicken/beef/pork/duck/lamb/seafood), the protein cannot be recorded. This creates an uncertainty that prevents acceptance.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1724,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 492,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
