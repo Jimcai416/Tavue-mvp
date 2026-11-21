@@ -173411,5 +173411,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-102926553",
+    "title": "File:Tarte aux Framboises.jpg",
+    "author": "Yaazhini Gertrude",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tarte_aux_Framboises.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/da/Tarte_aux_Framboises.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "f6adeeb818988682a547f2181a4ebe0a9b7d0bd7",
+    "name": "Tarte aux Framboises",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-102926553.jpg",
+    "assetSha256": "66bfa1340d3f1e7c240b9c60503320113dc7db9862eb6e13c877ccd858af3e3a",
+    "reviewedAt": "2026-11-21",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 720,
+    "height": 960,
+    "requiresExactMenuName": true
   }
 ];
