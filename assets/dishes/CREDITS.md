@@ -13409,3 +13409,8 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 
 - **Crêpe complète** — [Benoît Prieur](https://www.wikidata.org/wiki/Q42790984). [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Cr%C3%AApe_compl%C3%A8te_%C3%A0_la_cr%C3%AAperie_Le_Bouchon_Breton_(La_Valbonne)_en_octobre_2020.jpg). Local asset: `reviewed-commons-95208360.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Crêpe complète et cidre brut à Villedieu-les-Poêles (Normandie)** — Ji-Elle. [Public domain](https://creativecommons.org/publicdomain/mark/1.0/); [source](https://commons.wikimedia.org/wiki/File:GaletteCidre.JPG). Local asset: `reviewed-commons-3932733.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Chocolate muesli with milk** — MartinThoma. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Chocolate-muesli.jpg). Local asset: `reviewed-commons-50513926.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Home prepared yoghurt and muesli with berries** — Papathanasiouk. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Home_prepared_yoghurt_and_muesli_with_berries.JPG). Local asset: `reviewed-commons-29324272.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
