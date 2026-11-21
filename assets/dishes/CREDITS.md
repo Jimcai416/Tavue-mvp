@@ -13568,3 +13568,7 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 
 - **Pennette al pesto di rucola** — Camelia.boban. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Pennette_al_pesto_di_rucola.jpg). Local asset: `reviewed-commons-146958384.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Arrosto misto, patate, carciofi** — [Randy OHC  from West Park, New York, USA](https://www.flickr.com/people/91324153@N00). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Arrosto_misto,_patate,_carciofi_(3542945475).jpg). Local asset: `reviewed-commons-45009253.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Almojábana de Daroca** — Juan Emilio Prades Bel. [CC BY 4.0](https://creativecommons.org/licenses/by/4.0); [source](https://commons.wikimedia.org/wiki/File:Almoj%C3%A1bana_de_Daroca,_Espa%C3%B1a.jpg). Local asset: `reviewed-commons-155149347.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.

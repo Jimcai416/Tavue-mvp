@@ -166965,5 +166965,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "height": 720,
     "requiresExactMenuName": true,
     "authorUrl": "https://www.flickr.com/people/91324153@N00"
+  },
+  {
+    "id": "commons-155149347",
+    "title": "File:Almojábana de Daroca, España.jpg",
+    "author": "Juan Emilio Prades Bel",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Almoj%C3%A1bana_de_Daroca,_Espa%C3%B1a.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/59/Almoj%C3%A1bana_de_Daroca%2C_Espa%C3%B1a.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "46f7a42cf766e1e1b42bc7e31657cec4e2fd9a6a",
+    "name": "Almojábana de Daroca",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-155149347.jpg",
+    "assetSha256": "7adce251a826597f4d5f6dd7ad134ec28c6c3dd08ea9081b10d320223c14e427",
+    "reviewedAt": "2026-11-21",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];
