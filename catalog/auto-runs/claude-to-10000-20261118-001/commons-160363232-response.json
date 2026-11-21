@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChGmvqpqescu3YEXjG3ED",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Golden-orange fried vegetable chunks with charred edges visible in thumbnail\",\n    \"Sauce coating evident\",\n    \"Appropriate portion prominence\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title declares 'morcillas secas' (dried blood sausage), but no meat species is explicitly named—morcilla is a generic sausage category whose animal source is unspecified\",\n    \"Visual inspection cannot reliably distinguish morcilla from darkened cauliflower, charred sauce residue, or other components\",\n    \"Protein identity cannot be verified from appearance alone\"\n  ],\n  \"reason\": \"Identity check fails. The source title names 'morcillas secas' as a component, but morcilla is an unspecified sausage product without an explicit animal declaration (not chicken/beef/pork/duck/lamb/seafood). Per protocol, unknown meat species and sausage categories without explicit species attribution require a hold. The dish cannot be accepted without clarification of the animal source of the morcilla.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1789,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 383,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
