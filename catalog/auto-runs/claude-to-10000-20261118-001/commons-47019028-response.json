@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChFdU9V3FNQ2Vm3aHkjXs",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 3,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Central dish visible with layered components\",\n    \"Yellow mousse/foam element prominent in thumbnail\",\n    \"Red reduction visible\",\n    \"Brown/dark protein layer identifiable\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Foie gras is not an allowed protein category (duck/goose organ; species ambiguous without explicit 'duck' or 'goose' qualifier in source)\",\n    \"Source title contains 'foie gras' but does not explicitly name the animal species\",\n    \"Protocol requires exact source quote with explicit animal name for organ meats\"\n  ],\n  \"reason\": \"Reject: Foie gras cannot be classified under allowed protein categories (chicken/beef/pork/duck/lamb/seafood). The source title 'Escalope de foie gras poêlée, réduction de jus de betterave et chutney de pomme' does not explicitly state the animal source (duck or goose). Per protocol, ambiguous meat species or unspecified animal organs require a hold, but foie gras as a dish component falls outside the canonical protein list entirely. Identity cannot be confirmed without explicit animal qualification in the source text.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1783,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 413,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

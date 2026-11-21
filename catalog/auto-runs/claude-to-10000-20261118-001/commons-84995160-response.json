@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChFdUNTeM1o38G6Y8MZvb",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Large pan dish with visible meat slices and onions\",\n    \"Golden-brown cooking liquid visible\",\n    \"Ingredients distributed across pan surface\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Diots are a specific Savoyard sausage made from pork and herbs; source metadata names 'diots' but the visible meat form is not definitively identifiable as the whole sausage variety claimed—circular slices/segments suggest possible cross-sectioning or a different meat product\",\n    \"Cannot visually confirm the sausage species or authentic diot identity from meat appearance alone\",\n    \"Source description claims 'diots aux oignons, pommes de terre, et vin blanc de Savoie' but potatoes are not clearly visible as a distinct component in either image\"\n  ],\n  \"reason\": \"Reject: Identity cannot be confirmed. While metadata names 'diots' (a Savoyard pork sausage), the visible meat form—appearing as thin slices or rounds rather than whole sausage links—does not clearly establish visual identity with the named dish. The claimed potato component is not distinctly visible. Protein species (pork) is not explicitly stated in the source title/description text itself, only implied by the sausage name. Per protocol, ambiguous meat species or unverified sausage contents require hold or rejection. The visual form of the meat does not unambiguously support the canonical diot identity.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1754,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 474,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
