@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChF7cBNNkHvyh6Wkt4nkn",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Creamy seafood soup/stew in white bowl\",\n    \"Multiple seafood species visible: mussels (black shells), shrimp/prawns (reddish), and what appears to be crab or other crustacean pieces\",\n    \"Lime wedges on side plate as garnish\",\n    \"Broth-based presentation with natural colour and appetising appearance\",\n    \"Sharp detail in both full image and thumbnail\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows creamy seafood dish with visible shellfish and crustacean components\",\n    \"Lime garnish legible\",\n    \"Soup/stew nature of dish apparent\",\n    \"No clipping of essential food components\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title provides only location ('@ El Coctelito, SV') with no explicit dish name\",\n    \"Description states 'crema de mariscos' (seafood cream) but does not specify which species are present\",\n    \"Individual seafood species are visually identifiable (mussels, shrimp, crab) but no exact source quote names each animal\",\n    \"Exact canonical dish name cannot be extracted from metadata—only location and generic category provided\"\n  ],\n  \"reason\": \"Photograph quality, sharpness, lighting and composition all meet standards. Thumbnail shows complete, appetising dish with visible seafood components and no clipping. However, identity check fails: source metadata provides only location ('@ El Cockelito, SV') and generic descriptor 'crema de mariscos' without an explicit canonical dish name. Per protocol, canonical_name must be a specific dish phrase copied exactly from source title or description. Visible species (mussels, shrimp, possible crab) cannot be listed in protein_evidence because the source does not provide exact quotes naming each animal—only the generic term 'mariscos' (seafood). Without explicit source naming of protein species and without a specific dish name in the title/description, identity and variant preservation cannot be confirmed. Hold pending source clarification.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1741,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 611,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
