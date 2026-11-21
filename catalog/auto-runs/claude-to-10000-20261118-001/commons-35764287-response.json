@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChGsUb5ZQjuGiGHwiydmP",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [\n    \"Orange ceramic dish with baked layered dish\",\n    \"Dark green leafy vegetable (cavolo nero) visible\",\n    \"Browned breadcrumb or oat topping\",\n    \"Creamy sauce visible between layers\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail shows orange dish with dark greens and crumb topping\",\n    \"Subject is prominent and not clipped\",\n    \"Essential components visible in centre-cover crop\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title specifies 'vegetable sausages' (unspecified plant-based protein, not an allowed category)\",\n    \"Description mentions 'frozen vegetable sausages and peas' but sausage species/composition unknown and not an allowed protein key\",\n    \"Protein category cannot be established from allowed categories (chicken/beef/pork/duck/lamb/seafood)\",\n    \"Visual appearance does not contradict text, but no identifiable animal protein is present or quoted\"\n  ],\n  \"reason\": \"Reject: The dish contains only plant-based 'vegetable sausages' and vegetables. No animal protein from the allowed categories (chicken, beef, pork, duck, lamb, seafood) can be supported by exact source quote. The protein_evidence map cannot be populated with any allowed key. While photograph quality is acceptable and identity matches the source title, the absence of any supported protein category disqualifies this entry under the protocol requirements for protein documentation.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1350,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 471,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

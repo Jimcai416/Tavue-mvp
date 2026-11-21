@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChGsUajiZFxihsR9izouK",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Sliced cured meats (salami, prosciutto) on yellow plate\",\n    \"Creamy pale spread or cheese component\",\n    \"Sliced bread in background\",\n    \"Natural window lighting, warm indoor setting\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows sliced salami, cream-coloured component, red cured meat\",\n    \"Essential elements readable and appetising in phone view\",\n    \"Platter composition visible despite small size\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title mentions 'Hungarian wintersalami and bacon' but source description does not name bacon explicitly—only 'Hungarian salami' is confirmed in description text\",\n    \"Cream/white component identity unclear: could be cheese spread, butter, or other dairy product—not identified in source\",\n    \"No explicit protein species confirmation for the cured meats beyond 'Hungarian salami' (which may be pork-based but is not explicitly stated)\",\n    \"Exact canonical name cannot be determined from source title alone; filename format and description conflict on component completeness\"\n  ],\n  \"reason\": \"Image quality and photograph are strong, and the phone thumbnail is clear and appetising. However, identity cannot be verified with certainty because the source title ('Cold plate with Hungarian wintersalami and bacon') conflicts with the description (which omits bacon and does not name the cream component). The cured meats are visible but their exact species is not explicitly stated in source text (only 'Hungarian salami' is named). The cream component is unidentified. Without explicit protein naming in the source description and with ambiguity between title and description, the dish identity cannot be canonically confirmed. Hold pending clarification of exact dish name and all component identities from source.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1644,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 537,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
