@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChGpiJ9cT2n3GAzQSugmt",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": \"piatto di stocafisso proveniente dalla sagra di Badalucco\",\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Shredded pale fish in golden broth on white plate\",\n    \"Toasted bread slices flanking the dish\",\n    \"Home or festival setting with floral tablecloth\",\n    \"Glass of dark wine and table service visible\"\n  ],\n  \"phone_observations\": [\n    \"Central dish clearly visible with shredded protein and sauce\",\n    \"Plate edges and composition readable in thumbnail\",\n    \"Portion size and plating style evident\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Stockfish (stocafisso) is not in the allowed protein categories (chicken/beef/pork/duck/lamb/seafood)\",\n    \"Stocafisso is a preserved/dried fish product, not a fresh seafood species; exact animal species cannot be verified from visual appearance alone\",\n    \"Source describes origin (sagra di Badalucco) and bread source but does not provide English canonical dish name\",\n    \"No explicit species identification (e.g. 'cod', 'haddock') in source text\"\n  ],\n  \"reason\": \"While the photograph is sharp, well-lit, appetising and correctly shows a finished, plated dish with readable components in both full and thumbnail views, the protein cannot be accepted. Stockfish (stocafisso) is a processed/preserved form whose exact underlying species is not declared in the source, and dried fish products do not fall within the specific allowed protein categories (chicken/beef/pork/duck/lamb/seafood as fresh/identifiable forms). The source title is in Italian and lacks an English canonical variant. Hold for protein category clarification or source specification of the base fish species.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1759,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 536,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
