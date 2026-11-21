@@ -167309,5 +167309,30 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 960,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-7535260",
+    "title": "File:Flickr sekimura 2390523527--Smoked salmon eggs Benedict.jpg",
+    "author": "Masayoshi Sekimura  from Tokyo, Japan",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Flickr_sekimura_2390523527--Smoked_salmon_eggs_Benedict.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/21/Flickr_sekimura_2390523527--Smoked_salmon_eggs_Benedict.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "563ae846baa7fd7dc63ae00e6963675b6ba06b59",
+    "name": "Smoked salmon eggs Benedict",
+    "aliases": [],
+    "proteins": [
+      "seafood"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-7535260.jpg",
+    "assetSha256": "aeea019696d20153c6880358fa511ecbd06990e11b97d1659bc8c394f453c311",
+    "reviewedAt": "2026-11-21",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true,
+    "authorUrl": "https://www.flickr.com/people/sekimura/"
   }
 ];
