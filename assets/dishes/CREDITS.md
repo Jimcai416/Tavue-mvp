@@ -13064,3 +13064,8 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **French Cheese Souffle** — [Katrin Gilger](https://www.flickr.com/people/26242865@N04). [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:French_Cheese_Souffle_(4522555015).jpg). Local asset: `reviewed-commons-89958446.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Matcha & Red Bean soufflé pancakes** — Andy Li. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Matcha_%26_Red_Bean_souffl%C3%A9_pancakes_-_Rawlab_2025-08-31.jpg). Local asset: `reviewed-commons-174106837.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Parmesan souffle omelette** — Andy Li. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Parmesan_souffle_omelette_-_Caf%C3%A9_des_Couleurs_2025-04-03.jpg). Local asset: `reviewed-commons-163141822.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
