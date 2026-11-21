@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChFb7GxBqYZGgQnZXaQgk",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Tube pasta (rigatoni) clearly visible\",\n    \"Yellow corn kernels prominent throughout\",\n    \"Green pesto or herb sauce coating\",\n    \"Natural daylight, well-exposed\",\n    \"Sharp detail in both full image and thumbnail\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows finished pasta dish\",\n    \"Corn kernels and rigatoni tubes readable\",\n    \"Green sauce visible and prominent\",\n    \"Adequate composition for recognition\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'crabs' but no crab meat is visually identifiable in either photograph\",\n    \"Visible components are rigatoni, corn, and green herb/pesto sauce only\",\n    \"No seafood, shellfish, or protein component is apparent in the dish\",\n    \"Source title contradicts visible content\"\n  ],\n  \"reason\": \"Identity check fails. The source title declares 'Rigatoni crabs and peppers' but the photograph shows rigatoni pasta with corn kernels and green pesto/herb sauce. No crab meat is visible. No red pepper is visible. The visible dish does not match the named identity. This is a source contradiction that requires hold per protocol, but the magnitude of the discrepancy (missing protein entirely from title) warrants rejection. The photograph is well-executed and appetising, but cannot be accepted under a false or unverifiable identity.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1633,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 462,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

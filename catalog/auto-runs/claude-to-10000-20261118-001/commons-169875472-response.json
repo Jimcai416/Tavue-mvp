@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChFb8Fhp9bAU6gBPp7MAG",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Linguine pasta visible in full image\",\n    \"Lemon half garnish visible\",\n    \"Herb garnish (parsley/chives) present\",\n    \"Creamy sauce coating pasta\",\n    \"Professional plating on restaurant dishware\"\n  ],\n  \"phone_observations\": [\n    \"Pasta and sauce clearly visible at thumbnail resolution\",\n    \"Lemon garnish recognizable\",\n    \"Dish identity readable in phone view\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title describes 'Lemon shrimp linguine' but no shrimp is visibly identifiable in either the full photograph or thumbnail. No visible seafood protein can be confirmed from the image alone.\",\n    \"The creamy sauce and pasta appearance suggest a prepared dish, but the stated protein (shrimp) cannot be visually verified.\"\n  ],\n  \"reason\": \"Identity mismatch: The source description claims 'Lemon shrimp linguine' but no shrimp or other visible seafood protein is apparent in the photograph. Per protocol, hidden proteins cannot be visually proven from appearance or tradition alone. The check for identity=false due to unverified shrimp claim. Protein_evidence cannot include 'seafood' without explicit visual confirmation. Rejection required because identity check fails.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1751,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 436,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
