@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChFrnWCVTW8bSuRKmyeKg",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Roasted bird with golden-brown skin and visible seasoning\",\n    \"Whole plucked and prepared bird on wooden board\",\n    \"Professional plating and exposure\"\n  ],\n  \"phone_observations\": [\n    \"Roasted bird clearly visible in thumbnail\",\n    \"Golden-brown colour consistent with full image\",\n    \"Bird anatomy recognisable and prominent\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title states 'Oie rôtie du Gers' (roasted goose from Gers region). The bird's size, neck length, head shape and overall proportions are ambiguous between goose and duck. The head appears relatively small and the neck slender, which could suggest duck rather than goose, but visual species identification of cooked poultry is unreliable. The source declares 'Oie' (goose) but the visible anatomy does not definitively confirm this species.\",\n    \"Protein category 'goose' is not in the allowed list (chicken/beef/pork/duck/lamb/seafood). Even if the bird is visibly consistent with goose, it cannot be recorded without explicit source naming of an allowed category.\"\n  ],\n  \"reason\": \"Reject: The source title declares 'Oie rôtie du Gers' (roasted goose), but 'goose' is not an allowed protein category. The visible bird anatomy does not decisively rule out duck, but cannot confirm goose with certainty. The source-declared species conflicts with the allowed protein list (chicken/beef/pork/duck/lamb/seafood), and visual evidence alone cannot resolve this ambiguity. The image quality and composition are strong, but identity cannot be verified within the allowed framework.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1523,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 533,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
