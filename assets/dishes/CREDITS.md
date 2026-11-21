@@ -13314,3 +13314,8 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Seafood chowder** — [Jazz Guy  from New Jersey, United States](https://www.flickr.com/people/9341577@N08). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Twelve_Hours_in_New_York_City!_(3998219246).jpg). Local asset: `reviewed-commons-69146481.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Zuppa di farro** — Cassinam  at  Italian Wikipedia. [CC BY-SA 2.5](https://creativecommons.org/licenses/by-sa/2.5); [source](https://commons.wikimedia.org/wiki/File:Amiata2009Mauro176.jpg). Local asset: `reviewed-commons-8766602.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Zuppa di farro della garfagnana** — fugzu. [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Zuppa_di_farro_della_garfagnana.jpg). Local asset: `reviewed-commons-35020229.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
