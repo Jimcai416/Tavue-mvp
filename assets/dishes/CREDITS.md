@@ -13498,3 +13498,10 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Tabla de jamón serrano y queso** — Juan Emilio Prades Bel. [CC BY 4.0](https://creativecommons.org/licenses/by/4.0); [source](https://commons.wikimedia.org/wiki/File:Tabla_de_jam%C3%B3n_serrano_y_queso,_comarca_del_Alto_Mijares.jpg). Local asset: `reviewed-commons-179788279.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Omelette norvégienne** — Sebleouf. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Brasserie_Georges_(Lyon)_-_Omelette_norv%C3%A9gienne_(juil_2019).jpg). Local asset: `reviewed-commons-80928924.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Croquembouche** — CNEcija12345. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Croquembouche_mountain.jpg). Local asset: `reviewed-commons-164865709.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Millefoglie from the Cossetta patisserie** — Gobonobo. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Millefoglie_from_the_Cossetta_patisserie.jpg). Local asset: `reviewed-commons-105359153.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Croquembouche wedding cake** — Eric Baker. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Croquembouche_wedding_cake.jpg). Local asset: `reviewed-commons-4120063.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
