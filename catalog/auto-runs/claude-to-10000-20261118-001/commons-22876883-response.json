@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChGgPvatytjBj6mGA1qzE",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 2,\n    \"appeal\": 2\n  },\n  \"visible_support\": [\n    \"Raw frisée lettuce, clearly uncooked\",\n    \"Individual leaves and ribs visible in natural preparation state\",\n    \"No cooking, dressing, plating or service evident\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail shows only raw lettuce leaves and stems\",\n    \"No finished dish components visible\",\n    \"Essential food clipped (no plating context, bowl edge, or service presentation)\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [],\n  \"reason\": \"Raw ingredient, not a finished dish. This is an uncooked vegetable at market or preparation stage, lacking any evidence of cooking, dressing, plating, or service. The source title 'salade frisée' names the vegetable type, not a prepared salad dish. Phone thumbnail confirms only raw leaves and no finished presentation. Reject per requirement: 'raw/preparation stages' are excluded.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1868,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 341,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
