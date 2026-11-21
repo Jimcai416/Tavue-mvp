@@ -13152,3 +13152,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 
 - **Cheesecake alla Crema di Ricotta e Limone** — DinaBenedettoFerrandina. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Cheesecake_alla_Crema_di_Ricotta_e_Limone.jpg). Local asset: `reviewed-commons-121100155.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Crostata con Crema di Ricotta** — DinaBenedettoFerrandina. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Crostata_con_Crema_di_Ricotta.jpg). Local asset: `reviewed-commons-109794127.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Chicken breast and grape tomatoes on rye bread, with garlic mayonnaise** — Daderot. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Chicken_breast_and_grape_tomatoes_on_rye_bread,_with_garlic_mayonnaise_-_Massachusetts.jpg). Local asset: `reviewed-commons-151588092.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.

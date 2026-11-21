@@ -163159,5 +163159,29 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 835,
     "height": 960,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-151588092",
+    "title": "File:Chicken breast and grape tomatoes on rye bread, with garlic mayonnaise - Massachusetts.jpg",
+    "author": "Daderot",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chicken_breast_and_grape_tomatoes_on_rye_bread,_with_garlic_mayonnaise_-_Massachusetts.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/43/Chicken_breast_and_grape_tomatoes_on_rye_bread%2C_with_garlic_mayonnaise_-_Massachusetts.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "b717c309227ca0f28dd793cb81636799bead2947",
+    "name": "Chicken breast and grape tomatoes on rye bread, with garlic mayonnaise",
+    "aliases": [],
+    "proteins": [
+      "chicken"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-151588092.jpg",
+    "assetSha256": "fdf38c45b14c70e95d727f48174bf568ce1807d979b95e68dedc24c44e220774",
+    "reviewedAt": "2026-11-21",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 960,
+    "requiresExactMenuName": true
   }
 ];
