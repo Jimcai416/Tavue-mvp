@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChFAKL2Qoi5D85C8qX2NR",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 2,\n    \"composition\": 3,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows a noodle soup with corn, leafy greens, and broth\",\n    \"Essential dish components visible but small and unclear\",\n    \"Noodles and corn kernels identifiable in phone view\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title 'Sopa de verduras' means 'vegetable soup'—no protein explicitly named in source\",\n    \"Visible meat pieces in full image are not identified in source description\",\n    \"Cannot confirm if leafy green is seaweed, kale, or other identifiable ingredient\",\n    \"Species of any meat present cannot be determined from appearance alone and is not source-declared\"\n  ],\n  \"reason\": \"Rejection: The source title 'Sopa de verduras' describes only a vegetable soup with no protein declaration. The full photograph appears to contain meat pieces not mentioned in the source metadata, creating a source-identity mismatch. Without explicit source naming of any protein species, identity cannot be confirmed. Sharpness (2/5) and lighting (2/5) are both below the required threshold of 4. The image quality is insufficient for acceptance.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1701,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 407,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
