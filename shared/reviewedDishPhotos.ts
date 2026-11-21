@@ -165539,5 +165539,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-129543599",
+    "title": "File:Porchetta - One Kitchen.jpg",
+    "author": "Andy Li",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Porchetta_-_One_Kitchen.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Porchetta_-_One_Kitchen.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "3ccac61e8058fe859f1e546d868bd5ce8a2dd3c1",
+    "name": "Porchetta",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-129543599.jpg",
+    "assetSha256": "60b915cb275feefb3132072aca83e84606537de585b0bde77f83723949f83f2f",
+    "reviewedAt": "2026-11-21",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];
