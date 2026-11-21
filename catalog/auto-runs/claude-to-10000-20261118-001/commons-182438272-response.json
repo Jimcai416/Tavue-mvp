@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChGM7LEWTpdajGVTtGhnb",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Jar with spoon visible\",\n    \"Layered pale mixture with visible particles\",\n    \"Glass vessel on dark surface\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title contains 'File:' prefix and filename extension, violating canonical_name rules\",\n    \"Description is in French; primary identity unclear without English verification\",\n    \"Birchermuesli is a breakfast preparation stage (soaked cereal/muesli in milk), not a finished dish ready to serve\",\n    \"Subject appears to be ingredients mid-preparation or in storage jar, not a plated/served dish\",\n    \"No finished, exposed, appetising presentation visible—resembles a jar of prepared but un-assembled components\"\n  ],\n  \"reason\": \"Rejection: The source title contains prohibited 'File:' prefix and filename extension. The image depicts Birchermuesli in an intermediate preparation state—cereal soaked in milk within a storage jar with a spoon, not a finished, plated, and appetisingly presented dish. The composition and setting suggest a preparation-stage or storage photograph rather than a ready-to-eat food presentation. Tavue accepts finished, exposed dishes; this falls short of that standard.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1638,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 419,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
