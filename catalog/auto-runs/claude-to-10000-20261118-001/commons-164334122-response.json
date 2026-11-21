@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChGwttoYDQWtJK24GbGs5",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Cooked poultry pieces with golden-brown seared surfaces\",\n    \"Glossy oil/sauce pooling on white plate\",\n    \"Green herb garnish visible on meat\",\n    \"Natural colour and texture consistent with sautéed preparation\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows seared poultry chunks with golden glaze\",\n    \"Sauce visible at plate bottom\",\n    \"Legible as finished cooked dish\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'poulet' (French for chicken) but source metadata is untrusted per instructions\",\n    \"No explicit, case-sensitive protein identification in the supplied title/description field itself—only in filename\",\n    \"Cannot use filename as evidence of identity or species\"\n  ],\n  \"reason\": \"The photograph shows a finished, well-plated sautéed poultry dish with sharp detail, natural golden-brown colour, appetising glaze, and legible components in the phone thumbnail. However, the supplied description field is incomplete (generic 'Farm to Plate' theme text) and contains no explicit dish name or protein declaration. The filename 'Sauté de poulet.jpg' is metadata and therefore untrusted per instructions—it cannot be used as evidence of identity. Without a valid canonical source title or description containing an explicit protein quote, identity cannot be verified. Reject due to failure of identity check.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1488,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 464,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

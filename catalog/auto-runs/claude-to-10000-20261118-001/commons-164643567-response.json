@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChGwtdnANdNDfSN9LfDPJ",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Cooked green beans with red pepper pieces and garlic\",\n    \"Beef or lamb chunks browned and seasoned\",\n    \"Boiled or steamed potato cubes\",\n    \"Plated as a composed dish with vegetables front-centre\",\n    \"Multiple identical plates suggesting restaurant or catered service\"\n  ],\n  \"phone_observations\": [\n    \"Green beans with red pepper visible and prominent\",\n    \"Meat component clearly present but species ambiguous in thumbnail\",\n    \"Potatoes visible at plate edge\",\n    \"Dish legible and appetizing at small scale\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title 'Légumes sauté' translates to 'Sautéed Vegetables' but does not name the meat species visible in the dish\",\n    \"Meat component is clearly beef or lamb in appearance but source title provides no explicit animal identification\",\n    \"No explicit protein naming found in supplied title or description\"\n  ],\n  \"reason\": \"Image quality, photograph authenticity, and phone thumbnail legibility all pass. However, identity check fails: the source title 'Légumes sauté' describes only vegetables and does not name the prominent meat component visible in both images. Explicit source text naming the animal (beef, lamb, etc.) is required but absent. Per protocol, ambiguous meat species or source contradictions require hold. The dish cannot be accepted without a source-quoted protein identifier.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1631,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 463,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
