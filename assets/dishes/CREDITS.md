@@ -13572,3 +13572,7 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Almojábana de Daroca** — Juan Emilio Prades Bel. [CC BY 4.0](https://creativecommons.org/licenses/by/4.0); [source](https://commons.wikimedia.org/wiki/File:Almoj%C3%A1bana_de_Daroca,_Espa%C3%B1a.jpg). Local asset: `reviewed-commons-155149347.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Spaghetti alla carbonara classica** — gaku.. [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Spaghetti_alla_carbonara_classica.jpg). Local asset: `reviewed-commons-68314560.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.

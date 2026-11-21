@@ -166987,5 +166987,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-68314560",
+    "title": "File:Spaghetti alla carbonara classica.jpg",
+    "author": "gaku.",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Spaghetti_alla_carbonara_classica.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Spaghetti_alla_carbonara_classica.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "4c6f7d84a9fe6c4218784ea492cbb1b8912f4f11",
+    "name": "Spaghetti alla carbonara classica",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-68314560.jpg",
+    "assetSha256": "d5310179e5bf530eb884969f56adb8cc5cf51a137edf5d6186e58d674076dd42",
+    "reviewedAt": "2026-11-21",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];
