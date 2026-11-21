@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChGYnkMhKA2y5vtP1DihM",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Grilled crustaceans with herbs visible on white plate\",\n    \"Orange/amber colouration consistent with cooked shrimp\",\n    \"Green herb garnish (parsley or cilantro) distributed across surface\",\n    \"Charred markings and translucent sections indicating exposure to heat\",\n    \"Whole specimens with heads and tails intact\"\n  ],\n  \"phone_observations\": [\n    \"Centre-cover thumbnail clearly shows stacked cooked crustaceans\",\n    \"Orange colouring and herb garnish legible at thumbnail scale\",\n    \"Dish identity preserved in reduced format\",\n    \"No clipping of essential components\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title states 'Crevettes grillées' (grilled shrimp/prawns) but no explicit animal species qualifier appears in the metadata supplied\",\n    \"Crustacean category (seafood) is not an allowed protein key per schema (only chicken/beef/pork/duck/lamb/seafood accepted, but seafood requires exact species naming)\",\n    \"Ambiguity whether 'crevettes' (French: shrimp/prawns) qualifies as 'seafood' category or requires species-level clarity\",\n    \"No explicit English-language species confirmation in source title or description\"\n  ],\n  \"reason\": \"Image quality, composition, sharpness and phone visibility all meet criteria. However, source metadata identifies the dish as 'Crevettes grillées' (grilled shrimp/prawns), a crustacean. The allowed protein categories are chicken/beef/pork/duck/lamb/seafood, each requiring explicit source naming. 'Crevettes' is a French common name for shrimp/prawns but lacks explicit species-level clarity and no source quote unambiguously assigns this to an allowed protein key with the required exact substring match. Crustaceans (shrimp, prawns, crab, lobster) fall outside the five meat categories and do not map to 'seafood' without explicit source confirmation. Hold pending clarification of whether this submission's protein scope includes unnamed crustaceans or requires exact species naming.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 2064,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 635,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
