@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChF9FpXRnxyN4bNfhG9US",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Pale cream-coloured mousse or bavarois slice\",\n    \"Chocolate shavings garnish on top\",\n    \"Served on white plate\",\n    \"Triangular wedge portion\"\n  ],\n  \"phone_observations\": [\n    \"Cream slice clearly visible in thumbnail\",\n    \"Chocolate garnish visible at top\",\n    \"Plate and portion readable\",\n    \"Adequate detail for recognition\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title 'advocaatbavaroisspie' is concatenated without spaces or punctuation—cannot reliably parse as canonical name\",\n    \"Unclear if this is 'advocaat bavarois', 'bavarois pie', or a compound variant\",\n    \"Description field is malformed metadata, not a proper dish title\",\n    \"No clear, unambiguous English or Dutch standard name provided in source\"\n  ],\n  \"reason\": \"Image quality and composition are acceptable. The photograph shows a finished, appetising cream dessert slice with chocolate garnish, sharply detailed and naturally coloured. However, the source metadata fails the identity check: the title is a concatenated, unparseable string without proper delimiters or capitalization, and the description field repeats the same mangled form. While 'advocaat bavarois' (a Dutch eggnog-based mousse dessert) is a real dish, the source does not provide a legible canonical name. The file metadata also contains Wikipedia markup and licensing information that cannot serve as authoritative dish identity. A properly formatted, unambiguous source title is required.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1738,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 497,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
