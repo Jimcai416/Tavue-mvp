@@ -13319,3 +13319,7 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 
 - **Zuppa di farro** — Cassinam  at  Italian Wikipedia. [CC BY-SA 2.5](https://creativecommons.org/licenses/by-sa/2.5); [source](https://commons.wikimedia.org/wiki/File:Amiata2009Mauro176.jpg). Local asset: `reviewed-commons-8766602.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Zuppa di farro della garfagnana** — fugzu. [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Zuppa_di_farro_della_garfagnana.jpg). Local asset: `reviewed-commons-35020229.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Gratinée des Halles** — Nikchick. [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:Gratin%C3%A9e_d%27oignons.jpg). Local asset: `reviewed-commons-26093311.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.

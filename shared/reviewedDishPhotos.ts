@@ -164786,5 +164786,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 861,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-26093311",
+    "title": "File:Gratinée d'oignons.jpg",
+    "author": "Nikchick",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gratin%C3%A9e_d%27oignons.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Gratin%C3%A9e_d%27oignons.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "48f34c19fac20baf47d1fc12e25e5decde871065",
+    "name": "Gratinée des Halles",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-26093311.jpg",
+    "assetSha256": "a249e89153250d30a2718b0302f0917b090fa1265a936d80227dec9aa10adcd8",
+    "reviewedAt": "2026-11-21",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 800,
+    "height": 600,
+    "requiresExactMenuName": true
   }
 ];
