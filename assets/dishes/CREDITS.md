@@ -13125,3 +13125,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 
 - **Orange Bavarois** — [Alpha  from Melbourne, Australia](https://www.flickr.com/people/10559879@N00). [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:Orange_Bavarois_-_Windsor_Hotel_(56397422).jpg). Local asset: `reviewed-commons-74480839.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Strawberry bavarois** — E4024. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Strawberry_bavarois.jpg). Local asset: `reviewed-commons-68548281.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Ravioli burro e salvia** — [Ewan Munro  from London, UK](https://www.flickr.com/people/55935853@N00). [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:La_Barca,_Waterloo,_London_(2683294786).jpg). Local asset: `reviewed-commons-24281599.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
