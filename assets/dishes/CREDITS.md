@@ -13716,3 +13716,9 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Soufflé au Grand Marnier** — Tangopaso. [Public domain](https://creativecommons.org/publicdomain/mark/1.0/); [source](https://commons.wikimedia.org/wiki/File:Restaurant_Argi-Eder_-_Souffl%C3%A9_au_Grand_Marnier.jpg). Local asset: `reviewed-commons-97319248.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Mushroom Strozzapreti** — Gogerr. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Mushroom_Strozzapreti.jpg). Local asset: `reviewed-commons-183679830.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Strozzapreti Pasta with Pancetta, Dried Tomatoes, Rapini, Roasted Garlic and Aged Provolone** — HarshLight. [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Strozzapreti_Pasta_-_2.jpg). Local asset: `reviewed-commons-84762069.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Strozzapreti alla norcina** — Andreone93. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Strozzapreti_alla_norcina.jpg). Local asset: `reviewed-commons-174055690.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
