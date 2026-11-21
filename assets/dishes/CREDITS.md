@@ -13712,3 +13712,7 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 
 - **Riso nero** — Effems. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Riso_nero_(Barcellona_Pozzo_di_Gotto).jpg). Local asset: `reviewed-commons-157701396.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Riso nero, dolce al cucchiaio** — Effems. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Riso_nero_(Barcellona_Pozzo_di_Gotto)_24_12_2024_01.jpg). Local asset: `reviewed-commons-180736173.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Soufflé au Grand Marnier** — Tangopaso. [Public domain](https://creativecommons.org/publicdomain/mark/1.0/); [source](https://commons.wikimedia.org/wiki/File:Restaurant_Argi-Eder_-_Souffl%C3%A9_au_Grand_Marnier.jpg). Local asset: `reviewed-commons-97319248.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
