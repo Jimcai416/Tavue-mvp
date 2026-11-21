@@ -163968,5 +163968,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 640,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-17722996",
+    "title": "File:AceitunasAliñadas-DSC01120.JPG",
+    "author": "El Pantera",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:AceitunasAli%C3%B1adas-DSC01120.JPG",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/62/AceitunasAli%C3%B1adas-DSC01120.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "33e54035a37c4936c9450745d641c4315aaf2f59",
+    "name": "Aceitunas aliñadas",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-17722996.jpg",
+    "assetSha256": "89f31586770ba80b01e5d5c73b3937535f3ea4f59082830e7031c991a89c0e53",
+    "reviewedAt": "2026-11-21",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];
