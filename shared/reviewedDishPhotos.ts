@@ -166850,5 +166850,29 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 769,
     "height": 960,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-43002007",
+    "title": "File:Épigramme d'agneau.jpg",
+    "author": "r.g-s",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%C3%89pigramme_d%27agneau.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9a/%C3%89pigramme_d%27agneau.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "2d8006c2bc4e3526b9681557281296f599f75b7e",
+    "name": "Épigramme d'agneau",
+    "aliases": [],
+    "proteins": [
+      "lamb"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-43002007.jpg",
+    "assetSha256": "f191c2ae6248ebb00eecaf9064ce76caeb0d37f3180add59fde0d104eb713fd3",
+    "reviewedAt": "2026-11-21",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];
