@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChFBCzNQvFYsguzZhLU3E",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"White beans clearly visible and abundant\",\n    \"Green vegetables (cardos/thistles) visible in broth\",\n    \"Rich golden-brown broth consistent with slow-cooked stew\",\n    \"Meat pieces visible (reddish-brown, cooked)\"\n  ],\n  \"phone_observations\": [\n    \"Stew composition readable in thumbnail\",\n    \"Bean and vegetable components distinguishable\",\n    \"Broth colour and texture conveyed\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title states 'carnes' (meats, plural) but specific animal species not explicitly named in title or description\",\n    \"Multiple meat types appear present visually but cannot be definitively identified from appearance alone\",\n    \"Exact species of meat/meats used cannot be determined from visual inspection or the generic term 'carnes'\"\n  ],\n  \"reason\": \"The photograph shows a finished, well-plated cocido de olla with visible white beans, green cardos (thistles), and cooked meat in golden broth. Quality, sharpness, lighting and composition all meet standards. However, the source title uses only the generic term 'carnes' (meats) without naming specific animal species. Per rules, ambiguous or unspecified meat species require a hold. The title does not explicitly state which animals are present, making protein_evidence empty. Identity cannot be fully verified without specific meat species declaration in source metadata.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1764,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 465,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
