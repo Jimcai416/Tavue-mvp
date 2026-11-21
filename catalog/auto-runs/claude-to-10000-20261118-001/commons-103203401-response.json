@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChGqp6VAeRn6a3MR5gj3t",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Open sandwich on dark plate\",\n    \"Melted cheese (yellow, appears brie or similar soft cheese)\",\n    \"Raw red onion slices (purple-pink)\",\n    \"Herb garnish (green, possibly dill or parsley)\",\n    \"Orange/pink protein layer visible beneath cheese\"\n  ],\n  \"phone_observations\": [\n    \"Sandwich clearly visible in thumbnail\",\n    \"Cheese and onion toppings readable\",\n    \"Hand-held plating context preserved\",\n    \"Subject prominent and not clipped\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'Smoked Salmon' but no visual confirmation of salmon is possible; orange/pink layer under cheese could be many ingredients\",\n    \"Source title 'Smoked Salmon Brie' is not a recognized canonical dish name and appears to be a descriptive label, not a established menu item or recipe title\",\n    \"Salmon species cannot be verified from photograph alone\",\n    \"No explicit source quote establishing this as a finished named dish—metadata title is insufficient without dish identity confirmation\"\n  ],\n  \"reason\": \"Reject: Identity check fails. The source metadata provides only a descriptive label ('Smoked Salmon Brie') and restaurant location, not a canonical dish name or explicit quote confirming finished-dish identity. The orange/pink layer is visually ambiguous and cannot be verified as salmon. No meaningful dish identity evidence exists beyond the unverified filename. While photograph and phone quality are acceptable, the absence of confirmable dish identity and protein verification means the image cannot be accepted.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1556,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 495,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
