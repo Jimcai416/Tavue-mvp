@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChGH5MyfD6rtj8ZS6Y6zx",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 3,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Subject is wrapped candy/confection still in foil wrapper\",\n    \"Wrapper and packaging dominate the frame\",\n    \"No exposed finished dish visible\",\n    \"Essential food component completely obscured by wrapper\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Papillotes are wrapped sweets; the actual confection inside is not visibly exposed\",\n    \"Only the packaging material and wrapper are visible in both images\",\n    \"Cannot verify flavour, composition, or finished appearance of the actual food item\"\n  ],\n  \"reason\": \"Rejection: The image shows wrapped candy/confection (papillotes) still in its foil and paper wrapper. The finished, exposed dish is not visible—only packaging material dominates both the full photograph and phone thumbnail. The essential food component is completely obscured. Per guidelines, printed food on packaging and wrapped items without visible exposed content do not meet the requirement for 'a finished, exposed, likely photographic dish' with 'readable essential components in the phone thumbnail.' The phone check fails because the wrapped confection does not show the actual finished food. Quality photograph check passes, but identity and phone visibility checks fail.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1983,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 402,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
