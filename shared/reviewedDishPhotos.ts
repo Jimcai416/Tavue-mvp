@@ -170616,5 +170616,51 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "height": 720,
     "requiresExactMenuName": true,
     "authorUrl": "https://www.flickr.com/people/23126594@N00"
+  },
+  {
+    "id": "commons-102896446",
+    "title": "File:Farfalle alfredo PK22.jpg",
+    "author": "PallaviKhale",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Farfalle_alfredo_PK22.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/85/Farfalle_alfredo_PK22.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "3ac89422dbb038935650600c548a751510a0d6ad",
+    "name": "Farfalle pasta cooked in Alfredo sauce",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-102896446.jpg",
+    "assetSha256": "170269c9e4325932f9759a86f4731afa767c17223cc032f9df484465ed8cac62",
+    "reviewedAt": "2026-11-21",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 843,
+    "height": 843,
+    "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-124431529",
+    "title": "File:Farfalle dish with chicken and mushrooms at home.jpg",
+    "author": "Kgbo",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Farfalle_dish_with_chicken_and_mushrooms_at_home.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Farfalle_dish_with_chicken_and_mushrooms_at_home.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "90f57a0783090d02ede648d16ec77543b2b3a85c",
+    "name": "Farfalle dish with chicken and mushrooms",
+    "aliases": [],
+    "proteins": [
+      "chicken"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-124431529.jpg",
+    "assetSha256": "4f92999c17d529244da7368b2719bcfa8f5b2c628b4c117b4baed331e6ed91ef",
+    "reviewedAt": "2026-11-21",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 687,
+    "requiresExactMenuName": true
   }
 ];
