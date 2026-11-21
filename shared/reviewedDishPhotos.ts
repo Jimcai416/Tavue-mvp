@@ -170183,5 +170183,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-11497630",
+    "title": "File:Casoncelli in una grande padella.jpg",
+    "author": "Florixc",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Casoncelli_in_una_grande_padella.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Casoncelli_in_una_grande_padella.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "f2932c8db2f6a247ecf36b5cd17e6eb23598befc",
+    "name": "casoncelli alla bergamasca",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-11497630.jpg",
+    "assetSha256": "b5fd1d3ac8621d83986c36ad89e7b1a3000ec1dc649675928291596b56b7763c",
+    "reviewedAt": "2026-11-21",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 720,
+    "height": 960,
+    "requiresExactMenuName": true
   }
 ];

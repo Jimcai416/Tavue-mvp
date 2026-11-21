@@ -13893,3 +13893,7 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Chicken Florentine Crepes with Cheddar Sauce** — Rusty Clark ~ 100K Photos. [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:IHOP_Chicken_Florentine_Crepes_with_Cheddar_Sauce.jpg). Local asset: `reviewed-commons-115910791.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **casoncelli alla bergamasca** — Florixc. [Public domain](https://creativecommons.org/publicdomain/mark/1.0/); [source](https://commons.wikimedia.org/wiki/File:Casoncelli_in_una_grande_padella.jpg). Local asset: `reviewed-commons-11497630.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
