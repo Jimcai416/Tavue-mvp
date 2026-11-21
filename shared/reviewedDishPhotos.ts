@@ -165873,5 +165873,53 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 955,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-9961338",
+    "title": "File:KS rotisserie chicken 1.JPG",
+    "author": "BrokenSphere",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:KS_rotisserie_chicken_1.JPG",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3d/KS_rotisserie_chicken_1.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "275a6093115805048d90e40e7e9f6a9b861d480d",
+    "name": "Rotisserie chicken",
+    "aliases": [],
+    "proteins": [
+      "chicken"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-9961338.jpg",
+    "assetSha256": "acf02f516d44d47b515190fdb74e0fe7bf281e82d3230669dcdea4ca32b82ad3",
+    "reviewedAt": "2026-11-21",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-191895652",
+    "title": "File:Rotisserie chicken bought from Dieppe Market 2026-05-09.jpg",
+    "author": "Andy Li",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rotisserie_chicken_bought_from_Dieppe_Market_2026-05-09.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/da/Rotisserie_chicken_bought_from_Dieppe_Market_2026-05-09.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "021430995ee3c7e9e3394a58f6b15b8fc6605c1f",
+    "name": "Rotisserie chicken bought from Dieppe Market",
+    "aliases": [],
+    "proteins": [
+      "chicken"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-191895652.jpg",
+    "assetSha256": "1158119d3e49cbdb6ac3c00737e9d0e083205afd1425e5dbc02295df08293af7",
+    "reviewedAt": "2026-11-21",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 723,
+    "requiresExactMenuName": true
   }
 ];

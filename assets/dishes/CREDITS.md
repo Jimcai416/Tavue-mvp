@@ -13436,3 +13436,8 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 
 - **Galizische Krautfleckerl mit Bergquark** — Silar. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:02021_0802_(5)_Galizische_Krautfleckerl_mit_Bergquark.jpg). Local asset: `reviewed-commons-101082029.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Krautfleckerl** — Kobako. [CC BY-SA 2.5](https://creativecommons.org/licenses/by-sa/2.5); [source](https://commons.wikimedia.org/wiki/File:Krautfleckerl.jpg). Local asset: `reviewed-commons-738049.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Rotisserie chicken** — BrokenSphere. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:KS_rotisserie_chicken_1.JPG). Local asset: `reviewed-commons-9961338.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Rotisserie chicken bought from Dieppe Market** — Andy Li. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Rotisserie_chicken_bought_from_Dieppe_Market_2026-05-09.jpg). Local asset: `reviewed-commons-191895652.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
