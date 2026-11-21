@@ -170115,5 +170115,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 720,
     "height": 960,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-30361737",
+    "title": "File:Jambon persillé 05.JPG",
+    "author": "Arnaud 25",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jambon_persill%C3%A9_05.JPG",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Jambon_persill%C3%A9_05.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "580cb0ab7f7347df813be35ebb6c3b103cedfd59",
+    "name": "Jambon persillé",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-30361737.jpg",
+    "assetSha256": "f1d344e5aa3bc15c558b4b676f0b85a5db9b976e899db8d0412e81231109ccb0",
+    "reviewedAt": "2026-11-21",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];
