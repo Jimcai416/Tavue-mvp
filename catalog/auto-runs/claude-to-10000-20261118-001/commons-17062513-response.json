@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChGXkJDfDKQa7V6GG5Yos",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Spaghetti visible on plate, cooked and plated\",\n    \"Garnish of parsley and garlic cloves present\",\n    \"Oil or liquid dressing on pasta\",\n    \"Outdoor/casual presentation setting\"\n  ],\n  \"phone_observations\": [\n    \"Spaghetti clearly visible in thumbnail\",\n    \"Plate, garnish and accompaniments readable\",\n    \"Pasta dominates the frame appropriately\",\n    \"Natural colour and finished appearance evident\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title references 'Pasta di Gragnano e colatura di alici di Cetara' (spaghetti with anchovy colatura), but colatura is a condiment/sauce, not a protein ingredient in the dish itself. The source does not explicitly name anchovy as a protein component of the dish, only as the origin of the liquid condiment.\",\n    \"No visible seafood or anchovy is discernible in the photograph; the dish appears to be spaghetti with oil/liquid dressing, parsley and garlic.\",\n    \"The canonical name should reflect the actual dish identity, but the source description conflates the pasta type and condiment without clearly stating the final dish composition.\",\n    \"Cannot verify 'colatura di alici' as a visible protein element—it is a sauce ingredient, not a named protein per protocol requirements.\"\n  ],\n  \"reason\": \"Image quality, sharpness, lighting, composition and appeal are all excellent (scores ≥4). The photograph and thumbnail are clear and appetising. However, identity cannot be confirmed because the source title/description does not explicitly name a protein as part of the finished dish. 'Colatura di alici' (anchovy colature/sauce) is a condiment, not a named animal protein ingredient in the final dish identity. Per protocol, proteins may only be included if explicitly named in the source; unknown or inferred species—including anchovy from a sauce origin—cannot be claimed. The dish appears to be plain spaghetti with oil and garlic garnish, but the source identity and canonical name remain ambiguous without explicit protein naming in the dish itself. Hold for source clarification of actual finished dish composition and protein content.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1644,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 635,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
