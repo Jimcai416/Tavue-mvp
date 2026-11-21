@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChFeh31b9BLomRtnk2HpS",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [\n    \"Golden-brown fried pieces on white plate with red rim\",\n    \"Diced crispy onion garnish scattered across surface\",\n    \"Natural indoor lighting, home kitchen setting\",\n    \"Plate clearly visible in both source and thumbnail\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail shows fried golden strips and diced onion clearly\",\n    \"Dish shape and components readable at phone size\",\n    \"No clipping of essential elements\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title 'Huevas fritas con cebolla' translates to 'Fried roes with onion', but roes are fish roe—not an allowed protein category (chicken/beef/pork/duck/lamb/seafood)\",\n    \"Visual appearance shows fried strips and diced onion but cannot confirm they are specifically fish roe rather than another fried preparation\",\n    \"Fish species (if present) is unspecified and cannot be inferred from appearance alone\",\n    \"No exact source quote naming an allowed protein category\"\n  ],\n  \"reason\": \"Source describes fish roe (huevas), which is not in the allowed protein categories (chicken/beef/pork/duck/lamb/seafood). Although the photograph is sharp, well-lit, and appetising, the declared identity cannot be verified against accepted protein qualifiers. Fish roe requires explicit species identification to qualify as 'seafood', which is absent from the source. Hold or reject per protocol for unspecified or non-category protein.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1627,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 487,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
