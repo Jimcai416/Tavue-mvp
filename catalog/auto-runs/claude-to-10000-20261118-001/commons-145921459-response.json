@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChFaojXMM2bJZyRj1nv4w",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [\n    \"Bucatini pasta strands clearly visible and identifiable\",\n    \"Pink/pale plate with decorative rim\",\n    \"Cooked, finished pasta dish\",\n    \"Natural daylight photography\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows pasta and cooked ingredients\",\n    \"Dish prominently displayed, not clipped\",\n    \"Readable as pasta composition\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title claims 'artichoke hearts' but no artichoke pieces are visibly identifiable in either the full source photo or thumbnail. The visible components appear to be only pasta and garlic-oil coating, with no distinct vegetable matter.\",\n    \"The declared identity (artichoke hearts and garlic olive oil) cannot be verified from visual inspection of the photograph.\"\n  ],\n  \"reason\": \"Identity check fails. The source title declares 'Bucatini with artichoke hearts and garlic olive oil' but artichoke hearts are not visibly evident in the photograph. Only cooked bucatini pasta and an olive oil coating are apparent. No distinct green or purple artichoke pieces or recognizable vegetable components are visible in either the full source or thumbnail. This is a material discrepancy between the declared content and visual evidence. Per instructions, source contradictions require hold status; however, the absence of a core declared ingredient (artichokes) that should be prominently visible in a finished dish constitutes rejection rather than hold, as the photograph does not support the stated identity.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 2058,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 479,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
