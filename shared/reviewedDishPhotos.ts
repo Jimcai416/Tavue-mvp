@@ -162482,5 +162482,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 638,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-61479875",
+    "title": "File:Soufflé 001.jpg",
+    "author": "Ocdp",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Souffl%C3%A9_001.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/48/Souffl%C3%A9_001.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "93e02d049aaec5c70edff83c42e2a9f6205d92bc",
+    "name": "Soufflé",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-61479875.jpg",
+    "assetSha256": "3989aec61f1525d5959c9289418c10adc3249133330ebdad0148bf09ad9ccb7f",
+    "reviewedAt": "2026-11-21",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 638,
+    "requiresExactMenuName": true
   }
 ];
