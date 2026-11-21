@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChFErHxiCK5jumtxpT74u",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Bratwurst sausages clearly visible\",\n    \"Sauerkraut and mashed potatoes identifiable\",\n    \"Plate and table setting visible\",\n    \"Food is finished and plated\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Bratwurst is a sausage of unspecified meat species; source does not explicitly name the animal (pork, beef, or mixed)\",\n    \"Species of meat cannot be inferred from appearance or tradition alone\"\n  ],\n  \"reason\": \"Source metadata describes bratwurst, but the instructions explicitly prohibit using 'sausage' as a protein category key and forbid guessing which animal sausage contains. The source title and description do not explicitly name the meat species (chicken/beef/pork/duck/lamb/seafood). Without an exact source quote naming the animal, protein_evidence cannot be populated and the identity check fails. Hold criteria requires all checks true; identity is false.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1734,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 364,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
