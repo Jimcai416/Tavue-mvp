@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChFP1zYRX5yb9KwM5Txfk",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Red sauce in bowl visible in thumbnail\",\n    \"Serving vessel and presentation match full image\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title is 'Tomato sauce by Süleyman.jpg' — a filename, not a dish name\",\n    \"Description 'pasta sauce' is generic, not a specific canonical dish identity\",\n    \"No finished dish visible — only a sauce component in a bowl, not a complete plated food\",\n    \"Cannot confirm if this is a named regional variant or authentic dish\"\n  ],\n  \"reason\": \"Rejection: The image shows a prepared tomato sauce in an intermediate stage, not a finished, complete dish. The source metadata (filename and generic 'pasta sauce' description) provides no specific dish identity, regional variant, or canonical name. Identity check fails: a sauce component alone does not constitute a recognizable finished food dish suitable for Tavue's food photography database. Home-cooked sauces require a finished, plated presentation of the complete dish to qualify.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1735,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 375,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
