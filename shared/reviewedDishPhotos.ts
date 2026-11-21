@@ -166532,5 +166532,29 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "height": 720,
     "requiresExactMenuName": true,
     "authorUrl": "https://www.flickr.com/people/75001512@N00"
+  },
+  {
+    "id": "commons-35977210",
+    "title": "File:Poelee salsifis poulet riz.jpg",
+    "author": "Isabelle Hurbain-Palatin",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Poelee_salsifis_poulet_riz.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/94/Poelee_salsifis_poulet_riz.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "e2f6116ea0ee3308e335ecaa98c1de6f6185e5b6",
+    "name": "Poêlée de salsifis et poulet à la crème, riz basmati",
+    "aliases": [],
+    "proteins": [
+      "chicken"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-35977210.jpg",
+    "assetSha256": "9ed646e20b201ac6f4680d24b93eb8c0e2cbb62cf8e03472e46463b9131275ad",
+    "reviewedAt": "2026-11-21",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 643,
+    "requiresExactMenuName": true
   }
 ];

@@ -13513,3 +13513,7 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Cheese soup with croutons** — [Joel Kramer](https://www.flickr.com/people/75001512@N00). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Cheese_soup_with_croutons.jpg). Local asset: `reviewed-commons-49853351.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Poêlée de salsifis et poulet à la crème, riz basmati** — Isabelle Hurbain-Palatin. [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:Poelee_salsifis_poulet_riz.jpg). Local asset: `reviewed-commons-35977210.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
