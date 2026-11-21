@@ -14191,3 +14191,8 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Belgian fries** — [Tristan Schmurr  from Luxembourg, Luxembourg](https://www.flickr.com/people/58411470@N00). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Belgian_fries_in_Martelange_(52957190094).jpg). Local asset: `reviewed-commons-143795220.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Sauté d'agneau** — Marianne Casamance. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Bistrot_de_Pays_-_Saut%C3%A9_d%27agneau.JPG). Local asset: `reviewed-commons-36704913.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Curry pork saute** — [yoppy  from Kawasaki, Kanagawa, Japan](https://www.flickr.com/people/44124362019@N01). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Curry_pork_saute.jpg). Local asset: `reviewed-commons-52918270.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.

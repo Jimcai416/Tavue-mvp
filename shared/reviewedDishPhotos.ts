@@ -173456,5 +173456,54 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "height": 640,
     "requiresExactMenuName": true,
     "authorUrl": "https://www.flickr.com/people/58411470@N00"
+  },
+  {
+    "id": "commons-36704913",
+    "title": "File:Bistrot de Pays - Sauté d'agneau.JPG",
+    "author": "Marianne Casamance",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bistrot_de_Pays_-_Saut%C3%A9_d%27agneau.JPG",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Bistrot_de_Pays_-_Saut%C3%A9_d%27agneau.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "6544735d6c3e9c9ea8586b75be8f706eae4f388b",
+    "name": "Sauté d'agneau",
+    "aliases": [],
+    "proteins": [
+      "lamb"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-36704913.jpg",
+    "assetSha256": "ca42c74683e897f6fcbb2748baf1481c339a1bed3146c12fb82579f98201ddfe",
+    "reviewedAt": "2026-11-21",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-52918270",
+    "title": "File:Curry pork saute.jpg",
+    "author": "yoppy  from Kawasaki, Kanagawa, Japan",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Curry_pork_saute.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Curry_pork_saute.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "7fa601350ef3f452d5c6b537e2f11f6f82f66ef8",
+    "name": "Curry pork saute",
+    "aliases": [],
+    "proteins": [
+      "pork"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-52918270.jpg",
+    "assetSha256": "95a45d567b4b09c0e8379f24943524b9487768dc2770b0078cc7876661919592",
+    "reviewedAt": "2026-11-21",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 640,
+    "height": 640,
+    "requiresExactMenuName": true,
+    "authorUrl": "https://www.flickr.com/people/44124362019@N01"
   }
 ];
