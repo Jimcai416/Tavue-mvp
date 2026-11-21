@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChGN87HnkFNVfui9uXqq1",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Cooked meat protein with browning and sear marks on white plate\",\n    \"French fries/fried potatoes on separate plate\",\n    \"What appear to be flatbreads with paper wrapper on left\",\n    \"Fresh vegetable salad (tomato, cucumber, onion) visible on meat plate\",\n    \"Home/street food setting with casual presentation\"\n  ],\n  \"phone_observations\": [\n    \"Central main plate with cooked meat and salad garnish clearly visible\",\n    \"Fries plate visible in background upper left\",\n    \"Flatbreads partially visible left edge\",\n    \"Thumbnail composition preserves primary dish elements\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title 'Poulet braisé frites' claims chicken (poulet), but photograph shows dark-brown meat with appearance and size more consistent with beef steak or large poultry portion—visual species identification is ambiguous\",\n    \"Exact animal species cannot be reliably determined from appearance alone; 'poulet' (chicken) contradicts visual form of the meat piece\",\n    \"No explicit source text quote naming the specific protein is present in the supplied metadata\"\n  ],\n  \"reason\": \"Source title 'Poulet braisé frites' claims chicken, but the visible meat on the main plate appears as a substantial dark steak-like portion with browning and searing that visually contradicts typical braised chicken presentation. The discrepancy between claimed identity and visible form creates unresolved uncertainty about the actual protein species. Per protocol, source contradictions regarding protein identity require a hold. Quality, photograph technical merit, and phone thumbnail all meet standards; the obstacle is identity verification. No exact protein-naming quote is extractable from metadata to override visual doubt.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1729,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 533,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
