@@ -13929,3 +13929,8 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 
 - **Braised fish, served with aloco** — Ourytima. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Poisson_brais%C3%A9,_accompagn%C3%A9_d%E2%80%99aloco.jpg). Local asset: `reviewed-commons-197974058.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Poulet braisé** — MIA20102. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Poulet_brais%C3%A9_25122024.jpg). Local asset: `reviewed-commons-158133229.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Bayonesa (cabello de ángel)** — Tamorlan. [CC BY 3.0](https://creativecommons.org/licenses/by/3.0); [source](https://commons.wikimedia.org/wiki/File:Bayonesa_(cabello_de_%C3%A1ngel).jpg). Local asset: `reviewed-commons-8237031.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Pasta flora con cabello de ángel** — Lobo. [Public domain](https://creativecommons.org/publicdomain/mark/1.0/); [source](https://commons.wikimedia.org/wiki/File:Pasta_flora_con_cabello_de_%C3%A1ngel_-_secci%C3%B3n.jpg). Local asset: `reviewed-commons-12562628.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
