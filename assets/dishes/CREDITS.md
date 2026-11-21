@@ -13993,3 +13993,9 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Poached salmon** — ProjectManhattan. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Poached_salmon.jpg). Local asset: `reviewed-commons-29681242.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Apple strudel** — Edward Charles Kendall. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Apple_Strudel.jpg). Local asset: `reviewed-commons-52673710.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Apfelstrudel (apple strudel)** — ZhengZhou. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Apple_Strudel.png). Local asset: `reviewed-commons-120538251.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Austrian Apple Strudel** — [Alfred Lui  from Chicago, USA](https://www.flickr.com/people/69843317@N00). [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:Austrian_Apple_Strudel_(3321759680).jpg). Local asset: `reviewed-commons-34048393.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
