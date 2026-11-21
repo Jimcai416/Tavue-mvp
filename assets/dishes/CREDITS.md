@@ -13482,3 +13482,9 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Maya spaghetti with shrimp** — Missvain. [CC BY 4.0](https://creativecommons.org/licenses/by/4.0); [source](https://commons.wikimedia.org/wiki/File:Maya_Spaghetti_-_Maya_-_March_2023_-_Sarah_Stierch.jpg). Local asset: `reviewed-commons-129224285.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Natto spaghetti** — Ocdp. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Natto_spaghetti_001.jpg). Local asset: `reviewed-commons-132500132.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Linguine with Shrimp** — Wiki.cullin. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Linguine_with_Shrimp_on_a_round_plate.jpg). Local asset: `reviewed-commons-125741265.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Rigatoni mit Erbsensauce und Gorgonzola** — [Katrin Gilger](https://www.flickr.com/people/26242865@N04). [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:Rigatoni_mit_Erbsensauce_und_Gorgonzola_(5556097737).jpg). Local asset: `reviewed-commons-89957665.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
