@@ -168771,5 +168771,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "height": 640,
     "requiresExactMenuName": true,
     "authorUrl": "https://www.flickr.com/people/47854142@N04"
+  },
+  {
+    "id": "commons-121332669",
+    "title": "File:Canelones gratinados.jpg",
+    "author": "Juan Emilio Prades Bel",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Canelones_gratinados.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/42/Canelones_gratinados.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "aec1227ed234bbb843d415a9b1c08e6960fccfe8",
+    "name": "Canelones gratinados",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-121332669.jpg",
+    "assetSha256": "8e769d9286a8ca106c8c76874732f2efc546f6026ee0263982cbd6c71f2baddc",
+    "reviewedAt": "2026-11-21",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];
