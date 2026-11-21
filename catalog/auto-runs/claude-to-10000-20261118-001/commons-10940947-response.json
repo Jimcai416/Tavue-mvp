@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChFT6hufUwcNoJ5AgSBNk",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [\n    \"Creamed mushroom sauce with parsley garnish on left side\",\n    \"Golden egg noodles on right side\",\n    \"Fresh tomato and purple cabbage garnish at top\",\n    \"White plate, restaurant plating style\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows two-component dish: cream sauce with mushrooms (left) and noodles (right)\",\n    \"Garnish elements visible but small in thumbnail\",\n    \"Overall composition readable but lighting appears somewhat dim in thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'Jägerschnitzel' (hunter's schnitzel) but no schnitzel/breaded meat cutlet is visible in either full image or thumbnail. The left component appears to be sliced mushrooms in cream sauce, not a breaded meat cutlet.\",\n    \"No protein (meat, fish, or other animal protein) is visibly present or identifiable in the photograph. The creamed sauce appears to contain only mushrooms.\",\n    \"Source title contradicts visible dish composition. Jägerschnitzel by definition should feature a breaded schnitzel cutlet with mushroom sauce; this image shows only sauce and noodles.\",\n    \"Without visible schnitzel or identifiable protein, the dish cannot be confirmed as the titled dish.\"\n  ],\n  \"reason\": \"Identity check fails. The source title 'Jägerschnitzel - Hunter's schnitzel' describes a dish featuring a breaded meat cutlet, but no schnitzel, cutlet, or any visible protein is present in either the full photograph or thumbnail. The image shows only creamed mushroom sauce with noodles and garnish. The visible composition contradicts the stated identity. No protein_evidence can be extracted because no meat/protein is visibly present and no explicit animal naming appears in the title/description relative to actual visible components. Hold criteria exceeded—cannot confirm dish identity matches title.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1743,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 573,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

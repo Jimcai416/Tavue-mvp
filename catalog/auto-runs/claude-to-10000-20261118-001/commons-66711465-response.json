@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChFT6wq4RKChnQ43P4cJ7",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Breaded cutlet with golden-brown crust, black pepper seasoning visible\",\n    \"Spiral/rotini pasta with reddish-brown sauce\",\n    \"Potato item (possibly mashed or fried) in upper right\",\n    \"Tomato-based sauce coating pasta\",\n    \"Home-cooked presentation on white plate\"\n  ],\n  \"phone_observations\": [\n    \"Cutlet and pasta clearly visible in thumbnail\",\n    \"Red sauce on pasta readable\",\n    \"Composition matches full image\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title states 'aus Jagdwurst' (made from Jagdwurst/hunting sausage), but Jagdwurst is an unspecified composite meat product—its animal species cannot be determined from the name alone\",\n    \"No explicit animal species naming (chicken/beef/pork/duck/lamb/seafood) provided in title or description\",\n    \"Cutlet appearance does not definitively establish species; could be pork, beef, or poultry\",\n    \"Jagdwurst is a German sausage whose exact composition varies by producer\"\n  ],\n  \"reason\": \"The photograph shows a finished, well-composed, appetising breaded cutlet (Jägerschnitzel) with sauce and sides, sharply detailed with natural colour and good lighting. Phone thumbnail confirms readable identity. However, the source description identifies the protein as 'Jagdwurst' (hunting sausage), which is a composite/processed meat product of indeterminate species. The review protocol requires explicit naming of animal species (chicken/beef/pork/duck/lamb/seafood) with an exact source quote; unspecified sausage products cannot be assigned to an allowed category. No other animal species is named in the source. Quality and photographic standards are met, but protein identity cannot be verified against the allowed categories, triggering a hold per protocol.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 2061,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 575,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
