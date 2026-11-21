@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChFRQkTyMyvWRYroPgYSi",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Sliced cooked protein with seared crust visible on white plate\",\n    \"Green beans, roasted potato wedges, red pepper pieces, capers\",\n    \"Herb garnish (sage visible)\",\n    \"Fine dining plating style\"\n  ],\n  \"phone_observations\": [\n    \"Plated dish with sliced protein and vegetables clearly visible\",\n    \"Essential components readable: meat, beans, potatoes, peppers\",\n    \"Sharp, natural colours, appetising presentation\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title describes 'Niçoise Style Tuna' but photograph shows sliced pale/white cooked protein with brown seared exterior—appearance is inconsistent with tuna (which would be red/pink or seared dark, not pale and sliced in this manner)\",\n    \"Protein species cannot be visually confirmed; could be swordfish, halibut, pork loin, or other white/pale meat\",\n    \"Source title includes 'tuna' but no visual evidence supports this identification\"\n  ],\n  \"reason\": \"Reject: Identity check fails. The source title claims 'Niçoise Style Tuna' but the photograph shows sliced pale/white cooked protein with a brown seared crust—inconsistent with tuna appearance. The protein species cannot be reliably identified from the visible form. Ambiguous protein identity and source-description mismatch require hold per guidelines. Photograph and phone thumbnail quality are good, but identity uncertainty is fatal to acceptance.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1654,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 484,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
