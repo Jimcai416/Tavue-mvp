@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChFmGeBZBz1TRfGaKBVwu",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Yellow/golden beverage in stem glass visible in thumbnail\",\n    \"Spoon visible in thumbnail\",\n    \"White tablecloth setting\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Description claims 'palate cleanser of mango sorbet and sparkling wine' but the image shows only a beverage in a glass—no sorbet is visible or plated\",\n    \"Mango sorbet is not a food dish; it is an ingredient or component\",\n    \"No finished, exposed dish is present—only a prepared beverage, which falls outside food photography scope\"\n  ],\n  \"reason\": \"Source describes a beverage only (sparkling wine, possibly with mango sorbet component), not a finished plated food dish. Tavue reviews food dishes, not drinks or beverage-only compositions. The sorbet, if present, is not visible as a distinct plated component. Identity check fails because the visible subject (a glass of golden liquid) does not match the scope of a food dish requiring photographic evidence of finished, exposed, prominent food with readable essential components.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1761,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 387,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
