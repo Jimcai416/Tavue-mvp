@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChF8MqYVhyo9VNK6wRMR7",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 3,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Preparation stage visible: raw ingredients in bowls and pots on stovetop\",\n    \"Cooking in progress, not a finished dish\",\n    \"Ingredients being cooked/assembled, not plated or served\",\n    \"Fork with partial food on blue plate shows preparation context, not finished meal\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title references 'Porrupatatak' (leek preparation) and 'porrusalda' (broth/soup) but image shows mid-cooking stage, not finished dish\",\n    \"Description is in Basque and indicates preparation components ('hezur-muina' = bone marrow) but no finished dish visible\",\n    \"The image documents cooking process rather than a completed, plated dish\"\n  ],\n  \"reason\": \"Reject: This is a preparation/cooking-in-progress photograph, not a finished, exposed dish. Multiple pots with ingredients in various stages of cooking, raw components in containers, and cooking utensils on a stovetop are visible. The subject is the cooking process itself, not an appetising, finished food photograph. The source description in Basque indicates component ingredients rather than a plated dish ready for consumption. Essential criterion unmet: 'finished, exposed, likely photographic dish.'\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1770,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 435,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
