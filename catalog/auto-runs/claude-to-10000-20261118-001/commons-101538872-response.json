@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChFkatCHp7dsSecxCTgyv",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Cooked steak with seared surface\",\n    \"Cheese or béarnaise sauce visible on meat\",\n    \"Piped potato swirls forming decorative border\",\n    \"Fresh herb garnish (microgreens/chives)\",\n    \"Roasted vegetables (tomato, zucchini, pepper)\",\n    \"Wooden serving board/platter\",\n    \"Professional plating presentation\"\n  ],\n  \"phone_observations\": [\n    \"Steak and potatoes prominent in thumbnail\",\n    \"Sauce and garnish visible\",\n    \"Essential components readable at reduced size\",\n    \"Overall composition clear despite low light\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title describes 'Steak' but provides no specific cut name or species confirmation\",\n    \"Exact protein type (beef cut) not explicitly stated in source description\",\n    \"Béarnaise sauce mentioned but meat species not named in metadata\"\n  ],\n  \"reason\": \"Rejection: The source description states only 'Steak' without naming the specific cut or confirming beef/animal species. Per protocol, unspecified or ambiguous meat species must be held or rejected. The title 'Plankstek' (Scandinavian/Swedish for plank steak) is a filename and cannot substitute for explicit canonical identity in the description. While the photograph is sharp, well-composed, and appetising, identity cannot be verified from the supplied source metadata alone.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1741,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 469,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
