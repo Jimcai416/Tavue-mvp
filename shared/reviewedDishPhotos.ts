@@ -171596,5 +171596,51 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "height": 640,
     "requiresExactMenuName": true,
     "authorUrl": "https://flickr.com/people/62621566@N00"
+  },
+  {
+    "id": "commons-52576500",
+    "title": "File:Canard rôti au miel de lavande.jpg",
+    "author": "T.Tseng",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Canard_r%C3%B4ti_au_miel_de_lavande.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/af/Canard_r%C3%B4ti_au_miel_de_lavande.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "c9ed307f40f2530a15b511a58d8eaf35f802d068",
+    "name": "Canard rôti au miel de lavande",
+    "aliases": [],
+    "proteins": [
+      "duck"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-52576500.jpg",
+    "assetSha256": "0407be75957e40fd2764d8d5d73aea6e66cde22f8082a77aaed6fc79eb782ff2",
+    "reviewedAt": "2026-11-21",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-97528968",
+    "title": "File:Lapin chasseur 003.jpg",
+    "author": "Arnaud 25",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lapin_chasseur_003.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Lapin_chasseur_003.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "521e27b81af8eb58a4f10758f14c7e23b043e51a",
+    "name": "Lapin chasseur",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-97528968.jpg",
+    "assetSha256": "a8072c701316cb64e0f894637fe56005e1e5268a85660c8c46ca7e4b1f77b1f9",
+    "reviewedAt": "2026-11-21",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];
