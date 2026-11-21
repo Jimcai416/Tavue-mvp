@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChFWjk616J9LDwfKCz2a4",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Full image: risotto with visible shrimp, mussels, squid, and rice in creamy tomato-based sauce\",\n    \"Full image: green garnish (scallions or parsley) visible\",\n    \"Full image: finished, exposed dish on white plate\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail is severely degraded, blurred, and unreadable\",\n    \"Colour rendering is muddy and orange-brown; essential components (shrimp, seafood, rice grain) are not distinctly visible\",\n    \"Dish appears as an indistinct, monochromatic mass\",\n    \"Cannot verify seafood prominence or composition from thumbnail alone\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Mussels (cozze) and squid (calamari) are not in the allowed seafood category—only chicken/beef/pork/duck/lamb/seafood are permitted, and these molluscs fall outside standard 'seafood' protein identification for Tavue purposes\",\n    \"Source metadata lists gamberi (shrimp), cozze (mussels), and calamari (squid), but no exact substring in title/description explicitly names shrimp in the way required\"\n  ],\n  \"reason\": \"Rejection: (1) Phone thumbnail is severely degraded, blurred, and unreadable; essential components are not visibly distinguished, violating the requirement for a sharp, appetising, readable thumbnail. (2) Source description lists molluscs (mussels and squid) which fall outside the allowed protein categories (chicken/beef/pork/duck/lamb/seafood). (3) Although the full photograph is well-exposed and appetising, the phone thumbnail fails the visual standard required for automatic acceptance. Full-image quality alone cannot compensate for unintelligible phone review.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1730,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 557,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
