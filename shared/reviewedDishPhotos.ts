@@ -164946,5 +164946,51 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-122539582",
+    "title": "File:Ground beef, cherry tomatoes, tomato sauce, and black pepper on rotini - Massachusetts.jpg",
+    "author": "Daderot",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ground_beef,_cherry_tomatoes,_tomato_sauce,_and_black_pepper_on_rotini_-_Massachusetts.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Ground_beef%2C_cherry_tomatoes%2C_tomato_sauce%2C_and_black_pepper_on_rotini_-_Massachusetts.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "19383dce294a23864774499fc672fe47afb6420d",
+    "name": "Ground beef, cherry tomatoes, tomato sauce, and black pepper on rotini",
+    "aliases": [],
+    "proteins": [
+      "beef"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-122539582.jpg",
+    "assetSha256": "00cc073659b2428779f234114181d581fcd1f61580c58c8f61a333ef75a7b9f9",
+    "reviewedAt": "2026-11-21",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 960,
+    "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-11310267",
+    "title": "File:Langose-Prag (Tomato sauce)-01.JPG",
+    "author": "Tamorlan",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Langose-Prag_(Tomato_sauce)-01.JPG",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Langose-Prag_%28Tomato_sauce%29-01.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "4a922f6f684b78184eae1247384b9c7000341831",
+    "name": "Expresné langoše with Tomato sauce",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-11310267.jpg",
+    "assetSha256": "53642430df7598c723e5a82801f958310ca45c0f6934e2e36c338397115f6509",
+    "reviewedAt": "2026-11-21",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 640,
+    "requiresExactMenuName": true
   }
 ];
