@@ -14187,3 +14187,7 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Tarte aux Framboises** — Yaazhini Gertrude. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Tarte_aux_Framboises.jpg). Local asset: `reviewed-commons-102926553.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Belgian fries** — [Tristan Schmurr  from Luxembourg, Luxembourg](https://www.flickr.com/people/58411470@N00). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Belgian_fries_in_Martelange_(52957190094).jpg). Local asset: `reviewed-commons-143795220.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
