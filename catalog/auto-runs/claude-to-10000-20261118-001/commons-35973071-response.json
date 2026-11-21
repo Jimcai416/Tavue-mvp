@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChFu9AKEx19oBhTgyMYMM",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Sliced poultry breast, pale and roasted appearance\",\n    \"Purple/dark lentils visible on plate\",\n    \"Fine dining plated presentation\",\n    \"Natural colour, finished dish\"\n  ],\n  \"phone_observations\": [\n    \"Sliced meat component clearly visible\",\n    \"Dark lentil bed readable in thumbnail\",\n    \"Dish composition prominent and identifiable\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Chapon (capon) is not an allowed protein category. Allowed categories are: chicken, beef, pork, duck, lamb, seafood. Chapon is a castrated rooster, a specific poultry type not matching standard categories.\",\n    \"Source title names 'chapon' but no exact case-sensitive match for 'chicken' or other allowed category exists in the supplied description.\"\n  ],\n  \"reason\": \"Image quality, photography, and composition all meet standards. Phone thumbnail clearly shows finished dish with sliced poultry and lentils. However, the source explicitly identifies this as 'chapon rôti' (roasted capon), which is a specific poultry variant outside the allowed protein categories (chicken/beef/pork/duck/lamb/seafood). Capon cannot be mapped to 'chicken' without inferring species equivalence. The protein_evidence cannot be populated with an allowed key because the source dish name contains no exact substring matching any approved category. Hold pending clarification of whether capon should be accepted under a different framework or whether source metadata must be updated.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1576,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 486,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
