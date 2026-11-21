@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChGHdmJ1cyoLREx9muKVc",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Mushrooms clearly visible, sliced and cooked\",\n    \"Green onion/scallion pieces prominent throughout\",\n    \"White onion chunks visible\",\n    \"Glossy sauce coating indicates cream-based preparation\",\n    \"Cooked poultry meat pieces with browning\"\n  ],\n  \"phone_observations\": [\n    \"Finished dish clearly visible in thumbnail\",\n    \"Essential components (mushrooms, chicken, vegetables, sauce) readable\",\n    \"Appetising appearance with visible gloss and colour variation\",\n    \"Sharp enough to identify dish category\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'chicken thighs' but metadata states 'deboned and skinned by the fine folks at walmart' — this is marketing/sourcing commentary, not explicit ingredient declaration in source title/description\",\n    \"Source description emphasizes 'low carb' (health claim) and 'tarragon, whipping cream' (hidden flavours not visually verifiable)\",\n    \"Visible meat cannot be definitively confirmed as chicken thighs vs. another poultry cut based on appearance alone\",\n    \"No explicit 'chicken' string in the actual title itself — only in description, which is treated as metadata commentary rather than canonical dish name\"\n  ],\n  \"reason\": \"Identity check fails. The source title is 'Chicken Chasseur' but the description contains non-canonical marketing and sourcing commentary ('walmart', 'low carb', hidden flavour claims). While the photograph shows a finished, appetising cream sauce dish with mushrooms, green onion, and cooked poultry, the protein cannot be accepted because: (1) the word 'chicken' does not appear as an explicit substring in the metadata title field supplied (only in description/commentary); (2) meat species cannot be inferred from appearance; (3) the description's protein reference is embedded in sourcing/preparation narrative, not a clear ingredient declaration. Photography quality is good (sharp, well-lit, appetising), but identity uncertainty regarding the exact protein species and canonical name prevents acceptance.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1764,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 604,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
