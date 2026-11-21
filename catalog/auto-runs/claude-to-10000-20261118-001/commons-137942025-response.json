@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChGPpKiPKD5S4cBvqgPAC",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Spaghetti strands clearly visible and coated\",\n    \"Black herb garnish (nori/seaweed, not parsley as titled)\",\n    \"Oil-based sauce evident on pasta\",\n    \"White plate, natural lighting, finished dish presentation\"\n  ],\n  \"phone_observations\": [\n    \"Pasta nest prominent and readable in thumbnail\",\n    \"Black garnish visible in centre\",\n    \"Adequate sharpness for recognition\",\n    \"Dish clearly distinguished from background\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'prezzemolo' (parsley) but photograph clearly shows black nori/seaweed strips, not green parsley\",\n    \"Source metadata describes Italian aglio e olio e prezzemolo, but visual garnish is Asian nori, not parsley—contradicts identity claim\",\n    \"Ambiguity between claimed Italian preparation and visible Japanese ingredient\"\n  ],\n  \"reason\": \"Reject due to identity mismatch: source title explicitly names 'prezzemolo' (Italian parsley) as the garnish, but the photograph clearly shows black nori (seaweed) strips instead. The dish identity cannot be verified as described. The photograph quality and presentation are acceptable, but the fundamental contradiction between the titled ingredient and visible garnish means the canonical identity cannot be reliably established. Hold rules require identity agreement with visible form.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1626,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 451,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
