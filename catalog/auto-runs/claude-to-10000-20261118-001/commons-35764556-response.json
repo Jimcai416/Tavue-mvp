@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChGbcEE31E8rLY297hs2y",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Golden-brown crumb-coated baked pieces in white dish\",\n    \"Visible herb speckling (appears to be sage or similar)\",\n    \"Crispy exterior with appetising colour and texture\",\n    \"Phone thumbnail clearly shows the finished dish\"\n  ],\n  \"phone_observations\": [\n    \"Dish centre clearly visible and readable\",\n    \"Crumb coating and baking evident\",\n    \"No clipping of essential components\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'Millet & tofu stuffed eggplant' but description contradicts: 'Baked frozen vegetable sausages and peas'\",\n    \"Visual appearance does not unambiguously match either description—cannot distinguish eggplant from other base, sausages are not explicitly identifiable\",\n    \"Source provides two conflicting dish identities with no clarification which is correct\",\n    \"Tofu is not a named protein category; sausage species is unspecified and cannot be inferred from appearance\"\n  ],\n  \"reason\": \"Reject: source title and description are contradictory. Title declares 'Millet & tofu stuffed eggplant' while description states 'Baked frozen vegetable sausages and peas'—these are materially different dishes. The photograph alone cannot resolve which claim is accurate. Additionally, sausage species is unspecified (unallowed as protein evidence), and tofu does not qualify as a named protein category. Identity check fails due to source contradiction. Hold would apply, but the contradictions are irreconcilable without clarification from the source, making rejection appropriate.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1786,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 513,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
