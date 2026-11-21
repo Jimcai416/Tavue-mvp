@@ -13026,3 +13026,11 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Gachas de matalauva** — Mjblanco. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Gachas_de_matalauva..JPG). Local asset: `reviewed-commons-18917194.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Cheese soufflé** — Ruth Hartnup. [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:01_Cheese_souffle.jpg). Local asset: `reviewed-commons-32173855.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Rum Baba** — Anagoria. [CC BY 3.0](https://creativecommons.org/licenses/by/3.0); [source](https://commons.wikimedia.org/wiki/File:2019-02-17_132610_Baba_au_rhum_anagoria.jpg). Local asset: `reviewed-commons-76632688.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Dessert Paris brest in Rome** — Camelia.boban. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Dessert_Paris_brest_in_Rome.jpg). Local asset: `reviewed-commons-77166152.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Double chocolate cheesecake with a cream filled profiterole, drizzled with dark chocolate** — Andy Li. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Chocolate_Profiterole_Cheesecake_-_Caff%C3%A8_Nero_2024-12-26.jpg). Local asset: `reviewed-commons-157242952.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Baba au rhum** — Marianne Casamance. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Apt_Chat_qui_p%C3%AAche_Baba_au_rhum.jpg). Local asset: `reviewed-commons-32221691.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
