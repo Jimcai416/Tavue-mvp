@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChGbSzL7euGULKP9M1fsE",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [\n    \"Pink layered salad base visible in full source\",\n    \"Green herb garnish clearly distributed across surface\",\n    \"Glass baking dish containing the dish\",\n    \"Phone thumbnail clearly shows the pink base and green garnish\"\n  ],\n  \"phone_observations\": [\n    \"Pink foundation clearly visible and prominent\",\n    \"Green herb topping recognizable and distributed\",\n    \"Dish shape and overall composition match full source\",\n    \"Thumbnail composition adequate for identification\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title states 'Ukrainian shuba' but source description only says 'Ukrainian shuba' without specifying exact dish name or components\",\n    \"No protein animals explicitly named in the supplied title or description\",\n    \"Shuba traditionally contains herring, but no herring or seafood is mentioned in metadata\",\n    \"Pink layer composition unclear from visual alone—could be beet-based but not confirmed by source text\",\n    \"Exact canonical dish name cannot be verified against a complete, authoritative source description\"\n  ],\n  \"reason\": \"The image shows a finished, appetizing layered salad with sharp detail and good lighting. However, the supplied title 'Ukrainian shuba' is incomplete metadata (a filename) rather than a full dish description. The source description 'Ukrainian shuba' lacks essential specificity: no component ingredients, proteins, or preparation details are provided in text. Shuba traditionally contains herring (a seafood), but no seafood is explicitly named in the source metadata. The pink layer is visually consistent with beetroot, but this is visual inference, not source-declared. Without a complete, authoritative canonical description that names all meaningful components and any proteins, identity cannot be established with sufficient certainty. Source metadata is insufficient to generate a proper canonical_name.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1446,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 536,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
