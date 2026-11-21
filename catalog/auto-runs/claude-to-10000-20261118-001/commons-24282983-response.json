@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChFRnmRspAGo5GHKPnxdW",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Sliced cured meat on white plate\",\n    \"Reddish-purple marbling and fat distribution visible\",\n    \"Consistent slice thickness and arrangement\",\n    \"Plate and partial menu/branding visible\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title states 'Chorizo Iberico' but chorizo is a sausage product category, not an allowed protein key\",\n    \"Visible form shows sliced cured meat but species cannot be determined from appearance alone\",\n    \"No explicit animal species declaration in source text (chorizo type alone does not name the meat animal)\"\n  ],\n  \"reason\": \"Identity check fails. The source title identifies this as 'Chorizo Iberico', which is a sausage/processed meat product. The review protocol does not accept 'sausage' as a protein key and explicitly states 'do not guess which animal sausage contains'. Although the sliced, cured appearance and marbling are visible and appetising, the source provides only a sausage type name without declaring the specific animal (pork, beef, etc.). This creates an irresolvable species ambiguity. Per protocol: 'Unknown meat species still means hold', and sausage products require explicit animal naming that is absent here. Reject.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1761,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 437,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
