@@ -13200,3 +13200,8 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Grissini artigianali** — Bachelot Pierre J-P. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Grissini_artigianali.jpg). Local asset: `reviewed-commons-203199062.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Small coffee single shot** — Andy Li. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Cappuccino_-_Wai_Kika_Moo_Kau_2024-01-13.jpg). Local asset: `reviewed-commons-143924124.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Classical cappuccino** — Peachyeung316. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Classical_Cappuccino_in_Savour_Cafe.jpg). Local asset: `reviewed-commons-92435688.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
