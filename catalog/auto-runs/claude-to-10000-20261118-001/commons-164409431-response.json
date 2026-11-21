@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChFbHJbwTbgXEsQN9k3Yo",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Noodles clearly present\",\n    \"Brown sauce visible on top\",\n    \"Boiled egg white visible on plate side\",\n    \"Natural colours, finished dish appearance\"\n  ],\n  \"phone_observations\": [\n    \"Noodles, sauce and egg white all readable in thumbnail\",\n    \"Adequate definition of dish components\",\n    \"No clipping of essential elements\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title describes 'sauce' generically without naming meat species, sauce type, or regional variant\",\n    \"Visual inspection shows brown meat-based sauce but cannot definitively identify animal species from appearance alone\",\n    \"No explicit protein identification in source metadata\",\n    \"Cannot determine if this is a specific named dish (e.g. spaghetti Bolognese, ragù, etc.) from title alone\",\n    \"Boiled egg presence noted but not qualified in title\"\n  ],\n  \"reason\": \"Identity check fails. The source title 'Spaghetti with sauce and boiled eggs' is too generic and provides no meaningful dish variant, sauce type, or protein specification. While the photograph shows a finished, well-presented dish with natural colours, sharp detail, and readable components in both full and thumbnail views, the absence of any specific sauce or protein naming in the source description creates unresolvable uncertainty about identity. A named dish variant (e.g. 'Spaghetti Bolognese', 'Spaghetti al Ragù') with explicit protein identification is required. Generic 'sauce' and unidentified sauce colour do not satisfy identity requirements.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1732,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 501,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
