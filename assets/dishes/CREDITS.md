@@ -13559,3 +13559,7 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **boulets à la liégeoise** — Marianne Casamance. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Boulets_%C3%A0_la_li%C3%A9geoise_1.jpg). Local asset: `reviewed-commons-20613259.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Alitas de pollo fritas con ajos enteros y hoja de laurel** — Juan Emilio Prades Bel. [CC BY 4.0](https://creativecommons.org/licenses/by/4.0); [source](https://commons.wikimedia.org/wiki/File:Alitas_de_pollo_fritas_con_ajos_enteros_y_hoja_de_laurel.jpg). Local asset: `reviewed-commons-164944018.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
