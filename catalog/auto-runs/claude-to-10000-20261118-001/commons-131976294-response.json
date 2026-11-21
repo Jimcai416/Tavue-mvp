@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChGn34jtpSR7PxF46HGn9",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 3,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [\n    \"Title clearly states 'Cocido galego'\",\n    \"Dish shown in red pot with broth, potatoes, and meat components\",\n    \"Ingredients list visible with pork components: costela de porca, orella de porca, carne de polo, carne de vacún, fabas, grelos, chorizo\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail shows pot with broth and pale ingredients\",\n    \"Minimal detail visibility at 124x96 resolution\",\n    \"Subject present but essential components not sharply readable in thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Ingredients list contains 'carne de polo' which does not match standard Galician cocido components and is ambiguous (polo could refer to chicken, but source text appears corrupted or non-standard)\",\n    \"Source metadata shows 'File:' prefix and jpg extension in title field, violating canonical_name rules\",\n    \"Ingredients text contains inconsistent or potentially corrupted spelling ('carne de polo' is not standard; 'orella' typically means ear; standard cocido galego uses beef, pork, and chorizo with identifiable parts)\",\n    \"Cannot verify exact protein species from corrupted or non-standard ingredient terminology\"\n  ],\n  \"reason\": \"Rejection due to unresolvable protein species ambiguity. The ingredient 'carne de polo' does not match standard Galician cocido components and appears to be corrupted or non-standard text. While the dish is identifiable as cocido galego by title and visual form, the protein_evidence cannot be populated with an exact case-sensitive substring from the source because the protein naming in the ingredients list is ambiguous or corrupted. Standard cocido galego uses beef, pork, and chorizo with named parts (costela, orella, carne de vacún), but 'carne de polo' creates uncertainty about actual animal species. Rule requires explicit protein naming per exact source quote; ambiguous or corrupted terminology triggers hold. Source file metadata also contains non-canonical formatting.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 2005,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 604,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
