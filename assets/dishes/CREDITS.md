@@ -14148,3 +14148,7 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 - **Charcuterie** — [Dion Hinchcliffe](https://www.flickr.com/people/14966804@N03). [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:Charcuterie_(50936887303).jpg). Local asset: `reviewed-commons-112679794.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Cheese & meat plate** — Sarah Stierch. [CC BY 4.0](https://creativecommons.org/licenses/by/4.0); [source](https://commons.wikimedia.org/wiki/File:Cheese_%26_meat_plate_at_the_girl_%26_the_fig_-_Sarah_Stierch.jpg). Local asset: `reviewed-commons-64330727.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Cheese and charcuterie** — Missvain. [CC BY 4.0](https://creativecommons.org/licenses/by/4.0); [source](https://commons.wikimedia.org/wiki/File:Preserve_-_June_2019_-_Stierch_01.jpg). Local asset: `reviewed-commons-80094040.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Spaghetti marinara** — Chris Olszewski. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Spaghetti_marinara,_Castaways_Beach_Bar_%26_Grill,_Mission_Beach,_2025,_01.jpg). Local asset: `reviewed-commons-165375725.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.

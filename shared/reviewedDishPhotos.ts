@@ -173010,5 +173010,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-165375725",
+    "title": "File:Spaghetti marinara, Castaways Beach Bar & Grill, Mission Beach, 2025, 01.jpg",
+    "author": "Chris Olszewski",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Spaghetti_marinara,_Castaways_Beach_Bar_%26_Grill,_Mission_Beach,_2025,_01.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Spaghetti_marinara%2C_Castaways_Beach_Bar_%26_Grill%2C_Mission_Beach%2C_2025%2C_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "e70c4f7336ef363afbc145be1b41b452ead7b6c6",
+    "name": "Spaghetti marinara",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-165375725.jpg",
+    "assetSha256": "9e91409a9280872fe3fc40db717aeb426f3ae09f29d583c8a5783b98c9e351f5",
+    "reviewedAt": "2026-11-21",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];
