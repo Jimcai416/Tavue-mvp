@@ -164717,5 +164717,30 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "height": 720,
     "requiresExactMenuName": true,
     "authorUrl": "https://www.flickr.com/people/85936780@N00"
+  },
+  {
+    "id": "commons-69146481",
+    "title": "File:Twelve Hours in New York City! (3998219246).jpg",
+    "author": "Jazz Guy  from New Jersey, United States",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Twelve_Hours_in_New_York_City!_(3998219246).jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/02/Twelve_Hours_in_New_York_City%21_%283998219246%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "332f27843a49bf9714c5e53fe0690147e96aaed1",
+    "name": "Seafood chowder",
+    "aliases": [],
+    "proteins": [
+      "seafood"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-69146481.jpg",
+    "assetSha256": "ec64788c9b109f2b2b20bd15b5ac4b1bee4722bd4530dd4afbf60a472f7d327c",
+    "reviewedAt": "2026-11-21",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 639,
+    "requiresExactMenuName": true,
+    "authorUrl": "https://www.flickr.com/people/9341577@N08"
   }
 ];
