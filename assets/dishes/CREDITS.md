@@ -13975,3 +13975,7 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Zuppa di funghi** — [Ewan Munro  from London, UK](https://www.flickr.com/people/55935853@N00). [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:Roma_Sparita,_Trastevere,_Rome_(2345433961).jpg). Local asset: `reviewed-commons-24282785.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Caprese salad with paprika and mixed green salad** — Dereckson. [CC BY 3.0](https://creativecommons.org/licenses/by/3.0); [source](https://commons.wikimedia.org/wiki/File:Tomates_mozzarella,_accompagn%C3%A9es_de_piments_et_d%27une_salade_verte_compos%C3%A9e_01.jpg). Local asset: `reviewed-commons-32905249.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.

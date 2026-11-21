@@ -170950,5 +170950,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "height": 720,
     "requiresExactMenuName": true,
     "authorUrl": "https://www.flickr.com/people/55935853@N00"
+  },
+  {
+    "id": "commons-32905249",
+    "title": "File:Tomates mozzarella, accompagnées de piments et d'une salade verte composée 01.jpg",
+    "author": "Dereckson",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tomates_mozzarella,_accompagn%C3%A9es_de_piments_et_d%27une_salade_verte_compos%C3%A9e_01.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Tomates_mozzarella%2C_accompagn%C3%A9es_de_piments_et_d%27une_salade_verte_compos%C3%A9e_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "9e922835118673b00b4182bb1ea7885331ac067d",
+    "name": "Caprese salad with paprika and mixed green salad",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-32905249.jpg",
+    "assetSha256": "73e911bde6ed7ff588e1797837f92a40707d7319ff5ce844343ed6512596445f",
+    "reviewedAt": "2026-11-21",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];
