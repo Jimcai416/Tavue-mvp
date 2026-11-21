@@ -170409,5 +170409,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 636,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-115750973",
+    "title": "File:Capirotada, Postre.jpg",
+    "author": "Alejandro Lugo",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Capirotada,_Postre.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/81/Capirotada%2C_Postre.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "65c09c16e9b2ff7fffad0259856cd4bd7f46ef1b",
+    "name": "Capirotada",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-115750973.jpg",
+    "assetSha256": "8fc18bf6b2ee027f60cf9257ef7002f1bb9437763b87dbd38e653e32b5ff8529",
+    "reviewedAt": "2026-11-21",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 640,
+    "requiresExactMenuName": true
   }
 ];
