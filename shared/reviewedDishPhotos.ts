@@ -164192,5 +164192,101 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 672,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-46382734",
+    "title": "File:Gréoux-les-Bains Restaurant les Alpes jarret de porc confit sauce caramel (IGP Franche-Comté).JPG",
+    "author": "Marianne Casamance",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gr%C3%A9oux-les-Bains_Restaurant_les_Alpes_jarret_de_porc_confit_sauce_caramel_(IGP_Franche-Comt%C3%A9).JPG",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Gr%C3%A9oux-les-Bains_Restaurant_les_Alpes_jarret_de_porc_confit_sauce_caramel_%28IGP_Franche-Comt%C3%A9%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "3ab57228021e81ac05d9cc39fec72652d5afc481",
+    "name": "Jarret de porc confit sauce caramel",
+    "aliases": [],
+    "proteins": [
+      "pork"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-46382734.jpg",
+    "assetSha256": "a8b730c8748234bed49c266ae5dfdc3a2c15858dd7c8066c77faad6244f23b30",
+    "reviewedAt": "2026-11-21",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-187938624",
+    "title": "File:Selle d'agneau - btv1b53271098k.jpg",
+    "author": "Vaussion, Bernard. Photographe\n \nGodfroy, Marion (1977-....). Auteur du commentaire",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Selle_d%27agneau_-_btv1b53271098k.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Selle_d%27agneau_-_btv1b53271098k.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "5e680adb3fce840b1d5e45e94b4eb2c0a0c8e6e9",
+    "name": "Selle d'agneau",
+    "aliases": [],
+    "proteins": [
+      "lamb"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-187938624.jpg",
+    "assetSha256": "0e257f420a8c56fb7ed0c5cb58f453f0aa4b93bb4b585c3b69c4585dacb2b157",
+    "reviewedAt": "2026-11-21",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 639,
+    "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-47357736",
+    "title": "File:Selle d'agneau farcie au beurre maître d'hôtel.jpg",
+    "author": "Mon Œil",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Selle_d%27agneau_farcie_au_beurre_ma%C3%AEtre_d%27h%C3%B4tel.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Selle_d%27agneau_farcie_au_beurre_ma%C3%AEtre_d%27h%C3%B4tel.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "81cb46db8e9ef0315606bd9d78c1fc13373b7456",
+    "name": "Selle d'agneau farcie au beurre maître d'hôtel",
+    "aliases": [],
+    "proteins": [
+      "lamb"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-47357736.jpg",
+    "assetSha256": "ce33e4fb54f387e9e3398906235752d4f92676d6db0006f9eacaf311db27c519",
+    "reviewedAt": "2026-11-21",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 640,
+    "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-44286053",
+    "title": "File:Selle d'agneau rôtie.jpg",
+    "author": "pelican",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Selle_d%27agneau_r%C3%B4tie.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Selle_d%27agneau_r%C3%B4tie.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "d5be44e1c1e2396a44b7e0d6de831034700b88f3",
+    "name": "Selle d'agneau rôtie",
+    "aliases": [],
+    "proteins": [
+      "lamb"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-44286053.jpg",
+    "assetSha256": "81f0a3fa9ba88f2aa6959b3f87548646d5ac3d4f4cdf08f4581452c9cc2b5b23",
+    "reviewedAt": "2026-11-21",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];
