@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChFMxoeP2u53Mruxyer7x",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Golden-yellow fried potato sticks, clearly finished and crispy\",\n    \"White diced onion component visible on black tray\",\n    \"Brown sauce drizzled over onions\",\n    \"Served in black compartmentalized tray on red surface\",\n    \"Natural daylight, sharp detail of fries and components\"\n  ],\n  \"phone_observations\": [\n    \"Fries and components clearly visible and readable at thumbnail scale\",\n    \"Prominent golden fries dominate centre-cover area\",\n    \"Sauce and onion components distinguishable\",\n    \"No clipping of essential food elements\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title 'Patatje oorlog' is Dutch; direct English equivalent and exact canonical phrasing unknown\",\n    \"Sauce colour and type not explicitly named in metadata; brown sauce visible but identity unconfirmed\",\n    \"No explicit ingredient or preparation statement in source description to confirm traditional composition or regional variant details\"\n  ],\n  \"reason\": \"Image quality, photograph authenticity, and phone thumbnail presentation all pass. However, identity check fails because the source title is in Dutch ('Patatje oorlog') and lacks an explicit English description or ingredient list in the supplied metadata. The canonical name must be copied exactly from source title or description, but providing only the Dutch term without confirmed English equivalence or detailed ingredient statement violates the requirement to preserve named regional variants with full clarity. Sauce type and onion preparation are visible but not named in source metadata. Hold pending source clarification of exact dish identity in English or confirmed traditional preparation details.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1729,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 496,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
