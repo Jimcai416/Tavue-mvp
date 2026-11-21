@@ -166828,5 +166828,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "height": 612,
     "requiresExactMenuName": true,
     "authorUrl": "https://www.flickr.com/people/18981838@N00"
+  },
+  {
+    "id": "commons-123725636",
+    "title": "File:Crostata di Frutta Secca e Marmellata.jpg",
+    "author": "DinaBenedettoFerrandina",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Crostata_di_Frutta_Secca_e_Marmellata.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Crostata_di_Frutta_Secca_e_Marmellata.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "fd0bf50638665ea1c09accee8107b5abd274f2f8",
+    "name": "Crostata di Frutta Secca e Marmellata",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-123725636.jpg",
+    "assetSha256": "bf130e371b966d926ade84d8f49419873bf4b92521c078cc334ca5cc6c92d525",
+    "reviewedAt": "2026-11-21",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 769,
+    "height": 960,
+    "requiresExactMenuName": true
   }
 ];

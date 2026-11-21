@@ -13547,3 +13547,7 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 
 - **Berenjenas caprese** — Fadesga. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Berenjenas_rellenas_a_la_caprese_02.jpg). Local asset: `reviewed-commons-70300108.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **berenjenas rellenas** — [Miguel Olaya  from Bogotá, Colombia](https://www.flickr.com/people/18981838@N00). [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:T%C3%BClay_hizo_berenjenas_rellenas_(8295009747).jpg). Local asset: `reviewed-commons-127339388.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Crostata di Frutta Secca e Marmellata** — DinaBenedettoFerrandina. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Crostata_di_Frutta_Secca_e_Marmellata.jpg). Local asset: `reviewed-commons-123725636.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
