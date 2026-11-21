@@ -162800,5 +162800,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 768,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-59941914",
+    "title": "File:Steak au poivre - Italy.jpg",
+    "author": "E4024",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Steak_au_poivre_-_Italy.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/41/Steak_au_poivre_-_Italy.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "99e83b3dc323cc7f5d81548c7193fcd161ee4523",
+    "name": "Steak au poivre",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-59941914.jpg",
+    "assetSha256": "b9c981816e56803a851eecd939349757f85d997997f509e5f9e21539fa7149a9",
+    "reviewedAt": "2026-11-21",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];

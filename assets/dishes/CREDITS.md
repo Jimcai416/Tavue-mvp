@@ -13103,3 +13103,7 @@ Uncropped previews resized and JPEG re-encoded. No generative editing.
  derivative work:  Itzuvit  (  talk  )](https://www.flickr.com/photos/25658898@N00). [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:Cremas_de_calabaza-2.jpg). Local asset: `reviewed-commons-17593757.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Sopa de pescado** — Jdvillalobos. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Sopa_de_pescado_baq.jpg). Local asset: `reviewed-commons-138871762.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Porrusalda** — No machine-readable author provided.  Ardo Beltz  assumed (based on copyright claims).. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/); [source](https://commons.wikimedia.org/wiki/File:Porrusalda.jpg). Local asset: `reviewed-commons-102580.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Steak au poivre** — E4024. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Steak_au_poivre_-_Italy.jpg). Local asset: `reviewed-commons-59941914.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
