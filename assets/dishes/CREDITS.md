@@ -14328,3 +14328,9 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Tarte aux poireaux fait maison** — Syced. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Guingamp_2007,_Tarte_aux_poireaux_fait_maison_4.jpg). Local asset: `reviewed-commons-149904783.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Raggmunk, Sweden** — Traveler100. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Raggmunk_.jpg). Local asset: `reviewed-commons-43803374.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Raggmunk with pork, lingonberry jam and cabbage** — Mikaela Börjesson. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Raggmunk_med_fl%C3%A4sk.jpg). Local asset: `reviewed-commons-92957069.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Pie, mash and liquor** — Secretlondon. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Pie_mash_and_liquor_Manze_Bermondsey.jpg). Local asset: `reviewed-commons-4925240.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
