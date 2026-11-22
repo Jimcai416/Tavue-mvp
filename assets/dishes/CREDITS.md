@@ -14320,3 +14320,7 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 
 - **Karelian pastries and meatballs** — JIP. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Karelian_pastries_and_meatballs_on_a_plate.jpg). Local asset: `reviewed-commons-148154534.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Two Karelian pastries with egg butter** — JIP. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Two_Karelian_pastries_with_egg_butter_at_home.jpg). Local asset: `reviewed-commons-150907610.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Lombarda con manzana** — Xemenendura. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Lombarda_con_manzana.jpg). Local asset: `reviewed-commons-19237821.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
