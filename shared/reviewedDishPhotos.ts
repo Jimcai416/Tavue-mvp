@@ -173616,5 +173616,30 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 640,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-129223631",
+    "title": "File:Rosebud Steakhouse - mini bacon cannoli and gorgonzola dolce ravioli (7082800187).jpg",
+    "author": "opacity",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rosebud_Steakhouse_-_mini_bacon_cannoli_and_gorgonzola_dolce_ravioli_(7082800187).jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/26/Rosebud_Steakhouse_-_mini_bacon_cannoli_and_gorgonzola_dolce_ravioli_%287082800187%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "8a09e1ddaf4964d819a170ca5bc353a25582c58f",
+    "name": "mini bacon cannoli",
+    "aliases": [],
+    "proteins": [
+      "pork"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-129223631.jpg",
+    "assetSha256": "c264c5c779855aa025df7dbf5e6a2ee1d855295a156a812bbc005a88b53c4582",
+    "reviewedAt": "2026-11-22",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 640,
+    "requiresExactMenuName": true,
+    "authorUrl": "https://www.flickr.com/people/60258967@N00"
   }
 ];
