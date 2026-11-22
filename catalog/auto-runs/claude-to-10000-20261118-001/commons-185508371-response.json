@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChH2P6v3vAfesxqM9ZQEK",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Clustered brown olives visible on white plate with blue rim\",\n    \"Thumbnail shows raw/uncooked form of the subject\",\n    \"No preparation or finished dish presentation evident\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Subject appears to be raw olives in preparation stage, not a finished cooked dish\",\n    \"Title references 'Cuquillo' olive variety but provides botanical/ingredient documentation rather than a prepared food photograph\",\n    \"No finished, exposed, appetising dish visible—subject is ingredient documentation\"\n  ],\n  \"reason\": \"Rejection: The photograph documents raw olives (Cuquillo variety) on a plate, not a finished, cooked, or prepared dish. This is a preparation-stage or ingredient documentation photograph. Tavue accepts finished, exposed, likely photographic dishes that are appetising and prominently featured. Raw ingredients in ingredient-documentation format do not meet the finished dish criterion. The identity check fails because the visual form (raw olives) contradicts the requirement for a completed, cooked, or served dish.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1732,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 383,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
