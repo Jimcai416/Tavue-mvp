@@ -174108,5 +174108,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 831,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-194512590",
+    "title": "File:Pizookie 2025-04-24 1.jpeg",
+    "author": "Yelderberry  (  talk  )",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pizookie_2025-04-24_1.jpeg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Pizookie_2025-04-24_1.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "41f5558503ac53ec469127b9924fffc3259dee84",
+    "name": "Pizookie",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-194512590.jpg",
+    "assetSha256": "fdb8f9a4d972cdff237acd081fff2029b1e1dc3af7c998f0efacacf6ca6a2927",
+    "reviewedAt": "2026-11-22",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 546,
+    "requiresExactMenuName": true
   }
 ];
