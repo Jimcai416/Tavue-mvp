@@ -173888,5 +173888,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 638,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-147798809",
+    "title": "File:Ricotta al Forno.jpg",
+    "author": "DinaBenedettoFerrandina",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ricotta_al_Forno.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Ricotta_al_Forno.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "86b23b04c1d77cd3abd734813b4fdd65051d6682",
+    "name": "Ricotta al Forno",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-147798809.jpg",
+    "assetSha256": "13a704018a9c81827ae968a143d4698bacd28442947398e0e97bd92d15560796",
+    "reviewedAt": "2026-11-22",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 629,
+    "requiresExactMenuName": true
   }
 ];

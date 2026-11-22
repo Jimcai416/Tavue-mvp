@@ -14252,3 +14252,7 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Túró Rudi** — aurin. [CC BY-SA 2.5](https://creativecommons.org/licenses/by-sa/2.5); [source](https://commons.wikimedia.org/wiki/File:Rudi_akt.jpg). Local asset: `reviewed-commons-1729956.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Ricotta al Forno** — DinaBenedettoFerrandina. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Ricotta_al_Forno.jpg). Local asset: `reviewed-commons-147798809.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
