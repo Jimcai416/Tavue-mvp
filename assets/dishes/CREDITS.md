@@ -14287,3 +14287,9 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Pizookie** — Yelderberry  (  talk  ). [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Pizookie_2025-04-24_1.jpeg). Local asset: `reviewed-commons-194512590.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Pan de cristal con tomate** — Jan Mark Holzer. [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Jaleo_-_Las_Vegas_-_7.jpg). Local asset: `reviewed-commons-74794998.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Bocadillo de Calamares** — Tamorlan. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Bocadillo_de_calamares.JPG). Local asset: `reviewed-commons-20074639.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Bocadillo de calamares y caña de cerveza** — Rodelar. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Bocadillo_de_calamares_y_ca%C3%B1a.jpg). Local asset: `reviewed-commons-44854180.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
