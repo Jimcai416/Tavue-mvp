@@ -174289,5 +174289,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 638,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-43309496",
+    "title": "File:Paila Marina y vino tinto en Valparaiso.jpg",
+    "author": "Daniel Aguirre",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Paila_Marina_y_vino_tinto_en_Valparaiso.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Paila_Marina_y_vino_tinto_en_Valparaiso.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "026a2cd5e914ffd41e1f482a3d475f72dc3a4119",
+    "name": "Paila marina",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-43309496.jpg",
+    "assetSha256": "f5b751bb198ca0cfd2d94bd839084099b7749abe1a0f896a3309651ea9819d64",
+    "reviewedAt": "2026-11-22",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 720,
+    "height": 960,
+    "requiresExactMenuName": true
   }
 ];
