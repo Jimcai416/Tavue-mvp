@@ -174488,5 +174488,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-149904783",
+    "title": "File:Guingamp 2007, Tarte aux poireaux fait maison 4.jpg",
+    "author": "Syced",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Guingamp_2007,_Tarte_aux_poireaux_fait_maison_4.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/58/Guingamp_2007%2C_Tarte_aux_poireaux_fait_maison_4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "7e561acc2c9a30dac63de67ce8e1f5c9794eae04",
+    "name": "Tarte aux poireaux fait maison",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-149904783.jpg",
+    "assetSha256": "6a5d1f39cf6ac819c9758775631f20dc0c65d229de50cdbe40242035a0c5d04d",
+    "reviewedAt": "2026-11-22",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];
