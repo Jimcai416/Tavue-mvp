@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChHKXdp7zGdkzTj22W1Jk",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": \"Aspic with fried potatoes and salad\",\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Sliced meat product with translucent jellied coating (aspic)\",\n    \"Golden-brown fried potatoes with onions\",\n    \"Fresh green salad with radish and herbs\",\n    \"Parsley garnish on meat slices\",\n    \"Cherry tomato garnish\",\n    \"White plate presentation\"\n  ],\n  \"phone_observations\": [\n    \"Meat slices prominent and sharp in thumbnail\",\n    \"Fried potatoes and salad clearly visible\",\n    \"Essential components readable at small size\",\n    \"Natural colours preserved in reduction\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Aspic (Sülze) is a prepared meat product but source does not explicitly name the animal species (could be pork, beef, or mixed)\",\n    \"German regional dish 'Sülze' traditionally contains pork but visual appearance cannot confirm species definitively\",\n    \"No explicit animal name in source description to match against allowed proteins\"\n  ],\n  \"reason\": \"Image quality, sharpness, lighting and composition all meet standards. Phone thumbnail is sharp and shows all essential components appetisingly. However, the protein identity cannot be verified: source describes 'Aspic with fried potatoes and salad' but does not explicitly name which animal the aspic contains. While Sülze is traditionally pork-based, the source description provides no definitive species attribution, only the prepared product name. Per guidelines, unknown or unspecified meat species requires hold status. Identity check fails due to inability to confirm protein source from explicit text.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1755,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 500,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
