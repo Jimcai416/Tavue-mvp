@@ -14224,3 +14224,8 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Piperade** — Arnaud 25. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Piperade.jpg). Local asset: `reviewed-commons-70241655.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Geschnetzeltes mit buntem Gemüse und gemischten Reis** — Lupus in Saxonia. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Geschnetzeltes_mit_buntem_Gem%C3%BCse_und_gemischten_Reis_-_Bild_001.jpg). Local asset: `reviewed-commons-71932066.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Züricher Geschnetzeltes mit Beilagen** — Sacha47. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Z%C3%BCrcher_mit_Beilagen.png). Local asset: `reviewed-commons-92941508.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
