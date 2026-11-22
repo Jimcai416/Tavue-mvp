@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChHBVgkzUVQymCQvvzb5P",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 5,\n    \"appeal\": 2\n  },\n  \"visible_support\": [\n    \"Three sausages clearly visible and identifiable\",\n    \"Natural colours: white, dark red, pale tan\",\n    \"Sharp detail on all items\",\n    \"Plate and presentation well-lit\"\n  ],\n  \"phone_observations\": [\n    \"All three sausages visible in thumbnail\",\n    \"Colours and forms clearly distinguishable\",\n    \"Adequate composition for phone display\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title is a filename ('File:Würste r.JPG') with no dish name\",\n    \"Description is in German and names three items: 'St. Galler Bratwurst, St. Galler Schüblig und Cervelat'\",\n    \"These are raw/preparation stage items ('gekocht, aber noch nicht gebraten, resp. heiss gemacht' = 'cooked but not yet fried/heated')\",\n    \"No single canonical dish identity; this is a collection of unfinished sausage products\",\n    \"Species of meat in sausages not explicitly declared in English; 'Bratwurst', 'Schüblig' and 'Cervelat' are sausage types with unknown or mixed animal content\"\n  ],\n  \"reason\": \"Reject: This image shows three raw or incompletely prepared sausage products, not a finished, exposed, cooked dish ready to eat. The source provides no canonical dish name—only a filename and a German description of three separate Swiss sausage types awaiting cooking ('noch nicht gebraten, resp. heiss gemacht'). Sausage species cannot be reliably inferred from generic type names, and no explicit English meat declarations are provided. The presentation is preparation-stage, not appetising finished food. Identity check fails due to absence of a named dish; quality check fails because the food is unfinished.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 2039,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 561,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

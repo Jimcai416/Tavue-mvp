@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChHBVxJNqFj6Fd165jqYG",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [\n    \"Three cooked sausages on white plate against blue background\",\n    \"Tan/golden, dark red, and pale/white sausage varieties clearly distinct\",\n    \"Natural colour, sharp detail, finished cooked state\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows three sausages in characteristic colours\",\n    \"Composition and sausage identities preserved in reduced view\",\n    \"No clipping of essential components\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title contains only filename 'Würste r s.JPG' (meaning 'sausages'), not a specific canonical dish name\",\n    \"Description names three regional Swiss sausages (Cervelat, St. Galler Schüblig, St. Galler Bratwurst) but does not constitute a single dish identity or menu item\",\n    \"Sausage species and meat composition unknown—cannot be mapped to allowed protein categories (chicken/beef/pork/duck/lamb/seafood)\",\n    \"Image appears to be a documentary/reference photograph of raw ingredients rather than a finished plated dish\"\n  ],\n  \"reason\": \"Rejection: source provides no specific canonical dish name—only a generic filename and a descriptive list of three unnamed sausage varieties. Sausage meat species are unspecified and cannot be inferred. The image shows raw/unfinished sausage components rather than a recognizable finished dish. No exact dish phrase from title or description can be extracted. Identity check fails.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1657,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 484,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
