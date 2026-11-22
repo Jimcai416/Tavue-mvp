@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChH4qDXNuovYuuR7VvTaW",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 1,\n    \"lighting\": 2,\n    \"composition\": 1,\n    \"appeal\": 0\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows only foliage and vegetation\",\n    \"No food dish visible in phone centre-cover\",\n    \"Cannot identify any prepared food component\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title 'Idiazabal 46.jpg' references a Basque cheese (Idiazábal), but no cheese or food is visible in either photograph\",\n    \"Image appears to be a garden/location photograph, not a food photograph\",\n    \"Severe mismatch between metadata claim and visual content\"\n  ],\n  \"reason\": \"This is a garden or landscape photograph showing ivy, vegetation, and moss-covered objects. No finished food dish is visible in either the full source photograph or the phone thumbnail. The metadata references Idiazábal (a Basque cheese), but no cheese or prepared food is present. This fails identity, quality, photograph, and phone checks. The image is not a food photograph and cannot be reviewed as one.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1728,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 362,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
