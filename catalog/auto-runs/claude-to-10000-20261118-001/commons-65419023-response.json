@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChHBQAgMPHEY7FE4oToGa",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Small dark object on white plate, recognizable as a prepared food item\",\n    \"Insufficient detail in thumbnail to verify food type or finished state\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'Vegetarian Cervelat' but cervelat is a traditional meat sausage (pork/beef/veal). A vegetarian variant contradicts the canonical definition and cannot be verified visually.\",\n    \"The object appears to be a sausage-like item, but no visible evidence confirms it is actually cervelat or vegetarian.\",\n    \"Species ambiguity: if the title's meat claim were removed, the object could be any plant-based sausage substitute, but the source title itself contains an unresolved contradiction.\",\n    \"No explicit ingredient declaration in source text to resolve the vegetarian/meat conflict.\"\n  ],\n  \"reason\": \"Reject due to source contradiction. The title 'Vegetarian Cervelat' presents an irreconcilable identity conflict: cervelat is a defined meat sausage, and a vegetarian variant cannot be held as the canonical name without explicit source evidence of what plant-based substitution was used. The visual appearance alone cannot confirm the nature of the filling or whether this meets the requirements for a finished, identifiable dish. The metadata's unresolved contradiction between the dish identity and its stated preparation method requires hold-level scrutiny that cannot be overcome by photograph quality alone.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1729,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 466,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
