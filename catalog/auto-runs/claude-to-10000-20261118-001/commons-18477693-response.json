@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChHBJ5wRUSYjf7FfnzpR3",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Sausage/cervelat clearly visible in thumbnail\",\n    \"Browned exterior visible\",\n    \"Cooked state apparent\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Cervelat is a sausage of unspecified meat species composition\",\n    \"Source describes it as a sausage (Cervelat) but does not explicitly name which animal protein it contains\",\n    \"Cannot determine if cervelat contains pork, beef, or mixed meats from source metadata alone\"\n  ],\n  \"reason\": \"Rejection: The source identifies this as a 'Cervelat' (a type of sausage), but provides no explicit statement naming the specific meat species. Protocol requires that proteins be sourced from explicit statements in the title/description naming the animal (chicken/beef/pork/duck/lamb/seafood). Generic 'sausage' entries without species declaration cannot be accepted. The photograph is well-exposed, sharp, and appetising, but the unspecified protein composition prevents acceptance.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1739,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 379,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

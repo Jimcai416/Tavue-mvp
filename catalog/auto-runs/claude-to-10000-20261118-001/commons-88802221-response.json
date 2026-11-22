@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChHBHnKXQMLrvP3DBiJEa",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 3,\n    \"composition\": 2,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows busy restaurant interior with multiple diners\",\n    \"No individual dish is prominent or identifiable in phone thumbnail\",\n    \"Food details are not discernible at phone size\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"No finished dish is visually prominent in either full image or thumbnail\",\n    \"Source title is a filename/location, not a dish name\",\n    \"Description 'cebicheria' is a venue type, not a specific dish identity\",\n    \"Cannot verify any specific ceviche preparation, protein, or variant from the photograph\",\n    \"Food on individual plates is too distant and blurred to identify\"\n  ],\n  \"reason\": \"Rejection: The photograph is a wide scene of a busy restaurant interior with multiple diners, not a close-up of a finished, exposed dish. No individual food item is sharp, prominent, or identifiable in either the full image or phone thumbnail. The source title is a filename (venue name and location), and the description 'cebicheria' names only the restaurant type, not a specific dish. Essential food components are either clipped or too small/distant to visually support any canonical dish identity. This is a venue/crowd photograph, not a food photograph suitable for Tavue review.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1623,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 426,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

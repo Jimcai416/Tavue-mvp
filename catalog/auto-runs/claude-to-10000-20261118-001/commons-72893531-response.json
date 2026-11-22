@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChHBJBtrjmEXQRcaw3qmg",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [\n    \"Cooked sausage with characteristic diagonal scoring marks\",\n    \"Served on white disposable container/base\",\n    \"Natural colour, well-exposed, sharp detail\",\n    \"Phone thumbnail clearly shows the prepared dish\"\n  ],\n  \"phone_observations\": [\n    \"Sausage and container legible in thumbnail\",\n    \"Subject prominent and properly framed\",\n    \"No clipping of essential components\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title 'Cervelas froid' (cold cervelas) describes a sausage, but sausage species cannot be determined from appearance alone\",\n    \"Source metadata indicates this is a sausage product, but the animal species is not explicitly named in the title or description\",\n    \"No explicit animal qualifier (e.g. 'pork cervelas', 'beef cervelas') present in source text\"\n  ],\n  \"reason\": \"Rejection due to unspecified protein. The source title 'Cervelas froid' identifies a sausage dish, but does not explicitly name the animal species. Per protocol, sausage cannot be used as a protein category key, and the actual animal cannot be inferred from appearance or tradition. The image quality, composition and photograph are acceptable, but the identity check fails because the canonical protein species is not explicitly stated in the source title or description. Hold cannot be applied as this is a final submission requiring a definitive acceptance or rejection.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1824,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 462,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
