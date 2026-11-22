@@ -174647,5 +174647,51 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "height": 640,
     "requiresExactMenuName": true,
     "authorUrl": "https://www.flickr.com/photos/nromagna/"
+  },
+  {
+    "id": "commons-26638676",
+    "title": "File:Aspic de verduras 1.JPG",
+    "author": "El Caminito",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Aspic_de_verduras_1.JPG",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Aspic_de_verduras_1.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "1e745b64fac7f9559cb44c1ad2783fa005674434",
+    "name": "Aspic de verduras",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-26638676.jpg",
+    "assetSha256": "6f4f03e58a9c047fb2fee7f656a24c0778bdf6ddb4d403d17025d68cebbb7d7a",
+    "reviewedAt": "2026-11-22",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-3423131",
+    "title": "File:Fish in aspic.jpg",
+    "author": "Ygrek",
+    "license": "CC BY 1.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/1.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fish_in_aspic.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/98/Fish_in_aspic.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "e1f82b142f9d1174da7557681f79a25c23e17a36",
+    "name": "Fish in aspic",
+    "aliases": [],
+    "proteins": [
+      "seafood"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-3423131.jpg",
+    "assetSha256": "06a9c0d816ceb73a6465b79c0f997d0aef5411d8337c7dabf15b8946dbc3cb9c",
+    "reviewedAt": "2026-11-22",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 841,
+    "requiresExactMenuName": true
   }
 ];
