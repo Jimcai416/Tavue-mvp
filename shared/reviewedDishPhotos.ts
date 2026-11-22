@@ -173821,5 +173821,28 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 960,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-6230376",
+    "title": "File:Hornazo-01.jpg",
+    "author": "Piutus",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hornazo-01.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Hornazo-01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "9317f7f19c33440234339edb5373f8c7ce208e20",
+    "name": "Hornazo",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-6230376.jpg",
+    "assetSha256": "504da2679e36239516cef034619703a1ec8ccfd010f586295599cea7a7683fad",
+    "reviewedAt": "2026-11-22",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true,
+    "authorUrl": "https://www.flickr.com/photos/90673887@N00"
   }
 ];

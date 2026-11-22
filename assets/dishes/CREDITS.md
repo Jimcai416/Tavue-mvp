@@ -14240,3 +14240,7 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 - **Boiled potatoes with fennel** — Tangopaso. [Public domain](https://creativecommons.org/publicdomain/mark/1.0/); [source](https://commons.wikimedia.org/wiki/File:Boiled_potatoes_with_fennel.jpg). Local asset: `reviewed-commons-58494276.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Duck breast, boiled potatoes, and peas** — Daderot. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Duck_breast,_boiled_potatoes,_and_peas_-_Massachusetts.jpg). Local asset: `reviewed-commons-157934822.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Ground beef and mustard on boiled potatoes and peas** — Daderot. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Ground_beef_and_mustard_on_boiled_potatoes_and_peas_-_Massachusetts.jpg). Local asset: `reviewed-commons-182827326.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Hornazo** — [Piutus](https://www.flickr.com/photos/90673887@N00). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Hornazo-01.jpg). Local asset: `reviewed-commons-6230376.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
