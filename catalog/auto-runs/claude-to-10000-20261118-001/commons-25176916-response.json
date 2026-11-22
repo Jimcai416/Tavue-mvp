@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChHACaJTCGnSz5dPHTFcj",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Stewed meat pieces in rich brown sauce\",\n    \"Sliced potatoes prominently arranged\",\n    \"Finished, cooked dish on decorative plate\",\n    \"Natural lighting, appetising presentation\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows stewed meat and potato chunks in brown sauce\",\n    \"Dish identity legible in reduced size\",\n    \"Colour and composition preserved in phone view\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title 'Pieds et Paquets' refers to a specific Provençal tripe and offal dish, but visible meat components cannot be definitively identified as tripe/feet/lamb intestines versus generic stewed meat\",\n    \"Potato presence contradicts traditional pieds et paquets composition (which typically contains only the meat parcels and sauce)\",\n    \"Ambiguous meat species: tripe origin (beef vs. sheep/lamb) and any other meat components are not visually distinguishable\",\n    \"Source metadata describes 'Pieds et Paquets' but visual evidence shows what appears to be a modified or misidentified preparation\"\n  ],\n  \"reason\": \"Identity check fails. While the metadata title is 'Pieds et Paquets', a classic Provençal tripe dish, the visible preparation contradicts the traditional form: substantial sliced potatoes are prominently featured (not standard in authentic pieds et paquets), and the meat components cannot be visually confirmed as tripe, feet, or the specific offal required. The dish may be a home-cooked variant, misidentified, or mislabeled. Without visual confirmation that the meat is actually tripe or lamb offal (versus generic stewed meat), and given the potato addition incompatible with the named dish's traditional identity, the identity check cannot be confirmed. Hold rules require source-title match with visible form; ambiguous meat species and contradictions between name and visible preparation prevent acceptance.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1729,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 581,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

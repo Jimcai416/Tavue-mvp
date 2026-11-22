@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChHAD7EZATUFRBWPPx3T9",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": \"pieds et paquets, a traditional Sisteron specialty of lamb's trotters and stuffed tripe parcels, served with gratin dauphinois\",\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Golden-brown spherical items consistent with cooked meat parcels\",\n    \"Creamy pale starch-based component consistent with gratin dauphinois\",\n    \"Glossy amber sauce visible across plate\",\n    \"White plate on patterned tablecloth\",\n    \"Natural daylight, home/casual dining setting\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows the full plated dish\",\n    \"Golden meat component and pale gratin both prominent and readable\",\n    \"No clipping of essential food elements\",\n    \"Adequate detail for dish recognition at reduced size\"\n  ],\n  \"protein_evidence\": {\n    \"lamb\": \"lamb's trotters and stuffed tripe parcels\"\n  },\n  \"uncertainties\": [\n    \"Source title metadata indicates 'File:' prefix and date 'septembre 2026' (future date, inconsistent with CC BY-SA 4.0 license structure suggesting this is archival/metadata error)\",\n    \"Visual identification of tripe parcels versus trotters cannot be reliably distinguished in photograph alone; relying entirely on source description\",\n    \"Tripe as an ingredient is not explicitly listed in the allowed proteins category (chicken/beef/pork/duck/lamb/seafood); lamb is confirmed as the animal source but tripe preparation creates ambiguity in canonical composition naming\"\n  ],\n  \"reason\": \"Source description clearly identifies pieds et paquets with lamb and tripe components, gratin dauphinois side. Photograph quality, sharpness, lighting and composition all meet threshold (≥4). However, identity check fails because tripe/offal components cannot be reliably rendered as a canonical dish name using only the allowed protein categories (the dish fundamentally comprises lamb trotters and stuffed tripe, but 'tripe' is not a standalone protein category, and the exact nature of the stuffing and preparation cannot be visually verified). The source metadata also contains a future date ('septembre 2026') which is inconsistent with document provenance. While lamb is confirmed and visually plausible, the core identity of the dish as 'pieds et paquets' depends on verified tripe/trotters distinction that the photograph alone cannot support. Holding pending clarification of source authenticity and tripe ingredient treatment within the allowed schema.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1846,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 690,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
