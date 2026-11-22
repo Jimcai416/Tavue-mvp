@@ -14274,3 +14274,8 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 
 - **Ciambella al Limone con Crema** — DinaBenedettoFerrandina. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Ciambella_al_Limone_con_Crema.jpg). Local asset: `reviewed-commons-117666559.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Ciambella alla Vaniglia delle Monache** — DinaBenedettoFerrandina. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Ciambella_alla_Vaniglia_delle_Monache.jpg). Local asset: `reviewed-commons-154818125.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Ciambelle sorane** — Marica Massaro. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Ciambella_di_Sora.jpg). Local asset: `reviewed-commons-169291943.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Ciambella sorana** — Piecon. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Ciambella_sorana_07.jpg). Local asset: `reviewed-commons-48035255.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
