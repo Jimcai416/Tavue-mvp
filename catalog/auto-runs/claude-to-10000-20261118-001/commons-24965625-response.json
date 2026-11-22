@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChH7SteJgpfmhaeB7HxQJ",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Red-orange cured salmon slices visible in thumbnail\",\n    \"Thin translucent slices characteristic of gravadlax\",\n    \"White plate background clearly shown\",\n    \"Subject prominent and recognizable at phone scale\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title states 'Cutting the gravadlax' but photograph shows finished, plated sliced gravadlax, not the cutting process itself\",\n    \"Title describes an action/process stage, not a finished dish identity\",\n    \"Gravadlax is a preparation stage or component, not typically a standalone finished dish suitable for Tavue food photography review\"\n  ],\n  \"reason\": \"Reject: Identity mismatch. The source title 'Cutting the gravadlax' describes a preparation process or action rather than a finished, complete dish identity. The photograph shows sliced cured salmon on a plate, but the title's focus on 'cutting' as the primary identity is inconsistent with submission as a finished dish. Gravadlax refers to a curing preparation method, and while the photograph quality and presentation are acceptable, the source metadata does not establish this as a named, finished dish suitable for Tavue catalogue. The canonical_name cannot be derived from an action description. No protein category can be supported from the metadata alone without explicit animal naming in a proper dish title.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1735,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 450,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

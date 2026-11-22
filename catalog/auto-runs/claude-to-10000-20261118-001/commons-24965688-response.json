@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChH7Std56niGCwfw1ZTP4",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Sliced cured salmon arranged on a plate\",\n    \"Orange-red translucent flesh characteristic of gravadlax\",\n    \"Multiple thin slices overlapping\",\n    \"Clear view of finished product\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title describes 'Cutting the gravadlax' but photograph shows finished, plated sliced gravadlax, not the cutting process\",\n    \"Gravadlax is a cured/raw preparation stage (salt-cured salmon), not a finished cooked dish\",\n    \"Identity mismatch: title indicates process stage not matching the finished plated dish shown\"\n  ],\n  \"reason\": \"Reject: gravadlax is a raw/cured preparation stage, not a finished exposed cooked dish. While the photograph is sharp and well-composed, the subject is cured raw salmon, which falls outside the category of finished photographic dishes suitable for Tavue food review. Additionally, the source title 'Cutting the gravadlax' describes a process, not a finished dish identity, creating further identity uncertainty.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1735,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 393,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
