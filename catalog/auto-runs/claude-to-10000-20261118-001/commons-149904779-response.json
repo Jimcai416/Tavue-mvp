@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChHJ9nbz2uz465a6MzmsT",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 2,\n    \"composition\": 2,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Subject is a preparation/cooking stage, not a finished plated dish\",\n    \"Food is mid-transfer between cookware with visible hands and active cooking motion\",\n    \"Thumbnail shows unfinished state with parchment paper and in-progress assembly\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title describes 'Tarte aux poireaux fait maison' (homemade leek tart), but photograph shows preparation stage, not finished tart\",\n    \"Image appears to depict raw or partially cooked filling being handled during assembly, not an exposed, finished, plated dish\",\n    \"Severe motion blur and poor focus throughout both full image and thumbnail\"\n  ],\n  \"reason\": \"Reject: photograph documents a preparation/cooking stage with active hands, cookware, and motion blur, not a finished, exposed, appetising dish. Source title claims a tart but the image shows mid-cooking transfer or assembly. Quality scores fail (sharpness 2, lighting 2, composition 2, appeal 2). Identity check fails: the visible state contradicts the description of a finished tarte aux poireaux. Essential checks for photograph quality, identity match, and finished-dish requirement are not met.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1746,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 419,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
