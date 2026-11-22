@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChH9oHhBSLXJetDTz5cQA",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Three grilled sausages with visible char and browning\",\n    \"White plate with shredded sauerkraut\",\n    \"Heart-shaped bread roll on paper napkin\",\n    \"Orange table, street food setting\",\n    \"Natural daylight, sharp detail of cooked components\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows three sausages on plate\",\n    \"Sauerkraut visible and identifiable\",\n    \"Bread roll prominent in lower right\",\n    \"All key components readable at reduced resolution\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title contains 'Bratwurst' but metadata also shows 'File:' prefix, date stamp, photographer name, and filename extension—all untrusted metadata per instructions\",\n    \"Sausage species cannot be determined from appearance alone; no explicit animal-naming in the description\",\n    \"Title format violates canonical_name rules (contains 'File:' prefix, date, photographer, filename extension)\"\n  ],\n  \"reason\": \"Reject: sausage identity cannot be confirmed from visual inspection alone, and the source metadata (title format with File: prefix, date, photographer, extension) is explicitly untrusted per protocol. The description states 'Bratwurst' but provides no explicit animal species naming. No exact case-sensitive animal-identifying substring (e.g. 'pork', 'beef') appears in the description to populate protein_evidence. Sausage cannot be used as a protein category key. While the photograph itself is sharp, well-lit, and appetising, identity verification fails because the sausage species remains ambiguous and the title format is non-canonical.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1661,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 522,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
