@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChHEhKJbB3W1EARWii9gC",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Whole cephalopod (squid/cuttlefish) cooked on griddle\",\n    \"Golden-brown seared surface with herb garnish\",\n    \"Glossy, appetising finish\",\n    \"Served with chips and accompaniments\",\n    \"Home-style plating on decorative dish\"\n  ],\n  \"phone_observations\": [\n    \"Prominent seared cephalopod clearly visible in thumbnail\",\n    \"Herb garnish readable\",\n    \"Golden browning evident\",\n    \"Sufficient detail to identify dish type\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title 'Sepia enterita' refers to cuttlefish (sepia), but Tavue protein_evidence keys are restricted to chicken/beef/pork/duck/lamb/seafood only\",\n    \"Cuttlefish is cephalopod (mollusc), not a named allowed category\",\n    \"No explicit statement in source that permits mapping this to 'seafood' as a specific protein key\"\n  ],\n  \"reason\": \"The photograph is sharp, well-lit, appetisingly composed and shows a finished griddled dish clearly in both full and thumbnail views. However, the protein cannot be accepted: the source explicitly names 'Sepia' (cuttlefish/sepia officinalis, a cephalopod mollusc). Tavue's allowed protein keys are chicken/beef/pork/duck/lamb/seafood, each requiring an exact case-sensitive substring from the source matching that specific animal name. 'Sepia' does not match any allowed key, and no source statement explicitly names it as 'seafood'. Cephalopods are not covered by the restricted protein categories provided. Identity check fails due to unallowed protein classification.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1798,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 542,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
