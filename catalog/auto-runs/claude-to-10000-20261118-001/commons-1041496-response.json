@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChH1qT3czMjnTJDr6BTF6",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 5,\n    \"appeal\": 5\n  },\n  \"visible_support\": [\n    \"Multiple sausages in buns with distinctive toppings\",\n    \"Sharp detail of filling ingredients and textures\",\n    \"Natural daylight photography, well-composed display\",\n    \"Phone thumbnail clearly shows sausage/hot dog format and toppings\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly displays sausages in buns with various toppings\",\n    \"Multiple items visible showing different filling combinations\",\n    \"Adequate detail to distinguish cheese, meat, and other components\"\n  ],\n  \"protein_evidence\": {\n    \"chicken\": \"Roasted Garlic and Fontina Cheese Chicken Sausage\",\n    \"duck\": \"Calvados-infused Smoked Duck Sausage\",\n    \"lamb\": \"Merguez Lamb Sausage\",\n    \"pork\": \"Spicy Pork Sausage\"\n  },\n  \"uncertainties\": [\n    \"Title describes 'hot dogs' but metadata lists multiple sausage types (chicken, duck, lamb, pork); ambiguous whether the central unnamed item (venison/elk/buffalo/caribou) is visually distinguishable or which item corresponds to which label\",\n    \"Source metadata contains ambiguous game meat species (venison, elk, buffalo, caribou) that cannot be reliably matched to visible items\",\n    \"No single canonical dish name: description lists 8 different preparations, not one unified dish\",\n    \"Metadata format (File:Selection of hot dogs.jpg) suggests encyclopedic reference collection rather than a single dish for review\"\n  ],\n  \"reason\": \"Photograph quality, sharpness, lighting, composition and phone thumbnail all meet acceptance criteria. However, identity check fails: source describes a collection or selection of 8 distinct sausage/hot dog preparations with different proteins and toppings, not a single identifiable dish. The game meat item (venison, elk, buffalo, caribou mixture) cannot be sourced from exact title text and contains ambiguous species. Source title itself ('Selection of hot dogs') does not match canonical dish naming convention. While each individual item is appetising and well-photographed, the assignment requires review of one finished dish with specific identity, not a multi-item collection where individual items cannot be reliably matched to visible components.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1864,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 652,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
