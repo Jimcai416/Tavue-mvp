@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChHS6q3R3aPC1fpaWbxnb",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Raw lettuce leaves and chopped greens visible\",\n    \"Knife and cutting board visible in both full and thumbnail\",\n    \"Preparation stage evident\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title 'Salattag' (Salad Day) is generic and does not specify a finished dish name\",\n    \"Description 'Gemischter Salat' (Mixed Salad) is a generic category, not a specific dish identity\",\n    \"Image shows raw ingredients and preparation stage, not a finished, exposed dish\"\n  ],\n  \"reason\": \"Rejection: This photograph shows raw lettuce leaves in a preparation stage with a knife and cutting board visible, not a finished, exposed, plated dish. The source metadata provides only generic category descriptions ('Mixed Salad', 'Salad Day') without naming a specific dish. No finished dish identity can be established. Preparation-stage images are explicitly excluded from acceptance criteria.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1644,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 361,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
