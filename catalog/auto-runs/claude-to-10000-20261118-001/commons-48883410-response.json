@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChH3DBSkG1qBXucj7BEmS",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Tagliatelle ribbon pasta visible and prominent\",\n    \"Orange bell pepper dices distributed throughout\",\n    \"Sautéed mushrooms (pale, cooked appearance) visible\",\n    \"Cast iron skillet serving vessel\",\n    \"Natural daylight, no severe glare or colour cast\",\n    \"Finished, exposed dish in appetising state\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows pasta-based composed dish in dark pan\",\n    \"Essential components (pasta, vegetables, protein) readable at phone size\",\n    \"Colour and composition align with full source photograph\",\n    \"No clipping of essential food at thumbnail edges\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title states 'Sliced of sausage in Dark Lager sauce' but does not explicitly name the animal species (Bratwurst is a sausage type, not a species declaration). Genus remains ambiguous—could be pork, beef, or mixed.\",\n    \"No unambiguous species identifier (chicken/beef/pork/duck/lamb/seafood) is explicitly stated in the source description.\",\n    \"Visible meat pieces in photograph are pale, cooked cubes, consistent with sausage but do not definitively prove species from appearance alone.\"\n  ],\n  \"reason\": \"Image quality, photograph authenticity, phone thumbnail readability, and composition all pass. However, the source title 'Sliced of sausage in Dark Lager sauce with tagliatelle' does not explicitly name an animal species. 'Sausage' and 'Bratwurst' are preparation types, not species declarations. The rule requires 'an exact source quote explicitly naming each animal' for protein_evidence inclusion. Since no unambiguous species (pork/beef/chicken/duck/lamb/seafood) is explicitly stated, the protein cannot be reliably documented. The identity check fails because the dish cannot be fully authenticated without explicit species naming.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1870,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 582,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

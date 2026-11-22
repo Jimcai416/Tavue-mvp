@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChH3D7A2jD1gYMa3o18ft",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": \"Geschnetzeltes mit buntem Gemüse und gemischten Reis\",\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Plated dish with mixed rice (white and brown/wild rice blend)\",\n    \"Stir-fried meat strips in pale sauce\",\n    \"Colourful diced vegetables: orange/red peppers, green cucumber or courgette, carrot\",\n    \"Home-style presentation, clearly finished and exposed\",\n    \"Sharp detail in both source and phone thumbnail\"\n  ],\n  \"phone_observations\": [\n    \"Plate clearly visible with all components readable\",\n    \"Rice, meat strips and vegetables all prominent and not clipped\",\n    \"Natural colours and appetising appearance maintained in thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title states 'Geschnetzeltes' (German for meat strips/strips of meat), but no specific animal species is named in the title or description\",\n    \"Beef, pork, veal or other meat is visually plausible but cannot be distinguished with certainty from the photograph\",\n    \"Without explicit species identification in the source metadata, the protein cannot be assigned to a canonical category\"\n  ],\n  \"reason\": \"The photograph is sharp, well-lit, properly composed and appetising. Both full image and phone thumbnail show a finished, exposed dish with readable components. However, the source title 'Geschnetzeltes mit buntem Gemüse und gemischten Reis' does not name the specific animal protein. 'Geschnetzeltes' is a generic German term for strips of meat. The visible meat strips in the dish could be beef, pork, veal or another species, but no explicit species designation appears in the supplied title or description. Per protocol, unknown or ambiguous meat species require a hold. The identity cannot be confirmed without protein species clarification.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1552,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 545,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
