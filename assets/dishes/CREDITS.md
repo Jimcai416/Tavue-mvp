@@ -14233,3 +14233,10 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Zamburiñas negras de las Rías Baixas** — Montserrat Boix. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Zamburi%C3%B1as_negras.jpg). Local asset: `reviewed-commons-83334902.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Asparagus with boiled potatoes served with trimmings of brown butter, herbs and sprouts** — Kritzolina. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Asparagus_with_potatoes.jpg). Local asset: `reviewed-commons-118372318.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Boiled potatoes with fennel** — Tangopaso. [Public domain](https://creativecommons.org/publicdomain/mark/1.0/); [source](https://commons.wikimedia.org/wiki/File:Boiled_potatoes_with_fennel.jpg). Local asset: `reviewed-commons-58494276.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Duck breast, boiled potatoes, and peas** — Daderot. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Duck_breast,_boiled_potatoes,_and_peas_-_Massachusetts.jpg). Local asset: `reviewed-commons-157934822.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Ground beef and mustard on boiled potatoes and peas** — Daderot. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Ground_beef_and_mustard_on_boiled_potatoes_and_peas_-_Massachusetts.jpg). Local asset: `reviewed-commons-182827326.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
