@@ -14352,3 +14352,7 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Parillade gersoise, constitué de magret, d'aiguillettes, de foie gras, de manchon et de gésiers de canard** — Esby. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Repas_au_Barbu_-_Toulouse_-_Plat_principal_-_2013-02-23-_P1540982.jpg). Local asset: `reviewed-commons-24913940.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Poisson au four** — Likikouet Raïssa. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Poisson_au_four.JPG). Local asset: `reviewed-commons-35859728.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.

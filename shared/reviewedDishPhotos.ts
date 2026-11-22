@@ -174717,5 +174717,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-35859728",
+    "title": "File:Poisson au four.JPG",
+    "author": "Likikouet Raïssa",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Poisson_au_four.JPG",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Poisson_au_four.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "c1955227eae35e3ed0c13465d81097d1d12d73b5",
+    "name": "Poisson au four",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-35859728.jpg",
+    "assetSha256": "d7c4c4f30d46a002608025c00edfb1cfe262234268d79296aa0db7a5e72a11dc",
+    "reviewedAt": "2026-11-22",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];
