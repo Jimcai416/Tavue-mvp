@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChHNsos1Zgaa5GqJsXPfp",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": \"Fromage Prest et viande séchée, février 2021, Tunisie\",\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Green cheese pieces (Fromage Prest) clearly visible and distinct\",\n    \"Red/dark dried meat prominently displayed in lower portion\",\n    \"Natural daylight, unprocessed appearance\",\n    \"Both components readable in phone thumbnail\"\n  ],\n  \"phone_observations\": [\n    \"Green cheese and red dried meat both visible in thumbnail\",\n    \"Adequate detail for identification of both components\",\n    \"Natural colours preserved in reduction\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Meat species not explicitly named in source description ('viande séchée' = dried meat, unspecified animal)\",\n    \"Generic term 'viande séchée' does not identify beef/pork/lamb/chicken/duck/seafood explicitly\",\n    \"Cannot visually determine meat species with certainty from appearance alone\"\n  ],\n  \"reason\": \"Image quality, sharpness, lighting and composition all meet standards. Both components (Fromage Prest and dried meat) are clearly visible and appetising in full photograph and phone thumbnail. However, the source description uses only the generic French term 'viande séchée' (dried meat) without specifying the animal species. Per protocol, ambiguous meat species—including unspecified dried meat where the source does not explicitly name the animal—must be held. No protein category can be populated without an exact source quote naming a specific allowed animal.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1758,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 473,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
