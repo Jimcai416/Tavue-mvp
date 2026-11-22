@@ -14307,3 +14307,11 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Paila marina** — Daniel Aguirre. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Paila_Marina_y_vino_tinto_en_Valparaiso.jpg). Local asset: `reviewed-commons-43309496.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Torta Caprese** — DinaBenedettoFerrandina. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Torta_Caprese.jpg). Local asset: `reviewed-commons-124252862.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Torta Caprese - Italian Almond Cake With Chocolate** — [Ewelina Podrez-Siama](https://www.wikidata.org/wiki/Q133444548). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Torta_Caprese_-_Italian_Almond_Cake_With_Chocolate_(KETO,_LCHF,_Low_Carb,_Gluten_free,_FIT).jpg). Local asset: `reviewed-commons-130069444.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Torta Caprese al Limone** — DinaBenedettoFerrandina. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Torta_Caprese_al_Limone_(cropped).jpg). Local asset: `reviewed-commons-169305737.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Torta Caprese alle Nocciole** — DinaBenedettoFerrandina. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Torta_Caprese_alle_Nocciole.jpg). Local asset: `reviewed-commons-122881969.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Fetta di Torta caprese** — Mgdongarra. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Tortacaprese10quat.jpeg). Local asset: `reviewed-commons-162378041.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
