@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChHFh66i2ZGsk4rXPXkAd",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Penne pasta visible and identifiable\",\n    \"Red sauce covering pasta\",\n    \"Home dining setting with place setting\",\n    \"Natural daylight, well-exposed\"\n  ],\n  \"phone_observations\": [\n    \"Penne pasta clearly visible in phone thumbnail\",\n    \"Red sauce prominent on pasta\",\n    \"Dish recognizable at small size\",\n    \"Yellow bowl and utensils distinguishable\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title states 'Penne al ragù' but no meat is explicitly named in source description\",\n    \"Ragù traditionally contains meat but source metadata does not declare specific protein (beef, pork, etc.)\",\n    \"Visual appearance suggests a meat-based sauce but cannot confirm animal species from photograph alone\",\n    \"Source title uses generic 'ragù' without protein qualifier\"\n  ],\n  \"reason\": \"Rejection: Source title 'Penne al ragù' does not explicitly name a protein species. Although ragù is traditionally meat-based and the visual appearance is consistent with a meat sauce, the metadata provides no explicit quote naming chicken, beef, pork, duck, lamb, or seafood. Per protocol, ambiguous meat species or unspecified proteins cannot be accepted. An explicit protein declaration in the source title or description is required.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1715,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 435,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
