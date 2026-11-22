@@ -14244,3 +14244,7 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Hornazo** — [Piutus](https://www.flickr.com/photos/90673887@N00). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Hornazo-01.jpg). Local asset: `reviewed-commons-6230376.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Tortilla paisana** — Tamorlan. [CC BY 3.0](https://creativecommons.org/licenses/by/3.0); [source](https://commons.wikimedia.org/wiki/File:Paisana-2011.JPG). Local asset: `reviewed-commons-15532449.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.

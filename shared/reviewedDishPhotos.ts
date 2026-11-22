@@ -173844,5 +173844,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "height": 720,
     "requiresExactMenuName": true,
     "authorUrl": "https://www.flickr.com/photos/90673887@N00"
+  },
+  {
+    "id": "commons-15532449",
+    "title": "File:Paisana-2011.JPG",
+    "author": "Tamorlan",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Paisana-2011.JPG",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/92/Paisana-2011.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "f6a6eb0141ae6f48608a40f1a609e122be2e86e9",
+    "name": "Tortilla paisana",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-15532449.jpg",
+    "assetSha256": "c201bcbcb79652a8e0d450180f62d2042722dbf18e83f22dbe06431a7b4c4d4e",
+    "reviewedAt": "2026-11-22",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 640,
+    "requiresExactMenuName": true
   }
 ];
