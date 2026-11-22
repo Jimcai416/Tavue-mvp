@@ -174578,5 +174578,29 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-169690764",
+    "title": "File:Džiaugsmas, 4 July 2025, lamb sirloin.jpg",
+    "author": "Bdx",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:D%C5%BEiaugsmas,_4_July_2025,_lamb_sirloin.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/74/D%C5%BEiaugsmas%2C_4_July_2025%2C_lamb_sirloin.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "9658f87c7f6911bb7ea5e72c62212745a395aec4",
+    "name": "lamb sirloin, lamb jus, maitake mushrooms, mushroom puree",
+    "aliases": [],
+    "proteins": [
+      "lamb"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-169690764.jpg",
+    "assetSha256": "ed9fb01d59c1c717a673b67955f51d06d2e4eed5faf9c6e6ceef82718b752ebb",
+    "reviewedAt": "2026-11-22",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 691,
+    "requiresExactMenuName": true
   }
 ];
