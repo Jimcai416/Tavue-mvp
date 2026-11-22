@@ -14356,3 +14356,7 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Poisson au four** — Likikouet Raïssa. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Poisson_au_four.JPG). Local asset: `reviewed-commons-35859728.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Paska bread** — Rakoon. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Paska_bread_2025_easter.jpg). Local asset: `reviewed-commons-164087129.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
