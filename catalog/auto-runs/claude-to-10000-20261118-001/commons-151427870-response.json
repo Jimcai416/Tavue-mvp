@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChHKoA3EEvmtnUff3dFBh",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Label card reads: BAKED MINI POTATO WITH HORSERADISH MOUSSE APPLE AND POLISH SOUR HERRING\",\n    \"Multiple plated portions visible with baked potatoes, garnishes, and herring\",\n    \"Professional plating on blue-rimmed plates at what appears to be a food service event\",\n    \"Horseradish mousse visible as white element on potatoes\",\n    \"Red herring pieces visible on each plate\",\n    \"Fresh garnish elements (microgreens/herbs) present\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail shows baked potato dishes on blue plates\",\n    \"Multiple plated portions clearly identifiable\",\n    \"Food is prominent and sharply rendered in thumbnail\",\n    \"Appetising presentation maintained in phone view\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title/description is generic ('potato and herring') and does not match the specific label text visible in the photograph ('BAKED MINI POTATO WITH HORSERADISH MOUSSE APPLE AND POLISH SOUR HERRING')\",\n    \"Herring species cannot be visually confirmed as 'Polish sour herring' vs generic herring; the label claims this preparation but visual appearance alone does not prove species or preparation method\",\n    \"The label text is printed signage (not an authoritative source title/description from a reliable culinary reference), and metadata title contradicts the visible label\"\n  ],\n  \"reason\": \"Identity mismatch: The provided source title/description ('potato and herring') is generic and does not match the specific dish name visible on the label card in the photograph. The label states 'BAKED MINI POTATO WITH HORSERADISH MOUSSE APPLE AND POLISH SOUR HERRING', which is the accurate canonical name, but this contradicts the supplied metadata. Per protocol, identity must agree with the exact source title/description; the vague metadata title fails this requirement. Additionally, herring species (specifically 'Polish sour herring') cannot be visually proven and relies on label claim rather than explicit source documentation. The photograph itself is well-executed, but source documentation is insufficient for acceptance.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1723,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 633,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
