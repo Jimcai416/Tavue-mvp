@@ -14261,3 +14261,7 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 
 - **Spinach dumplings with liquid butter and parmesan cheese** — Benreis. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Spinatkn%C3%B6del_Furtschaglhaus.jpg). Local asset: `reviewed-commons-71183301.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Spinatknödel mit Parmesan** — Burkhard Mücke. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Spinatkn%C3%B6del_in_Vorderkaiserfeldenh%C3%BCtte.jpg). Local asset: `reviewed-commons-61370620.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **pieds et paquets** — Véronique PAGNIER. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Pieds_et_paquets_2.jpg). Local asset: `reviewed-commons-18055136.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
