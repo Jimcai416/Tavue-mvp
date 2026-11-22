@@ -14338,3 +14338,8 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **lamb sirloin, lamb jus, maitake mushrooms, mushroom puree** — Bdx. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:D%C5%BEiaugsmas,_4_July_2025,_lamb_sirloin.jpg). Local asset: `reviewed-commons-169690764.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Bomboloni** — Brodolò1. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Bombolone_impiattato.jpg). Local asset: `reviewed-commons-184970623.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Homemade bomboloni** — [Photo by Flickr user  nromagna  (Gianna Nannini ?)](https://www.flickr.com/photos/nromagna/). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Bomboloni.jpg). Local asset: `reviewed-commons-9430709.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
