@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChHM8sTzZvdaBqbxeei9w",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": true,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 2,\n    \"composition\": 2,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows raw/preparation stage: fish still on grill grates, uncooked or mid-cooking, not a finished plated dish\",\n    \"Multiple whole fish or large fish portions arranged on industrial grill, entirely unfinished state\",\n    \"No identifiable cooked dish appearance; subject is preparation in progress\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'Bonito a la parrilla' (grilled bonito), but image shows raw fish during cooking preparation, not a finished, exposed, plated dish\",\n    \"Species 'bonito' is not an allowed protein category (chicken/beef/pork/duck/lamb/seafood only); bonito is a specific fish but cannot be verified visually\",\n    \"Image does not meet criterion of 'finished, exposed, likely photographic dish'\"\n  ],\n  \"reason\": \"Reject: This is a preparation/cooking stage photograph, not a finished plated dish. The image shows multiple whole fish or large portions on an industrial grill with a chef's hand and glove visible—clearly mid-preparation, not complete and served. Phone thumbnail confirms uncooked state. Additionally, 'bonito' (a specific fish species) is not supported as a valid protein category under the allowed list (chicken/beef/pork/duck/lamb/seafood). Essential Tavue criterion of 'finished, exposed, likely photographic dish' is not met. Scores fall below threshold (all <4). Home/street food would be acceptable if finished and identifiable, but this fails both the finish and category requirements.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1523,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 500,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
