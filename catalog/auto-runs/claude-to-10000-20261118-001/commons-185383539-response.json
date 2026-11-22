@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChHC9LfZucLwgrJrkYGRu",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 3,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows raw/uncooked sliced meat on a plate—preparation stage, not finished dish\",\n    \"No cooked food present; meat appears pale pink/raw in both source and thumbnail\",\n    \"Presentation is raw ingredient mise en place, not served dish\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title describes this as 'carne cruda vacuna cortada en fetas' (raw beef sliced into slices) for sandwich preparation—explicitly a raw preparation stage, not a finished, exposed, cooked dish\",\n    \"Despite metadata naming beef ('vacuna'), the submission shows uncooked meat at preparation stage\"\n  ],\n  \"reason\": \"Rejection: Image shows raw/uncooked sliced beef at preparation stage, not a finished, exposed, cooked dish. The source title explicitly states 'carne cruda' (raw meat) intended for sandwich preparation. This is a raw ingredient or mise en place, not an appetising finished food photograph suitable for Tavue. Home cooking and street food are welcome, but only when finished and cooked. Appeal score reflects the unfinished, unappealing raw state.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1766,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 404,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
