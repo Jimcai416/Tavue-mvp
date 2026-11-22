@@ -173866,5 +173866,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 640,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-1729956",
+    "title": "File:Rudi akt.jpg",
+    "author": "aurin",
+    "license": "CC BY-SA 2.5",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rudi_akt.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/59/Rudi_akt.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "db750652e90d81f239166451db1759c7e41ec58f",
+    "name": "Túró Rudi",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-1729956.jpg",
+    "assetSha256": "99460dd444a78059358d0e400c2df3235cd7a5c957f159d578ff1862c3bc3eab",
+    "reviewedAt": "2026-11-22",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 638,
+    "requiresExactMenuName": true
   }
 ];
