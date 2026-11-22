@@ -174267,5 +174267,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "height": 642,
     "requiresExactMenuName": true,
     "authorUrl": "https://flickr.com/people/10559879@N00"
+  },
+  {
+    "id": "commons-122611004",
+    "title": "File:Jamón serrano con melón.jpg",
+    "author": "katiebordner",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jam%C3%B3n_serrano_con_mel%C3%B3n.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/68/Jam%C3%B3n_serrano_con_mel%C3%B3n.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "42a32529e4816467e283c81bcebaf7a387cfb6ff",
+    "name": "Jamón serrano con melón",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-122611004.jpg",
+    "assetSha256": "89b306428213c7e2c2bd2b41ce1779e4a4d287aa052b2402340879c5389f8df2",
+    "reviewedAt": "2026-11-22",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 638,
+    "requiresExactMenuName": true
   }
 ];
