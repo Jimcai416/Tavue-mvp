@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChH22PYLou9Yc9rvrAjaL",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": \"Tripotx boudin de mouton à la piperade\",\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 3,\n    \"composition\": 3,\n    \"appeal\": 3\n  },\n  \"visible_support\": [\n    \"Pink/cream ceramic bowl with red glossy sauce\",\n    \"Sausage-like tubular meat items embedded in red pepper sauce\",\n    \"Characteristic piperade (red pepper, onion, tomato) base visible\",\n    \"Glistening surface indicating cooked dish in sauce\"\n  ],\n  \"phone_observations\": [\n    \"Sausage items and red sauce clearly visible in thumbnail\",\n    \"Bowl shape and plating recognizable\",\n    \"Sauce texture and colour distinguishable at phone resolution\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Mouton (mutton) species ambiguity: could refer to sheep or goat depending on regional convention; exact animal species cannot be visually confirmed\",\n    \"Boudin (blood sausage) is a prepared sausage product—animal species within it cannot be verified from appearance alone\",\n    \"Source title uses 'mouton' which is ambiguous in some regions between sheep and goat\",\n    \"No explicit visual confirmation that the meat is mutton specifically rather than another meat species\"\n  ],\n  \"reason\": \"Source describes this as 'boudin de mouton' (mutton blood sausage), but 'mouton' presents ambiguity in species identification (sheep vs. goat in some usage), and the boudin itself is a processed sausage whose internal composition cannot be visually verified. The photograph quality is soft and the subject is partially clipped/obscured by sauce, scoring below acceptance threshold on sharpness. Protein evidence cannot be populated because the ambiguous species qualifier prevents confident categorization under the 'lamb' category. Hold pending species clarification or image with sharper focus and clearer sausage exposure.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1741,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 537,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

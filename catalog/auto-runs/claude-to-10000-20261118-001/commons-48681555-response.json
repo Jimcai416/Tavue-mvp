@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChH22FSBrNTyFviy4EEo8",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 1,\n    \"lighting\": 2,\n    \"composition\": 2,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows cooked fish fillets but lacks sufficient detail to confirm identity or quality\",\n    \"Severe softness and blur in both full source and thumbnail prevent confident assessment of dish components\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Full source photograph is severely out of focus and blurred; fish identity cannot be reliably confirmed visually\",\n    \"Source title claims 'filets de maquereau' (mackerel fillets) but the blur and soft focus make species confirmation impossible from visual evidence alone\",\n    \"Piperade component (Basque pepper dish) is not visibly distinguishable in the blurred composition\",\n    \"Overall image quality is below acceptable standard for food photography review\"\n  ],\n  \"reason\": \"Reject: The source photograph fails critical quality checks. Severe blur and soft focus throughout both full image and thumbnail render essential dish components unreadable and unconfirmable. While the source title names 'filets de maquereau', the photographic evidence is too degraded to visually support any species identification or confirm the dish's actual composition. Sharpness score (1/5) and lighting/composition scores (2/5 each) all fall below the required minimum threshold of 4. The image does not meet the standard for a finished, sharply detailed, appetising dish photograph.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1735,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 440,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChH21vvx5Y4KxxWW1EGhH",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 3,\n    \"composition\": 3,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Plate visible with plated components\",\n    \"Red/orange cooked items visible in upper portion\",\n    \"Green pepper visible\",\n    \"Tan/beige textured component visible\",\n    \"Overall composition recognizable but soft\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Boudin and andouillette are sausage products of unspecified animal origin; species cannot be visually confirmed and are not explicitly declared in source description\",\n    \"Image sharpness and focus severely compromised throughout\",\n    \"Colour cast and softness prevent confident identification of individual components\",\n    \"Cannot visually distinguish between boudin and andouillette\",\n    \"Sausage species ambiguity precludes protein category assignment\"\n  ],\n  \"reason\": \"Rejection: (1) Protein evidence cannot be established—the source names boudin and andouillette (sausage products) without specifying their animal origin, and visual inspection cannot determine species. Per rules, unspecified sausage species trigger hold/reject. (2) Image quality fails acceptance threshold: sharpness score 2 (severe softness and focus loss throughout), lighting score 3 (colour cast, uneven illumination), and appeal score 2 (unappealing due to blur and poor definition). All quality scores must be ≥4. (3) The photograph does not meet the 'sharply detailed' and 'naturally coloured' requirements. Phone thumbnail is recognizable but source image quality is too poor for reliable documentation.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1743,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 489,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
