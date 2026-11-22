@@ -14348,3 +14348,7 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 
 - **Aspic de verduras** — El Caminito. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Aspic_de_verduras_1.JPG). Local asset: `reviewed-commons-26638676.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Fish in aspic** — Ygrek. [CC BY 1.0](https://creativecommons.org/licenses/by/1.0); [source](https://commons.wikimedia.org/wiki/File:Fish_in_aspic.jpg). Local asset: `reviewed-commons-3423131.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Parillade gersoise, constitué de magret, d'aiguillettes, de foie gras, de manchon et de gésiers de canard** — Esby. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Repas_au_Barbu_-_Toulouse_-_Plat_principal_-_2013-02-23-_P1540982.jpg). Local asset: `reviewed-commons-24913940.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.

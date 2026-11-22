@@ -174693,5 +174693,29 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 841,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-24913940",
+    "title": "File:Repas au Barbu - Toulouse - Plat principal - 2013-02-23- P1540982.jpg",
+    "author": "Esby",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Repas_au_Barbu_-_Toulouse_-_Plat_principal_-_2013-02-23-_P1540982.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Repas_au_Barbu_-_Toulouse_-_Plat_principal_-_2013-02-23-_P1540982.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "35ee44c288f43261294cee3638fe4f2f5b85627f",
+    "name": "Parillade gersoise, constitué de magret, d'aiguillettes, de foie gras, de manchon et de gésiers de canard",
+    "aliases": [],
+    "proteins": [
+      "duck"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-24913940.jpg",
+    "assetSha256": "e03b7ce8320783c16d1345e4e9b808a87c12e87c70f64fafc52dac7c01fea737",
+    "reviewedAt": "2026-11-22",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];
