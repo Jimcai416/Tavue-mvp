@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChHJfomG9ruyDGDfqLDMT",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 3,\n    \"lighting\": 2,\n    \"composition\": 1,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Storefront signage only, no food visible in phone thumbnail\",\n    \"Window displays show shop interior but no dish detail\",\n    \"No plated or served food present in either image\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [],\n  \"reason\": \"Rejection: This is a storefront/shop exterior photograph with no finished, plated, or served food visible in either the full image or phone thumbnail. The source description mentions 'Jellied eels and served with pie and mash' but no actual dish is photographed or exposed for review. The image shows only the Castle's pie and mash shop building, signage ('TRADITIONAL PIE & MASH', 'PIE & MASH EELS'), and interior shop view through windows. No food dish meets the requirement of being 'a finished, exposed, likely photographic dish, sharply detailed, naturally coloured, appetising, prominent'. This violates core acceptance criteria: photograph check fails (subject is architecture, not food), phone check fails (no food detail visible), and identity cannot be verified visually. The composition score reflects that the image is fundamentally a commercial/storefront photograph rather than food photography.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 2055,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 405,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
