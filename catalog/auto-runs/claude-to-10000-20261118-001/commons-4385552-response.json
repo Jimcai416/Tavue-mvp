@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChHSvSc8urerGmJrT1hC4",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Foam/bubbles visible in thumbnail\",\n    \"Amber liquid visible beneath foam\",\n    \"Circular container edge visible\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title is 'File:Espuma 847.jpg' (a filename, not a dish description)\",\n    \"Description 'Espuma de cerveja' means beer foam/froth, not a finished food dish\",\n    \"Image shows only liquid (beer) and its foam head, not a prepared/cooked dish\",\n    \"No food subject is present—this is a beverage, not a dish\"\n  ],\n  \"reason\": \"Rejection: The image shows beer foam (espuma de cerveja), which is a beverage component, not a finished prepared food dish. The source title is a filename rather than a proper dish description. Tavue reviews food photographs; beverages alone do not qualify as dishes. The subject lacks the prepared food identity required for acceptance.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1441,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 362,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
