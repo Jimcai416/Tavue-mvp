@@ -173641,5 +173641,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "height": 640,
     "requiresExactMenuName": true,
     "authorUrl": "https://www.flickr.com/people/60258967@N00"
+  },
+  {
+    "id": "commons-70241655",
+    "title": "File:Piperade.jpg",
+    "author": "Arnaud 25",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Piperade.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Piperade.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "f44a075d1cbec1f6afc9c74dde2e7462aa29e6d9",
+    "name": "Piperade",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-70241655.jpg",
+    "assetSha256": "7889c38520c574f1d091a537a1be01750d9ab007de234eaea33315f00d57edeb",
+    "reviewedAt": "2026-11-22",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];
