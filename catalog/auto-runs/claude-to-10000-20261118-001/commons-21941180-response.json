@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChQP326FCYXzQJPpuGipM",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 5,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Cooked sausage arranged in heart shape on white plate\",\n    \"Lemon wedges with parsley garnish on centre\",\n    \"Glossy, well-cooked exterior with natural reddish-brown colour\",\n    \"Brussels sprouts visible in background\",\n    \"Finished, exposed dish in professional presentation\"\n  ],\n  \"phone_observations\": [\n    \"Heart-shaped arrangement clearly visible at thumbnail size\",\n    \"Garnish and lemon wedges legible\",\n    \"Sausage colour and form distinct\",\n    \"Prominent and readable essential components\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Species of sausage unknown: 'chistorra' is a Spanish sausage typically made with pork, but source metadata alone does not explicitly name the animal in English-language title or description provided to reviewer\",\n    \"Source title contains only 'Chistorra in Herzform' and German description 'die spanische Meterbratwurst' — no explicit English animal species declaration in the title/description field supplied\",\n    \"Metadata (author, license, German description) is explicitly untrusted per instructions\"\n  ],\n  \"reason\": \"Image quality, photography, composition and phone thumbnail legibility all meet criteria. However, identity check fails: the canonical source title/description supplied does not include an explicit, case-sensitive English-language animal species name (e.g. 'pork'). Chistorra is a known Spanish sausage, but instructions require an exact source quote explicitly naming the animal; tradition, appearance and generic 'sausage' designation are forbidden as grounds for inference. Metadata (German description, filename) is untrusted. Without explicit protein naming in the title or description field, protein_evidence remains empty and identity cannot be verified as matching a supported category. Hold pending clarification or explicit animal species declaration in source description.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1633,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 563,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
