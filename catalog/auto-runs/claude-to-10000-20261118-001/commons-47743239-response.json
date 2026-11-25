@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChQCMqKMMVqUaLo2EZFk2",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Raw vegetable crudités (green onions, bell peppers in red/orange/yellow)\",\n    \"White creamy dip in left bowl\",\n    \"Orange/reddish bean dip in centre bowl\",\n    \"Tortilla chips being dipped\",\n    \"Outdoor daytime setting\"\n  ],\n  \"phone_observations\": [\n    \"Crudités platter and two dips visible in thumbnail\",\n    \"Composition matches full image centre\",\n    \"Dips and vegetables clearly identifiable\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title conflicts with description: title claims 'Crudités with a dip and bean dip with tortilla chips', but description labels it 'Grandma Ednas bean dip' (singular). Unclear which dip is the subject.\",\n    \"No specific named dish identity provided—this is a generic appetizer/snack category, not a finished dish with canonical culinary name.\",\n    \"Dips appear to be in preparation or serving stage rather than a plated/finished dish.\"\n  ],\n  \"reason\": \"Rejection: source metadata contains conflicting descriptions (title vs. description mismatch). More critically, this is a crudités and dips appetizer platter—a component or preparation stage rather than a finished, named culinary dish. No canonical dish name can be extracted from the conflicting or generic source labelling. While photograph quality and visibility are acceptable, identity criteria fail due to lack of a specific, verifiable dish identity and source contradiction.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1736,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 484,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
