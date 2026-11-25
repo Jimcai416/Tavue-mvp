@@ -176621,5 +176621,52 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-24906023",
+    "title": "File:Smoked salmon and dill mousse in cucumber cups.jpg",
+    "author": "Jon Sullivan",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Smoked_salmon_and_dill_mousse_in_cucumber_cups.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Smoked_salmon_and_dill_mousse_in_cucumber_cups.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "b1e484f277784cd21aaae70c5519cc42f1d6b067",
+    "name": "Smoked salmon and dill mousse in cucumber cups",
+    "aliases": [],
+    "proteins": [
+      "seafood"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-24906023.jpg",
+    "assetSha256": "81a8e0449504188824fce1d55f048023a2ac1ba73a668613b4946503b6ec2495",
+    "reviewedAt": "2026-11-25",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-161911441",
+    "title": "File:White chocolate mousse.jpg",
+    "author": "Kent Wang",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:White_chocolate_mousse.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e3/White_chocolate_mousse.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "6f0e40deacc4b4033aeabee2ae6f5f8f76bc9a65",
+    "name": "White chocolate mousse served with strawberries",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-161911441.jpg",
+    "assetSha256": "1fe7d2dc7ec274112d3c805ed43bf9ca96909067689ab3155a535b5ef1fce2b9",
+    "reviewedAt": "2026-11-25",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 520,
+    "requiresExactMenuName": true,
+    "authorUrl": "https://www.flickr.com/people/27454212@N00"
   }
 ];

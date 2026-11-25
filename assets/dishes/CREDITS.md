@@ -14547,3 +14547,8 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Mangalorean Macaroon** — Ignatius Nayan D'Rozario. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Mangalorean_Macaroon_Photo.JPG). Local asset: `reviewed-commons-20867073.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Smoked salmon and dill mousse in cucumber cups** — Jon Sullivan. [Public domain](https://creativecommons.org/publicdomain/mark/1.0/); [source](https://commons.wikimedia.org/wiki/File:Smoked_salmon_and_dill_mousse_in_cucumber_cups.jpg). Local asset: `reviewed-commons-24906023.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **White chocolate mousse served with strawberries** — [Kent Wang](https://www.flickr.com/people/27454212@N00). [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:White_chocolate_mousse.jpg). Local asset: `reviewed-commons-161911441.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
