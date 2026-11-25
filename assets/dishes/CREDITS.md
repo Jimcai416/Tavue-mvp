@@ -14475,3 +14475,8 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Pan tumaca** — jlastras. [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Pan_tumaca_cortado.jpg). Local asset: `reviewed-commons-6900658.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Tarte normande** — Ludovic Péron. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Tarte_normande.jpg). Local asset: `reviewed-commons-18275802.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Tarte normande décorée à l'emporte-pièce** — Mythe. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Tarte_normande_d%C3%A9cor%C3%A9e_%C3%A0_l%27emporte-pi%C3%A8ce.JPG). Local asset: `reviewed-commons-20836910.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
