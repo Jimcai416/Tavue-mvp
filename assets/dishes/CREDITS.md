@@ -14624,3 +14624,10 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Kyopolou, eggplant caviar mixed with tomatoes and bell peppers** — Off-shell. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:AubergineCaviar.jpg). Local asset: `reviewed-commons-34900723.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Flamenquín Cordobés** — No machine-readable author provided.  Yurco  assumed (based on copyright claims).. [Public domain](https://creativecommons.org/publicdomain/mark/1.0/); [source](https://commons.wikimedia.org/wiki/File:Flamenquingrande.jpg). Local asset: `reviewed-commons-1651619.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Flamenquín, Córdoba** — Draceane. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Flamenqu%C3%ADn,_C%C3%B3rdoba,_2016.jpg). Local asset: `reviewed-commons-178893037.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Flamenquín La Perla** — Juanfra Reina. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Flamenqu%C3%ADn_La_Perla.jpg). Local asset: `reviewed-commons-129198701.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Flamenquín** — [Kent Wang  from London, United Kingdom](https://www.flickr.com/people/27454212@N00). [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:Restaurante_Casa_Borrasca_-_Flamenqu%C3%ADn_(49491993756).jpg). Local asset: `reviewed-commons-95567150.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
