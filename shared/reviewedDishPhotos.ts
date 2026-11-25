@@ -176895,5 +176895,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-157115641",
+    "title": "File:Tacos con salsa pico de gallo (jitomate, cilantro, cebolla y chile picados en brunoise).jpg",
+    "author": "Horacio Cambeiro",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tacos_con_salsa_pico_de_gallo_(jitomate,_cilantro,_cebolla_y_chile_picados_en_brunoise).jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/85/Tacos_con_salsa_pico_de_gallo_%28jitomate%2C_cilantro%2C_cebolla_y_chile_picados_en_brunoise%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "690397da8bc0ffd77cca116a3d8b44cdeeea39a8",
+    "name": "Tacos con salsa pico de gallo (jitomate, cilantro, cebolla y chile picados en brunoise)",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-157115641.jpg",
+    "assetSha256": "fbd12350b371c3fe614a418e43080d091b4ae85d9be2a9a607699a7b2afb4ecb",
+    "reviewedAt": "2026-11-25",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 540,
+    "requiresExactMenuName": true
   }
 ];
