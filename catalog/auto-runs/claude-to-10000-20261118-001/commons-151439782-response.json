@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChQRS7kT7sSWQt4qLzeSe",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Beer-battered fried fish fillet with herb garnish on wooden board\",\n    \"Thick-cut chips alongside\",\n    \"Two breaded patties on white plate with salad, tomato, lime\",\n    \"Orange/red sauce in small dish\",\n    \"Natural restaurant lighting, wooden table surface\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail shows fried fish fillet (top) and two breaded cakes on plate (bottom)\",\n    \"Orange sauce bowl visible in thumbnail\",\n    \"Salad greens and tomato distinguishable\",\n    \"Both dishes compositionally prominent\"\n  ],\n  \"protein_evidence\": {\n    \"seafood\": \"Beer battered hake\"\n  },\n  \"uncertainties\": [\n    \"Source title lists two separate dishes: Fish & Chips (hake) and Salmon & Crab Cakes. The photograph shows both plated together as a single meal presentation, but source description does not declare them as a combined dish or platter name.\",\n    \"Salmon and crab species cannot be visually verified from exterior of breaded cakes; identity depends entirely on source declaration.\",\n    \"No single canonical dish name exists in source that encompasses both components as presented.\"\n  ],\n  \"reason\": \"Identity check fails. Source describes two independently-priced dishes (€17.50 Fish & Chips with hake; €12.50 Salmon & Crab Cakes) presented as separate menu items, not as a single named combination platter. The photograph shows both on one table setting, but no source title or description provides a unified canonical name for this combined presentation. To accept, a source-declared single dish name combining both components would be required, or evidence they are always served together under one name. Rejection preserves accuracy against inventing a composite dish alias.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1808,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 544,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

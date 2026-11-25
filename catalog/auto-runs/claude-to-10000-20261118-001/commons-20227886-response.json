@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChQRSxjW2wZM9RVPG3vAM",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Multiple cured sausages tied with twine in woven basket\",\n    \"Brown-red cured meat colour consistent with full image\",\n    \"Sausage links clearly visible and identifiable\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'Saucisse de Montbéliard' but no source title/description provided to verify canonical name against\",\n    \"Metadata states filename 'File:Saucisse de Montbéliard.jpg' but per instructions, filenames are not valid source titles\",\n    \"Species of meat in sausage cannot be determined from appearance alone; source description does not explicitly name the animal (pork, beef, etc.)\",\n    \"Generic 'sausage' category is not an allowed protein key\"\n  ],\n  \"reason\": \"Rejection: Although the photograph is sharp, well-lit, appetising and shows finished cured sausages clearly in both full and thumbnail views, the identity cannot be confirmed. The only proposed source title 'Saucisse de Montbéliard' comes from metadata/filename, which per instructions are untrusted evidence and not valid canonical sources. No explicit source description was provided to verify the dish name against. Additionally, while the sausages are visibly meat products, no source text explicitly names the animal species (chicken/beef/pork/duck/lamb/seafood), so protein_evidence cannot be populated with any allowed key. Generic 'sausage' cannot serve as a protein category. Hold criteria unmet due to absence of explicit animal species declaration and unverified identity source.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1734,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 505,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

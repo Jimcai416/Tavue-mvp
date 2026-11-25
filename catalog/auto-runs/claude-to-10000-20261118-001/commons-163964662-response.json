@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChQRTV9M5Yoq1ZVWtBe47",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Red coiled sausage clearly visible in phone thumbnail\",\n    \"Sausage is the sole subject and prominent\",\n    \"Natural colour and sharp detail preserved in thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Species of meat cannot be determined from appearance alone; 'sausage' is not an allowed protein category key\",\n    \"Source title 'Saucisse gasy' (Malagasy sausage) does not explicitly name the animal/meat type\",\n    \"No protein category can be supported without explicit source identification of the meat species\"\n  ],\n  \"reason\": \"Reject: The source title 'Saucisse gasy' names a sausage but does not explicitly identify the meat species (beef/pork/chicken/duck/lamb/seafood). Sausage is not an allowed protein category key, and species cannot be inferred from appearance or tradition. Identity cannot be established with sufficient specificity. All quality and photograph checks pass, but the identity check fails due to ambiguous meat species.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1636,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 380,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

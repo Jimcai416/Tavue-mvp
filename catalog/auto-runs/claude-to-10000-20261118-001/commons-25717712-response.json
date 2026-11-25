@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChQRSufTF6prgNMrHiqgf",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Four whole sausages with golden-brown casing\",\n    \"Natural cured/smoked appearance consistent with charcuterie\",\n    \"Market or vendor display setting\",\n    \"Sharp detail of surface texture in full image\",\n    \"Readable form in phone thumbnail\"\n  ],\n  \"phone_observations\": [\n    \"Four sausages clearly visible and identifiable\",\n    \"Golden-brown colour preserved\",\n    \"Essential subject fully present, not clipped\",\n    \"Adequate detail for recognition\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Species composition of 'saucisse' cannot be visually confirmed—source title names a sausage type but does not explicitly declare the meat animal (pork, beef, or mixture)\",\n    \"'Saucisse aux choux' is a named charcuterie item; without explicit animal declaration in title/description, animal species cannot be accepted as proven\",\n    \"Metadata indicates this is a file/documentation image with potential rights complexity\"\n  ],\n  \"reason\": \"Image quality, sharpness, lighting, composition and phone thumbnail are all excellent and meet standards. The subject is a finished, exposed sausage product clearly photographed in a market setting. However, the source title 'Saucisse aux choux franc-comtoise' does not explicitly name the meat animal. While the visual appearance and regional style suggest pork, visual inspection alone cannot confirm species without explicit source declaration. Per rules, unknown or unspecified meat species in sausages must be held. Accept this hold only if source metadata is updated with an explicit animal declaration (e.g., 'pork saucisse aux choux').\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1732,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 513,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

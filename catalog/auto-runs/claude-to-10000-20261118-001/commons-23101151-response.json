@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChQRTMd9oM5mARZP99pBR",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 5,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Grilled sourdough bread slices, golden-brown and toasted\",\n    \"Yellow/golden protein patty consistent with egg or fish\",\n    \"White creamy sauce visible between bread layers\",\n    \"Black pepper seasoning visible on filling\"\n  ],\n  \"phone_observations\": [\n    \"Sandwich clearly visible and prominent in thumbnail\",\n    \"Bread, filling and sauce all readable\",\n    \"Golden toasting visible on bread\",\n    \"Layered structure apparent\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title claims 'fish sandwich' but visible patty appears yellow/golden and egg-like in colour and texture, inconsistent with typical cooked fish\",\n    \"Tartar sauce is claimed but white creamy sauce visible does not definitively confirm tartar preparation (could be mayo, aioli or other creamy sauce)\",\n    \"No fish species named in source\",\n    \"Visual evidence contradicts declared identity: the patty does not resemble cooked fish filet\"\n  ],\n  \"reason\": \"Identity check fails. The source title declares 'Fish sandwich with tartar sauce on grilled sourdough', but the visible patty in both full and thumbnail images appears yellow/golden and egg-like in colour, texture and shape—consistent with an egg patty or possibly a vegetable cake, not cooked fish. Fish fillets, even when breaded or fried, do not typically exhibit this uniformly golden, dense, cake-like appearance. The source metadata (title, description) is untrusted evidence, and the visual form contradicts the declared identity. No fish species is named. Without credible visual support for the claimed fish identity, identity check is false and acceptance is impossible.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1695,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 521,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

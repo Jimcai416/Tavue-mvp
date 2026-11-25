@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChQRS78yzzmsfp6AMFpPW",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Buckwheat crêpe visible with characteristic dark colour and speckled texture\",\n    \"Sausage filling clearly visible and cut to show cross-section\",\n    \"Fork and parchment paper contextualise served dish\",\n    \"Natural lighting without severe glare or colour casts\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows buckwheat crêpe exterior and sausage filling\",\n    \"Fork and parchment visible in reduced view\",\n    \"Dish identity readable at phone size\",\n    \"No clipping of essential components\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title metadata specifies 'saucisse' (sausage) but exact animal species is not explicitly named in title or description\",\n    \"File metadata describes 'galette au blé noir avec sa saucisse au milieu' but does not specify whether sausage contains pork, beef, or other meat\",\n    \"Sausage species cannot be reliably inferred from visual appearance alone\"\n  ],\n  \"reason\": \"Image quality and photograph composition meet acceptance standards. Dish identity as a buckwheat galette with sausage filling is visually confirmed and readable in phone thumbnail. However, protein_evidence cannot be populated: the source title/description names 'saucisse' (sausage) without specifying the animal species. Per rules, unspecified sausage species means hold—do not guess which animal sausage contains. Identity check fails because the exact canonical name cannot be completed without confirmed protein identification from source metadata.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1529,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 493,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

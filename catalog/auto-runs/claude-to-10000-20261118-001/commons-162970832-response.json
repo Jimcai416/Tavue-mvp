@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChQRSZo77EnVNuxr831jN",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": false,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 3,\n    \"lighting\": 2,\n    \"composition\": 2,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows raw fish being filleted and diced raw seafood/meat on a surface\",\n    \"Person holding fish during active preparation/gutting\",\n    \"No finished dish visible\",\n    \"Raw ingredient stage, not cooked or plated food\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'saucisse pomme de terre' (sausage and potato) but image shows raw fish and seafood preparation—severe source-image mismatch\",\n    \"No finished dish present\",\n    \"Preparation/raw stage, not a completed food photograph\"\n  ],\n  \"reason\": \"Reject: This is a raw preparation photograph showing active filleting and dicing of seafood, not a finished, exposed, cooked dish. The source title 'Préparation saucisse pomme de terre' contradicts the visible content (fish/seafood raw state). Essential checks fail: identity (title-image mismatch), photograph (preparation stage, not finished food), and quality (poor lighting, composition shows work-in-progress). No appetising finished dish is present in either full image or phone thumbnail. Raw/preparation stages are explicitly excluded.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1529,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 408,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
