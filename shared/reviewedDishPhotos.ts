@@ -175393,5 +175393,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 633,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-144881636",
+    "title": "File:Spaghetti ai funghi.jpg",
+    "author": "Camelia.boban",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Spaghetti_ai_funghi.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Spaghetti_ai_funghi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "7757fc28e7a097f40b3749ec8faeb4c6d051e936",
+    "name": "Spaghetti ai funghi",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-144881636.jpg",
+    "assetSha256": "9958161e938d08d3d2854d630db5d5753a2653d00f42ae3b429462a215f23be5",
+    "reviewedAt": "2026-11-25",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];

@@ -14417,3 +14417,7 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 
 - **Cordero Asado** — Valdavia. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Cocina_Palentina_-_Cordero_Asado_001.JPG). Local asset: `reviewed-commons-12790495.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Costillar Cordero Asado** — Valdavia. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Cocina_Palentina_003_Costillar_Cordero_Asado.JPG). Local asset: `reviewed-commons-11854645.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Spaghetti ai funghi** — Camelia.boban. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Spaghetti_ai_funghi.jpg). Local asset: `reviewed-commons-144881636.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
