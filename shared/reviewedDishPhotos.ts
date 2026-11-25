@@ -176917,5 +176917,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 540,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-468330",
+    "title": "File:Rugbrød.JPG",
+    "author": "No machine-readable author provided.  Sten  assumed (based on copyright claims).",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rugbr%C3%B8d.JPG",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/11/Rugbr%C3%B8d.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "353bf50ac93054084ace9921a63cde02897059c1",
+    "name": "Homemade ryebread",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-468330.jpg",
+    "assetSha256": "015455db023f1b0983412ef848fb25b226cf1bc083ef43417fa69b22d2bb97aa",
+    "reviewedAt": "2026-11-25",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 607,
+    "requiresExactMenuName": true
   }
 ];
