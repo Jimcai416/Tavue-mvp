@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChPzZ88JRbsxoZgJkbjHQ",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Raw or cured meat slices visible in thumbnail\",\n    \"No finished cooking evident\",\n    \"Natural color consistent with raw beef\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title 'bouilli de boeuf' indicates a finished braised beef dish, but both full image and thumbnail show raw, uncooked meat slices laid flat\",\n    \"No evidence of cooking, braising liquid, or finished dish preparation\",\n    \"Contradiction between source description (cooked dish) and visual appearance (raw meat)\"\n  ],\n  \"reason\": \"Reject: Identity check fails. Source title 'bouilli de boeuf' describes a finished braised beef dish, but the photograph shows raw or cured meat slices in preparation or display state, not a finished, exposed, cooked dish. The visual evidence contradicts the source description. This appears to be a raw preparation stage or cured meat display, not the finished cooked dish claimed. Finished food photographs must show cooked/prepared results, not raw ingredients or preparation stages.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1725,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 379,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
