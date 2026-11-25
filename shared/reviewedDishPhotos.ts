@@ -175705,5 +175705,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-155561747",
+    "title": "File:Poutine Québécoise.jpg",
+    "author": "Cregim",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Poutine_Qu%C3%A9b%C3%A9coise.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/65/Poutine_Qu%C3%A9b%C3%A9coise.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "dde517fde16a6330a3ce58d35b5e9faa0687f154",
+    "name": "Poutine Québécoise",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-155561747.jpg",
+    "assetSha256": "51e51702ebd9a1aa4cf3dbe1ea00f05c67b97ac6639a10eee7b578e1b820d6c0",
+    "reviewedAt": "2026-11-25",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 640,
+    "requiresExactMenuName": true
   }
 ];
