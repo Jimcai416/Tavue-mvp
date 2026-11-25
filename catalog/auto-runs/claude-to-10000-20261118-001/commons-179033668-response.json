@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChQYEky3RoyYZjquG1Sv3",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 3,\n    \"lighting\": 3,\n    \"composition\": 2,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Package and pot both visible in thumbnail\",\n    \"Dish contents partially obscured by pot rim and packaging\",\n    \"Lighting is dim and uneven\",\n    \"Essential food components not prominently displayed\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title is generic ('soupy curry') with no specific dish name or variant identifier\",\n    \"Package text indicates this is a prepared curry sauce/roux product (カレーの素 = curry base/essence), not a finished dish photograph\",\n    \"The image shows mid-preparation: ingredients in a pot with sauce being added, not an exposed finished plated dish\",\n    \"No specific curry variant, regional origin, or ingredient declaration visible beyond packaging claims\",\n    \"Cannot determine if this is meant to represent a specific regional curry type (e.g. Nepal, Japan, Thailand, India)\"\n  ],\n  \"reason\": \"Reject: This is a preparation-stage photograph showing ingredients being mixed into a commercial curry sauce base, not a finished exposed dish. The source description ('soupy curry') is generic and lacks the specific dish identity required. The packaging indicates this is a roux/sauce product (ネプカレーの素) rather than evidence of a finished dish. Phone thumbnail shows obscured contents with poor composition. The image does not meet the standard of a finished, exposed, appetizing dish with readable essential components. Home cooking is welcome, but only when the final dish is complete and prominently displayed.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1629,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 469,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

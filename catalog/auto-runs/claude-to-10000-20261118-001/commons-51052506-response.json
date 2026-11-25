@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChQYE2xh4M2quejGtr34z",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 3,\n    \"lighting\": 3,\n    \"composition\": 2,\n    \"appeal\": 2\n  },\n  \"visible_support\": [\n    \"Okra pieces visible in broth\",\n    \"Orange-brown stew colour consistent with Turkish okra preparation\",\n    \"Served in white bowl\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail clearly shows okra stew in white bowl\",\n    \"Orange broth with vegetable pieces readable\",\n    \"Adequate size and visibility for phone display\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Description states 'presentation is not so good (too much juice)' — excessive broth relative to okra suggests preparation defect rather than intentional style\",\n    \"No protein (meat) visible or named in source; pure vegetable stew\"\n  ],\n  \"reason\": \"Reject: Quality check fails. The source description explicitly acknowledges poor presentation due to excessive liquid ('too much juice'), and the photograph confirms an oversoupy consistency that obscures the okra pieces and results in an unappetising appearance. This fails the 'appetising' and 'finished' dish criteria. Appeal score justifiably low (2/5) due to broth-dominant appearance and lack of visual definition. Although the photograph is technically sound and the identity is clear, the dish itself does not meet intake standards for a finished, well-presented dish.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1745,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 421,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
