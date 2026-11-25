@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChQFzd1532QKtyk3r5Yc3",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 5,\n    \"composition\": 5,\n    \"appeal\": 3\n  },\n  \"visible_support\": [\n    \"Full source: ring-shaped pastina with uniform pale yellow colour, sharp detail, natural lighting\",\n    \"Phone thumbnail: coherent centre-cover of small pasta shapes at appropriate scale\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail shows granular pasta cereal at correct scale\",\n    \"Consistent colour match to full source\",\n    \"Representative coverage of product\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title 'Sorprese bulk.jpg' does not match description 'Sorprese, a type of pastina'—filename is metadata, not authoritative dish name\",\n    \"Pastina is a dry pasta ingredient or component, not a finished dish\",\n    \"No cooked preparation, seasoning, or plating visible\",\n    \"Raw/dried pasta stage, not a finished exposed dish\"\n  ],\n  \"reason\": \"Rejection: Image shows dry pastina (small pasta shapes) in bulk or packaged form, not a finished, cooked, plated dish. This is a raw ingredient or component stage. Tavue accepts finished, exposed, likely photographic dishes. Pastina requires preparation (cooking, broth, sauce) to become a dish. The source metadata (filename) contradicts the description field, creating identity uncertainty. No protein evidence applicable to uncooked pasta.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1637,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 436,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
