@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChPoRhT1WExHUazRxY1A4",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Golden-brown toasted bread exterior visible\",\n    \"Layered sandwich structure apparent\",\n    \"Fried egg component identifiable\",\n    \"Pink/red cured meat visible between layers\",\n    \"White creamy component (cheese) visible\",\n    \"Served on branded wrapper plate\",\n    \"Natural indoor café lighting\"\n  ],\n  \"phone_observations\": [\n    \"Sandwich clearly visible at centre\",\n    \"Layering and components readable in thumbnail\",\n    \"Golden bread and filling colours distinct\",\n    \"Subject adequately prominent for recognition\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title 'Pig In Blue' is a marketing name, not a canonical dish description\",\n    \"Menu description lists 'grilled farmhouse' which is ambiguous – unclear if this refers to the bread type or a prepared meat product, and what meat species is involved\",\n    \"Visible meat appears to be cured/smoked bacon (pink/red), but source text says 'streaky smoked bacon' – bacon species (pork) is not explicitly stated in source description, only inferred from common usage\",\n    \"Blue cheese component mentioned in description but not independently verified in visual inspection – could be obscured within layers\",\n    \"No explicit source quote names any specific animal protein\"\n  ],\n  \"reason\": \"Rejection: Although photograph and phone thumbnail are sharp, well-lit, appetising, and clearly show a finished sandwich, the source metadata fails identity verification. The title 'Pig In Blue' is a marketing name, not a canonical dish description. The menu description uses non-standard terminology ('grilled farmhouse' is ambiguous for the bread or a meat component) and critically, does not explicitly name the animal species for any protein (bacon, cheese, egg). Per instructions, ambiguous meat species and unspecified species must be held or rejected. The source provides no exact phrase naming 'pork', 'chicken', 'beef', 'lamb', 'duck', or 'seafood'. Without an explicit, exact source quote naming the animal, protein_evidence cannot be populated and identity check fails.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1767,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 612,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
