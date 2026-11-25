@@ -14425,3 +14425,11 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Nettle soup** — Abuluntu. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Abuluntu_nettle_soup.jpg). Local asset: `reviewed-commons-111680386.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Buñuelos de viento** — MiguelAlanCS. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:2021_Bu%C3%B1uelos_de_viento.jpg). Local asset: `reviewed-commons-101321224.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Menestra de verduras** — [Mover el Bigote](https://www.flickr.com/people/62467140@N02). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Menestra_de_verduras_(24536150544).jpg). Local asset: `reviewed-commons-60713070.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Menestra de verduras hervidas** — Juan Emilio Prades Bel. [CC BY 4.0](https://creativecommons.org/licenses/by/4.0); [source](https://commons.wikimedia.org/wiki/File:Menestra_de_verduras_hervidas.jpg). Local asset: `reviewed-commons-150278466.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Polvorón - dulce navideño** — Tamorlan. [CC BY 3.0](https://creativecommons.org/licenses/by/3.0); [source](https://commons.wikimedia.org/wiki/File:Polvorones-2009.jpg). Local asset: `reviewed-commons-8308601.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Menestra de verduras salteadas** — Juan Emilio Prades Bel. [CC BY 4.0](https://creativecommons.org/licenses/by/4.0); [source](https://commons.wikimedia.org/wiki/File:Menestra_de_verduras_salteadas.jpg). Local asset: `reviewed-commons-157314264.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
