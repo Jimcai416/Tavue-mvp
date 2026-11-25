@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChPuNH6uX16g64agLreHZ",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Golden-brown meat pieces in a dark reddish-brown sauce\",\n    \"Glossy, oily sauce characteristic of a stew\",\n    \"Multiple pieces of protein distributed throughout the bowl\",\n    \"Finished, exposed dish in a serving vessel\",\n    \"Sharp detail of meat texture and sauce\",\n    \"Natural lighting with warm tones\"\n  ],\n  \"phone_observations\": [\n    \"Central bowl clearly shows cooked meat pieces in brown-red sauce\",\n    \"Protein and sauce both visible and distinguishable\",\n    \"Adequate detail for a finished stew dish\",\n    \"Three vessels visible suggesting multiple portions or servings\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title specifies 'Fish stew' but no fish species is named in title or description\",\n    \"Golden-brown pieces appear to be fish, but source does not explicitly state fish species\",\n    \"Ambiguous whether the protein is actually fish or another meat species—visual appearance alone cannot confirm species identity\",\n    \"Description 'Native Fresh Fish stew' and 'Fisherman stew' indicate fish as likely protein, but canonical protein acceptance requires explicit species naming in source, not assumption\"\n  ],\n  \"reason\": \"Image quality, photograph technique, composition and phone visibility all pass standards. However, identity check fails: the source title and description declare 'fish stew' but do not name any specific fish species. Protocol requires exact case-sensitive substrings from source for protein_evidence; 'fish' alone is insufficient, and no species qualifier appears. The generic 'Fish stew' or 'Fisherman stew' cannot be accepted without an explicit species name from the source. Visual appearance cannot override this rule. Hold pending source clarification of fish species.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1625,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 533,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChPuNCAzae7Na3j8fhLnW",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Golden-yellow sauce in black clay pot\",\n    \"Green herb garnish (cilantro/parsley)\",\n    \"Rice in companion black bowl\",\n    \"Home-style plating on textile background\",\n    \"Spoon in foreground suggests finished dish\"\n  ],\n  \"phone_observations\": [\n    \"Yellow stew and garnish visible in thumbnail\",\n    \"Clay vessel and rice bowl identifiable\",\n    \"Dish composition matches full source\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title claims 'Brazilian fish stew' but no fish is visibly identifiable in the photograph—the protein form/species cannot be verified visually\",\n    \"Yellow sauce could contain fish, but the actual protein is obscured or indistinguishable from the cooking liquid and cannot be confirmed from appearance alone\",\n    \"No explicit animal name in source description beyond the generic category 'fish'\"\n  ],\n  \"reason\": \"Although the photograph shows a finished, well-plated dish in an appetising golden sauce with professional composition, lighting and sharpness, the identity check fails because the source claims this is a 'Brazilian fish stew' but no fish is visibly present or identifiable in the image. The protein is either completely obscured by the sauce or absent. Per protocol, hidden proteins may be source-declared, but the source provides only the generic category 'fish' without naming a specific species. No exact animal name is supplied to record in protein_evidence. Without visible or explicitly named protein evidence, identity cannot be confirmed as matching the source description.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 2047,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 486,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

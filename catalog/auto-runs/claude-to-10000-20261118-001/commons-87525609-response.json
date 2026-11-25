@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChPuMtnyoWStXgXfRHoEH",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 5,\n    \"appeal\": 5\n  },\n  \"visible_support\": [\n    \"Whole langoustine/scampi prominently displayed\",\n    \"Brown seafood broth/sauce\",\n    \"Diced potatoes visible\",\n    \"Clams or other shellfish in broth\",\n    \"Fine dining plating on white dish\",\n    \"Finished, exposed dish in restaurant setting\"\n  ],\n  \"phone_observations\": [\n    \"Langoustine/scampi clearly recognizable in thumbnail\",\n    \"Brown sauce/broth visible\",\n    \"Composed plating evident\",\n    \"Subject sharp and prominent\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title states 'Fish Stew' but the dish visibly contains shellfish (langoustine/scampi and clams), not fish\",\n    \"No fish species identified in the visible composition\",\n    \"Title-to-image mismatch: 'Fish Stew' does not match the seafood/shellfish presentation shown\"\n  ],\n  \"reason\": \"Identity check fails. The source title declares 'Fish Stew', but the photograph shows a shellfish and crustacean dish (prominent langoustine/scampi and clams in broth) with no visible fish. The title contradicts the visual composition. This material discrepancy between source description and actual dish content requires hold pending clarification. All other quality and photograph checks pass, but identity agreement is mandatory for acceptance.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1885,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 458,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
