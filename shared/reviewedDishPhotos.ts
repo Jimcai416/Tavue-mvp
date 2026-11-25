@@ -177491,5 +177491,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "height": 720,
     "requiresExactMenuName": true,
     "authorUrl": "https://www.flickr.com/people/27454212@N00"
+  },
+  {
+    "id": "commons-46094827",
+    "title": "File:Lasagna Vegetariana en Buga.jpg",
+    "author": "Samuel Rengifo",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lasagna_Vegetariana_en_Buga.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/45/Lasagna_Vegetariana_en_Buga.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "b8066d03e68b70516b862607cdabd801773f3fa5",
+    "name": "Lasagna Vegetariana",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-46094827.jpg",
+    "assetSha256": "4e9903a457b867a616bcd8ee8255f3a8f47f9cb3bfc3b22d089c19ffb1d89abe",
+    "reviewedAt": "2026-11-25",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 853,
+    "requiresExactMenuName": true
   }
 ];
