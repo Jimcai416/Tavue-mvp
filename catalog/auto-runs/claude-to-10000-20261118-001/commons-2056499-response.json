@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChPkhzkRN753x7GL2fSNb",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 2\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows rows of curing sausages hanging on wooden racks\",\n    \"Sausages are in production/curing stage, not plated or finished\",\n    \"Industrial or artisanal production environment visible\",\n    \"Raw material state, not a prepared dish for consumption\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title is a filename (File:Saucisson 08.JPG), not a dish description\",\n    \"Description 'Salaison de montagne' refers to curing process/category, not a specific finished dish\",\n    \"Image shows meat in production/curing, not a finished, exposed, plated dish\"\n  ],\n  \"reason\": \"Rejection: This is a production/curing photograph of sausages hanging in a drying room, not a finished dish. The image shows raw preparation stage, industrial context, and lacks a specific canonical dish identity. The source metadata provides only a French curing category (Salaison de montagne) and production details (Noël Thaurin, Jura), not a canonical dish name. Tavue accepts finished, exposed, likely photographic dishes; this is evidence of a manufacturing process. The phone thumbnail confirms the subject is curing sausages in rows, not a plated or complete food item ready for consumption.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1742,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 444,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
