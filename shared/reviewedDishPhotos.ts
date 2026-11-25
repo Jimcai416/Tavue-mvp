@@ -155239,7 +155239,9 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/07/Versailles_-_Rue_de_Satory_-_Restaurant_Le_Limousin_-_Sp%C3%A9cialit%C3%A9_de_gigot_d%27agneau_r%C3%B4ti_aux_herbes.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
     "commonsSha1": "70f9703582318fe1898810d489f12b6982499ca5",
     "name": "gigot d'agneau français rôti aux herbes",
-    "aliases": ["Gigot d'agneau aux herbes"],
+    "aliases": [
+      "Gigot d'agneau aux herbes"
+    ],
     "proteins": [
       "lamb"
     ],
@@ -175096,5 +175098,29 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "height": 720,
     "requiresExactMenuName": true,
     "reviewNote": "The photographer documents whole large prawns baked in the oven with garlic, parsley, olive oil and salt. The menu names oven-baked prawns. Checked the finished dish and phone cover against the live CC BY 4.0 source. Representative image. Resized JPEG without additional crop."
+  },
+  {
+    "id": "commons-106927263",
+    "title": "File:Pollo frito oriental y ensalada de col.jpg",
+    "author": "Radiodreamer",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pollo_frito_oriental_y_ensalada_de_col.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Pollo_frito_oriental_y_ensalada_de_col.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "37830419255b706d71ecddc414887330a3949227",
+    "name": "Pollo frito oriental y ensalada de col",
+    "aliases": [],
+    "proteins": [
+      "chicken"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-106927263.jpg",
+    "assetSha256": "58867af19341c04ef4445756e01b80b98e96307f1ac0e7f7374668147cdafe2c",
+    "reviewedAt": "2026-11-25",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 713,
+    "requiresExactMenuName": true
   }
 ];

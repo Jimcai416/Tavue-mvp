@@ -14380,3 +14380,7 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 - **Saltimbocca alla romana** — [Katrin Gilger](https://www.flickr.com/people/26242865@N04). [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:Saltimbocca_alla_romana_(5461153662).jpg). Local asset: `reviewed-commons-89957768.jpg`. Targeted menu review. Resized JPEG without additional crop.
 - **Filet mignon au poivre** — [jeffreyw](https://www.flickr.com/people/7927684@N03). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Steak_au_poivre_(2010).jpg). Local asset: `reviewed-commons-35198363.jpg`. Targeted menu review. Resized JPEG without additional crop.
 - **Gambas au four** — Juan Emilio Prades Bel. [CC BY 4.0](https://creativecommons.org/licenses/by/4.0); [source](https://commons.wikimedia.org/wiki/File:Gambones_cocinados_al_horno_con_sal_y_picada_de_ajo,_perejil_y_aceite_de_oliva.jpg). Local asset: `reviewed-commons-180641631.jpg`. Targeted menu review. Resized JPEG without additional crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Pollo frito oriental y ensalada de col** — Radiodreamer. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Pollo_frito_oriental_y_ensalada_de_col.jpg). Local asset: `reviewed-commons-106927263.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
