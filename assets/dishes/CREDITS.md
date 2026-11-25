@@ -14480,3 +14480,8 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 
 - **Tarte normande** — Ludovic Péron. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Tarte_normande.jpg). Local asset: `reviewed-commons-18275802.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Tarte normande décorée à l'emporte-pièce** — Mythe. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Tarte_normande_d%C3%A9cor%C3%A9e_%C3%A0_l%27emporte-pi%C3%A8ce.JPG). Local asset: `reviewed-commons-20836910.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Deep pan pepperoni** — Andy Li. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Deep_pan_pepperoni_-_Grind_%26_Slice_2024-04-22.jpg). Local asset: `reviewed-commons-147677402.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Roman Pepperoni Pizza** — Pannet. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:%D0%A0%D0%B8%D0%BC%D1%81%D0%BA%D0%B0%D1%8F_%D0%BF%D0%B8%D1%86%D1%86%D0%B0_%D1%81_%D0%BF%D0%B5%D0%BF%D0%BF%D0%B5%D1%80%D0%BE%D0%BD%D0%B8_03.jpg). Local asset: `reviewed-commons-128734180.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
