@@ -14407,3 +14407,8 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Churros con chocolate** — [Arkangel  from Granada, España](https://www.flickr.com/people/48600096824@N01). [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:Chocolate_con_churros_en_Granada.jpg). Local asset: `reviewed-commons-19393127.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **toast, 2 x fried eggs, chilli honey drizzle, pesto, chives, chilli flakes** — Andy Li. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Eggs_On_Toast_-_FIKA_2023-09-02.jpg). Local asset: `reviewed-commons-136844217.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Hembakt kaffebröd** — Inapond. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Hembakt_kaffebr%C3%B6d.jpg). Local asset: `reviewed-commons-124570429.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
