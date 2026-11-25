@@ -14643,3 +14643,9 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Linzer Augen** — Häferl. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Linzer_Augen_der_B%C3%A4ckerei_Schwarz.jpg). Local asset: `reviewed-commons-26811513.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **fish and chips containing fried cod, pea puree, tartar sauce and chips** — Triv97. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:A_dish_of_fish_and_chips_containing_fried_cod,_pea_puree,_tartar_sauce_and_chips.jpg). Local asset: `reviewed-commons-150161821.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Fish sandwich with tartar sauce** — [jeffreyw](https://www.flickr.com/people/7927684@N03). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Fish_sandwich_with_tartar_sauce.jpg). Local asset: `reviewed-commons-23098563.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **fish sammich with slaw and tartar sauce** — [jeffreyw](https://www.flickr.com/people/7927684@N03). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Mmm..._fish_sammich_with_slaw_and_tartar_sauce_(6062890617).jpg). Local asset: `reviewed-commons-23107642.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.

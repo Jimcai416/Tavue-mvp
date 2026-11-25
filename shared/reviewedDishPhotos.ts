@@ -177557,5 +177557,79 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-150161821",
+    "title": "File:A dish of fish and chips containing fried cod, pea puree, tartar sauce and chips.jpg",
+    "author": "Triv97",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:A_dish_of_fish_and_chips_containing_fried_cod,_pea_puree,_tartar_sauce_and_chips.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ee/A_dish_of_fish_and_chips_containing_fried_cod%2C_pea_puree%2C_tartar_sauce_and_chips.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "ca5b321a3d307f071f0fff673298e1cd562caf95",
+    "name": "fish and chips containing fried cod, pea puree, tartar sauce and chips",
+    "aliases": [],
+    "proteins": [
+      "seafood"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-150161821.jpg",
+    "assetSha256": "de95c2b960064fe997b225349bc6dc012471ed4d577cb0ea934d90f36bc1635a",
+    "reviewedAt": "2026-11-25",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 625,
+    "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-23098563",
+    "title": "File:Fish sandwich with tartar sauce.jpg",
+    "author": "jeffreyw",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fish_sandwich_with_tartar_sauce.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/07/Fish_sandwich_with_tartar_sauce.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "833fd5170a70318697395fde0a013938414ad78a",
+    "name": "Fish sandwich with tartar sauce",
+    "aliases": [],
+    "proteins": [
+      "seafood"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-23098563.jpg",
+    "assetSha256": "c19d6b119873f480121162e89b78885febab476dfaa5d5d1ea50f90aa97237f4",
+    "reviewedAt": "2026-11-25",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 638,
+    "requiresExactMenuName": true,
+    "authorUrl": "https://www.flickr.com/people/7927684@N03"
+  },
+  {
+    "id": "commons-23107642",
+    "title": "File:Mmm... fish sammich with slaw and tartar sauce (6062890617).jpg",
+    "author": "jeffreyw",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mmm..._fish_sammich_with_slaw_and_tartar_sauce_(6062890617).jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Mmm..._fish_sammich_with_slaw_and_tartar_sauce_%286062890617%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "0fa1695abcc119f1bdb65735e5ce54b849a24b3f",
+    "name": "fish sammich with slaw and tartar sauce",
+    "aliases": [],
+    "proteins": [
+      "seafood"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-23107642.jpg",
+    "assetSha256": "275bddb8cb2181718064064c6bfaf925e037d288c644607c4cd69eb07b8ad7bf",
+    "reviewedAt": "2026-11-25",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 637,
+    "requiresExactMenuName": true,
+    "authorUrl": "https://www.flickr.com/people/7927684@N03"
   }
 ];
