@@ -14441,3 +14441,7 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 - **Gremolata** — Popo le Chien. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Gremolata_01.jpg). Local asset: `reviewed-commons-49072293.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **gremolata mix: lemon, garlic, parsley** — Popo le Chien. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Gremolata_2.jpg). Local asset: `reviewed-commons-49071815.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Thick-Cut Pork Chop** — HarshLight. [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Thick-Cut_Pork_Chop.jpg). Local asset: `reviewed-commons-84674213.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Tarte aux champignons** — Marianne Casamance. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Bouchet_tarte_aux_champignons.JPG). Local asset: `reviewed-commons-46652506.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.

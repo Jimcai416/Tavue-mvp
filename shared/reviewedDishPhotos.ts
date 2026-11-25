@@ -175661,5 +175661,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 640,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-46652506",
+    "title": "File:Bouchet tarte aux champignons.JPG",
+    "author": "Marianne Casamance",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bouchet_tarte_aux_champignons.JPG",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/82/Bouchet_tarte_aux_champignons.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "9c3899f11ae81f88f5b1d97808bc4855709f2d00",
+    "name": "Tarte aux champignons",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-46652506.jpg",
+    "assetSha256": "aa6de78789e774edb3856b3f0af62d99a82647413a056718438bc939f79430ae",
+    "reviewedAt": "2026-11-25",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];
