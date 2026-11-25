@@ -14515,3 +14515,7 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 - **Salad with feta, tomatoes and basil** — Fact Loving Criminal. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Salat_mit_Feta_Schafsk%C3%A4se_Tomaten_Basilikum.jpg). Local asset: `reviewed-commons-83142044.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Shrimp and Feta Salad** — Clevergrrl. [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:Shrimp_and_Feta_Salad.jpg). Local asset: `reviewed-commons-90975286.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Tomato feta salad** — Janbies. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Tomato_feta_salad_2015_Birthday_party_table_decoration.JPG). Local asset: `reviewed-commons-37909701.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Tortelli maremmani conditi col ragù** — Inimer. [CC BY 3.0](https://creativecommons.org/licenses/by/3.0); [source](https://commons.wikimedia.org/wiki/File:Tortelli_maremmani_(cropped).jpg). Local asset: `reviewed-commons-181330837.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.

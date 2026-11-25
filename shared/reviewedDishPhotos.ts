@@ -176309,5 +176309,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 768,
     "height": 960,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-181330837",
+    "title": "File:Tortelli maremmani (cropped).jpg",
+    "author": "Inimer",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tortelli_maremmani_(cropped).jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/80/Tortelli_maremmani_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "b9f6b6269b1acc0aaaf2a220d294f49618d83c3e",
+    "name": "Tortelli maremmani conditi col ragù",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-181330837.jpg",
+    "assetSha256": "5f29ca98f4a3de1b47269c0281555c34684af2eb51383e10c6a08b1d1b0aa0f6",
+    "reviewedAt": "2026-11-25",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 847,
+    "requiresExactMenuName": true
   }
 ];
