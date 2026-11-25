@@ -14585,3 +14585,7 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Homemade ryebread** — No machine-readable author provided.  Sten  assumed (based on copyright claims).. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/); [source](https://commons.wikimedia.org/wiki/File:Rugbr%C3%B8d.JPG). Local asset: `reviewed-commons-468330.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Crème glacée framboise & crème chantilly** — Arnaud 25. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Cr%C3%A8me_glac%C3%A9e_framboise_%26_cr%C3%A8me_chantilly.jpg). Local asset: `reviewed-commons-20202117.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
