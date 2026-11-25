@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChQQjQZM4GBFBFrCypY9r",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Cross-section of bread with open crumb structure\",\n    \"Visible rosemary and yellow garnish (possibly leek or garlic)\",\n    \"Crispy, golden-brown crust\",\n    \"Aerated, well-proofed dough interior\"\n  ],\n  \"phone_observations\": [\n    \"Cross-section slice clearly visible\",\n    \"Crumb structure and toppings readable\",\n    \"Subject prominent in thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'Pinsa Romana' but source metadata describes only 'A Cross-section of Pinsa Romana' without explicit dish name in the title field itself\",\n    \"File name prefix 'File:' and image extension present in supplied description, violating canonical name extraction rules\",\n    \"No visible meat, fish, or poultry components that would populate protein_evidence; breadstuff alone with herbs and what may be vegetable garnish\"\n  ],\n  \"reason\": \"Rejection due to source metadata form violations: the description includes 'File:' prefix and filename extension (.jpg), which must be excluded per instructions. The canonical_name cannot be reliably extracted as a cleaned dish phrase from the malformed source data. While the photograph itself is high-quality, sharp, naturally lit, and appetising, and the pinsa cross-section is a legitimate finished dish, the metadata corruption prevents confident identity verification and canonical naming. Additionally, no protein category can be supported from visible content or source text.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1589,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 476,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
