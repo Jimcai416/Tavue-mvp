@@ -28,6 +28,46 @@ for (const photo of dishPhotoCatalog) {
   }
 }
 
+// Only use these reviewed equivalences on the printed menu title. The target
+// names already exist in the bundled catalogue and in catalogue lookup indexes.
+const MENU_EQUIVALENTS = new Map([
+  // Las Bravas calls its single-sauce dish "Patatas con salsa Las Bravas".
+  ['Patatas con salsa Las Bravas', 'Patatas Bravas'],
+  ['Patatas con salsa brava', 'Patatas Bravas'],
+  ['Pincho moruno', 'Pinchos Morunos'],
+  // The sampled Roman menu specifies rice, tomato and mozzarella in this supplì.
+  ['Supplì alla romana', 'Supplì al telefono'],
+  ['Trippa romana', 'Trippa alla Romana'],
+  // The source onion-soup photo shows the browned topping. The tartiflette
+  // source names Reblochon and Savoy. "Maison" alone specifies no preparation.
+  ["Soupe à l’oignon gratinée", "Soupe à l’oignon"],
+  ['Tartiflette au reblochon de Savoie', 'Tartiflette'],
+  ['Tartare de bœuf maison', 'Steak Tartare'],
+].map(([menuName, catalogueName]) => [normalizeDishName(menuName), normalizeDishName(catalogueName)]));
+
+const COUNTABLE_MENU_NAMES = new Set([
+  'Escargots de Bourgogne', 'Supplì alla romana', 'Supplì al telefono',
+  'Pimientos de Padrón', 'Boquerones Fritos', 'Boquerones en vinagre',
+  'Pincho moruno', 'Pinchos Morunos',
+].map(normalizeDishName));
+const MENU_TITLE_REQUIRED = new Set([...MENU_EQUIVALENTS.values(), ...COUNTABLE_MENU_NAMES]);
+
+function printedMenuKeys(value: unknown): string[] {
+  if (typeof value !== 'string' || value.length > 240) return [];
+  const original = normalizeDishName(value);
+  const keys = original ? [original] : [];
+  const withoutCount = value.trim()
+    .replace(/^[1-9]\d?(?:\s*[x×]\s+|\s+)/iu, '')
+    .replace(/\s*\([1-9]\d?\s*(?:uds?\.?|unidades?|pz\.?|pezzi|pi[eè]ces?)\)\s*$/iu, '');
+  const dish = normalizeDishName(withoutCount);
+  if (dish !== original && COUNTABLE_MENU_NAMES.has(dish)) keys.push(dish);
+  for (const key of [...keys]) {
+    const equivalent = MENU_EQUIVALENTS.get(key);
+    if (equivalent) keys.push(equivalent);
+  }
+  return keys;
+}
+
 // Do not let an AI-simplified name strip a meaningful variant from a menu.
 // Exact identity is necessary, but is not proof of the restaurant's plating.
 const VARIANTS = /\b(vegan|vegetarian|plant based|meatless|mock|deconstructed|fusion|style|inspired|substitute|without|no cheese|gluten free)\b|素食|纯素|純素|ヴィーガン|비건/i;
@@ -41,9 +81,10 @@ const PROTEINS: Record<string, RegExp> = {
 };
 
 export function photoIdentityNames(dish: PhotoDish): string[] {
-  return [dish.original_name, dish.translated_name, dish.romanized, dish.image_dish_name, dish.image_query]
+  const hints = [dish.translated_name, dish.romanized, dish.image_dish_name, dish.image_query]
     .filter((name): name is string => typeof name === 'string' && name.length <= 240)
     .map(normalizeDishName).filter(Boolean);
+  return [...new Set([...printedMenuKeys(dish.original_name), ...hints])];
 }
 
 export function resolveFromPhotos<T extends Pick<DishPhoto, 'name' | 'aliases' | 'proteins' | 'approved'> & {requiresExactMenuName?: boolean}>(
@@ -60,17 +101,18 @@ export function resolveFromPhotos<T extends Pick<DishPhoto, 'name' | 'aliases' |
     const photo = photos.find(p => p.approved && [p.name, ...p.aliases].some(a => normalizeDishName(a) === name));
     if (!photo) continue;
     if (styleQualified && (!photo.requiresExactMenuName || !/\bstyle\b/i.test(photo.name))) continue;
-    if (photo.requiresExactMenuName) {
-      // Newly reviewed variants require a menu-supplied name. A simplified AI
-      // image query must not erase toppings, flavours or regional qualifiers.
-      const aliases = [photo.name, ...photo.aliases].map(normalizeDishName);
+    const aliases = [photo.name, ...photo.aliases].map(normalizeDishName);
+    if (photo.requiresExactMenuName || aliases.some(alias => MENU_TITLE_REQUIRED.has(alias))) {
+      // Newly reviewed variants and curated equivalents require print evidence.
+      // An image hint can drop a topping, cooking method, or regional qualifier.
       const originalName = dish.original_name || '';
-      const menuNames = /[A-Za-z]/.test(originalName)
-        ? [originalName]
-        : [originalName, dish.translated_name, dish.romanized];
-      if (!menuNames.some(n => aliases.includes(normalizeDishName(n)))) continue;
+      const menuKeys = printedMenuKeys(originalName);
+      if (!/[A-Za-z]/.test(originalName)) {
+        menuKeys.push(normalizeDishName(dish.translated_name), normalizeDishName(dish.romanized));
+      }
+      if (!menuKeys.some(key => aliases.includes(key))) continue;
       // These additions have no independently verified vegetarian classification.
-      if (dish.flags?.includes('vegetarian')) continue;
+      if (photo.requiresExactMenuName && dish.flags?.includes('vegetarian')) continue;
     }
     if (dish.flags?.includes('vegan')) continue;
     if (dish.flags?.includes('vegetarian') && photo.proteins.length > 0) continue;

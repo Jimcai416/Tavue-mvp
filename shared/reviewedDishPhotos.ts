@@ -155239,7 +155239,7 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/07/Versailles_-_Rue_de_Satory_-_Restaurant_Le_Limousin_-_Sp%C3%A9cialit%C3%A9_de_gigot_d%27agneau_r%C3%B4ti_aux_herbes.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
     "commonsSha1": "70f9703582318fe1898810d489f12b6982499ca5",
     "name": "gigot d'agneau français rôti aux herbes",
-    "aliases": [],
+    "aliases": ["Gigot d'agneau aux herbes"],
     "proteins": [
       "lamb"
     ],
@@ -174921,5 +174921,180 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 540,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-82307879",
+    "title": "File:Patatas con \"allioli\" (ajoaceite).jpg",
+    "author": "Juan Emilio Prades Bel",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Patatas_con_%22allioli%22_(ajoaceite).jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Patatas_con_%22allioli%22_%28ajoaceite%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "9da1845eb4ce970470f7f3db9379654a172d2887",
+    "name": "Patatas con allioli (ajoaceite)",
+    "aliases": [
+      "Patatas con alioli (calientes)"
+    ],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-82307879.jpg",
+    "assetSha256": "59f89c5944d141d750dcb1db54e1e9b6001e69411da37219a6e25d1e58d4e2c5",
+    "reviewedAt": "2026-11-22",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true,
+    "reviewNote": "Targeted menu review checked the full photograph, phone crop and live source credit. Source names allioli, and the photo shows golden cooked potato cubes with the sauce. The menu confirms sautéed potatoes with alioli. This specific photo is for the cooked potato preparation, not cold alioli potato salad. Representative image. Resized JPEG without additional crop."
+  },
+  {
+    "id": "commons-162675255",
+    "title": "File:Boquerones en vinagre. Tapa típica española. Gastronomía de España.jpg",
+    "author": "Juan Emilio Prades Bel",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Boquerones_en_vinagre._Tapa_t%C3%ADpica_espa%C3%B1ola._Gastronom%C3%ADa_de_Espa%C3%B1a.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/be/Boquerones_en_vinagre._Tapa_t%C3%ADpica_espa%C3%B1ola._Gastronom%C3%ADa_de_Espa%C3%B1a.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "b720a61abc5d46396fb69357dc9f6b8d782a9210",
+    "name": "Boquerones en vinagre",
+    "aliases": [],
+    "proteins": [
+      "seafood"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-162675255.jpg",
+    "assetSha256": "f827d169749a13881c48cb5148f61eb8010f9457d70af8c205ececf31849f427",
+    "reviewedAt": "2026-11-22",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true,
+    "reviewNote": "Targeted menu review checked the full photograph, phone crop and live source credit. Creator identifies the dish as Spanish vinegar-marinated anchovy tapas; the finished fish fillets and herb dressing are visible in both views. Representative image. Resized JPEG without additional crop."
+  },
+  {
+    "id": "commons-39889554",
+    "title": "File:Ensaladilla Rusa - Madrid corrected.JPG",
+    "author": "Tamorlan  ; reprocessed by  Off-shell",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ensaladilla_Rusa_-_Madrid_corrected.JPG",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/01/Ensaladilla_Rusa_-_Madrid_corrected.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "f7776c15fdabb88d08af455b9023a9acc7cadb5c",
+    "name": "Ensaladilla rusa",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-39889554.jpg",
+    "assetSha256": "f1e699e70a7cf9fa29099d943acc4fc1011218cdc7ee016e5d894cbeede65062",
+    "reviewedAt": "2026-11-22",
+    "width": 960,
+    "height": 647,
+    "requiresExactMenuName": true,
+    "reviewNote": "Targeted menu review checked the full photograph, phone crop and live source credit. Source caption explicitly identifies the Spanish version of Russian salad. The plated Spanish dish fits the named tapa. Representative image. Resized JPEG without additional crop."
+  },
+  {
+    "id": "commons-19392705",
+    "title": "File:Coda alla vaccinara-01.jpg",
+    "author": "shu tu",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Coda_alla_vaccinara-01.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Coda_alla_vaccinara-01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "ea9115167d9eb040357025f6ded04f82673cbb76",
+    "name": "Coda alla vaccinara",
+    "aliases": [
+      "Coda di manzo alla vaccinara"
+    ],
+    "proteins": [
+      "beef"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-19392705.jpg",
+    "assetSha256": "5fa7ebf6fed9e3ef479b3183f931f5f224780580761f94ef9cba6189787c56cc",
+    "reviewedAt": "2026-11-22",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true,
+    "reviewNote": "Targeted menu review checked the full photograph, phone crop and live source credit. Source identifies the exact Roman braise and expressly names oxtail in German (Ochsenschwanz). Full and phone views show the cooked pieces in sauce. Representative image. Resized JPEG without additional crop.",
+    "authorUrl": "https://www.flickr.com/photos/21217821@N00/"
+  },
+  {
+    "id": "commons-89957768",
+    "title": "File:Saltimbocca alla romana (5461153662).jpg",
+    "author": "Katrin Gilger",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Saltimbocca_alla_romana_(5461153662).jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Saltimbocca_alla_romana_%285461153662%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "7b0b6adb2062c81c43b2799943122c6c72520eaf",
+    "name": "Saltimbocca alla romana",
+    "aliases": [],
+    "proteins": [
+      "pork"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-89957768.jpg",
+    "assetSha256": "687213a2ad218306e247790d85a2dd9ffd62f86d1beebabc3614cf83bd3600dc",
+    "reviewedAt": "2026-11-22",
+    "width": 960,
+    "height": 641,
+    "requiresExactMenuName": true,
+    "reviewNote": "Targeted menu review checked the full photograph, phone crop and live source credit. Creator identifies the exact Roman dish, and the finished veal portions visibly have the traditional prosciutto and sage topping. Matching is restricted to the full named version. Representative image. Resized JPEG without additional crop.",
+    "authorUrl": "https://www.flickr.com/people/26242865@N04"
+  },
+  {
+    "id": "commons-35198363",
+    "title": "File:Steak au poivre (2010).jpg",
+    "author": "jeffreyw",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Steak_au_poivre_(2010).jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/29/Steak_au_poivre_%282010%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "7d87e60bdcf2ce7680e8014897cabc42605cd269",
+    "name": "Filet mignon au poivre",
+    "aliases": [
+      "Pavé de bœuf sauce poivre"
+    ],
+    "proteins": [
+      "beef"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-35198363.jpg",
+    "assetSha256": "71e9086f19361ab36adfbb1bab8d7059028fd891a8eb8af7956db660fc628a50",
+    "reviewedAt": "2026-11-22",
+    "width": 960,
+    "height": 847,
+    "requiresExactMenuName": true,
+    "reviewNote": "Targeted menu review checked the full photograph, phone crop and live source credit. Creator labels this filet mignon au poivre. Photo shows a thick beef filet served in pepper sauce, corresponding to a beef pavé with pepper sauce. The general steak-au-poivre label is not remapped. Representative image. Resized JPEG without additional crop.",
+    "authorUrl": "https://www.flickr.com/people/7927684@N03"
+  },
+  {
+    "id": "commons-180641631",
+    "title": "File:Gambones cocinados al horno con sal y picada de ajo, perejil y aceite de oliva.jpg",
+    "author": "Juan Emilio Prades Bel",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gambones_cocinados_al_horno_con_sal_y_picada_de_ajo,_perejil_y_aceite_de_oliva.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/61/Gambones_cocinados_al_horno_con_sal_y_picada_de_ajo%2C_perejil_y_aceite_de_oliva.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "fa9bb009a99c291a64f05538e8d18e265baa4ffc",
+    "name": "Gambas au four",
+    "aliases": [
+      "Gambones al horno"
+    ],
+    "proteins": [
+      "seafood"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-180641631.jpg",
+    "assetSha256": "e1c404b3d7eaea97883777c190e69ea8e5e3bb634352e72f1a430e66b4c83b96",
+    "reviewedAt": "2026-11-22",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true,
+    "reviewNote": "The photographer documents whole large prawns baked in the oven with garlic, parsley, olive oil and salt. The menu names oven-baked prawns. Checked the finished dish and phone cover against the live CC BY 4.0 source. Representative image. Resized JPEG without additional crop."
   }
 ];

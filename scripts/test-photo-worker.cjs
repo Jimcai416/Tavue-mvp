@@ -14,6 +14,8 @@ const temp = fs.mkdtempSync(path.join(os.tmpdir(), 'tavue-worker-'));
     {original_name:'Pasta alla Norma',image_url:'https://unreviewed.invalid/photo.jpg'},
     {original_name:'Chicken carbonara',image_dish_name:'Spaghetti Carbonara'},
     {original_name:'Unknown dish',image_id:'mapo-tofu'},
+    {original_name:'6 escargots de Bourgogne'},
+    {original_name:'Patatas con alioli',image_dish_name:'Patatas Bravas'},
   ]};
   const cache = new Map();
   const env = {ANTHROPIC_API_KEY:'test-only',REQUIRE_CLIENT_ID:'true',FEEDBACK:{get:async k=>cache.get(k),put:async(k,v)=>cache.set(k,v)}};
@@ -30,13 +32,15 @@ const temp = fs.mkdtempSync(path.join(os.tmpdir(), 'tavue-worker-'));
     const response = await worker.fetch(request(),env);
     assert.equal(response.status,200);
     const data = await response.json();
-    assert.deepEqual(data.dishes.map(d=>d.image_id),['pasta-alla-norma',null,null]);
+    const expectedPhotoIds=['pasta-alla-norma',null,null,'commons-37587702',null];
+    assert.deepEqual(data.dishes.map(d=>d.image_id),expectedPhotoIds);
+    assert.equal(data.dishes[3].original_name,'6 escargots de Bourgogne');
     assert.ok(data.dishes.every(d=>d.image_url === null));
     // Simulate a result cached by the previous worker, containing unsafe URLs/IDs.
     for (const key of cache.keys()) cache.set(key,JSON.stringify(upstream));
     const resumed = await worker.fetch(request(),env);
     assert.equal(resumed.headers.get('X-Tavue-Scan-Resume'),'hit');
-    assert.deepEqual((await resumed.json()).dishes.map(d=>d.image_id),['pasta-alla-norma',null,null]);
+    assert.deepEqual((await resumed.json()).dishes.map(d=>d.image_id),expectedPhotoIds);
     assert.equal(requests,1,'Resume must not call AI or image search');
     const entry = require(path.join(temp,'entry.js')).default;
     const routed = await entry.fetch(new Request('https://app.test/photos/missing/'+'a'.repeat(64)+'.jpg'),{ASSETS:{fetch:async()=>new Response('SPA')}});

@@ -544,7 +544,8 @@ def validate_config(config):
         raise ValueError('Continuous campaign storage/review configuration missing')
     if config.get('discoveryFocus') not in (None, EUROPE_FOCUS):
         raise ValueError('Unknown campaign discovery focus')
-    if not 0 < config['budgetUSD'] <= 300 or config.get('targetPhotos') != 10000 or not 1 <= config['concurrency'] <= 6:
+    max_budget = 600 if config['requestId'] == 'claude-to-10000-20261118-001' else 300
+    if not 0 < config['budgetUSD'] <= max_budget or config.get('targetPhotos') != 10000 or not 1 <= config['concurrency'] <= 6:
         raise ValueError('Authorized total budget/target/concurrency exceeded')
     if not 1 <= config['maxQueries'] <= 180 or not 1 <= config['resultsPerQuery'] <= 50 or not 1 <= config['maxCandidates'] <= 100000 or not 1 <= config['maxRounds'] <= 200 or not 1 <= config['maxEmptyRounds'] <= 3 or not 60 <= config['seconds'] <= 17400:
         raise ValueError('Campaign discovery/runtime bounds exceeded')
