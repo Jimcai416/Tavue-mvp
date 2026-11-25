@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChQWPZcCDNCFkTppzEsCX",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Beverage in coupe glass with citrus and ice visible\",\n    \"Golden/yellow liquid consistent with source\",\n    \"Thumbnail composition shows drink clearly\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title describes 'Sangría de sidra asturiana' (Asturian cider sangria) but image shows a beverage, not a finished food dish\",\n    \"Sangria/sidra is a drink, not a prepared food subject within Tavue's food photography scope\"\n  ],\n  \"reason\": \"This is a beverage (sangria/cider punch), not a finished, exposed food dish. Tavue's automated review is designed for representative food photographs of prepared dishes—solids and plated items with visible components and nutritional content. While the photograph is sharp, well-lit, and appetising, and the identity matches the source description 'Sangría de sidra asturiana', beverages fall outside the category of food dishes suitable for this intake system. The metadata correctly identifies it as a drink, not food.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1903,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 384,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
