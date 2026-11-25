@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChPzk76rDHWkUzStekZDt",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Hot dog in split bun\",\n    \"Two visible frankfurter sections\",\n    \"Red chili topping\",\n    \"Brown meat-based chili layer\",\n    \"Mustard topping\",\n    \"Served on paper wrapper with branding\"\n  ],\n  \"phone_observations\": [\n    \"Chili dog clearly visible in thumbnail\",\n    \"Layered toppings readable\",\n    \"Sharp detail of full sandwich\",\n    \"Appetising presentation maintained\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title references 'Wienerschnitzel Chili Dog' but source description only mentions National Chili Dog Day without explicit dish confirmation\",\n    \"Frankfurter/hot dog meat species not explicitly declared in source metadata\",\n    \"Chili composition and meat content unknown from visual inspection alone\",\n    \"Generic metadata title does not provide canonical dish name with sufficient specificity\"\n  ],\n  \"reason\": \"Reject: Identity check fails. The source metadata provides only a filename reference and calendar observance date, not an explicit canonical dish title or description. While the image clearly shows a chili dog with appetising presentation, sharp detail, and good lighting across both full and thumbnail views, the source documentation does not supply a verified dish name or protein declaration. The brand reference 'Wienerschnitzel' in the filename is metadata, not a trusted source title/description. Frankfurter/sausage species and chili protein composition remain unverified by explicit source statement. Per protocol, unverified protein identity and absent canonical source description require hold/reject.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1748,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 496,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
