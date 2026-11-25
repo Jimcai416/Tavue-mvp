@@ -177655,5 +177655,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-85658566",
+    "title": "File:Ciorbă de legume 2.jpg",
+    "author": "Sacha47",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ciorb%C4%83_de_legume_2.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/12/Ciorb%C4%83_de_legume_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "af26d0d7bad9c801abb93d58f124cb78c271b787",
+    "name": "Ciorbă de legume",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-85658566.jpg",
+    "assetSha256": "48867c4f0ed5fdfe6c9ee271d0d99aa6d4a7fde616b5117687695f1be404a7ff",
+    "reviewedAt": "2026-11-25",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 925,
+    "requiresExactMenuName": true
   }
 ];
