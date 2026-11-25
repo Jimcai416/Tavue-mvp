@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChQKSdVf9Cz7d6hoDcqy3",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [\n    \"Sliced cooked product on white paper\",\n    \"Golden-brown exterior with spice visible\",\n    \"Characteristic internal pale filling visible in cross-sections\"\n  ],\n  \"phone_observations\": [\n    \"Sliced pieces clearly visible and identifiable\",\n    \"Golden-brown colour and texture preserved\",\n    \"Adequate detail for recognition\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Morcilla de huevo is a blood sausage (morcilla) made from pork blood, egg and other ingredients. Blood sausage is not an explicitly named, single-species protein category supported by the allowed list (chicken/beef/pork/duck/lamb/seafood). Although pork blood is the primary ingredient, the dish is defined by its blood sausage nature rather than 'pork' as a primary meat product, and the source does not use the word 'pork' in the title or description.\",\n    \"The source metadata identifies this as 'Morcilla de huevo' (egg morcilla/white morcilla), a traditional Spanish blood sausage. Blood sausage (morcilla) cannot be mapped to the allowed protein categories without an explicit source statement naming a single allowed species as the primary meat component.\"\n  ],\n  \"reason\": \"Reject: Although the photograph is sharp, well-lit, appetising and the dish is clearly identifiable as cooked morcilla de huevo with good detail in both full and thumbnail images, the dish cannot be accepted because it is a blood sausage. The source title and description do not explicitly name an allowed protein category (chicken/beef/pork/duck/lamb/seafood) as a qualifying component. Blood sausage/morcilla is a category not covered by the allowed protein list, and the defining ingredient (blood) is not an allowed category. No explicit source quote names an allowed single species as the primary meat qualifier.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1642,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 567,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
