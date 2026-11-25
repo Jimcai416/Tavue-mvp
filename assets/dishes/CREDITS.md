@@ -14620,3 +14620,7 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Migas con huevo** — ZahonesdelMontero. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Migas_con_huevo_en_monter%C3%ADa.jpg). Local asset: `reviewed-commons-184762296.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Kyopolou, eggplant caviar mixed with tomatoes and bell peppers** — Off-shell. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:AubergineCaviar.jpg). Local asset: `reviewed-commons-34900723.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
