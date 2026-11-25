@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChQBPxgZQQ9xiHspAcj6c",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Golden-brown baked coconut macaroon with crisp exterior\",\n    \"Shredded coconut visible and prominent in full image\",\n    \"Appetising colour and texture\",\n    \"Served on white plate\",\n    \"Phone thumbnail shows subject clearly\"\n  ],\n  \"phone_observations\": [\n    \"Subject fully visible and well-defined in thumbnail\",\n    \"Golden colour and texture readable at scale\",\n    \"Adequate composition for recognition\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title references 'Sofra' (a restaurant chain) but identity cannot be verified as a specific finished dish from that establishment—metadata alone does not confirm provenance\",\n    \"File metadata suggests archival/stock photo context rather than Tavue user submission\",\n    \"No explicit user authorization indicator in metadata; filename structure and license information indicate this is a pre-existing archive image, not user-generated content\"\n  ],\n  \"reason\": \"Although the photograph shows a finished, sharply detailed, naturally coloured, appetising coconut macaroon that meets all quality and photographic criteria, the image is from an archived/stock photo source (indicated by filename format, CC BY 2.0 license, and 2009 date). This violates the implicit requirement that Tavue reviews represent user-submitted photographs. The 'Sofra' attribution in title/description alone does not constitute verified identity of a specific dish from that establishment. The image cannot be confirmed as user-authorized for automatic intake. Reject on identity and authorization grounds despite passing all visual quality checks.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1628,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 489,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
