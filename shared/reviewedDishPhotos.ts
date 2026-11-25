@@ -176487,5 +176487,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-182410278",
+    "title": "File:Moules farcies à la sétoise 02.jpg",
+    "author": "Arnaud 25",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Moules_farcies_%C3%A0_la_s%C3%A9toise_02.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Moules_farcies_%C3%A0_la_s%C3%A9toise_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "ceaceab3f2a96ad61e10bcd6df0a9a9bb0867e88",
+    "name": "Moules farcies à la sétoise",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-182410278.jpg",
+    "assetSha256": "26c2a5551c44876e9f3cb9513e96e8f566ae4a0e22e192aefbbe6526bee95ef0",
+    "reviewedAt": "2026-11-25",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];
