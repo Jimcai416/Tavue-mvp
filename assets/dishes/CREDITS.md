@@ -14635,3 +14635,7 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Lasagna Vegetariana** — Samuel Rengifo. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Lasagna_Vegetariana_en_Buga.jpg). Local asset: `reviewed-commons-46094827.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Pinsa romana fatta in casa** — Ensahequ. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Pinsa_romana_fatta_in_casa.jpg). Local asset: `reviewed-commons-156222760.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
