@@ -175749,5 +175749,28 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 786,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-89957658",
+    "title": "File:Tarte au chocolat blanc et aux framboises (5563991497).jpg",
+    "author": "Katrin Gilger",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tarte_au_chocolat_blanc_et_aux_framboises_(5563991497).jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Tarte_au_chocolat_blanc_et_aux_framboises_%285563991497%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "cd8cbab1925f19553267a14075ae95d27c562b4f",
+    "name": "Tarte au chocolat blanc et aux framboises",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-89957658.jpg",
+    "assetSha256": "201228706e05e6005b3da011b0630a0ebf05bd41fa50f8614f62b67fdfa8a3c7",
+    "reviewedAt": "2026-11-25",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 641,
+    "requiresExactMenuName": true,
+    "authorUrl": "https://www.flickr.com/people/26242865@N04"
   }
 ];
