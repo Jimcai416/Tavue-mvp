@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChPruWLR7Cfw88FNLcHUb",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Fresh parsley leaves visible and prominent\",\n    \"Yellow/pale segments consistent with lemon zest or pith\",\n    \"White granular material consistent with garlic\",\n    \"White bowl presentation on wooden surface\",\n    \"Lemon wedge visible in upper right as accompaniment\",\n    \"Natural daylight, well-exposed\"\n  ],\n  \"phone_observations\": [\n    \"Dish is clearly visible in thumbnail centre\",\n    \"Bowl and utensil readable\",\n    \"Green and yellow components identifiable\",\n    \"Adequate detail for recognition\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title contains 'File:' prefix and filename extension (.jpg) which should be stripped; canonical form is ambiguous\",\n    \"Gremolata is a condiment/garnish, not a finished dish—it is a raw mixture of minced ingredients typically served with or on other dishes (osso buco, risotto, etc.)\",\n    \"No finished, cooked dish is evident; this appears to be a component presented in isolation\",\n    \"The image shows prepared ingredients mixed together, not a plated final dish\"\n  ],\n  \"reason\": \"Gremolata is a raw herb and citrus condiment mixture, not a finished, exposed, cooked dish. Tavue accepts finished food photographs. While the image quality, sharpness, lighting and composition are all strong (scores 4–5), and the identity is verifiable from source description, the subject fails the core criterion of being a finished dish. Gremolata is a garnish or flavouring component typically mixed into or served alongside another dish (such as osso buco or risotto), not an independent plated dish. This violates the acceptance criterion: 'Accept only a finished, exposed, likely photographic dish.' Reject.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1777,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 548,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
