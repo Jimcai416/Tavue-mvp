@@ -14412,3 +14412,8 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 
 - **toast, 2 x fried eggs, chilli honey drizzle, pesto, chives, chilli flakes** — Andy Li. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Eggs_On_Toast_-_FIKA_2023-09-02.jpg). Local asset: `reviewed-commons-136844217.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Hembakt kaffebröd** — Inapond. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Hembakt_kaffebr%C3%B6d.jpg). Local asset: `reviewed-commons-124570429.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Cordero Asado** — Valdavia. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Cocina_Palentina_-_Cordero_Asado_001.JPG). Local asset: `reviewed-commons-12790495.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Costillar Cordero Asado** — Valdavia. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Cocina_Palentina_003_Costillar_Cordero_Asado.JPG). Local asset: `reviewed-commons-11854645.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.

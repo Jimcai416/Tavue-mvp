@@ -175345,5 +175345,53 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 720,
     "height": 960,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-12790495",
+    "title": "File:Cocina Palentina - Cordero Asado 001.JPG",
+    "author": "Valdavia",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cocina_Palentina_-_Cordero_Asado_001.JPG",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Cocina_Palentina_-_Cordero_Asado_001.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "c0aa845674d5807a195a31c86cd75dfc15f3c155",
+    "name": "Cordero Asado",
+    "aliases": [],
+    "proteins": [
+      "lamb"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-12790495.jpg",
+    "assetSha256": "971e4e7632fc52771e665468a0d0fb8ba337a468af73294904148a2ff7ea7d38",
+    "reviewedAt": "2026-11-25",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-11854645",
+    "title": "File:Cocina Palentina 003 Costillar Cordero Asado.JPG",
+    "author": "Valdavia",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cocina_Palentina_003_Costillar_Cordero_Asado.JPG",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Cocina_Palentina_003_Costillar_Cordero_Asado.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "cb78a1b1f01d943af57cf33a4788bbc2319034cf",
+    "name": "Costillar Cordero Asado",
+    "aliases": [],
+    "proteins": [
+      "lamb"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-11854645.jpg",
+    "assetSha256": "684fbb00e95eb89155e27ad695f7a6ce1f1d4ed5800d333e77b52678df082a39",
+    "reviewedAt": "2026-11-25",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 633,
+    "requiresExactMenuName": true
   }
 ];
