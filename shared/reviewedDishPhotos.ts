@@ -175970,5 +175970,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 636,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-120423801",
+    "title": "File:Jus Gandaria.jpg",
+    "author": "M.akbar.raf",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jus_Gandaria.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/47/Jus_Gandaria.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "1d04b153f13eca944a1ced7bd02a00095120c0f3",
+    "name": "Jus gandaria",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-120423801.jpg",
+    "assetSha256": "55f93b72a1685e2b81208b3c58bcc76b53bf6ecefea1facfb5dde097d0e42965",
+    "reviewedAt": "2026-11-25",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 938,
+    "height": 960,
+    "requiresExactMenuName": true
   }
 ];

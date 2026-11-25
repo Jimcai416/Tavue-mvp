@@ -14485,3 +14485,7 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 
 - **Deep pan pepperoni** — Andy Li. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Deep_pan_pepperoni_-_Grind_%26_Slice_2024-04-22.jpg). Local asset: `reviewed-commons-147677402.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Roman Pepperoni Pizza** — Pannet. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:%D0%A0%D0%B8%D0%BC%D1%81%D0%BA%D0%B0%D1%8F_%D0%BF%D0%B8%D1%86%D1%86%D0%B0_%D1%81_%D0%BF%D0%B5%D0%BF%D0%BF%D0%B5%D1%80%D0%BE%D0%BD%D0%B8_03.jpg). Local asset: `reviewed-commons-128734180.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Jus gandaria** — M.akbar.raf. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Jus_Gandaria.jpg). Local asset: `reviewed-commons-120423801.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
