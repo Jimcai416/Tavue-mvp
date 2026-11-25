@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChQX6TUVhctkJtgjRErHc",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": false,\n    \"photograph\": true,\n    \"phone\": false,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 2,\n    \"lighting\": 1,\n    \"composition\": 2,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows only blue-tinted aquarium water and obscured fish shapes, no readable food dish details\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source describes live fish (Pollachius pollachius, saithe/pollock) in an aquarium wreck setting, not a prepared dish\",\n    \"Image is an underwater aquarium photograph, not a food photograph\",\n    \"No cooked, plated, or prepared food visible in either full image or thumbnail\"\n  ],\n  \"reason\": \"Rejection: This is a wildlife/aquarium photograph of live fish in a submerged wreck environment, not a finished food dish. The source explicitly identifies the subject as 'Jeune Lieu jaune' (young saithe/pollock) in an aquarium setting. No preparation, plating, cooking, or culinary presentation is visible. The image fails identity (not a dish), quality (poor lighting, blue cast, no food subject), and phone checks (thumbnail unintelligible for food assessment). Tavue accepts only finished, exposed, appetising dishes—not live animal or raw ingredient documentation.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1652,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 397,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
