@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChQ495RdSfYCPWBshZCGQ",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Pepperoni pizza slice visible in hand\",\n    \"Clear pepperoni topping with characteristic red circles\",\n    \"Golden-brown crust\",\n    \"Cheese visible under pepperoni\",\n    \"Branding visible on packaging (Greggs)\"\n  ],\n  \"phone_observations\": [\n    \"Pizza slice clearly visible in thumbnail\",\n    \"Pepperoni topping readable\",\n    \"Subject prominent and unclipped\",\n    \"Adequate detail for identification\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title format is filename (File:Pepperoni Pizza - Greggs 2024-03-16.jpg) rather than a proper dish description or menu entry\",\n    \"No explicit canonical dish name provided in metadata—only filename and location\",\n    \"Greggs is a commercial bakery/fast-food chain; product is packaged retail food rather than a prepared dish photo suitable for Tavue's food photography database\"\n  ],\n  \"reason\": \"Reject: This is a photograph of packaged commercial fast-food (Greggs pepperoni pizza slice) held by a customer, not a finished plated dish. The source metadata is a filename, not a canonical dish description. Tavue accepts home cooking and street food, but packaged retail products from commercial chains in hand-held packaging fall outside the scope of representative food photography for a dish database. The title lacks the structured dish identification required (it is a filename with date, not a canonical name). While the photograph quality is acceptable, the subject matter and source format do not meet Tavue's intake criteria.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1731,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 496,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

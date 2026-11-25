@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChQ48drFB9TmzfiKpoLpG",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Round pizza with red circular pepperoni topping\",\n    \"Cheese and tomato sauce base visible\",\n    \"Sliced into 8 pieces\",\n    \"Served on white paper on terracotta plate\",\n    \"Restaurant table setting with wine bottles and glasses\"\n  ],\n  \"phone_observations\": [\n    \"Pizza clearly visible and prominent in thumbnail\",\n    \"Pepperoni topping readable\",\n    \"Sharp detail of slice pattern\",\n    \"Adequate colour and contrast\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source metadata lists 'pepperoni pizza' but pepperoni is a processed meat product, not an allowed protein category (chicken/beef/pork/duck/lamb/seafood)\",\n    \"Cannot determine whether pepperoni is pork-based or beef-based from visual inspection alone\",\n    \"No explicit source quote identifying the specific animal protein\"\n  ],\n  \"reason\": \"The image is a finished, well-photographed pizza with sharp detail, good lighting, and appetising appearance. Both full image and thumbnail are clear and well-composed. However, the dish cannot be accepted because the protein cannot be verified against the allowed categories. Pepperoni is a cured processed meat product, and while it is typically pork or beef, the source description does not explicitly state which animal protein is used. The canonical name would require a specific protein qualifier (pork or beef) with an exact source quote, which is not provided. Generic 'pepperoni pizza' without explicit animal protein identification fails the protein_evidence requirement.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1764,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 487,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
