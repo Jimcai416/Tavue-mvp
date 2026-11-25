@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChPkn8MvwSUKdg12PmS2a",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Cooked lentils clearly visible throughout\",\n    \"Pink/red meat pieces distributed across the dish\",\n    \"Natural colour, finished and cooked appearance\",\n    \"Sharp detail in both full image and thumbnail\",\n    \"Appetising presentation of a composed dish\"\n  ],\n  \"phone_observations\": [\n    \"Thumbnail shows recognisable mixed dish with distinct lentil and meat components\",\n    \"Pink meat pieces and brown lentils clearly visible at 124x96 resolution\",\n    \"Composition is readable and appetising in phone preview\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title references 'Saucisson vaudois' (a Swiss sausage product) but the image shows pink/red meat pieces that do not visually match the typical appearance of intact saucisson vaudois slices. The meat components appear as discrete chunks rather than sliced sausage.\",\n    \"Species of meat cannot be confirmed from visual inspection alone. 'Saucisson vaudois' traditionally contains pork, but source title alone does not constitute explicit naming of the animal in the dish as it appears.\",\n    \"Cannot verify whether this is sausage, ground meat, or another meat preparation from photograph alone.\"\n  ],\n  \"reason\": \"Identity check fails: source title names 'Saucisson vaudois' (a specific Swiss sausage), but the visual form shows discrete meat chunks mixed with lentils rather than the sliced or chunked sausage form typically associated with that product. The meat appearance contradicts confident identity match with the named dish. Protein evidence cannot be established: no explicit animal species naming is provided in the source description beyond the sausage product name, and the visual appearance does not confirm the traditional form of that product. Hold pending clarification of actual dish identity and meat species.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1742,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 547,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
