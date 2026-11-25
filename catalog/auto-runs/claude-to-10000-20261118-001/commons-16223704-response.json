@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChQRWuQBZTKZBDn3AouQw",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 5,\n    \"composition\": 5,\n    \"appeal\": 5\n  },\n  \"visible_support\": [\n    \"Golden-brown fried items with crispy exterior\",\n    \"Herb-flecked creamy sauce in small bowl and on food\",\n    \"Red sauce (ketchup or similar) in background bowl\",\n    \"Fork visible in lower sauce bowl\",\n    \"Natural daylight, well-exposed\"\n  ],\n  \"phone_observations\": [\n    \"Sauce bowls and fried items all clearly visible\",\n    \"Orange-golden fried food dominant in thumbnail\",\n    \"Creamy sauce and red sauce bowls both readable\",\n    \"High contrast and sharp detail preserved at 124x96\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title 'Tartar Sauce.jpg' is a filename, not a dish description\",\n    \"Description 'Tartar sauce served with fried food' is generic and does not identify the specific fried dish\",\n    \"Fried items appear to be fish fillets or chicken pieces, but species cannot be confirmed from visual form alone\",\n    \"No source-supplied canonical dish name exists (only filename and generic description)\"\n  ],\n  \"reason\": \"Rejection: The source metadata does not provide a specific dish identity. The title is a filename ('File:Tartar Sauce.jpg') and the description is generic ('fried food'), neither of which constitutes a canonical dish name. While the photograph itself is sharp, well-lit and appetizing, and the fried protein is visually present, the source has not supplied an exact dish phrase to match against visible form. The fried item's species cannot be inferred from appearance alone without an explicit source declaration. Identity check fails because no specific dish name is available from the source.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1615,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 517,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
