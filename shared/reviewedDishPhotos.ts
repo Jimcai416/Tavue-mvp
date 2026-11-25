@@ -176760,5 +176760,51 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-37545028",
+    "title": "File:Croûte au fromage 2.jpg",
+    "author": "Popo le Chien",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cro%C3%BBte_au_fromage_2.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/73/Cro%C3%BBte_au_fromage_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "179bc371892e6e8bd8548f968fe9cd94a21023d3",
+    "name": "Croûte au fromage",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-37545028.jpg",
+    "assetSha256": "b1e476783c289c9a72f746254bfb162df742abf4d78361b7f9393355f50fd0e2",
+    "reviewedAt": "2026-11-25",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 960,
+    "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-147793360",
+    "title": "File:Livelia - 39.jpg",
+    "author": "Jeangagnon",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Livelia_-_39.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/10/Livelia_-_39.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "0f2990ca766afad4bf18d13fb29dd77b83fa20eb",
+    "name": "Cuisse de canard",
+    "aliases": [],
+    "proteins": [
+      "duck"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-147793360.jpg",
+    "assetSha256": "da3a6c792298806880a007e42f499f6c8eb2f6909c57f43f886a13aa3a466f80",
+    "reviewedAt": "2026-11-25",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true
   }
 ];
