@@ -14503,3 +14503,9 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Cabbage Soup** — Silar. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:02022_0015_La_soupe_aux_choux.jpg). Local asset: `reviewed-commons-123109151.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Grilled portobello mushroom with feta and rocket salad on sliced, toasted baguette** — Takeaway. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:2014_11_Portobello_rocket_feta_toasted_baguette.jpg). Local asset: `reviewed-commons-37690813.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Baked feta and tomatoes** — Delicious Adventures. [CC BY 3.0](https://creativecommons.org/licenses/by/3.0); [source](https://commons.wikimedia.org/wiki/File:Baked_feta_pasta.jpg). Local asset: `reviewed-commons-144821144.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Mugabbana Cheese Pies** — CallMeBarcode. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Mugabbana_Cheese_Pies.jpg). Local asset: `reviewed-commons-129803456.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
