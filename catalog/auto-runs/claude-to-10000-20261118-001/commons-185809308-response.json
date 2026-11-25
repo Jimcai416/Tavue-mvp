@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChPk6ipjixpUnSD57U3qz",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Cooked noodles visible, tan/golden colour\",\n    \"Red-brown meat pieces distributed throughout\",\n    \"White plate on colourful textile background\",\n    \"Home/casual plated presentation\",\n    \"Phone thumbnail shows complete dish clearly\"\n  ],\n  \"phone_observations\": [\n    \"Dish centre-cover and fully visible\",\n    \"Noodle and meat components readable\",\n    \"Natural colour, no severe glare or softness\",\n    \"Adequate detail for recognition\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title references 'čvarcima' (pork cracklings/lard), but source description lists 'kiselim kupusom i čvarcima' (sour cabbage and cracklings). Noodles visible but sour cabbage not clearly identifiable as distinct component in photograph—appears as one-pot mixture.\",\n    \"Metadata title 'Podvarak sa čvarcima' differs from description 'Podvarak sa kiselim kupusom i čvarcima'. Canonical form unclear.\",\n    \"Protein identity: 'čvarcima' (pork cracklings) is specified in metadata, but 'pork' as a protein category requires explicit animal name in source. 'Čvarcima' is a prepared pork product; source does not use the word 'pork' or 'pig' directly.\",\n    \"Podvarak is traditionally made with pork, but source-declared identity uses only the product term 'čvarcima', not the animal name.\"\n  ],\n  \"reason\": \"Source metadata contains conflicting descriptions (title vs. description) regarding cabbage component. More critically, while 'čvarcima' (pork cracklings) is named in source, the protocol requires explicit animal name ('pork'/'pig') in source quote for protein_evidence support. 'Čvarcima' is a prepared product term. The dish form matches Podvarak (a noodle and meat dish), but the exact canonical phrase and protein documentation cannot be resolved without source clarification of which description is authoritative and explicit animal naming. Hold pending source reconciliation.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1633,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 635,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
