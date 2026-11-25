@@ -177335,5 +177335,28 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 875,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-94537967",
+    "title": "File:Le Bouchon Breton - crêpe à la crème de marrons et chantilly.jpg",
+    "author": "Benoît Prieur",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Le_Bouchon_Breton_-_cr%C3%AApe_%C3%A0_la_cr%C3%A8me_de_marrons_et_chantilly.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/98/Le_Bouchon_Breton_-_cr%C3%AApe_%C3%A0_la_cr%C3%A8me_de_marrons_et_chantilly.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "7610835c9591050de86d29b8ccc934bd902b8427",
+    "name": "crêpe à la crème de marrons et chantilly",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-94537967.jpg",
+    "assetSha256": "d9dabf9dfd27703ef4f93d11ceb688e7a675271301e205548812bc2780e984bb",
+    "reviewedAt": "2026-11-25",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 720,
+    "requiresExactMenuName": true,
+    "authorUrl": "https://www.wikidata.org/wiki/Q42790984"
   }
 ];
