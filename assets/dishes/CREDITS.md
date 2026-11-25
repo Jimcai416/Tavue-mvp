@@ -14665,3 +14665,7 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Koulouri Philadelphia** — Andy Li. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Koulouri_Philadelphia_-_Hellenic_Bakery_2025-04-28.jpg). Local asset: `reviewed-commons-164353276.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Tocinillo de cielo** — [Luis Villa del Campo  from Madrid, Spain](https://www.flickr.com/people/37996573467@N01). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Tocinillo_de_cielo_-_luisvilla.jpg). Local asset: `reviewed-commons-10717280.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
