@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChQ8g19yR3UQSGUAADMTN",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Red diced meat visible throughout\",\n    \"Pale yellow/cream curved pieces distributed across surface\",\n    \"Composed dish in metallic bowl\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title declares 'Cucumber tomato feta salad' but photograph shows no visible cucumber, tomato, or feta cheese—only diced red meat and pale curved pieces\",\n    \"Red pieces appear to be cured/processed meat (salami or similar), not tomato\",\n    \"Pale curved pieces do not match cucumber or feta characteristics visually\",\n    \"Critical source-to-image mismatch: metadata describes a vegetable salad; image shows a meat-based dish\",\n    \"Cannot identify actual dish contents with confidence against declared identity\"\n  ],\n  \"reason\": \"Identity check fails. Source metadata declares 'Cucumber tomato feta salad,' but the photograph shows a composed dish dominated by diced red cured meat and pale curved ingredients that do not visually correspond to cucumber, tomato, or feta. The metadata and actual visible content are irreconcilably misaligned. No salad vegetables are evident. Without reliable source description of the actual dish depicted, canonical identity cannot be established. Reject due to source-image identity contradiction.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1617,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 430,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChQ8gNGj34EwYTDFpY66S",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"hold\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Pizza with tomato base\",\n    \"Red peppers/tomato slices visible\",\n    \"White crumbly cheese (consistent with feta)\",\n    \"Yellow/pale onion slices\",\n    \"Brown meat pieces scattered across surface\",\n    \"Charred crust edges\",\n    \"Served on metal plate on wooden surface\"\n  ],\n  \"phone_observations\": [\n    \"Pizza clearly visible and prominent in thumbnail\",\n    \"Toppings distinguishable: red peppers, white cheese, meat pieces\",\n    \"Natural colours, no severe casts\",\n    \"Sharp enough to identify dish category\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source identifies meat as 'sausage' but species is unspecified; cannot confirm whether sausage is pork, beef, or other animal\",\n    \"Brown meat pieces visible on pizza but exact composition cannot be determined from photograph alone\",\n    \"Title claims 'sausage' but this is a generic term that does not specify the animal protein required by guidelines\"\n  ],\n  \"reason\": \"While the photograph is of good quality and the pizza is clearly visible in both full and thumbnail versions, the protein identification cannot be verified. The source description lists 'sausage' as an ingredient, but sausage is not an acceptable protein category key (must be specific animal: chicken/beef/pork/duck/lamb/seafood). The brown meat pieces on the pizza could be sausage of unknown animal origin. Without explicit source text naming a specific animal for the meat component, the identity check fails. Hold pending clarification of meat species.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1754,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 500,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
