@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChQ7hawQ1m3SNm8UgC7Y4",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 1\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Building exterior only, no food visible\",\n    \"Shop storefront with signage\",\n    \"No dish, meal or finished food in thumbnail\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title references 'Coop v Rabí' – a cooperative store building, not a food dish\",\n    \"Description 'Coop v Rabí' confirms this is architecture/storefront photography, not food photography\",\n    \"No finished, exposed, or identifiable dish present in either full image or thumbnail\"\n  ],\n  \"reason\": \"This is a photograph of a Coop grocery store building in Rabí, Czech Republic. It is architecture/storefront photography, not food photography. No finished dish, meal, or food item is visible or prominent in either the full image or the phone thumbnail. The image does not meet the requirement for 'a finished, exposed, likely photographic dish.' Identity check fails because the source describes a building, not food. Reject.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1517,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 365,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
