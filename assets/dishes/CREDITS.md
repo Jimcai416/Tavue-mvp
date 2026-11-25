@@ -14538,3 +14538,8 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 
 - **Chocolate coconut macaroon** — [stu_spivack](https://flickr.com/people/35034346243@N01). [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0); [source](https://commons.wikimedia.org/wiki/File:Chocolate_coconut_macaroon_at_Lucy%27s,_June_2007.jpg). Local asset: `reviewed-commons-10437584.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
 - **Biscoff Mousse** — Andy Li. [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en); [source](https://commons.wikimedia.org/wiki/File:Biscoff_Mousse_-_The_Roundhill_Pub_2023-09-24.jpg). Local asset: `reviewed-commons-138067834.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Chocolate coffee mousse** — [Lu  from Seattle, USA](https://www.flickr.com/people/12477719@N00). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Chocolate_coffee_mousse.jpg). Local asset: `reviewed-commons-6754298.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Mangalorean Macaroon - Inside** — Ignatius Nayan D'Rozario. [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0); [source](https://commons.wikimedia.org/wiki/File:Mangalorean_Macaroon_-_Inside.JPG). Local asset: `reviewed-commons-20867061.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
