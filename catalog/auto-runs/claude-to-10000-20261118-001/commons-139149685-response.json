@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChQ52akeihDSgNYvZgPWU",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [\n    \"Cardamom-scented creamy curry visible over rice\",\n    \"Fresh herb garnish (parsley/cilantro) on curry\",\n    \"Orange carrot pickle visible in lower corner\",\n    \"Fragrant aromatic appearance consistent with korma\"\n  ],\n  \"phone_observations\": [\n    \"Curry and rice clearly visible in thumbnail\",\n    \"Dish identity readable as curry/rice composition\",\n    \"Takeout box context maintained\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'Chicken Korma' but no chicken is explicitly visible or distinctly identifiable in the photograph\",\n    \"Curry components are obscured by sauce; meat species cannot be visually confirmed\",\n    \"Source title uses 'Chicken' but visual evidence does not support species identification\"\n  ],\n  \"reason\": \"Reject: Identity check fails. The source title explicitly names 'Chicken Korma' but the photograph shows only a creamy curry sauce with rice and carrot pickle. No chicken pieces are clearly visible, distinctly identifiable, or visually verifiable as the stated protein. Per rules, identity must agree with visible form, and hidden flavours/proteins may be source-declared but cannot be claimed as visually proven. The title–image mismatch creates unresolvable doubt about the actual protein species present. All other quality and photograph checks pass, but the mandatory identity check requires reject.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1776,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 459,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChQ52yNwQAZSN2GD9c3Vd",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 5,\n    \"lighting\": 5,\n    \"composition\": 5,\n    \"appeal\": 5\n  },\n  \"visible_support\": [\n    \"Rich brown curry sauce with cashew nuts and chilli flakes\",\n    \"White rice bed\",\n    \"Lime wedge and fresh mint garnish\",\n    \"Four distinct meat pieces visible\",\n    \"Creamy, well-reduced sauce coating meat\"\n  ],\n  \"phone_observations\": [\n    \"Curry and rice clearly visible at thumbnail size\",\n    \"Meat pieces discernible\",\n    \"Garnish visible but small\",\n    \"Overall composition reads well on 124x96 canvas\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'Chicken Korma' but visible meat pieces appear significantly larger and more textured than typical chicken korma chunks; appearance suggests beef or lamb\",\n    \"Cashew nuts and chilli flake garnish with browning intensity are not typical korma presentation; korma is usually pale cream-coloured\",\n    \"Source title 'Chicken Korma 1.jpg' conflicts with visual characteristics of the prepared dish\"\n  ],\n  \"reason\": \"Identity check fails. The source title explicitly names 'Chicken Korma', but the visible dish shows large, deeply browned meat pieces in a dark brown curry with cashew nuts and red chilli flakes—visual markers of a beef or lamb preparation (such as beef/lamb curry or rendang-style dish), not the pale, creamy, mild chicken korma the title claims. The meat size, sauce colour, and garnish style create irreconcilable conflict between stated identity and photograph. No exact match between source title and visible form. Protein cannot be accepted as chicken without resolving this fundamental contradiction.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1636,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 506,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

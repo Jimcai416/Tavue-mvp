@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChQ52wGhJZadnTnDgeSaM",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Waffle grid pattern clearly visible in thumbnail\",\n    \"Chocolate glaze and sugar coating evident\",\n    \"Finished, exposed food item\",\n    \"Subject prominent and well-defined\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title 'Belgian chocolate waffles (2026)' contains a year (2026) in filename format, violating canonical_name extraction rules\",\n    \"Metadata describes this as a File: entry with date stamp, not a clean dish title\",\n    \"No explicit confirmation this is a finished dish versus packaging/illustration\"\n  ],\n  \"reason\": \"Rejection: The source title/description is malformed as a filename entry ('File:Belgian chocolate waffles (2026) 03.jpg') rather than a clean canonical dish description. Per instructions, canonical_name must exclude 'File:', date, photographer and filename extension. The base phrase 'Belgian chocolate waffles' cannot be reliably extracted as the authoritative source identity from this metadata structure. Additionally, the year (2026) is anomalous and suggests metadata corruption or placeholder data. While the photograph itself shows a finished, appetizing chocolate waffle with sugar coating in good detail, the source identity cannot be canonicalized according to rules. Hold or reject recommended pending clean source title resubmission.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1730,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 437,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
