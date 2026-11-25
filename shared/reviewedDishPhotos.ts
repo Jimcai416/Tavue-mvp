@@ -177677,5 +177677,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 925,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-183587457",
+    "title": "File:Liat Portal for Foodie Disorder - Aperitif plate with cheese vegetables and bread.jpg",
+    "author": "HaJunkiyada",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Liat_Portal_for_Foodie_Disorder_-_Aperitif_plate_with_cheese_vegetables_and_bread.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Liat_Portal_for_Foodie_Disorder_-_Aperitif_plate_with_cheese_vegetables_and_bread.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "f31fcc8bc64a2830e6f76886209adaba388d2d0f",
+    "name": "Aperitif plate with cheese vegetables and bread",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-183587457.jpg",
+    "assetSha256": "3c7ab8a6755a60c36f2e7c0156e1c193077ab6f61e75f25e338f6d3302acc96b",
+    "reviewedAt": "2026-11-25",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 720,
+    "height": 960,
+    "requiresExactMenuName": true
   }
 ];
