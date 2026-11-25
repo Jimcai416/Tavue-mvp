@@ -177699,5 +177699,27 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 720,
     "height": 960,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-164353276",
+    "title": "File:Koulouri Philadelphia - Hellenic Bakery 2025-04-28.jpg",
+    "author": "Andy Li",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Koulouri_Philadelphia_-_Hellenic_Bakery_2025-04-28.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Koulouri_Philadelphia_-_Hellenic_Bakery_2025-04-28.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "0dd51a41efc6b721c55e83cf487deeaa9019a835",
+    "name": "Koulouri Philadelphia",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-164353276.jpg",
+    "assetSha256": "7863f72a5224c8f8ae46010e0de40673e6c39cfc46ac5ec4fc77777298605d8f",
+    "reviewedAt": "2026-11-25",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 723,
+    "height": 960,
+    "requiresExactMenuName": true
   }
 ];
