@@ -177766,5 +177766,52 @@ export const reviewedDishPhotos: DishPhoto[] = [
     "width": 960,
     "height": 720,
     "requiresExactMenuName": true
+  },
+  {
+    "id": "commons-93931504",
+    "title": "File:PORK PIES.jpg",
+    "author": "Terry  Kearney",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:PORK_PIES.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/09/PORK_PIES.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "37d514166b2b8bc1e4df0c560fe6508de80c2c81",
+    "name": "Pork pies",
+    "aliases": [],
+    "proteins": [
+      "pork"
+    ],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-93931504.jpg",
+    "assetSha256": "f8491f03892a7c66f14366809ef9ee65374289c781443e0c5b943ef9ed844d08",
+    "reviewedAt": "2026-11-25",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 960,
+    "height": 640,
+    "requiresExactMenuName": true,
+    "authorUrl": "https://www.flickr.com/people/24490288@N04"
+  },
+  {
+    "id": "commons-126983058",
+    "title": "File:Hot Soupy Noodles.jpg",
+    "author": "Gaurav Dhwaj Khadka",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hot_Soupy_Noodles.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/df/Hot_Soupy_Noodles.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "commonsSha1": "a28a3b2825325eeb0b2b0b390e002efe554fa3fe",
+    "name": "Hot Soupy Noodles",
+    "aliases": [],
+    "proteins": [],
+    "approved": true,
+    "kind": "photograph",
+    "asset": "reviewed-commons-126983058.jpg",
+    "assetSha256": "7f564d94ccbe645438058cc786fabe4df1343ad391ced848d9524f4588df7478",
+    "reviewedAt": "2026-11-25",
+    "reviewNote": "User-authorized automatic Claude API review (claude-haiku-4-5-20251001). Full source photograph and actual phone cover reviewed together; current source metadata and licence checked by code. Hidden recipe details are source-declared. Resized JPEG without additional physical crop or generation. Representative image; no allergen guarantee.",
+    "width": 720,
+    "height": 960,
+    "requiresExactMenuName": true
   }
 ];
