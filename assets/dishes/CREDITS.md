@@ -14384,3 +14384,8 @@ Godfroy, Marion (1977-....). Auteur du commentaire. [Public domain](https://crea
 ### Claude automatic intake claude-to-10000-20261118-001
 
 - **Pollo frito oriental y ensalada de col** — Radiodreamer. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Pollo_frito_oriental_y_ensalada_de_col.jpg). Local asset: `reviewed-commons-106927263.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+
+### Claude automatic intake claude-to-10000-20261118-001
+
+- **Gelato** — Arnaud 25. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0); [source](https://commons.wikimedia.org/wiki/File:Gelato_002.jpg). Local asset: `reviewed-commons-114481623.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
+- **Mango gelato** — [Ruth Hartnup  from Vancouver, Canada](https://www.flickr.com/people/95142644@N00). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0); [source](https://commons.wikimedia.org/wiki/File:Mango_gelato_(9368461646).jpg). Local asset: `reviewed-commons-75431866.jpg`. Claude API reviewed full and phone images. Resized JPEG without additional pixel crop.
