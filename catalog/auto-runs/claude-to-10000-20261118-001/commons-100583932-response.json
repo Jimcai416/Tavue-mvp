@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChPmeTspysu2HVYmcca6U",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows tubular pasta pieces in pale cream/beige colour\",\n    \"No visible broccoli florets in either full image or thumbnail\",\n    \"Pasta appears plain, possibly with light seasoning or oil\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Source title declares 'Pasta con i broccoli' (pasta with broccoli) but no broccoli is visible in the photograph\",\n    \"Image shows only plain cooked pasta tubes, inconsistent with stated dish identity\",\n    \"Possible mislabeling of source metadata or wrong photograph paired with title\"\n  ],\n  \"reason\": \"Identity check fails. Source title states 'Pasta con i broccoli' but the photograph shows only cooked tubular pasta without any visible broccoli florets in either the full image or thumbnail. This is a fundamental contradiction between declared identity and visible content. The dish cannot be accepted as it does not match the stated description.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1729,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 359,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChPme76fUp8pwxE9TMd5y",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 4,\n    \"composition\": 4,\n    \"appeal\": 4\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows tube pasta with a granular coating\",\n    \"No visible broccoli florets in either full image or thumbnail\",\n    \"Coating appears to be breadcrumb or nut-based, not vegetable-based\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [\n    \"Title claims 'Pasta con i broccoli' (pasta with broccoli) but no broccoli is visible in either photograph\",\n    \"The granular coating obscures pasta identity and suggests a prepared dish that does not match the stated title\",\n    \"Source metadata (title/description) contradicts visible content\"\n  ],\n  \"reason\": \"Identity check fails. The source title 'Pasta con i broccoli' (pasta with broccoli) is contradicted by the photographs. No broccoli florets, broccoli stems, or green vegetables are visible in the full image or thumbnail. The dish shown appears to be a breadcrumb or nut-coated tube pasta without the stated primary ingredient. Source contradiction with visual evidence requires hold per protocol, but severity of mismatch (completely missing named ingredient) warrants rejection.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1729,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 398,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
