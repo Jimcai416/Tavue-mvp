@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "id": "msg_011ChPkceQub6n9bukh6kXVZ",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "```json\n{\n  \"verdict\": \"reject\",\n  \"canonical_name\": null,\n  \"evidence_quote\": null,\n  \"checks\": {\n    \"identity\": false,\n    \"quality\": true,\n    \"photograph\": true,\n    \"phone\": true,\n    \"variant_preserved\": false\n  },\n  \"scores\": {\n    \"sharpness\": 4,\n    \"lighting\": 3,\n    \"composition\": 4,\n    \"appeal\": 3\n  },\n  \"visible_support\": [],\n  \"phone_observations\": [\n    \"Thumbnail shows a delicatessen or charcuterie shop interior, not a finished dish\",\n    \"Hanging cured meats visible but not plated or presented as food to eat\",\n    \"Shop display with retail products and jars on counter\",\n    \"Merchandise arrangement, not a culinary composition\"\n  ],\n  \"protein_evidence\": {},\n  \"uncertainties\": [],\n  \"reason\": \"Image is a shop/retail display scene, not a finished prepared dish suitable for food photography review. The source description 'Salaison de montagne' refers to mountain cured meats—a product category displayed in a delicatessen—not a plated or presented dish. The thumbnail and full source both show commercial shop inventory and storage, not food prepared or presented for consumption. This violates the requirement for 'a finished, exposed, likely photographic dish' with 'prominent' and 'appetising' presentation. Reject as non-dish content.\"\n}\n```"
+    }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 1742,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 356,
+    "service_tier": "standard",
+    "inference_geo": "not_available",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}
